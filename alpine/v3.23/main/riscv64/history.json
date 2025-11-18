@@ -54342,21 +54342,23 @@
     "py3-certifi": {
       "origin": "py3-certifi",
       "versions": {
-        "2025.10.5-r0": 1760256229
+        "2025.10.5-r0": 1760256229,
+        "2025.11.12-r0": 1763497744
       },
       "dependencies": [
         "ca-certificates-bundle",
         "python3~3.12"
       ],
       "provides": [
-        "py-certifi=2025.10.5-r0",
-        "py3.12:certifi=2025.10.5-r0"
+        "py-certifi=2025.11.12-r0",
+        "py3.12:certifi=2025.11.12-r0"
       ]
     },
     "py3-certifi-pyc": {
       "origin": "py3-certifi",
       "versions": {
-        "2025.10.5-r0": 1760256229
+        "2025.10.5-r0": 1760256229,
+        "2025.11.12-r0": 1763497744
       },
       "dependencies": [
         "python3~3.12"
@@ -54456,24 +54458,26 @@
     "py3-coverage": {
       "origin": "py3-coverage",
       "versions": {
-        "7.11.0-r0": 1760811174
+        "7.11.0-r0": 1760811174,
+        "7.12.0-r0": 1763497744
       },
       "dependencies": [
         "python3~3.12",
         "so:libc.musl-riscv64.so.1"
       ],
       "provides": [
-        "py-coverage=7.11.0-r0",
-        "cmd:coverage-3.12=7.11.0-r0",
-        "cmd:coverage3=7.11.0-r0",
-        "cmd:coverage=7.11.0-r0",
-        "py3.12:coverage=7.11.0-r0"
+        "py-coverage=7.12.0-r0",
+        "cmd:coverage-3.12=7.12.0-r0",
+        "cmd:coverage3=7.12.0-r0",
+        "cmd:coverage=7.12.0-r0",
+        "py3.12:coverage=7.12.0-r0"
       ]
     },
     "py3-coverage-pyc": {
       "origin": "py3-coverage",
       "versions": {
-        "7.11.0-r0": 1760811174
+        "7.11.0-r0": 1760811174,
+        "7.12.0-r0": 1763497744
       },
       "dependencies": [
         "python3~3.12"
@@ -72865,7 +72869,7 @@
       },
       "py-certifi": {
         "package": "py3-certifi",
-        "version": "2025.10.5-r0"
+        "version": "2025.11.12-r0"
       },
       "py-cffi": {
         "package": "py3-cffi",
@@ -72881,7 +72885,7 @@
       },
       "py-coverage": {
         "package": "py3-coverage",
-        "version": "7.11.0-r0"
+        "version": "7.12.0-r0"
       },
       "py-cparser": {
         "package": "py3-cparser",
