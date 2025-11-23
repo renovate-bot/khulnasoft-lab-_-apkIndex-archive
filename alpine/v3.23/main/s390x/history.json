@@ -6631,7 +6631,8 @@
     "bluez": {
       "origin": "bluez",
       "versions": {
-        "5.84-r0": 1758710485
+        "5.84-r0": 1758710485,
+        "5.85-r0": 1763894266
       },
       "dependencies": [
         "dbus",
@@ -6643,24 +6644,25 @@
         "so:libudev.so.1"
       ],
       "provides": [
-        "cmd:bluemoon=5.84-r0",
-        "cmd:bluetoothctl=5.84-r0",
-        "cmd:bluez-simple-agent=5.84-r0",
-        "cmd:btattach=5.84-r0",
-        "cmd:hex2hcd=5.84-r0",
-        "cmd:isotest=5.84-r0",
-        "cmd:l2ping=5.84-r0",
-        "cmd:l2test=5.84-r0",
-        "cmd:mesh-cfgclient=5.84-r0",
-        "cmd:mesh-cfgtest=5.84-r0",
-        "cmd:mpris-proxy=5.84-r0",
-        "cmd:rctest=5.84-r0"
+        "cmd:bluemoon=5.85-r0",
+        "cmd:bluetoothctl=5.85-r0",
+        "cmd:bluez-simple-agent=5.85-r0",
+        "cmd:btattach=5.85-r0",
+        "cmd:hex2hcd=5.85-r0",
+        "cmd:isotest=5.85-r0",
+        "cmd:l2ping=5.85-r0",
+        "cmd:l2test=5.85-r0",
+        "cmd:mesh-cfgclient=5.85-r0",
+        "cmd:mesh-cfgtest=5.85-r0",
+        "cmd:mpris-proxy=5.85-r0",
+        "cmd:rctest=5.85-r0"
       ]
     },
     "bluez-btmgmt": {
       "origin": "bluez",
       "versions": {
-        "5.84-r0": 1758710485
+        "5.84-r0": 1758710485,
+        "5.85-r0": 1763894266
       },
       "dependencies": [
         "dbus",
@@ -6668,13 +6670,14 @@
         "so:libreadline.so.8"
       ],
       "provides": [
-        "cmd:btmgmt=5.84-r0"
+        "cmd:btmgmt=5.85-r0"
       ]
     },
     "bluez-btmon": {
       "origin": "bluez",
       "versions": {
-        "5.84-r0": 1758710485
+        "5.84-r0": 1758710485,
+        "5.85-r0": 1763894266
       },
       "dependencies": [
         "dbus",
@@ -6683,13 +6686,14 @@
         "so:libudev.so.1"
       ],
       "provides": [
-        "cmd:btmon=5.84-r0"
+        "cmd:btmon=5.85-r0"
       ]
     },
     "bluez-cups": {
       "origin": "bluez",
       "versions": {
-        "5.84-r0": 1758710485
+        "5.84-r0": 1758710485,
+        "5.85-r0": 1763894266
       },
       "dependencies": [
         "dbus",
@@ -6701,33 +6705,35 @@
     "bluez-dbg": {
       "origin": "bluez",
       "versions": {
-        "5.84-r0": 1758710485
+        "5.84-r0": 1758710485,
+        "5.85-r0": 1763894266
       },
       "dependencies": [
-        "!bluez-btmgmt<5.84-r0",
-        "!bluez-btmgmt>5.84-r0",
-        "!bluez-btmon<5.84-r0",
-        "!bluez-btmon>5.84-r0",
-        "!bluez-cups<5.84-r0",
-        "!bluez-cups>5.84-r0",
-        "!bluez-deprecated<5.84-r0",
-        "!bluez-deprecated>5.84-r0",
-        "!bluez-hid2hci<5.84-r0",
-        "!bluez-hid2hci>5.84-r0",
-        "!bluez-libs<5.84-r0",
-        "!bluez-libs>5.84-r0",
-        "!bluez-meshctl<5.84-r0",
-        "!bluez-meshctl>5.84-r0",
-        "!bluez-obexd<5.84-r0",
-        "!bluez-obexd>5.84-r0",
-        "!bluez<5.84-r0",
-        "!bluez>5.84-r0"
+        "!bluez-btmgmt<5.85-r0",
+        "!bluez-btmgmt>5.85-r0",
+        "!bluez-btmon<5.85-r0",
+        "!bluez-btmon>5.85-r0",
+        "!bluez-cups<5.85-r0",
+        "!bluez-cups>5.85-r0",
+        "!bluez-deprecated<5.85-r0",
+        "!bluez-deprecated>5.85-r0",
+        "!bluez-hid2hci<5.85-r0",
+        "!bluez-hid2hci>5.85-r0",
+        "!bluez-libs<5.85-r0",
+        "!bluez-libs>5.85-r0",
+        "!bluez-meshctl<5.85-r0",
+        "!bluez-meshctl>5.85-r0",
+        "!bluez-obexd<5.85-r0",
+        "!bluez-obexd>5.85-r0",
+        "!bluez<5.85-r0",
+        "!bluez>5.85-r0"
       ]
     },
     "bluez-deprecated": {
       "origin": "bluez",
       "versions": {
-        "5.84-r0": 1758710485
+        "5.84-r0": 1758710485,
+        "5.85-r0": 1763894266
       },
       "dependencies": [
         "dbus",
@@ -6737,39 +6743,42 @@
         "so:libudev.so.1"
       ],
       "provides": [
-        "cmd:ciptool=5.84-r0",
-        "cmd:gatttool=5.84-r0",
-        "cmd:hciattach=5.84-r0",
-        "cmd:hciconfig=5.84-r0",
-        "cmd:hcidump=5.84-r0",
-        "cmd:hcitool=5.84-r0",
-        "cmd:rfcomm=5.84-r0",
-        "cmd:sdptool=5.84-r0"
+        "cmd:ciptool=5.85-r0",
+        "cmd:gatttool=5.85-r0",
+        "cmd:hciattach=5.85-r0",
+        "cmd:hciconfig=5.85-r0",
+        "cmd:hcidump=5.85-r0",
+        "cmd:hcitool=5.85-r0",
+        "cmd:rfcomm=5.85-r0",
+        "cmd:sdptool=5.85-r0"
       ]
     },
     "bluez-deprecated-openrc": {
       "origin": "bluez",
       "versions": {
-        "5.84-r0": 1758710485
+        "5.84-r0": 1758710485,
+        "5.85-r0": 1763894266
       }
     },
     "bluez-dev": {
       "origin": "bluez",
       "versions": {
-        "5.84-r0": 1758710485
+        "5.84-r0": 1758710485,
+        "5.85-r0": 1763894266
       },
       "dependencies": [
-        "bluez-libs=5.84-r0",
+        "bluez-libs=5.85-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:bluez=5.84"
+        "pc:bluez=5.85"
       ]
     },
     "bluez-doc": {
       "origin": "bluez",
       "versions": {
-        "5.84-r0": 1758710485
+        "5.84-r0": 1758710485,
+        "5.85-r0": 1763894266
       }
     },
     "bluez-firmware": {
@@ -6781,7 +6790,8 @@
     "bluez-headers": {
       "origin": "bluez-headers",
       "versions": {
-        "5.84-r0": 1758710485
+        "5.84-r0": 1758710485,
+        "5.85-r0": 1763894266
       },
       "dependencies": [
         "!bluez-dev"
@@ -6790,7 +6800,8 @@
     "bluez-hid2hci": {
       "origin": "bluez",
       "versions": {
-        "5.84-r0": 1758710485
+        "5.84-r0": 1758710485,
+        "5.85-r0": 1763894266
       },
       "dependencies": [
         "dbus",
@@ -6801,7 +6812,8 @@
     "bluez-libs": {
       "origin": "bluez",
       "versions": {
-        "5.84-r0": 1758710485
+        "5.84-r0": 1758710485,
+        "5.85-r0": 1763894266
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
@@ -6813,7 +6825,8 @@
     "bluez-meshctl": {
       "origin": "bluez",
       "versions": {
-        "5.84-r0": 1758710485
+        "5.84-r0": 1758710485,
+        "5.85-r0": 1763894266
       },
       "dependencies": [
         "dbus",
@@ -6824,13 +6837,14 @@
         "so:libreadline.so.8"
       ],
       "provides": [
-        "cmd:meshctl=5.84-r0"
+        "cmd:meshctl=5.85-r0"
       ]
     },
     "bluez-obexd": {
       "origin": "bluez",
       "versions": {
-        "5.84-r0": 1758710485
+        "5.84-r0": 1758710485,
+        "5.85-r0": 1763894266
       },
       "dependencies": [
         "dbus",
@@ -6846,13 +6860,15 @@
     "bluez-openrc": {
       "origin": "bluez",
       "versions": {
-        "5.84-r0": 1758710485
+        "5.84-r0": 1758710485,
+        "5.85-r0": 1763894266
       }
     },
     "bluez-zsh-completion": {
       "origin": "bluez",
       "versions": {
-        "5.84-r0": 1758710485
+        "5.84-r0": 1758710485,
+        "5.85-r0": 1763894266
       }
     },
     "bmd-tools": {
@@ -27747,49 +27763,54 @@
     "libpng": {
       "origin": "libpng",
       "versions": {
-        "1.6.49-r0": 1750025848
+        "1.6.49-r0": 1750025848,
+        "1.6.51-r0": 1763886377
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libpng16.so.16=16.49.0"
+        "so:libpng16.so.16=16.51.0"
       ]
     },
     "libpng-dev": {
       "origin": "libpng",
       "versions": {
-        "1.6.49-r0": 1750025848
+        "1.6.49-r0": 1750025848,
+        "1.6.51-r0": 1763886377
       },
       "dependencies": [
-        "libpng=1.6.49-r0",
+        "libpng=1.6.51-r0",
         "pc:zlib",
         "pkgconfig"
       ],
       "provides": [
-        "cmd:libpng-config=1.6.49-r0",
-        "cmd:libpng16-config=1.6.49-r0",
-        "pc:libpng16=1.6.49",
-        "pc:libpng=1.6.49"
+        "cmd:libpng-config=1.6.51-r0",
+        "cmd:libpng16-config=1.6.51-r0",
+        "pc:libpng16=1.6.51",
+        "pc:libpng=1.6.51"
       ]
     },
     "libpng-doc": {
       "origin": "libpng",
       "versions": {
-        "1.6.49-r0": 1750025848
+        "1.6.49-r0": 1750025848,
+        "1.6.51-r0": 1763886377
       }
     },
     "libpng-static": {
       "origin": "libpng",
       "versions": {
-        "1.6.49-r0": 1750025848
+        "1.6.49-r0": 1750025848,
+        "1.6.51-r0": 1763886377
       }
     },
     "libpng-utils": {
       "origin": "libpng",
       "versions": {
-        "1.6.49-r0": 1750025848
+        "1.6.49-r0": 1750025848,
+        "1.6.51-r0": 1763886377
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -27797,8 +27818,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:png-fix-itxt=1.6.49-r0",
-        "cmd:pngfix=1.6.49-r0"
+        "cmd:png-fix-itxt=1.6.51-r0",
+        "cmd:pngfix=1.6.51-r0"
       ]
     },
     "libportaudiocxx": {
@@ -76638,7 +76659,7 @@
       },
       "libpng16.so.16": {
         "package": "libpng",
-        "version": "16.49.0"
+        "version": "16.51.0"
       },
       "libportaudiocpp.so.0": {
         "package": "libportaudiocxx",
