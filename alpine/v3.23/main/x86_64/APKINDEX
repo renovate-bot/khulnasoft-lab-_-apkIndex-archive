@@ -1746,36 +1746,36 @@ c:68b166903c9439e617b4208635153c7a647dc9f0
 D:so:libabsl_base.so.2508.0.0 so:libabsl_log_internal_fnmatch.so.2508.0.0 so:libabsl_strings.so.2508.0.0 so:libabsl_synchronization.so.2508.0.0 so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 p:so:libabsl_vlog_config_internal.so.2508.0.0=2508.0.0
 
-C:Q13/VWs9gpAycmD8MyWvpS2rsn8OQ=
+C:Q1F2jhXSpq9qMKxyABdwBY6Zsi44A=
 P:abuild
-V:3.16.0_rc4-r0
+V:3.16.0-r0
 A:x86_64
-S:81265
-I:272906
+S:81250
+I:272876
 T:Script to build Alpine Packages
 U:https://gitlab.alpinelinux.org/alpine/abuild/
 L:GPL-2.0-only
 o:abuild
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1760475680
-c:e97f1fb45b3e1e3b30d7a75d9893384435fa4e91
+t:1764715451
+c:b8e5f261d18f0f9565d0bb3cae927d0b463d1dd6
 D:apk-tools>=3.0.0_rc4 cmd:getcap fakeroot musl-utils lzip openssl>3 patch pkgconf scanelf tar /bin/sh so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libz.so.1
-p:cmd:abuild-fetch=3.16.0_rc4-r0 cmd:abuild-gzsplit=3.16.0_rc4-r0 cmd:abuild-keygen=3.16.0_rc4-r0 cmd:abuild-rmtemp=3.16.0_rc4-r0 cmd:abuild-sign=3.16.0_rc4-r0 cmd:abuild-tar=3.16.0_rc4-r0 cmd:abuild=3.16.0_rc4-r0 cmd:abump=3.16.0_rc4-r0 cmd:apkgrel=3.16.0_rc4-r0 cmd:buildlab=3.16.0_rc4-r0 cmd:checkapk=3.16.0_rc4-r0 cmd:newapkbuild=3.16.0_rc4-r0
+p:cmd:abuild-fetch=3.16.0-r0 cmd:abuild-gzsplit=3.16.0-r0 cmd:abuild-keygen=3.16.0-r0 cmd:abuild-rmtemp=3.16.0-r0 cmd:abuild-sign=3.16.0-r0 cmd:abuild-tar=3.16.0-r0 cmd:abuild=3.16.0-r0 cmd:abump=3.16.0-r0 cmd:apkgrel=3.16.0-r0 cmd:buildlab=3.16.0-r0 cmd:checkapk=3.16.0-r0 cmd:newapkbuild=3.16.0-r0
 
-C:Q18EZYOyIrRht5bDsX/km0Dzc2s9o=
+C:Q13gdk7AW27vsjaXIlk9D9egAAfcc=
 P:abuild-doc
-V:3.16.0_rc4-r0
+V:3.16.0-r0
 A:x86_64
-S:14479
-I:12330
+S:14485
+I:12331
 T:Script to build Alpine Packages (documentation)
 U:https://gitlab.alpinelinux.org/alpine/abuild/
 L:GPL-2.0-only
 o:abuild
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1760475680
-c:e97f1fb45b3e1e3b30d7a75d9893384435fa4e91
-i:docs abuild=3.16.0_rc4-r0
+t:1764715451
+c:b8e5f261d18f0f9565d0bb3cae927d0b463d1dd6
+i:docs abuild=3.16.0-r0
 
 C:Q1QFqo9cYV19aMcP/+RYSVLiajclI=
 P:abuild-meson
@@ -1811,37 +1811,37 @@ D:cmd:muon=0.5.0-r0 abuild
 p:cmd:abuild-muon=0.5.0-r0
 i:cmd:muon=0.5.0-r0 abuild
 
-C:Q1A8JloxZvxZuHTSG+Cv5WfSau0EE=
+C:Q1BVWS2eSSvDZFN/HzLsDVPMzlgf8=
 P:abuild-rootbld
-V:3.16.0_rc4-r0
+V:3.16.0-r0
 A:x86_64
-S:1288
+S:1293
 I:0
 T:Build packages in chroot
 U:https://gitlab.alpinelinux.org/alpine/abuild/
 L:GPL-2.0-only
 o:abuild
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1760475680
-c:e97f1fb45b3e1e3b30d7a75d9893384435fa4e91
+t:1764715451
+c:b8e5f261d18f0f9565d0bb3cae927d0b463d1dd6
 D:abuild bubblewrap cmd:envsubst
 
-C:Q1dZqTjRz63BqqyRJcu9vHelUcTuo=
+C:Q11re/eQfHvA/aeNJh/Dtb0Q9RQMk=
 P:abuild-sudo
-V:3.16.0_rc4-r0
+V:3.16.0-r0
 A:x86_64
-S:4484
+S:4487
 I:14224
 T:Simple privilege elevation tools for building packages
 U:https://gitlab.alpinelinux.org/alpine/abuild/
 L:GPL-2.0-only
 o:abuild
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1760475680
-c:e97f1fb45b3e1e3b30d7a75d9893384435fa4e91
+t:1764715451
+c:b8e5f261d18f0f9565d0bb3cae927d0b463d1dd6
 D:so:libc.musl-x86_64.so.1
-p:cmd:abuild-addgroup=3.16.0_rc4-r0 cmd:abuild-adduser=3.16.0_rc4-r0 cmd:abuild-apk=3.16.0_rc4-r0 cmd:abuild-sudo=3.16.0_rc4-r0
-i:abuild=3.16.0_rc4-r0
+p:cmd:abuild-addgroup=3.16.0-r0 cmd:abuild-adduser=3.16.0-r0 cmd:abuild-apk=3.16.0-r0 cmd:abuild-sudo=3.16.0-r0
+i:abuild=3.16.0-r0
 
 C:Q1Vdkin5Pnij+R/uUGIUeMrq3H4cw=
 P:acct
@@ -4229,53 +4229,53 @@ t:1764596363
 c:c618479397903579661ce03429ce67ed37bb1f9b
 i:apk-tools=3.0.0-r0 zsh
 
-C:Q1oM90qeM89N7ZI2ZQmzaeyXJ/smY=
+C:Q1Pj/2jjqgNs/QBojkU92SKcuxqBo=
 P:apkbuild-cpan
-V:3.16.0_rc4-r0
+V:3.16.0-r0
 A:x86_64
-S:8158
+S:8155
 I:24875
 T:Script to generate perl APKBUILD from CPAN
 U:https://gitlab.alpinelinux.org/alpine/abuild/
 L:GPL-2.0-only
 o:abuild
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1760475680
-c:e97f1fb45b3e1e3b30d7a75d9893384435fa4e91
+t:1764715451
+c:b8e5f261d18f0f9565d0bb3cae927d0b463d1dd6
 D:perl perl-libwww perl-json perl-module-build perl-module-build-tiny perl-lwp-protocol-https
-p:cmd:apkbuild-cpan=3.16.0_rc4-r0
+p:cmd:apkbuild-cpan=3.16.0-r0
 
-C:Q1TCPOU4yu5M+THhhuiwHl+S7OtQE=
+C:Q1/wEJq+QjAmHAojlJmxI0vfVtt84=
 P:apkbuild-gem-resolver
-V:3.16.0_rc4-r0
+V:3.16.0-r0
 A:x86_64
-S:4267
+S:4272
 I:9025
 T:APKBUILD dependency resolver for RubyGems
 U:https://gitlab.alpinelinux.org/alpine/abuild/
 L:GPL-2.0-only
 o:abuild
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1760475680
-c:e97f1fb45b3e1e3b30d7a75d9893384435fa4e91
+t:1764715451
+c:b8e5f261d18f0f9565d0bb3cae927d0b463d1dd6
 D:ruby ruby-augeas
-p:cmd:apkbuild-gem-resolver=3.16.0_rc4-r0
+p:cmd:apkbuild-gem-resolver=3.16.0-r0
 
-C:Q1IAITXlJm4IhEJx7ORZtqEl2oRWg=
+C:Q1MkG8nirQw5rDq6sLty5symrL3i8=
 P:apkbuild-pypi
-V:3.16.0_rc4-r0
+V:3.16.0-r0
 A:x86_64
-S:5977
+S:5981
 I:15398
 T:Script to generate python3 APKBUILD from PYPI
 U:https://gitlab.alpinelinux.org/alpine/abuild/
 L:GPL-2.0-only
 o:abuild
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1760475680
-c:e97f1fb45b3e1e3b30d7a75d9893384435fa4e91
+t:1764715451
+c:b8e5f261d18f0f9565d0bb3cae927d0b463d1dd6
 D:perl perl-libwww perl-json perl-module-build-tiny perl-lwp-protocol-https perl-ipc-system-simple
-p:cmd:apkbuild-pypi=3.16.0_rc4-r0
+p:cmd:apkbuild-pypi=3.16.0-r0
 
 C:Q1oPmkTHIYZbsvOKiTCpCmpdRF9io=
 P:aports-build
