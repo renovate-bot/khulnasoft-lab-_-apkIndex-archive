@@ -3170,21 +3170,21 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1723638620
 c:6d473fb38effb2389f567b29fb7eb27039b3a279
 
-C:Q1Yv7oOZsC7ov5kaKqmKeaKF1/QWY=
+C:Q1D/lusTL/37xvxnC2yjXh1XDCUhQ=
 P:alpine-make-rootfs
-V:0.7.2-r0
+V:0.8.1-r0
 A:aarch64
-S:8533
-I:17920
+S:8530
+I:17921
 T:Make customized Alpine Linux rootfs (base image) for containers
 U:https://github.com/alpinelinux/alpine-make-rootfs
 L:MIT
 o:alpine-make-rootfs
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1736866879
-c:33db2b03c345df3a2502ecc6d0864c2871f4cee5
+t:1764935589
+c:cfd6e66172cc7413858dfb600589a91c2ffd27f4
 D:tar
-p:cmd:alpine-make-rootfs=0.7.2-r0
+p:cmd:alpine-make-rootfs=0.8.1-r0
 
 C:Q1tnSf4ir5RQlT9ch9+VaN47jU3tU=
 P:alpine-release
@@ -3645,87 +3645,87 @@ t:1726089785
 c:a46c4c311972c661eed2231de8dd00fdbe171307
 i:docs apache-mod-fcgid=2.3.9-r6
 
-C:Q1jZfztsEVxzASmhdFiazjEOUdJwk=
+C:Q1SjziCzio4Zd4Zk8AMF/WjzWfE54=
 P:apache2
-V:2.4.65-r0
+V:2.4.66-r0
 A:aarch64
-S:907089
-I:6732423
+S:907800
+I:6732605
 T:A high performance Unix-based HTTP server
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1753640454
-c:f0b0846d70b0b9a79075079b30b12aa885bb9477
+t:1765127802
+c:a6fcfd660101f4042a93cd1d34a32c84bb5277c2
 D:/bin/sh so:libapr-1.so.0 so:libaprutil-1.so.0 so:libc.musl-aarch64.so.1 so:libpcre2-8.so.0 so:libz.so.1
-p:cmd:fcgistarter=2.4.65-r0 cmd:httpd=2.4.65-r0 cmd:suexec=2.4.65-r0
+p:cmd:fcgistarter=2.4.66-r0 cmd:httpd=2.4.66-r0 cmd:suexec=2.4.66-r0
 
-C:Q1pn4Sspy7oPa3ZPzeBdOWoT0E770=
+C:Q1Lv7CwWiOjbaor55oTkDUka3MKGE=
 P:apache2-brotli
-V:2.4.65-r0
+V:2.4.66-r0
 A:aarch64
-S:7381
+S:7384
 I:67479
 T:Brotli content compression for the Apache HTTP Server
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1753640454
-c:f0b0846d70b0b9a79075079b30b12aa885bb9477
+t:1765127802
+c:a6fcfd660101f4042a93cd1d34a32c84bb5277c2
 D:apache2 so:libbrotlienc.so.1 so:libc.musl-aarch64.so.1
 
-C:Q1jfC8+g6LwNJFqe0njK9/KvGpGis=
+C:Q1vKOI9TTCYUZR2BbSgRHHhoY7Tsc=
 P:apache2-ctl
-V:2.4.65-r0
+V:2.4.66-r0
 A:aarch64
-S:3087
+S:3093
 I:3398
 T:Apache control script
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1753640454
-c:f0b0846d70b0b9a79075079b30b12aa885bb9477
+t:1765127802
+c:a6fcfd660101f4042a93cd1d34a32c84bb5277c2
 D:lynx
-p:cmd:apachectl=2.4.65-r0
+p:cmd:apachectl=2.4.66-r0
 
-C:Q18MDUrpNPgt/gLFKNP3Is5toshAI=
+C:Q1lrUyvZs6tcWbvNYq/QmvfW4CWiI=
 P:apache2-dev
-V:2.4.65-r0
+V:2.4.66-r0
 A:aarch64
-S:218630
-I:907868
+S:218831
+I:908518
 T:A high performance Unix-based HTTP server (development files)
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1753640454
-c:f0b0846d70b0b9a79075079b30b12aa885bb9477
+t:1765127802
+c:a6fcfd660101f4042a93cd1d34a32c84bb5277c2
 D:perl apr-util-dev
-p:cmd:apxs=2.4.65-r0
+p:cmd:apxs=2.4.66-r0
 
-C:Q10SanIz++oWDxfB5rSvxMJ8AtrfM=
+C:Q1mdmOPA8AfQ7yPwGQ1uRgtTAp5R4=
 P:apache2-doc
-V:2.4.65-r0
+V:2.4.66-r0
 A:aarch64
-S:5735070
-I:22948729
+S:5745893
+I:22991780
 T:A high performance Unix-based HTTP server (documentation)
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1753640454
-c:f0b0846d70b0b9a79075079b30b12aa885bb9477
-i:docs apache2=2.4.65-r0
+t:1765127802
+c:a6fcfd660101f4042a93cd1d34a32c84bb5277c2
+i:docs apache2=2.4.66-r0
 
-C:Q1I14imX6aPvFheqoGHqyd7iyi1Q0=
+C:Q1wALgsKMC8gZq5ue+9J/lZ9aszJE=
 P:apache2-error
-V:2.4.65-r0
+V:2.4.66-r0
 A:aarch64
 S:42988
 I:200216
@@ -3734,66 +3734,66 @@ U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1753640454
-c:f0b0846d70b0b9a79075079b30b12aa885bb9477
+t:1765127802
+c:a6fcfd660101f4042a93cd1d34a32c84bb5277c2
 
-C:Q1AtmpmaikKUUvg8+zMLtLUlXmLwA=
+C:Q1NJf+OMaeFtrrOiJJzPjH7OBFlMQ=
 P:apache2-http2
-V:2.4.65-r0
+V:2.4.66-r0
 A:aarch64
-S:92740
-I:265813
+S:93137
+I:265821
 T:HTTP/2 transport layer for the Apache HTTP Server
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1753640454
-c:f0b0846d70b0b9a79075079b30b12aa885bb9477
+t:1765127802
+c:a6fcfd660101f4042a93cd1d34a32c84bb5277c2
 D:apache2 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libnghttp2.so.14
 
-C:Q1PmdAaU2fRuChsdzwbkmoaOe6uLk=
+C:Q1VXyWppee0uuv4A/F/9SjOSRUw0g=
 P:apache2-icons
-V:2.4.65-r0
+V:2.4.66-r0
 A:aarch64
-S:153555
+S:153572
 I:437350
 T:Apache Public Domain Icons
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1753640454
-c:f0b0846d70b0b9a79075079b30b12aa885bb9477
+t:1765127802
+c:a6fcfd660101f4042a93cd1d34a32c84bb5277c2
 
-C:Q1OY3ixYR3Zkzpd2KJAQT7JwO5e/g=
+C:Q1rVpEbqawTeYsPMG6iRLywyCzsSY=
 P:apache2-ldap
-V:2.4.65-r0
+V:2.4.66-r0
 A:aarch64
-S:44090
+S:44119
 I:200828
 T:LDAP authentication/authorization module for the Apache HTTP Server
 U:https://httpd.apache.org/docs/2.4/mod/mod_authnz_ldap.html
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1753640454
-c:f0b0846d70b0b9a79075079b30b12aa885bb9477
+t:1765127802
+c:a6fcfd660101f4042a93cd1d34a32c84bb5277c2
 D:apache2 apr-util-ldap so:libc.musl-aarch64.so.1 so:liblber.so.2 so:libldap.so.2
 
-C:Q1emnjX9ji58cpa/6Hc1bM/VYx19E=
+C:Q122M8QA+Yh/2HSLt3gGGjxj4+J2U=
 P:apache2-lua
-V:2.4.65-r0
+V:2.4.66-r0
 A:aarch64
-S:45161
+S:45171
 I:133009
 T:Lua support for the Apache HTTP server
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1753640454
-c:f0b0846d70b0b9a79075079b30b12aa885bb9477
+t:1765127802
+c:a6fcfd660101f4042a93cd1d34a32c84bb5277c2
 D:apache2 so:libc.musl-aarch64.so.1 so:liblua.so.5
 
 C:Q1zq/HMie1kkcO7U+5R3sYI8eTzEM=
@@ -3826,95 +3826,95 @@ t:1727810909
 c:806040beab6435948b59912e31369f18b55dc751
 i:docs apache2-mod-wsgi=5.0.1-r0
 
-C:Q1hr7iAWUU6LWNUIAKlWMXyFG5tUA=
+C:Q1hrz5PuguW2pyz2N/XYO3lnFMVdc=
 P:apache2-openrc
-V:2.4.65-r0
+V:2.4.66-r0
 A:aarch64
-S:3645
+S:3644
 I:5095
 T:A high performance Unix-based HTTP server (OpenRC init scripts)
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1753640454
-c:f0b0846d70b0b9a79075079b30b12aa885bb9477
-i:openrc apache2=2.4.65-r0
+t:1765127802
+c:a6fcfd660101f4042a93cd1d34a32c84bb5277c2
+i:openrc apache2=2.4.66-r0
 
-C:Q1zmVtJxbkIue2U76GsnZ/IHoHKxE=
+C:Q1fyY/X1/9zm4sa1ePrjjzKEnwZNY=
 P:apache2-proxy
-V:2.4.65-r0
+V:2.4.66-r0
 A:aarch64
-S:196234
+S:196332
 I:1279143
 T:Proxy modules for the Apache HTTP Server
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1753640454
-c:f0b0846d70b0b9a79075079b30b12aa885bb9477
+t:1765127802
+c:a6fcfd660101f4042a93cd1d34a32c84bb5277c2
 D:apache2 so:libc.musl-aarch64.so.1
 
-C:Q15s9MsvpVMEpxAKVnQiWsAmZ/plw=
+C:Q1c/Zu6arBk4z3GCZsHAzEn9LmQX0=
 P:apache2-proxy-html
-V:2.4.65-r0
+V:2.4.66-r0
 A:aarch64
-S:23976
+S:23977
 I:138341
 T:HTML and XML content filters for the Apache HTTP Server
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1753640454
-c:f0b0846d70b0b9a79075079b30b12aa885bb9477
+t:1765127802
+c:a6fcfd660101f4042a93cd1d34a32c84bb5277c2
 D:apache2 so:libc.musl-aarch64.so.1 so:libxml2.so.2
 
-C:Q1ffF0OAPd6E/jZGIV8No8BtnTnOM=
+C:Q1thPPzMVg1t7jsvk7gkDNfrSohSw=
 P:apache2-ssl
-V:2.4.65-r0
+V:2.4.66-r0
 A:aarch64
-S:90794
+S:91693
 I:277561
 T:SSL/TLS module for the Apache HTTP Server
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1753640454
-c:f0b0846d70b0b9a79075079b30b12aa885bb9477
+t:1765127802
+c:a6fcfd660101f4042a93cd1d34a32c84bb5277c2
 D:apache2 openssl>3 /bin/sh so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libssl.so.3
 
-C:Q1SSNG5rR2ghH7FScyzEX8aL84N04=
+C:Q1r9iniDVjR4j3botnpRcBkXNJi9Y=
 P:apache2-utils
-V:2.4.65-r0
+V:2.4.66-r0
 A:aarch64
-S:73999
+S:74011
 I:617156
 T:Apache utility programs for webservers
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1753640454
-c:f0b0846d70b0b9a79075079b30b12aa885bb9477
+t:1765127802
+c:a6fcfd660101f4042a93cd1d34a32c84bb5277c2
 D:so:libapr-1.so.0 so:libaprutil-1.so.0 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libssl.so.3
-p:cmd:ab=2.4.65-r0 cmd:checkgid=2.4.65-r0 cmd:dbmmanage=2.4.65-r0 cmd:htcacheclean=2.4.65-r0 cmd:htdbm=2.4.65-r0 cmd:htdigest=2.4.65-r0 cmd:htpasswd=2.4.65-r0 cmd:httxt2dbm=2.4.65-r0 cmd:logresolve=2.4.65-r0 cmd:rotatelogs=2.4.65-r0
+p:cmd:ab=2.4.66-r0 cmd:checkgid=2.4.66-r0 cmd:dbmmanage=2.4.66-r0 cmd:htcacheclean=2.4.66-r0 cmd:htdbm=2.4.66-r0 cmd:htdigest=2.4.66-r0 cmd:htpasswd=2.4.66-r0 cmd:httxt2dbm=2.4.66-r0 cmd:logresolve=2.4.66-r0 cmd:rotatelogs=2.4.66-r0
 
-C:Q1NGTzDH1OBaGFYiXEN08tl9TEzQk=
+C:Q1uX3U3P3FQ8GGzLFj/IDCCFhObSo=
 P:apache2-webdav
-V:2.4.65-r0
+V:2.4.66-r0
 A:aarch64
-S:72342
+S:72352
 I:269858
 T:WebDAV support for the Apache HTTP Server
 U:https://httpd.apache.org/
 L:Apache-2.0
 o:apache2
 m:Kaarle Ritvanen <kunkku@alpinelinux.org>
-t:1753640454
-c:f0b0846d70b0b9a79075079b30b12aa885bb9477
+t:1765127802
+c:a6fcfd660101f4042a93cd1d34a32c84bb5277c2
 D:apache2 so:libc.musl-aarch64.so.1
 
 C:Q1RzJKwZGVrsuPWOQ6psoCfe64o94=
@@ -38044,50 +38044,50 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1744877667
 c:7aeec83f1c6bf21c453a05debb215f927eaf5dd2
 
-C:Q12GoWqHapbJSpF5XBiSaX1KkMX20=
+C:Q1vVH8SfjXe9O+BGTYW15frV5vohA=
 P:linux-lts
-V:6.12.59-r0
+V:6.12.60-r0
 A:aarch64
-S:104806127
-I:149231364
+S:105048530
+I:149468554
 T:Linux lts kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1764079749
-c:3eb20d626f06ccd2b59fdbeded5e45b9ad23572f
+t:1764659334
+c:c7d7ddc77366446f69eabdc8c3607c313e50ad74
 D:initramfs-generator linux-firmware-any
 
-C:Q10Uux9eFqXkfG69QS+pK6C++jonk=
+C:Q1W2YvuPxMODR+IhYxW8BnVMu8BWE=
 P:linux-lts-dev
-V:6.12.59-r0
+V:6.12.60-r0
 A:aarch64
-S:18815583
-I:72702505
+S:18815259
+I:72703076
 T:Headers and script for third party modules for lts kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1764079749
-c:3eb20d626f06ccd2b59fdbeded5e45b9ad23572f
+t:1764659334
+c:c7d7ddc77366446f69eabdc8c3607c313e50ad74
 D:perl gmp-dev mpc1-dev mpfr-dev elfutils-dev bash flex bison zstd so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libelf.so.1 so:libstdc++.so.6 so:libz.so.1
 
-C:Q1+bmulI45VjOQUx+hpC2NueMkxC4=
+C:Q1fFQ7meRX3kviEULWjQNwScu/gtc=
 P:linux-lts-doc
-V:6.12.59-r0
+V:6.12.60-r0
 A:aarch64
-S:13568404
-I:49477536
+S:13568356
+I:49477602
 T:Linux lts kernel (documentation)
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1764079749
-c:3eb20d626f06ccd2b59fdbeded5e45b9ad23572f
-i:docs linux-lts=6.12.59-r0
+t:1764659334
+c:c7d7ddc77366446f69eabdc8c3607c313e50ad74
+i:docs linux-lts=6.12.60-r0
 
 C:Q1+cGSe7V8hYpVadOOpu+EGeiFZYY=
 P:linux-pam
@@ -38182,34 +38182,34 @@ c:1c6659ff5d7960d7d0a4c965fcd92c560449ab8d
 D:perl gmp-dev elfutils-dev bash mpc1-dev mpfr-dev so:libc.musl-aarch64.so.1
 p:linux-rpi4-dev=6.12.51-r0
 
-C:Q1UkgyeiItlKJR6kXRYwOy0JTLnxk=
+C:Q1FAh2OI44A29r4tgGIZdhUVjmbUE=
 P:linux-virt
-V:6.12.59-r0
+V:6.12.60-r0
 A:aarch64
-S:36269499
-I:57701324
+S:36268711
+I:57701834
 T:Linux lts kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1764079749
-c:3eb20d626f06ccd2b59fdbeded5e45b9ad23572f
+t:1764659334
+c:c7d7ddc77366446f69eabdc8c3607c313e50ad74
 D:initramfs-generator
 
-C:Q1OOjQhHytGbbTlDjy09kBG9jLfcA=
+C:Q1arCAzHWGr2F2FqDUfzSLsMRKtGY=
 P:linux-virt-dev
-V:6.12.59-r0
+V:6.12.60-r0
 A:aarch64
-S:18453486
-I:71331319
+S:18453589
+I:71331707
 T:Headers and script for third party modules for virt kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1764079749
-c:3eb20d626f06ccd2b59fdbeded5e45b9ad23572f
+t:1764659334
+c:c7d7ddc77366446f69eabdc8c3607c313e50ad74
 D:perl gmp-dev mpc1-dev mpfr-dev elfutils-dev bash flex bison zstd so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libelf.so.1 so:libstdc++.so.6 so:libz.so.1
 
 C:Q1/+pV5cv0Jj5mj0oaT1vyYT/YCF4=
@@ -67282,56 +67282,56 @@ c:8bac74716d06c84627ab02d101fd9d2bafd0a34c
 D:libportaudiocxx=19.7.0-r2 pc:alsa pkgconfig portaudio=19.7.0-r2
 p:pc:portaudio-2.0=19 pc:portaudiocpp=12
 
-C:Q1zZhfE20x0tSxrBEME/LLL9fC1EQ=
+C:Q1z7/WPSujQpiVAf8V+q1KlhUBEk0=
 P:postfix
-V:3.10.6-r0
+V:3.10.7-r0
 A:aarch64
-S:922750
+S:922696
 I:4331291
 T:Secure and fast drop-in replacement for Sendmail (MTA)
 U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1764142907
-c:c9707f079fc84ea707fc2b870d166715b46431a6
+t:1765009551
+c:96a9acdbf849d788a31f2935c29b77f101fb63d7
 D:/bin/sh so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libicuuc.so.76 so:liblmdb.so.0 so:libsasl2.so.3 so:libssl.so.3
-p:so:libpostfix-dns.so=0 so:libpostfix-global.so=0 so:libpostfix-master.so=0 so:libpostfix-tls.so=0 so:libpostfix-util.so=0 so:postfix-lmdb.so=0 cmd:mailq=3.10.6-r0 cmd:newaliases=3.10.6-r0 cmd:postalias=3.10.6-r0 cmd:postcat=3.10.6-r0 cmd:postconf=3.10.6-r0 cmd:postdrop=3.10.6-r0 cmd:postfix=3.10.6-r0 cmd:postkick=3.10.6-r0 cmd:postlock=3.10.6-r0 cmd:postlog=3.10.6-r0 cmd:postmap=3.10.6-r0 cmd:postmulti=3.10.6-r0 cmd:postqueue=3.10.6-r0 cmd:postsuper=3.10.6-r0 cmd:qshape.pl=3.10.6-r0 cmd:sendmail=3.10.6-r0
+p:so:libpostfix-dns.so=0 so:libpostfix-global.so=0 so:libpostfix-master.so=0 so:libpostfix-tls.so=0 so:libpostfix-util.so=0 so:postfix-lmdb.so=0 cmd:mailq=3.10.7-r0 cmd:newaliases=3.10.7-r0 cmd:postalias=3.10.7-r0 cmd:postcat=3.10.7-r0 cmd:postconf=3.10.7-r0 cmd:postdrop=3.10.7-r0 cmd:postfix=3.10.7-r0 cmd:postkick=3.10.7-r0 cmd:postlock=3.10.7-r0 cmd:postlog=3.10.7-r0 cmd:postmap=3.10.7-r0 cmd:postmulti=3.10.7-r0 cmd:postqueue=3.10.7-r0 cmd:postsuper=3.10.7-r0 cmd:qshape.pl=3.10.7-r0 cmd:sendmail=3.10.7-r0
 
-C:Q1yOusWkDzRG/jjr7AeJFJB5h9hhY=
+C:Q1DVBndjyf080ckKYeyaBvccoQyvs=
 P:postfix-doc
-V:3.10.6-r0
+V:3.10.7-r0
 A:aarch64
-S:788971
+S:788970
 I:1755871
 T:Secure and fast drop-in replacement for Sendmail (MTA) (documentation)
 U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1764142907
-c:c9707f079fc84ea707fc2b870d166715b46431a6
-i:docs postfix=3.10.6-r0
+t:1765009551
+c:96a9acdbf849d788a31f2935c29b77f101fb63d7
+i:docs postfix=3.10.7-r0
 
-C:Q1CssVOv3IGj8bd2Jus+jgz/5EUzw=
+C:Q1GvYvJG51m0AxXcm5furku0lWA1M=
 P:postfix-ldap
-V:3.10.6-r0
+V:3.10.7-r0
 A:aarch64
-S:13663
+S:13669
 I:67436
 T:ldap map support for postfix
 U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1764142907
-c:c9707f079fc84ea707fc2b870d166715b46431a6
+t:1765009551
+c:96a9acdbf849d788a31f2935c29b77f101fb63d7
 D:so:libc.musl-aarch64.so.1 so:liblber.so.2 so:libldap.so.2
 p:so:postfix-ldap.so=0
 
-C:Q1vpAF9hZjFiZqmyUEU6+xjPXXnVw=
+C:Q1LX7IgmqQWNuJDL1KTnnz8P4Nrm8=
 P:postfix-mysql
-V:3.10.6-r0
+V:3.10.7-r0
 A:aarch64
 S:8436
 I:67359
@@ -67340,55 +67340,55 @@ U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1764142907
-c:c9707f079fc84ea707fc2b870d166715b46431a6
+t:1765009551
+c:96a9acdbf849d788a31f2935c29b77f101fb63d7
 D:so:libc.musl-aarch64.so.1 so:libmariadb.so.3
 p:so:postfix-mysql.so=0
 
-C:Q16ViHiFStDeBeYlqSMWB5l8BhuaI=
+C:Q1hFQ5MiE8fmgDX3JrZJXu91K/Dwc=
 P:postfix-openrc
-V:3.10.6-r0
+V:3.10.7-r0
 A:aarch64
-S:2482
+S:2484
 I:2013
 T:Secure and fast drop-in replacement for Sendmail (MTA) (OpenRC init scripts)
 U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1764142907
-c:c9707f079fc84ea707fc2b870d166715b46431a6
-i:openrc postfix=3.10.6-r0
+t:1765009551
+c:96a9acdbf849d788a31f2935c29b77f101fb63d7
+i:openrc postfix=3.10.7-r0
 
-C:Q1F0UEoJEBBnTsGDtrCMsLRXCiKeQ=
+C:Q16kIKMwI2onAwvO50mlZzz4AyQa0=
 P:postfix-pcre
-V:3.10.6-r0
+V:3.10.7-r0
 A:aarch64
-S:7765
+S:7770
 I:67204
 T:pcre map support for postfix
 U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1764142907
-c:c9707f079fc84ea707fc2b870d166715b46431a6
+t:1765009551
+c:96a9acdbf849d788a31f2935c29b77f101fb63d7
 D:so:libc.musl-aarch64.so.1 so:libpcre2-8.so.0
 p:so:postfix-pcre.so=0
 
-C:Q16ejdNOAw9cD/DppjUoQIqh4/TGk=
+C:Q16hfLTyj7q5WtW+3BBsA0Dolx4gg=
 P:postfix-pgsql
-V:3.10.6-r0
+V:3.10.7-r0
 A:aarch64
-S:8029
+S:8031
 I:67207
 T:pgsql map support for postfix
 U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1764142907
-c:c9707f079fc84ea707fc2b870d166715b46431a6
+t:1765009551
+c:96a9acdbf849d788a31f2935c29b77f101fb63d7
 D:so:libc.musl-aarch64.so.1 so:libpq.so.5
 p:so:postfix-pgsql.so=0
 
@@ -67408,37 +67408,37 @@ c:49eaddc4f7264d97ca4565c5075752b10b3a9dcb
 D:perl perl-mail-spf perl-netaddr-ip perl-sys-hostname-long
 p:cmd:postfix-policyd-spf-perl=2.011-r2
 
-C:Q17lOrk8ka2cG0ycjjyZLQoHQ1jro=
+C:Q1rQ10+Lt1bP/2kKV9QfcUqgtQ3I4=
 P:postfix-sqlite
-V:3.10.6-r0
+V:3.10.7-r0
 A:aarch64
-S:5784
+S:5790
 I:67210
 T:sqlite map support for postfix
 U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1764142907
-c:c9707f079fc84ea707fc2b870d166715b46431a6
+t:1765009551
+c:96a9acdbf849d788a31f2935c29b77f101fb63d7
 D:so:libc.musl-aarch64.so.1 so:libsqlite3.so.0
 p:so:postfix-sqlite.so=0
 
-C:Q1la9URBTB9T3YevgVjBBfoqX73es=
+C:Q1aZMjn08XlX4s+iXx9iLOqjnGS0U=
 P:postfix-stone
-V:3.10.6-r0
+V:3.10.7-r0
 A:aarch64
-S:35756
+S:35768
 I:337496
 T:Postfix simulation and testing tools
 U:https://www.postfix.org/
 L:IPL-1.0 EPL-2.0
 o:postfix
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1764142907
-c:c9707f079fc84ea707fc2b870d166715b46431a6
+t:1765009551
+c:96a9acdbf849d788a31f2935c29b77f101fb63d7
 D:so:libc.musl-aarch64.so.1 so:libpostfix-global.so so:libpostfix-util.so
-p:cmd:fsstone=3.10.6-r0 cmd:qmqp-sink=3.10.6-r0 cmd:qmqp-source=3.10.6-r0 cmd:smtp-sink=3.10.6-r0 cmd:smtp-source=3.10.6-r0
+p:cmd:fsstone=3.10.7-r0 cmd:qmqp-sink=3.10.7-r0 cmd:qmqp-source=3.10.7-r0 cmd:smtp-sink=3.10.7-r0 cmd:smtp-source=3.10.7-r0
 
 C:Q1o+Q9SnMtNejzVgIwrNz7jbmn+UU=
 P:postgresql-common
@@ -86128,52 +86128,52 @@ t:1743350139
 c:0bbcc16cbd21758cab1ee29c487e85ba8dc4f3b9
 i:docs xkbcli=1.8.1-r2
 
-C:Q1S2vkg6Y7efvTJMEebNN5Jj6GTEQ=
+C:Q1HudDrnl8FPWEdX1jPd+B9YBn7ts=
 P:xkbcomp
-V:1.4.7-r0
+V:1.5.0-r0
 A:aarch64
-S:80097
+S:80601
 I:204144
 T:XKBD keymap compiler
 U:https://xorg.freedesktop.org
 L:MIT
 o:xkbcomp
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1735923921
-c:8bac74716d06c84627ab02d101fd9d2bafd0a34c
+t:1764897010
+c:7cce7621b7ca94b8be482625a456e7d31dc5d1cb
 D:so:libX11.so.6 so:libc.musl-aarch64.so.1 so:libxkbfile.so.1
-p:cmd:xkbcomp=1.4.7-r0
+p:cmd:xkbcomp=1.5.0-r0
 
-C:Q1ssQIaFhqFbdg2jtbmZVhbSgR0Lk=
+C:Q1fOr3Y7EMMp4w0LJVwAG6/Zg9Fio=
 P:xkbcomp-dev
-V:1.4.7-r0
+V:1.5.0-r0
 A:aarch64
-S:1720
-I:206
+S:1786
+I:290
 T:XKBD keymap compiler (development files)
 U:https://xorg.freedesktop.org
 L:MIT
 o:xkbcomp
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1735923921
-c:8bac74716d06c84627ab02d101fd9d2bafd0a34c
-D:pkgconfig
-p:pc:xkbcomp=1.4.7
+t:1764897010
+c:7cce7621b7ca94b8be482625a456e7d31dc5d1cb
+D:pc:x11 pc:xkbfile pkgconfig
+p:pc:xkbcomp=1.5.0
 
-C:Q1MsxPvRviLkOe/g+/Zt5IHmeftww=
+C:Q1darKb2aChcxqVECN/SGrzNyRtaE=
 P:xkbcomp-doc
-V:1.4.7-r0
+V:1.5.0-r0
 A:aarch64
-S:3498
-I:1745
+S:3524
+I:1780
 T:XKBD keymap compiler (documentation)
 U:https://xorg.freedesktop.org
 L:MIT
 o:xkbcomp
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1735923921
-c:8bac74716d06c84627ab02d101fd9d2bafd0a34c
-i:docs xkbcomp=1.4.7-r0
+t:1764897010
+c:7cce7621b7ca94b8be482625a456e7d31dc5d1cb
+i:docs xkbcomp=1.5.0-r0
 
 C:Q1CrdSh6vvI/xRVF2RGwZLThCjEbc=
 P:xkeyboard-config
@@ -86547,21 +86547,21 @@ t:1711411161
 c:9066659fc140312ce844504fc8311d5eff5a2423
 i:docs xtables-addons=3.26-r0
 
-C:Q1THvIu8psTKOz2F2mYQ76HCmbxvg=
+C:Q1QnR1n0vlvjFcAS3SMNCaZoH+ODw=
 P:xtables-addons-lts
-V:6.12.59-r0
+V:6.12.60-r0
 A:aarch64
-S:4609023
-I:4646144
+S:4608911
+I:4646157
 T:Iptables extensions kernel modules
 U:https://inai.de/projects/xtables-addons/
 L:GPL-2.0-or-later
 o:xtables-addons-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1764079822
-c:69a0ae6e2f4f7118e41c635e9380585384e5ee13
-D:linux-lts=6.12.59-r0
-i:linux-lts=6.12.59-r0 xtables-addons
+t:1764659334
+c:37fd680a5c75ae6a9ccdbc9a91c8eb1340eecef7
+D:linux-lts=6.12.60-r0
+i:linux-lts=6.12.60-r0 xtables-addons
 
 C:Q1Qr9b+oxKl63Yk+LYWCUp9jq6oQo=
 P:xtables-addons-rpi
@@ -87075,37 +87075,37 @@ c:141570442c291f7545019f41b77ea47a473270c0
 D:so:libblkid.so.1 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libintl.so.8 so:libtirpc.so.3 so:libuuid.so.1 so:libz.so.1
 p:so:libnvpair.so.3=3.0.0 so:libuutil.so.3=3.0.0 so:libzfs.so.6=6.0.0 so:libzfs_core.so.3=3.0.0 so:libzfsbootenv.so.1=1.0.0 so:libzpool.so.6=6.0.0
 
-C:Q1+m69STwPMj88BpkJ68C7Pm1JAB8=
+C:Q1WuFVfzKhr4bOLCxriFbDXTHa8wA=
 P:zfs-lts
-V:6.12.59-r0
+V:6.12.60-r0
 A:aarch64
-S:30205474
-I:30534523
+S:30206519
+I:30536598
 T:ZFS Linux kernel modules
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1764079956
-c:3df576da7fca67925eb3d862e2d9fb36ac111399
-D:linux-lts=6.12.59-r0
-p:spl-vanilla=6.12.59-r0
-i:zfs linux-lts=6.12.59-r0
+t:1764659334
+c:a5e5f3e1267996bda6a9a169f175bb4d24befece
+D:linux-lts=6.12.60-r0
+p:spl-vanilla=6.12.60-r0
+i:zfs linux-lts=6.12.60-r0
 
-C:Q1lZ/zdPoIc1NEdU3a74/ANme7HBM=
+C:Q1wJa6C769k744mExFWi47Z+3uKp0=
 P:zfs-lts-dev
-V:6.12.59-r0
+V:6.12.60-r0
 A:aarch64
-S:497968
+S:497970
 I:3267207
 T:ZFS Linux kernel modules (development files)
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1764079956
-c:3df576da7fca67925eb3d862e2d9fb36ac111399
-D:glib-dev e2fsprogs-dev util-linux-dev libtirpc-dev linux-lts-dev=6.12.59-r0
+t:1764659334
+c:a5e5f3e1267996bda6a9a169f175bb4d24befece
+D:glib-dev e2fsprogs-dev util-linux-dev libtirpc-dev linux-lts-dev=6.12.60-r0
 
 C:Q1cJ+gTnUCLA962fYjC1k+Rarz0l0=
 P:zfs-openrc
@@ -87199,21 +87199,21 @@ c:141570442c291f7545019f41b77ea47a473270c0
 D:python3
 p:cmd:arc_summary=2.3.2-r0 cmd:arcstat=2.3.2-r0 cmd:dbufstat=2.3.2-r0 cmd:zilstat=2.3.2-r0
 
-C:Q1t1ZKVzCdXQwoG7qh5/5xvbP4wcQ=
+C:Q1/u50ipeiOZQ6oV9qbLhYnqkgS/g=
 P:zfs-virt
-V:6.12.59-r0
+V:6.12.60-r0
 A:aarch64
-S:29517799
-I:29834546
+S:29518136
+I:29834688
 T:ZFS Linux kernel modules for virt
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1764079956
-c:3df576da7fca67925eb3d862e2d9fb36ac111399
-D:linux-virt=6.12.59-r0
-i:zfs linux-virt=6.12.59-r0
+t:1764659334
+c:a5e5f3e1267996bda6a9a169f175bb4d24befece
+D:linux-virt=6.12.60-r0
+i:zfs linux-virt=6.12.60-r0
 
 C:Q1px+C+vf7O4MS+maQCLcC6c6DVLA=
 P:zfs-zsh-completion
