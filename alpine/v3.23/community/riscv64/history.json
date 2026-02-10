@@ -138196,26 +138196,30 @@
     "metalog": {
       "origin": "metalog",
       "versions": {
-        "20230719-r0": 1698918419
+        "20230719-r0": 1698918419,
+        "20260105-r0": 1770716189
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1",
-        "so:libpcre2-8.so.0"
+        "so:libpcre2-8.so.0",
+        "so:libz.so.1"
       ],
       "provides": [
-        "cmd:metalog=20230719-r0"
+        "cmd:metalog=20260105-r0"
       ]
     },
     "metalog-doc": {
       "origin": "metalog",
       "versions": {
-        "20230719-r0": 1698918419
+        "20230719-r0": 1698918419,
+        "20260105-r0": 1770716189
       }
     },
     "metalog-openrc": {
       "origin": "metalog",
       "versions": {
-        "20230719-r0": 1698918419
+        "20230719-r0": 1698918419,
+        "20260105-r0": 1770716189
       }
     },
     "mgba": {
