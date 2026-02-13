@@ -55416,7 +55416,8 @@
     "folks": {
       "origin": "folks",
       "versions": {
-        "0.15.9-r2": 1751404482
+        "0.15.9-r2": 1751404482,
+        "0.15.12-r0": 1770981441
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -55434,8 +55435,8 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:folks-import=0.15.9-r2",
-        "cmd:folks-inspect=0.15.9-r2",
+        "cmd:folks-import=0.15.12-r0",
+        "cmd:folks-inspect=0.15.12-r0",
         "so:libfolks-dummy.so.26=26.0.0",
         "so:libfolks-eds.so.26=26.0.0",
         "so:libfolks-telepathy.so.26=26.0.0",
@@ -55445,42 +55446,45 @@
     "folks-dev": {
       "origin": "folks",
       "versions": {
-        "0.15.9-r2": 1751404482
+        "0.15.9-r2": 1751404482,
+        "0.15.12-r0": 1770981441
       },
       "dependencies": [
-        "folks=0.15.9-r2",
-        "pc:folks",
+        "folks=0.15.12-r0",
         "pc:gee-0.8",
-        "pc:glib-2.0>=2.58",
-        "pc:gobject-2.0>=2.58",
+        "pc:glib-2.0>=2.80",
+        "pc:gobject-2.0>=2.80",
         "pc:libebook-1.2>=3.38",
         "pc:libedataserver-1.2>=3.38",
         "pc:telepathy-glib>=0.19.9",
         "pkgconfig"
       ],
       "provides": [
-        "pc:folks-dummy=0.15.9",
-        "pc:folks-eds=0.15.9",
-        "pc:folks-telepathy=0.15.9",
-        "pc:folks=0.15.9"
+        "pc:folks-dummy=0.15.12",
+        "pc:folks-eds=0.15.12",
+        "pc:folks-telepathy=0.15.12",
+        "pc:folks=0.15.12"
       ]
     },
     "folks-devhelp": {
       "origin": "folks",
       "versions": {
-        "0.15.9-r2": 1751404482
+        "0.15.9-r2": 1751404482,
+        "0.15.12-r0": 1770981441
       }
     },
     "folks-doc": {
       "origin": "folks",
       "versions": {
-        "0.15.9-r2": 1751404482
+        "0.15.9-r2": 1751404482,
+        "0.15.12-r0": 1770981441
       }
     },
     "folks-lang": {
       "origin": "folks",
       "versions": {
-        "0.15.9-r2": 1751404482
+        "0.15.9-r2": 1751404482,
+        "0.15.12-r0": 1770981441
       }
     },
     "font-adobe-source-code-pro": {
@@ -66701,7 +66705,8 @@
       "versions": {
         "49.1-r0": 1761574592,
         "49.2-r0": 1764180709,
-        "49.3-r0": 1767823555
+        "49.3-r0": 1767823555,
+        "49.4-r0": 1770981441
       },
       "dependencies": [
         "adwaita-fonts",
@@ -66825,7 +66830,8 @@
       "versions": {
         "49.1-r0": 1761574592,
         "49.2-r0": 1764180709,
-        "49.3-r0": 1767823555
+        "49.3-r0": 1767823555,
+        "49.4-r0": 1770981441
       },
       "dependencies": [
         "baobab",
@@ -67561,7 +67567,8 @@
         "49.2-r0": 1764026340,
         "49.2.1-r0": 1764180709,
         "49.2.2-r0": 1764353345,
-        "49.3-r0": 1767745140
+        "49.3-r0": 1767745140,
+        "49.4-r0": 1770981441
       },
       "dependencies": [
         "accountsservice",
@@ -67619,7 +67626,7 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:gnome-control-center=49.3-r0"
+        "cmd:gnome-control-center=49.4-r0"
       ]
     },
     "gnome-control-center-bash-completion": {
@@ -67629,7 +67636,8 @@
         "49.2-r0": 1764026340,
         "49.2.1-r0": 1764180709,
         "49.2.2-r0": 1764353345,
-        "49.3-r0": 1767745140
+        "49.3-r0": 1767745140,
+        "49.4-r0": 1770981441
       }
     },
     "gnome-control-center-dbg": {
@@ -67639,11 +67647,12 @@
         "49.2-r0": 1764026340,
         "49.2.1-r0": 1764180709,
         "49.2.2-r0": 1764353345,
-        "49.3-r0": 1767745140
+        "49.3-r0": 1767745140,
+        "49.4-r0": 1770981441
       },
       "dependencies": [
-        "!gnome-control-center<49.3-r0",
-        "!gnome-control-center>49.3-r0"
+        "!gnome-control-center<49.4-r0",
+        "!gnome-control-center>49.4-r0"
       ]
     },
     "gnome-control-center-dev": {
@@ -67653,13 +67662,14 @@
         "49.2-r0": 1764026340,
         "49.2.1-r0": 1764180709,
         "49.2.2-r0": 1764353345,
-        "49.3-r0": 1767745140
+        "49.3-r0": 1767745140,
+        "49.4-r0": 1770981441
       },
       "dependencies": [
         "pkgconfig"
       ],
       "provides": [
-        "pc:gnome-keybindings=49.3"
+        "pc:gnome-keybindings=49.4"
       ]
     },
     "gnome-control-center-doc": {
@@ -67669,7 +67679,8 @@
         "49.2-r0": 1764026340,
         "49.2.1-r0": 1764180709,
         "49.2.2-r0": 1764353345,
-        "49.3-r0": 1767745140
+        "49.3-r0": 1767745140,
+        "49.4-r0": 1770981441
       }
     },
     "gnome-control-center-lang": {
@@ -67679,43 +67690,47 @@
         "49.2-r0": 1764026340,
         "49.2.1-r0": 1764180709,
         "49.2.2-r0": 1764353345,
-        "49.3-r0": 1767745140
+        "49.3-r0": 1767745140,
+        "49.4-r0": 1770981441
       }
     },
     "gnome-desktop": {
       "origin": "gnome-desktop",
       "versions": {
-        "44.4-r0": 1757054038
+        "44.4-r0": 1757054038,
+        "44.5-r0": 1770981441
       },
       "dependencies": [
-        "libgnome-bg-4=44.4-r0",
-        "libgnome-desktop-3=44.4-r0",
-        "libgnome-desktop-4=44.4-r0",
-        "libgnome-rr-4=44.4-r0"
+        "libgnome-bg-4=44.5-r0",
+        "libgnome-desktop-3=44.5-r0",
+        "libgnome-desktop-4=44.5-r0",
+        "libgnome-rr-4=44.5-r0"
       ]
     },
     "gnome-desktop-dbg": {
       "origin": "gnome-desktop",
       "versions": {
-        "44.4-r0": 1757054038
+        "44.4-r0": 1757054038,
+        "44.5-r0": 1770981441
       },
       "dependencies": [
-        "!gnome-desktop-debug<44.4-r0",
-        "!gnome-desktop-debug>44.4-r0",
-        "!libgnome-bg-4<44.4-r0",
-        "!libgnome-bg-4>44.4-r0",
-        "!libgnome-desktop-3<44.4-r0",
-        "!libgnome-desktop-3>44.4-r0",
-        "!libgnome-desktop-4<44.4-r0",
-        "!libgnome-desktop-4>44.4-r0",
-        "!libgnome-rr-4<44.4-r0",
-        "!libgnome-rr-4>44.4-r0"
+        "!gnome-desktop-debug<44.5-r0",
+        "!gnome-desktop-debug>44.5-r0",
+        "!libgnome-bg-4<44.5-r0",
+        "!libgnome-bg-4>44.5-r0",
+        "!libgnome-desktop-3<44.5-r0",
+        "!libgnome-desktop-3>44.5-r0",
+        "!libgnome-desktop-4<44.5-r0",
+        "!libgnome-desktop-4>44.5-r0",
+        "!libgnome-rr-4<44.5-r0",
+        "!libgnome-rr-4>44.5-r0"
       ]
     },
     "gnome-desktop-debug": {
       "origin": "gnome-desktop",
       "versions": {
-        "44.4-r0": 1757054038
+        "44.4-r0": 1757054038,
+        "44.5-r0": 1770981441
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -67732,20 +67747,20 @@
     "gnome-desktop-dev": {
       "origin": "gnome-desktop",
       "versions": {
-        "44.4-r0": 1757054038
+        "44.4-r0": 1757054038,
+        "44.5-r0": 1770981441
       },
       "dependencies": [
         "gobject-introspection-dev",
         "gsettings-desktop-schemas-dev",
-        "libgnome-bg-4=44.4-r0",
-        "libgnome-desktop-3=44.4-r0",
-        "libgnome-desktop-4=44.4-r0",
-        "libgnome-rr-4=44.4-r0",
+        "libgnome-bg-4=44.5-r0",
+        "libgnome-desktop-3=44.5-r0",
+        "libgnome-desktop-4=44.5-r0",
+        "libgnome-rr-4=44.5-r0",
         "pc:gdk-pixbuf-2.0>=2.36.5",
         "pc:gio-2.0>=2.53.0",
         "pc:gio-unix-2.0>=2.53.0",
         "pc:glib-2.0>=2.53.0",
-        "pc:gnome-desktop-4",
         "pc:gsettings-desktop-schemas>=3.27.0",
         "pc:gtk+-3.0>=3.3.6",
         "pc:gtk4>=4.4.0",
@@ -67757,22 +67772,24 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:gnome-bg-4=44.4",
-        "pc:gnome-desktop-3.0=44.4",
-        "pc:gnome-desktop-4=44.4",
-        "pc:gnome-rr-4=44.4"
+        "pc:gnome-bg-4=44.5",
+        "pc:gnome-desktop-3.0=44.5",
+        "pc:gnome-desktop-4=44.5",
+        "pc:gnome-rr-4=44.5"
       ]
     },
     "gnome-desktop-doc": {
       "origin": "gnome-desktop",
       "versions": {
-        "44.4-r0": 1757054038
+        "44.4-r0": 1757054038,
+        "44.5-r0": 1770981441
       }
     },
     "gnome-desktop-lang": {
       "origin": "gnome-desktop",
       "versions": {
-        "44.4-r0": 1757054038
+        "44.4-r0": 1757054038,
+        "44.5-r0": 1770981441
       }
     },
     "gnome-dev-tools": {
@@ -67780,7 +67797,8 @@
       "versions": {
         "49.1-r0": 1761574592,
         "49.2-r0": 1764180709,
-        "49.3-r0": 1767823555
+        "49.3-r0": 1767823555,
+        "49.4-r0": 1770981441
       },
       "dependencies": [
         "d-spy",
@@ -67855,14 +67873,15 @@
       "origin": "gnome-shell",
       "versions": {
         "49.1-r0": 1761143983,
-        "49.2-r0": 1764647915
+        "49.2-r0": 1764647915,
+        "49.4-r0": 1770981441
       },
       "dependencies": [
         "gnome-shell",
         "libadwaita"
       ],
       "provides": [
-        "cmd:gnome-extensions-app=49.2-r0"
+        "cmd:gnome-extensions-app=49.4-r0"
       ]
     },
     "gnome-feeds": {
@@ -68158,7 +68177,8 @@
       "origin": "gnome-maps",
       "versions": {
         "49.2-r0": 1760211661,
-        "49.3-r0": 1767745139
+        "49.3-r0": 1767745139,
+        "49.4-r0": 1770981441
       },
       "dependencies": [
         "geoclue",
@@ -68181,14 +68201,15 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:gnome-maps=49.3-r0"
+        "cmd:gnome-maps=49.4-r0"
       ]
     },
     "gnome-maps-lang": {
       "origin": "gnome-maps",
       "versions": {
         "49.2-r0": 1760211661,
-        "49.3-r0": 1767745139
+        "49.3-r0": 1767745139,
+        "49.4-r0": 1770981441
       }
     },
     "gnome-menus": {
@@ -68317,7 +68338,8 @@
       "versions": {
         "3.56.1-r0": 1760254533,
         "3.56.2-r0": 1763894544,
-        "3.56.3-r0": 1767745139
+        "3.56.3-r0": 1767745139,
+        "3.56.4-r0": 1770981441
       },
       "dependencies": [
         "dbus:org.freedesktop.Secrets",
@@ -68347,11 +68369,12 @@
       "versions": {
         "3.56.1-r0": 1760254533,
         "3.56.2-r0": 1763894544,
-        "3.56.3-r0": 1767745139
+        "3.56.3-r0": 1767745139,
+        "3.56.4-r0": 1770981441
       },
       "dependencies": [
-        "!gnome-online-accounts<3.56.3-r0",
-        "!gnome-online-accounts>3.56.3-r0"
+        "!gnome-online-accounts<3.56.4-r0",
+        "!gnome-online-accounts>3.56.4-r0"
       ]
     },
     "gnome-online-accounts-dev": {
@@ -68359,10 +68382,11 @@
       "versions": {
         "3.56.1-r0": 1760254533,
         "3.56.2-r0": 1763894544,
-        "3.56.3-r0": 1767745139
+        "3.56.3-r0": 1767745139,
+        "3.56.4-r0": 1770981441
       },
       "dependencies": [
-        "gnome-online-accounts=3.56.3-r0",
+        "gnome-online-accounts=3.56.4-r0",
         "pc:gio-2.0>=2.67.4",
         "pc:glib-2.0>=2.67.4",
         "pc:gtk4",
@@ -68370,9 +68394,9 @@
         "pkgconfig"
       ],
       "provides": [
-        "gnome-online-accounts-static=3.56.3-r0",
-        "pc:goa-1.0=3.56.3",
-        "pc:goa-backend-1.0=3.56.3"
+        "gnome-online-accounts-static=3.56.4-r0",
+        "pc:goa-1.0=3.56.4",
+        "pc:goa-backend-1.0=3.56.4"
       ]
     },
     "gnome-online-accounts-doc": {
@@ -68380,7 +68404,8 @@
       "versions": {
         "3.56.1-r0": 1760254533,
         "3.56.2-r0": 1763894544,
-        "3.56.3-r0": 1767745139
+        "3.56.3-r0": 1767745139,
+        "3.56.4-r0": 1770981441
       }
     },
     "gnome-online-accounts-lang": {
@@ -68388,7 +68413,8 @@
       "versions": {
         "3.56.1-r0": 1760254533,
         "3.56.2-r0": 1763894544,
-        "3.56.3-r0": 1767745139
+        "3.56.3-r0": 1767745139,
+        "3.56.4-r0": 1770981441
       }
     },
     "gnome-panel": {
@@ -68771,7 +68797,8 @@
       "origin": "gnome-shell",
       "versions": {
         "49.1-r0": 1761143983,
-        "49.2-r0": 1764647915
+        "49.2-r0": 1764647915,
+        "49.4-r0": 1770981441
       },
       "dependencies": [
         "accountsservice",
@@ -68831,10 +68858,10 @@
         "so:libsoup-3.0.so.0"
       ],
       "provides": [
-        "cmd:gnome-extensions=49.2-r0",
-        "cmd:gnome-shell-extension-tool=49.2-r0",
-        "cmd:gnome-shell-test-tool=49.2-r0",
-        "cmd:gnome-shell=49.2-r0",
+        "cmd:gnome-extensions=49.4-r0",
+        "cmd:gnome-shell-extension-tool=49.4-r0",
+        "cmd:gnome-shell-test-tool=49.4-r0",
+        "cmd:gnome-shell=49.4-r0",
         "so:libgnome-shell-menu.so=0",
         "so:libgvc.so=0",
         "so:libshell-17.so=0",
@@ -68846,18 +68873,20 @@
       "origin": "gnome-shell",
       "versions": {
         "49.1-r0": 1761143983,
-        "49.2-r0": 1764647915
+        "49.2-r0": 1764647915,
+        "49.4-r0": 1770981441
       },
       "dependencies": [
-        "!gnome-shell<49.2-r0",
-        "!gnome-shell>49.2-r0"
+        "!gnome-shell<49.4-r0",
+        "!gnome-shell>49.4-r0"
       ]
     },
     "gnome-shell-doc": {
       "origin": "gnome-shell",
       "versions": {
         "49.1-r0": 1761143983,
-        "49.2-r0": 1764647915
+        "49.2-r0": 1764647915,
+        "49.4-r0": 1770981441
       }
     },
     "gnome-shell-extensions": {
@@ -68880,14 +68909,16 @@
       "origin": "gnome-shell",
       "versions": {
         "49.1-r0": 1761143983,
-        "49.2-r0": 1764647915
+        "49.2-r0": 1764647915,
+        "49.4-r0": 1770981441
       }
     },
     "gnome-shell-schemas": {
       "origin": "gnome-shell",
       "versions": {
         "49.1-r0": 1761143983,
-        "49.2-r0": 1764647915
+        "49.2-r0": 1764647915,
+        "49.4-r0": 1770981441
       }
     },
     "gnome-shell-session": {
@@ -68942,7 +68973,8 @@
     "gnome-software": {
       "origin": "gnome-software",
       "versions": {
-        "49.2-r0": 1763682767
+        "49.2-r0": 1763682767,
+        "49.3-r0": 1770981441
       },
       "dependencies": [
         "gnome-app-list",
@@ -68965,36 +68997,39 @@
         "so:libxmlb.so.2"
       ],
       "provides": [
-        "cmd:gnome-software=49.2-r0"
+        "cmd:gnome-software=49.3-r0"
       ]
     },
     "gnome-software-bash-completion": {
       "origin": "gnome-software",
       "versions": {
-        "49.2-r0": 1763682767
+        "49.2-r0": 1763682767,
+        "49.3-r0": 1770981441
       }
     },
     "gnome-software-dbg": {
       "origin": "gnome-software",
       "versions": {
-        "49.2-r0": 1763682767
+        "49.2-r0": 1763682767,
+        "49.3-r0": 1770981441
       },
       "dependencies": [
-        "!gnome-software-lib<49.2-r0",
-        "!gnome-software-lib>49.2-r0",
-        "!gnome-software-plugin-flatpak<49.2-r0",
-        "!gnome-software-plugin-flatpak>49.2-r0",
-        "!gnome-software<49.2-r0",
-        "!gnome-software>49.2-r0"
+        "!gnome-software-lib<49.3-r0",
+        "!gnome-software-lib>49.3-r0",
+        "!gnome-software-plugin-flatpak<49.3-r0",
+        "!gnome-software-plugin-flatpak>49.3-r0",
+        "!gnome-software<49.3-r0",
+        "!gnome-software>49.3-r0"
       ]
     },
     "gnome-software-dev": {
       "origin": "gnome-software",
       "versions": {
-        "49.2-r0": 1763682767
+        "49.2-r0": 1763682767,
+        "49.3-r0": 1770981441
       },
       "dependencies": [
-        "gnome-software-lib=49.2-r0",
+        "gnome-software-lib=49.3-r0",
         "pc:appstream>=0.16.4",
         "pc:gio-unix-2.0>=2.56.0",
         "pc:glib-2.0>=2.76.0",
@@ -69007,25 +69042,28 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:gnome-software=49.2"
+        "pc:gnome-software=49.3"
       ]
     },
     "gnome-software-doc": {
       "origin": "gnome-software",
       "versions": {
-        "49.2-r0": 1763682767
+        "49.2-r0": 1763682767,
+        "49.3-r0": 1770981441
       }
     },
     "gnome-software-lang": {
       "origin": "gnome-software",
       "versions": {
-        "49.2-r0": 1763682767
+        "49.2-r0": 1763682767,
+        "49.3-r0": 1770981441
       }
     },
     "gnome-software-lib": {
       "origin": "gnome-software",
       "versions": {
-        "49.2-r0": 1763682767
+        "49.2-r0": 1763682767,
+        "49.3-r0": 1770981441
       },
       "dependencies": [
         "so:libappstream.so.5",
@@ -69077,7 +69115,8 @@
     "gnome-software-plugin-flatpak": {
       "origin": "gnome-software",
       "versions": {
-        "49.2-r0": 1763682767
+        "49.2-r0": 1763682767,
+        "49.3-r0": 1770981441
       },
       "dependencies": [
         "so:libappstream.so.5",
@@ -69289,7 +69328,8 @@
     "gnome-text-editor": {
       "origin": "gnome-text-editor",
       "versions": {
-        "49.0-r0": 1757755088
+        "49.0-r0": 1757755088,
+        "49.1-r0": 1770981441
       },
       "dependencies": [
         "so:libadwaita-1.so.0",
@@ -69305,19 +69345,21 @@
         "so:libspelling-1.so.2"
       ],
       "provides": [
-        "cmd:gnome-text-editor=49.0-r0"
+        "cmd:gnome-text-editor=49.1-r0"
       ]
     },
     "gnome-text-editor-doc": {
       "origin": "gnome-text-editor",
       "versions": {
-        "49.0-r0": 1757755088
+        "49.0-r0": 1757755088,
+        "49.1-r0": 1770981441
       }
     },
     "gnome-text-editor-lang": {
       "origin": "gnome-text-editor",
       "versions": {
-        "49.0-r0": 1757755088
+        "49.0-r0": 1757755088,
+        "49.1-r0": 1770981441
       }
     },
     "gnome-tour": {
@@ -69423,7 +69465,8 @@
     "gnome-user-docs": {
       "origin": "gnome-user-docs",
       "versions": {
-        "49.1-r0": 1760275734
+        "49.1-r0": 1760275734,
+        "49.4-r0": 1770981441
       }
     },
     "gnome-video-effects": {
@@ -87531,7 +87574,8 @@
       "origin": "gvfs",
       "versions": {
         "1.58.0-r2": 1763490190,
-        "1.58.0-r3": 1766520160
+        "1.58.0-r3": 1766520160,
+        "1.58.1-r0": 1770981441
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -87561,7 +87605,8 @@
       "origin": "gvfs",
       "versions": {
         "1.58.0-r2": 1763490190,
-        "1.58.0-r3": 1766520160
+        "1.58.0-r3": 1766520160,
+        "1.58.1-r0": 1770981441
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -87581,7 +87626,8 @@
       "origin": "gvfs",
       "versions": {
         "1.58.0-r2": 1763490190,
-        "1.58.0-r3": 1766520160
+        "1.58.0-r3": 1766520160,
+        "1.58.1-r0": 1770981441
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -87600,7 +87646,8 @@
       "origin": "gvfs",
       "versions": {
         "1.58.0-r2": 1763490190,
-        "1.58.0-r3": 1766520160
+        "1.58.0-r3": 1766520160,
+        "1.58.1-r0": 1770981441
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -87619,7 +87666,8 @@
       "origin": "gvfs",
       "versions": {
         "1.58.0-r2": 1763490190,
-        "1.58.0-r3": 1766520160
+        "1.58.0-r3": 1766520160,
+        "1.58.1-r0": 1770981441
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -87640,7 +87688,8 @@
       "origin": "gvfs",
       "versions": {
         "1.58.0-r2": 1763490190,
-        "1.58.0-r3": 1766520160
+        "1.58.0-r3": 1766520160,
+        "1.58.1-r0": 1770981441
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -87662,7 +87711,8 @@
       "origin": "gvfs",
       "versions": {
         "1.58.0-r2": 1763490190,
-        "1.58.0-r3": 1766520160
+        "1.58.0-r3": 1766520160,
+        "1.58.1-r0": 1770981441
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -87685,42 +87735,44 @@
       "origin": "gvfs",
       "versions": {
         "1.58.0-r2": 1763490190,
-        "1.58.0-r3": 1766520160
+        "1.58.0-r3": 1766520160,
+        "1.58.1-r0": 1770981441
       },
       "dependencies": [
-        "!gvfs-afc<1.58.0-r3",
-        "!gvfs-afc>1.58.0-r3",
-        "!gvfs-afp<1.58.0-r3",
-        "!gvfs-afp>1.58.0-r3",
-        "!gvfs-archive<1.58.0-r3",
-        "!gvfs-archive>1.58.0-r3",
-        "!gvfs-avahi<1.58.0-r3",
-        "!gvfs-avahi>1.58.0-r3",
-        "!gvfs-cdda<1.58.0-r3",
-        "!gvfs-cdda>1.58.0-r3",
-        "!gvfs-dav<1.58.0-r3",
-        "!gvfs-dav>1.58.0-r3",
-        "!gvfs-fuse<1.58.0-r3",
-        "!gvfs-fuse>1.58.0-r3",
-        "!gvfs-goa<1.58.0-r3",
-        "!gvfs-goa>1.58.0-r3",
-        "!gvfs-gphoto2<1.58.0-r3",
-        "!gvfs-gphoto2>1.58.0-r3",
-        "!gvfs-mtp<1.58.0-r3",
-        "!gvfs-mtp>1.58.0-r3",
-        "!gvfs-nfs<1.58.0-r3",
-        "!gvfs-nfs>1.58.0-r3",
-        "!gvfs-smb<1.58.0-r3",
-        "!gvfs-smb>1.58.0-r3",
-        "!gvfs<1.58.0-r3",
-        "!gvfs>1.58.0-r3"
+        "!gvfs-afc<1.58.1-r0",
+        "!gvfs-afc>1.58.1-r0",
+        "!gvfs-afp<1.58.1-r0",
+        "!gvfs-afp>1.58.1-r0",
+        "!gvfs-archive<1.58.1-r0",
+        "!gvfs-archive>1.58.1-r0",
+        "!gvfs-avahi<1.58.1-r0",
+        "!gvfs-avahi>1.58.1-r0",
+        "!gvfs-cdda<1.58.1-r0",
+        "!gvfs-cdda>1.58.1-r0",
+        "!gvfs-dav<1.58.1-r0",
+        "!gvfs-dav>1.58.1-r0",
+        "!gvfs-fuse<1.58.1-r0",
+        "!gvfs-fuse>1.58.1-r0",
+        "!gvfs-goa<1.58.1-r0",
+        "!gvfs-goa>1.58.1-r0",
+        "!gvfs-gphoto2<1.58.1-r0",
+        "!gvfs-gphoto2>1.58.1-r0",
+        "!gvfs-mtp<1.58.1-r0",
+        "!gvfs-mtp>1.58.1-r0",
+        "!gvfs-nfs<1.58.1-r0",
+        "!gvfs-nfs>1.58.1-r0",
+        "!gvfs-smb<1.58.1-r0",
+        "!gvfs-smb>1.58.1-r0",
+        "!gvfs<1.58.1-r0",
+        "!gvfs>1.58.1-r0"
       ]
     },
     "gvfs-fuse": {
       "origin": "gvfs",
       "versions": {
         "1.58.0-r2": 1763490190,
-        "1.58.0-r3": 1766520160
+        "1.58.0-r3": 1766520160,
+        "1.58.1-r0": 1770981441
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -87737,7 +87789,8 @@
       "origin": "gvfs",
       "versions": {
         "1.58.0-r2": 1763490190,
-        "1.58.0-r3": 1766520160
+        "1.58.0-r3": 1766520160,
+        "1.58.1-r0": 1770981441
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -87757,7 +87810,8 @@
       "origin": "gvfs",
       "versions": {
         "1.58.0-r2": 1763490190,
-        "1.58.0-r3": 1766520160
+        "1.58.0-r3": 1766520160,
+        "1.58.1-r0": 1770981441
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -87778,14 +87832,16 @@
       "origin": "gvfs",
       "versions": {
         "1.58.0-r2": 1763490190,
-        "1.58.0-r3": 1766520160
+        "1.58.0-r3": 1766520160,
+        "1.58.1-r0": 1770981441
       }
     },
     "gvfs-mtp": {
       "origin": "gvfs",
       "versions": {
         "1.58.0-r2": 1763490190,
-        "1.58.0-r3": 1766520160
+        "1.58.0-r3": 1766520160,
+        "1.58.1-r0": 1770981441
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -87806,7 +87862,8 @@
       "origin": "gvfs",
       "versions": {
         "1.58.0-r2": 1763490190,
-        "1.58.0-r3": 1766520160
+        "1.58.0-r3": 1766520160,
+        "1.58.1-r0": 1770981441
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -87825,7 +87882,8 @@
       "origin": "gvfs",
       "versions": {
         "1.58.0-r2": 1763490190,
-        "1.58.0-r3": 1766520160
+        "1.58.0-r3": 1766520160,
+        "1.58.1-r0": 1770981441
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -87844,7 +87902,8 @@
       "origin": "gvfs",
       "versions": {
         "1.58.0-r2": 1763490190,
-        "1.58.0-r3": 1766520160
+        "1.58.0-r3": 1766520160,
+        "1.58.1-r0": 1770981441
       }
     },
     "gvm-libs": {
@@ -117408,7 +117467,8 @@
       "origin": "libadwaita",
       "versions": {
         "1.8.2-r0": 1763687695,
-        "1.8.3-r0": 1767745139
+        "1.8.3-r0": 1767745139,
+        "1.8.4-r0": 1770981441
       },
       "dependencies": [
         "adwaita-fonts",
@@ -117431,20 +117491,22 @@
       "origin": "libadwaita",
       "versions": {
         "1.8.2-r0": 1763687695,
-        "1.8.3-r0": 1767745139
+        "1.8.3-r0": 1767745139,
+        "1.8.4-r0": 1770981441
       },
       "dependencies": [
-        "!libadwaita-demo<1.8.3-r0",
-        "!libadwaita-demo>1.8.3-r0",
-        "!libadwaita<1.8.3-r0",
-        "!libadwaita>1.8.3-r0"
+        "!libadwaita-demo<1.8.4-r0",
+        "!libadwaita-demo>1.8.4-r0",
+        "!libadwaita<1.8.4-r0",
+        "!libadwaita>1.8.4-r0"
       ]
     },
     "libadwaita-demo": {
       "origin": "libadwaita",
       "versions": {
         "1.8.2-r0": 1763687695,
-        "1.8.3-r0": 1767745139
+        "1.8.3-r0": 1767745139,
+        "1.8.4-r0": 1770981441
       },
       "dependencies": [
         "adwaita-fonts",
@@ -117457,17 +117519,18 @@
         "so:libintl.so.8"
       ],
       "provides": [
-        "cmd:adwaita-1-demo=1.8.3-r0"
+        "cmd:adwaita-1-demo=1.8.4-r0"
       ]
     },
     "libadwaita-dev": {
       "origin": "libadwaita",
       "versions": {
         "1.8.2-r0": 1763687695,
-        "1.8.3-r0": 1767745139
+        "1.8.3-r0": 1767745139,
+        "1.8.4-r0": 1770981441
       },
       "dependencies": [
-        "libadwaita=1.8.3-r0",
+        "libadwaita=1.8.4-r0",
         "pc:appstream",
         "pc:fribidi",
         "pc:gio-2.0>=2.80.0",
@@ -117476,14 +117539,15 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:libadwaita-1=1.8.3"
+        "pc:libadwaita-1=1.8.4"
       ]
     },
     "libadwaita-lang": {
       "origin": "libadwaita",
       "versions": {
         "1.8.2-r0": 1763687695,
-        "1.8.3-r0": 1767745139
+        "1.8.3-r0": 1767745139,
+        "1.8.4-r0": 1770981441
       }
     },
     "libaec": {
@@ -122930,7 +122994,8 @@
     "libgnome-bg-4": {
       "origin": "gnome-desktop",
       "versions": {
-        "44.4-r0": 1757054038
+        "44.4-r0": 1757054038,
+        "44.5-r0": 1770981441
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -122949,7 +123014,8 @@
     "libgnome-desktop-3": {
       "origin": "gnome-desktop",
       "versions": {
-        "44.4-r0": 1757054038
+        "44.4-r0": 1757054038,
+        "44.5-r0": 1770981441
       },
       "dependencies": [
         "bubblewrap",
@@ -122973,7 +123039,8 @@
     "libgnome-desktop-4": {
       "origin": "gnome-desktop",
       "versions": {
-        "44.4-r0": 1757054038
+        "44.4-r0": 1757054038,
+        "44.5-r0": 1770981441
       },
       "dependencies": [
         "bubblewrap",
@@ -123036,7 +123103,8 @@
     "libgnome-rr-4": {
       "origin": "gnome-desktop",
       "versions": {
-        "44.4-r0": 1757054038
+        "44.4-r0": 1757054038,
+        "44.5-r0": 1770981441
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -123577,7 +123645,8 @@
     "libgsf": {
       "origin": "libgsf",
       "versions": {
-        "1.14.53-r1": 1728910540
+        "1.14.53-r1": 1728910540,
+        "1.14.55-r0": 1770981441
       },
       "dependencies": [
         "so:libbz2.so.1",
@@ -123590,38 +123659,41 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:gsf-vba-dump=1.14.53-r1",
-        "cmd:gsf=1.14.53-r1",
-        "so:libgsf-1.so.114=114.0.53"
+        "cmd:gsf-vba-dump=1.14.55-r0",
+        "cmd:gsf=1.14.55-r0",
+        "so:libgsf-1.so.114=114.0.55"
       ]
     },
     "libgsf-dev": {
       "origin": "libgsf",
       "versions": {
-        "1.14.53-r1": 1728910540
+        "1.14.53-r1": 1728910540,
+        "1.14.55-r0": 1770981441
       },
       "dependencies": [
         "bzip2-dev",
-        "libgsf=1.14.53-r1",
+        "libgsf=1.14.55-r0",
         "pc:glib-2.0",
         "pc:gobject-2.0",
         "pc:libxml-2.0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libgsf-1=1.14.53"
+        "pc:libgsf-1=1.14.55"
       ]
     },
     "libgsf-doc": {
       "origin": "libgsf",
       "versions": {
-        "1.14.53-r1": 1728910540
+        "1.14.53-r1": 1728910540,
+        "1.14.55-r0": 1770981441
       }
     },
     "libgsf-lang": {
       "origin": "libgsf",
       "versions": {
-        "1.14.53-r1": 1728910540
+        "1.14.53-r1": 1728910540,
+        "1.14.55-r0": 1770981441
       }
     },
     "libgss": {
@@ -128823,7 +128895,8 @@
     "libnotify": {
       "origin": "libnotify",
       "versions": {
-        "0.8.7-r0": 1759062488
+        "0.8.7-r0": 1759062488,
+        "0.8.8-r0": 1770981441
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -128833,17 +128906,18 @@
         "so:libgobject-2.0.so.0"
       ],
       "provides": [
-        "cmd:notify-send=0.8.7-r0",
+        "cmd:notify-send=0.8.8-r0",
         "so:libnotify.so.4=4.0.0"
       ]
     },
     "libnotify-dev": {
       "origin": "libnotify",
       "versions": {
-        "0.8.7-r0": 1759062488
+        "0.8.7-r0": 1759062488,
+        "0.8.8-r0": 1770981441
       },
       "dependencies": [
-        "libnotify=0.8.7-r0",
+        "libnotify=0.8.8-r0",
         "pc:gdk-pixbuf-2.0",
         "pc:gio-2.0>=2.62.0",
         "pc:gio-unix-2.0>=2.62.0",
@@ -128851,13 +128925,14 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:libnotify=0.8.7"
+        "pc:libnotify=0.8.8"
       ]
     },
     "libnotify-doc": {
       "origin": "libnotify",
       "versions": {
-        "0.8.7-r0": 1759062488
+        "0.8.7-r0": 1759062488,
+        "0.8.8-r0": 1770981441
       }
     },
     "libnova": {
@@ -135640,7 +135715,8 @@
       "origin": "libshumate",
       "versions": {
         "1.5.1-r0": 1760211661,
-        "1.5.2-r0": 1767745139
+        "1.5.2-r0": 1767745139,
+        "1.5.3-r0": 1770981441
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -135666,10 +135742,11 @@
       "origin": "libshumate",
       "versions": {
         "1.5.1-r0": 1760211661,
-        "1.5.2-r0": 1767745139
+        "1.5.2-r0": 1767745139,
+        "1.5.3-r0": 1770981441
       },
       "dependencies": [
-        "libshumate=1.5.2-r0",
+        "libshumate=1.5.3-r0",
         "pc:cairo>=1.4",
         "pc:gio-2.0>=2.74.0",
         "pc:glib-2.0>=2.74.0",
@@ -135682,14 +135759,15 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:shumate-1.0=1.5.2"
+        "pc:shumate-1.0=1.5.3"
       ]
     },
     "libshumate-lang": {
       "origin": "libshumate",
       "versions": {
         "1.5.1-r0": 1760211661,
-        "1.5.2-r0": 1767745139
+        "1.5.2-r0": 1767745139,
+        "1.5.3-r0": 1770981441
       }
     },
     "libsigc++": {
@@ -136260,7 +136338,8 @@
     "libspelling": {
       "origin": "libspelling",
       "versions": {
-        "0.4.9-r0": 1755761495
+        "0.4.9-r0": 1755761495,
+        "0.4.10-r0": 1770981441
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -136281,29 +136360,32 @@
     "libspelling-dev": {
       "origin": "libspelling",
       "versions": {
-        "0.4.9-r0": 1755761495
+        "0.4.9-r0": 1755761495,
+        "0.4.10-r0": 1770981441
       },
       "dependencies": [
-        "libspelling=0.4.9-r0",
+        "libspelling=0.4.10-r0",
         "pc:gio-2.0",
         "pc:gtk4",
         "pc:gtksourceview-5",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libspelling-1=0.4.9"
+        "pc:libspelling-1=0.4.10"
       ]
     },
     "libspelling-doc": {
       "origin": "libspelling",
       "versions": {
-        "0.4.9-r0": 1755761495
+        "0.4.9-r0": 1755761495,
+        "0.4.10-r0": 1770981441
       }
     },
     "libspelling-lang": {
       "origin": "libspelling",
       "versions": {
-        "0.4.9-r0": 1755761495
+        "0.4.9-r0": 1755761495,
+        "0.4.10-r0": 1770981441
       }
     },
     "libspiro": {
@@ -157739,7 +157821,8 @@
     "msgraph": {
       "origin": "msgraph",
       "versions": {
-        "0.3.3-r1": 1754682970
+        "0.3.3-r1": 1754682970,
+        "0.3.4-r0": 1770981441
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -157752,16 +157835,17 @@
         "so:libsoup-3.0.so.0"
       ],
       "provides": [
-        "so:libmsgraph-1.so.1=0.3.3"
+        "so:libmsgraph-1.so.1=0.3.4"
       ]
     },
     "msgraph-dev": {
       "origin": "msgraph",
       "versions": {
-        "0.3.3-r1": 1754682970
+        "0.3.3-r1": 1754682970,
+        "0.3.4-r0": 1770981441
       },
       "dependencies": [
-        "msgraph=0.3.3-r1",
+        "msgraph=0.3.4-r0",
         "pc:gio-2.0",
         "pc:glib-2.0>=2.28",
         "pc:goa-1.0",
@@ -157770,13 +157854,14 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:msgraph-1=0.3.3"
+        "pc:msgraph-1=0.3.4"
       ]
     },
     "msgraph-doc": {
       "origin": "msgraph",
       "versions": {
-        "0.3.3-r1": 1754682970
+        "0.3.3-r1": 1754682970,
+        "0.3.4-r0": 1770981441
       }
     },
     "msgsl": {
@@ -158832,7 +158917,8 @@
       "versions": {
         "49.1.1-r0": 1761254016,
         "49.1.1-r1": 1764188250,
-        "49.2-r0": 1764647880
+        "49.2-r0": 1764647880,
+        "49.4-r0": 1770981441
       },
       "dependencies": [
         "gnome-settings-daemon",
@@ -158892,9 +158978,9 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:gdctl=49.2-r0",
-        "cmd:gnome-service-client=49.2-r0",
-        "cmd:mutter=49.2-r0",
+        "cmd:gdctl=49.4-r0",
+        "cmd:gnome-service-client=49.4-r0",
+        "cmd:mutter=49.4-r0",
         "so:libmutter-17.so.0=0.0.0",
         "so:libmutter-clutter-17.so.0=0.0.0",
         "so:libmutter-cogl-17.so.0=0.0.0",
@@ -158906,11 +158992,12 @@
       "versions": {
         "49.1.1-r0": 1761254016,
         "49.1.1-r1": 1764188250,
-        "49.2-r0": 1764647880
+        "49.2-r0": 1764647880,
+        "49.4-r0": 1770981441
       },
       "dependencies": [
-        "!mutter<49.2-r0",
-        "!mutter>49.2-r0"
+        "!mutter<49.4-r0",
+        "!mutter>49.4-r0"
       ]
     },
     "mutter-dev": {
@@ -158918,10 +159005,11 @@
       "versions": {
         "49.1.1-r0": 1761254016,
         "49.1.1-r1": 1764188250,
-        "49.2-r0": 1764647880
+        "49.2-r0": 1764647880,
+        "49.4-r0": 1770981441
       },
       "dependencies": [
-        "mutter=49.2-r0",
+        "mutter=49.4-r0",
         "pc:atk>=2.5.3",
         "pc:cairo>=1.10.0",
         "pc:colord>=1.4.5",
@@ -158953,9 +159041,6 @@
         "pc:libsystemd",
         "pc:libudev",
         "pc:libwacom>=0.13",
-        "pc:mutter-clutter-17",
-        "pc:mutter-cogl-17",
-        "pc:mutter-mtk-17",
         "pc:pango>=1.46.0",
         "pc:pangocairo>=1.20",
         "pc:pixman-1>=0.42",
@@ -158976,10 +159061,10 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:libmutter-17=49.2",
-        "pc:mutter-clutter-17=49.2",
-        "pc:mutter-cogl-17=49.2",
-        "pc:mutter-mtk-17=49.2"
+        "pc:libmutter-17=49.4",
+        "pc:mutter-clutter-17=49.4",
+        "pc:mutter-cogl-17=49.4",
+        "pc:mutter-mtk-17=49.4"
       ]
     },
     "mutter-doc": {
@@ -158987,7 +159072,8 @@
       "versions": {
         "49.1.1-r0": 1761254016,
         "49.1.1-r1": 1764188250,
-        "49.2-r0": 1764647880
+        "49.2-r0": 1764647880,
+        "49.4-r0": 1770981441
       }
     },
     "mutter-lang": {
@@ -158995,7 +159081,8 @@
       "versions": {
         "49.1.1-r0": 1761254016,
         "49.1.1-r1": 1764188250,
-        "49.2-r0": 1764647880
+        "49.2-r0": 1764647880,
+        "49.4-r0": 1770981441
       }
     },
     "mutter-schemas": {
@@ -159003,7 +159090,8 @@
       "versions": {
         "49.1.1-r0": 1761254016,
         "49.1.1-r1": 1764188250,
-        "49.2-r0": 1764647880
+        "49.2-r0": 1764647880,
+        "49.4-r0": 1770981441
       }
     },
     "mwm": {
@@ -159456,7 +159544,8 @@
       "versions": {
         "49.1-r0": 1760375768,
         "49.2-r0": 1763986749,
-        "49.3-r0": 1767823546
+        "49.3-r0": 1767823546,
+        "49.4-r0": 1770981441
       },
       "dependencies": [
         "desktop-file-utils",
@@ -159489,8 +159578,8 @@
         "so:libwayland-client.so.0"
       ],
       "provides": [
-        "cmd:nautilus-autorun-software=49.3-r0",
-        "cmd:nautilus=49.3-r0",
+        "cmd:nautilus-autorun-software=49.4-r0",
+        "cmd:nautilus=49.4-r0",
         "so:libnautilus-extension.so.4=4.1"
       ]
     },
@@ -159499,18 +159588,19 @@
       "versions": {
         "49.1-r0": 1760375768,
         "49.2-r0": 1763986749,
-        "49.3-r0": 1767823546
+        "49.3-r0": 1767823546,
+        "49.4-r0": 1770981441
       },
       "dependencies": [
         "gnome-autoar-dev",
         "gnome-desktop-dev",
-        "nautilus=49.3-r0",
+        "nautilus=49.4-r0",
         "pc:gio-2.0",
         "pc:glib-2.0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libnautilus-extension-4=49.3"
+        "pc:libnautilus-extension-4=49.4"
       ]
     },
     "nautilus-lang": {
@@ -159518,7 +159608,8 @@
       "versions": {
         "49.1-r0": 1760375768,
         "49.2-r0": 1763986749,
-        "49.3-r0": 1767823546
+        "49.3-r0": 1767823546,
+        "49.4-r0": 1770981441
       }
     },
     "navi": {
@@ -190897,7 +190988,8 @@
       "versions": {
         "49.1-r1": 1762547842,
         "49.2-r0": 1763895070,
-        "49.3-r0": 1767745140
+        "49.3-r0": 1767745140,
+        "49.4-r0": 1770981441
       },
       "dependencies": [
         "adwaita-icon-theme",
@@ -190917,9 +191009,9 @@
         "so:libppsview-4.0.so.5"
       ],
       "provides": [
-        "cmd:papers-previewer=49.3-r0",
-        "cmd:papers-thumbnailer=49.3-r0",
-        "cmd:papers=49.3-r0"
+        "cmd:papers-previewer=49.4-r0",
+        "cmd:papers-thumbnailer=49.4-r0",
+        "cmd:papers=49.4-r0"
       ]
     },
     "papers-dev": {
@@ -190927,7 +191019,8 @@
       "versions": {
         "49.1-r1": 1762547842,
         "49.2-r0": 1763895070,
-        "49.3-r0": 1767745140
+        "49.3-r0": 1767745140,
+        "49.4-r0": 1770981441
       },
       "dependencies": [
         "gobject-introspection-dev",
@@ -190936,7 +191029,7 @@
         "libspectre-dev",
         "poppler-dev",
         "tiff-dev",
-        "papers-libs=49.3-r0",
+        "papers-libs=49.4-r0",
         "pc:gio-2.0>=2.75.0",
         "pc:gthread-2.0>=2.75.0",
         "pc:gtk4>=4.17.1",
@@ -190944,8 +191037,8 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:papers-document-4.0=49.3",
-        "pc:papers-view-4.0=49.3"
+        "pc:papers-document-4.0=49.4",
+        "pc:papers-view-4.0=49.4"
       ]
     },
     "papers-doc": {
@@ -190953,7 +191046,8 @@
       "versions": {
         "49.1-r1": 1762547842,
         "49.2-r0": 1763895070,
-        "49.3-r0": 1767745140
+        "49.3-r0": 1767745140,
+        "49.4-r0": 1770981441
       }
     },
     "papers-lang": {
@@ -190961,7 +191055,8 @@
       "versions": {
         "49.1-r1": 1762547842,
         "49.2-r0": 1763895070,
-        "49.3-r0": 1767745140
+        "49.3-r0": 1767745140,
+        "49.4-r0": 1770981441
       }
     },
     "papers-libs": {
@@ -190969,7 +191064,8 @@
       "versions": {
         "49.1-r1": 1762547842,
         "49.2-r0": 1763895070,
-        "49.3-r0": 1767745140
+        "49.3-r0": 1767745140,
+        "49.4-r0": 1770981441
       },
       "dependencies": [
         "so:libadwaita-1.so.0",
@@ -191000,7 +191096,8 @@
       "versions": {
         "49.1-r1": 1762547842,
         "49.2-r0": 1763895070,
-        "49.3-r0": 1767745140
+        "49.3-r0": 1767745140,
+        "49.4-r0": 1770981441
       },
       "dependencies": [
         "adwaita-icon-theme",
@@ -315294,7 +315391,8 @@
       "origin": "mutter",
       "versions": {
         "49.1.1-r1": 1764188250,
-        "49.2-r0": 1764647880
+        "49.2-r0": 1764647880,
+        "49.4-r0": 1770981441
       }
     },
     "nut-udev": {
@@ -316138,7 +316236,8 @@
     "gvfs-full": {
       "origin": "gvfs",
       "versions": {
-        "1.58.0-r3": 1766520160
+        "1.58.0-r3": 1766520160,
+        "1.58.1-r0": 1770981441
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -330339,7 +330438,7 @@
       },
       "libgsf-1.so.114": {
         "package": "libgsf",
-        "version": "114.0.53"
+        "version": "114.0.55"
       },
       "libgss.so.3": {
         "package": "libgss",
@@ -334315,7 +334414,7 @@
       },
       "libmsgraph-1.so.1": {
         "package": "msgraph",
-        "version": "0.3.3"
+        "version": "0.3.4"
       },
       "libmsi-1.0.so.0": {
         "package": "msitools",
@@ -342509,7 +342608,7 @@
       },
       "gnome-online-accounts-static": {
         "package": "gnome-online-accounts-dev",
-        "version": "3.56.3-r0"
+        "version": "3.56.4-r0"
       },
       "gnome-passwordsafe": {
         "package": "gnome-secrets",
