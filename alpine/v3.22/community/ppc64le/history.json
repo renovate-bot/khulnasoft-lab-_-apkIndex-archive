@@ -167365,7 +167365,8 @@
       "versions": {
         "15.13-r0": 1747092416,
         "15.14-r0": 1755466439,
-        "15.15-r0": 1763291316
+        "15.15-r0": 1763291316,
+        "15.16-r0": 1771183910
       },
       "dependencies": [
         "postgresql15-client",
@@ -167386,20 +167387,20 @@
       ],
       "provides": [
         "postgresql",
-        "cmd:pg_controldata",
-        "cmd:postmaster",
-        "cmd:pg_upgrade",
         "cmd:initdb",
-        "cmd:pg_checksums",
-        "cmd:postgres",
         "cmd:pg_ctl",
         "cmd:pg_test_fsync",
-        "cmd:pg_waldump",
+        "cmd:postmaster",
         "cmd:pg_test_timing",
-        "cmd:pg_resetwal",
-        "cmd:pg_archivecleanup",
         "cmd:pg_rewind",
-        "cmd:postgres15=15.15-r0"
+        "cmd:pg_upgrade",
+        "cmd:pg_waldump",
+        "cmd:pg_resetwal",
+        "cmd:pg_checksums",
+        "cmd:postgres",
+        "cmd:pg_archivecleanup",
+        "cmd:pg_controldata",
+        "cmd:postgres15=15.16-r0"
       ]
     },
     "postgresql15-client": {
@@ -167407,7 +167408,8 @@
       "versions": {
         "15.13-r0": 1747092416,
         "15.14-r0": 1755466439,
-        "15.15-r0": 1763291316
+        "15.15-r0": 1763291316,
+        "15.16-r0": 1771183910
       },
       "dependencies": [
         "postgresql-common",
@@ -167446,10 +167448,11 @@
       "versions": {
         "15.13-r0": 1747092416,
         "15.14-r0": 1755466439,
-        "15.15-r0": 1763291316
+        "15.15-r0": 1763291316,
+        "15.16-r0": 1771183910
       },
       "dependencies": [
-        "postgresql15=15.15-r0",
+        "postgresql15=15.16-r0",
         "so:libc.musl-ppc64le.so.1",
         "so:libcrypto.so.3",
         "so:libpq.so.5",
@@ -167468,10 +167471,11 @@
       "versions": {
         "15.13-r0": 1747092416,
         "15.14-r0": 1755466439,
-        "15.15-r0": 1763291316
+        "15.15-r0": 1763291316,
+        "15.16-r0": 1771183910
       },
       "dependencies": [
-        "postgresql15-contrib=15.15-r0"
+        "postgresql15-contrib=15.16-r0"
       ],
       "provides": [
         "postgresql-contrib-jit"
@@ -167482,7 +167486,8 @@
       "versions": {
         "15.13-r0": 1747092416,
         "15.14-r0": 1755466439,
-        "15.15-r0": 1763291316
+        "15.15-r0": 1763291316,
+        "15.16-r0": 1771183910
       },
       "dependencies": [
         "libpq-dev",
@@ -167505,7 +167510,8 @@
       "versions": {
         "15.13-r0": 1747092416,
         "15.14-r0": 1755466439,
-        "15.15-r0": 1763291316
+        "15.15-r0": 1763291316,
+        "15.16-r0": 1771183910
       },
       "provides": [
         "postgresql-doc"
@@ -167516,10 +167522,11 @@
       "versions": {
         "15.13-r0": 1747092416,
         "15.14-r0": 1755466439,
-        "15.15-r0": 1763291316
+        "15.15-r0": 1763291316,
+        "15.16-r0": 1771183910
       },
       "dependencies": [
-        "postgresql15=15.15-r0",
+        "postgresql15=15.16-r0",
         "so:libLLVM-16.so",
         "so:libc.musl-ppc64le.so.1",
         "so:libgcc_s.so.1",
@@ -167534,7 +167541,8 @@
       "versions": {
         "15.13-r0": 1747092416,
         "15.14-r0": 1755466439,
-        "15.15-r0": 1763291316
+        "15.15-r0": 1763291316,
+        "15.16-r0": 1771183910
       },
       "dependencies": [
         "postgresql-common-openrc"
@@ -167545,10 +167553,11 @@
       "versions": {
         "15.13-r0": 1747092416,
         "15.14-r0": 1755466439,
-        "15.15-r0": 1763291316
+        "15.15-r0": 1763291316,
+        "15.16-r0": 1771183910
       },
       "dependencies": [
-        "postgresql15=15.15-r0",
+        "postgresql15=15.16-r0",
         "so:libc.musl-ppc64le.so.1",
         "so:libperl.so"
       ],
@@ -167561,10 +167570,11 @@
       "versions": {
         "15.13-r0": 1747092416,
         "15.14-r0": 1755466439,
-        "15.15-r0": 1763291316
+        "15.15-r0": 1763291316,
+        "15.16-r0": 1771183910
       },
       "dependencies": [
-        "postgresql15-plperl=15.15-r0",
+        "postgresql15-plperl=15.16-r0",
         "so:libc.musl-ppc64le.so.1",
         "so:libperl.so"
       ],
@@ -167577,10 +167587,11 @@
       "versions": {
         "15.13-r0": 1747092416,
         "15.14-r0": 1755466439,
-        "15.15-r0": 1763291316
+        "15.15-r0": 1763291316,
+        "15.16-r0": 1771183910
       },
       "dependencies": [
-        "postgresql15=15.15-r0",
+        "postgresql15=15.16-r0",
         "python3",
         "so:libc.musl-ppc64le.so.1",
         "so:libpython3.12.so.1.0"
@@ -167594,10 +167605,11 @@
       "versions": {
         "15.13-r0": 1747092416,
         "15.14-r0": 1755466439,
-        "15.15-r0": 1763291316
+        "15.15-r0": 1763291316,
+        "15.16-r0": 1771183910
       },
       "dependencies": [
-        "postgresql15-plpython3=15.15-r0",
+        "postgresql15-plpython3=15.16-r0",
         "so:libc.musl-ppc64le.so.1",
         "so:libpython3.12.so.1.0"
       ],
@@ -167610,10 +167622,11 @@
       "versions": {
         "15.13-r0": 1747092416,
         "15.14-r0": 1755466439,
-        "15.15-r0": 1763291316
+        "15.15-r0": 1763291316,
+        "15.16-r0": 1771183910
       },
       "dependencies": [
-        "postgresql15=15.15-r0",
+        "postgresql15=15.16-r0",
         "pgtcl",
         "so:libc.musl-ppc64le.so.1",
         "so:libtcl8.6.so"
