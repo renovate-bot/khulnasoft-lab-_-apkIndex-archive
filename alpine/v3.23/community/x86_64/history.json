@@ -27431,10 +27431,11 @@
         "143.0.7499.169-r0": 1768121229,
         "144.0.7559.96-r0": 1769191178,
         "144.0.7559.109-r0": 1769646653,
-        "144.0.7559.132-r0": 1770343911
+        "144.0.7559.132-r0": 1770343911,
+        "144.0.7559.132-r1": 1771180288
       },
       "dependencies": [
-        "chromium-common=144.0.7559.132-r0",
+        "chromium-common=144.0.7559.132-r1",
         "font-opensans",
         "gtk+3.0",
         "icu-data-full",
@@ -27501,8 +27502,8 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:chromium-browser=144.0.7559.132-r0",
-        "cmd:chromium=144.0.7559.132-r0"
+        "cmd:chromium-browser=144.0.7559.132-r1",
+        "cmd:chromium=144.0.7559.132-r1"
       ]
     },
     "chromium-angle": {
@@ -27513,7 +27514,8 @@
         "143.0.7499.169-r0": 1768121229,
         "144.0.7559.96-r0": 1769191178,
         "144.0.7559.109-r0": 1769646653,
-        "144.0.7559.132-r0": 1770343911
+        "144.0.7559.132-r0": 1770343911,
+        "144.0.7559.132-r1": 1771180288
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -27533,10 +27535,11 @@
         "143.0.7499.169-r0": 1768121229,
         "144.0.7559.96-r0": 1769191178,
         "144.0.7559.109-r0": 1769646653,
-        "144.0.7559.132-r0": 1770343911
+        "144.0.7559.132-r0": 1770343911,
+        "144.0.7559.132-r1": 1771180288
       },
       "dependencies": [
-        "chromium=144.0.7559.132-r0",
+        "chromium=144.0.7559.132-r1",
         "so:libbrotlidec.so.1",
         "so:libc.musl-x86_64.so.1",
         "so:libdouble-conversion.so.3",
@@ -27551,7 +27554,7 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:chromedriver=144.0.7559.132-r0"
+        "cmd:chromedriver=144.0.7559.132-r1"
       ]
     },
     "chromium-common": {
@@ -27562,10 +27565,11 @@
         "143.0.7499.169-r0": 1768121229,
         "144.0.7559.96-r0": 1769191178,
         "144.0.7559.109-r0": 1769646653,
-        "144.0.7559.132-r0": 1770343911
+        "144.0.7559.132-r0": 1770343911,
+        "144.0.7559.132-r1": 1771180288
       },
       "dependencies": [
-        "chromium-angle=144.0.7559.132-r0"
+        "chromium-angle=144.0.7559.132-r1"
       ]
     },
     "chromium-dbg": {
@@ -27576,21 +27580,22 @@
         "143.0.7499.169-r0": 1768121229,
         "144.0.7559.96-r0": 1769191178,
         "144.0.7559.109-r0": 1769646653,
-        "144.0.7559.132-r0": 1770343911
+        "144.0.7559.132-r0": 1770343911,
+        "144.0.7559.132-r1": 1771180288
       },
       "dependencies": [
-        "!chromium-angle<144.0.7559.132-r0",
-        "!chromium-angle>144.0.7559.132-r0",
-        "!chromium-chromedriver<144.0.7559.132-r0",
-        "!chromium-chromedriver>144.0.7559.132-r0",
-        "!chromium-headless-shell<144.0.7559.132-r0",
-        "!chromium-headless-shell>144.0.7559.132-r0",
-        "!chromium-qt6<144.0.7559.132-r0",
-        "!chromium-qt6>144.0.7559.132-r0",
-        "!chromium-swiftshader<144.0.7559.132-r0",
-        "!chromium-swiftshader>144.0.7559.132-r0",
-        "!chromium<144.0.7559.132-r0",
-        "!chromium>144.0.7559.132-r0"
+        "!chromium-angle<144.0.7559.132-r1",
+        "!chromium-angle>144.0.7559.132-r1",
+        "!chromium-chromedriver<144.0.7559.132-r1",
+        "!chromium-chromedriver>144.0.7559.132-r1",
+        "!chromium-headless-shell<144.0.7559.132-r1",
+        "!chromium-headless-shell>144.0.7559.132-r1",
+        "!chromium-qt6<144.0.7559.132-r1",
+        "!chromium-qt6>144.0.7559.132-r1",
+        "!chromium-swiftshader<144.0.7559.132-r1",
+        "!chromium-swiftshader>144.0.7559.132-r1",
+        "!chromium<144.0.7559.132-r1",
+        "!chromium>144.0.7559.132-r1"
       ]
     },
     "chromium-doc": {
@@ -27601,7 +27606,8 @@
         "143.0.7499.169-r0": 1768121229,
         "144.0.7559.96-r0": 1769191178,
         "144.0.7559.109-r0": 1769646653,
-        "144.0.7559.132-r0": 1770343911
+        "144.0.7559.132-r0": 1770343911,
+        "144.0.7559.132-r1": 1771180288
       }
     },
     "chromium-headless-shell": {
@@ -27612,10 +27618,11 @@
         "143.0.7499.169-r0": 1768121229,
         "144.0.7559.96-r0": 1769191178,
         "144.0.7559.109-r0": 1769646653,
-        "144.0.7559.132-r0": 1770343911
+        "144.0.7559.132-r0": 1770343911,
+        "144.0.7559.132-r1": 1771180288
       },
       "dependencies": [
-        "chromium-common=144.0.7559.132-r0",
+        "chromium-common=144.0.7559.132-r1",
         "font-opensans",
         "gtk+3.0",
         "icu-data-full",
@@ -27623,7 +27630,7 @@
         "musl>=1.2.3_git20230322-r0",
         "so:libudev.so.1",
         "xdg-utils",
-        "chromium-swiftshader=144.0.7559.132-r0",
+        "chromium-swiftshader=144.0.7559.132-r1",
         "so:libFLAC.so.12",
         "so:libX11.so.6",
         "so:libXcomposite.so.1",
@@ -27678,7 +27685,7 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:chromium-headless-shell=144.0.7559.132-r0"
+        "cmd:chromium-headless-shell=144.0.7559.132-r1"
       ]
     },
     "chromium-lang": {
@@ -27689,7 +27696,8 @@
         "143.0.7499.169-r0": 1768121229,
         "144.0.7559.96-r0": 1769191178,
         "144.0.7559.109-r0": 1769646653,
-        "144.0.7559.132-r0": 1770343911
+        "144.0.7559.132-r0": 1770343911,
+        "144.0.7559.132-r1": 1771180288
       }
     },
     "chromium-qt6": {
@@ -27700,10 +27708,11 @@
         "143.0.7499.169-r0": 1768121229,
         "144.0.7559.96-r0": 1769191178,
         "144.0.7559.109-r0": 1769646653,
-        "144.0.7559.132-r0": 1770343911
+        "144.0.7559.132-r0": 1770343911,
+        "144.0.7559.132-r1": 1771180288
       },
       "dependencies": [
-        "chromium-common=144.0.7559.132-r0",
+        "chromium-common=144.0.7559.132-r1",
         "font-opensans",
         "gtk+3.0",
         "icu-data-full",
@@ -27726,10 +27735,11 @@
         "143.0.7499.169-r0": 1768121229,
         "144.0.7559.96-r0": 1769191178,
         "144.0.7559.109-r0": 1769646653,
-        "144.0.7559.132-r0": 1770343911
+        "144.0.7559.132-r0": 1770343911,
+        "144.0.7559.132-r1": 1771180288
       },
       "dependencies": [
-        "chromium-angle=144.0.7559.132-r0",
+        "chromium-angle=144.0.7559.132-r1",
         "so:libc.musl-x86_64.so.1",
         "so:libgcc_s.so.1"
       ]
@@ -214120,7 +214130,8 @@
     "postgresql16": {
       "origin": "postgresql16",
       "versions": {
-        "16.11-r0": 1763315107
+        "16.11-r0": 1763315107,
+        "16.12-r0": 1771183839
       },
       "dependencies": [
         "postgresql16-client",
@@ -214141,25 +214152,26 @@
       ],
       "provides": [
         "postgresql",
-        "cmd:initdb",
-        "cmd:pg_checksums",
-        "cmd:pg_test_fsync",
-        "cmd:pg_ctl",
-        "cmd:pg_archivecleanup",
-        "cmd:pg_upgrade",
-        "cmd:pg_resetwal",
-        "cmd:postgres",
-        "cmd:pg_rewind",
-        "cmd:pg_controldata",
-        "cmd:pg_test_timing",
         "cmd:pg_waldump",
-        "cmd:postgres16=16.11-r0"
+        "cmd:pg_rewind",
+        "cmd:pg_ctl",
+        "cmd:pg_test_timing",
+        "cmd:initdb",
+        "cmd:pg_resetwal",
+        "cmd:pg_checksums",
+        "cmd:postgres",
+        "cmd:pg_test_fsync",
+        "cmd:pg_upgrade",
+        "cmd:pg_archivecleanup",
+        "cmd:pg_controldata",
+        "cmd:postgres16=16.12-r0"
       ]
     },
     "postgresql16-client": {
       "origin": "postgresql16",
       "versions": {
-        "16.11-r0": 1763315107
+        "16.11-r0": 1763315107,
+        "16.12-r0": 1771183839
       },
       "dependencies": [
         "postgresql-common",
@@ -214196,10 +214208,11 @@
     "postgresql16-contrib": {
       "origin": "postgresql16",
       "versions": {
-        "16.11-r0": 1763315107
+        "16.11-r0": 1763315107,
+        "16.12-r0": 1771183839
       },
       "dependencies": [
-        "postgresql16=16.11-r0",
+        "postgresql16=16.12-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libcrypto.so.3",
         "so:libpq.so.5",
@@ -214216,10 +214229,11 @@
     "postgresql16-contrib-jit": {
       "origin": "postgresql16",
       "versions": {
-        "16.11-r0": 1763315107
+        "16.11-r0": 1763315107,
+        "16.12-r0": 1771183839
       },
       "dependencies": [
-        "postgresql16-contrib=16.11-r0"
+        "postgresql16-contrib=16.12-r0"
       ],
       "provides": [
         "postgresql-contrib-jit"
@@ -214228,7 +214242,8 @@
     "postgresql16-dev": {
       "origin": "postgresql16",
       "versions": {
-        "16.11-r0": 1763315107
+        "16.11-r0": 1763315107,
+        "16.12-r0": 1771183839
       },
       "dependencies": [
         "libpq-dev",
@@ -214249,7 +214264,8 @@
     "postgresql16-doc": {
       "origin": "postgresql16",
       "versions": {
-        "16.11-r0": 1763315107
+        "16.11-r0": 1763315107,
+        "16.12-r0": 1771183839
       },
       "provides": [
         "postgresql-doc"
@@ -214258,10 +214274,11 @@
     "postgresql16-jit": {
       "origin": "postgresql16",
       "versions": {
-        "16.11-r0": 1763315107
+        "16.11-r0": 1763315107,
+        "16.12-r0": 1771183839
       },
       "dependencies": [
-        "postgresql16=16.11-r0",
+        "postgresql16=16.12-r0",
         "so:libLLVM-16.so",
         "so:libc.musl-x86_64.so.1",
         "so:libgcc_s.so.1",
@@ -214274,7 +214291,8 @@
     "postgresql16-openrc": {
       "origin": "postgresql16",
       "versions": {
-        "16.11-r0": 1763315107
+        "16.11-r0": 1763315107,
+        "16.12-r0": 1771183839
       },
       "dependencies": [
         "postgresql-common-openrc"
@@ -214283,10 +214301,11 @@
     "postgresql16-plperl": {
       "origin": "postgresql16",
       "versions": {
-        "16.11-r0": 1763315107
+        "16.11-r0": 1763315107,
+        "16.12-r0": 1771183839
       },
       "dependencies": [
-        "postgresql16=16.11-r0",
+        "postgresql16=16.12-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libperl.so"
       ],
@@ -214297,10 +214316,11 @@
     "postgresql16-plperl-contrib": {
       "origin": "postgresql16",
       "versions": {
-        "16.11-r0": 1763315107
+        "16.11-r0": 1763315107,
+        "16.12-r0": 1771183839
       },
       "dependencies": [
-        "postgresql16-plperl=16.11-r0",
+        "postgresql16-plperl=16.12-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libperl.so"
       ],
@@ -214311,10 +214331,11 @@
     "postgresql16-plpython3": {
       "origin": "postgresql16",
       "versions": {
-        "16.11-r0": 1763315107
+        "16.11-r0": 1763315107,
+        "16.12-r0": 1771183839
       },
       "dependencies": [
-        "postgresql16=16.11-r0",
+        "postgresql16=16.12-r0",
         "python3",
         "so:libc.musl-x86_64.so.1",
         "so:libpython3.12.so.1.0"
@@ -214326,10 +214347,11 @@
     "postgresql16-plpython3-contrib": {
       "origin": "postgresql16",
       "versions": {
-        "16.11-r0": 1763315107
+        "16.11-r0": 1763315107,
+        "16.12-r0": 1771183839
       },
       "dependencies": [
-        "postgresql16-plpython3=16.11-r0",
+        "postgresql16-plpython3=16.12-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libpython3.12.so.1.0"
       ],
@@ -214340,10 +214362,11 @@
     "postgresql16-pltcl": {
       "origin": "postgresql16",
       "versions": {
-        "16.11-r0": 1763315107
+        "16.11-r0": 1763315107,
+        "16.12-r0": 1771183839
       },
       "dependencies": [
-        "postgresql16=16.11-r0",
+        "postgresql16=16.12-r0",
         "pgtcl",
         "so:libc.musl-x86_64.so.1",
         "so:libtcl8.6.so"
