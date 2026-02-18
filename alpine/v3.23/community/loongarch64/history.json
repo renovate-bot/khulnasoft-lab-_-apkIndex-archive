@@ -233535,28 +233535,35 @@
     "rabbitmq-server": {
       "origin": "rabbitmq-server",
       "versions": {
-        "4.2.1-r0": 1763361906
+        "4.2.1-r0": 1763361906,
+        "4.2.4-r0": 1771405162
       },
       "dependencies": [
         "erlang",
         "/bin/sh"
       ],
       "provides": [
-        "cmd:rabbitmq-plugins=4.2.1-r0",
-        "cmd:rabbitmq-server=4.2.1-r0",
-        "cmd:rabbitmqctl=4.2.1-r0"
+        "cmd:rabbitmq-diagnostics=4.2.4-r0",
+        "cmd:rabbitmq-plugins=4.2.4-r0",
+        "cmd:rabbitmq-queues=4.2.4-r0",
+        "cmd:rabbitmq-server=4.2.4-r0",
+        "cmd:rabbitmq-streams=4.2.4-r0",
+        "cmd:rabbitmq-upgrade=4.2.4-r0",
+        "cmd:rabbitmqctl=4.2.4-r0"
       ]
     },
     "rabbitmq-server-doc": {
       "origin": "rabbitmq-server",
       "versions": {
-        "4.2.1-r0": 1763361906
+        "4.2.1-r0": 1763361906,
+        "4.2.4-r0": 1771405162
       }
     },
     "rabbitmq-server-openrc": {
       "origin": "rabbitmq-server",
       "versions": {
-        "4.2.1-r0": 1763361906
+        "4.2.1-r0": 1763361906,
+        "4.2.4-r0": 1771405162
       }
     },
     "racket": {
