@@ -66421,21 +66421,21 @@ t:1671221258
 c:a98593aae79f8a4ff68bf38921ddf51c93443130
 i:john=1.9.0-r7 zsh
 
-C:Q1BqigijESh3hHfOvtrp8ZWWvSeIU=
+C:Q1X6kk66BAeiYt7TqZVZ4qYx6e858=
 P:jool-modules-lts
-V:6.6.121-r0
+V:6.6.127-r0
 A:armv7
-S:6599589
+S:6598643
 I:6684672
 T:SIIT and NAT64 for Linux (kernel modules for linux-lts)
 U:https://nicmx.github.io/Jool/
 L:GPL-2.0-or-later
 o:jool-modules-lts
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1769481617
-c:429caa09c70ec86c86b5633a94b9ae71f60840f8
-D:linux-lts=6.6.121-r0
-i:linux-lts=6.6.121-r0 jool-tools
+t:1771607614
+c:f87404bb5393fe0d3fe98dac969f7b075b80df4a
+D:linux-lts=6.6.127-r0
+i:linux-lts=6.6.127-r0 jool-tools
 
 C:Q1HHaoRNzZgxUQC31MzehalpwJpko=
 P:jool-modules-rpi
@@ -221517,20 +221517,20 @@ t:1710424999
 c:72c5868f63a09ee24c78687a637bd1ae5105b3d4
 i:docs rtpengine=12.2.1.4-r0
 
-C:Q1/5QPyOGuksBnJ9bva5YbGtDbxLI=
+C:Q1YiW93hiwpgUqJB8ciJRS9UfHlCE=
 P:rtpengine-lts
-V:6.6.121-r0
+V:6.6.127-r0
 A:armv7
-S:329961
+S:329963
 I:786432
 T:Kernel module for rtpengine
 U:https://github.com/sipwise/rtpengine
 L:GPL-3.0-only
 o:rtpengine-lts
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1769481626
-c:601ee87847b63c4891ef9a1b2b94b3d1f5e85c7f
-i:rtpengine linux-lts=6.6.121-r0
+t:1771607623
+c:e2d5626c43a7f47e89c17b126183331a69b21532
+i:rtpengine linux-lts=6.6.127-r0
 
 C:Q1VmQWJZu/IUvfmDoj8y4ZhzNLALg=
 P:rtpengine-openrc
@@ -221563,21 +221563,21 @@ c:72c5868f63a09ee24c78687a637bd1ae5105b3d4
 D:rtpengine so:libavcodec.so.60 so:libavfilter.so.9 so:libavformat.so.60 so:libavutil.so.58 so:libc.musl-armv7.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libglib-2.0.so.0 so:libmariadb.so.3 so:libopus.so.0 so:libssl.so.3 so:libswresample.so.4
 p:cmd:rtpengine-recording=12.2.1.4-r0
 
-C:Q1wX9K02r9htGrsitYDtDyycRkjRc=
+C:Q1GFyi5vDu2OfWnbG4i/tu2JJX5ro=
 P:rtpengine-virt
-V:6.6.121-r0
+V:6.6.127-r0
 A:armv7
-S:320618
+S:320601
 I:757760
 T: kernel modules for rtpengine
 U:https://github.com/sipwise/rtpengine
 L:GPL-3.0-only
 o:rtpengine-lts
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1769481626
-c:601ee87847b63c4891ef9a1b2b94b3d1f5e85c7f
-D:linux-virt=6.6.121-r0
-i:rtpengine linux-virt=6.6.121-r0
+t:1771607623
+c:e2d5626c43a7f47e89c17b126183331a69b21532
+D:linux-virt=6.6.127-r0
+i:rtpengine linux-virt=6.6.127-r0
 
 C:Q1qaDaqX1HOiUlW5MbdxJqKCERdc8=
 P:rtrlib
@@ -244005,51 +244005,51 @@ t:1701486185
 c:7e7a685467b3ef6bf1215d0580aef9edde209076
 i:docs toppler=1.1.6-r2
 
-C:Q17DftSTdyv3MpwQRxEI8cw6L/wrs=
+C:Q1RLQakdbEnMhakggPJdEHwd0cnrg=
 P:tor
-V:0.4.8.22-r0
+V:0.4.9.5-r0
 A:armv7
-S:6168015
-I:28700672
+S:6294471
+I:29302784
 T:Anonymous network connectivity
 U:https://www.torproject.org/
 L:BSD-3-Clause AND GPL-3.0-only
 o:tor
 m:omni <omni+alpine@hack.org>
-t:1769644628
-c:c654c583a7d312f2efca9f770088c9abd809bdda
+t:1771440001
+c:3b01afe8417ee21be24e27dbc576d7a5b7d7f0bc
 D:/bin/sh so:libc.musl-armv7.so.1 so:libcap.so.2 so:libcrypto.so.3 so:libevent-2.1.so.7 so:libgcc_s.so.1 so:liblzma.so.5 so:libseccomp.so.2 so:libssl.so.3 so:libz.so.1 so:libzstd.so.1
-p:cmd:tor-gencert=0.4.8.22-r0 cmd:tor-print-ed-signing-cert=0.4.8.22-r0 cmd:tor-resolve=0.4.8.22-r0 cmd:tor=0.4.8.22-r0 cmd:torify=0.4.8.22-r0
+p:cmd:tor-gencert=0.4.9.5-r0 cmd:tor-print-ed-signing-cert=0.4.9.5-r0 cmd:tor-resolve=0.4.9.5-r0 cmd:tor=0.4.9.5-r0 cmd:torify=0.4.9.5-r0
 
-C:Q1ABoDGzpBMO7QANmAtOsZCZVm/FU=
+C:Q1+LTfD4Mr2fCjoQJXwU4PZvKjrJE=
 P:tor-doc
-V:0.4.8.22-r0
+V:0.4.9.5-r0
 A:armv7
-S:63311
-I:94208
+S:64466
+I:98304
 T:Anonymous network connectivity (documentation)
 U:https://www.torproject.org/
 L:BSD-3-Clause AND GPL-3.0-only
 o:tor
 m:omni <omni+alpine@hack.org>
-t:1769644628
-c:c654c583a7d312f2efca9f770088c9abd809bdda
-i:docs tor=0.4.8.22-r0
+t:1771440001
+c:3b01afe8417ee21be24e27dbc576d7a5b7d7f0bc
+i:docs tor=0.4.9.5-r0
 
-C:Q1NKiGO47oYv6J34LLkdwxhB4RvxE=
+C:Q18OwuiW4YI/QUGP9t6CZP2JqwbYo=
 P:tor-openrc
-V:0.4.8.22-r0
+V:0.4.9.5-r0
 A:armv7
-S:2984
+S:2981
 I:24576
 T:Anonymous network connectivity (OpenRC init scripts)
 U:https://www.torproject.org/
 L:BSD-3-Clause AND GPL-3.0-only
 o:tor
 m:omni <omni+alpine@hack.org>
-t:1769644628
-c:c654c583a7d312f2efca9f770088c9abd809bdda
-i:openrc tor=0.4.8.22-r0
+t:1771440001
+c:3b01afe8417ee21be24e27dbc576d7a5b7d7f0bc
+i:openrc tor=0.4.9.5-r0
 
 C:Q1nVDkgTXGvPEXZ8s7CfvzkYOjdJs=
 P:torsocks
