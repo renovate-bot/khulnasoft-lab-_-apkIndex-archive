@@ -97005,13 +97005,15 @@
       "versions": {
         "0.86.4-r0": 1763199496,
         "0.86.11-r0": 1768331172,
-        "0.87.1-r0": 1770465027
+        "0.87.1-r0": 1770465027,
+        "0.87.4-r0": 1771975538
       },
       "dependencies": [
         "java-jre-headless",
         "/bin/sh",
         "so:libc.musl-x86_64.so.1",
-        "so:libgcc_s.so.1"
+        "so:libgcc_s.so.1",
+        "so:libstdc++.so.6"
       ],
       "provides": [
         "so:libsignal_jni.so=0"
