@@ -94482,7 +94482,8 @@
     "keepalived": {
       "origin": "keepalived",
       "versions": {
-        "2.3.4-r1": 1760776519
+        "2.3.4-r1": 1760776519,
+        "2.3.4-r2": 1772320580
       },
       "dependencies": [
         "keepalived-common",
@@ -94494,38 +94495,43 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:genhash=2.3.4-r1",
-        "cmd:keepalived=2.3.4-r1"
+        "cmd:genhash=2.3.4-r2",
+        "cmd:keepalived=2.3.4-r2"
       ]
     },
     "keepalived-common": {
       "origin": "keepalived",
       "versions": {
-        "2.3.4-r1": 1760776519
+        "2.3.4-r1": 1760776519,
+        "2.3.4-r2": 1772320580
       }
     },
     "keepalived-doc": {
       "origin": "keepalived",
       "versions": {
-        "2.3.4-r1": 1760776519
+        "2.3.4-r1": 1760776519,
+        "2.3.4-r2": 1772320580
       }
     },
     "keepalived-openrc": {
       "origin": "keepalived",
       "versions": {
-        "2.3.4-r1": 1760776519
+        "2.3.4-r1": 1760776519,
+        "2.3.4-r2": 1772320580
       }
     },
     "keepalived-sample-config": {
       "origin": "keepalived",
       "versions": {
-        "2.3.4-r1": 1760776519
+        "2.3.4-r1": 1760776519,
+        "2.3.4-r2": 1772320580
       }
     },
     "keepalived-snmp": {
       "origin": "keepalived",
       "versions": {
-        "2.3.4-r1": 1760776519
+        "2.3.4-r1": 1760776519,
+        "2.3.4-r2": 1772320580
       },
       "dependencies": [
         "keepalived-common",
@@ -94539,9 +94545,9 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "keepalived=2.3.4-r1",
-        "cmd:genhash=2.3.4-r1",
-        "cmd:keepalived=2.3.4-r1"
+        "keepalived=2.3.4-r2",
+        "cmd:genhash=2.3.4-r2",
+        "cmd:keepalived=2.3.4-r2"
       ]
     },
     "keepassxc": {
@@ -315517,7 +315523,7 @@
       },
       "keepalived": {
         "package": "keepalived-snmp",
-        "version": "2.3.4-r1"
+        "version": "2.3.4-r2"
       },
       "kconfig-hardened-check": {
         "package": "kernel-hardening-checker",
