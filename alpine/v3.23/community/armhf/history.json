@@ -176195,20 +176195,22 @@
     "py3-concurrent-log-handler": {
       "origin": "py3-concurrent-log-handler",
       "versions": {
-        "0.9.28-r0": 1750945842
+        "0.9.28-r0": 1750945842,
+        "0.9.29-r0": 1772384739
       },
       "dependencies": [
         "py3-portalocker",
         "python3~3.12"
       ],
       "provides": [
-        "py3.12:concurrent_log_handler=0.9.28-r0"
+        "py3.12:concurrent_log_handler=0.9.29-r0"
       ]
     },
     "py3-concurrent-log-handler-pyc": {
       "origin": "py3-concurrent-log-handler",
       "versions": {
-        "0.9.28-r0": 1750945842
+        "0.9.28-r0": 1750945842,
+        "0.9.29-r0": 1772384739
       },
       "dependencies": [
         "python3~3.12"
@@ -178253,20 +178255,22 @@
     "py3-django-environ": {
       "origin": "py3-django-environ",
       "versions": {
-        "0.12.0-r0": 1747478436
+        "0.12.0-r0": 1747478436,
+        "0.12.1-r0": 1772384570
       },
       "dependencies": [
         "py3-django",
         "python3~3.12"
       ],
       "provides": [
-        "py3.12:environ=0.12.0-r0"
+        "py3.12:environ=0.12.1-r0"
       ]
     },
     "py3-django-environ-pyc": {
       "origin": "py3-django-environ",
       "versions": {
-        "0.12.0-r0": 1747478436
+        "0.12.0-r0": 1747478436,
+        "0.12.1-r0": 1772384570
       },
       "dependencies": [
         "python3~3.12"
@@ -187133,19 +187137,21 @@
     "py3-lxml-html-clean": {
       "origin": "py3-lxml-html-clean",
       "versions": {
-        "0.4.3-r0": 1762569336
+        "0.4.3-r0": 1762569336,
+        "0.4.4-r0": 1772383211
       },
       "dependencies": [
         "python3~3.12"
       ],
       "provides": [
-        "py3.12:lxml_html_clean=0.4.3-r0"
+        "py3.12:lxml_html_clean=0.4.4-r0"
       ]
     },
     "py3-lxml-html-clean-pyc": {
       "origin": "py3-lxml-html-clean",
       "versions": {
-        "0.4.3-r0": 1762569336
+        "0.4.3-r0": 1762569336,
+        "0.4.4-r0": 1772383211
       },
       "dependencies": [
         "python3~3.12"
@@ -188065,20 +188071,22 @@
     "py3-mirakuru": {
       "origin": "py3-mirakuru",
       "versions": {
-        "3.0.1-r0": 1762597721
+        "3.0.1-r0": 1762597721,
+        "3.0.2-r0": 1772385572
       },
       "dependencies": [
         "py3-psutil",
         "python3~3.12"
       ],
       "provides": [
-        "py3.12:mirakuru=3.0.1-r0"
+        "py3.12:mirakuru=3.0.2-r0"
       ]
     },
     "py3-mirakuru-pyc": {
       "origin": "py3-mirakuru",
       "versions": {
-        "3.0.1-r0": 1762597721
+        "3.0.1-r0": 1762597721,
+        "3.0.2-r0": 1772385572
       },
       "dependencies": [
         "python3~3.12"
@@ -204529,19 +204537,25 @@
     "py3-webauthn": {
       "origin": "py3-webauthn",
       "versions": {
-        "2.7.0-r0": 1757690908
+        "2.7.0-r0": 1757690908,
+        "2.7.1-r0": 1772384592
       },
       "dependencies": [
+        "py3-asn1",
+        "py3-cbor2",
+        "py3-openssl",
+        "py3-cryptography",
         "python3~3.12"
       ],
       "provides": [
-        "py3.12:webauthn=2.7.0-r0"
+        "py3.12:webauthn=2.7.1-r0"
       ]
     },
     "py3-webauthn-pyc": {
       "origin": "py3-webauthn",
       "versions": {
-        "2.7.0-r0": 1757690908
+        "2.7.0-r0": 1757690908,
+        "2.7.1-r0": 1772384592
       },
       "dependencies": [
         "python3~3.12"
@@ -204573,7 +204587,8 @@
     "py3-webdavclient3": {
       "origin": "py3-webdavclient3",
       "versions": {
-        "3.14.6-r1": 1714950895
+        "3.14.6-r1": 1714950895,
+        "3.14.7-r0": 1772384666
       },
       "dependencies": [
         "py3-requests",
@@ -204582,14 +204597,15 @@
         "python3~3.12"
       ],
       "provides": [
-        "cmd:wdc=3.14.6-r1",
-        "py3.12:webdav3=3.14.6-r1"
+        "cmd:wdc=3.14.7-r0",
+        "py3.12:webdav3=3.14.7-r0"
       ]
     },
     "py3-webdavclient3-pyc": {
       "origin": "py3-webdavclient3",
       "versions": {
-        "3.14.6-r1": 1714950895
+        "3.14.6-r1": 1714950895,
+        "3.14.7-r0": 1772384666
       },
       "dependencies": [
         "python3~3.12"
