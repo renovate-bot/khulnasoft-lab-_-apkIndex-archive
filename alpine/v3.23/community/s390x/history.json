@@ -24158,7 +24158,8 @@
     "clamav": {
       "origin": "clamav",
       "versions": {
-        "1.4.3-r2": 1759708576
+        "1.4.3-r2": 1759708576,
+        "1.4.4-r0": 1773046436
       },
       "dependencies": [
         "clamav-scanner",
@@ -24172,30 +24173,32 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:clamonacc=1.4.3-r2",
-        "cmd:clamsubmit=1.4.3-r2",
-        "cmd:ex_basic_scandesc=1.4.3-r2",
-        "cmd:ex_file_inspection_callback=1.4.3-r2",
-        "cmd:ex_prescan_callback=1.4.3-r2"
+        "cmd:clamonacc=1.4.4-r0",
+        "cmd:clamsubmit=1.4.4-r0",
+        "cmd:ex_basic_scandesc=1.4.4-r0",
+        "cmd:ex_file_inspection_callback=1.4.4-r0",
+        "cmd:ex_prescan_callback=1.4.4-r0"
       ]
     },
     "clamav-clamdscan": {
       "origin": "clamav",
       "versions": {
-        "1.4.3-r2": 1759708576
+        "1.4.3-r2": 1759708576,
+        "1.4.4-r0": 1773046436
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
         "so:libclamav.so.12"
       ],
       "provides": [
-        "cmd:clamdscan=1.4.3-r2"
+        "cmd:clamdscan=1.4.4-r0"
       ]
     },
     "clamav-daemon": {
       "origin": "clamav",
       "versions": {
-        "1.4.3-r2": 1759708576
+        "1.4.3-r2": 1759708576,
+        "1.4.4-r0": 1773046436
       },
       "dependencies": [
         "freshclam",
@@ -24207,15 +24210,16 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:clamconf=1.4.3-r2",
-        "cmd:clamd=1.4.3-r2",
-        "cmd:clamdtop=1.4.3-r2"
+        "cmd:clamconf=1.4.4-r0",
+        "cmd:clamd=1.4.4-r0",
+        "cmd:clamdtop=1.4.4-r0"
       ]
     },
     "clamav-daemon-openrc": {
       "origin": "clamav",
       "versions": {
-        "1.4.3-r2": 1759708576
+        "1.4.3-r2": 1759708576,
+        "1.4.4-r0": 1773046436
       },
       "dependencies": [
         "freshclam-openrc"
@@ -24224,7 +24228,8 @@
     "clamav-db": {
       "origin": "clamav",
       "versions": {
-        "1.4.3-r2": 1759708576
+        "1.4.3-r2": 1759708576,
+        "1.4.4-r0": 1773046436
       },
       "dependencies": [
         "freshclam"
@@ -24233,29 +24238,32 @@
     "clamav-dev": {
       "origin": "clamav",
       "versions": {
-        "1.4.3-r2": 1759708576
+        "1.4.3-r2": 1759708576,
+        "1.4.4-r0": 1773046436
       },
       "dependencies": [
         "openssl-dev>3",
-        "clamav-libs=1.4.3-r2",
-        "clamav-libunrar=1.4.3-r2",
+        "clamav-libs=1.4.4-r0",
+        "clamav-libunrar=1.4.4-r0",
         "pkgconfig"
       ],
       "provides": [
-        "cmd:clamav-config=1.4.3-r2",
-        "pc:libclamav=1.4.3"
+        "cmd:clamav-config=1.4.4-r0",
+        "pc:libclamav=1.4.4"
       ]
     },
     "clamav-doc": {
       "origin": "clamav",
       "versions": {
-        "1.4.3-r2": 1759708576
+        "1.4.3-r2": 1759708576,
+        "1.4.4-r0": 1773046436
       }
     },
     "clamav-libs": {
       "origin": "clamav",
       "versions": {
-        "1.4.3-r2": 1759708576
+        "1.4.3-r2": 1759708576,
+        "1.4.4-r0": 1773046436
       },
       "dependencies": [
         "so:libbz2.so.1",
@@ -24278,7 +24286,8 @@
     "clamav-libunrar": {
       "origin": "clamav",
       "versions": {
-        "1.4.3-r2": 1759708576
+        "1.4.3-r2": 1759708576,
+        "1.4.4-r0": 1773046436
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -24293,7 +24302,8 @@
     "clamav-milter": {
       "origin": "clamav",
       "versions": {
-        "1.4.3-r2": 1759708576
+        "1.4.3-r2": 1759708576,
+        "1.4.4-r0": 1773046436
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -24301,13 +24311,14 @@
         "so:libmilter.so.1.0.2"
       ],
       "provides": [
-        "cmd:clamav-milter=1.4.3-r2"
+        "cmd:clamav-milter=1.4.4-r0"
       ]
     },
     "clamav-scanner": {
       "origin": "clamav",
       "versions": {
-        "1.4.3-r2": 1759708576
+        "1.4.3-r2": 1759708576,
+        "1.4.4-r0": 1773046436
       },
       "dependencies": [
         "freshclam",
@@ -24317,15 +24328,16 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:clambc=1.4.3-r2",
-        "cmd:clamscan=1.4.3-r2",
-        "cmd:sigtool=1.4.3-r2"
+        "cmd:clambc=1.4.4-r0",
+        "cmd:clamscan=1.4.4-r0",
+        "cmd:sigtool=1.4.4-r0"
       ]
     },
     "clamav-static": {
       "origin": "clamav",
       "versions": {
-        "1.4.3-r2": 1759708576
+        "1.4.3-r2": 1759708576,
+        "1.4.4-r0": 1773046436
       }
     },
     "clamsmtp": {
@@ -48587,7 +48599,8 @@
     "freshclam": {
       "origin": "clamav",
       "versions": {
-        "1.4.3-r2": 1759708576
+        "1.4.3-r2": 1759708576,
+        "1.4.4-r0": 1773046436
       },
       "dependencies": [
         "/bin/sh",
@@ -48596,13 +48609,14 @@
         "so:libfreshclam.so.3"
       ],
       "provides": [
-        "cmd:freshclam=1.4.3-r2"
+        "cmd:freshclam=1.4.4-r0"
       ]
     },
     "freshclam-openrc": {
       "origin": "clamav",
       "versions": {
-        "1.4.3-r2": 1759708576
+        "1.4.3-r2": 1759708576,
+        "1.4.4-r0": 1773046436
       }
     },
     "frog": {

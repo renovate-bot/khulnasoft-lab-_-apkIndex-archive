@@ -24467,193 +24467,193 @@ t:1760076806
 c:7c6e2b3f92d45ee244628a4f9c40f07901ef79b7
 i:docs ckermit=9.0.302-r7
 
-C:Q1XBTWeXZ9fS5Qgbaq8m4ZiCO7WZk=
+C:Q17QrplotSjEUJFYMydjCo0/GBJWM=
 P:clamav
-V:1.4.3-r2
+V:1.4.4-r0
 A:armhf
-S:543219
-I:1233180
+S:549787
+I:1241364
 T:An anti-virus toolkit for UNIX eis-ng backport
 U:https://www.clamav.net/
 L:GPL-2.0-only
 o:clamav
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1759708576
-c:9a86d3d35043845029602fe95a492e032925342d
+t:1773046436
+c:eba845f35859c4d78b1b36eadee3ffa8427638cf
 D:clamav-scanner clamav-daemon so:libc.musl-armhf.so.1 so:libclamav.so.12 so:libcrypto.so.3 so:libcurl.so.4 so:libfts.so.0 so:libgcc_s.so.1 so:libjson-c.so.5 so:libssl.so.3
-p:cmd:clamonacc=1.4.3-r2 cmd:clamsubmit=1.4.3-r2 cmd:ex_basic_scandesc=1.4.3-r2 cmd:ex_file_inspection_callback=1.4.3-r2 cmd:ex_prescan_callback=1.4.3-r2
+p:cmd:clamonacc=1.4.4-r0 cmd:clamsubmit=1.4.4-r0 cmd:ex_basic_scandesc=1.4.4-r0 cmd:ex_file_inspection_callback=1.4.4-r0 cmd:ex_prescan_callback=1.4.4-r0
 
-C:Q17OWyw+wHPfyq68bc5LjQMQz2w/I=
+C:Q1yJLaUgLWbbuDxU/UMZm1IbYHgPE=
 P:clamav-clamdscan
-V:1.4.3-r2
+V:1.4.4-r0
 A:armhf
-S:45588
-I:120236
+S:45589
+I:120240
 T:ClamAV daemon client
 U:https://www.clamav.net/
 L:GPL-2.0-only
 o:clamav
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1759708576
-c:9a86d3d35043845029602fe95a492e032925342d
+t:1773046436
+c:eba845f35859c4d78b1b36eadee3ffa8427638cf
 D:so:libc.musl-armhf.so.1 so:libclamav.so.12
-p:cmd:clamdscan=1.4.3-r2
+p:cmd:clamdscan=1.4.4-r0
 
-C:Q1RZmDmTZpcTL5oNiy9WeyHtrTzlw=
+C:Q1FI1B7LkjbLVr0HYZunDhEWdG2QE=
 P:clamav-daemon
-V:1.4.3-r2
+V:1.4.4-r0
 A:armhf
-S:158741
-I:418152
+S:158769
+I:418168
 T:ClamAV daemon scanner
 U:https://www.clamav.net/
 L:GPL-2.0-only
 o:clamav
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1759708576
-c:9a86d3d35043845029602fe95a492e032925342d
+t:1773046436
+c:eba845f35859c4d78b1b36eadee3ffa8427638cf
 D:freshclam clamav-clamdscan /bin/sh so:libc.musl-armhf.so.1 so:libclamav.so.12 so:libgcc_s.so.1 so:libncursesw.so.6 so:libz.so.1
-p:cmd:clamconf=1.4.3-r2 cmd:clamd=1.4.3-r2 cmd:clamdtop=1.4.3-r2
+p:cmd:clamconf=1.4.4-r0 cmd:clamd=1.4.4-r0 cmd:clamdtop=1.4.4-r0
 
-C:Q1f5p0o+33kV65aN38JITczxGjJp0=
+C:Q1Jcua1lViyfClK5lT8ou8r0zgmlI=
 P:clamav-daemon-openrc
-V:1.4.3-r2
+V:1.4.4-r0
 A:armhf
-S:2683
+S:2678
 I:2249
 T:ClamAV anti-virus scanner daemon (OpenRC init scripts)
 U:https://www.clamav.net/
 L:GPL-2.0-only
 o:clamav
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1759708576
-c:9a86d3d35043845029602fe95a492e032925342d
+t:1773046436
+c:eba845f35859c4d78b1b36eadee3ffa8427638cf
 D:freshclam-openrc
-i:clamav-daemon=1.4.3-r2 openrc
+i:clamav-daemon=1.4.4-r0 openrc
 
-C:Q1ZRMmQcke5r/ROSeKm9/c6W+JIbI=
+C:Q1g6v9Whv3a2dwu9BQ07rNeF3tVpg=
 P:clamav-db
-V:1.4.3-r2
+V:1.4.4-r0
 A:armhf
-S:1627
+S:1621
 I:1
 T:ClamAV dummy package for compatibility
 U:https://www.clamav.net/
 L:GPL-2.0-only
 o:clamav
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1759708576
-c:9a86d3d35043845029602fe95a492e032925342d
+t:1773046436
+c:eba845f35859c4d78b1b36eadee3ffa8427638cf
 D:freshclam
 
-C:Q1lHx4Kiv1Ax2jFSmWdq0aQVKvWmg=
+C:Q1sg6RpkDZ5BZWdwyrs1rgxTDKRuU=
 P:clamav-dev
-V:1.4.3-r2
+V:1.4.4-r0
 A:armhf
-S:19828
+S:19823
 I:82041
 T:An anti-virus toolkit for UNIX eis-ng backport (development files)
 U:https://www.clamav.net/
 L:GPL-2.0-only
 o:clamav
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1759708576
-c:9a86d3d35043845029602fe95a492e032925342d
-D:openssl-dev>3 clamav-libs=1.4.3-r2 clamav-libunrar=1.4.3-r2 pkgconfig
-p:cmd:clamav-config=1.4.3-r2 pc:libclamav=1.4.3
+t:1773046436
+c:eba845f35859c4d78b1b36eadee3ffa8427638cf
+D:openssl-dev>3 clamav-libs=1.4.4-r0 clamav-libunrar=1.4.4-r0 pkgconfig
+p:cmd:clamav-config=1.4.4-r0 pc:libclamav=1.4.4
 
-C:Q1qaoE1Gsl0TQJj/FGnDE3gTZn+3k=
+C:Q1/Wl8gOSou/QygWLJWg+NBOT7FDc=
 P:clamav-doc
-V:1.4.3-r2
+V:1.4.4-r0
 A:armhf
-S:2775446
-I:8111127
+S:2263534
+I:7615634
 T:An anti-virus toolkit for UNIX eis-ng backport (documentation)
 U:https://www.clamav.net/
 L:GPL-2.0-only
 o:clamav
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1759708576
-c:9a86d3d35043845029602fe95a492e032925342d
-i:docs clamav=1.4.3-r2
+t:1773046436
+c:eba845f35859c4d78b1b36eadee3ffa8427638cf
+i:docs clamav=1.4.4-r0
 
-C:Q1drYpD9C/nFBvY22gwNGOz03Ac/M=
+C:Q1PzgA6uWseW0qCfz/nxwS/sAjiZw=
 P:clamav-libs
-V:1.4.3-r2
+V:1.4.4-r0
 A:armhf
-S:6941470
-I:17441528
+S:9490700
+I:22287024
 T:An anti-virus toolkit for UNIX eis-ng backport (libraries)
 U:https://www.clamav.net/
 L:GPL-2.0-only
 o:clamav
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1759708576
-c:9a86d3d35043845029602fe95a492e032925342d
+t:1773046436
+c:eba845f35859c4d78b1b36eadee3ffa8427638cf
 D:so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgcc_s.so.1 so:libjson-c.so.5 so:libmspack.so.0 so:libpcre2-8.so.0 so:libssl.so.3 so:libxml2.so.2 so:libz.so.1
 p:so:libclamav.so.12=12.0.3 so:libfreshclam.so.3=3.0.2
 
-C:Q1awZl99mYIcXuhNgNKvrZgzf4ZzE=
+C:Q1Ku7M3DFnmqYIaTknnJZJdHs1ggY=
 P:clamav-libunrar
-V:1.4.3-r2
+V:1.4.4-r0
 A:armhf
-S:121198
+S:121191
 I:224948
 T:ClamAV unrar libraries
 U:https://www.clamav.net/
 L:GPL-2.0-only
 o:clamav
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1759708576
-c:9a86d3d35043845029602fe95a492e032925342d
+t:1773046436
+c:eba845f35859c4d78b1b36eadee3ffa8427638cf
 D:so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 p:so:libclamunrar.so.12=12.0.3 so:libclamunrar_iface.so.12=12.0.3
 
-C:Q1tzCKCU151hWeLH2XeBIvS5B0Xw8=
+C:Q1QWPsXITuODzqiTglglMPIdHmN9Y=
 P:clamav-milter
-V:1.4.3-r2
+V:1.4.4-r0
 A:armhf
-S:52966
-I:134125
+S:52976
+I:134129
 T:ClamAV milter
 U:https://www.clamav.net/
 L:GPL-2.0-only
 o:clamav
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1759708576
-c:9a86d3d35043845029602fe95a492e032925342d
+t:1773046436
+c:eba845f35859c4d78b1b36eadee3ffa8427638cf
 D:so:libc.musl-armhf.so.1 so:libclamav.so.12 so:libmilter.so.1.0.2
-p:cmd:clamav-milter=1.4.3-r2
+p:cmd:clamav-milter=1.4.4-r0
 
-C:Q1aRJ+ucpQCR21ROpF8JIh//FskTo=
+C:Q14QGCgEpVcnQtMIy0t4Wb2RGwME0=
 P:clamav-scanner
-V:1.4.3-r2
+V:1.4.4-r0
 A:armhf
-S:6779642
-I:17057396
+S:9337656
+I:21911088
 T:ClamAV command-line scanner and utils
 U:https://www.clamav.net/
 L:GPL-2.0-only
 o:clamav
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1759708576
-c:9a86d3d35043845029602fe95a492e032925342d
+t:1773046436
+c:eba845f35859c4d78b1b36eadee3ffa8427638cf
 D:freshclam so:libc.musl-armhf.so.1 so:libclamav.so.12 so:libgcc_s.so.1 so:libz.so.1
-p:cmd:clambc=1.4.3-r2 cmd:clamscan=1.4.3-r2 cmd:sigtool=1.4.3-r2
+p:cmd:clambc=1.4.4-r0 cmd:clamscan=1.4.4-r0 cmd:sigtool=1.4.4-r0
 
-C:Q1ULocnFQVPLmJ2I/suKRmPyJ/758=
+C:Q1FGQGMF5Y33zRy+26HTYSBLt6S/k=
 P:clamav-static
-V:1.4.3-r2
+V:1.4.4-r0
 A:armhf
-S:27800867
-I:106406728
+S:47546561
+I:191542230
 T:An anti-virus toolkit for UNIX eis-ng backport (static library)
 U:https://www.clamav.net/
 L:GPL-2.0-only
 o:clamav
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1759708576
-c:9a86d3d35043845029602fe95a492e032925342d
+t:1773046436
+c:eba845f35859c4d78b1b36eadee3ffa8427638cf
 
 C:Q17iv7KzPf3Vc25SPjWZ1bebs40Go=
 P:clamsmtp
@@ -52351,36 +52351,36 @@ c:cf16a3b81f143d7a65561017a5df086badd4c27a
 D:frei0r-plugins pkgconfig
 p:pc:frei0r=1.8
 
-C:Q14f7VhOev11yom8kxlA+y31NjW24=
+C:Q1jVWmXEPp4sh95YnsQA4ziVC/LmI=
 P:freshclam
-V:1.4.3-r2
+V:1.4.4-r0
 A:armhf
-S:28008
+S:28010
 I:58082
 T:Auto-updater for the Clam Antivirus scanner data-files
 U:https://www.clamav.net/
 L:GPL-2.0-only
 o:clamav
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1759708576
-c:9a86d3d35043845029602fe95a492e032925342d
+t:1773046436
+c:eba845f35859c4d78b1b36eadee3ffa8427638cf
 D:/bin/sh so:libc.musl-armhf.so.1 so:libclamav.so.12 so:libfreshclam.so.3
-p:cmd:freshclam=1.4.3-r2
+p:cmd:freshclam=1.4.4-r0
 
-C:Q1KhKg+XeNtj00Zrp81pNxdFlkE4k=
+C:Q1EV29W4CcBLYkbbogVslUezuLjds=
 P:freshclam-openrc
-V:1.4.3-r2
+V:1.4.4-r0
 A:armhf
-S:2330
+S:2332
 I:1234
 T:Auto-updater for the Clam Antivirus scanner data-files (OpenRC init scripts)
 U:https://www.clamav.net/
 L:GPL-2.0-only
 o:clamav
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1759708576
-c:9a86d3d35043845029602fe95a492e032925342d
-i:freshclam=1.4.3-r2 openrc
+t:1773046436
+c:eba845f35859c4d78b1b36eadee3ffa8427638cf
+i:freshclam=1.4.4-r0 openrc
 
 C:Q1eHuijEiimEgQjZ7f0DIjCD+urz0=
 P:frog
