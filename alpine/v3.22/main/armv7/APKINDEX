@@ -67218,228 +67218,228 @@ c:8cd10457339db83d978b3814b239119d64d53832
 D:zsh
 i:zsh=5.9-r5 postgresql-client
 
-C:Q1xAlvtg/BlvEFhqNJ9JZtlhSFJVg=
+C:Q1DIqPx+afwaFLZu/MeV8bJ0YO+gA=
 P:postgresql16
-V:16.12-r0
+V:16.13-r0
 A:armv7
-S:5257962
+S:5258130
 I:11622022
 T:A sophisticated object-relational DBMS, version 16
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1771183876
-c:6384242df5f02465b9a4ffc2348d01324fb56c79
+t:1773266576
+c:645f190c3442e9f095bc37d0c1fc39d1bd8e8b83
 k:16
 D:postgresql16-client postgresql-common tzdata /bin/sh so:libc.musl-armv7.so.1 so:libcrypto.so.3 so:libicui18n.so.76 so:libicuuc.so.76 so:libldap.so.2 so:liblz4.so.1 so:libpq.so.5 so:libssl.so.3 so:libxml2.so.2 so:libz.so.1 so:libzstd.so.1
-p:postgresql cmd:pg_rewind cmd:pg_archivecleanup cmd:pg_resetwal cmd:pg_upgrade cmd:initdb cmd:pg_checksums cmd:pg_test_fsync cmd:postgres cmd:pg_test_timing cmd:pg_controldata cmd:pg_ctl cmd:pg_waldump cmd:postgres16=16.12-r0
+p:postgresql cmd:pg_archivecleanup cmd:pg_resetwal cmd:pg_ctl cmd:pg_checksums cmd:pg_waldump cmd:pg_test_timing cmd:pg_rewind cmd:pg_test_fsync cmd:pg_upgrade cmd:postgres cmd:initdb cmd:pg_controldata cmd:postgres16=16.13-r0
 
-C:Q1iiHtPa7G+Td525M8cG985ZH40DQ=
+C:Q13oyHiyAsLaxEcyc2RiX8+wxdDGg=
 P:postgresql16-client
-V:16.12-r0
+V:16.13-r0
 A:armv7
-S:1133199
+S:1133224
 I:2280495
 T:PostgreSQL client
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1771183876
-c:6384242df5f02465b9a4ffc2348d01324fb56c79
+t:1773266576
+c:645f190c3442e9f095bc37d0c1fc39d1bd8e8b83
 k:16
 D:postgresql-common so:libc.musl-armv7.so.1 so:libcrypto.so.3 so:liblz4.so.1 so:libpq.so.5 so:libreadline.so.8 so:libz.so.1 so:libzstd.so.1
 p:postgresql-client cmd:clusterdb cmd:createdb cmd:createuser cmd:dropdb cmd:dropuser cmd:pg_amcheck cmd:pg_basebackup cmd:pg_dump cmd:pg_dumpall cmd:pg_isready cmd:pg_receivewal cmd:pg_recvlogical cmd:pg_restore cmd:pg_verifybackup cmd:pgbench cmd:psql cmd:reindexdb cmd:vacuumdb
 
-C:Q1ZfDB9mKmK3a7zCGhIGR0R+/ZgSw=
+C:Q1bHTqdSdStNXfn6yLcCyijKjDgLE=
 P:postgresql16-contrib
-V:16.12-r0
+V:16.13-r0
 A:armv7
-S:566150
+S:566173
 I:1584159
 T:Extension modules distributed with PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1771183876
-c:6384242df5f02465b9a4ffc2348d01324fb56c79
+t:1773266576
+c:645f190c3442e9f095bc37d0c1fc39d1bd8e8b83
 k:16
-D:postgresql16=16.12-r0 so:libc.musl-armv7.so.1 so:libcrypto.so.3 so:libpq.so.5 so:libuuid.so.1 so:libxml2.so.2 so:libz.so.1
+D:postgresql16=16.13-r0 so:libc.musl-armv7.so.1 so:libcrypto.so.3 so:libpq.so.5 so:libuuid.so.1 so:libxml2.so.2 so:libz.so.1
 p:postgresql-contrib cmd:oid2name cmd:vacuumlo
 
-C:Q13xMMgVadk8ePQxBNyrcwUp/tXQY=
+C:Q1fs1MU8wh++Nt+Ho2VqP6dB5dkRk=
 P:postgresql16-contrib-jit
-V:16.12-r0
+V:16.13-r0
 A:armv7
-S:1699244
-I:3127028
+S:1699237
+I:3127052
 T:Extension modules distributed with PostgreSQL (JIT support)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1771183876
-c:6384242df5f02465b9a4ffc2348d01324fb56c79
+t:1773266576
+c:645f190c3442e9f095bc37d0c1fc39d1bd8e8b83
 k:16
-D:postgresql16-contrib=16.12-r0
+D:postgresql16-contrib=16.13-r0
 p:postgresql-contrib-jit
-i:postgresql16-jit postgresql16-contrib=16.12-r0
+i:postgresql16-jit postgresql16-contrib=16.13-r0
 
-C:Q1zaKA66I6WPaKP1ivQiXjeTVxtEQ=
+C:Q1kotq0Qi89R9kaaZMxsHIBz49L3w=
 P:postgresql16-dev
-V:16.12-r0
+V:16.13-r0
 A:armv7
-S:1863678
-I:6726497
+S:1863707
+I:6726688
 T:A sophisticated object-relational DBMS, version 16 (development files)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1771183876
-c:6384242df5f02465b9a4ffc2348d01324fb56c79
+t:1773266576
+c:645f190c3442e9f095bc37d0c1fc39d1bd8e8b83
 k:16
 D:libpq-dev libecpg-dev clang16 icu-dev llvm16 lz4-dev openssl-dev zstd-dev so:libc.musl-armv7.so.1 so:libpq.so.5
 p:postgresql-dev
 
-C:Q13qqRzpJIOlkjHxC3a3V+LFdpBPQ=
+C:Q1lGgGFpcQREDjQxyvE18Sf6MiZp4=
 P:postgresql16-doc
-V:16.12-r0
+V:16.13-r0
 A:armv7
-S:508356
-I:2151067
+S:508433
+I:2151386
 T:A sophisticated object-relational DBMS, version 16 (documentation)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1771183876
-c:6384242df5f02465b9a4ffc2348d01324fb56c79
+t:1773266576
+c:645f190c3442e9f095bc37d0c1fc39d1bd8e8b83
 k:16
 p:postgresql-doc
-i:docs postgresql16=16.12-r0
+i:docs postgresql16=16.13-r0
 
-C:Q1dsYXz0f1Ffr4CTjr0EnP6zTasr8=
+C:Q1pzXsKttiRd3JkxziI1lJNYMWozw=
 P:postgresql16-jit
-V:16.12-r0
+V:16.13-r0
 A:armv7
-S:12982827
-I:22542836
+S:12983206
+I:22543248
 T:Just-in-time compilation support for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1771183876
-c:6384242df5f02465b9a4ffc2348d01324fb56c79
+t:1773266576
+c:645f190c3442e9f095bc37d0c1fc39d1bd8e8b83
 k:16
-D:postgresql16=16.12-r0 so:libLLVM-16.so so:libc.musl-armv7.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+D:postgresql16=16.13-r0 so:libLLVM-16.so so:libc.musl-armv7.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 p:postgresql-jit
 
-C:Q1lNsutXbUQmS9WgZwiBHSSMOo1+8=
+C:Q1HJJnhvC8kc/d++yShrM/8dDyyuU=
 P:postgresql16-openrc
-V:16.12-r0
+V:16.13-r0
 A:armv7
-S:1344
+S:1338
 I:0
 T:A sophisticated object-relational DBMS, version 16 (OpenRC init scripts)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1771183876
-c:6384242df5f02465b9a4ffc2348d01324fb56c79
+t:1773266576
+c:645f190c3442e9f095bc37d0c1fc39d1bd8e8b83
 k:16
 D:postgresql-common-openrc
-i:openrc postgresql16=16.12-r0
+i:openrc postgresql16=16.13-r0
 
-C:Q1NMyGfLMhQNNdB12gfEKjB8TFv7g=
+C:Q1LKrPaenUsMwKihuP9VcIFMVLQKo=
 P:postgresql16-plperl
-V:16.12-r0
+V:16.13-r0
 A:armv7
-S:35163
+S:35164
 I:64153
 T:PL/Perl procedural language for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1771183876
-c:6384242df5f02465b9a4ffc2348d01324fb56c79
+t:1773266576
+c:645f190c3442e9f095bc37d0c1fc39d1bd8e8b83
 k:16
-D:postgresql16=16.12-r0 so:libc.musl-armv7.so.1 so:libperl.so
+D:postgresql16=16.13-r0 so:libc.musl-armv7.so.1 so:libperl.so
 p:postgresql-plperl
 
-C:Q14gLR3xGcLWh9P5QBsVl/G4iSw64=
+C:Q1Et+X9JxSrJPlqHy4VjUykfixEIQ=
 P:postgresql16-plperl-contrib
-V:16.12-r0
+V:16.13-r0
 A:armv7
-S:5733
+S:5734
 I:10918
 T:PL/Perl extension modules distributed with PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1771183876
-c:6384242df5f02465b9a4ffc2348d01324fb56c79
+t:1773266576
+c:645f190c3442e9f095bc37d0c1fc39d1bd8e8b83
 k:16
-D:postgresql16-plperl=16.12-r0 so:libc.musl-armv7.so.1 so:libperl.so
+D:postgresql16-plperl=16.13-r0 so:libc.musl-armv7.so.1 so:libperl.so
 p:postgresql-plperl-contrib
-i:postgresql16-plperl=16.12-r0 postgresql16-contrib=16.12-r0
+i:postgresql16-plperl=16.13-r0 postgresql16-contrib=16.13-r0
 
-C:Q1xIfwjnLwaDUA5XSer1KKpH+q4dc=
+C:Q1Ot/KdSuqKf1dvy7HW9Vv9orVffg=
 P:postgresql16-plpython3
-V:16.12-r0
+V:16.13-r0
 A:armv7
-S:42603
+S:42602
 I:89648
 T:PL/Python3 procedural language for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1771183876
-c:6384242df5f02465b9a4ffc2348d01324fb56c79
+t:1773266576
+c:645f190c3442e9f095bc37d0c1fc39d1bd8e8b83
 k:16
-D:postgresql16=16.12-r0 python3 so:libc.musl-armv7.so.1 so:libpython3.12.so.1.0
+D:postgresql16=16.13-r0 python3 so:libc.musl-armv7.so.1 so:libpython3.12.so.1.0
 p:postgresql-plpython3
 
-C:Q1nYwGF1hk/8K5rByvOoum95ArQrI=
+C:Q1yKv+AIh5+KBASMXAqeur04re454=
 P:postgresql16-plpython3-contrib
-V:16.12-r0
+V:16.13-r0
 A:armv7
-S:6573
+S:6576
 I:16173
 T:PL/Python 3 extension modules distributed with PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1771183876
-c:6384242df5f02465b9a4ffc2348d01324fb56c79
+t:1773266576
+c:645f190c3442e9f095bc37d0c1fc39d1bd8e8b83
 k:16
-D:postgresql16-plpython3=16.12-r0 so:libc.musl-armv7.so.1 so:libpython3.12.so.1.0
+D:postgresql16-plpython3=16.13-r0 so:libc.musl-armv7.so.1 so:libpython3.12.so.1.0
 p:postgresql-plpython3-contrib
-i:postgresql16-plpython3=16.12-r0 postgresql16-contrib=16.12-r0
+i:postgresql16-plpython3=16.13-r0 postgresql16-contrib=16.13-r0
 
-C:Q17WBuEWlLrLs/gFb4e+uYqYTNbS8=
+C:Q1DkQ35BuG82Gl310gkq1RLBLrNTY=
 P:postgresql16-pltcl
-V:16.12-r0
+V:16.13-r0
 A:armv7
-S:23209
+S:23206
 I:43742
 T:PL/Tcl procedural language for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql16
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1771183876
-c:6384242df5f02465b9a4ffc2348d01324fb56c79
+t:1773266576
+c:645f190c3442e9f095bc37d0c1fc39d1bd8e8b83
 k:16
-D:postgresql16=16.12-r0 pgtcl so:libc.musl-armv7.so.1 so:libtcl8.6.so
+D:postgresql16=16.13-r0 pgtcl so:libc.musl-armv7.so.1 so:libtcl8.6.so
 p:postgresql-pltcl
 
 C:Q1E/oU6q1PR8mZEwngEZNYAtGLNZo=
