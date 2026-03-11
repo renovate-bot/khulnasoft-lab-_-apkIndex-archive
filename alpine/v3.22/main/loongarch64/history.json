@@ -25991,7 +25991,8 @@
         "17.5-r0": 1747092581,
         "17.6-r0": 1755513206,
         "17.7-r0": 1763207833,
-        "17.8-r0": 1771179432
+        "17.8-r0": 1771179432,
+        "17.9-r0": 1773257279
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -26010,19 +26011,20 @@
         "17.5-r0": 1747092581,
         "17.6-r0": 1755513206,
         "17.7-r0": 1763207833,
-        "17.8-r0": 1771179432
+        "17.8-r0": 1771179432,
+        "17.9-r0": 1773257279
       },
       "dependencies": [
-        "libpq-dev=17.8-r0",
-        "libecpg=17.8-r0",
+        "libpq-dev=17.9-r0",
+        "libecpg=17.9-r0",
         "pc:libpq",
         "pkgconfig",
         "so:libc.musl-loongarch64.so.1"
       ],
       "provides": [
-        "pc:libecpg=17.8",
-        "pc:libpgtypes=17.8",
-        "cmd:ecpg=17.8-r0"
+        "pc:libecpg=17.9",
+        "pc:libpgtypes=17.9",
+        "cmd:ecpg=17.9-r0"
       ]
     },
     "libedit": {
@@ -28504,7 +28506,8 @@
         "17.5-r0": 1747092581,
         "17.6-r0": 1755513206,
         "17.7-r0": 1763207833,
-        "17.8-r0": 1771179432
+        "17.8-r0": 1771179432,
+        "17.9-r0": 1773257279
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -28522,18 +28525,19 @@
         "17.5-r0": 1747092581,
         "17.6-r0": 1755513206,
         "17.7-r0": 1763207833,
-        "17.8-r0": 1771179432
+        "17.8-r0": 1771179432,
+        "17.9-r0": 1773257279
       },
       "dependencies": [
-        "libpq=17.8-r0",
+        "libpq=17.9-r0",
         "pc:libcrypto",
         "pc:libssl",
         "pkgconfig",
         "so:libc.musl-loongarch64.so.1"
       ],
       "provides": [
-        "pc:libpq=17.8",
-        "cmd:pg_config=17.8-r0"
+        "pc:libpq=17.9",
+        "cmd:pg_config=17.9-r0"
       ]
     },
     "libproc2": {
@@ -55356,7 +55360,8 @@
         "17.5-r0": 1747092581,
         "17.6-r0": 1755513206,
         "17.7-r0": 1763207833,
-        "17.8-r0": 1771179432
+        "17.8-r0": 1771179432,
+        "17.9-r0": 1773257279
       },
       "dependencies": [
         "postgresql17-client",
@@ -55379,20 +55384,20 @@
         "postgresql",
         "cmd:pg_controldata",
         "cmd:pg_combinebackup",
-        "cmd:pg_walsummary",
-        "cmd:pg_test_timing",
         "cmd:pg_waldump",
-        "cmd:pg_test_fsync",
-        "cmd:pg_resetwal",
-        "cmd:pg_createsubscriber",
-        "cmd:pg_ctl",
-        "cmd:pg_rewind",
-        "cmd:postgres",
-        "cmd:initdb",
-        "cmd:pg_archivecleanup",
         "cmd:pg_checksums",
+        "cmd:pg_test_timing",
+        "cmd:postgres",
+        "cmd:pg_walsummary",
+        "cmd:pg_test_fsync",
+        "cmd:initdb",
+        "cmd:pg_createsubscriber",
+        "cmd:pg_resetwal",
         "cmd:pg_upgrade",
-        "cmd:postgres17=17.8-r0"
+        "cmd:pg_ctl",
+        "cmd:pg_archivecleanup",
+        "cmd:pg_rewind",
+        "cmd:postgres17=17.9-r0"
       ]
     },
     "postgresql17-client": {
@@ -55402,7 +55407,8 @@
         "17.5-r0": 1747092581,
         "17.6-r0": 1755513206,
         "17.7-r0": 1763207833,
-        "17.8-r0": 1771179432
+        "17.8-r0": 1771179432,
+        "17.9-r0": 1773257279
       },
       "dependencies": [
         "postgresql-common",
@@ -55443,10 +55449,11 @@
         "17.5-r0": 1747092581,
         "17.6-r0": 1755513206,
         "17.7-r0": 1763207833,
-        "17.8-r0": 1771179432
+        "17.8-r0": 1771179432,
+        "17.9-r0": 1773257279
       },
       "dependencies": [
-        "postgresql17=17.8-r0",
+        "postgresql17=17.9-r0",
         "so:libc.musl-loongarch64.so.1",
         "so:libcrypto.so.3",
         "so:libpq.so.5",
@@ -55467,10 +55474,11 @@
         "17.5-r0": 1747092581,
         "17.6-r0": 1755513206,
         "17.7-r0": 1763207833,
-        "17.8-r0": 1771179432
+        "17.8-r0": 1771179432,
+        "17.9-r0": 1773257279
       },
       "dependencies": [
-        "postgresql17-contrib=17.8-r0"
+        "postgresql17-contrib=17.9-r0"
       ],
       "provides": [
         "postgresql-contrib-jit"
@@ -55483,7 +55491,8 @@
         "17.5-r0": 1747092581,
         "17.6-r0": 1755513206,
         "17.7-r0": 1763207833,
-        "17.8-r0": 1771179432
+        "17.8-r0": 1771179432,
+        "17.9-r0": 1773257279
       },
       "dependencies": [
         "libpq-dev",
@@ -55508,7 +55517,8 @@
         "17.5-r0": 1747092581,
         "17.6-r0": 1755513206,
         "17.7-r0": 1763207833,
-        "17.8-r0": 1771179432
+        "17.8-r0": 1771179432,
+        "17.9-r0": 1773257279
       },
       "provides": [
         "postgresql-doc"
@@ -55521,10 +55531,11 @@
         "17.5-r0": 1747092581,
         "17.6-r0": 1755513206,
         "17.7-r0": 1763207833,
-        "17.8-r0": 1771179432
+        "17.8-r0": 1771179432,
+        "17.9-r0": 1773257279
       },
       "dependencies": [
-        "postgresql17=17.8-r0",
+        "postgresql17=17.9-r0",
         "so:libLLVM.so.18.1",
         "so:libc.musl-loongarch64.so.1",
         "so:libgcc_s.so.1",
@@ -55541,7 +55552,8 @@
         "17.5-r0": 1747092581,
         "17.6-r0": 1755513206,
         "17.7-r0": 1763207833,
-        "17.8-r0": 1771179432
+        "17.8-r0": 1771179432,
+        "17.9-r0": 1773257279
       },
       "dependencies": [
         "postgresql-common-openrc"
@@ -55554,10 +55566,11 @@
         "17.5-r0": 1747092581,
         "17.6-r0": 1755513206,
         "17.7-r0": 1763207833,
-        "17.8-r0": 1771179432
+        "17.8-r0": 1771179432,
+        "17.9-r0": 1773257279
       },
       "dependencies": [
-        "postgresql17=17.8-r0",
+        "postgresql17=17.9-r0",
         "so:libc.musl-loongarch64.so.1",
         "so:libperl.so"
       ],
@@ -55572,10 +55585,11 @@
         "17.5-r0": 1747092581,
         "17.6-r0": 1755513206,
         "17.7-r0": 1763207833,
-        "17.8-r0": 1771179432
+        "17.8-r0": 1771179432,
+        "17.9-r0": 1773257279
       },
       "dependencies": [
-        "postgresql17-plperl=17.8-r0",
+        "postgresql17-plperl=17.9-r0",
         "so:libc.musl-loongarch64.so.1",
         "so:libperl.so"
       ],
@@ -55590,10 +55604,11 @@
         "17.5-r0": 1747092581,
         "17.6-r0": 1755513206,
         "17.7-r0": 1763207833,
-        "17.8-r0": 1771179432
+        "17.8-r0": 1771179432,
+        "17.9-r0": 1773257279
       },
       "dependencies": [
-        "postgresql17=17.8-r0",
+        "postgresql17=17.9-r0",
         "python3",
         "so:libc.musl-loongarch64.so.1",
         "so:libpython3.12.so.1.0"
@@ -55609,10 +55624,11 @@
         "17.5-r0": 1747092581,
         "17.6-r0": 1755513206,
         "17.7-r0": 1763207833,
-        "17.8-r0": 1771179432
+        "17.8-r0": 1771179432,
+        "17.9-r0": 1773257279
       },
       "dependencies": [
-        "postgresql17-plpython3=17.8-r0",
+        "postgresql17-plpython3=17.9-r0",
         "so:libc.musl-loongarch64.so.1",
         "so:libpython3.12.so.1.0"
       ],
@@ -55627,10 +55643,11 @@
         "17.5-r0": 1747092581,
         "17.6-r0": 1755513206,
         "17.7-r0": 1763207833,
-        "17.8-r0": 1771179432
+        "17.8-r0": 1771179432,
+        "17.9-r0": 1773257279
       },
       "dependencies": [
-        "postgresql17=17.8-r0",
+        "postgresql17=17.9-r0",
         "pgtcl",
         "so:libc.musl-loongarch64.so.1",
         "so:libtcl8.6.so"
