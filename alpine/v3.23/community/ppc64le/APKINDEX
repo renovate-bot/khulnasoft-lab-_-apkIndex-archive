@@ -16569,48 +16569,66 @@ t:1726952552
 c:22059c75745f1552f4be2bb60c1335279f4cfe30
 D:bash bats-core
 
-C:Q1iN8GN9CPVCQW12Mo7YyeVR2o3mM=
-P:bcachefs-tools
-V:1.31.8-r1
+C:Q1xYgI/gYr6kpx9shFyFKCehfwrCI=
+P:bcachefs-src
+V:1.36.0-r0
 A:ppc64le
-S:2374119
-I:6581006
+S:817685
+I:3363622
+T:Kernel module for BCacheFS (sources, AKMS)
+U:https://bcachefs.org/
+L:GPL-2-or-later
+o:bcachefs-tools
+m:Logan Gartner <git@lgartner.xyz>
+t:1773433824
+c:8af481e60de26aab2c4e0debf69a74df82146284
+D:akms
+
+C:Q10VsTbl1vJATjgtG5XkZdJRaxyWM=
+P:bcachefs-tools
+V:1.36.0-r0
+A:ppc64le
+S:1786324
+I:3750388
 T:userspace tools for bcachefs
 U:https://bcachefs.org/
 L:GPL-2-or-later
 o:bcachefs-tools
-t:1764188250
-c:7831ef13a9d4ad46cbf4962aa573f81225e8220d
+m:Logan Gartner <git@lgartner.xyz>
+t:1773433824
+c:8af481e60de26aab2c4e0debf69a74df82146284
 D:so:libaio.so.1 so:libblkid.so.1 so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libkeyutils.so.1 so:liblz4.so.1 so:libsodium.so.26 so:libudev.so.1 so:liburcu.so.8 so:libuuid.so.1 so:libz.so.1 so:libzstd.so.1
-p:cmd:bcachefs=1.31.8-r1 cmd:fsck.bcachefs=1.31.8-r1 cmd:fsck.fuse.bcachefs=1.31.8-r1 cmd:mkfs.bcachefs=1.31.8-r1 cmd:mkfs.fuse.bcachefs=1.31.8-r1 cmd:mount.bcachefs=1.31.8-r1 cmd:mount.fuse.bcachefs=1.31.8-r1
+p:cmd:bcachefs=1.36.0-r0 cmd:fsck.bcachefs=1.36.0-r0 cmd:mkfs.bcachefs=1.36.0-r0 cmd:mount.bcachefs=1.36.0-r0
 
-C:Q1KuKA4QTkGb/WaCn2tnRX5yyQStk=
+C:Q1nUUvX7cHKKauhBtQ46re8jH+2NQ=
 P:bcachefs-tools-doc
-V:1.31.8-r1
+V:1.36.0-r0
 A:ppc64le
-S:6624
-I:5137
+S:6704
+I:5191
 T:userspace tools for bcachefs (documentation)
 U:https://bcachefs.org/
 L:GPL-2-or-later
 o:bcachefs-tools
-t:1764188250
-c:7831ef13a9d4ad46cbf4962aa573f81225e8220d
-i:docs bcachefs-tools=1.31.8-r1
+m:Logan Gartner <git@lgartner.xyz>
+t:1773433824
+c:8af481e60de26aab2c4e0debf69a74df82146284
+i:docs bcachefs-tools=1.36.0-r0
 
-C:Q1j5o7tM86ygpPsMnuuVYtPHChW6Y=
+C:Q16AjS7akR7vPu5eEFrJygsSMU05w=
 P:bcachefs-tools-udev
-V:1.31.8-r1
+V:1.36.0-r0
 A:ppc64le
-S:1773
-I:640
+S:1969
+I:989
 T:userspace tools for bcachefs (udev rules)
 U:https://bcachefs.org/
 L:GPL-2-or-later
 o:bcachefs-tools
-t:1764188250
-c:7831ef13a9d4ad46cbf4962aa573f81225e8220d
-i:udev bcachefs-tools=1.31.8-r1
+m:Logan Gartner <git@lgartner.xyz>
+t:1773433824
+c:8af481e60de26aab2c4e0debf69a74df82146284
+i:udev bcachefs-tools=1.36.0-r0
 
 C:Q1t0nAXd0WtAHDUPRwWTH0iKJP7hA=
 P:bcc
@@ -312126,9 +312144,9 @@ c:2009d694c2d217c4d927c8a0289d9cae51e70f95
 D:python3~3.12
 i:yq-python=3.2.3-r0 pyc
 
-C:Q1VTttG9Rl3oIy/QYwT8ya3xU9fHw=
+C:Q1sx0Cp+qnsKtkIbTZO5neZ8cxXSc=
 P:yt-dlp
-V:2026.03.03-r0
+V:2026.03.13-r0
 A:ppc64le
 S:1112
 I:0
@@ -312137,167 +312155,167 @@ U:https://github.com/yt-dlp/yt-dlp
 L:Unlicense
 o:yt-dlp
 m:lauren n. liberda <lauren@selfisekai.rocks>
-t:1772586526
-c:fa87bca315dcfb0b2121ba28cd5d42b6be7c9e68
-D:attr ca-certificates ffmpeg py3-brotli py3-mutagen py3-pycryptodomex py3-secretstorage py3-websockets yt-dlp-ejs yt-dlp-core=2026.03.03-r0
+t:1773428239
+c:3fe2fbee3a05b8b64d78e089d7f7a341767a3465
+D:attr ca-certificates ffmpeg py3-brotli py3-mutagen py3-pycryptodomex py3-secretstorage py3-websockets yt-dlp-ejs yt-dlp-core=2026.03.13-r0
 
-C:Q1Ke74PMtRaSNzg6zLjn/lzIXXEH4=
+C:Q124/s4hvviE5pz0Hg7w0HUSffPCQ=
 P:yt-dlp-bash-completion
-V:2026.03.03-r0
+V:2026.03.13-r0
 A:ppc64le
-S:3351
+S:3355
 I:6009
 T:Bash completions for yt-dlp
 U:https://github.com/yt-dlp/yt-dlp
 L:Unlicense
 o:yt-dlp
 m:lauren n. liberda <lauren@selfisekai.rocks>
-t:1772586526
-c:fa87bca315dcfb0b2121ba28cd5d42b6be7c9e68
-i:yt-dlp=2026.03.03-r0 bash-completion
+t:1773428239
+c:3fe2fbee3a05b8b64d78e089d7f7a341767a3465
+i:yt-dlp=2026.03.13-r0 bash-completion
 
-C:Q1KR05xD9gL9GEPLATcTwZDWsLcno=
+C:Q1iLw5z43A6yOeeELRJt3+EYr1WBg=
 P:yt-dlp-core
-V:2026.03.03-r0
+V:2026.03.13-r0
 A:ppc64le
-S:2683059
-I:10665306
+S:2682437
+I:10653474
 T:Command-line program to download videos from YouTube
 U:https://github.com/yt-dlp/yt-dlp
 L:Unlicense
 o:yt-dlp
 m:lauren n. liberda <lauren@selfisekai.rocks>
-t:1772586526
-c:fa87bca315dcfb0b2121ba28cd5d42b6be7c9e68
+t:1773428239
+c:3fe2fbee3a05b8b64d78e089d7f7a341767a3465
 D:python3 python3~3.12
-p:youtube-dl=2026.03.03-r0 cmd:youtube-dl=2026.03.03-r0 cmd:yt-dlp=2026.03.03-r0 py3.12:yt_dlp=2026.03.03-r0
+p:youtube-dl=2026.03.13-r0 cmd:youtube-dl=2026.03.13-r0 cmd:yt-dlp=2026.03.13-r0 py3.12:yt_dlp=2026.03.13-r0
 
-C:Q1AnJTLeCom030oWPU5ueNeBwu9xo=
+C:Q1mOtGXjWng4KO5ypERv4j13s5eBk=
 P:yt-dlp-core-pyc
-V:2026.03.03-r0
+V:2026.03.13-r0
 A:ppc64le
-S:5028905
-I:11137213
+S:5030067
+I:11139178
 T:Precompiled Python bytecode for yt-dlp-core
 U:https://github.com/yt-dlp/yt-dlp
 L:Unlicense
 o:yt-dlp
 m:lauren n. liberda <lauren@selfisekai.rocks>
-t:1772586526
-c:fa87bca315dcfb0b2121ba28cd5d42b6be7c9e68
+t:1773428239
+c:3fe2fbee3a05b8b64d78e089d7f7a341767a3465
 D:python3~3.12
-i:yt-dlp-core=2026.03.03-r0 pyc
+i:yt-dlp-core=2026.03.13-r0 pyc
 
-C:Q1l0BZMdfWQsunMevOXc3456AA5y8=
+C:Q1d4/inJRcEX4JSNZGXcaX8VpTXDc=
 P:yt-dlp-doc
-V:2026.03.03-r0
+V:2026.03.13-r0
 A:ppc64le
-S:98794
-I:214511
+S:98864
+I:214676
 T:Command-line program to download videos from YouTube (documentation)
 U:https://github.com/yt-dlp/yt-dlp
 L:Unlicense
 o:yt-dlp
 m:lauren n. liberda <lauren@selfisekai.rocks>
-t:1772586526
-c:fa87bca315dcfb0b2121ba28cd5d42b6be7c9e68
-i:docs yt-dlp=2026.03.03-r0
+t:1773428239
+c:3fe2fbee3a05b8b64d78e089d7f7a341767a3465
+i:docs yt-dlp=2026.03.13-r0
 
-C:Q17JJMmxEVo8ZY+MRohP4YnoolVUs=
+C:Q1C5ZUYhYBINiJbxA05dHMY2uiEiI=
 P:yt-dlp-ejs
-V:0.5.0-r0
+V:0.7.0-r0
 A:ppc64le
-S:54019
-I:170994
+S:53548
+I:165308
 T:External JavaScript for yt-dlp
 U:https://github.com/yt-dlp/ejs
 L:Unlicense
 o:yt-dlp-ejs
 m:lauren n. liberda <lauren@selfisekai.rocks>
-t:1771789586
-c:c9a14967c21b698e666a40f8626c494f11851675
-D:yt-dlp-ejs-rt=0.5.0-r0 python3~3.12
-p:py3.12:yt_dlp_ejs=0.5.0-r0
+t:1773427869
+c:bbd9fc65509f0245732c51f006e9a6d6961a6321
+D:yt-dlp-ejs-rt=0.7.0-r0 python3~3.12
+p:py3.12:yt_dlp_ejs=0.7.0-r0
 
-C:Q1yUIVz0sqdUrLuinChAyBsvjjcBg=
+C:Q1YbHMSBPNqi5Ma+81myKPJzw+Rm8=
 P:yt-dlp-ejs-pyc
-V:0.5.0-r0
+V:0.7.0-r0
 A:ppc64le
-S:3037
+S:3035
 I:2307
 T:Precompiled Python bytecode for yt-dlp-ejs
 U:https://github.com/yt-dlp/ejs
 L:Unlicense
 o:yt-dlp-ejs
 m:lauren n. liberda <lauren@selfisekai.rocks>
-t:1771789586
-c:c9a14967c21b698e666a40f8626c494f11851675
+t:1773427869
+c:bbd9fc65509f0245732c51f006e9a6d6961a6321
 D:python3~3.12
-i:yt-dlp-ejs=0.5.0-r0 pyc
+i:yt-dlp-ejs=0.7.0-r0 pyc
 
-C:Q1PkcvG8fMG5BPq6v2WLUgEnIZ4+c=
+C:Q1+E+IycSoxdxwJ4pBT9XMCYhNi6Y=
 P:yt-dlp-ejs-rt-nodejs
-V:0.5.0-r0
+V:0.7.0-r0
 A:ppc64le
-S:1052
+S:1051
 I:0
 T:External JavaScript for yt-dlp
 U:https://github.com/yt-dlp/ejs
 L:Unlicense
 o:yt-dlp-ejs
 m:lauren n. liberda <lauren@selfisekai.rocks>
-t:1771789586
-c:c9a14967c21b698e666a40f8626c494f11851675
+t:1773427869
+c:bbd9fc65509f0245732c51f006e9a6d6961a6321
 k:10
 D:nodejs
-p:yt-dlp-ejs-rt=0.5.0-r0
+p:yt-dlp-ejs-rt=0.7.0-r0
 
-C:Q17ZEs1eyErxgzCnBiBhnKDlALjY8=
+C:Q1QUfqzxK96WNhiSfIJQLLzhD/dic=
 P:yt-dlp-ejs-rt-quickjs
-V:0.5.0-r0
+V:0.7.0-r0
 A:ppc64le
-S:1350
+S:1349
 I:1
 T:External JavaScript for yt-dlp
 U:https://github.com/yt-dlp/ejs
 L:Unlicense
 o:yt-dlp-ejs
 m:lauren n. liberda <lauren@selfisekai.rocks>
-t:1771789586
-c:c9a14967c21b698e666a40f8626c494f11851675
+t:1773427869
+c:bbd9fc65509f0245732c51f006e9a6d6961a6321
 k:20
 D:quickjs /bin/sh
-p:yt-dlp-ejs-rt=0.5.0-r0
+p:yt-dlp-ejs-rt=0.7.0-r0
 
-C:Q1QoT2NNCucqzutZtxRTbxR2HmMQ4=
+C:Q16RDMbdnlOe28qI82ld2oiBK6TWc=
 P:yt-dlp-fish-completion
-V:2026.03.03-r0
+V:2026.03.13-r0
 A:ppc64le
-S:14074
+S:14075
 I:51638
 T:Fish completions for yt-dlp
 U:https://github.com/yt-dlp/yt-dlp
 L:Unlicense
 o:yt-dlp
 m:lauren n. liberda <lauren@selfisekai.rocks>
-t:1772586526
-c:fa87bca315dcfb0b2121ba28cd5d42b6be7c9e68
-i:yt-dlp=2026.03.03-r0 fish
+t:1773428239
+c:3fe2fbee3a05b8b64d78e089d7f7a341767a3465
+i:yt-dlp=2026.03.13-r0 fish
 
-C:Q1rDWR37azxD8+cEqJvleySBgVpeA=
+C:Q16lCW970chfwX3ek1o+Eag5RIrRg=
 P:yt-dlp-zsh-completion
-V:2026.03.03-r0
+V:2026.03.13-r0
 A:ppc64le
-S:3346
+S:3347
 I:6005
 T:Zsh completions for yt-dlp
 U:https://github.com/yt-dlp/yt-dlp
 L:Unlicense
 o:yt-dlp
 m:lauren n. liberda <lauren@selfisekai.rocks>
-t:1772586526
-c:fa87bca315dcfb0b2121ba28cd5d42b6be7c9e68
-i:yt-dlp=2026.03.03-r0 zsh
+t:1773428239
+c:3fe2fbee3a05b8b64d78e089d7f7a341767a3465
+i:yt-dlp=2026.03.13-r0 zsh
 
 C:Q1YiydC96VBccawmNLNycv/vUI72I=
 P:ytdl-sub
