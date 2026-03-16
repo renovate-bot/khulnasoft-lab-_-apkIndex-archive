@@ -36656,7 +36656,8 @@
         "8.0.124-r0": 1771643297,
         "10.0.104-r0": 1773334707,
         "9.0.115-r0": 1773339195,
-        "8.0.125-r0": 1773344990
+        "8.0.125-r0": 1773344990,
+        "10.0.105-r0": 1773686159
       },
       "dependencies": [
         "dotnet-host"
@@ -36680,7 +36681,8 @@
         "8.0.124-r0": 1771643297,
         "10.0.104-r0": 1773334707,
         "9.0.115-r0": 1773339195,
-        "8.0.125-r0": 1773344990
+        "8.0.125-r0": 1773344990,
+        "10.0.105-r0": 1773686159
       }
     },
     "dotnet-host": {
@@ -36700,7 +36702,8 @@
         "8.0.24-r0": 1771643297,
         "10.0.4-r0": 1773334707,
         "9.0.14-r0": 1773339195,
-        "8.0.25-r0": 1773344990
+        "8.0.25-r0": 1773344990,
+        "10.0.5-r0": 1773686159
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -36708,8 +36711,8 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:dnx=10.0.4-r0",
-        "cmd:dotnet=10.0.4-r0"
+        "cmd:dnx=10.0.5-r0",
+        "cmd:dotnet=10.0.5-r0"
       ]
     },
     "dotnet-zsh-completion": {
@@ -36730,7 +36733,8 @@
         "8.0.124-r0": 1771643297,
         "10.0.104-r0": 1773334707,
         "9.0.115-r0": 1773339195,
-        "8.0.125-r0": 1773344990
+        "8.0.125-r0": 1773344990,
+        "10.0.105-r0": 1773686159
       },
       "dependencies": [
         "dotnet-host"
@@ -199869,7 +199873,8 @@
     "powershell": {
       "origin": "powershell",
       "versions": {
-        "7.5.4-r0": 1761203877
+        "7.5.4-r0": 1761203877,
+        "7.5.5-r0": 1773685247
       },
       "dependencies": [
         "dotnet9-runtime",
@@ -199879,7 +199884,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:pwsh=7.5.4-r0"
+        "cmd:pwsh=7.5.5-r0"
       ]
     },
     "powersupply": {
@@ -294133,13 +294138,14 @@
         "10.0.1-r0": 1765412097,
         "10.0.2-r0": 1768497822,
         "10.0.3-r0": 1771615754,
-        "10.0.4-r0": 1773334707
+        "10.0.4-r0": 1773334707,
+        "10.0.5-r0": 1773686159
       },
       "dependencies": [
         "dotnet10-runtime"
       ],
       "provides": [
-        "aspnetcore-runtime-10.0=10.0.4-r0"
+        "aspnetcore-runtime-10.0=10.0.5-r0"
       ]
     },
     "aspnetcore10-runtime-dbg": {
@@ -294149,13 +294155,14 @@
         "10.0.1-r0": 1765412097,
         "10.0.2-r0": 1768497822,
         "10.0.3-r0": 1771615754,
-        "10.0.4-r0": 1773334707
+        "10.0.4-r0": 1773334707,
+        "10.0.5-r0": 1773686159
       },
       "dependencies": [
         "aspnetcore10-runtime"
       ],
       "provides": [
-        "aspnetcore-runtime-dbg-10.0=10.0.4-r0"
+        "aspnetcore-runtime-dbg-10.0=10.0.5-r0"
       ]
     },
     "aspnetcore10-targeting-pack": {
@@ -294165,7 +294172,8 @@
         "10.0.1-r0": 1765412097,
         "10.0.2-r0": 1768497822,
         "10.0.3-r0": 1771615754,
-        "10.0.4-r0": 1773334707
+        "10.0.4-r0": 1773334707,
+        "10.0.5-r0": 1773686159
       },
       "dependencies": [
         "dotnet10-hostfxr",
@@ -294173,7 +294181,7 @@
         "icu-libs"
       ],
       "provides": [
-        "aspnetcore-targeting-pack-10.0=10.0.4-r0"
+        "aspnetcore-targeting-pack-10.0=10.0.5-r0"
       ]
     },
     "dotnet10-apphost-pack": {
@@ -294183,7 +294191,8 @@
         "10.0.1-r0": 1765412097,
         "10.0.2-r0": 1768497822,
         "10.0.3-r0": 1771615754,
-        "10.0.4-r0": 1773334707
+        "10.0.4-r0": 1773334707,
+        "10.0.5-r0": 1773686159
       },
       "dependencies": [
         "dotnet10-hostfxr",
@@ -294199,7 +294208,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "dotnet-apphost-pack-10.0=10.0.4-r0",
+        "dotnet-apphost-pack-10.0=10.0.5-r0",
         "so:dotnet10:libnethost.so=0"
       ]
     },
@@ -294210,7 +294219,8 @@
         "10.0.1-r0": 1765412097,
         "10.0.2-r0": 1768497822,
         "10.0.3-r0": 1771615754,
-        "10.0.4-r0": 1773334707
+        "10.0.4-r0": 1773334707,
+        "10.0.5-r0": 1773686159
       },
       "dependencies": [
         "dotnet-host",
@@ -294219,7 +294229,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "dotnet-hostfxr-10.0=10.0.4-r0",
+        "dotnet-hostfxr-10.0=10.0.5-r0",
         "so:dotnet10:libhostfxr.so=0"
       ]
     },
@@ -294230,7 +294240,8 @@
         "10.0.1-r0": 1765412097,
         "10.0.2-r0": 1768497822,
         "10.0.3-r0": 1771615754,
-        "10.0.4-r0": 1773334707
+        "10.0.4-r0": 1773334707,
+        "10.0.5-r0": 1773686159
       },
       "dependencies": [
         "dotnet10-hostfxr",
@@ -294247,7 +294258,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "dotnet10=10.0.4-r0",
+        "dotnet10=10.0.5-r0",
         "so:dotnet10:libSystem.Globalization.Native.so=0",
         "so:dotnet10:libSystem.IO.Compression.Native.so=0",
         "so:dotnet10:libSystem.Native.so=0",
@@ -294269,7 +294280,8 @@
         "10.0.1-r0": 1765412097,
         "10.0.2-r0": 1768497822,
         "10.0.3-r0": 1771615754,
-        "10.0.4-r0": 1773334707
+        "10.0.4-r0": 1773334707,
+        "10.0.5-r0": 1773686159
       },
       "provides": [
         "dotnet10-bootstrap-artifacts"
@@ -294282,7 +294294,8 @@
         "10.0.1-r0": 1765412097,
         "10.0.2-r0": 1768497822,
         "10.0.3-r0": 1771615754,
-        "10.0.4-r0": 1773334707
+        "10.0.4-r0": 1773334707,
+        "10.0.5-r0": 1773686159
       },
       "dependencies": [
         "so:libbrotlidec.so.1",
@@ -294323,13 +294336,14 @@
         "10.0.1-r0": 1765412097,
         "10.0.2-r0": 1768497822,
         "10.0.3-r0": 1771615754,
-        "10.0.4-r0": 1773334707
+        "10.0.4-r0": 1773334707,
+        "10.0.5-r0": 1773686159
       },
       "dependencies": [
         "dotnet10-runtime"
       ],
       "provides": [
-        "dotnet-runtime-dbg-10.0=10.0.4-r0"
+        "dotnet-runtime-dbg-10.0=10.0.5-r0"
       ]
     },
     "dotnet10-sdk": {
@@ -294340,7 +294354,8 @@
         "10.0.101-r1": 1765558740,
         "10.0.102-r0": 1768497822,
         "10.0.103-r0": 1771615754,
-        "10.0.104-r0": 1773334707
+        "10.0.104-r0": 1773334707,
+        "10.0.105-r0": 1773686159
       },
       "dependencies": [
         "aspnetcore10-runtime",
@@ -294359,8 +294374,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "dotnet-sdk-10.0=10.0.104-r0",
-        "dotnet10-dev=10.0.104-r0"
+        "dotnet-sdk-10.0=10.0.105-r0",
+        "dotnet10-dev=10.0.105-r0"
       ]
     },
     "dotnet10-sdk-aot": {
@@ -294371,7 +294386,8 @@
         "10.0.101-r1": 1765558740,
         "10.0.102-r0": 1768497822,
         "10.0.103-r0": 1771615754,
-        "10.0.104-r0": 1773334707
+        "10.0.104-r0": 1773334707,
+        "10.0.105-r0": 1773686159
       },
       "dependencies": [
         "dotnet10-sdk",
@@ -294389,7 +294405,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "dotnet-sdk-aot-10.0=10.0.104-r0"
+        "dotnet-sdk-aot-10.0=10.0.105-r0"
       ]
     },
     "dotnet10-sdk-dbg": {
@@ -294400,13 +294416,14 @@
         "10.0.101-r1": 1765558740,
         "10.0.102-r0": 1768497822,
         "10.0.103-r0": 1771615754,
-        "10.0.104-r0": 1773334707
+        "10.0.104-r0": 1773334707,
+        "10.0.105-r0": 1773686159
       },
       "dependencies": [
         "dotnet10-sdk"
       ],
       "provides": [
-        "dotnet-sdk-dbg-10.0=10.0.104-r0"
+        "dotnet-sdk-dbg-10.0=10.0.105-r0"
       ]
     },
     "dotnet10-stage0": {
@@ -294459,7 +294476,8 @@
         "10.0.1-r0": 1765412097,
         "10.0.2-r0": 1768497822,
         "10.0.3-r0": 1771615754,
-        "10.0.4-r0": 1773334707
+        "10.0.4-r0": 1773334707,
+        "10.0.5-r0": 1773686159
       },
       "dependencies": [
         "dotnet10-hostfxr",
@@ -294467,7 +294485,7 @@
         "icu-libs"
       ],
       "provides": [
-        "dotnet-targeting-pack-10.0=10.0.4-r0"
+        "dotnet-targeting-pack-10.0=10.0.5-r0"
       ]
     },
     "dotnet10-templates": {
@@ -294478,13 +294496,14 @@
         "10.0.101-r1": 1765558740,
         "10.0.102-r0": 1768497822,
         "10.0.103-r0": 1771615754,
-        "10.0.104-r0": 1773334707
+        "10.0.104-r0": 1773334707,
+        "10.0.105-r0": 1773686159
       },
       "dependencies": [
         "dotnet-host"
       ],
       "provides": [
-        "dotnet-templates-10.0=10.0.104-r0"
+        "dotnet-templates-10.0=10.0.105-r0"
       ]
     },
     "font-adwaita-mono-nerd": {
@@ -321447,27 +321466,27 @@
       },
       "aspnetcore-runtime-10.0": {
         "package": "aspnetcore10-runtime",
-        "version": "10.0.4-r0"
+        "version": "10.0.5-r0"
       },
       "aspnetcore-runtime-dbg-10.0": {
         "package": "aspnetcore10-runtime-dbg",
-        "version": "10.0.4-r0"
+        "version": "10.0.5-r0"
       },
       "aspnetcore-targeting-pack-10.0": {
         "package": "aspnetcore10-targeting-pack",
-        "version": "10.0.4-r0"
+        "version": "10.0.5-r0"
       },
       "dotnet-apphost-pack-10.0": {
         "package": "dotnet10-apphost-pack",
-        "version": "10.0.4-r0"
+        "version": "10.0.5-r0"
       },
       "dotnet-hostfxr-10.0": {
         "package": "dotnet10-hostfxr",
-        "version": "10.0.4-r0"
+        "version": "10.0.5-r0"
       },
       "dotnet10": {
         "package": "dotnet10-runtime",
-        "version": "10.0.4-r0"
+        "version": "10.0.5-r0"
       },
       "dotnet10-bootstrap-artifacts": {
         "package": "dotnet10-stage0-artifacts",
@@ -321479,31 +321498,31 @@
       },
       "dotnet-runtime-dbg-10.0": {
         "package": "dotnet10-runtime-dbg",
-        "version": "10.0.4-r0"
+        "version": "10.0.5-r0"
       },
       "dotnet-sdk-10.0": {
         "package": "dotnet10-sdk",
-        "version": "10.0.104-r0"
+        "version": "10.0.105-r0"
       },
       "dotnet10-dev": {
         "package": "dotnet10-sdk",
-        "version": "10.0.104-r0"
+        "version": "10.0.105-r0"
       },
       "dotnet-sdk-aot-10.0": {
         "package": "dotnet10-sdk-aot",
-        "version": "10.0.104-r0"
+        "version": "10.0.105-r0"
       },
       "dotnet-sdk-dbg-10.0": {
         "package": "dotnet10-sdk-dbg",
-        "version": "10.0.104-r0"
+        "version": "10.0.105-r0"
       },
       "dotnet-targeting-pack-10.0": {
         "package": "dotnet10-targeting-pack",
-        "version": "10.0.4-r0"
+        "version": "10.0.5-r0"
       },
       "dotnet-templates-10.0": {
         "package": "dotnet10-templates",
-        "version": "10.0.104-r0"
+        "version": "10.0.105-r0"
       },
       "gthumb-gstreamer": {
         "package": "gthumb",
