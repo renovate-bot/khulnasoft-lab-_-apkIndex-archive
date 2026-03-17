@@ -94173,7 +94173,8 @@
         "6.0.5-r5": 1768509151,
         "6.0.5-r6": 1769343046,
         "6.0.5-r7": 1770283019,
-        "6.0.5-r8": 1773040615
+        "6.0.5-r8": 1773040615,
+        "6.0.6-r0": 1773732248
       },
       "dependencies": [
         "acl",
@@ -94202,7 +94203,7 @@
         "so:libudev.so.1"
       ],
       "provides": [
-        "cmd:incusd=6.0.5-r8"
+        "cmd:incusd=6.0.6-r0"
       ]
     },
     "incus-agent": {
@@ -94213,7 +94214,8 @@
         "6.0.5-r5": 1768509151,
         "6.0.5-r6": 1769343046,
         "6.0.5-r7": 1770283019,
-        "6.0.5-r8": 1773040615
+        "6.0.5-r8": 1773040615,
+        "6.0.6-r0": 1773732248
       },
       "dependencies": [
         "acl",
@@ -94232,7 +94234,7 @@
         "xz"
       ],
       "provides": [
-        "cmd:incus-agent=6.0.5-r8"
+        "cmd:incus-agent=6.0.6-r0"
       ]
     },
     "incus-agent-openrc": {
@@ -94243,7 +94245,8 @@
         "6.0.5-r5": 1768509151,
         "6.0.5-r6": 1769343046,
         "6.0.5-r7": 1770283019,
-        "6.0.5-r8": 1773040615
+        "6.0.5-r8": 1773040615,
+        "6.0.6-r0": 1773732248
       },
       "dependencies": [
         "acl",
@@ -94270,7 +94273,8 @@
         "6.0.5-r5": 1768509151,
         "6.0.5-r6": 1769343046,
         "6.0.5-r7": 1770283019,
-        "6.0.5-r8": 1773040615
+        "6.0.5-r8": 1773040615,
+        "6.0.6-r0": 1773732248
       }
     },
     "incus-client": {
@@ -94281,7 +94285,8 @@
         "6.0.5-r5": 1768509151,
         "6.0.5-r6": 1769343046,
         "6.0.5-r7": 1770283019,
-        "6.0.5-r8": 1773040615
+        "6.0.5-r8": 1773040615,
+        "6.0.6-r0": 1773732248
       },
       "dependencies": [
         "acl",
@@ -94302,7 +94307,7 @@
         "so:libintl.so.8"
       ],
       "provides": [
-        "cmd:incus=6.0.5-r8"
+        "cmd:incus=6.0.6-r0"
       ]
     },
     "incus-conversion": {
@@ -94313,7 +94318,8 @@
         "6.0.5-r5": 1768509151,
         "6.0.5-r6": 1769343046,
         "6.0.5-r7": 1770283019,
-        "6.0.5-r8": 1773040615
+        "6.0.5-r8": 1773040615,
+        "6.0.6-r0": 1773732248
       },
       "dependencies": [
         "acl",
@@ -94335,8 +94341,8 @@
         "so:liblxc.so.1"
       ],
       "provides": [
-        "cmd:lxc-to-incus=6.0.5-r8",
-        "cmd:lxd-to-incus=6.0.5-r8"
+        "cmd:lxc-to-incus=6.0.6-r0",
+        "cmd:lxd-to-incus=6.0.6-r0"
       ]
     },
     "incus-feature": {
@@ -94701,10 +94707,11 @@
         "6.0.5-r5": 1768509151,
         "6.0.5-r6": 1769343046,
         "6.0.5-r7": 1770283019,
-        "6.0.5-r8": 1773040615
+        "6.0.5-r8": 1773040615,
+        "6.0.6-r0": 1773732248
       },
       "provides": [
-        "incus-lts-openrc=6.0.5-r8"
+        "incus-lts-openrc=6.0.6-r0"
       ]
     },
     "incus-user": {
@@ -94715,7 +94722,8 @@
         "6.0.5-r5": 1768509151,
         "6.0.5-r6": 1769343046,
         "6.0.5-r7": 1770283019,
-        "6.0.5-r8": 1773040615
+        "6.0.5-r8": 1773040615,
+        "6.0.6-r0": 1773732248
       },
       "dependencies": [
         "acl",
@@ -94737,7 +94745,7 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:incus-user=6.0.5-r8"
+        "cmd:incus-user=6.0.6-r0"
       ]
     },
     "incus-user-openrc": {
@@ -94748,7 +94756,8 @@
         "6.0.5-r5": 1768509151,
         "6.0.5-r6": 1769343046,
         "6.0.5-r7": 1770283019,
-        "6.0.5-r8": 1773040615
+        "6.0.5-r8": 1773040615,
+        "6.0.6-r0": 1773732248
       },
       "dependencies": [
         "acl",
@@ -94775,7 +94784,8 @@
         "6.0.5-r5": 1768509151,
         "6.0.5-r6": 1769343046,
         "6.0.5-r7": 1770283019,
-        "6.0.5-r8": 1773040615
+        "6.0.5-r8": 1773040615,
+        "6.0.6-r0": 1773732248
       },
       "dependencies": [
         "incus",
@@ -94789,16 +94799,16 @@
         "so:libsqlite3.so.0"
       ],
       "provides": [
-        "cmd:empty-incus.sh=6.0.5-r8",
-        "cmd:fuidshift=6.0.5-r8",
-        "cmd:generate-config=6.0.5-r8",
-        "cmd:generate-database=6.0.5-r8",
-        "cmd:incus-benchmark=6.0.5-r8",
-        "cmd:incus-migrate=6.0.5-r8",
-        "cmd:incus-simplestreams=6.0.5-r8",
-        "cmd:mini-oidc=6.0.5-r8",
-        "cmd:sysinfo=6.0.5-r8",
-        "cmd:tls2jwt=6.0.5-r8"
+        "cmd:empty-incus.sh=6.0.6-r0",
+        "cmd:fuidshift=6.0.6-r0",
+        "cmd:generate-config=6.0.6-r0",
+        "cmd:generate-database=6.0.6-r0",
+        "cmd:incus-benchmark=6.0.6-r0",
+        "cmd:incus-migrate=6.0.6-r0",
+        "cmd:incus-simplestreams=6.0.6-r0",
+        "cmd:mini-oidc=6.0.6-r0",
+        "cmd:sysinfo=6.0.6-r0",
+        "cmd:tls2jwt=6.0.6-r0"
       ]
     },
     "incus-vm": {
@@ -94809,7 +94819,8 @@
         "6.0.5-r5": 1768509151,
         "6.0.5-r6": 1769343046,
         "6.0.5-r7": 1770283019,
-        "6.0.5-r8": 1773040615
+        "6.0.5-r8": 1773040615,
+        "6.0.6-r0": 1773732248
       },
       "dependencies": [
         "aavmf",
@@ -260019,7 +260030,8 @@
         "6.10.1-r6": 1771480720,
         "6.10.1-r7": 1772014002,
         "6.10.1-r8": 1772484695,
-        "6.10.1-r9": 1773018211
+        "6.10.1-r9": 1773018211,
+        "6.10.1-r10": 1773734749
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -260104,7 +260116,8 @@
         "6.10.1-r6": 1771480720,
         "6.10.1-r7": 1772014002,
         "6.10.1-r8": 1772484695,
-        "6.10.1-r9": 1773018211
+        "6.10.1-r9": 1773018211,
+        "6.10.1-r10": 1773734749
       },
       "dependencies": [
         "alsa-lib-dev",
@@ -260129,7 +260142,7 @@
         "qt6-qttools-dev",
         "qt6-qtwebchannel-dev",
         "snappy-dev",
-        "qt6-qtwebengine=6.10.1-r9",
+        "qt6-qtwebengine=6.10.1-r10",
         "pc:Qt6Core",
         "pc:Qt6Gui",
         "pc:Qt6Network",
@@ -261089,34 +261102,37 @@
       "origin": "rabbitmq-server",
       "versions": {
         "4.2.1-r0": 1763361906,
-        "4.2.4-r0": 1771405162
+        "4.2.4-r0": 1771405162,
+        "4.2.5-r0": 1773740779
       },
       "dependencies": [
         "erlang",
         "/bin/sh"
       ],
       "provides": [
-        "cmd:rabbitmq-diagnostics=4.2.4-r0",
-        "cmd:rabbitmq-plugins=4.2.4-r0",
-        "cmd:rabbitmq-queues=4.2.4-r0",
-        "cmd:rabbitmq-server=4.2.4-r0",
-        "cmd:rabbitmq-streams=4.2.4-r0",
-        "cmd:rabbitmq-upgrade=4.2.4-r0",
-        "cmd:rabbitmqctl=4.2.4-r0"
+        "cmd:rabbitmq-diagnostics=4.2.5-r0",
+        "cmd:rabbitmq-plugins=4.2.5-r0",
+        "cmd:rabbitmq-queues=4.2.5-r0",
+        "cmd:rabbitmq-server=4.2.5-r0",
+        "cmd:rabbitmq-streams=4.2.5-r0",
+        "cmd:rabbitmq-upgrade=4.2.5-r0",
+        "cmd:rabbitmqctl=4.2.5-r0"
       ]
     },
     "rabbitmq-server-doc": {
       "origin": "rabbitmq-server",
       "versions": {
         "4.2.1-r0": 1763361906,
-        "4.2.4-r0": 1771405162
+        "4.2.4-r0": 1771405162,
+        "4.2.5-r0": 1773740779
       }
     },
     "rabbitmq-server-openrc": {
       "origin": "rabbitmq-server",
       "versions": {
         "4.2.1-r0": 1763361906,
-        "4.2.4-r0": 1771405162
+        "4.2.4-r0": 1771405162,
+        "4.2.5-r0": 1773740779
       }
     },
     "racket": {
@@ -341766,7 +341782,7 @@
       },
       "incus-lts-openrc": {
         "package": "incus-openrc",
-        "version": "6.0.5-r8"
+        "version": "6.0.6-r0"
       },
       "nm-wifi-backend": {
         "package": "iwd",
