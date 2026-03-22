@@ -183898,19 +183898,29 @@
     "plan9port": {
       "origin": "plan9port",
       "versions": {
-        "0_git20241022-r1": 1762975227
-      }
+        "0_git20241022-r1": 1762975227,
+        "0_git20241022-r2": 1774215145
+      },
+      "dependencies": [
+        "so:libX11.so.6",
+        "so:libXext.so.6",
+        "so:libc.musl-s390x.so.1",
+        "so:libfontconfig.so.1",
+        "so:libfreetype.so.6"
+      ]
     },
     "plan9port-doc": {
       "origin": "plan9port",
       "versions": {
-        "0_git20241022-r1": 1762975227
+        "0_git20241022-r1": 1762975227,
+        "0_git20241022-r2": 1774215145
       }
     },
     "plan9port-src": {
       "origin": "plan9port",
       "versions": {
-        "0_git20241022-r1": 1762975227
+        "0_git20241022-r1": 1762975227,
+        "0_git20241022-r2": 1774215145
       }
     },
     "plantuml": {
