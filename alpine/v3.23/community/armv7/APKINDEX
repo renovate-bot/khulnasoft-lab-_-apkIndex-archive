@@ -279346,97 +279346,97 @@ c:68f54c1472617b38a625b8a10433f70c37aa12f5
 D:so:libKF6Completion.so.6 so:libKF6ConfigCore.so.6 so:libKF6ConfigGui.so.6 so:libKF6ConfigWidgets.so.6 so:libKF6CoreAddons.so.6 so:libKF6Crash.so.6 so:libKF6I18n.so.6 so:libKF6IconThemes.so.6 so:libKF6KIOCore.so.6 so:libKF6NewStuffWidgets.so.6 so:libKF6Plotting.so.6 so:libKF6TextWidgets.so.6 so:libKF6WidgetsAddons.so.6 so:libKF6XmlGui.so.6 so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6OpenGLWidgets.so.6 so:libQt6Widgets.so.6 so:libQt6Xml.so.6 so:libc.musl-armv7.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 p:cmd:step=25.08.3-r0
 
-C:Q18+LJ24sIcrr6TuxNwFjvM9sp74w=
+C:Q1A2niYL1K4NZssmRaiWVHAlYCJQk=
 P:step-certificates
-V:0.30.1-r0
+V:0.30.2-r0
 A:armv7
-S:15602918
-I:48515076
+S:15602682
+I:48519172
 T:Online certificate authority and related tools
 U:https://smallstep.com/certificates/
 L:Apache-2.0
 o:step-certificates
 m:Wolfgang Fischer <wdev@posteo.org>
-t:1773946178
-c:23c4fead864d60e8fceb095a7a231bc4c6826324
+t:1774308553
+c:9a787287202710f00b9145f0abc1f0068187e7ef
 D:step-cli /bin/sh so:libc.musl-armv7.so.1 so:libpcsclite.so.1
-p:cmd:step-ca=0.30.1-r0
+p:cmd:step-ca=0.30.2-r0
 
-C:Q1t0hIOdVLKxZ/KabSqiZUjXC2eeM=
+C:Q18/xy//ujP4Vvolpergj9paLtiOY=
 P:step-certificates-logrotate
-V:0.30.1-r0
+V:0.30.2-r0
 A:armv7
-S:1636
+S:1638
 I:119
 T:Online certificate authority and related tools (logrotate configuration)
 U:https://smallstep.com/certificates/
 L:Apache-2.0
 o:step-certificates
 m:Wolfgang Fischer <wdev@posteo.org>
-t:1773946178
-c:23c4fead864d60e8fceb095a7a231bc4c6826324
-i:step-certificates=0.30.1-r0 logrotate
+t:1774308553
+c:9a787287202710f00b9145f0abc1f0068187e7ef
+i:step-certificates=0.30.2-r0 logrotate
 
-C:Q1H881QICiC4zMr+VnTHCjffO+dyk=
+C:Q1Ta+SAD9N3assOTN2DmasLjABPW0=
 P:step-certificates-openrc
-V:0.30.1-r0
+V:0.30.2-r0
 A:armv7
-S:2494
+S:2495
 I:2147
 T:Online certificate authority and related tools (OpenRC init scripts)
 U:https://smallstep.com/certificates/
 L:Apache-2.0
 o:step-certificates
 m:Wolfgang Fischer <wdev@posteo.org>
-t:1773946178
-c:23c4fead864d60e8fceb095a7a231bc4c6826324
-i:openrc step-certificates=0.30.1-r0
+t:1774308553
+c:9a787287202710f00b9145f0abc1f0068187e7ef
+i:openrc step-certificates=0.30.2-r0
 
-C:Q1tjVHgI9rboV36yTIEBfPiOwO/nI=
+C:Q1uExrp0oqO2pAHAHGYtfap8r6dnQ=
 P:step-cli
-V:0.30.1-r0
+V:0.30.2-r0
 A:armv7
-S:13415134
+S:13415131
 I:38819492
 T:Zero trust swiss army knife that integrates with step-ca for automated certificate management
 U:https://github.com/smallstep/cli
 L:Apache-2.0
 o:step-cli
 m:Wolfgang Fischer <wdev@posteo.org>
-t:1773973757
-c:bca1ac9ce774d98e21c91da398b05bf0ea888533
+t:1774308585
+c:aef7ceae14e719966d34b16551bea8ac9b388c98
 D:so:libc.musl-armv7.so.1
-p:cmd:step=0.30.1-r0
+p:cmd:step=0.30.2-r0
 
-C:Q1RBrCj7ivuH/E/ZpJJF6aMXXGFqc=
+C:Q1ZIz0blD9hJqJFJD5FNzNQzvjA8A=
 P:step-cli-bash-completion
-V:0.30.1-r0
+V:0.30.2-r0
 A:armv7
-S:1842
+S:1846
 I:446
 T:Bash completions for step-cli
 U:https://github.com/smallstep/cli
 L:Apache-2.0
 o:step-cli
 m:Wolfgang Fischer <wdev@posteo.org>
-t:1773973757
-c:bca1ac9ce774d98e21c91da398b05bf0ea888533
-i:step-cli=0.30.1-r0 bash-completion
+t:1774308585
+c:aef7ceae14e719966d34b16551bea8ac9b388c98
+i:step-cli=0.30.2-r0 bash-completion
 
-C:Q1OMMqkX4A9vsbCT/mubOUjfoMvts=
+C:Q1NT7rlMb4FmmoKOgiH7GqJSFXFuI=
 P:step-cli-zsh-completion
-V:0.30.1-r0
+V:0.30.2-r0
 A:armv7
-S:1846
+S:1845
 I:454
 T:Zsh completions for step-cli
 U:https://github.com/smallstep/cli
 L:Apache-2.0
 o:step-cli
 m:Wolfgang Fischer <wdev@posteo.org>
-t:1773973757
-c:bca1ac9ce774d98e21c91da398b05bf0ea888533
-i:step-cli=0.30.1-r0 zsh
+t:1774308585
+c:aef7ceae14e719966d34b16551bea8ac9b388c98
+i:step-cli=0.30.2-r0 zsh
 
 C:Q1DcsY3uyZ3VZL1+CrOTwi4D0d01k=
 P:step-doc
