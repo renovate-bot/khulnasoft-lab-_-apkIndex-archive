@@ -5507,7 +5507,8 @@
       "versions": {
         "20251116-r0": 1763407217,
         "20260206-r0": 1770385736,
-        "20260301-r0": 1772448347
+        "20260301-r0": 1772448347,
+        "20260323-r0": 1774390403
       }
     },
     "arcticons-icon-theme": {
@@ -59579,7 +59580,8 @@
     "frr": {
       "origin": "frr",
       "versions": {
-        "10.5.0-r0": 1762711579
+        "10.5.0-r0": 1762711579,
+        "10.5.3-r0": 1774394814
       },
       "dependencies": [
         "iproute2",
@@ -59593,8 +59595,8 @@
         "so:libyang.so.3"
       ],
       "provides": [
-        "cmd:mtracebis=10.5.0-r0",
-        "cmd:vtysh=10.5.0-r0",
+        "cmd:mtracebis=10.5.3-r0",
+        "cmd:vtysh=10.5.3-r0",
         "so:libfrr.so.0=0.0.0",
         "so:libfrrcares.so.0=0.0.0",
         "so:libfrrospfapiclient.so.0=0.0.0",
@@ -59604,33 +59606,37 @@
     "frr-dbg": {
       "origin": "frr",
       "versions": {
-        "10.5.0-r0": 1762711579
+        "10.5.0-r0": 1762711579,
+        "10.5.3-r0": 1774394814
       },
       "dependencies": [
-        "!frr-rpki<10.5.0-r0",
-        "!frr-rpki>10.5.0-r0",
-        "!frr-snmp<10.5.0-r0",
-        "!frr-snmp>10.5.0-r0",
-        "!frr<10.5.0-r0",
-        "!frr>10.5.0-r0"
+        "!frr-rpki<10.5.3-r0",
+        "!frr-rpki>10.5.3-r0",
+        "!frr-snmp<10.5.3-r0",
+        "!frr-snmp>10.5.3-r0",
+        "!frr<10.5.3-r0",
+        "!frr>10.5.3-r0"
       ]
     },
     "frr-doc": {
       "origin": "frr",
       "versions": {
-        "10.5.0-r0": 1762711579
+        "10.5.0-r0": 1762711579,
+        "10.5.3-r0": 1774394814
       }
     },
     "frr-openrc": {
       "origin": "frr",
       "versions": {
-        "10.5.0-r0": 1762711579
+        "10.5.0-r0": 1762711579,
+        "10.5.3-r0": 1774394814
       }
     },
     "frr-pythontools": {
       "origin": "frr",
       "versions": {
-        "10.5.0-r0": 1762711579
+        "10.5.0-r0": 1762711579,
+        "10.5.3-r0": 1774394814
       },
       "dependencies": [
         "python3",
@@ -59640,7 +59646,8 @@
     "frr-rpki": {
       "origin": "frr",
       "versions": {
-        "10.5.0-r0": 1762711579
+        "10.5.0-r0": 1762711579,
+        "10.5.3-r0": 1774394814
       },
       "dependencies": [
         "iproute2",
@@ -59653,7 +59660,8 @@
     "frr-snmp": {
       "origin": "frr",
       "versions": {
-        "10.5.0-r0": 1762711579
+        "10.5.0-r0": 1762711579,
+        "10.5.3-r0": 1774394814
       },
       "dependencies": [
         "iproute2",
@@ -283965,7 +283973,8 @@
         "1.147.0-r0": 1770735703,
         "1.147.1-r0": 1770952128,
         "1.148.0-r0": 1772030462,
-        "1.149.1-r0": 1773240968
+        "1.149.1-r0": 1773240968,
+        "1.150.0-r0": 1774396439
       },
       "dependencies": [
         "python3",
@@ -284017,19 +284026,19 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:export_signing_key=1.149.1-r0",
-        "cmd:generate_config=1.149.1-r0",
-        "cmd:generate_log_config=1.149.1-r0",
-        "cmd:generate_signing_key=1.149.1-r0",
-        "cmd:hash_password=1.149.1-r0",
-        "cmd:register_new_matrix_user=1.149.1-r0",
-        "cmd:synapse_homeserver=1.149.1-r0",
-        "cmd:synapse_port_db=1.149.1-r0",
-        "cmd:synapse_review_recent_signups=1.149.1-r0",
-        "cmd:synapse_worker=1.149.1-r0",
-        "cmd:synctl=1.149.1-r0",
-        "cmd:update_synapse_database=1.149.1-r0",
-        "py3.12:synapse=1.149.1-r0"
+        "cmd:export_signing_key=1.150.0-r0",
+        "cmd:generate_config=1.150.0-r0",
+        "cmd:generate_log_config=1.150.0-r0",
+        "cmd:generate_signing_key=1.150.0-r0",
+        "cmd:hash_password=1.150.0-r0",
+        "cmd:register_new_matrix_user=1.150.0-r0",
+        "cmd:synapse_homeserver=1.150.0-r0",
+        "cmd:synapse_port_db=1.150.0-r0",
+        "cmd:synapse_review_recent_signups=1.150.0-r0",
+        "cmd:synapse_worker=1.150.0-r0",
+        "cmd:synctl=1.150.0-r0",
+        "cmd:update_synapse_database=1.150.0-r0",
+        "py3.12:synapse=1.150.0-r0"
       ]
     },
     "synapse-openrc": {
@@ -284043,7 +284052,8 @@
         "1.147.0-r0": 1770735703,
         "1.147.1-r0": 1770952128,
         "1.148.0-r0": 1772030462,
-        "1.149.1-r0": 1773240968
+        "1.149.1-r0": 1773240968,
+        "1.150.0-r0": 1774396439
       }
     },
     "synapse-pyc": {
@@ -284057,7 +284067,8 @@
         "1.147.0-r0": 1770735703,
         "1.147.1-r0": 1770952128,
         "1.148.0-r0": 1772030462,
-        "1.149.1-r0": 1773240968
+        "1.149.1-r0": 1773240968,
+        "1.150.0-r0": 1774396439
       },
       "dependencies": [
         "python3~3.12"

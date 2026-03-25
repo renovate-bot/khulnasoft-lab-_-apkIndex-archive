@@ -4639,7 +4639,8 @@
       "versions": {
         "20251116-r0": 1763407217,
         "20260206-r0": 1770385736,
-        "20260301-r0": 1772448347
+        "20260301-r0": 1772448347,
+        "20260323-r0": 1774390403
       }
     },
     "arcticons-icon-theme": {
@@ -54316,7 +54317,8 @@
     "frr": {
       "origin": "frr",
       "versions": {
-        "10.5.0-r0": 1762711579
+        "10.5.0-r0": 1762711579,
+        "10.5.3-r0": 1774394814
       },
       "dependencies": [
         "iproute2",
@@ -54330,8 +54332,8 @@
         "so:libyang.so.3"
       ],
       "provides": [
-        "cmd:mtracebis=10.5.0-r0",
-        "cmd:vtysh=10.5.0-r0",
+        "cmd:mtracebis=10.5.3-r0",
+        "cmd:vtysh=10.5.3-r0",
         "so:libfrr.so.0=0.0.0",
         "so:libfrrcares.so.0=0.0.0",
         "so:libfrrospfapiclient.so.0=0.0.0",
@@ -54341,33 +54343,37 @@
     "frr-dbg": {
       "origin": "frr",
       "versions": {
-        "10.5.0-r0": 1762711579
+        "10.5.0-r0": 1762711579,
+        "10.5.3-r0": 1774394814
       },
       "dependencies": [
-        "!frr-rpki<10.5.0-r0",
-        "!frr-rpki>10.5.0-r0",
-        "!frr-snmp<10.5.0-r0",
-        "!frr-snmp>10.5.0-r0",
-        "!frr<10.5.0-r0",
-        "!frr>10.5.0-r0"
+        "!frr-rpki<10.5.3-r0",
+        "!frr-rpki>10.5.3-r0",
+        "!frr-snmp<10.5.3-r0",
+        "!frr-snmp>10.5.3-r0",
+        "!frr<10.5.3-r0",
+        "!frr>10.5.3-r0"
       ]
     },
     "frr-doc": {
       "origin": "frr",
       "versions": {
-        "10.5.0-r0": 1762711579
+        "10.5.0-r0": 1762711579,
+        "10.5.3-r0": 1774394814
       }
     },
     "frr-openrc": {
       "origin": "frr",
       "versions": {
-        "10.5.0-r0": 1762711579
+        "10.5.0-r0": 1762711579,
+        "10.5.3-r0": 1774394814
       }
     },
     "frr-pythontools": {
       "origin": "frr",
       "versions": {
-        "10.5.0-r0": 1762711579
+        "10.5.0-r0": 1762711579,
+        "10.5.3-r0": 1774394814
       },
       "dependencies": [
         "python3",
@@ -54377,7 +54383,8 @@
     "frr-rpki": {
       "origin": "frr",
       "versions": {
-        "10.5.0-r0": 1762711579
+        "10.5.0-r0": 1762711579,
+        "10.5.3-r0": 1774394814
       },
       "dependencies": [
         "iproute2",
@@ -54390,7 +54397,8 @@
     "frr-snmp": {
       "origin": "frr",
       "versions": {
-        "10.5.0-r0": 1762711579
+        "10.5.0-r0": 1762711579,
+        "10.5.3-r0": 1774394814
       },
       "dependencies": [
         "iproute2",
