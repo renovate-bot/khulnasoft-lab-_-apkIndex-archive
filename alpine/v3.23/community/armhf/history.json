@@ -36606,15 +36606,15 @@
         "0.15.0-r1": 1764794904,
         "0.15.0-r2": 1768509151,
         "0.15.0-r3": 1770283019,
-        "0.15.0-r4": 1773040615
+        "0.15.0-r4": 1773040615,
+        "0.16.0-r0": 1774530152
       },
       "dependencies": [
-        "so:libX11.so.6",
         "so:libc.musl-armhf.so.1",
         "so:libpam.so.0"
       ],
       "provides": [
-        "cmd:emptty=0.15.0-r4"
+        "cmd:emptty=0.16.0-r0"
       ]
     },
     "emptty-doc": {
@@ -36625,7 +36625,8 @@
         "0.15.0-r1": 1764794904,
         "0.15.0-r2": 1768509151,
         "0.15.0-r3": 1770283019,
-        "0.15.0-r4": 1773040615
+        "0.15.0-r4": 1773040615,
+        "0.16.0-r0": 1774530152
       }
     },
     "emptty-openrc": {
@@ -36636,7 +36637,8 @@
         "0.15.0-r1": 1764794904,
         "0.15.0-r2": 1768509151,
         "0.15.0-r3": 1770283019,
-        "0.15.0-r4": 1773040615
+        "0.15.0-r4": 1773040615,
+        "0.16.0-r0": 1774530152
       }
     },
     "enca": {
@@ -226644,10 +226646,12 @@
         "2.11.0-r5": 1764794904,
         "2.11.0-r6": 1768509151,
         "2.11.0-r7": 1770283019,
-        "2.11.0-r8": 1773040615
+        "2.11.0-r8": 1773040615,
+        "2.12.1-r0": 1774530672
       },
       "dependencies": [
-        "so:libc.musl-armhf.so.1"
+        "snowflake-client=2.12.1-r0",
+        "snowflake-proxy=2.12.1-r0"
       ],
       "provides": [
         "cmd:snowflake-client=2.11.0-r8",
@@ -226661,7 +226665,8 @@
         "2.11.0-r5": 1764794904,
         "2.11.0-r6": 1768509151,
         "2.11.0-r7": 1770283019,
-        "2.11.0-r8": 1773040615
+        "2.11.0-r8": 1773040615,
+        "2.12.1-r0": 1774530672
       }
     },
     "soapy-sdr": {
@@ -260024,6 +260029,49 @@
       "origin": "pipewire",
       "versions": {
         "1.4.9-r5": 1770052091
+      }
+    },
+    "snowflake-client": {
+      "origin": "snowflake",
+      "versions": {
+        "2.12.1-r0": 1774530672
+      },
+      "dependencies": [
+        "so:libc.musl-armhf.so.1"
+      ],
+      "provides": [
+        "cmd:snowflake-client=2.12.1-r0"
+      ]
+    },
+    "snowflake-client-doc": {
+      "origin": "snowflake",
+      "versions": {
+        "2.12.1-r0": 1774530672
+      }
+    },
+    "snowflake-proxy": {
+      "origin": "snowflake",
+      "versions": {
+        "2.12.1-r0": 1774530672
+      },
+      "dependencies": [
+        "/bin/sh",
+        "so:libc.musl-armhf.so.1"
+      ],
+      "provides": [
+        "cmd:snowflake-proxy=2.12.1-r0"
+      ]
+    },
+    "snowflake-proxy-doc": {
+      "origin": "snowflake",
+      "versions": {
+        "2.12.1-r0": 1774530672
+      }
+    },
+    "snowflake-proxy-openrc": {
+      "origin": "snowflake",
+      "versions": {
+        "2.12.1-r0": 1774530672
       }
     }
   },

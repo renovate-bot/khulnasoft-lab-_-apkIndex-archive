@@ -42577,51 +42577,51 @@ c:bd7ab97f08ca9e72823367c6621dd72cca4f368d
 D:python3~3.12
 i:emborg=1.42-r0 pyc
 
-C:Q1sZuk02HB4kLtG3c1qyfPwq7Gyvo=
+C:Q1liWpg1zZn9JSxDIOhKk7z5Bqh+M=
 P:emptty
-V:0.15.0-r4
+V:0.16.0-r0
 A:x86
-S:1582606
-I:3727758
+S:1599992
+I:3768718
 T:Dead simple CLI Display Manager on TTY
 U:https://github.com/tvrzna/emptty
 L:MIT
 o:emptty
 m:Michal Tvrznik <emporeor@gmail.com>
-t:1773040615
-c:abf1fc3e5f3e2235e53c82bb3529e4a3fadfb856
-D:so:libX11.so.6 so:libc.musl-x86.so.1 so:libpam.so.0
-p:cmd:emptty=0.15.0-r4
+t:1774530152
+c:56940cf5204685b786a6a058300ca1063a38a254
+D:so:libc.musl-x86.so.1 so:libpam.so.0
+p:cmd:emptty=0.16.0-r0
 
-C:Q1nuBSZV1BDfzxWFhNCovWeN1Suhw=
+C:Q106TtDn6Wcryk/3VXng7TFd7aKiU=
 P:emptty-doc
-V:0.15.0-r4
+V:0.16.0-r0
 A:x86
-S:6191
-I:4384
+S:6222
+I:4432
 T:Dead simple CLI Display Manager on TTY (documentation)
 U:https://github.com/tvrzna/emptty
 L:MIT
 o:emptty
 m:Michal Tvrznik <emporeor@gmail.com>
-t:1773040615
-c:abf1fc3e5f3e2235e53c82bb3529e4a3fadfb856
-i:docs emptty=0.15.0-r4
+t:1774530152
+c:56940cf5204685b786a6a058300ca1063a38a254
+i:docs emptty=0.16.0-r0
 
-C:Q1S/10sOQJdAhRStjzrhY0whRLf84=
+C:Q1soY9oVFVnLluUCl3UYuyPh9QNvY=
 P:emptty-openrc
-V:0.15.0-r4
+V:0.16.0-r0
 A:x86
-S:1819
+S:1810
 I:328
 T:Dead simple CLI Display Manager on TTY (OpenRC init scripts)
 U:https://github.com/tvrzna/emptty
 L:MIT
 o:emptty
 m:Michal Tvrznik <emporeor@gmail.com>
-t:1773040615
-c:abf1fc3e5f3e2235e53c82bb3529e4a3fadfb856
-i:openrc emptty=0.15.0-r4
+t:1774530152
+c:56940cf5204685b786a6a058300ca1063a38a254
+i:openrc emptty=0.16.0-r0
 
 C:Q1p9Ap9N/TUVQiZ0LFyHQ5Y78woAQ=
 P:enca
@@ -273118,36 +273118,112 @@ t:1759531008
 c:fb6df7227be5dfc16548b1431a8e8dcd222c8144
 i:docs snooze=0.5.1-r0
 
-C:Q1YUvKBiaqd60jLVyF7MBvt/Dzp6o=
+C:Q1Wa8H6f4vp64fe/2tKjLKxLFfHME=
 P:snowflake
-V:2.11.0-r8
+V:2.12.1-r0
 A:x86
-S:11911722
-I:29562680
-T:Pluggable Transport for Tor using WebRTC, inspired by Flashproxy
+S:1308
+I:0
+T:Pluggable Transport for Tor using WebRTC - meta package
 U:https://snowflake.torproject.org/
 L:BSD-3-Clause
 o:snowflake
 m:omni <omni+alpine@hack.org>
-t:1773040615
-c:abf1fc3e5f3e2235e53c82bb3529e4a3fadfb856
-D:so:libc.musl-x86.so.1
-p:cmd:snowflake-client=2.11.0-r8 cmd:snowflake-proxy=2.11.0-r8
+t:1774530672
+c:b20405cda033ddcc846de611f1a171bf43a9d5b7
+D:snowflake-client=2.12.1-r0 snowflake-proxy=2.12.1-r0
 
-C:Q1D48jrgxZMUZ70cgx4O/l8td/f8A=
-P:snowflake-doc
-V:2.11.0-r8
+C:Q1XYyFlAkFJgNvzxmf+LsehxYbCvY=
+P:snowflake-client
+V:2.12.1-r0
 A:x86
-S:12628
-I:28260
-T:Pluggable Transport for Tor using WebRTC, inspired by Flashproxy (documentation)
+S:6736408
+I:16765132
+T:Pluggable Transport for Tor using WebRTC - client
 U:https://snowflake.torproject.org/
 L:BSD-3-Clause
 o:snowflake
 m:omni <omni+alpine@hack.org>
-t:1773040615
-c:abf1fc3e5f3e2235e53c82bb3529e4a3fadfb856
-i:docs snowflake=2.11.0-r8
+t:1774530672
+c:b20405cda033ddcc846de611f1a171bf43a9d5b7
+D:so:libc.musl-x86.so.1
+p:cmd:snowflake-client=2.12.1-r0
+
+C:Q1zCtQPuvIJicLFL3uIl46mB2Pb00=
+P:snowflake-client-doc
+V:2.12.1-r0
+A:x86
+S:2315
+I:591
+T:Pluggable Transport for Tor using WebRTC - client (man page)
+U:https://snowflake.torproject.org/
+L:BSD-3-Clause
+o:snowflake
+m:omni <omni+alpine@hack.org>
+t:1774530672
+c:b20405cda033ddcc846de611f1a171bf43a9d5b7
+i:docs snowflake-client=2.12.1-r0
+
+C:Q1/0aIXIspf3GecX7VM9AOXg5y67Q=
+P:snowflake-doc
+V:2.12.1-r0
+A:x86
+S:11865
+I:30516
+T:Pluggable Transport for Tor using WebRTC (documentation)
+U:https://snowflake.torproject.org/
+L:BSD-3-Clause
+o:snowflake
+m:omni <omni+alpine@hack.org>
+t:1774530672
+c:b20405cda033ddcc846de611f1a171bf43a9d5b7
+i:docs snowflake=2.12.1-r0
+
+C:Q1OSD6mY/VNGHt39+wa4j3oeINGH4=
+P:snowflake-proxy
+V:2.12.1-r0
+A:x86
+S:5469650
+I:13607084
+T:Pluggable Transport for Tor using WebRTC - proxy
+U:https://snowflake.torproject.org/
+L:BSD-3-Clause
+o:snowflake
+m:omni <omni+alpine@hack.org>
+t:1774530672
+c:b20405cda033ddcc846de611f1a171bf43a9d5b7
+D:/bin/sh so:libc.musl-x86.so.1
+p:cmd:snowflake-proxy=2.12.1-r0
+
+C:Q1mY0l3e+AJ8Ri6FhihegeJj9tWeY=
+P:snowflake-proxy-doc
+V:2.12.1-r0
+A:x86
+S:2244
+I:522
+T:Pluggable Transport for Tor using WebRTC - proxy (man page)
+U:https://snowflake.torproject.org/
+L:BSD-3-Clause
+o:snowflake
+m:omni <omni+alpine@hack.org>
+t:1774530672
+c:b20405cda033ddcc846de611f1a171bf43a9d5b7
+i:docs snowflake-proxy=2.12.1-r0
+
+C:Q1I2S0RPZfUJ+1JAPlYUCr6Vrb9Vc=
+P:snowflake-proxy-openrc
+V:2.12.1-r0
+A:x86
+S:1909
+I:403
+T:Pluggable Transport for Tor using WebRTC - proxy (OpenRC init scripts)
+U:https://snowflake.torproject.org/
+L:BSD-3-Clause
+o:snowflake
+m:omni <omni+alpine@hack.org>
+t:1774530672
+c:b20405cda033ddcc846de611f1a171bf43a9d5b7
+i:openrc snowflake-proxy=2.12.1-r0
 
 C:Q1yRFSLl9VF9JlLrnMiO6LVskFCks=
 P:soapy-sdr
