@@ -55193,7 +55193,8 @@
         "3.18.0-r0": 1764085903,
         "3.22.0-r0": 1770661520,
         "3.23.0-r0": 1772265802,
-        "3.24.0-r0": 1773607713
+        "3.24.0-r0": 1773607713,
+        "3.24.2-r0": 1774673749
       },
       "dependencies": [
         "so:libSDL3.so.0",
@@ -55221,16 +55222,16 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "freerdp-plugins=3.24.0-r0",
-        "cmd:freerdp-proxy3=3.24.0-r0",
-        "cmd:freerdp-shadow-cli3=3.24.0-r0",
-        "cmd:sdl-freerdp3=3.24.0-r0",
-        "cmd:sfreerdp-server3=3.24.0-r0",
-        "cmd:sfreerdp3=3.24.0-r0",
-        "cmd:winpr-hash3=3.24.0-r0",
-        "cmd:winpr-makecert3=3.24.0-r0",
-        "cmd:wlfreerdp3=3.24.0-r0",
-        "cmd:xfreerdp3=3.24.0-r0"
+        "freerdp-plugins=3.24.2-r0",
+        "cmd:freerdp-proxy3=3.24.2-r0",
+        "cmd:freerdp-shadow-cli3=3.24.2-r0",
+        "cmd:sdl-freerdp3=3.24.2-r0",
+        "cmd:sfreerdp-server3=3.24.2-r0",
+        "cmd:sfreerdp3=3.24.2-r0",
+        "cmd:winpr-hash3=3.24.2-r0",
+        "cmd:winpr-makecert3=3.24.2-r0",
+        "cmd:wlfreerdp3=3.24.2-r0",
+        "cmd:xfreerdp3=3.24.2-r0"
       ]
     },
     "freerdp-dev": {
@@ -55240,20 +55241,21 @@
         "3.18.0-r0": 1764085903,
         "3.22.0-r0": 1770661520,
         "3.23.0-r0": 1772265802,
-        "3.24.0-r0": 1773607713
+        "3.24.0-r0": 1773607713,
+        "3.24.2-r0": 1774673749
       },
       "dependencies": [
-        "freerdp-libs=3.24.0-r0",
+        "freerdp-libs=3.24.2-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:freerdp-client3=3.24.0",
-        "pc:freerdp-server-proxy3=3.24.0",
-        "pc:freerdp-server3=3.24.0",
-        "pc:freerdp-shadow3=3.24.0",
-        "pc:freerdp3=3.24.0",
-        "pc:winpr-tools3=3.24.0",
-        "pc:winpr3=3.24.0"
+        "pc:freerdp-client3=3.24.2",
+        "pc:freerdp-server-proxy3=3.24.2",
+        "pc:freerdp-server3=3.24.2",
+        "pc:freerdp-shadow3=3.24.2",
+        "pc:freerdp3=3.24.2",
+        "pc:winpr-tools3=3.24.2",
+        "pc:winpr3=3.24.2"
       ]
     },
     "freerdp-doc": {
@@ -55263,7 +55265,8 @@
         "3.18.0-r0": 1764085903,
         "3.22.0-r0": 1770661520,
         "3.23.0-r0": 1772265802,
-        "3.24.0-r0": 1773607713
+        "3.24.0-r0": 1773607713,
+        "3.24.2-r0": 1774673749
       }
     },
     "freerdp-libs": {
@@ -55273,7 +55276,8 @@
         "3.18.0-r0": 1764085903,
         "3.22.0-r0": 1770661520,
         "3.23.0-r0": 1772265802,
-        "3.24.0-r0": 1773607713
+        "3.24.0-r0": 1773607713,
+        "3.24.2-r0": 1774673749
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -55305,14 +55309,14 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libfreerdp-client3.so.3=3.24.0",
-        "so:libfreerdp-server-proxy3.so.3=3.24.0",
-        "so:libfreerdp-server3.so.3=3.24.0",
-        "so:libfreerdp-shadow-subsystem3.so.3=3.24.0",
-        "so:libfreerdp-shadow3.so.3=3.24.0",
-        "so:libfreerdp3.so.3=3.24.0",
-        "so:libwinpr-tools3.so.3=3.24.0",
-        "so:libwinpr3.so.3=3.24.0"
+        "so:libfreerdp-client3.so.3=3.24.2",
+        "so:libfreerdp-server-proxy3.so.3=3.24.2",
+        "so:libfreerdp-server3.so.3=3.24.2",
+        "so:libfreerdp-shadow-subsystem3.so.3=3.24.2",
+        "so:libfreerdp-shadow3.so.3=3.24.2",
+        "so:libfreerdp3.so.3=3.24.2",
+        "so:libwinpr-tools3.so.3=3.24.2",
+        "so:libwinpr3.so.3=3.24.2"
       ]
     },
     "freerdp2": {
@@ -291470,27 +291474,27 @@
       },
       "libfreerdp-client3.so.3": {
         "package": "freerdp-libs",
-        "version": "3.24.0"
+        "version": "3.24.2"
       },
       "libfreerdp-server-proxy3.so.3": {
         "package": "freerdp-libs",
-        "version": "3.24.0"
+        "version": "3.24.2"
       },
       "libfreerdp-server3.so.3": {
         "package": "freerdp-libs",
-        "version": "3.24.0"
+        "version": "3.24.2"
       },
       "libfreerdp-shadow-subsystem3.so.3": {
         "package": "freerdp-libs",
-        "version": "3.24.0"
+        "version": "3.24.2"
       },
       "libfreerdp-shadow3.so.3": {
         "package": "freerdp-libs",
-        "version": "3.24.0"
+        "version": "3.24.2"
       },
       "libfreerdp3.so.3": {
         "package": "freerdp-libs",
-        "version": "3.24.0"
+        "version": "3.24.2"
       },
       "librdtk0.so.0": {
         "package": "freerdp-libs",
@@ -291498,11 +291502,11 @@
       },
       "libwinpr-tools3.so.3": {
         "package": "freerdp-libs",
-        "version": "3.24.0"
+        "version": "3.24.2"
       },
       "libwinpr3.so.3": {
         "package": "freerdp-libs",
-        "version": "3.24.0"
+        "version": "3.24.2"
       },
       "libainput-client.so": {
         "package": "freerdp2-libs",
