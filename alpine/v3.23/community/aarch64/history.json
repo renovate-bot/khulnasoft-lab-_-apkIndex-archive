@@ -274788,7 +274788,8 @@
     "sems": {
       "origin": "sems",
       "versions": {
-        "2.0.0-r0": 1763350567
+        "2.0.0-r0": 1763350567,
+        "2.1.0-r0": 1774845896
       },
       "dependencies": [
         "python3",
@@ -274800,38 +274801,44 @@
         "so:libflite.so.1",
         "so:libflite_cmu_us_kal.so.1",
         "so:libgcc_s.so.1",
+        "so:libpython3.12.so.1.0",
         "so:libsamplerate.so.0",
         "so:libspandsp.so.2",
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:sems-get-callproperties=2.0.0-r0",
-        "cmd:sems-list-active-calls=2.0.0-r0",
-        "cmd:sems-list-calls=2.0.0-r0",
-        "cmd:sems-list-finished-calls=2.0.0-r0",
-        "cmd:sems-logfile-callextract=2.0.0-r0",
-        "cmd:sems-rtp-mux-get-max-frame-age-ms=2.0.0-r0",
-        "cmd:sems-rtp-mux-get-mtu-threshold=2.0.0-r0",
-        "cmd:sems-rtp-mux-set-max-frame-age-ms=2.0.0-r0",
-        "cmd:sems-rtp-mux-set-mtu-threshold=2.0.0-r0",
-        "cmd:sems-sbc-get-activeprofile=2.0.0-r0",
-        "cmd:sems-sbc-get-regex-map-names=2.0.0-r0",
-        "cmd:sems-sbc-list-profiles=2.0.0-r0",
-        "cmd:sems-sbc-load-callcontrol-modules=2.0.0-r0",
-        "cmd:sems-sbc-load-profile=2.0.0-r0",
-        "cmd:sems-sbc-reload-profile=2.0.0-r0",
-        "cmd:sems-sbc-reload-profiles=2.0.0-r0",
-        "cmd:sems-sbc-set-activeprofile=2.0.0-r0",
-        "cmd:sems-sbc-set-regex-map=2.0.0-r0",
-        "cmd:sems-sbc-teardown-call=2.0.0-r0",
-        "cmd:sems-stats=2.0.0-r0",
-        "cmd:sems=2.0.0-r0"
+        "cmd:sems-get-callproperties=2.1.0-r0",
+        "cmd:sems-list-active-calls=2.1.0-r0",
+        "cmd:sems-list-calls=2.1.0-r0",
+        "cmd:sems-list-finished-calls=2.1.0-r0",
+        "cmd:sems-logfile-callextract=2.1.0-r0",
+        "cmd:sems-rtp-mux-get-max-frame-age-ms=2.1.0-r0",
+        "cmd:sems-rtp-mux-get-mtu-threshold=2.1.0-r0",
+        "cmd:sems-rtp-mux-set-max-frame-age-ms=2.1.0-r0",
+        "cmd:sems-rtp-mux-set-mtu-threshold=2.1.0-r0",
+        "cmd:sems-sbc-get-activeprofile=2.1.0-r0",
+        "cmd:sems-sbc-get-regex-map-names=2.1.0-r0",
+        "cmd:sems-sbc-list-profiles=2.1.0-r0",
+        "cmd:sems-sbc-load-callcontrol-modules=2.1.0-r0",
+        "cmd:sems-sbc-load-profile=2.1.0-r0",
+        "cmd:sems-sbc-reload-profile=2.1.0-r0",
+        "cmd:sems-sbc-reload-profiles=2.1.0-r0",
+        "cmd:sems-sbc-set-activeprofile=2.1.0-r0",
+        "cmd:sems-sbc-set-regex-map=2.1.0-r0",
+        "cmd:sems-sbc-teardown-call=2.1.0-r0",
+        "cmd:sems-stats=2.1.0-r0",
+        "cmd:sems=2.1.0-r0",
+        "cmd:sems_get_callproperties.py=2.1.0-r0",
+        "cmd:sems_list_active_calls.py=2.1.0-r0",
+        "cmd:sems_list_calls.py=2.1.0-r0",
+        "cmd:sems_list_finished_calls.py=2.1.0-r0"
       ]
     },
     "sems-annrecorder": {
       "origin": "sems",
       "versions": {
-        "2.0.0-r0": 1763350567
+        "2.0.0-r0": 1763350567,
+        "2.1.0-r0": 1774845896
       },
       "dependencies": [
         "sems",
@@ -274843,7 +274850,8 @@
     "sems-conference": {
       "origin": "sems",
       "versions": {
-        "2.0.0-r0": 1763350567
+        "2.0.0-r0": 1763350567,
+        "2.1.0-r0": 1774845896
       },
       "dependencies": [
         "sems",
@@ -274855,7 +274863,8 @@
     "sems-diameter_client": {
       "origin": "sems",
       "versions": {
-        "2.0.0-r0": 1763350567
+        "2.0.0-r0": 1763350567,
+        "2.1.0-r0": 1774845896
       },
       "dependencies": [
         "sems",
@@ -274869,25 +274878,29 @@
     "sems-doc": {
       "origin": "sems",
       "versions": {
-        "2.0.0-r0": 1763350567
+        "2.0.0-r0": 1763350567,
+        "2.1.0-r0": 1774845896
       }
     },
     "sems-dsm": {
       "origin": "sems",
       "versions": {
-        "2.0.0-r0": 1763350567
+        "2.0.0-r0": 1763350567,
+        "2.1.0-r0": 1774845896
       },
       "dependencies": [
         "sems",
         "so:libc.musl-aarch64.so.1",
         "so:libgcc_s.so.1",
+        "so:libpython3.12.so.1.0",
         "so:libstdc++.so.6"
       ]
     },
     "sems-early_announce": {
       "origin": "sems",
       "versions": {
-        "2.0.0-r0": 1763350567
+        "2.0.0-r0": 1763350567,
+        "2.1.0-r0": 1774845896
       },
       "dependencies": [
         "sems",
@@ -274899,7 +274912,8 @@
     "sems-g722": {
       "origin": "sems",
       "versions": {
-        "2.0.0-r0": 1763350567
+        "2.0.0-r0": 1763350567,
+        "2.1.0-r0": 1774845896
       },
       "dependencies": [
         "sems",
@@ -274910,7 +274924,8 @@
     "sems-gsm": {
       "origin": "sems",
       "versions": {
-        "2.0.0-r0": 1763350567
+        "2.0.0-r0": 1763350567,
+        "2.1.0-r0": 1774845896
       },
       "dependencies": [
         "sems",
@@ -274921,7 +274936,8 @@
     "sems-ilbc": {
       "origin": "sems",
       "versions": {
-        "2.0.0-r0": 1763350567
+        "2.0.0-r0": 1763350567,
+        "2.1.0-r0": 1774845896
       },
       "dependencies": [
         "sems",
@@ -274931,7 +274947,8 @@
     "sems-jsonrpc": {
       "origin": "sems",
       "versions": {
-        "2.0.0-r0": 1763350567
+        "2.0.0-r0": 1763350567,
+        "2.1.0-r0": 1774845896
       },
       "dependencies": [
         "sems",
@@ -274944,7 +274961,8 @@
     "sems-mp3": {
       "origin": "sems",
       "versions": {
-        "2.0.0-r0": 1763350567
+        "2.0.0-r0": 1763350567,
+        "2.1.0-r0": 1774845896
       },
       "dependencies": [
         "sems",
@@ -274955,13 +274973,15 @@
     "sems-openrc": {
       "origin": "sems",
       "versions": {
-        "2.0.0-r0": 1763350567
+        "2.0.0-r0": 1763350567,
+        "2.1.0-r0": 1774845896
       }
     },
     "sems-opus": {
       "origin": "sems",
       "versions": {
-        "2.0.0-r0": 1763350567
+        "2.0.0-r0": 1763350567,
+        "2.1.0-r0": 1774845896
       },
       "dependencies": [
         "sems",
@@ -274972,7 +274992,8 @@
     "sems-registrar": {
       "origin": "sems",
       "versions": {
-        "2.0.0-r0": 1763350567
+        "2.0.0-r0": 1763350567,
+        "2.1.0-r0": 1774845896
       },
       "dependencies": [
         "sems",
@@ -274984,7 +275005,8 @@
     "sems-speex": {
       "origin": "sems",
       "versions": {
-        "2.0.0-r0": 1763350567
+        "2.0.0-r0": 1763350567,
+        "2.1.0-r0": 1774845896
       },
       "dependencies": [
         "sems",
@@ -274995,7 +275017,8 @@
     "sems-voicebox": {
       "origin": "sems",
       "versions": {
-        "2.0.0-r0": 1763350567
+        "2.0.0-r0": 1763350567,
+        "2.1.0-r0": 1774845896
       },
       "dependencies": [
         "sems",
@@ -275007,7 +275030,8 @@
     "sems-voicemail": {
       "origin": "sems",
       "versions": {
-        "2.0.0-r0": 1763350567
+        "2.0.0-r0": 1763350567,
+        "2.1.0-r0": 1774845896
       },
       "dependencies": [
         "sems",
@@ -275019,7 +275043,8 @@
     "sems-webconference": {
       "origin": "sems",
       "versions": {
-        "2.0.0-r0": 1763350567
+        "2.0.0-r0": 1763350567,
+        "2.1.0-r0": 1774845896
       },
       "dependencies": [
         "sems",
@@ -275032,7 +275057,8 @@
     "sems-xmlrpc2di": {
       "origin": "sems",
       "versions": {
-        "2.0.0-r0": 1763350567
+        "2.0.0-r0": 1763350567,
+        "2.1.0-r0": 1774845896
       },
       "dependencies": [
         "sems",

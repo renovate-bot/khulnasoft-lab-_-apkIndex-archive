@@ -272147,115 +272147,115 @@ t:1757452585
 c:7784f693cdccaf4018fc2ebad33cb17f976b7bcb
 i:docs semodule-utils=3.9-r0
 
-C:Q1LCU0F6zzmDdsrMxW8A3mQ8iilmk=
+C:Q17N3bsd9G42yD9H/Mzo2P26ptxNE=
 P:sems
-V:2.0.0-r0
+V:2.1.0-r0
 A:loongarch64
-S:2657456
-I:6932400
+S:2764298
+I:7337058
 T:SIP Express Media Server, an extensible SIP media server
 U:https://github.com/sems-server/sems/
 L:GPL-2.0-or-later
 o:sems
 m:Simon Frankenberger <simon-alpine@fraho.eu>
-t:1763350567
-c:01cf142a5e06f1557049e601ecaa1089e066e5cb
-D:python3 bash /bin/sh so:libc.musl-loongarch64.so.1 so:libevent-2.1.so.7 so:libevent_pthreads-2.1.so.7 so:libflite.so.1 so:libflite_cmu_us_kal.so.1 so:libgcc_s.so.1 so:libsamplerate.so.0 so:libspandsp.so.2 so:libstdc++.so.6
-p:cmd:sems-get-callproperties=2.0.0-r0 cmd:sems-list-active-calls=2.0.0-r0 cmd:sems-list-calls=2.0.0-r0 cmd:sems-list-finished-calls=2.0.0-r0 cmd:sems-logfile-callextract=2.0.0-r0 cmd:sems-rtp-mux-get-max-frame-age-ms=2.0.0-r0 cmd:sems-rtp-mux-get-mtu-threshold=2.0.0-r0 cmd:sems-rtp-mux-set-max-frame-age-ms=2.0.0-r0 cmd:sems-rtp-mux-set-mtu-threshold=2.0.0-r0 cmd:sems-sbc-get-activeprofile=2.0.0-r0 cmd:sems-sbc-get-regex-map-names=2.0.0-r0 cmd:sems-sbc-list-profiles=2.0.0-r0 cmd:sems-sbc-load-callcontrol-modules=2.0.0-r0 cmd:sems-sbc-load-profile=2.0.0-r0 cmd:sems-sbc-reload-profile=2.0.0-r0 cmd:sems-sbc-reload-profiles=2.0.0-r0 cmd:sems-sbc-set-activeprofile=2.0.0-r0 cmd:sems-sbc-set-regex-map=2.0.0-r0 cmd:sems-sbc-teardown-call=2.0.0-r0 cmd:sems-stats=2.0.0-r0 cmd:sems=2.0.0-r0
+t:1774845896
+c:a01f6263eab5ab2c0f4af3d2f278ab5d65296bd2
+D:python3 bash /bin/sh so:libc.musl-loongarch64.so.1 so:libevent-2.1.so.7 so:libevent_pthreads-2.1.so.7 so:libflite.so.1 so:libflite_cmu_us_kal.so.1 so:libgcc_s.so.1 so:libpython3.12.so.1.0 so:libsamplerate.so.0 so:libspandsp.so.2 so:libstdc++.so.6
+p:cmd:sems-get-callproperties=2.1.0-r0 cmd:sems-list-active-calls=2.1.0-r0 cmd:sems-list-calls=2.1.0-r0 cmd:sems-list-finished-calls=2.1.0-r0 cmd:sems-logfile-callextract=2.1.0-r0 cmd:sems-rtp-mux-get-max-frame-age-ms=2.1.0-r0 cmd:sems-rtp-mux-get-mtu-threshold=2.1.0-r0 cmd:sems-rtp-mux-set-max-frame-age-ms=2.1.0-r0 cmd:sems-rtp-mux-set-mtu-threshold=2.1.0-r0 cmd:sems-sbc-get-activeprofile=2.1.0-r0 cmd:sems-sbc-get-regex-map-names=2.1.0-r0 cmd:sems-sbc-list-profiles=2.1.0-r0 cmd:sems-sbc-load-callcontrol-modules=2.1.0-r0 cmd:sems-sbc-load-profile=2.1.0-r0 cmd:sems-sbc-reload-profile=2.1.0-r0 cmd:sems-sbc-reload-profiles=2.1.0-r0 cmd:sems-sbc-set-activeprofile=2.1.0-r0 cmd:sems-sbc-set-regex-map=2.1.0-r0 cmd:sems-sbc-teardown-call=2.1.0-r0 cmd:sems-stats=2.1.0-r0 cmd:sems=2.1.0-r0 cmd:sems_get_callproperties.py=2.1.0-r0 cmd:sems_list_active_calls.py=2.1.0-r0 cmd:sems_list_calls.py=2.1.0-r0 cmd:sems_list_finished_calls.py=2.1.0-r0
 
-C:Q1jtuXb+yFxAV2/avWLsutFv2CgTA=
+C:Q1ACN4EZmIqhBDxOzve59iq49h0w4=
 P:sems-annrecorder
-V:2.0.0-r0
+V:2.1.0-r0
 A:loongarch64
-S:322133
+S:322110
 I:462688
 T:Allow user to record personal greeting for SEMS
 U:https://github.com/sems-server/sems/
 L:GPL-2.0-or-later
 o:sems
 m:Simon Frankenberger <simon-alpine@fraho.eu>
-t:1763350567
-c:01cf142a5e06f1557049e601ecaa1089e066e5cb
+t:1774845896
+c:a01f6263eab5ab2c0f4af3d2f278ab5d65296bd2
 D:sems so:libc.musl-loongarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 
-C:Q16OEOyGWZ0Zw+VxuBoZAD9aLa2pg=
+C:Q1dmPAhiVKowMdxZVQ0pgmmByTIVo=
 P:sems-conference
-V:2.0.0-r0
+V:2.1.0-r0
 A:loongarch64
-S:103344
+S:103329
 I:202094
 T:Conferencing application for SEMS
 U:https://github.com/sems-server/sems/
 L:GPL-2.0-or-later
 o:sems
 m:Simon Frankenberger <simon-alpine@fraho.eu>
-t:1763350567
-c:01cf142a5e06f1557049e601ecaa1089e066e5cb
+t:1774845896
+c:a01f6263eab5ab2c0f4af3d2f278ab5d65296bd2
 D:sems so:libc.musl-loongarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 
-C:Q1wye/YE75KmcQU7QmwlG38lalh8w=
+C:Q1hAvEI65vpW32DB4an/rJdLTTYGw=
 P:sems-diameter_client
-V:2.0.0-r0
+V:2.1.0-r0
 A:loongarch64
-S:49754
+S:49772
 I:133032
 T:A simple DIAMETER client implementation for SEMS
 U:https://github.com/sems-server/sems/
 L:GPL-2.0-or-later
 o:sems
 m:Simon Frankenberger <simon-alpine@fraho.eu>
-t:1763350567
-c:01cf142a5e06f1557049e601ecaa1089e066e5cb
+t:1774845896
+c:a01f6263eab5ab2c0f4af3d2f278ab5d65296bd2
 D:sems so:libc.musl-loongarch64.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3 so:libstdc++.so.6
 
-C:Q1qUwdYl6B624Brn96trmDiL/67bg=
+C:Q1LbqlZJqxTVbyaDdhwKrbxHMTKcg=
 P:sems-doc
-V:2.0.0-r0
+V:2.1.0-r0
 A:loongarch64
-S:552078
-I:819600
+S:553677
+I:823424
 T:SIP Express Media Server, an extensible SIP media server (documentation)
 U:https://github.com/sems-server/sems/
 L:GPL-2.0-or-later
 o:sems
 m:Simon Frankenberger <simon-alpine@fraho.eu>
-t:1763350567
-c:01cf142a5e06f1557049e601ecaa1089e066e5cb
-i:docs sems=2.0.0-r0
+t:1774845896
+c:a01f6263eab5ab2c0f4af3d2f278ab5d65296bd2
+i:docs sems=2.1.0-r0
 
-C:Q13u+oJnzPQDVFSHblC+c82y+YNR4=
+C:Q1+ZPQhwzPpJoiboSNk14IlK+oErk=
 P:sems-dsm
-V:2.0.0-r0
+V:2.1.0-r0
 A:loongarch64
-S:687209
-I:2397718
+S:688789
+I:2403034
 T:The state machine interpreter for SEMS
 U:https://github.com/sems-server/sems/
 L:GPL-2.0-or-later
 o:sems
 m:Simon Frankenberger <simon-alpine@fraho.eu>
-t:1763350567
-c:01cf142a5e06f1557049e601ecaa1089e066e5cb
-D:sems so:libc.musl-loongarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+t:1774845896
+c:a01f6263eab5ab2c0f4af3d2f278ab5d65296bd2
+D:sems so:libc.musl-loongarch64.so.1 so:libgcc_s.so.1 so:libpython3.12.so.1.0 so:libstdc++.so.6
 
-C:Q1/LnwsrU/t+ciLRuRI3BmKdb+9V8=
+C:Q1iadR/vGNd+iRAHlYbBL3B7TmLAw=
 P:sems-early_announce
-V:2.0.0-r0
+V:2.1.0-r0
 A:loongarch64
-S:29974
+S:30477
 I:133397
 T:Early announce application for SEMS
 U:https://github.com/sems-server/sems/
 L:GPL-2.0-or-later
 o:sems
 m:Simon Frankenberger <simon-alpine@fraho.eu>
-t:1763350567
-c:01cf142a5e06f1557049e601ecaa1089e066e5cb
+t:1774845896
+c:a01f6263eab5ab2c0f4af3d2f278ab5d65296bd2
 D:sems so:libc.musl-loongarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 
-C:Q1g3bFRJbhkUiyhEC5h0wzNvNXmLo=
+C:Q1lToKPSM6WOK7GI6R0HgCNgg9IP4=
 P:sems-g722
-V:2.0.0-r0
+V:2.1.0-r0
 A:loongarch64
 S:5371
 I:67544
@@ -272264,188 +272264,188 @@ U:https://github.com/sems-server/sems/
 L:GPL-2.0-or-later
 o:sems
 m:Simon Frankenberger <simon-alpine@fraho.eu>
-t:1763350567
-c:01cf142a5e06f1557049e601ecaa1089e066e5cb
+t:1774845896
+c:a01f6263eab5ab2c0f4af3d2f278ab5d65296bd2
 D:sems so:libc.musl-loongarch64.so.1 so:libspandsp.so.2
 
-C:Q1JDGucR72U2Y3ixAibjQanYppycM=
+C:Q1OzgherWhWt0INPMrPONzrGBPj5w=
 P:sems-gsm
-V:2.0.0-r0
+V:2.1.0-r0
 A:loongarch64
-S:5266
+S:5260
 I:67576
 T:GSM support for SEMS
 U:https://github.com/sems-server/sems/
 L:GPL-2.0-or-later
 o:sems
 m:Simon Frankenberger <simon-alpine@fraho.eu>
-t:1763350567
-c:01cf142a5e06f1557049e601ecaa1089e066e5cb
+t:1774845896
+c:a01f6263eab5ab2c0f4af3d2f278ab5d65296bd2
 D:sems so:libc.musl-loongarch64.so.1 so:libgsm.so.1
 
-C:Q1YT7vl9PmP1jDZEzZtemOyz9xUmE=
+C:Q1/eE+seBRNPrRrF0VkjRiR3BwLpA=
 P:sems-ilbc
-V:2.0.0-r0
+V:2.1.0-r0
 A:loongarch64
-S:41914
+S:41904
 I:75072
 T:iLBC support for SEMS
 U:https://github.com/sems-server/sems/
 L:GPL-2.0-or-later
 o:sems
 m:Simon Frankenberger <simon-alpine@fraho.eu>
-t:1763350567
-c:01cf142a5e06f1557049e601ecaa1089e066e5cb
+t:1774845896
+c:a01f6263eab5ab2c0f4af3d2f278ab5d65296bd2
 D:sems so:libc.musl-loongarch64.so.1
 
-C:Q1p6i24QczWqlVn0nhIDMQaUsZt+c=
+C:Q1smKALSH3CFpmhXbCeUUPHmvAxZc=
 P:sems-jsonrpc
-V:2.0.0-r0
+V:2.1.0-r0
 A:loongarch64
-S:56815
+S:56812
 I:198812
 T:Jsonrpc support for SEMS
 U:https://github.com/sems-server/sems/
 L:GPL-2.0-or-later
 o:sems
 m:Simon Frankenberger <simon-alpine@fraho.eu>
-t:1763350567
-c:01cf142a5e06f1557049e601ecaa1089e066e5cb
+t:1774845896
+c:a01f6263eab5ab2c0f4af3d2f278ab5d65296bd2
 D:sems so:libc.musl-loongarch64.so.1 so:libev.so.4 so:libgcc_s.so.1 so:libstdc++.so.6
 
-C:Q1gnOMoc8mv0wBbFTwz+fqwiMFwgQ=
+C:Q1fd7mus9w2lCj2teoz5axWLpK1Ss=
 P:sems-mp3
-V:2.0.0-r0
+V:2.1.0-r0
 A:loongarch64
-S:7156
+S:7154
 I:67632
 T:MP3 support for SEMS
 U:https://github.com/sems-server/sems/
 L:GPL-2.0-or-later
 o:sems
 m:Simon Frankenberger <simon-alpine@fraho.eu>
-t:1763350567
-c:01cf142a5e06f1557049e601ecaa1089e066e5cb
+t:1774845896
+c:a01f6263eab5ab2c0f4af3d2f278ab5d65296bd2
 D:sems so:libc.musl-loongarch64.so.1 so:libmp3lame.so.0
 
-C:Q1yjk8poLVUOMHH0AbaGdyNP8H9kY=
+C:Q1jYlQfmq+mOBqq1wF9QkoWdJqTok=
 P:sems-openrc
-V:2.0.0-r0
+V:2.1.0-r0
 A:loongarch64
-S:2158
+S:2154
 I:1116
 T:SIP Express Media Server, an extensible SIP media server (OpenRC init scripts)
 U:https://github.com/sems-server/sems/
 L:GPL-2.0-or-later
 o:sems
 m:Simon Frankenberger <simon-alpine@fraho.eu>
-t:1763350567
-c:01cf142a5e06f1557049e601ecaa1089e066e5cb
-i:openrc sems=2.0.0-r0
+t:1774845896
+c:a01f6263eab5ab2c0f4af3d2f278ab5d65296bd2
+i:openrc sems=2.1.0-r0
 
-C:Q1g8aE52KyaRtRuK6lB80vSCMqNuM=
+C:Q1gzp1ZiFPGQZJ5gmmF3oWAcHq22Y=
 P:sems-opus
-V:2.0.0-r0
+V:2.1.0-r0
 A:loongarch64
-S:7588
+S:7583
 I:67568
 T: OPUS codec for SEMS
 U:https://github.com/sems-server/sems/
 L:GPL-2.0-or-later
 o:sems
 m:Simon Frankenberger <simon-alpine@fraho.eu>
-t:1763350567
-c:01cf142a5e06f1557049e601ecaa1089e066e5cb
+t:1774845896
+c:a01f6263eab5ab2c0f4af3d2f278ab5d65296bd2
 D:sems so:libc.musl-loongarch64.so.1 so:libopus.so.0
 
-C:Q10ljj/pNMG8INKZUULZxoah0+1AE=
+C:Q1wI1+Op6DN+WIOSezItt/vt28kfw=
 P:sems-registrar
-V:2.0.0-r0
+V:2.1.0-r0
 A:loongarch64
-S:42830
+S:42821
 I:135743
 T:Support for SEMS to register to a SIP server
 U:https://github.com/sems-server/sems/
 L:GPL-2.0-or-later
 o:sems
 m:Simon Frankenberger <simon-alpine@fraho.eu>
-t:1763350567
-c:01cf142a5e06f1557049e601ecaa1089e066e5cb
+t:1774845896
+c:a01f6263eab5ab2c0f4af3d2f278ab5d65296bd2
 D:sems so:libc.musl-loongarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 
-C:Q1egw5ZC1eUGJEUkF93M2DIg73KAc=
+C:Q1PPe5S87nPTZ46rcufGMbA31WhQA=
 P:sems-speex
-V:2.0.0-r0
+V:2.1.0-r0
 A:loongarch64
-S:6613
+S:6602
 I:67768
 T:Speex support for SEMS
 U:https://github.com/sems-server/sems/
 L:GPL-2.0-or-later
 o:sems
 m:Simon Frankenberger <simon-alpine@fraho.eu>
-t:1763350567
-c:01cf142a5e06f1557049e601ecaa1089e066e5cb
+t:1774845896
+c:a01f6263eab5ab2c0f4af3d2f278ab5d65296bd2
 D:sems so:libc.musl-loongarch64.so.1 so:libspeex.so.1
 
-C:Q11hz/dvZHIfwlVH8fAETsd/cIsbA=
+C:Q1CQL+aPTl2BNM5tBIKwKbYVXOkvw=
 P:sems-voicebox
-V:2.0.0-r0
+V:2.1.0-r0
 A:loongarch64
-S:949036
+S:949024
 I:1267359
 T:Voicebox (call in for messsages) for SEMS
 U:https://github.com/sems-server/sems/
 L:GPL-2.0-or-later
 o:sems
 m:Simon Frankenberger <simon-alpine@fraho.eu>
-t:1763350567
-c:01cf142a5e06f1557049e601ecaa1089e066e5cb
+t:1774845896
+c:a01f6263eab5ab2c0f4af3d2f278ab5d65296bd2
 D:sems so:libc.musl-loongarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 
-C:Q141tGDPZ1tYldm9ZBUm9zIwJn+nM=
+C:Q1XSWS0dTPc7pMkTzyrY36bjEdDR8=
 P:sems-voicemail
-V:2.0.0-r0
+V:2.1.0-r0
 A:loongarch64
-S:104927
+S:104910
 I:333349
 T:Play greeting and record voicemail for SEMS
 U:https://github.com/sems-server/sems/
 L:GPL-2.0-or-later
 o:sems
 m:Simon Frankenberger <simon-alpine@fraho.eu>
-t:1763350567
-c:01cf142a5e06f1557049e601ecaa1089e066e5cb
+t:1774845896
+c:a01f6263eab5ab2c0f4af3d2f278ab5d65296bd2
 D:sems so:libc.musl-loongarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 
-C:Q1wnXJtzEb8SMqfpN3lutVHeNvzIU=
+C:Q1hh//CZ3YINSjIRkLzcObg+I3prY=
 P:sems-webconference
-V:2.0.0-r0
+V:2.1.0-r0
 A:loongarch64
-S:404619
+S:404610
 I:655255
 T:Conference bridge via DI (xmlrpc) for SEMS
 U:https://github.com/sems-server/sems/
 L:GPL-2.0-or-later
 o:sems
 m:Simon Frankenberger <simon-alpine@fraho.eu>
-t:1763350567
-c:01cf142a5e06f1557049e601ecaa1089e066e5cb
+t:1774845896
+c:a01f6263eab5ab2c0f4af3d2f278ab5d65296bd2
 D:sems sems-xmlrpc2di so:libc.musl-loongarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 
-C:Q1O5NSxAf2URmPSaUVnbWz+04bhdA=
+C:Q1U0nOcIgeEpu3CsfxPw0ZA8TfvZI=
 P:sems-xmlrpc2di
-V:2.0.0-r0
+V:2.1.0-r0
 A:loongarch64
-S:109147
+S:109082
 I:330656
 T:XMLRPC interface for SEMS
 U:https://github.com/sems-server/sems/
 L:GPL-2.0-or-later
 o:sems
 m:Simon Frankenberger <simon-alpine@fraho.eu>
-t:1763350567
-c:01cf142a5e06f1557049e601ecaa1089e066e5cb
+t:1774845896
+c:a01f6263eab5ab2c0f4af3d2f278ab5d65296bd2
 D:sems so:libc.musl-loongarch64.so.1 so:libgcc_s.so.1 so:libssl.so.3 so:libstdc++.so.6
 
 C:Q1s1J4QVshOZdfbWpBUw95eCe5WAc=
