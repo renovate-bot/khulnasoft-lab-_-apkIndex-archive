@@ -113498,7 +113498,8 @@
       "origin": "libinput",
       "versions": {
         "1.29.2-r0": 1761422994,
-        "1.30.0-r0": 1764079076
+        "1.30.0-r0": 1764079076,
+        "1.30.3-r0": 1775120809
       },
       "dependencies": [
         "/bin/sh",
@@ -113508,14 +113509,15 @@
         "so:libudev.so.1"
       ],
       "provides": [
-        "cmd:libinput=1.30.0-r0"
+        "cmd:libinput=1.30.3-r0"
       ]
     },
     "libinput-debug-gui": {
       "origin": "libinput",
       "versions": {
         "1.29.2-r0": 1761422994,
-        "1.30.0-r0": 1764079076
+        "1.30.0-r0": 1764079076,
+        "1.30.3-r0": 1775120809
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -113535,30 +113537,33 @@
       "origin": "libinput",
       "versions": {
         "1.29.2-r0": 1761422994,
-        "1.30.0-r0": 1764079076
+        "1.30.0-r0": 1764079076,
+        "1.30.3-r0": 1775120809
       },
       "dependencies": [
         "eudev-dev",
-        "libinput-libs=1.30.0-r0",
+        "libinput-libs=1.30.3-r0",
         "pc:libudev",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libinput=1.30.0"
+        "pc:libinput=1.30.3"
       ]
     },
     "libinput-doc": {
       "origin": "libinput",
       "versions": {
         "1.29.2-r0": 1761422994,
-        "1.30.0-r0": 1764079076
+        "1.30.0-r0": 1764079076,
+        "1.30.3-r0": 1775120809
       }
     },
     "libinput-libs": {
       "origin": "libinput",
       "versions": {
         "1.29.2-r0": 1761422994,
-        "1.30.0-r0": 1764079076
+        "1.30.0-r0": 1764079076,
+        "1.30.3-r0": 1775120809
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -113574,10 +113579,11 @@
       "origin": "libinput",
       "versions": {
         "1.29.2-r0": 1761422994,
-        "1.30.0-r0": 1764079076
+        "1.30.0-r0": 1764079076,
+        "1.30.3-r0": 1775120809
       },
       "dependencies": [
-        "libinput=1.30.0-r0",
+        "libinput=1.30.3-r0",
         "py3-libevdev",
         "py3-udev",
         "py3-yaml",
@@ -113592,7 +113598,8 @@
       "origin": "libinput",
       "versions": {
         "1.29.2-r0": 1761422994,
-        "1.30.0-r0": 1764079076
+        "1.30.0-r0": 1764079076,
+        "1.30.3-r0": 1775120809
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -113604,7 +113611,8 @@
       "origin": "libinput",
       "versions": {
         "1.29.2-r0": 1761422994,
-        "1.30.0-r0": 1764079076
+        "1.30.0-r0": 1764079076,
+        "1.30.3-r0": 1775120809
       }
     },
     "libinputsynth": {
