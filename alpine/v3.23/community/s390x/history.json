@@ -27287,7 +27287,8 @@
       "origin": "coin",
       "versions": {
         "4.0.6-r0": 1761204946,
-        "4.0.7-r0": 1769051288
+        "4.0.7-r0": 1769051288,
+        "4.0.8-r0": 1775343904
       },
       "dependencies": [
         "so:libEGL.so.1",
@@ -27298,22 +27299,23 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libCoin.so.80=80.0.7"
+        "so:libCoin.so.80=80.0.8"
       ]
     },
     "coin-dev": {
       "origin": "coin",
       "versions": {
         "4.0.6-r0": 1761204946,
-        "4.0.7-r0": 1769051288
+        "4.0.7-r0": 1769051288,
+        "4.0.8-r0": 1775343904
       },
       "dependencies": [
-        "coin=4.0.7-r0",
+        "coin=4.0.8-r0",
         "pkgconfig"
       ],
       "provides": [
-        "cmd:coin-config=4.0.7-r0",
-        "pc:Coin=4.0.7"
+        "cmd:coin-config=4.0.8-r0",
+        "pc:Coin=4.0.8"
       ]
     },
     "colibri-core": {
@@ -283531,7 +283533,7 @@
       },
       "libCoin.so.80": {
         "package": "coin",
-        "version": "80.0.7"
+        "version": "80.0.8"
       },
       "libcollectdclient.so.1": {
         "package": "collectd-libs",
