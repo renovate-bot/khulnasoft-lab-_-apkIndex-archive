@@ -55188,7 +55188,8 @@
       "origin": "flatpak",
       "versions": {
         "1.16.1-r2": 1763748924,
-        "1.16.1-r3": 1763893237
+        "1.16.1-r3": 1763893237,
+        "1.16.4-r0": 1775644609
       },
       "dependencies": [
         "bubblewrap",
@@ -55220,16 +55221,17 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:flatpak-bisect=1.16.1-r3",
-        "cmd:flatpak-coredumpctl=1.16.1-r3",
-        "cmd:flatpak=1.16.1-r3"
+        "cmd:flatpak-bisect=1.16.4-r0",
+        "cmd:flatpak-coredumpctl=1.16.4-r0",
+        "cmd:flatpak=1.16.4-r0"
       ]
     },
     "flatpak-bash-completion": {
       "origin": "flatpak",
       "versions": {
         "1.16.1-r2": 1763748924,
-        "1.16.1-r3": 1763893237
+        "1.16.1-r3": 1763893237,
+        "1.16.4-r0": 1775644609
       }
     },
     "flatpak-builder": {
@@ -55271,23 +55273,25 @@
       "origin": "flatpak",
       "versions": {
         "1.16.1-r2": 1763748924,
-        "1.16.1-r3": 1763893237
+        "1.16.1-r3": 1763893237,
+        "1.16.4-r0": 1775644609
       },
       "dependencies": [
-        "!flatpak-libs<1.16.1-r3",
-        "!flatpak-libs>1.16.1-r3",
-        "!flatpak<1.16.1-r3",
-        "!flatpak>1.16.1-r3"
+        "!flatpak-libs<1.16.4-r0",
+        "!flatpak-libs>1.16.4-r0",
+        "!flatpak<1.16.4-r0",
+        "!flatpak>1.16.4-r0"
       ]
     },
     "flatpak-dev": {
       "origin": "flatpak",
       "versions": {
         "1.16.1-r2": 1763748924,
-        "1.16.1-r3": 1763893237
+        "1.16.1-r3": 1763893237,
+        "1.16.4-r0": 1775644609
       },
       "dependencies": [
-        "flatpak-libs=1.16.1-r3",
+        "flatpak-libs=1.16.4-r0",
         "pc:dconf>=0.26",
         "pc:gio-2.0",
         "pc:gio-unix-2.0",
@@ -55305,28 +55309,31 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:flatpak=1.16.1"
+        "pc:flatpak=1.16.4"
       ]
     },
     "flatpak-doc": {
       "origin": "flatpak",
       "versions": {
         "1.16.1-r2": 1763748924,
-        "1.16.1-r3": 1763893237
+        "1.16.1-r3": 1763893237,
+        "1.16.4-r0": 1775644609
       }
     },
     "flatpak-fish-completion": {
       "origin": "flatpak",
       "versions": {
         "1.16.1-r2": 1763748924,
-        "1.16.1-r3": 1763893237
+        "1.16.1-r3": 1763893237,
+        "1.16.4-r0": 1775644609
       }
     },
     "flatpak-gdm": {
       "origin": "flatpak",
       "versions": {
         "1.16.1-r2": 1763748924,
-        "1.16.1-r3": 1763893237
+        "1.16.1-r3": 1763893237,
+        "1.16.4-r0": 1775644609
       }
     },
     "flatpak-kcm": {
@@ -55372,14 +55379,16 @@
       "origin": "flatpak",
       "versions": {
         "1.16.1-r2": 1763748924,
-        "1.16.1-r3": 1763893237
+        "1.16.1-r3": 1763893237,
+        "1.16.4-r0": 1775644609
       }
     },
     "flatpak-libs": {
       "origin": "flatpak",
       "versions": {
         "1.16.1-r2": 1763748924,
-        "1.16.1-r3": 1763893237
+        "1.16.1-r3": 1763893237,
+        "1.16.4-r0": 1775644609
       },
       "dependencies": [
         "so:libXau.so.6",
@@ -55398,21 +55407,23 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "so:libflatpak.so.0=0.11601.0"
+        "so:libflatpak.so.0=0.11604.0"
       ]
     },
     "flatpak-polkit": {
       "origin": "flatpak",
       "versions": {
         "1.16.1-r2": 1763748924,
-        "1.16.1-r3": 1763893237
+        "1.16.1-r3": 1763893237,
+        "1.16.4-r0": 1775644609
       }
     },
     "flatpak-systemd": {
       "origin": "flatpak",
       "versions": {
         "1.16.1-r2": 1763748924,
-        "1.16.1-r3": 1763893237
+        "1.16.1-r3": 1763893237,
+        "1.16.4-r0": 1775644609
       }
     },
     "flatpak-xdg-utils": {
@@ -55436,7 +55447,8 @@
       "origin": "flatpak",
       "versions": {
         "1.16.1-r2": 1763748924,
-        "1.16.1-r3": 1763893237
+        "1.16.1-r3": 1763893237,
+        "1.16.4-r0": 1775644609
       }
     },
     "flawfinder": {
@@ -324851,7 +324863,7 @@
       },
       "libflatpak.so.0": {
         "package": "flatpak-libs",
-        "version": "0.11601.0"
+        "version": "0.11604.0"
       },
       "libflickcurl.so.0": {
         "package": "flickcurl-libs",

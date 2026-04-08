@@ -48949,36 +48949,36 @@ c:44ce39a091100c59a3bd90df6c0312d302be3171
 D:so:libc.musl-s390x.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 p:cmd:flatc=25.2.10-r0
 
-C:Q1X80232LXkmCCFFFBPYD6z/CxxHs=
+C:Q17hngzpAdqeJkMImfFEdDf8wANz8=
 P:flatpak
-V:1.16.1-r3
+V:1.16.4-r0
 A:s390x
-S:1773565
-I:4608797
+S:1794177
+I:4658181
 T:Application deployment framework for desktop apps
 U:https://flatpak.org/
 L:LGPL-2.1-or-later
 o:flatpak
 m:André Klitzing <aklitzing@gmail.com>
-t:1763893237
-c:b3da694af2b8de59b9e51317521fdbaf0e619d54
+t:1775644609
+c:5dcf286d3dfe1ae4e59a4d19baf45c24df1a277e
 D:bubblewrap desktop-file-utils fuse3 gtk-update-icon-cache shared-mime-info xdg-dbus-proxy /bin/sh so:libXau.so.6 so:libappstream.so.5 so:libarchive.so.13 so:libc.musl-s390x.so.1 so:libcurl.so.4 so:libdconf.so.1 so:libfuse3.so.4 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgpgme.so.11 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libostree-1.so.1 so:libpolkit-agent-1.so.0 so:libpolkit-gobject-1.so.0 so:libseccomp.so.2 so:libxml2.so.2 so:libzstd.so.1
-p:cmd:flatpak-bisect=1.16.1-r3 cmd:flatpak-coredumpctl=1.16.1-r3 cmd:flatpak=1.16.1-r3
+p:cmd:flatpak-bisect=1.16.4-r0 cmd:flatpak-coredumpctl=1.16.4-r0 cmd:flatpak=1.16.4-r0
 
-C:Q1uwMQZk4CpzrknX9N/UMy6eueuNo=
+C:Q1sRE9nEUs+tdWwFFXU9HJTsFiGcY=
 P:flatpak-bash-completion
-V:1.16.1-r3
+V:1.16.4-r0
 A:s390x
-S:2051
+S:2047
 I:1353
 T:Bash completions for flatpak
 U:https://flatpak.org/
 L:LGPL-2.1-or-later
 o:flatpak
 m:André Klitzing <aklitzing@gmail.com>
-t:1763893237
-c:b3da694af2b8de59b9e51317521fdbaf0e619d54
-i:flatpak=1.16.1-r3 bash-completion
+t:1775644609
+c:5dcf286d3dfe1ae4e59a4d19baf45c24df1a277e
+i:flatpak=1.16.4-r0 bash-completion
 
 C:Q119fnBuEZrimB6Qkd5xj9e9H/h48=
 P:flatpak-builder
@@ -49011,81 +49011,81 @@ t:1761049889
 c:a7c1dce92855517cbf5a087b9133c21f40b83756
 i:docs flatpak-builder=1.4.7-r0
 
-C:Q1eMATNkRDjHMe1aaCv9/7uXtjmuE=
+C:Q1u6hQxVjuDidbmPnWIf5AOE5vNEw=
 P:flatpak-dbg
-V:1.16.1-r3
+V:1.16.4-r0
 A:s390x
-S:8194125
-I:19549520
+S:8287884
+I:19752672
 T:Application deployment framework for desktop apps (debug symbols)
 U:https://flatpak.org/
 L:LGPL-2.1-or-later
 o:flatpak
 m:André Klitzing <aklitzing@gmail.com>
-t:1763893237
-c:b3da694af2b8de59b9e51317521fdbaf0e619d54
-D:!flatpak-libs<1.16.1-r3 !flatpak-libs>1.16.1-r3 !flatpak<1.16.1-r3 !flatpak>1.16.1-r3
+t:1775644609
+c:5dcf286d3dfe1ae4e59a4d19baf45c24df1a277e
+D:!flatpak-libs<1.16.4-r0 !flatpak-libs>1.16.4-r0 !flatpak<1.16.4-r0 !flatpak>1.16.4-r0
 
-C:Q1dVfR5S57q7rqeAmuPOpd/tciu2g=
+C:Q1n58bcfZE3Gn0m8mKU+x0ZCieUuw=
 P:flatpak-dev
-V:1.16.1-r3
+V:1.16.4-r0
 A:s390x
-S:56834
+S:56849
 I:544450
 T:Application deployment framework for desktop apps (development files)
 U:https://flatpak.org/
 L:LGPL-2.1-or-later
 o:flatpak
 m:André Klitzing <aklitzing@gmail.com>
-t:1763893237
-c:b3da694af2b8de59b9e51317521fdbaf0e619d54
-D:flatpak-libs=1.16.1-r3 pc:dconf>=0.26 pc:gio-2.0 pc:gio-unix-2.0 pc:glib-2.0>=2.46 pc:gpgme>=1.8.0 pc:json-glib-1.0 pc:libarchive>=2.8.0 pc:libcurl>=7.29.0 pc:libseccomp pc:libxml-2.0>=2.4 pc:libzstd>=0.8.1 pc:ostree-1>=2020.8 pc:polkit-agent-1>=0.98 pc:xau pkgconfig
-p:pc:flatpak=1.16.1
+t:1775644609
+c:5dcf286d3dfe1ae4e59a4d19baf45c24df1a277e
+D:flatpak-libs=1.16.4-r0 pc:dconf>=0.26 pc:gio-2.0 pc:gio-unix-2.0 pc:glib-2.0>=2.46 pc:gpgme>=1.8.0 pc:json-glib-1.0 pc:libarchive>=2.8.0 pc:libcurl>=7.29.0 pc:libseccomp pc:libxml-2.0>=2.4 pc:libzstd>=0.8.1 pc:ostree-1>=2020.8 pc:polkit-agent-1>=0.98 pc:xau pkgconfig
+p:pc:flatpak=1.16.4
 
-C:Q1yhgeeO0tpuHlRQXdD+JQzWvTDqU=
+C:Q1GQ0lz3ESPCLXtGRN3XaEi7Ux6LU=
 P:flatpak-doc
-V:1.16.1-r3
+V:1.16.4-r0
 A:s390x
-S:102229
-I:95918
+S:102262
+I:95958
 T:Application deployment framework for desktop apps (documentation)
 U:https://flatpak.org/
 L:LGPL-2.1-or-later
 o:flatpak
 m:André Klitzing <aklitzing@gmail.com>
-t:1763893237
-c:b3da694af2b8de59b9e51317521fdbaf0e619d54
-i:docs flatpak=1.16.1-r3
+t:1775644609
+c:5dcf286d3dfe1ae4e59a4d19baf45c24df1a277e
+i:docs flatpak=1.16.4-r0
 
-C:Q1yomPSnPVcfsq8S2PGg3GW+MPLYc=
+C:Q1rqFJFbUas34FWy25+R4OynKlgKU=
 P:flatpak-fish-completion
-V:1.16.1-r3
+V:1.16.4-r0
 A:s390x
-S:2765
+S:2759
 I:2897
 T:Fish completions for flatpak
 U:https://flatpak.org/
 L:LGPL-2.1-or-later
 o:flatpak
 m:André Klitzing <aklitzing@gmail.com>
-t:1763893237
-c:b3da694af2b8de59b9e51317521fdbaf0e619d54
-i:flatpak=1.16.1-r3 fish
+t:1775644609
+c:5dcf286d3dfe1ae4e59a4d19baf45c24df1a277e
+i:flatpak=1.16.4-r0 fish
 
-C:Q1akvwq56cfqeqOnep4HnDWdYPY2U=
+C:Q1tSdR4MR4wUHOjVmutk+ykmlp0jM=
 P:flatpak-gdm
-V:1.16.1-r3
+V:1.16.4-r0
 A:s390x
-S:1716
+S:1714
 I:118
 T:Application deployment framework for desktop apps (gdm config)
 U:https://flatpak.org/
 L:LGPL-2.1-or-later
 o:flatpak
 m:André Klitzing <aklitzing@gmail.com>
-t:1763893237
-c:b3da694af2b8de59b9e51317521fdbaf0e619d54
-i:flatpak=1.16.1-r3 gdm
+t:1775644609
+c:5dcf286d3dfe1ae4e59a4d19baf45c24df1a277e
+i:flatpak=1.16.4-r0 gdm
 
 C:Q114h74Ig18IOk/fVdhciSDDeZI+c=
 P:flatpak-kcm
@@ -49118,66 +49118,66 @@ t:1773992113
 c:a2521df612c9534d901d5dbf328a26dda60bc723
 i:flatpak-kcm=6.5.6-r0 lang
 
-C:Q1z9h7x3n54vDERm5r4SKqONDy2Qs=
+C:Q14+jQ38qgOYG0pea4ib6srqNXCFE=
 P:flatpak-lang
-V:1.16.1-r3
+V:1.16.4-r0
 A:s390x
-S:837188
-I:2631459
+S:837310
+I:2632052
 T:Languages for package flatpak
 U:https://flatpak.org/
 L:LGPL-2.1-or-later
 o:flatpak
 m:André Klitzing <aklitzing@gmail.com>
-t:1763893237
-c:b3da694af2b8de59b9e51317521fdbaf0e619d54
-i:flatpak=1.16.1-r3 lang
+t:1775644609
+c:5dcf286d3dfe1ae4e59a4d19baf45c24df1a277e
+i:flatpak=1.16.4-r0 lang
 
-C:Q1rFwErGuwlqLhVL9XE9OYdcHDloA=
+C:Q14UdD2riIYSmQVSitKxT12SFcxwQ=
 P:flatpak-libs
-V:1.16.1-r3
+V:1.16.4-r0
 A:s390x
-S:376198
-I:966872
+S:381166
+I:979168
 T:Application deployment framework for desktop apps (libraries)
 U:https://flatpak.org/
 L:LGPL-2.1-or-later
 o:flatpak
 m:André Klitzing <aklitzing@gmail.com>
-t:1763893237
-c:b3da694af2b8de59b9e51317521fdbaf0e619d54
+t:1775644609
+c:5dcf286d3dfe1ae4e59a4d19baf45c24df1a277e
 D:so:libXau.so.6 so:libarchive.so.13 so:libc.musl-s390x.so.1 so:libcurl.so.4 so:libdconf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgpgme.so.11 so:libjson-glib-1.0.so.0 so:libostree-1.so.1 so:libseccomp.so.2 so:libxml2.so.2 so:libzstd.so.1
-p:so:libflatpak.so.0=0.11601.0
+p:so:libflatpak.so.0=0.11604.0
 
-C:Q137QW+qBUVkehjMyfEXrX4SWKudw=
+C:Q1VFxuNm+MkgmPaQPkKf2lQXSfc/o=
 P:flatpak-polkit
-V:1.16.1-r3
+V:1.16.4-r0
 A:s390x
-S:12159
-I:76457
+S:12188
+I:76805
 T:Application deployment framework for desktop apps (polkit config)
 U:https://flatpak.org/
 L:LGPL-2.1-or-later
 o:flatpak
 m:André Klitzing <aklitzing@gmail.com>
-t:1763893237
-c:b3da694af2b8de59b9e51317521fdbaf0e619d54
-i:flatpak=1.16.1-r3 polkit
+t:1775644609
+c:5dcf286d3dfe1ae4e59a4d19baf45c24df1a277e
+i:flatpak=1.16.4-r0 polkit
 
-C:Q147sxmHJnqTf8pfYBxImzBt/ls7E=
+C:Q1UE5vtYo6X8JvC7/Kr5uJIlk2SHo=
 P:flatpak-systemd
-V:1.16.1-r3
+V:1.16.4-r0
 A:s390x
-S:2757
+S:2754
 I:1025
 T:Application deployment framework for desktop apps (systemd files)
 U:https://flatpak.org/
 L:LGPL-2.1-or-later
 o:flatpak
 m:André Klitzing <aklitzing@gmail.com>
-t:1763893237
-c:b3da694af2b8de59b9e51317521fdbaf0e619d54
-i:systemd flatpak=1.16.1-r3
+t:1775644609
+c:5dcf286d3dfe1ae4e59a4d19baf45c24df1a277e
+i:systemd flatpak=1.16.4-r0
 
 C:Q1O3jwuI68+D3Bjcu3h4FodkaYEgQ=
 P:flatpak-xdg-utils
@@ -49195,20 +49195,20 @@ c:54b7981c633397b74351f1e5763868230be9e142
 D:so:libc.musl-s390x.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
 p:cmd:flatpak-spawn=1.0.6-r0 cmd:flatpak-xdg-email=1.0.6-r0 cmd:flatpak-xdg-open=1.0.6-r0
 
-C:Q1OmTCdQe4K2TMngxbqEe/T6wUlJA=
+C:Q1ErhsLTZWILAoPzOcJ7FrSG1KEeM=
 P:flatpak-zsh-completion
-V:1.16.1-r3
+V:1.16.4-r0
 A:s390x
-S:1952
+S:1950
 I:643
 T:Zsh completions for flatpak
 U:https://flatpak.org/
 L:LGPL-2.1-or-later
 o:flatpak
 m:André Klitzing <aklitzing@gmail.com>
-t:1763893237
-c:b3da694af2b8de59b9e51317521fdbaf0e619d54
-i:flatpak=1.16.1-r3 zsh
+t:1775644609
+c:5dcf286d3dfe1ae4e59a4d19baf45c24df1a277e
+i:flatpak=1.16.4-r0 zsh
 
 C:Q1WvV2I8+WZzUgPooU1pjgoxQjgJQ=
 P:flawfinder
