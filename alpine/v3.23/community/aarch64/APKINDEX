@@ -57221,37 +57221,37 @@ t:1763383473
 c:d4c1868e9523ebc5086518db303382ecfbbb9b38
 D:!firefox<145.0-r0 !firefox>145.0-r0
 
-C:Q16w8F3kn3E3TgfOlI/o1rckwLAa0=
+C:Q1Ea9y5Pc8MtEvwgbMgmNLmLzeUvM=
 P:firefox-esr
-V:140.5.0-r0
+V:140.9.1-r0
 A:aarch64
-S:86006384
-I:233661213
+S:86169545
+I:233992451
 T:Firefox web browser - Extended Support Release
 U:https://www.mozilla.org/en-US/firefox/organizations/
 L:GPL-3.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MPL-2.0
 o:firefox-esr
 m:Patrycja Rosa <alpine@ptrcnull.me>
-t:1763069048
-c:67ff32bd2025cf9fcfe465e37962365f1b1d9fc1
+t:1775680169
+c:390869b61f816cbae8e012a35de39ddac3a1b11d
 D:ffmpeg7-libavcodec /bin/sh so:libX11-xcb.so.1 so:libX11.so.6 so:libXcomposite.so.1 so:libXdamage.so.1 so:libXext.so.6 so:libXfixes.so.3 so:libXrandr.so.2 so:libasound.so.2 so:libatk-1.0.so.0 so:libc.musl-aarch64.so.1 so:libcairo-gobject.so.2 so:libcairo.so.2 so:libdbus-1.so.3 so:libevent-2.1.so.7 so:libffi.so.8 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libicui18n.so.76 so:libicuuc.so.76 so:libjpeg.so.8 so:libnspr4.so so:libnss3.so so:libnssutil3.so so:libpango-1.0.so.0 so:libpixman-1.so.0 so:libplc4.so so:libpng16.so.16 so:libsmime3.so so:libssl3.so so:libstdc++.so.6 so:libvpx.so.11 so:libwebp.so.7 so:libwebpdemux.so.2 so:libxcb-shm.so.0 so:libxcb.so.1 so:libz.so.1
-p:cmd:firefox-esr=140.5.0-r0 so:firefox-esr:libgkcodecs.so=0 so:firefox-esr:liblgpllibs.so=0 so:firefox-esr:libmozavcodec.so=0 so:firefox-esr:libmozavutil.so=0 so:firefox-esr:libmozgtk.so=0 so:firefox-esr:libmozsandbox.so=0 so:firefox-esr:libmozsqlite3.so=0 so:firefox-esr:libmozwayland.so=0 so:firefox-esr:libxul.so=0
+p:cmd:firefox-esr=140.9.1-r0 so:firefox-esr:libgkcodecs.so=0 so:firefox-esr:liblgpllibs.so=0 so:firefox-esr:libmozavcodec.so=0 so:firefox-esr:libmozavutil.so=0 so:firefox-esr:libmozgtk.so=0 so:firefox-esr:libmozsandbox.so=0 so:firefox-esr:libmozsqlite3.so=0 so:firefox-esr:libmozwayland.so=0 so:firefox-esr:libxul.so=0
 
-C:Q1hkJmBNBvbzkwZ/iWcF3nL50D5Yk=
+C:Q1qvZX9evhgOfaGL1tbEvUx5/FWHE=
 P:firefox-esr-intl
-V:140.5.0-r0
+V:140.9.1-r0
 A:aarch64
-S:1328
+S:1326
 I:0
 T:firefox-esr - International ICU data
 U:https://www.mozilla.org/en-US/firefox/organizations/
 L:GPL-3.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MPL-2.0
 o:firefox-esr
 m:Patrycja Rosa <alpine@ptrcnull.me>
-t:1763069048
-c:67ff32bd2025cf9fcfe465e37962365f1b1d9fc1
+t:1775680169
+c:390869b61f816cbae8e012a35de39ddac3a1b11d
 D:icu-data-full
-i:firefox-esr=140.5.0-r0 icu
+i:firefox-esr=140.9.1-r0 icu
 
 C:Q1ggQVmXF/kbEzRvlBDckU4LLR0JU=
 P:firefox-intl
@@ -227741,21 +227741,21 @@ c:8f23285e3419eae930a3f238f60ea4999ff01cb9
 D:python3~3.12
 i:py3-dj-database-url=3.0.1-r0 pyc
 
-C:Q1DqeraPmCUxy4aMURDZ3kDGpKiNg=
+C:Q1ms9c+qzmClgCs/SbkR/UX/nNZC8=
 P:py3-django
-V:4.2.29-r0
+V:4.2.30-r0
 A:aarch64
-S:5332893
-I:22266681
+S:5333525
+I:22269317
 T:High-level Python3 Web framework
 U:https://djangoproject.com/
 L:BSD-3-Clause
 o:py3-django
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1772740115
-c:3285d6884fa818d6e9780abaa08878cff97dad1c
+t:1775760036
+c:9fdd9de8403b1a06b81fa058c29db2632cd013f0
 D:python3 py3-asgiref py3-sqlparse tzdata python3~3.12
-p:py-django=4.2.29-r0 cmd:django-admin=4.2.29-r0 py3.12:django=4.2.29-r0
+p:py-django=4.2.30-r0 cmd:django-admin=4.2.30-r0 py3.12:django=4.2.30-r0
 
 C:Q1I4pf5997dasQhzvRGmfZYTSEODg=
 P:py3-django-allauth
@@ -229129,21 +229129,21 @@ c:bd0df83bc931c307e85b78cae2232a38afa3c5b6
 D:python3~3.12
 i:py3-django-prometheus=2.4.1-r0 pyc
 
-C:Q1dA+uDlYSL7JSBv9HW6LfxUHSBNU=
+C:Q1iYq1New9jBQ/PQieAkq92FSePpY=
 P:py3-django-pyc
-V:4.2.29-r0
+V:4.2.30-r0
 A:aarch64
-S:2689249
-I:6528048
+S:2690225
+I:6530624
 T:Precompiled Python bytecode for py3-django
 U:https://djangoproject.com/
 L:BSD-3-Clause
 o:py3-django
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1772740115
-c:3285d6884fa818d6e9780abaa08878cff97dad1c
+t:1775760036
+c:9fdd9de8403b1a06b81fa058c29db2632cd013f0
 D:python3~3.12
-i:py3-django=4.2.29-r0 pyc
+i:py3-django=4.2.30-r0 pyc
 
 C:Q14fSE4iRVB1ixqjcB9dz85fkvQbM=
 P:py3-django-q2
