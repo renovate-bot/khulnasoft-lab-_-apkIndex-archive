@@ -50161,7 +50161,8 @@
     "firefox-esr": {
       "origin": "firefox-esr",
       "versions": {
-        "140.5.0-r0": 1763069048
+        "140.5.0-r0": 1763069048,
+        "140.9.1-r0": 1775680169
       },
       "dependencies": [
         "ffmpeg7-libavcodec",
@@ -50211,7 +50212,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:firefox-esr=140.5.0-r0",
+        "cmd:firefox-esr=140.9.1-r0",
         "so:firefox-esr:libgkcodecs.so=0",
         "so:firefox-esr:liblgpllibs.so=0",
         "so:firefox-esr:libmozavcodec.so=0",
@@ -50225,7 +50226,8 @@
     "firefox-esr-intl": {
       "origin": "firefox-esr",
       "versions": {
-        "140.5.0-r0": 1763069048
+        "140.5.0-r0": 1763069048,
+        "140.9.1-r0": 1775680169
       },
       "dependencies": [
         "icu-data-full"
@@ -198312,7 +198314,8 @@
         "4.2.26-r0": 1762885409,
         "4.2.27-r0": 1764690860,
         "4.2.28-r0": 1770662613,
-        "4.2.29-r0": 1772740115
+        "4.2.29-r0": 1772740115,
+        "4.2.30-r0": 1775760036
       },
       "dependencies": [
         "python3",
@@ -198322,9 +198325,9 @@
         "python3~3.12"
       ],
       "provides": [
-        "py-django=4.2.29-r0",
-        "cmd:django-admin=4.2.29-r0",
-        "py3.12:django=4.2.29-r0"
+        "py-django=4.2.30-r0",
+        "cmd:django-admin=4.2.30-r0",
+        "py3.12:django=4.2.30-r0"
       ]
     },
     "py3-django-allauth": {
@@ -199366,7 +199369,8 @@
         "4.2.26-r0": 1762885409,
         "4.2.27-r0": 1764690860,
         "4.2.28-r0": 1770662613,
-        "4.2.29-r0": 1772740115
+        "4.2.29-r0": 1772740115,
+        "4.2.30-r0": 1775760036
       },
       "dependencies": [
         "python3~3.12"
@@ -312304,7 +312308,7 @@
       },
       "py-django": {
         "package": "py3-django",
-        "version": "4.2.29-r0"
+        "version": "4.2.30-r0"
       },
       "py-django-appconf": {
         "package": "py3-django-appconf",
