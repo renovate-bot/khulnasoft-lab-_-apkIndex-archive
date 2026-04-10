@@ -48788,7 +48788,8 @@
     "firefox-esr": {
       "origin": "firefox-esr",
       "versions": {
-        "140.5.0-r0": 1763069048
+        "140.5.0-r0": 1763069048,
+        "140.9.1-r0": 1775680169
       },
       "dependencies": [
         "ffmpeg7-libavcodec",
@@ -48837,7 +48838,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:firefox-esr=140.5.0-r0",
+        "cmd:firefox-esr=140.9.1-r0",
         "so:firefox-esr:libgkcodecs.so=0",
         "so:firefox-esr:liblgpllibs.so=0",
         "so:firefox-esr:libmozavcodec.so=0",
@@ -48851,7 +48852,8 @@
     "firefox-esr-intl": {
       "origin": "firefox-esr",
       "versions": {
-        "140.5.0-r0": 1763069048
+        "140.5.0-r0": 1763069048,
+        "140.9.1-r0": 1775680169
       },
       "dependencies": [
         "icu-data-full"

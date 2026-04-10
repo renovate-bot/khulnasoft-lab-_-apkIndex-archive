@@ -48661,51 +48661,51 @@ t:1746605713
 c:b48b05f7710372889e5f8f4bf7696779aa1684d4
 i:openrc multipath-tools=0.11.1-r2
 
-C:Q1ZsKxKQw7+GZLcAPqQTVSl8EUQgI=
+C:Q1PdiyaOXiBzGhh8gBpGYfWBYMhGQ=
 P:musl
-V:1.2.5-r11
+V:1.2.5-r12
 A:aarch64
-S:418019
+S:418039
 I:723480
 T:the musl c library (libc) implementation
 U:https://musl.libc.org/
 L:MIT
 o:musl
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775765672
-c:3b0605dfa42147bc6037d812ec6183c1eb41ed13
+t:1775835372
+c:1546f29a1fd233db15464ce000b6247ed71b31e7
 p:so:libc.musl-aarch64.so.1=1
 
-C:Q1cuS4hrUcQkbxADw/Ca8UTxAYAQs=
+C:Q118utgXm4XAHj7FbkaCsgv25O53M=
 P:musl-dbg
-V:1.2.5-r11
+V:1.2.5-r12
 A:aarch64
-S:1031937
-I:3042840
+S:1032151
+I:3043272
 T:the musl c library (libc) implementation (debug symbols)
 U:https://musl.libc.org/
 L:MIT
 o:musl
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775765672
-c:3b0605dfa42147bc6037d812ec6183c1eb41ed13
-D:!musl<1.2.5-r11 !musl>1.2.5-r11
+t:1775835372
+c:1546f29a1fd233db15464ce000b6247ed71b31e7
+D:!musl<1.2.5-r12 !musl>1.2.5-r12
 
-C:Q1id4XC7TpQsfhmUfOfHII04UiTIo=
+C:Q19IGPiut4hhr4poACMU1c2tp4PYE=
 P:musl-dev
-V:1.2.5-r11
+V:1.2.5-r12
 A:aarch64
-S:2556634
-I:11698577
+S:2556920
+I:11699377
 T:the musl c library (libc) implementation (development files)
 U:https://musl.libc.org/
 L:MIT
 o:musl
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775765672
-c:3b0605dfa42147bc6037d812ec6183c1eb41ed13
-D:musl=1.2.5-r11
-p:libc-dev=1.2.5-r11
+t:1775835372
+c:1546f29a1fd233db15464ce000b6247ed71b31e7
+D:musl=1.2.5-r12
+p:libc-dev=1.2.5-r12
 
 C:Q14/Y8zWVX0cFJ0ua0nsciFrPgtwo=
 P:musl-fts
@@ -48752,19 +48752,19 @@ o:musl-legacy-error
 t:1690621208
 c:9e88698cc296a8492a8f70938c58f5755f39609d
 
-C:Q1bjazpJBRwdI8t98PMKVqEm7cpMY=
+C:Q1m5oj299/wc856l5c3iwSJ+MrYhs=
 P:musl-libintl
-V:1.2.5-r11
+V:1.2.5-r12
 A:aarch64
-S:1800
+S:1805
 I:881
 T:musl libintl.h header
 U:https://musl.libc.org/
 L:MIT
 o:musl
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775765672
-c:3b0605dfa42147bc6037d812ec6183c1eb41ed13
+t:1775835372
+c:1546f29a1fd233db15464ce000b6247ed71b31e7
 
 C:Q1z+9MZgAIbIwW2bDiZ1UQWH9sKb8=
 P:musl-locales
@@ -48890,21 +48890,21 @@ c:c9ccd9cb45c7c3cbeac15b2022206741010dcabe
 D:musl-obstack=1.2.3-r2 pkgconfig
 p:pc:musl-obstack=1.2
 
-C:Q1RvAo8x1SIBecqmRqj9oC3PA9+Jk=
+C:Q1TZwbDWBLQkS7L+nZZl4xe+tjmSI=
 P:musl-utils
-V:1.2.5-r11
+V:1.2.5-r12
 A:aarch64
-S:16900
+S:16912
 I:202534
 T:the musl c library (libc) implementation
 U:https://musl.libc.org/
 L:MIT AND BSD-2-Clause AND GPL-2.0-or-later
 o:musl
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775765672
-c:3b0605dfa42147bc6037d812ec6183c1eb41ed13
+t:1775835372
+c:1546f29a1fd233db15464ce000b6247ed71b31e7
 D:scanelf so:libc.musl-aarch64.so.1
-p:libc-utils=1.2.5-r11 cmd:getconf=1.2.5-r11 cmd:getent=1.2.5-r11 cmd:iconv=1.2.5-r11 cmd:ldconfig=1.2.5-r11 cmd:ldd=1.2.5-r11
+p:libc-utils=1.2.5-r12 cmd:getconf=1.2.5-r12 cmd:getent=1.2.5-r12 cmd:iconv=1.2.5-r12 cmd:ldconfig=1.2.5-r12 cmd:ldd=1.2.5-r12
 
 C:Q1qGG/yCB3ALb5CLDXvujzrPisgJY=
 P:mysql
@@ -71937,171 +71937,171 @@ c:40ea6c48d709733051b824abfc3d0ed2309ae339
 D:python3~3.12
 i:py3-yaml=6.0.2-r0 pyc
 
-C:Q1kuULKOEVTD5cUpVpdHpQ+2noz5s=
+C:Q1+MC5YTGJrdv5DD7luFMVd2zEb3g=
 P:pyc
-V:3.12.12-r0
+V:3.12.13-r0
 A:aarch64
-S:1251
+S:1256
 I:0
 T:Meta package for pulling in all -pyc packages
 U:https://www.python.org/
 L:PSF-2.0
 o:python3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1760195394
-c:5b3e67c9a2737b833ba3122c17aea63fb7f20984
+t:1775830565
+c:fd8950ccc4ff708b2c6dd7fd62aba630475ccafa
 
-C:Q1f0NU/TfHrvRn1nn/Etv8XC8ML4M=
+C:Q1GMVaY3EXv83plObZZYwKRDIbOm8=
 P:python3
-V:3.12.12-r0
+V:3.12.13-r0
 A:aarch64
-S:8084753
-I:26734289
+S:8084724
+I:26736713
 T:High-level scripting language
 U:https://www.python.org/
 L:PSF-2.0
 o:python3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1760195394
-c:5b3e67c9a2737b833ba3122c17aea63fb7f20984
+t:1775830565
+c:fd8950ccc4ff708b2c6dd7fd62aba630475ccafa
 D:libssl3>=3.3.0 so:libbz2.so.1 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libexpat.so.1 so:libffi.so.8 so:libgdbm_compat.so.4 so:liblzma.so.5 so:libmpdec.so.4 so:libncursesw.so.6 so:libpanelw.so.6 so:libreadline.so.8 so:libsqlite3.so.0 so:libssl.so.3 so:libz.so.1
-p:pythonispython3=3.12.12-r0 so:libpython3.12.so.1.0=1.0 so:libpython3.so=0 cmd:2to3-3.12=3.12.12-r0 cmd:2to3=3.12.12-r0 cmd:pydoc3.12=3.12.12-r0 cmd:pydoc3=3.12.12-r0 cmd:python3.12=3.12.12-r0 cmd:python3=3.12.12-r0 cmd:python=3.12.12-r0
+p:pythonispython3=3.12.13-r0 so:libpython3.12.so.1.0=1.0 so:libpython3.so=0 cmd:2to3-3.12=3.12.13-r0 cmd:2to3=3.12.13-r0 cmd:pydoc3.12=3.12.13-r0 cmd:pydoc3=3.12.13-r0 cmd:python3.12=3.12.13-r0 cmd:python3=3.12.13-r0 cmd:python=3.12.13-r0
 
-C:Q1umtIaxtbZF+7AEEgpbDOwJ2BsmY=
+C:Q1PbrfbG9mnThR8SZML/KKiINWY0U=
 P:python3-dbg
-V:3.12.12-r0
+V:3.12.13-r0
 A:aarch64
-S:13820669
-I:32739320
+S:13865894
+I:32835288
 T:High-level scripting language (debug symbols)
 U:https://www.python.org/
 L:PSF-2.0
 o:python3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1760195394
-c:5b3e67c9a2737b833ba3122c17aea63fb7f20984
-D:libssl3>=3.3.0 !python3-gdbm<3.12.12-r0 !python3-gdbm>3.12.12-r0 !python3<3.12.12-r0 !python3>3.12.12-r0
+t:1775830565
+c:fd8950ccc4ff708b2c6dd7fd62aba630475ccafa
+D:libssl3>=3.3.0 !python3-gdbm<3.12.13-r0 !python3-gdbm>3.12.13-r0 !python3<3.12.13-r0 !python3>3.12.13-r0
 
-C:Q1DUb5YSXan5Gsv7/DdNgAnWOGBL8=
+C:Q1xYL0iEcorayZN+L9iOrcjplb/YA=
 P:python3-dev
-V:3.12.12-r0
+V:3.12.13-r0
 A:aarch64
-S:16104998
-I:59565761
+S:16104718
+I:59570319
 T:High-level scripting language (development files)
 U:https://www.python.org/
 L:PSF-2.0
 o:python3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1760195394
-c:5b3e67c9a2737b833ba3122c17aea63fb7f20984
-D:pkgconfig python3=3.12.12-r0
-p:pc:python-3.12-embed=3.12 pc:python-3.12=3.12 pc:python3-embed=3.12 pc:python3=3.12 cmd:python-config=3.12.12-r0 cmd:python3-config=3.12.12-r0 cmd:python3.12-config=3.12.12-r0
+t:1775830565
+c:fd8950ccc4ff708b2c6dd7fd62aba630475ccafa
+D:pkgconfig python3=3.12.13-r0
+p:pc:python-3.12-embed=3.12 pc:python-3.12=3.12 pc:python3-embed=3.12 pc:python3=3.12 cmd:python-config=3.12.13-r0 cmd:python3-config=3.12.13-r0 cmd:python3.12-config=3.12.13-r0
 
-C:Q1heoyUg2Z6z8Mj0CXAqGwcaW/d+A=
+C:Q1/SYKFRKZVsMynBZOuiHWEqe4Ixc=
 P:python3-doc
-V:3.12.12-r0
+V:3.12.13-r0
 A:aarch64
-S:14506
+S:14507
 I:21362
 T:High-level scripting language (documentation)
 U:https://www.python.org/
 L:PSF-2.0
 o:python3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1760195394
-c:5b3e67c9a2737b833ba3122c17aea63fb7f20984
-i:docs python3=3.12.12-r0
+t:1775830565
+c:fd8950ccc4ff708b2c6dd7fd62aba630475ccafa
+i:docs python3=3.12.13-r0
 
-C:Q11YY8xYgHIMLN1SVy0Yz7FtKFTYQ=
+C:Q1K1u2xSC32JYUX/Uftj+r05yPfmo=
 P:python3-gdbm
-V:3.12.12-r0
+V:3.12.13-r0
 A:aarch64
-S:10131
+S:10136
 I:68264
 T:Python backend for GNU gdbm
 U:https://www.python.org/
 L:PSF-2.0
 o:python3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1760195394
-c:5b3e67c9a2737b833ba3122c17aea63fb7f20984
+t:1775830565
+c:fd8950ccc4ff708b2c6dd7fd62aba630475ccafa
 D:libssl3>=3.3.0 so:libc.musl-aarch64.so.1 so:libgdbm.so.6
 
-C:Q1pU8VU51YmmlyxrC4VMWsUxEa4V8=
+C:Q1z+AUpMBqRlq4NpT9P8KURvkx3Zo=
 P:python3-pyc
-V:3.12.12-r0
+V:3.12.13-r0
 A:aarch64
-S:1297
+S:1303
 I:0
 T:High-level scripting language (install .pyc cache files)
 U:https://www.python.org/
 L:PSF-2.0
 o:python3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1760195394
-c:5b3e67c9a2737b833ba3122c17aea63fb7f20984
-D:python3-pycache-pyc0=3.12.12-r0 pyc
-i:python3=3.12.12-r0
+t:1775830565
+c:fd8950ccc4ff708b2c6dd7fd62aba630475ccafa
+D:python3-pycache-pyc0=3.12.13-r0 pyc
+i:python3=3.12.13-r0
 
-C:Q1e5YRDSzsxR9+iz5gz9zy4IaRPTI=
+C:Q1ZCJrSHx1OB4Yk/LxAgTdOWi84TM=
 P:python3-pycache-pyc0
-V:3.12.12-r0
+V:3.12.13-r0
 A:aarch64
-S:4166296
-I:10755235
+S:4168294
+I:10758942
 T:High-level scripting language (.pyc pycache files)
 U:https://www.python.org/
 L:PSF-2.0
 o:python3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1760195394
-c:5b3e67c9a2737b833ba3122c17aea63fb7f20984
+t:1775830565
+c:fd8950ccc4ff708b2c6dd7fd62aba630475ccafa
 D:libssl3>=3.3.0
 
-C:Q1TcrkTZEoIhrXCosSz1fL4UsE4X8=
+C:Q13lCw+AghuCwW/J7TVETBOor6ZNQ=
 P:python3-pycache-pyc1
-V:3.12.12-r0
+V:3.12.13-r0
 A:aarch64
-S:4149452
-I:10714060
+S:4151253
+I:10717742
 T:High-level scripting language (.opt-1.pyc pycache files)
 U:https://www.python.org/
 L:PSF-2.0
 o:python3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1760195394
-c:5b3e67c9a2737b833ba3122c17aea63fb7f20984
+t:1775830565
+c:fd8950ccc4ff708b2c6dd7fd62aba630475ccafa
 D:libssl3>=3.3.0
 
-C:Q19Gxa/1jLVrTwyKWrkDamH0NI3G0=
+C:Q1e7987OeknL2zGExGBCu+4u8kFb0=
 P:python3-pycache-pyc2
-V:3.12.12-r0
+V:3.12.13-r0
 A:aarch64
-S:3564150
-I:9100195
+S:3566169
+I:9103536
 T:High-level scripting language (.opt-2.pyc pycache files)
 U:https://www.python.org/
 L:PSF-2.0
 o:python3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1760195394
-c:5b3e67c9a2737b833ba3122c17aea63fb7f20984
+t:1775830565
+c:fd8950ccc4ff708b2c6dd7fd62aba630475ccafa
 D:libssl3>=3.3.0
 
-C:Q1k8oGd60DlS0lRVnmypy6X/oAhB4=
+C:Q16UJTv/T5C20wwDtjAtHmMgDjzlA=
 P:python3-tests
-V:3.12.12-r0
+V:3.12.13-r0
 A:aarch64
-S:33513816
-I:136090350
+S:33569885
+I:136214403
 T:The test modules from the main python package
 U:https://www.python.org/
 L:PSF-2.0
 o:python3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1760195394
-c:5b3e67c9a2737b833ba3122c17aea63fb7f20984
+t:1775830565
+c:fd8950ccc4ff708b2c6dd7fd62aba630475ccafa
 D:libssl3>=3.3.0
 
 C:Q1+K8HKI8fc46HuAe5hgzq79p/T24=
