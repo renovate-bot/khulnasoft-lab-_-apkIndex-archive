@@ -99164,37 +99164,37 @@ c:f43ed43f4d329cb8cbca59b90c9560ab9e6d8f42
 D:so:libc.musl-x86_64.so.1
 p:cmd:joker=1.5.8-r5
 
-C:Q1BlWMDKGEEmm99K8EiWWywTn1pcU=
+C:Q1axyYTaBvwg+pyoWhR8GHTkuHst4=
 P:jool-modules-lts
-V:6.18.21-r0
+V:6.18.22-r0
 A:x86_64
-S:8641383
-I:8732413
+S:8638082
+I:8729356
 T:SIIT and NAT64 for Linux (kernel modules for linux-lts)
 U:https://nicmx.github.io/Jool/
 L:GPL-2.0-or-later
 o:jool-modules-lts
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1775558069
-c:db2a8a5b93dbc09a0d9277cada6b3a05b79da284
-D:linux-lts=6.18.21-r0
-i:linux-lts=6.18.21-r0 jool-tools
+t:1775922805
+c:c7966390f3896f9ce268c69ccc78451922f37ecd
+D:linux-lts=6.18.22-r0
+i:linux-lts=6.18.22-r0 jool-tools
 
-C:Q1dDplByFtCAbmzzg3+TaJL0oa2yE=
+C:Q1P9nUaFjwIS2tbTOlgi9T4BpGNKM=
 P:jool-modules-virt
-V:6.18.21-r0
+V:6.18.22-r0
 A:x86_64
-S:8494952
-I:8585189
+S:8496174
+I:8586256
 T:SIIT and NAT64 for Linux (kernel modules for linux-virt)
 U:https://nicmx.github.io/Jool/
 L:GPL-2.0-or-later
 o:jool-modules-lts
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1775558069
-c:db2a8a5b93dbc09a0d9277cada6b3a05b79da284
-D:linux-virt=6.18.21-r0
-i:linux-virt=6.18.21-r0 jool-tools
+t:1775922805
+c:c7966390f3896f9ce268c69ccc78451922f37ecd
+D:linux-virt=6.18.22-r0
+i:linux-virt=6.18.22-r0 jool-tools
 
 C:Q1tncO0L0ZFx4LT35A4sdgDFyJJiE=
 P:jool-tools
@@ -140176,25 +140176,25 @@ c:5d0f01db137896c07a1485e8771c9b52da5fdbd3
 D:python3~3.12
 i:libssc=0.3.0-r0 pyc
 
-C:Q1wFfSXBAJhg5nDeeKtxAs9c8oe7w=
+C:Q1zV+cqpHroR5ZAQvwANiwtnrNy7Q=
 P:libssh
-V:0.11.3-r0
+V:0.11.4-r0
 A:x86_64
-S:185274
+S:185792
 I:412976
 T:Library for accessing ssh client services through C libraries
 U:https://www.libssh.org/
 L:LGPL-2.1-or-later BSD-2-Clause
 o:libssh
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1758195212
-c:f53dbdcd90fe24c11e32789a09ba47474366a113
+t:1775927359
+c:51e613615d3cd3058372275d8b758988779ff66b
 D:so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libz.so.1
-p:so:libssh.so.4=4.10.3
+p:so:libssh.so.4=4.10.4
 
-C:Q1j5qLmW/Tl0s9r6qk/13t5pThe5s=
+C:Q1NHREHKTCOluVBVtU84LwouCvvag=
 P:libssh-dev
-V:0.11.3-r0
+V:0.11.4-r0
 A:x86_64
 S:39568
 I:182290
@@ -140203,10 +140203,10 @@ U:https://www.libssh.org/
 L:LGPL-2.1-or-later BSD-2-Clause
 o:libssh
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1758195212
-c:f53dbdcd90fe24c11e32789a09ba47474366a113
-D:openssl-dev>3 zlib-dev libssh=0.11.3-r0 pkgconfig
-p:pc:libssh=0.11.3
+t:1775927359
+c:51e613615d3cd3058372275d8b758988779ff66b
+D:openssl-dev>3 zlib-dev libssh=0.11.4-r0 pkgconfig
+p:pc:libssh=0.11.4
 
 C:Q10EhvM/5V8A80trr2yLGUOkI0Qk0=
 P:libstaroffice
@@ -282295,20 +282295,20 @@ t:1758826049
 c:08d6c2c270beb9e283f632a130f0f2d0a0240804
 i:docs rtpengine=12.2.1.4-r2
 
-C:Q1bh1NMKgcFLoeMKpeqGQhDbjG/G8=
+C:Q1GjIrEH7D2QgBG4Xd43arOPEkw/Y=
 P:rtpengine-lts
-V:6.18.21-r0
+V:6.18.22-r0
 A:x86_64
-S:486917
-I:1767992
+S:486323
+I:1768032
 T:Kernel module for rtpengine
 U:https://github.com/sipwise/rtpengine
 L:GPL-3.0-only
 o:rtpengine-lts
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1775558069
-c:34c48cb681f43fa4162750ffc297d21df9fda541
-i:rtpengine linux-lts=6.18.21-r0
+t:1775922805
+c:0fb7948a1fbbfb9c5c86efc0688bdb9db94f4fe4
+i:rtpengine linux-lts=6.18.22-r0
 
 C:Q157BfueVZ8gHMa2z2spxEqJA1Q/0=
 P:rtpengine-openrc
@@ -282341,21 +282341,21 @@ c:08d6c2c270beb9e283f632a130f0f2d0a0240804
 D:rtpengine so:libavcodec.so.61 so:libavfilter.so.10 so:libavformat.so.61 so:libavutil.so.59 so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libglib-2.0.so.0 so:libmariadb.so.3 so:libopus.so.0 so:libssl.so.3 so:libswresample.so.5
 p:cmd:rtpengine-recording=12.2.1.4-r2
 
-C:Q1D18dZL0jbNRuBvX+2OLqoGMz8Do=
+C:Q1mDEYGFqKxcrTV49S3y7BOr3xMwI=
 P:rtpengine-virt
-V:6.18.21-r0
+V:6.18.22-r0
 A:x86_64
-S:422007
-I:1494944
+S:422038
+I:1495008
 T:virt kernel modules for rtpengine
 U:https://github.com/sipwise/rtpengine
 L:GPL-3.0-only
 o:rtpengine-lts
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1775558069
-c:34c48cb681f43fa4162750ffc297d21df9fda541
-D:linux-virt=6.18.21-r0
-i:rtpengine linux-virt=6.18.21-r0
+t:1775922805
+c:0fb7948a1fbbfb9c5c86efc0688bdb9db94f4fe4
+D:linux-virt=6.18.22-r0
+i:rtpengine linux-virt=6.18.22-r0
 
 C:Q1akNs/wKmERQTTAacI80I014NamQ=
 P:rtrlib
@@ -318862,35 +318862,35 @@ t:1751255085
 c:e2c933d8b5bbfdbe0516416dbef9b75906f8fe06
 i:docs virt-what=1.27-r1
 
-C:Q12nZZlIBfek7Dab3rdDsPsGxPIb4=
+C:Q1HKaD1jTODeTbaX97sc2TWE/l3JA=
 P:virtio_vmmci-lts
-V:6.18.21-r0
+V:6.18.22-r0
 A:x86_64
-S:332349
+S:333477
 I:1043605
 T:VirtIO driver for OpenBSD VMM Control Interface
 U:https://github.com/voutilad/virtio_vmmci
 L:GPL-2.0-only
 o:virtio_vmmci-lts
 m:Klemens Nanni <kn@openbsd.org>
-t:1775558069
-c:1133466caff43efa29c91d66aa9b0305aae9a106
-D:linux-lts=6.18.21-r0
+t:1775922805
+c:ead25693850767d4f4ca2b37f727bb74ac05f6ff
+D:linux-lts=6.18.22-r0
 
-C:Q1EKOVRdDtV04FQ5/LrdYXUP8J5EY=
+C:Q1/g+OE2b42IcPawtBQ4+noUNesFI=
 P:virtio_vmmci-virt
-V:6.18.21-r0
+V:6.18.22-r0
 A:x86_64
-S:326962
+S:326613
 I:1023181
 T:VirtIO driver for OpenBSD VMM Control Interface for virt kernel
 U:https://github.com/voutilad/virtio_vmmci
 L:GPL-2.0-only
 o:virtio_vmmci-lts
 m:Klemens Nanni <kn@openbsd.org>
-t:1775558069
-c:1133466caff43efa29c91d66aa9b0305aae9a106
-D:linux-virt=6.18.21-r0
+t:1775922805
+c:ead25693850767d4f4ca2b37f727bb74ac05f6ff
+D:linux-virt=6.18.22-r0
 
 C:Q1YXAHNRQLPQSxVTzsQIq6r9+BuSE=
 P:virtiofsd
@@ -319188,35 +319188,35 @@ c:6090be85492d34ca65762fd038ee16116a9197bb
 D:vlc=3.0.21-r16 so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt5Svg.so.5 so:libQt5Widgets.so.5 so:libQt5X11Extras.so.5 so:libX11.so.6 so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libvlccore.so.9
 p:cmd:qvlc=3.0.21-r16
 
-C:Q1Fufr4mHyQQ7yRUT61MiSYNPGZyk=
+C:Q1eDXDQ6nh136N4KlAZHHbj4g3chU=
 P:vmm_clock-lts
-V:6.18.21-r0
+V:6.18.22-r0
 A:x86_64
-S:122869
+S:123155
 I:381226
 T:clocksource under OpenBSD VMM
 U:https://github.com/voutilad/vmm_clock
 L:GPL-2.0-only
 o:vmm_clock-lts
 m:Klemens Nanni <kn@openbsd.org>
-t:1775558069
-c:34e5485b5aaded4554f1d4528a2a48c19a03e9eb
-D:linux-lts=6.18.21-r0
+t:1775922805
+c:8725b7b5d71f87c196e62e122da3437e116877b7
+D:linux-lts=6.18.22-r0
 
-C:Q1MHOUqVXyhcFd6ouhoz3ZX7KrGKg=
+C:Q1WXDV1h+nBxawjujM4Qhz1G+Xe3k=
 P:vmm_clock-virt
-V:6.18.21-r0
+V:6.18.22-r0
 A:x86_64
-S:121242
+S:121393
 I:374314
 T:clocksource under OpenBSD VMM for virt kernel
 U:https://github.com/voutilad/vmm_clock
 L:GPL-2.0-only
 o:vmm_clock-lts
 m:Klemens Nanni <kn@openbsd.org>
-t:1775558069
-c:34e5485b5aaded4554f1d4528a2a48c19a03e9eb
-D:linux-virt=6.18.21-r0
+t:1775922805
+c:8725b7b5d71f87c196e62e122da3437e116877b7
+D:linux-virt=6.18.22-r0
 
 C:Q1RRXV4+bSXKjbRJD1RxHmo2UM86U=
 P:vnstat

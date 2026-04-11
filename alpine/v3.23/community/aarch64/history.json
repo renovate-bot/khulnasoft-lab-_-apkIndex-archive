@@ -137062,7 +137062,8 @@
     "libssh": {
       "origin": "libssh",
       "versions": {
-        "0.11.3-r0": 1758195212
+        "0.11.3-r0": 1758195212,
+        "0.11.4-r0": 1775927359
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -137070,22 +137071,23 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libssh.so.4=4.10.3"
+        "so:libssh.so.4=4.10.4"
       ]
     },
     "libssh-dev": {
       "origin": "libssh",
       "versions": {
-        "0.11.3-r0": 1758195212
+        "0.11.3-r0": 1758195212,
+        "0.11.4-r0": 1775927359
       },
       "dependencies": [
         "openssl-dev>3",
         "zlib-dev",
-        "libssh=0.11.3-r0",
+        "libssh=0.11.4-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libssh=0.11.3"
+        "pc:libssh=0.11.4"
       ]
     },
     "libstaroffice": {
@@ -333847,7 +333849,7 @@
       },
       "libssh.so.4": {
         "package": "libssh",
-        "version": "4.10.3"
+        "version": "4.10.4"
       },
       "libstaroffice-0.0.so.0": {
         "package": "libstaroffice",
