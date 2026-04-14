@@ -20084,14 +20084,15 @@
       "origin": "elogind",
       "versions": {
         "255.22-r0": 1763488709,
-        "255.22-r1": 1763985746
+        "255.22-r1": 1763985746,
+        "255.22-r2": 1776181591
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
         "so:libelogind-shared-255.so"
       ],
       "provides": [
-        "cmd:busctl=255.22-r1"
+        "cmd:busctl=255.22-r2"
       ]
     },
     "bvi": {
@@ -38037,12 +38038,13 @@
       "origin": "elogind",
       "versions": {
         "255.22-r0": 1763488709,
-        "255.22-r1": 1763985746
+        "255.22-r1": 1763985746,
+        "255.22-r2": 1776181591
       },
       "dependencies": [
         "dbus",
         "shadow",
-        "busctl=255.22-r1",
+        "busctl=255.22-r2",
         "so:libc.musl-x86.so.1",
         "so:libcap.so.2",
         "so:libelogind-shared-255.so",
@@ -38050,22 +38052,24 @@
         "so:libpam_misc.so.0"
       ],
       "provides": [
-        "cmd:elogind-inhibit=255.22-r1",
-        "cmd:loginctl=255.22-r1"
+        "cmd:elogind-inhibit=255.22-r2",
+        "cmd:loginctl=255.22-r2"
       ]
     },
     "elogind-bash-completion": {
       "origin": "elogind",
       "versions": {
         "255.22-r0": 1763488709,
-        "255.22-r1": 1763985746
+        "255.22-r1": 1763985746,
+        "255.22-r2": 1776181591
       }
     },
     "elogind-common": {
       "origin": "elogind",
       "versions": {
         "255.22-r0": 1763488709,
-        "255.22-r1": 1763985746
+        "255.22-r1": 1763985746,
+        "255.22-r2": 1776181591
       },
       "dependencies": [
         "so:libacl.so.1",
@@ -38082,10 +38086,11 @@
       "origin": "elogind",
       "versions": {
         "255.22-r0": 1763488709,
-        "255.22-r1": 1763985746
+        "255.22-r1": 1763985746,
+        "255.22-r2": 1776181591
       },
       "dependencies": [
-        "libelogind=255.22-r1",
+        "libelogind=255.22-r2",
         "pkgconfig"
       ],
       "provides": [
@@ -38098,28 +38103,32 @@
       "origin": "elogind",
       "versions": {
         "255.22-r0": 1763488709,
-        "255.22-r1": 1763985746
+        "255.22-r1": 1763985746,
+        "255.22-r2": 1776181591
       }
     },
     "elogind-lang": {
       "origin": "elogind",
       "versions": {
         "255.22-r0": 1763488709,
-        "255.22-r1": 1763985746
+        "255.22-r1": 1763985746,
+        "255.22-r2": 1776181591
       }
     },
     "elogind-openrc": {
       "origin": "elogind",
       "versions": {
         "255.22-r0": 1763488709,
-        "255.22-r1": 1763985746
+        "255.22-r1": 1763985746,
+        "255.22-r2": 1776181591
       }
     },
     "elogind-zsh-completion": {
       "origin": "elogind",
       "versions": {
         "255.22-r0": 1763488709,
-        "255.22-r1": 1763985746
+        "255.22-r1": 1763985746,
+        "255.22-r2": 1776181591
       }
     },
     "eltclsh": {
@@ -107650,7 +107659,8 @@
       "origin": "elogind",
       "versions": {
         "255.22-r0": 1763488709,
-        "255.22-r1": 1763985746
+        "255.22-r1": 1763985746,
+        "255.22-r2": 1776181591
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",

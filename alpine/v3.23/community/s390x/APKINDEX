@@ -20393,21 +20393,21 @@ m:Antoni Aloy <aaloytorrens@gmail.com>
 t:1759001049
 c:0aa355cdf3aa6055ca6cb5cb4309b7930276c9b7
 
-C:Q1XwHCBrpZOQPr2CWAS8RKX1uPBVI=
+C:Q1KZCiujAFODkxN9333RKGV7q38sU=
 P:busctl
-V:255.22-r1
+V:255.22-r2
 A:s390x
-S:33660
+S:33652
 I:84008
 T:tool for monitoring and introspecting the D-Bus bus
 U:https://github.com/elogind/elogind
 L:GPL-2.0-or-later LGPL-2.1-or-later
 o:elogind
 m:team/alpine-desktop <pabloyoyoista@postmarketos.org>
-t:1763985746
-c:375f92a8e2cd9eaa36c6568d279540fcf96ad9fd
+t:1776181591
+c:f83c573d8bd3592851ccb37f6405876e172913d1
 D:so:libc.musl-s390x.so.1 so:libelogind-shared-255.so
-p:cmd:busctl=255.22-r1
+p:cmd:busctl=255.22-r2
 
 C:Q1nVRa3GQOaKXQAt89EXWh4IlDoCw=
 P:bvi
@@ -41103,128 +41103,128 @@ t:1763212579
 c:899cf9f1bc43ee624c62de3995813b83375f26ed
 i:docs elixir=1.19.3-r0
 
-C:Q1/+QNDPRQL+REPsK/99ZY0RJ37y0=
+C:Q14sWla9M55Vuo/SuOaSEFN+irWuU=
 P:elogind
-V:255.22-r1
+V:255.22-r2
 A:s390x
-S:335962
+S:335970
 I:882435
 T:Standalone fork of systemd's elogind
 U:https://github.com/elogind/elogind
 L:GPL-2.0-or-later LGPL-2.1-or-later
 o:elogind
 m:team/alpine-desktop <pabloyoyoista@postmarketos.org>
-t:1763985746
-c:375f92a8e2cd9eaa36c6568d279540fcf96ad9fd
-D:dbus shadow busctl=255.22-r1 so:libc.musl-s390x.so.1 so:libcap.so.2 so:libelogind-shared-255.so so:libpam.so.0 so:libpam_misc.so.0
-p:cmd:elogind-inhibit=255.22-r1 cmd:loginctl=255.22-r1
+t:1776181591
+c:f83c573d8bd3592851ccb37f6405876e172913d1
+D:dbus shadow busctl=255.22-r2 so:libc.musl-s390x.so.1 so:libcap.so.2 so:libelogind-shared-255.so so:libpam.so.0 so:libpam_misc.so.0
+p:cmd:elogind-inhibit=255.22-r2 cmd:loginctl=255.22-r2
 
-C:Q16Pm6i4vRQW4R5YoDwGH9GCelrLc=
+C:Q1anc28gPvQdybYOMsBRwwNiMjFng=
 P:elogind-bash-completion
-V:255.22-r1
+V:255.22-r2
 A:s390x
-S:4308
+S:4301
 I:12622
 T:Bash completions for elogind
 U:https://github.com/elogind/elogind
 L:GPL-2.0-or-later LGPL-2.1-or-later
 o:elogind
 m:team/alpine-desktop <pabloyoyoista@postmarketos.org>
-t:1763985746
-c:375f92a8e2cd9eaa36c6568d279540fcf96ad9fd
-i:elogind=255.22-r1 bash-completion
+t:1776181591
+c:f83c573d8bd3592851ccb37f6405876e172913d1
+i:elogind=255.22-r2 bash-completion
 
-C:Q1/u/3pBPIRC4WE8LMRhLtVi/mKx0=
+C:Q1mV4mUx6VxaLVKxI0xS2qTF2Ym54=
 P:elogind-common
-V:255.22-r1
+V:255.22-r2
 A:s390x
-S:579861
+S:579863
 I:1439608
 T:common components for elogind and related tools
 U:https://github.com/elogind/elogind
 L:GPL-2.0-or-later LGPL-2.1-or-later
 o:elogind
 m:team/alpine-desktop <pabloyoyoista@postmarketos.org>
-t:1763985746
-c:375f92a8e2cd9eaa36c6568d279540fcf96ad9fd
+t:1776181591
+c:f83c573d8bd3592851ccb37f6405876e172913d1
 D:so:libacl.so.1 so:libc.musl-s390x.so.1 so:libcap.so.2 so:libmount.so.1 so:libpam.so.0
 p:so:libelogind-shared-255.so=0
 
-C:Q1BhD68aDnynNSLFs+hzheG0bOphc=
+C:Q1jt+nQDQtenPmO50NMeJ9djINuLc=
 P:elogind-dev
-V:255.22-r1
+V:255.22-r2
 A:s390x
-S:39016
+S:39008
 I:180900
 T:Standalone fork of systemd's elogind (development files)
 U:https://github.com/elogind/elogind
 L:GPL-2.0-or-later LGPL-2.1-or-later
 o:elogind
 m:team/alpine-desktop <pabloyoyoista@postmarketos.org>
-t:1763985746
-c:375f92a8e2cd9eaa36c6568d279540fcf96ad9fd
-D:libelogind=255.22-r1 pkgconfig
+t:1776181591
+c:f83c573d8bd3592851ccb37f6405876e172913d1
+D:libelogind=255.22-r2 pkgconfig
 p:pc:libelogind=255 pc:libsystemd-logind=255 pc:libsystemd=255
 
-C:Q1TM2NWyDesZI7hMwsYxq0W6vd6MI=
+C:Q106Lc2MPltefG37mYF0eHBOp2Lxg=
 P:elogind-doc
-V:255.22-r1
+V:255.22-r2
 A:s390x
-S:351190
+S:351193
 I:388895
 T:Standalone fork of systemd's elogind (documentation)
 U:https://github.com/elogind/elogind
 L:GPL-2.0-or-later LGPL-2.1-or-later
 o:elogind
 m:team/alpine-desktop <pabloyoyoista@postmarketos.org>
-t:1763985746
-c:375f92a8e2cd9eaa36c6568d279540fcf96ad9fd
-i:docs elogind=255.22-r1
+t:1776181591
+c:f83c573d8bd3592851ccb37f6405876e172913d1
+i:docs elogind=255.22-r2
 
-C:Q17PepqNfOT4vGNjEkj8zjhQgjtO4=
+C:Q1YtiQemlpWxjOZrAKM0mUFkb5j5s=
 P:elogind-lang
-V:255.22-r1
+V:255.22-r2
 A:s390x
-S:60878
+S:60892
 I:426914
 T:Languages for package elogind
 U:https://github.com/elogind/elogind
 L:GPL-2.0-or-later LGPL-2.1-or-later
 o:elogind
 m:team/alpine-desktop <pabloyoyoista@postmarketos.org>
-t:1763985746
-c:375f92a8e2cd9eaa36c6568d279540fcf96ad9fd
-i:elogind=255.22-r1 lang
+t:1776181591
+c:f83c573d8bd3592851ccb37f6405876e172913d1
+i:elogind=255.22-r2 lang
 
-C:Q1nZt/Cd4ZX0MXvTBx1kqx7Fjh+YQ=
+C:Q1l6EojU0oMN9MjdV5ej4RGLiy2bM=
 P:elogind-openrc
-V:255.22-r1
+V:255.22-r2
 A:s390x
-S:1896
+S:1897
 I:467
 T:Standalone fork of systemd's elogind (OpenRC init scripts)
 U:https://github.com/elogind/elogind
 L:GPL-2.0-or-later LGPL-2.1-or-later
 o:elogind
 m:team/alpine-desktop <pabloyoyoista@postmarketos.org>
-t:1763985746
-c:375f92a8e2cd9eaa36c6568d279540fcf96ad9fd
-i:openrc elogind=255.22-r1
+t:1776181591
+c:f83c573d8bd3592851ccb37f6405876e172913d1
+i:openrc elogind=255.22-r2
 
-C:Q16+jMaHKNkTyp5JkwGmWrvfyfdMU=
+C:Q1oFh52V6K66Eul+Aj1UHkuPl2Rw0=
 P:elogind-zsh-completion
-V:255.22-r1
+V:255.22-r2
 A:s390x
-S:6718
+S:6716
 I:19000
 T:Zsh completions for elogind
 U:https://github.com/elogind/elogind
 L:GPL-2.0-or-later LGPL-2.1-or-later
 o:elogind
 m:team/alpine-desktop <pabloyoyoista@postmarketos.org>
-t:1763985746
-c:375f92a8e2cd9eaa36c6568d279540fcf96ad9fd
-i:elogind=255.22-r1 zsh
+t:1776181591
+c:f83c573d8bd3592851ccb37f6405876e172913d1
+i:elogind=255.22-r2 zsh
 
 C:Q1hzyvYZALKUyZviX2G6C+H+X6f8I=
 P:eltclsh
@@ -107278,19 +107278,19 @@ c:6bd45b53fb316dc01bda59f5feaf1e127eb64f22
 D:so:libc.musl-s390x.so.1
 p:so:libeis.so.1=1.4.1
 
-C:Q1DaPptLbdbG/p8B8IqKGX6sZPDUQ=
+C:Q19qtgtAJkD0tJCbMkAHwsoBbuklg=
 P:libelogind
-V:255.22-r1
+V:255.22-r2
 A:s390x
-S:278071
+S:278070
 I:664376
 T:Standalone fork of systemd's elogind (libraries)
 U:https://github.com/elogind/elogind
 L:GPL-2.0-or-later LGPL-2.1-or-later
 o:elogind
 m:team/alpine-desktop <pabloyoyoista@postmarketos.org>
-t:1763985746
-c:375f92a8e2cd9eaa36c6568d279540fcf96ad9fd
+t:1776181591
+c:f83c573d8bd3592851ccb37f6405876e172913d1
 D:so:libc.musl-s390x.so.1 so:libcap.so.2
 p:so:libelogind.so.0=0.38.0
 
