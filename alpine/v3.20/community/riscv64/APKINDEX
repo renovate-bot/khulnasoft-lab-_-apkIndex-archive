@@ -2284,21 +2284,21 @@ t:1681295124
 c:0224dd5c8daa54e22a018eaffd38ca5980911f36
 i:docs alpine=2.26-r2
 
-C:Q1o7Dqy6paRwEIC77bayOguduhcSg=
+C:Q18hlD8qz7ZzbjcbgpOsdx3TqJToc=
 P:alpine-make-vm-image
-V:0.13.2-r0
+V:0.13.4-r0
 A:riscv64
-S:12146
+S:12158
 I:40960
 T:Make customized Alpine Linux disk image for virtual machines
 U:https://github.com/alpinelinux/alpine-make-vm-image
 L:MIT
 o:alpine-make-vm-image
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1739361747
-c:354f268b93bd2d2bed3497d89ddb83e5b7e2f52a
+t:1774960032
+c:c9270a976d27d5f1dc3741b2b23c1ff218efa54a
 D:qemu-img
-p:cmd:alpine-make-vm-image=0.13.2-r0
+p:cmd:alpine-make-vm-image=0.13.4-r0
 
 C:Q1uwowa6Ylxa52wKzzjKmfv/4+ReA=
 P:alpine-repo-tools
@@ -99295,69 +99295,69 @@ t:1684120357
 c:33283848034c9885d984c8e8697c645c57324938
 i:docs liboauth=1.0.3-r5
 
-C:Q1n4f1QAC3srsuSyYRN1fkoGxnoCE=
+C:Q1laT5NoR6qW/BgwtE1B4pN+mNYDg=
 P:libobjfw1
-V:1.4.4-r0
+V:1.5.1-r0
 A:riscv64
-S:943059
-I:4644864
+S:990995
+I:4837376
 T:Library needed by programs using ObjFW
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1770161284
-c:8906e8e14ee9ff42c892fb9182e493f848088ef3
+t:1775169308
+c:858f09933c744e8fbbdb7fad7006553c41ddc75a
 D:so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libobjfwrt.so.1
-p:so:libobjfw.so.1=1.4.4
+p:so:libobjfw.so.1=1.5.0
 
-C:Q1svIqE3yHZ6wdtZ4sXnwxRfIXw4E=
+C:Q1tQ1IFzPLw3GkDiIuQdnY48U+hGo=
 P:libobjfwhid1
-V:1.4.4-r0
+V:1.5.1-r0
 A:riscv64
-S:87746
-I:507904
+S:99629
+I:577536
 T:Library for HID support for ObjFW
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1770161284
-c:8906e8e14ee9ff42c892fb9182e493f848088ef3
+t:1775169308
+c:858f09933c744e8fbbdb7fad7006553c41ddc75a
 D:so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1
-p:so:libobjfwhid.so.1=1.4.0
+p:so:libobjfwhid.so.1=1.5.0
 
-C:Q1tkrJjxoYu7E8OUOy00/iiOX22A8=
+C:Q1lq7uMUeF7szgkUWzbdddRFQhXlA=
 P:libobjfwrt1
-V:1.4.4-r0
+V:1.5.1-r0
 A:riscv64
-S:25360
+S:25369
 I:69632
 T:ObjFW Objective-C runtime library
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1770161284
-c:8906e8e14ee9ff42c892fb9182e493f848088ef3
+t:1775169308
+c:858f09933c744e8fbbdb7fad7006553c41ddc75a
 D:so:libc.musl-riscv64.so.1 so:libgcc_s.so.1
-p:so:libobjfwrt.so.1=1.4.4
+p:so:libobjfwrt.so.1=1.5.1
 
-C:Q1uA7fzLa2v0TysSWeO6UIqrixhB4=
+C:Q1EWumpQvidzM6YekkjJ+f89Pmxu8=
 P:libobjfwtls1
-V:1.4.4-r0
+V:1.5.1-r0
 A:riscv64
-S:18369
+S:18375
 I:77824
 T:Library for TLS support for ObjFW
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1770161284
-c:8906e8e14ee9ff42c892fb9182e493f848088ef3
+t:1775169308
+c:858f09933c744e8fbbdb7fad7006553c41ddc75a
 D:so:libc.musl-riscv64.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1 so:libssl.so.3
-p:so:libobjfwtls.so.1=1.4.4
+p:so:libobjfwtls.so.1=1.5.0
 
 C:Q1LFn6kWO8KPXMBww4515E2NCcskw=
 P:libodfgen
@@ -131735,66 +131735,66 @@ t:1702992350
 c:1e40ebb81e1bd430682f1e567f49def3e88314d0
 i:obfuscate=0.0.9-r1 lang
 
-C:Q1s+1sgegPHn7nDtFClzV0sNI2HNo=
+C:Q1ksrwRi0uwrbhq83SVnHCZxaxoME=
 P:objfw
-V:1.4.4-r0
+V:1.5.1-r0
 A:riscv64
-S:118424
-I:585728
+S:120621
+I:598016
 T:Portable, lightweight framework for the Objective-C language
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1770161284
-c:8906e8e14ee9ff42c892fb9182e493f848088ef3
-D:libobjfw1=1.4.4-r0 libobjfwrt1=1.4.4-r0 libobjfwtls1=1.4.4-r0 libobjfwhid1=1.4.4-r0 objfw-dev=1.4.4-r0 objfw-doc=1.4.4-r0 ofarc=1.4.4-r0 ofdns=1.4.4-r0 ofhash=1.4.4-r0 ofhttp=1.4.4-r0 so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwhid.so.1 so:libobjfwrt.so.1
-p:cmd:ofgctester=1.4.4-r0
+t:1775169308
+c:858f09933c744e8fbbdb7fad7006553c41ddc75a
+D:libobjfw1=1.5.1-r0 libobjfwrt1=1.5.1-r0 libobjfwtls1=1.5.1-r0 libobjfwhid1=1.5.1-r0 objfw-dev=1.5.1-r0 objfw-doc=1.5.1-r0 ofarc=1.5.1-r0 ofdns=1.5.1-r0 ofhash=1.5.1-r0 ofhttp=1.5.1-r0 so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwhid.so.1 so:libobjfwrt.so.1
+p:cmd:ofgctester=1.5.1-r0
 
-C:Q1jl1ZAijI5bKDnfnucuDmyJ+60D8=
+C:Q1StyrNmHKa9ThJzd5pmLnLdpzFnM=
 P:objfw-dbg
-V:1.4.4-r0
+V:1.5.1-r0
 A:riscv64
-S:1863213
-I:10952704
+S:1983566
+I:11644928
 T:Portable, lightweight framework for the Objective-C language (debug symbols)
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1770161284
-c:8906e8e14ee9ff42c892fb9182e493f848088ef3
+t:1775169308
+c:858f09933c744e8fbbdb7fad7006553c41ddc75a
 
-C:Q1VQJ2ZAwGaEI1l7fG0SUlc8XHNS4=
+C:Q1vSD3F5SuEd106wV8t9phK2o9uiI=
 P:objfw-dev
-V:1.4.4-r0
+V:1.5.1-r0
 A:riscv64
-S:223215
-I:2043904
+S:233553
+I:2138112
 T:Portable, lightweight framework for the Objective-C language
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1770161284
-c:8906e8e14ee9ff42c892fb9182e493f848088ef3
-D:libobjfw1=1.4.4-r0 libobjfwhid1=1.4.4-r0 libobjfwrt1=1.4.4-r0 libobjfwtls1=1.4.4-r0 so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1
-p:cmd:objfw-compile=1.4.4-r0 cmd:objfw-config=1.4.4-r0 cmd:objfw-embed=1.4.4-r0 cmd:objfw-new=1.4.4-r0
+t:1775169308
+c:858f09933c744e8fbbdb7fad7006553c41ddc75a
+D:libobjfw1=1.5.1-r0 libobjfwhid1=1.5.1-r0 libobjfwrt1=1.5.1-r0 libobjfwtls1=1.5.1-r0 so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1
+p:cmd:objfw-compile=1.5.1-r0 cmd:objfw-config=1.5.1-r0 cmd:objfw-embed=1.5.1-r0 cmd:objfw-new=1.5.1-r0
 
-C:Q1RUwxekf8ozrqma/QRq5LN1DRENM=
+C:Q17qG/R5zrOrWSHJw+DRdUyZ/HjHE=
 P:objfw-doc
-V:1.4.4-r0
+V:1.5.1-r0
 A:riscv64
-S:4950841
-I:43565056
+S:5144176
+I:45174784
 T:Portable, lightweight framework for the Objective-C language (documentation)
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1770161284
-c:8906e8e14ee9ff42c892fb9182e493f848088ef3
-i:docs objfw=1.4.4-r0
+t:1775169308
+c:858f09933c744e8fbbdb7fad7006553c41ddc75a
+i:docs objfw=1.5.1-r0
 
 C:Q1Itqyxc+BJOGENWnEUu5u3jlBGMg=
 P:ocaml5
@@ -132028,37 +132028,37 @@ t:1707155907
 c:09cb6eb1bce9b4ab86607a497a2d200b5e5a8bbf
 i:docs oed=7.4-r0
 
-C:Q187Rr5MNm+VSe5Hj425bKdSiFZ9s=
+C:Q1FWEqX3A3oRt4xl7/2DSUM8nhQNs=
 P:ofarc
-V:1.4.4-r0
+V:1.5.1-r0
 A:riscv64
-S:65097
-I:303104
+S:68311
+I:319488
 T:Utility for handling ZIP, Tar and LHA archives
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1770161284
-c:8906e8e14ee9ff42c892fb9182e493f848088ef3
+t:1775169308
+c:858f09933c744e8fbbdb7fad7006553c41ddc75a
 D:so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1 so:libobjfwtls.so.1
-p:cmd:ofarc=1.4.4-r0
+p:cmd:ofarc=1.5.1-r0
 
-C:Q1LrWE7U4ufZPm2FYg7Hiq6wD35lA=
+C:Q1NHE5ss0e1p9wztzs6EuoSOWruis=
 P:ofdns
-V:1.4.4-r0
+V:1.5.1-r0
 A:riscv64
-S:11381
+S:12186
 I:69632
 T:Utility for performing DNS requests on the command line
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1770161284
-c:8906e8e14ee9ff42c892fb9182e493f848088ef3
-D:so:libc.musl-riscv64.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1
-p:cmd:ofdns=1.4.4-r0
+t:1775169308
+c:858f09933c744e8fbbdb7fad7006553c41ddc75a
+D:so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1
+p:cmd:ofdns=1.5.1-r0
 
 C:Q1uOwT6EzJdF1wymCO561/xSbPHK4=
 P:offlineimap
@@ -132139,37 +132139,37 @@ c:ed8cdbc2e6a1a75f7225442065c7e2184d1fa2d1
 D:file less py3-requests python3 timg python3~3.12
 i:offpunk=2.2-r2 pyc
 
-C:Q1W4X6G8mo1lmXd3FWcm4xoEt14Rk=
+C:Q1vBBP5xegs63hNGnCgYq3d917XKs=
 P:ofhash
-V:1.4.4-r0
+V:1.5.1-r0
 A:riscv64
-S:12808
+S:12931
 I:77824
 T:Utility to hash files with various cryptographic hashes
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1770161284
-c:8906e8e14ee9ff42c892fb9182e493f848088ef3
+t:1775169308
+c:858f09933c744e8fbbdb7fad7006553c41ddc75a
 D:so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1 so:libobjfwtls.so.1
-p:cmd:ofhash=1.4.4-r0
+p:cmd:ofhash=1.5.1-r0
 
-C:Q1J+x0Kt5tkKJGsi0ea5Dffp56qbY=
+C:Q1PQRkKlFBPnsMoOm4LZKwaPjL/+8=
 P:ofhttp
-V:1.4.4-r0
+V:1.5.1-r0
 A:riscv64
-S:34249
-I:151552
+S:35757
+I:155648
 T:Command line downloader for HTTP(S)
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1770161284
-c:8906e8e14ee9ff42c892fb9182e493f848088ef3
+t:1775169308
+c:858f09933c744e8fbbdb7fad7006553c41ddc75a
 D:so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1 so:libobjfwtls.so.1
-p:cmd:ofhttp=1.4.4-r0
+p:cmd:ofhttp=1.5.1-r0
 
 C:Q1LWrIPFScLCq6WAV6TxAyGAQ6m+4=
 P:ofono
@@ -207676,61 +207676,61 @@ c:10f3a9dca425271c75c58adb2223d232e10151fb
 D:pkgconfig pystring=1.1.4-r0
 p:pc:pystring=1.1.4
 
-C:Q1baaZiddirvuvTKrZbBOOd9eOoJ4=
+C:Q1xq/RqPtgN4BR7YvTe80aOs7zSDk=
 P:python3-idle
-V:3.12.12-r0
+V:3.12.13-r0
 A:riscv64
-S:1173516
+S:1173558
 I:4710400
 T:IDE for Python3 using Tkinter
 U:https://wiki.python.org/moin/TkInter
 L:PSF-2.0
 o:python3-tkinter
-t:1760197440
-c:645c73c556cb5f876a301ca2458008c578760a86
-D:python3-tkinter=3.12.12-r0 python3 python3-tests
-p:cmd:idle3.12=3.12.12-r0
+t:1775830591
+c:591625009d7185e6e5a4c099d69a3bb8220b22f1
+D:python3-tkinter=3.12.13-r0 python3 python3-tests
+p:cmd:idle3.12=3.12.13-r0
 
-C:Q1bDzDYnMUS1Z/bV44lXXY3N1wDGY=
+C:Q1D2UTSs8lygiJqZjmUcCQIgh/75c=
 P:python3-tkinter
-V:3.12.12-r0
+V:3.12.13-r0
 A:riscv64
-S:112903
+S:112921
 I:475136
 T:A graphical user interface for the Python programming language
 U:https://wiki.python.org/moin/TkInter
 L:PSF-2.0
 o:python3-tkinter
-t:1760197440
-c:645c73c556cb5f876a301ca2458008c578760a86
+t:1775830591
+c:591625009d7185e6e5a4c099d69a3bb8220b22f1
 D:so:libc.musl-riscv64.so.1 so:libtcl8.6.so so:libtk8.6.so
 
-C:Q1FGTjXNj1sR0gee0lx0N6izGPIJU=
+C:Q1tBnccxPVdqwiwm/j7ghrm2zbgQY=
 P:python3-tkinter-pyc
-V:3.12.12-r0
+V:3.12.13-r0
 A:riscv64
-S:409518
+S:409539
 I:1527808
 T:Precompiled Python bytecode for python3-tkinter
 U:https://wiki.python.org/moin/TkInter
 L:PSF-2.0
 o:python3-tkinter
-t:1760197440
-c:645c73c556cb5f876a301ca2458008c578760a86
-i:python3-tkinter=3.12.12-r0 pyc
+t:1775830591
+c:591625009d7185e6e5a4c099d69a3bb8220b22f1
+i:python3-tkinter=3.12.13-r0 pyc
 
-C:Q1jHTQ4m70kTE6RjmXB70bGDtiZkU=
+C:Q18molwUbLRfwkMN03YKkEAg3hpTM=
 P:python3-tkinter-tests
-V:3.12.12-r0
+V:3.12.13-r0
 A:riscv64
-S:980329
+S:980403
 I:5660672
 T:The test modules from the main python package for tkinter
 U:https://wiki.python.org/moin/TkInter
 L:PSF-2.0
 o:python3-tkinter
-t:1760197440
-c:645c73c556cb5f876a301ca2458008c578760a86
+t:1775830591
+c:591625009d7185e6e5a4c099d69a3bb8220b22f1
 
 C:Q1OMEN6KCd45T8IeNtR0wGcmE3ano=
 P:pythran
@@ -238064,51 +238064,51 @@ t:1701486185
 c:7e7a685467b3ef6bf1215d0580aef9edde209076
 i:docs toppler=1.1.6-r2
 
-C:Q1/KXK+fiW+SvRIJAoYYLg8d+9DwE=
+C:Q1kIGWSn6MQ/NFu78ZSn7Ctg7pcps=
 P:tor
-V:0.4.9.5-r0
+V:0.4.9.6-r0
 A:riscv64
-S:6400259
-I:29671424
+S:6353371
+I:29130752
 T:Anonymous network connectivity
 U:https://www.torproject.org/
 L:BSD-3-Clause AND GPL-3.0-only
 o:tor
 m:omni <omni+alpine@hack.org>
-t:1771440001
-c:3b01afe8417ee21be24e27dbc576d7a5b7d7f0bc
+t:1774456256
+c:8a81d044b99b1330b5cee1bd814ee657f599f075
 D:/bin/sh so:libc.musl-riscv64.so.1 so:libcap.so.2 so:libcrypto.so.3 so:libevent-2.1.so.7 so:liblzma.so.5 so:libseccomp.so.2 so:libssl.so.3 so:libz.so.1 so:libzstd.so.1
-p:cmd:tor-gencert=0.4.9.5-r0 cmd:tor-print-ed-signing-cert=0.4.9.5-r0 cmd:tor-resolve=0.4.9.5-r0 cmd:tor=0.4.9.5-r0 cmd:torify=0.4.9.5-r0
+p:cmd:tor-gencert=0.4.9.6-r0 cmd:tor-print-ed-signing-cert=0.4.9.6-r0 cmd:tor-resolve=0.4.9.6-r0 cmd:tor=0.4.9.6-r0 cmd:torify=0.4.9.6-r0
 
-C:Q1hYHq6rkUXtFRTxEAxrzJCaS5His=
+C:Q1pn4m6/MRpzDFW1W87IhbqpqbmWM=
 P:tor-doc
-V:0.4.9.5-r0
+V:0.4.9.6-r0
 A:riscv64
-S:64222
+S:64221
 I:98304
 T:Anonymous network connectivity (documentation)
 U:https://www.torproject.org/
 L:BSD-3-Clause AND GPL-3.0-only
 o:tor
 m:omni <omni+alpine@hack.org>
-t:1771440001
-c:3b01afe8417ee21be24e27dbc576d7a5b7d7f0bc
-i:docs tor=0.4.9.5-r0
+t:1774456256
+c:8a81d044b99b1330b5cee1bd814ee657f599f075
+i:docs tor=0.4.9.6-r0
 
-C:Q1a0yEbz4qQyS30Ux9qjPhp4C9SHg=
+C:Q1HOe4nMqJlJZZ7PZVlIBV2zEGhPg=
 P:tor-openrc
-V:0.4.9.5-r0
+V:0.4.9.6-r0
 A:riscv64
-S:2736
+S:2737
 I:24576
 T:Anonymous network connectivity (OpenRC init scripts)
 U:https://www.torproject.org/
 L:BSD-3-Clause AND GPL-3.0-only
 o:tor
 m:omni <omni+alpine@hack.org>
-t:1771440001
-c:3b01afe8417ee21be24e27dbc576d7a5b7d7f0bc
-i:openrc tor=0.4.9.5-r0
+t:1774456256
+c:8a81d044b99b1330b5cee1bd814ee657f599f075
+i:openrc tor=0.4.9.6-r0
 
 C:Q1uAMwrHXcuCqzzEYBoMMulIgZXaY=
 P:torsocks
