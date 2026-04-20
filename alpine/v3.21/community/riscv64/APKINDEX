@@ -2754,21 +2754,21 @@ t:1722613815
 c:4cb14900d6f1cb72abffe30a6a31587ac54364b3
 i:docs alpine=2.26-r3
 
-C:Q1IvAeTBzkyqaTgflE3APpnTHmJO4=
+C:Q1F71iZLFTIC3xASTMGjzilOxyf6U=
 P:alpine-make-vm-image
-V:0.13.3-r0
+V:0.13.4-r0
 A:riscv64
-S:12101
-I:26863
+S:12115
+I:26912
 T:Make customized Alpine Linux disk image for virtual machines
 U:https://github.com/alpinelinux/alpine-make-vm-image
 L:MIT
 o:alpine-make-vm-image
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1757589512
-c:a0d7e30207a756bc7b872b653c24e90dcd76d8cb
+t:1774959978
+c:424982a3d2c8fff0b874f60222ea19b0f5529994
 D:qemu-img
-p:cmd:alpine-make-vm-image=0.13.3-r0
+p:cmd:alpine-make-vm-image=0.13.4-r0
 
 C:Q1zl8alJkr5clwxk02VWjsy7lwPRA=
 P:alpine-repo-tools
@@ -40693,51 +40693,51 @@ c:e8d489ac5c2eb42403940281154730273ff8f2f1
 D:borgbackup python3 py3-appdirs py3-arrow py3-docopt py3-inform>=1.31 py3-nestedtext py3-quantiphy py3-requests python3~3.12
 i:emborg=1.41-r0 pyc
 
-C:Q185vohGKyYdbDtrBDjjKsCtsv8RI=
+C:Q11c6hR3bQY7XdPB4GEc8Q923pYHo=
 P:emptty
-V:0.15.0-r0
+V:0.16.1-r0
 A:riscv64
-S:1383754
-I:3645222
+S:1401517
+I:3686246
 T:Dead simple CLI Display Manager on TTY
 U:https://github.com/tvrzna/emptty
 L:MIT
 o:emptty
 m:Michal Tvrznik <emporeor@gmail.com>
-t:1764758306
-c:1bd7d86464e0fbb2e0cacd89ce6119a52a3aa0ff
-D:so:libX11.so.6 so:libc.musl-riscv64.so.1 so:libpam.so.0
-p:cmd:emptty=0.15.0-r0
+t:1774850194
+c:98faf5692f97ade3aee236ff07174414e2406bc1
+D:so:libc.musl-riscv64.so.1 so:libpam.so.0
+p:cmd:emptty=0.16.1-r0
 
-C:Q18ks9RjnYoDRRu/n7NamPh19ihuo=
+C:Q1UlkUpfTyQ2CAhRyXZyn/ZVvivG0=
 P:emptty-doc
-V:0.15.0-r0
+V:0.16.1-r0
 A:riscv64
-S:5860
-I:4384
+S:5908
+I:4432
 T:Dead simple CLI Display Manager on TTY (documentation)
 U:https://github.com/tvrzna/emptty
 L:MIT
 o:emptty
 m:Michal Tvrznik <emporeor@gmail.com>
-t:1764758306
-c:1bd7d86464e0fbb2e0cacd89ce6119a52a3aa0ff
-i:docs emptty=0.15.0-r0
+t:1774850194
+c:98faf5692f97ade3aee236ff07174414e2406bc1
+i:docs emptty=0.16.1-r0
 
-C:Q1zgfLjAf7IkphMLgxgwrmbYKGaD0=
+C:Q1vj8WDe3PvjcChmmHepzeVSDCxc4=
 P:emptty-openrc
-V:0.15.0-r0
+V:0.16.1-r0
 A:riscv64
-S:1488
+S:1492
 I:328
 T:Dead simple CLI Display Manager on TTY (OpenRC init scripts)
 U:https://github.com/tvrzna/emptty
 L:MIT
 o:emptty
 m:Michal Tvrznik <emporeor@gmail.com>
-t:1764758306
-c:1bd7d86464e0fbb2e0cacd89ce6119a52a3aa0ff
-i:openrc emptty=0.15.0-r0
+t:1774850194
+c:98faf5692f97ade3aee236ff07174414e2406bc1
+i:openrc emptty=0.16.1-r0
 
 C:Q1P+qoEZQT5vYawZD3GRJvpLS1O/0=
 P:enca
@@ -109424,69 +109424,69 @@ t:1684120357
 c:33283848034c9885d984c8e8697c645c57324938
 i:docs liboauth=1.0.3-r5
 
-C:Q1kSQZ3Zw0ARrGKIP2JEKlC9J7RCo=
+C:Q128eGKZaiX6pNLUmcC0ESechNMq8=
 P:libobjfw1
-V:1.4.4-r0
+V:1.5.1-r0
 A:riscv64
-S:938899
-I:4620680
+S:988772
+I:4813672
 T:Library needed by programs using ObjFW
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1770161259
-c:772aebeb52a2fe50e7c73ce9b30bf3f0b1e05669
+t:1775169325
+c:9244a71322f3b5cda7a4b62707a6d9486d94f6b6
 D:so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libobjfwrt.so.1
-p:so:libobjfw.so.1=1.4.4
+p:so:libobjfw.so.1=1.5.0
 
-C:Q142v8SgZKb4Nq7fQza992UqYEP2c=
+C:Q1y7TBgQ3zotI67FyCFod9bfjNHos=
 P:libobjfwhid1
-V:1.4.4-r0
+V:1.5.1-r0
 A:riscv64
-S:87655
-I:500480
+S:99550
+I:570784
 T:Library for HID support for ObjFW
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1770161259
-c:772aebeb52a2fe50e7c73ce9b30bf3f0b1e05669
+t:1775169325
+c:9244a71322f3b5cda7a4b62707a6d9486d94f6b6
 D:so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1
-p:so:libobjfwhid.so.1=1.4.0
+p:so:libobjfwhid.so.1=1.5.0
 
-C:Q1VOLYw/nCiel9QHvHyYDu2sHjOn4=
+C:Q1mMkhJ8bozFSLfbe1Zx4cb89z5sQ=
 P:libobjfwrt1
-V:1.4.4-r0
+V:1.5.1-r0
 A:riscv64
-S:25161
+S:25163
 I:56848
 T:ObjFW Objective-C runtime library
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1770161259
-c:772aebeb52a2fe50e7c73ce9b30bf3f0b1e05669
+t:1775169325
+c:9244a71322f3b5cda7a4b62707a6d9486d94f6b6
 D:so:libc.musl-riscv64.so.1 so:libgcc_s.so.1
-p:so:libobjfwrt.so.1=1.4.4
+p:so:libobjfwrt.so.1=1.5.1
 
-C:Q1w43d6AjQxN/rPn7wQ4bd7jx/E4k=
+C:Q171Xf3E/CoWn09QX/aRxUz28nx/Y=
 P:libobjfwtls1
-V:1.4.4-r0
+V:1.5.1-r0
 A:riscv64
-S:18286
+S:18283
 I:58808
 T:Library for TLS support for ObjFW
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1770161259
-c:772aebeb52a2fe50e7c73ce9b30bf3f0b1e05669
+t:1775169325
+c:9244a71322f3b5cda7a4b62707a6d9486d94f6b6
 D:so:libc.musl-riscv64.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1 so:libssl.so.3
-p:so:libobjfwtls.so.1=1.4.4
+p:so:libobjfwtls.so.1=1.5.0
 
 C:Q1lxN2A5JceCW87shp3skyru4s9V8=
 P:libodfgen
@@ -144525,52 +144525,52 @@ t:1717618921
 c:2eca57288555fd2f2c31ccaecf49836ebed25b28
 i:obfuscate=0.0.9-r1 lang
 
-C:Q1msFgGh3bNZ2gHmfnI5TqieQKSIk=
+C:Q1nHn+i08z2XG0HQf6cWnahnoqoRg=
 P:objfw
-V:1.4.4-r0
+V:1.5.1-r0
 A:riscv64
-S:122587
-I:563018
+S:124882
+I:575546
 T:Portable, lightweight framework for the Objective-C language
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1770161259
-c:772aebeb52a2fe50e7c73ce9b30bf3f0b1e05669
-D:libobjfw1=1.4.4-r0 libobjfwrt1=1.4.4-r0 libobjfwtls1=1.4.4-r0 libobjfwhid1=1.4.4-r0 objfw-dev=1.4.4-r0 objfw-doc=1.4.4-r0 ofarc=1.4.4-r0 ofdns=1.4.4-r0 ofhash=1.4.4-r0 ofhttp=1.4.4-r0 so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwhid.so.1 so:libobjfwrt.so.1
-p:cmd:ofgctester=1.4.4-r0
+t:1775169325
+c:9244a71322f3b5cda7a4b62707a6d9486d94f6b6
+D:libobjfw1=1.5.1-r0 libobjfwrt1=1.5.1-r0 libobjfwtls1=1.5.1-r0 libobjfwhid1=1.5.1-r0 objfw-dev=1.5.1-r0 objfw-doc=1.5.1-r0 ofarc=1.5.1-r0 ofdns=1.5.1-r0 ofhash=1.5.1-r0 ofhttp=1.5.1-r0 so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwhid.so.1 so:libobjfwrt.so.1
+p:cmd:ofgctester=1.5.1-r0
 
-C:Q1xXgh66tQILznhA0WXdTnsQ7aRfo=
+C:Q1DU1BjZ+4IWcIYbbOmXQxqRAqF8U=
 P:objfw-dev
-V:1.4.4-r0
+V:1.5.1-r0
 A:riscv64
-S:213646
-I:1321110
+S:223553
+I:1378505
 T:Portable, lightweight framework for the Objective-C language
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1770161259
-c:772aebeb52a2fe50e7c73ce9b30bf3f0b1e05669
-D:libobjfw1=1.4.4-r0 libobjfwhid1=1.4.4-r0 libobjfwrt1=1.4.4-r0 libobjfwtls1=1.4.4-r0 so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1
-p:cmd:objfw-compile=1.4.4-r0 cmd:objfw-config=1.4.4-r0 cmd:objfw-embed=1.4.4-r0 cmd:objfw-new=1.4.4-r0
+t:1775169325
+c:9244a71322f3b5cda7a4b62707a6d9486d94f6b6
+D:libobjfw1=1.5.1-r0 libobjfwhid1=1.5.1-r0 libobjfwrt1=1.5.1-r0 libobjfwtls1=1.5.1-r0 so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1
+p:cmd:objfw-compile=1.5.1-r0 cmd:objfw-config=1.5.1-r0 cmd:objfw-embed=1.5.1-r0 cmd:objfw-new=1.5.1-r0
 
-C:Q13g2OMgY+zXe34B/hqAwd9hrr7qY=
+C:Q1Bza3i+KPxLrfLiLwJuRTpcQMsuo=
 P:objfw-doc
-V:1.4.4-r0
+V:1.5.1-r0
 A:riscv64
-S:4971410
-I:40400146
+S:5167490
+I:41949870
 T:Portable, lightweight framework for the Objective-C language (documentation)
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1770161259
-c:772aebeb52a2fe50e7c73ce9b30bf3f0b1e05669
-i:docs objfw=1.4.4-r0
+t:1775169325
+c:9244a71322f3b5cda7a4b62707a6d9486d94f6b6
+i:docs objfw=1.5.1-r0
 
 C:Q1eWwbmur7K7b6jiUyyHZaEBGVdUA=
 P:ocaml5
@@ -144804,37 +144804,37 @@ t:1729095645
 c:40ea6c48d709733051b824abfc3d0ed2309ae339
 i:docs oed=7.4-r0
 
-C:Q1iWTYGNGPhwa8sqzw6oEawbNCB0Y=
+C:Q1DyN/FFiY8QIjDt7AACTAWhr3K+I=
 P:ofarc
-V:1.4.4-r0
+V:1.5.1-r0
 A:riscv64
-S:64622
-I:271174
+S:68206
+I:287853
 T:Utility for handling ZIP, Tar and LHA archives
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1770161259
-c:772aebeb52a2fe50e7c73ce9b30bf3f0b1e05669
+t:1775169325
+c:9244a71322f3b5cda7a4b62707a6d9486d94f6b6
 D:so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1 so:libobjfwtls.so.1
-p:cmd:ofarc=1.4.4-r0
+p:cmd:ofarc=1.5.1-r0
 
-C:Q1q+kNRnweMNl+r7Gs+kC/j7VmeYE=
+C:Q1YHRDTaFireCGz2NencHX3gwSZc0=
 P:ofdns
-V:1.4.4-r0
+V:1.5.1-r0
 A:riscv64
-S:11315
-I:37500
+S:12031
+I:37828
 T:Utility for performing DNS requests on the command line
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1770161259
-c:772aebeb52a2fe50e7c73ce9b30bf3f0b1e05669
-D:so:libc.musl-riscv64.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1
-p:cmd:ofdns=1.4.4-r0
+t:1775169325
+c:9244a71322f3b5cda7a4b62707a6d9486d94f6b6
+D:so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1
+p:cmd:ofdns=1.5.1-r0
 
 C:Q1Q/EbROFpBdsusiijy3x+YbOYlxM=
 P:offlineimap
@@ -144915,37 +144915,37 @@ c:f8c6cc821e517d12ecd422fe95a2657ecba3b984
 D:chafa file less py3-requests python3 python3~3.12
 i:offpunk=2.4-r0 pyc
 
-C:Q1HXd/CxKO0khv8XoejoVNULoRDqU=
+C:Q1MPA3+zeBafAndoGD1V1Li215H6w=
 P:ofhash
-V:1.4.4-r0
+V:1.5.1-r0
 A:riscv64
-S:12769
-I:42159
+S:12869
+I:42175
 T:Utility to hash files with various cryptographic hashes
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1770161259
-c:772aebeb52a2fe50e7c73ce9b30bf3f0b1e05669
+t:1775169325
+c:9244a71322f3b5cda7a4b62707a6d9486d94f6b6
 D:so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1 so:libobjfwtls.so.1
-p:cmd:ofhash=1.4.4-r0
+p:cmd:ofhash=1.5.1-r0
 
-C:Q1XyLpaPmVR29Rcz1ufREURLyYpRY=
+C:Q1wPqFOD/hCk1RLgMoY2J3I2s0Cn0=
 P:ofhttp
-V:1.4.4-r0
+V:1.5.1-r0
 A:riscv64
-S:34186
-I:119240
+S:35532
+I:123516
 T:Command line downloader for HTTP(S)
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1770161259
-c:772aebeb52a2fe50e7c73ce9b30bf3f0b1e05669
+t:1775169325
+c:9244a71322f3b5cda7a4b62707a6d9486d94f6b6
 D:so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1 so:libobjfwtls.so.1
-p:cmd:ofhttp=1.4.4-r0
+p:cmd:ofhttp=1.5.1-r0
 
 C:Q1rp1qemgq+xaZ8g+jDI7lPBrrqcs=
 P:ofono
@@ -161870,36 +161870,36 @@ t:1710461753
 c:e7ca4fb3e60af8dd8c0f4857d09cb38d34403de5
 i:docs perl-par=1.020-r0
 
-C:Q1nuLdVtdMDh5zAN39cVlYe9rFAzg=
+C:Q1w3ltfaU/OVikgbLlbF40AR+Ara8=
 P:perl-par-packer
-V:1.063-r3
+V:1.063-r4
 A:riscv64
-S:3416996
+S:3417000
 I:8658335
 T:App::Packer::Backend interface, for generating stand-alone executables, perl scripts and PAR files
 U:https://metacpan.org/release/PAR-Packer/
 L:GPL-1.0-or-later OR Artistic-1.0-Perl
 o:perl-par-packer
 m:Celeste <cielesti@protonmail.com>
-t:1754229054
-c:780f152dad9bb6ce408292281b8f95a017bf5b21
+t:1775168412
+c:fd84cfcb60f7bdee57395eb441f80a0cf8025db9
 D:perl-archive-zip perl-par perl-module-scandeps perl-getopt-argvfile perl-par-dist so:libc.musl-riscv64.so.1 so:libperl.so
-p:cmd:par.pl=1.063-r3 cmd:parl=1.063-r3 cmd:parldyn=1.063-r3 cmd:pp=1.063-r3 cmd:tkpp=1.063-r3
+p:cmd:par.pl=1.063-r4 cmd:parl=1.063-r4 cmd:parldyn=1.063-r4 cmd:pp=1.063-r4 cmd:tkpp=1.063-r4
 
-C:Q1Dl8O/0v7ZEDn7fdIbhWGq/J8a0Y=
+C:Q1Oo5zUZ4gfKbhekGYYGBugkOXY28=
 P:perl-par-packer-doc
-V:1.063-r3
+V:1.063-r4
 A:riscv64
-S:33414
-I:30704
+S:33424
+I:30703
 T:App::Packer::Backend interface, for generating stand-alone executables, perl scripts and PAR files (documentation)
 U:https://metacpan.org/release/PAR-Packer/
 L:GPL-1.0-or-later OR Artistic-1.0-Perl
 o:perl-par-packer
 m:Celeste <cielesti@protonmail.com>
-t:1754229054
-c:780f152dad9bb6ce408292281b8f95a017bf5b21
-i:docs perl-par-packer=1.063-r3
+t:1775168412
+c:fd84cfcb60f7bdee57395eb441f80a0cf8025db9
+i:docs perl-par-packer=1.063-r4
 
 C:Q1XAX9dKSxo0rZhcgW3NiatrQS37A=
 P:perl-parallel-pipes
@@ -226336,61 +226336,61 @@ c:10f3a9dca425271c75c58adb2223d232e10151fb
 D:pkgconfig pystring=1.1.4-r0
 p:pc:pystring=1.1.4
 
-C:Q1lngS8No/xd3RecKB6JEf8iGVZy0=
+C:Q1gSGGOLOSSdYDeW4tiZWn38hnI18=
 P:python3-idle
-V:3.12.12-r0
+V:3.12.13-r0
 A:riscv64
-S:1166187
+S:1166148
 I:4033189
 T:IDE for Python3 using Tkinter
 U:https://wiki.python.org/moin/TkInter
 L:PSF-2.0
 o:python3-tkinter
-t:1760197391
-c:cf681c931f0361e619d49710500c88ea3389e66c
-D:python3-tkinter=3.12.12-r0 python3 python3-tests
-p:cmd:idle3.12=3.12.12-r0
+t:1775830580
+c:8ed4eca63bd1c2d3f820912a5d30fcf1cc9d1b32
+D:python3-tkinter=3.12.13-r0 python3 python3-tests
+p:cmd:idle3.12=3.12.13-r0
 
-C:Q14/6yItg3C3UH8qGfzCSetloqTE8=
+C:Q17ggE57IYB+z+DNj/zevswu/V8RQ=
 P:python3-tkinter
-V:3.12.12-r0
+V:3.12.13-r0
 A:riscv64
-S:112414
+S:112383
 I:425536
 T:A graphical user interface for the Python programming language
 U:https://wiki.python.org/moin/TkInter
 L:PSF-2.0
 o:python3-tkinter
-t:1760197391
-c:cf681c931f0361e619d49710500c88ea3389e66c
+t:1775830580
+c:8ed4eca63bd1c2d3f820912a5d30fcf1cc9d1b32
 D:so:libc.musl-riscv64.so.1 so:libtcl8.6.so so:libtk8.6.so
 
-C:Q1mWFAn95DMdh7u9fEyoOQtE0TYC4=
+C:Q1fsUVKM7fKL0wjecTVZCWb+Bzb8s=
 P:python3-tkinter-pyc
-V:3.12.12-r0
+V:3.12.13-r0
 A:riscv64
-S:408665
+S:408652
 I:1416850
 T:Precompiled Python bytecode for python3-tkinter
 U:https://wiki.python.org/moin/TkInter
 L:PSF-2.0
 o:python3-tkinter
-t:1760197391
-c:cf681c931f0361e619d49710500c88ea3389e66c
-i:python3-tkinter=3.12.12-r0 pyc
+t:1775830580
+c:8ed4eca63bd1c2d3f820912a5d30fcf1cc9d1b32
+i:python3-tkinter=3.12.13-r0 pyc
 
-C:Q1RmyNX3eui9ZO1Hlpha85hozgIrY=
+C:Q1/hoS/1mQr0WEvQ//zbzYculRI0Q=
 P:python3-tkinter-tests
-V:3.12.12-r0
+V:3.12.13-r0
 A:riscv64
-S:971788
+S:971722
 I:4836330
 T:The test modules from the main python package for tkinter
 U:https://wiki.python.org/moin/TkInter
 L:PSF-2.0
 o:python3-tkinter
-t:1760197391
-c:cf681c931f0361e619d49710500c88ea3389e66c
+t:1775830580
+c:8ed4eca63bd1c2d3f820912a5d30fcf1cc9d1b32
 
 C:Q1z+kXlRQ4Ab0bl9qlbes1xv5hxxI=
 P:pythran
@@ -258467,36 +258467,36 @@ t:1706280703
 c:004f82fb06c88ccd586ac53943495cfe153ca155
 i:docs tke=3.6.2-r0
 
-C:Q19JgVe+QwNEOE1kFzqXjRX33dQZQ=
+C:Q1b1iqss9A65vlN+kBEbvOQRfDbEk=
 P:tkey-ssh-agent
-V:1.0.0-r5
+V:1.1.0-r0
 A:riscv64
-S:1797686
-I:4594672
+S:1805000
+I:4615184
 T:SSH Agent for TKey, a flexible open hardware/software USB security key
 U:https://www.tillitis.se/
 L:GPL-2.0-only
 o:tkey-ssh-agent
 m:omni <omni+alpine@hack.org>
-t:1746734537
-c:154ef628b64267a3a64c748f0026c15b45ab56c4
+t:1773672684
+c:ad1db4b410b15fced132829a0ca661d92e0995f4
 D:so:libc.musl-riscv64.so.1
-p:cmd:tkey-ssh-agent=1.0.0-r5
+p:cmd:tkey-ssh-agent=1.1.0-r0
 
-C:Q1a/Ad8Mwk7XEY38vLq42BREzUzpQ=
+C:Q1oQ/Gj2Yxcw0yQJ50YY6xbXDmSWg=
 P:tkey-ssh-agent-doc
-V:1.0.0-r5
+V:1.1.0-r0
 A:riscv64
-S:4188
-I:2688
+S:4251
+I:2747
 T:SSH Agent for TKey, a flexible open hardware/software USB security key (documentation)
 U:https://www.tillitis.se/
 L:GPL-2.0-only
 o:tkey-ssh-agent
 m:omni <omni+alpine@hack.org>
-t:1746734537
-c:154ef628b64267a3a64c748f0026c15b45ab56c4
-i:docs tkey-ssh-agent=1.0.0-r5
+t:1773672684
+c:ad1db4b410b15fced132829a0ca661d92e0995f4
+i:docs tkey-ssh-agent=1.1.0-r0
 
 C:Q1G6fJTmg1AOLutJ1ux+6XFeGwyRQ=
 P:tkremind
@@ -259234,40 +259234,40 @@ t:1701486185
 c:7e7a685467b3ef6bf1215d0580aef9edde209076
 i:docs toppler=1.1.6-r2
 
-C:Q1TffwagslGzp0RddEgS2WRPEb2XY=
+C:Q1DTHPRYbvpd9vhkY5J/60yNgzzRE=
 P:tor
-V:0.4.9.5-r0
+V:0.4.9.6-r0
 A:riscv64
-S:6387067
-I:29580857
+S:6339038
+I:29041188
 T:Anonymous network connectivity
 U:https://www.torproject.org/
 L:BSD-3-Clause AND GPL-3.0-only
 o:tor
 m:omni <omni+alpine@hack.org>
-t:1771439820
-c:b00f4fcad7ab593bebbbd2b3620eb2d695254deb
+t:1774456194
+c:944301c9a69a2c39f1c842062467e2385fa21040
 D:/bin/sh so:libc.musl-riscv64.so.1 so:libcap.so.2 so:libcrypto.so.3 so:libevent-2.1.so.7 so:liblzma.so.5 so:libseccomp.so.2 so:libssl.so.3 so:libz.so.1 so:libzstd.so.1
-p:cmd:tor-gencert=0.4.9.5-r0 cmd:tor-print-ed-signing-cert=0.4.9.5-r0 cmd:tor-resolve=0.4.9.5-r0 cmd:tor=0.4.9.5-r0 cmd:torify=0.4.9.5-r0
+p:cmd:tor-gencert=0.4.9.6-r0 cmd:tor-print-ed-signing-cert=0.4.9.6-r0 cmd:tor-resolve=0.4.9.6-r0 cmd:tor=0.4.9.6-r0 cmd:torify=0.4.9.6-r0
 
-C:Q1/ToyxflnMciipBgreoFrG7FNV/A=
+C:Q12XX7kIgS7B+/7/mYAlivasHOYzM=
 P:tor-doc
-V:0.4.9.5-r0
+V:0.4.9.6-r0
 A:riscv64
-S:64085
-I:62051
+S:64089
+I:62054
 T:Anonymous network connectivity (documentation)
 U:https://www.torproject.org/
 L:BSD-3-Clause AND GPL-3.0-only
 o:tor
 m:omni <omni+alpine@hack.org>
-t:1771439820
-c:b00f4fcad7ab593bebbbd2b3620eb2d695254deb
-i:docs tor=0.4.9.5-r0
+t:1774456194
+c:944301c9a69a2c39f1c842062467e2385fa21040
+i:docs tor=0.4.9.6-r0
 
-C:Q1erJjyVQy2llnpi2r0HaUCYk0KbU=
+C:Q1uwzn7dElSrc1XLnmtZ99Sfaxn2g=
 P:tor-openrc
-V:0.4.9.5-r0
+V:0.4.9.6-r0
 A:riscv64
 S:2654
 I:2742
@@ -259276,9 +259276,9 @@ U:https://www.torproject.org/
 L:BSD-3-Clause AND GPL-3.0-only
 o:tor
 m:omni <omni+alpine@hack.org>
-t:1771439820
-c:b00f4fcad7ab593bebbbd2b3620eb2d695254deb
-i:openrc tor=0.4.9.5-r0
+t:1774456194
+c:944301c9a69a2c39f1c842062467e2385fa21040
+i:openrc tor=0.4.9.6-r0
 
 C:Q10O/W4za0dQS3lnQUVxBP9MNLIOQ=
 P:torsocks
