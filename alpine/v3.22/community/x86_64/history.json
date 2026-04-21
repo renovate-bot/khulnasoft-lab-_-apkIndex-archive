@@ -122563,7 +122563,8 @@
     "libmsquic": {
       "origin": "libmsquic",
       "versions": {
-        "2.4.8-r0": 1743745068
+        "2.4.8-r0": 1743745068,
+        "2.4.18-r0": 1776730014
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -122572,23 +122573,25 @@
         "so:libnuma.so.1"
       ],
       "provides": [
-        "so:libmsquic.lttng.so.2.4.8=2.4.8",
-        "so:libmsquic.so.2=2.4.8"
+        "so:libmsquic.lttng.so.2.4.18=2.4.18",
+        "so:libmsquic.so.2=2.4.18"
       ]
     },
     "libmsquic-dev": {
       "origin": "libmsquic",
       "versions": {
-        "2.4.8-r0": 1743745068
+        "2.4.8-r0": 1743745068,
+        "2.4.18-r0": 1776730014
       },
       "dependencies": [
-        "libmsquic=2.4.8-r0"
+        "libmsquic=2.4.18-r0"
       ]
     },
     "libmsquic-doc": {
       "origin": "libmsquic",
       "versions": {
-        "2.4.8-r0": 1743745068
+        "2.4.8-r0": 1743745068,
+        "2.4.18-r0": 1776730014
       }
     },
     "libmtp": {
@@ -310821,7 +310824,7 @@
       },
       "libmsquic.so.2": {
         "package": "libmsquic",
-        "version": "2.4.8"
+        "version": "2.4.18"
       },
       "libmtp.so.9": {
         "package": "libmtp",
@@ -321910,6 +321913,10 @@
       "libnjs.so.0.9.5": {
         "package": "libnjs",
         "version": "0.9.5"
+      },
+      "libmsquic.lttng.so.2.4.18": {
+        "package": "libmsquic",
+        "version": "2.4.18"
       }
     },
     "package": {
