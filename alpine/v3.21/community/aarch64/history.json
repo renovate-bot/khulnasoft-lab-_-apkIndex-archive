@@ -116848,7 +116848,8 @@
     "libmsquic": {
       "origin": "libmsquic",
       "versions": {
-        "2.4.5-r0": 1727728924
+        "2.4.5-r0": 1727728924,
+        "2.4.18-r0": 1776729682
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -116857,23 +116858,25 @@
         "so:libnuma.so.1"
       ],
       "provides": [
-        "so:libmsquic.lttng.so.2.4.5=2.4.5",
-        "so:libmsquic.so.2=2.4.5"
+        "so:libmsquic.lttng.so.2.4.18=2.4.18",
+        "so:libmsquic.so.2=2.4.18"
       ]
     },
     "libmsquic-dev": {
       "origin": "libmsquic",
       "versions": {
-        "2.4.5-r0": 1727728924
+        "2.4.5-r0": 1727728924,
+        "2.4.18-r0": 1776729682
       },
       "dependencies": [
-        "libmsquic=2.4.5-r0"
+        "libmsquic=2.4.18-r0"
       ]
     },
     "libmsquic-doc": {
       "origin": "libmsquic",
       "versions": {
-        "2.4.5-r0": 1727728924
+        "2.4.5-r0": 1727728924,
+        "2.4.18-r0": 1776729682
       }
     },
     "libmtp": {
@@ -295355,7 +295358,7 @@
       },
       "libmsquic.so.2": {
         "package": "libmsquic",
-        "version": "2.4.5"
+        "version": "2.4.18"
       },
       "libmtp.so.9": {
         "package": "libmtp",
@@ -305556,6 +305559,10 @@
       "libQt63DQuickScene3D.so.6": {
         "package": "qt6-qt3d",
         "version": "6.8.2"
+      },
+      "libmsquic.lttng.so.2.4.18": {
+        "package": "libmsquic",
+        "version": "2.4.18"
       }
     },
     "package": {
