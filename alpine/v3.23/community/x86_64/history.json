@@ -39080,7 +39080,8 @@
       "versions": {
         "2.0.1-r0": 1759145598,
         "2.0.2-r0": 1764718011,
-        "2.0.2-r1": 1775997371
+        "2.0.2-r1": 1775997371,
+        "2.0.4-r0": 1776931398
       },
       "dependencies": [
         "dnsdist-common",
@@ -39100,7 +39101,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:dnsdist=2.0.2-r1"
+        "cmd:dnsdist=2.0.4-r0"
       ]
     },
     "dnsdist-common": {
@@ -39108,7 +39109,8 @@
       "versions": {
         "2.0.1-r0": 1759145598,
         "2.0.2-r0": 1764718011,
-        "2.0.2-r1": 1775997371
+        "2.0.2-r1": 1775997371,
+        "2.0.4-r0": 1776931398
       },
       "dependencies": [
         "/bin/sh"
@@ -39119,7 +39121,8 @@
       "versions": {
         "2.0.1-r0": 1759145598,
         "2.0.2-r0": 1764718011,
-        "2.0.2-r1": 1775997371
+        "2.0.2-r1": 1775997371,
+        "2.0.4-r0": 1776931398
       },
       "dependencies": [
         "dnsdist-common"
@@ -39130,7 +39133,8 @@
       "versions": {
         "2.0.1-r0": 1759145598,
         "2.0.2-r0": 1764718011,
-        "2.0.2-r1": 1775997371
+        "2.0.2-r1": 1775997371,
+        "2.0.4-r0": 1776931398
       }
     },
     "dnsdist-luajit": {
@@ -39138,7 +39142,8 @@
       "versions": {
         "2.0.1-r0": 1759145598,
         "2.0.2-r0": 1764718011,
-        "2.0.2-r1": 1775997371
+        "2.0.2-r1": 1775997371,
+        "2.0.4-r0": 1776931398
       },
       "dependencies": [
         "dnsdist-common",
@@ -39158,8 +39163,8 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "dnsdist=2.0.2-r1",
-        "cmd:dnsdist=2.0.2-r1"
+        "dnsdist=2.0.4-r0",
+        "cmd:dnsdist=2.0.4-r0"
       ]
     },
     "dnsq": {
@@ -195182,7 +195187,8 @@
     "pdns": {
       "origin": "pdns",
       "versions": {
-        "5.0.1-r0": 1761887126
+        "5.0.1-r0": 1761887126,
+        "5.0.4-r0": 1776934205
       },
       "dependencies": [
         "/bin/sh",
@@ -195197,16 +195203,17 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:dnspcap2calidns=5.0.1-r0",
-        "cmd:pdns_control=5.0.1-r0",
-        "cmd:pdns_server=5.0.1-r0",
-        "cmd:pdnsutil=5.0.1-r0"
+        "cmd:dnspcap2calidns=5.0.4-r0",
+        "cmd:pdns_control=5.0.4-r0",
+        "cmd:pdns_server=5.0.4-r0",
+        "cmd:pdnsutil=5.0.4-r0"
       ]
     },
     "pdns-backend-bind": {
       "origin": "pdns",
       "versions": {
-        "5.0.1-r0": 1761887126
+        "5.0.1-r0": 1761887126,
+        "5.0.4-r0": 1776934205
       },
       "dependencies": [
         "pdns",
@@ -195218,7 +195225,8 @@
     "pdns-backend-geoip": {
       "origin": "pdns",
       "versions": {
-        "5.0.1-r0": 1761887126
+        "5.0.1-r0": 1761887126,
+        "5.0.4-r0": 1776934205
       },
       "dependencies": [
         "pdns",
@@ -195234,7 +195242,8 @@
     "pdns-backend-ldap": {
       "origin": "pdns",
       "versions": {
-        "5.0.1-r0": 1761887126
+        "5.0.1-r0": 1761887126,
+        "5.0.4-r0": 1776934205
       },
       "dependencies": [
         "pdns",
@@ -195249,7 +195258,8 @@
     "pdns-backend-lmdb": {
       "origin": "pdns",
       "versions": {
-        "5.0.1-r0": 1761887126
+        "5.0.1-r0": 1761887126,
+        "5.0.4-r0": 1776934205
       },
       "dependencies": [
         "pdns",
@@ -195264,7 +195274,8 @@
     "pdns-backend-lua2": {
       "origin": "pdns",
       "versions": {
-        "5.0.1-r0": 1761887126
+        "5.0.1-r0": 1761887126,
+        "5.0.4-r0": 1776934205
       },
       "dependencies": [
         "pdns",
@@ -195279,7 +195290,8 @@
     "pdns-backend-mariadb": {
       "origin": "pdns",
       "versions": {
-        "5.0.1-r0": 1761887126
+        "5.0.1-r0": 1761887126,
+        "5.0.4-r0": 1776934205
       },
       "dependencies": [
         "pdns",
@@ -195289,7 +195301,8 @@
     "pdns-backend-mysql": {
       "origin": "pdns",
       "versions": {
-        "5.0.1-r0": 1761887126
+        "5.0.1-r0": 1761887126,
+        "5.0.4-r0": 1776934205
       },
       "dependencies": [
         "pdns",
@@ -195303,7 +195316,8 @@
     "pdns-backend-odbc": {
       "origin": "pdns",
       "versions": {
-        "5.0.1-r0": 1761887126
+        "5.0.1-r0": 1761887126,
+        "5.0.4-r0": 1776934205
       },
       "dependencies": [
         "pdns",
@@ -195317,7 +195331,8 @@
     "pdns-backend-pgsql": {
       "origin": "pdns",
       "versions": {
-        "5.0.1-r0": 1761887126
+        "5.0.1-r0": 1761887126,
+        "5.0.4-r0": 1776934205
       },
       "dependencies": [
         "pdns",
@@ -195332,7 +195347,8 @@
     "pdns-backend-pipe": {
       "origin": "pdns",
       "versions": {
-        "5.0.1-r0": 1761887126
+        "5.0.1-r0": 1761887126,
+        "5.0.4-r0": 1776934205
       },
       "dependencies": [
         "pdns",
@@ -195344,7 +195360,8 @@
     "pdns-backend-remote": {
       "origin": "pdns",
       "versions": {
-        "5.0.1-r0": 1761887126
+        "5.0.1-r0": 1761887126,
+        "5.0.4-r0": 1776934205
       },
       "dependencies": [
         "pdns",
@@ -195357,7 +195374,8 @@
     "pdns-backend-sqlite3": {
       "origin": "pdns",
       "versions": {
-        "5.0.1-r0": 1761887126
+        "5.0.1-r0": 1761887126,
+        "5.0.4-r0": 1776934205
       },
       "dependencies": [
         "pdns",
@@ -195370,13 +195388,15 @@
     "pdns-doc": {
       "origin": "pdns",
       "versions": {
-        "5.0.1-r0": 1761887126
+        "5.0.1-r0": 1761887126,
+        "5.0.4-r0": 1776934205
       }
     },
     "pdns-openrc": {
       "origin": "pdns",
       "versions": {
-        "5.0.1-r0": 1761887126
+        "5.0.1-r0": 1761887126,
+        "5.0.4-r0": 1776934205
       }
     },
     "pdns-recursor": {
@@ -195462,7 +195482,8 @@
     "pdns-tools": {
       "origin": "pdns",
       "versions": {
-        "5.0.1-r0": 1761887126
+        "5.0.1-r0": 1761887126,
+        "5.0.4-r0": 1776934205
       },
       "dependencies": [
         "so:libboost_program_options.so.1.84.0",
@@ -195474,26 +195495,26 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:calidns=5.0.1-r0",
-        "cmd:dnsbulktest=5.0.1-r0",
-        "cmd:dnsgram=5.0.1-r0",
-        "cmd:dnspcap2protobuf=5.0.1-r0",
-        "cmd:dnsreplay=5.0.1-r0",
-        "cmd:dnsscan=5.0.1-r0",
-        "cmd:dnsscope=5.0.1-r0",
-        "cmd:dnstcpbench=5.0.1-r0",
-        "cmd:dnswasher=5.0.1-r0",
-        "cmd:dumresp=5.0.1-r0",
-        "cmd:ixplore=5.0.1-r0",
-        "cmd:nproxy=5.0.1-r0",
-        "cmd:nsec3dig=5.0.1-r0",
-        "cmd:pdns_notify=5.0.1-r0",
-        "cmd:saxfr=5.0.1-r0",
-        "cmd:sdig=5.0.1-r0",
-        "cmd:stubquery=5.0.1-r0",
-        "cmd:zone2json=5.0.1-r0",
-        "cmd:zone2ldap=5.0.1-r0",
-        "cmd:zone2sql=5.0.1-r0"
+        "cmd:calidns=5.0.4-r0",
+        "cmd:dnsbulktest=5.0.4-r0",
+        "cmd:dnsgram=5.0.4-r0",
+        "cmd:dnspcap2protobuf=5.0.4-r0",
+        "cmd:dnsreplay=5.0.4-r0",
+        "cmd:dnsscan=5.0.4-r0",
+        "cmd:dnsscope=5.0.4-r0",
+        "cmd:dnstcpbench=5.0.4-r0",
+        "cmd:dnswasher=5.0.4-r0",
+        "cmd:dumresp=5.0.4-r0",
+        "cmd:ixplore=5.0.4-r0",
+        "cmd:nproxy=5.0.4-r0",
+        "cmd:nsec3dig=5.0.4-r0",
+        "cmd:pdns_notify=5.0.4-r0",
+        "cmd:saxfr=5.0.4-r0",
+        "cmd:sdig=5.0.4-r0",
+        "cmd:stubquery=5.0.4-r0",
+        "cmd:zone2json=5.0.4-r0",
+        "cmd:zone2ldap=5.0.4-r0",
+        "cmd:zone2sql=5.0.4-r0"
       ]
     },
     "pdpmake": {
@@ -314764,7 +314785,8 @@
       "origin": "xrdp",
       "versions": {
         "0.10.4.1-r0": 1751914164,
-        "0.10.5-r0": 1770089933
+        "0.10.5-r0": 1770089933,
+        "0.10.6-r0": 1776929586
       },
       "dependencies": [
         "xinit",
@@ -314782,16 +314804,16 @@
         "so:libturbojpeg.so.0"
       ],
       "provides": [
-        "cmd:paintertest=0.10.5-r0",
-        "cmd:xrdp-chansrv=0.10.5-r0",
-        "cmd:xrdp-dis=0.10.5-r0",
-        "cmd:xrdp-dumpfv1=0.10.5-r0",
-        "cmd:xrdp-genkeymap=0.10.5-r0",
-        "cmd:xrdp-keygen=0.10.5-r0",
-        "cmd:xrdp-sesadmin=0.10.5-r0",
-        "cmd:xrdp-sesman=0.10.5-r0",
-        "cmd:xrdp-sesrun=0.10.5-r0",
-        "cmd:xrdp=0.10.5-r0",
+        "cmd:paintertest=0.10.6-r0",
+        "cmd:xrdp-chansrv=0.10.6-r0",
+        "cmd:xrdp-dis=0.10.6-r0",
+        "cmd:xrdp-dumpfv1=0.10.6-r0",
+        "cmd:xrdp-genkeymap=0.10.6-r0",
+        "cmd:xrdp-keygen=0.10.6-r0",
+        "cmd:xrdp-sesadmin=0.10.6-r0",
+        "cmd:xrdp-sesman=0.10.6-r0",
+        "cmd:xrdp-sesrun=0.10.6-r0",
+        "cmd:xrdp=0.10.6-r0",
         "so:libcommon.so.0=0.0.0",
         "so:libipm.so.0=0.0.0",
         "so:libmc.so=0",
@@ -314807,7 +314829,8 @@
       "origin": "xrdp",
       "versions": {
         "0.10.4.1-r0": 1751914164,
-        "0.10.5-r0": 1770089933
+        "0.10.5-r0": 1770089933,
+        "0.10.6-r0": 1776929586
       },
       "dependencies": [
         "pkgconfig"
@@ -314815,21 +314838,23 @@
       "provides": [
         "pc:libpainter=0.1.1",
         "pc:rfxcodec=0.1.6",
-        "pc:xrdp=0.10.5"
+        "pc:xrdp=0.10.6"
       ]
     },
     "xrdp-doc": {
       "origin": "xrdp",
       "versions": {
         "0.10.4.1-r0": 1751914164,
-        "0.10.5-r0": 1770089933
+        "0.10.5-r0": 1770089933,
+        "0.10.6-r0": 1776929586
       }
     },
     "xrdp-openrc": {
       "origin": "xrdp",
       "versions": {
         "0.10.4.1-r0": 1751914164,
-        "0.10.5-r0": 1770089933
+        "0.10.5-r0": 1770089933,
+        "0.10.6-r0": 1776929586
       }
     },
     "xrefresh": {
@@ -346939,7 +346964,7 @@
       },
       "dnsdist": {
         "package": "dnsdist-luajit",
-        "version": "2.0.2-r1"
+        "version": "2.0.4-r0"
       },
       "docker-compose": {
         "package": "docker-cli-compose",
