@@ -11318,129 +11318,129 @@ t:1684120357
 c:33283848034c9885d984c8e8697c645c57324938
 i:docs cunit=2.1.3-r7
 
-C:Q11q05Qb+oUhP42VrRimu6MDr6f64=
+C:Q1gySTdG7bEw9G5xLmYHfDEh3RJj0=
 P:cups
-V:2.4.16-r0
+V:2.4.18-r0
 A:armhf
-S:841637
-I:1900686
+S:843217
+I:1900694
 T:The CUPS Printing System
 U:https://github.com/OpenPrinting/cups/
 L:Apache-2.0
 o:cups
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1769445342
-c:938d567c3d184c27978e0fb30383777634f1dcfd
-D:cups-client poppler-utils openssl dbus /bin/sh cups-client=2.4.16-r0 so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-armhf.so.1 so:libcups.so.2 so:libdbus-1.so.3 so:libgcc_s.so.1 so:libpaper.so.2 so:libstdc++.so.6 so:libusb-1.0.so.0
-p:cmd:cupsd=2.4.16-r0 cmd:cupsfilter=2.4.16-r0 cmd:cupsreject=2.4.16-r0
+t:1777118405
+c:7205d06c4017bf41c042bfaa3f9dad4d220b9908
+D:cups-client poppler-utils openssl dbus /bin/sh cups-client=2.4.18-r0 so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-armhf.so.1 so:libcups.so.2 so:libdbus-1.so.3 so:libgcc_s.so.1 so:libpaper.so.2 so:libstdc++.so.6 so:libusb-1.0.so.0
+p:cmd:cupsd=2.4.18-r0 cmd:cupsfilter=2.4.18-r0 cmd:cupsreject=2.4.18-r0
 
-C:Q13vqK1BxdnkZZ+ETsIJa4kc+dmBE=
+C:Q1iNY1XPuZG8u1ALtFLBDfdkC3DJ8=
 P:cups-client
-V:2.4.16-r0
+V:2.4.18-r0
 A:armhf
-S:289981
+S:289975
 I:669976
 T:CUPS command-line client programs
 U:https://github.com/OpenPrinting/cups/
 L:Apache-2.0
 o:cups
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1769445342
-c:938d567c3d184c27978e0fb30383777634f1dcfd
+t:1777118405
+c:7205d06c4017bf41c042bfaa3f9dad4d220b9908
 D:so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-armhf.so.1 so:libcups.so.2 so:libgcc_s.so.1 so:libstdc++.so.6
-p:cmd:cancel=2.4.16-r0 cmd:cupsaccept=2.4.16-r0 cmd:cupsctl=2.4.16-r0 cmd:cupsdisable=2.4.16-r0 cmd:cupsenable=2.4.16-r0 cmd:cupstestppd=2.4.16-r0 cmd:ippeveprinter=2.4.16-r0 cmd:ippfind=2.4.16-r0 cmd:lp=2.4.16-r0 cmd:lpadmin=2.4.16-r0 cmd:lpc=2.4.16-r0 cmd:lpinfo=2.4.16-r0 cmd:lpmove=2.4.16-r0 cmd:lpoptions=2.4.16-r0 cmd:lpq=2.4.16-r0 cmd:lpr=2.4.16-r0 cmd:lprm=2.4.16-r0 cmd:lpstat=2.4.16-r0 cmd:ppdc=2.4.16-r0 cmd:ppdhtml=2.4.16-r0 cmd:ppdi=2.4.16-r0 cmd:ppdmerge=2.4.16-r0 cmd:ppdpo=2.4.16-r0
+p:cmd:cancel=2.4.18-r0 cmd:cupsaccept=2.4.18-r0 cmd:cupsctl=2.4.18-r0 cmd:cupsdisable=2.4.18-r0 cmd:cupsenable=2.4.18-r0 cmd:cupstestppd=2.4.18-r0 cmd:ippeveprinter=2.4.18-r0 cmd:ippfind=2.4.18-r0 cmd:lp=2.4.18-r0 cmd:lpadmin=2.4.18-r0 cmd:lpc=2.4.18-r0 cmd:lpinfo=2.4.18-r0 cmd:lpmove=2.4.18-r0 cmd:lpoptions=2.4.18-r0 cmd:lpq=2.4.18-r0 cmd:lpr=2.4.18-r0 cmd:lprm=2.4.18-r0 cmd:lpstat=2.4.18-r0 cmd:ppdc=2.4.18-r0 cmd:ppdhtml=2.4.18-r0 cmd:ppdi=2.4.18-r0 cmd:ppdmerge=2.4.18-r0 cmd:ppdpo=2.4.18-r0
 
-C:Q1PKfI7XX4QQbuewatman6lB3s5Pk=
+C:Q1Kg4mabntl/tAUn7xEiqAGuRHXGQ=
 P:cups-dbg
-V:2.4.16-r0
+V:2.4.18-r0
 A:armhf
-S:2858165
-I:6784032
+S:2862966
+I:6792504
 T:The CUPS Printing System (debug symbols)
 U:https://github.com/OpenPrinting/cups/
 L:Apache-2.0
 o:cups
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1769445342
-c:938d567c3d184c27978e0fb30383777634f1dcfd
-D:!cups-client<2.4.16-r0 !cups-client>2.4.16-r0 !cups-libs<2.4.16-r0 !cups-libs>2.4.16-r0 !cups<2.4.16-r0 !cups>2.4.16-r0 !ipptool<2.4.16-r0 !ipptool>2.4.16-r0
+t:1777118405
+c:7205d06c4017bf41c042bfaa3f9dad4d220b9908
+D:!cups-client<2.4.18-r0 !cups-client>2.4.18-r0 !cups-libs<2.4.18-r0 !cups-libs>2.4.18-r0 !cups<2.4.18-r0 !cups>2.4.18-r0 !ipptool<2.4.18-r0 !ipptool>2.4.18-r0
 
-C:Q1djoBTyrlTbTJ6G52MJAK5LckgmI=
+C:Q1h36Oz1VZmsrqUWZw2EDY6vLHNVA=
 P:cups-dev
-V:2.4.16-r0
+V:2.4.18-r0
 A:armhf
-S:43526
+S:43528
 I:188684
 T:The CUPS Printing System (development files)
 U:https://github.com/OpenPrinting/cups/
 L:Apache-2.0
 o:cups
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1769445342
-c:938d567c3d184c27978e0fb30383777634f1dcfd
-D:libgcrypt-dev gnutls-dev zlib-dev cups-libs=2.4.16-r0 pc:avahi-client pc:gnutls pkgconfig
-p:cmd:cups-config=2.4.16-r0 pc:cups=2.4.16
+t:1777118405
+c:7205d06c4017bf41c042bfaa3f9dad4d220b9908
+D:libgcrypt-dev gnutls-dev zlib-dev cups-libs=2.4.18-r0 pc:avahi-client pc:gnutls pkgconfig
+p:cmd:cups-config=2.4.18-r0 pc:cups=2.4.18
 
-C:Q1kiNpM9XdxTGz1owSs8QuzoTMacQ=
+C:Q1PUyNrnM6AOJbI2B3Di6xmJr7tcE=
 P:cups-doc
-V:2.4.16-r0
+V:2.4.18-r0
 A:armhf
-S:363791
-I:1462018
+S:363858
+I:1462118
 T:The CUPS Printing System (documentation)
 U:https://github.com/OpenPrinting/cups/
 L:Apache-2.0
 o:cups
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1769445342
-c:938d567c3d184c27978e0fb30383777634f1dcfd
-i:docs cups=2.4.16-r0
+t:1777118405
+c:7205d06c4017bf41c042bfaa3f9dad4d220b9908
+i:docs cups=2.4.18-r0
 
-C:Q1sN6xyHKg1ZnlNFBNUeMWCzniX7Q=
+C:Q1Z9MjqECNLNzg10gHU7asHaxsq2Q=
 P:cups-lang
-V:2.4.16-r0
+V:2.4.18-r0
 A:armhf
-S:695431
+S:695427
 I:4273180
 T:Languages for package cups
 U:https://github.com/OpenPrinting/cups/
 L:Apache-2.0
 o:cups
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1769445342
-c:938d567c3d184c27978e0fb30383777634f1dcfd
-i:cups=2.4.16-r0 lang
+t:1777118405
+c:7205d06c4017bf41c042bfaa3f9dad4d220b9908
+i:cups=2.4.18-r0 lang
 
-C:Q1Us6B3CEQt40cuTcylOthQcHADM0=
+C:Q1/EoVP+VLjqwz7LrT58E7Jrl5WlY=
 P:cups-libs
-V:2.4.16-r0
+V:2.4.18-r0
 A:armhf
-S:226750
-I:489908
+S:227654
+I:494004
 T:CUPS libraries
 U:https://github.com/OpenPrinting/cups/
 L:Apache-2.0
 o:cups
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1769445342
-c:938d567c3d184c27978e0fb30383777634f1dcfd
+t:1777118405
+c:7205d06c4017bf41c042bfaa3f9dad4d220b9908
 D:so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-armhf.so.1 so:libgnutls.so.30 so:libz.so.1
 p:so:libcups.so.2=2 so:libcupsimage.so.2=2
 
-C:Q1LEYYkiGA5SdAOZ/EOK4XmXfF9ew=
+C:Q1oa5mq1m38p84YJPudtn6O/7AKXA=
 P:cups-openrc
-V:2.4.16-r0
+V:2.4.18-r0
 A:armhf
-S:1996
+S:1998
 I:843
 T:The CUPS Printing System (OpenRC init scripts)
 U:https://github.com/OpenPrinting/cups/
 L:Apache-2.0
 o:cups
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1769445342
-c:938d567c3d184c27978e0fb30383777634f1dcfd
-i:openrc cups=2.4.16-r0
+t:1777118405
+c:7205d06c4017bf41c042bfaa3f9dad4d220b9908
+i:openrc cups=2.4.18-r0
 
 C:Q1d5vXhYtFg0itozLPiFnkigG+nbY=
 P:curl
@@ -22178,51 +22178,51 @@ t:1748942408
 c:cbc8ba7803c2566437c059c0f90d4609a1fd6a9b
 i:docs gzip=1.14-r2
 
-C:Q181m/SXJ2ia+ytBAsDXIxD6OhCTI=
+C:Q1Hhvk3eiQQ82cz1+0XPgiFnRM8Z4=
 P:haproxy
-V:3.2.15-r0
+V:3.2.16-r0
 A:armhf
-S:2273114
-I:5074890
+S:2277544
+I:5083082
 T:A TCP/HTTP reverse proxy for high availability environments
 U:https://www.haproxy.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:haproxy
 m:Milan P. Stanić <mps@arvanta.net>
-t:1774517233
-c:f7bd885624e53cb9317f8d4292b0099c262406ae
+t:1777120080
+c:8c50da22963c6a81ecbb986a31457cb6ccaa712b
 D:/bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:liblua-5.4.so.0 so:libpcre2-8.so.0 so:libssl.so.3 so:libz.so.1
-p:cmd:haproxy=3.2.15-r0
+p:cmd:haproxy=3.2.16-r0
 
-C:Q18FeeCUSRqSKfDi/xK03SEPDywPM=
+C:Q19cgJbCOeF4Cxt/P1aMnXPTG4BeU=
 P:haproxy-doc
-V:3.2.15-r0
+V:3.2.16-r0
 A:armhf
-S:575469
-I:2120841
+S:575936
+I:2122868
 T:A TCP/HTTP reverse proxy for high availability environments (documentation)
 U:https://www.haproxy.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:haproxy
 m:Milan P. Stanić <mps@arvanta.net>
-t:1774517233
-c:f7bd885624e53cb9317f8d4292b0099c262406ae
-i:docs haproxy=3.2.15-r0
+t:1777120080
+c:8c50da22963c6a81ecbb986a31457cb6ccaa712b
+i:docs haproxy=3.2.16-r0
 
-C:Q1GvC4D6T5gOV+mc+LlQEv68ggZNY=
+C:Q1l6mrvFn/aR1HowQc6qUj2Dhhrz0=
 P:haproxy-openrc
-V:3.2.15-r0
+V:3.2.16-r0
 A:armhf
-S:2217
+S:2214
 I:1192
 T:A TCP/HTTP reverse proxy for high availability environments (OpenRC init scripts)
 U:https://www.haproxy.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:haproxy
 m:Milan P. Stanić <mps@arvanta.net>
-t:1774517233
-c:f7bd885624e53cb9317f8d4292b0099c262406ae
-i:openrc haproxy=3.2.15-r0
+t:1777120080
+c:8c50da22963c6a81ecbb986a31457cb6ccaa712b
+i:openrc haproxy=3.2.16-r0
 
 C:Q1upVjjX5V5VEf6VWFjz/TnEXiyIA=
 P:harfbuzz
@@ -24459,21 +24459,21 @@ t:1770327958
 c:957759dac8b33411806c4536b8a4cd1be25543fd
 i:openrc iperf3=3.20-r0
 
-C:Q1ZAglFNLrRU7rXnbk7hMcNIc2ygE=
+C:Q11wv+3XinRMnF87INtpalqu9vC2c=
 P:ipptool
-V:2.4.16-r0
+V:2.4.18-r0
 A:armhf
-S:4013672
+S:4013685
 I:4509642
 T:Perform internet printing protocol requests
 U:https://github.com/OpenPrinting/cups/
 L:Apache-2.0
 o:cups
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1769445342
-c:938d567c3d184c27978e0fb30383777634f1dcfd
+t:1777118405
+c:7205d06c4017bf41c042bfaa3f9dad4d220b9908
 D:so:libc.musl-armhf.so.1 so:libcups.so.2
-p:cmd:ipptool=2.4.16-r0
+p:cmd:ipptool=2.4.18-r0
 
 C:Q16ud/iccrHqWSGQp/E8bsiO3LfCc=
 P:iproute2
@@ -54198,98 +54198,98 @@ c:32e4e9250909f1394878f6493fa48690ecf0a591
 D:so:libc.musl-armhf.so.1 so:libnspr4.so so:libnss3.so so:libnssutil3.so so:libplc4.so so:libplds4.so so:libsmime3.so so:libssl3.so so:libz.so.1
 p:cmd:certutil=3.123.1-r0 cmd:cmsutil=3.123.1-r0 cmd:crlutil=3.123.1-r0 cmd:modutil=3.123.1-r0 cmd:pk12util=3.123.1-r0 cmd:shlibsign=3.123.1-r0 cmd:signtool=3.123.1-r0 cmd:signver=3.123.1-r0 cmd:ssltap=3.123.1-r0
 
-C:Q1aTiAfBHkCoWH7Iq21l8V4M5zhxI=
+C:Q1del3fY8375raMm0IEXv/yUCIx84=
 P:ntfs-3g
-V:2022.10.3-r4
+V:2026.2.25-r0
 A:armhf
-S:98376
+S:98669
 I:208040
 T:Stable, full-featured, read-write NTFS (driver)
 U:https://www.tuxera.com/company/open-source/
 L:GPL-2.0-only
 o:ntfs-3g
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1752518862
-c:10d41579917c5f928051ef15752cc2d400156575
+t:1777123126
+c:6e0f4ace9c11c2ce0a132d763507d1898e707ba2
 D:so:libc.musl-armhf.so.1 so:libntfs-3g.so.89
-p:cmd:lowntfs-3g=2022.10.3-r4 cmd:mount.lowntfs-3g=2022.10.3-r4 cmd:mount.ntfs-3g=2022.10.3-r4 cmd:mount.ntfs=2022.10.3-r4 cmd:ntfs-3g=2022.10.3-r4
+p:cmd:lowntfs-3g=2026.2.25-r0 cmd:mount.lowntfs-3g=2026.2.25-r0 cmd:mount.ntfs-3g=2026.2.25-r0 cmd:mount.ntfs=2026.2.25-r0 cmd:ntfs-3g=2026.2.25-r0
 
-C:Q1afOxHQKwUaijLiY0vO2N6LR6JWM=
+C:Q1N35AkyKbLZKrD2mWjx90OE6S1yQ=
 P:ntfs-3g-dev
-V:2022.10.3-r4
+V:2026.2.25-r0
 A:armhf
-S:75026
+S:75030
 I:282734
 T:Stable, full-featured, read-write NTFS (development files)
 U:https://www.tuxera.com/company/open-source/
 L:GPL-2.0-only
 o:ntfs-3g
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1752518862
-c:10d41579917c5f928051ef15752cc2d400156575
-D:ntfs-3g-libs=2022.10.3-r4 pkgconfig
-p:pc:libntfs-3g=2022.10.3
+t:1777123126
+c:6e0f4ace9c11c2ce0a132d763507d1898e707ba2
+D:ntfs-3g-libs=2026.2.25-r0 pkgconfig
+p:pc:libntfs-3g=2026.2.25
 
-C:Q13+Le59D0jmmQuaxkn/SkHXNDVA8=
+C:Q1cyMfilNbARa/r6uiazQY1ztNh+o=
 P:ntfs-3g-doc
-V:2022.10.3-r4
+V:2026.2.25-r0
 A:armhf
-S:60172
-I:58778
+S:49063
+I:48107
 T:Stable, full-featured, read-write NTFS (documentation)
 U:https://www.tuxera.com/company/open-source/
 L:GPL-2.0-only
 o:ntfs-3g
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1752518862
-c:10d41579917c5f928051ef15752cc2d400156575
-i:docs ntfs-3g=2022.10.3-r4
+t:1777123126
+c:6e0f4ace9c11c2ce0a132d763507d1898e707ba2
+i:docs ntfs-3g=2026.2.25-r0
 
-C:Q1RpwWvGU7Q2euRDjAZPTYrE/4tKQ=
+C:Q1lFLX9FhJxnJh4HnmMH87MN36+ZM=
 P:ntfs-3g-libs
-V:2022.10.3-r4
+V:2026.2.25-r0
 A:armhf
-S:163172
+S:163221
 I:316988
 T:Stable, full-featured, read-write NTFS (libraries)
 U:https://www.tuxera.com/company/open-source/
 L:GPL-2.0-only
 o:ntfs-3g
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1752518862
-c:10d41579917c5f928051ef15752cc2d400156575
+t:1777123126
+c:6e0f4ace9c11c2ce0a132d763507d1898e707ba2
 D:so:libc.musl-armhf.so.1
 p:so:libntfs-3g.so.89=89.0.0
 
-C:Q1H14bcmgSReAaKB2RGlQwOLvETrU=
+C:Q1WajFHT0o8QToY4Fx/zz81Q+tPTM=
 P:ntfs-3g-progs
-V:2022.10.3-r4
+V:2026.2.25-r0
 A:armhf
-S:247795
-I:558900
+S:249889
+I:562996
 T:Stable, full-featured, read-write NTFS (utilities)
 U:https://www.tuxera.com/company/open-source/
 L:GPL-2.0-only
 o:ntfs-3g
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1752518862
-c:10d41579917c5f928051ef15752cc2d400156575
+t:1777123126
+c:6e0f4ace9c11c2ce0a132d763507d1898e707ba2
 D:so:libc.musl-armhf.so.1 so:libntfs-3g.so.89 so:libuuid.so.1
-p:cmd:mkfs.ntfs=2022.10.3-r4 cmd:mkntfs=2022.10.3-r4 cmd:ntfs-3g.probe=2022.10.3-r4 cmd:ntfscat=2022.10.3-r4 cmd:ntfsclone=2022.10.3-r4 cmd:ntfscluster=2022.10.3-r4 cmd:ntfscmp=2022.10.3-r4 cmd:ntfscp=2022.10.3-r4 cmd:ntfsfix=2022.10.3-r4 cmd:ntfsinfo=2022.10.3-r4 cmd:ntfslabel=2022.10.3-r4 cmd:ntfsls=2022.10.3-r4 cmd:ntfsresize=2022.10.3-r4 cmd:ntfsundelete=2022.10.3-r4
+p:cmd:mkfs.ntfs=2026.2.25-r0 cmd:mkntfs=2026.2.25-r0 cmd:ntfs-3g.probe=2026.2.25-r0 cmd:ntfscat=2026.2.25-r0 cmd:ntfsclone=2026.2.25-r0 cmd:ntfscluster=2026.2.25-r0 cmd:ntfscmp=2026.2.25-r0 cmd:ntfscp=2026.2.25-r0 cmd:ntfsfix=2026.2.25-r0 cmd:ntfsinfo=2026.2.25-r0 cmd:ntfslabel=2026.2.25-r0 cmd:ntfsls=2026.2.25-r0 cmd:ntfsresize=2026.2.25-r0 cmd:ntfsundelete=2026.2.25-r0
 
-C:Q1v+FZRlm0K/mycpO3K8v8qm9Cmqw=
+C:Q17s3telj3UUEWgTPxewWYJyfzKF4=
 P:ntfs-3g-static
-V:2022.10.3-r4
+V:2026.2.25-r0
 A:armhf
-S:198514
-I:446926
+S:198600
+I:447010
 T:Stable, full-featured, read-write NTFS (static library)
 U:https://www.tuxera.com/company/open-source/
 L:GPL-2.0-only
 o:ntfs-3g
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1752518862
-c:10d41579917c5f928051ef15752cc2d400156575
+t:1777123126
+c:6e0f4ace9c11c2ce0a132d763507d1898e707ba2
 D:ntfs-3g-dev
 
 C:Q1xoWRQo0jOoCnOQAFO/Uld+STn3Y=
@@ -74317,37 +74317,37 @@ c:70e0a7a754beebb54e5e4a198fbf7cbf02f0b94d
 D:python3~3.14
 i:py3-pyzfs=2.4.1-r1 pyc
 
-C:Q1XzWHs5nZa8jf0t+e4+JDOcL9D/E=
+C:Q1UUO0VZMSO87du0WgcidSsOb3poY=
 P:py3-requests
-V:2.32.5-r1
+V:2.33.1-r0
 A:armhf
-S:60849
-I:204286
+S:60972
+I:203927
 T:HTTP request library for Python3
 U:https://requests.readthedocs.io/
 L:Apache-2.0
 o:py3-requests
 m:Steven Guikal <void@fluix.one>
-t:1774640349
-c:c8ac4c9da7dcc3577b38338f83e07e660ae1658b
+t:1777120880
+c:4a7bc6a41ceb1bc40d0f938d931fe9f4532ab82d
 D:py3-certifi py3-charset-normalizer py3-idna py3-urllib3 python3 python3~3.14
-p:py-requests=2.32.5-r1 py3.14:requests=2.32.5-r1
+p:py-requests=2.33.1-r0 py3.14:requests=2.33.1-r0
 
-C:Q1x7E4F+8ZOAqxeYHqVmkcThzBq+Y=
+C:Q171gBLXBpKS2tJAnR0hcG81d0WVE=
 P:py3-requests-pyc
-V:2.32.5-r1
+V:2.33.1-r0
 A:armhf
-S:93708
-I:212456
+S:93685
+I:212034
 T:Precompiled Python bytecode for py3-requests
 U:https://requests.readthedocs.io/
 L:Apache-2.0
 o:py3-requests
 m:Steven Guikal <void@fluix.one>
-t:1774640349
-c:c8ac4c9da7dcc3577b38338f83e07e660ae1658b
+t:1777120880
+c:4a7bc6a41ceb1bc40d0f938d931fe9f4532ab82d
 D:python3~3.14
-i:py3-requests=2.32.5-r1 pyc
+i:py3-requests=2.33.1-r0 pyc
 
 C:Q1d+bwHd2PCSAJMiA8ncN7XN89Anc=
 P:py3-roman-numerals
@@ -75380,37 +75380,37 @@ c:d91b32af6a16ffb1ec59b6921044c68400c0696d
 D:python3~3.14
 i:py3-urllib3=2.6.3-r1 pyc
 
-C:Q14bMOeuM/u12MmkQXIfRhuuA3g6c=
+C:Q1voTxwS/d4iq8VEw6RUEl7c32CWI=
 P:py3-vici
-V:6.0.5-r0
+V:6.0.6-r0
 A:armhf
-S:11603
+S:11594
 I:36095
 T:Native Python interface for strongSwan's VICI protocol
 U:https://www.strongswan.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:strongswan
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776403874
-c:5ba04ede47a1f95564729ed0681f0ec443990adc
+t:1777122761
+c:b9e90e5199b418d21cde07e43289b881e8d3fb53
 D:iproute2 python3~3.14
-p:py3.14:vici=6.0.5-r0
+p:py3.14:vici=6.0.6-r0
 
-C:Q1mBMfiCEDzqSnhNrm63KYWKXD6AQ=
+C:Q1fXkgkqUlVq8KvhFZoB4KcaWPYng=
 P:py3-vici-pyc
-V:6.0.5-r0
+V:6.0.6-r0
 A:armhf
-S:17568
+S:17571
 I:42538
 T:Precompiled Python bytecode for py3-vici
 U:https://www.strongswan.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:strongswan
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776403874
-c:5ba04ede47a1f95564729ed0681f0ec443990adc
+t:1777122761
+c:b9e90e5199b418d21cde07e43289b881e8d3fb53
 D:python3~3.14
-i:py3-vici=6.0.5-r0 pyc
+i:py3-vici=6.0.6-r0 pyc
 
 C:Q1drVQEaKJSVSiDLsleGNhlyVISEw=
 P:py3-virtualenv
@@ -83955,81 +83955,81 @@ t:1776763278
 c:d37f13efff6f0b692cbe519e0816dd29a9def212
 i:docs strace=6.19-r1
 
-C:Q1+7KVwkB/P9dzNm333bKpGVzrhuY=
+C:Q1ZyMl3G8Hty0RgLBx1QqHInCuixw=
 P:strongswan
-V:6.0.5-r0
+V:6.0.6-r0
 A:armhf
-S:1015028
+S:1015366
 I:2574360
 T:IPsec-based VPN solution focused on security and ease of use, supporting IKEv1/IKEv2 and MOBIKE
 U:https://www.strongswan.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:strongswan
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776403874
-c:5ba04ede47a1f95564729ed0681f0ec443990adc
+t:1777122761
+c:b9e90e5199b418d21cde07e43289b881e8d3fb53
 D:iproute2 /bin/sh so:libc.musl-armhf.so.1 so:libcap.so.2 so:libcrypto.so.3 so:libcurl.so.4 so:libgmp.so.10 so:libsqlite3.so.0
-p:cmd:charon-cmd=6.0.5-r0 cmd:pki=6.0.5-r0 cmd:swanctl=6.0.5-r0 so:libcharon.so.0=0.0.0 so:libradius.so.0=0.0.0 so:libsimaka.so.0=0.0.0 so:libstrongswan-attr-sql.so=0 so:libstrongswan-attr.so=0 so:libstrongswan-bypass-lan.so=0 so:libstrongswan-cmac.so=0 so:libstrongswan-constraints.so=0 so:libstrongswan-counters.so=0 so:libstrongswan-curl.so=0 so:libstrongswan-dhcp.so=0 so:libstrongswan-dnskey.so=0 so:libstrongswan-drbg.so=0 so:libstrongswan-eap-aka-3gpp2.so=0 so:libstrongswan-eap-aka.so=0 so:libstrongswan-eap-identity.so=0 so:libstrongswan-eap-md5.so=0 so:libstrongswan-eap-mschapv2.so=0 so:libstrongswan-eap-radius.so=0 so:libstrongswan-eap-sim-file.so=0 so:libstrongswan-eap-sim.so=0 so:libstrongswan-eap-simaka-pseudonym.so=0 so:libstrongswan-eap-simaka-reauth.so=0 so:libstrongswan-eap-tls.so=0 so:libstrongswan-farp.so=0 so:libstrongswan-fips-prf.so=0 so:libstrongswan-gmp.so=0 so:libstrongswan-ha.so=0 so:libstrongswan-kdf.so=0 so:libstrongswan-kernel-netlink.so=0 so:libstrongswan-mgf1.so=0 so:libstrongswan-nonce.so=0 so:libstrongswan-openssl.so=0 so:libstrongswan-pem.so=0 so:libstrongswan-pgp.so=0 so:libstrongswan-pkcs1.so=0 so:libstrongswan-pkcs7.so=0 so:libstrongswan-pkcs8.so=0 so:libstrongswan-pubkey.so=0 so:libstrongswan-random.so=0 so:libstrongswan-resolve.so=0 so:libstrongswan-revocation.so=0 so:libstrongswan-socket-default.so=0 so:libstrongswan-sqlite.so=0 so:libstrongswan-sshkey.so=0 so:libstrongswan-unity.so=0 so:libstrongswan-updown.so=0 so:libstrongswan-vici.so=0 so:libstrongswan-x509.so=0 so:libstrongswan-xauth-eap.so=0 so:libstrongswan-xauth-generic.so=0 so:libstrongswan-xcbc.so=0 so:libstrongswan.so.0=0.0.0 so:libtls.so.0=0.0.0 so:libvici.so.0=0.0.0
+p:cmd:charon-cmd=6.0.6-r0 cmd:pki=6.0.6-r0 cmd:swanctl=6.0.6-r0 so:libcharon.so.0=0.0.0 so:libradius.so.0=0.0.0 so:libsimaka.so.0=0.0.0 so:libstrongswan-attr-sql.so=0 so:libstrongswan-attr.so=0 so:libstrongswan-bypass-lan.so=0 so:libstrongswan-cmac.so=0 so:libstrongswan-constraints.so=0 so:libstrongswan-counters.so=0 so:libstrongswan-curl.so=0 so:libstrongswan-dhcp.so=0 so:libstrongswan-dnskey.so=0 so:libstrongswan-drbg.so=0 so:libstrongswan-eap-aka-3gpp2.so=0 so:libstrongswan-eap-aka.so=0 so:libstrongswan-eap-identity.so=0 so:libstrongswan-eap-md5.so=0 so:libstrongswan-eap-mschapv2.so=0 so:libstrongswan-eap-radius.so=0 so:libstrongswan-eap-sim-file.so=0 so:libstrongswan-eap-sim.so=0 so:libstrongswan-eap-simaka-pseudonym.so=0 so:libstrongswan-eap-simaka-reauth.so=0 so:libstrongswan-eap-tls.so=0 so:libstrongswan-farp.so=0 so:libstrongswan-fips-prf.so=0 so:libstrongswan-gmp.so=0 so:libstrongswan-ha.so=0 so:libstrongswan-kdf.so=0 so:libstrongswan-kernel-netlink.so=0 so:libstrongswan-mgf1.so=0 so:libstrongswan-nonce.so=0 so:libstrongswan-openssl.so=0 so:libstrongswan-pem.so=0 so:libstrongswan-pgp.so=0 so:libstrongswan-pkcs1.so=0 so:libstrongswan-pkcs7.so=0 so:libstrongswan-pkcs8.so=0 so:libstrongswan-pubkey.so=0 so:libstrongswan-random.so=0 so:libstrongswan-resolve.so=0 so:libstrongswan-revocation.so=0 so:libstrongswan-socket-default.so=0 so:libstrongswan-sqlite.so=0 so:libstrongswan-sshkey.so=0 so:libstrongswan-unity.so=0 so:libstrongswan-updown.so=0 so:libstrongswan-vici.so=0 so:libstrongswan-x509.so=0 so:libstrongswan-xauth-eap.so=0 so:libstrongswan-xauth-generic.so=0 so:libstrongswan-xcbc.so=0 so:libstrongswan.so.0=0.0.0 so:libtls.so.0=0.0.0 so:libvici.so.0=0.0.0
 
-C:Q11bgNNie0yZR6p0+ojjgU01Q2R4k=
+C:Q1++JZC85XL9ZkMmnCQTYHCZ8SKdY=
 P:strongswan-dbg
-V:6.0.5-r0
+V:6.0.6-r0
 A:armhf
-S:9376292
-I:19530408
+S:9376771
+I:19534776
 T:IPsec-based VPN solution focused on security and ease of use, supporting IKEv1/IKEv2 and MOBIKE (debug symbols)
 U:https://www.strongswan.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:strongswan
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776403874
-c:5ba04ede47a1f95564729ed0681f0ec443990adc
-D:!strongswan<6.0.5-r0 !strongswan>6.0.5-r0
+t:1777122761
+c:b9e90e5199b418d21cde07e43289b881e8d3fb53
+D:!strongswan<6.0.6-r0 !strongswan>6.0.6-r0
 
-C:Q1lh66GD8nehTLhlUAAsvkvfL/VPk=
+C:Q1UD/y7AkhkpGcBI4Wy8PwU1eCyYo=
 P:strongswan-doc
-V:6.0.5-r0
+V:6.0.6-r0
 A:armhf
-S:84676
-I:80660
+S:84758
+I:80737
 T:IPsec-based VPN solution focused on security and ease of use, supporting IKEv1/IKEv2 and MOBIKE (documentation)
 U:https://www.strongswan.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:strongswan
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776403874
-c:5ba04ede47a1f95564729ed0681f0ec443990adc
-i:docs strongswan=6.0.5-r0
+t:1777122761
+c:b9e90e5199b418d21cde07e43289b881e8d3fb53
+i:docs strongswan=6.0.6-r0
 
-C:Q1MrnkSyCmmQ7M13YfWfU6GavnnM4=
+C:Q1WG00ztfvUJMDxRXgb2a5JUldMl0=
 P:strongswan-logfile
-V:6.0.5-r0
+V:6.0.6-r0
 A:armhf
-S:1937
+S:1938
 I:224
 T:Dedicated log file configuration for charon
 U:https://www.strongswan.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:strongswan
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776403874
-c:5ba04ede47a1f95564729ed0681f0ec443990adc
+t:1777122761
+c:b9e90e5199b418d21cde07e43289b881e8d3fb53
 D:strongswan
 
-C:Q1cFc0qZNmziaaalZ6cCEIwM/XjWY=
+C:Q1tkwHKrogSofos6aXfnx6IP006NU=
 P:strongswan-openrc
-V:6.0.5-r0
+V:6.0.6-r0
 A:armhf
-S:2129
+S:2132
 I:955
 T:IPsec-based VPN solution focused on security and ease of use, supporting IKEv1/IKEv2 and MOBIKE (OpenRC init scripts)
 U:https://www.strongswan.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:strongswan
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776403874
-c:5ba04ede47a1f95564729ed0681f0ec443990adc
-i:openrc strongswan=6.0.5-r0
+t:1777122761
+c:b9e90e5199b418d21cde07e43289b881e8d3fb53
+i:openrc strongswan=6.0.6-r0
 
 C:Q1aICvjkvKLbOycR3p4kUy6ZnDjNU=
 P:su-exec
@@ -90448,82 +90448,82 @@ t:1772466579
 c:3b2e469e223a5cb31932b1eae30c266e26b30148
 D:xxhash-dev
 
-C:Q1XXsbx62vSIjUskj+JxF31fjjNFU=
+C:Q1KIegiRFxpyQfp473Mb3PROyQhxg=
 P:xz
-V:5.8.2-r0
+V:5.8.3-r0
 A:armhf
-S:65139
+S:65173
 I:147171
 T:Library and CLI tools for XZ and LZMA compressed files
 U:https://tukaani.org/xz/
 L:GPL-2.0-or-later AND 0BSD AND Public-Domain AND LGPL-2.1-or-later
 o:xz
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1768417422
-c:36e457c37949bb24469e810bdd3083edbee2367d
+t:1777121610
+c:ce9944f1daadb681dd6f0f81a06e9cce97127377
 D:so:libc.musl-armhf.so.1 so:liblzma.so.5
-p:cmd:lzcat=5.8.2-r0 cmd:lzcmp=5.8.2-r0 cmd:lzdiff=5.8.2-r0 cmd:lzegrep=5.8.2-r0 cmd:lzfgrep=5.8.2-r0 cmd:lzgrep=5.8.2-r0 cmd:lzless=5.8.2-r0 cmd:lzma=5.8.2-r0 cmd:lzmadec=5.8.2-r0 cmd:lzmainfo=5.8.2-r0 cmd:lzmore=5.8.2-r0 cmd:unlzma=5.8.2-r0 cmd:unxz=5.8.2-r0 cmd:xz=5.8.2-r0 cmd:xzcat=5.8.2-r0 cmd:xzcmp=5.8.2-r0 cmd:xzdec=5.8.2-r0 cmd:xzdiff=5.8.2-r0 cmd:xzegrep=5.8.2-r0 cmd:xzfgrep=5.8.2-r0 cmd:xzgrep=5.8.2-r0 cmd:xzless=5.8.2-r0 cmd:xzmore=5.8.2-r0
+p:cmd:lzcat=5.8.3-r0 cmd:lzcmp=5.8.3-r0 cmd:lzdiff=5.8.3-r0 cmd:lzegrep=5.8.3-r0 cmd:lzfgrep=5.8.3-r0 cmd:lzgrep=5.8.3-r0 cmd:lzless=5.8.3-r0 cmd:lzma=5.8.3-r0 cmd:lzmadec=5.8.3-r0 cmd:lzmainfo=5.8.3-r0 cmd:lzmore=5.8.3-r0 cmd:unlzma=5.8.3-r0 cmd:unxz=5.8.3-r0 cmd:xz=5.8.3-r0 cmd:xzcat=5.8.3-r0 cmd:xzcmp=5.8.3-r0 cmd:xzdec=5.8.3-r0 cmd:xzdiff=5.8.3-r0 cmd:xzegrep=5.8.3-r0 cmd:xzfgrep=5.8.3-r0 cmd:xzgrep=5.8.3-r0 cmd:xzless=5.8.3-r0 cmd:xzmore=5.8.3-r0
 
-C:Q16jlpfTXRLtQedY6SprFw2qZIoag=
+C:Q1FdjaI7ZU88+lVfXPoflpCZGYi10=
 P:xz-dev
-V:5.8.2-r0
+V:5.8.3-r0
 A:armhf
-S:56178
-I:229912
+S:56181
+I:229926
 T:Library and CLI tools for XZ and LZMA compressed files (development files)
 U:https://tukaani.org/xz/
 L:GPL-2.0-or-later AND 0BSD AND Public-Domain AND LGPL-2.1-or-later
 o:xz
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1768417422
-c:36e457c37949bb24469e810bdd3083edbee2367d
-D:xz=5.8.2-r0 xz-libs=5.8.2-r0 pkgconfig
-p:pc:liblzma=5.8.2
+t:1777121610
+c:ce9944f1daadb681dd6f0f81a06e9cce97127377
+D:xz=5.8.3-r0 xz-libs=5.8.3-r0 pkgconfig
+p:pc:liblzma=5.8.3
 
-C:Q1W5aEOOOL0AmuCs7H5inFwOZD128=
+C:Q1ZpiW2/PAZTj2ZCZFCx7IddnxKnU=
 P:xz-doc
-V:5.8.2-r0
+V:5.8.3-r0
 A:armhf
-S:32549
+S:32547
 I:29212
 T:Library and CLI tools for XZ and LZMA compressed files (documentation)
 U:https://tukaani.org/xz/
 L:GPL-2.0-or-later AND 0BSD AND Public-Domain AND LGPL-2.1-or-later
 o:xz
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1768417422
-c:36e457c37949bb24469e810bdd3083edbee2367d
-i:docs xz=5.8.2-r0
+t:1777121610
+c:ce9944f1daadb681dd6f0f81a06e9cce97127377
+i:docs xz=5.8.3-r0
 
-C:Q1+OosOW2vQzEZI8jVT0l4Mt4JIPU=
+C:Q1X8c8qzxS1857N76QAG+ZkP+c3E0=
 P:xz-libs
-V:5.8.2-r0
+V:5.8.3-r0
 A:armhf
-S:111515
+S:111524
 I:197804
 T:Library and CLI tools for XZ and LZMA compressed files (libraries)
 U:https://tukaani.org/xz/
 L:GPL-2.0-or-later AND 0BSD AND Public-Domain AND LGPL-2.1-or-later
 o:xz
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1768417422
-c:36e457c37949bb24469e810bdd3083edbee2367d
+t:1777121610
+c:ce9944f1daadb681dd6f0f81a06e9cce97127377
 D:so:libc.musl-armhf.so.1
-p:so:liblzma.so.5=5.8.2
+p:so:liblzma.so.5=5.8.3
 
-C:Q1pCVobdEuyQdypsBdICsliyr2f/U=
+C:Q1/3hEA4UtyH+mKW56ij/uYCdCi4Y=
 P:xz-static
-V:5.8.2-r0
+V:5.8.3-r0
 A:armhf
-S:134790
-I:322780
+S:134794
+I:322796
 T:Library and CLI tools for XZ and LZMA compressed files (static library)
 U:https://tukaani.org/xz/
 L:GPL-2.0-or-later AND 0BSD AND Public-Domain AND LGPL-2.1-or-later
 o:xz
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1768417422
-c:36e457c37949bb24469e810bdd3083edbee2367d
+t:1777121610
+c:ce9944f1daadb681dd6f0f81a06e9cce97127377
 D:xz-dev
 
 C:Q1AKP7+rDCDWz4HY8uedPTKBY4glA=
