@@ -7431,7 +7431,8 @@
     "botan3": {
       "origin": "botan3",
       "versions": {
-        "3.11.0-r1": 1774640415
+        "3.11.0-r1": 1774640415,
+        "3.11.1-r0": 1777117680
       },
       "dependencies": [
         "so:libbotan-3.so.11",
@@ -7440,33 +7441,36 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:botan=3.11.0-r1"
+        "cmd:botan=3.11.1-r0"
       ]
     },
     "botan3-dev": {
       "origin": "botan3",
       "versions": {
-        "3.11.0-r1": 1774640415
+        "3.11.0-r1": 1774640415,
+        "3.11.1-r0": 1777117680
       },
       "dependencies": [
         "boost-dev",
-        "botan3-libs=3.11.0-r1",
+        "botan3-libs=3.11.1-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:botan-3=3.11.0"
+        "pc:botan-3=3.11.1"
       ]
     },
     "botan3-doc": {
       "origin": "botan3",
       "versions": {
-        "3.11.0-r1": 1774640415
+        "3.11.0-r1": 1774640415,
+        "3.11.1-r0": 1777117680
       }
     },
     "botan3-libs": {
       "origin": "botan3",
       "versions": {
-        "3.11.0-r1": 1774640415
+        "3.11.0-r1": 1774640415,
+        "3.11.1-r0": 1777117680
       },
       "dependencies": [
         "so:libbz2.so.1",
@@ -7478,7 +7482,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libbotan-3.so.11=11.11.0"
+        "so:libbotan-3.so.11=11.11.1"
       ]
     },
     "bpftool": {
@@ -23510,57 +23514,62 @@
     "lcms2": {
       "origin": "lcms2",
       "versions": {
-        "2.17-r0": 1758809258
+        "2.17-r0": 1758809258,
+        "2.19-r0": 1777117891
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "so:liblcms2.so.2=2.0.17"
+        "so:liblcms2.so.2=2.0.19"
       ]
     },
     "lcms2-dev": {
       "origin": "lcms2",
       "versions": {
-        "2.17-r0": 1758809258
+        "2.17-r0": 1758809258,
+        "2.19-r0": 1777117891
       },
       "dependencies": [
-        "lcms2-plugins=2.17-r0",
+        "lcms2-plugins=2.19-r0",
         "libjpeg-turbo-dev",
         "tiff-dev",
         "zlib-dev",
-        "lcms2-plugins=2.17-r0",
-        "lcms2=2.17-r0",
+        "lcms2-plugins=2.19-r0",
+        "lcms2=2.19-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:lcms2=2.17"
+        "pc:lcms2=2.19"
       ]
     },
     "lcms2-doc": {
       "origin": "lcms2",
       "versions": {
-        "2.17-r0": 1758809258
+        "2.17-r0": 1758809258,
+        "2.19-r0": 1777117891
       }
     },
     "lcms2-plugins": {
       "origin": "lcms2",
       "versions": {
-        "2.17-r0": 1758809258
+        "2.17-r0": 1758809258,
+        "2.19-r0": 1777117891
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
         "so:liblcms2.so.2"
       ],
       "provides": [
-        "so:liblcms2_fast_float.so.2=2.0.17",
-        "so:liblcms2_threaded.so.2=2.0.17"
+        "so:liblcms2_fast_float.so.2=2.0.19",
+        "so:liblcms2_threaded.so.2=2.0.19"
       ]
     },
     "lcms2-static": {
       "origin": "lcms2",
       "versions": {
-        "2.17-r0": 1758809258
+        "2.17-r0": 1758809258,
+        "2.19-r0": 1777117891
       },
       "dependencies": [
         "lcms2-dev"
@@ -23569,7 +23578,8 @@
     "lcms2-utils": {
       "origin": "lcms2",
       "versions": {
-        "2.17-r0": 1758809258
+        "2.17-r0": 1758809258,
+        "2.19-r0": 1777117891
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -23578,11 +23588,12 @@
         "so:libtiff.so.6"
       ],
       "provides": [
-        "cmd:jpgicc=2.17-r0",
-        "cmd:linkicc=2.17-r0",
-        "cmd:psicc=2.17-r0",
-        "cmd:tificc=2.17-r0",
-        "cmd:transicc=2.17-r0"
+        "cmd:jpgicc=2.19-r0",
+        "cmd:linkicc=2.19-r0",
+        "cmd:psicc=2.19-r0",
+        "cmd:tifdiff=2.19-r0",
+        "cmd:tificc=2.19-r0",
+        "cmd:transicc=2.19-r0"
       ]
     },
     "ldapvi": {
@@ -55096,14 +55107,15 @@
     "py3-botan3": {
       "origin": "botan3",
       "versions": {
-        "3.11.0-r1": 1774640415
+        "3.11.0-r1": 1774640415,
+        "3.11.1-r0": 1777117680
       },
       "dependencies": [
-        "botan3-libs=3.11.0-r1",
+        "botan3-libs=3.11.1-r0",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:botan3=3.11.0-r1"
+        "py3.14:botan3=3.11.1-r0"
       ]
     },
     "py3-brotli": {
@@ -74423,7 +74435,7 @@
       },
       "libbotan-3.so.11": {
         "package": "botan3-libs",
-        "version": "11.11.0"
+        "version": "11.11.1"
       },
       "libbrotlicommon.so.1": {
         "package": "brotli-libs",
@@ -76075,15 +76087,15 @@
       },
       "liblcms2.so.2": {
         "package": "lcms2",
-        "version": "2.0.17"
+        "version": "2.0.19"
       },
       "liblcms2_fast_float.so.2": {
         "package": "lcms2-plugins",
-        "version": "2.0.17"
+        "version": "2.0.19"
       },
       "liblcms2_threaded.so.2": {
         "package": "lcms2-plugins",
-        "version": "2.0.17"
+        "version": "2.0.19"
       },
       "libldb-key-value-private-samba.so": {
         "package": "ldb",
