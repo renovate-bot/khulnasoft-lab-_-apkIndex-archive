@@ -177744,7 +177744,8 @@
     "pgbouncer": {
       "origin": "pgbouncer",
       "versions": {
-        "1.25.0-r0": 1763661560
+        "1.25.0-r0": 1763661560,
+        "1.25.1-r0": 1777277085
       },
       "dependencies": [
         "/bin/sh",
@@ -177755,19 +177756,21 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:pgbouncer=1.25.0-r0"
+        "cmd:pgbouncer=1.25.1-r0"
       ]
     },
     "pgbouncer-doc": {
       "origin": "pgbouncer",
       "versions": {
-        "1.25.0-r0": 1763661560
+        "1.25.0-r0": 1763661560,
+        "1.25.1-r0": 1777277085
       }
     },
     "pgbouncer-openrc": {
       "origin": "pgbouncer",
       "versions": {
-        "1.25.0-r0": 1763661560
+        "1.25.0-r0": 1763661560,
+        "1.25.1-r0": 1777277085
       }
     },
     "pgcli": {
@@ -212662,7 +212665,8 @@
     "py3-openssl": {
       "origin": "py3-openssl",
       "versions": {
-        "25.3.0-r0": 1760433387
+        "25.3.0-r0": 1760433387,
+        "26.1.0-r0": 1777238951
       },
       "dependencies": [
         "python3",
@@ -212671,14 +212675,15 @@
         "python3~3.12"
       ],
       "provides": [
-        "py-openssl=25.3.0-r0",
-        "py3.12:OpenSSL=25.3.0-r0"
+        "py-openssl=26.1.0-r0",
+        "py3.12:OpenSSL=26.1.0-r0"
       ]
     },
     "py3-openssl-pyc": {
       "origin": "py3-openssl",
       "versions": {
-        "25.3.0-r0": 1760433387
+        "25.3.0-r0": 1760433387,
+        "26.1.0-r0": 1777238951
       },
       "dependencies": [
         "python3~3.12"
@@ -314835,7 +314840,7 @@
       },
       "py-openssl": {
         "package": "py3-openssl",
-        "version": "25.3.0-r0"
+        "version": "26.1.0-r0"
       },
       "osl-python": {
         "package": "py3-osl",
