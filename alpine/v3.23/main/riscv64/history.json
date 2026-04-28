@@ -44819,53 +44819,57 @@
       "origin": "ngtcp2",
       "versions": {
         "1.15.1-r0": 1758368333,
-        "1.17.0-r0": 1763835926
+        "1.17.0-r0": 1763835926,
+        "1.22.1-r0": 1777360045
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1"
       ],
       "provides": [
-        "so:libngtcp2.so.16=16.7.0"
+        "so:libngtcp2.so.16=16.8.1"
       ]
     },
     "ngtcp2-dev": {
       "origin": "ngtcp2",
       "versions": {
         "1.15.1-r0": 1758368333,
-        "1.17.0-r0": 1763835926
+        "1.17.0-r0": 1763835926,
+        "1.22.1-r0": 1777360045
       },
       "dependencies": [
-        "ngtcp2-gnutls=1.17.0-r0",
-        "ngtcp2=1.17.0-r0",
+        "ngtcp2-gnutls=1.22.1-r0",
+        "ngtcp2=1.22.1-r0",
         "pc:gnutls",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libngtcp2=1.17.0",
-        "pc:libngtcp2_crypto_gnutls=1.17.0"
+        "pc:libngtcp2=1.22.1",
+        "pc:libngtcp2_crypto_gnutls=1.22.1"
       ]
     },
     "ngtcp2-gnutls": {
       "origin": "ngtcp2",
       "versions": {
         "1.15.1-r0": 1758368333,
-        "1.17.0-r0": 1763835926
+        "1.17.0-r0": 1763835926,
+        "1.22.1-r0": 1777360045
       },
       "dependencies": [
-        "ngtcp2=1.17.0-r0",
+        "ngtcp2=1.22.1-r0",
         "so:libc.musl-riscv64.so.1",
         "so:libgnutls.so.30",
         "so:libngtcp2.so.16"
       ],
       "provides": [
-        "so:libngtcp2_crypto_gnutls.so.8=8.2.0"
+        "so:libngtcp2_crypto_gnutls.so.8=8.4.0"
       ]
     },
     "ngtcp2-static": {
       "origin": "ngtcp2",
       "versions": {
         "1.15.1-r0": 1758368333,
-        "1.17.0-r0": 1763835926
+        "1.17.0-r0": 1763835926,
+        "1.22.1-r0": 1777360045
       }
     },
     "nload": {
@@ -47196,7 +47200,8 @@
       "origin": "openvpn",
       "versions": {
         "2.6.14-r0": 1744034532,
-        "2.6.16-r0": 1763647385
+        "2.6.16-r0": 1763647385,
+        "2.6.20-r0": 1777360176
       },
       "dependencies": [
         "iproute2-minimal",
@@ -47209,7 +47214,7 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:openvpn=2.6.16-r0"
+        "cmd:openvpn=2.6.20-r0"
       ]
     },
     "openvpn-ad-check": {
@@ -47240,7 +47245,8 @@
       "origin": "openvpn",
       "versions": {
         "2.6.14-r0": 1744034532,
-        "2.6.16-r0": 1763647385
+        "2.6.16-r0": 1763647385,
+        "2.6.20-r0": 1777360176
       },
       "dependencies": [
         "iproute2-minimal",
@@ -47252,7 +47258,8 @@
       "origin": "openvpn",
       "versions": {
         "2.6.14-r0": 1744034532,
-        "2.6.16-r0": 1763647385
+        "2.6.16-r0": 1763647385,
+        "2.6.20-r0": 1777360176
       },
       "dependencies": [
         "openssl-dev"
@@ -47262,14 +47269,16 @@
       "origin": "openvpn",
       "versions": {
         "2.6.14-r0": 1744034532,
-        "2.6.16-r0": 1763647385
+        "2.6.16-r0": 1763647385,
+        "2.6.20-r0": 1777360176
       }
     },
     "openvpn-openrc": {
       "origin": "openvpn",
       "versions": {
         "2.6.14-r0": 1744034532,
-        "2.6.16-r0": 1763647385
+        "2.6.16-r0": 1763647385,
+        "2.6.20-r0": 1777360176
       }
     },
     "opus": {
@@ -80926,11 +80935,11 @@
       },
       "libngtcp2.so.16": {
         "package": "ngtcp2",
-        "version": "16.7.0"
+        "version": "16.8.1"
       },
       "libngtcp2_crypto_gnutls.so.8": {
         "package": "ngtcp2-gnutls",
-        "version": "8.2.0"
+        "version": "8.4.0"
       },
       "libnode.so.127": {
         "package": "nodejs-libs",
