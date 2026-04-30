@@ -33996,7 +33996,8 @@
     "coturn": {
       "origin": "coturn",
       "versions": {
-        "4.7.0-r0": 1752863801
+        "4.7.0-r0": 1752863801,
+        "4.10.0-r0": 1777541945
       },
       "dependencies": [
         "/bin/sh",
@@ -34013,37 +34014,41 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:turnadmin=4.7.0-r0",
-        "cmd:turnserver=4.7.0-r0",
-        "cmd:turnutils_natdiscovery=4.7.0-r0",
-        "cmd:turnutils_oauth=4.7.0-r0",
-        "cmd:turnutils_peer=4.7.0-r0",
-        "cmd:turnutils_stunclient=4.7.0-r0",
-        "cmd:turnutils_uclient=4.7.0-r0"
+        "cmd:turnadmin=4.10.0-r0",
+        "cmd:turnserver=4.10.0-r0",
+        "cmd:turnutils_natdiscovery=4.10.0-r0",
+        "cmd:turnutils_oauth=4.10.0-r0",
+        "cmd:turnutils_peer=4.10.0-r0",
+        "cmd:turnutils_stunclient=4.10.0-r0",
+        "cmd:turnutils_uclient=4.10.0-r0"
       ]
     },
     "coturn-dev": {
       "origin": "coturn",
       "versions": {
-        "4.7.0-r0": 1752863801
+        "4.7.0-r0": 1752863801,
+        "4.10.0-r0": 1777541945
       }
     },
     "coturn-doc": {
       "origin": "coturn",
       "versions": {
-        "4.7.0-r0": 1752863801
+        "4.7.0-r0": 1752863801,
+        "4.10.0-r0": 1777541945
       }
     },
     "coturn-openrc": {
       "origin": "coturn",
       "versions": {
-        "4.7.0-r0": 1752863801
+        "4.7.0-r0": 1752863801,
+        "4.10.0-r0": 1777541945
       }
     },
     "coturn-static": {
       "origin": "coturn",
       "versions": {
-        "4.7.0-r0": 1752863801
+        "4.7.0-r0": 1752863801,
+        "4.10.0-r0": 1777541945
       }
     },
     "coventry": {
@@ -82629,13 +82634,14 @@
     "gradle": {
       "origin": "gradle",
       "versions": {
-        "8.14.3-r0": 1751755629
+        "8.14.3-r0": 1751755629,
+        "8.14.4-r0": 1777539692
       },
       "dependencies": [
         "openjdk21"
       ],
       "provides": [
-        "cmd:gradle=8.14.3-r0"
+        "cmd:gradle=8.14.4-r0"
       ]
     },
     "grafana": {
@@ -217912,15 +217918,16 @@
         "3.5.0-r4": 1768509151,
         "3.5.0-r5": 1770283019,
         "3.5.0-r6": 1773040615,
-        "3.5.0-r7": 1775840717
+        "3.5.0-r7": 1775840717,
+        "3.5.3-r0": 1777541627
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "cmd:prometheus=3.5.0-r7",
-        "cmd:promtool=3.5.0-r7"
+        "cmd:prometheus=3.5.3-r0",
+        "cmd:promtool=3.5.3-r0"
       ]
     },
     "prometheus-apcupsd-exporter": {
@@ -218144,7 +218151,8 @@
         "3.5.0-r4": 1768509151,
         "3.5.0-r5": 1770283019,
         "3.5.0-r6": 1773040615,
-        "3.5.0-r7": 1775840717
+        "3.5.0-r7": 1775840717,
+        "3.5.3-r0": 1777541627
       }
     },
     "prometheus-openrc-exporter": {

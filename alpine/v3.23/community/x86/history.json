@@ -30201,7 +30201,8 @@
     "coturn": {
       "origin": "coturn",
       "versions": {
-        "4.7.0-r0": 1752863801
+        "4.7.0-r0": 1752863801,
+        "4.10.0-r0": 1777541945
       },
       "dependencies": [
         "/bin/sh",
@@ -30218,37 +30219,41 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:turnadmin=4.7.0-r0",
-        "cmd:turnserver=4.7.0-r0",
-        "cmd:turnutils_natdiscovery=4.7.0-r0",
-        "cmd:turnutils_oauth=4.7.0-r0",
-        "cmd:turnutils_peer=4.7.0-r0",
-        "cmd:turnutils_stunclient=4.7.0-r0",
-        "cmd:turnutils_uclient=4.7.0-r0"
+        "cmd:turnadmin=4.10.0-r0",
+        "cmd:turnserver=4.10.0-r0",
+        "cmd:turnutils_natdiscovery=4.10.0-r0",
+        "cmd:turnutils_oauth=4.10.0-r0",
+        "cmd:turnutils_peer=4.10.0-r0",
+        "cmd:turnutils_stunclient=4.10.0-r0",
+        "cmd:turnutils_uclient=4.10.0-r0"
       ]
     },
     "coturn-dev": {
       "origin": "coturn",
       "versions": {
-        "4.7.0-r0": 1752863801
+        "4.7.0-r0": 1752863801,
+        "4.10.0-r0": 1777541945
       }
     },
     "coturn-doc": {
       "origin": "coturn",
       "versions": {
-        "4.7.0-r0": 1752863801
+        "4.7.0-r0": 1752863801,
+        "4.10.0-r0": 1777541945
       }
     },
     "coturn-openrc": {
       "origin": "coturn",
       "versions": {
-        "4.7.0-r0": 1752863801
+        "4.7.0-r0": 1752863801,
+        "4.10.0-r0": 1777541945
       }
     },
     "coturn-static": {
       "origin": "coturn",
       "versions": {
-        "4.7.0-r0": 1752863801
+        "4.7.0-r0": 1752863801,
+        "4.10.0-r0": 1777541945
       }
     },
     "coventry": {
@@ -71986,13 +71991,14 @@
     "gradle": {
       "origin": "gradle",
       "versions": {
-        "8.14.3-r0": 1751755629
+        "8.14.3-r0": 1751755629,
+        "8.14.4-r0": 1777539692
       },
       "dependencies": [
         "openjdk8"
       ],
       "provides": [
-        "cmd:gradle=8.14.3-r0"
+        "cmd:gradle=8.14.4-r0"
       ]
     },
     "grafana-frontend": {
