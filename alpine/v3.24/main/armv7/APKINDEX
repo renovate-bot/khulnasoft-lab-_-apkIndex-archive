@@ -20812,99 +20812,99 @@ c:9d3347ac75830f725fe3036c01d7955948e56b50
 D:gpg=2.4.9-r0 gpg-agent=2.4.9-r0 gnupg-dirmngr=2.4.9-r0 so:libassuan.so.9 so:libc.musl-armv7.so.1 so:libgcrypt.so.20 so:libgpg-error.so.0
 p:cmd:gpg-wks-client=2.4.9-r0
 
-C:Q1+XddFHlBRSxkvfIi0HVY9vBcm/U=
+C:Q1kbVTepRuzg0hIWrv/1BBYkd/Z3s=
 P:gnutls
-V:3.8.12-r0
+V:3.8.13-r0
 A:armv7
-S:899571
-I:1519792
+S:915673
+I:1601712
 T:TLS protocol implementation
 U:https://www.gnutls.org/
 L:LGPL-2.1-or-later
 o:gnutls
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1771919938
-c:6ba790c7d6d708e7e9cfd4a8e2b7bd59dd8669e3
+t:1777563056
+c:c09f2e94a4b0b4077da49683cf0faa09ed63fb5b
 D:so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-armv7.so.1 so:libgmp.so.10 so:libhogweed.so.6 so:libidn2.so.0 so:libnettle.so.8 so:libp11-kit.so.0 so:libtasn1.so.6 so:libunistring.so.5 so:libz.so.1 so:libzstd.so.1
-p:so:libgnutls.so.30=30.41.1
+p:so:libgnutls.so.30=30.42.0
 
-C:Q1K6/srien9mZrHj7qoRin6e6Ih0E=
+C:Q1lwEuzmqhoeHqelTEtuMtTZou2qc=
 P:gnutls-c++
-V:3.8.12-r0
+V:3.8.13-r0
 A:armv7
-S:13808
+S:13802
 I:42380
 T:The C++ interface to GnuTLS
 U:https://www.gnutls.org/
 L:LGPL-2.1-or-later
 o:gnutls
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1771919938
-c:6ba790c7d6d708e7e9cfd4a8e2b7bd59dd8669e3
+t:1777563056
+c:c09f2e94a4b0b4077da49683cf0faa09ed63fb5b
 D:so:libc.musl-armv7.so.1 so:libgcc_s.so.1 so:libgnutls.so.30 so:libstdc++.so.6
 p:so:libgnutlsxx.so.30=30.0.0
 
-C:Q1O67sTMXkj8+Zi+mZ2+MzTHHTQE8=
+C:Q1fVlrsAF84NovPb9GdWimFoA7lok=
 P:gnutls-dbg
-V:3.8.12-r0
+V:3.8.13-r0
 A:armv7
-S:3520634
-I:8321944
+S:3573917
+I:8470464
 T:TLS protocol implementation (debug symbols)
 U:https://www.gnutls.org/
 L:LGPL-2.1-or-later
 o:gnutls
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1771919938
-c:6ba790c7d6d708e7e9cfd4a8e2b7bd59dd8669e3
-D:!gnutls-c++<3.8.12-r0 !gnutls-c++>3.8.12-r0 !gnutls-utils<3.8.12-r0 !gnutls-utils>3.8.12-r0 !gnutls<3.8.12-r0 !gnutls>3.8.12-r0
+t:1777563056
+c:c09f2e94a4b0b4077da49683cf0faa09ed63fb5b
+D:!gnutls-c++<3.8.13-r0 !gnutls-c++>3.8.13-r0 !gnutls-utils<3.8.13-r0 !gnutls-utils>3.8.13-r0 !gnutls<3.8.13-r0 !gnutls>3.8.13-r0
 
-C:Q13lIbC4ZagM1UvRjeJySlj2rZzEc=
+C:Q1iMPby72Y6mvZqUG2QntYyK5ux+8=
 P:gnutls-dev
-V:3.8.12-r0
+V:3.8.13-r0
 A:armv7
-S:73897
-I:367533
+S:74838
+I:372339
 T:TLS protocol implementation (development files)
 U:https://www.gnutls.org/
 L:LGPL-2.1-or-later
 o:gnutls
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1771919938
-c:6ba790c7d6d708e7e9cfd4a8e2b7bd59dd8669e3
-D:gnutls-c++=3.8.12-r0 gnutls=3.8.12-r0 pc:hogweed pc:libbrotlidec pc:libbrotlienc pc:libidn2 pc:libtasn1 pc:libzstd pc:nettle pc:p11-kit-1 pc:zlib pkgconfig
-p:pc:gnutls=3.8.12
+t:1777563056
+c:c09f2e94a4b0b4077da49683cf0faa09ed63fb5b
+D:gnutls-c++=3.8.13-r0 gnutls=3.8.13-r0 pc:hogweed pc:libbrotlidec pc:libbrotlienc pc:libidn2 pc:libtasn1 pc:libzstd pc:nettle pc:p11-kit-1 pc:zlib pkgconfig
+p:pc:gnutls=3.8.13
 
-C:Q16WO/sI3J2grS677cjTpM8L7Gd44=
+C:Q1p8+4SEMexzJgnCQuIK1Xyh1zNcg=
 P:gnutls-doc
-V:3.8.12-r0
+V:3.8.13-r0
 A:armv7
-S:1905020
-I:3472183
+S:1918514
+I:3498787
 T:TLS protocol implementation (documentation)
 U:https://www.gnutls.org/
 L:LGPL-2.1-or-later
 o:gnutls
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1771919938
-c:6ba790c7d6d708e7e9cfd4a8e2b7bd59dd8669e3
-i:docs gnutls=3.8.12-r0
+t:1777563056
+c:c09f2e94a4b0b4077da49683cf0faa09ed63fb5b
+i:docs gnutls=3.8.13-r0
 
-C:Q1jFLtZjrlLpP9/ibuQ8FH2/uo+3k=
+C:Q1/jnGK3v3yAKS3unGYvbX9Tq9k5A=
 P:gnutls-utils
-V:3.8.12-r0
+V:3.8.13-r0
 A:armv7
-S:320424
-I:717232
+S:321598
+I:721356
 T:Command line tools for TLS protocol
 U:https://www.gnutls.org/
 L:GPL-3.0-or-later
 o:gnutls
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1771919938
-c:6ba790c7d6d708e7e9cfd4a8e2b7bd59dd8669e3
+t:1777563056
+c:c09f2e94a4b0b4077da49683cf0faa09ed63fb5b
 D:so:libc.musl-armv7.so.1 so:libgnutls.so.30 so:libtasn1.so.6
-p:cmd:certtool=3.8.12-r0 cmd:gnutls-cli-debug=3.8.12-r0 cmd:gnutls-cli=3.8.12-r0 cmd:gnutls-serv=3.8.12-r0 cmd:ocsptool=3.8.12-r0 cmd:p11tool=3.8.12-r0 cmd:psktool=3.8.12-r0
+p:cmd:certtool=3.8.13-r0 cmd:gnutls-cli-debug=3.8.13-r0 cmd:gnutls-cli=3.8.13-r0 cmd:gnutls-serv=3.8.13-r0 cmd:ocsptool=3.8.13-r0 cmd:p11tool=3.8.13-r0 cmd:psktool=3.8.13-r0
 
 C:Q1zC52Y5OvlxOEnbMwHoVIkCJpw3Y=
 P:goaccess
@@ -49042,209 +49042,209 @@ c:ae8135838ff02b71172806492d78392922749c0b
 D:so:libc.musl-armv7.so.1
 p:cmd:merge-usr=1.0.3_git20260218-r0
 
-C:Q1pAec1fBEqwiJMcSjB9ed8zJoEpo=
+C:Q1x70jSrHUGv92A0kNqT2IzezVVKM=
 P:mesa
-V:26.0.5-r0
+V:26.0.6-r0
 A:armv7
-S:10757977
-I:28860414
+S:10760331
+I:28864708
 T:Mesa DRI OpenGL library
 U:https://www.mesa3d.org
 L:MIT AND SGI-B-2.0 AND BSL-1.0
 o:mesa
 m:team/alpine-desktop <achill@achill.org>
-t:1776445247
-c:8f4df269cc044cb6f483a522c476eab53f122935
+t:1777570258
+c:2b8bc0fedd3128814a110b5e750aa9480c7f34fb
 D:so:libLLVM.so.22.1 so:libSPIRV-Tools.so so:libX11-xcb.so.1 so:libc.musl-armv7.so.1 so:libdrm.so.2 so:libdrm_amdgpu.so.1 so:libelf.so.1 so:libexpat.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libxcb-dri3.so.0 so:libxcb-present.so.0 so:libxcb-randr.so.0 so:libxcb-sync.so.1 so:libxcb-xfixes.so.0 so:libxcb.so.1 so:libxshmfence.so.1 so:libz.so.1 so:libzstd.so.1
-p:so:libgallium-26.0.5.so=0
+p:so:libgallium-26.0.6.so=0
 
-C:Q1snKvNMAF3oEx4I/ZYQKkMRmp080=
+C:Q1HDQ6UZuKVVxtPxuXgEVH6CKzEbA=
 P:mesa-dbg
-V:26.0.5-r0
+V:26.0.6-r0
 A:armv7
-S:35921304
-I:98995292
+S:35927637
+I:99001928
 T:Mesa DRI OpenGL library (debug symbols)
 U:https://www.mesa3d.org
 L:MIT AND SGI-B-2.0 AND BSL-1.0
 o:mesa
 m:team/alpine-desktop <achill@achill.org>
-t:1776445247
-c:8f4df269cc044cb6f483a522c476eab53f122935
-D:!mesa-dri-gallium<26.0.5-r0 !mesa-dri-gallium>26.0.5-r0 !mesa-egl<26.0.5-r0 !mesa-egl>26.0.5-r0 !mesa-gbm<26.0.5-r0 !mesa-gbm>26.0.5-r0 !mesa-gl<26.0.5-r0 !mesa-gl>26.0.5-r0 !mesa-gles<26.0.5-r0 !mesa-gles>26.0.5-r0 !mesa-rusticl<26.0.5-r0 !mesa-rusticl>26.0.5-r0 !mesa-vulkan-ati<26.0.5-r0 !mesa-vulkan-ati>26.0.5-r0 !mesa-vulkan-layers<26.0.5-r0 !mesa-vulkan-layers>26.0.5-r0 !mesa-vulkan-swrast<26.0.5-r0 !mesa-vulkan-swrast>26.0.5-r0 !mesa<26.0.5-r0 !mesa>26.0.5-r0
+t:1777570258
+c:2b8bc0fedd3128814a110b5e750aa9480c7f34fb
+D:!mesa-dri-gallium<26.0.6-r0 !mesa-dri-gallium>26.0.6-r0 !mesa-egl<26.0.6-r0 !mesa-egl>26.0.6-r0 !mesa-gbm<26.0.6-r0 !mesa-gbm>26.0.6-r0 !mesa-gl<26.0.6-r0 !mesa-gl>26.0.6-r0 !mesa-gles<26.0.6-r0 !mesa-gles>26.0.6-r0 !mesa-rusticl<26.0.6-r0 !mesa-rusticl>26.0.6-r0 !mesa-vulkan-ati<26.0.6-r0 !mesa-vulkan-ati>26.0.6-r0 !mesa-vulkan-layers<26.0.6-r0 !mesa-vulkan-layers>26.0.6-r0 !mesa-vulkan-swrast<26.0.6-r0 !mesa-vulkan-swrast>26.0.6-r0 !mesa<26.0.6-r0 !mesa>26.0.6-r0
 
-C:Q1NAicZQm+jRXjg5jPVAmEw/qkyVk=
+C:Q1P4VKQatIwBQWY2wP0rUKwggnKjk=
 P:mesa-dev
-V:26.0.5-r0
+V:26.0.6-r0
 A:armv7
-S:345152
+S:345143
 I:2371250
 T:Mesa DRI OpenGL library (development files)
 U:https://www.mesa3d.org
 L:MIT AND SGI-B-2.0 AND BSL-1.0
 o:mesa
 m:team/alpine-desktop <achill@achill.org>
-t:1776445247
-c:8f4df269cc044cb6f483a522c476eab53f122935
-D:libdrm-dev libxdamage-dev libxshmfence-dev mesa-egl=26.0.5-r0 mesa-gbm=26.0.5-r0 mesa-gl=26.0.5-r0 mesa-gles=26.0.5-r0 mesa-rusticl=26.0.5-r0 pc:libdrm>=2.4.121 pc:libdrm>=2.4.75 pc:x11 pc:x11-xcb pc:xcb pc:xcb-dri2>=1.8 pc:xcb-glx>=1.8.1 pc:xext pc:xfixes pc:xxf86vm pkgconfig
-p:pc:dri=26.0.5 pc:egl=26.0.5 pc:gbm=26.0.5 pc:gl=26.0.5 pc:glesv1_cm=26.0.5 pc:glesv2=26.0.5 pc:glx=26.0.5
+t:1777570258
+c:2b8bc0fedd3128814a110b5e750aa9480c7f34fb
+D:libdrm-dev libxdamage-dev libxshmfence-dev mesa-egl=26.0.6-r0 mesa-gbm=26.0.6-r0 mesa-gl=26.0.6-r0 mesa-gles=26.0.6-r0 mesa-rusticl=26.0.6-r0 pc:libdrm>=2.4.121 pc:libdrm>=2.4.75 pc:x11 pc:x11-xcb pc:xcb pc:xcb-dri2>=1.8 pc:xcb-glx>=1.8.1 pc:xext pc:xfixes pc:xxf86vm pkgconfig
+p:pc:dri=26.0.6 pc:egl=26.0.6 pc:gbm=26.0.6 pc:gl=26.0.6 pc:glesv1_cm=26.0.6 pc:glesv2=26.0.6 pc:glx=26.0.6
 
-C:Q1X1I92ARckkOnGGfLahNAkk6RuiI=
+C:Q1S759UxLVDU1xhJNxRVuHQw+1fOs=
 P:mesa-dri-gallium
-V:26.0.5-r0
+V:26.0.6-r0
 A:armv7
-S:22264
+S:22263
 I:83156
 T:Mesa gallium DRI drivers
 U:https://www.mesa3d.org
 L:MIT AND SGI-B-2.0 AND BSL-1.0
 o:mesa
 m:team/alpine-desktop <achill@achill.org>
-t:1776445247
-c:8f4df269cc044cb6f483a522c476eab53f122935
-D:mesa=26.0.5-r0 so:libc.musl-armv7.so.1 so:libgbm.so.1 so:libgcc_s.so.1
+t:1777570258
+c:2b8bc0fedd3128814a110b5e750aa9480c7f34fb
+D:mesa=26.0.6-r0 so:libc.musl-armv7.so.1 so:libgbm.so.1 so:libgcc_s.so.1
 
-C:Q1j9VqKfKVBHPFYfxiTLlKLPbeRp4=
+C:Q1KuAm1WkOUPmcUDhDkqJmkvVkUbw=
 P:mesa-egl
-V:26.0.5-r0
+V:26.0.6-r0
 A:armv7
-S:111643
+S:111658
 I:235304
 T:Mesa libEGL runtime libraries
 U:https://www.mesa3d.org
 L:MIT AND SGI-B-2.0 AND BSL-1.0
 o:mesa
 m:team/alpine-desktop <achill@achill.org>
-t:1776445247
-c:8f4df269cc044cb6f483a522c476eab53f122935
-D:mesa=26.0.5-r0 mesa-gles=26.0.5-r0 so:libX11-xcb.so.1 so:libX11.so.6 so:libc.musl-armv7.so.1 so:libdrm.so.2 so:libexpat.so.1 so:libgallium-26.0.5.so so:libgbm.so.1 so:libgcc_s.so.1 so:libwayland-client.so.0 so:libxcb-dri3.so.0 so:libxcb-present.so.0 so:libxcb-randr.so.0 so:libxcb-shm.so.0 so:libxcb-xfixes.so.0 so:libxcb.so.1
+t:1777570258
+c:2b8bc0fedd3128814a110b5e750aa9480c7f34fb
+D:mesa=26.0.6-r0 mesa-gles=26.0.6-r0 so:libX11-xcb.so.1 so:libX11.so.6 so:libc.musl-armv7.so.1 so:libdrm.so.2 so:libexpat.so.1 so:libgallium-26.0.6.so so:libgbm.so.1 so:libgcc_s.so.1 so:libwayland-client.so.0 so:libxcb-dri3.so.0 so:libxcb-present.so.0 so:libxcb-randr.so.0 so:libxcb-shm.so.0 so:libxcb-xfixes.so.0 so:libxcb.so.1
 p:so:libEGL.so.1=1.0.0
 
-C:Q19IILVaG12v0otUBYOUps7uv7jpY=
+C:Q1oK1gx6N3cdgOuQaYso3s35WqkHY=
 P:mesa-gbm
-V:26.0.5-r0
+V:26.0.6-r0
 A:armv7
-S:6110
+S:6112
 I:9364
 T:Mesa gbm library
 U:https://www.mesa3d.org
 L:MIT AND SGI-B-2.0 AND BSL-1.0
 o:mesa
 m:team/alpine-desktop <achill@achill.org>
-t:1776445247
-c:8f4df269cc044cb6f483a522c476eab53f122935
-D:mesa=26.0.5-r0 so:libc.musl-armv7.so.1 so:libdrm.so.2 so:libexpat.so.1 so:libgcc_s.so.1
+t:1777570258
+c:2b8bc0fedd3128814a110b5e750aa9480c7f34fb
+D:mesa=26.0.6-r0 so:libc.musl-armv7.so.1 so:libdrm.so.2 so:libexpat.so.1 so:libgcc_s.so.1
 p:so:libgbm.so.1=1.0.0
 
-C:Q1e3ykK2EajnHakKnEe4D2AqbYAN0=
+C:Q1mWmUyLsPJT+5nL8m2lRhlIwHjQk=
 P:mesa-gl
-V:26.0.5-r0
+V:26.0.6-r0
 A:armv7
-S:152100
+S:152107
 I:382572
 T:Mesa libGL runtime libraries
 U:https://www.mesa3d.org
 L:MIT AND SGI-B-2.0 AND BSL-1.0
 o:mesa
 m:team/alpine-desktop <achill@achill.org>
-t:1776445247
-c:8f4df269cc044cb6f483a522c476eab53f122935
-D:mesa=26.0.5-r0 so:libX11-xcb.so.1 so:libX11.so.6 so:libXext.so.6 so:libXxf86vm.so.1 so:libc.musl-armv7.so.1 so:libdrm.so.2 so:libexpat.so.1 so:libgallium-26.0.5.so so:libgcc_s.so.1 so:libxcb-dri3.so.0 so:libxcb-glx.so.0 so:libxcb-present.so.0 so:libxcb-shm.so.0 so:libxcb-xfixes.so.0 so:libxcb.so.1
+t:1777570258
+c:2b8bc0fedd3128814a110b5e750aa9480c7f34fb
+D:mesa=26.0.6-r0 so:libX11-xcb.so.1 so:libX11.so.6 so:libXext.so.6 so:libXxf86vm.so.1 so:libc.musl-armv7.so.1 so:libdrm.so.2 so:libexpat.so.1 so:libgallium-26.0.6.so so:libgcc_s.so.1 so:libxcb-dri3.so.0 so:libxcb-glx.so.0 so:libxcb-present.so.0 so:libxcb-shm.so.0 so:libxcb-xfixes.so.0 so:libxcb.so.1
 p:so:libGL.so.1=1.2.0
 
-C:Q121oZ8f20HoT2zujLxZ2WxHvRKbw=
+C:Q1V8rCQ61m7SvRV07kzQX/19O4+ls=
 P:mesa-gles
-V:26.0.5-r0
+V:26.0.6-r0
 A:armv7
-S:20086
+S:20083
 I:59776
 T:Mesa libGLESv2 runtime libraries
 U:https://www.mesa3d.org
 L:MIT AND SGI-B-2.0 AND BSL-1.0
 o:mesa
 m:team/alpine-desktop <achill@achill.org>
-t:1776445247
-c:8f4df269cc044cb6f483a522c476eab53f122935
-D:mesa=26.0.5-r0 so:libc.musl-armv7.so.1 so:libgallium-26.0.5.so
+t:1777570258
+c:2b8bc0fedd3128814a110b5e750aa9480c7f34fb
+D:mesa=26.0.6-r0 so:libc.musl-armv7.so.1 so:libgallium-26.0.6.so
 p:so:libGLESv1_CM.so.1=1.1.0 so:libGLESv2.so.2=2.0.0
 
-C:Q19scrJpCwA/1thLtdfrsQJP+SibE=
+C:Q1eRwfh4nRiUJRbPVJfXNjIUytaTw=
 P:mesa-rusticl
-V:26.0.5-r0
+V:26.0.6-r0
 A:armv7
-S:8833628
+S:8835648
 I:24688490
 T:Mesa OpenCL driver
 U:https://www.mesa3d.org
 L:MIT AND SGI-B-2.0 AND BSL-1.0
 o:mesa
 m:team/alpine-desktop <achill@achill.org>
-t:1776445247
-c:8f4df269cc044cb6f483a522c476eab53f122935
-D:mesa=26.0.5-r0 clang22-headers libclc~22 so:libLLVM.so.22.1 so:libLLVMSPIRVLib.so.22.1 so:libSPIRV-Tools-link.so so:libSPIRV-Tools-opt.so so:libSPIRV-Tools.so so:libc.musl-armv7.so.1 so:libclang-cpp.so.22.1 so:libdrm.so.2 so:libdrm_amdgpu.so.1 so:libelf.so.1 so:libexpat.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
+t:1777570258
+c:2b8bc0fedd3128814a110b5e750aa9480c7f34fb
+D:mesa=26.0.6-r0 clang22-headers libclc~22 so:libLLVM.so.22.1 so:libLLVMSPIRVLib.so.22.1 so:libSPIRV-Tools-link.so so:libSPIRV-Tools-opt.so so:libSPIRV-Tools.so so:libc.musl-armv7.so.1 so:libclang-cpp.so.22.1 so:libdrm.so.2 so:libdrm_amdgpu.so.1 so:libelf.so.1 so:libexpat.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
 p:so:libRusticlOpenCL.so.1=1.0.0
 
-C:Q1x6ihnwdXVY2/TyR+Q+v6WGSF5xs=
+C:Q1JQ2y8B9wsnL+odebcxwD0jr8tGc=
 P:mesa-va-gallium
-V:26.0.5-r0
+V:26.0.6-r0
 A:armv7
-S:1718
+S:1714
 I:1
 T:Mesa gallium VAAPI drivers
 U:https://www.mesa3d.org
 L:MIT AND SGI-B-2.0 AND BSL-1.0
 o:mesa
 m:team/alpine-desktop <achill@achill.org>
-t:1776445247
-c:8f4df269cc044cb6f483a522c476eab53f122935
-D:mesa=26.0.5-r0 libva mesa=26.0.5-r0
+t:1777570258
+c:2b8bc0fedd3128814a110b5e750aa9480c7f34fb
+D:mesa=26.0.6-r0 libva mesa=26.0.6-r0
 
-C:Q1rT2yK72UxAWSwB4UNHHVnk1n9Vc=
+C:Q16A/rbXCf44DZ9Hn0LnnBSRJuQL4=
 P:mesa-vulkan-ati
-V:26.0.5-r0
+V:26.0.6-r0
 A:armv7
-S:3874455
+S:3875092
 I:14843285
 T:Mesa Vulkan API driver for ati
 U:https://www.mesa3d.org
 L:MIT AND SGI-B-2.0 AND BSL-1.0
 o:mesa
 m:team/alpine-desktop <achill@achill.org>
-t:1776445247
-c:8f4df269cc044cb6f483a522c476eab53f122935
-D:mesa=26.0.5-r0 so:libLLVM.so.22.1 so:libSPIRV-Tools.so so:libX11-xcb.so.1 so:libc.musl-armv7.so.1 so:libdisplay-info.so.3 so:libdrm.so.2 so:libdrm_amdgpu.so.1 so:libelf.so.1 so:libexpat.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libudev.so.1 so:libwayland-client.so.0 so:libxcb-dri3.so.0 so:libxcb-present.so.0 so:libxcb-randr.so.0 so:libxcb-shm.so.0 so:libxcb-sync.so.1 so:libxcb-xfixes.so.0 so:libxcb.so.1 so:libxshmfence.so.1 so:libz.so.1 so:libzstd.so.1
+t:1777570258
+c:2b8bc0fedd3128814a110b5e750aa9480c7f34fb
+D:mesa=26.0.6-r0 so:libLLVM.so.22.1 so:libSPIRV-Tools.so so:libX11-xcb.so.1 so:libc.musl-armv7.so.1 so:libdisplay-info.so.3 so:libdrm.so.2 so:libdrm_amdgpu.so.1 so:libelf.so.1 so:libexpat.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libudev.so.1 so:libwayland-client.so.0 so:libxcb-dri3.so.0 so:libxcb-present.so.0 so:libxcb-randr.so.0 so:libxcb-shm.so.0 so:libxcb-sync.so.1 so:libxcb-xfixes.so.0 so:libxcb.so.1 so:libxshmfence.so.1 so:libz.so.1 so:libzstd.so.1
 p:so:libvulkan_radeon.so=0
 
-C:Q1WRDKluQH7h4A+cRsxvydzTSJFgQ=
+C:Q1Et/PxuqTDvlRX1o5GKNIyyo7IMs=
 P:mesa-vulkan-layers
-V:26.0.5-r0
+V:26.0.6-r0
 A:armv7
-S:396616
+S:396611
 I:849544
 T:collection of vulkan layers from mesa
 U:https://www.mesa3d.org
 L:MIT AND SGI-B-2.0 AND BSL-1.0
 o:mesa
 m:team/alpine-desktop <achill@achill.org>
-t:1776445247
-c:8f4df269cc044cb6f483a522c476eab53f122935
+t:1777570258
+c:2b8bc0fedd3128814a110b5e750aa9480c7f34fb
 D:python3 so:libc.musl-armv7.so.1 so:libdrm.so.2 so:libgcc_s.so.1 so:libstdc++.so.6 so:libwayland-client.so.0 so:libxcb-dri3.so.0 so:libxcb.so.1
-p:mesa-vulkan-layer=26.0.5-r0 cmd:mesa-overlay-control.py=26.0.5-r0 so:libVkLayer_MESA_device_select.so=0 so:libVkLayer_MESA_overlay.so=0
+p:mesa-vulkan-layer=26.0.6-r0 cmd:mesa-overlay-control.py=26.0.6-r0 so:libVkLayer_MESA_device_select.so=0 so:libVkLayer_MESA_overlay.so=0
 
-C:Q1k24BBU6ORangOc6TaDaZK1BJm1g=
+C:Q15AO19AmaenzY7z1rTPUEaz5Rpzs=
 P:mesa-vulkan-swrast
-V:26.0.5-r0
+V:26.0.6-r0
 A:armv7
-S:2350119
+S:2350298
 I:11399822
 T:Mesa Vulkan API driver for swrast
 U:https://www.mesa3d.org
 L:MIT AND SGI-B-2.0 AND BSL-1.0
 o:mesa
 m:team/alpine-desktop <achill@achill.org>
-t:1776445247
-c:8f4df269cc044cb6f483a522c476eab53f122935
-D:mesa=26.0.5-r0 so:libLLVM.so.22.1 so:libSPIRV-Tools.so so:libX11-xcb.so.1 so:libc.musl-armv7.so.1 so:libdisplay-info.so.3 so:libdrm.so.2 so:libexpat.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libudev.so.1 so:libwayland-client.so.0 so:libxcb-dri3.so.0 so:libxcb-present.so.0 so:libxcb-randr.so.0 so:libxcb-shm.so.0 so:libxcb-sync.so.1 so:libxcb-xfixes.so.0 so:libxcb.so.1 so:libxshmfence.so.1 so:libz.so.1 so:libzstd.so.1
+t:1777570258
+c:2b8bc0fedd3128814a110b5e750aa9480c7f34fb
+D:mesa=26.0.6-r0 so:libLLVM.so.22.1 so:libSPIRV-Tools.so so:libX11-xcb.so.1 so:libc.musl-armv7.so.1 so:libdisplay-info.so.3 so:libdrm.so.2 so:libexpat.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libudev.so.1 so:libwayland-client.so.0 so:libxcb-dri3.so.0 so:libxcb-present.so.0 so:libxcb-randr.so.0 so:libxcb-shm.so.0 so:libxcb-sync.so.1 so:libxcb-xfixes.so.0 so:libxcb.so.1 so:libxshmfence.so.1 so:libz.so.1 so:libzstd.so.1
 p:so:libvulkan_lvp.so=0
 
 C:Q1DfYrzls+PhYKZw3KWTlf45ydfpg=
