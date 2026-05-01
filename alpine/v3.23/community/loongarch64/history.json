@@ -5936,7 +5936,8 @@
     "assimp": {
       "origin": "assimp",
       "versions": {
-        "6.0.2-r0": 1750864661
+        "6.0.2-r0": 1750864661,
+        "6.0.4-r0": 1777618725
       },
       "dependencies": [
         "so:libassimp.so.6",
@@ -5945,26 +5946,28 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:assimp=6.0.2-r0"
+        "cmd:assimp=6.0.4-r0"
       ]
     },
     "assimp-dev": {
       "origin": "assimp",
       "versions": {
-        "6.0.2-r0": 1750864661
+        "6.0.2-r0": 1750864661,
+        "6.0.4-r0": 1777618725
       },
       "dependencies": [
-        "assimp-libs=6.0.2-r0",
+        "assimp-libs=6.0.4-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:assimp=6.0.2"
+        "pc:assimp=6.0.4"
       ]
     },
     "assimp-libs": {
       "origin": "assimp",
       "versions": {
-        "6.0.2-r0": 1750864661
+        "6.0.2-r0": 1750864661,
+        "6.0.4-r0": 1777618725
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -5973,7 +5976,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libassimp.so.6=6.0.2"
+        "so:libassimp.so.6=6.0.4"
       ]
     },
     "ast-grep": {
@@ -204254,7 +204257,8 @@
     "py3-gitpython": {
       "origin": "py3-gitpython",
       "versions": {
-        "3.1.44-r0": 1749851361
+        "3.1.44-r0": 1749851361,
+        "3.1.49-r0": 1777616479
       },
       "dependencies": [
         "git",
@@ -204263,13 +204267,14 @@
         "python3~3.12"
       ],
       "provides": [
-        "py3.12:git=3.1.44-r0"
+        "py3.12:git=3.1.49-r0"
       ]
     },
     "py3-gitpython-pyc": {
       "origin": "py3-gitpython",
       "versions": {
-        "3.1.44-r0": 1749851361
+        "3.1.44-r0": 1749851361,
+        "3.1.49-r0": 1777616479
       },
       "dependencies": [
         "python3~3.12"
@@ -289098,7 +289103,7 @@
       },
       "libassimp.so.6": {
         "package": "assimp-libs",
-        "version": "6.0.2"
+        "version": "6.0.4"
       },
       "asteroid-calculator.so": {
         "package": "asteroid-calculator",
