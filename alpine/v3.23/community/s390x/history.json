@@ -40393,7 +40393,8 @@
       "versions": {
         "4.99-r0": 1761670077,
         "4.99-r1": 1765905615,
-        "4.99.1-r0": 1765995335
+        "4.99.1-r0": 1765995335,
+        "4.99.2-r0": 1777813069
       },
       "dependencies": [
         "ca-certificates",
@@ -40406,13 +40407,13 @@
         "so:libtdb.so.1"
       ],
       "provides": [
-        "cmd:exim=4.99.1-r0",
-        "cmd:mailq=4.99.1-r0",
-        "cmd:newaliases=4.99.1-r0",
-        "cmd:rmail=4.99.1-r0",
-        "cmd:rsmtp=4.99.1-r0",
-        "cmd:runq=4.99.1-r0",
-        "cmd:sendmail=4.99.1-r0"
+        "cmd:exim=4.99.2-r0",
+        "cmd:mailq=4.99.2-r0",
+        "cmd:newaliases=4.99.2-r0",
+        "cmd:rmail=4.99.2-r0",
+        "cmd:rsmtp=4.99.2-r0",
+        "cmd:runq=4.99.2-r0",
+        "cmd:sendmail=4.99.2-r0"
       ]
     },
     "exim-cdb": {
@@ -40420,10 +40421,11 @@
       "versions": {
         "4.99-r0": 1761670077,
         "4.99-r1": 1765905615,
-        "4.99.1-r0": 1765995335
+        "4.99.1-r0": 1765995335,
+        "4.99.2-r0": 1777813069
       },
       "dependencies": [
-        "exim=4.99.1-r0",
+        "exim=4.99.2-r0",
         "so:libc.musl-s390x.so.1"
       ]
     },
@@ -40432,10 +40434,11 @@
       "versions": {
         "4.99-r0": 1761670077,
         "4.99-r1": 1765905615,
-        "4.99.1-r0": 1765995335
+        "4.99.1-r0": 1765995335,
+        "4.99.2-r0": 1777813069
       },
       "dependencies": [
-        "exim=4.99.1-r0",
+        "exim=4.99.2-r0",
         "so:libc.musl-s390x.so.1"
       ]
     },
@@ -40444,10 +40447,11 @@
       "versions": {
         "4.99-r0": 1761670077,
         "4.99-r1": 1765905615,
-        "4.99.1-r0": 1765995335
+        "4.99.1-r0": 1765995335,
+        "4.99.2-r0": 1777813069
       },
       "dependencies": [
-        "exim=4.99.1-r0",
+        "exim=4.99.2-r0",
         "so:libc.musl-s390x.so.1"
       ]
     },
@@ -40456,7 +40460,8 @@
       "versions": {
         "4.99-r0": 1761670077,
         "4.99-r1": 1765905615,
-        "4.99.1-r0": 1765995335
+        "4.99.1-r0": 1765995335,
+        "4.99.2-r0": 1777813069
       }
     },
     "exim-mysql": {
@@ -40464,10 +40469,11 @@
       "versions": {
         "4.99-r0": 1761670077,
         "4.99-r1": 1765905615,
-        "4.99.1-r0": 1765995335
+        "4.99.1-r0": 1765995335,
+        "4.99.2-r0": 1777813069
       },
       "dependencies": [
-        "exim=4.99.1-r0",
+        "exim=4.99.2-r0",
         "so:libc.musl-s390x.so.1",
         "so:libmariadb.so.3"
       ]
@@ -40477,7 +40483,8 @@
       "versions": {
         "4.99-r0": 1761670077,
         "4.99-r1": 1765905615,
-        "4.99.1-r0": 1765995335
+        "4.99.1-r0": 1765995335,
+        "4.99.2-r0": 1777813069
       }
     },
     "exim-postgresql": {
@@ -40485,10 +40492,11 @@
       "versions": {
         "4.99-r0": 1761670077,
         "4.99-r1": 1765905615,
-        "4.99.1-r0": 1765995335
+        "4.99.1-r0": 1765995335,
+        "4.99.2-r0": 1777813069
       },
       "dependencies": [
-        "exim=4.99.1-r0",
+        "exim=4.99.2-r0",
         "so:libc.musl-s390x.so.1",
         "so:libpq.so.5"
       ]
@@ -40498,25 +40506,26 @@
       "versions": {
         "4.99-r0": 1761670077,
         "4.99-r1": 1765905615,
-        "4.99.1-r0": 1765995335
+        "4.99.1-r0": 1765995335,
+        "4.99.2-r0": 1777813069
       },
       "dependencies": [
-        "exim=4.99.1-r0",
+        "exim=4.99.2-r0",
         "perl",
         "perl-file-fcntllock"
       ],
       "provides": [
-        "cmd:exicyclog=4.99.1-r0",
-        "cmd:exigrep=4.99.1-r0",
-        "cmd:exim_checkaccess=4.99.1-r0",
-        "cmd:exim_id_update=4.99.1-r0",
-        "cmd:exim_msgdate=4.99.1-r0",
-        "cmd:eximstats=4.99.1-r0",
-        "cmd:exinext=4.99.1-r0",
-        "cmd:exipick=4.99.1-r0",
-        "cmd:exiqgrep=4.99.1-r0",
-        "cmd:exiqsumm=4.99.1-r0",
-        "cmd:exiwhat=4.99.1-r0"
+        "cmd:exicyclog=4.99.2-r0",
+        "cmd:exigrep=4.99.2-r0",
+        "cmd:exim_checkaccess=4.99.2-r0",
+        "cmd:exim_id_update=4.99.2-r0",
+        "cmd:exim_msgdate=4.99.2-r0",
+        "cmd:eximstats=4.99.2-r0",
+        "cmd:exinext=4.99.2-r0",
+        "cmd:exipick=4.99.2-r0",
+        "cmd:exiqgrep=4.99.2-r0",
+        "cmd:exiqsumm=4.99.2-r0",
+        "cmd:exiwhat=4.99.2-r0"
       ]
     },
     "exim-sqlite": {
@@ -40524,10 +40533,11 @@
       "versions": {
         "4.99-r0": 1761670077,
         "4.99-r1": 1765905615,
-        "4.99.1-r0": 1765995335
+        "4.99.1-r0": 1765995335,
+        "4.99.2-r0": 1777813069
       },
       "dependencies": [
-        "exim=4.99.1-r0",
+        "exim=4.99.2-r0",
         "so:libc.musl-s390x.so.1",
         "so:libsqlite3.so.0"
       ]
@@ -40537,20 +40547,21 @@
       "versions": {
         "4.99-r0": 1761670077,
         "4.99-r1": 1765905615,
-        "4.99.1-r0": 1765995335
+        "4.99.1-r0": 1765995335,
+        "4.99.2-r0": 1777813069
       },
       "dependencies": [
-        "exim=4.99.1-r0",
+        "exim=4.99.2-r0",
         "so:libc.musl-s390x.so.1",
         "so:libtdb.so.1"
       ],
       "provides": [
-        "cmd:exim_dbmbuild=4.99.1-r0",
-        "cmd:exim_dumpdb=4.99.1-r0",
-        "cmd:exim_fixdb=4.99.1-r0",
-        "cmd:exim_gencert=4.99.1-r0",
-        "cmd:exim_lock=4.99.1-r0",
-        "cmd:exim_tidydb=4.99.1-r0"
+        "cmd:exim_dbmbuild=4.99.2-r0",
+        "cmd:exim_dumpdb=4.99.2-r0",
+        "cmd:exim_fixdb=4.99.2-r0",
+        "cmd:exim_gencert=4.99.2-r0",
+        "cmd:exim_lock=4.99.2-r0",
+        "cmd:exim_tidydb=4.99.2-r0"
       ]
     },
     "exiv2": {
