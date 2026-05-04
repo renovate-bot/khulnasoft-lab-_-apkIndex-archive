@@ -60680,52 +60680,52 @@ t:1775840717
 c:f43ed43f4d329cb8cbca59b90c9560ab9e6d8f42
 i:docs gitlab-release-cli=0.24.0-r9
 
-C:Q1IvBPH8yFyEYWE57S2obLRwQYzYU=
+C:Q1m0KBSq8wKUi/JgoImg1ZK08uk34=
 P:gitlab-runner
-V:18.10.0-r1
+V:18.11.1-r0
 A:s390x
-S:31636466
-I:118015004
+S:31786423
+I:118466012
 T:GitLab runner for CI/CD jobs
 U:https://docs.gitlab.com/runner/
 L:MIT
 o:gitlab-runner
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1775840717
-c:f43ed43f4d329cb8cbca59b90c9560ab9e6d8f42
+t:1777898904
+c:ba7e31bb58bc94092c78968aadcca0531fc70613
 D:/bin/sh so:libc.musl-s390x.so.1
-p:cmd:gitlab-runner=18.10.0-r1
+p:cmd:gitlab-runner=18.11.1-r0
 
-C:Q1KNaGiCcdGm4fPF+/B5KLKgCqOSE=
+C:Q1W6crO5mbnpPlZtuBU3VbDpDfv/0=
 P:gitlab-runner-helper
-V:18.10.0-r1
+V:18.11.1-r0
 A:s390x
-S:16391963
-I:54117208
+S:15942474
+I:52640024
 T:GitLab runner for CI/CD jobs (helper)
 U:https://docs.gitlab.com/runner/
 L:MIT
 o:gitlab-runner
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1775840717
-c:f43ed43f4d329cb8cbca59b90c9560ab9e6d8f42
+t:1777898904
+c:ba7e31bb58bc94092c78968aadcca0531fc70613
 D:so:libc.musl-s390x.so.1
-p:cmd:gitlab-runner-helper=18.10.0-r1
+p:cmd:gitlab-runner-helper=18.11.1-r0
 
-C:Q12m+Yn0QszSiQoN5sA0aBC1WqI8E=
+C:Q1738MD0eBzMV1aWRTKL5xy2qIKqE=
 P:gitlab-runner-openrc
-V:18.10.0-r1
+V:18.11.1-r0
 A:s390x
-S:3018
+S:3008
 I:2844
 T:GitLab runner for CI/CD jobs (OpenRC init scripts)
 U:https://docs.gitlab.com/runner/
 L:MIT
 o:gitlab-runner
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1775840717
-c:f43ed43f4d329cb8cbca59b90c9560ab9e6d8f42
-i:openrc gitlab-runner=18.10.0-r1
+t:1777898904
+c:ba7e31bb58bc94092c78968aadcca0531fc70613
+i:openrc gitlab-runner=18.11.1-r0
 
 C:Q1L0UvxYslE8uarTWwk0egynbqI1s=
 P:gitlint
@@ -111513,51 +111513,51 @@ c:97567833139e18bfe6f349566e3325f0fc643e76
 D:so:libc.musl-s390x.so.1 so:libcrypto.so.3 so:libjansson.so.4
 p:cmd:jwk2key=3.2.1-r0 cmd:jwt-generate=3.2.1-r0 cmd:jwt-verify=3.2.1-r0 cmd:key2jwk=3.2.1-r0
 
-C:Q1YKN92tFdtZz1wNMpM/7+vq1wNgs=
+C:Q1o2nDHsTbKUhVM+0oij6DrHXJi6U=
 P:libjwt2
-V:2.1.1-r0
+V:2.1.3-r0
 A:s390x
-S:16293
+S:16300
 I:38776
 T:JWT C Library 2.x
 U:https://github.com/benmcollins/libjwt
 L:MPL-2.0
 o:libjwt2
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1746525719
-c:97db2224aed376b9d025e80ab8ffbeaa700f0ad4
+t:1777901371
+c:b5d853bc1dd96505038a8faa422f04cdfb358b7b
 D:so:libc.musl-s390x.so.1 so:libcrypto.so.3 so:libjansson.so.4
 p:so:libjwt.so.2=2.11.2
 
-C:Q1cNsTfhz9wuVROmgOQeaJGwxcZU4=
+C:Q1o11vAk/khGZVnsUTQEa2HOj45pw=
 P:libjwt2-dev
-V:2.1.1-r0
+V:2.1.3-r0
 A:s390x
-S:9059
+S:9061
 I:37815
 T:JWT C Library 2.x (development files)
 U:https://github.com/benmcollins/libjwt
 L:MPL-2.0
 o:libjwt2
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1746525719
-c:97db2224aed376b9d025e80ab8ffbeaa700f0ad4
-D:libjwt2=2.1.1-r0 pkgconfig
-p:pc:libjwt=2.1.1
+t:1777901371
+c:b5d853bc1dd96505038a8faa422f04cdfb358b7b
+D:libjwt2=2.1.3-r0 pkgconfig
+p:pc:libjwt=2.1.3
 
-C:Q1fsWLkDSv+VMWds8IwpRKsrFoZTo=
+C:Q1/SoEash/cTv01qBuM4bdojNJBHU=
 P:libjwt2-static
-V:2.1.1-r0
+V:2.1.3-r0
 A:s390x
-S:15751
+S:15753
 I:51002
 T:JWT C Library 2.x (static library)
 U:https://github.com/benmcollins/libjwt
 L:MPL-2.0
 o:libjwt2
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1746525719
-c:97db2224aed376b9d025e80ab8ffbeaa700f0ad4
+t:1777901371
+c:b5d853bc1dd96505038a8faa422f04cdfb358b7b
 
 C:Q1q7ZKqVA+KNF2VyTarmC6fW24T8g=
 P:libjxl
