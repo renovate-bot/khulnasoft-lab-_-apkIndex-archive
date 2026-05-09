@@ -6367,7 +6367,8 @@
     "aws-cli": {
       "origin": "aws-cli",
       "versions": {
-        "2.34.43-r0": 1778084405
+        "2.34.43-r0": 1778084405,
+        "2.34.45-r0": 1778323008
       },
       "dependencies": [
         "py3-awscrt",
@@ -6386,16 +6387,17 @@
         "python3~3.14"
       ],
       "provides": [
-        "aws-cli-v2=2.34.43-r0",
-        "cmd:aws=2.34.43-r0",
-        "cmd:aws_completer=2.34.43-r0",
-        "py3.14:awscli=2.34.43-r0"
+        "aws-cli-v2=2.34.45-r0",
+        "cmd:aws=2.34.45-r0",
+        "cmd:aws_completer=2.34.45-r0",
+        "py3.14:awscli=2.34.45-r0"
       ]
     },
     "aws-cli-bash-completion": {
       "origin": "aws-cli",
       "versions": {
-        "2.34.43-r0": 1778084405
+        "2.34.43-r0": 1778084405,
+        "2.34.45-r0": 1778323008
       },
       "dependencies": [
         "py3-awscrt",
@@ -6416,7 +6418,8 @@
     "aws-cli-doc": {
       "origin": "aws-cli",
       "versions": {
-        "2.34.43-r0": 1778084405
+        "2.34.43-r0": 1778084405,
+        "2.34.45-r0": 1778323008
       },
       "dependencies": [
         "python3~3.14"
@@ -6425,7 +6428,8 @@
     "aws-cli-pyc": {
       "origin": "aws-cli",
       "versions": {
-        "2.34.43-r0": 1778084405
+        "2.34.43-r0": 1778084405,
+        "2.34.45-r0": 1778323008
       },
       "dependencies": [
         "python3~3.14"
@@ -6434,7 +6438,8 @@
     "aws-cli-zsh-completion": {
       "origin": "aws-cli",
       "versions": {
-        "2.34.43-r0": 1778084405
+        "2.34.43-r0": 1778084405,
+        "2.34.45-r0": 1778323008
       },
       "dependencies": [
         "py3-awscrt",
@@ -6455,7 +6460,8 @@
     "aws-crt-cpp": {
       "origin": "aws-crt-cpp",
       "versions": {
-        "0.38.6-r0": 1777471632
+        "0.38.6-r0": 1777471632,
+        "0.38.7-r0": 1778323007
       },
       "dependencies": [
         "so:libaws-c-auth.so.1.0.0",
@@ -6479,10 +6485,11 @@
     "aws-crt-cpp-dev": {
       "origin": "aws-crt-cpp",
       "versions": {
-        "0.38.6-r0": 1777471632
+        "0.38.6-r0": 1777471632,
+        "0.38.7-r0": 1778323007
       },
       "dependencies": [
-        "aws-crt-cpp=0.38.6-r0",
+        "aws-crt-cpp=0.38.7-r0",
         "aws-c-auth-dev",
         "aws-c-cal-dev",
         "aws-c-common-dev",
@@ -18063,14 +18070,15 @@
     "busctl": {
       "origin": "elogind",
       "versions": {
-        "255.22-r2": 1775838798
+        "255.22-r2": 1775838798,
+        "255.24-r0": 1778324317
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
-        "so:libelogind-shared-255.so"
+        "so:libelogind-shared-255.24.so"
       ],
       "provides": [
-        "cmd:busctl=255.22-r2"
+        "cmd:busctl=255.24-r0"
       ]
     },
     "bvi": {
@@ -23011,7 +23019,8 @@
     "chatty": {
       "origin": "chatty",
       "versions": {
-        "0.8.9-r5": 1776970187
+        "0.8.9-r5": 1776970187,
+        "0.8.9-r6": 1778323874
       },
       "dependencies": [
         "cyrus-sasl",
@@ -23047,35 +23056,39 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:chatty=0.8.9-r5"
+        "cmd:chatty=0.8.9-r6"
       ]
     },
     "chatty-bash-completion": {
       "origin": "chatty",
       "versions": {
-        "0.8.9-r5": 1776970187
+        "0.8.9-r5": 1776970187,
+        "0.8.9-r6": 1778323874
       }
     },
     "chatty-dbg": {
       "origin": "chatty",
       "versions": {
-        "0.8.9-r5": 1776970187
+        "0.8.9-r5": 1776970187,
+        "0.8.9-r6": 1778323874
       },
       "dependencies": [
-        "!chatty<0.8.9-r5",
-        "!chatty>0.8.9-r5"
+        "!chatty<0.8.9-r6",
+        "!chatty>0.8.9-r6"
       ]
     },
     "chatty-lang": {
       "origin": "chatty",
       "versions": {
-        "0.8.9-r5": 1776970187
+        "0.8.9-r5": 1776970187,
+        "0.8.9-r6": 1778323874
       }
     },
     "chatty-systemd": {
       "origin": "chatty",
       "versions": {
-        "0.8.9-r5": 1776970187
+        "0.8.9-r5": 1776970187,
+        "0.8.9-r6": 1778323874
       }
     },
     "chayang": {
@@ -36289,33 +36302,36 @@
     "elogind": {
       "origin": "elogind",
       "versions": {
-        "255.22-r2": 1775838798
+        "255.22-r2": 1775838798,
+        "255.24-r0": 1778324317
       },
       "dependencies": [
         "dbus",
         "shadow",
-        "busctl=255.22-r2",
+        "busctl=255.24-r0",
         "so:libc.musl-s390x.so.1",
         "so:libcap.so.2",
-        "so:libelogind-shared-255.so",
+        "so:libelogind-shared-255.24.so",
         "so:libpam.so.0",
         "so:libpam_misc.so.0"
       ],
       "provides": [
-        "cmd:elogind-inhibit=255.22-r2",
-        "cmd:loginctl=255.22-r2"
+        "cmd:elogind-inhibit=255.24-r0",
+        "cmd:loginctl=255.24-r0"
       ]
     },
     "elogind-bash-completion": {
       "origin": "elogind",
       "versions": {
-        "255.22-r2": 1775838798
+        "255.22-r2": 1775838798,
+        "255.24-r0": 1778324317
       }
     },
     "elogind-common": {
       "origin": "elogind",
       "versions": {
-        "255.22-r2": 1775838798
+        "255.22-r2": 1775838798,
+        "255.24-r0": 1778324317
       },
       "dependencies": [
         "so:libacl.so.1",
@@ -36325,46 +36341,51 @@
         "so:libpam.so.0"
       ],
       "provides": [
-        "so:libelogind-shared-255.so=0"
+        "so:libelogind-shared-255.24.so=0"
       ]
     },
     "elogind-dev": {
       "origin": "elogind",
       "versions": {
-        "255.22-r2": 1775838798
+        "255.22-r2": 1775838798,
+        "255.24-r0": 1778324317
       },
       "dependencies": [
-        "libelogind=255.22-r2",
+        "libelogind=255.24-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libelogind=255",
-        "pc:libsystemd-logind=255",
-        "pc:libsystemd=255"
+        "pc:libelogind=255.24",
+        "pc:libsystemd-logind=255.24",
+        "pc:libsystemd=255.24"
       ]
     },
     "elogind-doc": {
       "origin": "elogind",
       "versions": {
-        "255.22-r2": 1775838798
+        "255.22-r2": 1775838798,
+        "255.24-r0": 1778324317
       }
     },
     "elogind-lang": {
       "origin": "elogind",
       "versions": {
-        "255.22-r2": 1775838798
+        "255.22-r2": 1775838798,
+        "255.24-r0": 1778324317
       }
     },
     "elogind-openrc": {
       "origin": "elogind",
       "versions": {
-        "255.22-r2": 1775838798
+        "255.22-r2": 1775838798,
+        "255.24-r0": 1778324317
       }
     },
     "elogind-zsh-completion": {
       "origin": "elogind",
       "versions": {
-        "255.22-r2": 1775838798
+        "255.22-r2": 1775838798,
+        "255.24-r0": 1778324317
       }
     },
     "eltclsh": {
@@ -39115,7 +39136,8 @@
     "evolution-data-server": {
       "origin": "evolution-data-server",
       "versions": {
-        "3.60.1-r2": 1776970187
+        "3.60.1-r2": 1776970187,
+        "3.60.1-r3": 1778323874
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -39173,12 +39195,13 @@
     "evolution-data-server-dev": {
       "origin": "evolution-data-server",
       "versions": {
-        "3.60.1-r2": 1776970187
+        "3.60.1-r2": 1776970187,
+        "3.60.1-r3": 1778323874
       },
       "dependencies": [
         "gcr-dev",
         "icu-dev",
-        "evolution-data-server=3.60.1-r2",
+        "evolution-data-server=3.60.1-r3",
         "pc:gio-2.0",
         "pc:gmodule-2.0",
         "pc:gtk+-3.0",
@@ -39207,13 +39230,15 @@
     "evolution-data-server-lang": {
       "origin": "evolution-data-server",
       "versions": {
-        "3.60.1-r2": 1776970187
+        "3.60.1-r2": 1776970187,
+        "3.60.1-r3": 1778323874
       }
     },
     "evolution-data-server-systemd": {
       "origin": "evolution-data-server",
       "versions": {
-        "3.60.1-r2": 1776970187
+        "3.60.1-r2": 1776970187,
+        "3.60.1-r3": 1778323874
       }
     },
     "evolution-dev": {
@@ -46574,7 +46599,8 @@
     "forgejo-runner": {
       "origin": "forgejo-runner",
       "versions": {
-        "12.9.0-r0": 1776861447
+        "12.9.0-r0": 1776861447,
+        "12.10.1-r0": 1778323008
       },
       "dependencies": [
         "git",
@@ -46582,19 +46608,21 @@
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:forgejo-runner=12.9.0-r0"
+        "cmd:forgejo-runner=12.10.1-r0"
       ]
     },
     "forgejo-runner-openrc": {
       "origin": "forgejo-runner",
       "versions": {
-        "12.9.0-r0": 1776861447
+        "12.9.0-r0": 1776861447,
+        "12.10.1-r0": 1778323008
       }
     },
     "forgejo-runner-systemd": {
       "origin": "forgejo-runner",
       "versions": {
-        "12.9.0-r0": 1776861447
+        "12.9.0-r0": 1776861447,
+        "12.10.1-r0": 1778323008
       }
     },
     "forgejo-systemd": {
@@ -70407,7 +70435,8 @@
     "gtk4.0": {
       "origin": "gtk4.0",
       "versions": {
-        "4.22.2-r0": 1775470395
+        "4.22.2-r0": 1775470395,
+        "4.22.4-r0": 1778324507
       },
       "dependencies": [
         "gtk-update-icon-cache",
@@ -70456,32 +70485,34 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:gtk4-broadwayd=4.22.2-r0",
-        "cmd:gtk4-image-tool=4.22.2-r0",
-        "cmd:gtk4-launch=4.22.2-r0",
-        "cmd:gtk4-path-tool=4.22.2-r0",
-        "cmd:gtk4-rendernode-tool=4.22.2-r0",
-        "so:libgtk-4.so.1=1.2200.2"
+        "cmd:gtk4-broadwayd=4.22.4-r0",
+        "cmd:gtk4-image-tool=4.22.4-r0",
+        "cmd:gtk4-launch=4.22.4-r0",
+        "cmd:gtk4-path-tool=4.22.4-r0",
+        "cmd:gtk4-rendernode-tool=4.22.4-r0",
+        "so:libgtk-4.so.1=1.2200.4"
       ]
     },
     "gtk4.0-dbg": {
       "origin": "gtk4.0",
       "versions": {
-        "4.22.2-r0": 1775470395
+        "4.22.2-r0": 1775470395,
+        "4.22.4-r0": 1778324507
       },
       "dependencies": [
-        "!gtk4.0-demo<4.22.2-r0",
-        "!gtk4.0-demo>4.22.2-r0",
-        "!gtk4.0-dev<4.22.2-r0",
-        "!gtk4.0-dev>4.22.2-r0",
-        "!gtk4.0<4.22.2-r0",
-        "!gtk4.0>4.22.2-r0"
+        "!gtk4.0-demo<4.22.4-r0",
+        "!gtk4.0-demo>4.22.4-r0",
+        "!gtk4.0-dev<4.22.4-r0",
+        "!gtk4.0-dev>4.22.4-r0",
+        "!gtk4.0<4.22.4-r0",
+        "!gtk4.0>4.22.4-r0"
       ]
     },
     "gtk4.0-demo": {
       "origin": "gtk4.0",
       "versions": {
-        "4.22.2-r0": 1775470395
+        "4.22.2-r0": 1775470395,
+        "4.22.4-r0": 1778324507
       },
       "dependencies": [
         "gtk-update-icon-cache",
@@ -70531,18 +70562,19 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:gtk4-demo-application=4.22.2-r0",
-        "cmd:gtk4-demo=4.22.2-r0",
-        "cmd:gtk4-icon-editor=4.22.2-r0",
-        "cmd:gtk4-node-editor=4.22.2-r0",
-        "cmd:gtk4-print-editor=4.22.2-r0",
-        "cmd:gtk4-widget-factory=4.22.2-r0"
+        "cmd:gtk4-demo-application=4.22.4-r0",
+        "cmd:gtk4-demo=4.22.4-r0",
+        "cmd:gtk4-icon-editor=4.22.4-r0",
+        "cmd:gtk4-node-editor=4.22.4-r0",
+        "cmd:gtk4-print-editor=4.22.4-r0",
+        "cmd:gtk4-widget-factory=4.22.4-r0"
       ]
     },
     "gtk4.0-dev": {
       "origin": "gtk4.0",
       "versions": {
-        "4.22.2-r0": 1775470395
+        "4.22.2-r0": 1775470395,
+        "4.22.4-r0": 1778324507
       },
       "dependencies": [
         "at-spi2-core-dev",
@@ -70556,7 +70588,7 @@
         "vulkan-headers",
         "wayland-dev",
         "wayland-protocols",
-        "gtk4.0=4.22.2-r0",
+        "gtk4.0=4.22.4-r0",
         "pc:cairo-gobject>=1.18.2",
         "pc:cairo>=1.18.2",
         "pc:gdk-pixbuf-2.0>=2.30.0",
@@ -70611,27 +70643,29 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:gtk4-builder-tool=4.22.2-r0",
-        "cmd:gtk4-encode-symbolic-svg=4.22.2-r0",
-        "cmd:gtk4-query-settings=4.22.2-r0",
-        "pc:gtk4-atspi=4.22.2",
-        "pc:gtk4-broadway=4.22.2",
-        "pc:gtk4-unix-print=4.22.2",
-        "pc:gtk4-wayland=4.22.2",
-        "pc:gtk4-x11=4.22.2",
-        "pc:gtk4=4.22.2"
+        "cmd:gtk4-builder-tool=4.22.4-r0",
+        "cmd:gtk4-encode-symbolic-svg=4.22.4-r0",
+        "cmd:gtk4-query-settings=4.22.4-r0",
+        "pc:gtk4-atspi=4.22.4",
+        "pc:gtk4-broadway=4.22.4",
+        "pc:gtk4-unix-print=4.22.4",
+        "pc:gtk4-wayland=4.22.4",
+        "pc:gtk4-x11=4.22.4",
+        "pc:gtk4=4.22.4"
       ]
     },
     "gtk4.0-doc": {
       "origin": "gtk4.0",
       "versions": {
-        "4.22.2-r0": 1775470395
+        "4.22.2-r0": 1775470395,
+        "4.22.4-r0": 1778324507
       }
     },
     "gtk4.0-lang": {
       "origin": "gtk4.0",
       "versions": {
-        "4.22.2-r0": 1775470395
+        "4.22.2-r0": 1775470395,
+        "4.22.4-r0": 1778324507
       }
     },
     "gtkmm3": {
@@ -87970,7 +88004,8 @@
     "kitinerary": {
       "origin": "kitinerary",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.0-r1": 1778323874
       },
       "dependencies": [
         "so:libKF6Archive.so.6",
@@ -88002,7 +88037,8 @@
     "kitinerary-dev": {
       "origin": "kitinerary",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.0-r1": 1778323874
       },
       "dependencies": [
         "kcalendarcore-dev",
@@ -88011,13 +88047,14 @@
         "kpkpass-dev",
         "libphonenumber-dev",
         "zxing-cpp-dev",
-        "kitinerary=26.04.0-r0"
+        "kitinerary=26.04.0-r1"
       ]
     },
     "kitinerary-lang": {
       "origin": "kitinerary",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.0-r1": 1778323874
       }
     },
     "kitty": {
@@ -99619,7 +99656,8 @@
     "libelogind": {
       "origin": "elogind",
       "versions": {
-        "255.22-r2": 1775838798
+        "255.22-r2": 1775838798,
+        "255.24-r0": 1778324317
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -101180,7 +101218,8 @@
     "libgeocoding": {
       "origin": "libphonenumber",
       "versions": {
-        "9.0.29-r0": 1776970187
+        "9.0.29-r0": 1776970187,
+        "9.0.30-r0": 1778323874
       },
       "dependencies": [
         "so:libabsl_synchronization.so.2508.0.0",
@@ -102171,7 +102210,8 @@
     "libgsf": {
       "origin": "libgsf",
       "versions": {
-        "1.14.56-r0": 1773733910
+        "1.14.56-r0": 1773733910,
+        "1.14.58-r0": 1778324705
       },
       "dependencies": [
         "so:libbz2.so.1",
@@ -102184,38 +102224,41 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:gsf-vba-dump=1.14.56-r0",
-        "cmd:gsf=1.14.56-r0",
-        "so:libgsf-1.so.114=114.0.56"
+        "cmd:gsf-vba-dump=1.14.58-r0",
+        "cmd:gsf=1.14.58-r0",
+        "so:libgsf-1.so.114=114.0.58"
       ]
     },
     "libgsf-dev": {
       "origin": "libgsf",
       "versions": {
-        "1.14.56-r0": 1773733910
+        "1.14.56-r0": 1773733910,
+        "1.14.58-r0": 1778324705
       },
       "dependencies": [
         "bzip2-dev",
-        "libgsf=1.14.56-r0",
+        "libgsf=1.14.58-r0",
         "pc:glib-2.0",
         "pc:gobject-2.0",
         "pc:libxml-2.0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libgsf-1=1.14.56"
+        "pc:libgsf-1=1.14.58"
       ]
     },
     "libgsf-doc": {
       "origin": "libgsf",
       "versions": {
-        "1.14.56-r0": 1773733910
+        "1.14.56-r0": 1773733910,
+        "1.14.58-r0": 1778324705
       }
     },
     "libgsf-lang": {
       "origin": "libgsf",
       "versions": {
-        "1.14.56-r0": 1773733910
+        "1.14.56-r0": 1773733910,
+        "1.14.58-r0": 1778324705
       }
     },
     "libgss": {
@@ -108656,7 +108699,8 @@
     "libphonenumber": {
       "origin": "libphonenumber",
       "versions": {
-        "9.0.29-r0": 1776970187
+        "9.0.29-r0": 1776970187,
+        "9.0.30-r0": 1778323874
       },
       "dependencies": [
         "so:libabsl_hash.so.2508.0.0",
@@ -108680,21 +108724,23 @@
     "libphonenumber-dev": {
       "origin": "libphonenumber",
       "versions": {
-        "9.0.29-r0": 1776970187
+        "9.0.29-r0": 1776970187,
+        "9.0.30-r0": 1778323874
       },
       "dependencies": [
         "libphonenumber-static",
         "abseil-cpp-dev",
         "icu-dev",
         "protobuf-dev",
-        "libgeocoding=9.0.29-r0",
-        "libphonenumber=9.0.29-r0"
+        "libgeocoding=9.0.30-r0",
+        "libphonenumber=9.0.30-r0"
       ]
     },
     "libphonenumber-static": {
       "origin": "libphonenumber",
       "versions": {
-        "9.0.29-r0": 1776970187
+        "9.0.29-r0": 1776970187,
+        "9.0.30-r0": 1778323874
       },
       "dependencies": [
         "libphonenumber-dev"
@@ -113196,7 +113242,8 @@
     "libtinysparql": {
       "origin": "tinysparql",
       "versions": {
-        "3.11.0-r2": 1777534838
+        "3.11.0-r2": 1777534838,
+        "3.11.1-r0": 1778323874
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -113210,8 +113257,8 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "libtracker=3.11.0-r2",
-        "so:libtinysparql-3.0.so.0=0.1100.0"
+        "libtracker=3.11.1-r0",
+        "so:libtinysparql-3.0.so.0=0.1101.0"
       ]
     },
     "libtommath": {
@@ -119698,7 +119745,8 @@
     "lua-luaphonenumber": {
       "origin": "lua-luaphonenumber",
       "versions": {
-        "1.0.1-r53": 1776970187
+        "1.0.1-r53": 1776970187,
+        "1.0.1-r54": 1778323874
       },
       "dependencies": [
         "libphonenumber"
@@ -120332,7 +120380,8 @@
     "lua5.1-luaphonenumber": {
       "origin": "lua-luaphonenumber",
       "versions": {
-        "1.0.1-r53": 1776970187
+        "1.0.1-r53": 1776970187,
+        "1.0.1-r54": 1778323874
       },
       "dependencies": [
         "lua5.1",
@@ -120903,7 +120952,8 @@
     "lua5.2-luaphonenumber": {
       "origin": "lua-luaphonenumber",
       "versions": {
-        "1.0.1-r53": 1776970187
+        "1.0.1-r53": 1776970187,
+        "1.0.1-r54": 1778323874
       },
       "dependencies": [
         "lua5.2",
@@ -121446,7 +121496,8 @@
     "lua5.3-luaphonenumber": {
       "origin": "lua-luaphonenumber",
       "versions": {
-        "1.0.1-r53": 1776970187
+        "1.0.1-r53": 1776970187,
+        "1.0.1-r54": 1778323874
       },
       "dependencies": [
         "lua5.3",
@@ -121926,7 +121977,8 @@
     "lua5.4-luaphonenumber": {
       "origin": "lua-luaphonenumber",
       "versions": {
-        "1.0.1-r53": 1776970187
+        "1.0.1-r53": 1776970187,
+        "1.0.1-r54": 1778323874
       },
       "dependencies": [
         "lua5.4",
@@ -122186,7 +122238,8 @@
     "lua5.5-luaphonenumber": {
       "origin": "lua-luaphonenumber",
       "versions": {
-        "1.0.1-r53": 1776970187
+        "1.0.1-r53": 1776970187,
+        "1.0.1-r54": 1778323874
       },
       "dependencies": [
         "lua5.5",
@@ -129661,7 +129714,8 @@
     "mmsd-tng": {
       "origin": "mmsd-tng",
       "versions": {
-        "2.6.4-r22": 1776970187
+        "2.6.4-r22": 1776970187,
+        "2.6.4-r23": 1778323874
       },
       "dependencies": [
         "mobile-broadband-provider-info",
@@ -129679,27 +129733,30 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "mmsd=2.6.4-r22",
-        "cmd:mmsctl=2.6.4-r22",
-        "cmd:mmsdtng=2.6.4-r22"
+        "mmsd=2.6.4-r23",
+        "cmd:mmsctl=2.6.4-r23",
+        "cmd:mmsdtng=2.6.4-r23"
       ]
     },
     "mmsd-tng-openrc": {
       "origin": "mmsd-tng",
       "versions": {
-        "2.6.4-r22": 1776970187
+        "2.6.4-r22": 1776970187,
+        "2.6.4-r23": 1778323874
       }
     },
     "mmsd-tng-systemd": {
       "origin": "mmsd-tng",
       "versions": {
-        "2.6.4-r22": 1776970187
+        "2.6.4-r22": 1776970187,
+        "2.6.4-r23": 1778323874
       }
     },
     "mmsd-tng-tools": {
       "origin": "mmsd-tng",
       "versions": {
-        "2.6.4-r22": 1776970187
+        "2.6.4-r22": 1776970187,
+        "2.6.4-r23": 1778323874
       },
       "dependencies": [
         "mobile-broadband-provider-info",
@@ -129707,8 +129764,8 @@
         "so:libglib-2.0.so.0"
       ],
       "provides": [
-        "cmd:create-hex-array=2.6.4-r22",
-        "cmd:decode-mms=2.6.4-r22"
+        "cmd:create-hex-array=2.6.4-r23",
+        "cmd:decode-mms=2.6.4-r23"
       ]
     },
     "mmtc": {
@@ -184127,7 +184184,8 @@
     "pipeline": {
       "origin": "pipeline",
       "versions": {
-        "4.0.1-r0": 1777471633
+        "4.0.1-r0": 1777471633,
+        "4.0.2-r0": 1778323008
       },
       "dependencies": [
         "clapper-enhancers",
@@ -184150,19 +184208,21 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:tubefeeder=4.0.1-r0"
+        "cmd:tubefeeder=4.0.2-r0"
       ]
     },
     "pipeline-doc": {
       "origin": "pipeline",
       "versions": {
-        "4.0.1-r0": 1777471633
+        "4.0.1-r0": 1777471633,
+        "4.0.2-r0": 1778323008
       }
     },
     "pipeline-lang": {
       "origin": "pipeline",
       "versions": {
-        "4.0.1-r0": 1777471633
+        "4.0.1-r0": 1777471633,
+        "4.0.2-r0": 1778323008
       }
     },
     "piper": {
@@ -184700,7 +184760,8 @@
     "pipx": {
       "origin": "pipx",
       "versions": {
-        "1.11.1-r0": 1775378632
+        "1.11.1-r0": 1775378632,
+        "1.12.0-r0": 1778323008
       },
       "dependencies": [
         "py3-argcomplete",
@@ -184711,14 +184772,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:pipx=1.11.1-r0",
-        "py3.14:pipx=1.11.1-r0"
+        "cmd:pipx=1.12.0-r0",
+        "py3.14:pipx=1.12.0-r0"
       ]
     },
     "pipx-pyc": {
       "origin": "pipx",
       "versions": {
-        "1.11.1-r0": 1775378632
+        "1.11.1-r0": 1775378632,
+        "1.12.0-r0": 1778323008
       },
       "dependencies": [
         "python3~3.14"
@@ -185140,7 +185202,8 @@
     "plasma-dialer": {
       "origin": "plasma-dialer",
       "versions": {
-        "6.6.4-r2": 1776970187
+        "6.6.4-r2": 1776970187,
+        "6.6.4-r3": 1778323874
       },
       "dependencies": [
         "kirigami-addons",
@@ -185176,14 +185239,15 @@
         "so:libwayland-client.so.0"
       ],
       "provides": [
-        "cmd:plasma-dialer-fakeserver=6.6.4-r2",
-        "cmd:plasma-dialer=6.6.4-r2"
+        "cmd:plasma-dialer-fakeserver=6.6.4-r3",
+        "cmd:plasma-dialer=6.6.4-r3"
       ]
     },
     "plasma-dialer-lang": {
       "origin": "plasma-dialer",
       "versions": {
-        "6.6.4-r2": 1776970187
+        "6.6.4-r2": 1776970187,
+        "6.6.4-r3": 1778323874
       }
     },
     "plasma-disks": {
@@ -186877,7 +186941,8 @@
     "pn": {
       "origin": "pn",
       "versions": {
-        "0.9.0-r45": 1776970187
+        "0.9.0-r45": 1776970187,
+        "0.9.0-r46": 1778323874
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -186888,19 +186953,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:pn=0.9.0-r45"
+        "cmd:pn=0.9.0-r46"
       ]
     },
     "pn-doc": {
       "origin": "pn",
       "versions": {
-        "0.9.0-r45": 1776970187
+        "0.9.0-r45": 1776970187,
+        "0.9.0-r46": 1778323874
       }
     },
     "pn-gawk": {
       "origin": "pn",
       "versions": {
-        "0.9.0-r45": 1776970187
+        "0.9.0-r45": 1776970187,
+        "0.9.0-r46": 1778323874
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -186914,7 +186981,8 @@
     "pnc": {
       "origin": "pnc",
       "versions": {
-        "0.9.5-r29": 1776970187
+        "0.9.5-r29": 1776970187,
+        "0.9.5-r30": 1778323874
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -186925,19 +186993,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:pnc=0.9.5-r29"
+        "cmd:pnc=0.9.5-r30"
       ]
     },
     "pnc-doc": {
       "origin": "pnc",
       "versions": {
-        "0.9.5-r29": 1776970187
+        "0.9.5-r29": 1776970187,
+        "0.9.5-r30": 1778323874
       }
     },
     "pnc-gawk": {
       "origin": "pnc",
       "versions": {
-        "0.9.5-r29": 1776970187
+        "0.9.5-r29": 1776970187,
+        "0.9.5-r30": 1778323874
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -200922,7 +200992,8 @@
     "py3-findpython": {
       "origin": "py3-findpython",
       "versions": {
-        "0.7.1-r2": 1776344998
+        "0.7.1-r2": 1776344998,
+        "0.8.0-r0": 1778323008
       },
       "dependencies": [
         "py3-packaging",
@@ -200930,14 +201001,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:findpython=0.7.1-r2",
-        "py3.14:findpython=0.7.1-r2"
+        "cmd:findpython=0.8.0-r0",
+        "py3.14:findpython=0.8.0-r0"
       ]
     },
     "py3-findpython-pyc": {
       "origin": "py3-findpython",
       "versions": {
-        "0.7.1-r2": 1776344998
+        "0.7.1-r2": 1776344998,
+        "0.8.0-r0": 1778323008
       },
       "dependencies": [
         "python3~3.14"
@@ -208580,20 +208652,22 @@
     "py3-mistune": {
       "origin": "py3-mistune",
       "versions": {
-        "3.2.0-r1": 1774640414
+        "3.2.0-r1": 1774640414,
+        "3.2.1-r0": 1778323008
       },
       "dependencies": [
         "python3",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:mistune=3.2.0-r1"
+        "py3.14:mistune=3.2.1-r0"
       ]
     },
     "py3-mistune-pyc": {
       "origin": "py3-mistune",
       "versions": {
-        "3.2.0-r1": 1774640414
+        "3.2.0-r1": 1774640414,
+        "3.2.1-r0": 1778323008
       },
       "dependencies": [
         "python3~3.14"
@@ -212110,21 +212184,23 @@
     "py3-phonenumbers": {
       "origin": "py3-phonenumbers",
       "versions": {
-        "9.0.29-r0": 1777225042
+        "9.0.29-r0": 1777225042,
+        "9.0.30-r0": 1778323874
       },
       "dependencies": [
         "python3",
         "python3~3.14"
       ],
       "provides": [
-        "py-phonenumbers=9.0.29-r0",
-        "py3.14:phonenumbers=9.0.29-r0"
+        "py-phonenumbers=9.0.30-r0",
+        "py3.14:phonenumbers=9.0.30-r0"
       ]
     },
     "py3-phonenumbers-pyc": {
       "origin": "py3-phonenumbers",
       "versions": {
-        "9.0.29-r0": 1777225042
+        "9.0.29-r0": 1777225042,
+        "9.0.30-r0": 1778323874
       },
       "dependencies": [
         "python3~3.14"
@@ -213128,7 +213204,8 @@
     "py3-propcache": {
       "origin": "py3-propcache",
       "versions": {
-        "0.4.1-r1": 1774640361
+        "0.4.1-r1": 1774640361,
+        "0.5.2-r0": 1778323873
       },
       "dependencies": [
         "py3-expandvars",
@@ -213137,13 +213214,14 @@
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "py3.14:propcache=0.4.1-r1"
+        "py3.14:propcache=0.5.2-r0"
       ]
     },
     "py3-propcache-pyc": {
       "origin": "py3-propcache",
       "versions": {
-        "0.4.1-r1": 1774640361
+        "0.4.1-r1": 1774640361,
+        "0.5.2-r0": 1778323873
       },
       "dependencies": [
         "python3~3.14"
@@ -236942,7 +237020,8 @@
     "redis": {
       "origin": "redis",
       "versions": {
-        "8.6.2-r0": 1774392557
+        "8.6.2-r0": 1774392557,
+        "8.6.3-r0": 1778323873
       },
       "dependencies": [
         "/bin/sh",
@@ -236952,18 +237031,19 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:redis-benchmark=8.6.2-r0",
-        "cmd:redis-check-aof=8.6.2-r0",
-        "cmd:redis-check-rdb=8.6.2-r0",
-        "cmd:redis-cli=8.6.2-r0",
-        "cmd:redis-sentinel=8.6.2-r0",
-        "cmd:redis-server=8.6.2-r0"
+        "cmd:redis-benchmark=8.6.3-r0",
+        "cmd:redis-check-aof=8.6.3-r0",
+        "cmd:redis-check-rdb=8.6.3-r0",
+        "cmd:redis-cli=8.6.3-r0",
+        "cmd:redis-sentinel=8.6.3-r0",
+        "cmd:redis-server=8.6.3-r0"
       ]
     },
     "redis-openrc": {
       "origin": "redis",
       "versions": {
-        "8.6.2-r0": 1774392557
+        "8.6.2-r0": 1774392557,
+        "8.6.3-r0": 1778323873
       }
     },
     "redland": {
@@ -241441,7 +241521,8 @@
     "s2n-tls": {
       "origin": "s2n-tls",
       "versions": {
-        "1.7.2-r0": 1775378633
+        "1.7.2-r0": 1775378633,
+        "1.7.3-r0": 1778323874
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -241454,11 +241535,12 @@
     "s2n-tls-dev": {
       "origin": "s2n-tls",
       "versions": {
-        "1.7.2-r0": 1775378633
+        "1.7.2-r0": 1775378633,
+        "1.7.3-r0": 1778323874
       },
       "dependencies": [
         "openssl-dev",
-        "s2n-tls=1.7.2-r0"
+        "s2n-tls=1.7.3-r0"
       ]
     },
     "s3cmd": {
@@ -249185,7 +249267,8 @@
     "spacebar": {
       "origin": "spacebar",
       "versions": {
-        "6.6.4-r2": 1776970187
+        "6.6.4-r2": 1776970187,
+        "6.6.4-r3": 1778323874
       },
       "dependencies": [
         "kirigami",
@@ -249220,14 +249303,15 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:spacebar-fakeserver=6.6.4-r2",
-        "cmd:spacebar=6.6.4-r2"
+        "cmd:spacebar-fakeserver=6.6.4-r3",
+        "cmd:spacebar=6.6.4-r3"
       ]
     },
     "spacebar-lang": {
       "origin": "spacebar",
       "versions": {
-        "6.6.4-r2": 1776970187
+        "6.6.4-r2": 1776970187,
+        "6.6.4-r3": 1778323874
       }
     },
     "spacefm": {
@@ -258288,7 +258372,8 @@
     "tinysparql": {
       "origin": "tinysparql",
       "versions": {
-        "3.11.0-r2": 1777534838
+        "3.11.0-r2": 1777534838,
+        "3.11.1-r0": 1778323874
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -258307,8 +258392,8 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "tracker=3.11.0-r2",
-        "cmd:tinysparql=3.11.0-r2",
+        "tracker=3.11.1-r0",
+        "cmd:tinysparql=3.11.1-r0",
         "so:libtracker-http-soup3.so=0",
         "so:libtracker-parser-libicu.so=0"
       ]
@@ -258316,28 +258401,31 @@
     "tinysparql-bash-completion": {
       "origin": "tinysparql",
       "versions": {
-        "3.11.0-r2": 1777534838
+        "3.11.0-r2": 1777534838,
+        "3.11.1-r0": 1778323874
       }
     },
     "tinysparql-dbg": {
       "origin": "tinysparql",
       "versions": {
-        "3.11.0-r2": 1777534838
+        "3.11.0-r2": 1777534838,
+        "3.11.1-r0": 1778323874
       },
       "dependencies": [
-        "!libtinysparql<3.11.0-r2",
-        "!libtinysparql>3.11.0-r2",
-        "!tinysparql<3.11.0-r2",
-        "!tinysparql>3.11.0-r2"
+        "!libtinysparql<3.11.1-r0",
+        "!libtinysparql>3.11.1-r0",
+        "!tinysparql<3.11.1-r0",
+        "!tinysparql>3.11.1-r0"
       ]
     },
     "tinysparql-dev": {
       "origin": "tinysparql",
       "versions": {
-        "3.11.0-r2": 1777534838
+        "3.11.0-r2": 1777534838,
+        "3.11.1-r0": 1778323874
       },
       "dependencies": [
-        "libtinysparql=3.11.0-r2",
+        "libtinysparql=3.11.1-r0",
         "pc:gio-2.0>2.52.0",
         "pc:gio-unix-2.0>2.52.0",
         "pc:glib-2.0>2.52.0",
@@ -258349,26 +258437,29 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:tinysparql-3.0=3.11.0",
-        "pc:tracker-sparql-3.0=3.11.0"
+        "pc:tinysparql-3.0=3.11.1",
+        "pc:tracker-sparql-3.0=3.11.1"
       ]
     },
     "tinysparql-doc": {
       "origin": "tinysparql",
       "versions": {
-        "3.11.0-r2": 1777534838
+        "3.11.0-r2": 1777534838,
+        "3.11.1-r0": 1778323874
       }
     },
     "tinysparql-lang": {
       "origin": "tinysparql",
       "versions": {
-        "3.11.0-r2": 1777534838
+        "3.11.0-r2": 1777534838,
+        "3.11.1-r0": 1778323874
       }
     },
     "tinysparql-systemd": {
       "origin": "tinysparql",
       "versions": {
-        "3.11.0-r2": 1777534838
+        "3.11.0-r2": 1777534838,
+        "3.11.1-r0": 1778323874
       }
     },
     "tinyssh": {
@@ -258610,7 +258701,8 @@
     "tlp": {
       "origin": "tlp",
       "versions": {
-        "1.10.0-r0": 1776769563
+        "1.10.0-r0": 1776769563,
+        "1.10.1-r0": 1778323874
       },
       "dependencies": [
         "perl",
@@ -258618,83 +258710,92 @@
         "grep"
       ],
       "provides": [
-        "cmd:bluetooth=1.10.0-r0",
-        "cmd:nfc=1.10.0-r0",
-        "cmd:run-on-ac=1.10.0-r0",
-        "cmd:run-on-bat=1.10.0-r0",
-        "cmd:tlp-stat=1.10.0-r0",
-        "cmd:tlp=1.10.0-r0",
-        "cmd:wifi=1.10.0-r0",
-        "cmd:wwan=1.10.0-r0"
+        "cmd:bluetooth=1.10.1-r0",
+        "cmd:nfc=1.10.1-r0",
+        "cmd:run-on-ac=1.10.1-r0",
+        "cmd:run-on-bat=1.10.1-r0",
+        "cmd:tlp-stat=1.10.1-r0",
+        "cmd:tlp=1.10.1-r0",
+        "cmd:wifi=1.10.1-r0",
+        "cmd:wwan=1.10.1-r0"
       ]
     },
     "tlp-bash-completion": {
       "origin": "tlp",
       "versions": {
-        "1.10.0-r0": 1776769563
+        "1.10.0-r0": 1776769563,
+        "1.10.1-r0": 1778323874
       }
     },
     "tlp-doc": {
       "origin": "tlp",
       "versions": {
-        "1.10.0-r0": 1776769563
+        "1.10.0-r0": 1776769563,
+        "1.10.1-r0": 1778323874
       }
     },
     "tlp-fish-completion": {
       "origin": "tlp",
       "versions": {
-        "1.10.0-r0": 1776769563
+        "1.10.0-r0": 1776769563,
+        "1.10.1-r0": 1778323874
       }
     },
     "tlp-openrc": {
       "origin": "tlp",
       "versions": {
-        "1.10.0-r0": 1776769563
+        "1.10.0-r0": 1776769563,
+        "1.10.1-r0": 1778323874
       }
     },
     "tlp-pd": {
       "origin": "tlp",
       "versions": {
-        "1.10.0-r0": 1776769563
+        "1.10.0-r0": 1776769563,
+        "1.10.1-r0": 1778323874
       },
       "dependencies": [
-        "tlp=1.10.0-r0",
+        "tlp=1.10.1-r0",
         "polkit",
         "py3-gobject3"
       ],
       "provides": [
-        "cmd:tlp-pd=1.10.0-r0",
-        "cmd:tlpctl=1.10.0-r0"
+        "cmd:tlp-pd=1.10.1-r0",
+        "cmd:tlpctl=1.10.1-r0"
       ]
     },
     "tlp-rdw": {
       "origin": "tlp",
       "versions": {
-        "1.10.0-r0": 1776769563
+        "1.10.0-r0": 1776769563,
+        "1.10.1-r0": 1778323874
       },
       "dependencies": [
-        "tlp=1.10.0-r0"
+        "tlp=1.10.1-r0"
       ],
       "provides": [
-        "cmd:tlp-rdw=1.10.0-r0"
+        "cmd:tlp-rdw=1.10.1-r0"
       ]
     },
     "tlp-systemd": {
       "origin": "tlp",
       "versions": {
-        "1.10.0-r0": 1776769563
+        "1.10.0-r0": 1776769563,
+        "1.10.1-r0": 1778323874
       }
     },
     "tlp-udev": {
       "origin": "tlp",
       "versions": {
-        "1.10.0-r0": 1776769563
+        "1.10.0-r0": 1776769563,
+        "1.10.1-r0": 1778323874
       }
     },
     "tlp-zsh-completion": {
       "origin": "tlp",
       "versions": {
-        "1.10.0-r0": 1776769563
+        "1.10.0-r0": 1776769563,
+        "1.10.1-r0": 1778323874
       }
     },
     "tlsrouter": {
@@ -266723,7 +266824,8 @@
     "vvmd": {
       "origin": "vvmd",
       "versions": {
-        "1.1-r28": 1776970187
+        "1.1-r28": 1776970187,
+        "1.1-r29": 1778323874
       },
       "dependencies": [
         "mobile-broadband-provider-info",
@@ -266739,19 +266841,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:vvmd=1.1-r28"
+        "cmd:vvmd=1.1-r29"
       ]
     },
     "vvmd-openrc": {
       "origin": "vvmd",
       "versions": {
-        "1.1-r28": 1776970187
+        "1.1-r28": 1776970187,
+        "1.1-r29": 1778323874
       }
     },
     "vvmd-systemd": {
       "origin": "vvmd",
       "versions": {
-        "1.1-r28": 1776970187
+        "1.1-r28": 1776970187,
+        "1.1-r29": 1778323874
       }
     },
     "vvmplayer": {
@@ -268908,7 +269012,8 @@
     "wike": {
       "origin": "wike",
       "versions": {
-        "3.2.0-r0": 1764937055
+        "3.2.0-r0": 1764937055,
+        "3.2.1-r0": 1778323874
       },
       "dependencies": [
         "libadwaita",
@@ -268917,13 +269022,14 @@
         "webkit2gtk-6.0"
       ],
       "provides": [
-        "cmd:wike=3.2.0-r0"
+        "cmd:wike=3.2.1-r0"
       ]
     },
     "wike-lang": {
       "origin": "wike",
       "versions": {
-        "3.2.0-r0": 1764937055
+        "3.2.0-r0": 1764937055,
+        "3.2.1-r0": 1778323874
       }
     },
     "wimlib": {
@@ -272236,7 +272342,8 @@
     "xdg-desktop-portal": {
       "origin": "xdg-desktop-portal",
       "versions": {
-        "1.21.1-r0": 1775841261
+        "1.21.1-r0": 1775841261,
+        "1.21.2-r0": 1778323874
       },
       "dependencies": [
         "bubblewrap",
@@ -272255,32 +272362,35 @@
     "xdg-desktop-portal-dbg": {
       "origin": "xdg-desktop-portal",
       "versions": {
-        "1.21.1-r0": 1775841261
+        "1.21.1-r0": 1775841261,
+        "1.21.2-r0": 1778323874
       },
       "dependencies": [
-        "!xdg-desktop-portal<1.21.1-r0",
-        "!xdg-desktop-portal>1.21.1-r0",
-        "!xdg-document-portal<1.21.1-r0",
-        "!xdg-document-portal>1.21.1-r0"
+        "!xdg-desktop-portal<1.21.2-r0",
+        "!xdg-desktop-portal>1.21.2-r0",
+        "!xdg-document-portal<1.21.2-r0",
+        "!xdg-document-portal>1.21.2-r0"
       ]
     },
     "xdg-desktop-portal-dev": {
       "origin": "xdg-desktop-portal",
       "versions": {
-        "1.21.1-r0": 1775841261
+        "1.21.1-r0": 1775841261,
+        "1.21.2-r0": 1778323874
       },
       "dependencies": [
-        "xdg-desktop-portal=1.21.1-r0",
+        "xdg-desktop-portal=1.21.2-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:xdg-desktop-portal=1.21.1"
+        "pc:xdg-desktop-portal=1.21.2"
       ]
     },
     "xdg-desktop-portal-doc": {
       "origin": "xdg-desktop-portal",
       "versions": {
-        "1.21.1-r0": 1775841261
+        "1.21.1-r0": 1775841261,
+        "1.21.2-r0": 1778323874
       }
     },
     "xdg-desktop-portal-gnome": {
@@ -272408,7 +272518,8 @@
     "xdg-desktop-portal-lang": {
       "origin": "xdg-desktop-portal",
       "versions": {
-        "1.21.1-r0": 1775841261
+        "1.21.1-r0": 1775841261,
+        "1.21.2-r0": 1778323874
       }
     },
     "xdg-desktop-portal-lxqt": {
@@ -272438,7 +272549,8 @@
     "xdg-desktop-portal-openrc": {
       "origin": "xdg-desktop-portal",
       "versions": {
-        "1.21.1-r0": 1775841261
+        "1.21.1-r0": 1775841261,
+        "1.21.2-r0": 1778323874
       }
     },
     "xdg-desktop-portal-phosh": {
@@ -272481,7 +272593,8 @@
     "xdg-desktop-portal-systemd": {
       "origin": "xdg-desktop-portal",
       "versions": {
-        "1.21.1-r0": 1775841261
+        "1.21.1-r0": 1775841261,
+        "1.21.2-r0": 1778323874
       }
     },
     "xdg-desktop-portal-wlr": {
@@ -272546,7 +272659,8 @@
     "xdg-document-portal": {
       "origin": "xdg-desktop-portal",
       "versions": {
-        "1.21.1-r0": 1775841261
+        "1.21.1-r0": 1775841261,
+        "1.21.2-r0": 1778323874
       },
       "dependencies": [
         "cmd:fusermount3",
@@ -272561,7 +272675,8 @@
     "xdg-document-portal-openrc": {
       "origin": "xdg-desktop-portal",
       "versions": {
-        "1.21.1-r0": 1775841261
+        "1.21.1-r0": 1775841261,
+        "1.21.2-r0": 1778323874
       }
     },
     "xdg-user-dirs": {
@@ -277423,7 +277538,8 @@
     "yelp": {
       "origin": "yelp",
       "versions": {
-        "49.0-r1": 1768240204
+        "49.0-r1": 1768240204,
+        "49.1-r0": 1778323874
       },
       "dependencies": [
         "dconf",
@@ -277447,18 +277563,19 @@
         "so:libxslt.so.1"
       ],
       "provides": [
-        "cmd:gnome-help=49.0-r1",
-        "cmd:yelp=49.0-r1",
+        "cmd:gnome-help=49.1-r0",
+        "cmd:yelp=49.1-r0",
         "so:libyelp-1.so.0=0.0.0"
       ]
     },
     "yelp-dev": {
       "origin": "yelp",
       "versions": {
-        "49.0-r1": 1768240204
+        "49.0-r1": 1768240204,
+        "49.1-r0": 1778323874
       },
       "dependencies": [
-        "yelp=49.0-r1",
+        "yelp=49.1-r0",
         "pc:bzip2",
         "pc:gio-2.0>=2.67.4",
         "pc:gio-unix-2.0",
@@ -277474,13 +277591,14 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:libyelp-1=49.0"
+        "pc:libyelp-1=49.1"
       ]
     },
     "yelp-lang": {
       "origin": "yelp",
       "versions": {
-        "49.0-r1": 1768240204
+        "49.0-r1": 1768240204,
+        "49.1-r0": 1778323874
       }
     },
     "yelp-tools": {
@@ -287595,7 +287713,7 @@
       },
       "libgtk-4.so.1": {
         "package": "gtk4.0",
-        "version": "1.2200.2"
+        "version": "1.2200.4"
       },
       "libgdkmm-3.0.so.1": {
         "package": "gtkmm3",
@@ -290199,7 +290317,7 @@
       },
       "libgsf-1.so.114": {
         "package": "libgsf",
-        "version": "114.0.56"
+        "version": "114.0.58"
       },
       "libgss.so.3": {
         "package": "libgss",
@@ -291691,7 +291809,7 @@
       },
       "libtinysparql-3.0.so.0": {
         "package": "libtinysparql",
-        "version": "0.1100.0"
+        "version": "0.1101.0"
       },
       "libtommath.so.1": {
         "package": "libtommath",
@@ -298040,6 +298158,10 @@
       "libzzipmmapped.so.13": {
         "package": "zziplib",
         "version": "13.0.80"
+      },
+      "libelogind-shared-255.24.so": {
+        "package": "elogind-common",
+        "version": "0"
       }
     },
     "package": {
@@ -298085,7 +298207,7 @@
       },
       "aws-cli-v2": {
         "package": "aws-cli",
-        "version": "2.34.43-r0"
+        "version": "2.34.45-r0"
       },
       "swww": {
         "package": "awww",
@@ -298769,7 +298891,7 @@
       },
       "libtracker": {
         "package": "libtinysparql",
-        "version": "3.11.0-r2"
+        "version": "3.11.1-r0"
       },
       "eudev-dev": {
         "package": "libudev-zero-dev",
@@ -298945,7 +299067,7 @@
       },
       "mmsd": {
         "package": "mmsd-tng",
-        "version": "2.6.4-r22"
+        "version": "2.6.4-r23"
       },
       "mongo-php7-library": {
         "package": "mongo-php-library",
@@ -300801,7 +300923,7 @@
       },
       "py-phonenumbers": {
         "package": "py3-phonenumbers",
-        "version": "9.0.29-r0"
+        "version": "9.0.30-r0"
       },
       "py-pickleshare": {
         "package": "py3-pickleshare",
@@ -301441,7 +301563,7 @@
       },
       "tracker": {
         "package": "tinysparql",
-        "version": "3.11.0-r2"
+        "version": "3.11.1-r0"
       },
       "libtss2-tcti": {
         "package": "tpm2-tss-tcti-swtpm",
