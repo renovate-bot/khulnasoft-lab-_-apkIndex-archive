@@ -1064,7 +1064,8 @@
     "acme-client": {
       "origin": "acme-client",
       "versions": {
-        "1.3.5-r1": 1777396572
+        "1.3.5-r1": 1777396572,
+        "1.3.7-r0": 1778364204
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -1072,13 +1073,14 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:acme-client=1.3.5-r1"
+        "cmd:acme-client=1.3.7-r0"
       ]
     },
     "acme-client-doc": {
       "origin": "acme-client",
       "versions": {
-        "1.3.5-r1": 1777396572
+        "1.3.5-r1": 1777396572,
+        "1.3.7-r0": 1778364204
       }
     },
     "acme-redirect": {
@@ -33327,11 +33329,12 @@
     "docker": {
       "origin": "docker",
       "versions": {
-        "29.4.2-r0": 1777760086
+        "29.4.2-r0": 1777760086,
+        "29.4.3-r0": 1778360732
       },
       "dependencies": [
-        "docker-engine=29.4.2-r0",
-        "docker-cli=29.4.2-r0",
+        "docker-engine=29.4.3-r0",
+        "docker-cli=29.4.3-r0",
         "docker-cli-buildx"
       ]
     },
@@ -33362,20 +33365,22 @@
     "docker-bash-completion": {
       "origin": "docker",
       "versions": {
-        "29.4.2-r0": 1777760086
+        "29.4.2-r0": 1777760086,
+        "29.4.3-r0": 1778360732
       }
     },
     "docker-cli": {
       "origin": "docker",
       "versions": {
-        "29.4.2-r0": 1777760086
+        "29.4.2-r0": 1777760086,
+        "29.4.3-r0": 1778360732
       },
       "dependencies": [
         "ca-certificates",
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:docker=29.4.2-r0"
+        "cmd:docker=29.4.3-r0"
       ]
     },
     "docker-cli-buildx": {
@@ -33404,13 +33409,15 @@
     "docker-doc": {
       "origin": "docker",
       "versions": {
-        "29.4.2-r0": 1777760086
+        "29.4.2-r0": 1777760086,
+        "29.4.3-r0": 1778360732
       }
     },
     "docker-engine": {
       "origin": "docker",
       "versions": {
-        "29.4.2-r0": 1777760086
+        "29.4.2-r0": 1777760086,
+        "29.4.3-r0": 1778360732
       },
       "dependencies": [
         "ca-certificates",
@@ -33422,21 +33429,23 @@
         "so:libnftables.so.1"
       ],
       "provides": [
-        "cmd:docker-init=29.4.2-r0",
-        "cmd:docker-proxy=29.4.2-r0",
-        "cmd:dockerd=29.4.2-r0"
+        "cmd:docker-init=29.4.3-r0",
+        "cmd:docker-proxy=29.4.3-r0",
+        "cmd:dockerd=29.4.3-r0"
       ]
     },
     "docker-fish-completion": {
       "origin": "docker",
       "versions": {
-        "29.4.2-r0": 1777760086
+        "29.4.2-r0": 1777760086,
+        "29.4.3-r0": 1778360732
       }
     },
     "docker-openrc": {
       "origin": "docker",
       "versions": {
-        "29.4.2-r0": 1777760086
+        "29.4.2-r0": 1777760086,
+        "29.4.3-r0": 1778360732
       },
       "dependencies": [
         "log_proxy"
@@ -33466,7 +33475,8 @@
     "docker-rootless-extras": {
       "origin": "docker",
       "versions": {
-        "29.4.2-r0": 1777760086
+        "29.4.2-r0": 1777760086,
+        "29.4.3-r0": 1778360732
       },
       "dependencies": [
         "docker",
@@ -33475,13 +33485,14 @@
         "fuse-overlayfs"
       ],
       "provides": [
-        "cmd:dockerd-rootless=29.4.2-r0"
+        "cmd:dockerd-rootless=29.4.3-r0"
       ]
     },
     "docker-rootless-extras-openrc": {
       "origin": "docker",
       "versions": {
-        "29.4.2-r0": 1777760086
+        "29.4.2-r0": 1777760086,
+        "29.4.3-r0": 1778360732
       },
       "dependencies": [
         "docker-rootless-extras"
@@ -33490,13 +33501,15 @@
     "docker-systemd": {
       "origin": "docker",
       "versions": {
-        "29.4.2-r0": 1777760086
+        "29.4.2-r0": 1777760086,
+        "29.4.3-r0": 1778360732
       }
     },
     "docker-zsh-completion": {
       "origin": "docker",
       "versions": {
-        "29.4.2-r0": 1777760086
+        "29.4.2-r0": 1777760086,
+        "29.4.3-r0": 1778360732
       }
     },
     "dockviz": {
