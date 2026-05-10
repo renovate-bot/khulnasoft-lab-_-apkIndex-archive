@@ -54408,7 +54408,8 @@
     "gmobile": {
       "origin": "gmobile",
       "versions": {
-        "0.7.0-r0": 1774727688
+        "0.7.0-r0": 1774727688,
+        "0.7.1-r0": 1778412757
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -54424,35 +54425,38 @@
     "gmobile-dbg": {
       "origin": "gmobile",
       "versions": {
-        "0.7.0-r0": 1774727688
+        "0.7.0-r0": 1774727688,
+        "0.7.1-r0": 1778412757
       },
       "dependencies": [
-        "!gmobile-examples<0.7.0-r0",
-        "!gmobile-examples>0.7.0-r0",
-        "!gmobile<0.7.0-r0",
-        "!gmobile>0.7.0-r0"
+        "!gmobile-examples<0.7.1-r0",
+        "!gmobile-examples>0.7.1-r0",
+        "!gmobile<0.7.1-r0",
+        "!gmobile>0.7.1-r0"
       ]
     },
     "gmobile-dev": {
       "origin": "gmobile",
       "versions": {
-        "0.7.0-r0": 1774727688
+        "0.7.0-r0": 1774727688,
+        "0.7.1-r0": 1778412757
       },
       "dependencies": [
-        "gmobile=0.7.0-r0",
+        "gmobile=0.7.1-r0",
         "pc:gio-2.0>=2.78",
         "pc:glib-2.0>=2.78",
         "pc:json-glib-1.0>=1.6.2",
         "pkgconfig"
       ],
       "provides": [
-        "pc:gmobile=0.7.0"
+        "pc:gmobile=0.7.1"
       ]
     },
     "gmobile-examples": {
       "origin": "gmobile",
       "versions": {
-        "0.7.0-r0": 1774727688
+        "0.7.0-r0": 1774727688,
+        "0.7.1-r0": 1778412757
       },
       "dependencies": [
         "phoc",
@@ -54464,15 +54468,16 @@
         "so:libgobject-2.0.so.0"
       ],
       "provides": [
-        "cmd:gm-display-panel-preview=0.7.0-r0",
-        "cmd:gm-display-panel-run-phosh=0.7.0-r0",
-        "cmd:gm-timeout=0.7.0-r0"
+        "cmd:gm-display-panel-preview=0.7.1-r0",
+        "cmd:gm-display-panel-run-phosh=0.7.1-r0",
+        "cmd:gm-timeout=0.7.1-r0"
       ]
     },
     "gmobile-udev": {
       "origin": "gmobile",
       "versions": {
-        "0.7.0-r0": 1774727688
+        "0.7.0-r0": 1774727688,
+        "0.7.1-r0": 1778412757
       }
     },
     "gn": {
@@ -279756,38 +279761,43 @@
     "zoxide": {
       "origin": "zoxide",
       "versions": {
-        "0.9.8-r0": 1752521575
+        "0.9.8-r0": 1752521575,
+        "0.9.9-r0": 1778418477
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:zoxide=0.9.8-r0"
+        "cmd:zoxide=0.9.9-r0"
       ]
     },
     "zoxide-bash-completion": {
       "origin": "zoxide",
       "versions": {
-        "0.9.8-r0": 1752521575
+        "0.9.8-r0": 1752521575,
+        "0.9.9-r0": 1778418477
       }
     },
     "zoxide-doc": {
       "origin": "zoxide",
       "versions": {
-        "0.9.8-r0": 1752521575
+        "0.9.8-r0": 1752521575,
+        "0.9.9-r0": 1778418477
       }
     },
     "zoxide-fish-completion": {
       "origin": "zoxide",
       "versions": {
-        "0.9.8-r0": 1752521575
+        "0.9.8-r0": 1752521575,
+        "0.9.9-r0": 1778418477
       }
     },
     "zoxide-zsh-completion": {
       "origin": "zoxide",
       "versions": {
-        "0.9.8-r0": 1752521575
+        "0.9.8-r0": 1752521575,
+        "0.9.9-r0": 1778418477
       }
     },
     "zps": {
