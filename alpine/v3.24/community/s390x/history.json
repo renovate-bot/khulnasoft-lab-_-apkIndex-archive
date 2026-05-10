@@ -4746,36 +4746,40 @@
     "astyle": {
       "origin": "astyle",
       "versions": {
-        "3.6.14-r0": 1772211841
+        "3.6.14-r0": 1772211841,
+        "3.6.15-r0": 1778431426
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:astyle=3.6.14-r0"
+        "cmd:astyle=3.6.15-r0"
       ]
     },
     "astyle-dev": {
       "origin": "astyle",
       "versions": {
-        "3.6.14-r0": 1772211841
+        "3.6.14-r0": 1772211841,
+        "3.6.15-r0": 1778431426
       },
       "dependencies": [
-        "astyle=3.6.14-r0",
-        "astyle-libs=3.6.14-r0"
+        "astyle=3.6.15-r0",
+        "astyle-libs=3.6.15-r0"
       ]
     },
     "astyle-doc": {
       "origin": "astyle",
       "versions": {
-        "3.6.14-r0": 1772211841
+        "3.6.14-r0": 1772211841,
+        "3.6.15-r0": 1778431426
       }
     },
     "astyle-libs": {
       "origin": "astyle",
       "versions": {
-        "3.6.14-r0": 1772211841
+        "3.6.14-r0": 1772211841,
+        "3.6.15-r0": 1778431426
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -163695,13 +163699,14 @@
     "osv-scanner": {
       "origin": "osv-scanner",
       "versions": {
-        "2.3.5-r2": 1775839666
+        "2.3.5-r2": 1775839666,
+        "2.3.8-r0": 1778428598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:osv-scanner=2.3.5-r2"
+        "cmd:osv-scanner=2.3.8-r0"
       ]
     },
     "otf2bdf": {
@@ -236293,39 +236298,44 @@
     "rclone": {
       "origin": "rclone",
       "versions": {
-        "1.74.0-r0": 1777745359
+        "1.74.0-r0": 1777745359,
+        "1.74.1-r0": 1778429268
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:mount.rclone=1.74.0-r0",
-        "cmd:rclone=1.74.0-r0",
-        "cmd:rclonefs=1.74.0-r0"
+        "cmd:mount.rclone=1.74.1-r0",
+        "cmd:rclone=1.74.1-r0",
+        "cmd:rclonefs=1.74.1-r0"
       ]
     },
     "rclone-bash-completion": {
       "origin": "rclone",
       "versions": {
-        "1.74.0-r0": 1777745359
+        "1.74.0-r0": 1777745359,
+        "1.74.1-r0": 1778429268
       }
     },
     "rclone-doc": {
       "origin": "rclone",
       "versions": {
-        "1.74.0-r0": 1777745359
+        "1.74.0-r0": 1777745359,
+        "1.74.1-r0": 1778429268
       }
     },
     "rclone-fish-completion": {
       "origin": "rclone",
       "versions": {
-        "1.74.0-r0": 1777745359
+        "1.74.0-r0": 1777745359,
+        "1.74.1-r0": 1778429268
       }
     },
     "rclone-zsh-completion": {
       "origin": "rclone",
       "versions": {
-        "1.74.0-r0": 1777745359
+        "1.74.0-r0": 1777745359,
+        "1.74.1-r0": 1778429268
       }
     },
     "rcm": {
@@ -252906,7 +252916,8 @@
     "sxmo-utils": {
       "origin": "sxmo-utils",
       "versions": {
-        "1.18.1-r3": 1769520496
+        "1.18.1-r3": 1769520496,
+        "1.18.1-r4": 1778430312
       },
       "dependencies": [
         "coreutils",
@@ -252917,166 +252928,167 @@
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:sxmo_adaptivebrightness.sh=1.18.1-r3",
-        "cmd:sxmo_aligned_sleep=1.18.1-r3",
-        "cmd:sxmo_appmenu.sh=1.18.1-r3",
-        "cmd:sxmo_audio.sh=1.18.1-r3",
-        "cmd:sxmo_autorotate.sh=1.18.1-r3",
-        "cmd:sxmo_autosuspend.sh=1.18.1-r3",
-        "cmd:sxmo_battery_monitor.sh=1.18.1-r3",
-        "cmd:sxmo_bg.sh=1.18.1-r3",
-        "cmd:sxmo_bluetoothmenu.sh=1.18.1-r3",
-        "cmd:sxmo_bluetoothtoggle.sh=1.18.1-r3",
-        "cmd:sxmo_brightness.sh=1.18.1-r3",
-        "cmd:sxmo_brun.sh=1.18.1-r3",
-        "cmd:sxmo_common.sh=1.18.1-r3",
-        "cmd:sxmo_contactmenu.sh=1.18.1-r3",
-        "cmd:sxmo_contacts.sh=1.18.1-r3",
-        "cmd:sxmo_debug_suspend.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_alcatel,idol3.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_asus,grouper.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_asus,x00td.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_desktop.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_fairphone,fp4.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_fairphone,fp5.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_google,b4s4-sdm670.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_google,bonito-sdc.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_kobo,clarahd.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_lenovo,thinkpad-x13s.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_lge,hammerhead.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_longcheer,l8150.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_motorola,harpia.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_nokia,omap3-n900.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_oneplus,cheeseburger.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_oneplus,dumpling.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_oneplus,enchilada.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_oneplus,fajita.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_pine64,pinebook-pro.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_pine64,pinebook.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_pine64,pinenote.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_pine64,pinephone-1.0.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_pine64,pinephone-1.1.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_pine64,pinephone-1.2.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_pine64,pinephone-pro.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_pine64,pinetab2-v2.0.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_pine64,pinetab2.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_pine64,rockpro64-v2.1.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_purism,librem5r2.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_purism,librem5r3.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_purism,librem5r4.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_qcom,msm8226-mtp.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_samsung,a3u-eur.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_samsung,a5u-eur.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_samsung,coreprimevelte.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_samsung,e5.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_samsung,e7.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_samsung,grandmax.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_samsung,gt510.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_samsung,i9300.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_samsung,j5.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_samsung,j5x.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_samsung,n8010.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_samsung,nexus10-manta.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_shift,axolotl.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_wingtech,wt88047.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_xiaomi,beryllium-ebbg.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_xiaomi,beryllium.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_xiaomi,daisy.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_xiaomi,elish.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_xiaomi,mido.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_xiaomi,polaris.sh=1.18.1-r3",
-        "cmd:sxmo_deviceprofile_xiaomi,tissot.sh=1.18.1-r3",
-        "cmd:sxmo_dmenu.sh=1.18.1-r3",
-        "cmd:sxmo_dtmf.sh=1.18.1-r3",
-        "cmd:sxmo_dwminit.sh=1.18.1-r3",
-        "cmd:sxmo_edit_screen.sh=1.18.1-r3",
-        "cmd:sxmo_files.sh=1.18.1-r3",
-        "cmd:sxmo_flashtoggle.sh=1.18.1-r3",
-        "cmd:sxmo_hookmenu.sh=1.18.1-r3",
-        "cmd:sxmo_i3init.sh=1.18.1-r3",
-        "cmd:sxmo_idle.sh=1.18.1-r3",
-        "cmd:sxmo_init.sh=1.18.1-r3",
-        "cmd:sxmo_jobs.sh=1.18.1-r3",
-        "cmd:sxmo_keyboard.sh=1.18.1-r3",
-        "cmd:sxmo_keyboard_autorotate.sh=1.18.1-r3",
-        "cmd:sxmo_killwindow.sh=1.18.1-r3",
-        "cmd:sxmo_led.sh=1.18.1-r3",
-        "cmd:sxmo_menumode_toggler.sh=1.18.1-r3",
-        "cmd:sxmo_migrate.sh=1.18.1-r3",
-        "cmd:sxmo_mms.sh=1.18.1-r3",
-        "cmd:sxmo_mmsdconfig.sh=1.18.1-r3",
-        "cmd:sxmo_modem.sh=1.18.1-r3",
-        "cmd:sxmo_modemaudio.sh=1.18.1-r3",
-        "cmd:sxmo_modemcall.sh=1.18.1-r3",
-        "cmd:sxmo_modemdial.sh=1.18.1-r3",
-        "cmd:sxmo_modeminfo.sh=1.18.1-r3",
-        "cmd:sxmo_modemlog.sh=1.18.1-r3",
-        "cmd:sxmo_modemmonitor.sh=1.18.1-r3",
-        "cmd:sxmo_modemsendsms.sh=1.18.1-r3",
-        "cmd:sxmo_modemtext.sh=1.18.1-r3",
-        "cmd:sxmo_movement.sh=1.18.1-r3",
-        "cmd:sxmo_multikey.sh=1.18.1-r3",
-        "cmd:sxmo_networkmonitor.sh=1.18.1-r3",
-        "cmd:sxmo_networks.sh=1.18.1-r3",
-        "cmd:sxmo_notes.sh=1.18.1-r3",
-        "cmd:sxmo_notifs.sh=1.18.1-r3",
-        "cmd:sxmo_notify_user.sh=1.18.1-r3",
-        "cmd:sxmo_ob.sh=1.18.1-r3",
-        "cmd:sxmo_open.sh=1.18.1-r3",
-        "cmd:sxmo_phonemenu.sh=1.18.1-r3",
-        "cmd:sxmo_pipecomplete.sh=1.18.1-r3",
-        "cmd:sxmo_playerctl.sh=1.18.1-r3",
-        "cmd:sxmo_power.sh=1.18.1-r3",
-        "cmd:sxmo_proximitylock.sh=1.18.1-r3",
-        "cmd:sxmo_record.sh=1.18.1-r3",
-        "cmd:sxmo_riverbar.sh=1.18.1-r3",
-        "cmd:sxmo_riverinit.sh=1.18.1-r3",
-        "cmd:sxmo_rotate.sh=1.18.1-r3",
-        "cmd:sxmo_rss.sh=1.18.1-r3",
-        "cmd:sxmo_rtcwake.sh=1.18.1-r3",
-        "cmd:sxmo_run_aligned.sh=1.18.1-r3",
-        "cmd:sxmo_run_periodically.sh=1.18.1-r3",
-        "cmd:sxmo_screenshot.sh=1.18.1-r3",
-        "cmd:sxmo_sleep=1.18.1-r3",
-        "cmd:sxmo_soundmonitor.sh=1.18.1-r3",
-        "cmd:sxmo_state.sh=1.18.1-r3",
-        "cmd:sxmo_status.sh=1.18.1-r3",
-        "cmd:sxmo_status_led=1.18.1-r3",
-        "cmd:sxmo_status_watch.sh=1.18.1-r3",
-        "cmd:sxmo_status_xsetroot.sh=1.18.1-r3",
-        "cmd:sxmo_surf_linkselect.sh=1.18.1-r3",
-        "cmd:sxmo_suspend.sh=1.18.1-r3",
-        "cmd:sxmo_swayinit.sh=1.18.1-r3",
-        "cmd:sxmo_swayinitconf.sh=1.18.1-r3",
-        "cmd:sxmo_tabbed.sh=1.18.1-r3",
-        "cmd:sxmo_terminal.sh=1.18.1-r3",
-        "cmd:sxmo_timer.sh=1.18.1-r3",
-        "cmd:sxmo_timezonechange.sh=1.18.1-r3",
-        "cmd:sxmo_togglewm.sh=1.18.1-r3",
-        "cmd:sxmo_type.sh=1.18.1-r3",
-        "cmd:sxmo_unlocksim.sh=1.18.1-r3",
-        "cmd:sxmo_upgrade.sh=1.18.1-r3",
-        "cmd:sxmo_urlhandler.sh=1.18.1-r3",
-        "cmd:sxmo_ussd.sh=1.18.1-r3",
-        "cmd:sxmo_validnumber.sh=1.18.1-r3",
-        "cmd:sxmo_version.sh=1.18.1-r3",
-        "cmd:sxmo_vibrate=1.18.1-r3",
-        "cmd:sxmo_vvm.sh=1.18.1-r3",
-        "cmd:sxmo_vvmdconfig.sh=1.18.1-r3",
-        "cmd:sxmo_wakelock.sh=1.18.1-r3",
-        "cmd:sxmo_weather.sh=1.18.1-r3",
-        "cmd:sxmo_websearch.sh=1.18.1-r3",
-        "cmd:sxmo_wifitoggle.sh=1.18.1-r3",
-        "cmd:sxmo_wm.sh=1.18.1-r3",
-        "cmd:sxmo_wmmenu.sh=1.18.1-r3",
-        "cmd:sxmo_youtube.sh=1.18.1-r3",
-        "cmd:sxmo_youtube_audio.sh=1.18.1-r3"
+        "cmd:sxmo_adaptivebrightness.sh=1.18.1-r4",
+        "cmd:sxmo_aligned_sleep=1.18.1-r4",
+        "cmd:sxmo_appmenu.sh=1.18.1-r4",
+        "cmd:sxmo_audio.sh=1.18.1-r4",
+        "cmd:sxmo_autorotate.sh=1.18.1-r4",
+        "cmd:sxmo_autosuspend.sh=1.18.1-r4",
+        "cmd:sxmo_battery_monitor.sh=1.18.1-r4",
+        "cmd:sxmo_bg.sh=1.18.1-r4",
+        "cmd:sxmo_bluetoothmenu.sh=1.18.1-r4",
+        "cmd:sxmo_bluetoothtoggle.sh=1.18.1-r4",
+        "cmd:sxmo_brightness.sh=1.18.1-r4",
+        "cmd:sxmo_brun.sh=1.18.1-r4",
+        "cmd:sxmo_common.sh=1.18.1-r4",
+        "cmd:sxmo_contactmenu.sh=1.18.1-r4",
+        "cmd:sxmo_contacts.sh=1.18.1-r4",
+        "cmd:sxmo_debug_suspend.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_alcatel,idol3.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_asus,grouper.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_asus,x00td.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_desktop.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_fairphone,fp4.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_fairphone,fp5.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_google,b4s4-sdm670.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_google,bonito-sdc.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_kobo,clarahd.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_lenovo,thinkpad-x13s.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_lge,hammerhead.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_longcheer,l8150.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_motorola,harpia.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_nokia,omap3-n900.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_oneplus,cheeseburger.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_oneplus,dumpling.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_oneplus,enchilada.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_oneplus,fajita.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_pine64,pinebook-pro.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_pine64,pinebook.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_pine64,pinenote.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_pine64,pinephone-1.0.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_pine64,pinephone-1.1.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_pine64,pinephone-1.2.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_pine64,pinephone-pro.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_pine64,pinetab2-v2.0.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_pine64,pinetab2.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_pine64,rockpro64-v2.1.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_purism,librem5r2.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_purism,librem5r3.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_purism,librem5r4.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_qcom,msm8226-mtp.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_samsung,a3u-eur.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_samsung,a5u-eur.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_samsung,coreprimevelte.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_samsung,e5.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_samsung,e7.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_samsung,grandmax.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_samsung,gt510.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_samsung,i9300.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_samsung,j5.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_samsung,j5x.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_samsung,n8010.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_samsung,nexus10-manta.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_shift,axolotl.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_wingtech,wt88047.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_xiaomi,beryllium-ebbg.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_xiaomi,beryllium.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_xiaomi,daisy.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_xiaomi,elish.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_xiaomi,mido.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_xiaomi,polaris.sh=1.18.1-r4",
+        "cmd:sxmo_deviceprofile_xiaomi,tissot.sh=1.18.1-r4",
+        "cmd:sxmo_dmenu.sh=1.18.1-r4",
+        "cmd:sxmo_dtmf.sh=1.18.1-r4",
+        "cmd:sxmo_dwminit.sh=1.18.1-r4",
+        "cmd:sxmo_edit_screen.sh=1.18.1-r4",
+        "cmd:sxmo_files.sh=1.18.1-r4",
+        "cmd:sxmo_flashtoggle.sh=1.18.1-r4",
+        "cmd:sxmo_hookmenu.sh=1.18.1-r4",
+        "cmd:sxmo_i3init.sh=1.18.1-r4",
+        "cmd:sxmo_idle.sh=1.18.1-r4",
+        "cmd:sxmo_init.sh=1.18.1-r4",
+        "cmd:sxmo_jobs.sh=1.18.1-r4",
+        "cmd:sxmo_keyboard.sh=1.18.1-r4",
+        "cmd:sxmo_keyboard_autorotate.sh=1.18.1-r4",
+        "cmd:sxmo_killwindow.sh=1.18.1-r4",
+        "cmd:sxmo_led.sh=1.18.1-r4",
+        "cmd:sxmo_menumode_toggler.sh=1.18.1-r4",
+        "cmd:sxmo_migrate.sh=1.18.1-r4",
+        "cmd:sxmo_mms.sh=1.18.1-r4",
+        "cmd:sxmo_mmsdconfig.sh=1.18.1-r4",
+        "cmd:sxmo_modem.sh=1.18.1-r4",
+        "cmd:sxmo_modemaudio.sh=1.18.1-r4",
+        "cmd:sxmo_modemcall.sh=1.18.1-r4",
+        "cmd:sxmo_modemdial.sh=1.18.1-r4",
+        "cmd:sxmo_modeminfo.sh=1.18.1-r4",
+        "cmd:sxmo_modemlog.sh=1.18.1-r4",
+        "cmd:sxmo_modemmonitor.sh=1.18.1-r4",
+        "cmd:sxmo_modemsendsms.sh=1.18.1-r4",
+        "cmd:sxmo_modemtext.sh=1.18.1-r4",
+        "cmd:sxmo_movement.sh=1.18.1-r4",
+        "cmd:sxmo_multikey.sh=1.18.1-r4",
+        "cmd:sxmo_networkmonitor.sh=1.18.1-r4",
+        "cmd:sxmo_networks.sh=1.18.1-r4",
+        "cmd:sxmo_notes.sh=1.18.1-r4",
+        "cmd:sxmo_notifs.sh=1.18.1-r4",
+        "cmd:sxmo_notify_user.sh=1.18.1-r4",
+        "cmd:sxmo_ob.sh=1.18.1-r4",
+        "cmd:sxmo_open.sh=1.18.1-r4",
+        "cmd:sxmo_phonemenu.sh=1.18.1-r4",
+        "cmd:sxmo_pipecomplete.sh=1.18.1-r4",
+        "cmd:sxmo_playerctl.sh=1.18.1-r4",
+        "cmd:sxmo_power.sh=1.18.1-r4",
+        "cmd:sxmo_proximitylock.sh=1.18.1-r4",
+        "cmd:sxmo_record.sh=1.18.1-r4",
+        "cmd:sxmo_riverbar.sh=1.18.1-r4",
+        "cmd:sxmo_riverinit.sh=1.18.1-r4",
+        "cmd:sxmo_rotate.sh=1.18.1-r4",
+        "cmd:sxmo_rss.sh=1.18.1-r4",
+        "cmd:sxmo_rtcwake.sh=1.18.1-r4",
+        "cmd:sxmo_run_aligned.sh=1.18.1-r4",
+        "cmd:sxmo_run_periodically.sh=1.18.1-r4",
+        "cmd:sxmo_screenshot.sh=1.18.1-r4",
+        "cmd:sxmo_sleep=1.18.1-r4",
+        "cmd:sxmo_soundmonitor.sh=1.18.1-r4",
+        "cmd:sxmo_state.sh=1.18.1-r4",
+        "cmd:sxmo_status.sh=1.18.1-r4",
+        "cmd:sxmo_status_led=1.18.1-r4",
+        "cmd:sxmo_status_watch.sh=1.18.1-r4",
+        "cmd:sxmo_status_xsetroot.sh=1.18.1-r4",
+        "cmd:sxmo_surf_linkselect.sh=1.18.1-r4",
+        "cmd:sxmo_suspend.sh=1.18.1-r4",
+        "cmd:sxmo_swayinit.sh=1.18.1-r4",
+        "cmd:sxmo_swayinitconf.sh=1.18.1-r4",
+        "cmd:sxmo_tabbed.sh=1.18.1-r4",
+        "cmd:sxmo_terminal.sh=1.18.1-r4",
+        "cmd:sxmo_timer.sh=1.18.1-r4",
+        "cmd:sxmo_timezonechange.sh=1.18.1-r4",
+        "cmd:sxmo_togglewm.sh=1.18.1-r4",
+        "cmd:sxmo_type.sh=1.18.1-r4",
+        "cmd:sxmo_unlocksim.sh=1.18.1-r4",
+        "cmd:sxmo_upgrade.sh=1.18.1-r4",
+        "cmd:sxmo_urlhandler.sh=1.18.1-r4",
+        "cmd:sxmo_ussd.sh=1.18.1-r4",
+        "cmd:sxmo_validnumber.sh=1.18.1-r4",
+        "cmd:sxmo_version.sh=1.18.1-r4",
+        "cmd:sxmo_vibrate=1.18.1-r4",
+        "cmd:sxmo_vvm.sh=1.18.1-r4",
+        "cmd:sxmo_vvmdconfig.sh=1.18.1-r4",
+        "cmd:sxmo_wakelock.sh=1.18.1-r4",
+        "cmd:sxmo_weather.sh=1.18.1-r4",
+        "cmd:sxmo_websearch.sh=1.18.1-r4",
+        "cmd:sxmo_wifitoggle.sh=1.18.1-r4",
+        "cmd:sxmo_wm.sh=1.18.1-r4",
+        "cmd:sxmo_wmmenu.sh=1.18.1-r4",
+        "cmd:sxmo_youtube.sh=1.18.1-r4",
+        "cmd:sxmo_youtube_audio.sh=1.18.1-r4"
       ]
     },
     "sxmo-utils-audio-bluetooth": {
       "origin": "sxmo-utils",
       "versions": {
-        "1.18.1-r3": 1769520496
+        "1.18.1-r3": 1769520496,
+        "1.18.1-r4": 1778430312
       },
       "dependencies": [
         "coreutils",
@@ -253089,7 +253101,8 @@
     "sxmo-utils-audio-bluetooth-pipewire": {
       "origin": "sxmo-utils",
       "versions": {
-        "1.18.1-r3": 1769520496
+        "1.18.1-r3": 1769520496,
+        "1.18.1-r4": 1778430312
       },
       "dependencies": [
         "bluez",
@@ -253099,7 +253112,8 @@
     "sxmo-utils-audio-bluetooth-pulseaudio": {
       "origin": "sxmo-utils",
       "versions": {
-        "1.18.1-r3": 1769520496
+        "1.18.1-r3": 1769520496,
+        "1.18.1-r4": 1778430312
       },
       "dependencies": [
         "bluez",
@@ -253110,7 +253124,8 @@
     "sxmo-utils-audio-pipewire": {
       "origin": "sxmo-utils",
       "versions": {
-        "1.18.1-r3": 1769520496
+        "1.18.1-r3": 1769520496,
+        "1.18.1-r4": 1778430312
       },
       "dependencies": [
         "pipewire-pulse",
@@ -253125,7 +253140,8 @@
     "sxmo-utils-audio-pulseaudio": {
       "origin": "sxmo-utils",
       "versions": {
-        "1.18.1-r3": 1769520496
+        "1.18.1-r3": 1769520496,
+        "1.18.1-r4": 1778430312
       },
       "dependencies": [
         "pulseaudio",
@@ -253139,10 +253155,11 @@
     "sxmo-utils-common": {
       "origin": "sxmo-utils",
       "versions": {
-        "1.18.1-r3": 1769520496
+        "1.18.1-r3": 1769520496,
+        "1.18.1-r4": 1778430312
       },
       "dependencies": [
-        "sxmo-utils=1.18.1-r3",
+        "sxmo-utils=1.18.1-r4",
         "sxmo-utils-audio",
         "sxmo-utils-wm",
         "adwaita-icon-theme",
@@ -253188,16 +253205,18 @@
     "sxmo-utils-doc": {
       "origin": "sxmo-utils",
       "versions": {
-        "1.18.1-r3": 1769520496
+        "1.18.1-r3": 1769520496,
+        "1.18.1-r4": 1778430312
       }
     },
     "sxmo-utils-dwm": {
       "origin": "sxmo-utils",
       "versions": {
-        "1.18.1-r3": 1769520496
+        "1.18.1-r3": 1769520496,
+        "1.18.1-r4": 1778430312
       },
       "dependencies": [
-        "sxmo-utils-x11=1.18.1-r3",
+        "sxmo-utils-x11=1.18.1-r4",
         "sxmo-dwm",
         "/bin/sh"
       ],
@@ -253208,10 +253227,11 @@
     "sxmo-utils-i3": {
       "origin": "sxmo-utils",
       "versions": {
-        "1.18.1-r3": 1769520496
+        "1.18.1-r3": 1769520496,
+        "1.18.1-r4": 1778430312
       },
       "dependencies": [
-        "sxmo-utils-x11=1.18.1-r3",
+        "sxmo-utils-x11=1.18.1-r4",
         "i3wm",
         "xbindkeys",
         "/bin/sh"
@@ -253242,10 +253262,11 @@
     "sxmo-utils-sway": {
       "origin": "sxmo-utils",
       "versions": {
-        "1.18.1-r3": 1769520496
+        "1.18.1-r3": 1769520496,
+        "1.18.1-r4": 1778430312
       },
       "dependencies": [
-        "sxmo-utils-wayland=1.18.1-r3",
+        "sxmo-utils-wayland=1.18.1-r4",
         "sway",
         "seatd",
         "xdg-desktop-portal-gtk",
@@ -253259,10 +253280,11 @@
     "sxmo-utils-wayland": {
       "origin": "sxmo-utils",
       "versions": {
-        "1.18.1-r3": 1769520496
+        "1.18.1-r3": 1769520496,
+        "1.18.1-r4": 1778430312
       },
       "dependencies": [
-        "sxmo-utils-common=1.18.1-r3",
+        "sxmo-utils-common=1.18.1-r4",
         "foot",
         "grim",
         "slurp",
@@ -253281,10 +253303,11 @@
     "sxmo-utils-x11": {
       "origin": "sxmo-utils",
       "versions": {
-        "1.18.1-r3": 1769520496
+        "1.18.1-r3": 1769520496,
+        "1.18.1-r4": 1778430312
       },
       "dependencies": [
-        "sxmo-utils-common=1.18.1-r3",
+        "sxmo-utils-common=1.18.1-r4",
         "autocutsel",
         "feh",
         "svkbd",
@@ -280172,6 +280195,12 @@
       "origin": "zzz",
       "versions": {
         "0.2.0-r0": 1723734253
+      }
+    },
+    "sxmo-utils-udev": {
+      "origin": "sxmo-utils",
+      "versions": {
+        "1.18.1-r4": 1778430312
       }
     }
   },
