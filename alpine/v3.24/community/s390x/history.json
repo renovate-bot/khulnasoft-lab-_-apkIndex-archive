@@ -159761,7 +159761,8 @@
     "opencc": {
       "origin": "opencc",
       "versions": {
-        "1.3.0-r0": 1776769087
+        "1.3.0-r0": 1776769087,
+        "1.3.1-r0": 1778370775
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -159770,34 +159771,37 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:opencc=1.3.0-r0",
-        "cmd:opencc_dict=1.3.0-r0",
-        "cmd:opencc_phrase_extract=1.3.0-r0"
+        "cmd:opencc=1.3.1-r0",
+        "cmd:opencc_dict=1.3.1-r0",
+        "cmd:opencc_phrase_extract=1.3.1-r0"
       ]
     },
     "opencc-dev": {
       "origin": "opencc",
       "versions": {
-        "1.3.0-r0": 1776769087
+        "1.3.0-r0": 1776769087,
+        "1.3.1-r0": 1778370775
       },
       "dependencies": [
-        "opencc-libs=1.3.0-r0",
+        "opencc-libs=1.3.1-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:opencc=1.3.0"
+        "pc:opencc=1.3.1"
       ]
     },
     "opencc-doc": {
       "origin": "opencc",
       "versions": {
-        "1.3.0-r0": 1776769087
+        "1.3.0-r0": 1776769087,
+        "1.3.1-r0": 1778370775
       }
     },
     "opencc-libs": {
       "origin": "opencc",
       "versions": {
-        "1.3.0-r0": 1776769087
+        "1.3.0-r0": 1776769087,
+        "1.3.1-r0": 1778370775
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -159806,7 +159810,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libopencc.so.1.3=1.3.0"
+        "so:libopencc.so.1.3=1.3.1"
       ]
     },
     "opencl": {
@@ -241638,63 +241642,67 @@
     "s6-overlay": {
       "origin": "s6-overlay",
       "versions": {
-        "3.2.0.3-r0": 1769500947
+        "3.2.0.3-r0": 1769500947,
+        "3.2.3.0-r0": 1778384706
       },
       "dependencies": [
-        "execline>=2.9.7",
-        "s6>=2.13.2",
-        "s6-rc>=0.5.6",
-        "s6-linux-init>=1.1.3",
-        "s6-portable-utils>=2.3.1",
-        "s6-linux-utils>=2.6.3",
-        "s6-dns>=2.4.1",
-        "s6-networking>=2.7.1",
-        "s6-overlay-helpers>=0.1.2"
+        "execline",
+        "s6",
+        "s6-rc",
+        "s6-linux-init",
+        "s6-portable-utils",
+        "s6-linux-utils",
+        "s6-dns",
+        "s6-networking",
+        "s6-overlay-helpers"
       ],
       "provides": [
-        "cmd:logutil-newfifo=3.2.0.3-r0",
-        "cmd:logutil-service=3.2.0.3-r0",
-        "cmd:printcontenv=3.2.0.3-r0",
-        "cmd:with-contenv=3.2.0.3-r0",
-        "cmd:with-retries=3.2.0.3-r0"
+        "cmd:logutil-newfifo=3.2.3.0-r0",
+        "cmd:logutil-service=3.2.3.0-r0",
+        "cmd:printcontenv=3.2.3.0-r0",
+        "cmd:with-contenv=3.2.3.0-r0",
+        "cmd:with-retries=3.2.3.0-r0"
       ]
     },
     "s6-overlay-doc": {
       "origin": "s6-overlay",
       "versions": {
-        "3.2.0.3-r0": 1769500947
+        "3.2.0.3-r0": 1769500947,
+        "3.2.3.0-r0": 1778384706
       }
     },
     "s6-overlay-helpers": {
       "origin": "s6-overlay-helpers",
       "versions": {
-        "0.1.2.1-r0": 1769500947
+        "0.1.2.1-r0": 1769500947,
+        "0.1.2.2-r0": 1778384706
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
         "so:libexecline.so.2.9",
-        "so:libskarnet.so.2.14"
+        "so:libskarnet.so.2.15"
       ],
       "provides": [
-        "cmd:s6-overlay-stat=0.1.2.1-r0",
-        "cmd:s6-overlay-suexec=0.1.2.1-r0"
+        "cmd:s6-overlay-stat=0.1.2.2-r0",
+        "cmd:s6-overlay-suexec=0.1.2.2-r0"
       ]
     },
     "s6-overlay-syslogd": {
       "origin": "s6-overlay",
       "versions": {
-        "3.2.0.3-r0": 1769500947
+        "3.2.0.3-r0": 1769500947,
+        "3.2.3.0-r0": 1778384706
       },
       "dependencies": [
-        "execline>=2.9.7",
-        "s6>=2.13.2",
-        "s6-rc>=0.5.6",
-        "s6-linux-init>=1.1.3",
-        "s6-portable-utils>=2.3.1",
-        "s6-linux-utils>=2.6.3",
-        "s6-dns>=2.4.1",
-        "s6-networking>=2.7.1",
-        "s6-overlay-helpers>=0.1.2"
+        "execline",
+        "s6",
+        "s6-rc",
+        "s6-linux-init",
+        "s6-portable-utils",
+        "s6-linux-utils",
+        "s6-dns",
+        "s6-networking",
+        "s6-overlay-helpers"
       ]
     },
     "s6-portable-utils-man-pages": {
@@ -293201,7 +293209,7 @@
       },
       "libopencc.so.1.3": {
         "package": "opencc-libs",
-        "version": "1.3.0"
+        "version": "1.3.1"
       },
       "libOpenCL.so.1": {
         "package": "opencl-icd-loader",
