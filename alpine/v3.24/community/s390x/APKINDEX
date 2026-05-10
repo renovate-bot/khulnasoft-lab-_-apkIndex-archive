@@ -4585,66 +4585,66 @@ c:198e6d5ec6bfa07fcdb28a32f9622bbbee69ff0b
 D:so:libQt6Core.so.6 so:libappstream.so.5 so:libc.musl-s390x.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libstdc++.so.6
 p:so:libAppStreamQt.so.3=1.1.2
 
-C:Q10OW32eJjNlQyKnAMBPf4+C+gLZU=
+C:Q1/cw1LxB5QbhfZZma/9N91ng1/o4=
 P:apptainer
-V:1.4.5-r4
+V:1.5.0-r0
 A:s390x
-S:26010497
-I:74352227
+S:26280327
+I:74893652
 T:Application containers for Linux
 U:https://apptainer.org/
 L:BSD-3-Clause AND BSD-3-Clause-LBNL
 o:apptainer
 m:Oleg Titov <oleg.titov@gmail.com>
-t:1775839666
-c:65ea66742129a8a7b4941bf9b582a939347c5c2a
+t:1778447209
+c:37eb386e892b278cd2aba22b79851a8f6adf7231
 D:fakeroot squashfs-tools so:libc.musl-s390x.so.1 so:libseccomp.so.2
-p:cmd:apptainer=1.4.5-r4 cmd:run-singularity=1.4.5-r4 cmd:singularity=1.4.5-r4
+p:cmd:apptainer=1.5.0-r0 cmd:run-singularity=1.5.0-r0 cmd:singularity=1.5.0-r0
 
-C:Q1bMSzHUuin3YwYxuvEeT53xC2jX8=
+C:Q18oAjw2FE3AEJq2jerfowwkXlw/s=
 P:apptainer-bash-completion
-V:1.4.5-r4
+V:1.5.0-r0
 A:s390x
-S:15683
-I:157448
+S:15834
+I:159736
 T:Bash completions for apptainer
 U:https://apptainer.org/
 L:BSD-3-Clause AND BSD-3-Clause-LBNL
 o:apptainer
 m:Oleg Titov <oleg.titov@gmail.com>
-t:1775839666
-c:65ea66742129a8a7b4941bf9b582a939347c5c2a
-i:apptainer=1.4.5-r4 bash-completion
+t:1778447209
+c:37eb386e892b278cd2aba22b79851a8f6adf7231
+i:apptainer=1.5.0-r0 bash-completion
 
-C:Q1Kh33Z9fxwMwRE/X1p9YaOY+NShQ=
+C:Q1IGE4S+SqCtDbuC7lpzH54liI2kw=
 P:apptainer-doc
-V:1.4.5-r4
+V:1.5.0-r0
 A:s390x
-S:150084
-I:135529
+S:153215
+I:138499
 T:Application containers for Linux (documentation)
 U:https://apptainer.org/
 L:BSD-3-Clause AND BSD-3-Clause-LBNL
 o:apptainer
 m:Oleg Titov <oleg.titov@gmail.com>
-t:1775839666
-c:65ea66742129a8a7b4941bf9b582a939347c5c2a
-i:docs apptainer=1.4.5-r4
+t:1778447209
+c:37eb386e892b278cd2aba22b79851a8f6adf7231
+i:docs apptainer=1.5.0-r0
 
-C:Q1dnzI6b+qit8b3z/71OcNs1sdGnQ=
+C:Q1ZM/Ok+MJv2+EDswlNOZ5q0SmPqc=
 P:apptainer-suid
-V:1.4.5-r4
+V:1.5.0-r0
 A:s390x
-S:8741224
-I:24728328
+S:9206448
+I:26049320
 T:Application containers for Linux (SUID helper binary)
 U:https://apptainer.org/
 L:BSD-3-Clause AND BSD-3-Clause-LBNL
 o:apptainer
 m:Oleg Titov <oleg.titov@gmail.com>
-t:1775839666
-c:65ea66742129a8a7b4941bf9b582a939347c5c2a
-D:apptainer=1.4.5-r4 so:libc.musl-s390x.so.1 so:libseccomp.so.2
+t:1778447209
+c:37eb386e892b278cd2aba22b79851a8f6adf7231
+D:apptainer=1.5.0-r0 so:libc.musl-s390x.so.1 so:libseccomp.so.2
 
 C:Q18/YKSP8mtUJkpJ8S5Ou46Rhj/g0=
 P:aprx
@@ -249902,20 +249902,20 @@ c:c1212baee8875f9ce02ce19d030544a3776b48aa
 D:python3~3.14
 i:py3-xmldiff=2.7.0-r2 pyc
 
-C:Q1ms83fMNyMqjMn6gbUjVJsKUkOo4=
+C:Q1Wa9bZJqMIc9/WXpyLB+1IbahsL8=
 P:py3-xmlsec
-V:1.3.17-r1
+V:1.3.17-r2
 A:s390x
-S:48363
-I:165262
+S:48529
+I:165702
 T:Python bindings for the XML Security Library
 U:https://pypi.python.org/project/xmlsec
 L:MIT
 o:py3-xmlsec
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1774640397
-c:f2870163bb17ed38f56c8b065e25bf32c312ca6c
-D:py3-lxml xmlsec python3~3.14 so:libc.musl-s390x.so.1 so:libxml2.so.2 so:libxmlsec1.so.1
+t:1778443871
+c:0c3edcd7d507f6758ba77e5ad896ea816700101c
+D:py3-lxml xmlsec python3~3.14 so:libc.musl-s390x.so.1 so:libxml2.so.2 so:libxmlsec1.so.10311
 
 C:Q1uB2uHYmo/CRZYtmWLvygqmbYDVk=
 P:py3-xmltodict

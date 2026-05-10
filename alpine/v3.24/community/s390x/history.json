@@ -3823,7 +3823,8 @@
     "apptainer": {
       "origin": "apptainer",
       "versions": {
-        "1.4.5-r4": 1775839666
+        "1.4.5-r4": 1775839666,
+        "1.5.0-r0": 1778447209
       },
       "dependencies": [
         "fakeroot",
@@ -3832,30 +3833,33 @@
         "so:libseccomp.so.2"
       ],
       "provides": [
-        "cmd:apptainer=1.4.5-r4",
-        "cmd:run-singularity=1.4.5-r4",
-        "cmd:singularity=1.4.5-r4"
+        "cmd:apptainer=1.5.0-r0",
+        "cmd:run-singularity=1.5.0-r0",
+        "cmd:singularity=1.5.0-r0"
       ]
     },
     "apptainer-bash-completion": {
       "origin": "apptainer",
       "versions": {
-        "1.4.5-r4": 1775839666
+        "1.4.5-r4": 1775839666,
+        "1.5.0-r0": 1778447209
       }
     },
     "apptainer-doc": {
       "origin": "apptainer",
       "versions": {
-        "1.4.5-r4": 1775839666
+        "1.4.5-r4": 1775839666,
+        "1.5.0-r0": 1778447209
       }
     },
     "apptainer-suid": {
       "origin": "apptainer",
       "versions": {
-        "1.4.5-r4": 1775839666
+        "1.4.5-r4": 1775839666,
+        "1.5.0-r0": 1778447209
       },
       "dependencies": [
-        "apptainer=1.4.5-r4",
+        "apptainer=1.5.0-r0",
         "so:libc.musl-s390x.so.1",
         "so:libseccomp.so.2"
       ]
@@ -226151,7 +226155,8 @@
     "py3-xmlsec": {
       "origin": "py3-xmlsec",
       "versions": {
-        "1.3.17-r1": 1774640397
+        "1.3.17-r1": 1774640397,
+        "1.3.17-r2": 1778443871
       },
       "dependencies": [
         "py3-lxml",
@@ -226159,7 +226164,7 @@
         "python3~3.14",
         "so:libc.musl-s390x.so.1",
         "so:libxml2.so.2",
-        "so:libxmlsec1.so.1"
+        "so:libxmlsec1.so.10311"
       ]
     },
     "py3-xmltodict": {
