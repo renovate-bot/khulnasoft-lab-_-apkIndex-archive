@@ -116336,7 +116336,8 @@
     "libzim": {
       "origin": "libzim",
       "versions": {
-        "9.6.0-r1": 1775705610
+        "9.6.0-r1": 1775705610,
+        "9.7.0-r0": 1778448064
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -116349,16 +116350,17 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "so:libzim.so.9=9.6.0"
+        "so:libzim.so.9=9.7.0"
       ]
     },
     "libzim-dev": {
       "origin": "libzim",
       "versions": {
-        "9.6.0-r1": 1775705610
+        "9.6.0-r1": 1775705610,
+        "9.7.0-r0": 1778448064
       },
       "dependencies": [
-        "libzim=9.6.0-r1",
+        "libzim=9.7.0-r0",
         "pc:icu-i18n",
         "pc:icu-uc",
         "pc:liblzma",
@@ -116367,13 +116369,14 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:libzim=9.6.0"
+        "pc:libzim=9.7.0"
       ]
     },
     "libzim-doc": {
       "origin": "libzim",
       "versions": {
-        "9.6.0-r1": 1775705610
+        "9.6.0-r1": 1775705610,
+        "9.7.0-r0": 1778448064
       }
     },
     "libzip": {
@@ -129344,7 +129347,8 @@
     "mkosi": {
       "origin": "mkosi",
       "versions": {
-        "26_git20260424-r1": 1777626827
+        "26_git20260424-r1": 1777626827,
+        "26_git20260510-r0": 1778447923
       },
       "dependencies": [
         "mkosi-sandbox",
@@ -129355,22 +129359,24 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:mkosi-addon=26_git20260424-r1",
-        "cmd:mkosi-initrd=26_git20260424-r1",
-        "cmd:mkosi=26_git20260424-r1",
-        "py3.14:mkosi=26_git20260424-r1"
+        "cmd:mkosi-addon=26_git20260510-r0",
+        "cmd:mkosi-initrd=26_git20260510-r0",
+        "cmd:mkosi=26_git20260510-r0",
+        "py3.14:mkosi=26_git20260510-r0"
       ]
     },
     "mkosi-doc": {
       "origin": "mkosi",
       "versions": {
-        "26_git20260424-r1": 1777626827
+        "26_git20260424-r1": 1777626827,
+        "26_git20260510-r0": 1778447923
       }
     },
     "mkosi-pyc": {
       "origin": "mkosi",
       "versions": {
-        "26_git20260424-r1": 1777626827
+        "26_git20260424-r1": 1777626827,
+        "26_git20260510-r0": 1778447923
       },
       "dependencies": [
         "python3~3.14"
@@ -129379,14 +129385,15 @@
     "mkosi-sandbox": {
       "origin": "mkosi",
       "versions": {
-        "26_git20260424-r1": 1777626827
+        "26_git20260424-r1": 1777626827,
+        "26_git20260510-r0": 1778447923
       },
       "dependencies": [
         "python3",
         "python3~3.14"
       ],
       "provides": [
-        "cmd:mkosi-sandbox=26_git20260424-r1"
+        "cmd:mkosi-sandbox=26_git20260510-r0"
       ]
     },
     "mkpasswd": {
@@ -292265,7 +292272,7 @@
       },
       "libzim.so.9": {
         "package": "libzim",
-        "version": "9.6.0"
+        "version": "9.7.0"
       },
       "libzip.so.5": {
         "package": "libzip",
