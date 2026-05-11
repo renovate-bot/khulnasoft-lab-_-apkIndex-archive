@@ -7354,37 +7354,37 @@ c:308182d1726981039a3e438dd7846550f13469aa
 D:so:libc.musl-s390x.so.1 so:libelf.so.1 so:libftdi1.so.2 so:libgpiod.so.3 so:libhidapi-libusb.so.0 so:libusb-1.0.so.0
 p:so:libavrdude.so.3=3.0.0
 
-C:Q1dcts2ZVSnUmmzfJk8YWWPCP7z7s=
+C:Q1GJiAlOoVpysrWXiiXd5ZVpKJiqg=
 P:avro
-V:1.11.5-r0
+V:1.12.1-r0
 A:s390x
-S:154950
-I:366624
+S:111567
+I:247360
 T:Avro, a data serialization system
 U:https://avro.apache.org/docs/current/api/c/index.html
 L:Apache-2.0
 o:avro
 m:nu <llnu@protonmail.ch>
-t:1763904252
-c:ae9e16a9471bf3694387ab2e8f86116b934049d7
-D:so:libavro.so.23 so:libavrocpp.so.1.11.5 so:libboost_program_options.so.1.84.0 so:libc.musl-s390x.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:cmd:avroappend=1.11.5-r0 cmd:avrocat=1.11.5-r0 cmd:avrogencpp=1.11.5-r0 cmd:avromod=1.11.5-r0 cmd:avropipe=1.11.5-r0
+t:1778541576
+c:342c955896ceac42b14ef29ee4a75c2d520e12fa
+D:so:libavro.so.24 so:libavrocpp.so.1.12.1 so:libc.musl-s390x.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+p:cmd:avroappend=1.12.1-r0 cmd:avrocat=1.12.1-r0 cmd:avrogencpp=1.12.1-r0 cmd:avromod=1.12.1-r0 cmd:avropipe=1.12.1-r0
 
-C:Q1VFVW4zHF3OV7HGomqMWu7EkPhNE=
+C:Q1wLoMMPxS0qDA9pDaPIjTCzZ3Xxc=
 P:avro-dev
-V:1.11.5-r0
+V:1.12.1-r0
 A:s390x
-S:66905
-I:315648
+S:71462
+I:331391
 T:Avro, a data serialization system (development files)
 U:https://avro.apache.org/docs/current/api/c/index.html
 L:Apache-2.0
 o:avro
 m:nu <llnu@protonmail.ch>
-t:1763904252
-c:ae9e16a9471bf3694387ab2e8f86116b934049d7
-D:boost-dev jansson-dev snappy-dev libavro=1.11.5-r0 libavrocpp=1.11.5-r0 pc:liblzma pc:zlib pkgconfig
-p:pc:avro-c=1.11.5
+t:1778541576
+c:342c955896ceac42b14ef29ee4a75c2d520e12fa
+D:boost-dev jansson-dev snappy-dev libavro=1.12.1-r0 libavrocpp=1.12.1-r0 pc:liblzma pc:zlib pkgconfig
+p:pc:avro-c=1.12.1
 
 C:Q10V7ZJp298rMn1WNqMkRN5RW/gyc=
 P:awake
@@ -72189,36 +72189,36 @@ c:65ea66742129a8a7b4941bf9b582a939347c5c2a
 D:so:libc.musl-s390x.so.1
 p:cmd:gosu=1.19-r3
 
-C:Q1MlVx4FhQShARXyJYCmRKiUeQOxA=
+C:Q1LHvvXqz8GDkJIg/PiizqrJ5bUBU=
 P:got
-V:0.124-r0
+V:0.125-r0
 A:s390x
-S:1974861
-I:4587656
+S:1975537
+I:4595920
 T:A VCS which prioritizes ease of use and simplicity over flexibility
 U:https://gameoftrees.org/
 L:ISC
 o:got
 m:omni <omni+alpine@hack.org>
-t:1776390566
-c:578f85112b64e5636674e2870721c20666c58ca8
+t:1778538077
+c:9d45bc7f16e62683cda322796c9f5454bf836526
 D:so:libbsd.so.0 so:libc.musl-s390x.so.1 so:libcrypto.so.3 so:libevent_core-2.1.so.7 so:libmd.so.0 so:libncursesw.so.6 so:libpanelw.so.6 so:libtls.so.10 so:libuuid.so.1 so:libz.so.1
-p:cmd:gitwrapper=0.124-r0 cmd:got=0.124-r0 cmd:gotadmin=0.124-r0 cmd:gotctl=0.124-r0 cmd:gotd=0.124-r0 cmd:gotsh=0.124-r0 cmd:gotwebctl=0.124-r0 cmd:gotwebd=0.124-r0 cmd:tog=0.124-r0
+p:cmd:gitwrapper=0.125-r0 cmd:got=0.125-r0 cmd:gotadmin=0.125-r0 cmd:gotctl=0.125-r0 cmd:gotd=0.125-r0 cmd:gotsh=0.125-r0 cmd:gotwebctl=0.125-r0 cmd:gotwebd=0.125-r0 cmd:tog=0.125-r0
 
-C:Q1DN2566pt/lOFAC1lM9zWrcSxHzc=
+C:Q1kkTBAx469HI6EFRXaLZ+TGI/GlY=
 P:got-doc
-V:0.124-r0
+V:0.125-r0
 A:s390x
-S:77364
-I:73826
+S:77372
+I:73842
 T:A VCS which prioritizes ease of use and simplicity over flexibility (documentation)
 U:https://gameoftrees.org/
 L:ISC
 o:got
 m:omni <omni+alpine@hack.org>
-t:1776390566
-c:578f85112b64e5636674e2870721c20666c58ca8
-i:docs got=0.124-r0
+t:1778538077
+c:9d45bc7f16e62683cda322796c9f5454bf836526
+i:docs got=0.125-r0
 
 C:Q11XLEvKX+oUh7iGDW/yFpr5aVMwg=
 P:gotestfmt
@@ -90982,21 +90982,21 @@ t:1777900518
 c:32bf34cfb9bff508b6aa725e134e6d9b53db8015
 i:kcalutils=26.04.0-r0 lang
 
-C:Q1O5gvRkcyHpK4amaCKmXoiit9g/A=
+C:Q1L7LJXMLjtcy6Uvt4t65xdtilpSA=
 P:kcat
-V:1.7.1-r2
+V:1.7.1-r3
 A:s390x
-S:29280
+S:29283
 I:70600
 T:Generic command-line non-JVM Apache Kafka producer and consumer
 U:https://github.com/edenhill/kcat
 L:BSD-2-Clause
 o:kcat
 m:Andrey Pustovetov <andrey.pustovetov@gmail.com>
-t:1696662207
-c:c8b08b43f9f07c4377970eee245892f3b694d2c9
-D:so:libavro.so.23 so:libc.musl-s390x.so.1 so:librdkafka.so.1 so:libserdes.so.1 so:libyajl.so.2
-p:kafkacat=1.7.1-r2 cmd:kcat=1.7.1-r2
+t:1778541576
+c:b917f4b51ba0f31b8100b8ac678cb7b9044e0c2f
+D:so:libavro.so.24 so:libc.musl-s390x.so.1 so:librdkafka.so.1 so:libserdes.so.1 so:libyajl.so.2
+p:kafkacat=1.7.1-r3 cmd:kcat=1.7.1-r3
 
 C:Q1zsVgKFtdE4VLp4AG6SJmlmteHP0=
 P:kcgi
@@ -106137,37 +106137,37 @@ t:1735923969
 c:6867e384dbfbd0b8efadbca989e9778190e89496
 i:docs libavc1394=0.5.4-r3
 
-C:Q1KcLZXYAMZG0hKRpqQwriFCrBmgA=
+C:Q17FpYfyyXfqVAPElV10YTqFu0KzY=
 P:libavro
-V:1.11.5-r0
+V:1.12.1-r0
 A:s390x
-S:88981
+S:89148
 I:251016
 T:Avro, a data serialization system (C library)
 U:https://avro.apache.org/docs/current/api/c/index.html
 L:Apache-2.0
 o:avro
 m:nu <llnu@protonmail.ch>
-t:1763904252
-c:ae9e16a9471bf3694387ab2e8f86116b934049d7
+t:1778541576
+c:342c955896ceac42b14ef29ee4a75c2d520e12fa
 D:so:libc.musl-s390x.so.1 so:libjansson.so.4 so:liblzma.so.5 so:libsnappy.so.1 so:libz.so.1
-p:so:libavro.so.23=23.0.0
+p:so:libavro.so.24=24.0.1
 
-C:Q1zDhk2k8289ucn34Kdjr9lL9I3rM=
+C:Q1ZBd8SP1LhJtTdtPq1r/g6OxdwG8=
 P:libavrocpp
-V:1.11.5-r0
+V:1.12.1-r0
 A:s390x
-S:310438
-I:837880
+S:537241
+I:1489136
 T:Avro, a data serialization system (C++ library)
 U:https://avro.apache.org/docs/current/api/c/index.html
 L:Apache-2.0
 o:avro
 m:nu <llnu@protonmail.ch>
-t:1763904252
-c:ae9e16a9471bf3694387ab2e8f86116b934049d7
-D:so:libboost_iostreams.so.1.84.0 so:libc.musl-s390x.so.1 so:libgcc_s.so.1 so:libsnappy.so.1 so:libstdc++.so.6
-p:so:libavrocpp.so.1.11.5=1.11.5
+t:1778541576
+c:342c955896ceac42b14ef29ee4a75c2d520e12fa
+D:so:libc.musl-s390x.so.1 so:libgcc_s.so.1 so:libsnappy.so.1 so:libstdc++.so.6 so:libz.so.1
+p:so:libavrocpp.so.1.12.1=1.12.1
 
 C:Q1OkPwtbJKM5kAdjgDii9MeZm3+eg=
 P:libax25
@@ -122703,39 +122703,39 @@ t:1775998369
 c:c9f4c6a5eeb1984db40482ab58f2d1d1509f6a72
 i:docs libsepol=3.10-r0
 
-C:Q1hfNn+/aMuzqPWoYkAFNPM0dSPUk=
+C:Q1FsxaPCr1S+g8bs1d4PakbajR8h8=
 P:libserdes
-V:7.6.1-r1
+V:8.2.0-r0
 A:s390x
-S:15976
+S:15974
 I:38640
 T:Avro Serialization/Deserialization C/C++ library with Confluent schema-registry support
 U:https://github.com/confluentinc/libserdes
 L:Apache-2.0
 o:libserdes
-t:1765453919
-c:c31e760491cbf859daecd89f7d606ce9c6a4f034
-D:so:libavro.so.23 so:libc.musl-s390x.so.1 so:libcurl.so.4 so:libjansson.so.4
+t:1778541576
+c:b22e0ad1ad4ec845a63f9b0865f31d6b9e51e1b4
+D:so:libavro.so.24 so:libc.musl-s390x.so.1 so:libcurl.so.4 so:libjansson.so.4
 p:so:libserdes.so.1=1
 
-C:Q1sZ3rmGSfSsTvu79rI2CUAOLnX/Q=
+C:Q1u8dOCPWiUELb4GYJkBSt1GKWmts=
 P:libserdes++
-V:7.6.1-r1
+V:8.2.0-r0
 A:s390x
-S:14189
+S:14246
 I:34736
 T:Avro Serialization/Deserialization C/C++ library with Confluent schema-registry support
 U:https://github.com/confluentinc/libserdes
 L:Apache-2.0
 o:libserdes
-t:1765453919
-c:c31e760491cbf859daecd89f7d606ce9c6a4f034
-D:so:libavrocpp.so.1.11.5 so:libc.musl-s390x.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+t:1778541576
+c:b22e0ad1ad4ec845a63f9b0865f31d6b9e51e1b4
+D:so:libavrocpp.so.1.12.1 so:libc.musl-s390x.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 p:so:libserdes++.so.1=1
 
-C:Q1Y1RcijOMGgWljwIWmr8fBR50ulQ=
+C:Q1pvyzk63z3BJa/C74FRjh5FyA93M=
 P:libserdes-dev
-V:7.6.1-r1
+V:8.2.0-r0
 A:s390x
 S:7609
 I:23226
@@ -122743,9 +122743,9 @@ T:Avro Serialization/Deserialization C/C++ library with Confluent schema-registr
 U:https://github.com/confluentinc/libserdes
 L:Apache-2.0
 o:libserdes
-t:1765453919
-c:c31e760491cbf859daecd89f7d606ce9c6a4f034
-D:libserdes++=7.6.1-r1 libserdes=7.6.1-r1 pc:avro-c pc:jansson pc:libcurl pkgconfig
+t:1778541576
+c:b22e0ad1ad4ec845a63f9b0865f31d6b9e51e1b4
+D:libserdes++=8.2.0-r0 libserdes=8.2.0-r0 pc:avro-c pc:jansson pc:libcurl pkgconfig
 p:pc:serdes++=0 pc:serdes=0
 
 C:Q1EouwcAXc4ViHel7c9T427WdZPOc=
@@ -151641,40 +151641,40 @@ c:18e16dd685840537d41cd32404acdcd0d81cabe1
 D:nextcloud33
 p:nextcloud-webhook_listeners=33.0.3-r1
 
-C:Q1g4FidrvNNAJNm6snh5T4Uhqfutc=
+C:Q1VxuBcTDI6ydJr8qvFAAqkX5XIlg=
 P:nextvi
-V:4.2.0-r0
+V:5.0-r0
 A:s390x
-S:100055
-I:228096
+S:101292
+I:233168
 T:A small vi/ex terminal text editor (neatvi rewrite)
 U:https://github.com/kyx0r/nextvi/
 L:ISC
 o:nextvi
 m:omni <omni+alpine@hack.org>
-t:1776390612
-c:e052509bd72cac066cc98002b6bcd85b7b978bc2
+t:1778537998
+c:c03588bf8409171efd8b4edc26e4c0bf9652b85e
 D:so:libc.musl-s390x.so.1
-p:cmd:nextvi=4.2.0-r0
+p:cmd:nextvi=5.0-r0
 
-C:Q1A3gCCuVQHqDwlm/Bw71nkgI6SoY=
+C:Q1Gc0x0gnFPB4Nr7HGfDW7sv+KeCg=
 P:nextvi-doc
-V:4.2.0-r0
+V:5.0-r0
 A:s390x
-S:17823
-I:16005
+S:17961
+I:16150
 T:A small vi/ex terminal text editor (neatvi rewrite) (documentation)
 U:https://github.com/kyx0r/nextvi/
 L:ISC
 o:nextvi
 m:omni <omni+alpine@hack.org>
-t:1776390612
-c:e052509bd72cac066cc98002b6bcd85b7b978bc2
-i:docs nextvi=4.2.0-r0
+t:1778537998
+c:c03588bf8409171efd8b4edc26e4c0bf9652b85e
+i:docs nextvi=5.0-r0
 
-C:Q1zwhs53L+yZhxNePscmiPBKIxw8U=
+C:Q1QTotfHzqSeqrN+wT5cwjZsF4aIg=
 P:nextvi-vi
-V:4.2.0-r0
+V:5.0-r0
 A:s390x
 S:1541
 I:1
@@ -151683,26 +151683,26 @@ U:https://github.com/kyx0r/nextvi/
 L:ISC
 o:nextvi
 m:omni <omni+alpine@hack.org>
-t:1776390612
-c:e052509bd72cac066cc98002b6bcd85b7b978bc2
-D:nextvi=4.2.0-r0 nextvi=4.2.0-r0
-p:cmd:vi=4.2.0-r0
+t:1778537998
+c:c03588bf8409171efd8b4edc26e4c0bf9652b85e
+D:nextvi=5.0-r0 nextvi=5.0-r0
+p:cmd:vi=5.0-r0
 
-C:Q1fhwBuWaz7SUGqupPoDEvFQ2x1lY=
+C:Q1P/Mm7VKnrKtsubTESNHbIpE9BwM=
 P:nextvi-vi-doc
-V:4.2.0-r0
+V:5.0-r0
 A:s390x
-S:1626
+S:1627
 I:1
 T:nextvi vi(1) provider manpage
 U:https://github.com/kyx0r/nextvi/
 L:ISC
 o:nextvi
 m:omni <omni+alpine@hack.org>
-t:1776390612
-c:e052509bd72cac066cc98002b6bcd85b7b978bc2
-D:nextvi-doc=4.2.0-r0 nextvi-doc=4.2.0-r0
-i:docs nextvi-vi=4.2.0-r0
+t:1778537998
+c:c03588bf8409171efd8b4edc26e4c0bf9652b85e
+D:nextvi-doc=5.0-r0 nextvi-doc=5.0-r0
+i:docs nextvi-vi=5.0-r0
 
 C:Q12tx/BP3t3z3JH/JN2PtLBKi7+2A=
 P:nfpm
@@ -270555,52 +270555,52 @@ t:1771160091
 c:a9e2a2dc46f377eb25884f7fea9834492de7f518
 D:sdb-dev
 
-C:Q1ptqHe8kqUtrpArU6MuvlBYho450=
+C:Q1BW5HxU1IfIslctEpXXhN4hnvPqY=
 P:sdbus-cpp
-V:2.1.0-r0
+V:2.2.1-r0
 A:s390x
-S:89625
-I:280496
+S:90594
+I:284592
 T:unofficial, high-level C++ dbus bindings
 U:https://github.com/Kistler-Group/sdbus-cpp/
 L:LGPL-2.1-or-later
 o:sdbus-cpp
 m:Krassy Boykinov <kboykinov@teamcentrixx.com>
-t:1753219529
-c:4427b0aaf8b52b0b028c3208a4d75b0ced3d5ba1
+t:1778541775
+c:3111adec564972383e35d89e63ff1b90365d2fd8
 D:so:libc.musl-s390x.so.1 so:libelogind.so.0 so:libgcc_s.so.1 so:libstdc++.so.6
-p:so:libsdbus-c++.so.2=2.1.0
+p:so:libsdbus-c++.so.2=2.2.1
 
-C:Q1TFmqxF+Z3Z05JMN1BiRd3RyOHIU=
+C:Q1FrMvBX/oxTmM+c0HAjk4Qy0JG8s=
 P:sdbus-cpp-dev
-V:2.1.0-r0
+V:2.2.1-r0
 A:s390x
-S:117396
-I:474130
+S:117576
+I:472126
 T:unofficial, high-level C++ dbus bindings (development files)
 U:https://github.com/Kistler-Group/sdbus-cpp/
 L:LGPL-2.1-or-later
 o:sdbus-cpp
 m:Krassy Boykinov <kboykinov@teamcentrixx.com>
-t:1753219529
-c:4427b0aaf8b52b0b028c3208a4d75b0ced3d5ba1
-D:sdbus-cpp=2.1.0-r0 pc:libsystemd pkgconfig so:libc.musl-s390x.so.1 so:libexpat.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:cmd:sdbus-c++-xml2cpp=2.1.0-r0 pc:sdbus-c++-tools=2.1.0 pc:sdbus-c++=2.1.0
+t:1778541775
+c:3111adec564972383e35d89e63ff1b90365d2fd8
+D:sdbus-cpp=2.2.1-r0 pc:libsystemd pkgconfig so:libc.musl-s390x.so.1 so:libexpat.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+p:cmd:sdbus-c++-xml2cpp=2.2.1-r0 pc:sdbus-c++-tools=2.2.1 pc:sdbus-c++=2.2.1
 
-C:Q1eZ8LYcZpwEtOpGwT4slMhNeKkLs=
+C:Q12ocVWQWq3NgzvFRPqINGCpSF4qk=
 P:sdbus-cpp-doc
-V:2.1.0-r0
+V:2.2.1-r0
 A:s390x
-S:87540
-I:202562
+S:87728
+I:203119
 T:unofficial, high-level C++ dbus bindings (documentation)
 U:https://github.com/Kistler-Group/sdbus-cpp/
 L:LGPL-2.1-or-later
 o:sdbus-cpp
 m:Krassy Boykinov <kboykinov@teamcentrixx.com>
-t:1753219529
-c:4427b0aaf8b52b0b028c3208a4d75b0ced3d5ba1
-i:docs sdbus-cpp=2.1.0-r0
+t:1778541775
+c:3111adec564972383e35d89e63ff1b90365d2fd8
+i:docs sdbus-cpp=2.2.1-r0
 
 C:Q1oSlr2xJXDbjMjEMWwKbK1jntPh8=
 P:sdcv

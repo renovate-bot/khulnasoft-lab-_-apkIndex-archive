@@ -6013,41 +6013,42 @@
     "avro": {
       "origin": "avro",
       "versions": {
-        "1.11.5-r0": 1763904252
+        "1.11.5-r0": 1763904252,
+        "1.12.1-r0": 1778541576
       },
       "dependencies": [
-        "so:libavro.so.23",
-        "so:libavrocpp.so.1.11.5",
-        "so:libboost_program_options.so.1.84.0",
+        "so:libavro.so.24",
+        "so:libavrocpp.so.1.12.1",
         "so:libc.musl-s390x.so.1",
         "so:libgcc_s.so.1",
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:avroappend=1.11.5-r0",
-        "cmd:avrocat=1.11.5-r0",
-        "cmd:avrogencpp=1.11.5-r0",
-        "cmd:avromod=1.11.5-r0",
-        "cmd:avropipe=1.11.5-r0"
+        "cmd:avroappend=1.12.1-r0",
+        "cmd:avrocat=1.12.1-r0",
+        "cmd:avrogencpp=1.12.1-r0",
+        "cmd:avromod=1.12.1-r0",
+        "cmd:avropipe=1.12.1-r0"
       ]
     },
     "avro-dev": {
       "origin": "avro",
       "versions": {
-        "1.11.5-r0": 1763904252
+        "1.11.5-r0": 1763904252,
+        "1.12.1-r0": 1778541576
       },
       "dependencies": [
         "boost-dev",
         "jansson-dev",
         "snappy-dev",
-        "libavro=1.11.5-r0",
-        "libavrocpp=1.11.5-r0",
+        "libavro=1.12.1-r0",
+        "libavrocpp=1.12.1-r0",
         "pc:liblzma",
         "pc:zlib",
         "pkgconfig"
       ],
       "provides": [
-        "pc:avro-c=1.11.5"
+        "pc:avro-c=1.12.1"
       ]
     },
     "awake": {
@@ -66222,7 +66223,8 @@
     "got": {
       "origin": "got",
       "versions": {
-        "0.124-r0": 1776390566
+        "0.124-r0": 1776390566,
+        "0.125-r0": 1778538077
       },
       "dependencies": [
         "so:libbsd.so.0",
@@ -66237,21 +66239,22 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:gitwrapper=0.124-r0",
-        "cmd:got=0.124-r0",
-        "cmd:gotadmin=0.124-r0",
-        "cmd:gotctl=0.124-r0",
-        "cmd:gotd=0.124-r0",
-        "cmd:gotsh=0.124-r0",
-        "cmd:gotwebctl=0.124-r0",
-        "cmd:gotwebd=0.124-r0",
-        "cmd:tog=0.124-r0"
+        "cmd:gitwrapper=0.125-r0",
+        "cmd:got=0.125-r0",
+        "cmd:gotadmin=0.125-r0",
+        "cmd:gotctl=0.125-r0",
+        "cmd:gotd=0.125-r0",
+        "cmd:gotsh=0.125-r0",
+        "cmd:gotwebctl=0.125-r0",
+        "cmd:gotwebd=0.125-r0",
+        "cmd:tog=0.125-r0"
       ]
     },
     "got-doc": {
       "origin": "got",
       "versions": {
-        "0.124-r0": 1776390566
+        "0.124-r0": 1776390566,
+        "0.125-r0": 1778538077
       }
     },
     "gotestfmt": {
@@ -82792,18 +82795,19 @@
     "kcat": {
       "origin": "kcat",
       "versions": {
-        "1.7.1-r2": 1696662207
+        "1.7.1-r2": 1696662207,
+        "1.7.1-r3": 1778541576
       },
       "dependencies": [
-        "so:libavro.so.23",
+        "so:libavro.so.24",
         "so:libc.musl-s390x.so.1",
         "so:librdkafka.so.1",
         "so:libserdes.so.1",
         "so:libyajl.so.2"
       ],
       "provides": [
-        "kafkacat=1.7.1-r2",
-        "cmd:kcat=1.7.1-r2"
+        "kafkacat=1.7.1-r3",
+        "cmd:kcat=1.7.1-r3"
       ]
     },
     "kcgi": {
@@ -96688,7 +96692,8 @@
     "libavro": {
       "origin": "avro",
       "versions": {
-        "1.11.5-r0": 1763904252
+        "1.11.5-r0": 1763904252,
+        "1.12.1-r0": 1778541576
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -96698,23 +96703,24 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libavro.so.23=23.0.0"
+        "so:libavro.so.24=24.0.1"
       ]
     },
     "libavrocpp": {
       "origin": "avro",
       "versions": {
-        "1.11.5-r0": 1763904252
+        "1.11.5-r0": 1763904252,
+        "1.12.1-r0": 1778541576
       },
       "dependencies": [
-        "so:libboost_iostreams.so.1.84.0",
         "so:libc.musl-s390x.so.1",
         "so:libgcc_s.so.1",
         "so:libsnappy.so.1",
-        "so:libstdc++.so.6"
+        "so:libstdc++.so.6",
+        "so:libz.so.1"
       ],
       "provides": [
-        "so:libavrocpp.so.1.11.5=1.11.5"
+        "so:libavrocpp.so.1.12.1=1.12.1"
       ]
     },
     "libax25": {
@@ -111756,10 +111762,11 @@
     "libserdes": {
       "origin": "libserdes",
       "versions": {
-        "7.6.1-r1": 1765453919
+        "7.6.1-r1": 1765453919,
+        "8.2.0-r0": 1778541576
       },
       "dependencies": [
-        "so:libavro.so.23",
+        "so:libavro.so.24",
         "so:libc.musl-s390x.so.1",
         "so:libcurl.so.4",
         "so:libjansson.so.4"
@@ -111771,10 +111778,11 @@
     "libserdes++": {
       "origin": "libserdes",
       "versions": {
-        "7.6.1-r1": 1765453919
+        "7.6.1-r1": 1765453919,
+        "8.2.0-r0": 1778541576
       },
       "dependencies": [
-        "so:libavrocpp.so.1.11.5",
+        "so:libavrocpp.so.1.12.1",
         "so:libc.musl-s390x.so.1",
         "so:libgcc_s.so.1",
         "so:libstdc++.so.6"
@@ -111786,11 +111794,12 @@
     "libserdes-dev": {
       "origin": "libserdes",
       "versions": {
-        "7.6.1-r1": 1765453919
+        "7.6.1-r1": 1765453919,
+        "8.2.0-r0": 1778541576
       },
       "dependencies": [
-        "libserdes++=7.6.1-r1",
-        "libserdes=7.6.1-r1",
+        "libserdes++=8.2.0-r0",
+        "libserdes=8.2.0-r0",
         "pc:avro-c",
         "pc:jansson",
         "pc:libcurl",
@@ -137132,42 +137141,46 @@
     "nextvi": {
       "origin": "nextvi",
       "versions": {
-        "4.2.0-r0": 1776390612
+        "4.2.0-r0": 1776390612,
+        "5.0-r0": 1778537998
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:nextvi=4.2.0-r0"
+        "cmd:nextvi=5.0-r0"
       ]
     },
     "nextvi-doc": {
       "origin": "nextvi",
       "versions": {
-        "4.2.0-r0": 1776390612
+        "4.2.0-r0": 1776390612,
+        "5.0-r0": 1778537998
       }
     },
     "nextvi-vi": {
       "origin": "nextvi",
       "versions": {
-        "4.2.0-r0": 1776390612
+        "4.2.0-r0": 1776390612,
+        "5.0-r0": 1778537998
       },
       "dependencies": [
-        "nextvi=4.2.0-r0",
-        "nextvi=4.2.0-r0"
+        "nextvi=5.0-r0",
+        "nextvi=5.0-r0"
       ],
       "provides": [
-        "cmd:vi=4.2.0-r0"
+        "cmd:vi=5.0-r0"
       ]
     },
     "nextvi-vi-doc": {
       "origin": "nextvi",
       "versions": {
-        "4.2.0-r0": 1776390612
+        "4.2.0-r0": 1776390612,
+        "5.0-r0": 1778537998
       },
       "dependencies": [
-        "nextvi-doc=4.2.0-r0",
-        "nextvi-doc=4.2.0-r0"
+        "nextvi-doc=5.0-r0",
+        "nextvi-doc=5.0-r0"
       ]
     },
     "nfpm": {
@@ -244393,7 +244406,8 @@
     "sdbus-cpp": {
       "origin": "sdbus-cpp",
       "versions": {
-        "2.1.0-r0": 1753219529
+        "2.1.0-r0": 1753219529,
+        "2.2.1-r0": 1778541775
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -244402,16 +244416,17 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libsdbus-c++.so.2=2.1.0"
+        "so:libsdbus-c++.so.2=2.2.1"
       ]
     },
     "sdbus-cpp-dev": {
       "origin": "sdbus-cpp",
       "versions": {
-        "2.1.0-r0": 1753219529
+        "2.1.0-r0": 1753219529,
+        "2.2.1-r0": 1778541775
       },
       "dependencies": [
-        "sdbus-cpp=2.1.0-r0",
+        "sdbus-cpp=2.2.1-r0",
         "pc:libsystemd",
         "pkgconfig",
         "so:libc.musl-s390x.so.1",
@@ -244420,15 +244435,16 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:sdbus-c++-xml2cpp=2.1.0-r0",
-        "pc:sdbus-c++-tools=2.1.0",
-        "pc:sdbus-c++=2.1.0"
+        "cmd:sdbus-c++-xml2cpp=2.2.1-r0",
+        "pc:sdbus-c++-tools=2.2.1",
+        "pc:sdbus-c++=2.2.1"
       ]
     },
     "sdbus-cpp-doc": {
       "origin": "sdbus-cpp",
       "versions": {
-        "2.1.0-r0": 1753219529
+        "2.1.0-r0": 1753219529,
+        "2.2.1-r0": 1778541775
       }
     },
     "sdcv": {
@@ -296821,7 +296837,7 @@
       },
       "libsdbus-c++.so.2": {
         "package": "sdbus-cpp",
-        "version": "2.1.0"
+        "version": "2.2.1"
       },
       "libSDL-1.2.so.0": {
         "package": "sdl12-compat",
@@ -298302,6 +298318,14 @@
       "liblogwtmp.so": {
         "package": "accel-ppp",
         "version": "0"
+      },
+      "libavro.so.24": {
+        "package": "libavro",
+        "version": "24.0.1"
+      },
+      "libavrocpp.so.1.12.1": {
+        "package": "libavrocpp",
+        "version": "1.12.1"
       }
     },
     "package": {
@@ -298935,7 +298959,7 @@
       },
       "kafkacat": {
         "package": "kcat",
-        "version": "1.7.1-r2"
+        "version": "1.7.1-r3"
       },
       "kdsoap-qt6-dev": {
         "package": "kdsoap-dev",

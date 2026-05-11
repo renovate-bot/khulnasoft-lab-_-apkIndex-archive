@@ -68151,7 +68151,8 @@
     "got": {
       "origin": "got",
       "versions": {
-        "0.124-r0": 1776390566
+        "0.124-r0": 1776390566,
+        "0.125-r0": 1778538077
       },
       "dependencies": [
         "so:libbsd.so.0",
@@ -68166,21 +68167,22 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:gitwrapper=0.124-r0",
-        "cmd:got=0.124-r0",
-        "cmd:gotadmin=0.124-r0",
-        "cmd:gotctl=0.124-r0",
-        "cmd:gotd=0.124-r0",
-        "cmd:gotsh=0.124-r0",
-        "cmd:gotwebctl=0.124-r0",
-        "cmd:gotwebd=0.124-r0",
-        "cmd:tog=0.124-r0"
+        "cmd:gitwrapper=0.125-r0",
+        "cmd:got=0.125-r0",
+        "cmd:gotadmin=0.125-r0",
+        "cmd:gotctl=0.125-r0",
+        "cmd:gotd=0.125-r0",
+        "cmd:gotsh=0.125-r0",
+        "cmd:gotwebctl=0.125-r0",
+        "cmd:gotwebd=0.125-r0",
+        "cmd:tog=0.125-r0"
       ]
     },
     "got-doc": {
       "origin": "got",
       "versions": {
-        "0.124-r0": 1776390566
+        "0.124-r0": 1776390566,
+        "0.125-r0": 1778538077
       }
     },
     "gotestfmt": {
@@ -90952,7 +90954,8 @@
     "kissfft": {
       "origin": "kissfft",
       "versions": {
-        "131.2.0-r0": 1761393636
+        "131.2.0-r0": 1761393636,
+        "131.2.0_git20260422-r0": 1778542118
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -90960,20 +90963,21 @@
         "so:libpng16.so.16"
       ],
       "provides": [
-        "cmd:fastconv-float=131.2.0-r0",
-        "cmd:fastconvr-float=131.2.0-r0",
-        "cmd:fft-float=131.2.0-r0",
-        "cmd:psdpng-float=131.2.0-r0"
+        "cmd:fastconv-float=131.2.0_git20260422-r0",
+        "cmd:fastconvr-float=131.2.0_git20260422-r0",
+        "cmd:fft-float=131.2.0_git20260422-r0",
+        "cmd:psdpng-float=131.2.0_git20260422-r0"
       ]
     },
     "kissfft-dev": {
       "origin": "kissfft",
       "versions": {
-        "131.2.0-r0": 1761393636
+        "131.2.0-r0": 1761393636,
+        "131.2.0_git20260422-r0": 1778542118
       },
       "dependencies": [
-        "kissfft=131.2.0-r0",
-        "kissfft-libs=131.2.0-r0",
+        "kissfft=131.2.0_git20260422-r0",
+        "kissfft-libs=131.2.0_git20260422-r0",
         "pkgconfig"
       ],
       "provides": [
@@ -90983,7 +90987,8 @@
     "kissfft-libs": {
       "origin": "kissfft",
       "versions": {
-        "131.2.0-r0": 1761393636
+        "131.2.0-r0": 1761393636,
+        "131.2.0_git20260422-r0": 1778542118
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
@@ -143395,42 +143400,46 @@
     "nextvi": {
       "origin": "nextvi",
       "versions": {
-        "4.2.0-r0": 1776390612
+        "4.2.0-r0": 1776390612,
+        "5.0-r0": 1778537998
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:nextvi=4.2.0-r0"
+        "cmd:nextvi=5.0-r0"
       ]
     },
     "nextvi-doc": {
       "origin": "nextvi",
       "versions": {
-        "4.2.0-r0": 1776390612
+        "4.2.0-r0": 1776390612,
+        "5.0-r0": 1778537998
       }
     },
     "nextvi-vi": {
       "origin": "nextvi",
       "versions": {
-        "4.2.0-r0": 1776390612
+        "4.2.0-r0": 1776390612,
+        "5.0-r0": 1778537998
       },
       "dependencies": [
-        "nextvi=4.2.0-r0",
-        "nextvi=4.2.0-r0"
+        "nextvi=5.0-r0",
+        "nextvi=5.0-r0"
       ],
       "provides": [
-        "cmd:vi=4.2.0-r0"
+        "cmd:vi=5.0-r0"
       ]
     },
     "nextvi-vi-doc": {
       "origin": "nextvi",
       "versions": {
-        "4.2.0-r0": 1776390612
+        "4.2.0-r0": 1776390612,
+        "5.0-r0": 1778537998
       },
       "dependencies": [
-        "nextvi-doc=4.2.0-r0",
-        "nextvi-doc=4.2.0-r0"
+        "nextvi-doc=5.0-r0",
+        "nextvi-doc=5.0-r0"
       ]
     },
     "nfpm": {
@@ -198673,33 +198682,37 @@
     "pueue": {
       "origin": "pueue",
       "versions": {
-        "3.4.1-r1": 1720951900
+        "3.4.1-r1": 1720951900,
+        "4.0.4-r0": 1778541886
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:pueue=3.4.1-r1",
-        "cmd:pueued=3.4.1-r1"
+        "cmd:pueue=4.0.4-r0",
+        "cmd:pueued=4.0.4-r0"
       ]
     },
     "pueue-bash-completion": {
       "origin": "pueue",
       "versions": {
-        "3.4.1-r1": 1720951900
+        "3.4.1-r1": 1720951900,
+        "4.0.4-r0": 1778541886
       }
     },
     "pueue-fish-completion": {
       "origin": "pueue",
       "versions": {
-        "3.4.1-r1": 1720951900
+        "3.4.1-r1": 1720951900,
+        "4.0.4-r0": 1778541886
       }
     },
     "pueue-zsh-completion": {
       "origin": "pueue",
       "versions": {
-        "3.4.1-r1": 1720951900
+        "3.4.1-r1": 1720951900,
+        "4.0.4-r0": 1778541886
       }
     },
     "pugixml": {
@@ -250614,7 +250627,8 @@
     "sdbus-cpp": {
       "origin": "sdbus-cpp",
       "versions": {
-        "2.1.0-r0": 1753219529
+        "2.1.0-r0": 1753219529,
+        "2.2.1-r0": 1778541775
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -250623,16 +250637,17 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libsdbus-c++.so.2=2.1.0"
+        "so:libsdbus-c++.so.2=2.2.1"
       ]
     },
     "sdbus-cpp-dev": {
       "origin": "sdbus-cpp",
       "versions": {
-        "2.1.0-r0": 1753219529
+        "2.1.0-r0": 1753219529,
+        "2.2.1-r0": 1778541775
       },
       "dependencies": [
-        "sdbus-cpp=2.1.0-r0",
+        "sdbus-cpp=2.2.1-r0",
         "pc:libsystemd",
         "pkgconfig",
         "so:libc.musl-x86.so.1",
@@ -250641,15 +250656,16 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:sdbus-c++-xml2cpp=2.1.0-r0",
-        "pc:sdbus-c++-tools=2.1.0",
-        "pc:sdbus-c++=2.1.0"
+        "cmd:sdbus-c++-xml2cpp=2.2.1-r0",
+        "pc:sdbus-c++-tools=2.2.1",
+        "pc:sdbus-c++=2.2.1"
       ]
     },
     "sdbus-cpp-doc": {
       "origin": "sdbus-cpp",
       "versions": {
-        "2.1.0-r0": 1753219529
+        "2.1.0-r0": 1753219529,
+        "2.2.1-r0": 1778541775
       }
     },
     "sdcv": {
@@ -308218,7 +308234,7 @@
       },
       "libsdbus-c++.so.2": {
         "package": "sdbus-cpp",
-        "version": "2.1.0"
+        "version": "2.2.1"
       },
       "libSDL-1.2.so.0": {
         "package": "sdl12-compat",
