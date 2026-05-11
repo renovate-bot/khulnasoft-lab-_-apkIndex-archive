@@ -44547,21 +44547,23 @@
     "font-iosevka": {
       "origin": "font-iosevka",
       "versions": {
-        "34.4.0-r0": 1776914375
+        "34.4.0-r0": 1776914375,
+        "34.5.0-r0": 1778515496
       },
       "dependencies": [
-        "font-iosevka-base=34.4.0-r0",
-        "font-iosevka-aile=34.4.0-r0",
-        "font-iosevka-etoile=34.4.0-r0",
-        "font-iosevka-slab=34.4.0-r0",
-        "font-iosevka-curly=34.4.0-r0",
-        "font-iosevka-curly-slab=34.4.0-r0"
+        "font-iosevka-base=34.5.0-r0",
+        "font-iosevka-aile=34.5.0-r0",
+        "font-iosevka-etoile=34.5.0-r0",
+        "font-iosevka-slab=34.5.0-r0",
+        "font-iosevka-curly=34.5.0-r0",
+        "font-iosevka-curly-slab=34.5.0-r0"
       ]
     },
     "font-iosevka-aile": {
       "origin": "font-iosevka",
       "versions": {
-        "34.4.0-r0": 1776914375
+        "34.4.0-r0": 1776914375,
+        "34.5.0-r0": 1778515496
       },
       "dependencies": [
         "fontconfig"
@@ -44570,7 +44572,8 @@
     "font-iosevka-base": {
       "origin": "font-iosevka",
       "versions": {
-        "34.4.0-r0": 1776914375
+        "34.4.0-r0": 1776914375,
+        "34.5.0-r0": 1778515496
       },
       "dependencies": [
         "fontconfig"
@@ -44579,7 +44582,8 @@
     "font-iosevka-curly": {
       "origin": "font-iosevka",
       "versions": {
-        "34.4.0-r0": 1776914375
+        "34.4.0-r0": 1776914375,
+        "34.5.0-r0": 1778515496
       },
       "dependencies": [
         "fontconfig"
@@ -44588,7 +44592,8 @@
     "font-iosevka-curly-slab": {
       "origin": "font-iosevka",
       "versions": {
-        "34.4.0-r0": 1776914375
+        "34.4.0-r0": 1776914375,
+        "34.5.0-r0": 1778515496
       },
       "dependencies": [
         "fontconfig"
@@ -44597,7 +44602,8 @@
     "font-iosevka-etoile": {
       "origin": "font-iosevka",
       "versions": {
-        "34.4.0-r0": 1776914375
+        "34.4.0-r0": 1776914375,
+        "34.5.0-r0": 1778515496
       },
       "dependencies": [
         "fontconfig"
@@ -44606,7 +44612,8 @@
     "font-iosevka-slab": {
       "origin": "font-iosevka",
       "versions": {
-        "34.4.0-r0": 1776914375
+        "34.4.0-r0": 1776914375,
+        "34.5.0-r0": 1778515496
       },
       "dependencies": [
         "fontconfig"
@@ -175830,7 +175837,8 @@
     "perl-test-most": {
       "origin": "perl-test-most",
       "versions": {
-        "0.41-r0": 1777999649
+        "0.41-r0": 1777999649,
+        "0.42-r0": 1778514770
       },
       "dependencies": [
         "perl",
@@ -175844,7 +175852,8 @@
     "perl-test-most-doc": {
       "origin": "perl-test-most",
       "versions": {
-        "0.41-r0": 1777999649
+        "0.41-r0": 1777999649,
+        "0.42-r0": 1778514770
       }
     },
     "perl-test-nginx": {
@@ -184061,7 +184070,8 @@
       "origin": "pimsync",
       "versions": {
         "0.5.7-r1": 1775438490,
-        "0.5.8-r0": 1778287012
+        "0.5.8-r0": 1778287012,
+        "0.5.9-r0": 1778515159
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -184069,28 +184079,31 @@
         "so:libsqlite3.so.0"
       ],
       "provides": [
-        "cmd:pimsync=0.5.8-r0"
+        "cmd:pimsync=0.5.9-r0"
       ]
     },
     "pimsync-doc": {
       "origin": "pimsync",
       "versions": {
         "0.5.7-r1": 1775438490,
-        "0.5.8-r0": 1778287012
+        "0.5.8-r0": 1778287012,
+        "0.5.9-r0": 1778515159
       }
     },
     "pimsync-openrc": {
       "origin": "pimsync",
       "versions": {
         "0.5.7-r1": 1775438490,
-        "0.5.8-r0": 1778287012
+        "0.5.8-r0": 1778287012,
+        "0.5.9-r0": 1778515159
       }
     },
     "pimsync-zsh-completion": {
       "origin": "pimsync",
       "versions": {
         "0.5.7-r1": 1775438490,
-        "0.5.8-r0": 1778287012
+        "0.5.8-r0": 1778287012,
+        "0.5.9-r0": 1778515159
       }
     },
     "pinentry-gnome": {
@@ -213326,7 +213339,8 @@
     "py3-protobuf": {
       "origin": "py3-protobuf",
       "versions": {
-        "6.31.1-r2": 1774640354
+        "6.31.1-r2": 1774640354,
+        "6.33.5-r0": 1778518888
       },
       "dependencies": [
         "tzdata",
@@ -213334,14 +213348,15 @@
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "py-protobuf=6.31.1-r2",
-        "py3.14:google=6.31.1-r2"
+        "py-protobuf=6.33.5-r0",
+        "py3.14:google=6.33.5-r0"
       ]
     },
     "py3-protobuf-pyc": {
       "origin": "py3-protobuf",
       "versions": {
-        "6.31.1-r2": 1774640354
+        "6.31.1-r2": 1774640354,
+        "6.33.5-r0": 1778518888
       },
       "dependencies": [
         "python3~3.14"
@@ -301075,7 +301090,7 @@
       },
       "py-protobuf": {
         "package": "py3-protobuf",
-        "version": "6.31.1-r2"
+        "version": "6.33.5-r0"
       },
       "py-purl": {
         "package": "py3-purl",
