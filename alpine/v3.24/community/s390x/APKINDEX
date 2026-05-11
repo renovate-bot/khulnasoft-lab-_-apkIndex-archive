@@ -940,51 +940,51 @@ c:289c90b053115c9f04bb1e62b36bb53bc190258c
 D:perl
 p:cmd:acccheck.pl=0.2.1-r1
 
-C:Q1Go9YmkyWg7ezWZn/2yqUl7X0XbI=
+C:Q1e86MQ+UgvLOdI0wnlfCj+g+2Uf0=
 P:accel-ppp
-V:1.13.0-r1
+V:1.14.0-r0
 A:s390x
-S:375138
-I:1036449
+S:381457
+I:1050869
 T:PPtP/L2TP/PPPoE/SSTP server for Linux
 U:https://accel-ppp.org/
 L:GPL-2.0-or-later
 o:accel-ppp
 m:Thomas Liske <thomas@fiasko-nw.net>
-t:1755773656
-c:608d9bd4f1164cdefab20cb9d617efce2ace654d
-D:so:libc.musl-s390x.so.1 so:libcrypto.so.3 so:libpcre.so.1 so:libssl.so.3 so:libucontext.so.1
-p:cmd:accel-cmd=1.13.0-r1 cmd:accel-pppd=1.13.0-r1 so:libauth_chap_md5.so=0 so:libauth_mschap_v1.so=0 so:libauth_mschap_v2.so=0 so:libauth_pap.so=0 so:libchap-secrets.so=0 so:libconnlimit.so=0 so:libipoe.so=0 so:libippool.so=0 so:libipv6_dhcp.so=0 so:libipv6_nd.so=0 so:libipv6pool.so=0 so:libl2tp.so=0 so:liblog_file.so=0 so:liblog_syslog.so=0 so:liblog_tcp.so=0 so:libluasupp.so=0 so:libpppd_compat.so=0 so:libpppoe.so=0 so:libpptp.so=0 so:libradius.so=0 so:libshaper.so=0 so:libsigchld.so=0 so:libsstp.so=0 so:libtriton.so=0 so:libvlan-mon.so=0
+t:1778499450
+c:728da55cfe9f0340622f354189427e7817cbb983
+D:so:libc.musl-s390x.so.1 so:libcrypto.so.3 so:libpcre2-8.so.0 so:libssl.so.3 so:libucontext.so.1
+p:cmd:accel-cmd=1.14.0-r0 cmd:accel-pppd=1.14.0-r0 so:libauth_chap_md5.so=0 so:libauth_mschap_v1.so=0 so:libauth_mschap_v2.so=0 so:libauth_pap.so=0 so:libchap-secrets.so=0 so:libconnlimit.so=0 so:libipoe.so=0 so:libippool.so=0 so:libipv6_dhcp.so=0 so:libipv6_nd.so=0 so:libipv6pool.so=0 so:libl2tp.so=0 so:liblog_file.so=0 so:liblog_syslog.so=0 so:liblog_tcp.so=0 so:liblogwtmp.so=0 so:libluasupp.so=0 so:libpppd_compat.so=0 so:libpppoe.so=0 so:libpptp.so=0 so:libradius.so=0 so:libshaper.so=0 so:libsigchld.so=0 so:libsstp.so=0 so:libtriton.so=0 so:libvlan-mon.so=0
 
-C:Q1GuYwiSUhlfSUV8uHSTOpmYgzByQ=
+C:Q1sHfyaqp7TN8sSuu1nb8eyJ+HH+U=
 P:accel-ppp-doc
-V:1.13.0-r1
+V:1.14.0-r0
 A:s390x
-S:14490
-I:12552
+S:15894
+I:13958
 T:PPtP/L2TP/PPPoE/SSTP server for Linux (documentation)
 U:https://accel-ppp.org/
 L:GPL-2.0-or-later
 o:accel-ppp
 m:Thomas Liske <thomas@fiasko-nw.net>
-t:1755773656
-c:608d9bd4f1164cdefab20cb9d617efce2ace654d
-i:docs accel-ppp=1.13.0-r1
+t:1778499450
+c:728da55cfe9f0340622f354189427e7817cbb983
+i:docs accel-ppp=1.14.0-r0
 
-C:Q1HKO6bE5D+v0bM+41qLRNLlmSA1E=
+C:Q1e4X3YrjPJUlTsY08qOaljZsxu0g=
 P:accel-ppp-openrc
-V:1.13.0-r1
+V:1.14.0-r0
 A:s390x
-S:1838
+S:1841
 I:376
 T:PPtP/L2TP/PPPoE/SSTP server for Linux (OpenRC init scripts)
 U:https://accel-ppp.org/
 L:GPL-2.0-or-later
 o:accel-ppp
 m:Thomas Liske <thomas@fiasko-nw.net>
-t:1755773656
-c:608d9bd4f1164cdefab20cb9d617efce2ace654d
-i:openrc accel-ppp=1.13.0-r1
+t:1778499450
+c:728da55cfe9f0340622f354189427e7817cbb983
+i:openrc accel-ppp=1.14.0-r0
 
 C:Q1ssL05ASAlgrUKeDMedOkYtBdfuY=
 P:accerciser
@@ -35523,36 +35523,36 @@ t:1737542036
 c:d4fd0e72bb62d81e5a7dc2fd946e7d10b0483b50
 i:docs dateutils=0.4.11-r0
 
-C:Q1GXYCM9WjcRmbho7MfhBTcdYPQJY=
+C:Q1r34c09XsUBYHSJ8jrjoKK9n/wJU=
 P:datovka
-V:4.26.0-r1
+V:4.29.1-r0
 A:s390x
-S:5500881
-I:10868591
+S:6024272
+I:12038328
 T:A free graphical interface for Czech Databox
 U:https://www.datovka.cz/
 L:GPL-3.0-or-later WITH cryptsetup-OpenSSL-exception
 o:datovka
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1757072552
-c:494b5e0a7c6188c1ed89a415bd9ecdf576e11f22
+t:1778497095
+c:9bbc145c2fd19efc472d62401d3023e9fdb8e887
 D:so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6PrintSupport.so.6 so:libQt6Sql.so.6 so:libQt6Svg.so.6 so:libQt6SvgWidgets.so.6 so:libQt6WebSockets.so.6 so:libQt6Widgets.so.6 so:libc.musl-s390x.so.1 so:libcrypto.so.3 so:libdatovka.so.8 so:libgcc_s.so.1 so:libquazip1-qt6.so.1.5.0 so:libstdc++.so.6
-p:cmd:datovka=4.26.0-r1
+p:cmd:datovka=4.29.1-r0
 
-C:Q1nNznDNKjfe9PtWbHa5Wf9nBr/cs=
+C:Q1u40e+YPRCs0/HQpYMzC7ZBGIY9A=
 P:datovka-doc
-V:4.26.0-r1
+V:4.29.1-r0
 A:s390x
-S:14586
+S:14590
 I:36809
 T:A free graphical interface for Czech Databox (documentation)
 U:https://www.datovka.cz/
 L:GPL-3.0-or-later WITH cryptsetup-OpenSSL-exception
 o:datovka
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1757072552
-c:494b5e0a7c6188c1ed89a415bd9ecdf576e11f22
-i:docs datovka=4.26.0-r1
+t:1778497095
+c:9bbc145c2fd19efc472d62401d3023e9fdb8e887
+i:docs datovka=4.29.1-r0
 
 C:Q1jgVdekwnN6P612kmeqOJyOFN6H8=
 P:davfs2
@@ -88178,21 +88178,21 @@ c:65ea66742129a8a7b4941bf9b582a939347c5c2a
 D:so:libc.musl-s390x.so.1
 p:cmd:joker=1.5.8-r5
 
-C:Q1yTzacKuFYZLtuEK2l8yWv71YQOM=
+C:Q1XAUvjuWVWplu/tuY5pammfrjtNk=
 P:jool-modules-lts
-V:6.18.28-r0
+V:6.18.29-r0
 A:s390x
-S:9125090
-I:9163152
+S:9122124
+I:9160361
 T:SIIT and NAT64 for Linux (kernel modules for linux-lts)
 U:https://nicmx.github.io/Jool/
 L:GPL-2.0-or-later
 o:jool-modules-lts
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1778227655
-c:53ae7134ba0a835094ed5ffb316049506d4ae0a2
-D:linux-lts=6.18.28-r0
-i:linux-lts=6.18.28-r0 jool-tools
+t:1778489781
+c:4b3df4ba4be12859ac7c9ce0c036ee9b83049cf8
+D:linux-lts=6.18.29-r0
+i:linux-lts=6.18.29-r0 jool-tools
 
 C:Q1I5OSpYi0kH+bomWiGDDectU1nwU=
 P:jool-tools
@@ -108128,52 +108128,52 @@ t:1775499103
 c:907a3c505ef58dd555d2586ce66b8e25412526ec
 D:libdatachannel=0.24.2-r0
 
-C:Q1fr52fxi3MUuZEmePwoS+qSb0vuM=
+C:Q1tTP/oibkOHXd+drUryD4uQjD7oM=
 P:libdatovka
-V:0.7.1-r0
+V:0.7.3-r0
 A:s390x
-S:109439
-I:293432
+S:112104
+I:297528
 T:Client library for accessing SOAP services of ISDS (Czech Data Boxes)
 U:https://www.datovka.cz/
 L:LGPL-3.0-or-later AND GPL-3.0-or-later
 o:libdatovka
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1749563157
-c:c1a31f720869cac0ede5ac8329abe8ffc6b2b1ca
-D:so:libc.musl-s390x.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libexpat.so.1 so:libxml2.so.2
-p:so:libdatovka.so.8=8.0.1
+t:1778497081
+c:f500aeaedad078418b6467289e848c9e7394c840
+D:so:libc.musl-s390x.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libexpat.so.1 so:libjson-c.so.5 so:libxml2.so.2
+p:so:libdatovka.so.8=8.2.0
 
-C:Q1tUx5X+90ZC0EwivdJLTdQFUi4I4=
+C:Q16S/X+A8gJnyKxZqFRe4hzI4swAM=
 P:libdatovka-dev
-V:0.7.1-r0
+V:0.7.3-r0
 A:s390x
-S:167717
-I:695950
+S:171893
+I:713666
 T:Client library for accessing SOAP services of ISDS (Czech Data Boxes) (development files)
 U:https://www.datovka.cz/
 L:LGPL-3.0-or-later AND GPL-3.0-or-later
 o:libdatovka
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1749563157
-c:c1a31f720869cac0ede5ac8329abe8ffc6b2b1ca
-D:libdatovka=0.7.1-r0 pc:libcurl pc:libxml-2.0 pkgconfig
-p:pc:libdatovka=0.7.1
+t:1778497081
+c:f500aeaedad078418b6467289e848c9e7394c840
+D:libdatovka=0.7.3-r0 pc:libcurl pc:libxml-2.0 pkgconfig
+p:pc:libdatovka=0.7.3
 
-C:Q1y+d0WWzl2it/X5KfoUlaurF8JHg=
+C:Q1+jDfaPwWRbmtb+piVoPWsKHHEDA=
 P:libdatovka-doc
-V:0.7.1-r0
+V:0.7.3-r0
 A:s390x
-S:16531
+S:16537
 I:14605
 T:Client library for accessing SOAP services of ISDS (Czech Data Boxes) (documentation)
 U:https://www.datovka.cz/
 L:LGPL-3.0-or-later AND GPL-3.0-or-later
 o:libdatovka
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1749563157
-c:c1a31f720869cac0ede5ac8329abe8ffc6b2b1ca
-i:docs libdatovka=0.7.1-r0
+t:1778497081
+c:f500aeaedad078418b6467289e848c9e7394c840
+i:docs libdatovka=0.7.3-r0
 
 C:Q1GKCEukVRHen6DPzxSjgK3lBHlwM=
 P:libdatrie
@@ -128419,51 +128419,51 @@ c:a9e2a2dc46f377eb25884f7fea9834492de7f518
 k:20
 i:docs links-graphics=2.30-r1
 
-C:Q1KxX5ETc//VgOQ+nRX0VbTiofkqE=
+C:Q1wNHjYMRjOjT1mVEocSjW3wK+hW4=
 P:linux-stable
-V:7.0.5-r0
+V:7.0.6-r0
 A:s390x
-S:37023260
-I:41113436
+S:37022630
+I:41109779
 T:Linux stable kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-stable
 m:Achill Gilgenast <achill@achill.org>
-t:1778241731
-c:16684c32f2f7be46a2db846797179232624e8900
+t:1778490241
+c:0b7d00acd1b77b799ea1f8655f18e14e82f09f11
 D:initramfs-generator linux-firmware-any
-p:linux-edge=7.0.5-r0
+p:linux-edge=7.0.6-r0
 
-C:Q19/NagjGdV2BW8qULPF3yLLDV/MQ=
+C:Q1jG5grbgOs2Uo2HyBafzSeQZTEcA=
 P:linux-stable-dev
-V:7.0.5-r0
+V:7.0.6-r0
 A:s390x
-S:20961766
+S:20961441
 I:80292028
 T:Headers and script for third party modules for stable kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-stable
 m:Achill Gilgenast <achill@achill.org>
-t:1778241731
-c:16684c32f2f7be46a2db846797179232624e8900
+t:1778490241
+c:0b7d00acd1b77b799ea1f8655f18e14e82f09f11
 D:perl gmp-dev mpc1-dev mpfr-dev elfutils-dev bash flex bison zstd so:libc.musl-s390x.so.1 so:libcrypto.so.3 so:libelf.so.1 so:libstdc++.so.6 so:libz.so.1
 
-C:Q1RnIuGrTg2T05+Ig1H++zVkSXon0=
+C:Q1xMFdKPVqwcmXtrYnqir7TvAkCxI=
 P:linux-stable-doc
-V:7.0.5-r0
+V:7.0.6-r0
 A:s390x
-S:15188030
+S:15187897
 I:55701419
 T:Linux stable kernel (documentation)
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-stable
 m:Achill Gilgenast <achill@achill.org>
-t:1778241731
-c:16684c32f2f7be46a2db846797179232624e8900
-i:docs linux-stable=7.0.5-r0
+t:1778490241
+c:0b7d00acd1b77b799ea1f8655f18e14e82f09f11
+i:docs linux-stable=7.0.6-r0
 
 C:Q1e25jbXh415IBGxlaGv+yPNqyBxM=
 P:linuxconsoletools
@@ -141926,21 +141926,21 @@ t:1775839666
 c:65ea66742129a8a7b4941bf9b582a939347c5c2a
 i:docs miller=6.16.0-r4
 
-C:Q1jODOzD91H+5RR8ldvpeLoudCb10=
+C:Q1q/PrB4+Rzx0Edm5LiTpniLbJqoo=
 P:millipixels
-V:0.23.0-r5
+V:0.24.0-r0
 A:s390x
-S:850667
-I:2341198
+S:868542
+I:2386473
 T:Camera application for the Librem 5
 U:https://source.puri.sm/Librem5/millipixels
 L:GPL-3.0-only
 o:millipixels
 m:Clayton Craft <clayton@craftyguy.net>
-t:1776009405
-c:b204f8cfb57559f8bed8658400d3e81c16efffb4
-D:exiftool graphicsmagick libraw-tools v4l-utils ffmpeg so:libbsd.so.0 so:libc.musl-s390x.so.1 so:libcairo.so.2 so:libcamera.so.0.7 so:libexif.so.12 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libjpeg.so.8 so:libpulse-simple.so.0 so:libpulse.so.0 so:libraw.so.25 so:libstdc++.so.6 so:libtiff.so.6 so:libzbar.so.0
-p:cmd:millipixels-camera-test=0.23.0-r5 cmd:millipixels-list-devices=0.23.0-r5 cmd:millipixels=0.23.0-r5
+t:1778500634
+c:f7d319faada700a747d87799fcdd30107362da52
+D:exiftool graphicsmagick libraw-tools v4l-utils ffmpeg so:libEGL.so.1 so:libGLESv2.so.2 so:libbsd.so.0 so:libc.musl-s390x.so.1 so:libcairo.so.2 so:libcamera.so.0.7 so:libexif.so.12 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libjpeg.so.8 so:libpulse-simple.so.0 so:libpulse.so.0 so:libraw.so.25 so:libstdc++.so.6 so:libtiff.so.6 so:libzbar.so.0
+p:cmd:millipixels-camera-test=0.24.0-r0 cmd:millipixels-list-devices=0.24.0-r0 cmd:millipixels=0.24.0-r0
 
 C:Q1YWEOqBPQpEXcCR2ixVrKotuml8U=
 P:milou
@@ -264696,20 +264696,20 @@ t:1758826049
 c:08d6c2c270beb9e283f632a130f0f2d0a0240804
 i:docs rtpengine=12.2.1.4-r2
 
-C:Q1S3XsZ0OQ5oqmwnas4e0KEGwmil4=
+C:Q1LQMEdWiTPAd3VzyDX+0adnX8yHs=
 P:rtpengine-lts
-V:6.18.28-r0
+V:6.18.29-r0
 A:s390x
-S:485974
+S:485928
 I:1625600
 T:Kernel module for rtpengine
 U:https://github.com/sipwise/rtpengine
 L:GPL-3.0-only
 o:rtpengine-lts
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1778227655
-c:b1f34d908fcc9b7aea79afee24d1193557c36e80
-i:rtpengine linux-lts=6.18.28-r0
+t:1778489781
+c:2d0d32227e89a1b7aa6e6ffa07fd25e55ffda40b
+i:rtpengine linux-lts=6.18.29-r0
 
 C:Q1kftuv+/AycUWjPZgFpitAGgaZXU=
 P:rtpengine-openrc
@@ -314278,36 +314278,36 @@ t:1772105549
 c:8407d93530b15c30b7b76aee5e0bbf34a91041d1
 D:akms
 
-C:Q1yGH9aAV1uImgu8NEh3ofv7GCk/c=
+C:Q1HqsGm/5DQuVZRuq54e7UHjlMR8c=
 P:zfs-stable
-V:7.0.5-r0
+V:7.0.6-r0
 A:s390x
-S:34842344
-I:35029456
+S:34839640
+I:35025626
 T:ZFS Linux kernel modules
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-stable
 m:Achill Gilgenast <achill@achill.org>
-t:1778241731
-c:2060291948b51669ba280c31a901115e60b47440
-D:linux-stable=7.0.5-r0
-i:zfs linux-stable=7.0.5-r0
+t:1778490241
+c:e66a1ae8e564e01e2a6c1f5d0ee9bb1f9d45384a
+D:linux-stable=7.0.6-r0
+i:zfs linux-stable=7.0.6-r0
 
-C:Q1hkD9cWba3AowRoVok1/gepG77ok=
+C:Q13/GvG8V431cHAFGUk6xV++4fO/4=
 P:zfs-stable-dev
-V:7.0.5-r0
+V:7.0.6-r0
 A:s390x
-S:481821
+S:481797
 I:3059120
 T:ZFS Linux kernel modules (development files)
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-stable
 m:Achill Gilgenast <achill@achill.org>
-t:1778241731
-c:2060291948b51669ba280c31a901115e60b47440
-D:glib-dev e2fsprogs-dev util-linux-dev libtirpc-dev linux-stable-dev=7.0.5-r0
+t:1778490241
+c:e66a1ae8e564e01e2a6c1f5d0ee9bb1f9d45384a
+D:glib-dev e2fsprogs-dev util-linux-dev libtirpc-dev linux-stable-dev=7.0.6-r0
 
 C:Q16me1Sg8gw23L73tYwirvgtTPvDs=
 P:zig
