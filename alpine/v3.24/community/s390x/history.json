@@ -229797,7 +229797,8 @@
     "qml-asteroid": {
       "origin": "qml-asteroid",
       "versions": {
-        "2.1_git20260414-r0": 1776437101
+        "2.1_git20260414-r0": 1776437101,
+        "2.1_git20260512-r0": 1778575312
       },
       "dependencies": [
         "qt6-qt5compat",
@@ -229820,17 +229821,19 @@
     "qml-asteroid-dbg": {
       "origin": "qml-asteroid",
       "versions": {
-        "2.1_git20260414-r0": 1776437101
+        "2.1_git20260414-r0": 1776437101,
+        "2.1_git20260512-r0": 1778575312
       },
       "dependencies": [
-        "!qml-asteroid<2.1_git20260414-r0",
-        "!qml-asteroid>2.1_git20260414-r0"
+        "!qml-asteroid<2.1_git20260512-r0",
+        "!qml-asteroid>2.1_git20260512-r0"
       ]
     },
     "qml-asteroid-dev": {
       "origin": "qml-asteroid",
       "versions": {
-        "2.1_git20260414-r0": 1776437101
+        "2.1_git20260414-r0": 1776437101,
+        "2.1_git20260512-r0": 1778575312
       },
       "dependencies": [
         "grep",
@@ -229838,11 +229841,11 @@
         "qt6-qtdeclarative-dev",
         "qt6-qtsvg-dev",
         "qt6-qttools-dev",
-        "qml-asteroid=2.1_git20260414-r0",
+        "qml-asteroid=2.1_git20260512-r0",
         "pkgconfig"
       ],
       "provides": [
-        "cmd:asteroid-generate-desktop=2.1_git20260414-r0",
+        "cmd:asteroid-generate-desktop=2.1_git20260512-r0",
         "pc:asteroidapp6=2.1.0"
       ]
     },
