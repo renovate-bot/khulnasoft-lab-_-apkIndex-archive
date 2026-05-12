@@ -258002,7 +258002,8 @@
     "yelp": {
       "origin": "yelp",
       "versions": {
-        "49.0-r0": 1757857470
+        "49.0-r0": 1757857470,
+        "49.1-r0": 1778590582
       },
       "dependencies": [
         "dconf",
@@ -258026,18 +258027,19 @@
         "so:libxslt.so.1"
       ],
       "provides": [
-        "cmd:gnome-help=49.0-r0",
-        "cmd:yelp=49.0-r0",
+        "cmd:gnome-help=49.1-r0",
+        "cmd:yelp=49.1-r0",
         "so:libyelp-1.so.0=0.0.0"
       ]
     },
     "yelp-dev": {
       "origin": "yelp",
       "versions": {
-        "49.0-r0": 1757857470
+        "49.0-r0": 1757857470,
+        "49.1-r0": 1778590582
       },
       "dependencies": [
-        "yelp=49.0-r0",
+        "yelp=49.1-r0",
         "pc:bzip2",
         "pc:gio-2.0>=2.67.4",
         "pc:gio-unix-2.0",
@@ -258053,13 +258055,14 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:libyelp-1=49.0"
+        "pc:libyelp-1=49.1"
       ]
     },
     "yelp-lang": {
       "origin": "yelp",
       "versions": {
-        "49.0-r0": 1757857470
+        "49.0-r0": 1757857470,
+        "49.1-r0": 1778590582
       }
     },
     "yelp-tools": {
