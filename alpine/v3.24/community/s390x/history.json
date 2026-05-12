@@ -76614,7 +76614,8 @@
     "ifstate": {
       "origin": "ifstate",
       "versions": {
-        "2.2.6-r0": 1777207313
+        "2.2.6-r0": 1777207313,
+        "2.3.0-r0": 1778543650
       },
       "dependencies": [
         "iproute2",
@@ -76627,21 +76628,23 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:ifstatecli=2.2.6-r0",
-        "py3.14:ifstate=2.2.6-r0",
-        "py3.14:libifstate=2.2.6-r0"
+        "cmd:ifstatecli=2.3.0-r0",
+        "py3.14:ifstate=2.3.0-r0",
+        "py3.14:libifstate=2.3.0-r0"
       ]
     },
     "ifstate-openrc": {
       "origin": "ifstate",
       "versions": {
-        "2.2.6-r0": 1777207313
+        "2.2.6-r0": 1777207313,
+        "2.3.0-r0": 1778543650
       }
     },
     "ifstate-pyc": {
       "origin": "ifstate",
       "versions": {
-        "2.2.6-r0": 1777207313
+        "2.2.6-r0": 1777207313,
+        "2.3.0-r0": 1778543650
       },
       "dependencies": [
         "python3~3.14"
@@ -87831,7 +87834,8 @@
     "kissfft": {
       "origin": "kissfft",
       "versions": {
-        "131.2.0-r0": 1761393636
+        "131.2.0-r0": 1761393636,
+        "131.2.0_git20260422-r0": 1778542118
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -87839,20 +87843,21 @@
         "so:libpng16.so.16"
       ],
       "provides": [
-        "cmd:fastconv-float=131.2.0-r0",
-        "cmd:fastconvr-float=131.2.0-r0",
-        "cmd:fft-float=131.2.0-r0",
-        "cmd:psdpng-float=131.2.0-r0"
+        "cmd:fastconv-float=131.2.0_git20260422-r0",
+        "cmd:fastconvr-float=131.2.0_git20260422-r0",
+        "cmd:fft-float=131.2.0_git20260422-r0",
+        "cmd:psdpng-float=131.2.0_git20260422-r0"
       ]
     },
     "kissfft-dev": {
       "origin": "kissfft",
       "versions": {
-        "131.2.0-r0": 1761393636
+        "131.2.0-r0": 1761393636,
+        "131.2.0_git20260422-r0": 1778542118
       },
       "dependencies": [
-        "kissfft=131.2.0-r0",
-        "kissfft-libs=131.2.0-r0",
+        "kissfft=131.2.0_git20260422-r0",
+        "kissfft-libs=131.2.0_git20260422-r0",
         "pkgconfig"
       ],
       "provides": [
@@ -87862,7 +87867,8 @@
     "kissfft-libs": {
       "origin": "kissfft",
       "versions": {
-        "131.2.0-r0": 1761393636
+        "131.2.0-r0": 1761393636,
+        "131.2.0_git20260422-r0": 1778542118
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
@@ -119949,7 +119955,8 @@
     "lua-pgmoon": {
       "origin": "lua-pgmoon",
       "versions": {
-        "1.16.0-r0": 1698862765
+        "1.16.0-r0": 1698862765,
+        "1.17.0-r0": 1778544120
       },
       "dependencies": [
         "lua-bitop",
@@ -120603,7 +120610,8 @@
     "lua5.1-pgmoon": {
       "origin": "lua-pgmoon",
       "versions": {
-        "1.16.0-r0": 1698862765
+        "1.16.0-r0": 1698862765,
+        "1.17.0-r0": 1778544120
       },
       "dependencies": [
         "lua5.1"
@@ -121154,7 +121162,8 @@
     "lua5.2-pgmoon": {
       "origin": "lua-pgmoon",
       "versions": {
-        "1.16.0-r0": 1698862765
+        "1.16.0-r0": 1698862765,
+        "1.17.0-r0": 1778544120
       },
       "dependencies": [
         "lua5.2"
@@ -121707,7 +121716,8 @@
     "lua5.3-pgmoon": {
       "origin": "lua-pgmoon",
       "versions": {
-        "1.16.0-r0": 1698862765
+        "1.16.0-r0": 1698862765,
+        "1.17.0-r0": 1778544120
       },
       "dependencies": [
         "lua5.3"
@@ -122181,7 +122191,8 @@
     "lua5.4-pgmoon": {
       "origin": "lua-pgmoon",
       "versions": {
-        "1.16.0-r0": 1698862765
+        "1.16.0-r0": 1698862765,
+        "1.17.0-r0": 1778544120
       },
       "dependencies": [
         "lua5.4"
@@ -137600,7 +137611,8 @@
     "nix": {
       "origin": "nix",
       "versions": {
-        "2.31.3-r2": 1777840922
+        "2.31.3-r2": 1777840922,
+        "2.31.5-r0": 1778546017
       },
       "dependencies": [
         "ca-certificates",
@@ -137630,23 +137642,23 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:nix-build=2.31.3-r2",
-        "cmd:nix-channel=2.31.3-r2",
-        "cmd:nix-collect-garbage=2.31.3-r2",
-        "cmd:nix-copy-closure=2.31.3-r2",
-        "cmd:nix-daemon=2.31.3-r2",
-        "cmd:nix-env=2.31.3-r2",
-        "cmd:nix-expr-tests=2.31.3-r2",
-        "cmd:nix-fetchers-tests=2.31.3-r2",
-        "cmd:nix-flake-tests=2.31.3-r2",
-        "cmd:nix-hash=2.31.3-r2",
-        "cmd:nix-instantiate=2.31.3-r2",
-        "cmd:nix-prefetch-url=2.31.3-r2",
-        "cmd:nix-shell=2.31.3-r2",
-        "cmd:nix-store-tests=2.31.3-r2",
-        "cmd:nix-store=2.31.3-r2",
-        "cmd:nix-util-tests=2.31.3-r2",
-        "cmd:nix=2.31.3-r2",
+        "cmd:nix-build=2.31.5-r0",
+        "cmd:nix-channel=2.31.5-r0",
+        "cmd:nix-collect-garbage=2.31.5-r0",
+        "cmd:nix-copy-closure=2.31.5-r0",
+        "cmd:nix-daemon=2.31.5-r0",
+        "cmd:nix-env=2.31.5-r0",
+        "cmd:nix-expr-tests=2.31.5-r0",
+        "cmd:nix-fetchers-tests=2.31.5-r0",
+        "cmd:nix-flake-tests=2.31.5-r0",
+        "cmd:nix-hash=2.31.5-r0",
+        "cmd:nix-instantiate=2.31.5-r0",
+        "cmd:nix-prefetch-url=2.31.5-r0",
+        "cmd:nix-shell=2.31.5-r0",
+        "cmd:nix-store-tests=2.31.5-r0",
+        "cmd:nix-store=2.31.5-r0",
+        "cmd:nix-util-tests=2.31.5-r0",
+        "cmd:nix=2.31.5-r0",
         "so:libnix-expr-test-support.so=0",
         "so:libnix-store-test-support.so=0",
         "so:libnix-util-test-support.so=0",
@@ -137668,13 +137680,15 @@
     "nix-bash-completion": {
       "origin": "nix",
       "versions": {
-        "2.31.3-r2": 1777840922
+        "2.31.3-r2": 1777840922,
+        "2.31.5-r0": 1778546017
       }
     },
     "nix-dev": {
       "origin": "nix",
       "versions": {
-        "2.31.3-r2": 1777840922
+        "2.31.3-r2": 1777840922,
+        "2.31.5-r0": 1778546017
       },
       "dependencies": [
         "boost-dev",
@@ -137697,40 +137711,43 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:nix-cmd=2.31.3",
-        "pc:nix-expr-c=2.31.3",
-        "pc:nix-expr-test-support=2.31.3",
-        "pc:nix-expr=2.31.3",
-        "pc:nix-fetchers-c=2.31.3",
-        "pc:nix-fetchers=2.31.3",
-        "pc:nix-flake-c=2.31.3",
-        "pc:nix-flake=2.31.3",
-        "pc:nix-main-c=2.31.3",
-        "pc:nix-main=2.31.3",
-        "pc:nix-store-c=2.31.3",
-        "pc:nix-store-test-support=2.31.3",
-        "pc:nix-store=2.31.3",
-        "pc:nix-util-c=2.31.3",
-        "pc:nix-util-test-support=2.31.3",
-        "pc:nix-util=2.31.3"
+        "pc:nix-cmd=2.31.5",
+        "pc:nix-expr-c=2.31.5",
+        "pc:nix-expr-test-support=2.31.5",
+        "pc:nix-expr=2.31.5",
+        "pc:nix-fetchers-c=2.31.5",
+        "pc:nix-fetchers=2.31.5",
+        "pc:nix-flake-c=2.31.5",
+        "pc:nix-flake=2.31.5",
+        "pc:nix-main-c=2.31.5",
+        "pc:nix-main=2.31.5",
+        "pc:nix-store-c=2.31.5",
+        "pc:nix-store-test-support=2.31.5",
+        "pc:nix-store=2.31.5",
+        "pc:nix-util-c=2.31.5",
+        "pc:nix-util-test-support=2.31.5",
+        "pc:nix-util=2.31.5"
       ]
     },
     "nix-doc": {
       "origin": "nix",
       "versions": {
-        "2.31.3-r2": 1777840922
+        "2.31.3-r2": 1777840922,
+        "2.31.5-r0": 1778546017
       }
     },
     "nix-fish-completion": {
       "origin": "nix",
       "versions": {
-        "2.31.3-r2": 1777840922
+        "2.31.3-r2": 1777840922,
+        "2.31.5-r0": 1778546017
       }
     },
     "nix-manual": {
       "origin": "nix",
       "versions": {
-        "2.31.3-r2": 1777840922
+        "2.31.3-r2": 1777840922,
+        "2.31.5-r0": 1778546017
       },
       "dependencies": [
         "ca-certificates"
@@ -137739,13 +137756,15 @@
     "nix-openrc": {
       "origin": "nix",
       "versions": {
-        "2.31.3-r2": 1777840922
+        "2.31.3-r2": 1777840922,
+        "2.31.5-r0": 1778546017
       }
     },
     "nix-zsh-completion": {
       "origin": "nix",
       "versions": {
-        "2.31.3-r2": 1777840922
+        "2.31.3-r2": 1777840922,
+        "2.31.5-r0": 1778546017
       }
     },
     "njs": {
@@ -165743,13 +165762,15 @@
     "pdfjs": {
       "origin": "pdfjs",
       "versions": {
-        "5.4.530-r0": 1767038373
+        "5.4.530-r0": 1767038373,
+        "5.7.284-r0": 1778543783
       }
     },
     "pdfjs-dbg": {
       "origin": "pdfjs",
       "versions": {
-        "5.4.530-r0": 1767038373
+        "5.4.530-r0": 1767038373,
+        "5.7.284-r0": 1778543783
       }
     },
     "pdfposter": {
@@ -173309,10 +173330,11 @@
     "perl-nix": {
       "origin": "nix",
       "versions": {
-        "2.31.3-r2": 1777840922
+        "2.31.3-r2": 1777840922,
+        "2.31.5-r0": 1778546017
       },
       "dependencies": [
-        "nix=2.31.3-r2",
+        "nix=2.31.5-r0",
         "perl",
         "so:libc.musl-s390x.so.1",
         "so:libgcc_s.so.1",
@@ -194799,7 +194821,8 @@
     "py3-boto3": {
       "origin": "py3-boto3",
       "versions": {
-        "1.42.83-r0": 1775387401
+        "1.42.83-r0": 1775387401,
+        "1.43.6-r0": 1778543970
       },
       "dependencies": [
         "py3-botocore",
@@ -194808,14 +194831,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "py-boto3=1.42.83-r0",
-        "py3.14:boto3=1.42.83-r0"
+        "py-boto3=1.43.6-r0",
+        "py3.14:boto3=1.43.6-r0"
       ]
     },
     "py3-boto3-pyc": {
       "origin": "py3-boto3",
       "versions": {
-        "1.42.83-r0": 1775387401
+        "1.42.83-r0": 1775387401,
+        "1.43.6-r0": 1778543970
       },
       "dependencies": [
         "python3~3.14"
@@ -194824,7 +194848,8 @@
     "py3-botocore": {
       "origin": "py3-botocore",
       "versions": {
-        "1.42.83-r0": 1775387401
+        "1.42.83-r0": 1775387401,
+        "1.43.6-r0": 1778543970
       },
       "dependencies": [
         "py3-certifi",
@@ -194834,14 +194859,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "py-botocore=1.42.83-r0",
-        "py3.14:botocore=1.42.83-r0"
+        "py-botocore=1.43.6-r0",
+        "py3.14:botocore=1.43.6-r0"
       ]
     },
     "py3-botocore-pyc": {
       "origin": "py3-botocore",
       "versions": {
-        "1.42.83-r0": 1775387401
+        "1.42.83-r0": 1775387401,
+        "1.43.6-r0": 1778543970
       },
       "dependencies": [
         "python3~3.14"
@@ -210051,7 +210077,8 @@
     "py3-nltk": {
       "origin": "py3-nltk",
       "versions": {
-        "3.9.3-r1": 1774640386
+        "3.9.3-r1": 1774640386,
+        "3.9.4-r0": 1778544003
       },
       "dependencies": [
         "python3",
@@ -210061,14 +210088,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:nltk=3.9.3-r1",
-        "py3.14:nltk=3.9.3-r1"
+        "cmd:nltk=3.9.4-r0",
+        "py3.14:nltk=3.9.4-r0"
       ]
     },
     "py3-nltk-pyc": {
       "origin": "py3-nltk",
       "versions": {
-        "3.9.3-r1": 1774640386
+        "3.9.3-r1": 1774640386,
+        "3.9.4-r0": 1778544003
       },
       "dependencies": [
         "python3~3.14"
@@ -212688,7 +212716,8 @@
     "py3-plotnine": {
       "origin": "py3-plotnine",
       "versions": {
-        "0.15.3-r1": 1774640432
+        "0.15.3-r1": 1774640432,
+        "0.15.4-r0": 1778544067
       },
       "dependencies": [
         "python3",
@@ -212702,13 +212731,14 @@
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:plotnine=0.15.3-r1"
+        "py3.14:plotnine=0.15.4-r0"
       ]
     },
     "py3-plotnine-pyc": {
       "origin": "py3-plotnine",
       "versions": {
-        "0.15.3-r1": 1774640432
+        "0.15.3-r1": 1774640432,
+        "0.15.4-r0": 1778544067
       },
       "dependencies": [
         "python3~3.14"
@@ -216657,20 +216687,22 @@
     "py3-pytest-randomly": {
       "origin": "py3-pytest-randomly",
       "versions": {
-        "4.0.1-r1": 1774640394
+        "4.0.1-r1": 1774640394,
+        "4.1.0-r0": 1778543158
       },
       "dependencies": [
         "py3-pytest",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:pytest_randomly=4.0.1-r1"
+        "py3.14:pytest_randomly=4.1.0-r0"
       ]
     },
     "py3-pytest-randomly-pyc": {
       "origin": "py3-pytest-randomly",
       "versions": {
-        "4.0.1-r1": 1774640394
+        "4.0.1-r1": 1774640394,
+        "4.1.0-r0": 1778543158
       },
       "dependencies": [
         "python3~3.14"
@@ -217195,27 +217227,30 @@
     "py3-python-multipart": {
       "origin": "py3-python-multipart",
       "versions": {
-        "0.0.27-r0": 1777793062
+        "0.0.27-r0": 1777793062,
+        "0.0.28-r0": 1778542779
       },
       "dependencies": [
         "python3",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:multipart=0.0.27-r0",
-        "py3.14:python_multipart=0.0.27-r0"
+        "py3.14:multipart=0.0.28-r0",
+        "py3.14:python_multipart=0.0.28-r0"
       ]
     },
     "py3-python-multipart-doc": {
       "origin": "py3-python-multipart",
       "versions": {
-        "0.0.27-r0": 1777793062
+        "0.0.27-r0": 1777793062,
+        "0.0.28-r0": 1778542779
       }
     },
     "py3-python-multipart-pyc": {
       "origin": "py3-python-multipart",
       "versions": {
-        "0.0.27-r0": 1777793062
+        "0.0.27-r0": 1777793062,
+        "0.0.28-r0": 1778542779
       },
       "dependencies": [
         "python3~3.14"
@@ -223458,7 +223493,8 @@
     "py3-transmission-rpc": {
       "origin": "py3-transmission-rpc",
       "versions": {
-        "7.0.3-r2": 1774640445
+        "7.0.3-r2": 1774640445,
+        "7.0.11-r0": 1778543887
       },
       "dependencies": [
         "python3",
@@ -223467,13 +223503,14 @@
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:transmission_rpc=7.0.3-r2"
+        "py3.14:transmission_rpc=7.0.11-r0"
       ]
     },
     "py3-transmission-rpc-pyc": {
       "origin": "py3-transmission-rpc",
       "versions": {
-        "7.0.3-r2": 1774640445
+        "7.0.3-r2": 1774640445,
+        "7.0.11-r0": 1778543887
       },
       "dependencies": [
         "python3~3.14"
@@ -224177,7 +224214,8 @@
     "py3-ujson": {
       "origin": "py3-ujson",
       "versions": {
-        "5.12.0-r0": 1777124599
+        "5.12.0-r0": 1777124599,
+        "5.12.1-r0": 1778546105
       },
       "dependencies": [
         "python3~3.14",
@@ -224777,7 +224815,8 @@
     "py3-uv-build": {
       "origin": "py3-uv-build",
       "versions": {
-        "0.11.11-r0": 1778102165
+        "0.11.11-r0": 1778102165,
+        "0.11.12-r0": 1778543718
       },
       "dependencies": [
         "python3",
@@ -224786,14 +224825,15 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:uv-build=0.11.11-r0",
-        "py3.14:uv_build=0.11.11-r0"
+        "cmd:uv-build=0.11.12-r0",
+        "py3.14:uv_build=0.11.12-r0"
       ]
     },
     "py3-uv-build-pyc": {
       "origin": "py3-uv-build",
       "versions": {
-        "0.11.11-r0": 1778102165
+        "0.11.11-r0": 1778102165,
+        "0.11.12-r0": 1778543718
       },
       "dependencies": [
         "python3~3.14"
@@ -280287,6 +280327,38 @@
       "versions": {
         "1.18.1-r4": 1778430312
       }
+    },
+    "pueue": {
+      "origin": "pueue",
+      "versions": {
+        "4.0.4-r0": 1778545462
+      },
+      "dependencies": [
+        "so:libc.musl-s390x.so.1",
+        "so:libgcc_s.so.1"
+      ],
+      "provides": [
+        "cmd:pueue=4.0.4-r0",
+        "cmd:pueued=4.0.4-r0"
+      ]
+    },
+    "pueue-bash-completion": {
+      "origin": "pueue",
+      "versions": {
+        "4.0.4-r0": 1778545462
+      }
+    },
+    "pueue-fish-completion": {
+      "origin": "pueue",
+      "versions": {
+        "4.0.4-r0": 1778545462
+      }
+    },
+    "pueue-zsh-completion": {
+      "origin": "pueue",
+      "versions": {
+        "4.0.4-r0": 1778545462
+      }
     }
   },
   "provide": {
@@ -300519,11 +300591,11 @@
       },
       "py-boto3": {
         "package": "py3-boto3",
-        "version": "1.42.83-r0"
+        "version": "1.43.6-r0"
       },
       "py-botocore": {
         "package": "py3-botocore",
-        "version": "1.42.83-r0"
+        "version": "1.43.6-r0"
       },
       "py-bottle": {
         "package": "py3-bottle",
