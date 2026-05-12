@@ -51404,7 +51404,8 @@
     "gdal": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libLerc.so.4",
@@ -51412,7 +51413,6 @@
         "so:libaec.so.0",
         "so:libarchive.so.13",
         "so:libarmadillo.so.15",
-        "so:libavif.so.16",
         "so:libblosc.so.1",
         "so:libbrunslidec-c.so.0.1",
         "so:libbrunslienc-c.so.0.1",
@@ -51447,45 +51447,89 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "so:libgdal.so.38=38.3.12.3"
+        "so:libgdal.so.38=38.3.12.4"
       ]
     },
     "gdal-bash-completion": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       }
     },
     "gdal-dev": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
-        "gdal=3.12.3-r4",
+        "gdal=3.12.4-r0",
         "pkgconfig"
       ],
       "provides": [
-        "cmd:gdal-config=3.12.3-r4",
-        "pc:gdal=3.12.3"
+        "cmd:gdal-config=3.12.4-r0",
+        "pc:gdal=3.12.4"
       ]
     },
     "gdal-doc": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       }
     },
     "gdal-driver-all": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
-      }
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
+      },
+      "dependencies": [
+        "gdal-driver-all:_gdal_driver_all=3.12.4-r0",
+        "gdal-driver-adbc=3.12.4-r0",
+        "gdal-driver-avif=3.12.4-r0",
+        "gdal-driver-basisu_ktx2=3.12.4-r0",
+        "gdal-driver-exr=3.12.4-r0",
+        "gdal-driver-fits=3.12.4-r0",
+        "gdal-driver-gif=3.12.4-r0",
+        "gdal-driver-hdf5=3.12.4-r0",
+        "gdal-driver-heif=3.12.4-r0",
+        "gdal-driver-jp2openjpeg=3.12.4-r0",
+        "gdal-driver-jpeg=3.12.4-r0",
+        "gdal-driver-jpegxl=3.12.4-r0",
+        "gdal-driver-kea=3.12.4-r0",
+        "gdal-driver-pcidsk=3.12.4-r0",
+        "gdal-driver-pcraster=3.12.4-r0",
+        "gdal-driver-pdf=3.12.4-r0",
+        "gdal-driver-png=3.12.4-r0",
+        "gdal-driver-postgisraster=3.12.4-r0",
+        "gdal-driver-webp=3.12.4-r0",
+        "gdal-driver-wms=3.12.4-r0",
+        "gdal-driver-cad=3.12.4-r0",
+        "gdal-driver-carto=3.12.4-r0",
+        "gdal-driver-elastic=3.12.4-r0",
+        "gdal-driver-gmlas=3.12.4-r0",
+        "gdal-driver-hana=3.12.4-r0",
+        "gdal-driver-libkml=3.12.4-r0",
+        "gdal-driver-mssqlspatial=3.12.4-r0",
+        "gdal-driver-mysql=3.12.4-r0",
+        "gdal-driver-odbc=3.12.4-r0",
+        "gdal-driver-pg=3.12.4-r0",
+        "gdal-driver-plscenes=3.12.4-r0",
+        "gdal-driver-vfk=3.12.4-r0",
+        "gdal-driver-xls=3.12.4-r0",
+        "gdal-driver-xodr=3.12.4-r0",
+        "gdal-driver-arrow=3.12.4-r0",
+        "gdal-driver-parquet=3.12.4-r0",
+        "gdal-driver-netcdf=3.12.4-r0"
+      ]
     },
     "gdal-driver-arrow": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libarrow.so.2300",
@@ -51495,13 +51539,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-Arrow=3.12.3-r4"
+        "gdal-driver-Arrow=3.12.4-r0"
       ]
     },
     "gdal-driver-basisu_ktx2": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libbasisu.so.1.16.3",
@@ -51511,13 +51556,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-BASISU_KTX2=3.12.3-r4"
+        "gdal-driver-BASISU_KTX2=3.12.4-r0"
       ]
     },
     "gdal-driver-cad": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51526,13 +51572,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-CAD=3.12.3-r4"
+        "gdal-driver-CAD=3.12.4-r0"
       ]
     },
     "gdal-driver-carto": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51542,13 +51589,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-Carto=3.12.3-r4"
+        "gdal-driver-Carto=3.12.4-r0"
       ]
     },
     "gdal-driver-elastic": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51558,13 +51606,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-Elastic=3.12.3-r4"
+        "gdal-driver-Elastic=3.12.4-r0"
       ]
     },
     "gdal-driver-exr": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libImath-3_2.so.30",
@@ -51575,13 +51624,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-EXR=3.12.3-r4"
+        "gdal-driver-EXR=3.12.4-r0"
       ]
     },
     "gdal-driver-fits": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51591,13 +51641,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-FITS=3.12.3-r4"
+        "gdal-driver-FITS=3.12.4-r0"
       ]
     },
     "gdal-driver-gif": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51607,13 +51658,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-GIF=3.12.3-r4"
+        "gdal-driver-GIF=3.12.4-r0"
       ]
     },
     "gdal-driver-gmlas": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51624,13 +51676,14 @@
         "so:libxerces-c-3.2.so"
       ],
       "provides": [
-        "gdal-driver-GMLAS=3.12.3-r4"
+        "gdal-driver-GMLAS=3.12.4-r0"
       ]
     },
     "gdal-driver-hana": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51640,13 +51693,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-HANA=3.12.3-r4"
+        "gdal-driver-HANA=3.12.4-r0"
       ]
     },
     "gdal-driver-hdf5": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51657,13 +51711,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-HDF5=3.12.3-r4"
+        "gdal-driver-HDF5=3.12.4-r0"
       ]
     },
     "gdal-driver-heif": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51673,13 +51728,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-HEIF=3.12.3-r4"
+        "gdal-driver-HEIF=3.12.4-r0"
       ]
     },
     "gdal-driver-jp2openjpeg": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51689,13 +51745,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-JP2OpenJPEG=3.12.3-r4"
+        "gdal-driver-JP2OpenJPEG=3.12.4-r0"
       ]
     },
     "gdal-driver-jpeg": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51705,13 +51762,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-JPEG=3.12.3-r4"
+        "gdal-driver-JPEG=3.12.4-r0"
       ]
     },
     "gdal-driver-jpegxl": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51722,13 +51780,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-JPEGXL=3.12.3-r4"
+        "gdal-driver-JPEGXL=3.12.4-r0"
       ]
     },
     "gdal-driver-kea": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51740,13 +51799,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-KEA=3.12.3-r4"
+        "gdal-driver-KEA=3.12.4-r0"
       ]
     },
     "gdal-driver-libkml": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51758,13 +51818,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-LIBKML=3.12.3-r4"
+        "gdal-driver-LIBKML=3.12.4-r0"
       ]
     },
     "gdal-driver-mssqlspatial": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51774,13 +51835,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-MSSQLSpatial=3.12.3-r4"
+        "gdal-driver-MSSQLSpatial=3.12.4-r0"
       ]
     },
     "gdal-driver-mysql": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51790,13 +51852,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-MySQL=3.12.3-r4"
+        "gdal-driver-MySQL=3.12.4-r0"
       ]
     },
     "gdal-driver-netcdf": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51806,13 +51869,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-netCDF=3.12.3-r4"
+        "gdal-driver-netCDF=3.12.4-r0"
       ]
     },
     "gdal-driver-odbc": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51821,13 +51885,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-ODBC=3.12.3-r4"
+        "gdal-driver-ODBC=3.12.4-r0"
       ]
     },
     "gdal-driver-parquet": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libarrow.so.2300",
@@ -51840,13 +51905,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-Parquet=3.12.3-r4"
+        "gdal-driver-Parquet=3.12.4-r0"
       ]
     },
     "gdal-driver-pcidsk": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51856,13 +51922,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-PCIDSK=3.12.3-r4"
+        "gdal-driver-PCIDSK=3.12.4-r0"
       ]
     },
     "gdal-driver-pcraster": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51871,13 +51938,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-PCRaster=3.12.3-r4"
+        "gdal-driver-PCRaster=3.12.4-r0"
       ]
     },
     "gdal-driver-pdf": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51887,13 +51955,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-PDF=3.12.3-r4"
+        "gdal-driver-PDF=3.12.4-r0"
       ]
     },
     "gdal-driver-pg": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51903,13 +51972,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-PG=3.12.3-r4"
+        "gdal-driver-PG=3.12.4-r0"
       ]
     },
     "gdal-driver-plscenes": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51919,13 +51989,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-PLSCENES=3.12.3-r4"
+        "gdal-driver-PLSCENES=3.12.4-r0"
       ]
     },
     "gdal-driver-png": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51935,13 +52006,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-PNG=3.12.3-r4"
+        "gdal-driver-PNG=3.12.4-r0"
       ]
     },
     "gdal-driver-postgisraster": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51951,13 +52023,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-PostGISRaster=3.12.3-r4"
+        "gdal-driver-PostGISRaster=3.12.4-r0"
       ]
     },
     "gdal-driver-vfk": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51967,13 +52040,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-VFK=3.12.3-r4"
+        "gdal-driver-VFK=3.12.4-r0"
       ]
     },
     "gdal-driver-webp": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51983,13 +52057,14 @@
         "so:libwebp.so.7"
       ],
       "provides": [
-        "gdal-driver-WEBP=3.12.3-r4"
+        "gdal-driver-WEBP=3.12.4-r0"
       ]
     },
     "gdal-driver-wms": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -51999,13 +52074,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-WMS=3.12.3-r4"
+        "gdal-driver-WMS=3.12.4-r0"
       ]
     },
     "gdal-driver-xls": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -52015,13 +52091,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-XLS=3.12.3-r4"
+        "gdal-driver-XLS=3.12.4-r0"
       ]
     },
     "gdal-driver-xodr": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libOpenDrive.so.0",
@@ -52032,13 +52109,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-XODR=3.12.3-r4"
+        "gdal-driver-XODR=3.12.4-r0"
       ]
     },
     "gdal-tools": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "py3-gdal",
@@ -52048,71 +52126,71 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:gdal2tiles.py=3.12.3-r4",
-        "cmd:gdal2tiles=3.12.3-r4",
-        "cmd:gdal2xyz.py=3.12.3-r4",
-        "cmd:gdal2xyz=3.12.3-r4",
-        "cmd:gdal=3.12.3-r4",
-        "cmd:gdal_calc.py=3.12.3-r4",
-        "cmd:gdal_calc=3.12.3-r4",
-        "cmd:gdal_contour=3.12.3-r4",
-        "cmd:gdal_create=3.12.3-r4",
-        "cmd:gdal_edit.py=3.12.3-r4",
-        "cmd:gdal_edit=3.12.3-r4",
-        "cmd:gdal_fillnodata.py=3.12.3-r4",
-        "cmd:gdal_fillnodata=3.12.3-r4",
-        "cmd:gdal_footprint=3.12.3-r4",
-        "cmd:gdal_grid=3.12.3-r4",
-        "cmd:gdal_merge.py=3.12.3-r4",
-        "cmd:gdal_merge=3.12.3-r4",
-        "cmd:gdal_pansharpen.py=3.12.3-r4",
-        "cmd:gdal_pansharpen=3.12.3-r4",
-        "cmd:gdal_polygonize.py=3.12.3-r4",
-        "cmd:gdal_polygonize=3.12.3-r4",
-        "cmd:gdal_proximity.py=3.12.3-r4",
-        "cmd:gdal_proximity=3.12.3-r4",
-        "cmd:gdal_rasterize=3.12.3-r4",
-        "cmd:gdal_retile.py=3.12.3-r4",
-        "cmd:gdal_retile=3.12.3-r4",
-        "cmd:gdal_sieve.py=3.12.3-r4",
-        "cmd:gdal_sieve=3.12.3-r4",
-        "cmd:gdal_translate=3.12.3-r4",
-        "cmd:gdal_viewshed=3.12.3-r4",
-        "cmd:gdaladdo=3.12.3-r4",
-        "cmd:gdalattachpct.py=3.12.3-r4",
-        "cmd:gdalattachpct=3.12.3-r4",
-        "cmd:gdalbuildvrt=3.12.3-r4",
-        "cmd:gdalcompare.py=3.12.3-r4",
-        "cmd:gdalcompare=3.12.3-r4",
-        "cmd:gdaldem=3.12.3-r4",
-        "cmd:gdalenhance=3.12.3-r4",
-        "cmd:gdalinfo=3.12.3-r4",
-        "cmd:gdallocationinfo=3.12.3-r4",
-        "cmd:gdalmanage=3.12.3-r4",
-        "cmd:gdalmdiminfo=3.12.3-r4",
-        "cmd:gdalmdimtranslate=3.12.3-r4",
-        "cmd:gdalmove.py=3.12.3-r4",
-        "cmd:gdalmove=3.12.3-r4",
-        "cmd:gdalsrsinfo=3.12.3-r4",
-        "cmd:gdaltindex=3.12.3-r4",
-        "cmd:gdaltransform=3.12.3-r4",
-        "cmd:gdalwarp=3.12.3-r4",
-        "cmd:gnmanalyse=3.12.3-r4",
-        "cmd:gnmmanage=3.12.3-r4",
-        "cmd:nearblack=3.12.3-r4",
-        "cmd:ogr2ogr=3.12.3-r4",
-        "cmd:ogr_layer_algebra.py=3.12.3-r4",
-        "cmd:ogr_layer_algebra=3.12.3-r4",
-        "cmd:ogrinfo=3.12.3-r4",
-        "cmd:ogrlineref=3.12.3-r4",
-        "cmd:ogrmerge.py=3.12.3-r4",
-        "cmd:ogrmerge=3.12.3-r4",
-        "cmd:ogrtindex=3.12.3-r4",
-        "cmd:pct2rgb.py=3.12.3-r4",
-        "cmd:pct2rgb=3.12.3-r4",
-        "cmd:rgb2pct.py=3.12.3-r4",
-        "cmd:rgb2pct=3.12.3-r4",
-        "cmd:sozip=3.12.3-r4"
+        "cmd:gdal2tiles.py=3.12.4-r0",
+        "cmd:gdal2tiles=3.12.4-r0",
+        "cmd:gdal2xyz.py=3.12.4-r0",
+        "cmd:gdal2xyz=3.12.4-r0",
+        "cmd:gdal=3.12.4-r0",
+        "cmd:gdal_calc.py=3.12.4-r0",
+        "cmd:gdal_calc=3.12.4-r0",
+        "cmd:gdal_contour=3.12.4-r0",
+        "cmd:gdal_create=3.12.4-r0",
+        "cmd:gdal_edit.py=3.12.4-r0",
+        "cmd:gdal_edit=3.12.4-r0",
+        "cmd:gdal_fillnodata.py=3.12.4-r0",
+        "cmd:gdal_fillnodata=3.12.4-r0",
+        "cmd:gdal_footprint=3.12.4-r0",
+        "cmd:gdal_grid=3.12.4-r0",
+        "cmd:gdal_merge.py=3.12.4-r0",
+        "cmd:gdal_merge=3.12.4-r0",
+        "cmd:gdal_pansharpen.py=3.12.4-r0",
+        "cmd:gdal_pansharpen=3.12.4-r0",
+        "cmd:gdal_polygonize.py=3.12.4-r0",
+        "cmd:gdal_polygonize=3.12.4-r0",
+        "cmd:gdal_proximity.py=3.12.4-r0",
+        "cmd:gdal_proximity=3.12.4-r0",
+        "cmd:gdal_rasterize=3.12.4-r0",
+        "cmd:gdal_retile.py=3.12.4-r0",
+        "cmd:gdal_retile=3.12.4-r0",
+        "cmd:gdal_sieve.py=3.12.4-r0",
+        "cmd:gdal_sieve=3.12.4-r0",
+        "cmd:gdal_translate=3.12.4-r0",
+        "cmd:gdal_viewshed=3.12.4-r0",
+        "cmd:gdaladdo=3.12.4-r0",
+        "cmd:gdalattachpct.py=3.12.4-r0",
+        "cmd:gdalattachpct=3.12.4-r0",
+        "cmd:gdalbuildvrt=3.12.4-r0",
+        "cmd:gdalcompare.py=3.12.4-r0",
+        "cmd:gdalcompare=3.12.4-r0",
+        "cmd:gdaldem=3.12.4-r0",
+        "cmd:gdalenhance=3.12.4-r0",
+        "cmd:gdalinfo=3.12.4-r0",
+        "cmd:gdallocationinfo=3.12.4-r0",
+        "cmd:gdalmanage=3.12.4-r0",
+        "cmd:gdalmdiminfo=3.12.4-r0",
+        "cmd:gdalmdimtranslate=3.12.4-r0",
+        "cmd:gdalmove.py=3.12.4-r0",
+        "cmd:gdalmove=3.12.4-r0",
+        "cmd:gdalsrsinfo=3.12.4-r0",
+        "cmd:gdaltindex=3.12.4-r0",
+        "cmd:gdaltransform=3.12.4-r0",
+        "cmd:gdalwarp=3.12.4-r0",
+        "cmd:gnmanalyse=3.12.4-r0",
+        "cmd:gnmmanage=3.12.4-r0",
+        "cmd:nearblack=3.12.4-r0",
+        "cmd:ogr2ogr=3.12.4-r0",
+        "cmd:ogr_layer_algebra.py=3.12.4-r0",
+        "cmd:ogr_layer_algebra=3.12.4-r0",
+        "cmd:ogrinfo=3.12.4-r0",
+        "cmd:ogrlineref=3.12.4-r0",
+        "cmd:ogrmerge.py=3.12.4-r0",
+        "cmd:ogrmerge=3.12.4-r0",
+        "cmd:ogrtindex=3.12.4-r0",
+        "cmd:pct2rgb.py=3.12.4-r0",
+        "cmd:pct2rgb=3.12.4-r0",
+        "cmd:rgb2pct.py=3.12.4-r0",
+        "cmd:rgb2pct=3.12.4-r0",
+        "cmd:sozip=3.12.4-r0"
       ]
     },
     "gdb-dashboard": {
@@ -82416,7 +82494,8 @@
     "java-gdal": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -143414,45 +143493,49 @@
       "origin": "nextvi",
       "versions": {
         "4.2.0-r0": 1776390612,
-        "5.0-r0": 1778537998
+        "5.0-r0": 1778537998,
+        "5.1-r0": 1778624129
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:nextvi=5.0-r0"
+        "cmd:nextvi=5.1-r0"
       ]
     },
     "nextvi-doc": {
       "origin": "nextvi",
       "versions": {
         "4.2.0-r0": 1776390612,
-        "5.0-r0": 1778537998
+        "5.0-r0": 1778537998,
+        "5.1-r0": 1778624129
       }
     },
     "nextvi-vi": {
       "origin": "nextvi",
       "versions": {
         "4.2.0-r0": 1776390612,
-        "5.0-r0": 1778537998
+        "5.0-r0": 1778537998,
+        "5.1-r0": 1778624129
       },
       "dependencies": [
-        "nextvi=5.0-r0",
-        "nextvi=5.0-r0"
+        "nextvi=5.1-r0",
+        "nextvi=5.1-r0"
       ],
       "provides": [
-        "cmd:vi=5.0-r0"
+        "cmd:vi=5.1-r0"
       ]
     },
     "nextvi-vi-doc": {
       "origin": "nextvi",
       "versions": {
         "4.2.0-r0": 1776390612,
-        "5.0-r0": 1778537998
+        "5.0-r0": 1778537998,
+        "5.1-r0": 1778624129
       },
       "dependencies": [
-        "nextvi-doc=5.0-r0",
-        "nextvi-doc=5.0-r0"
+        "nextvi-doc=5.1-r0",
+        "nextvi-doc=5.1-r0"
       ]
     },
     "nfpm": {
@@ -167406,39 +167489,43 @@
     "openexr": {
       "origin": "openexr",
       "versions": {
-        "3.4.10-r0": 1777277460
+        "3.4.10-r0": 1777277460,
+        "3.4.11-r0": 1778628530
       }
     },
     "openexr-dev": {
       "origin": "openexr",
       "versions": {
-        "3.4.10-r0": 1777277460
+        "3.4.10-r0": 1777277460,
+        "3.4.11-r0": 1778628530
       },
       "dependencies": [
         "libdeflate-static",
-        "openexr-libiex=3.4.10-r0",
-        "openexr-libilmthread=3.4.10-r0",
-        "openexr-libopenexr=3.4.10-r0",
-        "openexr-libopenexrcore=3.4.10-r0",
-        "openexr-libopenexrutil=3.4.10-r0",
+        "openexr-libiex=3.4.11-r0",
+        "openexr-libilmthread=3.4.11-r0",
+        "openexr-libopenexr=3.4.11-r0",
+        "openexr-libopenexrcore=3.4.11-r0",
+        "openexr-libopenexrutil=3.4.11-r0",
         "pc:Imath",
         "pc:libdeflate>=1.25",
         "pkgconfig"
       ],
       "provides": [
-        "pc:OpenEXR=3.4.10"
+        "pc:OpenEXR=3.4.11"
       ]
     },
     "openexr-doc": {
       "origin": "openexr",
       "versions": {
-        "3.4.10-r0": 1777277460
+        "3.4.10-r0": 1777277460,
+        "3.4.11-r0": 1778628530
       }
     },
     "openexr-libiex": {
       "origin": "openexr",
       "versions": {
-        "3.4.10-r0": 1777277460
+        "3.4.10-r0": 1777277460,
+        "3.4.11-r0": 1778628530
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -167446,13 +167533,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libIex-3_4.so.33=33.3.4.10"
+        "so:libIex-3_4.so.33=33.3.4.11"
       ]
     },
     "openexr-libilmthread": {
       "origin": "openexr",
       "versions": {
-        "3.4.10-r0": 1777277460
+        "3.4.10-r0": 1777277460,
+        "3.4.11-r0": 1778628530
       },
       "dependencies": [
         "so:libIex-3_4.so.33",
@@ -167461,13 +167549,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libIlmThread-3_4.so.33=33.3.4.10"
+        "so:libIlmThread-3_4.so.33=33.3.4.11"
       ]
     },
     "openexr-libopenexr": {
       "origin": "openexr",
       "versions": {
-        "3.4.10-r0": 1777277460
+        "3.4.10-r0": 1777277460,
+        "3.4.11-r0": 1778628530
       },
       "dependencies": [
         "so:libIex-3_4.so.33",
@@ -167479,13 +167568,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libOpenEXR-3_4.so.33=33.3.4.10"
+        "so:libOpenEXR-3_4.so.33=33.3.4.11"
       ]
     },
     "openexr-libopenexrcore": {
       "origin": "openexr",
       "versions": {
-        "3.4.10-r0": 1777277460
+        "3.4.10-r0": 1777277460,
+        "3.4.11-r0": 1778628530
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -167494,13 +167584,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libOpenEXRCore-3_4.so.33=33.3.4.10"
+        "so:libOpenEXRCore-3_4.so.33=33.3.4.11"
       ]
     },
     "openexr-libopenexrutil": {
       "origin": "openexr",
       "versions": {
-        "3.4.10-r0": 1777277460
+        "3.4.10-r0": 1777277460,
+        "3.4.11-r0": 1778628530
       },
       "dependencies": [
         "so:libIex-3_4.so.33",
@@ -167511,13 +167602,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libOpenEXRUtil-3_4.so.33=33.3.4.10"
+        "so:libOpenEXRUtil-3_4.so.33=33.3.4.11"
       ]
     },
     "openexr-tools": {
       "origin": "openexr",
       "versions": {
-        "3.4.10-r0": 1777277460
+        "3.4.10-r0": 1777277460,
+        "3.4.11-r0": 1778628530
       },
       "dependencies": [
         "so:libIex-3_4.so.33",
@@ -167530,17 +167622,17 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:exr2aces=3.4.10-r0",
-        "cmd:exrenvmap=3.4.10-r0",
-        "cmd:exrheader=3.4.10-r0",
-        "cmd:exrinfo=3.4.10-r0",
-        "cmd:exrmakepreview=3.4.10-r0",
-        "cmd:exrmaketiled=3.4.10-r0",
-        "cmd:exrmanifest=3.4.10-r0",
-        "cmd:exrmetrics=3.4.10-r0",
-        "cmd:exrmultipart=3.4.10-r0",
-        "cmd:exrmultiview=3.4.10-r0",
-        "cmd:exrstdattr=3.4.10-r0"
+        "cmd:exr2aces=3.4.11-r0",
+        "cmd:exrenvmap=3.4.11-r0",
+        "cmd:exrheader=3.4.11-r0",
+        "cmd:exrinfo=3.4.11-r0",
+        "cmd:exrmakepreview=3.4.11-r0",
+        "cmd:exrmaketiled=3.4.11-r0",
+        "cmd:exrmanifest=3.4.11-r0",
+        "cmd:exrmetrics=3.4.11-r0",
+        "cmd:exrmultipart=3.4.11-r0",
+        "cmd:exrmultiview=3.4.11-r0",
+        "cmd:exrstdattr=3.4.11-r0"
       ]
     },
     "openfst": {
@@ -172018,22 +172110,25 @@
     "passt": {
       "origin": "passt",
       "versions": {
-        "2026.01.20-r0": 1769378615
+        "2026.01.20-r0": 1769378615,
+        "2026.05.07-r0": 1778625041
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:passt-repair=2026.01.20-r0",
-        "cmd:passt=2026.01.20-r0",
-        "cmd:pasta=2026.01.20-r0",
-        "cmd:qrap=2026.01.20-r0"
+        "cmd:passt-repair=2026.05.07-r0",
+        "cmd:passt=2026.05.07-r0",
+        "cmd:pasta=2026.05.07-r0",
+        "cmd:pesto=2026.05.07-r0",
+        "cmd:qrap=2026.05.07-r0"
       ]
     },
     "passt-doc": {
       "origin": "passt",
       "versions": {
-        "2026.01.20-r0": 1769378615
+        "2026.01.20-r0": 1769378615,
+        "2026.05.07-r0": 1778625041
       }
     },
     "pastel": {
@@ -209845,7 +209940,8 @@
     "py3-gdal": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "py3-numpy",
@@ -209856,14 +209952,15 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "py3.14:osgeo=3.12.3-r4",
-        "py3.14:osgeo_utils=3.12.3-r4"
+        "py3.14:osgeo=3.12.4-r0",
+        "py3.14:osgeo_utils=3.12.4-r0"
       ]
     },
     "py3-gdal-pyc": {
       "origin": "gdal",
       "versions": {
-        "3.12.3-r4": 1776959469
+        "3.12.3-r4": 1776959469,
+        "3.12.4-r0": 1778623469
       },
       "dependencies": [
         "python3~3.14"
@@ -288986,6 +289083,37 @@
       "versions": {
         "0.2.0-r0": 1723734253
       }
+    },
+    "gdal-driver-adbc": {
+      "origin": "gdal",
+      "versions": {
+        "3.12.4-r0": 1778623469
+      },
+      "dependencies": [
+        "so:libc.musl-x86.so.1",
+        "so:libgcc_s.so.1",
+        "so:libgdal.so.38",
+        "so:libstdc++.so.6"
+      ],
+      "provides": [
+        "gdal-driver-ADBC=3.12.4-r0"
+      ]
+    },
+    "gdal-driver-avif": {
+      "origin": "gdal",
+      "versions": {
+        "3.12.4-r0": 1778623469
+      },
+      "dependencies": [
+        "so:libavif.so.16",
+        "so:libc.musl-x86.so.1",
+        "so:libgcc_s.so.1",
+        "so:libgdal.so.38",
+        "so:libstdc++.so.6"
+      ],
+      "provides": [
+        "gdal-driver-AVIF=3.12.4-r0"
+      ]
     }
   },
   "provide": {
@@ -293756,7 +293884,7 @@
       },
       "libgdal.so.38": {
         "package": "gdal",
-        "version": "38.3.12.3"
+        "version": "38.3.12.4"
       },
       "libgdk_pixbuf-2.0.so.0": {
         "package": "gdk-pixbuf",
@@ -305160,23 +305288,23 @@
       },
       "libIex-3_4.so.33": {
         "package": "openexr-libiex",
-        "version": "33.3.4.10"
+        "version": "33.3.4.11"
       },
       "libIlmThread-3_4.so.33": {
         "package": "openexr-libilmthread",
-        "version": "33.3.4.10"
+        "version": "33.3.4.11"
       },
       "libOpenEXR-3_4.so.33": {
         "package": "openexr-libopenexr",
-        "version": "33.3.4.10"
+        "version": "33.3.4.11"
       },
       "libOpenEXRCore-3_4.so.33": {
         "package": "openexr-libopenexrcore",
-        "version": "33.3.4.10"
+        "version": "33.3.4.11"
       },
       "libOpenEXRUtil-3_4.so.33": {
         "package": "openexr-libopenexrutil",
-        "version": "33.3.4.10"
+        "version": "33.3.4.11"
       },
       "libopenh264.so.8": {
         "package": "openh264",
@@ -310782,139 +310910,139 @@
       },
       "gdal-driver-Arrow": {
         "package": "gdal-driver-arrow",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-BASISU_KTX2": {
         "package": "gdal-driver-basisu_ktx2",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-CAD": {
         "package": "gdal-driver-cad",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-Carto": {
         "package": "gdal-driver-carto",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-Elastic": {
         "package": "gdal-driver-elastic",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-EXR": {
         "package": "gdal-driver-exr",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-FITS": {
         "package": "gdal-driver-fits",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-GIF": {
         "package": "gdal-driver-gif",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-GMLAS": {
         "package": "gdal-driver-gmlas",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-HANA": {
         "package": "gdal-driver-hana",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-HDF5": {
         "package": "gdal-driver-hdf5",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-HEIF": {
         "package": "gdal-driver-heif",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-JP2OpenJPEG": {
         "package": "gdal-driver-jp2openjpeg",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-JPEG": {
         "package": "gdal-driver-jpeg",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-JPEGXL": {
         "package": "gdal-driver-jpegxl",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-KEA": {
         "package": "gdal-driver-kea",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-LIBKML": {
         "package": "gdal-driver-libkml",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-MSSQLSpatial": {
         "package": "gdal-driver-mssqlspatial",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-MySQL": {
         "package": "gdal-driver-mysql",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-netCDF": {
         "package": "gdal-driver-netcdf",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-ODBC": {
         "package": "gdal-driver-odbc",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-Parquet": {
         "package": "gdal-driver-parquet",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-PCIDSK": {
         "package": "gdal-driver-pcidsk",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-PCRaster": {
         "package": "gdal-driver-pcraster",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-PDF": {
         "package": "gdal-driver-pdf",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-PG": {
         "package": "gdal-driver-pg",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-PLSCENES": {
         "package": "gdal-driver-plscenes",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-PNG": {
         "package": "gdal-driver-png",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-PostGISRaster": {
         "package": "gdal-driver-postgisraster",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-VFK": {
         "package": "gdal-driver-vfk",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-WEBP": {
         "package": "gdal-driver-webp",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-WMS": {
         "package": "gdal-driver-wms",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-XLS": {
         "package": "gdal-driver-xls",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "gdal-driver-XODR": {
         "package": "gdal-driver-xodr",
-        "version": "3.12.3-r4"
+        "version": "3.12.4-r0"
       },
       "glycin-loaders": {
         "package": "glycin",
@@ -313871,6 +313999,14 @@
       "zimwriterfs": {
         "package": "zim-tools",
         "version": "3.7.0-r0"
+      },
+      "gdal-driver-ADBC": {
+        "package": "gdal-driver-adbc",
+        "version": "3.12.4-r0"
+      },
+      "gdal-driver-AVIF": {
+        "package": "gdal-driver-avif",
+        "version": "3.12.4-r0"
       }
     }
   }
