@@ -95541,20 +95541,22 @@
     "lego": {
       "origin": "lego",
       "versions": {
-        "4.32.0-r1": 1775839666
+        "4.32.0-r1": 1775839666,
+        "4.35.2-r0": 1778595188
       },
       "dependencies": [
         "ca-certificates",
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:lego=4.32.0-r1"
+        "cmd:lego=4.35.2-r0"
       ]
     },
     "lego-doc": {
       "origin": "lego",
       "versions": {
-        "4.32.0-r1": 1775839666
+        "4.32.0-r1": 1775839666,
+        "4.35.2-r0": 1778595188
       }
     },
     "leiningen": {
@@ -162541,12 +162543,14 @@
     "openterface-qt": {
       "origin": "openterface-qt",
       "versions": {
-        "0.5.14-r0": 1772398612
+        "0.5.14-r0": 1772398612,
+        "0.5.22-r0": 1778594804
       },
       "dependencies": [
         "gst-plugins-good-qt",
         "hicolor-icon-theme",
         "qt6-qtmultimedia-ffmpeg",
+        "v4l-utils",
         "/bin/sh",
         "so:libQt6Core.so.6",
         "so:libQt6DBus.so.6",
@@ -162577,7 +162581,7 @@
         "so:libusb-1.0.so.0"
       ],
       "provides": [
-        "cmd:openterfaceQT=0.5.14-r0"
+        "cmd:openterfaceQT=0.5.22-r0"
       ]
     },
     "opentimelineio": {
@@ -270431,33 +270435,36 @@
     "woodpecker": {
       "origin": "woodpecker",
       "versions": {
-        "3.14.0-r0": 1778038905
+        "3.14.0-r0": 1778038905,
+        "3.14.1-r0": 1778589626
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:woodpecker-server=3.14.0-r0"
+        "cmd:woodpecker-server=3.14.1-r0"
       ]
     },
     "woodpecker-agent": {
       "origin": "woodpecker",
       "versions": {
-        "3.14.0-r0": 1778038905
+        "3.14.0-r0": 1778038905,
+        "3.14.1-r0": 1778589626
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:woodpecker-agent=3.14.0-r0"
+        "cmd:woodpecker-agent=3.14.1-r0"
       ]
     },
     "woodpecker-agent-openrc": {
       "origin": "woodpecker",
       "versions": {
-        "3.14.0-r0": 1778038905
+        "3.14.0-r0": 1778038905,
+        "3.14.1-r0": 1778589626
       },
       "dependencies": [
         "openrc"
@@ -270466,25 +270473,28 @@
     "woodpecker-cli": {
       "origin": "woodpecker",
       "versions": {
-        "3.14.0-r0": 1778038905
+        "3.14.0-r0": 1778038905,
+        "3.14.1-r0": 1778589626
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:woodpecker-cli=3.14.0-r0"
+        "cmd:woodpecker-cli=3.14.1-r0"
       ]
     },
     "woodpecker-doc": {
       "origin": "woodpecker",
       "versions": {
-        "3.14.0-r0": 1778038905
+        "3.14.0-r0": 1778038905,
+        "3.14.1-r0": 1778589626
       }
     },
     "woodpecker-openrc": {
       "origin": "woodpecker",
       "versions": {
-        "3.14.0-r0": 1778038905
+        "3.14.0-r0": 1778038905,
+        "3.14.1-r0": 1778589626
       }
     },
     "wordgrinder": {
