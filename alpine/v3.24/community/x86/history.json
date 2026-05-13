@@ -15198,14 +15198,15 @@
     "b3sum": {
       "origin": "b3sum",
       "versions": {
-        "1.8.4-r0": 1774941082
+        "1.8.4-r0": 1774941082,
+        "1.8.5-r0": 1778640891
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:b3sum=1.8.4-r0"
+        "cmd:b3sum=1.8.5-r0"
       ]
     },
     "b4": {
@@ -17063,21 +17064,23 @@
     "blake3-dev": {
       "origin": "b3sum",
       "versions": {
-        "1.8.4-r0": 1774941082
+        "1.8.4-r0": 1774941082,
+        "1.8.5-r0": 1778640891
       },
       "dependencies": [
-        "blake3-libs=1.8.4-r0",
+        "blake3-libs=1.8.5-r0",
         "pc:tbb32>=2022.3.0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libblake3=1.8.4"
+        "pc:libblake3=1.8.5"
       ]
     },
     "blake3-libs": {
       "origin": "b3sum",
       "versions": {
-        "1.8.4-r0": 1774941082
+        "1.8.4-r0": 1774941082,
+        "1.8.5-r0": 1778640891
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -17086,7 +17089,7 @@
         "so:libtbb.so.12"
       ],
       "provides": [
-        "so:libblake3.so.0=1.8.4"
+        "so:libblake3.so.0=1.8.5"
       ]
     },
     "blanket": {
@@ -22630,7 +22633,8 @@
     "cfitsio": {
       "origin": "cfitsio",
       "versions": {
-        "4.6.3-r0": 1759349339
+        "4.6.3-r0": 1759349339,
+        "4.6.4-r0": 1778641095
       },
       "dependencies": [
         "so:libbz2.so.1",
@@ -22639,28 +22643,29 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:cookbook=4.6.3-r0",
-        "cmd:fitscopy=4.6.3-r0",
-        "cmd:fitsverify=4.6.3-r0",
-        "cmd:fpack=4.6.3-r0",
-        "cmd:funpack=4.6.3-r0",
-        "cmd:imcopy=4.6.3-r0",
-        "cmd:smem=4.6.3-r0",
-        "cmd:speed=4.6.3-r0",
-        "so:libcfitsio.so.10=4.6.3"
+        "cmd:cookbook=4.6.4-r0",
+        "cmd:fitscopy=4.6.4-r0",
+        "cmd:fitsverify=4.6.4-r0",
+        "cmd:fpack=4.6.4-r0",
+        "cmd:funpack=4.6.4-r0",
+        "cmd:imcopy=4.6.4-r0",
+        "cmd:smem=4.6.4-r0",
+        "cmd:speed=4.6.4-r0",
+        "so:libcfitsio.so.10=4.6.4"
       ]
     },
     "cfitsio-dev": {
       "origin": "cfitsio",
       "versions": {
-        "4.6.3-r0": 1759349339
+        "4.6.3-r0": 1759349339,
+        "4.6.4-r0": 1778641095
       },
       "dependencies": [
-        "cfitsio=4.6.3-r0",
+        "cfitsio=4.6.4-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:cfitsio=4.6.3"
+        "pc:cfitsio=4.6.4"
       ]
     },
     "cflow": {
@@ -215911,20 +215916,22 @@
     "py3-matplotlib-inline": {
       "origin": "py3-matplotlib-inline",
       "versions": {
-        "0.2.1-r1": 1774640371
+        "0.2.1-r1": 1774640371,
+        "0.2.2-r0": 1778640508
       },
       "dependencies": [
         "py3-traitlets",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:matplotlib_inline=0.2.1-r1"
+        "py3.14:matplotlib_inline=0.2.2-r0"
       ]
     },
     "py3-matplotlib-inline-pyc": {
       "origin": "py3-matplotlib-inline",
       "versions": {
-        "0.2.1-r1": 1774640371
+        "0.2.1-r1": 1774640371,
+        "0.2.2-r0": 1778640508
       },
       "dependencies": [
         "python3~3.14"
@@ -286115,7 +286122,8 @@
     "yara": {
       "origin": "yara",
       "versions": {
-        "4.5.5-r1": 1771160091
+        "4.5.5-r1": 1771160091,
+        "4.5.6-r0": 1778638702
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -286123,29 +286131,31 @@
         "so:libmagic.so.1"
       ],
       "provides": [
-        "cmd:yara=4.5.5-r1",
-        "cmd:yarac=4.5.5-r1",
+        "cmd:yara=4.5.6-r0",
+        "cmd:yarac=4.5.6-r0",
         "so:libyara.so.10=10.0.0"
       ]
     },
     "yara-dev": {
       "origin": "yara",
       "versions": {
-        "4.5.5-r1": 1771160091
+        "4.5.5-r1": 1771160091,
+        "4.5.6-r0": 1778638702
       },
       "dependencies": [
-        "yara=4.5.5-r1",
+        "yara=4.5.6-r0",
         "pc:libcrypto",
         "pkgconfig"
       ],
       "provides": [
-        "pc:yara=4.5.5"
+        "pc:yara=4.5.6"
       ]
     },
     "yara-doc": {
       "origin": "yara",
       "versions": {
-        "4.5.5-r1": 1771160091
+        "4.5.5-r1": 1771160091,
+        "4.5.6-r0": 1778638702
       }
     },
     "yarn": {
@@ -291736,7 +291746,7 @@
       },
       "libblake3.so.0": {
         "package": "blake3-libs",
-        "version": "1.8.4"
+        "version": "1.8.5"
       },
       "libblas.so.3": {
         "package": "blas",
@@ -292236,7 +292246,7 @@
       },
       "libcfitsio.so.10": {
         "package": "cfitsio",
-        "version": "4.6.3"
+        "version": "4.6.4"
       },
       "libcgif.so.0": {
         "package": "cgif",
