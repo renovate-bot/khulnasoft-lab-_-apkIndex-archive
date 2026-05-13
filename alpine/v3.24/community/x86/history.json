@@ -59547,7 +59547,8 @@
     "go": {
       "origin": "go",
       "versions": {
-        "1.26.2-r0": 1775839479
+        "1.26.2-r0": 1775839479,
+        "1.26.3-r0": 1778659597
       },
       "dependencies": [
         "binutils",
@@ -59555,9 +59556,9 @@
         "musl-dev"
       ],
       "provides": [
-        "go-bootstrap=1.26.2-r0",
-        "cmd:go=1.26.2-r0",
-        "cmd:gofmt=1.26.2-r0"
+        "go-bootstrap=1.26.3-r0",
+        "cmd:go=1.26.3-r0",
+        "cmd:gofmt=1.26.3-r0"
       ]
     },
     "go-bindata": {
@@ -59588,7 +59589,8 @@
     "go-doc": {
       "origin": "go",
       "versions": {
-        "1.26.2-r0": 1775839479
+        "1.26.2-r0": 1775839479,
+        "1.26.3-r0": 1778659597
       }
     },
     "go-md2man": {
@@ -240221,32 +240223,35 @@
     "rabbitmq-server": {
       "origin": "rabbitmq-server",
       "versions": {
-        "4.3.0-r0": 1777011529
+        "4.3.0-r0": 1777011529,
+        "4.3.0-r1": 1778659219
       },
       "dependencies": [
-        "erlang",
+        "erlang27",
         "/bin/sh"
       ],
       "provides": [
-        "cmd:rabbitmq-diagnostics=4.3.0-r0",
-        "cmd:rabbitmq-plugins=4.3.0-r0",
-        "cmd:rabbitmq-queues=4.3.0-r0",
-        "cmd:rabbitmq-server=4.3.0-r0",
-        "cmd:rabbitmq-streams=4.3.0-r0",
-        "cmd:rabbitmq-upgrade=4.3.0-r0",
-        "cmd:rabbitmqctl=4.3.0-r0"
+        "cmd:rabbitmq-diagnostics=4.3.0-r1",
+        "cmd:rabbitmq-plugins=4.3.0-r1",
+        "cmd:rabbitmq-queues=4.3.0-r1",
+        "cmd:rabbitmq-server=4.3.0-r1",
+        "cmd:rabbitmq-streams=4.3.0-r1",
+        "cmd:rabbitmq-upgrade=4.3.0-r1",
+        "cmd:rabbitmqctl=4.3.0-r1"
       ]
     },
     "rabbitmq-server-doc": {
       "origin": "rabbitmq-server",
       "versions": {
-        "4.3.0-r0": 1777011529
+        "4.3.0-r0": 1777011529,
+        "4.3.0-r1": 1778659219
       }
     },
     "rabbitmq-server-openrc": {
       "origin": "rabbitmq-server",
       "versions": {
-        "4.3.0-r0": 1777011529
+        "4.3.0-r0": 1777011529,
+        "4.3.0-r1": 1778659219
       }
     },
     "racket": {
@@ -311085,7 +311090,7 @@
       },
       "go-bootstrap": {
         "package": "go",
-        "version": "1.26.2-r0"
+        "version": "1.26.3-r0"
       },
       "gtkgreet": {
         "package": "greetd-gtkgreet",
