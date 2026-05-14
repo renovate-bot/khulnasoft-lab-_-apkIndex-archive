@@ -19009,7 +19009,8 @@
         "3.2.15-r0": 1774517233,
         "3.2.16-r0": 1777120080,
         "3.2.17-r0": 1777613757,
-        "3.2.18-r0": 1778163859
+        "3.2.18-r0": 1778163859,
+        "3.2.19-r0": 1778775010
       },
       "dependencies": [
         "/bin/sh",
@@ -19021,7 +19022,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:haproxy=3.2.18-r0"
+        "cmd:haproxy=3.2.19-r0"
       ]
     },
     "haproxy-doc": {
@@ -19030,7 +19031,8 @@
         "3.2.15-r0": 1774517233,
         "3.2.16-r0": 1777120080,
         "3.2.17-r0": 1777613757,
-        "3.2.18-r0": 1778163859
+        "3.2.18-r0": 1778163859,
+        "3.2.19-r0": 1778775010
       }
     },
     "haproxy-openrc": {
@@ -19039,7 +19041,8 @@
         "3.2.15-r0": 1774517233,
         "3.2.16-r0": 1777120080,
         "3.2.17-r0": 1777613757,
-        "3.2.18-r0": 1778163859
+        "3.2.18-r0": 1778163859,
+        "3.2.19-r0": 1778775010
       }
     },
     "harfbuzz": {
@@ -43698,7 +43701,8 @@
     "nginx": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
         "/bin/sh",
@@ -43709,16 +43713,17 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:nginx=1.28.3-r0"
+        "cmd:nginx=1.30.1-r0"
       ]
     },
     "nginx-debug": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libcrypto.so.3",
         "so:libpcre2-8.so.0",
@@ -43726,19 +43731,21 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:nginx-debug=1.28.3-r0"
+        "cmd:nginx-debug=1.30.1-r0"
       ]
     },
     "nginx-doc": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       }
     },
     "nginx-mod-dev": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
         "gd-dev",
@@ -43754,20 +43761,22 @@
     "nginx-mod-devel-kit": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1"
       ]
     },
     "nginx-mod-dynamic-healthcheck": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "nginx-mod-stream",
         "so:libc.musl-x86_64.so.1",
         "so:libgcc_s.so.1",
@@ -43777,10 +43786,11 @@
     "nginx-mod-dynamic-upstream": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "nginx-mod-stream",
         "so:libc.musl-x86_64.so.1",
         "so:libgcc_s.so.1",
@@ -43790,20 +43800,22 @@
     "nginx-mod-http-accounting": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1"
       ]
     },
     "nginx-mod-http-array-var": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "nginx-mod-devel-kit",
         "so:libc.musl-x86_64.so.1"
       ]
@@ -43811,10 +43823,11 @@
     "nginx-mod-http-auth-jwt": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libcrypto.so.3",
         "so:libjansson.so.4"
@@ -43823,10 +43836,11 @@
     "nginx-mod-http-brotli": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libbrotlienc.so.1",
         "so:libc.musl-x86_64.so.1"
       ]
@@ -43834,30 +43848,33 @@
     "nginx-mod-http-cache-purge": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1"
       ]
     },
     "nginx-mod-http-cookie-flag": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1"
       ]
     },
     "nginx-mod-http-dav-ext": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libxml2.so.2"
       ]
@@ -43865,20 +43882,22 @@
     "nginx-mod-http-echo": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1"
       ]
     },
     "nginx-mod-http-encrypted-session": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "nginx-mod-devel-kit",
         "so:libc.musl-x86_64.so.1"
       ]
@@ -43886,20 +43905,22 @@
     "nginx-mod-http-fancyindex": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1"
       ]
     },
     "nginx-mod-http-geoip": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libGeoIP.so.1",
         "so:libc.musl-x86_64.so.1"
       ]
@@ -43907,10 +43928,11 @@
     "nginx-mod-http-geoip2": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libmaxminddb.so.0"
       ]
@@ -43918,20 +43940,22 @@
     "nginx-mod-http-headers-more": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1"
       ]
     },
     "nginx-mod-http-image-filter": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libgd.so.3"
       ]
@@ -43939,10 +43963,11 @@
     "nginx-mod-http-js": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libxml2.so.2"
       ]
@@ -43950,10 +43975,11 @@
     "nginx-mod-http-keyval": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libhiredis.so.1.3.0"
       ]
@@ -43961,20 +43987,22 @@
     "nginx-mod-http-log-zmq": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1"
       ]
     },
     "nginx-mod-http-lua": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "nginx-mod-devel-kit",
         "lua-resty-core",
         "so:libc.musl-x86_64.so.1",
@@ -43987,10 +44015,11 @@
     "nginx-mod-http-lua-upstream": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "nginx-mod-http-lua",
         "so:libc.musl-x86_64.so.1"
       ]
@@ -43998,30 +44027,33 @@
     "nginx-mod-http-naxsi": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1"
       ]
     },
     "nginx-mod-http-nchan": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1"
       ]
     },
     "nginx-mod-http-perl": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libperl.so"
       ]
@@ -44029,20 +44061,22 @@
     "nginx-mod-http-redis2": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1"
       ]
     },
     "nginx-mod-http-set-misc": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "nginx-mod-devel-kit",
         "so:libc.musl-x86_64.so.1"
       ]
@@ -44050,70 +44084,77 @@
     "nginx-mod-http-shibboleth": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1"
       ]
     },
     "nginx-mod-http-slowfs-cache": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1"
       ]
     },
     "nginx-mod-http-untar": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1"
       ]
     },
     "nginx-mod-http-upload": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1"
       ]
     },
     "nginx-mod-http-upload-progress": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1"
       ]
     },
     "nginx-mod-http-upstream-fair": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1"
       ]
     },
     "nginx-mod-http-vod": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libcrypto.so.3",
         "so:libxml2.so.2",
@@ -44123,20 +44164,22 @@
     "nginx-mod-http-vts": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1"
       ]
     },
     "nginx-mod-http-xslt-filter": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libexslt.so.0",
         "so:libxml2.so.2",
@@ -44146,20 +44189,22 @@
     "nginx-mod-http-zip": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1"
       ]
     },
     "nginx-mod-http-zstd": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libzstd.so.1"
       ]
@@ -44167,20 +44212,22 @@
     "nginx-mod-mail": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1"
       ]
     },
     "nginx-mod-rtmp": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1"
       ],
       "provides": [
@@ -44190,20 +44237,22 @@
     "nginx-mod-stream": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libc.musl-x86_64.so.1"
       ]
     },
     "nginx-mod-stream-geoip": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "so:libGeoIP.so.1",
         "so:libc.musl-x86_64.so.1"
       ]
@@ -44211,10 +44260,11 @@
     "nginx-mod-stream-geoip2": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "nginx-mod-stream",
         "so:libc.musl-x86_64.so.1",
         "so:libmaxminddb.so.0"
@@ -44223,10 +44273,11 @@
     "nginx-mod-stream-js": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "nginx-mod-stream",
         "so:libc.musl-x86_64.so.1",
         "so:libxml2.so.2"
@@ -44235,10 +44286,11 @@
     "nginx-mod-stream-keyval": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       },
       "dependencies": [
-        "nginx=1.28.3-r0",
+        "nginx=1.30.1-r0",
         "nginx-mod-stream",
         "so:libc.musl-x86_64.so.1",
         "so:libhiredis.so.1.3.0"
@@ -44247,13 +44299,15 @@
     "nginx-openrc": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       }
     },
     "nginx-vim": {
       "origin": "nginx",
       "versions": {
-        "1.28.3-r0": 1774534708
+        "1.28.3-r0": 1774534708,
+        "1.30.1-r0": 1778778637
       }
     },
     "ngircd": {
@@ -50499,7 +50553,8 @@
     "perl-libwww": {
       "origin": "perl-libwww",
       "versions": {
-        "6.82-r0": 1774965317
+        "6.82-r0": 1774965317,
+        "6.83-r0": 1778770509
       },
       "dependencies": [
         "perl",
@@ -50517,16 +50572,17 @@
         "perl-try-tiny"
       ],
       "provides": [
-        "cmd:lwp-download=6.82-r0",
-        "cmd:lwp-dump=6.82-r0",
-        "cmd:lwp-mirror=6.82-r0",
-        "cmd:lwp-request=6.82-r0"
+        "cmd:lwp-download=6.83-r0",
+        "cmd:lwp-dump=6.83-r0",
+        "cmd:lwp-mirror=6.83-r0",
+        "cmd:lwp-request=6.83-r0"
       ]
     },
     "perl-libwww-doc": {
       "origin": "perl-libwww",
       "versions": {
-        "6.82-r0": 1774965317
+        "6.82-r0": 1774965317,
+        "6.83-r0": 1778770509
       }
     },
     "perl-list-allutils": {
@@ -56823,22 +56879,24 @@
       "origin": "py3-idna",
       "versions": {
         "3.11-r1": 1774640349,
-        "3.13-r0": 1777373002
+        "3.13-r0": 1777373002,
+        "3.15-r0": 1778770643
       },
       "dependencies": [
         "python3",
         "python3~3.14"
       ],
       "provides": [
-        "py-idna=3.13-r0",
-        "py3.14:idna=3.13-r0"
+        "py-idna=3.15-r0",
+        "py3.14:idna=3.15-r0"
       ]
     },
     "py3-idna-pyc": {
       "origin": "py3-idna",
       "versions": {
         "3.11-r1": 1774640349,
-        "3.13-r0": 1777373002
+        "3.13-r0": 1777373002,
+        "3.15-r0": 1778770643
       },
       "dependencies": [
         "python3~3.14"
@@ -74447,7 +74505,7 @@
       },
       "py-idna": {
         "package": "py3-idna",
-        "version": "3.13-r0"
+        "version": "3.15-r0"
       },
       "py-imagesize": {
         "package": "py3-imagesize",
