@@ -170322,7 +170322,8 @@
     "openvas-scanner": {
       "origin": "openvas-scanner",
       "versions": {
-        "23.44.0-r1": 1777984331
+        "23.44.0-r1": 1777984331,
+        "23.45.2-r0": 1778758800
       },
       "dependencies": [
         "redis",
@@ -170354,17 +170355,18 @@
         "so:libssh.so.4"
       ],
       "provides": [
-        "cmd:openvas-nasl-lint=23.44.0-r1",
-        "cmd:openvas-nasl=23.44.0-r1",
-        "cmd:openvas=23.44.0-r1",
-        "so:libopenvas_misc.so.23=23.44.0",
-        "so:libopenvas_nasl.so.23=23.44.0"
+        "cmd:openvas-nasl-lint=23.45.2-r0",
+        "cmd:openvas-nasl=23.45.2-r0",
+        "cmd:openvas=23.45.2-r0",
+        "so:libopenvas_misc.so.23=23.45.2",
+        "so:libopenvas_nasl.so.23=23.45.2"
       ]
     },
     "openvas-scanner-config": {
       "origin": "openvas-scanner",
       "versions": {
-        "23.44.0-r1": 1777984331
+        "23.44.0-r1": 1777984331,
+        "23.45.2-r0": 1778758800
       },
       "dependencies": [
         "redis",
@@ -170378,7 +170380,8 @@
     "openvas-scanner-doc": {
       "origin": "openvas-scanner",
       "versions": {
-        "23.44.0-r1": 1777984331
+        "23.44.0-r1": 1777984331,
+        "23.45.2-r0": 1778758800
       }
     },
     "openvas-smb": {
@@ -251988,34 +251991,37 @@
     "sdl2_mixer": {
       "origin": "sdl2_mixer",
       "versions": {
-        "2.8.1-r0": 1749457300
+        "2.8.1-r0": 1749457300,
+        "2.8.2-r0": 1778762589
       },
       "dependencies": [
         "so:libSDL2-2.0.so.0",
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "so:libSDL2_mixer-2.0.so.0=0.800.1"
+        "so:libSDL2_mixer-2.0.so.0=0.800.2"
       ]
     },
     "sdl2_mixer-dev": {
       "origin": "sdl2_mixer",
       "versions": {
-        "2.8.1-r0": 1749457300
+        "2.8.1-r0": 1749457300,
+        "2.8.2-r0": 1778762589
       },
       "dependencies": [
-        "sdl2_mixer=2.8.1-r0",
+        "sdl2_mixer=2.8.2-r0",
         "pc:sdl2>=2.0.9",
         "pkgconfig"
       ],
       "provides": [
-        "pc:SDL2_mixer=2.8.1"
+        "pc:SDL2_mixer=2.8.2"
       ]
     },
     "sdl2_mixer-doc": {
       "origin": "sdl2_mixer",
       "versions": {
-        "2.8.1-r0": 1749457300
+        "2.8.1-r0": 1749457300,
+        "2.8.2-r0": 1778762589
       }
     },
     "sdl2_net": {
@@ -306848,11 +306854,11 @@
       },
       "libopenvas_misc.so.23": {
         "package": "openvas-scanner",
-        "version": "23.44.0"
+        "version": "23.45.2"
       },
       "libopenvas_nasl.so.23": {
         "package": "openvas-scanner",
-        "version": "23.44.0"
+        "version": "23.45.2"
       },
       "libopenvas_wmiclient.so.22": {
         "package": "openvas-smb",
@@ -309460,7 +309466,7 @@
       },
       "libSDL2_mixer-2.0.so.0": {
         "package": "sdl2_mixer",
-        "version": "0.800.1"
+        "version": "0.800.2"
       },
       "libSDL2_net-2.0.so.0": {
         "package": "sdl2_net",

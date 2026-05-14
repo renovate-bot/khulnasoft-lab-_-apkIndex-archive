@@ -171351,51 +171351,51 @@ c:26b0176f7362949073cb7fe67b4adbad4767e5b9
 D:libopenv2g so:libc.musl-x86.so.1
 p:cmd:openv2g=0.9.5-r0
 
-C:Q1WP2lgQs2THgZp5zSrPBdKGjoMis=
+C:Q1p9pxhQaez7x3ywqnPyoXINtt2mY=
 P:openvas-scanner
-V:23.44.0-r1
+V:23.45.2-r0
 A:x86
-S:369150
-I:884776
+S:390393
+I:946937
 T:Open Vulnerability Assessment Scanner
 U:https://openvas.org/
 L:GPL-2.0-only
 o:openvas-scanner
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1777984331
-c:b4f9c700986c733282fb2752b83cd4f95f385352
+t:1778758800
+c:082e09f7e6a72ffc7fa8768f62e8149e884ea999
 D:redis nmap coreutils openssl util-linux rsync /bin/sh so:libbsd.so.0 so:libc.musl-x86.so.1 so:libcurl.so.4 so:libgcrypt.so.20 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgnutls.so.30 so:libgobject-2.0.so.0 so:libgpg-error.so.0 so:libgpgme.so.45 so:libgssapi_krb5.so.2 so:libgvm_base.so.22 so:libgvm_boreas.so.22 so:libgvm_util.so.22 so:libjson-glib-1.0.so.0 so:libksba.so.8 so:libmagic.so.1 so:libnetsnmp.so.45 so:libpcap.so.1 so:libssh.so.4
-p:cmd:openvas-nasl-lint=23.44.0-r1 cmd:openvas-nasl=23.44.0-r1 cmd:openvas=23.44.0-r1 so:libopenvas_misc.so.23=23.44.0 so:libopenvas_nasl.so.23=23.44.0
+p:cmd:openvas-nasl-lint=23.45.2-r0 cmd:openvas-nasl=23.45.2-r0 cmd:openvas=23.45.2-r0 so:libopenvas_misc.so.23=23.45.2 so:libopenvas_nasl.so.23=23.45.2
 
-C:Q1qaIcq2E9oQdRZL213UtHOZ0UNUI=
+C:Q11QY4Hui35MJQWHgISSDkeA1rLC0=
 P:openvas-scanner-config
-V:23.44.0-r1
+V:23.45.2-r0
 A:x86
-S:23513
-I:62043
+S:1981
+I:214
 T:Configuration files and scripts for openvas
 U:https://openvas.org/
 L:GPL-2.0-only
 o:openvas-scanner
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1777984331
-c:b4f9c700986c733282fb2752b83cd4f95f385352
+t:1778758800
+c:082e09f7e6a72ffc7fa8768f62e8149e884ea999
 D:redis nmap coreutils openssl util-linux rsync
 
-C:Q1OSRUje/scjJaBnj4HrqGm8JAAaw=
+C:Q1xabB9HUxJzTcYwiL5h933zDn+mU=
 P:openvas-scanner-doc
-V:23.44.0-r1
+V:23.45.2-r0
 A:x86
-S:10974
+S:10979
 I:8962
 T:Open Vulnerability Assessment Scanner (documentation)
 U:https://openvas.org/
 L:GPL-2.0-only
 o:openvas-scanner
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1777984331
-c:b4f9c700986c733282fb2752b83cd4f95f385352
-i:docs openvas-scanner=23.44.0-r1
+t:1778758800
+c:082e09f7e6a72ffc7fa8768f62e8149e884ea999
+i:docs openvas-scanner=23.45.2-r0
 
 C:Q1CgjyyetkT0dxTyT0s5iUaE6KC+o=
 P:openvas-smb
@@ -277076,41 +277076,41 @@ t:1777802061
 c:56f62083910478e306efe0f2d1125c4856951e18
 i:docs sdl2_image=2.8.12-r0
 
-C:Q1e5T3W0c7rkDaNTPeR56sPXU9lPE=
+C:Q13G0e25Qglv7taS6u9p2FckQQG1w=
 P:sdl2_mixer
-V:2.8.1-r0
+V:2.8.2-r0
 A:x86
-S:141584
-I:277240
+S:142557
+I:281336
 T:A simple multi-channel audio mixer
 U:https://github.com/libsdl-org/SDL_mixer
 L:Zlib
 o:sdl2_mixer
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1749457300
-c:731be7fa1319dfcc630c59ce702be287e9a64278
+t:1778762589
+c:afa1df9acf68671019e280752286ea2b8bb8139a
 D:so:libSDL2-2.0.so.0 so:libc.musl-x86.so.1
-p:so:libSDL2_mixer-2.0.so.0=0.800.1
+p:so:libSDL2_mixer-2.0.so.0=0.800.2
 
-C:Q12h7aL942zXKRFRK2v1uIu10Qx5g=
+C:Q1GDuzl0z6K3L7JqXQywlaQr0d+A8=
 P:sdl2_mixer-dev
-V:2.8.1-r0
+V:2.8.2-r0
 A:x86
-S:28465
-I:123031
+S:28600
+I:123283
 T:A simple multi-channel audio mixer (development files)
 U:https://github.com/libsdl-org/SDL_mixer
 L:Zlib
 o:sdl2_mixer
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1749457300
-c:731be7fa1319dfcc630c59ce702be287e9a64278
-D:sdl2_mixer=2.8.1-r0 pc:sdl2>=2.0.9 pkgconfig
-p:pc:SDL2_mixer=2.8.1
+t:1778762589
+c:afa1df9acf68671019e280752286ea2b8bb8139a
+D:sdl2_mixer=2.8.2-r0 pc:sdl2>=2.0.9 pkgconfig
+p:pc:SDL2_mixer=2.8.2
 
-C:Q1ShwZTdjumS8xTkog8nKALbbAFKM=
+C:Q1JEstKfqeYF/jkmx0PauRLMlULug=
 P:sdl2_mixer-doc
-V:2.8.1-r0
+V:2.8.2-r0
 A:x86
 S:2155
 I:878
@@ -277119,9 +277119,9 @@ U:https://github.com/libsdl-org/SDL_mixer
 L:Zlib
 o:sdl2_mixer
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1749457300
-c:731be7fa1319dfcc630c59ce702be287e9a64278
-i:docs sdl2_mixer=2.8.1-r0
+t:1778762589
+c:afa1df9acf68671019e280752286ea2b8bb8139a
+i:docs sdl2_mixer=2.8.2-r0
 
 C:Q1pEEuIA68G2hLUypQ/MXMpDFqH8Y=
 P:sdl2_net
