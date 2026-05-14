@@ -55571,42 +55571,47 @@
       "origin": "glab",
       "versions": {
         "1.94.0-r0": 1778194667,
-        "1.94.0-r1": 1778661427
+        "1.94.0-r1": 1778661427,
+        "1.97.0-r0": 1778753095
       },
       "dependencies": [
         "git",
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:glab=1.94.0-r1"
+        "cmd:glab=1.97.0-r0"
       ]
     },
     "glab-bash-completion": {
       "origin": "glab",
       "versions": {
         "1.94.0-r0": 1778194667,
-        "1.94.0-r1": 1778661427
+        "1.94.0-r1": 1778661427,
+        "1.97.0-r0": 1778753095
       }
     },
     "glab-doc": {
       "origin": "glab",
       "versions": {
         "1.94.0-r0": 1778194667,
-        "1.94.0-r1": 1778661427
+        "1.94.0-r1": 1778661427,
+        "1.97.0-r0": 1778753095
       }
     },
     "glab-fish-completion": {
       "origin": "glab",
       "versions": {
         "1.94.0-r0": 1778194667,
-        "1.94.0-r1": 1778661427
+        "1.94.0-r1": 1778661427,
+        "1.97.0-r0": 1778753095
       }
     },
     "glab-zsh-completion": {
       "origin": "glab",
       "versions": {
         "1.94.0-r0": 1778194667,
-        "1.94.0-r1": 1778661427
+        "1.94.0-r1": 1778661427,
+        "1.97.0-r0": 1778753095
       }
     },
     "glade": {
@@ -80063,7 +80068,8 @@
     "imagemagick": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.21-r0": 1777060448
+        "7.1.2.21-r0": 1777060448,
+        "7.1.2.22-r0": 1778752800
       },
       "dependencies": [
         "/bin/sh",
@@ -80080,25 +80086,26 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:animate=7.1.2.21-r0",
-        "cmd:compare=7.1.2.21-r0",
-        "cmd:composite=7.1.2.21-r0",
-        "cmd:conjure=7.1.2.21-r0",
-        "cmd:convert=7.1.2.21-r0",
-        "cmd:display=7.1.2.21-r0",
-        "cmd:identify=7.1.2.21-r0",
-        "cmd:import=7.1.2.21-r0",
-        "cmd:magick-script=7.1.2.21-r0",
-        "cmd:magick=7.1.2.21-r0",
-        "cmd:mogrify=7.1.2.21-r0",
-        "cmd:montage=7.1.2.21-r0",
-        "cmd:stream=7.1.2.21-r0"
+        "cmd:animate=7.1.2.22-r0",
+        "cmd:compare=7.1.2.22-r0",
+        "cmd:composite=7.1.2.22-r0",
+        "cmd:conjure=7.1.2.22-r0",
+        "cmd:convert=7.1.2.22-r0",
+        "cmd:display=7.1.2.22-r0",
+        "cmd:identify=7.1.2.22-r0",
+        "cmd:import=7.1.2.22-r0",
+        "cmd:magick-script=7.1.2.22-r0",
+        "cmd:magick=7.1.2.22-r0",
+        "cmd:mogrify=7.1.2.22-r0",
+        "cmd:montage=7.1.2.22-r0",
+        "cmd:stream=7.1.2.22-r0"
       ]
     },
     "imagemagick-c++": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.21-r0": 1777060448
+        "7.1.2.21-r0": 1777060448,
+        "7.1.2.22-r0": 1778752800
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -80114,18 +80121,19 @@
     "imagemagick-dev": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.21-r0": 1777060448
+        "7.1.2.21-r0": 1777060448,
+        "7.1.2.22-r0": 1778752800
       },
       "dependencies": [
-        "imagemagick=7.1.2.21-r0",
-        "imagemagick-c++=7.1.2.21-r0",
-        "imagemagick-libs=7.1.2.21-r0",
+        "imagemagick=7.1.2.22-r0",
+        "imagemagick-c++=7.1.2.22-r0",
+        "imagemagick-libs=7.1.2.22-r0",
         "pkgconfig"
       ],
       "provides": [
-        "cmd:Magick++-config=7.1.2.21-r0",
-        "cmd:MagickCore-config=7.1.2.21-r0",
-        "cmd:MagickWand-config=7.1.2.21-r0",
+        "cmd:Magick++-config=7.1.2.22-r0",
+        "cmd:MagickCore-config=7.1.2.22-r0",
+        "cmd:MagickWand-config=7.1.2.22-r0",
         "pc:ImageMagick-7.Q16HDRI=7.1.2",
         "pc:ImageMagick=7.1.2",
         "pc:Magick++-7.Q16HDRI=7.1.2",
@@ -80139,13 +80147,15 @@
     "imagemagick-doc": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.21-r0": 1777060448
+        "7.1.2.21-r0": 1777060448,
+        "7.1.2.22-r0": 1778752800
       }
     },
     "imagemagick-heic": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.21-r0": 1777060448
+        "7.1.2.21-r0": 1777060448,
+        "7.1.2.22-r0": 1778752800
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -80156,7 +80166,8 @@
     "imagemagick-jp2": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.21-r0": 1777060448
+        "7.1.2.21-r0": 1777060448,
+        "7.1.2.22-r0": 1778752800
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -80167,7 +80178,8 @@
     "imagemagick-jpeg": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.21-r0": 1777060448
+        "7.1.2.21-r0": 1777060448,
+        "7.1.2.22-r0": 1778752800
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -80178,7 +80190,8 @@
     "imagemagick-jxl": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.21-r0": 1777060448
+        "7.1.2.21-r0": 1777060448,
+        "7.1.2.22-r0": 1778752800
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -80190,7 +80203,8 @@
     "imagemagick-libs": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.21-r0": 1777060448
+        "7.1.2.21-r0": 1777060448,
+        "7.1.2.22-r0": 1778752800
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -80216,7 +80230,8 @@
     "imagemagick-openexr": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.21-r0": 1777060448
+        "7.1.2.21-r0": 1777060448,
+        "7.1.2.22-r0": 1778752800
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -80228,7 +80243,8 @@
     "imagemagick-pango": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.21-r0": 1777060448
+        "7.1.2.21-r0": 1777060448,
+        "7.1.2.22-r0": 1778752800
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -80242,7 +80258,8 @@
     "imagemagick-pdf": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.21-r0": 1777060448
+        "7.1.2.21-r0": 1777060448,
+        "7.1.2.22-r0": 1778752800
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -80253,7 +80270,8 @@
     "imagemagick-perlmagick": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.21-r0": 1777060448
+        "7.1.2.21-r0": 1777060448,
+        "7.1.2.22-r0": 1778752800
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -80263,13 +80281,15 @@
     "imagemagick-perlmagick-doc": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.21-r0": 1777060448
+        "7.1.2.21-r0": 1777060448,
+        "7.1.2.22-r0": 1778752800
       }
     },
     "imagemagick-raw": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.21-r0": 1777060448
+        "7.1.2.21-r0": 1777060448,
+        "7.1.2.22-r0": 1778752800
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -80280,7 +80300,8 @@
     "imagemagick-static": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.21-r0": 1777060448
+        "7.1.2.21-r0": 1777060448,
+        "7.1.2.22-r0": 1778752800
       },
       "dependencies": [
         "imagemagick-dev"
@@ -80289,7 +80310,8 @@
     "imagemagick-svg": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.21-r0": 1777060448
+        "7.1.2.21-r0": 1777060448,
+        "7.1.2.22-r0": 1778752800
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -80304,7 +80326,8 @@
     "imagemagick-tiff": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.21-r0": 1777060448
+        "7.1.2.21-r0": 1777060448,
+        "7.1.2.22-r0": 1778752800
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -80318,7 +80341,8 @@
     "imagemagick-webp": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.21-r0": 1777060448
+        "7.1.2.21-r0": 1777060448,
+        "7.1.2.22-r0": 1778752800
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -135776,7 +135800,8 @@
     "miniupnpd": {
       "origin": "miniupnpd",
       "versions": {
-        "2.3.9-r1": 1753258279
+        "2.3.9-r1": 1753258279,
+        "2.3.10-r0": 1778752854
       },
       "dependencies": [
         "uuidgen",
@@ -135786,31 +135811,35 @@
         "so:libip6tc.so.2"
       ],
       "provides": [
-        "cmd:miniupnpd=2.3.9-r1"
+        "cmd:miniupnpd=2.3.10-r0"
       ]
     },
     "miniupnpd-doc": {
       "origin": "miniupnpd",
       "versions": {
-        "2.3.9-r1": 1753258279
+        "2.3.9-r1": 1753258279,
+        "2.3.10-r0": 1778752854
       }
     },
     "miniupnpd-ip6tables": {
       "origin": "miniupnpd",
       "versions": {
-        "2.3.9-r1": 1753258279
+        "2.3.9-r1": 1753258279,
+        "2.3.10-r0": 1778752854
       }
     },
     "miniupnpd-iptables": {
       "origin": "miniupnpd",
       "versions": {
-        "2.3.9-r1": 1753258279
+        "2.3.9-r1": 1753258279,
+        "2.3.10-r0": 1778752854
       }
     },
     "miniupnpd-nftables": {
       "origin": "miniupnpd",
       "versions": {
-        "2.3.9-r1": 1753258279
+        "2.3.9-r1": 1753258279,
+        "2.3.10-r0": 1778752854
       },
       "dependencies": [
         "uuidgen",
@@ -135819,14 +135848,15 @@
         "so:libnftnl.so.11"
       ],
       "provides": [
-        "miniupnpd=2.3.9-r1",
-        "cmd:miniupnpd=2.3.9-r1"
+        "miniupnpd=2.3.10-r0",
+        "cmd:miniupnpd=2.3.10-r0"
       ]
     },
     "miniupnpd-openrc": {
       "origin": "miniupnpd",
       "versions": {
-        "2.3.9-r1": 1753258279
+        "2.3.9-r1": 1753258279,
+        "2.3.10-r0": 1778752854
       }
     },
     "minizip": {
@@ -144173,13 +144203,14 @@
       "versions": {
         "4.2.0-r0": 1776390612,
         "5.0-r0": 1778537998,
-        "5.1-r0": 1778624129
+        "5.1-r0": 1778624129,
+        "5.2-r0": 1778746409
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:nextvi=5.1-r0"
+        "cmd:nextvi=5.2-r0"
       ]
     },
     "nextvi-doc": {
@@ -144187,7 +144218,8 @@
       "versions": {
         "4.2.0-r0": 1776390612,
         "5.0-r0": 1778537998,
-        "5.1-r0": 1778624129
+        "5.1-r0": 1778624129,
+        "5.2-r0": 1778746409
       }
     },
     "nextvi-vi": {
@@ -144195,14 +144227,15 @@
       "versions": {
         "4.2.0-r0": 1776390612,
         "5.0-r0": 1778537998,
-        "5.1-r0": 1778624129
+        "5.1-r0": 1778624129,
+        "5.2-r0": 1778746409
       },
       "dependencies": [
-        "nextvi=5.1-r0",
-        "nextvi=5.1-r0"
+        "nextvi=5.2-r0",
+        "nextvi=5.2-r0"
       ],
       "provides": [
-        "cmd:vi=5.1-r0"
+        "cmd:vi=5.2-r0"
       ]
     },
     "nextvi-vi-doc": {
@@ -144210,11 +144243,12 @@
       "versions": {
         "4.2.0-r0": 1776390612,
         "5.0-r0": 1778537998,
-        "5.1-r0": 1778624129
+        "5.1-r0": 1778624129,
+        "5.2-r0": 1778746409
       },
       "dependencies": [
-        "nextvi-doc=5.1-r0",
-        "nextvi-doc=5.1-r0"
+        "nextvi-doc=5.2-r0",
+        "nextvi-doc=5.2-r0"
       ]
     },
     "nfpm": {
@@ -283638,10 +283672,10 @@
     "xfce4-screensaver": {
       "origin": "xfce4-screensaver",
       "versions": {
-        "4.18.4-r1": 1776285148
+        "4.18.4-r1": 1776285148,
+        "4.20.2-r0": 1778750362
       },
       "dependencies": [
-        "so:libGL.so.1",
         "so:libX11.so.6",
         "so:libXext.so.6",
         "so:libXss.so.1",
@@ -283667,9 +283701,9 @@
         "so:libxklavier.so.16"
       ],
       "provides": [
-        "cmd:xfce4-screensaver-command=4.18.4-r1",
-        "cmd:xfce4-screensaver-preferences=4.18.4-r1",
-        "cmd:xfce4-screensaver=4.18.4-r1"
+        "cmd:xfce4-screensaver-command=4.20.2-r0",
+        "cmd:xfce4-screensaver-preferences=4.20.2-r0",
+        "cmd:xfce4-screensaver=4.20.2-r0"
       ]
     },
     "xfce4-screensaver-configure": {
@@ -283688,13 +283722,15 @@
     "xfce4-screensaver-doc": {
       "origin": "xfce4-screensaver",
       "versions": {
-        "4.18.4-r1": 1776285148
+        "4.18.4-r1": 1776285148,
+        "4.20.2-r0": 1778750362
       }
     },
     "xfce4-screensaver-lang": {
       "origin": "xfce4-screensaver",
       "versions": {
-        "4.18.4-r1": 1776285148
+        "4.18.4-r1": 1776285148,
+        "4.20.2-r0": 1778750362
       }
     },
     "xfce4-screenshooter": {
@@ -312386,7 +312422,7 @@
       },
       "miniupnpd": {
         "package": "miniupnpd-nftables",
-        "version": "2.3.9-r1"
+        "version": "2.3.10-r0"
       },
       "rtx": {
         "package": "mise",
