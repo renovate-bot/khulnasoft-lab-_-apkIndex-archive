@@ -123171,20 +123171,22 @@
     "linux-stable": {
       "origin": "linux-stable",
       "versions": {
-        "7.0.6-r0": 1778490241
+        "7.0.6-r0": 1778490241,
+        "7.0.7-r0": 1778766697
       },
       "dependencies": [
         "initramfs-generator",
         "linux-firmware-any"
       ],
       "provides": [
-        "linux-edge=7.0.6-r0"
+        "linux-edge=7.0.7-r0"
       ]
     },
     "linux-stable-dev": {
       "origin": "linux-stable",
       "versions": {
-        "7.0.6-r0": 1778490241
+        "7.0.6-r0": 1778490241,
+        "7.0.7-r0": 1778766697
       },
       "dependencies": [
         "perl",
@@ -123207,7 +123209,8 @@
     "linux-stable-doc": {
       "origin": "linux-stable",
       "versions": {
-        "7.0.6-r0": 1778490241
+        "7.0.6-r0": 1778490241,
+        "7.0.7-r0": 1778766697
       }
     },
     "linuxconsoletools": {
@@ -289051,23 +289054,25 @@
     "zfs-stable": {
       "origin": "zfs-stable",
       "versions": {
-        "7.0.6-r0": 1778490241
+        "7.0.6-r0": 1778490241,
+        "7.0.7-r0": 1778766708
       },
       "dependencies": [
-        "linux-stable=7.0.6-r0"
+        "linux-stable=7.0.7-r0"
       ]
     },
     "zfs-stable-dev": {
       "origin": "zfs-stable",
       "versions": {
-        "7.0.6-r0": 1778490241
+        "7.0.6-r0": 1778490241,
+        "7.0.7-r0": 1778766708
       },
       "dependencies": [
         "glib-dev",
         "e2fsprogs-dev",
         "util-linux-dev",
         "libtirpc-dev",
-        "linux-stable-dev=7.0.6-r0"
+        "linux-stable-dev=7.0.7-r0"
       ]
     },
     "zigbee2mqtt": {
@@ -312272,7 +312277,7 @@
       },
       "linux-edge": {
         "package": "linux-stable",
-        "version": "7.0.6-r0"
+        "version": "7.0.7-r0"
       },
       "lit": {
         "package": "llvm16-test-utils",
