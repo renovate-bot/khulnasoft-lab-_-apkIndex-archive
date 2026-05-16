@@ -2983,7 +2983,8 @@
     "amberol": {
       "origin": "amberol",
       "versions": {
-        "2025.1-r0": 1746823694
+        "2025.1-r0": 1746823694,
+        "2026.1-r0": 1778877505
       },
       "dependencies": [
         "gst-libav",
@@ -3005,13 +3006,14 @@
         "so:libpango-1.0.so.0"
       ],
       "provides": [
-        "cmd:amberol=2025.1-r0"
+        "cmd:amberol=2026.1-r0"
       ]
     },
     "amberol-lang": {
       "origin": "amberol",
       "versions": {
-        "2025.1-r0": 1746823694
+        "2025.1-r0": 1746823694,
+        "2026.1-r0": 1778877505
       }
     },
     "amfora": {
@@ -16573,7 +16575,8 @@
     "binaryen": {
       "origin": "binaryen",
       "versions": {
-        "123-r1": 1754030204
+        "123-r1": 1754030204,
+        "129-r0": 1778869884
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -16581,26 +16584,27 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:wasm-as=123-r1",
-        "cmd:wasm-ctor-eval=123-r1",
-        "cmd:wasm-dis=123-r1",
-        "cmd:wasm-emscripten-finalize=123-r1",
-        "cmd:wasm-fuzz-lattices=123-r1",
-        "cmd:wasm-fuzz-types=123-r1",
-        "cmd:wasm-merge=123-r1",
-        "cmd:wasm-metadce=123-r1",
-        "cmd:wasm-opt=123-r1",
-        "cmd:wasm-reduce=123-r1",
-        "cmd:wasm-shell=123-r1",
-        "cmd:wasm-split=123-r1",
-        "cmd:wasm2js=123-r1",
+        "cmd:wasm-as=129-r0",
+        "cmd:wasm-ctor-eval=129-r0",
+        "cmd:wasm-dis=129-r0",
+        "cmd:wasm-emscripten-finalize=129-r0",
+        "cmd:wasm-fuzz-lattices=129-r0",
+        "cmd:wasm-fuzz-types=129-r0",
+        "cmd:wasm-merge=129-r0",
+        "cmd:wasm-metadce=129-r0",
+        "cmd:wasm-opt=129-r0",
+        "cmd:wasm-reduce=129-r0",
+        "cmd:wasm-shell=129-r0",
+        "cmd:wasm-split=129-r0",
+        "cmd:wasm2js=129-r0",
         "so:libbinaryen.so=0"
       ]
     },
     "binaryen-dev": {
       "origin": "binaryen",
       "versions": {
-        "123-r1": 1754030204
+        "123-r1": 1754030204,
+        "129-r0": 1778869884
       },
       "dependencies": [
         "so:libbinaryen.so",
@@ -16611,7 +16615,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:binaryen-unittests=123-r1"
+        "cmd:binaryen-unittests=129-r0"
       ]
     },
     "binutils-arm-none-eabi": {
@@ -83782,19 +83786,21 @@
     "jool-modules-lts": {
       "origin": "jool-modules-lts",
       "versions": {
-        "6.18.29-r0": 1778489781
+        "6.18.29-r0": 1778489781,
+        "6.18.31-r0": 1778880923
       },
       "dependencies": [
-        "linux-lts=6.18.29-r0"
+        "linux-lts=6.18.31-r0"
       ]
     },
     "jool-modules-virt": {
       "origin": "jool-modules-lts",
       "versions": {
-        "6.18.29-r0": 1778489781
+        "6.18.29-r0": 1778489781,
+        "6.18.31-r0": 1778880923
       },
       "dependencies": [
-        "linux-virt=6.18.29-r0"
+        "linux-virt=6.18.31-r0"
       ]
     },
     "jool-tools": {
@@ -108276,7 +108282,8 @@
     "libinput": {
       "origin": "libinput",
       "versions": {
-        "1.31.1-r0": 1775148343
+        "1.31.1-r0": 1775148343,
+        "1.31.2-r0": 1778869674
       },
       "dependencies": [
         "/bin/sh",
@@ -108286,34 +108293,37 @@
         "so:libudev.so.1"
       ],
       "provides": [
-        "cmd:libinput=1.31.1-r0"
+        "cmd:libinput=1.31.2-r0"
       ]
     },
     "libinput-dev": {
       "origin": "libinput",
       "versions": {
-        "1.31.1-r0": 1775148343
+        "1.31.1-r0": 1775148343,
+        "1.31.2-r0": 1778869674
       },
       "dependencies": [
         "eudev-dev",
-        "libinput-libs=1.31.1-r0",
+        "libinput-libs=1.31.2-r0",
         "pc:libudev",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libinput=1.31.1"
+        "pc:libinput=1.31.2"
       ]
     },
     "libinput-doc": {
       "origin": "libinput",
       "versions": {
-        "1.31.1-r0": 1775148343
+        "1.31.1-r0": 1775148343,
+        "1.31.2-r0": 1778869674
       }
     },
     "libinput-libs": {
       "origin": "libinput",
       "versions": {
-        "1.31.1-r0": 1775148343
+        "1.31.1-r0": 1775148343,
+        "1.31.2-r0": 1778869674
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -108328,10 +108338,11 @@
     "libinput-tools": {
       "origin": "libinput",
       "versions": {
-        "1.31.1-r0": 1775148343
+        "1.31.1-r0": 1775148343,
+        "1.31.2-r0": 1778869674
       },
       "dependencies": [
-        "libinput=1.31.1-r0",
+        "libinput=1.31.2-r0",
         "py3-libevdev",
         "py3-udev",
         "py3-yaml",
@@ -108345,7 +108356,8 @@
     "libinput-udev": {
       "origin": "libinput",
       "versions": {
-        "1.31.1-r0": 1775148343
+        "1.31.1-r0": 1775148343,
+        "1.31.2-r0": 1778869674
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -108356,7 +108368,8 @@
     "libinput-zsh-completion": {
       "origin": "libinput",
       "versions": {
-        "1.31.1-r0": 1775148343
+        "1.31.1-r0": 1775148343,
+        "1.31.2-r0": 1778869674
       }
     },
     "libinputsynth": {
@@ -140568,21 +140581,23 @@
       "origin": "mynewt-newt",
       "versions": {
         "1.11.0-r19": 1775839666,
-        "1.11.0-r20": 1778661427
+        "1.11.0-r20": 1778661427,
+        "1.14.0-r0": 1778877062
       },
       "dependencies": [
         "git",
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:newt=1.11.0-r20"
+        "cmd:newt=1.14.0-r0"
       ]
     },
     "mynewt-newt-doc": {
       "origin": "mynewt-newt",
       "versions": {
         "1.11.0-r19": 1775839666,
-        "1.11.0-r20": 1778661427
+        "1.11.0-r20": 1778661427,
+        "1.14.0-r0": 1778877062
       }
     },
     "mypaint": {
@@ -171183,7 +171198,8 @@
     "optipng": {
       "origin": "optipng",
       "versions": {
-        "0.7.8-r0": 1699185768
+        "0.7.8-r0": 1699185768,
+        "7.9.1-r0": 1778877346
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -171197,7 +171213,8 @@
     "optipng-doc": {
       "origin": "optipng",
       "versions": {
-        "0.7.8-r0": 1699185768
+        "0.7.8-r0": 1699185768,
+        "7.9.1-r0": 1778877346
       }
     },
     "opus-tools": {
@@ -205499,21 +205516,23 @@
     "py3-codespell": {
       "origin": "py3-codespell",
       "versions": {
-        "2.4.1-r1": 1774640392
+        "2.4.1-r1": 1774640392,
+        "2.4.2-r0": 1778867670
       },
       "dependencies": [
         "py3-chardet",
         "python3~3.14"
       ],
       "provides": [
-        "cmd:codespell=2.4.1-r1",
-        "py3.14:codespell_lib=2.4.1-r1"
+        "cmd:codespell=2.4.2-r0",
+        "py3.14:codespell_lib=2.4.2-r0"
       ]
     },
     "py3-codespell-pyc": {
       "origin": "py3-codespell",
       "versions": {
-        "2.4.1-r1": 1774640392
+        "2.4.1-r1": 1774640392,
+        "2.4.2-r0": 1778867670
       },
       "dependencies": [
         "python3~3.14"
@@ -247621,7 +247640,8 @@
     "rtpengine-lts": {
       "origin": "rtpengine-lts",
       "versions": {
-        "6.18.29-r0": 1778489781
+        "6.18.29-r0": 1778489781,
+        "6.18.31-r0": 1778880923
       }
     },
     "rtpengine-openrc": {
@@ -247657,10 +247677,11 @@
     "rtpengine-virt": {
       "origin": "rtpengine-lts",
       "versions": {
-        "6.18.29-r0": 1778489781
+        "6.18.29-r0": 1778489781,
+        "6.18.31-r0": 1778880923
       },
       "dependencies": [
-        "linux-virt=6.18.29-r0"
+        "linux-virt=6.18.31-r0"
       ]
     },
     "rtrlib": {
@@ -275261,19 +275282,21 @@
     "virtio_vmmci-lts": {
       "origin": "virtio_vmmci-lts",
       "versions": {
-        "6.18.29-r0": 1778489781
+        "6.18.29-r0": 1778489781,
+        "6.18.31-r0": 1778880923
       },
       "dependencies": [
-        "linux-lts=6.18.29-r0"
+        "linux-lts=6.18.31-r0"
       ]
     },
     "virtio_vmmci-virt": {
       "origin": "virtio_vmmci-lts",
       "versions": {
-        "6.18.29-r0": 1778489781
+        "6.18.29-r0": 1778489781,
+        "6.18.31-r0": 1778880923
       },
       "dependencies": [
-        "linux-virt=6.18.29-r0"
+        "linux-virt=6.18.31-r0"
       ]
     },
     "virtualbox-guest-additions": {
@@ -275611,19 +275634,21 @@
     "vmm_clock-lts": {
       "origin": "vmm_clock-lts",
       "versions": {
-        "6.18.29-r0": 1778489781
+        "6.18.29-r0": 1778489781,
+        "6.18.31-r0": 1778880923
       },
       "dependencies": [
-        "linux-lts=6.18.29-r0"
+        "linux-lts=6.18.31-r0"
       ]
     },
     "vmm_clock-virt": {
       "origin": "vmm_clock-lts",
       "versions": {
-        "6.18.29-r0": 1778489781
+        "6.18.29-r0": 1778489781,
+        "6.18.31-r0": 1778880923
       },
       "dependencies": [
-        "linux-virt=6.18.29-r0"
+        "linux-virt=6.18.31-r0"
       ]
     },
     "vnstat": {
@@ -285747,7 +285772,8 @@
     "xmake": {
       "origin": "xmake",
       "versions": {
-        "3.0.7-r1": 1776328545
+        "3.0.7-r1": 1776328545,
+        "3.0.8-r0": 1778877149
       },
       "dependencies": [
         "bash",
@@ -285761,32 +285787,36 @@
         "so:libtbox.so.1"
       ],
       "provides": [
-        "cmd:xmake=3.0.7-r1",
-        "cmd:xrepo=3.0.7-r1"
+        "cmd:xmake=3.0.8-r0",
+        "cmd:xrepo=3.0.8-r0"
       ]
     },
     "xmake-bash-completion": {
       "origin": "xmake",
       "versions": {
-        "3.0.7-r1": 1776328545
+        "3.0.7-r1": 1776328545,
+        "3.0.8-r0": 1778877149
       }
     },
     "xmake-doc": {
       "origin": "xmake",
       "versions": {
-        "3.0.7-r1": 1776328545
+        "3.0.7-r1": 1776328545,
+        "3.0.8-r0": 1778877149
       }
     },
     "xmake-fish-completion": {
       "origin": "xmake",
       "versions": {
-        "3.0.7-r1": 1776328545
+        "3.0.7-r1": 1776328545,
+        "3.0.8-r0": 1778877149
       }
     },
     "xmake-zsh-completion": {
       "origin": "xmake",
       "versions": {
-        "3.0.7-r1": 1776328545
+        "3.0.7-r1": 1776328545,
+        "3.0.8-r0": 1778877149
       }
     },
     "xmessage": {
