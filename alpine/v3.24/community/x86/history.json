@@ -7326,7 +7326,8 @@
       "origin": "aws-cli",
       "versions": {
         "2.34.45-r0": 1778323008,
-        "2.34.46-r0": 1778831273
+        "2.34.46-r0": 1778831273,
+        "2.34.47-r0": 1778930167
       },
       "dependencies": [
         "py3-awscrt",
@@ -7345,17 +7346,18 @@
         "python3~3.14"
       ],
       "provides": [
-        "aws-cli-v2=2.34.46-r0",
-        "cmd:aws=2.34.46-r0",
-        "cmd:aws_completer=2.34.46-r0",
-        "py3.14:awscli=2.34.46-r0"
+        "aws-cli-v2=2.34.47-r0",
+        "cmd:aws=2.34.47-r0",
+        "cmd:aws_completer=2.34.47-r0",
+        "py3.14:awscli=2.34.47-r0"
       ]
     },
     "aws-cli-bash-completion": {
       "origin": "aws-cli",
       "versions": {
         "2.34.45-r0": 1778323008,
-        "2.34.46-r0": 1778831273
+        "2.34.46-r0": 1778831273,
+        "2.34.47-r0": 1778930167
       },
       "dependencies": [
         "py3-awscrt",
@@ -7377,7 +7379,8 @@
       "origin": "aws-cli",
       "versions": {
         "2.34.45-r0": 1778323008,
-        "2.34.46-r0": 1778831273
+        "2.34.46-r0": 1778831273,
+        "2.34.47-r0": 1778930167
       },
       "dependencies": [
         "python3~3.14"
@@ -7387,7 +7390,8 @@
       "origin": "aws-cli",
       "versions": {
         "2.34.45-r0": 1778323008,
-        "2.34.46-r0": 1778831273
+        "2.34.46-r0": 1778831273,
+        "2.34.47-r0": 1778930167
       },
       "dependencies": [
         "python3~3.14"
@@ -7397,7 +7401,8 @@
       "origin": "aws-cli",
       "versions": {
         "2.34.45-r0": 1778323008,
-        "2.34.46-r0": 1778831273
+        "2.34.46-r0": 1778831273,
+        "2.34.47-r0": 1778930167
       },
       "dependencies": [
         "py3-awscrt",
@@ -17922,19 +17927,21 @@
     "bmake": {
       "origin": "bmake",
       "versions": {
-        "20251111-r0": 1763826074
+        "20251111-r0": 1763826074,
+        "20260508-r0": 1778937614
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:bmake=20251111-r0"
+        "cmd:bmake=20260508-r0"
       ]
     },
     "bmake-doc": {
       "origin": "bmake",
       "versions": {
-        "20251111-r0": 1763826074
+        "20251111-r0": 1763826074,
+        "20260508-r0": 1778937614
       }
     },
     "bmk": {
@@ -35936,7 +35943,8 @@
     "dump1090": {
       "origin": "dump1090",
       "versions": {
-        "10.2-r1": 1754682970
+        "10.2-r1": 1754682970,
+        "11.0-r0": 1778930288
       },
       "dependencies": [
         "so:libbladeRF.so.2",
@@ -35945,14 +35953,15 @@
         "so:librtlsdr.so.0"
       ],
       "provides": [
-        "cmd:dump1090=10.2-r1",
-        "cmd:view1090=10.2-r1"
+        "cmd:dump1090=11.0-r0",
+        "cmd:view1090=11.0-r0"
       ]
     },
     "dump978": {
       "origin": "dump978",
       "versions": {
-        "10.2-r1": 1754682970
+        "10.2-r1": 1754682970,
+        "11.0-r0": 1778930288
       },
       "dependencies": [
         "so:libSoapySDR.so.0.8",
@@ -35963,8 +35972,8 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:dump978-fa=10.2-r1",
-        "cmd:skyaware978=10.2-r1"
+        "cmd:dump978-fa=11.0-r0",
+        "cmd:skyaware978=11.0-r0"
       ]
     },
     "dune": {
@@ -71551,7 +71560,8 @@
     "gst-plugin-pipewire": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       },
       "dependencies": [
         "pipewire-session-manager",
@@ -118126,7 +118136,8 @@
     "librsvg": {
       "origin": "librsvg",
       "versions": {
-        "2.62.1-r0": 1773787234
+        "2.62.1-r0": 1773787234,
+        "2.62.2-r0": 1778930288
       },
       "dependencies": [
         "/bin/sh",
@@ -118143,29 +118154,31 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "so:librsvg-2.so.2=2.62.1"
+        "so:librsvg-2.so.2=2.62.2"
       ]
     },
     "librsvg-dbg": {
       "origin": "librsvg",
       "versions": {
-        "2.62.1-r0": 1773787234
+        "2.62.1-r0": 1773787234,
+        "2.62.2-r0": 1778930288
       },
       "dependencies": [
-        "!librsvg<2.62.1-r0",
-        "!librsvg>2.62.1-r0",
-        "!rsvg-convert<2.62.1-r0",
-        "!rsvg-convert>2.62.1-r0"
+        "!librsvg<2.62.2-r0",
+        "!librsvg>2.62.2-r0",
+        "!rsvg-convert<2.62.2-r0",
+        "!rsvg-convert>2.62.2-r0"
       ]
     },
     "librsvg-dev": {
       "origin": "librsvg",
       "versions": {
-        "2.62.1-r0": 1773787234
+        "2.62.1-r0": 1773787234,
+        "2.62.2-r0": 1778930288
       },
       "dependencies": [
-        "rsvg-convert=2.62.1-r0",
-        "librsvg=2.62.1-r0",
+        "rsvg-convert=2.62.2-r0",
+        "librsvg=2.62.2-r0",
         "pc:cairo-gobject>=1.18.0",
         "pc:cairo-png>=1.18.0",
         "pc:cairo>=1.18.0",
@@ -118182,13 +118195,14 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:librsvg-2.0=2.62.1"
+        "pc:librsvg-2.0=2.62.2"
       ]
     },
     "librsvg-doc": {
       "origin": "librsvg",
       "versions": {
-        "2.62.1-r0": 1773787234
+        "2.62.1-r0": 1773787234,
+        "2.62.2-r0": 1778930288
       }
     },
     "librttopo": {
@@ -123678,21 +123692,23 @@
       "origin": "linux-stable",
       "versions": {
         "7.0.6-r0": 1778490241,
-        "7.0.7-r0": 1778766697
+        "7.0.7-r0": 1778766697,
+        "7.0.8-r0": 1778930167
       },
       "dependencies": [
         "initramfs-generator",
         "linux-firmware-any"
       ],
       "provides": [
-        "linux-edge=7.0.7-r0"
+        "linux-edge=7.0.8-r0"
       ]
     },
     "linux-stable-dev": {
       "origin": "linux-stable",
       "versions": {
         "7.0.6-r0": 1778490241,
-        "7.0.7-r0": 1778766697
+        "7.0.7-r0": 1778766697,
+        "7.0.8-r0": 1778930167
       },
       "dependencies": [
         "perl",
@@ -123716,7 +123732,8 @@
       "origin": "linux-stable",
       "versions": {
         "7.0.6-r0": 1778490241,
-        "7.0.7-r0": 1778766697
+        "7.0.7-r0": 1778766697,
+        "7.0.8-r0": 1778930167
       }
     },
     "linuxconsoletools": {
@@ -193089,7 +193106,8 @@
     "pipewire": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       },
       "dependencies": [
         "/bin/sh",
@@ -193097,17 +193115,18 @@
         "so:libpipewire-0.3.so.0"
       ],
       "provides": [
-        "cmd:pipewire-aes67=1.6.4-r1",
-        "cmd:pipewire-avb=1.6.4-r1",
-        "cmd:pipewire-vulkan=1.6.4-r1",
-        "cmd:pipewire=1.6.4-r1",
+        "cmd:pipewire-aes67=1.6.5-r0",
+        "cmd:pipewire-avb=1.6.5-r0",
+        "cmd:pipewire-vulkan=1.6.5-r0",
+        "cmd:pipewire=1.6.5-r0",
         "so:libpw-v4l2.so=0"
       ]
     },
     "pipewire-alsa": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       },
       "dependencies": [
         "so:libasound.so.2",
@@ -193118,82 +193137,86 @@
     "pipewire-dbg": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       },
       "dependencies": [
-        "!gst-plugin-pipewire<1.6.4-r1",
-        "!gst-plugin-pipewire>1.6.4-r1",
-        "!pipewire-alsa<1.6.4-r1",
-        "!pipewire-alsa>1.6.4-r1",
-        "!pipewire-dev<1.6.4-r1",
-        "!pipewire-dev>1.6.4-r1",
-        "!pipewire-echo-cancel<1.6.4-r1",
-        "!pipewire-echo-cancel>1.6.4-r1",
-        "!pipewire-filter-graph-builtin<1.6.4-r1",
-        "!pipewire-filter-graph-builtin>1.6.4-r1",
-        "!pipewire-filter-graph-ebur128<1.6.4-r1",
-        "!pipewire-filter-graph-ebur128>1.6.4-r1",
-        "!pipewire-filter-graph-ladspa<1.6.4-r1",
-        "!pipewire-filter-graph-ladspa>1.6.4-r1",
-        "!pipewire-filter-graph-lv2<1.6.4-r1",
-        "!pipewire-filter-graph-lv2>1.6.4-r1",
-        "!pipewire-filter-graph-sofa<1.6.4-r1",
-        "!pipewire-filter-graph-sofa>1.6.4-r1",
-        "!pipewire-filter-graph<1.6.4-r1",
-        "!pipewire-filter-graph>1.6.4-r1",
-        "!pipewire-jack<1.6.4-r1",
-        "!pipewire-jack>1.6.4-r1",
-        "!pipewire-libs<1.6.4-r1",
-        "!pipewire-libs>1.6.4-r1",
-        "!pipewire-pulse<1.6.4-r1",
-        "!pipewire-pulse>1.6.4-r1",
-        "!pipewire-spa-bluez<1.6.4-r1",
-        "!pipewire-spa-bluez>1.6.4-r1",
-        "!pipewire-spa-tools<1.6.4-r1",
-        "!pipewire-spa-tools>1.6.4-r1",
-        "!pipewire-spa-vulkan<1.6.4-r1",
-        "!pipewire-spa-vulkan>1.6.4-r1",
-        "!pipewire-tools<1.6.4-r1",
-        "!pipewire-tools>1.6.4-r1",
-        "!pipewire-x11<1.6.4-r1",
-        "!pipewire-x11>1.6.4-r1",
-        "!pipewire-zeroconf<1.6.4-r1",
-        "!pipewire-zeroconf>1.6.4-r1",
-        "!pipewire<1.6.4-r1",
-        "!pipewire>1.6.4-r1"
+        "!gst-plugin-pipewire<1.6.5-r0",
+        "!gst-plugin-pipewire>1.6.5-r0",
+        "!pipewire-alsa<1.6.5-r0",
+        "!pipewire-alsa>1.6.5-r0",
+        "!pipewire-dev<1.6.5-r0",
+        "!pipewire-dev>1.6.5-r0",
+        "!pipewire-echo-cancel<1.6.5-r0",
+        "!pipewire-echo-cancel>1.6.5-r0",
+        "!pipewire-filter-graph-builtin<1.6.5-r0",
+        "!pipewire-filter-graph-builtin>1.6.5-r0",
+        "!pipewire-filter-graph-ebur128<1.6.5-r0",
+        "!pipewire-filter-graph-ebur128>1.6.5-r0",
+        "!pipewire-filter-graph-ladspa<1.6.5-r0",
+        "!pipewire-filter-graph-ladspa>1.6.5-r0",
+        "!pipewire-filter-graph-lv2<1.6.5-r0",
+        "!pipewire-filter-graph-lv2>1.6.5-r0",
+        "!pipewire-filter-graph-sofa<1.6.5-r0",
+        "!pipewire-filter-graph-sofa>1.6.5-r0",
+        "!pipewire-filter-graph<1.6.5-r0",
+        "!pipewire-filter-graph>1.6.5-r0",
+        "!pipewire-jack<1.6.5-r0",
+        "!pipewire-jack>1.6.5-r0",
+        "!pipewire-libs<1.6.5-r0",
+        "!pipewire-libs>1.6.5-r0",
+        "!pipewire-pulse<1.6.5-r0",
+        "!pipewire-pulse>1.6.5-r0",
+        "!pipewire-spa-bluez<1.6.5-r0",
+        "!pipewire-spa-bluez>1.6.5-r0",
+        "!pipewire-spa-tools<1.6.5-r0",
+        "!pipewire-spa-tools>1.6.5-r0",
+        "!pipewire-spa-vulkan<1.6.5-r0",
+        "!pipewire-spa-vulkan>1.6.5-r0",
+        "!pipewire-tools<1.6.5-r0",
+        "!pipewire-tools>1.6.5-r0",
+        "!pipewire-x11<1.6.5-r0",
+        "!pipewire-x11>1.6.5-r0",
+        "!pipewire-zeroconf<1.6.5-r0",
+        "!pipewire-zeroconf>1.6.5-r0",
+        "!pipewire<1.6.5-r0",
+        "!pipewire>1.6.5-r0"
       ]
     },
     "pipewire-dev": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       },
       "dependencies": [
-        "pipewire-libs=1.6.4-r1",
+        "pipewire-libs=1.6.5-r0",
         "pkgconfig",
         "so:libc.musl-x86.so.1",
         "so:libpipewire-0.3.so.0"
       ],
       "provides": [
-        "cmd:pw-config=1.6.4-r1",
-        "pc:jackserver=3.1604.0",
-        "pc:libpipewire-0.3=1.6.4",
+        "cmd:pw-config=1.6.5-r0",
+        "pc:jackserver=3.1605.0",
+        "pc:libpipewire-0.3=1.6.5",
         "pc:libspa-0.2=0.2"
       ]
     },
     "pipewire-doc": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       }
     },
     "pipewire-echo-cancel": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       },
       "dependencies": [
-        "pipewire=1.6.4-r1",
+        "pipewire=1.6.5-r0",
         "so:libc.musl-x86.so.1",
         "so:libpipewire-0.3.so.0"
       ],
@@ -193204,7 +193227,8 @@
     "pipewire-filter-graph": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -193214,7 +193238,8 @@
     "pipewire-filter-graph-builtin": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -193224,7 +193249,8 @@
     "pipewire-filter-graph-ebur128": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -193234,7 +193260,8 @@
     "pipewire-filter-graph-ladspa": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
@@ -193243,7 +193270,8 @@
     "pipewire-filter-graph-lv2": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -193253,7 +193281,8 @@
     "pipewire-filter-graph-sofa": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -193263,7 +193292,8 @@
     "pipewire-jack": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       },
       "dependencies": [
         "pipewire-session-manager",
@@ -193271,37 +193301,40 @@
         "so:libpipewire-0.3.so.0"
       ],
       "provides": [
-        "jack=1.6.4-r1",
-        "cmd:pw-jack=1.6.4-r1",
-        "so:libjack.so.0=0.3.1604",
-        "so:libjacknet.so.0=0.3.1604",
-        "so:libjackserver.so.0=0.3.1604"
+        "jack=1.6.5-r0",
+        "cmd:pw-jack=1.6.5-r0",
+        "so:libjack.so.0=0.3.1605",
+        "so:libjacknet.so.0=0.3.1605",
+        "so:libjackserver.so.0=0.3.1605"
       ]
     },
     "pipewire-jack-dev": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       },
       "dependencies": [
-        "pipewire-jack=1.6.4-r1",
+        "pipewire-jack=1.6.5-r0",
         "pkgconfig"
       ],
       "provides": [
-        "jack-dev=1.6.4-r1",
-        "pc:jack=3.1604.0"
+        "jack-dev=1.6.5-r0",
+        "pc:jack=3.1605.0"
       ]
     },
     "pipewire-lang": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       }
     },
     "pipewire-libs": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       },
       "dependencies": [
         "so:libasound.so.2",
@@ -193321,7 +193354,7 @@
         "so:libwebrtc-audio-processing-2.so.1"
       ],
       "provides": [
-        "so:libpipewire-0.3.so.0=0.1604.0",
+        "so:libpipewire-0.3.so.0=0.1605.0",
         "so:libpipewire-module-access.so=0",
         "so:libpipewire-module-adapter.so=0",
         "so:libpipewire-module-avb.so=0",
@@ -193363,18 +193396,20 @@
     "pipewire-openrc": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       }
     },
     "pipewire-pulse": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       },
       "dependencies": [
         "pipewire-session-manager",
         "pulseaudio-utils",
-        "pipewire=1.6.4-r1",
+        "pipewire=1.6.5-r0",
         "so:libavahi-client.so.3",
         "so:libavahi-common.so.3",
         "so:libc.musl-x86.so.1",
@@ -193386,9 +193421,9 @@
         "so:libpulse.so.0"
       ],
       "provides": [
-        "pulseaudio=1.6.4-r1",
-        "pulseaudio-bluez=1.6.4-r1",
-        "cmd:pipewire-pulse=1.6.4-r1",
+        "pulseaudio=1.6.5-r0",
+        "pulseaudio-bluez=1.6.5-r0",
+        "cmd:pipewire-pulse=1.6.5-r0",
         "so:libpipewire-module-filter-chain.so=0",
         "so:libpipewire-module-protocol-pulse.so=0",
         "so:libpipewire-module-pulse-tunnel.so=0"
@@ -193397,19 +193432,22 @@
     "pipewire-pulse-openrc": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       }
     },
     "pipewire-pulse-systemd": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       }
     },
     "pipewire-spa-bluez": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       },
       "dependencies": [
         "so:libbluetooth.so.3",
@@ -193431,7 +193469,8 @@
     "pipewire-spa-tools": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       },
       "dependencies": [
         "so:libasound.so.2",
@@ -193439,17 +193478,18 @@
         "so:libsndfile.so.1"
       ],
       "provides": [
-        "cmd:spa-acp-tool=1.6.4-r1",
-        "cmd:spa-inspect=1.6.4-r1",
-        "cmd:spa-json-dump=1.6.4-r1",
-        "cmd:spa-monitor=1.6.4-r1",
-        "cmd:spa-resample=1.6.4-r1"
+        "cmd:spa-acp-tool=1.6.5-r0",
+        "cmd:spa-inspect=1.6.5-r0",
+        "cmd:spa-json-dump=1.6.5-r0",
+        "cmd:spa-monitor=1.6.5-r0",
+        "cmd:spa-resample=1.6.5-r0"
       ]
     },
     "pipewire-spa-vulkan": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -193460,16 +193500,18 @@
     "pipewire-systemd": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       }
     },
     "pipewire-tools": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       },
       "dependencies": [
-        "pipewire=1.6.4-r1",
+        "pipewire=1.6.5-r0",
         "so:libc.musl-x86.so.1",
         "so:libdbus-1.so.3",
         "so:libncursesw.so.6",
@@ -193478,41 +193520,43 @@
         "so:libsndfile.so.1"
       ],
       "provides": [
-        "cmd:pw-cat=1.6.4-r1",
-        "cmd:pw-cli=1.6.4-r1",
-        "cmd:pw-container=1.6.4-r1",
-        "cmd:pw-dot=1.6.4-r1",
-        "cmd:pw-dsdplay=1.6.4-r1",
-        "cmd:pw-dump=1.6.4-r1",
-        "cmd:pw-encplay=1.6.4-r1",
-        "cmd:pw-link=1.6.4-r1",
-        "cmd:pw-loopback=1.6.4-r1",
-        "cmd:pw-metadata=1.6.4-r1",
-        "cmd:pw-midi2play=1.6.4-r1",
-        "cmd:pw-midi2record=1.6.4-r1",
-        "cmd:pw-mididump=1.6.4-r1",
-        "cmd:pw-midiplay=1.6.4-r1",
-        "cmd:pw-midirecord=1.6.4-r1",
-        "cmd:pw-mon=1.6.4-r1",
-        "cmd:pw-play=1.6.4-r1",
-        "cmd:pw-profiler=1.6.4-r1",
-        "cmd:pw-record=1.6.4-r1",
-        "cmd:pw-reserve=1.6.4-r1",
-        "cmd:pw-sysex=1.6.4-r1",
-        "cmd:pw-top=1.6.4-r1",
-        "cmd:pw-v4l2=1.6.4-r1"
+        "cmd:pw-cat=1.6.5-r0",
+        "cmd:pw-cli=1.6.5-r0",
+        "cmd:pw-container=1.6.5-r0",
+        "cmd:pw-dot=1.6.5-r0",
+        "cmd:pw-dsdplay=1.6.5-r0",
+        "cmd:pw-dump=1.6.5-r0",
+        "cmd:pw-encplay=1.6.5-r0",
+        "cmd:pw-link=1.6.5-r0",
+        "cmd:pw-loopback=1.6.5-r0",
+        "cmd:pw-metadata=1.6.5-r0",
+        "cmd:pw-midi2play=1.6.5-r0",
+        "cmd:pw-midi2record=1.6.5-r0",
+        "cmd:pw-mididump=1.6.5-r0",
+        "cmd:pw-midiplay=1.6.5-r0",
+        "cmd:pw-midirecord=1.6.5-r0",
+        "cmd:pw-mon=1.6.5-r0",
+        "cmd:pw-play=1.6.5-r0",
+        "cmd:pw-profiler=1.6.5-r0",
+        "cmd:pw-record=1.6.5-r0",
+        "cmd:pw-reserve=1.6.5-r0",
+        "cmd:pw-sysex=1.6.5-r0",
+        "cmd:pw-top=1.6.5-r0",
+        "cmd:pw-v4l2=1.6.5-r0"
       ]
     },
     "pipewire-udev": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       }
     },
     "pipewire-x11": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -193528,7 +193572,8 @@
     "pipewire-zeroconf": {
       "origin": "pipewire",
       "versions": {
-        "1.6.4-r1": 1777870627
+        "1.6.4-r1": 1777870627,
+        "1.6.5-r0": 1778930288
       },
       "dependencies": [
         "so:libavahi-client.so.3",
@@ -193539,7 +193584,7 @@
         "so:libpipewire-0.3.so.0"
       ],
       "provides": [
-        "pulseaudio-zeroconf=1.6.4-r1",
+        "pulseaudio-zeroconf=1.6.5-r0",
         "so:libpipewire-module-raop-discover.so=0",
         "so:libpipewire-module-raop-sink.so=0",
         "so:libpipewire-module-zeroconf-discover.so=0"
@@ -247323,7 +247368,8 @@
     "rsvg-convert": {
       "origin": "librsvg",
       "versions": {
-        "2.62.1-r0": 1773787234
+        "2.62.1-r0": 1773787234,
+        "2.62.2-r0": 1778930288
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -247340,13 +247386,14 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:rsvg-convert=2.62.1-r0"
+        "cmd:rsvg-convert=2.62.2-r0"
       ]
     },
     "rsvg-convert-doc": {
       "origin": "librsvg",
       "versions": {
-        "2.62.1-r0": 1773787234
+        "2.62.1-r0": 1773787234,
+        "2.62.2-r0": 1778930288
       }
     },
     "rt4": {
@@ -289075,7 +289122,8 @@
       "origin": "zabbix",
       "versions": {
         "7.4.8-r1": 1775839666,
-        "7.4.8-r2": 1778661427
+        "7.4.8-r2": 1778661427,
+        "7.4.10-r0": 1778938767
       },
       "dependencies": [
         "fping",
@@ -289086,7 +289134,8 @@
       "origin": "zabbix",
       "versions": {
         "7.4.8-r1": 1775839666,
-        "7.4.8-r2": 1778661427
+        "7.4.8-r2": 1778661427,
+        "7.4.10-r0": 1778938767
       },
       "dependencies": [
         "/bin/sh",
@@ -289098,14 +289147,15 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_agentd=7.4.8-r2"
+        "cmd:zabbix_agentd=7.4.10-r0"
       ]
     },
     "zabbix-agent-openrc": {
       "origin": "zabbix",
       "versions": {
         "7.4.8-r1": 1775839666,
-        "7.4.8-r2": 1778661427
+        "7.4.8-r2": 1778661427,
+        "7.4.10-r0": 1778938767
       },
       "dependencies": [
         "openrc"
@@ -289115,7 +289165,8 @@
       "origin": "zabbix",
       "versions": {
         "7.4.8-r1": 1775839666,
-        "7.4.8-r2": 1778661427
+        "7.4.8-r2": 1778661427,
+        "7.4.10-r0": 1778938767
       },
       "dependencies": [
         "/bin/sh",
@@ -289127,14 +289178,15 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_agent2=7.4.8-r2"
+        "cmd:zabbix_agent2=7.4.10-r0"
       ]
     },
     "zabbix-agent2-openrc": {
       "origin": "zabbix",
       "versions": {
         "7.4.8-r1": 1775839666,
-        "7.4.8-r2": 1778661427
+        "7.4.8-r2": 1778661427,
+        "7.4.10-r0": 1778938767
       },
       "dependencies": [
         "openrc"
@@ -289168,14 +289220,16 @@
       "origin": "zabbix",
       "versions": {
         "7.4.8-r1": 1775839666,
-        "7.4.8-r2": 1778661427
+        "7.4.8-r2": 1778661427,
+        "7.4.10-r0": 1778938767
       }
     },
     "zabbix-mysql": {
       "origin": "zabbix",
       "versions": {
         "7.4.8-r1": 1775839666,
-        "7.4.8-r2": 1778661427
+        "7.4.8-r2": 1778661427,
+        "7.4.10-r0": 1778938767
       },
       "dependencies": [
         "zabbix",
@@ -289199,22 +289253,24 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_proxy=7.4.8-r2",
-        "cmd:zabbix_server=7.4.8-r2"
+        "cmd:zabbix_proxy=7.4.10-r0",
+        "cmd:zabbix_server=7.4.10-r0"
       ]
     },
     "zabbix-openrc": {
       "origin": "zabbix",
       "versions": {
         "7.4.8-r1": 1775839666,
-        "7.4.8-r2": 1778661427
+        "7.4.8-r2": 1778661427,
+        "7.4.10-r0": 1778938767
       }
     },
     "zabbix-pgsql": {
       "origin": "zabbix",
       "versions": {
         "7.4.8-r1": 1775839666,
-        "7.4.8-r2": 1778661427
+        "7.4.8-r2": 1778661427,
+        "7.4.10-r0": 1778938767
       },
       "dependencies": [
         "zabbix",
@@ -289238,22 +289294,24 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_proxy=7.4.8-r2",
-        "cmd:zabbix_server=7.4.8-r2"
+        "cmd:zabbix_proxy=7.4.10-r0",
+        "cmd:zabbix_server=7.4.10-r0"
       ]
     },
     "zabbix-setup": {
       "origin": "zabbix",
       "versions": {
         "7.4.8-r1": 1775839666,
-        "7.4.8-r2": 1778661427
+        "7.4.8-r2": 1778661427,
+        "7.4.10-r0": 1778938767
       }
     },
     "zabbix-sqlite": {
       "origin": "zabbix",
       "versions": {
         "7.4.8-r1": 1775839666,
-        "7.4.8-r2": 1778661427
+        "7.4.8-r2": 1778661427,
+        "7.4.10-r0": 1778938767
       },
       "dependencies": [
         "zabbix",
@@ -289277,14 +289335,15 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_proxy=7.4.8-r2"
+        "cmd:zabbix_proxy=7.4.10-r0"
       ]
     },
     "zabbix-utils": {
       "origin": "zabbix",
       "versions": {
         "7.4.8-r1": 1775839666,
-        "7.4.8-r2": 1778661427
+        "7.4.8-r2": 1778661427,
+        "7.4.10-r0": 1778938767
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -289296,16 +289355,17 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_get=7.4.8-r2",
-        "cmd:zabbix_js=7.4.8-r2",
-        "cmd:zabbix_sender=7.4.8-r2"
+        "cmd:zabbix_get=7.4.10-r0",
+        "cmd:zabbix_js=7.4.10-r0",
+        "cmd:zabbix_sender=7.4.10-r0"
       ]
     },
     "zabbix-webif": {
       "origin": "zabbix",
       "versions": {
         "7.4.8-r1": 1775839666,
-        "7.4.8-r2": 1778661427
+        "7.4.8-r2": 1778661427,
+        "7.4.10-r0": 1778938767
       },
       "dependencies": [
         "php83",
@@ -289871,24 +289931,26 @@
       "origin": "zfs-stable",
       "versions": {
         "7.0.6-r0": 1778490241,
-        "7.0.7-r0": 1778766708
+        "7.0.7-r0": 1778766708,
+        "7.0.8-r0": 1778930167
       },
       "dependencies": [
-        "linux-stable=7.0.7-r0"
+        "linux-stable=7.0.8-r0"
       ]
     },
     "zfs-stable-dev": {
       "origin": "zfs-stable",
       "versions": {
         "7.0.6-r0": 1778490241,
-        "7.0.7-r0": 1778766708
+        "7.0.7-r0": 1778766708,
+        "7.0.8-r0": 1778930167
       },
       "dependencies": [
         "glib-dev",
         "e2fsprogs-dev",
         "util-linux-dev",
         "libtirpc-dev",
-        "linux-stable-dev=7.0.7-r0"
+        "linux-stable-dev=7.0.8-r0"
       ]
     },
     "zigbee2mqtt": {
@@ -304920,7 +304982,7 @@
       },
       "librsvg-2.so.2": {
         "package": "librsvg",
-        "version": "2.62.1"
+        "version": "2.62.2"
       },
       "librttopo.so.1": {
         "package": "librttopo",
@@ -307972,19 +308034,19 @@
       },
       "libjack.so.0": {
         "package": "pipewire-jack",
-        "version": "0.3.1604"
+        "version": "0.3.1605"
       },
       "libjacknet.so.0": {
         "package": "pipewire-jack",
-        "version": "0.3.1604"
+        "version": "0.3.1605"
       },
       "libjackserver.so.0": {
         "package": "pipewire-jack",
-        "version": "0.3.1604"
+        "version": "0.3.1605"
       },
       "libpipewire-0.3.so.0": {
         "package": "pipewire-libs",
-        "version": "0.1604.0"
+        "version": "0.1605.0"
       },
       "libpipewire-module-access.so": {
         "package": "pipewire-libs",
@@ -312586,7 +312648,7 @@
       },
       "aws-cli-v2": {
         "package": "aws-cli",
-        "version": "2.34.46-r0"
+        "version": "2.34.47-r0"
       },
       "swww": {
         "package": "awww",
@@ -313170,7 +313232,7 @@
       },
       "linux-edge": {
         "package": "linux-stable",
-        "version": "7.0.7-r0"
+        "version": "7.0.8-r0"
       },
       "lit": {
         "package": "llvm16-test-utils",
@@ -314410,23 +314472,23 @@
       },
       "jack": {
         "package": "pipewire-jack",
-        "version": "1.6.4-r1"
+        "version": "1.6.5-r0"
       },
       "jack-dev": {
         "package": "pipewire-jack-dev",
-        "version": "1.6.4-r1"
+        "version": "1.6.5-r0"
       },
       "pulseaudio": {
         "package": "pipewire-pulse",
-        "version": "1.6.4-r1"
+        "version": "1.6.5-r0"
       },
       "pulseaudio-bluez": {
         "package": "pipewire-pulse",
-        "version": "1.6.4-r1"
+        "version": "1.6.5-r0"
       },
       "pulseaudio-zeroconf": {
         "package": "pipewire-zeroconf",
-        "version": "1.6.4-r1"
+        "version": "1.6.5-r0"
       },
       "plasma": {
         "package": "plasma-desktop-meta",
