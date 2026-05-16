@@ -40689,7 +40689,8 @@
     "exim": {
       "origin": "exim",
       "versions": {
-        "4.99.2-r0": 1777813066
+        "4.99.2-r0": 1777813066,
+        "4.99.3-r0": 1778950094
       },
       "dependencies": [
         "ca-certificates",
@@ -40702,58 +40703,63 @@
         "so:libtdb.so.1"
       ],
       "provides": [
-        "cmd:exim=4.99.2-r0",
-        "cmd:mailq=4.99.2-r0",
-        "cmd:newaliases=4.99.2-r0",
-        "cmd:rmail=4.99.2-r0",
-        "cmd:rsmtp=4.99.2-r0",
-        "cmd:runq=4.99.2-r0",
-        "cmd:sendmail=4.99.2-r0"
+        "cmd:exim=4.99.3-r0",
+        "cmd:mailq=4.99.3-r0",
+        "cmd:newaliases=4.99.3-r0",
+        "cmd:rmail=4.99.3-r0",
+        "cmd:rsmtp=4.99.3-r0",
+        "cmd:runq=4.99.3-r0",
+        "cmd:sendmail=4.99.3-r0"
       ]
     },
     "exim-cdb": {
       "origin": "exim",
       "versions": {
-        "4.99.2-r0": 1777813066
+        "4.99.2-r0": 1777813066,
+        "4.99.3-r0": 1778950094
       },
       "dependencies": [
-        "exim=4.99.2-r0",
+        "exim=4.99.3-r0",
         "so:libc.musl-x86.so.1"
       ]
     },
     "exim-dbmdb": {
       "origin": "exim",
       "versions": {
-        "4.99.2-r0": 1777813066
+        "4.99.2-r0": 1777813066,
+        "4.99.3-r0": 1778950094
       },
       "dependencies": [
-        "exim=4.99.2-r0",
+        "exim=4.99.3-r0",
         "so:libc.musl-x86.so.1"
       ]
     },
     "exim-dnsdb": {
       "origin": "exim",
       "versions": {
-        "4.99.2-r0": 1777813066
+        "4.99.2-r0": 1777813066,
+        "4.99.3-r0": 1778950094
       },
       "dependencies": [
-        "exim=4.99.2-r0",
+        "exim=4.99.3-r0",
         "so:libc.musl-x86.so.1"
       ]
     },
     "exim-doc": {
       "origin": "exim",
       "versions": {
-        "4.99.2-r0": 1777813066
+        "4.99.2-r0": 1777813066,
+        "4.99.3-r0": 1778950094
       }
     },
     "exim-mysql": {
       "origin": "exim",
       "versions": {
-        "4.99.2-r0": 1777813066
+        "4.99.2-r0": 1777813066,
+        "4.99.3-r0": 1778950094
       },
       "dependencies": [
-        "exim=4.99.2-r0",
+        "exim=4.99.3-r0",
         "so:libc.musl-x86.so.1",
         "so:libmariadb.so.3"
       ]
@@ -40761,16 +40767,18 @@
     "exim-openrc": {
       "origin": "exim",
       "versions": {
-        "4.99.2-r0": 1777813066
+        "4.99.2-r0": 1777813066,
+        "4.99.3-r0": 1778950094
       }
     },
     "exim-postgresql": {
       "origin": "exim",
       "versions": {
-        "4.99.2-r0": 1777813066
+        "4.99.2-r0": 1777813066,
+        "4.99.3-r0": 1778950094
       },
       "dependencies": [
-        "exim=4.99.2-r0",
+        "exim=4.99.3-r0",
         "so:libc.musl-x86.so.1",
         "so:libpq.so.5"
       ]
@@ -40778,34 +40786,36 @@
     "exim-scripts": {
       "origin": "exim",
       "versions": {
-        "4.99.2-r0": 1777813066
+        "4.99.2-r0": 1777813066,
+        "4.99.3-r0": 1778950094
       },
       "dependencies": [
-        "exim=4.99.2-r0",
+        "exim=4.99.3-r0",
         "perl",
         "perl-file-fcntllock"
       ],
       "provides": [
-        "cmd:exicyclog=4.99.2-r0",
-        "cmd:exigrep=4.99.2-r0",
-        "cmd:exim_checkaccess=4.99.2-r0",
-        "cmd:exim_id_update=4.99.2-r0",
-        "cmd:exim_msgdate=4.99.2-r0",
-        "cmd:eximstats=4.99.2-r0",
-        "cmd:exinext=4.99.2-r0",
-        "cmd:exipick=4.99.2-r0",
-        "cmd:exiqgrep=4.99.2-r0",
-        "cmd:exiqsumm=4.99.2-r0",
-        "cmd:exiwhat=4.99.2-r0"
+        "cmd:exicyclog=4.99.3-r0",
+        "cmd:exigrep=4.99.3-r0",
+        "cmd:exim_checkaccess=4.99.3-r0",
+        "cmd:exim_id_update=4.99.3-r0",
+        "cmd:exim_msgdate=4.99.3-r0",
+        "cmd:eximstats=4.99.3-r0",
+        "cmd:exinext=4.99.3-r0",
+        "cmd:exipick=4.99.3-r0",
+        "cmd:exiqgrep=4.99.3-r0",
+        "cmd:exiqsumm=4.99.3-r0",
+        "cmd:exiwhat=4.99.3-r0"
       ]
     },
     "exim-sqlite": {
       "origin": "exim",
       "versions": {
-        "4.99.2-r0": 1777813066
+        "4.99.2-r0": 1777813066,
+        "4.99.3-r0": 1778950094
       },
       "dependencies": [
-        "exim=4.99.2-r0",
+        "exim=4.99.3-r0",
         "so:libc.musl-x86.so.1",
         "so:libsqlite3.so.0"
       ]
@@ -40813,20 +40823,21 @@
     "exim-utils": {
       "origin": "exim",
       "versions": {
-        "4.99.2-r0": 1777813066
+        "4.99.2-r0": 1777813066,
+        "4.99.3-r0": 1778950094
       },
       "dependencies": [
-        "exim=4.99.2-r0",
+        "exim=4.99.3-r0",
         "so:libc.musl-x86.so.1",
         "so:libtdb.so.1"
       ],
       "provides": [
-        "cmd:exim_dbmbuild=4.99.2-r0",
-        "cmd:exim_dumpdb=4.99.2-r0",
-        "cmd:exim_fixdb=4.99.2-r0",
-        "cmd:exim_gencert=4.99.2-r0",
-        "cmd:exim_lock=4.99.2-r0",
-        "cmd:exim_tidydb=4.99.2-r0"
+        "cmd:exim_dbmbuild=4.99.3-r0",
+        "cmd:exim_dumpdb=4.99.3-r0",
+        "cmd:exim_fixdb=4.99.3-r0",
+        "cmd:exim_gencert=4.99.3-r0",
+        "cmd:exim_lock=4.99.3-r0",
+        "cmd:exim_tidydb=4.99.3-r0"
       ]
     },
     "exiv2": {
@@ -83802,20 +83813,22 @@
       "origin": "jool-modules-lts",
       "versions": {
         "6.18.29-r0": 1778489781,
-        "6.18.31-r0": 1778880923
+        "6.18.31-r0": 1778880923,
+        "6.18.31-r1": 1778948610
       },
       "dependencies": [
-        "linux-lts=6.18.31-r0"
+        "linux-lts=6.18.31-r1"
       ]
     },
     "jool-modules-virt": {
       "origin": "jool-modules-lts",
       "versions": {
         "6.18.29-r0": 1778489781,
-        "6.18.31-r0": 1778880923
+        "6.18.31-r0": 1778880923,
+        "6.18.31-r1": 1778948610
       },
       "dependencies": [
-        "linux-virt=6.18.31-r0"
+        "linux-virt=6.18.31-r1"
       ]
     },
     "jool-tools": {
@@ -198551,7 +198564,8 @@
     "pre-commit": {
       "origin": "pre-commit",
       "versions": {
-        "4.5.1-r1": 1774640371
+        "4.5.1-r1": 1774640371,
+        "4.6.0-r0": 1778954131
       },
       "dependencies": [
         "python3",
@@ -198565,14 +198579,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:pre-commit=4.5.1-r1",
-        "py3.14:pre_commit=4.5.1-r1"
+        "cmd:pre-commit=4.6.0-r0",
+        "py3.14:pre_commit=4.6.0-r0"
       ]
     },
     "pre-commit-pyc": {
       "origin": "pre-commit",
       "versions": {
-        "4.5.1-r1": 1774640371
+        "4.5.1-r1": 1774640371,
+        "4.6.0-r0": 1778954131
       },
       "dependencies": [
         "python3~3.14"
@@ -198886,7 +198901,8 @@
     "profanity": {
       "origin": "profanity",
       "versions": {
-        "0.18.0-r0": 1775910819
+        "0.18.0-r0": 1775910819,
+        "0.18.1-r0": 1778952958
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -198903,13 +198919,14 @@
         "so:libstrophe.so.0"
       ],
       "provides": [
-        "cmd:profanity=0.18.0-r0"
+        "cmd:profanity=0.18.1-r0"
       ]
     },
     "profanity-doc": {
       "origin": "profanity",
       "versions": {
-        "0.18.0-r0": 1775910819
+        "0.18.0-r0": 1775910819,
+        "0.18.1-r0": 1778952958
       }
     },
     "profiled": {
@@ -247700,7 +247717,8 @@
       "origin": "rtpengine-lts",
       "versions": {
         "6.18.29-r0": 1778489781,
-        "6.18.31-r0": 1778880923
+        "6.18.31-r0": 1778880923,
+        "6.18.31-r1": 1778948610
       }
     },
     "rtpengine-openrc": {
@@ -247737,10 +247755,11 @@
       "origin": "rtpengine-lts",
       "versions": {
         "6.18.29-r0": 1778489781,
-        "6.18.31-r0": 1778880923
+        "6.18.31-r0": 1778880923,
+        "6.18.31-r1": 1778948610
       },
       "dependencies": [
-        "linux-virt=6.18.31-r0"
+        "linux-virt=6.18.31-r1"
       ]
     },
     "rtrlib": {
@@ -249271,7 +249290,8 @@
     "rustypaste": {
       "origin": "rustypaste",
       "versions": {
-        "0.16.1-r0": 1742655297
+        "0.16.1-r0": 1742655297,
+        "0.17.0-r0": 1778952085
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -249281,7 +249301,7 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:rustypaste=0.16.1-r0"
+        "cmd:rustypaste=0.17.0-r0"
       ]
     },
     "rustypaste-cli": {
@@ -249306,7 +249326,8 @@
     "rustypaste-doc": {
       "origin": "rustypaste",
       "versions": {
-        "0.16.1-r0": 1742655297
+        "0.16.1-r0": 1742655297,
+        "0.17.0-r0": 1778952085
       }
     },
     "rutorrent": {
@@ -259881,14 +259902,15 @@
     "stylua": {
       "origin": "stylua",
       "versions": {
-        "2.4.1-r0": 1775524686
+        "2.4.1-r0": 1775524686,
+        "2.5.2-r0": 1778953679
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:stylua=2.4.1-r0"
+        "cmd:stylua=2.5.2-r0"
       ]
     },
     "sudo": {
@@ -275342,20 +275364,22 @@
       "origin": "virtio_vmmci-lts",
       "versions": {
         "6.18.29-r0": 1778489781,
-        "6.18.31-r0": 1778880923
+        "6.18.31-r0": 1778880923,
+        "6.18.31-r1": 1778948610
       },
       "dependencies": [
-        "linux-lts=6.18.31-r0"
+        "linux-lts=6.18.31-r1"
       ]
     },
     "virtio_vmmci-virt": {
       "origin": "virtio_vmmci-lts",
       "versions": {
         "6.18.29-r0": 1778489781,
-        "6.18.31-r0": 1778880923
+        "6.18.31-r0": 1778880923,
+        "6.18.31-r1": 1778948610
       },
       "dependencies": [
-        "linux-virt=6.18.31-r0"
+        "linux-virt=6.18.31-r1"
       ]
     },
     "virtualbox-guest-additions": {
@@ -275694,20 +275718,22 @@
       "origin": "vmm_clock-lts",
       "versions": {
         "6.18.29-r0": 1778489781,
-        "6.18.31-r0": 1778880923
+        "6.18.31-r0": 1778880923,
+        "6.18.31-r1": 1778948610
       },
       "dependencies": [
-        "linux-lts=6.18.31-r0"
+        "linux-lts=6.18.31-r1"
       ]
     },
     "vmm_clock-virt": {
       "origin": "vmm_clock-lts",
       "versions": {
         "6.18.29-r0": 1778489781,
-        "6.18.31-r0": 1778880923
+        "6.18.31-r0": 1778880923,
+        "6.18.31-r1": 1778948610
       },
       "dependencies": [
-        "linux-virt=6.18.31-r0"
+        "linux-virt=6.18.31-r1"
       ]
     },
     "vnstat": {
@@ -288623,7 +288649,8 @@
     "yt-dlp": {
       "origin": "yt-dlp",
       "versions": {
-        "2026.03.17-r1": 1774640356
+        "2026.03.17-r1": 1774640356,
+        "2026.03.17-r2": 1778952746
       },
       "dependencies": [
         "attr",
@@ -288635,35 +288662,38 @@
         "py3-secretstorage",
         "py3-websockets",
         "yt-dlp-ejs",
-        "yt-dlp-core=2026.03.17-r1"
+        "yt-dlp-core=2026.03.17-r2"
       ]
     },
     "yt-dlp-bash-completion": {
       "origin": "yt-dlp",
       "versions": {
-        "2026.03.17-r1": 1774640356
+        "2026.03.17-r1": 1774640356,
+        "2026.03.17-r2": 1778952746
       }
     },
     "yt-dlp-core": {
       "origin": "yt-dlp",
       "versions": {
-        "2026.03.17-r1": 1774640356
+        "2026.03.17-r1": 1774640356,
+        "2026.03.17-r2": 1778952746
       },
       "dependencies": [
         "python3",
         "python3~3.14"
       ],
       "provides": [
-        "youtube-dl=2026.03.17-r1",
-        "cmd:youtube-dl=2026.03.17-r1",
-        "cmd:yt-dlp=2026.03.17-r1",
-        "py3.14:yt_dlp=2026.03.17-r1"
+        "youtube-dl=2026.03.17-r2",
+        "cmd:youtube-dl=2026.03.17-r2",
+        "cmd:yt-dlp=2026.03.17-r2",
+        "py3.14:yt_dlp=2026.03.17-r2"
       ]
     },
     "yt-dlp-core-pyc": {
       "origin": "yt-dlp",
       "versions": {
-        "2026.03.17-r1": 1774640356
+        "2026.03.17-r1": 1774640356,
+        "2026.03.17-r2": 1778952746
       },
       "dependencies": [
         "python3~3.14"
@@ -288672,7 +288702,8 @@
     "yt-dlp-doc": {
       "origin": "yt-dlp",
       "versions": {
-        "2026.03.17-r1": 1774640356
+        "2026.03.17-r1": 1774640356,
+        "2026.03.17-r2": 1778952746
       }
     },
     "yt-dlp-ejs": {
@@ -288725,13 +288756,15 @@
     "yt-dlp-fish-completion": {
       "origin": "yt-dlp",
       "versions": {
-        "2026.03.17-r1": 1774640356
+        "2026.03.17-r1": 1774640356,
+        "2026.03.17-r2": 1778952746
       }
     },
     "yt-dlp-zsh-completion": {
       "origin": "yt-dlp",
       "versions": {
-        "2026.03.17-r1": 1774640356
+        "2026.03.17-r1": 1774640356,
+        "2026.03.17-r2": 1778952746
       }
     },
     "ytdl-sub": {
@@ -315977,7 +316010,7 @@
       },
       "youtube-dl": {
         "package": "yt-dlp-core",
-        "version": "2026.03.17-r1"
+        "version": "2026.03.17-r2"
       },
       "yt-dlp-ejs-rt": {
         "package": "yt-dlp-ejs-rt-quickjs",
