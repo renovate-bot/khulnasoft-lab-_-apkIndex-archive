@@ -5494,36 +5494,40 @@
     "astyle": {
       "origin": "astyle",
       "versions": {
-        "3.6.15-r0": 1778431426
+        "3.6.15-r0": 1778431426,
+        "3.6.16-r0": 1779023524
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:astyle=3.6.15-r0"
+        "cmd:astyle=3.6.16-r0"
       ]
     },
     "astyle-dev": {
       "origin": "astyle",
       "versions": {
-        "3.6.15-r0": 1778431426
+        "3.6.15-r0": 1778431426,
+        "3.6.16-r0": 1779023524
       },
       "dependencies": [
-        "astyle=3.6.15-r0",
-        "astyle-libs=3.6.15-r0"
+        "astyle=3.6.16-r0",
+        "astyle-libs=3.6.16-r0"
       ]
     },
     "astyle-doc": {
       "origin": "astyle",
       "versions": {
-        "3.6.15-r0": 1778431426
+        "3.6.15-r0": 1778431426,
+        "3.6.16-r0": 1779023524
       }
     },
     "astyle-libs": {
       "origin": "astyle",
       "versions": {
-        "3.6.15-r0": 1778431426
+        "3.6.15-r0": 1778431426,
+        "3.6.16-r0": 1779023524
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -113984,7 +113988,8 @@
     "libphosh": {
       "origin": "phosh",
       "versions": {
-        "0.54.0-r0": 1775397068
+        "0.54.0-r0": 1775397068,
+        "0.55.0-r0": 1779021941
       },
       "dependencies": [
         "so:libappstream.so.5",
@@ -114029,7 +114034,8 @@
     "libphosh-dev": {
       "origin": "phosh",
       "versions": {
-        "0.54.0-r0": 1775397068
+        "0.54.0-r0": 1775397068,
+        "0.55.0-r0": 1779021941
       },
       "dependencies": [
         "phosh-schemas",
@@ -114047,7 +114053,7 @@
         "phoc",
         "phosh-keyboard",
         "xwayland",
-        "libphosh=0.54.0-r0",
+        "libphosh=0.55.0-r0",
         "pc:appstream>=1.0.0",
         "pc:fribidi",
         "pc:gcr-3>=3.7.5",
@@ -114080,7 +114086,7 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:libphosh-0.45=0.54.0"
+        "pc:libphosh-0.45=0.55.0"
       ]
     },
     "libpinyin": {
@@ -133184,7 +133190,8 @@
       "origin": "mautrix-gmessages",
       "versions": {
         "0.2604.0-r0": 1776445246,
-        "0.2604.0-r1": 1778661427
+        "0.2604.0-r1": 1778661427,
+        "0.2605.0-r0": 1779021940
       },
       "dependencies": [
         "/bin/sh",
@@ -133193,28 +133200,31 @@
         "so:libsqlite3.so.0"
       ],
       "provides": [
-        "cmd:mautrix-gmessages=0.2604.0-r1"
+        "cmd:mautrix-gmessages=0.2605.0-r0"
       ]
     },
     "mautrix-gmessages-doc": {
       "origin": "mautrix-gmessages",
       "versions": {
         "0.2604.0-r0": 1776445246,
-        "0.2604.0-r1": 1778661427
+        "0.2604.0-r1": 1778661427,
+        "0.2605.0-r0": 1779021940
       }
     },
     "mautrix-gmessages-openrc": {
       "origin": "mautrix-gmessages",
       "versions": {
         "0.2604.0-r0": 1776445246,
-        "0.2604.0-r1": 1778661427
+        "0.2604.0-r1": 1778661427,
+        "0.2605.0-r0": 1779021940
       }
     },
     "mautrix-gvoice": {
       "origin": "mautrix-gvoice",
       "versions": {
         "0.2604.0-r0": 1776445246,
-        "0.2604.0-r1": 1778661427
+        "0.2604.0-r1": 1778661427,
+        "0.2605.0-r0": 1779021940
       },
       "dependencies": [
         "/bin/sh",
@@ -133223,28 +133233,31 @@
         "so:libsqlite3.so.0"
       ],
       "provides": [
-        "cmd:mautrix-gvoice=0.2604.0-r1"
+        "cmd:mautrix-gvoice=0.2605.0-r0"
       ]
     },
     "mautrix-gvoice-doc": {
       "origin": "mautrix-gvoice",
       "versions": {
         "0.2604.0-r0": 1776445246,
-        "0.2604.0-r1": 1778661427
+        "0.2604.0-r1": 1778661427,
+        "0.2605.0-r0": 1779021940
       }
     },
     "mautrix-gvoice-openrc": {
       "origin": "mautrix-gvoice",
       "versions": {
         "0.2604.0-r0": 1776445246,
-        "0.2604.0-r1": 1778661427
+        "0.2604.0-r1": 1778661427,
+        "0.2605.0-r0": 1779021940
       }
     },
     "mautrix-meta": {
       "origin": "mautrix-meta",
       "versions": {
         "0.2604.0-r0": 1776445246,
-        "0.2604.0-r1": 1778661427
+        "0.2604.0-r1": 1778661427,
+        "0.2605.0-r0": 1779021940
       },
       "dependencies": [
         "/bin/sh",
@@ -133253,28 +133266,31 @@
         "so:libsqlite3.so.0"
       ],
       "provides": [
-        "cmd:mautrix-meta=0.2604.0-r1"
+        "cmd:mautrix-meta=0.2605.0-r0"
       ]
     },
     "mautrix-meta-doc": {
       "origin": "mautrix-meta",
       "versions": {
         "0.2604.0-r0": 1776445246,
-        "0.2604.0-r1": 1778661427
+        "0.2604.0-r1": 1778661427,
+        "0.2605.0-r0": 1779021940
       }
     },
     "mautrix-meta-openrc": {
       "origin": "mautrix-meta",
       "versions": {
         "0.2604.0-r0": 1776445246,
-        "0.2604.0-r1": 1778661427
+        "0.2604.0-r1": 1778661427,
+        "0.2605.0-r0": 1779021940
       }
     },
     "mautrix-slack": {
       "origin": "mautrix-slack",
       "versions": {
         "0.2604.0-r0": 1776445246,
-        "0.2604.0-r1": 1778661427
+        "0.2604.0-r1": 1778661427,
+        "0.2605.0-r0": 1779021940
       },
       "dependencies": [
         "/bin/sh",
@@ -133283,21 +133299,23 @@
         "so:libsqlite3.so.0"
       ],
       "provides": [
-        "cmd:mautrix-slack=0.2604.0-r1"
+        "cmd:mautrix-slack=0.2605.0-r0"
       ]
     },
     "mautrix-slack-doc": {
       "origin": "mautrix-slack",
       "versions": {
         "0.2604.0-r0": 1776445246,
-        "0.2604.0-r1": 1778661427
+        "0.2604.0-r1": 1778661427,
+        "0.2605.0-r0": 1779021940
       }
     },
     "mautrix-slack-openrc": {
       "origin": "mautrix-slack",
       "versions": {
         "0.2604.0-r0": 1776445246,
-        "0.2604.0-r1": 1778661427
+        "0.2604.0-r1": 1778661427,
+        "0.2605.0-r0": 1779021940
       }
     },
     "mautrix-twitter": {
@@ -133334,7 +133352,8 @@
       "origin": "mautrix-whatsapp",
       "versions": {
         "0.2604.0-r0": 1776445247,
-        "0.2604.0-r1": 1778661427
+        "0.2604.0-r1": 1778661427,
+        "0.2605.0-r0": 1779021940
       },
       "dependencies": [
         "/bin/sh",
@@ -133343,14 +133362,15 @@
         "so:libsqlite3.so.0"
       ],
       "provides": [
-        "cmd:mautrix-whatsapp=0.2604.0-r1"
+        "cmd:mautrix-whatsapp=0.2605.0-r0"
       ]
     },
     "mautrix-whatsapp-openrc": {
       "origin": "mautrix-whatsapp",
       "versions": {
         "0.2604.0-r0": 1776445247,
-        "0.2604.0-r1": 1778661427
+        "0.2604.0-r1": 1778661427,
+        "0.2605.0-r0": 1779021940
       }
     },
     "maven": {
@@ -186796,7 +186816,8 @@
     "phoc": {
       "origin": "phoc",
       "versions": {
-        "0.54.0-r0": 1775378632
+        "0.54.0-r0": 1775378632,
+        "0.55.0-r0": 1779021940
       },
       "dependencies": [
         "phoc-schemas",
@@ -186817,6 +186838,7 @@
         "so:libgobject-2.0.so.0",
         "so:libinput.so.10",
         "so:libintl.so.8",
+        "so:liblcms2.so.2",
         "so:libpango-1.0.so.0",
         "so:libpangocairo-1.0.so.0",
         "so:libpixman-1.so.0",
@@ -186840,31 +186862,34 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:phoc-outputs-states=0.54.0-r0",
-        "cmd:phoc=0.54.0-r0",
-        "cmd:scale-to-fit=0.54.0-r0"
+        "cmd:phoc-outputs-states=0.55.0-r0",
+        "cmd:phoc=0.55.0-r0",
+        "cmd:scale-to-fit=0.55.0-r0"
       ]
     },
     "phoc-dbg": {
       "origin": "phoc",
       "versions": {
-        "0.54.0-r0": 1775378632
+        "0.54.0-r0": 1775378632,
+        "0.55.0-r0": 1779021940
       },
       "dependencies": [
-        "!phoc<0.54.0-r0",
-        "!phoc>0.54.0-r0"
+        "!phoc<0.55.0-r0",
+        "!phoc>0.55.0-r0"
       ]
     },
     "phoc-doc": {
       "origin": "phoc",
       "versions": {
-        "0.54.0-r0": 1775378632
+        "0.54.0-r0": 1775378632,
+        "0.55.0-r0": 1779021940
       }
     },
     "phoc-schemas": {
       "origin": "phoc",
       "versions": {
-        "0.54.0-r0": 1775378632
+        "0.54.0-r0": 1775378632,
+        "0.55.0-r0": 1779021940
       }
     },
     "phodav": {
@@ -187039,7 +187064,8 @@
     "phosh": {
       "origin": "phosh",
       "versions": {
-        "0.54.0-r0": 1775397068
+        "0.54.0-r0": 1775397068,
+        "0.55.0-r0": 1779021941
       },
       "dependencies": [
         "phosh-schemas",
@@ -187102,7 +187128,7 @@
         "so:libwayland-client.so.0"
       ],
       "provides": [
-        "cmd:phosh-session=0.54.0-r0"
+        "cmd:phosh-session=0.55.0-r0"
       ]
     },
     "phosh-antispam": {
@@ -187127,49 +187153,55 @@
     "phosh-dbg": {
       "origin": "phosh",
       "versions": {
-        "0.54.0-r0": 1775397068
+        "0.54.0-r0": 1775397068,
+        "0.55.0-r0": 1779021941
       },
       "dependencies": [
-        "!libphosh<0.54.0-r0",
-        "!libphosh>0.54.0-r0",
-        "!phosh<0.54.0-r0",
-        "!phosh>0.54.0-r0"
+        "!libphosh<0.55.0-r0",
+        "!libphosh>0.55.0-r0",
+        "!phosh<0.55.0-r0",
+        "!phosh>0.55.0-r0"
       ]
     },
     "phosh-dev": {
       "origin": "phosh",
       "versions": {
-        "0.54.0-r0": 1775397068
+        "0.54.0-r0": 1775397068,
+        "0.55.0-r0": 1779021941
       },
       "dependencies": [
         "pc:gsettings-desktop-schemas>=47",
         "pkgconfig"
       ],
       "provides": [
-        "pc:phosh-plugins=0.54.0",
-        "pc:phosh-settings=0.54.0"
+        "pc:phosh-plugins=0.55.0",
+        "pc:phosh-settings=0.55.0"
       ]
     },
     "phosh-doc": {
       "origin": "phosh",
       "versions": {
-        "0.54.0-r0": 1775397068
+        "0.54.0-r0": 1775397068,
+        "0.55.0-r0": 1779021941
       }
     },
     "phosh-lang": {
       "origin": "phosh",
       "versions": {
-        "0.54.0-r0": 1775397068
+        "0.54.0-r0": 1775397068,
+        "0.55.0-r0": 1779021941
       }
     },
     "phosh-mobile-settings": {
       "origin": "phosh-mobile-settings",
       "versions": {
-        "0.54.0-r3": 1776019099
+        "0.54.0-r3": 1776019099,
+        "0.55.0-r0": 1779021940
       },
       "dependencies": [
         "phoc-schemas",
         "phosh-schemas",
+        "so:libaccountsservice.so.0",
         "so:libadwaita-1.so.0",
         "so:libc.musl-x86.so.1",
         "so:libcellbroadcast-0.0.so.0",
@@ -187184,6 +187216,7 @@
         "so:libintl.so.8",
         "so:libpango-1.0.so.0",
         "so:libpms-1.0.so.0",
+        "so:libpolkit-gobject-1.so.0",
         "so:libportal-gtk4.so.1",
         "so:libportal.so.1",
         "so:libpulse-mainloop-glib.so.0",
@@ -187193,28 +187226,30 @@
         "so:libyaml-0.so.2"
       ],
       "provides": [
-        "cmd:phosh-mobile-settings=0.54.0-r3"
+        "cmd:phosh-mobile-settings=0.55.0-r0"
       ]
     },
     "phosh-mobile-settings-dbg": {
       "origin": "phosh-mobile-settings",
       "versions": {
-        "0.54.0-r3": 1776019099
+        "0.54.0-r3": 1776019099,
+        "0.55.0-r0": 1779021940
       },
       "dependencies": [
-        "!phosh-mobile-settings-libs<0.54.0-r3",
-        "!phosh-mobile-settings-libs>0.54.0-r3",
-        "!phosh-mobile-settings<0.54.0-r3",
-        "!phosh-mobile-settings>0.54.0-r3"
+        "!phosh-mobile-settings-libs<0.55.0-r0",
+        "!phosh-mobile-settings-libs>0.55.0-r0",
+        "!phosh-mobile-settings<0.55.0-r0",
+        "!phosh-mobile-settings>0.55.0-r0"
       ]
     },
     "phosh-mobile-settings-dev": {
       "origin": "phosh-mobile-settings",
       "versions": {
-        "0.54.0-r3": 1776019099
+        "0.54.0-r3": 1776019099,
+        "0.55.0-r0": 1779021940
       },
       "dependencies": [
-        "phosh-mobile-settings-libs=0.54.0-r3",
+        "phosh-mobile-settings-libs=0.55.0-r0",
         "pc:gio-2.0",
         "pc:libadwaita-1",
         "pkgconfig"
@@ -187226,17 +187261,20 @@
     "phosh-mobile-settings-lang": {
       "origin": "phosh-mobile-settings",
       "versions": {
-        "0.54.0-r3": 1776019099
+        "0.54.0-r3": 1776019099,
+        "0.55.0-r0": 1779021940
       }
     },
     "phosh-mobile-settings-libs": {
       "origin": "phosh-mobile-settings",
       "versions": {
-        "0.54.0-r3": 1776019099
+        "0.54.0-r3": 1776019099,
+        "0.55.0-r0": 1779021940
       },
       "dependencies": [
         "so:libadwaita-1.so.0",
         "so:libc.musl-x86.so.1",
+        "so:libfontconfig.so.1",
         "so:libgio-2.0.so.0",
         "so:libglib-2.0.so.0",
         "so:libgnome-desktop-4.so.2",
@@ -187252,7 +187290,8 @@
     "phosh-portalsconf": {
       "origin": "phosh",
       "versions": {
-        "0.54.0-r0": 1775397068
+        "0.54.0-r0": 1775397068,
+        "0.55.0-r0": 1779021941
       },
       "dependencies": [
         "phosh-schemas",
@@ -187275,19 +187314,22 @@
     "phosh-schemas": {
       "origin": "phosh",
       "versions": {
-        "0.54.0-r0": 1775397068
+        "0.54.0-r0": 1775397068,
+        "0.55.0-r0": 1779021941
       }
     },
     "phosh-systemd": {
       "origin": "phosh",
       "versions": {
-        "0.54.0-r0": 1775397068
+        "0.54.0-r0": 1775397068,
+        "0.55.0-r0": 1779021941
       }
     },
     "phosh-tour": {
       "origin": "phosh-tour",
       "versions": {
-        "0.54.0-r0": 1775378634
+        "0.54.0-r0": 1775378634,
+        "0.55.0-r0": 1779021940
       },
       "dependencies": [
         "so:libadwaita-1.so.0",
@@ -187300,25 +187342,28 @@
         "so:libintl.so.8"
       ],
       "provides": [
-        "cmd:phosh-tour=0.54.0-r0"
+        "cmd:phosh-tour=0.55.0-r0"
       ]
     },
     "phosh-tour-lang": {
       "origin": "phosh-tour",
       "versions": {
-        "0.54.0-r0": 1775378634
+        "0.54.0-r0": 1775378634,
+        "0.55.0-r0": 1779021940
       }
     },
     "phosh-tour-systemd": {
       "origin": "phosh-tour",
       "versions": {
-        "0.54.0-r0": 1775378634
+        "0.54.0-r0": 1775378634,
+        "0.55.0-r0": 1779021940
       }
     },
     "phosh-wallpapers": {
       "origin": "phosh-wallpapers",
       "versions": {
-        "0.42.0-r2": 1768608008
+        "0.42.0-r2": 1768608008,
+        "0.55.0-r0": 1779021940
       }
     },
     "photon": {
@@ -195886,7 +195931,8 @@
     "plymouth-theme-phosh": {
       "origin": "phosh-wallpapers",
       "versions": {
-        "0.42.0-r2": 1768608008
+        "0.42.0-r2": 1768608008,
+        "0.55.0-r0": 1779021940
       }
     },
     "plymouth-themes": {
@@ -257378,7 +257424,8 @@
     "sound-theme-phosh": {
       "origin": "phosh-wallpapers",
       "versions": {
-        "0.42.0-r2": 1768608008
+        "0.42.0-r2": 1768608008,
+        "0.55.0-r0": 1779021940
       }
     },
     "soundfont-timgm": {
@@ -272246,7 +272293,8 @@
     "uncrustify": {
       "origin": "uncrustify",
       "versions": {
-        "0.82.0-r0": 1763377486
+        "0.82.0-r0": 1763377486,
+        "0.83.0-r0": 1779023573
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -272254,13 +272302,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:uncrustify=0.82.0-r0"
+        "cmd:uncrustify=0.83.0-r0"
       ]
     },
     "uncrustify-doc": {
       "origin": "uncrustify",
       "versions": {
-        "0.82.0-r0": 1763377486
+        "0.82.0-r0": 1763377486,
+        "0.83.0-r0": 1779023573
       }
     },
     "unfurl": {
@@ -282753,12 +282802,12 @@
     "xdg-desktop-portal-phosh": {
       "origin": "xdg-desktop-portal-phosh",
       "versions": {
-        "0.53.0-r0": 1771088298
+        "0.53.0-r0": 1771088298,
+        "0.55.0-r0": 1779021941
       },
       "dependencies": [
         "gsettings-desktop-schemas",
         "xdg-desktop-portal",
-        "so:libX11.so.6",
         "so:libadwaita-1.so.0",
         "so:libc.musl-x86.so.1",
         "so:libfontconfig.so.1",
@@ -282772,19 +282821,21 @@
         "so:libintl.so.8"
       ],
       "provides": [
-        "cmd:ptcli=0.53.0-r0"
+        "cmd:ptcli=0.55.0-r0"
       ]
     },
     "xdg-desktop-portal-phosh-doc": {
       "origin": "xdg-desktop-portal-phosh",
       "versions": {
-        "0.53.0-r0": 1771088298
+        "0.53.0-r0": 1771088298,
+        "0.55.0-r0": 1779021941
       }
     },
     "xdg-desktop-portal-phosh-systemd": {
       "origin": "xdg-desktop-portal-phosh",
       "versions": {
-        "0.53.0-r0": 1771088298
+        "0.53.0-r0": 1771088298,
+        "0.55.0-r0": 1779021941
       }
     },
     "xdg-desktop-portal-systemd": {
@@ -291137,6 +291188,18 @@
       "provides": [
         "cmd:batmon=0.2.0-r0"
       ]
+    },
+    "phoc-lang": {
+      "origin": "phoc",
+      "versions": {
+        "0.55.0-r0": 1779021940
+      }
+    },
+    "xdg-desktop-portal-phosh-lang": {
+      "origin": "xdg-desktop-portal-phosh",
+      "versions": {
+        "0.55.0-r0": 1779021941
+      }
     }
   },
   "provide": {
