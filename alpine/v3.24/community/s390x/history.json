@@ -28272,7 +28272,8 @@
     "conky": {
       "origin": "conky",
       "versions": {
-        "1.22.3-r0": 1772733707
+        "1.22.3-r0": 1772733707,
+        "1.23.0-r0": 1779042949
       },
       "dependencies": [
         "so:libImlib2.so.1",
@@ -28281,6 +28282,7 @@
         "so:libXext.so.6",
         "so:libXfixes.so.3",
         "so:libXft.so.2",
+        "so:libXi.so.6",
         "so:libXinerama.so.1",
         "so:libc.musl-s390x.so.1",
         "so:libcairo.so.2",
@@ -28299,13 +28301,14 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:conky=1.22.3-r0"
+        "cmd:conky=1.23.0-r0"
       ]
     },
     "conky-doc": {
       "origin": "conky",
       "versions": {
-        "1.22.3-r0": 1772733707
+        "1.22.3-r0": 1772733707,
+        "1.23.0-r0": 1779042949
       }
     },
     "conmon": {
@@ -140424,7 +140427,8 @@
     "nuspell": {
       "origin": "nuspell",
       "versions": {
-        "5.1.6-r3": 1768294069
+        "5.1.6-r3": 1768294069,
+        "5.1.7-r0": 1779042916
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -140434,33 +140438,36 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:nuspell=5.1.6-r3"
+        "cmd:nuspell=5.1.7-r0"
       ]
     },
     "nuspell-dev": {
       "origin": "nuspell",
       "versions": {
-        "5.1.6-r3": 1768294069
+        "5.1.6-r3": 1768294069,
+        "5.1.7-r0": 1779042916
       },
       "dependencies": [
-        "nuspell-libs=5.1.6-r3",
+        "nuspell-libs=5.1.7-r0",
         "pc:icu-uc",
         "pkgconfig"
       ],
       "provides": [
-        "pc:nuspell=5.1.6"
+        "pc:nuspell=5.1.7"
       ]
     },
     "nuspell-doc": {
       "origin": "nuspell",
       "versions": {
-        "5.1.6-r3": 1768294069
+        "5.1.6-r3": 1768294069,
+        "5.1.7-r0": 1779042916
       }
     },
     "nuspell-libs": {
       "origin": "nuspell",
       "versions": {
-        "5.1.6-r3": 1768294069
+        "5.1.6-r3": 1768294069,
+        "5.1.7-r0": 1779042916
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -140469,7 +140476,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libnuspell.so.5=5.1.6"
+        "so:libnuspell.so.5=5.1.7"
       ]
     },
     "nut": {
@@ -252988,7 +252995,8 @@
     "stevia": {
       "origin": "stevia",
       "versions": {
-        "0.54.0-r1": 1775979135
+        "0.54.0-r1": 1775979135,
+        "0.55.0-r0": 1779047322
       },
       "dependencies": [
         "hunspell-en-us",
@@ -253015,36 +253023,40 @@
       ],
       "provides": [
         "phosh-keyboard=0",
-        "phosh-osk-stub=0.54.0-r1",
-        "cmd:phosh-osk-stevia=0.54.0-r1"
+        "phosh-osk-stub=0.55.0-r0",
+        "cmd:phosh-osk-stevia=0.55.0-r0"
       ]
     },
     "stevia-dbg": {
       "origin": "stevia",
       "versions": {
-        "0.54.0-r1": 1775979135
+        "0.54.0-r1": 1775979135,
+        "0.55.0-r0": 1779047322
       },
       "dependencies": [
-        "!stevia<0.54.0-r1",
-        "!stevia>0.54.0-r1"
+        "!stevia<0.55.0-r0",
+        "!stevia>0.55.0-r0"
       ]
     },
     "stevia-doc": {
       "origin": "stevia",
       "versions": {
-        "0.54.0-r1": 1775979135
+        "0.54.0-r1": 1775979135,
+        "0.55.0-r0": 1779047322
       }
     },
     "stevia-lang": {
       "origin": "stevia",
       "versions": {
-        "0.54.0-r1": 1775979135
+        "0.54.0-r1": 1775979135,
+        "0.55.0-r0": 1779047322
       }
     },
     "stevia-systemd": {
       "origin": "stevia",
       "versions": {
-        "0.54.0-r1": 1775979135
+        "0.54.0-r1": 1775979135,
+        "0.55.0-r0": 1779047322
       }
     },
     "stfl": {
@@ -295491,7 +295503,7 @@
       },
       "libnuspell.so.5": {
         "package": "nuspell-libs",
-        "version": "5.1.6"
+        "version": "5.1.7"
       },
       "libnutclient.so.2": {
         "package": "nut",
@@ -304025,7 +304037,7 @@
       },
       "phosh-osk-stub": {
         "package": "stevia",
-        "version": "0.54.0-r1"
+        "version": "0.55.0-r0"
       },
       "sudo-virt": {
         "package": "sudo-rs",
