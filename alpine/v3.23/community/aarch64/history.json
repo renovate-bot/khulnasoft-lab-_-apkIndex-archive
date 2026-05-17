@@ -297632,7 +297632,8 @@
       "versions": {
         "4.6.0-r0": 1761984576,
         "4.6.1-r0": 1764097240,
-        "4.6.4-r0": 1777361433
+        "4.6.4-r0": 1777361433,
+        "4.6.5-r0": 1778966873
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -297645,7 +297646,7 @@
         "so:libwsutil.so.17"
       ],
       "provides": [
-        "cmd:tshark=4.6.4-r0"
+        "cmd:tshark=4.6.5-r0"
       ]
     },
     "tslib": {
@@ -306980,7 +306981,8 @@
       "versions": {
         "4.6.0-r0": 1761984576,
         "4.6.1-r0": 1764097240,
-        "4.6.4-r0": 1777361433
+        "4.6.4-r0": 1777361433,
+        "4.6.5-r0": 1778966873
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -307005,7 +307007,7 @@
         "so:libwsutil.so.17"
       ],
       "provides": [
-        "cmd:wireshark=4.6.4-r0"
+        "cmd:wireshark=4.6.5-r0"
       ]
     },
     "wireshark-common": {
@@ -307013,7 +307015,8 @@
       "versions": {
         "4.6.0-r0": 1761984576,
         "4.6.1-r0": 1764097240,
-        "4.6.4-r0": 1777361433
+        "4.6.4-r0": 1777361433,
+        "4.6.5-r0": 1778966873
       },
       "dependencies": [
         "/bin/sh",
@@ -307044,21 +307047,21 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:capinfos=4.6.4-r0",
-        "cmd:captype=4.6.4-r0",
-        "cmd:dftest=4.6.4-r0",
-        "cmd:dumpcap=4.6.4-r0",
-        "cmd:editcap=4.6.4-r0",
-        "cmd:idl2wrs=4.6.4-r0",
-        "cmd:mergecap=4.6.4-r0",
-        "cmd:mmdbresolve=4.6.4-r0",
-        "cmd:randpkt=4.6.4-r0",
-        "cmd:rawshark=4.6.4-r0",
-        "cmd:reordercap=4.6.4-r0",
-        "cmd:sharkd=4.6.4-r0",
-        "cmd:text2pcap=4.6.4-r0",
-        "so:libwireshark.so.19=19.0.4",
-        "so:libwiretap.so.16=16.0.4",
+        "cmd:capinfos=4.6.5-r0",
+        "cmd:captype=4.6.5-r0",
+        "cmd:dftest=4.6.5-r0",
+        "cmd:dumpcap=4.6.5-r0",
+        "cmd:editcap=4.6.5-r0",
+        "cmd:idl2wrs=4.6.5-r0",
+        "cmd:mergecap=4.6.5-r0",
+        "cmd:mmdbresolve=4.6.5-r0",
+        "cmd:randpkt=4.6.5-r0",
+        "cmd:rawshark=4.6.5-r0",
+        "cmd:reordercap=4.6.5-r0",
+        "cmd:sharkd=4.6.5-r0",
+        "cmd:text2pcap=4.6.5-r0",
+        "so:libwireshark.so.19=19.0.5",
+        "so:libwiretap.so.16=16.0.5",
         "so:libwsutil.so.17=17.0.0"
       ]
     },
@@ -307067,17 +307070,18 @@
       "versions": {
         "4.6.0-r0": 1761984576,
         "4.6.1-r0": 1764097240,
-        "4.6.4-r0": 1777361433
+        "4.6.4-r0": 1777361433,
+        "4.6.5-r0": 1778966873
       },
       "dependencies": [
-        "wireshark-common=4.6.4-r0",
+        "wireshark-common=4.6.5-r0",
         "pc:glib-2.0",
         "pc:gmodule-2.0",
         "pc:gthread-2.0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:wireshark=4.6.4"
+        "pc:wireshark=4.6.5"
       ]
     },
     "wireshark-doc": {
@@ -307085,7 +307089,8 @@
       "versions": {
         "4.6.0-r0": 1761984576,
         "4.6.1-r0": 1764097240,
-        "4.6.4-r0": 1777361433
+        "4.6.4-r0": 1777361433,
+        "4.6.5-r0": 1778966873
       }
     },
     "wiringpi": {
@@ -344914,11 +344919,11 @@
       },
       "libwireshark.so.19": {
         "package": "wireshark-common",
-        "version": "19.0.4"
+        "version": "19.0.5"
       },
       "libwiretap.so.16": {
         "package": "wireshark-common",
-        "version": "16.0.4"
+        "version": "16.0.5"
       },
       "libwsutil.so.17": {
         "package": "wireshark-common",
