@@ -69081,6 +69081,37 @@ c:f87e741abde1e23e557faab44c0a444364ed9e5a
 D:binutils gcc musl-dev
 p:go-bootstrap=1.26.3-r0 cmd:go=1.26.3-r0 cmd:gofmt=1.26.3-r0
 
+C:Q102KCEKFcbljAbaCui1budU7XUnw=
+P:go-away
+V:0.7.0-r2
+A:x86
+S:8978751
+I:23751896
+T:Self-hosted abuse detection and rule enforcement against low-effort mass AI scraping and bots
+U:https://git.gammaspectra.live/git/go-away
+L:MIT
+o:go-away
+m:Ferass El Hafidi <funderscore@postmarketos.org>
+t:1779032588
+c:e2655845f9fca24690eebe4ce3ba801d68613010
+D:/bin/sh so:libc.musl-x86.so.1
+p:cmd:go-away=0.7.0-r2
+
+C:Q1198ZCNbGXNtGSBrQo9ttRURj3Mw=
+P:go-away-openrc
+V:0.7.0-r2
+A:x86
+S:2321
+I:1165
+T:Self-hosted abuse detection and rule enforcement against low-effort mass AI scraping and bots (OpenRC init scripts)
+U:https://git.gammaspectra.live/git/go-away
+L:MIT
+o:go-away
+m:Ferass El Hafidi <funderscore@postmarketos.org>
+t:1779032588
+c:e2655845f9fca24690eebe4ce3ba801d68613010
+i:openrc go-away=0.7.0-r2
+
 C:Q1JPpMlGmsodI2666uLqUlR33Dhg0=
 P:go-bindata
 V:3.1.3-r44
@@ -133942,51 +133973,51 @@ c:a9e2a2dc46f377eb25884f7fea9834492de7f518
 k:20
 i:docs links-graphics=2.30-r1
 
-C:Q19C7xMRzzz+3m+VO23r8zU4L8+R4=
+C:Q1EvvB0CyszPbBsiO5l4kAhZ2FzdU=
 P:linux-stable
-V:7.0.8-r0
+V:7.0.9-r0
 A:x86
-S:103331499
-I:110678932
+S:103323776
+I:110675097
 T:Linux stable kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-stable
 m:Achill Gilgenast <achill@achill.org>
-t:1778930167
-c:8bbcb552623e914e8081d3667ebc79e83ae5d121
+t:1779033522
+c:7cd2728a6edb0dab355a9f3e74d8fce477aa6130
 D:initramfs-generator linux-firmware-any
-p:linux-edge=7.0.8-r0
+p:linux-edge=7.0.9-r0
 
-C:Q11kUNc23HkBe4ckP06JFEsmqqeR8=
+C:Q1+ZEWgOjgD3ItN1GTE6mb28B+Kyc=
 P:linux-stable-dev
-V:7.0.8-r0
+V:7.0.9-r0
 A:x86
-S:21576625
-I:81990960
+S:21576518
+I:81990944
 T:Headers and script for third party modules for stable kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-stable
 m:Achill Gilgenast <achill@achill.org>
-t:1778930167
-c:8bbcb552623e914e8081d3667ebc79e83ae5d121
+t:1779033522
+c:7cd2728a6edb0dab355a9f3e74d8fce477aa6130
 D:perl gmp-dev mpc1-dev mpfr-dev elfutils-dev bash flex bison zstd so:libc.musl-x86.so.1 so:libcrypto.so.3 so:libelf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1
 
-C:Q1rxn8QqrXJOT4GewcXGUwbnStwd0=
+C:Q1m7WultgLyaQocEzqvuvkDh/Epzo=
 P:linux-stable-doc
-V:7.0.8-r0
+V:7.0.9-r0
 A:x86
-S:15187784
-I:55701419
+S:15187887
+I:55701482
 T:Linux stable kernel (documentation)
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-stable
 m:Achill Gilgenast <achill@achill.org>
-t:1778930167
-c:8bbcb552623e914e8081d3667ebc79e83ae5d121
-i:docs linux-stable=7.0.8-r0
+t:1779033522
+c:7cd2728a6edb0dab355a9f3e74d8fce477aa6130
+i:docs linux-stable=7.0.9-r0
 
 C:Q1SyFV/HsiLRVf1r466p5YmyeALmQ=
 P:linuxconsoletools
@@ -322195,36 +322226,36 @@ t:1772105549
 c:8407d93530b15c30b7b76aee5e0bbf34a91041d1
 D:akms
 
-C:Q1eGANskYo1POZYt31cfTomi2QMtc=
+C:Q1dAxsot6Cr/3Ry5/NAseaEOO3YiE=
 P:zfs-stable
-V:7.0.8-r0
+V:7.0.9-r0
 A:x86
-S:30802594
-I:31086061
+S:30807045
+I:31094021
 T:ZFS Linux kernel modules
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-stable
 m:Achill Gilgenast <achill@achill.org>
-t:1778930167
-c:cc05d7024ebaae684fa15328a9ac24318e116946
-D:linux-stable=7.0.8-r0
-i:zfs linux-stable=7.0.8-r0
+t:1779033522
+c:c9841ebb4d7e95b9992e671e5293c4a7cd730497
+D:linux-stable=7.0.9-r0
+i:zfs linux-stable=7.0.9-r0
 
-C:Q1WvTXV4Hf8MVxREyUES4XNUKqPmg=
+C:Q1yEBGf3Wd4lQdTXPw+yR2X1GsLD4=
 P:zfs-stable-dev
-V:7.0.8-r0
+V:7.0.9-r0
 A:x86
-S:481819
+S:481837
 I:3059279
 T:ZFS Linux kernel modules (development files)
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-stable
 m:Achill Gilgenast <achill@achill.org>
-t:1778930167
-c:cc05d7024ebaae684fa15328a9ac24318e116946
-D:glib-dev e2fsprogs-dev util-linux-dev libtirpc-dev linux-stable-dev=7.0.8-r0
+t:1779033522
+c:c9841ebb4d7e95b9992e671e5293c4a7cd730497
+D:glib-dev e2fsprogs-dev util-linux-dev libtirpc-dev linux-stable-dev=7.0.9-r0
 
 C:Q1hRi1zGe3OXQWp9vRICFWJY0WZzM=
 P:zigbee2mqtt

@@ -123712,14 +123712,15 @@
       "versions": {
         "7.0.6-r0": 1778490241,
         "7.0.7-r0": 1778766697,
-        "7.0.8-r0": 1778930167
+        "7.0.8-r0": 1778930167,
+        "7.0.9-r0": 1779033522
       },
       "dependencies": [
         "initramfs-generator",
         "linux-firmware-any"
       ],
       "provides": [
-        "linux-edge=7.0.8-r0"
+        "linux-edge=7.0.9-r0"
       ]
     },
     "linux-stable-dev": {
@@ -123727,7 +123728,8 @@
       "versions": {
         "7.0.6-r0": 1778490241,
         "7.0.7-r0": 1778766697,
-        "7.0.8-r0": 1778930167
+        "7.0.8-r0": 1778930167,
+        "7.0.9-r0": 1779033522
       },
       "dependencies": [
         "perl",
@@ -123752,7 +123754,8 @@
       "versions": {
         "7.0.6-r0": 1778490241,
         "7.0.7-r0": 1778766697,
-        "7.0.8-r0": 1778930167
+        "7.0.8-r0": 1778930167,
+        "7.0.9-r0": 1779033522
       }
     },
     "linuxconsoletools": {
@@ -290048,10 +290051,11 @@
       "versions": {
         "7.0.6-r0": 1778490241,
         "7.0.7-r0": 1778766708,
-        "7.0.8-r0": 1778930167
+        "7.0.8-r0": 1778930167,
+        "7.0.9-r0": 1779033522
       },
       "dependencies": [
-        "linux-stable=7.0.8-r0"
+        "linux-stable=7.0.9-r0"
       ]
     },
     "zfs-stable-dev": {
@@ -290059,14 +290063,15 @@
       "versions": {
         "7.0.6-r0": 1778490241,
         "7.0.7-r0": 1778766708,
-        "7.0.8-r0": 1778930167
+        "7.0.8-r0": 1778930167,
+        "7.0.9-r0": 1779033522
       },
       "dependencies": [
         "glib-dev",
         "e2fsprogs-dev",
         "util-linux-dev",
         "libtirpc-dev",
-        "linux-stable-dev=7.0.8-r0"
+        "linux-stable-dev=7.0.9-r0"
       ]
     },
     "zigbee2mqtt": {
@@ -291199,6 +291204,25 @@
       "origin": "xdg-desktop-portal-phosh",
       "versions": {
         "0.55.0-r0": 1779021941
+      }
+    },
+    "go-away": {
+      "origin": "go-away",
+      "versions": {
+        "0.7.0-r2": 1779032588
+      },
+      "dependencies": [
+        "/bin/sh",
+        "so:libc.musl-x86.so.1"
+      ],
+      "provides": [
+        "cmd:go-away=0.7.0-r2"
+      ]
+    },
+    "go-away-openrc": {
+      "origin": "go-away",
+      "versions": {
+        "0.7.0-r2": 1779032588
       }
     }
   },
@@ -313360,7 +313384,7 @@
       },
       "linux-edge": {
         "package": "linux-stable",
-        "version": "7.0.8-r0"
+        "version": "7.0.9-r0"
       },
       "lit": {
         "package": "llvm16-test-utils",
