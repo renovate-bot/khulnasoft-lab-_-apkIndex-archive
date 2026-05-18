@@ -49394,7 +49394,8 @@
     "fwupd": {
       "origin": "fwupd",
       "versions": {
-        "2.0.20-r3": 1775154726
+        "2.0.20-r3": 1775154726,
+        "2.0.20-r4": 1779090203
       },
       "dependencies": [
         "dbus",
@@ -49428,8 +49429,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:fwupdmgr=2.0.20-r3",
-        "cmd:fwupdtool=2.0.20-r3",
+        "cmd:fwupdmgr=2.0.20-r4",
+        "cmd:fwupdtool=2.0.20-r4",
         "so:libfu_plugin_flashrom.so=0",
         "so:libfu_plugin_modem_manager.so=0",
         "so:libfwupd.so.3=3.0.0",
@@ -49441,22 +49442,24 @@
     "fwupd-dbg": {
       "origin": "fwupd",
       "versions": {
-        "2.0.20-r3": 1775154726
+        "2.0.20-r3": 1775154726,
+        "2.0.20-r4": 1779090203
       },
       "dependencies": [
-        "!fwupd-tests<2.0.20-r3",
-        "!fwupd-tests>2.0.20-r3",
-        "!fwupd<2.0.20-r3",
-        "!fwupd>2.0.20-r3"
+        "!fwupd-tests<2.0.20-r4",
+        "!fwupd-tests>2.0.20-r4",
+        "!fwupd<2.0.20-r4",
+        "!fwupd>2.0.20-r4"
       ]
     },
     "fwupd-dev": {
       "origin": "fwupd",
       "versions": {
-        "2.0.20-r3": 1775154726
+        "2.0.20-r3": 1775154726,
+        "2.0.20-r4": 1779090203
       },
       "dependencies": [
-        "fwupd=2.0.20-r3",
+        "fwupd=2.0.20-r4",
         "pc:gio-2.0",
         "pc:gio-unix-2.0>=2.68.0",
         "pc:jcat>=0.2.0",
@@ -49471,37 +49474,43 @@
     "fwupd-doc": {
       "origin": "fwupd",
       "versions": {
-        "2.0.20-r3": 1775154726
+        "2.0.20-r3": 1775154726,
+        "2.0.20-r4": 1779090203
       }
     },
     "fwupd-fish-completion": {
       "origin": "fwupd",
       "versions": {
-        "2.0.20-r3": 1775154726
+        "2.0.20-r3": 1775154726,
+        "2.0.20-r4": 1779090203
       }
     },
     "fwupd-lang": {
       "origin": "fwupd",
       "versions": {
-        "2.0.20-r3": 1775154726
+        "2.0.20-r3": 1775154726,
+        "2.0.20-r4": 1779090203
       }
     },
     "fwupd-openrc": {
       "origin": "fwupd",
       "versions": {
-        "2.0.20-r3": 1775154726
+        "2.0.20-r3": 1775154726,
+        "2.0.20-r4": 1779090203
       }
     },
     "fwupd-polkit": {
       "origin": "fwupd",
       "versions": {
-        "2.0.20-r3": 1775154726
+        "2.0.20-r3": 1775154726,
+        "2.0.20-r4": 1779090203
       }
     },
     "fwupd-tests": {
       "origin": "fwupd",
       "versions": {
-        "2.0.20-r3": 1775154726
+        "2.0.20-r3": 1775154726,
+        "2.0.20-r4": 1779090203
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -162859,38 +162868,41 @@
     "openjdk8": {
       "origin": "openjdk8",
       "versions": {
-        "8.472.08-r1": 1769818187
+        "8.472.08-r1": 1769818187,
+        "8.482.08-r0": 1779093089
       },
       "dependencies": [
-        "openjdk8-jdk=8.472.08-r1"
+        "openjdk8-jdk=8.482.08-r0"
       ],
       "provides": [
-        "openjdk8-bootstrap=8.472.08-r1"
+        "openjdk8-bootstrap=8.482.08-r0"
       ]
     },
     "openjdk8-dbg": {
       "origin": "openjdk8",
       "versions": {
-        "8.472.08-r1": 1769818187
+        "8.472.08-r1": 1769818187,
+        "8.482.08-r0": 1779093089
       },
       "dependencies": [
-        "!openjdk8-demos<8.472.08-r1",
-        "!openjdk8-demos>8.472.08-r1",
-        "!openjdk8-jdk<8.472.08-r1",
-        "!openjdk8-jdk>8.472.08-r1",
-        "!openjdk8-jre-base<8.472.08-r1",
-        "!openjdk8-jre-base>8.472.08-r1",
-        "!openjdk8-jre<8.472.08-r1",
-        "!openjdk8-jre>8.472.08-r1"
+        "!openjdk8-demos<8.482.08-r0",
+        "!openjdk8-demos>8.482.08-r0",
+        "!openjdk8-jdk<8.482.08-r0",
+        "!openjdk8-jdk>8.482.08-r0",
+        "!openjdk8-jre-base<8.482.08-r0",
+        "!openjdk8-jre-base>8.482.08-r0",
+        "!openjdk8-jre<8.482.08-r0",
+        "!openjdk8-jre>8.482.08-r0"
       ]
     },
     "openjdk8-demos": {
       "origin": "openjdk8",
       "versions": {
-        "8.472.08-r1": 1769818187
+        "8.472.08-r1": 1769818187,
+        "8.482.08-r0": 1779093089
       },
       "dependencies": [
-        "openjdk8-jdk=8.472.08-r1",
+        "openjdk8-jdk=8.482.08-r0",
         "so:libc.musl-s390x.so.1",
         "so:libgcc_s.so.1",
         "so:libstdc++.so.6"
@@ -162899,16 +162911,18 @@
     "openjdk8-doc": {
       "origin": "openjdk8",
       "versions": {
-        "8.472.08-r1": 1769818187
+        "8.472.08-r1": 1769818187,
+        "8.482.08-r0": 1779093089
       }
     },
     "openjdk8-jdk": {
       "origin": "openjdk8",
       "versions": {
-        "8.472.08-r1": 1769818187
+        "8.472.08-r1": 1769818187,
+        "8.482.08-r0": 1779093089
       },
       "dependencies": [
-        "openjdk8-jre=8.472.08-r1",
+        "openjdk8-jre=8.482.08-r0",
         "nss",
         "java-cacerts",
         "so:libc.musl-s390x.so.1",
@@ -162922,7 +162936,8 @@
     "openjdk8-jre": {
       "origin": "openjdk8",
       "versions": {
-        "8.472.08-r1": 1769818187
+        "8.472.08-r1": 1769818187,
+        "8.482.08-r0": 1779093089
       },
       "dependencies": [
         "font-dejavu",
@@ -162956,10 +162971,11 @@
     "openjdk8-jre-base": {
       "origin": "openjdk8",
       "versions": {
-        "8.472.08-r1": 1769818187
+        "8.472.08-r1": 1769818187,
+        "8.482.08-r0": 1779093089
       },
       "dependencies": [
-        "openjdk8-jre-lib=8.472.08-r1",
+        "openjdk8-jre-lib=8.482.08-r0",
         "java-common",
         "java-cacerts",
         "nss",
@@ -163011,7 +163027,8 @@
     "openjdk8-jre-lib": {
       "origin": "openjdk8",
       "versions": {
-        "8.472.08-r1": 1769818187
+        "8.472.08-r1": 1769818187,
+        "8.482.08-r0": 1779093089
       }
     },
     "openmp": {
@@ -302204,7 +302221,7 @@
       },
       "openjdk8-bootstrap": {
         "package": "openjdk8",
-        "version": "8.472.08-r1"
+        "version": "8.482.08-r0"
       },
       "openocd-virtual": {
         "package": "openocd",
