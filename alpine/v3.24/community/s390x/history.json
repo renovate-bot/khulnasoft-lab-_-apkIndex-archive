@@ -31588,12 +31588,14 @@
     "ddcutil": {
       "origin": "ddcutil",
       "versions": {
-        "2.2.6-r1": 1777233304
+        "2.2.6-r1": 1777233304,
+        "2.2.7-r0": 1779125001
       },
       "dependencies": [
         "so:libX11.so.6",
         "so:libXext.so.6",
         "so:libXrandr.so.2",
+        "so:libacl.so.1",
         "so:libc.musl-s390x.so.1",
         "so:libdrm.so.2",
         "so:libglib-2.0.so.0",
@@ -31602,33 +31604,36 @@
         "so:libusb-1.0.so.0"
       ],
       "provides": [
-        "cmd:ddcutil=2.2.6-r1",
-        "so:libddcutil.so.5=5.5.0"
+        "cmd:ddcutil=2.2.7-r0",
+        "so:libddcutil.so.5=5.5.1"
       ]
     },
     "ddcutil-dev": {
       "origin": "ddcutil",
       "versions": {
-        "2.2.6-r1": 1777233304
+        "2.2.6-r1": 1777233304,
+        "2.2.7-r0": 1779125001
       },
       "dependencies": [
-        "ddcutil=2.2.6-r1",
+        "ddcutil=2.2.7-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:ddcutil=2.2.6"
+        "pc:ddcutil=2.2.7"
       ]
     },
     "ddcutil-doc": {
       "origin": "ddcutil",
       "versions": {
-        "2.2.6-r1": 1777233304
+        "2.2.6-r1": 1777233304,
+        "2.2.7-r0": 1779125001
       }
     },
     "ddcutil-udev": {
       "origin": "ddcutil",
       "versions": {
-        "2.2.6-r1": 1777233304
+        "2.2.6-r1": 1777233304,
+        "2.2.7-r0": 1779125001
       }
     },
     "ddnrs": {
@@ -135278,32 +135283,35 @@
     "neatvi": {
       "origin": "neatvi",
       "versions": {
-        "18-r1": 1773164851
+        "18-r1": 1773164851,
+        "19-r0": 1779124881
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:neatvi=18-r1"
+        "cmd:neatvi=19-r0"
       ]
     },
     "neatvi-doc": {
       "origin": "neatvi",
       "versions": {
-        "18-r1": 1773164851
+        "18-r1": 1773164851,
+        "19-r0": 1779124881
       }
     },
     "neatvi-vi": {
       "origin": "neatvi",
       "versions": {
-        "18-r1": 1773164851
+        "18-r1": 1773164851,
+        "19-r0": 1779124881
       },
       "dependencies": [
-        "neatvi=18-r1",
-        "neatvi=18-r1"
+        "neatvi=19-r0",
+        "neatvi=19-r0"
       ],
       "provides": [
-        "cmd:vi=18-r1"
+        "cmd:vi=19-r0"
       ]
     },
     "neatvnc": {
@@ -187762,7 +187770,8 @@
     "plasma-wayland-protocols": {
       "origin": "plasma-wayland-protocols",
       "versions": {
-        "1.20.0-r0": 1768416773
+        "1.20.0-r0": 1768416773,
+        "1.21.0-r0": 1779121448
       }
     },
     "plasma-workspace": {
@@ -197753,7 +197762,8 @@
     "py3-cliff": {
       "origin": "py3-cliff",
       "versions": {
-        "4.13.3-r0": 1775742432
+        "4.13.3-r0": 1775742432,
+        "4.14.0-r0": 1779121497
       },
       "dependencies": [
         "py3-importlib-metadata",
@@ -197762,13 +197772,14 @@
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:cliff=4.13.3-r0"
+        "py3.14:cliff=4.14.0-r0"
       ]
     },
     "py3-cliff-pyc": {
       "origin": "py3-cliff",
       "versions": {
-        "4.13.3-r0": 1775742432
+        "4.13.3-r0": 1775742432,
+        "4.14.0-r0": 1779121497
       },
       "dependencies": [
         "python3~3.14"
@@ -206895,7 +206906,8 @@
     "py3-jaraco.functools": {
       "origin": "py3-jaraco.functools",
       "versions": {
-        "4.4.0-r1": 1774640357
+        "4.4.0-r1": 1774640357,
+        "4.5.0-r0": 1779121408
       },
       "dependencies": [
         "py3-jaraco.classes",
@@ -206904,13 +206916,14 @@
         "python3~3.14"
       ],
       "provides": [
-        "py3-jaraco-functools=4.4.0-r1"
+        "py3-jaraco-functools=4.5.0-r0"
       ]
     },
     "py3-jaraco.functools-pyc": {
       "origin": "py3-jaraco.functools",
       "versions": {
-        "4.4.0-r1": 1774640357
+        "4.4.0-r1": 1774640357,
+        "4.5.0-r0": 1779121408
       },
       "dependencies": [
         "python3~3.14"
@@ -285773,7 +285786,7 @@
       },
       "libddcutil.so.5": {
         "package": "ddcutil",
-        "version": "5.5.0"
+        "version": "5.5.1"
       },
       "libdeja.so": {
         "package": "deja-dup",
@@ -303359,7 +303372,7 @@
       },
       "py3-jaraco-functools": {
         "package": "py3-jaraco.functools",
-        "version": "4.4.0-r1"
+        "version": "4.5.0-r0"
       },
       "py3-jaraco-itertools": {
         "package": "py3-jaraco.itertools",

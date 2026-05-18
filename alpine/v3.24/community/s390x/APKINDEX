@@ -36004,67 +36004,67 @@ t:1769946369
 c:e305aeff557e41445327c16d9ca98fe5735fe3c4
 i:openrc ddclient=4.0.0-r2
 
-C:Q1J30PNAVsHyJSddsogtfSrSIXN+8=
+C:Q17MB2n52+n/Mz4/RJeTWL6d8y1q4=
 P:ddcutil
-V:2.2.6-r1
+V:2.2.7-r0
 A:s390x
-S:1041530
-I:2675092
+S:1061656
+I:2716193
 T:Query and change Linux monitor settings using DDC/CI and USB
 U:https://github.com/rockowitz/ddcutil
 L:GPL-2.0-only
 o:ddcutil
 m:Bart Ribbers <bribbers@disroot.org>
-t:1777233304
-c:88e3d461c1eaba2425107e3b0b455305dcdbecc2
-D:so:libX11.so.6 so:libXext.so.6 so:libXrandr.so.2 so:libc.musl-s390x.so.1 so:libdrm.so.2 so:libglib-2.0.so.0 so:libjansson.so.4 so:libudev.so.1 so:libusb-1.0.so.0
-p:cmd:ddcutil=2.2.6-r1 so:libddcutil.so.5=5.5.0
+t:1779125001
+c:29f7ee6092a979f4a658894d1492e5fc1d767198
+D:so:libX11.so.6 so:libXext.so.6 so:libXrandr.so.2 so:libacl.so.1 so:libc.musl-s390x.so.1 so:libdrm.so.2 so:libglib-2.0.so.0 so:libjansson.so.4 so:libudev.so.1 so:libusb-1.0.so.0
+p:cmd:ddcutil=2.2.7-r0 so:libddcutil.so.5=5.5.1
 
-C:Q1NsH4+jBNc528/5o0sbltxkJKnKE=
+C:Q1s/5y7EvhtMdofKnjXZRdl0T8ACM=
 P:ddcutil-dev
-V:2.2.6-r1
+V:2.2.7-r0
 A:s390x
-S:24139
-I:90416
+S:24108
+I:90361
 T:Query and change Linux monitor settings using DDC/CI and USB (development files)
 U:https://github.com/rockowitz/ddcutil
 L:GPL-2.0-only
 o:ddcutil
 m:Bart Ribbers <bribbers@disroot.org>
-t:1777233304
-c:88e3d461c1eaba2425107e3b0b455305dcdbecc2
-D:ddcutil=2.2.6-r1 pkgconfig
-p:pc:ddcutil=2.2.6
+t:1779125001
+c:29f7ee6092a979f4a658894d1492e5fc1d767198
+D:ddcutil=2.2.7-r0 pkgconfig
+p:pc:ddcutil=2.2.7
 
-C:Q15mKOtyx5OuPH3X3FxsddtSqrRyw=
+C:Q1jYx3TOCYcuHRVOOC4NWuwVsF2C0=
 P:ddcutil-doc
-V:2.2.6-r1
+V:2.2.7-r0
 A:s390x
-S:8390
-I:6580
+S:8395
+I:6579
 T:Query and change Linux monitor settings using DDC/CI and USB (documentation)
 U:https://github.com/rockowitz/ddcutil
 L:GPL-2.0-only
 o:ddcutil
 m:Bart Ribbers <bribbers@disroot.org>
-t:1777233304
-c:88e3d461c1eaba2425107e3b0b455305dcdbecc2
-i:docs ddcutil=2.2.6-r1
+t:1779125001
+c:29f7ee6092a979f4a658894d1492e5fc1d767198
+i:docs ddcutil=2.2.7-r0
 
-C:Q1v81V8bQBaR1luEcimrhI3l71a3M=
+C:Q1yJTgIcNP596Pt18UsefksqIlRoM=
 P:ddcutil-udev
-V:2.2.6-r1
+V:2.2.7-r0
 A:s390x
-S:1754
-I:136
+S:1851
+I:320
 T:Query and change Linux monitor settings using DDC/CI and USB (udev rules)
 U:https://github.com/rockowitz/ddcutil
 L:GPL-2.0-only
 o:ddcutil
 m:Bart Ribbers <bribbers@disroot.org>
-t:1777233304
-c:88e3d461c1eaba2425107e3b0b455305dcdbecc2
-i:udev ddcutil=2.2.6-r1
+t:1779125001
+c:29f7ee6092a979f4a658894d1492e5fc1d767198
+i:udev ddcutil=2.2.7-r0
 
 C:Q1VuPniqXU3+zQHxVNo9dyuOAsJeI=
 P:ddnrs
@@ -148276,52 +148276,52 @@ c:0a96d24b16d66af7d36e0c91969a634a717ed8bf
 D:so:libc.musl-s390x.so.1 so:libkmod.so.2 so:libudev.so.1 so:libuuid.so.1
 p:so:libcxl.so.1=1.0.7 so:libdaxctl.so.1=1.0.6 so:libndctl.so.6=6.4.21
 
-C:Q1VEZmfeB9rJVXvsCrQ92RB+mKhAk=
+C:Q1/8860gpTWxx2nwTCqqfdO9zy91Q=
 P:neatvi
-V:18-r1
+V:19-r0
 A:s390x
-S:75364
-I:179953
+S:76881
+I:184059
 T:Small vi/ex editor for editing UTF-8 text
 U:https://github.com/aligrudi/neatvi
 L:ISC
 o:neatvi
 m:mio <miyopan@e.email>
-t:1773164851
-c:e5b679a5ed5a6b55735b8a7c8c9bb4a9181c3f46
+t:1779124881
+c:92d9a7619393be408862a1e961fe681eda44eb17
 D:so:libc.musl-s390x.so.1
-p:cmd:neatvi=18-r1
+p:cmd:neatvi=19-r0
 
-C:Q1sU15uOpUMxqZ9al6IDZY+wf8wjA=
+C:Q1n7bSVbkpRgm5SEZJWW1Y6eUFnL4=
 P:neatvi-doc
-V:18-r1
+V:19-r0
 A:s390x
-S:6231
-I:11591
+S:6280
+I:11747
 T:Small vi/ex editor for editing UTF-8 text (documentation)
 U:https://github.com/aligrudi/neatvi
 L:ISC
 o:neatvi
 m:mio <miyopan@e.email>
-t:1773164851
-c:e5b679a5ed5a6b55735b8a7c8c9bb4a9181c3f46
-i:docs neatvi=18-r1
+t:1779124881
+c:92d9a7619393be408862a1e961fe681eda44eb17
+i:docs neatvi=19-r0
 
-C:Q1PQBlOQVU6cqrWAODZtqC5RP4wQY=
+C:Q1O/gDQtAvesxYXODbUsyP9BcxS4I=
 P:neatvi-vi
-V:18-r1
+V:19-r0
 A:s390x
-S:1545
+S:1537
 I:1
 T:neatvi vi provider
 U:https://github.com/aligrudi/neatvi
 L:ISC
 o:neatvi
 m:mio <miyopan@e.email>
-t:1773164851
-c:e5b679a5ed5a6b55735b8a7c8c9bb4a9181c3f46
-D:neatvi=18-r1 neatvi=18-r1
-p:cmd:vi=18-r1
+t:1779124881
+c:92d9a7619393be408862a1e961fe681eda44eb17
+D:neatvi=19-r0 neatvi=19-r0
+p:cmd:vi=19-r0
 
 C:Q13JuT0kTDOMsM/rvP6/qLQPXxRlQ=
 P:neatvnc
@@ -197743,19 +197743,19 @@ t:1778857556
 c:c813d8b2e7a434ba72e705ac80a234f625d8b569
 i:plasma-vault=6.6.5-r0 lang
 
-C:Q1l2Y/2Y0+S08FO8YVVJtuDwl1uZU=
+C:Q1nYilTm0pfON3/qqmFldm3RqSbgA=
 P:plasma-wayland-protocols
-V:1.20.0-r0
+V:1.21.0-r0
 A:s390x
-S:47885
-I:222989
+S:49271
+I:231167
 T:Plasma Specific Protocols for Wayland
 U:https://www.kde.org/plasma-desktop/
 L:GPL-2.0-or-later AND (GPL-2.0-only OR GPL-3.0-only) AND LGPL-2.1-only
 o:plasma-wayland-protocols
 m:team/kde <bribbers@disroot.org>
-t:1768416773
-c:42d71454367a459d9637aa80e54e8f3a91cee263
+t:1779121448
+c:a0a0db4bd805a6978749e2e33bd07fc9636bbd28
 
 C:Q1Z/lxHhLCioAom8GeS8KKlJ58U8w=
 P:plasma-workspace
@@ -210139,37 +210139,37 @@ c:2af4371c85009c9c895fd6f6e9e48a748c26c3c8
 D:python3~3.14
 i:py3-click-repl=0.3.0-r6 pyc
 
-C:Q12qOd463FyZDOmtxdMD/mvTAmqw8=
+C:Q1QcMRufrg0XcwrRUjWnJ577EwUz8=
 P:py3-cliff
-V:4.13.3-r0
+V:4.14.0-r0
 A:s390x
-S:61898
-I:289329
+S:62218
+I:290079
 T:Command Line Interface Formulation Framework
 U:https://docs.openstack.org/cliff/latest/
 L:Apache-2.0
 o:py3-cliff
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775742432
-c:dd87fe8f4bb889993faf789c7b530701e5a5f6bd
+t:1779121497
+c:257ffa7e711a3395562a2aca0a3b63a6e2e5e582
 D:py3-importlib-metadata py3-stevedore py3-yaml python3~3.14
-p:py3.14:cliff=4.13.3-r0
+p:py3.14:cliff=4.14.0-r0
 
-C:Q1op8fZ62gBKHWt/AkdKsoVNAqg5Y=
+C:Q1utYGC1LoAfAjCpghAOrCD63kSfQ=
 P:py3-cliff-pyc
-V:4.13.3-r0
+V:4.14.0-r0
 A:s390x
-S:128316
-I:395978
+S:129019
+I:392821
 T:Precompiled Python bytecode for py3-cliff
 U:https://docs.openstack.org/cliff/latest/
 L:Apache-2.0
 o:py3-cliff
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775742432
-c:dd87fe8f4bb889993faf789c7b530701e5a5f6bd
+t:1779121497
+c:257ffa7e711a3395562a2aca0a3b63a6e2e5e582
 D:python3~3.14
-i:py3-cliff=4.13.3-r0 pyc
+i:py3-cliff=4.14.0-r0 pyc
 
 C:Q1qLqC8owJclLscz6yiE8aCJoJUSY=
 P:py3-cligj
@@ -222205,37 +222205,37 @@ c:5464060409de8696f19b02a647e9dff23ea73c04
 D:python3~3.14
 i:py3-jaraco.envs=2.6.0-r2 pyc
 
-C:Q1P506pNpWuQxfshZb/IUKGQpPOp8=
+C:Q16JAXSY9D3+dstWDu4sDqDHnfGxA=
 P:py3-jaraco.functools
-V:4.4.0-r1
+V:4.5.0-r0
 A:s390x
-S:11459
-I:27330
+S:11557
+I:27830
 T:Functools like those found in stdlib
 U:https://github.com/jaraco/jaraco.functools
 L:MIT
 o:py3-jaraco.functools
 m:Bart Ribbers <bribbers@disroot.org>
-t:1774640357
-c:de6e870a4bbd5ed1d8211a8b75f29af0f07b17a2
+t:1779121408
+c:8dd1d51b1750ea3eaf533d0c2efeac8850a1ba14
 D:py3-jaraco.classes py3-more-itertools python3 python3~3.14
-p:py3-jaraco-functools=4.4.0-r1
+p:py3-jaraco-functools=4.5.0-r0
 
-C:Q18gp8sCHbnogjZQjL8AIRxSnASzM=
+C:Q1VKPHKr7E9MOBTspS3Suw82waFEA=
 P:py3-jaraco.functools-pyc
-V:4.4.0-r1
+V:4.5.0-r0
 A:s390x
-S:12630
-I:24899
+S:12900
+I:25738
 T:Precompiled Python bytecode for py3-jaraco.functools
 U:https://github.com/jaraco/jaraco.functools
 L:MIT
 o:py3-jaraco.functools
 m:Bart Ribbers <bribbers@disroot.org>
-t:1774640357
-c:de6e870a4bbd5ed1d8211a8b75f29af0f07b17a2
+t:1779121408
+c:8dd1d51b1750ea3eaf533d0c2efeac8850a1ba14
 D:python3~3.14
-i:py3-jaraco.functools=4.4.0-r1 pyc
+i:py3-jaraco.functools=4.5.0-r0 pyc
 
 C:Q1lnHaGY7BklcafHJge9CcXHT3erM=
 P:py3-jaraco.itertools
