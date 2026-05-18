@@ -4289,7 +4289,8 @@
     "apprise": {
       "origin": "apprise",
       "versions": {
-        "1.9.8-r1": 1776051940
+        "1.9.8-r1": 1776051940,
+        "1.10.0-r0": 1779066361
       },
       "dependencies": [
         "py3-certifi",
@@ -4303,20 +4304,22 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:apprise=1.9.8-r1",
-        "py3.14:apprise=1.9.8-r1"
+        "cmd:apprise=1.10.0-r0",
+        "py3.14:apprise=1.10.0-r0"
       ]
     },
     "apprise-doc": {
       "origin": "apprise",
       "versions": {
-        "1.9.8-r1": 1776051940
+        "1.9.8-r1": 1776051940,
+        "1.10.0-r0": 1779066361
       }
     },
     "apprise-pyc": {
       "origin": "apprise",
       "versions": {
-        "1.9.8-r1": 1776051940
+        "1.9.8-r1": 1776051940,
+        "1.10.0-r0": 1779066361
       },
       "dependencies": [
         "python3~3.14"
@@ -34483,11 +34486,12 @@
       "origin": "docker",
       "versions": {
         "29.4.3-r0": 1778360732,
-        "29.4.3-r1": 1778661427
+        "29.4.3-r1": 1778661427,
+        "29.5.0-r0": 1779061293
       },
       "dependencies": [
-        "docker-engine=29.4.3-r1",
-        "docker-cli=29.4.3-r1",
+        "docker-engine=29.5.0-r0",
+        "docker-cli=29.5.0-r0",
         "docker-cli-buildx"
       ]
     },
@@ -34522,21 +34526,23 @@
       "origin": "docker",
       "versions": {
         "29.4.3-r0": 1778360732,
-        "29.4.3-r1": 1778661427
+        "29.4.3-r1": 1778661427,
+        "29.5.0-r0": 1779061293
       }
     },
     "docker-cli": {
       "origin": "docker",
       "versions": {
         "29.4.3-r0": 1778360732,
-        "29.4.3-r1": 1778661427
+        "29.4.3-r1": 1778661427,
+        "29.5.0-r0": 1779061293
       },
       "dependencies": [
         "ca-certificates",
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:docker=29.4.3-r1"
+        "cmd:docker=29.5.0-r0"
       ]
     },
     "docker-cli-buildx": {
@@ -34568,14 +34574,16 @@
       "origin": "docker",
       "versions": {
         "29.4.3-r0": 1778360732,
-        "29.4.3-r1": 1778661427
+        "29.4.3-r1": 1778661427,
+        "29.5.0-r0": 1779061293
       }
     },
     "docker-engine": {
       "origin": "docker",
       "versions": {
         "29.4.3-r0": 1778360732,
-        "29.4.3-r1": 1778661427
+        "29.4.3-r1": 1778661427,
+        "29.5.0-r0": 1779061293
       },
       "dependencies": [
         "ca-certificates",
@@ -34587,23 +34595,25 @@
         "so:libnftables.so.1"
       ],
       "provides": [
-        "cmd:docker-init=29.4.3-r1",
-        "cmd:docker-proxy=29.4.3-r1",
-        "cmd:dockerd=29.4.3-r1"
+        "cmd:docker-init=29.5.0-r0",
+        "cmd:docker-proxy=29.5.0-r0",
+        "cmd:dockerd=29.5.0-r0"
       ]
     },
     "docker-fish-completion": {
       "origin": "docker",
       "versions": {
         "29.4.3-r0": 1778360732,
-        "29.4.3-r1": 1778661427
+        "29.4.3-r1": 1778661427,
+        "29.5.0-r0": 1779061293
       }
     },
     "docker-openrc": {
       "origin": "docker",
       "versions": {
         "29.4.3-r0": 1778360732,
-        "29.4.3-r1": 1778661427
+        "29.4.3-r1": 1778661427,
+        "29.5.0-r0": 1779061293
       },
       "dependencies": [
         "log_proxy"
@@ -34636,7 +34646,8 @@
       "origin": "docker",
       "versions": {
         "29.4.3-r0": 1778360732,
-        "29.4.3-r1": 1778661427
+        "29.4.3-r1": 1778661427,
+        "29.5.0-r0": 1779061293
       },
       "dependencies": [
         "docker",
@@ -34645,14 +34656,15 @@
         "fuse-overlayfs"
       ],
       "provides": [
-        "cmd:dockerd-rootless=29.4.3-r1"
+        "cmd:dockerd-rootless=29.5.0-r0"
       ]
     },
     "docker-rootless-extras-openrc": {
       "origin": "docker",
       "versions": {
         "29.4.3-r0": 1778360732,
-        "29.4.3-r1": 1778661427
+        "29.4.3-r1": 1778661427,
+        "29.5.0-r0": 1779061293
       },
       "dependencies": [
         "docker-rootless-extras"
@@ -34662,14 +34674,16 @@
       "origin": "docker",
       "versions": {
         "29.4.3-r0": 1778360732,
-        "29.4.3-r1": 1778661427
+        "29.4.3-r1": 1778661427,
+        "29.5.0-r0": 1779061293
       }
     },
     "docker-zsh-completion": {
       "origin": "docker",
       "versions": {
         "29.4.3-r0": 1778360732,
-        "29.4.3-r1": 1778661427
+        "29.4.3-r1": 1778661427,
+        "29.5.0-r0": 1779061293
       }
     },
     "dockviz": {
@@ -34733,34 +34747,38 @@
       "origin": "doctl",
       "versions": {
         "1.158.0-r0": 1778250264,
-        "1.158.0-r1": 1778661427
+        "1.158.0-r1": 1778661427,
+        "1.159.0-r0": 1779065666
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:doctl=1.158.0-r1"
+        "cmd:doctl=1.159.0-r0"
       ]
     },
     "doctl-bash-completion": {
       "origin": "doctl",
       "versions": {
         "1.158.0-r0": 1778250264,
-        "1.158.0-r1": 1778661427
+        "1.158.0-r1": 1778661427,
+        "1.159.0-r0": 1779065666
       }
     },
     "doctl-fish-completion": {
       "origin": "doctl",
       "versions": {
         "1.158.0-r0": 1778250264,
-        "1.158.0-r1": 1778661427
+        "1.158.0-r1": 1778661427,
+        "1.159.0-r0": 1779065666
       }
     },
     "doctl-zsh-completion": {
       "origin": "doctl",
       "versions": {
         "1.158.0-r0": 1778250264,
-        "1.158.0-r1": 1778661427
+        "1.158.0-r1": 1778661427,
+        "1.159.0-r0": 1779065666
       }
     },
     "docuum": {
@@ -214591,7 +214609,8 @@
     "py3-jaraco.test": {
       "origin": "py3-jaraco.test",
       "versions": {
-        "5.5.1-r2": 1774640358
+        "5.5.1-r2": 1774640358,
+        "5.6.0-r0": 1779064946
       },
       "dependencies": [
         "py3-jaraco.collections",
@@ -214604,7 +214623,8 @@
     "py3-jaraco.test-pyc": {
       "origin": "py3-jaraco.test",
       "versions": {
-        "5.5.1-r2": 1774640358
+        "5.5.1-r2": 1774640358,
+        "5.6.0-r0": 1779064946
       },
       "dependencies": [
         "python3~3.14"
@@ -214613,7 +214633,8 @@
     "py3-jaraco.text": {
       "origin": "py3-jaraco.text",
       "versions": {
-        "4.0.0-r2": 1774640358
+        "4.0.0-r2": 1774640358,
+        "4.2.0-r0": 1779064690
       },
       "dependencies": [
         "py3-autocommand",
@@ -214621,13 +214642,15 @@
         "py3-jaraco.context",
         "py3-jaraco.functools",
         "py3-more-itertools",
+        "py3-typer",
         "python3~3.14"
       ]
     },
     "py3-jaraco.text-pyc": {
       "origin": "py3-jaraco.text",
       "versions": {
-        "4.0.0-r2": 1774640358
+        "4.0.0-r2": 1774640358,
+        "4.2.0-r0": 1779064690
       },
       "dependencies": [
         "python3~3.14"
@@ -225946,7 +225969,8 @@
     "py3-pytest-httpx": {
       "origin": "py3-pytest-httpx",
       "versions": {
-        "0.36.0-r1": 1774640399
+        "0.36.0-r1": 1774640399,
+        "0.36.2-r0": 1779064847
       },
       "dependencies": [
         "py3-httpx",
@@ -225954,13 +225978,14 @@
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:pytest_httpx=0.36.0-r1"
+        "py3.14:pytest_httpx=0.36.2-r0"
       ]
     },
     "py3-pytest-httpx-pyc": {
       "origin": "py3-pytest-httpx",
       "versions": {
-        "0.36.0-r1": 1774640399
+        "0.36.0-r1": 1774640399,
+        "0.36.2-r0": 1779064847
       },
       "dependencies": [
         "python3~3.14"
@@ -227699,7 +227724,8 @@
     "py3-rapidfuzz": {
       "origin": "py3-rapidfuzz",
       "versions": {
-        "3.14.3-r1": 1774640366
+        "3.14.3-r1": 1774640366,
+        "3.14.5-r0": 1779064775
       },
       "dependencies": [
         "python3~3.14",
@@ -227708,7 +227734,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "py3.14:rapidfuzz=3.14.3-r1"
+        "py3.14:rapidfuzz=3.14.5-r0"
       ]
     },
     "py3-rapidfuzz-capi": {
@@ -227736,7 +227762,8 @@
     "py3-rapidfuzz-pyc": {
       "origin": "py3-rapidfuzz",
       "versions": {
-        "3.14.3-r1": 1774640366
+        "3.14.3-r1": 1774640366,
+        "3.14.5-r0": 1779064775
       },
       "dependencies": [
         "python3~3.14"
@@ -234357,7 +234384,8 @@
       "origin": "py3-uv-build",
       "versions": {
         "0.11.11-r0": 1778102165,
-        "0.11.12-r0": 1778543718
+        "0.11.12-r0": 1778543718,
+        "0.11.14-r0": 1779065623
       },
       "dependencies": [
         "python3",
@@ -234366,15 +234394,16 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:uv-build=0.11.12-r0",
-        "py3.14:uv_build=0.11.12-r0"
+        "cmd:uv-build=0.11.14-r0",
+        "py3.14:uv_build=0.11.14-r0"
       ]
     },
     "py3-uv-build-pyc": {
       "origin": "py3-uv-build",
       "versions": {
         "0.11.11-r0": 1778102165,
-        "0.11.12-r0": 1778543718
+        "0.11.12-r0": 1778543718,
+        "0.11.14-r0": 1779065623
       },
       "dependencies": [
         "python3~3.14"
@@ -281590,7 +281619,8 @@
     "xandikos": {
       "origin": "xandikos",
       "versions": {
-        "0.3.3-r0": 1774640452
+        "0.3.3-r0": 1774640452,
+        "0.4.0-r0": 1779066737
       },
       "dependencies": [
         "py3-aiohttp",
@@ -281605,27 +281635,30 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:xandikos=0.3.3-r0",
-        "py3.14:tests=0.3.3-r0",
-        "py3.14:xandikos=0.3.3-r0"
+        "cmd:xandikos=0.4.0-r0",
+        "py3.14:tests=0.4.0-r0",
+        "py3.14:xandikos=0.4.0-r0"
       ]
     },
     "xandikos-doc": {
       "origin": "xandikos",
       "versions": {
-        "0.3.3-r0": 1774640452
+        "0.3.3-r0": 1774640452,
+        "0.4.0-r0": 1779066737
       }
     },
     "xandikos-openrc": {
       "origin": "xandikos",
       "versions": {
-        "0.3.3-r0": 1774640452
+        "0.3.3-r0": 1774640452,
+        "0.4.0-r0": 1779066737
       }
     },
     "xandikos-pyc": {
       "origin": "xandikos",
       "versions": {
-        "0.3.3-r0": 1774640452
+        "0.3.3-r0": 1774640452,
+        "0.4.0-r0": 1779066737
       },
       "dependencies": [
         "python3~3.14"
@@ -289672,7 +289705,8 @@
     "zathura": {
       "origin": "zathura",
       "versions": {
-        "2026.03.27-r0": 1776326301
+        "2026.03.27-r0": 1776326301,
+        "2026.05.11-r0": 1779063937
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -289694,20 +289728,22 @@
         "so:libsynctex.so.2"
       ],
       "provides": [
-        "cmd:zathura-sandbox=2026.03.27-r0",
-        "cmd:zathura=2026.03.27-r0"
+        "cmd:zathura-sandbox=2026.05.11-r0",
+        "cmd:zathura=2026.05.11-r0"
       ]
     },
     "zathura-bash-completion": {
       "origin": "zathura",
       "versions": {
-        "2026.03.27-r0": 1776326301
+        "2026.03.27-r0": 1776326301,
+        "2026.05.11-r0": 1779063937
       }
     },
     "zathura-cb": {
       "origin": "zathura-cb",
       "versions": {
-        "2026.02.03-r0": 1776326301
+        "2026.02.03-r0": 1776326301,
+        "2026.05.10-r0": 1779063937
       },
       "dependencies": [
         "desktop-file-utils",
@@ -289726,7 +289762,8 @@
     "zathura-dev": {
       "origin": "zathura",
       "versions": {
-        "2026.03.27-r0": 1776326301
+        "2026.03.27-r0": 1776326301,
+        "2026.05.11-r0": 1779063937
       },
       "dependencies": [
         "pc:cairo",
@@ -289735,13 +289772,14 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:zathura=2026.03.27"
+        "pc:zathura=2026.05.11"
       ]
     },
     "zathura-djvu": {
       "origin": "zathura-djvu",
       "versions": {
-        "2026.02.03-r0": 1776326301
+        "2026.02.03-r0": 1776326301,
+        "2026.05.10-r0": 1779063937
       },
       "dependencies": [
         "zathura",
@@ -289755,25 +289793,29 @@
     "zathura-doc": {
       "origin": "zathura",
       "versions": {
-        "2026.03.27-r0": 1776326301
+        "2026.03.27-r0": 1776326301,
+        "2026.05.11-r0": 1779063937
       }
     },
     "zathura-fish-completion": {
       "origin": "zathura",
       "versions": {
-        "2026.03.27-r0": 1776326301
+        "2026.03.27-r0": 1776326301,
+        "2026.05.11-r0": 1779063937
       }
     },
     "zathura-lang": {
       "origin": "zathura",
       "versions": {
-        "2026.03.27-r0": 1776326301
+        "2026.03.27-r0": 1776326301,
+        "2026.05.11-r0": 1779063937
       }
     },
     "zathura-pdf-mupdf": {
       "origin": "zathura-pdf-mupdf",
       "versions": {
-        "2026.02.03-r0": 1776326301
+        "2026.02.03-r0": 1776326301,
+        "2026.05.10-r0": 1779063937
       },
       "dependencies": [
         "zathura",
@@ -289788,7 +289830,8 @@
     "zathura-pdf-poppler": {
       "origin": "zathura-pdf-poppler",
       "versions": {
-        "2026.02.03-r0": 1776326301
+        "2026.02.03-r0": 1776326301,
+        "2026.05.10-r0": 1779063937
       },
       "dependencies": [
         "zathura",
@@ -289816,7 +289859,8 @@
     "zathura-zsh-completion": {
       "origin": "zathura",
       "versions": {
-        "2026.03.27-r0": 1776326301
+        "2026.03.27-r0": 1776326301,
+        "2026.05.11-r0": 1779063937
       }
     },
     "zbar": {
