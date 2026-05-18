@@ -81295,10 +81295,11 @@
         "6.18.29-r0": 1778489781,
         "6.18.31-r0": 1778880923,
         "6.18.31-r1": 1778948610,
-        "6.18.32-r0": 1779052224
+        "6.18.32-r0": 1779052224,
+        "6.18.32-r1": 1779099374
       },
       "dependencies": [
-        "linux-lts=6.18.32-r0"
+        "linux-lts=6.18.32-r1"
       ]
     },
     "jool-tools": {
@@ -82311,14 +82312,15 @@
     "kakoune-lsp": {
       "origin": "kakoune-lsp",
       "versions": {
-        "20.0.0-r0": 1776331539
+        "20.0.0-r0": 1776331539,
+        "21.0.0-r0": 1779101616
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:kak-lsp=20.0.0-r0"
+        "cmd:kak-lsp=21.0.0-r0"
       ]
     },
     "kalgebra": {
@@ -109296,7 +109298,8 @@
     "libopenmpt": {
       "origin": "libopenmpt",
       "versions": {
-        "0.8.6-r0": 1774515189
+        "0.8.6-r0": 1774515189,
+        "0.8.7-r0": 1779099435
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -109314,10 +109317,11 @@
     "libopenmpt-dev": {
       "origin": "libopenmpt",
       "versions": {
-        "0.8.6-r0": 1774515189
+        "0.8.6-r0": 1774515189,
+        "0.8.7-r0": 1779099435
       },
       "dependencies": [
-        "libopenmpt=0.8.6-r0",
+        "libopenmpt=0.8.7-r0",
         "pc:libmpg123",
         "pc:ogg",
         "pc:vorbis",
@@ -109326,7 +109330,7 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:libopenmpt=0.8.6"
+        "pc:libopenmpt=0.8.7"
       ]
     },
     "libopenraw": {
@@ -109845,7 +109849,8 @@
       "origin": "pdal",
       "versions": {
         "2.10.0-r2": 1774640375,
-        "2.10.0-r3": 1778816972
+        "2.10.0-r3": 1778816972,
+        "2.10.1-r0": 1779112257
       },
       "dependencies": [
         "so:libarrow.so.2300",
@@ -109864,17 +109869,17 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "so:libpdal_plugin_filter_cpd.so.20=20.0.0",
-        "so:libpdal_plugin_kernel_fauxplugin.so.20=20.0.0",
-        "so:libpdal_plugin_reader_arrow.so.20=20.0.0",
-        "so:libpdal_plugin_reader_e57.so.20=20.0.0",
-        "so:libpdal_plugin_reader_hdf.so.20=20.0.0",
-        "so:libpdal_plugin_reader_icebridge.so.20=20.0.0",
-        "so:libpdal_plugin_reader_openscenegraph.so.20=20.0.0",
-        "so:libpdal_plugin_reader_pgpointcloud.so.20=20.0.0",
-        "so:libpdal_plugin_writer_arrow.so.20=20.0.0",
-        "so:libpdal_plugin_writer_e57.so.20=20.0.0",
-        "so:libpdal_plugin_writer_pgpointcloud.so.20=20.0.0"
+        "so:libpdal_plugin_filter_cpd.so.20=20.1.0",
+        "so:libpdal_plugin_kernel_fauxplugin.so.20=20.1.0",
+        "so:libpdal_plugin_reader_arrow.so.20=20.1.0",
+        "so:libpdal_plugin_reader_e57.so.20=20.1.0",
+        "so:libpdal_plugin_reader_hdf.so.20=20.1.0",
+        "so:libpdal_plugin_reader_icebridge.so.20=20.1.0",
+        "so:libpdal_plugin_reader_openscenegraph.so.20=20.1.0",
+        "so:libpdal_plugin_reader_pgpointcloud.so.20=20.1.0",
+        "so:libpdal_plugin_writer_arrow.so.20=20.1.0",
+        "so:libpdal_plugin_writer_e57.so.20=20.1.0",
+        "so:libpdal_plugin_writer_pgpointcloud.so.20=20.1.0"
       ]
     },
     "libpeas": {
@@ -125846,7 +125851,8 @@
       "origin": "mangowc",
       "versions": {
         "0.12.9-r0": 1777013252,
-        "0.13.0-r0": 1778857795
+        "0.13.0-r0": 1778857795,
+        "0.13.1-r0": 1779102986
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -125860,8 +125866,8 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:mango=0.13.0-r0",
-        "cmd:mmsg=0.13.0-r0"
+        "cmd:mango=0.13.1-r0",
+        "cmd:mmsg=0.13.1-r0"
       ]
     },
     "manuals": {
@@ -132933,7 +132939,8 @@
     "mpvqt": {
       "origin": "mpvqt",
       "versions": {
-        "1.1.1-r0": 1745529014
+        "1.1.1-r0": 1745529014,
+        "1.2.0-r0": 1779115922
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -132945,19 +132952,20 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libMpvQt.so.2=1.1.1"
+        "so:libMpvQt.so.3=1.2.0"
       ]
     },
     "mpvqt-dev": {
       "origin": "mpvqt",
       "versions": {
-        "1.1.1-r0": 1745529014
+        "1.1.1-r0": 1745529014,
+        "1.2.0-r0": 1779115922
       },
       "dependencies": [
         "mpv-dev",
         "qt6-qtbase-dev",
         "qt6-qtdeclarative-dev",
-        "mpvqt=1.1.1-r0"
+        "mpvqt=1.2.0-r0"
       ]
     },
     "mqttui": {
@@ -163142,7 +163150,8 @@
     "openmpt123": {
       "origin": "libopenmpt",
       "versions": {
-        "0.8.6-r0": 1774515189
+        "0.8.6-r0": 1774515189,
+        "0.8.7-r0": 1779099435
       },
       "dependencies": [
         "so:libFLAC.so.12",
@@ -163156,13 +163165,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:openmpt123=0.8.6-r0"
+        "cmd:openmpt123=0.8.7-r0"
       ]
     },
     "openmpt123-doc": {
       "origin": "libopenmpt",
       "versions": {
-        "0.8.6-r0": 1774515189
+        "0.8.6-r0": 1774515189,
+        "0.8.7-r0": 1779099435
       }
     },
     "opennebula": {
@@ -167036,7 +167046,8 @@
       "origin": "pdal",
       "versions": {
         "2.10.0-r2": 1774640375,
-        "2.10.0-r3": 1778816972
+        "2.10.0-r3": 1778816972,
+        "2.10.1-r0": 1779112257
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -167052,27 +167063,28 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:pdal=2.10.0-r3",
-        "so:libpdalcpp.so.20=20.0.0"
+        "cmd:pdal=2.10.1-r0",
+        "so:libpdalcpp.so.20=20.1.0"
       ]
     },
     "pdal-dev": {
       "origin": "pdal",
       "versions": {
         "2.10.0-r2": 1774640375,
-        "2.10.0-r3": 1778816972
+        "2.10.0-r3": 1778816972,
+        "2.10.1-r0": 1779112257
       },
       "dependencies": [
-        "pdal=2.10.0-r3",
-        "libpdal-plugins=2.10.0-r3",
-        "pdal=2.10.0-r3",
+        "pdal=2.10.1-r0",
+        "libpdal-plugins=2.10.1-r0",
+        "pdal=2.10.1-r0",
         "pc:gdal",
         "pc:libxml-2.0",
         "pkgconfig"
       ],
       "provides": [
-        "cmd:pdal-config=2.10.0-r3",
-        "pc:pdal=2.10.0"
+        "cmd:pdal-config=2.10.1-r0",
+        "pc:pdal=2.10.1"
       ]
     },
     "pdd": {
@@ -239266,21 +239278,23 @@
     "remind": {
       "origin": "remind",
       "versions": {
-        "06.02.05-r0": 1775492489
+        "06.02.05-r0": 1775492489,
+        "06.02.06-r0": 1779113711
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:rem2ps=06.02.05-r0",
-        "cmd:rem=06.02.05-r0",
-        "cmd:remind=06.02.05-r0"
+        "cmd:rem2ps=06.02.06-r0",
+        "cmd:rem=06.02.06-r0",
+        "cmd:remind=06.02.06-r0"
       ]
     },
     "remind-doc": {
       "origin": "remind",
       "versions": {
-        "06.02.05-r0": 1775492489
+        "06.02.05-r0": 1775492489,
+        "06.02.06-r0": 1779113711
       }
     },
     "remmina": {
@@ -241863,7 +241877,8 @@
         "6.18.29-r0": 1778489781,
         "6.18.31-r0": 1778880923,
         "6.18.31-r1": 1778948610,
-        "6.18.32-r0": 1779052224
+        "6.18.32-r0": 1779052224,
+        "6.18.32-r1": 1779099374
       }
     },
     "rtpengine-openrc": {
@@ -243265,7 +243280,8 @@
     "rust-analyzer": {
       "origin": "rust-analyzer",
       "versions": {
-        "2026.05.04-r0": 1777972634
+        "2026.05.04-r0": 1777972634,
+        "2026.05.18-r0": 1779108183
       },
       "dependencies": [
         "rust-src",
@@ -243274,7 +243290,7 @@
         "so:libmimalloc-secure.so.2"
       ],
       "provides": [
-        "cmd:rust-analyzer=2026.05.04-r0"
+        "cmd:rust-analyzer=2026.05.18-r0"
       ]
     },
     "rustlings": {
@@ -249217,7 +249233,8 @@
     "singular": {
       "origin": "singular",
       "versions": {
-        "4.4.1_p2-r2": 1771160091
+        "4.4.1_p2-r2": 1771160091,
+        "4.4.1_p5-r0": 1779102671
       },
       "dependencies": [
         "python3",
@@ -249229,9 +249246,9 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:ESingular=4.4.1_p2-r2",
-        "cmd:Singular=4.4.1_p2-r2",
-        "cmd:TSingular=4.4.1_p2-r2",
+        "cmd:ESingular=4.4.1_p5-r0",
+        "cmd:Singular=4.4.1_p5-r0",
+        "cmd:TSingular=4.4.1_p5-r0",
         "so:libSingular-4.4.1.so=0",
         "so:libfactory-4.4.1.so=0",
         "so:libomalloc-0.9.6.so=0",
@@ -249242,15 +249259,16 @@
     "singular-dev": {
       "origin": "singular",
       "versions": {
-        "4.4.1_p2-r2": 1771160091
+        "4.4.1_p2-r2": 1771160091,
+        "4.4.1_p5-r0": 1779102671
       },
       "dependencies": [
-        "singular=4.4.1_p2-r2",
+        "singular=4.4.1_p5-r0",
         "pkgconfig"
       ],
       "provides": [
-        "cmd:libpolys-config=4.4.1_p2-r2",
-        "cmd:libsingular-config=4.4.1_p2-r2",
+        "cmd:libpolys-config=4.4.1_p5-r0",
+        "cmd:libsingular-config=4.4.1_p5-r0",
         "pc:Singular=4.4.1",
         "pc:factory=4.4.1",
         "pc:libpolys=4.4.1",
@@ -249261,13 +249279,15 @@
     "singular-doc": {
       "origin": "singular",
       "versions": {
-        "4.4.1_p2-r2": 1771160091
+        "4.4.1_p2-r2": 1771160091,
+        "4.4.1_p5-r0": 1779102671
       }
     },
     "singular-emacs": {
       "origin": "singular",
       "versions": {
-        "4.4.1_p2-r2": 1771160091
+        "4.4.1_p2-r2": 1771160091,
+        "4.4.1_p5-r0": 1779102671
       },
       "dependencies": [
         "python3"
@@ -249276,7 +249296,8 @@
     "singular-static": {
       "origin": "singular",
       "versions": {
-        "4.4.1_p2-r2": 1771160091
+        "4.4.1_p2-r2": 1771160091,
+        "4.4.1_p5-r0": 1779102671
       },
       "dependencies": [
         "singular-dev"
@@ -260642,28 +260663,31 @@
     "tinyssh": {
       "origin": "tinyssh",
       "versions": {
-        "20250501-r0": 1746312018
+        "20250501-r0": 1746312018,
+        "20260401-r0": 1779111521
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:tinysshd-makekey=20250501-r0",
-        "cmd:tinysshd-printkey=20250501-r0",
-        "cmd:tinysshd=20250501-r0",
-        "cmd:tinysshnoneauthd=20250501-r0"
+        "cmd:tinysshd-makekey=20260401-r0",
+        "cmd:tinysshd-printkey=20260401-r0",
+        "cmd:tinysshd=20260401-r0",
+        "cmd:tinysshnoneauthd=20260401-r0"
       ]
     },
     "tinyssh-doc": {
       "origin": "tinyssh",
       "versions": {
-        "20250501-r0": 1746312018
+        "20250501-r0": 1746312018,
+        "20260401-r0": 1779111521
       }
     },
     "tinyssh-openrc": {
       "origin": "tinyssh",
       "versions": {
-        "20250501-r0": 1746312018
+        "20250501-r0": 1746312018,
+        "20260401-r0": 1779111521
       },
       "dependencies": [
         "ucspi-tcp6"
@@ -260812,15 +260836,16 @@
     "tkremind": {
       "origin": "remind",
       "versions": {
-        "06.02.05-r0": 1775492489
+        "06.02.05-r0": 1775492489,
+        "06.02.06-r0": 1779113711
       },
       "dependencies": [
-        "remind=06.02.05-r0",
+        "remind=06.02.06-r0",
         "tk",
         "tcl-lib"
       ],
       "provides": [
-        "cmd:tkremind=06.02.05-r0"
+        "cmd:tkremind=06.02.06-r0"
       ]
     },
     "tkts": {
@@ -264673,7 +264698,8 @@
       "origin": "ugrep",
       "versions": {
         "7.7.0-r0": 1776844396,
-        "7.8.1-r0": 1778813204
+        "7.8.1-r0": 1778813204,
+        "7.8.2-r0": 1779098361
       },
       "dependencies": [
         "so:libbrotlidec.so.1",
@@ -264689,39 +264715,43 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:ug+=7.8.1-r0",
-        "cmd:ug=7.8.1-r0",
-        "cmd:ugrep+=7.8.1-r0",
-        "cmd:ugrep-indexer=7.8.1-r0",
-        "cmd:ugrep=7.8.1-r0"
+        "cmd:ug+=7.8.2-r0",
+        "cmd:ug=7.8.2-r0",
+        "cmd:ugrep+=7.8.2-r0",
+        "cmd:ugrep-indexer=7.8.2-r0",
+        "cmd:ugrep=7.8.2-r0"
       ]
     },
     "ugrep-bash-completion": {
       "origin": "ugrep",
       "versions": {
         "7.7.0-r0": 1776844396,
-        "7.8.1-r0": 1778813204
+        "7.8.1-r0": 1778813204,
+        "7.8.2-r0": 1779098361
       }
     },
     "ugrep-doc": {
       "origin": "ugrep",
       "versions": {
         "7.7.0-r0": 1776844396,
-        "7.8.1-r0": 1778813204
+        "7.8.1-r0": 1778813204,
+        "7.8.2-r0": 1779098361
       }
     },
     "ugrep-fish-completion": {
       "origin": "ugrep",
       "versions": {
         "7.7.0-r0": 1776844396,
-        "7.8.1-r0": 1778813204
+        "7.8.1-r0": 1778813204,
+        "7.8.2-r0": 1779098361
       }
     },
     "ugrep-zsh-completion": {
       "origin": "ugrep",
       "versions": {
         "7.7.0-r0": 1776844396,
-        "7.8.1-r0": 1778813204
+        "7.8.1-r0": 1778813204,
+        "7.8.2-r0": 1779098361
       }
     },
     "uhd": {
@@ -281940,7 +281970,8 @@
     "znc": {
       "origin": "znc",
       "versions": {
-        "1.10.1-r3": 1774640453
+        "1.10.1-r3": 1774640453,
+        "1.10.2-r0": 1779103202
       },
       "dependencies": [
         "/bin/sh",
@@ -281955,32 +281986,35 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:znc=1.10.1-r3"
+        "cmd:znc=1.10.2-r0"
       ]
     },
     "znc-dev": {
       "origin": "znc",
       "versions": {
-        "1.10.1-r3": 1774640453
+        "1.10.1-r3": 1774640453,
+        "1.10.2-r0": 1779103202
       },
       "dependencies": [
         "pkgconfig"
       ],
       "provides": [
-        "cmd:znc-buildmod=1.10.1-r3",
-        "pc:znc=1.10.1"
+        "cmd:znc-buildmod=1.10.2-r0",
+        "pc:znc=1.10.2"
       ]
     },
     "znc-doc": {
       "origin": "znc",
       "versions": {
-        "1.10.1-r3": 1774640453
+        "1.10.1-r3": 1774640453,
+        "1.10.2-r0": 1779103202
       }
     },
     "znc-extra": {
       "origin": "znc",
       "versions": {
-        "1.10.1-r3": 1774640453
+        "1.10.1-r3": 1774640453,
+        "1.10.2-r0": 1779103202
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -281991,10 +282025,11 @@
     "znc-modperl": {
       "origin": "znc",
       "versions": {
-        "1.10.1-r3": 1774640453
+        "1.10.1-r3": 1774640453,
+        "1.10.2-r0": 1779103202
       },
       "dependencies": [
-        "znc=1.10.1-r3",
+        "znc=1.10.2-r0",
         "so:libc.musl-s390x.so.1",
         "so:libgcc_s.so.1",
         "so:libperl.so",
@@ -282004,10 +282039,11 @@
     "znc-modpython": {
       "origin": "znc",
       "versions": {
-        "1.10.1-r3": 1774640453
+        "1.10.1-r3": 1774640453,
+        "1.10.2-r0": 1779103202
       },
       "dependencies": [
-        "znc=1.10.1-r3",
+        "znc=1.10.2-r0",
         "so:libc.musl-s390x.so.1",
         "so:libgcc_s.so.1",
         "so:libpython3.14.so.1.0",
@@ -282017,10 +282053,11 @@
     "znc-modtcl": {
       "origin": "znc",
       "versions": {
-        "1.10.1-r3": 1774640453
+        "1.10.1-r3": 1774640453,
+        "1.10.2-r0": 1779103202
       },
       "dependencies": [
-        "znc=1.10.1-r3",
+        "znc=1.10.2-r0",
         "so:libc.musl-s390x.so.1",
         "so:libgcc_s.so.1",
         "so:libstdc++.so.6",
@@ -282030,7 +282067,8 @@
     "znc-openrc": {
       "origin": "znc",
       "versions": {
-        "1.10.1-r3": 1774640453
+        "1.10.1-r3": 1774640453,
+        "1.10.2-r0": 1779103202
       }
     },
     "zola": {
@@ -293619,47 +293657,47 @@
       },
       "libpdal_plugin_filter_cpd.so.20": {
         "package": "libpdal-plugins",
-        "version": "20.0.0"
+        "version": "20.1.0"
       },
       "libpdal_plugin_kernel_fauxplugin.so.20": {
         "package": "libpdal-plugins",
-        "version": "20.0.0"
+        "version": "20.1.0"
       },
       "libpdal_plugin_reader_arrow.so.20": {
         "package": "libpdal-plugins",
-        "version": "20.0.0"
+        "version": "20.1.0"
       },
       "libpdal_plugin_reader_e57.so.20": {
         "package": "libpdal-plugins",
-        "version": "20.0.0"
+        "version": "20.1.0"
       },
       "libpdal_plugin_reader_hdf.so.20": {
         "package": "libpdal-plugins",
-        "version": "20.0.0"
+        "version": "20.1.0"
       },
       "libpdal_plugin_reader_icebridge.so.20": {
         "package": "libpdal-plugins",
-        "version": "20.0.0"
+        "version": "20.1.0"
       },
       "libpdal_plugin_reader_openscenegraph.so.20": {
         "package": "libpdal-plugins",
-        "version": "20.0.0"
+        "version": "20.1.0"
       },
       "libpdal_plugin_reader_pgpointcloud.so.20": {
         "package": "libpdal-plugins",
-        "version": "20.0.0"
+        "version": "20.1.0"
       },
       "libpdal_plugin_writer_arrow.so.20": {
         "package": "libpdal-plugins",
-        "version": "20.0.0"
+        "version": "20.1.0"
       },
       "libpdal_plugin_writer_e57.so.20": {
         "package": "libpdal-plugins",
-        "version": "20.0.0"
+        "version": "20.1.0"
       },
       "libpdal_plugin_writer_pgpointcloud.so.20": {
         "package": "libpdal-plugins",
-        "version": "20.0.0"
+        "version": "20.1.0"
       },
       "libpeas-1.0.so.1": {
         "package": "libpeas",
@@ -296827,7 +296865,7 @@
       },
       "libpdalcpp.so.20": {
         "package": "pdal",
-        "version": "20.0.0"
+        "version": "20.1.0"
       },
       "libAudioBookPlugin.so.1.5.3.1": {
         "package": "pdf4qt",
@@ -300748,6 +300786,10 @@
       "libqtjdenticon.so": {
         "package": "qt-jdenticon",
         "version": "0"
+      },
+      "libMpvQt.so.3": {
+        "package": "mpvqt",
+        "version": "1.2.0"
       }
     },
     "package": {

@@ -16978,66 +16978,6 @@ c:6ff90397ba75797ea2729df1488789439c2c6ae3
 D:so:libc.musl-x86.so.1 so:libgcc_s.so.1
 p:cmd:batmon=0.2.0-r0
 
-C:Q1Ri12B+JehoYZ2SI2RQExNjgVxbE=
-P:bats
-V:1.13.0-r1
-A:x86
-S:1281
-I:0
-T:Meta package for Bats
-U:https://bats-core.readthedocs.io/
-L:MIT
-o:bats
-m:qaqland <qaq@qaq.land>
-t:1768326589
-c:594ce80df28e520393e98beb09116040ea6f30f3
-D:bats-core bats-support bats-assert bats-file
-
-C:Q1G9IkrBzyq6jPG9ywMgF1AdhTErE=
-P:bats-assert
-V:2.2.4-r0
-A:x86
-S:10503
-I:45903
-T:Common assertions for Bats
-U:https://github.com/bats-core/bats-assert
-L:CC0-1.0
-o:bats-assert
-m:qaqland <qaq@qaq.land>
-t:1760626513
-c:e011ee1d661597197eb74b6b5f1a259c8640b9a9
-D:bash bats-core bats-support
-
-C:Q1f41CCrrAcIXZfujCSw6r/RQSQvw=
-P:bats-file
-V:0.4.0-r0
-A:x86
-S:6383
-I:34578
-T:Common filesystem assertions for Bats
-U:https://github.com/bats-core/bats-file
-L:CC0-1.0
-o:bats-file
-m:qaqland <qaq@qaq.land>
-t:1726952552
-c:af14149846281cb23ae1dd6330b32a8ac0b23045
-D:bash bats-core bats-support
-
-C:Q1aGXgXE48hmI8u+5duvn/V4At56k=
-P:bats-support
-V:0.3.0-r0
-A:x86
-S:4873
-I:9844
-T:Supporting library for Bats test helpers
-U:https://github.com/bats-core/bats-support
-L:CC0-1.0
-o:bats-support
-m:qaqland <qaq@qaq.land>
-t:1726952552
-c:22059c75745f1552f4be2bb60c1335279f4cfe30
-D:bash bats-core
-
 C:Q1ViwYpxCIZ2zz4r26nyAFOLMs51o=
 P:bcc
 V:0.36.1-r1
@@ -90270,37 +90210,37 @@ t:1771160091
 c:a9e2a2dc46f377eb25884f7fea9834492de7f518
 i:jo=1.9-r2 zsh
 
-C:Q1sPLid1TIr+xehsuV4ruLSbK1/Lo=
+C:Q1c90Xv4w+3UxzAY+kO3/PTX/vX+8=
 P:jool-modules-lts
-V:6.18.32-r0
+V:6.18.32-r1
 A:x86
-S:7910313
-I:7991315
+S:7911919
+I:7993357
 T:SIIT and NAT64 for Linux (kernel modules for linux-lts)
 U:https://nicmx.github.io/Jool/
 L:GPL-2.0-or-later
 o:jool-modules-lts
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779052224
-c:5423b65a8cde12efddd3768edc9fb0b5dd6614a4
-D:linux-lts=6.18.32-r0
-i:linux-lts=6.18.32-r0 jool-tools
+t:1779099374
+c:034f6683a5d2b6eab4b18c2ac48d5d938898092c
+D:linux-lts=6.18.32-r1
+i:linux-lts=6.18.32-r1 jool-tools
 
-C:Q10DSf5xy7MA0/FXCRd0l00Yzouio=
+C:Q1NawR46pVf10xsh3GdklU7HBtf5o=
 P:jool-modules-virt
-V:6.18.32-r0
+V:6.18.32-r1
 A:x86
-S:7758316
-I:7838421
+S:7758236
+I:7838385
 T:SIIT and NAT64 for Linux (kernel modules for linux-virt)
 U:https://nicmx.github.io/Jool/
 L:GPL-2.0-or-later
 o:jool-modules-lts
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779052224
-c:5423b65a8cde12efddd3768edc9fb0b5dd6614a4
-D:linux-virt=6.18.32-r0
-i:linux-virt=6.18.32-r0 jool-tools
+t:1779099374
+c:034f6683a5d2b6eab4b18c2ac48d5d938898092c
+D:linux-virt=6.18.32-r1
+i:linux-virt=6.18.32-r1 jool-tools
 
 C:Q1jl6Tx1oupKQv0t0cLcjKPt18nv8=
 P:jool-tools
@@ -91540,21 +91480,21 @@ t:1775974293
 c:9d8e40a805a583b40719dcaa3b5286637c1be771
 i:docs kakoune=2026.04.12-r0
 
-C:Q14rCYnmxG4Le5vjQbh4SFt8UNlzM=
+C:Q1KC3LCwxv6yXAvi5SzTUOJ7efOVM=
 P:kakoune-lsp
-V:20.0.0-r0
+V:21.0.0-r0
 A:x86
-S:2202030
+S:2203419
 I:4650552
 T:Kakoune Language Server Protocol Client
 U:https://github.com/kakoune-lsp/kakoune-lsp
 L:Unlicense OR MIT
 o:kakoune-lsp
 m:Willow Barraco <contact@willowbarraco.fr>
-t:1776331539
-c:cc2769ec3e28a771025fa06279f4eb902cda9aaa
+t:1779101616
+c:71401a33b573bf1a8237e815255f927ee2867cce
 D:so:libc.musl-x86.so.1 so:libgcc_s.so.1
-p:cmd:kak-lsp=20.0.0-r0
+p:cmd:kak-lsp=21.0.0-r0
 
 C:Q1JJxgKi1txst3S3A1RnvIvv964P8=
 P:kalgebra
@@ -121915,37 +121855,37 @@ t:1762381974
 c:3cd4492fd74980ec8acbfdcd43ee3b1c7ca7d891
 D:pugixml-dev libopendrive=0.6.1-r1
 
-C:Q10hv5e5aTq19/540X21YwfeuzH8w=
+C:Q1XUzM7TQ3DwJ1kRpH+PxvhDhclK8=
 P:libopenmpt
-V:0.8.6-r0
+V:0.8.7-r0
 A:x86
-S:666860
+S:666834
 I:1357348
 T:Cross-platform library to render tracker music to a PCM audio stream
 U:https://lib.openmpt.org/libopenmpt/
 L:BSD-3-Clause
 o:libopenmpt
 m:knuxify <knuxify@gmail.com>
-t:1774515189
-c:8ea52b6862c596d750a8df9e992d7d7241b0db63
+t:1779099435
+c:17cfd9a49f7ca8a4e36c1e512c1db5680e2702f6
 D:so:libc.musl-x86.so.1 so:libgcc_s.so.1 so:libmpg123.so.0 so:libstdc++.so.6 so:libvorbis.so.0 so:libvorbisfile.so.3 so:libz.so.1
 p:so:libopenmpt.so.0=0.5.5
 
-C:Q1SplwlcHdIcY340Qcp3O9kx3wyZE=
+C:Q1nPnsRGZB/zzsH8dWBfxOpsGkf4k=
 P:libopenmpt-dev
-V:0.8.6-r0
+V:0.8.7-r0
 A:x86
-S:41439
+S:41437
 I:258265
 T:Cross-platform library to render tracker music to a PCM audio stream (development files)
 U:https://lib.openmpt.org/libopenmpt/
 L:BSD-3-Clause
 o:libopenmpt
 m:knuxify <knuxify@gmail.com>
-t:1774515189
-c:8ea52b6862c596d750a8df9e992d7d7241b0db63
-D:libopenmpt=0.8.6-r0 pc:libmpg123 pc:ogg pc:vorbis pc:vorbisfile pc:zlib pkgconfig
-p:pc:libopenmpt=0.8.6
+t:1779099435
+c:17cfd9a49f7ca8a4e36c1e512c1db5680e2702f6
+D:libopenmpt=0.8.7-r0 pc:libmpg123 pc:ogg pc:vorbis pc:vorbisfile pc:zlib pkgconfig
+p:pc:libopenmpt=0.8.7
 
 C:Q14PIthFdj2SjVi5m0r8Mmh5UJZqg=
 P:libopenraw
@@ -122584,21 +122524,21 @@ c:3a4760bfbe99a634583563709b6106150ac0a5bc
 D:apache-arrow=23.0.1-r2 so:libarrow.so.2300 so:libc.musl-x86.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libstdc++.so.6 so:libthrift.so.0.23.0
 p:so:libparquet.so.2300=2300.1.0
 
-C:Q1xO42qxQKBMLVZL/CtPABsul/coY=
+C:Q1gUSFSVfiZ/1V+QCDYWfLiwocv7U=
 P:libpdal-plugins
-V:2.10.0-r3
+V:2.10.1-r0
 A:x86
-S:1309196
+S:1309221
 I:3379328
 T:PDAL is a C++ BSD library for translating and manipulating point cloud data.
 U:https://pdal.io/
 L:BSD-2-Clause
 o:pdal
 m:Bart Ribbers <bribbers@disroot.org>
-t:1778816972
-c:2fbcf3360ab4655c762bc1e6abcfe30671d9c58a
+t:1779112257
+c:1d9a0127367a77a139da8f0860c0d47543856817
 D:so:libOpenThreads.so.21 so:libarrow.so.2300 so:libc.musl-x86.so.1 so:libcpd.so.0 so:libgcc_s.so.1 so:libhdf5.so.311 so:libhdf5_cpp.so.310 so:libosg.so.161 so:libosgDB.so.161 so:libparquet.so.2300 so:libpdalcpp.so.20 so:libpq.so.5 so:libstdc++.so.6 so:libxerces-c-3.2.so so:libxml2.so.2
-p:so:libpdal_plugin_filter_cpd.so.20=20.0.0 so:libpdal_plugin_kernel_fauxplugin.so.20=20.0.0 so:libpdal_plugin_reader_arrow.so.20=20.0.0 so:libpdal_plugin_reader_e57.so.20=20.0.0 so:libpdal_plugin_reader_hdf.so.20=20.0.0 so:libpdal_plugin_reader_icebridge.so.20=20.0.0 so:libpdal_plugin_reader_openscenegraph.so.20=20.0.0 so:libpdal_plugin_reader_pgpointcloud.so.20=20.0.0 so:libpdal_plugin_writer_arrow.so.20=20.0.0 so:libpdal_plugin_writer_e57.so.20=20.0.0 so:libpdal_plugin_writer_pgpointcloud.so.20=20.0.0
+p:so:libpdal_plugin_filter_cpd.so.20=20.1.0 so:libpdal_plugin_kernel_fauxplugin.so.20=20.1.0 so:libpdal_plugin_reader_arrow.so.20=20.1.0 so:libpdal_plugin_reader_e57.so.20=20.1.0 so:libpdal_plugin_reader_hdf.so.20=20.1.0 so:libpdal_plugin_reader_icebridge.so.20=20.1.0 so:libpdal_plugin_reader_openscenegraph.so.20=20.1.0 so:libpdal_plugin_reader_pgpointcloud.so.20=20.1.0 so:libpdal_plugin_writer_arrow.so.20=20.1.0 so:libpdal_plugin_writer_e57.so.20=20.1.0 so:libpdal_plugin_writer_pgpointcloud.so.20=20.1.0
 
 C:Q1xz3YdNZ/qmrE3dt/ZncJpkrF+wE=
 P:libpeas
@@ -143981,21 +143921,21 @@ t:1767988441
 c:00eacb72df4c1302fba2cc14d8d92f88e4dd4bf9
 i:docs mangohud=0.7.1-r2
 
-C:Q1UAnngV1ipJlD4vzUXVnpV0UkZgg=
+C:Q128aA9Ne1Yrg7g15++nks3Jbzpo4=
 P:mangowc
-V:0.13.0-r0
+V:0.13.1-r0
 A:x86
-S:136815
-I:306945
+S:141502
+I:319265
 T:Lightweight, high-performance Wayland compositor built on dwl
 U:https://mangowm.github.io/
 L:GPL-3.0-or-later
 o:mangowc
 m:omni <omni+alpine@hack.org>
-t:1778857795
-c:3b2f183103a33a3690d4898e54e66705e04cd86a
+t:1779102986
+c:c339d07e1d938fc42d297baa3b7d403c04abc0e7
 D:so:libc.musl-x86.so.1 so:libinput.so.10 so:libpcre2-8.so.0 so:libscenefx-0.4.so so:libwayland-client.so.0 so:libwayland-server.so.0 so:libwlroots-0.19.so so:libxcb-icccm.so.4 so:libxkbcommon.so.0
-p:cmd:mango=0.13.0-r0 cmd:mmsg=0.13.0-r0
+p:cmd:mango=0.13.1-r0 cmd:mmsg=0.13.1-r0
 
 C:Q1QVJYWK6NADPHcGf5wS+I25BACZ0=
 P:manuals
@@ -151648,36 +151588,36 @@ t:1747405784
 c:1ab215cb6fb4e20d4c7c2db564f4ea0513abab64
 i:docs mpvpaper=1.8-r0
 
-C:Q1oKsAc0BH+3P5jBxap/f56qnl39A=
+C:Q1x3OFlOOPKoXW2+RKzSinnQX2vVU=
 P:mpvqt
-V:1.1.1-r0
+V:1.2.0-r0
 A:x86
-S:29092
-I:71448
+S:34108
+I:83736
 T:A libmpv wrapper for QtQuick2 and QML
 U:https://invent.kde.org/libraries/mpvqt
 L:(BSD-2-Clause OR BSD-3-Clause) AND CC-BY-SA-4.0 AND CC0-1.0 AND (LGPL-2.1-only OR LGPL-3.0-only)
 o:mpvqt
 m:team/kde <bribbers@disroot.org>
-t:1745529014
-c:a5569fabc9eda4f75eb14f892dafdbad26c71dc7
+t:1779115922
+c:c3e77a27b66e1316b0c556f1deb15069b26fef37
 D:so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6OpenGL.so.6 so:libQt6Quick.so.6 so:libc.musl-x86.so.1 so:libmpv.so.2 so:libstdc++.so.6
-p:so:libMpvQt.so.2=1.1.1
+p:so:libMpvQt.so.3=1.2.0
 
-C:Q1vGqvvXXDD5ROL5yyTfRgh9i953A=
+C:Q1V03Ha+o3ovvVE+V9Q/kwGQhCYUA=
 P:mpvqt-dev
-V:1.1.1-r0
+V:1.2.0-r0
 A:x86
-S:8665
-I:21008
+S:9216
+I:22886
 T:A libmpv wrapper for QtQuick2 and QML (development files)
 U:https://invent.kde.org/libraries/mpvqt
 L:(BSD-2-Clause OR BSD-3-Clause) AND CC-BY-SA-4.0 AND CC0-1.0 AND (LGPL-2.1-only OR LGPL-3.0-only)
 o:mpvqt
 m:team/kde <bribbers@disroot.org>
-t:1745529014
-c:a5569fabc9eda4f75eb14f892dafdbad26c71dc7
-D:mpv-dev qt6-qtbase-dev qt6-qtdeclarative-dev mpvqt=1.1.1-r0
+t:1779115922
+c:c3e77a27b66e1316b0c556f1deb15069b26fef37
+D:mpv-dev qt6-qtbase-dev qt6-qtdeclarative-dev mpvqt=1.2.0-r0
 
 C:Q1kLMU6HjDTPyKk98Wdyc/PqjlwmQ=
 P:mqttui
@@ -169949,36 +169889,36 @@ t:1726692423
 c:398dd8127347bef6d5c891a6bb26a005fb45625b
 i:docs openmpi=4.1.6-r1
 
-C:Q1KxHrReExg1U9VCVwUZNWuyOwhUw=
+C:Q1YV1uBbTn47voFUuUbyGfeixFOpE=
 P:openmpt123
-V:0.8.6-r0
+V:0.8.7-r0
 A:x86
-S:119192
+S:119186
 I:280124
 T:Command-line module file player
 U:https://lib.openmpt.org/libopenmpt/
 L:BSD-3-Clause
 o:libopenmpt
 m:knuxify <knuxify@gmail.com>
-t:1774515189
-c:8ea52b6862c596d750a8df9e992d7d7241b0db63
+t:1779099435
+c:17cfd9a49f7ca8a4e36c1e512c1db5680e2702f6
 D:so:libFLAC.so.12 so:libc.musl-x86.so.1 so:libgcc_s.so.1 so:libopenmpt.so.0 so:libportaudio.so.2 so:libpulse-simple.so.0 so:libpulse.so.0 so:libsndfile.so.1 so:libstdc++.so.6
-p:cmd:openmpt123=0.8.6-r0
+p:cmd:openmpt123=0.8.7-r0
 
-C:Q1OPYiioE/N759WDLVU4umMDA6cE4=
+C:Q1Uo9R9V31HRev9hDfoOoTUrJxMPA=
 P:openmpt123-doc
-V:0.8.6-r0
+V:0.8.7-r0
 A:x86
 S:3698
-I:1888
+I:1890
 T:Cross-platform library to render tracker music to a PCM audio stream (documentation)
 U:https://lib.openmpt.org/libopenmpt/
 L:BSD-3-Clause
 o:libopenmpt
 m:knuxify <knuxify@gmail.com>
-t:1774515189
-c:8ea52b6862c596d750a8df9e992d7d7241b0db63
-i:openmpt123=0.8.6-r0 docs
+t:1779099435
+c:17cfd9a49f7ca8a4e36c1e512c1db5680e2702f6
+i:openmpt123=0.8.7-r0 docs
 
 C:Q10/Ua0cBkooaxDa0XsYp/asOqCBI=
 P:opennebula
@@ -175051,37 +174991,37 @@ c:6932f95fb40a737057fd5610160e2384b0768d1f
 D:perl-glib perl-gtk3 perl-libintl-perl pcsc-tools=1.7.3-r1
 p:cmd:gscriptor=1.7.3-r1
 
-C:Q1k81c8NMFWHqOVSyCYJa2qXu/BQI=
+C:Q1k8msnIDMJzMH9nZ8ops5ov7cY9k=
 P:pdal
-V:2.10.0-r3
+V:2.10.1-r0
 A:x86
-S:4546327
-I:11041596
+S:4544334
+I:11037500
 T:PDAL is a C++ BSD library for translating and manipulating point cloud data.
 U:https://pdal.io/
 L:BSD-2-Clause
 o:pdal
 m:Bart Ribbers <bribbers@disroot.org>
-t:1778816972
-c:2fbcf3360ab4655c762bc1e6abcfe30671d9c58a
+t:1779112257
+c:1d9a0127367a77a139da8f0860c0d47543856817
 D:so:libc.musl-x86.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgcc_s.so.1 so:libgdal.so.39 so:libgeotiff.so.5 so:libproj.so.25 so:libstdc++.so.6 so:libxml2.so.2 so:libz.so.1 so:libzstd.so.1
-p:cmd:pdal=2.10.0-r3 so:libpdalcpp.so.20=20.0.0
+p:cmd:pdal=2.10.1-r0 so:libpdalcpp.so.20=20.1.0
 
-C:Q1yHnHmMVkkKCdAQBEOvwbqSFcqK8=
+C:Q1n2rmWKmMVkiNY60euQCxMA+mNgw=
 P:pdal-dev
-V:2.10.0-r3
+V:2.10.1-r0
 A:x86
-S:6449623
-I:9336980
+S:6450456
+I:9337290
 T:PDAL is a C++ BSD library for translating and manipulating point cloud data. (development files)
 U:https://pdal.io/
 L:BSD-2-Clause
 o:pdal
 m:Bart Ribbers <bribbers@disroot.org>
-t:1778816972
-c:2fbcf3360ab4655c762bc1e6abcfe30671d9c58a
-D:pdal=2.10.0-r3 libpdal-plugins=2.10.0-r3 pdal=2.10.0-r3 pc:gdal pc:libxml-2.0 pkgconfig
-p:cmd:pdal-config=2.10.0-r3 pc:pdal=2.10.0
+t:1779112257
+c:1d9a0127367a77a139da8f0860c0d47543856817
+D:pdal=2.10.1-r0 libpdal-plugins=2.10.1-r0 pdal=2.10.1-r0 pc:gdal pc:libxml-2.0 pkgconfig
+p:cmd:pdal-config=2.10.1-r0 pc:pdal=2.10.1
 
 C:Q1vO2+RygXBD73dt6XSyu1qnKLP2c=
 P:pdd
@@ -267385,36 +267325,36 @@ t:1753430906
 c:acd6c9aed084527410acef315c857a925d439bf5
 i:release-plz=0.3.139-r0 zsh
 
-C:Q1NFBbhqJUwGkAaJqY5UvWoxhBkkU=
+C:Q1rksfwddj8JPwX+OzAXwNO0K++bI=
 P:remind
-V:06.02.05-r0
+V:06.02.06-r0
 A:x86
-S:279674
-I:921497
+S:280133
+I:921278
 T:Sophisticated calendar and alarm program
 U:https://dianne.skoll.ca/projects/remind/
 L:GPL-2.0-only
 o:remind
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1775492489
-c:8af5f7aaa5a28726b7fe680dabe955f18d131448
+t:1779113711
+c:6de188f494c930d369620a04d91273057434743b
 D:so:libc.musl-x86.so.1
-p:cmd:rem2ps=06.02.05-r0 cmd:rem=06.02.05-r0 cmd:remind=06.02.05-r0
+p:cmd:rem2ps=06.02.06-r0 cmd:rem=06.02.06-r0 cmd:remind=06.02.06-r0
 
-C:Q17SmUSA94zREnrmbJnKNPMmiPk54=
+C:Q1C7rpXvBXo1X0KKf76eucMKd2KVE=
 P:remind-doc
-V:06.02.05-r0
+V:06.02.06-r0
 A:x86
-S:108771
-I:106492
+S:109136
+I:106857
 T:Sophisticated calendar and alarm program (documentation)
 U:https://dianne.skoll.ca/projects/remind/
 L:GPL-2.0-only
 o:remind
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1775492489
-c:8af5f7aaa5a28726b7fe680dabe955f18d131448
-i:docs remind=06.02.05-r0
+t:1779113711
+c:6de188f494c930d369620a04d91273057434743b
+i:docs remind=06.02.06-r0
 
 C:Q1hNi68C8uPA4OxjeUMvc+QV9//us=
 P:remmina
@@ -270570,20 +270510,20 @@ t:1758826049
 c:08d6c2c270beb9e283f632a130f0f2d0a0240804
 i:docs rtpengine=12.2.1.4-r2
 
-C:Q1i0SDsyYGvjakS33GhXc8tYWV16Q=
+C:Q1rdgtv6WWX2ZVWUN+W1eLm4+c8QY=
 P:rtpengine-lts
-V:6.18.32-r0
+V:6.18.32-r1
 A:x86
-S:429964
-I:1041264
+S:429892
+I:1041268
 T:Kernel module for rtpengine
 U:https://github.com/sipwise/rtpengine
 L:GPL-3.0-only
 o:rtpengine-lts
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1779052224
-c:322a560c478d5beb6cc7000dba1b0b658e4d7066
-i:rtpengine linux-lts=6.18.32-r0
+t:1779099374
+c:0d11177161abe26264167ff3e67c8a8ec6dcf6a7
+i:rtpengine linux-lts=6.18.32-r1
 
 C:Q1S3yVe0aSTHBEw2mcZqT9BbO8mUg=
 P:rtpengine-openrc
@@ -270616,21 +270556,21 @@ c:08d6c2c270beb9e283f632a130f0f2d0a0240804
 D:rtpengine so:libavcodec.so.61 so:libavfilter.so.10 so:libavformat.so.61 so:libavutil.so.59 so:libc.musl-x86.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libglib-2.0.so.0 so:libmariadb.so.3 so:libopus.so.0 so:libssl.so.3 so:libswresample.so.5
 p:cmd:rtpengine-recording=12.2.1.4-r2
 
-C:Q1rL7WN/e4ekqpJ3e4fEwY3mhRh8s=
+C:Q1jNoJ9/sLlaZY65+Jaw/F8WFZHB4=
 P:rtpengine-virt
-V:6.18.32-r0
+V:6.18.32-r1
 A:x86
-S:353490
+S:353527
 I:827164
 T:virt kernel modules for rtpengine
 U:https://github.com/sipwise/rtpengine
 L:GPL-3.0-only
 o:rtpengine-lts
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1779052224
-c:322a560c478d5beb6cc7000dba1b0b658e4d7066
-D:linux-virt=6.18.32-r0
-i:rtpengine linux-virt=6.18.32-r0
+t:1779099374
+c:0d11177161abe26264167ff3e67c8a8ec6dcf6a7
+D:linux-virt=6.18.32-r1
+i:rtpengine linux-virt=6.18.32-r1
 
 C:Q1xjbKD/95DdJcYFm8bQIu32GU7oE=
 P:rtrlib
@@ -272582,21 +272522,21 @@ c:e4453ce4fcefdd6d94741d0f640203e4a8e212e7
 D:so:libKF6Archive.so.6 so:libKF6Codecs.so.6 so:libKF6ColorScheme.so.6 so:libKF6ConfigCore.so.6 so:libKF6ConfigGui.so.6 so:libKF6ConfigWidgets.so.6 so:libKF6CoreAddons.so.6 so:libKF6Crash.so.6 so:libKF6DBusAddons.so.6 so:libKF6I18n.so.6 so:libKF6IconThemes.so.6 so:libKF6IdleTime.so.6 so:libKF6ItemViews.so.6 so:libKF6KIOCore.so.6 so:libKF6KIOGui.so.6 so:libKF6KIOWidgets.so.6 so:libKF6Notifications.so.6 so:libKF6NotifyConfig.so.6 so:libKF6Prison.so.6 so:libKF6Purpose.so.6 so:libKF6PurposeWidgets.so.6 so:libKF6Service.so.6 so:libKF6SonnetUi.so.6 so:libKF6StatusNotifierItem.so.6 so:libKF6SyntaxHighlighting.so.6 so:libKF6TextAddonsWidgets.so.1 so:libKF6TextAutoCorrectionCore.so.1 so:libKF6TextAutoCorrectionWidgets.so.1 so:libKF6TextAutoGenerateText.so.1 so:libKF6TextCustomEditor.so.1 so:libKF6TextEditTextToSpeech.so.1 so:libKF6TextEmoticonsCore.so.1 so:libKF6TextEmoticonsWidgets.so.1 so:libKF6TextTranslator.so.1 so:libKF6TextUtils.so.1 so:libKF6TextWidgets.so.6 so:libKF6UserFeedbackCore.so.6 so:libKF6UserFeedbackWidgets.so.6 so:libKF6WidgetsAddons.so.6 so:libKF6WindowSystem.so.6 so:libKF6XmlGui.so.6 so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Gui.so.6 so:libQt6Multimedia.so.6 so:libQt6MultimediaWidgets.so.6 so:libQt6Network.so.6 so:libQt6NetworkAuth.so.6 so:libQt6Sql.so.6 so:libQt6WebSockets.so.6 so:libQt6Widgets.so.6 so:libc.musl-x86.so.1 so:libgcc_s.so.1 so:libqt6keychain.so.1 so:libstdc++.so.6
 p:cmd:ruqola=2.7.2-r0 so:librocketchatrestapi-qt.so.0=2.7.2 so:libruqolacore.so.0=2.7.2 so:libruqolawidgets.so.0=2.7.2
 
-C:Q1wB/6q2H/NNJ7uzHeHkdkrIiA40E=
+C:Q1+SvPy+ZCzmfn2nbgNxZqvQ92ALU=
 P:rust-analyzer
-V:2026.05.04-r0
+V:2026.05.18-r0
 A:x86
-S:9885159
-I:21431940
+S:9939404
+I:21501828
 T:Rust compiler front-end for IDEs
 U:https://github.com/rust-lang/rust-analyzer
 L:MIT OR Apache-2.0
 o:rust-analyzer
 m:team/rust <alpine@ptrcnull.me>
-t:1777972634
-c:73af08abb56dea9eabddd61d5a55cfd030739999
+t:1779108183
+c:6f5692dcd45436dac239d83b1833acac980a14b8
 D:rust-src so:libc.musl-x86.so.1 so:libgcc_s.so.1 so:libmimalloc-secure.so.2
-p:cmd:rust-analyzer=2026.05.04-r0
+p:cmd:rust-analyzer=2026.05.18-r0
 
 C:Q1oIASXnGtjfpYV8hkKW646CdfH74=
 P:rustlings
@@ -280128,76 +280068,81 @@ t:1778661427
 c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
 i:sing-box=1.13.11-r1 zsh
 
-C:Q1ZsAVWChxEkCHByELUkKiqxLDMq4=
+C:Q1jRc5ny3tTjNfi/1dlK7W35oJTt0=
 P:singular
-V:4.4.1_p2-r2
+V:4.4.1_p5-r0
 A:x86
-S:11105517
-I:30661851
+S:11129911
+I:30749091
 T:Computer algebra system for polynomial computations
 U:https://www.singular.uni-kl.de/
 L:GPL-2.0-only OR GPL-3.0-only
 o:singular
-t:1771160091
-c:a9e2a2dc46f377eb25884f7fea9834492de7f518
+m:Wen Heping <wenhepingalpine@sohu.com>
+t:1779102671
+c:a144fcfb9194289be6252ebff53fa610efcb1480
 D:python3 so:libc.musl-x86.so.1 so:libcddgmp.so.0 so:libflint.so.22 so:libgcc_s.so.1 so:libgmp.so.10 so:libstdc++.so.6
-p:cmd:ESingular=4.4.1_p2-r2 cmd:Singular=4.4.1_p2-r2 cmd:TSingular=4.4.1_p2-r2 so:libSingular-4.4.1.so=0 so:libfactory-4.4.1.so=0 so:libomalloc-0.9.6.so=0 so:libpolys-4.4.1.so=0 so:libsingular_resources-4.4.1.so=0
+p:cmd:ESingular=4.4.1_p5-r0 cmd:Singular=4.4.1_p5-r0 cmd:TSingular=4.4.1_p5-r0 so:libSingular-4.4.1.so=0 so:libfactory-4.4.1.so=0 so:libomalloc-0.9.6.so=0 so:libpolys-4.4.1.so=0 so:libsingular_resources-4.4.1.so=0
 
-C:Q1CbOlYMIESBEWHjhSV4M1AhP3wPU=
+C:Q1GcQquacWTH+XgBBbwgfEBp+3u04=
 P:singular-dev
-V:4.4.1_p2-r2
+V:4.4.1_p5-r0
 A:x86
-S:367770
-I:1909313
+S:368278
+I:1910140
 T:Computer algebra system for polynomial computations (development files)
 U:https://www.singular.uni-kl.de/
 L:GPL-2.0-only OR GPL-3.0-only
 o:singular
-t:1771160091
-c:a9e2a2dc46f377eb25884f7fea9834492de7f518
-D:singular=4.4.1_p2-r2 pkgconfig
-p:cmd:libpolys-config=4.4.1_p2-r2 cmd:libsingular-config=4.4.1_p2-r2 pc:Singular=4.4.1 pc:factory=4.4.1 pc:libpolys=4.4.1 pc:omalloc=0.9.6 pc:singular_resources=4.4.1
+m:Wen Heping <wenhepingalpine@sohu.com>
+t:1779102671
+c:a144fcfb9194289be6252ebff53fa610efcb1480
+D:singular=4.4.1_p5-r0 pkgconfig
+p:cmd:libpolys-config=4.4.1_p5-r0 cmd:libsingular-config=4.4.1_p5-r0 pc:Singular=4.4.1 pc:factory=4.4.1 pc:libpolys=4.4.1 pc:omalloc=0.9.6 pc:singular_resources=4.4.1
 
-C:Q1U8i2yjoGGq8eeV/MuqC57NXznlo=
+C:Q1t9x9B7sN6UkNK+690r7zAJksnAA=
 P:singular-doc
-V:4.4.1_p2-r2
+V:4.4.1_p5-r0
 A:x86
-S:1415540
-I:6511899
+S:1407071
+I:6438421
 T:Computer algebra system for polynomial computations (documentation)
 U:https://www.singular.uni-kl.de/
 L:GPL-2.0-only OR GPL-3.0-only
 o:singular
-t:1771160091
-c:a9e2a2dc46f377eb25884f7fea9834492de7f518
-i:docs singular=4.4.1_p2-r2
+m:Wen Heping <wenhepingalpine@sohu.com>
+t:1779102671
+c:a144fcfb9194289be6252ebff53fa610efcb1480
+i:docs singular=4.4.1_p5-r0
 
-C:Q1GYqxywsAdmNmXujIt5iPbbcaW/w=
+C:Q1PXp1qITxv3Z8MXP7hXKXEUTm29M=
 P:singular-emacs
-V:4.4.1_p2-r2
+V:4.4.1_p5-r0
 A:x86
-S:103991
-I:478840
+S:104019
+I:478984
 T:Emacs plugins for singular
 U:https://www.singular.uni-kl.de/
 L:GPL-2.0-only OR GPL-3.0-only
 o:singular
-t:1771160091
-c:a9e2a2dc46f377eb25884f7fea9834492de7f518
+m:Wen Heping <wenhepingalpine@sohu.com>
+t:1779102671
+c:a144fcfb9194289be6252ebff53fa610efcb1480
 D:python3
 
-C:Q1OOTysglNmyiBH1z1SIAU+X9E9SI=
+C:Q1mOWq4/MiB9G0LM8n6vddepkU8aI=
 P:singular-static
-V:4.4.1_p2-r2
+V:4.4.1_p5-r0
 A:x86
-S:6076627
-I:18170774
+S:6083288
+I:18192990
 T:Computer algebra system for polynomial computations (static library)
 U:https://www.singular.uni-kl.de/
 L:GPL-2.0-only OR GPL-3.0-only
 o:singular
-t:1771160091
-c:a9e2a2dc46f377eb25884f7fea9834492de7f518
+m:Wen Heping <wenhepingalpine@sohu.com>
+t:1779102671
+c:a144fcfb9194289be6252ebff53fa610efcb1480
 D:singular-dev
 
 C:Q1o+xlQrz2OtR5irNotcl6/VBf43k=
@@ -295134,52 +295079,52 @@ t:1778323874
 c:e8aa346ca99075dd6852d8ea2b2b9b9c388895bc
 i:systemd tinysparql=3.11.1-r0
 
-C:Q1/l9QvbgJd00SlZw6LnnjlyCVPwk=
+C:Q1a6qBqQR4IKR2TRZ2BjM/R8Vxh+c=
 P:tinyssh
-V:20250501-r0
+V:20260401-r0
 A:x86
-S:232368
-I:516928
+S:234196
+I:533312
 T:Small SSH server using NaCl / TweetNaCl (no dependency on OpenSSL)
 U:https://tinyssh.org/
 L:CC0-1.0 OR 0BSD OR MIT-0 OR MIT
 o:tinyssh
 m:Noel Kuntze <noel.kuntze@contauro.com>
-t:1746312018
-c:35fca5b4c7604cffd6f9caae767a404caf6b39c5
+t:1779111521
+c:a19d8a78b3d1a56db7af868d2d638883f9c1fb7b
 D:so:libc.musl-x86.so.1
-p:cmd:tinysshd-makekey=20250501-r0 cmd:tinysshd-printkey=20250501-r0 cmd:tinysshd=20250501-r0 cmd:tinysshnoneauthd=20250501-r0
+p:cmd:tinysshd-makekey=20260401-r0 cmd:tinysshd-printkey=20260401-r0 cmd:tinysshd=20260401-r0 cmd:tinysshnoneauthd=20260401-r0
 
-C:Q1oC1KiYdC2Kdj2+Y/kfrGBp06cXY=
+C:Q18EGIm0Fsa9Fyr+799hYN069yY18=
 P:tinyssh-doc
-V:20250501-r0
+V:20260401-r0
 A:x86
-S:5177
-I:3178
+S:5173
+I:3177
 T:Small SSH server using NaCl / TweetNaCl (no dependency on OpenSSL) (documentation)
 U:https://tinyssh.org/
 L:CC0-1.0 OR 0BSD OR MIT-0 OR MIT
 o:tinyssh
 m:Noel Kuntze <noel.kuntze@contauro.com>
-t:1746312018
-c:35fca5b4c7604cffd6f9caae767a404caf6b39c5
-i:docs tinyssh=20250501-r0
+t:1779111521
+c:a19d8a78b3d1a56db7af868d2d638883f9c1fb7b
+i:docs tinyssh=20260401-r0
 
-C:Q1I7LuDycj0HQBaebX/K2mgwnIHso=
+C:Q1rHlVtUgyaPv28jNcp/F08ln7Nc8=
 P:tinyssh-openrc
-V:20250501-r0
+V:20260401-r0
 A:x86
-S:2345
+S:2347
 I:1000
 T:Small SSH server using NaCl / TweetNaCl (no dependency on OpenSSL) (OpenRC init scripts)
 U:https://tinyssh.org/
 L:CC0-1.0 OR 0BSD OR MIT-0 OR MIT
 o:tinyssh
 m:Noel Kuntze <noel.kuntze@contauro.com>
-t:1746312018
-c:35fca5b4c7604cffd6f9caae767a404caf6b39c5
+t:1779111521
+c:a19d8a78b3d1a56db7af868d2d638883f9c1fb7b
 D:ucspi-tcp6
-i:openrc tinyssh=20250501-r0
+i:openrc tinyssh=20260401-r0
 
 C:Q1gqZJ+n10bAWUnY4rgWCR1z19JXU=
 P:tinyxml
@@ -295397,21 +295342,21 @@ t:1778661427
 c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
 i:udev tkey-ssh-agent=1.1.1-r2
 
-C:Q1PKqBY7hoRRDhKg5D7tVVJRLUA5c=
+C:Q12s4GYPLidSepzGG7+qKz6SVeaqQ=
 P:tkremind
-V:06.02.05-r0
+V:06.02.06-r0
 A:x86
-S:51743
+S:51739
 I:195461
 T:Sophisticated calendar and alarm program
 U:https://dianne.skoll.ca/projects/remind/
 L:GPL-2.0-only
 o:remind
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1775492489
-c:8af5f7aaa5a28726b7fe680dabe955f18d131448
-D:remind=06.02.05-r0 tk tcl-lib
-p:cmd:tkremind=06.02.05-r0
+t:1779113711
+c:6de188f494c930d369620a04d91273057434743b
+D:remind=06.02.06-r0 tk tcl-lib
+p:cmd:tkremind=06.02.06-r0
 
 C:Q1LF8NHVncLpT6d8nqoyQi4Rq5Q7c=
 P:tkts
@@ -305372,35 +305317,35 @@ t:1763685913
 c:fbcb9b65440bdfa790bdc375658fce9d19463a63
 i:docs virt-what=1.27-r1
 
-C:Q1/fJS3gdyipFO0b+Cujf6/pCx6Bw=
+C:Q1BtIoOgDvhiA1cZRb6/45uaBaLxs=
 P:virtio_vmmci-lts
-V:6.18.32-r0
+V:6.18.32-r1
 A:x86
-S:266490
+S:266546
 I:601625
 T:VirtIO driver for OpenBSD VMM Control Interface
 U:https://github.com/voutilad/virtio_vmmci
 L:GPL-2.0-only
 o:virtio_vmmci-lts
 m:Klemens Nanni <kn@openbsd.org>
-t:1779052224
-c:51b901e2c18ee510c336b3d01bdb02565597fe6a
-D:linux-lts=6.18.32-r0
+t:1779099374
+c:594a400c1b319fdb01c86783dfed410f04489480
+D:linux-lts=6.18.32-r1
 
-C:Q18JJ3j2/q5WmARLGKBHKqro9ADVo=
+C:Q1Dldd7scoDbNyLwfTF7c6WcrrAOc=
 P:virtio_vmmci-virt
-V:6.18.32-r0
+V:6.18.32-r1
 A:x86
-S:256987
+S:256923
 I:580393
 T:VirtIO driver for OpenBSD VMM Control Interface for virt kernel
 U:https://github.com/voutilad/virtio_vmmci
 L:GPL-2.0-only
 o:virtio_vmmci-lts
 m:Klemens Nanni <kn@openbsd.org>
-t:1779052224
-c:51b901e2c18ee510c336b3d01bdb02565597fe6a
-D:linux-virt=6.18.32-r0
+t:1779099374
+c:594a400c1b319fdb01c86783dfed410f04489480
+D:linux-virt=6.18.32-r1
 
 C:Q1wecCYy5BM20+CfxMARxdYNJVp34=
 P:virtualbox-guest-additions
@@ -305682,35 +305627,35 @@ c:2f84aabf43eaad9e3b494d648a3e733c150503a3
 D:vlc=3.0.23-r4 so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt5Svg.so.5 so:libQt5Widgets.so.5 so:libQt5X11Extras.so.5 so:libX11.so.6 so:libc.musl-x86.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libvlccore.so.9
 p:cmd:qvlc=3.0.23-r4
 
-C:Q1+0KHQqLBvWpOKkiwl6uHRkqmig0=
+C:Q100U3/O8zHBxmAiAgUN8114k6yvM=
 P:vmm_clock-lts
-V:6.18.32-r0
+V:6.18.32-r1
 A:x86
-S:94548
-I:212346
+S:94571
+I:212370
 T:clocksource under OpenBSD VMM
 U:https://github.com/voutilad/vmm_clock
 L:GPL-2.0-only
 o:vmm_clock-lts
 m:Klemens Nanni <kn@openbsd.org>
-t:1779052224
-c:8ce75339d0bd2f6801a91b8eacb2adb0f909c2ff
-D:linux-lts=6.18.32-r0
+t:1779099374
+c:59c768fcd7e50d7b5955ae00c2db5eb4e434f6de
+D:linux-lts=6.18.32-r1
 
-C:Q1BvQgE+b8QcvIzeEhaNgxakoexRk=
+C:Q14i9T1ydYhg89cYecGrmDLNTVbos=
 P:vmm_clock-virt
-V:6.18.32-r0
+V:6.18.32-r1
 A:x86
-S:92895
+S:92882
 I:208394
 T:clocksource under OpenBSD VMM for virt kernel
 U:https://github.com/voutilad/vmm_clock
 L:GPL-2.0-only
 o:vmm_clock-lts
 m:Klemens Nanni <kn@openbsd.org>
-t:1779052224
-c:8ce75339d0bd2f6801a91b8eacb2adb0f909c2ff
-D:linux-virt=6.18.32-r0
+t:1779099374
+c:59c768fcd7e50d7b5955ae00c2db5eb4e434f6de
+D:linux-virt=6.18.32-r1
 
 C:Q1X91XS1ELEoA/iuFkWRndefz8SIg=
 P:vnstat
@@ -322702,127 +322647,127 @@ t:1765204533
 c:ae75fa6a46786f62a513866b23a6797ca9af19ba
 i:docs zmusic=1.3.0-r0
 
-C:Q19xp55tqYL9iLUeIxXWLr5O8gdbU=
+C:Q1PikNmFvBHDt0h+3rauwKl+4Jp/M=
 P:znc
-V:1.10.1-r3
+V:1.10.2-r0
 A:x86
-S:1838405
+S:1838385
 I:4438139
 T:Advanced IRC bouncer
 U:https://wiki.znc.in/ZNC
 L:Apache-2.0
 o:znc
 m:Runxi Yu <me@runxiyu.org>
-t:1774640453
-c:c2dbe107b1522d7845dbe3e38ebf9929192561ce
+t:1779103202
+c:886624f98012af98d80d26bfe0fe45c39951dfa2
 D:/bin/sh so:libargon2.so.1 so:libc.musl-x86.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libicuuc.so.78 so:libsasl2.so.3 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1
-p:cmd:znc=1.10.1-r3
+p:cmd:znc=1.10.2-r0
 
-C:Q1C0C+LTuEhzxSAe+9VI9LuWZZ+b8=
+C:Q1p150X5+r3moffYIi78bqz0IRV34=
 P:znc-dev
-V:1.10.1-r3
+V:1.10.2-r0
 A:x86
-S:85534
+S:85545
 I:350508
 T:Advanced IRC bouncer (development files)
 U:https://wiki.znc.in/ZNC
 L:Apache-2.0
 o:znc
 m:Runxi Yu <me@runxiyu.org>
-t:1774640453
-c:c2dbe107b1522d7845dbe3e38ebf9929192561ce
+t:1779103202
+c:886624f98012af98d80d26bfe0fe45c39951dfa2
 D:pkgconfig
-p:cmd:znc-buildmod=1.10.1-r3 pc:znc=1.10.1
+p:cmd:znc-buildmod=1.10.2-r0 pc:znc=1.10.2
 
-C:Q1qqoxJwOVx3xMRXF6Cz8TUguVuSY=
+C:Q1KIxhiySKImBFsXY4FTjJhXCRbg8=
 P:znc-doc
-V:1.10.1-r3
+V:1.10.2-r0
 A:x86
-S:3560
+S:3557
 I:1722
 T:Advanced IRC bouncer (documentation)
 U:https://wiki.znc.in/ZNC
 L:Apache-2.0
 o:znc
 m:Runxi Yu <me@runxiyu.org>
-t:1774640453
-c:c2dbe107b1522d7845dbe3e38ebf9929192561ce
-i:docs znc=1.10.1-r3
+t:1779103202
+c:886624f98012af98d80d26bfe0fe45c39951dfa2
+i:docs znc=1.10.2-r0
 
-C:Q1F9xvf31bbiyF+1SO0nYmVc0u/M8=
+C:Q1dU4+7O8LZ9WjdAoz96CvMKTs1jg=
 P:znc-extra
-V:1.10.1-r3
+V:1.10.2-r0
 A:x86
-S:160254
+S:160243
 I:458600
 T:Extra modules for ZNC
 U:https://wiki.znc.in/ZNC
 L:Apache-2.0
 o:znc
 m:Runxi Yu <me@runxiyu.org>
-t:1774640453
-c:c2dbe107b1522d7845dbe3e38ebf9929192561ce
+t:1779103202
+c:886624f98012af98d80d26bfe0fe45c39951dfa2
 D:so:libc.musl-x86.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 
-C:Q1+KtsZYAaGqSmjamGzs959tE42e0=
+C:Q19Ur0YD00/MRIocTu8vy9BtT3Y2k=
 P:znc-modperl
-V:1.10.1-r3
+V:1.10.2-r0
 A:x86
-S:895110
+S:895013
 I:3282023
 T:Perl module for ZNC
 U:https://wiki.znc.in/ZNC
 L:Apache-2.0
 o:znc
 m:Runxi Yu <me@runxiyu.org>
-t:1774640453
-c:c2dbe107b1522d7845dbe3e38ebf9929192561ce
-D:znc=1.10.1-r3 so:libc.musl-x86.so.1 so:libgcc_s.so.1 so:libperl.so so:libstdc++.so.6
+t:1779103202
+c:886624f98012af98d80d26bfe0fe45c39951dfa2
+D:znc=1.10.2-r0 so:libc.musl-x86.so.1 so:libgcc_s.so.1 so:libperl.so so:libstdc++.so.6
 
-C:Q11XB4onS/TtSUWaeKtpGrJ4ngqpw=
+C:Q1+TSr3T6U+uJaj6vQMc7vUBo5SYw=
 P:znc-modpython
-V:1.10.1-r3
+V:1.10.2-r0
 A:x86
-S:782689
+S:782686
 I:3010787
 T:Python modules for ZNC
 U:https://wiki.znc.in/ZNC
 L:Apache-2.0
 o:znc
 m:Runxi Yu <me@runxiyu.org>
-t:1774640453
-c:c2dbe107b1522d7845dbe3e38ebf9929192561ce
-D:znc=1.10.1-r3 so:libc.musl-x86.so.1 so:libgcc_s.so.1 so:libpython3.14.so.1.0 so:libstdc++.so.6
+t:1779103202
+c:886624f98012af98d80d26bfe0fe45c39951dfa2
+D:znc=1.10.2-r0 so:libc.musl-x86.so.1 so:libgcc_s.so.1 so:libpython3.14.so.1.0 so:libstdc++.so.6
 
-C:Q1X6MIEGP9zxmOsH6uJbJTlQzMUTk=
+C:Q1chfs6IDfiddjn6js6WuKyTDl1qc=
 P:znc-modtcl
-V:1.10.1-r3
+V:1.10.2-r0
 A:x86
-S:24780
+S:24776
 I:60433
 T:TCL module for ZNC
 U:https://wiki.znc.in/ZNC
 L:Apache-2.0
 o:znc
 m:Runxi Yu <me@runxiyu.org>
-t:1774640453
-c:c2dbe107b1522d7845dbe3e38ebf9929192561ce
-D:znc=1.10.1-r3 so:libc.musl-x86.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libtcl8.6.so
+t:1779103202
+c:886624f98012af98d80d26bfe0fe45c39951dfa2
+D:znc=1.10.2-r0 so:libc.musl-x86.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libtcl8.6.so
 
-C:Q13fLTcDTzgA32ewP8LSQ3OmV/XHw=
+C:Q1+KCX3ipCh13TpVfZ2GdccfVWsTA=
 P:znc-openrc
-V:1.10.1-r3
+V:1.10.2-r0
 A:x86
-S:2328
+S:2331
 I:1328
 T:Advanced IRC bouncer (OpenRC init scripts)
 U:https://wiki.znc.in/ZNC
 L:Apache-2.0
 o:znc
 m:Runxi Yu <me@runxiyu.org>
-t:1774640453
-c:c2dbe107b1522d7845dbe3e38ebf9929192561ce
-i:openrc znc=1.10.1-r3
+t:1779103202
+c:886624f98012af98d80d26bfe0fe45c39951dfa2
+i:openrc znc=1.10.2-r0
 
 C:Q1KL1ScPgJpM3K73JU1GJ6XDeegNY=
 P:zola
