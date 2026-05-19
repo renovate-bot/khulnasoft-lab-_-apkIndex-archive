@@ -75636,7 +75636,8 @@
     "imagemagick": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "/bin/sh",
@@ -75653,25 +75654,26 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:animate=7.1.2.22-r0",
-        "cmd:compare=7.1.2.22-r0",
-        "cmd:composite=7.1.2.22-r0",
-        "cmd:conjure=7.1.2.22-r0",
-        "cmd:convert=7.1.2.22-r0",
-        "cmd:display=7.1.2.22-r0",
-        "cmd:identify=7.1.2.22-r0",
-        "cmd:import=7.1.2.22-r0",
-        "cmd:magick-script=7.1.2.22-r0",
-        "cmd:magick=7.1.2.22-r0",
-        "cmd:mogrify=7.1.2.22-r0",
-        "cmd:montage=7.1.2.22-r0",
-        "cmd:stream=7.1.2.22-r0"
+        "cmd:animate=7.1.2.23-r0",
+        "cmd:compare=7.1.2.23-r0",
+        "cmd:composite=7.1.2.23-r0",
+        "cmd:conjure=7.1.2.23-r0",
+        "cmd:convert=7.1.2.23-r0",
+        "cmd:display=7.1.2.23-r0",
+        "cmd:identify=7.1.2.23-r0",
+        "cmd:import=7.1.2.23-r0",
+        "cmd:magick-script=7.1.2.23-r0",
+        "cmd:magick=7.1.2.23-r0",
+        "cmd:mogrify=7.1.2.23-r0",
+        "cmd:montage=7.1.2.23-r0",
+        "cmd:stream=7.1.2.23-r0"
       ]
     },
     "imagemagick-c++": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -75687,18 +75689,19 @@
     "imagemagick-dev": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
-        "imagemagick=7.1.2.22-r0",
-        "imagemagick-c++=7.1.2.22-r0",
-        "imagemagick-libs=7.1.2.22-r0",
+        "imagemagick=7.1.2.23-r0",
+        "imagemagick-c++=7.1.2.23-r0",
+        "imagemagick-libs=7.1.2.23-r0",
         "pkgconfig"
       ],
       "provides": [
-        "cmd:Magick++-config=7.1.2.22-r0",
-        "cmd:MagickCore-config=7.1.2.22-r0",
-        "cmd:MagickWand-config=7.1.2.22-r0",
+        "cmd:Magick++-config=7.1.2.23-r0",
+        "cmd:MagickCore-config=7.1.2.23-r0",
+        "cmd:MagickWand-config=7.1.2.23-r0",
         "pc:ImageMagick-7.Q16HDRI=7.1.2",
         "pc:ImageMagick=7.1.2",
         "pc:Magick++-7.Q16HDRI=7.1.2",
@@ -75712,13 +75715,15 @@
     "imagemagick-doc": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       }
     },
     "imagemagick-heic": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -75730,7 +75735,8 @@
     "imagemagick-jp2": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -75742,7 +75748,8 @@
     "imagemagick-jpeg": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -75754,7 +75761,8 @@
     "imagemagick-jxl": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -75767,7 +75775,8 @@
     "imagemagick-libs": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -75793,7 +75802,8 @@
     "imagemagick-openexr": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -75806,7 +75816,8 @@
     "imagemagick-pango": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -75821,7 +75832,8 @@
     "imagemagick-pdf": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -75833,7 +75845,8 @@
     "imagemagick-perlmagick": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -75844,13 +75857,15 @@
     "imagemagick-perlmagick-doc": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       }
     },
     "imagemagick-raw": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -75862,7 +75877,8 @@
     "imagemagick-static": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "imagemagick-dev"
@@ -75871,7 +75887,8 @@
     "imagemagick-svg": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -75887,7 +75904,8 @@
     "imagemagick-tiff": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -75901,7 +75919,8 @@
     "imagemagick-webp": {
       "origin": "imagemagick",
       "versions": {
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -147127,7 +147146,8 @@
     "openrct2": {
       "origin": "openrct2",
       "versions": {
-        "0.5.0-r0": 1776073856
+        "0.5.0-r0": 1776073856,
+        "0.5.1-r0": 1779175834
       },
       "dependencies": [
         "openrct2-data",
@@ -147149,14 +147169,15 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:openrct2=0.5.0-r0",
+        "cmd:openrct2=0.5.1-r0",
         "so:libopenrct2.so=0"
       ]
     },
     "openrct2-cli": {
       "origin": "openrct2",
       "versions": {
-        "0.5.0-r0": 1776073856
+        "0.5.0-r0": 1776073856,
+        "0.5.1-r0": 1779175834
       },
       "dependencies": [
         "openrct2-data",
@@ -147166,19 +147187,21 @@
         "so:libopenrct2.so"
       ],
       "provides": [
-        "cmd:openrct2-cli=0.5.0-r0"
+        "cmd:openrct2-cli=0.5.1-r0"
       ]
     },
     "openrct2-data": {
       "origin": "openrct2",
       "versions": {
-        "0.5.0-r0": 1776073856
+        "0.5.0-r0": 1776073856,
+        "0.5.1-r0": 1779175834
       }
     },
     "openrct2-doc": {
       "origin": "openrct2",
       "versions": {
-        "0.5.0-r0": 1776073856
+        "0.5.0-r0": 1776073856,
+        "0.5.1-r0": 1779175834
       }
     },
     "openresty": {
@@ -152096,7 +152119,8 @@
     "perl-business-isbn": {
       "origin": "perl-business-isbn",
       "versions": {
-        "3.013-r0": 1777903115
+        "3.013-r0": 1777903115,
+        "3.014-r0": 1779176766
       },
       "dependencies": [
         "perl",
@@ -152121,7 +152145,8 @@
     "perl-business-isbn-doc": {
       "origin": "perl-business-isbn",
       "versions": {
-        "3.013-r0": 1777903115
+        "3.013-r0": 1777903115,
+        "3.014-r0": 1779176766
       }
     },
     "perl-business-ismn": {
@@ -168399,7 +168424,8 @@
     "phpunit": {
       "origin": "phpunit",
       "versions": {
-        "11.5.43-r1": 1778101278
+        "11.5.43-r1": 1778101278,
+        "11.5.55-r0": 1779173119
       },
       "dependencies": [
         "php85",
@@ -168412,7 +168438,7 @@
         "php85-xmlwriter"
       ],
       "provides": [
-        "cmd:phpunit=11.5.43-r1"
+        "cmd:phpunit=11.5.55-r0"
       ]
     },
     "physfs": {
@@ -198364,7 +198390,8 @@
     "py3-pynitrokey": {
       "origin": "py3-pynitrokey",
       "versions": {
-        "0.12.0-r0": 1775744517
+        "0.12.0-r0": 1775744517,
+        "0.12.2-r0": 1779174604
       },
       "dependencies": [
         "nitrokey-udev-rules",
@@ -198386,14 +198413,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:nitropy=0.12.0-r0",
-        "py3.14:pynitrokey=0.12.0-r0"
+        "cmd:nitropy=0.12.2-r0",
+        "py3.14:pynitrokey=0.12.2-r0"
       ]
     },
     "py3-pynitrokey-pyc": {
       "origin": "py3-pynitrokey",
       "versions": {
-        "0.12.0-r0": 1775744517
+        "0.12.0-r0": 1775744517,
+        "0.12.2-r0": 1779174604
       },
       "dependencies": [
         "python3~3.14"

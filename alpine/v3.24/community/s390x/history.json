@@ -73612,7 +73612,8 @@
     "haruna": {
       "origin": "haruna",
       "versions": {
-        "1.7.1-r1": 1770131057
+        "1.7.1-r1": 1770131057,
+        "1.8.0-r0": 1779174025
       },
       "dependencies": [
         "kirigami",
@@ -73631,7 +73632,7 @@
         "so:libKF6KIOWidgets.so.6",
         "so:libKF6Service.so.6",
         "so:libKF6WindowSystem.so.6",
-        "so:libMpvQt.so.2",
+        "so:libMpvQt.so.3",
         "so:libQt6Core.so.6",
         "so:libQt6DBus.so.6",
         "so:libQt6Gui.so.6",
@@ -73650,13 +73651,14 @@
         "so:libswscale.so.9"
       ],
       "provides": [
-        "cmd:haruna=1.7.1-r1"
+        "cmd:haruna=1.8.0-r0"
       ]
     },
     "haruna-lang": {
       "origin": "haruna",
       "versions": {
-        "1.7.1-r1": 1770131057
+        "1.7.1-r1": 1770131057,
+        "1.8.0-r0": 1779174025
       }
     },
     "hashcash": {
@@ -77781,7 +77783,8 @@
       "origin": "imagemagick",
       "versions": {
         "7.1.2.21-r0": 1777060448,
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "/bin/sh",
@@ -77798,26 +77801,27 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:animate=7.1.2.22-r0",
-        "cmd:compare=7.1.2.22-r0",
-        "cmd:composite=7.1.2.22-r0",
-        "cmd:conjure=7.1.2.22-r0",
-        "cmd:convert=7.1.2.22-r0",
-        "cmd:display=7.1.2.22-r0",
-        "cmd:identify=7.1.2.22-r0",
-        "cmd:import=7.1.2.22-r0",
-        "cmd:magick-script=7.1.2.22-r0",
-        "cmd:magick=7.1.2.22-r0",
-        "cmd:mogrify=7.1.2.22-r0",
-        "cmd:montage=7.1.2.22-r0",
-        "cmd:stream=7.1.2.22-r0"
+        "cmd:animate=7.1.2.23-r0",
+        "cmd:compare=7.1.2.23-r0",
+        "cmd:composite=7.1.2.23-r0",
+        "cmd:conjure=7.1.2.23-r0",
+        "cmd:convert=7.1.2.23-r0",
+        "cmd:display=7.1.2.23-r0",
+        "cmd:identify=7.1.2.23-r0",
+        "cmd:import=7.1.2.23-r0",
+        "cmd:magick-script=7.1.2.23-r0",
+        "cmd:magick=7.1.2.23-r0",
+        "cmd:mogrify=7.1.2.23-r0",
+        "cmd:montage=7.1.2.23-r0",
+        "cmd:stream=7.1.2.23-r0"
       ]
     },
     "imagemagick-c++": {
       "origin": "imagemagick",
       "versions": {
         "7.1.2.21-r0": 1777060448,
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -77834,18 +77838,19 @@
       "origin": "imagemagick",
       "versions": {
         "7.1.2.21-r0": 1777060448,
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
-        "imagemagick=7.1.2.22-r0",
-        "imagemagick-c++=7.1.2.22-r0",
-        "imagemagick-libs=7.1.2.22-r0",
+        "imagemagick=7.1.2.23-r0",
+        "imagemagick-c++=7.1.2.23-r0",
+        "imagemagick-libs=7.1.2.23-r0",
         "pkgconfig"
       ],
       "provides": [
-        "cmd:Magick++-config=7.1.2.22-r0",
-        "cmd:MagickCore-config=7.1.2.22-r0",
-        "cmd:MagickWand-config=7.1.2.22-r0",
+        "cmd:Magick++-config=7.1.2.23-r0",
+        "cmd:MagickCore-config=7.1.2.23-r0",
+        "cmd:MagickWand-config=7.1.2.23-r0",
         "pc:ImageMagick-7.Q16HDRI=7.1.2",
         "pc:ImageMagick=7.1.2",
         "pc:Magick++-7.Q16HDRI=7.1.2",
@@ -77860,14 +77865,16 @@
       "origin": "imagemagick",
       "versions": {
         "7.1.2.21-r0": 1777060448,
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       }
     },
     "imagemagick-heic": {
       "origin": "imagemagick",
       "versions": {
         "7.1.2.21-r0": 1777060448,
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -77879,7 +77886,8 @@
       "origin": "imagemagick",
       "versions": {
         "7.1.2.21-r0": 1777060448,
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -77891,7 +77899,8 @@
       "origin": "imagemagick",
       "versions": {
         "7.1.2.21-r0": 1777060448,
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -77903,7 +77912,8 @@
       "origin": "imagemagick",
       "versions": {
         "7.1.2.21-r0": 1777060448,
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -77916,7 +77926,8 @@
       "origin": "imagemagick",
       "versions": {
         "7.1.2.21-r0": 1777060448,
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -77943,7 +77954,8 @@
       "origin": "imagemagick",
       "versions": {
         "7.1.2.21-r0": 1777060448,
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -77956,7 +77968,8 @@
       "origin": "imagemagick",
       "versions": {
         "7.1.2.21-r0": 1777060448,
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -77971,7 +77984,8 @@
       "origin": "imagemagick",
       "versions": {
         "7.1.2.21-r0": 1777060448,
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -77983,7 +77997,8 @@
       "origin": "imagemagick",
       "versions": {
         "7.1.2.21-r0": 1777060448,
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -77994,14 +78009,16 @@
       "origin": "imagemagick",
       "versions": {
         "7.1.2.21-r0": 1777060448,
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       }
     },
     "imagemagick-raw": {
       "origin": "imagemagick",
       "versions": {
         "7.1.2.21-r0": 1777060448,
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -78013,7 +78030,8 @@
       "origin": "imagemagick",
       "versions": {
         "7.1.2.21-r0": 1777060448,
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "imagemagick-dev"
@@ -78023,7 +78041,8 @@
       "origin": "imagemagick",
       "versions": {
         "7.1.2.21-r0": 1777060448,
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -78039,7 +78058,8 @@
       "origin": "imagemagick",
       "versions": {
         "7.1.2.21-r0": 1777060448,
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -78054,7 +78074,8 @@
       "origin": "imagemagick",
       "versions": {
         "7.1.2.21-r0": 1777060448,
-        "7.1.2.22-r0": 1778752800
+        "7.1.2.22-r0": 1778752800,
+        "7.1.2.23-r0": 1779171008
       },
       "dependencies": [
         "so:libMagickCore-7.Q16HDRI.so.10",
@@ -139032,7 +139053,8 @@
     "nitrokey-app2": {
       "origin": "nitrokey-app2",
       "versions": {
-        "2.7.0-r0": 1777625148
+        "2.7.0-r0": 1777625148,
+        "2.7.1-r0": 1779174604
       },
       "dependencies": [
         "py3-pynitrokey",
@@ -139041,14 +139063,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:nitrokeyapp=2.7.0-r0",
-        "py3.14:nitrokeyapp=2.7.0-r0"
+        "cmd:nitrokeyapp=2.7.1-r0",
+        "py3.14:nitrokeyapp=2.7.1-r0"
       ]
     },
     "nitrokey-app2-pyc": {
       "origin": "nitrokey-app2",
       "versions": {
-        "2.7.0-r0": 1777625148
+        "2.7.0-r0": 1777625148,
+        "2.7.1-r0": 1779174604
       },
       "dependencies": [
         "python3~3.14"
@@ -168337,7 +168360,8 @@
     "perl-business-isbn": {
       "origin": "perl-business-isbn",
       "versions": {
-        "3.013-r0": 1777903115
+        "3.013-r0": 1777903115,
+        "3.014-r0": 1779176766
       },
       "dependencies": [
         "perl",
@@ -168362,7 +168386,8 @@
     "perl-business-isbn-doc": {
       "origin": "perl-business-isbn",
       "versions": {
-        "3.013-r0": 1777903115
+        "3.013-r0": 1777903115,
+        "3.014-r0": 1779176766
       }
     },
     "perl-business-ismn": {
@@ -185064,7 +185089,8 @@
     "phpunit": {
       "origin": "phpunit",
       "versions": {
-        "11.5.43-r1": 1778101278
+        "11.5.43-r1": 1778101278,
+        "11.5.55-r0": 1779173119
       },
       "dependencies": [
         "php85",
@@ -185077,7 +185103,7 @@
         "php85-xmlwriter"
       ],
       "provides": [
-        "cmd:phpunit=11.5.43-r1"
+        "cmd:phpunit=11.5.55-r0"
       ]
     },
     "physfs": {
@@ -216984,7 +217010,8 @@
     "py3-pynitrokey": {
       "origin": "py3-pynitrokey",
       "versions": {
-        "0.12.0-r0": 1775744517
+        "0.12.0-r0": 1775744517,
+        "0.12.2-r0": 1779174604
       },
       "dependencies": [
         "nitrokey-udev-rules",
@@ -217006,14 +217033,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:nitropy=0.12.0-r0",
-        "py3.14:pynitrokey=0.12.0-r0"
+        "cmd:nitropy=0.12.2-r0",
+        "py3.14:pynitrokey=0.12.2-r0"
       ]
     },
     "py3-pynitrokey-pyc": {
       "origin": "py3-pynitrokey",
       "versions": {
-        "0.12.0-r0": 1775744517
+        "0.12.0-r0": 1775744517,
+        "0.12.2-r0": 1779174604
       },
       "dependencies": [
         "python3~3.14"
