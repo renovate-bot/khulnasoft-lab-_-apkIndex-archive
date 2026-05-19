@@ -31594,7 +31594,8 @@
       "origin": "ddcutil",
       "versions": {
         "2.2.6-r1": 1777233304,
-        "2.2.7-r0": 1779125001
+        "2.2.7-r0": 1779125001,
+        "2.2.7-r1": 1779210009
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -31602,6 +31603,7 @@
         "so:libXrandr.so.2",
         "so:libacl.so.1",
         "so:libc.musl-s390x.so.1",
+        "so:libdbus-1.so.3",
         "so:libdrm.so.2",
         "so:libglib-2.0.so.0",
         "so:libjansson.so.4",
@@ -31609,7 +31611,7 @@
         "so:libusb-1.0.so.0"
       ],
       "provides": [
-        "cmd:ddcutil=2.2.7-r0",
+        "cmd:ddcutil=2.2.7-r1",
         "so:libddcutil.so.5=5.5.1"
       ]
     },
@@ -31617,10 +31619,11 @@
       "origin": "ddcutil",
       "versions": {
         "2.2.6-r1": 1777233304,
-        "2.2.7-r0": 1779125001
+        "2.2.7-r0": 1779125001,
+        "2.2.7-r1": 1779210009
       },
       "dependencies": [
-        "ddcutil=2.2.7-r0",
+        "ddcutil=2.2.7-r1",
         "pkgconfig"
       ],
       "provides": [
@@ -31631,14 +31634,16 @@
       "origin": "ddcutil",
       "versions": {
         "2.2.6-r1": 1777233304,
-        "2.2.7-r0": 1779125001
+        "2.2.7-r0": 1779125001,
+        "2.2.7-r1": 1779210009
       }
     },
     "ddcutil-udev": {
       "origin": "ddcutil",
       "versions": {
         "2.2.6-r1": 1777233304,
-        "2.2.7-r0": 1779125001
+        "2.2.7-r0": 1779125001,
+        "2.2.7-r1": 1779210009
       }
     },
     "ddnrs": {
@@ -94393,17 +94398,19 @@
       "origin": "kubernetes",
       "versions": {
         "1.36.0-r0": 1776956368,
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       },
       "provides": [
-        "cmd:kube-apiserver=1.36.0-r1"
+        "cmd:kube-apiserver=1.36.1-r0"
       ]
     },
     "kube-apiserver-openrc": {
       "origin": "kubernetes",
       "versions": {
         "1.36.0-r0": 1776956368,
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       },
       "dependencies": [
         "openrc"
@@ -94413,17 +94420,19 @@
       "origin": "kubernetes",
       "versions": {
         "1.36.0-r0": 1776956368,
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       },
       "provides": [
-        "cmd:kube-controller-manager=1.36.0-r1"
+        "cmd:kube-controller-manager=1.36.1-r0"
       ]
     },
     "kube-controller-manager-openrc": {
       "origin": "kubernetes",
       "versions": {
         "1.36.0-r0": 1776956368,
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       },
       "dependencies": [
         "openrc"
@@ -94433,20 +94442,22 @@
       "origin": "kubernetes",
       "versions": {
         "1.36.0-r0": 1776956368,
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       },
       "dependencies": [
         "iptables"
       ],
       "provides": [
-        "cmd:kube-proxy=1.36.0-r1"
+        "cmd:kube-proxy=1.36.1-r0"
       ]
     },
     "kube-proxy-openrc": {
       "origin": "kubernetes",
       "versions": {
         "1.36.0-r0": 1776956368,
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       },
       "dependencies": [
         "openrc"
@@ -94456,17 +94467,19 @@
       "origin": "kubernetes",
       "versions": {
         "1.36.0-r0": 1776956368,
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       },
       "provides": [
-        "cmd:kube-scheduler=1.36.0-r1"
+        "cmd:kube-scheduler=1.36.1-r0"
       ]
     },
     "kube-scheduler-openrc": {
       "origin": "kubernetes",
       "versions": {
         "1.36.0-r0": 1776956368,
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       },
       "dependencies": [
         "openrc"
@@ -94476,7 +94489,8 @@
       "origin": "kubernetes",
       "versions": {
         "1.36.0-r0": 1776956368,
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       },
       "dependencies": [
         "iproute2",
@@ -94486,38 +94500,42 @@
         "cri-tools"
       ],
       "provides": [
-        "cmd:kubeadm=1.36.0-r1"
+        "cmd:kubeadm=1.36.1-r0"
       ]
     },
     "kubeadm-bash-completion": {
       "origin": "kubernetes",
       "versions": {
         "1.36.0-r0": 1776956368,
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       }
     },
     "kubeadm-zsh-completion": {
       "origin": "kubernetes",
       "versions": {
         "1.36.0-r0": 1776956368,
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       }
     },
     "kubectl": {
       "origin": "kubernetes",
       "versions": {
         "1.36.0-r0": 1776956368,
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       },
       "provides": [
-        "cmd:kubectl=1.36.0-r1"
+        "cmd:kubectl=1.36.1-r0"
       ]
     },
     "kubectl-bash-completion": {
       "origin": "kubernetes",
       "versions": {
         "1.36.0-r0": 1776956368,
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       }
     },
     "kubectl-cert-manager": {
@@ -94539,20 +94557,22 @@
       "origin": "kubernetes",
       "versions": {
         "1.36.0-r0": 1776956368,
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       },
       "dependencies": [
         "kubectl"
       ],
       "provides": [
-        "cmd:kubectl-convert=1.36.0-r1"
+        "cmd:kubectl-convert=1.36.1-r0"
       ]
     },
     "kubectl-zsh-completion": {
       "origin": "kubernetes",
       "versions": {
         "1.36.0-r0": 1776956368,
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       }
     },
     "kubectx": {
@@ -94594,20 +94614,22 @@
       "origin": "kubernetes",
       "versions": {
         "1.36.0-r0": 1776956368,
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       },
       "dependencies": [
         "iptables"
       ],
       "provides": [
-        "cmd:kubelet=1.36.0-r1"
+        "cmd:kubelet=1.36.1-r0"
       ]
     },
     "kubelet-openrc": {
       "origin": "kubernetes",
       "versions": {
         "1.36.0-r0": 1776956368,
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       },
       "dependencies": [
         "openrc"
@@ -94617,7 +94639,8 @@
       "origin": "kubernetes",
       "versions": {
         "1.36.0-r0": 1776956368,
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       }
     },
     "kubo": {
@@ -214737,7 +214760,8 @@
     "py3-pontos": {
       "origin": "py3-pontos",
       "versions": {
-        "26.4.3-r0": 1778002062
+        "26.4.3-r0": 1778002062,
+        "26.5.0-r0": 1779206312
       },
       "dependencies": [
         "py3-colorful",
@@ -214753,29 +214777,30 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:pontos-changelog=26.4.3-r0",
-        "cmd:pontos-github-actions=26.4.3-r0",
-        "cmd:pontos-github-script=26.4.3-r0",
-        "cmd:pontos-github=26.4.3-r0",
-        "cmd:pontos-nvd-cpe-match=26.4.3-r0",
-        "cmd:pontos-nvd-cpe-matches=26.4.3-r0",
-        "cmd:pontos-nvd-cpe=26.4.3-r0",
-        "cmd:pontos-nvd-cpes=26.4.3-r0",
-        "cmd:pontos-nvd-cve-changes=26.4.3-r0",
-        "cmd:pontos-nvd-cve=26.4.3-r0",
-        "cmd:pontos-nvd-cves=26.4.3-r0",
-        "cmd:pontos-nvd-sources=26.4.3-r0",
-        "cmd:pontos-release=26.4.3-r0",
-        "cmd:pontos-update-header=26.4.3-r0",
-        "cmd:pontos-version=26.4.3-r0",
-        "cmd:pontos=26.4.3-r0",
-        "py3.14:pontos=26.4.3-r0"
+        "cmd:pontos-changelog=26.5.0-r0",
+        "cmd:pontos-github-actions=26.5.0-r0",
+        "cmd:pontos-github-script=26.5.0-r0",
+        "cmd:pontos-github=26.5.0-r0",
+        "cmd:pontos-nvd-cpe-match=26.5.0-r0",
+        "cmd:pontos-nvd-cpe-matches=26.5.0-r0",
+        "cmd:pontos-nvd-cpe=26.5.0-r0",
+        "cmd:pontos-nvd-cpes=26.5.0-r0",
+        "cmd:pontos-nvd-cve-changes=26.5.0-r0",
+        "cmd:pontos-nvd-cve=26.5.0-r0",
+        "cmd:pontos-nvd-cves=26.5.0-r0",
+        "cmd:pontos-nvd-sources=26.5.0-r0",
+        "cmd:pontos-release=26.5.0-r0",
+        "cmd:pontos-update-header=26.5.0-r0",
+        "cmd:pontos-version=26.5.0-r0",
+        "cmd:pontos=26.5.0-r0",
+        "py3.14:pontos=26.5.0-r0"
       ]
     },
     "py3-pontos-pyc": {
       "origin": "py3-pontos",
       "versions": {
-        "26.4.3-r0": 1778002062
+        "26.4.3-r0": 1778002062,
+        "26.5.0-r0": 1779206312
       },
       "dependencies": [
         "python3~3.14"

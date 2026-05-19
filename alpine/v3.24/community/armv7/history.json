@@ -32819,7 +32819,8 @@
     "ddcutil": {
       "origin": "ddcutil",
       "versions": {
-        "2.2.7-r0": 1779125001
+        "2.2.7-r0": 1779125001,
+        "2.2.7-r1": 1779210009
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -32827,6 +32828,7 @@
         "so:libXrandr.so.2",
         "so:libacl.so.1",
         "so:libc.musl-armv7.so.1",
+        "so:libdbus-1.so.3",
         "so:libdrm.so.2",
         "so:libglib-2.0.so.0",
         "so:libjansson.so.4",
@@ -32834,17 +32836,18 @@
         "so:libusb-1.0.so.0"
       ],
       "provides": [
-        "cmd:ddcutil=2.2.7-r0",
+        "cmd:ddcutil=2.2.7-r1",
         "so:libddcutil.so.5=5.5.1"
       ]
     },
     "ddcutil-dev": {
       "origin": "ddcutil",
       "versions": {
-        "2.2.7-r0": 1779125001
+        "2.2.7-r0": 1779125001,
+        "2.2.7-r1": 1779210009
       },
       "dependencies": [
-        "ddcutil=2.2.7-r0",
+        "ddcutil=2.2.7-r1",
         "pkgconfig"
       ],
       "provides": [
@@ -32854,13 +32857,15 @@
     "ddcutil-doc": {
       "origin": "ddcutil",
       "versions": {
-        "2.2.7-r0": 1779125001
+        "2.2.7-r0": 1779125001,
+        "2.2.7-r1": 1779210009
       }
     },
     "ddcutil-udev": {
       "origin": "ddcutil",
       "versions": {
-        "2.2.7-r0": 1779125001
+        "2.2.7-r0": 1779125001,
+        "2.2.7-r1": 1779210009
       }
     },
     "ddnrs": {

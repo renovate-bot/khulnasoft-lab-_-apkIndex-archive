@@ -31613,21 +31613,21 @@ c:1b37f970c30ca3ac3fbc3fedde036482461430e1
 D:qt6-qtsvg so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libcprime-core.so.5 so:libcprime-widgets.so.5 so:libgcc_s.so.1 so:libstdc++.so.6
 p:cmd:corerenamer=5.0.0-r0
 
-C:Q1N5J3SCL7koWv1eDsFTa4m3AkfV0=
+C:Q10QKTOHOjfrhd18NF+RqjMZnULWM=
 P:coreshot
-V:5.0.0-r4
+V:5.0.0-r5
 A:armhf
-S:51020
+S:51017
 I:127461
 T:A screen capture utility from C-Suite
 U:https://gitlab.com/cubocore
 L:GPL-3.0-or-later
 o:coreshot
 m:rahmanshaber <rahmanshaber@yahoo.com>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
 D:qt6-qtsvg so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Widgets.so.6 so:libX11.so.6 so:libc.musl-armhf.so.1 so:libcprime-core.so.5 so:libcprime-widgets.so.5 so:libgcc_s.so.1 so:libstdc++.so.6
-p:cmd:coreshot=5.0.0-r4
+p:cmd:coreshot=5.0.0-r5
 
 C:Q1mavk6jwPEA6M23J3EGu2RTDkm+I=
 P:corestats
@@ -35092,56 +35092,56 @@ t:1769946369
 c:e305aeff557e41445327c16d9ca98fe5735fe3c4
 i:openrc ddclient=4.0.0-r2
 
-C:Q1R1xVRodpkmGqxyTbHwBab68hpTg=
+C:Q1OYLQqD6Ulwe7isKm/XXpau649+w=
 P:ddcutil
-V:2.2.7-r0
+V:2.2.7-r1
 A:armhf
-S:1049598
-I:2364205
+S:1054237
+I:2376493
 T:Query and change Linux monitor settings using DDC/CI and USB
 U:https://github.com/rockowitz/ddcutil
 L:GPL-2.0-only
 o:ddcutil
 m:Bart Ribbers <bribbers@disroot.org>
-t:1779125001
-c:29f7ee6092a979f4a658894d1492e5fc1d767198
-D:so:libX11.so.6 so:libXext.so.6 so:libXrandr.so.2 so:libacl.so.1 so:libc.musl-armhf.so.1 so:libdrm.so.2 so:libglib-2.0.so.0 so:libjansson.so.4 so:libudev.so.1 so:libusb-1.0.so.0
-p:cmd:ddcutil=2.2.7-r0 so:libddcutil.so.5=5.5.1
+t:1779210009
+c:f698c3b2e977d0a65a464533aa195eef12874322
+D:so:libX11.so.6 so:libXext.so.6 so:libXrandr.so.2 so:libacl.so.1 so:libc.musl-armhf.so.1 so:libdbus-1.so.3 so:libdrm.so.2 so:libglib-2.0.so.0 so:libjansson.so.4 so:libudev.so.1 so:libusb-1.0.so.0
+p:cmd:ddcutil=2.2.7-r1 so:libddcutil.so.5=5.5.1
 
-C:Q1PYTiEzRPZFC84xMUjsAcjRlD5w8=
+C:Q1uLYp+ofWaWqjJzD2y/4EjRGb/Y0=
 P:ddcutil-dev
-V:2.2.7-r0
+V:2.2.7-r1
 A:armhf
-S:24089
+S:24096
 I:90361
 T:Query and change Linux monitor settings using DDC/CI and USB (development files)
 U:https://github.com/rockowitz/ddcutil
 L:GPL-2.0-only
 o:ddcutil
 m:Bart Ribbers <bribbers@disroot.org>
-t:1779125001
-c:29f7ee6092a979f4a658894d1492e5fc1d767198
-D:ddcutil=2.2.7-r0 pkgconfig
+t:1779210009
+c:f698c3b2e977d0a65a464533aa195eef12874322
+D:ddcutil=2.2.7-r1 pkgconfig
 p:pc:ddcutil=2.2.7
 
-C:Q1W/oeQHCEUJkM4KsDpBVQGblYNoA=
+C:Q1kmeSUiPPSch1BdAXIFrNMmPLo2o=
 P:ddcutil-doc
-V:2.2.7-r0
+V:2.2.7-r1
 A:armhf
-S:8366
+S:8376
 I:6579
 T:Query and change Linux monitor settings using DDC/CI and USB (documentation)
 U:https://github.com/rockowitz/ddcutil
 L:GPL-2.0-only
 o:ddcutil
 m:Bart Ribbers <bribbers@disroot.org>
-t:1779125001
-c:29f7ee6092a979f4a658894d1492e5fc1d767198
-i:docs ddcutil=2.2.7-r0
+t:1779210009
+c:f698c3b2e977d0a65a464533aa195eef12874322
+i:docs ddcutil=2.2.7-r1
 
-C:Q1NqLlri0w9MukumcgYyQIUdXimKQ=
+C:Q1jNk0IGFxuYFmshghfPvM7yONHyk=
 P:ddcutil-udev
-V:2.2.7-r0
+V:2.2.7-r1
 A:armhf
 S:1834
 I:320
@@ -35150,9 +35150,9 @@ U:https://github.com/rockowitz/ddcutil
 L:GPL-2.0-only
 o:ddcutil
 m:Bart Ribbers <bribbers@disroot.org>
-t:1779125001
-c:29f7ee6092a979f4a658894d1492e5fc1d767198
-i:udev ddcutil=2.2.7-r0
+t:1779210009
+c:f698c3b2e977d0a65a464533aa195eef12874322
+i:udev ddcutil=2.2.7-r1
 
 C:Q1z+FSnLDmWnc7KyUxNBa1IOMNpTk=
 P:ddnrs
@@ -46829,51 +46829,51 @@ t:1776707016
 c:c4bbfe71146b337e2654347d0d2836dcb0dd2915
 i:fcitx5-m17n=5.1.6-r0 lang
 
-C:Q1q77tW9OY1wCa1SPBCkHPBvp1VPk=
+C:Q1RogeSpt8k4TuqXhkCoVO4QcHt+4=
 P:fcitx5-qt
-V:5.1.13-r0
+V:5.1.13-r1
 A:armhf
-S:322864
-I:835634
+S:323409
+I:839730
 T:Qt library and IM module for Fcitx5
 U:https://github.com/fcitx/fcitx5-qt
 L:LGPL-2.1-or-later AND BSD-3-Clause
 o:fcitx5-qt
 m:Lindsay Zhou <i@lin.moe>
-t:1776707016
-c:75f241e04aa0103c6c51279208c052da6f530d00
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
 D:so:libFcitx5Utils.so.2 so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Gui.so.6 so:libQt6WaylandClient.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libxcb.so.1 so:libxkbcommon.so.0
-p:cmd:fcitx5-qt6-immodule-probing=5.1.13-r0 so:libFcitx5Qt6DBusAddons.so.1=5.1.13 so:libFcitx5Qt6WidgetsAddons.so.2=5.1.13
+p:cmd:fcitx5-qt6-immodule-probing=5.1.13-r1 so:libFcitx5Qt6DBusAddons.so.1=5.1.13 so:libFcitx5Qt6WidgetsAddons.so.2=5.1.13
 
-C:Q1mmSQXdc6GphGrQXEZ8YrMNuenPk=
+C:Q1ba0KokjvprI8+MWeTpkSr1gGFCM=
 P:fcitx5-qt-dev
-V:5.1.13-r0
+V:5.1.13-r1
 A:armhf
-S:13258
+S:13265
 I:56931
 T:Qt library and IM module for Fcitx5 (development files)
 U:https://github.com/fcitx/fcitx5-qt
 L:LGPL-2.1-or-later AND BSD-3-Clause
 o:fcitx5-qt
 m:Lindsay Zhou <i@lin.moe>
-t:1776707016
-c:75f241e04aa0103c6c51279208c052da6f530d00
-D:fcitx5-qt=5.1.13-r0
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
+D:fcitx5-qt=5.1.13-r1
 
-C:Q1HFNqRsez2tYeXXcKcRy9TX5ZS9A=
+C:Q1l/T5otaXwVb27kEjjrcbFsEvrvY=
 P:fcitx5-qt-lang
-V:5.1.13-r0
+V:5.1.13-r1
 A:armhf
-S:16732
+S:16734
 I:45283
 T:Languages for package fcitx5-qt
 U:https://github.com/fcitx/fcitx5-qt
 L:LGPL-2.1-or-later AND BSD-3-Clause
 o:fcitx5-qt
 m:Lindsay Zhou <i@lin.moe>
-t:1776707016
-c:75f241e04aa0103c6c51279208c052da6f530d00
-i:fcitx5-qt=5.1.13-r0 lang
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
+i:fcitx5-qt=5.1.13-r1 lang
 
 C:Q1b4q5Oa58JKvCiTLH033Vyx2bLKc=
 P:fcitx5-rime
@@ -77994,147 +77994,147 @@ t:1773005794
 c:44a4f73e706339afcf63252af71dd996c0aa9190
 i:himalaya=1.2.0-r0 zsh
 
-C:Q14v+u7TcmWIHDXIPt/hC8sZQlE/s=
+C:Q14UQlY8/DHFObQ2EuZ0U1qTTc+nw=
 P:hime
-V:0.9.12_git20231221-r5
+V:0.9.12_git20231221-r6
 A:armhf
-S:3883103
+S:3883116
 I:9590765
 T:HIME Input Method Editor
 U:https://hime-ime.github.io/
 L:LGPL-2.1-or-later AND GPL-2.0-or-later
 o:hime
 m:rubicon <rubicon@mailo.com>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
 D:bash cmd:whereis so:libX11.so.6 so:libXtst.so.6 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0
-p:cmd:hime-cin2gtab=0.9.12_git20231221-r5 cmd:hime-env=0.9.12_git20231221-r5 cmd:hime-exit=0.9.12_git20231221-r5 cmd:hime-gb-toggle=0.9.12_git20231221-r5 cmd:hime-gtab-merge=0.9.12_git20231221-r5 cmd:hime-gtab2cin=0.9.12_git20231221-r5 cmd:hime-juyin-learn=0.9.12_git20231221-r5 cmd:hime-kbm-toggle=0.9.12_git20231221-r5 cmd:hime-message=0.9.12_git20231221-r5 cmd:hime-phoa2d=0.9.12_git20231221-r5 cmd:hime-phod2a=0.9.12_git20231221-r5 cmd:hime-setup=0.9.12_git20231221-r5 cmd:hime-sim2trad=0.9.12_git20231221-r5 cmd:hime-sim=0.9.12_git20231221-r5 cmd:hime-trad2sim=0.9.12_git20231221-r5 cmd:hime-trad=0.9.12_git20231221-r5 cmd:hime-ts-edit=0.9.12_git20231221-r5 cmd:hime-tsa2d32=0.9.12_git20231221-r5 cmd:hime-tsd2a32=0.9.12_git20231221-r5 cmd:hime-tsin2gtab-phrase=0.9.12_git20231221-r5 cmd:hime-tslearn=0.9.12_git20231221-r5 cmd:hime=0.9.12_git20231221-r5 so:intcode-module.so=0 so:libhime-im-client.so.1=1.2.4
+p:cmd:hime-cin2gtab=0.9.12_git20231221-r6 cmd:hime-env=0.9.12_git20231221-r6 cmd:hime-exit=0.9.12_git20231221-r6 cmd:hime-gb-toggle=0.9.12_git20231221-r6 cmd:hime-gtab-merge=0.9.12_git20231221-r6 cmd:hime-gtab2cin=0.9.12_git20231221-r6 cmd:hime-juyin-learn=0.9.12_git20231221-r6 cmd:hime-kbm-toggle=0.9.12_git20231221-r6 cmd:hime-message=0.9.12_git20231221-r6 cmd:hime-phoa2d=0.9.12_git20231221-r6 cmd:hime-phod2a=0.9.12_git20231221-r6 cmd:hime-setup=0.9.12_git20231221-r6 cmd:hime-sim2trad=0.9.12_git20231221-r6 cmd:hime-sim=0.9.12_git20231221-r6 cmd:hime-trad2sim=0.9.12_git20231221-r6 cmd:hime-trad=0.9.12_git20231221-r6 cmd:hime-ts-edit=0.9.12_git20231221-r6 cmd:hime-tsa2d32=0.9.12_git20231221-r6 cmd:hime-tsd2a32=0.9.12_git20231221-r6 cmd:hime-tsin2gtab-phrase=0.9.12_git20231221-r6 cmd:hime-tslearn=0.9.12_git20231221-r6 cmd:hime=0.9.12_git20231221-r6 so:intcode-module.so=0 so:libhime-im-client.so.1=1.2.4
 
-C:Q1ED8FRPyY1Ph81Ra+qMxIY5HY9ek=
+C:Q1VXDuJH+ANtJY8FxtRwTcZrw4AW8=
 P:hime-anthy
-V:0.9.12_git20231221-r5
+V:0.9.12_git20231221-r6
 A:armhf
-S:19864
+S:19862
 I:52176
 T:HIME Input Method Editor (Anthy Hiragana support)
 U:https://hime-ime.github.io/
 L:LGPL-2.1-or-later AND GPL-2.0-or-later
 o:hime
 m:rubicon <rubicon@mailo.com>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
 D:so:libanthy.so.0 so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0
 p:so:anthy-module.so=0
-i:hime=0.9.12_git20231221-r5 anthy
+i:hime=0.9.12_git20231221-r6 anthy
 
-C:Q1qyt8+3HFnJp0BYt4lsWnvW+9Xe4=
+C:Q1vEZ36DE1X8NkjXul0JTiuq+c1HA=
 P:hime-chewing
-V:0.9.12_git20231221-r5
+V:0.9.12_git20231221-r6
 A:armhf
-S:12510
+S:12508
 I:30016
 T:HIME Input Method Editor (Chewing Bopomofo support)
 U:https://hime-ime.github.io/
 L:LGPL-2.1-or-later AND GPL-2.0-or-later
 o:hime
 m:rubicon <rubicon@mailo.com>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
 D:so:libc.musl-armhf.so.1 so:libchewing.so.3 so:libgdk-3.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libpango-1.0.so.0
 p:so:chewing-module.so=0
-i:hime=0.9.12_git20231221-r5 libchewing
+i:hime=0.9.12_git20231221-r6 libchewing
 
-C:Q1G2PTGOzazgF7EB8k0eGiqzxb1Sg=
+C:Q10Q1bi1JqHVNh2Rs2qUsi/ivLMZA=
 P:hime-dev
-V:0.9.12_git20231221-r5
+V:0.9.12_git20231221-r6
 A:armhf
-S:3278
+S:3275
 I:5430
 T:HIME Input Method Editor (development files)
 U:https://hime-ime.github.io/
 L:LGPL-2.1-or-later AND GPL-2.0-or-later
 o:hime
 m:rubicon <rubicon@mailo.com>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
 
-C:Q1IoobnfTQeo0OfpWw0vl/hv/1uq4=
+C:Q14sgLQvDbRuNNCQ5Ky/rp0EiLR8I=
 P:hime-doc
-V:0.9.12_git20231221-r5
+V:0.9.12_git20231221-r6
 A:armhf
-S:21420
+S:21424
 I:35432
 T:HIME Input Method Editor (documentation)
 U:https://hime-ime.github.io/
 L:LGPL-2.1-or-later AND GPL-2.0-or-later
 o:hime
 m:rubicon <rubicon@mailo.com>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-i:docs hime=0.9.12_git20231221-r5
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
+i:docs hime=0.9.12_git20231221-r6
 
-C:Q1Ca0gcM1eLLdBoDT7vioPl0yvt1g=
+C:Q1TGbM8UQM42yJYrnCNYqGDN+ThlU=
 P:hime-gtk3
-V:0.9.12_git20231221-r5
+V:0.9.12_git20231221-r6
 A:armhf
-S:6602
+S:6598
 I:13488
 T:HIME Input Method Editor (Gtk+3 immodule)
 U:https://hime-ime.github.io/
 L:LGPL-2.1-or-later AND GPL-2.0-or-later
 o:hime
 m:rubicon <rubicon@mailo.com>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
 D:/bin/sh so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libhime-im-client.so.1 so:libpango-1.0.so.0
-i:hime=0.9.12_git20231221-r5 gtk+3.0
+i:hime=0.9.12_git20231221-r6 gtk+3.0
 
-C:Q1JVF3aqOadnbzqErujhyfL9trTQw=
+C:Q11zPZc2bbjAZyRK2+/Hgh2mwli+k=
 P:hime-lang
-V:0.9.12_git20231221-r5
+V:0.9.12_git20231221-r6
 A:armhf
-S:12943
+S:12933
 I:40964
 T:Languages for package hime
 U:https://hime-ime.github.io/
 L:LGPL-2.1-or-later AND GPL-2.0-or-later
 o:hime
 m:rubicon <rubicon@mailo.com>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-i:hime=0.9.12_git20231221-r5 lang
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
+i:hime=0.9.12_git20231221-r6 lang
 
-C:Q193BwbCyaXA+roIwH9eE5BdSusF8=
+C:Q1pnnc46anZqWeGzr16TihRpsviLQ=
 P:hime-qt5
-V:0.9.12_git20231221-r5
+V:0.9.12_git20231221-r6
 A:armhf
-S:18346
+S:18345
 I:50620
 T:HIME Input Method Editor (Qt5 immodule)
 U:https://hime-ime.github.io/
 L:LGPL-2.1-or-later AND GPL-2.0-or-later
 o:hime
 m:rubicon <rubicon@mailo.com>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
 D:so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libhime-im-client.so.1 so:libstdc++.so.6
-i:hime=0.9.12_git20231221-r5 qt5-qtbase-x11
+i:hime=0.9.12_git20231221-r6 qt5-qtbase-x11
 
-C:Q1NLiOoGe4w/CDUlyZok3hUuq9ZBU=
+C:Q19f1HPJMYrfy4+i+9lhZAuGtiDs0=
 P:hime-qt6
-V:0.9.12_git20231221-r5
+V:0.9.12_git20231221-r6
 A:armhf
-S:30020
+S:30018
 I:99964
 T:HIME Input Method Editor (Qt6 immodule)
 U:https://hime-ime.github.io/
 L:LGPL-2.1-or-later AND GPL-2.0-or-later
 o:hime
 m:rubicon <rubicon@mailo.com>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
 D:so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libhime-im-client.so.1 so:libstdc++.so.6
-i:hime=0.9.12_git20231221-r5 qt6-qtbase-x11
+i:hime=0.9.12_git20231221-r6 qt6-qtbase-x11
 
 C:Q1cw+j5n02E0teJ8iqhGDugWZ9VMI=
 P:himitsu-secret-service
@@ -96785,53 +96785,53 @@ t:1753282076
 c:730f2f5bdc97be98b2beee33f55134c622e6189c
 i:libfm=1.4.0-r0 lang
 
-C:Q1KbBOi8ZXpi4/w0hXhrs7sUzz3JA=
+C:Q1HK5TpociRAjjnMYbXvctfv6QhRI=
 P:libfm-qt
-V:2.4.0-r0
+V:2.4.0-r1
 A:armhf
-S:568992
+S:568995
 I:1456135
 T:Qt port of libfm
 U:https://github.com/lxqt/libfm-qt
 L:LGPL-2.0-or-later
 o:libfm-qt
 m:Antoni Aloy <aaloytorrens@gmail.com>
-t:1776701450
-c:f46ba174f52da2b937ccda113bcf5d225f70ce32
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
 D:lxqt-menu-data so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libexif.so.12 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libmenu-cache.so.3 so:libstdc++.so.6 so:libxcb.so.1
 p:so:libfm-qt6.so.17=17.0.0
 
-C:Q10m8vh/dzOYbSnzQE6G9HnRoVXHI=
+C:Q1tZ9mBQE1i7PydAfKp7DE0OYaIrk=
 P:libfm-qt-dev
-V:2.4.0-r0
+V:2.4.0-r1
 A:armhf
-S:63129
+S:63123
 I:268628
 T:Qt port of libfm (development files)
 U:https://github.com/lxqt/libfm-qt
 L:LGPL-2.0-or-later
 o:libfm-qt
 m:Antoni Aloy <aaloytorrens@gmail.com>
-t:1776701450
-c:f46ba174f52da2b937ccda113bcf5d225f70ce32
-D:perl libfm-dev libexif-dev lxqt-build-tools menu-cache-dev qt6-qtbase-dev qt6-qttools-dev libfm-qt=2.4.0-r0 pc:Qt6Widgets>=6.6.0 pkgconfig
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
+D:perl libfm-dev libexif-dev lxqt-build-tools menu-cache-dev qt6-qtbase-dev qt6-qttools-dev libfm-qt=2.4.0-r1 pc:Qt6Widgets>=6.6.0 pkgconfig
 p:pc:libfm-qt6=2.4.0
 
-C:Q1WMDnXRF6LR8+rZe9otYldfLGLTo=
+C:Q1C2hfG5MWA6xMDfpngWeSoVBU3pA=
 P:libfm-qt-lang
-V:2.4.0-r0
+V:2.4.0-r1
 A:armhf
-S:373435
+S:373462
 I:1328351
 T:Qt port of libfm
 U:https://github.com/lxqt/libfm-qt
 L:LGPL-2.0-or-later
 o:libfm-qt
 m:Antoni Aloy <aaloytorrens@gmail.com>
-t:1776701450
-c:f46ba174f52da2b937ccda113bcf5d225f70ce32
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
 D:lxqt-menu-data
-i:lang libfm-qt=2.4.0-r0
+i:lang libfm-qt=2.4.0-r1
 
 C:Q1CbXF9qbXu1rYXdveVVR2E6+10jc=
 P:libfolia
@@ -105933,83 +105933,83 @@ c:72946efb83c838351806fc2ff8f08e4b958a8a02
 D:so:libc.musl-armhf.so.1 so:libplist-2.0.so.4
 p:cmd:plistutil=2.7.0-r1
 
-C:Q1uzaSvIRizAdlJ3kf5qRi40ef83g=
+C:Q1TCJp6LO0SNbBz7bYorJLyaIaxOA=
 P:libportal
-V:0.9.1-r9
+V:0.9.1-r10
 A:armhf
-S:63903
+S:63909
 I:171072
 T:GIO-style async APIs for most Flatpak portals
 U:https://github.com/flatpak/libportal
 L:LGPL-3.0-or-later
 o:libportal
 m:Achill Gilgenast <achill@achill.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
 D:so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0
 p:so:libportal.so.1=1.0.0
 
-C:Q1nKQIVB7KNPYLzuT2/L/0U8pECS4=
+C:Q1a+lErV46E9iAQvKgEs/ArETebgU=
 P:libportal-dev
-V:0.9.1-r9
+V:0.9.1-r10
 A:armhf
-S:47205
+S:47212
 I:397836
 T:GIO-style async APIs for most Flatpak portals (development files)
 U:https://github.com/flatpak/libportal
 L:LGPL-3.0-or-later
 o:libportal
 m:Achill Gilgenast <achill@achill.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-D:libportal-gtk3=0.9.1-r9 libportal-gtk4=0.9.1-r9 libportal-qt6=0.9.1-r9 libportal=0.9.1-r9 pc:Qt6Core pc:Qt6Gui pc:Qt6Widgets pc:gio-2.0>=2.72 pc:gio-unix-2.0 pc:gtk+-3.0 pc:gtk4 pkgconfig
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
+D:libportal-gtk3=0.9.1-r10 libportal-gtk4=0.9.1-r10 libportal-qt6=0.9.1-r10 libportal=0.9.1-r10 pc:Qt6Core pc:Qt6Gui pc:Qt6Widgets pc:gio-2.0>=2.72 pc:gio-unix-2.0 pc:gtk+-3.0 pc:gtk4 pkgconfig
 p:pc:libportal-gtk3=0.9.1 pc:libportal-gtk4=0.9.1 pc:libportal-qt6=0.9.1 pc:libportal=0.9.1
 
-C:Q1dS9stk/lbrOEQ+7LIEneb+cJCCY=
+C:Q1JomvlKkeIf4WGoH+hC11GbBZcC0=
 P:libportal-gtk3
-V:0.9.1-r9
+V:0.9.1-r10
 A:armhf
-S:8427
+S:8426
 I:18000
 T:GIO-style async APIs for most Flatpak portals (GTK+3.0 backend)
 U:https://github.com/flatpak/libportal
 L:LGPL-3.0-or-later
 o:libportal
 m:Achill Gilgenast <achill@achill.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-D:libportal=0.9.1-r9 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
+D:libportal=0.9.1-r10 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0
 p:so:libportal-gtk3.so.1=1.0.0
 
-C:Q1oS66RN4siMbzqBGDvs9jEwAxcQU=
+C:Q13B0XvXxetPcDfY499nHz90Rty5g=
 P:libportal-gtk4
-V:0.9.1-r9
+V:0.9.1-r10
 A:armhf
-S:8443
+S:8431
 I:18000
 T:GIO-style async APIs for most Flatpak portals (GTK4.0 backend)
 U:https://github.com/flatpak/libportal
 L:LGPL-3.0-or-later
 o:libportal
 m:Achill Gilgenast <achill@achill.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-D:libportal=0.9.1-r9 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
+D:libportal=0.9.1-r10 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1
 p:so:libportal-gtk4.so.1=1.0.0
 
-C:Q18fS4FlnIkLl5b1PrQQzgjlb9Y5U=
+C:Q1WVVVxYp69Scx6pX3RA19X857eCM=
 P:libportal-qt6
-V:0.9.1-r9
+V:0.9.1-r10
 A:armhf
-S:17594
+S:17613
 I:38332
 T:GIO-style async APIs for most Flatpak portals (Qt6 backend)
 U:https://github.com/flatpak/libportal
 L:LGPL-3.0-or-later
 o:libportal
 m:Achill Gilgenast <achill@achill.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
 D:so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libportal.so.1 so:libstdc++.so.6
 p:so:libportal-qt6.so.1=1.0.0
 
@@ -106729,36 +106729,36 @@ c:58a9a55753a529a3f69be712da3c2d9ff0e45c1c
 D:so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt5Sql.so.5 so:libQt5Widgets.so.5 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 p:so:libQt5Help.so.5=5.15.18
 
-C:Q1Ifh86PblTHhIZzR2lV+eB0eurxg=
+C:Q16FNstVvSeC12dws1ZxNQm5J/13Y=
 P:libqtxdg
-V:4.4.0-r0
+V:4.4.0-r1
 A:armhf
-S:163451
-I:382362
+S:165305
+I:378266
 T:Qt implementation of freedesktop.org xdg specifications
 U:https://github.com/lxqt/libqtxdg
 L:LGPL-2.0-or-later
 o:libqtxdg
 m:Antoni Aloy <aaloytorrens@gmail.com>
-t:1776701449
-c:b0acd19a841e73e12684d6136db0be39bb892ef0
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
 D:gtk+3.0 so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Gui.so.6 so:libQt6Svg.so.6 so:libQt6Widgets.so.6 so:libQt6Xml.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libstdc++.so.6
 p:so:libQt6Xdg.so.4=4.4.0 so:libQt6XdgIconLoader.so.4=4.4.0
 
-C:Q1akTYleetj0pfbNMhzm8N25Ij5Bk=
+C:Q17Yc8eDCrGpxVIBOS+eeCvltaCOc=
 P:libqtxdg-dev
-V:4.4.0-r0
+V:4.4.0-r1
 A:armhf
-S:20207
+S:20214
 I:75494
 T:Qt implementation of freedesktop.org xdg specifications (development files)
 U:https://github.com/lxqt/libqtxdg
 L:LGPL-2.0-or-later
 o:libqtxdg
 m:Antoni Aloy <aaloytorrens@gmail.com>
-t:1776701449
-c:b0acd19a841e73e12684d6136db0be39bb892ef0
-D:libqtxdg=4.4.0-r0 pc:Qt6Core>=6.6.0 pc:Qt6DBus>=6.6.0 pc:Qt6Gui>=6.6.0 pc:Qt6Svg>=6.6.0 pc:Qt6Widgets>=6.6.0 pc:Qt6Xml>=6.6.0 pkgconfig
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
+D:libqtxdg=4.4.0-r1 pc:Qt6Core>=6.6.0 pc:Qt6DBus>=6.6.0 pc:Qt6Gui>=6.6.0 pc:Qt6Svg>=6.6.0 pc:Qt6Widgets>=6.6.0 pc:Qt6Xml>=6.6.0 pkgconfig
 p:pc:Qt6Xdg=4.4.0 pc:Qt6XdgIconLoader=4.4.0
 
 C:Q1Ti1jBoWYIdmMlAi+d5Ic74T2q4A=
@@ -106793,36 +106793,36 @@ c:35233a8a24fd6fdbdcbb098e7c1b2f8c1a506365
 D:so:libQt6Core.so.6 so:libQt6Core5Compat.so.6 so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1
 p:so:libquazip1-qt6.so.1.5.0=1.5
 
-C:Q1+XB+Rjcq46S0N2BkHsuYKJmagQ8=
+C:Q1/7A/W4dMSBa5QcyrHuGKrIPVE8U=
 P:libquotient
-V:0.9.6.1-r1
+V:0.9.6.1-r2
 A:armhf
-S:703954
+S:704085
 I:2028980
 T:Qt library for cross-platform clients for Matrix
 U:https://github.com/quotient-im/libQuotient
 L:LGPL-2.1-or-later
 o:libquotient
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
 D:so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6Sql.so.6 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libolm.so.3 so:libqt6keychain.so.1 so:libstdc++.so.6
 p:so:libQuotientQt6.so.0.9=0.9.6.1
 
-C:Q1/1asZJt5KvlpFoMSPjps8mUITME=
+C:Q1Uy6gkPK/JyF9aooeqVRRhDGDsqs=
 P:libquotient-dev
-V:0.9.6.1-r1
+V:0.9.6.1-r2
 A:armhf
-S:195031
+S:194989
 I:796387
 T:Qt library for cross-platform clients for Matrix (development files)
 U:https://github.com/quotient-im/libQuotient
 L:LGPL-2.1-or-later
 o:libquotient
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-D:olm-dev qt6-qtbase-dev qtkeychain-dev libquotient=0.9.6.1-r1 pkgconfig
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
+D:olm-dev qt6-qtbase-dev qtkeychain-dev libquotient=0.9.6.1-r2 pkgconfig
 p:pc:QuotientQt6=0.9
 
 C:Q1J/o5YwHT9KVzpT1ttxLoLyn0Ubk=
@@ -180209,51 +180209,51 @@ t:1778515159
 c:15f5571b131ff02edd3080547270511563647c95
 i:pimsync=0.5.9-r0 zsh
 
-C:Q1rlbTWgI73lt44HhtFvBf8rovOQ0=
+C:Q1Q2JN9vXEo+M5r0/dutca4FNsTIg=
 P:pinentry-gnome
-V:1.3.2-r6
+V:1.3.2-r7
 A:armhf
-S:34709
+S:34705
 I:71224
 T:Graphical UI's for Pinentry
 U:https://www.gnupg.org/aegypten2/
 L:GPL-2.0-or-later
 o:pinentry-ui
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
 D:gcr /bin/sh so:libassuan.so.9 so:libc.musl-armhf.so.1 so:libgcr-base-3.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgpg-error.so.0 so:libncursesw.so.6 so:libsecret-1.so.0
-p:pinentry-gtk=1.3.2-r6 cmd:pinentry-gnome3=1.3.2-r6 cmd:pinentry-gtk-2=1.3.2-r6
+p:pinentry-gtk=1.3.2-r7 cmd:pinentry-gnome3=1.3.2-r7 cmd:pinentry-gtk-2=1.3.2-r7
 
-C:Q12cXJYgtmapbRYi90M3nym6Nx02I=
+C:Q1fF2wbq15x+iS4UgGTMUNQSNHg44=
 P:pinentry-qt
-V:1.3.2-r6
+V:1.3.2-r7
 A:armhf
-S:70767
+S:70763
 I:161952
 T:Graphical UI's for Pinentry
 U:https://www.gnupg.org/aegypten2/
 L:GPL-2.0-or-later
 o:pinentry-ui
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
 D:/bin/sh so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Widgets.so.6 so:libassuan.so.9 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgpg-error.so.0 so:libncursesw.so.6 so:libsecret-1.so.0 so:libstdc++.so.6
-p:cmd:pinentry-qt=1.3.2-r6
+p:cmd:pinentry-qt=1.3.2-r7
 
-C:Q1nDCjhPLUVtr53kw81Iaico1Ip2U=
+C:Q1LzeKBTA0ZGKlf+U4y0KiFhooxjY=
 P:pinentry-ui
-V:1.3.2-r6
+V:1.3.2-r7
 A:armhf
-S:20985
+S:20983
 I:50699
 T:Graphical UI's for Pinentry
 U:https://www.gnupg.org/aegypten2/
 L:GPL-2.0-or-later
 o:pinentry-ui
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
 
 C:Q1gYNgGdHLR4y1ga9SAZOyIidEa3A=
 P:pingus
@@ -234356,82 +234356,82 @@ t:1732710086
 c:3f43aeb2467dba7a11f30a27bfab0c32a8fb4956
 D:!qbe<1.2-r3 !qbe>1.2-r3
 
-C:Q1lWpbMjFjI55jc+Dni2bm0VWjYyw=
+C:Q1/sR0VNcVsStb/7al77o+eSZPDDs=
 P:qbittorrent
-V:5.1.4-r3
+V:5.1.4-r4
 A:armhf
-S:8883734
-I:12158072
+S:8886410
+I:12162168
 T:qBittorrent client
 U:https://www.qbittorrent.org/
 L:GPL-2.0-or-later
 o:qbittorrent
 m:Simon Zeni <simon@bl4ckb0ne.ca>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
 D:qt6-qtsvg so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6Sql.so.6 so:libQt6Widgets.so.6 so:libQt6Xml.so.6 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libstdc++.so.6 so:libtorrent-rasterbar.so.2.0 so:libz.so.1
-p:cmd:qbittorrent=5.1.4-r3
+p:cmd:qbittorrent=5.1.4-r4
 
-C:Q1nXz4wpAsDP3MfmvsoktxR/o+4nE=
+C:Q1tG6oOFC6VZUcDZvMtvCC0FJ/Zyo=
 P:qbittorrent-doc
-V:5.1.4-r3
+V:5.1.4-r4
 A:armhf
-S:2367
+S:2373
 I:686
 T:qBittorrent client (documentation)
 U:https://www.qbittorrent.org/
 L:GPL-2.0-or-later
 o:qbittorrent
 m:Simon Zeni <simon@bl4ckb0ne.ca>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-i:docs qbittorrent=5.1.4-r3
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
+i:docs qbittorrent=5.1.4-r4
 
-C:Q1ghLJr+OkU3gzgcsv46RaDcci+VU=
+C:Q1Wpef8C6Fjfar7reCINpG2Avfh90=
 P:qbittorrent-nox
-V:5.1.4-r3
+V:5.1.4-r4
 A:armhf
-S:7797559
+S:7800229
 I:9499344
 T:qBittorrent client (webui)
 U:https://www.qbittorrent.org/
 L:GPL-2.0-or-later
 o:qbittorrent
 m:Simon Zeni <simon@bl4ckb0ne.ca>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
 D:/bin/sh so:libQt6Core.so.6 so:libQt6Network.so.6 so:libQt6Sql.so.6 so:libQt6Xml.so.6 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libstdc++.so.6 so:libtorrent-rasterbar.so.2.0 so:libz.so.1
-p:cmd:qbittorrent-nox=5.1.4-r3
+p:cmd:qbittorrent-nox=5.1.4-r4
 
-C:Q19yrrsCGCjihAcVhmAWUhzfHjNX0=
+C:Q1avajqexJgDiqSY8AizoSwzjATZQ=
 P:qbittorrent-nox-doc
-V:5.1.4-r3
+V:5.1.4-r4
 A:armhf
-S:2537
+S:2526
 I:828
 T:qBittorrent client (documentation)
 U:https://www.qbittorrent.org/
 L:GPL-2.0-or-later
 o:qbittorrent
 m:Simon Zeni <simon@bl4ckb0ne.ca>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-i:docs qbittorrent=5.1.4-r3
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
+i:docs qbittorrent=5.1.4-r4
 
-C:Q16F3mpRvzEEMxmbYPdBlg3YYk70Y=
+C:Q10NnNIpu/LsyIJy8A+LKzyIwsZMo=
 P:qbittorrent-nox-openrc
-V:5.1.4-r3
+V:5.1.4-r4
 A:armhf
-S:2063
+S:2062
 I:765
 T:qBittorrent client (OpenRC init scripts) (webui) (OpenRC init scripts)
 U:https://www.qbittorrent.org/
 L:GPL-2.0-or-later
 o:qbittorrent
 m:Simon Zeni <simon@bl4ckb0ne.ca>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-i:openrc qbittorrent-nox=5.1.4-r3
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
+i:openrc qbittorrent-nox=5.1.4-r4
 
 C:Q1rIoS2Lx3WAIFmnklUL1cxACTnmU=
 P:qbootctl
@@ -236059,368 +236059,368 @@ t:1759624377
 c:98fe6841562ae1fa7a275baaff1779bd25ed0917
 D:qt5-qwt=6.3.0-r0 so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt5Widgets.so.5 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libqwt-qt5.so.6.3 so:libstdc++.so.6
 
-C:Q1H/ay2BWoRjLTDcLUCdVVVdlDNhM=
+C:Q13Hlh1j0HyEBvZ9LVaL47uJqyjfY=
 P:qt6-qt3d
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:3525821
-I:10204327
+S:3525576
+I:10216615
 T:C++ and QML APIs for easy inclusion of 3D graphics
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qt3d
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:so:libQt6Concurrent.so.6 so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6OpenGL.so.6 so:libQt6ShaderTools.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1
-p:so:libQt63DAnimation.so.6=6.11.0 so:libQt63DCore.so.6=6.11.0 so:libQt63DExtras.so.6=6.11.0 so:libQt63DInput.so.6=6.11.0 so:libQt63DLogic.so.6=6.11.0 so:libQt63DRender.so.6=6.11.0
+p:so:libQt63DAnimation.so.6=6.11.1 so:libQt63DCore.so.6=6.11.1 so:libQt63DExtras.so.6=6.11.1 so:libQt63DInput.so.6=6.11.1 so:libQt63DLogic.so.6=6.11.1 so:libQt63DRender.so.6=6.11.1
 
-C:Q14sxPBpT4roI0uRDWZK2LykzEfKQ=
+C:Q1TSd3EZfiWwy54IaWRLKpxi2E5OY=
 P:qt6-qt3d-dev
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:374940
-I:2083326
+S:377413
+I:2123157
 T:C++ and QML APIs for easy inclusion of 3D graphics (development files)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qt3d
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-D:qt6-qtshadertools-dev qt6-qt3d=6.11.0-r1 pc:Qt6Concurrent pc:Qt6Core pc:Qt6Gui pc:Qt6Network pc:Qt6OpenGL pkgconfig
-p:pc:Qt63DAnimation=6.11.0 pc:Qt63DCore=6.11.0 pc:Qt63DExtras=6.11.0 pc:Qt63DInput=6.11.0 pc:Qt63DLogic=6.11.0 pc:Qt63DRender=6.11.0
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
+D:qt6-qtshadertools-dev qt6-qt3d=6.11.1-r0 pc:Qt6Concurrent pc:Qt6Core pc:Qt6Gui pc:Qt6Network pc:Qt6OpenGL pkgconfig
+p:pc:Qt63DAnimation=6.11.1 pc:Qt63DCore=6.11.1 pc:Qt63DExtras=6.11.1 pc:Qt63DInput=6.11.1 pc:Qt63DLogic=6.11.1 pc:Qt63DRender=6.11.1
 
-C:Q1NTLC1H7F+HpmyI2lxhQP4WMprKM=
+C:Q1uKZryfboNLhpKAj1RBeOkR6uqLE=
 P:qt6-qt5compat
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:154513
-I:354221
+S:157186
+I:358317
 T:Module that contains unsupported Qt 5 APIs
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qt5compat
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:icu-data-full so:libQt6Core.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libicuuc.so.78 so:libstdc++.so.6
-p:so:libQt6Core5Compat.so.6=6.11.0
+p:so:libQt6Core5Compat.so.6=6.11.1
 
-C:Q1Mvi2olR8H+8ieigXLMyLCptygY8=
+C:Q1WjWQE9sBRhXBTveRvm6I0kG+HzM=
 P:qt6-qt5compat-dev
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:45215
-I:189763
+S:45753
+I:195097
 T:Module that contains unsupported Qt 5 APIs (development files)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qt5compat
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-D:qt6-qtbase-dev qt6-qtbase-private-dev qt6-qt5compat=6.11.0-r1 pc:Qt6Core pkgconfig
-p:pc:Qt6Core5Compat=6.11.0
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
+D:qt6-qtbase-dev qt6-qtbase-private-dev qt6-qt5compat=6.11.1-r0 pc:Qt6Core pkgconfig
+p:pc:Qt6Core5Compat=6.11.1
 
-C:Q1gzZWQ3zCU29B9Oprh9riv3w5sx0=
+C:Q1ZKF7/zzN9on9ckCYceMgId28gig=
 P:qt6-qtbase
-V:6.11.0-r0
+V:6.11.1-r0
 A:armhf
-S:5503748
-I:15499343
+S:5514208
+I:15517285
 T:A cross-platform application and UI framework
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtbase
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828785
-c:76488b70403c7a049a36938de6eeaf0fe6c47694
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:tzdata so:libb2.so.1 so:libbrotlidec.so.1 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libdbus-1.so.3 so:libdouble-conversion.so.3 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libicui18n.so.78 so:libicuuc.so.78 so:libpcre2-16.so.0 so:libproxy.so.1 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
-p:so:libQt6Concurrent.so.6=6.11.0 so:libQt6Core.so.6=6.11.0 so:libQt6DBus.so.6=6.11.0 so:libQt6Network.so.6=6.11.0 so:libQt6Sql.so.6=6.11.0 so:libQt6Test.so.6=6.11.0 so:libQt6Xml.so.6=6.11.0
+p:so:libQt6Concurrent.so.6=6.11.1 so:libQt6Core.so.6=6.11.1 so:libQt6DBus.so.6=6.11.1 so:libQt6Network.so.6=6.11.1 so:libQt6Sql.so.6=6.11.1 so:libQt6Test.so.6=6.11.1 so:libQt6Xml.so.6=6.11.1
 
-C:Q1YVagYnT7uOmyzNqd2GFeBw2db34=
+C:Q1f/SwUrCzh3agAxT0qwTD0VpBc2w=
 P:qt6-qtbase-dbg
-V:6.11.0-r0
+V:6.11.1-r0
 A:armhf
-S:38505568
-I:130069800
+S:38647112
+I:130626064
 T:A cross-platform application and UI framework (debug symbols)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtbase
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828785
-c:76488b70403c7a049a36938de6eeaf0fe6c47694
-D:!qt6-qtbase-dev<6.11.0-r0 !qt6-qtbase-dev>6.11.0-r0 !qt6-qtbase-mysql<6.11.0-r0 !qt6-qtbase-mysql>6.11.0-r0 !qt6-qtbase-odbc<6.11.0-r0 !qt6-qtbase-odbc>6.11.0-r0 !qt6-qtbase-postgresql<6.11.0-r0 !qt6-qtbase-postgresql>6.11.0-r0 !qt6-qtbase-sqlite<6.11.0-r0 !qt6-qtbase-sqlite>6.11.0-r0 !qt6-qtbase-wayland<6.11.0-r0 !qt6-qtbase-wayland>6.11.0-r0 !qt6-qtbase-x11<6.11.0-r0 !qt6-qtbase-x11>6.11.0-r0 !qt6-qtbase<6.11.0-r0 !qt6-qtbase>6.11.0-r0
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
+D:!qt6-qtbase-dev<6.11.1-r0 !qt6-qtbase-dev>6.11.1-r0 !qt6-qtbase-mysql<6.11.1-r0 !qt6-qtbase-mysql>6.11.1-r0 !qt6-qtbase-odbc<6.11.1-r0 !qt6-qtbase-odbc>6.11.1-r0 !qt6-qtbase-postgresql<6.11.1-r0 !qt6-qtbase-postgresql>6.11.1-r0 !qt6-qtbase-sqlite<6.11.1-r0 !qt6-qtbase-sqlite>6.11.1-r0 !qt6-qtbase-wayland<6.11.1-r0 !qt6-qtbase-wayland>6.11.1-r0 !qt6-qtbase-x11<6.11.1-r0 !qt6-qtbase-x11>6.11.1-r0 !qt6-qtbase<6.11.1-r0 !qt6-qtbase>6.11.1-r0
 
-C:Q1oCVGdOOrDOeBW5U1f5dyTMYvT7U=
+C:Q1bS/7CqwKKIZHr1W+Ye7LLcSRiIQ=
 P:qt6-qtbase-dev
-V:6.11.0-r0
+V:6.11.1-r0
 A:armhf
-S:8255806
-I:22382196
+S:8315065
+I:22669944
 T:A cross-platform application and UI framework (development files)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtbase
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828785
-c:76488b70403c7a049a36938de6eeaf0fe6c47694
-D:qt6-qtbase-mysql qt6-qtbase-odbc qt6-qtbase-postgresql qt6-qtbase-sqlite qt6-qtbase-x11 qt6-qtbase-wayland at-spi2-core-dev cups-dev dbus-dev double-conversion-dev eudev-dev fontconfig-dev freetype-dev glib-dev harfbuzz-dev icu-dev libb2-dev libinput-dev libjpeg-turbo-dev libpng-dev libpq-dev libproxy-dev libxkbcommon-dev mariadb-dev mesa-dev openssl-dev>3 pcre2-dev sqlite-dev tslib-dev unixodbc-dev vulkan-headers vulkan-loader-dev wayland-dev xcb-util-cursor-dev xcb-util-dev xcb-util-image-dev xcb-util-keysyms-dev xcb-util-renderutil-dev xcb-util-wm-dev zlib-dev qt6-qtbase-wayland=6.11.0-r0 qt6-qtbase-x11=6.11.0-r0 qt6-qtbase=6.11.0-r0 pkgconfig so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:cmd:androiddeployqt6=6.11.0-r0 cmd:qmake6=6.11.0-r0 cmd:wasmdeployqt6=6.11.0-r0 pc:Qt6Concurrent=6.11.0 pc:Qt6Core=6.11.0 pc:Qt6DBus=6.11.0 pc:Qt6Gui=6.11.0 pc:Qt6Network=6.11.0 pc:Qt6OpenGL=6.11.0 pc:Qt6OpenGLWidgets=6.11.0 pc:Qt6Platform=6.11.0 pc:Qt6PrintSupport=6.11.0 pc:Qt6Sql=6.11.0 pc:Qt6Test=6.11.0 pc:Qt6WaylandClient=6.11.0 pc:Qt6Widgets=6.11.0 pc:Qt6Xml=6.11.0
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
+D:qt6-qtbase-mysql qt6-qtbase-odbc qt6-qtbase-postgresql qt6-qtbase-sqlite qt6-qtbase-x11 qt6-qtbase-wayland at-spi2-core-dev cups-dev dbus-dev double-conversion-dev eudev-dev fontconfig-dev freetype-dev glib-dev harfbuzz-dev icu-dev libb2-dev libinput-dev libjpeg-turbo-dev libpng-dev libpq-dev libproxy-dev libxkbcommon-dev mariadb-dev mesa-dev openssl-dev>3 pcre2-dev sqlite-dev tslib-dev unixodbc-dev vulkan-headers vulkan-loader-dev wayland-dev xcb-util-cursor-dev xcb-util-dev xcb-util-image-dev xcb-util-keysyms-dev xcb-util-renderutil-dev xcb-util-wm-dev zlib-dev qt6-qtbase-wayland=6.11.1-r0 qt6-qtbase-x11=6.11.1-r0 qt6-qtbase=6.11.1-r0 pkgconfig so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+p:cmd:androiddeployqt6=6.11.1-r0 cmd:qmake6=6.11.1-r0 cmd:wasmdeployqt6=6.11.1-r0 pc:Qt6Concurrent=6.11.1 pc:Qt6Core=6.11.1 pc:Qt6DBus=6.11.1 pc:Qt6Gui=6.11.1 pc:Qt6Network=6.11.1 pc:Qt6OpenGL=6.11.1 pc:Qt6OpenGLWidgets=6.11.1 pc:Qt6Platform=6.11.1 pc:Qt6PrintSupport=6.11.1 pc:Qt6Sql=6.11.1 pc:Qt6Test=6.11.1 pc:Qt6WaylandClient=6.11.1 pc:Qt6Widgets=6.11.1 pc:Qt6Xml=6.11.1
 
-C:Q1bBMWavh4QNngFznochFJwuWN36w=
+C:Q14uaHbAlgtE5jJJR5RLKq24/q5R4=
 P:qt6-qtbase-doc
-V:6.11.0-r0
+V:6.11.1-r0
 A:armhf
-S:240103
-I:468625
+S:240118
+I:468705
 T:A cross-platform application and UI framework (documentation)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtbase
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828785
-c:76488b70403c7a049a36938de6eeaf0fe6c47694
-i:docs qt6-qtbase=6.11.0-r0
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
+i:docs qt6-qtbase=6.11.1-r0
 
-C:Q1njwAi/l9emfOg2mi3ssptY3elag=
+C:Q1tfYGRN4vqz9ZfhdpZfu/ql1dCJU=
 P:qt6-qtbase-mysql
-V:6.11.0-r0
+V:6.11.1-r0
 A:armhf
-S:33558
+S:33546
 I:79964
 T:MySQL driver for Qt6's SQL classes
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtbase
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828785
-c:76488b70403c7a049a36938de6eeaf0fe6c47694
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:tzdata so:libQt6Core.so.6 so:libQt6Sql.so.6 so:libc.musl-armhf.so.1 so:libmariadb.so.3 so:libstdc++.so.6
 
-C:Q1XwrnB3de1BwJWnVvdZx2Jfz5zsQ=
+C:Q1cISKt7Bw8t3uNix2RTMcWRiRCKs=
 P:qt6-qtbase-odbc
-V:6.11.0-r0
+V:6.11.1-r0
 A:armhf
-S:46747
+S:46719
 I:104012
 T:ODBC driver for Qt6's SQL classes
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtbase
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828785
-c:76488b70403c7a049a36938de6eeaf0fe6c47694
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:tzdata so:libQt6Core.so.6 so:libQt6Sql.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libodbc.so.2 so:libstdc++.so.6
 
-C:Q1M/TyWZ72Mg6mAk5eY5Cn3ASLiiQ=
+C:Q1Z2cx9js2R6RbWlXZFXJNqzX2HH8=
 P:qt6-qtbase-postgresql
-V:6.11.0-r0
+V:6.11.1-r0
 A:armhf
-S:38939
+S:38940
 I:91868
 T:PostgreSQL driver for Qt6's SQL classes
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtbase
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828785
-c:76488b70403c7a049a36938de6eeaf0fe6c47694
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:tzdata so:libQt6Core.so.6 so:libQt6Sql.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpq.so.5 so:libstdc++.so.6
 
-C:Q1rI35q01DPzxF7E/XGmvY3IntsA0=
+C:Q1sGqDnaKHCm9tO/Vs1Yr3hWY//AQ=
 P:qt6-qtbase-private-dev
-V:6.11.0-r0
+V:6.11.1-r0
 A:armhf
-S:1329479
-I:6325442
+S:1334162
+I:6349075
 T:A cross-platform application and UI framework
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtbase
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828785
-c:76488b70403c7a049a36938de6eeaf0fe6c47694
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:tzdata
 
-C:Q1EcifIIPxDHBbpWFKDZ5SwGSJSnA=
+C:Q1sZnPzRJg8DaJr/kzPuviOQcY4DA=
 P:qt6-qtbase-sqlite
-V:6.11.0-r0
+V:6.11.1-r0
 A:armhf
-S:37089
+S:37044
 I:83656
 T:SQLite driver for Qt6's SQL classes
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtbase
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828785
-c:76488b70403c7a049a36938de6eeaf0fe6c47694
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:tzdata so:libQt6Core.so.6 so:libQt6Sql.so.6 so:libc.musl-armhf.so.1 so:libsqlite3.so.0 so:libstdc++.so.6
 
-C:Q1bRYkZI7PzHpF4IVkabzYhuAWVf8=
+C:Q1CVcLbTbCyQSBvI72fAdf7c+b/mE=
 P:qt6-qtbase-wayland
-V:6.11.0-r0
+V:6.11.1-r0
 A:armhf
-S:633759
+S:634429
 I:2111029
 T:Qt6 Wayland-related libraries
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtbase
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828785
-c:76488b70403c7a049a36938de6eeaf0fe6c47694
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:tzdata so:libEGL.so.1 so:libGLESv2.so.2 so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6OpenGL.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libwayland-client.so.0 so:libwayland-cursor.so.0 so:libwayland-egl.so.1 so:libxkbcommon.so.0
-p:so:libQt6WaylandClient.so.6=6.11.0 so:libQt6WlShellIntegration.so.6=6.11.0
+p:so:libQt6WaylandClient.so.6=6.11.1 so:libQt6WlShellIntegration.so.6=6.11.1
 
-C:Q1x8+FMlF97xVVbXMDvAmX5Xv3Q8k=
+C:Q13RKPtEoupubnGKsNOS8kH5rdwx8=
 P:qt6-qtbase-x11
-V:6.11.0-r0
+V:6.11.1-r0
 A:armhf
-S:8365740
-I:18983424
+S:8398218
+I:19040832
 T:Qt6 X11-related libraries
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtbase
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828785
-c:76488b70403c7a049a36938de6eeaf0fe6c47694
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:hicolor-icon-theme xdg-utils so:libEGL.so.1 so:libGLESv2.so.2 so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Network.so.6 so:libQt6WaylandClient.so.6 so:libX11-xcb.so.1 so:libX11.so.6 so:libc.musl-armhf.so.1 so:libcups.so.2 so:libdrm.so.2 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgbm.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libharfbuzz.so.0 so:libinput.so.10 so:libjpeg.so.8 so:libpng16.so.16 so:libstdc++.so.6 so:libts.so.0 so:libudev.so.1 so:libxcb-cursor.so.0 so:libxcb-icccm.so.4 so:libxcb-image.so.0 so:libxcb-keysyms.so.1 so:libxcb-randr.so.0 so:libxcb-render-util.so.0 so:libxcb-render.so.0 so:libxcb-shape.so.0 so:libxcb-shm.so.0 so:libxcb-sync.so.1 so:libxcb-xfixes.so.0 so:libxcb-xinput.so.0 so:libxcb-xkb.so.1 so:libxcb.so.1 so:libxkbcommon-x11.so.0 so:libxkbcommon.so.0 so:libz.so.1
-p:so:libQt6EglFSDeviceIntegration.so.6=6.11.0 so:libQt6EglFsKmsGbmSupport.so.6=6.11.0 so:libQt6EglFsKmsSupport.so.6=6.11.0 so:libQt6Gui.so.6=6.11.0 so:libQt6OpenGL.so.6=6.11.0 so:libQt6OpenGLWidgets.so.6=6.11.0 so:libQt6PrintSupport.so.6=6.11.0 so:libQt6Widgets.so.6=6.11.0 so:libQt6XcbQpa.so.6=6.11.0
+p:so:libQt6EglFSDeviceIntegration.so.6=6.11.1 so:libQt6EglFsKmsGbmSupport.so.6=6.11.1 so:libQt6EglFsKmsSupport.so.6=6.11.1 so:libQt6Gui.so.6=6.11.1 so:libQt6OpenGL.so.6=6.11.1 so:libQt6OpenGLWidgets.so.6=6.11.1 so:libQt6PrintSupport.so.6=6.11.1 so:libQt6Widgets.so.6=6.11.1 so:libQt6XcbQpa.so.6=6.11.1
 
-C:Q1uh5KEkMXp/1sRHwQ91h0wVHJnCo=
+C:Q1dzmgl08332wQwdAxrU9M8i8LqVQ=
 P:qt6-qtconnectivity
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:554717
-I:1525247
+S:557986
+I:1533142
 T:Provides access to Bluetooth hardware
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtconnectivity
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Network.so.6 so:libbluetooth.so.3 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:so:libQt6Bluetooth.so.6=6.11.0 so:libQt6Nfc.so.6=6.11.0
+p:so:libQt6Bluetooth.so.6=6.11.1 so:libQt6Nfc.so.6=6.11.1
 
-C:Q1Ag2nNQpR+1c7U1ygz4DLPV6mO/U=
+C:Q1FDH9CgAg+5jcKERwW/E+7bLbd78=
 P:qt6-qtconnectivity-dev
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:101631
-I:457168
+S:102946
+I:467490
 T:Provides access to Bluetooth hardware (development files)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtconnectivity
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-D:bluez-dev qt6-qtconnectivity=6.11.0-r1 pc:Qt6Core pc:Qt6DBus pc:Qt6Network pkgconfig
-p:pc:Qt6Bluetooth=6.11.0 pc:Qt6Nfc=6.11.0
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
+D:bluez-dev qt6-qtconnectivity=6.11.1-r0 pc:Qt6Core pc:Qt6DBus pc:Qt6Network pkgconfig
+p:pc:Qt6Bluetooth=6.11.1 pc:Qt6Nfc=6.11.1
 
-C:Q1nznsLpLhy1XZtgRHMx50EYtPl/w=
+C:Q1W50W2WL3TY85FvBs2D+U5OXi1oU=
 P:qt6-qtgrpc
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:702919
+S:702625
 I:2546107
 T:Providing protobuf and gRPC support for Qt
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtgrpc
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libabsl_hash.so.2508.0.0 so:libabsl_raw_hash_set.so.2508.0.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libprotobuf.so.31 so:libprotoc.so.31 so:libstdc++.so.6
-p:so:libQt6Grpc.so.6=6.11.0 so:libQt6Protobuf.so.6=6.11.0 so:libQt6ProtobufQtCoreTypes.so.6=6.11.0 so:libQt6ProtobufQtGuiTypes.so.6=6.11.0 so:libQt6ProtobufWellKnownTypes.so.6=6.11.0
+p:so:libQt6Grpc.so.6=6.11.1 so:libQt6Protobuf.so.6=6.11.1 so:libQt6ProtobufQtCoreTypes.so.6=6.11.1 so:libQt6ProtobufQtGuiTypes.so.6=6.11.1 so:libQt6ProtobufWellKnownTypes.so.6=6.11.1
 
-C:Q1E0lc0gLTFG2v7VoFv0wHG2kdssA=
+C:Q1vf0qhPhP5YbiOhDalZMgrQ6BZdc=
 P:qt6-qtgrpc-dev
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:156261
-I:729832
+S:158442
+I:744529
 T:Providing protobuf and gRPC support for Qt (development files)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtgrpc
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-D:protobuf-dev qt6-qtbase-dev qt6-qtbase-private-dev qt6-qtgrpc=6.11.0-r1 pc:Qt6Core pc:Qt6Network pkgconfig
-p:pc:Qt6Grpc=6.11.0 pc:Qt6Protobuf=6.11.0 pc:Qt6ProtobufQtCoreTypes=6.11.0 pc:Qt6ProtobufQtGuiTypes=6.11.0 pc:Qt6ProtobufWellKnownTypes=6.11.0
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
+D:protobuf-dev qt6-qtbase-dev qt6-qtbase-private-dev qt6-qtgrpc=6.11.1-r0 pc:Qt6Core pc:Qt6Network pkgconfig
+p:pc:Qt6Grpc=6.11.1 pc:Qt6Protobuf=6.11.1 pc:Qt6ProtobufQtCoreTypes=6.11.1 pc:Qt6ProtobufQtGuiTypes=6.11.1 pc:Qt6ProtobufWellKnownTypes=6.11.1
 
-C:Q1UhPNCrD4mdk0Woe3sjvYMHtfEw4=
+C:Q1mJTr4QSFKICincB9ppNlt5W+F7s=
 P:qt6-qthttpserver
-V:6.11.0-r0
+V:6.11.1-r0
 A:armhf
-S:97733
-I:231573
+S:96602
+I:227477
 T:Qt6 HTTP Server
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qthttpserver
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828785
-c:76488b70403c7a049a36938de6eeaf0fe6c47694
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:so:libQt6Core.so.6 so:libQt6Network.so.6 so:libQt6WebSockets.so.6 so:libc.musl-armhf.so.1 so:libstdc++.so.6
-p:so:libQt6HttpServer.so.6=6.11.0
+p:so:libQt6HttpServer.so.6=6.11.1
 
-C:Q1NA2I67988nwv8U4Rlfo5BwjsCho=
+C:Q1rET1V55rEjXayikxxzdU6K8lh5w=
 P:qt6-qthttpserver-dev
-V:6.11.0-r0
+V:6.11.1-r0
 A:armhf
-S:34831
-I:148604
+S:35406
+I:153869
 T:Qt6 HTTP Server (development files)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qthttpserver
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828785
-c:76488b70403c7a049a36938de6eeaf0fe6c47694
-D:qt6-qtbase-dev qt6-qtwebsockets-dev qt6-qthttpserver=6.11.0-r0 pc:Qt6Core pc:Qt6Network pc:Qt6WebSockets pkgconfig
-p:pc:Qt6HttpServer=6.11.0
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
+D:qt6-qtbase-dev qt6-qtwebsockets-dev qt6-qthttpserver=6.11.1-r0 pc:Qt6Core pc:Qt6Network pc:Qt6WebSockets pkgconfig
+p:pc:Qt6HttpServer=6.11.1
 
-C:Q1bwLHky1MCIuwGaQELVdNGWit5nE=
+C:Q1pyvs86Mp6b/arS3PaMo0inlzNfk=
 P:qt6-qtimageformats
-V:6.11.0-r0
+V:6.11.1-r0
 A:armhf
-S:204443
+S:204440
 I:541720
 T:Plugins for additional image formats: TIFF, MNG, TGA, WBMP, WEBP
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtimageformats
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828785
-c:76488b70403c7a049a36938de6eeaf0fe6c47694
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libmng.so.2 so:libstdc++.so.6 so:libwebp.so.7 so:libwebpdemux.so.2 so:libwebpmux.so.3 so:libz.so.1
 
-C:Q1MgAj1Q0UXJQhyuj1y7BIUwhEXFs=
+C:Q1Qh7Vevl/F91cVKxUorvs2ndNx8s=
 P:qt6-qtimageformats-dev
-V:6.11.0-r0
+V:6.11.1-r0
 A:armhf
-S:14817
-I:125310
+S:15317
+I:135082
 T:Plugins for additional image formats: TIFF, MNG, TGA, WBMP, WEBP (development files)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtimageformats
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828785
-c:76488b70403c7a049a36938de6eeaf0fe6c47694
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:qt6-qtimageformats libmng-dev libwebp-dev qt6-qtbase-dev
 
-C:Q14AQl5fyr7ZQDollPJZM0MYL+8+Q=
+C:Q11htc93LE0QSzRLEIK9VyX17xGNc=
 P:qt6-qtlanguageserver
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
 S:4447
 I:30345
@@ -236429,625 +236429,625 @@ U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtlanguageserver
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 
-C:Q1FDZGUludk85GhAayj1hNRTHGfy8=
+C:Q1pdntezX3bjKEYVkuvkk4vXn1Gys=
 P:qt6-qtlanguageserver-dev
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:53292
-I:321270
+S:53900
+I:326582
 T:Qt implementation of the Language Server Protocol (development files)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtlanguageserver
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:qt6-qtlanguageserver-static qt6-qtbase-dev qt6-qtbase-private-dev
 
-C:Q1cWljkG8mwQC1YU6PRbnK7I5gIhQ=
+C:Q114oglmetZza5DVgJLlNsgPbGaks=
 P:qt6-qtlanguageserver-static
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:28998689
-I:63020712
+S:29025104
+I:63016288
 T:Qt implementation of the Language Server Protocol (static library)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtlanguageserver
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:qt6-qtlanguageserver-dev
 
-C:Q1gVgfFGXmjGFDhJFGvp8B0o8BfHk=
+C:Q1EwOub7XwCW1W9vZsXD9pZR6xgj4=
 P:qt6-qtmqtt
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:82316
+S:82328
 I:265550
 T:Qt module that Provides MQTT communication
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtmqtt
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:so:libQt6Core.so.6 so:libQt6Network.so.6 so:libc.musl-armhf.so.1 so:libstdc++.so.6
-p:so:libQt6Mqtt.so.6=6.11.0
+p:so:libQt6Mqtt.so.6=6.11.1
 
-C:Q1fs3hTwikGPC8S/XbbQap4S0C+T8=
+C:Q1loGzfIe6s2Z7ZCDC77eLqcSbrR4=
 P:qt6-qtmqtt-dev
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:29592
-I:105675
+S:30202
+I:110455
 T:Qt module that Provides MQTT communication (development files)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtmqtt
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-D:qt6-qtbase-dev qt6-qtbase-private-dev qt6-qtmqtt=6.11.0-r1 pc:Qt6Core pc:Qt6Network pkgconfig
-p:pc:Qt6Mqtt=6.11.0
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
+D:qt6-qtbase-dev qt6-qtbase-private-dev qt6-qtmqtt=6.11.1-r0 pc:Qt6Core pc:Qt6Network pkgconfig
+p:pc:Qt6Mqtt=6.11.1
 
-C:Q1y/ObOs8/zXt8Om7ILN0nlF2Fkmc=
+C:Q1wS/eyoyYGEnVFgEMFpn4ZFyGz+k=
 P:qt6-qtmultimedia
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:796274
-I:2072963
+S:799946
+I:2077059
 T:Classes for audio, video, radio and camera functionality
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtmultimedia
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpulse.so.0 so:libstdc++.so.6
-p:so:libQt6Multimedia.so.6=6.11.0 so:libQt6MultimediaWidgets.so.6=6.11.0 so:libQt6SpatialAudio.so.6=6.11.0
+p:so:libQt6Multimedia.so.6=6.11.1 so:libQt6MultimediaWidgets.so.6=6.11.1 so:libQt6SpatialAudio.so.6=6.11.1
 
-C:Q1FXl3Rzjq+e0QJE+csxPE1tGmQCQ=
+C:Q1u3G4LBiO1U/X0/5/s4v6gnFtdgs=
 P:qt6-qtmultimedia-dbg
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:57789782
-I:138712324
+S:58004109
+I:139374448
 T:Classes for audio, video, radio and camera functionality (debug symbols)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtmultimedia
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-D:!qt6-qtmultimedia-ffmpeg<6.11.0-r1 !qt6-qtmultimedia-ffmpeg>6.11.0-r1 !qt6-qtmultimedia-gstreamer<6.11.0-r1 !qt6-qtmultimedia-gstreamer>6.11.0-r1 !qt6-qtmultimedia<6.11.0-r1 !qt6-qtmultimedia>6.11.0-r1
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
+D:!qt6-qtmultimedia-ffmpeg<6.11.1-r0 !qt6-qtmultimedia-ffmpeg>6.11.1-r0 !qt6-qtmultimedia-gstreamer<6.11.1-r0 !qt6-qtmultimedia-gstreamer>6.11.1-r0 !qt6-qtmultimedia<6.11.1-r0 !qt6-qtmultimedia>6.11.1-r0
 
-C:Q1zqo8eiG3K4L1asbys6iRKFHx6gE=
+C:Q1e7YCE2BbOz633dj50cXZRVIBueo=
 P:qt6-qtmultimedia-dev
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:89738401
-I:233484741
+S:90309639
+I:234240225
 T:Classes for audio, video, radio and camera functionality (development files)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtmultimedia
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-D:qt6-qtmultimedia-ffmpeg=6.11.0-r1 qt6-qtmultimedia-gstreamer=6.11.0-r1 alsa-lib-dev ffmpeg-dev gst-plugins-bad-dev gst-plugins-base-dev gstreamer-dev libva-glx-dev libxrandr-dev pulseaudio-dev qt6-qtbase-dev qt6-qtbase-private-dev qt6-qtshadertools-dev qt6-qtsvg-dev qt6-qtmultimedia=6.11.0-r1 pc:Qt6Core pc:Qt6Gui pc:Qt6Network pc:Qt6Widgets pkgconfig
-p:pc:Qt6Multimedia=6.11.0 pc:Qt6MultimediaWidgets=6.11.0 pc:Qt6SpatialAudio=6.11.0
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
+D:qt6-qtmultimedia-ffmpeg=6.11.1-r0 qt6-qtmultimedia-gstreamer=6.11.1-r0 alsa-lib-dev ffmpeg-dev gst-plugins-bad-dev gst-plugins-base-dev gstreamer-dev libva-glx-dev libxrandr-dev pulseaudio-dev qt6-qtbase-dev qt6-qtbase-private-dev qt6-qtshadertools-dev qt6-qtsvg-dev qt6-qtmultimedia=6.11.1-r0 pc:Qt6Core pc:Qt6Gui pc:Qt6Network pc:Qt6Widgets pkgconfig
+p:pc:Qt6Multimedia=6.11.1 pc:Qt6MultimediaWidgets=6.11.1 pc:Qt6SpatialAudio=6.11.1
 
-C:Q1Vhc8VXHNVBIpFcQMW5V7LeAI0x4=
+C:Q1+f4YptOlAHjWr2I3nyI72O9tB6s=
 P:qt6-qtmultimedia-ffmpeg
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:256230
-I:585812
+S:262984
+I:598100
 T:Classes for audio, video, radio and camera functionality (ffmpeg plugin)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtmultimedia
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-D:so:libEGL.so.1 so:libGLESv2.so.2 so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Multimedia.so.6 so:libQt6OpenGL.so.6 so:libX11.so.6 so:libXext.so.6 so:libXrandr.so.2 so:libavcodec.so.62 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libswresample.so.6 so:libswscale.so.9
-i:qt6-qtmultimedia=6.11.0-r1 ffmpeg-libavcodec
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
+D:so:libEGL.so.1 so:libGLESv2.so.2 so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Multimedia.so.6 so:libQt6OpenGL.so.6 so:libX11.so.6 so:libXext.so.6 so:libXrandr.so.2 so:libavcodec.so.62 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libswresample.so.6 so:libswscale.so.9 so:libva.so.2
+i:qt6-qtmultimedia=6.11.1-r0 ffmpeg-libavcodec
 
-C:Q1wsawziWKboRij1k94jX6MNhs5lY=
+C:Q1oIMW6Q32AAZ2mco6DRi1J2P4KjI=
 P:qt6-qtmultimedia-gstreamer
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:190110
-I:449244
+S:192932
+I:457436
 T:Classes for audio, video, radio and camera functionality (gstreamer plugin)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtmultimedia
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:so:libEGL.so.1 so:libGLESv2.so.2 so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Multimedia.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstallocators-1.0.so.0 so:libgstapp-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstgl-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstphotography-1.0.so.0 so:libgstplay-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libpulse.so.0 so:libstdc++.so.6
-i:qt6-qtmultimedia=6.11.0-r1 gst-plugins-good
+i:qt6-qtmultimedia=6.11.1-r0 gst-plugins-good
 
-C:Q1k7YOkEO4Bg8qAv15FBgAdBtWc+0=
+C:Q1U5CwKWeZxoTgkuXtC623+sUvWK0=
 P:qt6-qtnetworkauth
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:107861
-I:339009
+S:111041
+I:347201
 T:Network authentication module
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtnetworkauth
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:so:libQt6NetworkAuth.so.6=6.11.0
+p:so:libQt6NetworkAuth.so.6=6.11.1
 
-C:Q18srxZ2s0ozaO1hgdmvY5rEtHgO4=
+C:Q1wcVcCnuxl5O8Z3qb4V/tAG2GDVs=
 P:qt6-qtnetworkauth-dev
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:30414
-I:116803
+S:31047
+I:122229
 T:Network authentication module (development files)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtnetworkauth
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-D:qt6-qtbase-dev qt6-qtbase-private-dev qt6-qtnetworkauth=6.11.0-r1 pc:Qt6Core pc:Qt6Network pkgconfig
-p:pc:Qt6NetworkAuth=6.11.0
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
+D:qt6-qtbase-dev qt6-qtbase-private-dev qt6-qtnetworkauth=6.11.1-r0 pc:Qt6Core pc:Qt6Network pkgconfig
+p:pc:Qt6NetworkAuth=6.11.1
 
-C:Q1GLOAHBe/Dh4zKsW6iZlgSclcOrA=
+C:Q1chZFng4RZtTQTKUb1jkp9eEsv6E=
 P:qt6-qtpositioning
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:275709
+S:275597
 I:728583
 T:Provides access to position, satellite and area monitoring classes
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtpositioning
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:xdg-utils so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Network.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:so:libQt6Positioning.so.6=6.11.0
+p:so:libQt6Positioning.so.6=6.11.1
 
-C:Q14KrRAGhM7tD9W59VTfK/FNeV8Og=
+C:Q1XfbRos6Y6PaLPK7FtRZgG7rAd+g=
 P:qt6-qtpositioning-dev
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:50540
-I:279492
+S:51553
+I:289141
 T:Provides access to position, satellite and area monitoring classes (development files)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtpositioning
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-D:qt6-qtbase-dev qt6-qtpositioning=6.11.0-r1 pc:Qt6Core pkgconfig
-p:pc:Qt6Positioning=6.11.0
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
+D:qt6-qtbase-dev qt6-qtpositioning=6.11.1-r0 pc:Qt6Core pkgconfig
+p:pc:Qt6Positioning=6.11.1
 
-C:Q1wm1tBb1CldJ5KSD4mz6m8l9VNuA=
+C:Q1E5OE9QLBR7AhxjYxwI85NV2tjNw=
 P:qt6-qtremoteobjects
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:507125
-I:1250869
+S:510277
+I:1254965
 T:Inter-process communication (IPC) module developed for Qt
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtremoteobjects
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:so:libQt6Core.so.6 so:libQt6Network.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:so:libQt6RemoteObjects.so.6=6.11.0
+p:so:libQt6RemoteObjects.so.6=6.11.1
 
-C:Q1aU2GnoPHFzbos4GYkWwHJugDI+0=
+C:Q1kjYnUoEX2/HaPMdztdOL1KJJVw8=
 P:qt6-qtremoteobjects-dev
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:73472
-I:314048
+S:74346
+I:321357
 T:Inter-process communication (IPC) module developed for Qt (development files)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtremoteobjects
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-D:qt6-qtbase-dev qt6-qtconnectivity-dev qt6-qtremoteobjects=6.11.0-r1 pc:Qt6Core pc:Qt6Network pkgconfig
-p:pc:Qt6RemoteObjects=6.11.0 pc:Qt6RepParser=6.11.0
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
+D:qt6-qtbase-dev qt6-qtconnectivity-dev qt6-qtremoteobjects=6.11.1-r0 pc:Qt6Core pc:Qt6Network pkgconfig
+p:pc:Qt6RemoteObjects=6.11.1 pc:Qt6RepParser=6.11.1
 
-C:Q1ROYIdHicF+iVtAoQw4luF8YUAVM=
+C:Q1M9kkM04H7mvTA8EQaSaouBS8FfM=
 P:qt6-qtscxml
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:503409
+S:505140
 I:1304157
 T:Static and runtime integration of SCXML models into Qt6 code
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtscxml
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libc.musl-armhf.so.1 so:libstdc++.so.6
-p:so:libQt6Scxml.so.6=6.11.0 so:libQt6StateMachine.so.6=6.11.0
+p:so:libQt6Scxml.so.6=6.11.1 so:libQt6StateMachine.so.6=6.11.1
 
-C:Q113vZ5vcnfS5FZQO/8x0/i35tWUs=
+C:Q1y5lGTYpCD2LMbalQA2h2jtFepXw=
 P:qt6-qtscxml-dev
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:76621
-I:317205
+S:78083
+I:327535
 T:Static and runtime integration of SCXML models into Qt6 code (development files)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtscxml
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-D:qt6-qtbase-dev qt6-qtbase-private-dev qt6-qtscxml=6.11.0-r1 pc:Qt6Core pc:Qt6Gui pkgconfig
-p:pc:Qt6Scxml=6.11.0 pc:Qt6StateMachine=6.11.0
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
+D:qt6-qtbase-dev qt6-qtbase-private-dev qt6-qtscxml=6.11.1-r0 pc:Qt6Core pc:Qt6Gui pkgconfig
+p:pc:Qt6Scxml=6.11.1 pc:Qt6StateMachine=6.11.1
 
-C:Q1kgbk96X4REtTEC69Z24acvr48QM=
+C:Q1xuuOB/A533J6A8cxmGiwJV0ICCs=
 P:qt6-qtsensors
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:114756
+S:114923
 I:386724
 T:Provides access to sensor hardware and motion gesture recognition
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtsensors
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:so:libQt6Sensors.so.6=6.11.0
+p:so:libQt6Sensors.so.6=6.11.1
 
-C:Q1pyKsreORPhz36b5VxxBVbPsR350=
+C:Q11lqRB0AJoitl9uVjqhMxqJi49+Q=
 P:qt6-qtsensors-dev
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:36727
-I:158455
+S:38087
+I:165982
 T:Provides access to sensor hardware and motion gesture recognition (development files)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtsensors
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-D:qt6-qtbase-dev qt6-qtsvg-dev qt6-qtsensors=6.11.0-r1 pc:Qt6Core pkgconfig
-p:pc:Qt6Sensors=6.11.0
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
+D:qt6-qtbase-dev qt6-qtsvg-dev qt6-qtsensors=6.11.1-r0 pc:Qt6Core pkgconfig
+p:pc:Qt6Sensors=6.11.1
 
-C:Q161lZj+6MnQIzaIZ/9qoL3h42Im0=
+C:Q1m4bD08wilqwwDuRAAnxOK5vU9Y8=
 P:qt6-qtserialbus
-V:6.11.0-r0
+V:6.11.1-r0
 A:armhf
-S:294914
+S:295092
 I:710552
 T:Qt module for general purpose serial bus access
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtserialbus
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828785
-c:76488b70403c7a049a36938de6eeaf0fe6c47694
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:so:libQt6Core.so.6 so:libQt6Network.so.6 so:libQt6SerialPort.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:so:libQt6SerialBus.so.6=6.11.0
+p:so:libQt6SerialBus.so.6=6.11.1
 
-C:Q1CLdaNXWpfwmRT1RhnjBP62rf3gM=
+C:Q1xQyuQvcx8OoiMNzYnWSUm/OYBZM=
 P:qt6-qtserialbus-dev
-V:6.11.0-r0
+V:6.11.1-r0
 A:armhf
-S:58169
-I:304035
+S:58917
+I:314991
 T:Qt module for general purpose serial bus access (development files)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtserialbus
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828785
-c:76488b70403c7a049a36938de6eeaf0fe6c47694
-D:qt6-qtbase-dev qt6-qtserialport-dev qt6-qtserialbus=6.11.0-r0 pc:Qt6Core pc:Qt6Network pc:Qt6SerialPort pkgconfig
-p:pc:Qt6SerialBus=6.11.0
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
+D:qt6-qtbase-dev qt6-qtserialport-dev qt6-qtserialbus=6.11.1-r0 pc:Qt6Core pc:Qt6Network pc:Qt6SerialPort pkgconfig
+p:pc:Qt6SerialBus=6.11.1
 
-C:Q129YonN/r6AP0ZexhUMWhyrWDjDw=
+C:Q1VV53/AsOGShgplugcpb27CsJq08=
 P:qt6-qtserialport
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:44459
+S:44631
 I:131022
 T:Provides access to hardware and virtual serial ports
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtserialport
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:so:libQt6Core.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libudev.so.1
-p:so:libQt6SerialPort.so.6=6.11.0
+p:so:libQt6SerialPort.so.6=6.11.1
 
-C:Q1SB22CmDkLPOflxq9CYRmgdGSPEI=
+C:Q1KkOdfuo/xmnoxT+lzfbUYy5esps=
 P:qt6-qtserialport-dev
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:23371
-I:76792
+S:23933
+I:81550
 T:Provides access to hardware and virtual serial ports (development files)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtserialport
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-D:qt6-qtbase-dev qt6-qtbase-private-dev qt6-qtserialport=6.11.0-r1 pc:Qt6Core pkgconfig
-p:pc:Qt6SerialPort=6.11.0
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
+D:qt6-qtbase-dev qt6-qtbase-private-dev qt6-qtserialport=6.11.1-r0 pc:Qt6Core pkgconfig
+p:pc:Qt6SerialPort=6.11.1
 
-C:Q187e3GXNnNx48qJiwRfwVWbu6Wnk=
+C:Q1b9fJMNGJ6Zmw70qMe0oPe+fuSdM=
 P:qt6-qtshadertools
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:2218925
+S:2219348
 I:5614557
 T:Experimental module providing APIs and a host tool to host tool to perform graphics and compute shader conditioning
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtshadertools
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:so:libQt6ShaderTools.so.6=6.11.0
+p:so:libQt6ShaderTools.so.6=6.11.1
 
-C:Q125tbSlqRPk3CeoxvT+81orHqN68=
+C:Q1gFZ7IMDMDebI+iAAn+LYdjTNSmw=
 P:qt6-qtshadertools-dev
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:32248
-I:115869
+S:33036
+I:122129
 T:Experimental module providing APIs and a host tool to host tool to perform graphics and compute shader conditioning (development files)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtshadertools
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-D:vulkan-headers qt6-qtshadertools=6.11.0-r1 pc:Qt6Core pc:Qt6Gui pkgconfig
-p:pc:Qt6ShaderTools=6.11.0
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
+D:vulkan-headers qt6-qtshadertools=6.11.1-r0 pc:Qt6Core pc:Qt6Gui pkgconfig
+p:pc:Qt6ShaderTools=6.11.1
 
-C:Q1eYdU1DoSk8d+rglhjGYkuC5pPHU=
+C:Q11JnUc1S5msNgXsqjOAwh0i0cjQs=
 P:qt6-qtsvg
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:293803
+S:293482
 I:705213
 T:Classes for displaying the contents of SVG files
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtsvg
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Widgets.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1
-p:so:libQt6Svg.so.6=6.11.0 so:libQt6SvgWidgets.so.6=6.11.0
+p:so:libQt6Svg.so.6=6.11.1 so:libQt6SvgWidgets.so.6=6.11.1
 
-C:Q1K3lMMfzwqJyDoV7G45v4826qY0Y=
+C:Q1w/Fyp+2ONchlxqoaA2RQk/jdTyg=
 P:qt6-qtsvg-dev
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:53058
-I:239905
+S:54069
+I:248277
 T:Classes for displaying the contents of SVG files (development files)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtsvg
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-D:vulkan-headers qt6-qtsvg=6.11.0-r1 pc:Qt6Core pc:Qt6Gui pc:Qt6Widgets pkgconfig
-p:pc:Qt6Svg=6.11.0 pc:Qt6SvgWidgets=6.11.0
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
+D:vulkan-headers qt6-qtsvg=6.11.1-r0 pc:Qt6Core pc:Qt6Gui pc:Qt6Widgets pkgconfig
+p:pc:Qt6Svg=6.11.1 pc:Qt6SvgWidgets=6.11.1
 
-C:Q11diTwREn9aMNRQmwCDx43k7+c9o=
+C:Q144TMFeV0e/IJbrXdP/Ig6FGLykc=
 P:qt6-qttools
-V:6.11.0-r2
+V:6.11.1-r0
 A:armhf
-S:2722490
-I:6623211
+S:2730661
+I:6647794
 T:A cross-platform application and UI framework (Development Tools, QtHelp)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qttools
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775852176
-c:e8e57695209fd28b3b10e751fe325196901eb9d4
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Designer.so.6 so:libQt6DesignerComponents.so.6 so:libQt6Gui.so.6 so:libQt6Help.so.6 so:libQt6Network.so.6 so:libQt6PrintSupport.so.6 so:libQt6Sql.so.6 so:libQt6Widgets.so.6 so:libQt6Xml.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:cmd:assistant6=6.11.0-r2 cmd:designer6=6.11.0-r2 cmd:kmap2qmap6=6.11.0-r2 cmd:lcheck6=6.11.0-r2 cmd:lconvert6=6.11.0-r2 cmd:lrelease-pro6=6.11.0-r2 cmd:lrelease6=6.11.0-r2 cmd:ltext2id6=6.11.0-r2 cmd:lupdate-pro6=6.11.0-r2 cmd:lupdate6=6.11.0-r2 cmd:pixeltool6=6.11.0-r2 cmd:qdbus6=6.11.0-r2 cmd:qdbusviewer6=6.11.0-r2 cmd:qtdiag6=6.11.0-r2 cmd:qtplugininfo6=6.11.0-r2
+p:cmd:assistant6=6.11.1-r0 cmd:designer6=6.11.1-r0 cmd:kmap2qmap6=6.11.1-r0 cmd:lcheck6=6.11.1-r0 cmd:lconvert6=6.11.1-r0 cmd:lrelease-pro6=6.11.1-r0 cmd:lrelease6=6.11.1-r0 cmd:ltext2id6=6.11.1-r0 cmd:lupdate-pro6=6.11.1-r0 cmd:lupdate6=6.11.1-r0 cmd:pixeltool6=6.11.1-r0 cmd:qdbus6=6.11.1-r0 cmd:qdbusviewer6=6.11.1-r0 cmd:qtdiag6=6.11.1-r0 cmd:qtplugininfo6=6.11.1-r0
 
-C:Q1K8G2c2YH3HL+T3Q7bG3RZ00AShc=
+C:Q1pB3DrzYcqNAQIlCgfeO24eALP+A=
 P:qt6-qttools-dev
-V:6.11.0-r2
+V:6.11.1-r0
 A:armhf
-S:382936
-I:1904539
+S:386086
+I:1939438
 T:A cross-platform application and UI framework (Development Tools, QtHelp) (development files)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qttools
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775852176
-c:e8e57695209fd28b3b10e751fe325196901eb9d4
-D:qt6-qttools=6.11.0-r2 vulkan-headers qt6-qttools-libs=6.11.0-r2 pc:Qt6Core pc:Qt6Gui pc:Qt6OpenGLWidgets pc:Qt6Sql pc:Qt6Widgets pc:Qt6Xml pkgconfig
-p:pc:Qt6Designer=6.11.0 pc:Qt6Help=6.11.0 pc:Qt6Linguist=6.11.0 pc:Qt6UiPlugin=6.11.0 pc:Qt6UiTools=6.11.0
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
+D:qt6-qttools=6.11.1-r0 vulkan-headers qt6-qttools-libs=6.11.1-r0 pc:Qt6Core pc:Qt6Gui pc:Qt6OpenGLWidgets pc:Qt6Sql pc:Qt6Widgets pc:Qt6Xml pkgconfig
+p:pc:Qt6Designer=6.11.1 pc:Qt6Help=6.11.1 pc:Qt6Linguist=6.11.1 pc:Qt6UiPlugin=6.11.1 pc:Qt6UiTools=6.11.1
 
-C:Q1TIy18OY7Dz584bNYpawBmIT53C4=
+C:Q1DWdrOxcvTxL2FHUZLQNtl2Q59Ug=
 P:qt6-qttools-libs
-V:6.11.0-r2
+V:6.11.1-r0
 A:armhf
-S:4708246
-I:9104240
+S:4721516
+I:9137008
 T:A cross-platform application and UI framework (Development Tools, QtHelp) (libraries)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qttools
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775852176
-c:e8e57695209fd28b3b10e751fe325196901eb9d4
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6OpenGLWidgets.so.6 so:libQt6Sql.so.6 so:libQt6Widgets.so.6 so:libQt6Xml.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libzstd.so.1
-p:so:libQt6Designer.so.6=6.11.0 so:libQt6DesignerComponents.so.6=6.11.0 so:libQt6Help.so.6=6.11.0 so:libQt6UiTools.so.6=6.11.0
+p:so:libQt6Designer.so.6=6.11.1 so:libQt6DesignerComponents.so.6=6.11.1 so:libQt6Help.so.6=6.11.1 so:libQt6UiTools.so.6=6.11.1
 
-C:Q1nvG1+auxDC+PjvrUtbVZLpf4PL4=
+C:Q1JywTFUt/EembLoFT2tjIK8GjF/g=
 P:qt6-qttranslations
-V:6.11.0-r0
+V:6.11.1-r0
 A:armhf
-S:4210233
-I:16036072
+S:4226865
+I:16106486
 T:A cross-platform application and UI framework (Translations)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qttranslations
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828785
-c:76488b70403c7a049a36938de6eeaf0fe6c47694
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 
-C:Q1Wh+KxOTsxai0e9N3iqamen3dzhY=
+C:Q1o422xgYEdavsS3dt9jcLBV5DBu8=
 P:qt6-qtwayland
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:505739
-I:1836295
+S:515690
+I:1885447
 T:Provides APIs for Wayland
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtwayland
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:so:libEGL.so.1 so:libGLESv2.so.2 so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6OpenGL.so.6 so:libQt6WaylandClient.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libwayland-client.so.0 so:libwayland-server.so.0 so:libxkbcommon.so.0
-p:so:libQt6WaylandCompositor.so.6=6.11.0 so:libQt6WaylandEglCompositorHwIntegration.so.6=6.11.0
+p:so:libQt6WaylandCompositor.so.6=6.11.1 so:libQt6WaylandEglCompositorHwIntegration.so.6=6.11.1
 i:wayland-libs-server qt6-qtbase-x11
 
-C:Q1aeY6Ojykdwof3g2f9PsSxZwM+bk=
+C:Q1/RaTe/HzZ4cipnBTAlJ5BQZhXp4=
 P:qt6-qtwayland-dev
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:194977
-I:1286628
+S:196236
+I:1306641
 T:Provides APIs for Wayland (development files)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtwayland
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-D:qt6-qtbase-dev qt6-qtbase-private-dev vulkan-headers qt6-qtwayland=6.11.0-r1 pc:Qt6Core pc:Qt6Gui pc:Qt6OpenGL pkgconfig
-p:pc:Qt6WaylandCompositor=6.11.0
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
+D:qt6-qtbase-dev qt6-qtbase-private-dev vulkan-headers qt6-qtwayland=6.11.1-r0 pc:Qt6Core pc:Qt6Gui pc:Qt6OpenGL pkgconfig
+p:pc:Qt6WaylandCompositor=6.11.1
 
-C:Q1pEZT18hh9YvgghUBV91/TI6AG4c=
+C:Q1GYCyzevuFDlSX/P3Scw9JqHvCgE=
 P:qt6-qtwebchannel
-V:6.11.0-r0
+V:6.11.1-r0
 A:armhf
-S:104481
-I:240972
+S:104392
+I:236876
 T:Provides access to QObject or QML objects from HTML clients
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtwebchannel
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828785
-c:76488b70403c7a049a36938de6eeaf0fe6c47694
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:so:libQt6Core.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:so:libQt6WebChannel.so.6=6.11.0
+p:so:libQt6WebChannel.so.6=6.11.1
 
-C:Q12MHx8MMxMYlXObGqmBYaftoqMFI=
+C:Q160QIKmRlkHmZUeArNXh5VunoMjk=
 P:qt6-qtwebchannel-dev
-V:6.11.0-r0
+V:6.11.1-r0
 A:armhf
-S:26282
-I:88612
+S:26661
+I:92502
 T:Provides access to QObject or QML objects from HTML clients (development files)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtwebchannel
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828785
-c:76488b70403c7a049a36938de6eeaf0fe6c47694
-D:qt6-qtbase-dev qt6-qtwebsockets-dev qt6-qtwebchannel=6.11.0-r0 pkgconfig
-p:pc:Qt6WebChannel=6.11.0
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
+D:qt6-qtbase-dev qt6-qtwebsockets-dev qt6-qtwebchannel=6.11.1-r0 pkgconfig
+p:pc:Qt6WebChannel=6.11.1
 
-C:Q1cP2DsBHbpBHfZVLCJZurPiTQmNE=
+C:Q1MPqitLuG9D1PDNJwZfHpfDqYpLU=
 P:qt6-qtwebsockets
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:3606
+S:3607
 I:30684
 T:Provides WebSocket communication compliant with RFC 6455
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtwebsockets
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 
-C:Q1PGtWR6qmhc4H4fBT5Rm4tVes1IA=
+C:Q1KN1XSiKyWrgHRXg8iAtYD3cGy5c=
 P:qt6-qtwebsockets-dbg
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:3158466
-I:7444276
+S:3162096
+I:7451504
 T:Provides WebSocket communication compliant with RFC 6455 (debug symbols)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtwebsockets
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-D:!qt6-qtwebsockets-libs<6.11.0-r1 !qt6-qtwebsockets-libs>6.11.0-r1
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
+D:!qt6-qtwebsockets-libs<6.11.1-r0 !qt6-qtwebsockets-libs>6.11.1-r0
 
-C:Q14CTKqtK7dzatOqNTJgRL0dMd60E=
+C:Q15onkQUAiEVhjIomvNJSOP9E3WpA=
 P:qt6-qtwebsockets-dev
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:28977
-I:104807
+S:29594
+I:109870
 T:Provides WebSocket communication compliant with RFC 6455 (development files)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtwebsockets
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
-D:qt6-qtbase-dev qt6-qtbase-private-dev qt6-qtwebsockets=6.11.0-r1 qt6-qtwebsockets-libs=6.11.0-r1 pc:Qt6Core pc:Qt6Network pkgconfig
-p:pc:Qt6WebSockets=6.11.0
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
+D:qt6-qtbase-dev qt6-qtbase-private-dev qt6-qtwebsockets=6.11.1-r0 qt6-qtwebsockets-libs=6.11.1-r0 pc:Qt6Core pc:Qt6Network pkgconfig
+p:pc:Qt6WebSockets=6.11.1
 
-C:Q1M8Eh8bPsW6dL86oXqauOLeujvDw=
+C:Q17T7asjL//1uPyItuT3GAsFyoYes=
 P:qt6-qtwebsockets-libs
-V:6.11.0-r1
+V:6.11.1-r0
 A:armhf
-S:75221
+S:75454
 I:195112
 T:Provides WebSocket communication compliant with RFC 6455 (libraries)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtwebsockets
 m:Bart Ribbers <bribbers@disroot.org>
-t:1775828910
-c:cc4ee8589586dc451ecc5b01c1a60149e1fe94a7
+t:1779210735
+c:6a90a193c394ac5e57468bbf61e7176aa894927e
 D:so:libQt6Core.so.6 so:libQt6Network.so.6 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:so:libQt6WebSockets.so.6=6.11.0
+p:so:libQt6WebSockets.so.6=6.11.1
 
 C:Q1oO+M6qVW1gL3e7BuYmJcGUlhA0U=
 P:qt6-qwt
@@ -259806,25 +259806,25 @@ t:1776029907
 c:406f7808348a42ac882f96c33dc62921763cb6ec
 i:docs strace-tui=1.0.1-r0
 
-C:Q14uqeylcj9yXmOxq7oMuaJr1xGsQ=
+C:Q16DoTG8GqMKq1EanPojdiqJMhwp4=
 P:strawberry
-V:1.2.19-r0
+V:1.2.19-r1
 A:armhf
-S:8142660
-I:14053134
+S:8179298
+I:14155534
 T:Strawberry Music Player
 U:https://strawberrymusicplayer.org
 L:GPL-3.0-or-later
 o:strawberry
 m:knuxify <knuxify@gmail.com>
-t:1776595182
-c:ea1d046210c64534811958d4ebe3b0f0cdbcfb7a
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
 D:gst-plugins-base gst-plugins-good qt6-qtbase-sqlite icu-data-full so:libQt6Concurrent.so.6 so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6Sql.so.6 so:libQt6Widgets.so.6 so:libX11.so.6 so:libasound.so.2 so:libc.musl-armhf.so.1 so:libcdio.so.19 so:libchromaprint.so.1 so:libebur128.so.1 so:libfftw3.so.3 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgpod.so.4 so:libgstapp-1.0.so.0 so:libgstaudio-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgsttag-1.0.so.0 so:libicui18n.so.78 so:libicuuc.so.78 so:libkdsingleapplication-qt6.so.1.1 so:libmtp.so.9 so:libpulse.so.0 so:libsqlite3.so.0 so:libstdc++.so.6 so:libtag.so.2
-p:cmd:strawberry=1.2.19-r0
+p:cmd:strawberry=1.2.19-r1
 
-C:Q1+ci3tsQX63RuuRXaAnSE1SqR1LI=
+C:Q13h9GBH7fBhW0JjLCH93zuEw21DM=
 P:strawberry-doc
-V:1.2.19-r0
+V:1.2.19-r1
 A:armhf
 S:3076
 I:1363
@@ -259833,9 +259833,9 @@ U:https://strawberrymusicplayer.org
 L:GPL-3.0-or-later
 o:strawberry
 m:knuxify <knuxify@gmail.com>
-t:1776595182
-c:ea1d046210c64534811958d4ebe3b0f0cdbcfb7a
-i:docs strawberry=1.2.19-r0
+t:1779210865
+c:a2b7707a6af0f85d0972f69566312cf1f245ffc3
+i:docs strawberry=1.2.19-r1
 
 C:Q1jobbR74JJYj3mC72T69W4/mxog4=
 P:streamlink

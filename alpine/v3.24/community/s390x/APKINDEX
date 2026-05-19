@@ -36004,67 +36004,67 @@ t:1769946369
 c:e305aeff557e41445327c16d9ca98fe5735fe3c4
 i:openrc ddclient=4.0.0-r2
 
-C:Q17MB2n52+n/Mz4/RJeTWL6d8y1q4=
+C:Q1VbFFQugKDvrxkl1ygH4MNuxVaBc=
 P:ddcutil
-V:2.2.7-r0
+V:2.2.7-r1
 A:s390x
-S:1061656
-I:2716193
+S:1067610
+I:2732577
 T:Query and change Linux monitor settings using DDC/CI and USB
 U:https://github.com/rockowitz/ddcutil
 L:GPL-2.0-only
 o:ddcutil
 m:Bart Ribbers <bribbers@disroot.org>
-t:1779125001
-c:29f7ee6092a979f4a658894d1492e5fc1d767198
-D:so:libX11.so.6 so:libXext.so.6 so:libXrandr.so.2 so:libacl.so.1 so:libc.musl-s390x.so.1 so:libdrm.so.2 so:libglib-2.0.so.0 so:libjansson.so.4 so:libudev.so.1 so:libusb-1.0.so.0
-p:cmd:ddcutil=2.2.7-r0 so:libddcutil.so.5=5.5.1
+t:1779210009
+c:f698c3b2e977d0a65a464533aa195eef12874322
+D:so:libX11.so.6 so:libXext.so.6 so:libXrandr.so.2 so:libacl.so.1 so:libc.musl-s390x.so.1 so:libdbus-1.so.3 so:libdrm.so.2 so:libglib-2.0.so.0 so:libjansson.so.4 so:libudev.so.1 so:libusb-1.0.so.0
+p:cmd:ddcutil=2.2.7-r1 so:libddcutil.so.5=5.5.1
 
-C:Q1s/5y7EvhtMdofKnjXZRdl0T8ACM=
+C:Q1ZdF6w4i8efvxwpB4/0OB/SaKO0U=
 P:ddcutil-dev
-V:2.2.7-r0
+V:2.2.7-r1
 A:s390x
-S:24108
+S:24115
 I:90361
 T:Query and change Linux monitor settings using DDC/CI and USB (development files)
 U:https://github.com/rockowitz/ddcutil
 L:GPL-2.0-only
 o:ddcutil
 m:Bart Ribbers <bribbers@disroot.org>
-t:1779125001
-c:29f7ee6092a979f4a658894d1492e5fc1d767198
-D:ddcutil=2.2.7-r0 pkgconfig
+t:1779210009
+c:f698c3b2e977d0a65a464533aa195eef12874322
+D:ddcutil=2.2.7-r1 pkgconfig
 p:pc:ddcutil=2.2.7
 
-C:Q1jYx3TOCYcuHRVOOC4NWuwVsF2C0=
+C:Q1lDMJ8t9o5RDkhncL/v6PoQbl5NU=
 P:ddcutil-doc
-V:2.2.7-r0
+V:2.2.7-r1
 A:s390x
-S:8395
+S:8398
 I:6579
 T:Query and change Linux monitor settings using DDC/CI and USB (documentation)
 U:https://github.com/rockowitz/ddcutil
 L:GPL-2.0-only
 o:ddcutil
 m:Bart Ribbers <bribbers@disroot.org>
-t:1779125001
-c:29f7ee6092a979f4a658894d1492e5fc1d767198
-i:docs ddcutil=2.2.7-r0
+t:1779210009
+c:f698c3b2e977d0a65a464533aa195eef12874322
+i:docs ddcutil=2.2.7-r1
 
-C:Q1yJTgIcNP596Pt18UsefksqIlRoM=
+C:Q1aXpdEJ7dsum9mZCHsJsdo1sTCqs=
 P:ddcutil-udev
-V:2.2.7-r0
+V:2.2.7-r1
 A:s390x
-S:1851
+S:1852
 I:320
 T:Query and change Linux monitor settings using DDC/CI and USB (udev rules)
 U:https://github.com/rockowitz/ddcutil
 L:GPL-2.0-only
 o:ddcutil
 m:Bart Ribbers <bribbers@disroot.org>
-t:1779125001
-c:29f7ee6092a979f4a658894d1492e5fc1d767198
-i:udev ddcutil=2.2.7-r0
+t:1779210009
+c:f698c3b2e977d0a65a464533aa195eef12874322
+i:udev ddcutil=2.2.7-r1
 
 C:Q1VuPniqXU3+zQHxVNo9dyuOAsJeI=
 P:ddnrs
@@ -102051,24 +102051,24 @@ t:1777900518
 c:32bf34cfb9bff508b6aa725e134e6d9b53db8015
 i:kturtle=26.04.0-r0 lang
 
-C:Q1QS5jOt/S4nbw1pPVrB2p45YlEQs=
+C:Q166PCqKgwhnNJrxTCBXka1uO6gXU=
 P:kube-apiserver
-V:1.36.0-r1
+V:1.36.1-r0
 A:s390x
-S:26761892
+S:26761899
 I:97861456
 T:Kubernetes - kube-apiserver
 U:https://kubernetes.io/
 L:Apache-2.0
 o:kubernetes
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-p:cmd:kube-apiserver=1.36.0-r1
+t:1779206375
+c:88883515f0e7718b69fbb1233ff9fff3c89f7bd8
+p:cmd:kube-apiserver=1.36.1-r0
 
-C:Q1WGfKGebE9TDwvABuoNrCEFvIpDA=
+C:Q1iJfoG/46YDtDZvYRhR6ywhf4+II=
 P:kube-apiserver-openrc
-V:1.36.0-r1
+V:1.36.1-r0
 A:s390x
 S:2026
 I:639
@@ -102077,180 +102077,180 @@ U:https://kubernetes.io/
 L:Apache-2.0
 o:kubernetes
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1779206375
+c:88883515f0e7718b69fbb1233ff9fff3c89f7bd8
 D:openrc
-i:openrc kube-apiserver=1.36.0-r1
+i:openrc kube-apiserver=1.36.1-r0
 
-C:Q1jPuZVLQaurbAxD8uWfcnnEwPNrU=
+C:Q12LKFPsK6xZYxG+gjaCF7j898bCY=
 P:kube-controller-manager
-V:1.36.0-r1
+V:1.36.1-r0
 A:s390x
-S:22238300
-I:82510521
+S:22239025
+I:82515257
 T:Kubernetes - kube-controller-manager
 U:https://kubernetes.io/
 L:Apache-2.0
 o:kubernetes
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-p:cmd:kube-controller-manager=1.36.0-r1
+t:1779206375
+c:88883515f0e7718b69fbb1233ff9fff3c89f7bd8
+p:cmd:kube-controller-manager=1.36.1-r0
 
-C:Q18jFwa8Sq2mSxwyePs3j7T1K7zq8=
+C:Q1XMoZfT+//ovGSb3IzZNJPUEigbs=
 P:kube-controller-manager-openrc
-V:1.36.0-r1
+V:1.36.1-r0
 A:s390x
-S:2049
+S:2048
 I:698
 T:Kubernetes - kube-controller-manager (OpenRC init scripts)
 U:https://kubernetes.io/
 L:Apache-2.0
 o:kubernetes
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1779206375
+c:88883515f0e7718b69fbb1233ff9fff3c89f7bd8
 D:openrc
-i:openrc kube-controller-manager=1.36.0-r1
+i:openrc kube-controller-manager=1.36.1-r0
 
-C:Q1udzwu5x6TWSMTuh2zdbAOQlehQU=
+C:Q1Bj+VdwQ6M5iurdL+0c5fuQuEeeY=
 P:kube-proxy
-V:1.36.0-r1
+V:1.36.1-r0
 A:s390x
-S:14743367
+S:14744259
 I:50834573
 T:Kubernetes - kube-proxy
 U:https://kubernetes.io/
 L:Apache-2.0
 o:kubernetes
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1779206375
+c:88883515f0e7718b69fbb1233ff9fff3c89f7bd8
 D:iptables
-p:cmd:kube-proxy=1.36.0-r1
+p:cmd:kube-proxy=1.36.1-r0
 
-C:Q1Z6lNqD2urKIKXB2juhPXwPfVo5I=
+C:Q16FF/5F3YtSoEOi1CcVpJw4YOC2I=
 P:kube-proxy-openrc
-V:1.36.0-r1
+V:1.36.1-r0
 A:s390x
-S:1985
+S:1981
 I:562
 T:Kubernetes - kube-proxy (OpenRC init scripts)
 U:https://kubernetes.io/
 L:Apache-2.0
 o:kubernetes
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1779206375
+c:88883515f0e7718b69fbb1233ff9fff3c89f7bd8
 D:openrc
-i:openrc kube-proxy=1.36.0-r1
+i:openrc kube-proxy=1.36.1-r0
 
-C:Q1g4fsVurCy/0DacTRRuG02VQAS7g=
+C:Q19IjRr60G6C/WCqBv5luZetsvAT8=
 P:kube-scheduler
-V:1.36.0-r1
+V:1.36.1-r0
 A:s390x
-S:16256715
+S:16256733
 I:56200976
 T:Kubernetes - kube-scheduler
 U:https://kubernetes.io/
 L:Apache-2.0
 o:kubernetes
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-p:cmd:kube-scheduler=1.36.0-r1
+t:1779206375
+c:88883515f0e7718b69fbb1233ff9fff3c89f7bd8
+p:cmd:kube-scheduler=1.36.1-r0
 
-C:Q1+/KlsSN1JRNB2jiQIqjTrgqzIhM=
+C:Q1KJbSSzSrWNa5qJf3qONlJK7qWP4=
 P:kube-scheduler-openrc
-V:1.36.0-r1
+V:1.36.1-r0
 A:s390x
-S:2021
+S:2019
 I:644
 T:Kubernetes - kube-scheduler (OpenRC init scripts)
 U:https://kubernetes.io/
 L:Apache-2.0
 o:kubernetes
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1779206375
+c:88883515f0e7718b69fbb1233ff9fff3c89f7bd8
 D:openrc
-i:openrc kube-scheduler=1.36.0-r1
+i:openrc kube-scheduler=1.36.1-r0
 
-C:Q1YaAoD+TkESVFC1GJ5fP2w95E0E8=
+C:Q194DwS+aXy7hQb85gSI4jv8REIDs=
 P:kubeadm
-V:1.36.0-r1
+V:1.36.1-r0
 A:s390x
-S:20925172
-I:84805720
+S:20923126
+I:84813976
 T:Kubernetes - kubeadm
 U:https://kubernetes.io/
 L:Apache-2.0
 o:kubernetes
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1779206375
+c:88883515f0e7718b69fbb1233ff9fff3c89f7bd8
 D:iproute2 socat ethtool conntrack-tools cri-tools
-p:cmd:kubeadm=1.36.0-r1
+p:cmd:kubeadm=1.36.1-r0
 
-C:Q1CYnaVYCcy+RHhGjEsD/ddQKO8Kg=
+C:Q1tqfi/GsA9B+nAy4ln1/jVYuH118=
 P:kubeadm-bash-completion
-V:1.36.0-r1
+V:1.36.1-r0
 A:s390x
-S:10468
+S:10464
 I:175117
 T:Bash completions for kubeadm
 U:https://kubernetes.io/
 L:Apache-2.0
 o:kubernetes
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:kubeadm=1.36.0-r1 bash-completion
+t:1779206375
+c:88883515f0e7718b69fbb1233ff9fff3c89f7bd8
+i:kubeadm=1.36.1-r0 bash-completion
 
-C:Q1SxLYA4Z/FrTUxRWWnumpL9dVW5k=
+C:Q1RgIBGBOClnT+8D1/RON4ie0bmU4=
 P:kubeadm-zsh-completion
-V:1.36.0-r1
+V:1.36.1-r0
 A:s390x
-S:11722
+S:11716
 I:178386
 T:Zsh completions for kubeadm
 U:https://kubernetes.io/
 L:Apache-2.0
 o:kubernetes
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:kubeadm=1.36.0-r1 zsh
+t:1779206375
+c:88883515f0e7718b69fbb1233ff9fff3c89f7bd8
+i:kubeadm=1.36.1-r0 zsh
 
-C:Q106IWLl7vlnd6kKqIVvXiUqSjYu0=
+C:Q157i8VpM6B4STyUMaqdt8cJx4Sko=
 P:kubectl
-V:1.36.0-r1
+V:1.36.1-r0
 A:s390x
-S:19101264
+S:19101725
 I:69659096
 T:Kubernetes - kubectl
 U:https://kubernetes.io/
 L:Apache-2.0
 o:kubernetes
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-p:cmd:kubectl=1.36.0-r1
+t:1779206375
+c:88883515f0e7718b69fbb1233ff9fff3c89f7bd8
+p:cmd:kubectl=1.36.1-r0
 
-C:Q1YlbtHs182A7myAYewX285MrFkFU=
+C:Q1N5l6ynlA1o1wLo2d/W0OHR94QQA=
 P:kubectl-bash-completion
-V:1.36.0-r1
+V:1.36.1-r0
 A:s390x
-S:6567
+S:6565
 I:16801
 T:Bash completions for kubectl
 U:https://kubernetes.io/
 L:Apache-2.0
 o:kubernetes
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:kubectl=1.36.0-r1 bash-completion
+t:1779206375
+c:88883515f0e7718b69fbb1233ff9fff3c89f7bd8
+i:kubectl=1.36.1-r0 bash-completion
 
 C:Q17qfcg3U24F0WZhflV1BRz34poLw=
 P:kubectl-cert-manager
@@ -102268,36 +102268,36 @@ c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
 D:kubectl cmctl=2.4.1-r2
 p:cmd:kubectl-cert_manager=2.4.1-r2 cmd:kubectl_complete-cert_manager=2.4.1-r2
 
-C:Q1fI+bJgGPOftPPIfWH1bo5CB3OZU=
+C:Q1R9A/qPGo8mprvm2CjWkgZQFKfuY=
 P:kubectl-convert
-V:1.36.0-r1
+V:1.36.1-r0
 A:s390x
-S:18467905
+S:18467911
 I:70246584
 T:Kubernetes - kubectl-convert
 U:https://kubernetes.io/
 L:Apache-2.0
 o:kubernetes
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1779206375
+c:88883515f0e7718b69fbb1233ff9fff3c89f7bd8
 D:kubectl
-p:cmd:kubectl-convert=1.36.0-r1
+p:cmd:kubectl-convert=1.36.1-r0
 
-C:Q1YLQvFnojJvvfAd0wDkQq75lCp1M=
+C:Q1JVNOEW5tIFLC2nWaC/Qivc6oRBU=
 P:kubectl-zsh-completion
-V:1.36.0-r1
+V:1.36.1-r0
 A:s390x
-S:4454
+S:4455
 I:8414
 T:Zsh completions for kubectl
 U:https://kubernetes.io/
 L:Apache-2.0
 o:kubernetes
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:kubectl=1.36.0-r1 zsh
+t:1779206375
+c:88883515f0e7718b69fbb1233ff9fff3c89f7bd8
+i:kubectl=1.36.1-r0 zsh
 
 C:Q1+ilq1NXh0YO4v7UfWqxbNQvho04=
 P:kubectx
@@ -102360,25 +102360,25 @@ t:1778661427
 c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
 i:kubectx=0.11.0-r2 zsh
 
-C:Q1ks1rdZGSFJkD3nFw36P/fIjZFic=
+C:Q1LqExFClhhEJLSLFJ0lYJ4KqZnK0=
 P:kubelet
-V:1.36.0-r1
+V:1.36.1-r0
 A:s390x
-S:20131381
-I:68524393
+S:20138828
+I:68541417
 T:Kubernetes - kubelet
 U:https://kubernetes.io/
 L:Apache-2.0
 o:kubernetes
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1779206375
+c:88883515f0e7718b69fbb1233ff9fff3c89f7bd8
 D:iptables
-p:cmd:kubelet=1.36.0-r1
+p:cmd:kubelet=1.36.1-r0
 
-C:Q187EUHyz8gdHLgZ1/xHnxY0b1FRU=
+C:Q19PmjRPkgGqFU6lWrAcNz6DNj/QU=
 P:kubelet-openrc
-V:1.36.0-r1
+V:1.36.1-r0
 A:s390x
 S:2089
 I:782
@@ -102387,14 +102387,14 @@ U:https://kubernetes.io/
 L:Apache-2.0
 o:kubernetes
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1779206375
+c:88883515f0e7718b69fbb1233ff9fff3c89f7bd8
 D:openrc
-i:openrc kubelet=1.36.0-r1
+i:openrc kubelet=1.36.1-r0
 
-C:Q1qgZSRHwOLhp+2eU5d7Fsq/XmUCs=
+C:Q1EdJVRm7IlQyNQs7aEl4Vo4HEmto=
 P:kubernetes
-V:1.36.0-r1
+V:1.36.1-r0
 A:s390x
 S:1424
 I:1
@@ -102403,8 +102403,8 @@ U:https://kubernetes.io/
 L:Apache-2.0
 o:kubernetes
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1779206375
+c:88883515f0e7718b69fbb1233ff9fff3c89f7bd8
 
 C:Q1fD9sO80f9rS9HRD4g/lVg2EDOcQ=
 P:kubo
@@ -232449,37 +232449,37 @@ c:d76c1a6338eb4c09151cb1f35b3130b10f794304
 D:python3~3.14
 i:py3-polib=1.2.0-r3 pyc
 
-C:Q1c7q7+hqZx/loDKhtfnb+pV07eFM=
+C:Q1CN9P9cw8PsflibFfNzatV9WZK3U=
 P:py3-pontos
-V:26.4.3-r0
+V:26.5.0-r0
 A:s390x
-S:181076
-I:858377
+S:181075
+I:858324
 T:Common utilities and tools maintained by Greenbone Networks
 U:https://github.com/greenbone/pontos/
 L:Apache-2.0
 o:py3-pontos
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1778002062
-c:a750be09873976907833147a2f39f84c6553d495
+t:1779206312
+c:17eb9ed9251483253c81a6a99b8374e50e2d5fd9
 D:py3-colorful py3-dateutil py3-h2 py3-httpx py3-packaging py3-rich py3-semver py3-shtab py3-tomlkit python3 python3~3.14
-p:cmd:pontos-changelog=26.4.3-r0 cmd:pontos-github-actions=26.4.3-r0 cmd:pontos-github-script=26.4.3-r0 cmd:pontos-github=26.4.3-r0 cmd:pontos-nvd-cpe-match=26.4.3-r0 cmd:pontos-nvd-cpe-matches=26.4.3-r0 cmd:pontos-nvd-cpe=26.4.3-r0 cmd:pontos-nvd-cpes=26.4.3-r0 cmd:pontos-nvd-cve-changes=26.4.3-r0 cmd:pontos-nvd-cve=26.4.3-r0 cmd:pontos-nvd-cves=26.4.3-r0 cmd:pontos-nvd-sources=26.4.3-r0 cmd:pontos-release=26.4.3-r0 cmd:pontos-update-header=26.4.3-r0 cmd:pontos-version=26.4.3-r0 cmd:pontos=26.4.3-r0 py3.14:pontos=26.4.3-r0
+p:cmd:pontos-changelog=26.5.0-r0 cmd:pontos-github-actions=26.5.0-r0 cmd:pontos-github-script=26.5.0-r0 cmd:pontos-github=26.5.0-r0 cmd:pontos-nvd-cpe-match=26.5.0-r0 cmd:pontos-nvd-cpe-matches=26.5.0-r0 cmd:pontos-nvd-cpe=26.5.0-r0 cmd:pontos-nvd-cpes=26.5.0-r0 cmd:pontos-nvd-cve-changes=26.5.0-r0 cmd:pontos-nvd-cve=26.5.0-r0 cmd:pontos-nvd-cves=26.5.0-r0 cmd:pontos-nvd-sources=26.5.0-r0 cmd:pontos-release=26.5.0-r0 cmd:pontos-update-header=26.5.0-r0 cmd:pontos-version=26.5.0-r0 cmd:pontos=26.5.0-r0 py3.14:pontos=26.5.0-r0
 
-C:Q1wNfdy+amiVF4PzxUSljc+z6OBhw=
+C:Q1sspOYYMlpOmdaFD375CQNHCVge0=
 P:py3-pontos-pyc
-V:26.4.3-r0
+V:26.5.0-r0
 A:s390x
-S:368703
-I:1116498
+S:368679
+I:1116507
 T:Precompiled Python bytecode for py3-pontos
 U:https://github.com/greenbone/pontos/
 L:Apache-2.0
 o:py3-pontos
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1778002062
-c:a750be09873976907833147a2f39f84c6553d495
+t:1779206312
+c:17eb9ed9251483253c81a6a99b8374e50e2d5fd9
 D:python3~3.14
-i:py3-pontos=26.4.3-r0 pyc
+i:py3-pontos=26.5.0-r0 pyc
 
 C:Q1B0o8nRlN0DGLuo5ZVgBD2szwdb4=
 P:py3-pooch
