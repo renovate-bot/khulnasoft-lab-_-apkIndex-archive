@@ -29552,7 +29552,8 @@
     "coreshot": {
       "origin": "coreshot",
       "versions": {
-        "5.0.0-r4": 1775828910
+        "5.0.0-r4": 1775828910,
+        "5.0.0-r5": 1779210865
       },
       "dependencies": [
         "qt6-qtsvg",
@@ -29567,7 +29568,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:coreshot=5.0.0-r4"
+        "cmd:coreshot=5.0.0-r5"
       ]
     },
     "corestats": {
@@ -42455,7 +42456,8 @@
     "fcitx5-qt": {
       "origin": "fcitx5-qt",
       "versions": {
-        "5.1.13-r0": 1776707016
+        "5.1.13-r0": 1776707016,
+        "5.1.13-r1": 1779210865
       },
       "dependencies": [
         "so:libFcitx5Utils.so.2",
@@ -42471,7 +42473,7 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:fcitx5-qt6-immodule-probing=5.1.13-r0",
+        "cmd:fcitx5-qt6-immodule-probing=5.1.13-r1",
         "so:libFcitx5Qt6DBusAddons.so.1=5.1.13",
         "so:libFcitx5Qt6WidgetsAddons.so.2=5.1.13"
       ]
@@ -42479,16 +42481,18 @@
     "fcitx5-qt-dev": {
       "origin": "fcitx5-qt",
       "versions": {
-        "5.1.13-r0": 1776707016
+        "5.1.13-r0": 1776707016,
+        "5.1.13-r1": 1779210865
       },
       "dependencies": [
-        "fcitx5-qt=5.1.13-r0"
+        "fcitx5-qt=5.1.13-r1"
       ]
     },
     "fcitx5-qt-lang": {
       "origin": "fcitx5-qt",
       "versions": {
-        "5.1.13-r0": 1776707016
+        "5.1.13-r0": 1776707016,
+        "5.1.13-r1": 1779210865
       }
     },
     "fcitx5-rime": {
@@ -77158,7 +77162,8 @@
     "hime": {
       "origin": "hime",
       "versions": {
-        "0.9.12_git20231221-r5": 1775828910
+        "0.9.12_git20231221-r5": 1775828910,
+        "0.9.12_git20231221-r6": 1779210865
       },
       "dependencies": [
         "bash",
@@ -77177,28 +77182,28 @@
         "so:libpangocairo-1.0.so.0"
       ],
       "provides": [
-        "cmd:hime-cin2gtab=0.9.12_git20231221-r5",
-        "cmd:hime-env=0.9.12_git20231221-r5",
-        "cmd:hime-exit=0.9.12_git20231221-r5",
-        "cmd:hime-gb-toggle=0.9.12_git20231221-r5",
-        "cmd:hime-gtab-merge=0.9.12_git20231221-r5",
-        "cmd:hime-gtab2cin=0.9.12_git20231221-r5",
-        "cmd:hime-juyin-learn=0.9.12_git20231221-r5",
-        "cmd:hime-kbm-toggle=0.9.12_git20231221-r5",
-        "cmd:hime-message=0.9.12_git20231221-r5",
-        "cmd:hime-phoa2d=0.9.12_git20231221-r5",
-        "cmd:hime-phod2a=0.9.12_git20231221-r5",
-        "cmd:hime-setup=0.9.12_git20231221-r5",
-        "cmd:hime-sim2trad=0.9.12_git20231221-r5",
-        "cmd:hime-sim=0.9.12_git20231221-r5",
-        "cmd:hime-trad2sim=0.9.12_git20231221-r5",
-        "cmd:hime-trad=0.9.12_git20231221-r5",
-        "cmd:hime-ts-edit=0.9.12_git20231221-r5",
-        "cmd:hime-tsa2d32=0.9.12_git20231221-r5",
-        "cmd:hime-tsd2a32=0.9.12_git20231221-r5",
-        "cmd:hime-tsin2gtab-phrase=0.9.12_git20231221-r5",
-        "cmd:hime-tslearn=0.9.12_git20231221-r5",
-        "cmd:hime=0.9.12_git20231221-r5",
+        "cmd:hime-cin2gtab=0.9.12_git20231221-r6",
+        "cmd:hime-env=0.9.12_git20231221-r6",
+        "cmd:hime-exit=0.9.12_git20231221-r6",
+        "cmd:hime-gb-toggle=0.9.12_git20231221-r6",
+        "cmd:hime-gtab-merge=0.9.12_git20231221-r6",
+        "cmd:hime-gtab2cin=0.9.12_git20231221-r6",
+        "cmd:hime-juyin-learn=0.9.12_git20231221-r6",
+        "cmd:hime-kbm-toggle=0.9.12_git20231221-r6",
+        "cmd:hime-message=0.9.12_git20231221-r6",
+        "cmd:hime-phoa2d=0.9.12_git20231221-r6",
+        "cmd:hime-phod2a=0.9.12_git20231221-r6",
+        "cmd:hime-setup=0.9.12_git20231221-r6",
+        "cmd:hime-sim2trad=0.9.12_git20231221-r6",
+        "cmd:hime-sim=0.9.12_git20231221-r6",
+        "cmd:hime-trad2sim=0.9.12_git20231221-r6",
+        "cmd:hime-trad=0.9.12_git20231221-r6",
+        "cmd:hime-ts-edit=0.9.12_git20231221-r6",
+        "cmd:hime-tsa2d32=0.9.12_git20231221-r6",
+        "cmd:hime-tsd2a32=0.9.12_git20231221-r6",
+        "cmd:hime-tsin2gtab-phrase=0.9.12_git20231221-r6",
+        "cmd:hime-tslearn=0.9.12_git20231221-r6",
+        "cmd:hime=0.9.12_git20231221-r6",
         "so:intcode-module.so=0",
         "so:libhime-im-client.so.1=1.2.4"
       ]
@@ -77206,7 +77211,8 @@
     "hime-anthy": {
       "origin": "hime",
       "versions": {
-        "0.9.12_git20231221-r5": 1775828910
+        "0.9.12_git20231221-r5": 1775828910,
+        "0.9.12_git20231221-r6": 1779210865
       },
       "dependencies": [
         "so:libanthy.so.0",
@@ -77222,7 +77228,8 @@
     "hime-chewing": {
       "origin": "hime",
       "versions": {
-        "0.9.12_git20231221-r5": 1775828910
+        "0.9.12_git20231221-r5": 1775828910,
+        "0.9.12_git20231221-r6": 1779210865
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -77239,19 +77246,22 @@
     "hime-dev": {
       "origin": "hime",
       "versions": {
-        "0.9.12_git20231221-r5": 1775828910
+        "0.9.12_git20231221-r5": 1775828910,
+        "0.9.12_git20231221-r6": 1779210865
       }
     },
     "hime-doc": {
       "origin": "hime",
       "versions": {
-        "0.9.12_git20231221-r5": 1775828910
+        "0.9.12_git20231221-r5": 1775828910,
+        "0.9.12_git20231221-r6": 1779210865
       }
     },
     "hime-gtk3": {
       "origin": "hime",
       "versions": {
-        "0.9.12_git20231221-r5": 1775828910
+        "0.9.12_git20231221-r5": 1775828910,
+        "0.9.12_git20231221-r6": 1779210865
       },
       "dependencies": [
         "/bin/sh",
@@ -77267,13 +77277,15 @@
     "hime-lang": {
       "origin": "hime",
       "versions": {
-        "0.9.12_git20231221-r5": 1775828910
+        "0.9.12_git20231221-r5": 1775828910,
+        "0.9.12_git20231221-r6": 1779210865
       }
     },
     "hime-qt5": {
       "origin": "hime",
       "versions": {
-        "0.9.12_git20231221-r5": 1775828910
+        "0.9.12_git20231221-r5": 1775828910,
+        "0.9.12_git20231221-r6": 1779210865
       },
       "dependencies": [
         "so:libQt5Core.so.5",
@@ -77287,7 +77299,8 @@
     "hime-qt6": {
       "origin": "hime",
       "versions": {
-        "0.9.12_git20231221-r5": 1775828910
+        "0.9.12_git20231221-r5": 1775828910,
+        "0.9.12_git20231221-r6": 1779210865
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -84636,31 +84649,35 @@
       "origin": "k0sctl",
       "versions": {
         "0.30.0-r0": 1778180084,
-        "0.30.0-r1": 1778661427
+        "0.30.0-r1": 1778661427,
+        "0.30.1-r0": 1779219409
       },
       "provides": [
-        "cmd:k0sctl=0.30.0-r1"
+        "cmd:k0sctl=0.30.1-r0"
       ]
     },
     "k0sctl-bash-completion": {
       "origin": "k0sctl",
       "versions": {
         "0.30.0-r0": 1778180084,
-        "0.30.0-r1": 1778661427
+        "0.30.0-r1": 1778661427,
+        "0.30.1-r0": 1779219409
       }
     },
     "k0sctl-fish-completion": {
       "origin": "k0sctl",
       "versions": {
         "0.30.0-r0": 1778180084,
-        "0.30.0-r1": 1778661427
+        "0.30.0-r1": 1778661427,
+        "0.30.1-r0": 1779219409
       }
     },
     "k0sctl-zsh-completion": {
       "origin": "k0sctl",
       "versions": {
         "0.30.0-r0": 1778180084,
-        "0.30.0-r1": 1778661427
+        "0.30.0-r1": 1778661427,
+        "0.30.1-r0": 1779219409
       }
     },
     "k2": {
@@ -87569,7 +87586,8 @@
     "kddockwidgets": {
       "origin": "kddockwidgets",
       "versions": {
-        "2.4.0-r3": 1775828910
+        "2.4.0-r3": 1775828910,
+        "2.4.0-r4": 1779210865
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -87590,14 +87608,15 @@
     "kddockwidgets-dev": {
       "origin": "kddockwidgets",
       "versions": {
-        "2.4.0-r3": 1775828910
+        "2.4.0-r3": 1775828910,
+        "2.4.0-r4": 1779210865
       },
       "dependencies": [
         "fmt-dev",
         "qt6-qtbase-dev",
         "qt6-qtdeclarative-dev",
         "spdlog-dev",
-        "kddockwidgets=2.4.0-r3"
+        "kddockwidgets=2.4.0-r4"
       ]
     },
     "kde-applications": {
@@ -105139,7 +105158,8 @@
     "libfm-qt": {
       "origin": "libfm-qt",
       "versions": {
-        "2.4.0-r0": 1776701450
+        "2.4.0-r0": 1776701450,
+        "2.4.0-r1": 1779210865
       },
       "dependencies": [
         "lxqt-menu-data",
@@ -105163,7 +105183,8 @@
     "libfm-qt-dev": {
       "origin": "libfm-qt",
       "versions": {
-        "2.4.0-r0": 1776701450
+        "2.4.0-r0": 1776701450,
+        "2.4.0-r1": 1779210865
       },
       "dependencies": [
         "perl",
@@ -105173,7 +105194,7 @@
         "menu-cache-dev",
         "qt6-qtbase-dev",
         "qt6-qttools-dev",
-        "libfm-qt=2.4.0-r0",
+        "libfm-qt=2.4.0-r1",
         "pc:Qt6Widgets>=6.6.0",
         "pkgconfig"
       ],
@@ -105184,7 +105205,8 @@
     "libfm-qt-lang": {
       "origin": "libfm-qt",
       "versions": {
-        "2.4.0-r0": 1776701450
+        "2.4.0-r0": 1776701450,
+        "2.4.0-r1": 1779210865
       },
       "dependencies": [
         "lxqt-menu-data"
@@ -114554,7 +114576,8 @@
     "libportal": {
       "origin": "libportal",
       "versions": {
-        "0.9.1-r9": 1775828910
+        "0.9.1-r9": 1775828910,
+        "0.9.1-r10": 1779210865
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -114569,13 +114592,14 @@
     "libportal-dev": {
       "origin": "libportal",
       "versions": {
-        "0.9.1-r9": 1775828910
+        "0.9.1-r9": 1775828910,
+        "0.9.1-r10": 1779210865
       },
       "dependencies": [
-        "libportal-gtk3=0.9.1-r9",
-        "libportal-gtk4=0.9.1-r9",
-        "libportal-qt6=0.9.1-r9",
-        "libportal=0.9.1-r9",
+        "libportal-gtk3=0.9.1-r10",
+        "libportal-gtk4=0.9.1-r10",
+        "libportal-qt6=0.9.1-r10",
+        "libportal=0.9.1-r10",
         "pc:Qt6Core",
         "pc:Qt6Gui",
         "pc:Qt6Widgets",
@@ -114595,10 +114619,11 @@
     "libportal-gtk3": {
       "origin": "libportal",
       "versions": {
-        "0.9.1-r9": 1775828910
+        "0.9.1-r9": 1775828910,
+        "0.9.1-r10": 1779210865
       },
       "dependencies": [
-        "libportal=0.9.1-r9",
+        "libportal=0.9.1-r10",
         "so:libgdk-3.so.0",
         "so:libglib-2.0.so.0",
         "so:libgobject-2.0.so.0",
@@ -114611,10 +114636,11 @@
     "libportal-gtk4": {
       "origin": "libportal",
       "versions": {
-        "0.9.1-r9": 1775828910
+        "0.9.1-r9": 1775828910,
+        "0.9.1-r10": 1779210865
       },
       "dependencies": [
-        "libportal=0.9.1-r9",
+        "libportal=0.9.1-r10",
         "so:libglib-2.0.so.0",
         "so:libgobject-2.0.so.0",
         "so:libgtk-4.so.1"
@@ -114626,7 +114652,8 @@
     "libportal-qt6": {
       "origin": "libportal",
       "versions": {
-        "0.9.1-r9": 1775828910
+        "0.9.1-r9": 1775828910,
+        "0.9.1-r10": 1779210865
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -115287,7 +115314,8 @@
     "libqtxdg": {
       "origin": "libqtxdg",
       "versions": {
-        "4.4.0-r0": 1776701449
+        "4.4.0-r0": 1776701449,
+        "4.4.0-r1": 1779210865
       },
       "dependencies": [
         "gtk+3.0",
@@ -115311,10 +115339,11 @@
     "libqtxdg-dev": {
       "origin": "libqtxdg",
       "versions": {
-        "4.4.0-r0": 1776701449
+        "4.4.0-r0": 1776701449,
+        "4.4.0-r1": 1779210865
       },
       "dependencies": [
-        "libqtxdg=4.4.0-r0",
+        "libqtxdg=4.4.0-r1",
         "pc:Qt6Core>=6.6.0",
         "pc:Qt6DBus>=6.6.0",
         "pc:Qt6Gui>=6.6.0",
@@ -115366,7 +115395,8 @@
     "libquotient": {
       "origin": "libquotient",
       "versions": {
-        "0.9.6.1-r1": 1775828910
+        "0.9.6.1-r1": 1775828910,
+        "0.9.6.1-r2": 1779210865
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -115387,13 +115417,14 @@
     "libquotient-dev": {
       "origin": "libquotient",
       "versions": {
-        "0.9.6.1-r1": 1775828910
+        "0.9.6.1-r1": 1775828910,
+        "0.9.6.1-r2": 1779210865
       },
       "dependencies": [
         "olm-dev",
         "qt6-qtbase-dev",
         "qtkeychain-dev",
-        "libquotient=0.9.6.1-r1",
+        "libquotient=0.9.6.1-r2",
         "pkgconfig"
       ],
       "provides": [
@@ -130463,7 +130494,8 @@
     "lxqt-qtplugin": {
       "origin": "lxqt-qtplugin",
       "versions": {
-        "2.4.0-r0": 1776701452
+        "2.4.0-r0": 1776701452,
+        "2.4.0-r1": 1779210865
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -131988,7 +132020,8 @@
     "mapplauncherd-qt": {
       "origin": "mapplauncherd-qt",
       "versions": {
-        "1.2.0-r1": 1775828910
+        "1.2.0-r1": 1775828910,
+        "1.2.0-r2": 1779210865
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -132006,7 +132039,8 @@
     "mapplauncherd-qt-dev": {
       "origin": "mapplauncherd-qt",
       "versions": {
-        "1.2.0-r1": 1775828910
+        "1.2.0-r1": 1775828910,
+        "1.2.0-r2": 1779210865
       },
       "dependencies": [
         "libxml2-dev",
@@ -132014,7 +132048,7 @@
         "qt6-qtbase-dev",
         "qt6-qtbase-private-dev",
         "qt6-qtdeclarative-dev",
-        "mapplauncherd-qt=1.2.0-r1",
+        "mapplauncherd-qt=1.2.0-r2",
         "pkgconfig"
       ],
       "provides": [
@@ -132025,7 +132059,8 @@
     "mapplauncherd-qt-systemd": {
       "origin": "mapplauncherd-qt",
       "versions": {
-        "1.2.0-r1": 1775828910
+        "1.2.0-r1": 1775828910,
+        "1.2.0-r2": 1779210865
       }
     },
     "mapplauncherd-systemd": {
@@ -148146,7 +148181,8 @@
     "obs-studio": {
       "origin": "obs-studio",
       "versions": {
-        "32.1.2-r1": 1777022464
+        "32.1.2-r1": 1777022464,
+        "32.1.2-r2": 1779210865
       },
       "dependencies": [
         "so:libEGL.so.1",
@@ -148210,8 +148246,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:obs-ffmpeg-mux=32.1.2-r1",
-        "cmd:obs=32.1.2-r1",
+        "cmd:obs-ffmpeg-mux=32.1.2-r2",
+        "cmd:obs=32.1.2-r2",
         "so:libobs-frontend-api.so.30=30",
         "so:libobs-opengl.so.30=30",
         "so:libobs-scripting.so.30=30",
@@ -148221,10 +148257,11 @@
     "obs-studio-dev": {
       "origin": "obs-studio",
       "versions": {
-        "32.1.2-r1": 1777022464
+        "32.1.2-r1": 1777022464,
+        "32.1.2-r2": 1779210865
       },
       "dependencies": [
-        "obs-studio=32.1.2-r1",
+        "obs-studio=32.1.2-r2",
         "pkgconfig"
       ],
       "provides": [
@@ -193223,7 +193260,8 @@
     "pinentry-gnome": {
       "origin": "pinentry-ui",
       "versions": {
-        "1.3.2-r6": 1775828910
+        "1.3.2-r6": 1775828910,
+        "1.3.2-r7": 1779210865
       },
       "dependencies": [
         "gcr",
@@ -193239,15 +193277,16 @@
         "so:libsecret-1.so.0"
       ],
       "provides": [
-        "pinentry-gtk=1.3.2-r6",
-        "cmd:pinentry-gnome3=1.3.2-r6",
-        "cmd:pinentry-gtk-2=1.3.2-r6"
+        "pinentry-gtk=1.3.2-r7",
+        "cmd:pinentry-gnome3=1.3.2-r7",
+        "cmd:pinentry-gtk-2=1.3.2-r7"
       ]
     },
     "pinentry-qt": {
       "origin": "pinentry-ui",
       "versions": {
-        "1.3.2-r6": 1775828910
+        "1.3.2-r6": 1775828910,
+        "1.3.2-r7": 1779210865
       },
       "dependencies": [
         "/bin/sh",
@@ -193264,13 +193303,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:pinentry-qt=1.3.2-r6"
+        "cmd:pinentry-qt=1.3.2-r7"
       ]
     },
     "pinentry-ui": {
       "origin": "pinentry-ui",
       "versions": {
-        "1.3.2-r6": 1775828910
+        "1.3.2-r6": 1775828910,
+        "1.3.2-r7": 1779210865
       }
     },
     "pingus": {
@@ -232812,7 +232852,8 @@
       "origin": "py3-textual",
       "versions": {
         "8.2.5-r0": 1777615582,
-        "8.2.6-r0": 1778788849
+        "8.2.6-r0": 1778788849,
+        "8.2.7-r0": 1779220422
       },
       "dependencies": [
         "python3",
@@ -232826,14 +232867,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:textual=8.2.6-r0"
+        "py3.14:textual=8.2.7-r0"
       ]
     },
     "py3-textual-pyc": {
       "origin": "py3-textual",
       "versions": {
         "8.2.5-r0": 1777615582,
-        "8.2.6-r0": 1778788849
+        "8.2.6-r0": 1778788849,
+        "8.2.7-r0": 1779220422
       },
       "dependencies": [
         "python3~3.14"
@@ -237167,7 +237209,8 @@
     "qbittorrent": {
       "origin": "qbittorrent",
       "versions": {
-        "5.1.4-r3": 1775828910
+        "5.1.4-r3": 1775828910,
+        "5.1.4-r4": 1779210865
       },
       "dependencies": [
         "qt6-qtsvg",
@@ -237186,19 +237229,21 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:qbittorrent=5.1.4-r3"
+        "cmd:qbittorrent=5.1.4-r4"
       ]
     },
     "qbittorrent-doc": {
       "origin": "qbittorrent",
       "versions": {
-        "5.1.4-r3": 1775828910
+        "5.1.4-r3": 1775828910,
+        "5.1.4-r4": 1779210865
       }
     },
     "qbittorrent-nox": {
       "origin": "qbittorrent",
       "versions": {
-        "5.1.4-r3": 1775828910
+        "5.1.4-r3": 1775828910,
+        "5.1.4-r4": 1779210865
       },
       "dependencies": [
         "/bin/sh",
@@ -237214,19 +237259,21 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:qbittorrent-nox=5.1.4-r3"
+        "cmd:qbittorrent-nox=5.1.4-r4"
       ]
     },
     "qbittorrent-nox-doc": {
       "origin": "qbittorrent",
       "versions": {
-        "5.1.4-r3": 1775828910
+        "5.1.4-r3": 1775828910,
+        "5.1.4-r4": 1779210865
       }
     },
     "qbittorrent-nox-openrc": {
       "origin": "qbittorrent",
       "versions": {
-        "5.1.4-r3": 1775828910
+        "5.1.4-r3": 1775828910,
+        "5.1.4-r4": 1779210865
       }
     },
     "qbootctl": {
@@ -239507,7 +239554,8 @@
     "qt6-qt3d": {
       "origin": "qt6-qt3d",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Concurrent.so.6",
@@ -239525,31 +239573,32 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libQt63DAnimation.so.6=6.11.0",
-        "so:libQt63DCore.so.6=6.11.0",
-        "so:libQt63DExtras.so.6=6.11.0",
-        "so:libQt63DInput.so.6=6.11.0",
-        "so:libQt63DLogic.so.6=6.11.0",
-        "so:libQt63DQuick.so.6=6.11.0",
-        "so:libQt63DQuickAnimation.so.6=6.11.0",
-        "so:libQt63DQuickExtras.so.6=6.11.0",
-        "so:libQt63DQuickInput.so.6=6.11.0",
-        "so:libQt63DQuickLogic.so.6=6.11.0",
-        "so:libQt63DQuickRender.so.6=6.11.0",
-        "so:libQt63DQuickScene2D.so.6=6.11.0",
-        "so:libQt63DQuickScene3D.so.6=6.11.0",
-        "so:libQt63DRender.so.6=6.11.0"
+        "so:libQt63DAnimation.so.6=6.11.1",
+        "so:libQt63DCore.so.6=6.11.1",
+        "so:libQt63DExtras.so.6=6.11.1",
+        "so:libQt63DInput.so.6=6.11.1",
+        "so:libQt63DLogic.so.6=6.11.1",
+        "so:libQt63DQuick.so.6=6.11.1",
+        "so:libQt63DQuickAnimation.so.6=6.11.1",
+        "so:libQt63DQuickExtras.so.6=6.11.1",
+        "so:libQt63DQuickInput.so.6=6.11.1",
+        "so:libQt63DQuickLogic.so.6=6.11.1",
+        "so:libQt63DQuickRender.so.6=6.11.1",
+        "so:libQt63DQuickScene2D.so.6=6.11.1",
+        "so:libQt63DQuickScene3D.so.6=6.11.1",
+        "so:libQt63DRender.so.6=6.11.1"
       ]
     },
     "qt6-qt3d-dev": {
       "origin": "qt6-qt3d",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "qt6-qtshadertools-dev",
         "qt6-qtdeclarative-dev",
-        "qt6-qt3d=6.11.0-r1",
+        "qt6-qt3d=6.11.1-r0",
         "pc:Qt6Concurrent",
         "pc:Qt6Core",
         "pc:Qt6Gui",
@@ -239560,26 +239609,27 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt63DAnimation=6.11.0",
-        "pc:Qt63DCore=6.11.0",
-        "pc:Qt63DExtras=6.11.0",
-        "pc:Qt63DInput=6.11.0",
-        "pc:Qt63DLogic=6.11.0",
-        "pc:Qt63DQuick=6.11.0",
-        "pc:Qt63DQuickAnimation=6.11.0",
-        "pc:Qt63DQuickExtras=6.11.0",
-        "pc:Qt63DQuickInput=6.11.0",
-        "pc:Qt63DQuickLogic=6.11.0",
-        "pc:Qt63DQuickRender=6.11.0",
-        "pc:Qt63DQuickScene2D=6.11.0",
-        "pc:Qt63DQuickScene3D=6.11.0",
-        "pc:Qt63DRender=6.11.0"
+        "pc:Qt63DAnimation=6.11.1",
+        "pc:Qt63DCore=6.11.1",
+        "pc:Qt63DExtras=6.11.1",
+        "pc:Qt63DInput=6.11.1",
+        "pc:Qt63DLogic=6.11.1",
+        "pc:Qt63DQuick=6.11.1",
+        "pc:Qt63DQuickAnimation=6.11.1",
+        "pc:Qt63DQuickExtras=6.11.1",
+        "pc:Qt63DQuickInput=6.11.1",
+        "pc:Qt63DQuickLogic=6.11.1",
+        "pc:Qt63DQuickRender=6.11.1",
+        "pc:Qt63DQuickScene2D=6.11.1",
+        "pc:Qt63DQuickScene3D=6.11.1",
+        "pc:Qt63DRender=6.11.1"
       ]
     },
     "qt6-qt5compat": {
       "origin": "qt6-qt5compat",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "icu-data-full",
@@ -239593,30 +239643,32 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libQt6Core5Compat.so.6=6.11.0"
+        "so:libQt6Core5Compat.so.6=6.11.1"
       ]
     },
     "qt6-qt5compat-dev": {
       "origin": "qt6-qt5compat",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "qt6-qtbase-dev",
         "qt6-qtbase-private-dev",
         "qt6-qtdeclarative-dev",
-        "qt6-qt5compat=6.11.0-r1",
+        "qt6-qt5compat=6.11.1-r0",
         "pc:Qt6Core",
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6Core5Compat=6.11.0"
+        "pc:Qt6Core5Compat=6.11.1"
       ]
     },
     "qt6-qtbase": {
       "origin": "qt6-qtbase",
       "versions": {
-        "6.11.0-r0": 1775828785
+        "6.11.0-r0": 1775828785,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "tzdata",
@@ -239640,43 +239692,45 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "so:libQt6Concurrent.so.6=6.11.0",
-        "so:libQt6Core.so.6=6.11.0",
-        "so:libQt6DBus.so.6=6.11.0",
-        "so:libQt6Network.so.6=6.11.0",
-        "so:libQt6Sql.so.6=6.11.0",
-        "so:libQt6Test.so.6=6.11.0",
-        "so:libQt6Xml.so.6=6.11.0"
+        "so:libQt6Concurrent.so.6=6.11.1",
+        "so:libQt6Core.so.6=6.11.1",
+        "so:libQt6DBus.so.6=6.11.1",
+        "so:libQt6Network.so.6=6.11.1",
+        "so:libQt6Sql.so.6=6.11.1",
+        "so:libQt6Test.so.6=6.11.1",
+        "so:libQt6Xml.so.6=6.11.1"
       ]
     },
     "qt6-qtbase-dbg": {
       "origin": "qt6-qtbase",
       "versions": {
-        "6.11.0-r0": 1775828785
+        "6.11.0-r0": 1775828785,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
-        "!qt6-qtbase-dev<6.11.0-r0",
-        "!qt6-qtbase-dev>6.11.0-r0",
-        "!qt6-qtbase-mysql<6.11.0-r0",
-        "!qt6-qtbase-mysql>6.11.0-r0",
-        "!qt6-qtbase-odbc<6.11.0-r0",
-        "!qt6-qtbase-odbc>6.11.0-r0",
-        "!qt6-qtbase-postgresql<6.11.0-r0",
-        "!qt6-qtbase-postgresql>6.11.0-r0",
-        "!qt6-qtbase-sqlite<6.11.0-r0",
-        "!qt6-qtbase-sqlite>6.11.0-r0",
-        "!qt6-qtbase-wayland<6.11.0-r0",
-        "!qt6-qtbase-wayland>6.11.0-r0",
-        "!qt6-qtbase-x11<6.11.0-r0",
-        "!qt6-qtbase-x11>6.11.0-r0",
-        "!qt6-qtbase<6.11.0-r0",
-        "!qt6-qtbase>6.11.0-r0"
+        "!qt6-qtbase-dev<6.11.1-r0",
+        "!qt6-qtbase-dev>6.11.1-r0",
+        "!qt6-qtbase-mysql<6.11.1-r0",
+        "!qt6-qtbase-mysql>6.11.1-r0",
+        "!qt6-qtbase-odbc<6.11.1-r0",
+        "!qt6-qtbase-odbc>6.11.1-r0",
+        "!qt6-qtbase-postgresql<6.11.1-r0",
+        "!qt6-qtbase-postgresql>6.11.1-r0",
+        "!qt6-qtbase-sqlite<6.11.1-r0",
+        "!qt6-qtbase-sqlite>6.11.1-r0",
+        "!qt6-qtbase-wayland<6.11.1-r0",
+        "!qt6-qtbase-wayland>6.11.1-r0",
+        "!qt6-qtbase-x11<6.11.1-r0",
+        "!qt6-qtbase-x11>6.11.1-r0",
+        "!qt6-qtbase<6.11.1-r0",
+        "!qt6-qtbase>6.11.1-r0"
       ]
     },
     "qt6-qtbase-dev": {
       "origin": "qt6-qtbase",
       "versions": {
-        "6.11.0-r0": 1775828785
+        "6.11.0-r0": 1775828785,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "qt6-qtbase-mysql",
@@ -239719,9 +239773,9 @@
         "xcb-util-renderutil-dev",
         "xcb-util-wm-dev",
         "zlib-dev",
-        "qt6-qtbase-wayland=6.11.0-r0",
-        "qt6-qtbase-x11=6.11.0-r0",
-        "qt6-qtbase=6.11.0-r0",
+        "qt6-qtbase-wayland=6.11.1-r0",
+        "qt6-qtbase-x11=6.11.1-r0",
+        "qt6-qtbase=6.11.1-r0",
         "pkgconfig",
         "so:libQt6Core.so.6",
         "so:libQt6DBus.so.6",
@@ -239730,35 +239784,37 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:androiddeployqt6=6.11.0-r0",
-        "cmd:qmake6=6.11.0-r0",
-        "cmd:wasmdeployqt6=6.11.0-r0",
-        "pc:Qt6Concurrent=6.11.0",
-        "pc:Qt6Core=6.11.0",
-        "pc:Qt6DBus=6.11.0",
-        "pc:Qt6Gui=6.11.0",
-        "pc:Qt6Network=6.11.0",
-        "pc:Qt6OpenGL=6.11.0",
-        "pc:Qt6OpenGLWidgets=6.11.0",
-        "pc:Qt6Platform=6.11.0",
-        "pc:Qt6PrintSupport=6.11.0",
-        "pc:Qt6Sql=6.11.0",
-        "pc:Qt6Test=6.11.0",
-        "pc:Qt6WaylandClient=6.11.0",
-        "pc:Qt6Widgets=6.11.0",
-        "pc:Qt6Xml=6.11.0"
+        "cmd:androiddeployqt6=6.11.1-r0",
+        "cmd:qmake6=6.11.1-r0",
+        "cmd:wasmdeployqt6=6.11.1-r0",
+        "pc:Qt6Concurrent=6.11.1",
+        "pc:Qt6Core=6.11.1",
+        "pc:Qt6DBus=6.11.1",
+        "pc:Qt6Gui=6.11.1",
+        "pc:Qt6Network=6.11.1",
+        "pc:Qt6OpenGL=6.11.1",
+        "pc:Qt6OpenGLWidgets=6.11.1",
+        "pc:Qt6Platform=6.11.1",
+        "pc:Qt6PrintSupport=6.11.1",
+        "pc:Qt6Sql=6.11.1",
+        "pc:Qt6Test=6.11.1",
+        "pc:Qt6WaylandClient=6.11.1",
+        "pc:Qt6Widgets=6.11.1",
+        "pc:Qt6Xml=6.11.1"
       ]
     },
     "qt6-qtbase-doc": {
       "origin": "qt6-qtbase",
       "versions": {
-        "6.11.0-r0": 1775828785
+        "6.11.0-r0": 1775828785,
+        "6.11.1-r0": 1779210735
       }
     },
     "qt6-qtbase-mysql": {
       "origin": "qt6-qtbase",
       "versions": {
-        "6.11.0-r0": 1775828785
+        "6.11.0-r0": 1775828785,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "tzdata",
@@ -239772,7 +239828,8 @@
     "qt6-qtbase-odbc": {
       "origin": "qt6-qtbase",
       "versions": {
-        "6.11.0-r0": 1775828785
+        "6.11.0-r0": 1775828785,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "tzdata",
@@ -239786,7 +239843,8 @@
     "qt6-qtbase-postgresql": {
       "origin": "qt6-qtbase",
       "versions": {
-        "6.11.0-r0": 1775828785
+        "6.11.0-r0": 1775828785,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "tzdata",
@@ -239800,7 +239858,8 @@
     "qt6-qtbase-private-dev": {
       "origin": "qt6-qtbase",
       "versions": {
-        "6.11.0-r0": 1775828785
+        "6.11.0-r0": 1775828785,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "tzdata"
@@ -239809,7 +239868,8 @@
     "qt6-qtbase-sqlite": {
       "origin": "qt6-qtbase",
       "versions": {
-        "6.11.0-r0": 1775828785
+        "6.11.0-r0": 1775828785,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "tzdata",
@@ -239823,7 +239883,8 @@
     "qt6-qtbase-wayland": {
       "origin": "qt6-qtbase",
       "versions": {
-        "6.11.0-r0": 1775828785
+        "6.11.0-r0": 1775828785,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "tzdata",
@@ -239840,14 +239901,15 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "so:libQt6WaylandClient.so.6=6.11.0",
-        "so:libQt6WlShellIntegration.so.6=6.11.0"
+        "so:libQt6WaylandClient.so.6=6.11.1",
+        "so:libQt6WlShellIntegration.so.6=6.11.1"
       ]
     },
     "qt6-qtbase-x11": {
       "origin": "qt6-qtbase",
       "versions": {
-        "6.11.0-r0": 1775828785
+        "6.11.0-r0": 1775828785,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "hicolor-icon-theme",
@@ -239895,21 +239957,22 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libQt6EglFSDeviceIntegration.so.6=6.11.0",
-        "so:libQt6EglFsKmsGbmSupport.so.6=6.11.0",
-        "so:libQt6EglFsKmsSupport.so.6=6.11.0",
-        "so:libQt6Gui.so.6=6.11.0",
-        "so:libQt6OpenGL.so.6=6.11.0",
-        "so:libQt6OpenGLWidgets.so.6=6.11.0",
-        "so:libQt6PrintSupport.so.6=6.11.0",
-        "so:libQt6Widgets.so.6=6.11.0",
-        "so:libQt6XcbQpa.so.6=6.11.0"
+        "so:libQt6EglFSDeviceIntegration.so.6=6.11.1",
+        "so:libQt6EglFsKmsGbmSupport.so.6=6.11.1",
+        "so:libQt6EglFsKmsSupport.so.6=6.11.1",
+        "so:libQt6Gui.so.6=6.11.1",
+        "so:libQt6OpenGL.so.6=6.11.1",
+        "so:libQt6OpenGLWidgets.so.6=6.11.1",
+        "so:libQt6PrintSupport.so.6=6.11.1",
+        "so:libQt6Widgets.so.6=6.11.1",
+        "so:libQt6XcbQpa.so.6=6.11.1"
       ]
     },
     "qt6-qtcharts": {
       "origin": "qt6-qtcharts",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -239923,18 +239986,19 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libQt6Charts.so.6=6.11.0",
-        "so:libQt6ChartsQml.so.6=6.11.0"
+        "so:libQt6Charts.so.6=6.11.1",
+        "so:libQt6ChartsQml.so.6=6.11.1"
       ]
     },
     "qt6-qtcharts-dev": {
       "origin": "qt6-qtcharts",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "qt6-qtdeclarative-dev",
-        "qt6-qtcharts=6.11.0-r1",
+        "qt6-qtcharts=6.11.1-r0",
         "pc:Qt6Core",
         "pc:Qt6Gui",
         "pc:Qt6OpenGL",
@@ -239945,14 +240009,15 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6Charts=6.11.0",
-        "pc:Qt6ChartsQml=6.11.0"
+        "pc:Qt6Charts=6.11.1",
+        "pc:Qt6ChartsQml=6.11.1"
       ]
     },
     "qt6-qtconnectivity": {
       "origin": "qt6-qtconnectivity",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -239963,33 +240028,35 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libQt6Bluetooth.so.6=6.11.0",
-        "so:libQt6Nfc.so.6=6.11.0"
+        "so:libQt6Bluetooth.so.6=6.11.1",
+        "so:libQt6Nfc.so.6=6.11.1"
       ]
     },
     "qt6-qtconnectivity-dev": {
       "origin": "qt6-qtconnectivity",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "bluez-dev",
         "qt6-qtdeclarative-dev",
-        "qt6-qtconnectivity=6.11.0-r1",
+        "qt6-qtconnectivity=6.11.1-r0",
         "pc:Qt6Core",
         "pc:Qt6DBus",
         "pc:Qt6Network",
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6Bluetooth=6.11.0",
-        "pc:Qt6Nfc=6.11.0"
+        "pc:Qt6Bluetooth=6.11.1",
+        "pc:Qt6Nfc=6.11.1"
       ]
     },
     "qt6-qtdatavis3d": {
       "origin": "qt6-qtdatavis3d",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -240001,32 +240068,34 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libQt6DataVisualization.so.6=6.11.0",
-        "so:libQt6DataVisualizationQml.so.6=6.11.0"
+        "so:libQt6DataVisualization.so.6=6.11.1",
+        "so:libQt6DataVisualizationQml.so.6=6.11.1"
       ]
     },
     "qt6-qtdatavis3d-dev": {
       "origin": "qt6-qtdatavis3d",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "qt6-qtdeclarative-dev",
-        "qt6-qtdatavis3d=6.11.0-r1",
+        "qt6-qtdatavis3d=6.11.1-r0",
         "pc:Qt6Core",
         "pc:Qt6Gui",
         "pc:Qt6OpenGL",
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6DataVisualization=6.11.0",
-        "pc:Qt6DataVisualizationQml=6.11.0"
+        "pc:Qt6DataVisualization=6.11.1",
+        "pc:Qt6DataVisualizationQml=6.11.1"
       ]
     },
     "qt6-qtdeclarative": {
       "origin": "qt6-qtdeclarative",
       "versions": {
-        "6.11.0-r2": 1775828910
+        "6.11.0-r2": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -240042,77 +240111,79 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libQt6LabsAnimation.so.6=6.11.0",
-        "so:libQt6LabsFolderListModel.so.6=6.11.0",
-        "so:libQt6LabsPlatform.so.6=6.11.0",
-        "so:libQt6LabsQmlModels.so.6=6.11.0",
-        "so:libQt6LabsSettings.so.6=6.11.0",
-        "so:libQt6LabsSharedImage.so.6=6.11.0",
-        "so:libQt6LabsStyleKit.so.6=6.11.0",
-        "so:libQt6LabsStyleKitImpl.so.6=6.11.0",
-        "so:libQt6LabsSynchronizer.so.6=6.11.0",
-        "so:libQt6LabsWavefrontMesh.so.6=6.11.0",
-        "so:libQt6Qml.so.6=6.11.0",
-        "so:libQt6QmlCompiler.so.6=6.11.0",
-        "so:libQt6QmlCore.so.6=6.11.0",
-        "so:libQt6QmlLocalStorage.so.6=6.11.0",
-        "so:libQt6QmlMeta.so.6=6.11.0",
-        "so:libQt6QmlModels.so.6=6.11.0",
-        "so:libQt6QmlNetwork.so.6=6.11.0",
-        "so:libQt6QmlWorkerScript.so.6=6.11.0",
-        "so:libQt6QmlXmlListModel.so.6=6.11.0",
-        "so:libQt6Quick.so.6=6.11.0",
-        "so:libQt6QuickControls2.so.6=6.11.0",
-        "so:libQt6QuickControls2Basic.so.6=6.11.0",
-        "so:libQt6QuickControls2BasicStyleImpl.so.6=6.11.0",
-        "so:libQt6QuickControls2FluentWinUI3StyleImpl.so.6=6.11.0",
-        "so:libQt6QuickControls2Fusion.so.6=6.11.0",
-        "so:libQt6QuickControls2FusionStyleImpl.so.6=6.11.0",
-        "so:libQt6QuickControls2Imagine.so.6=6.11.0",
-        "so:libQt6QuickControls2ImagineStyleImpl.so.6=6.11.0",
-        "so:libQt6QuickControls2Impl.so.6=6.11.0",
-        "so:libQt6QuickControls2Material.so.6=6.11.0",
-        "so:libQt6QuickControls2MaterialStyleImpl.so.6=6.11.0",
-        "so:libQt6QuickControls2Universal.so.6=6.11.0",
-        "so:libQt6QuickControls2UniversalStyleImpl.so.6=6.11.0",
-        "so:libQt6QuickDialogs2.so.6=6.11.0",
-        "so:libQt6QuickDialogs2QuickImpl.so.6=6.11.0",
-        "so:libQt6QuickDialogs2Utils.so.6=6.11.0",
-        "so:libQt6QuickEffects.so.6=6.11.0",
-        "so:libQt6QuickLayouts.so.6=6.11.0",
-        "so:libQt6QuickParticles.so.6=6.11.0",
-        "so:libQt6QuickShapes.so.6=6.11.0",
-        "so:libQt6QuickShapesDesignHelpers.so.6=6.11.0",
-        "so:libQt6QuickTemplates2.so.6=6.11.0",
-        "so:libQt6QuickTest.so.6=6.11.0",
-        "so:libQt6QuickVectorImage.so.6=6.11.0",
-        "so:libQt6QuickVectorImageGenerator.so.6=6.11.0",
-        "so:libQt6QuickVectorImageHelpers.so.6=6.11.0",
-        "so:libQt6QuickWidgets.so.6=6.11.0"
+        "so:libQt6LabsAnimation.so.6=6.11.1",
+        "so:libQt6LabsFolderListModel.so.6=6.11.1",
+        "so:libQt6LabsPlatform.so.6=6.11.1",
+        "so:libQt6LabsQmlModels.so.6=6.11.1",
+        "so:libQt6LabsSettings.so.6=6.11.1",
+        "so:libQt6LabsSharedImage.so.6=6.11.1",
+        "so:libQt6LabsStyleKit.so.6=6.11.1",
+        "so:libQt6LabsStyleKitImpl.so.6=6.11.1",
+        "so:libQt6LabsSynchronizer.so.6=6.11.1",
+        "so:libQt6LabsWavefrontMesh.so.6=6.11.1",
+        "so:libQt6Qml.so.6=6.11.1",
+        "so:libQt6QmlCompiler.so.6=6.11.1",
+        "so:libQt6QmlCore.so.6=6.11.1",
+        "so:libQt6QmlLocalStorage.so.6=6.11.1",
+        "so:libQt6QmlMeta.so.6=6.11.1",
+        "so:libQt6QmlModels.so.6=6.11.1",
+        "so:libQt6QmlNetwork.so.6=6.11.1",
+        "so:libQt6QmlWorkerScript.so.6=6.11.1",
+        "so:libQt6QmlXmlListModel.so.6=6.11.1",
+        "so:libQt6Quick.so.6=6.11.1",
+        "so:libQt6QuickControls2.so.6=6.11.1",
+        "so:libQt6QuickControls2Basic.so.6=6.11.1",
+        "so:libQt6QuickControls2BasicStyleImpl.so.6=6.11.1",
+        "so:libQt6QuickControls2FluentWinUI3StyleImpl.so.6=6.11.1",
+        "so:libQt6QuickControls2Fusion.so.6=6.11.1",
+        "so:libQt6QuickControls2FusionStyleImpl.so.6=6.11.1",
+        "so:libQt6QuickControls2Imagine.so.6=6.11.1",
+        "so:libQt6QuickControls2ImagineStyleImpl.so.6=6.11.1",
+        "so:libQt6QuickControls2Impl.so.6=6.11.1",
+        "so:libQt6QuickControls2Material.so.6=6.11.1",
+        "so:libQt6QuickControls2MaterialStyleImpl.so.6=6.11.1",
+        "so:libQt6QuickControls2Universal.so.6=6.11.1",
+        "so:libQt6QuickControls2UniversalStyleImpl.so.6=6.11.1",
+        "so:libQt6QuickDialogs2.so.6=6.11.1",
+        "so:libQt6QuickDialogs2QuickImpl.so.6=6.11.1",
+        "so:libQt6QuickDialogs2Utils.so.6=6.11.1",
+        "so:libQt6QuickEffects.so.6=6.11.1",
+        "so:libQt6QuickLayouts.so.6=6.11.1",
+        "so:libQt6QuickParticles.so.6=6.11.1",
+        "so:libQt6QuickShapes.so.6=6.11.1",
+        "so:libQt6QuickShapesDesignHelpers.so.6=6.11.1",
+        "so:libQt6QuickTemplates2.so.6=6.11.1",
+        "so:libQt6QuickTest.so.6=6.11.1",
+        "so:libQt6QuickVectorImage.so.6=6.11.1",
+        "so:libQt6QuickVectorImageGenerator.so.6=6.11.1",
+        "so:libQt6QuickVectorImageHelpers.so.6=6.11.1",
+        "so:libQt6QuickWidgets.so.6=6.11.1"
       ]
     },
     "qt6-qtdeclarative-dbg": {
       "origin": "qt6-qtdeclarative",
       "versions": {
-        "6.11.0-r2": 1775828910
+        "6.11.0-r2": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
-        "!qt6-qtdeclarative-dev<6.11.0-r2",
-        "!qt6-qtdeclarative-dev>6.11.0-r2",
-        "!qt6-qtdeclarative<6.11.0-r2",
-        "!qt6-qtdeclarative>6.11.0-r2"
+        "!qt6-qtdeclarative-dev<6.11.1-r0",
+        "!qt6-qtdeclarative-dev>6.11.1-r0",
+        "!qt6-qtdeclarative<6.11.1-r0",
+        "!qt6-qtdeclarative>6.11.1-r0"
       ]
     },
     "qt6-qtdeclarative-dev": {
       "origin": "qt6-qtdeclarative",
       "versions": {
-        "6.11.0-r2": 1775828910
+        "6.11.0-r2": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "qt6-qtshadertools-dev",
         "qt6-qtsvg-dev",
         "vulkan-headers",
-        "qt6-qtdeclarative=6.11.0-r2",
+        "qt6-qtdeclarative=6.11.1-r0",
         "pc:Qt6Core",
         "pc:Qt6Gui",
         "pc:Qt6Network",
@@ -240134,62 +240205,63 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:qml6=6.11.0-r2",
-        "cmd:qmleasing6=6.11.0-r2",
-        "cmd:qmlls6=6.11.0-r2",
-        "cmd:qmlpreview6=6.11.0-r2",
-        "cmd:qmlscene6=6.11.0-r2",
-        "pc:Qt6LabsAnimation=6.11.0",
-        "pc:Qt6LabsFolderListModel=6.11.0",
-        "pc:Qt6LabsPlatform=6.11.0",
-        "pc:Qt6LabsQmlModels=6.11.0",
-        "pc:Qt6LabsSettings=6.11.0",
-        "pc:Qt6LabsSharedImage=6.11.0",
-        "pc:Qt6LabsStyleKit=6.11.0",
-        "pc:Qt6LabsStyleKitImpl=6.11.0",
-        "pc:Qt6LabsSynchronizer=6.11.0",
-        "pc:Qt6LabsWavefrontMesh=6.11.0",
-        "pc:Qt6Qml=6.11.0",
-        "pc:Qt6QmlCompiler=6.11.0",
-        "pc:Qt6QmlCore=6.11.0",
-        "pc:Qt6QmlIntegration=6.11.0",
-        "pc:Qt6QmlLocalStorage=6.11.0",
-        "pc:Qt6QmlMeta=6.11.0",
-        "pc:Qt6QmlModels=6.11.0",
-        "pc:Qt6QmlNetwork=6.11.0",
-        "pc:Qt6QmlWorkerScript=6.11.0",
-        "pc:Qt6QmlXmlListModel=6.11.0",
-        "pc:Qt6Quick=6.11.0",
-        "pc:Qt6QuickControls2=6.11.0",
-        "pc:Qt6QuickControls2Basic=6.11.0",
-        "pc:Qt6QuickControls2BasicStyleImpl=6.11.0",
-        "pc:Qt6QuickControls2FluentWinUI3StyleImpl=6.11.0",
-        "pc:Qt6QuickControls2Fusion=6.11.0",
-        "pc:Qt6QuickControls2FusionStyleImpl=6.11.0",
-        "pc:Qt6QuickControls2Imagine=6.11.0",
-        "pc:Qt6QuickControls2ImagineStyleImpl=6.11.0",
-        "pc:Qt6QuickControls2Impl=6.11.0",
-        "pc:Qt6QuickControls2Material=6.11.0",
-        "pc:Qt6QuickControls2MaterialStyleImpl=6.11.0",
-        "pc:Qt6QuickControls2Universal=6.11.0",
-        "pc:Qt6QuickControls2UniversalStyleImpl=6.11.0",
-        "pc:Qt6QuickDialogs2=6.11.0",
-        "pc:Qt6QuickDialogs2QuickImpl=6.11.0",
-        "pc:Qt6QuickDialogs2Utils=6.11.0",
-        "pc:Qt6QuickEffects=6.11.0",
-        "pc:Qt6QuickLayouts=6.11.0",
-        "pc:Qt6QuickShapes=6.11.0",
-        "pc:Qt6QuickTemplates2=6.11.0",
-        "pc:Qt6QuickTest=6.11.0",
-        "pc:Qt6QuickVectorImage=6.11.0",
-        "pc:Qt6QuickVectorImageHelpers=6.11.0",
-        "pc:Qt6QuickWidgets=6.11.0"
+        "cmd:qml6=6.11.1-r0",
+        "cmd:qmleasing6=6.11.1-r0",
+        "cmd:qmlls6=6.11.1-r0",
+        "cmd:qmlpreview6=6.11.1-r0",
+        "cmd:qmlscene6=6.11.1-r0",
+        "pc:Qt6LabsAnimation=6.11.1",
+        "pc:Qt6LabsFolderListModel=6.11.1",
+        "pc:Qt6LabsPlatform=6.11.1",
+        "pc:Qt6LabsQmlModels=6.11.1",
+        "pc:Qt6LabsSettings=6.11.1",
+        "pc:Qt6LabsSharedImage=6.11.1",
+        "pc:Qt6LabsStyleKit=6.11.1",
+        "pc:Qt6LabsStyleKitImpl=6.11.1",
+        "pc:Qt6LabsSynchronizer=6.11.1",
+        "pc:Qt6LabsWavefrontMesh=6.11.1",
+        "pc:Qt6Qml=6.11.1",
+        "pc:Qt6QmlCompiler=6.11.1",
+        "pc:Qt6QmlCore=6.11.1",
+        "pc:Qt6QmlIntegration=6.11.1",
+        "pc:Qt6QmlLocalStorage=6.11.1",
+        "pc:Qt6QmlMeta=6.11.1",
+        "pc:Qt6QmlModels=6.11.1",
+        "pc:Qt6QmlNetwork=6.11.1",
+        "pc:Qt6QmlWorkerScript=6.11.1",
+        "pc:Qt6QmlXmlListModel=6.11.1",
+        "pc:Qt6Quick=6.11.1",
+        "pc:Qt6QuickControls2=6.11.1",
+        "pc:Qt6QuickControls2Basic=6.11.1",
+        "pc:Qt6QuickControls2BasicStyleImpl=6.11.1",
+        "pc:Qt6QuickControls2FluentWinUI3StyleImpl=6.11.1",
+        "pc:Qt6QuickControls2Fusion=6.11.1",
+        "pc:Qt6QuickControls2FusionStyleImpl=6.11.1",
+        "pc:Qt6QuickControls2Imagine=6.11.1",
+        "pc:Qt6QuickControls2ImagineStyleImpl=6.11.1",
+        "pc:Qt6QuickControls2Impl=6.11.1",
+        "pc:Qt6QuickControls2Material=6.11.1",
+        "pc:Qt6QuickControls2MaterialStyleImpl=6.11.1",
+        "pc:Qt6QuickControls2Universal=6.11.1",
+        "pc:Qt6QuickControls2UniversalStyleImpl=6.11.1",
+        "pc:Qt6QuickDialogs2=6.11.1",
+        "pc:Qt6QuickDialogs2QuickImpl=6.11.1",
+        "pc:Qt6QuickDialogs2Utils=6.11.1",
+        "pc:Qt6QuickEffects=6.11.1",
+        "pc:Qt6QuickLayouts=6.11.1",
+        "pc:Qt6QuickShapes=6.11.1",
+        "pc:Qt6QuickTemplates2=6.11.1",
+        "pc:Qt6QuickTest=6.11.1",
+        "pc:Qt6QuickVectorImage=6.11.1",
+        "pc:Qt6QuickVectorImageHelpers=6.11.1",
+        "pc:Qt6QuickWidgets=6.11.1"
       ]
     },
     "qt6-qtdeclarative-private-dev": {
       "origin": "qt6-qtdeclarative",
       "versions": {
-        "6.11.0-r2": 1775828910
+        "6.11.0-r2": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "qt6-qtbase-private-dev"
@@ -240198,7 +240270,8 @@
     "qt6-qtgraphs": {
       "origin": "qt6-qtgraphs",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -240213,18 +240286,19 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libQt6Graphs.so.6=6.11.0",
-        "so:libQt6GraphsWidgets.so.6=6.11.0"
+        "so:libQt6Graphs.so.6=6.11.1",
+        "so:libQt6GraphsWidgets.so.6=6.11.1"
       ]
     },
     "qt6-qtgraphs-dev": {
       "origin": "qt6-qtgraphs",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "qt6-qtdeclarative-private-dev",
-        "qt6-qtgraphs=6.11.0-r1",
+        "qt6-qtgraphs=6.11.1-r0",
         "pc:Qt6Core",
         "pc:Qt6Gui",
         "pc:Qt6Quick",
@@ -240233,14 +240307,15 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6Graphs=6.11.0",
-        "pc:Qt6GraphsWidgets=6.11.0"
+        "pc:Qt6Graphs=6.11.1",
+        "pc:Qt6GraphsWidgets=6.11.1"
       ]
     },
     "qt6-qtgrpc": {
       "origin": "qt6-qtgrpc",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -240257,45 +240332,47 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libQt6Grpc.so.6=6.11.0",
-        "so:libQt6GrpcQuick.so.6=6.11.0",
-        "so:libQt6Protobuf.so.6=6.11.0",
-        "so:libQt6ProtobufQtCoreTypes.so.6=6.11.0",
-        "so:libQt6ProtobufQtGuiTypes.so.6=6.11.0",
-        "so:libQt6ProtobufQuick.so.6=6.11.0",
-        "so:libQt6ProtobufWellKnownTypes.so.6=6.11.0"
+        "so:libQt6Grpc.so.6=6.11.1",
+        "so:libQt6GrpcQuick.so.6=6.11.1",
+        "so:libQt6Protobuf.so.6=6.11.1",
+        "so:libQt6ProtobufQtCoreTypes.so.6=6.11.1",
+        "so:libQt6ProtobufQtGuiTypes.so.6=6.11.1",
+        "so:libQt6ProtobufQuick.so.6=6.11.1",
+        "so:libQt6ProtobufWellKnownTypes.so.6=6.11.1"
       ]
     },
     "qt6-qtgrpc-dev": {
       "origin": "qt6-qtgrpc",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "protobuf-dev",
         "qt6-qtbase-dev",
         "qt6-qtbase-private-dev",
         "qt6-qtdeclarative-dev",
-        "qt6-qtgrpc=6.11.0-r1",
+        "qt6-qtgrpc=6.11.1-r0",
         "pc:Qt6Core",
         "pc:Qt6Network",
         "pc:Qt6Quick",
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6Grpc=6.11.0",
-        "pc:Qt6GrpcQuick=6.11.0",
-        "pc:Qt6Protobuf=6.11.0",
-        "pc:Qt6ProtobufQtCoreTypes=6.11.0",
-        "pc:Qt6ProtobufQtGuiTypes=6.11.0",
-        "pc:Qt6ProtobufQuick=6.11.0",
-        "pc:Qt6ProtobufWellKnownTypes=6.11.0"
+        "pc:Qt6Grpc=6.11.1",
+        "pc:Qt6GrpcQuick=6.11.1",
+        "pc:Qt6Protobuf=6.11.1",
+        "pc:Qt6ProtobufQtCoreTypes=6.11.1",
+        "pc:Qt6ProtobufQtGuiTypes=6.11.1",
+        "pc:Qt6ProtobufQuick=6.11.1",
+        "pc:Qt6ProtobufWellKnownTypes=6.11.1"
       ]
     },
     "qt6-qthttpserver": {
       "origin": "qt6-qthttpserver",
       "versions": {
-        "6.11.0-r0": 1775828785
+        "6.11.0-r0": 1775828785,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -240305,31 +240382,33 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libQt6HttpServer.so.6=6.11.0"
+        "so:libQt6HttpServer.so.6=6.11.1"
       ]
     },
     "qt6-qthttpserver-dev": {
       "origin": "qt6-qthttpserver",
       "versions": {
-        "6.11.0-r0": 1775828785
+        "6.11.0-r0": 1775828785,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "qt6-qtbase-dev",
         "qt6-qtwebsockets-dev",
-        "qt6-qthttpserver=6.11.0-r0",
+        "qt6-qthttpserver=6.11.1-r0",
         "pc:Qt6Core",
         "pc:Qt6Network",
         "pc:Qt6WebSockets",
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6HttpServer=6.11.0"
+        "pc:Qt6HttpServer=6.11.1"
       ]
     },
     "qt6-qtimageformats": {
       "origin": "qt6-qtimageformats",
       "versions": {
-        "6.11.0-r0": 1775828785
+        "6.11.0-r0": 1775828785,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -240347,7 +240426,8 @@
     "qt6-qtimageformats-dev": {
       "origin": "qt6-qtimageformats",
       "versions": {
-        "6.11.0-r0": 1775828785
+        "6.11.0-r0": 1775828785,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "qt6-qtimageformats",
@@ -240359,13 +240439,15 @@
     "qt6-qtlanguageserver": {
       "origin": "qt6-qtlanguageserver",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       }
     },
     "qt6-qtlanguageserver-dev": {
       "origin": "qt6-qtlanguageserver",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "qt6-qtlanguageserver-static",
@@ -240376,7 +240458,8 @@
     "qt6-qtlanguageserver-static": {
       "origin": "qt6-qtlanguageserver",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "qt6-qtlanguageserver-dev"
@@ -240385,7 +240468,8 @@
     "qt6-qtlocation": {
       "origin": "qt6-qtlocation",
       "versions": {
-        "6.11.0-r0": 1775828785
+        "6.11.0-r0": 1775828785,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "xdg-utils",
@@ -240403,32 +240487,34 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libQt6Location.so.6=6.11.0"
+        "so:libQt6Location.so.6=6.11.1"
       ]
     },
     "qt6-qtlocation-dev": {
       "origin": "qt6-qtlocation",
       "versions": {
-        "6.11.0-r0": 1775828785
+        "6.11.0-r0": 1775828785,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "qt6-qtdeclarative-dev",
         "qt6-qtdeclarative-private-dev",
         "qt6-qtpositioning-dev",
-        "qt6-qtlocation=6.11.0-r0",
+        "qt6-qtlocation=6.11.1-r0",
         "pc:Qt6Core",
         "pc:Qt6Positioning",
         "pc:Qt6PositioningQuick",
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6Location=6.11.0"
+        "pc:Qt6Location=6.11.1"
       ]
     },
     "qt6-qtlottie": {
       "origin": "qt6-qtlottie",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -240441,32 +240527,34 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libQt6Lottie.so.6=6.11.0",
-        "so:libQt6LottieVectorImageGenerator.so.6=6.11.0",
-        "so:libQt6LottieVectorImageHelpers.so.6=6.11.0"
+        "so:libQt6Lottie.so.6=6.11.1",
+        "so:libQt6LottieVectorImageGenerator.so.6=6.11.1",
+        "so:libQt6LottieVectorImageHelpers.so.6=6.11.1"
       ]
     },
     "qt6-qtlottie-dev": {
       "origin": "qt6-qtlottie",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "qt6-qtbase-dev",
         "qt6-qtdeclarative-dev",
         "qt6-qtsvg-dev",
-        "qt6-qtlottie=6.11.0-r1",
+        "qt6-qtlottie=6.11.1-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6Lottie=6.11.0",
-        "pc:Qt6LottieVectorImageHelpers=6.11.0"
+        "pc:Qt6Lottie=6.11.1",
+        "pc:Qt6LottieVectorImageHelpers=6.11.1"
       ]
     },
     "qt6-qtmqtt": {
       "origin": "qt6-qtmqtt",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -240475,31 +240563,33 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libQt6Mqtt.so.6=6.11.0"
+        "so:libQt6Mqtt.so.6=6.11.1"
       ]
     },
     "qt6-qtmqtt-dev": {
       "origin": "qt6-qtmqtt",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "qt6-qtbase-dev",
         "qt6-qtbase-private-dev",
         "qt6-qtdeclarative-dev",
-        "qt6-qtmqtt=6.11.0-r1",
+        "qt6-qtmqtt=6.11.1-r0",
         "pc:Qt6Core",
         "pc:Qt6Network",
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6Mqtt=6.11.0"
+        "pc:Qt6Mqtt=6.11.1"
       ]
     },
     "qt6-qtmultimedia": {
       "origin": "qt6-qtmultimedia",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -240514,34 +240604,36 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libQt6Multimedia.so.6=6.11.0",
-        "so:libQt6MultimediaQuick.so.6=6.11.0",
-        "so:libQt6MultimediaWidgets.so.6=6.11.0",
-        "so:libQt6SpatialAudio.so.6=6.11.0"
+        "so:libQt6Multimedia.so.6=6.11.1",
+        "so:libQt6MultimediaQuick.so.6=6.11.1",
+        "so:libQt6MultimediaWidgets.so.6=6.11.1",
+        "so:libQt6SpatialAudio.so.6=6.11.1"
       ]
     },
     "qt6-qtmultimedia-dbg": {
       "origin": "qt6-qtmultimedia",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
-        "!qt6-qtmultimedia-ffmpeg<6.11.0-r1",
-        "!qt6-qtmultimedia-ffmpeg>6.11.0-r1",
-        "!qt6-qtmultimedia-gstreamer<6.11.0-r1",
-        "!qt6-qtmultimedia-gstreamer>6.11.0-r1",
-        "!qt6-qtmultimedia<6.11.0-r1",
-        "!qt6-qtmultimedia>6.11.0-r1"
+        "!qt6-qtmultimedia-ffmpeg<6.11.1-r0",
+        "!qt6-qtmultimedia-ffmpeg>6.11.1-r0",
+        "!qt6-qtmultimedia-gstreamer<6.11.1-r0",
+        "!qt6-qtmultimedia-gstreamer>6.11.1-r0",
+        "!qt6-qtmultimedia<6.11.1-r0",
+        "!qt6-qtmultimedia>6.11.1-r0"
       ]
     },
     "qt6-qtmultimedia-dev": {
       "origin": "qt6-qtmultimedia",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
-        "qt6-qtmultimedia-ffmpeg=6.11.0-r1",
-        "qt6-qtmultimedia-gstreamer=6.11.0-r1",
+        "qt6-qtmultimedia-ffmpeg=6.11.1-r0",
+        "qt6-qtmultimedia-gstreamer=6.11.1-r0",
         "alsa-lib-dev",
         "ffmpeg-dev",
         "gst-plugins-bad-dev",
@@ -240555,7 +240647,7 @@
         "qt6-qtshadertools-dev",
         "qt6-qtsvg-dev",
         "qt6-qtdeclarative-dev",
-        "qt6-qtmultimedia=6.11.0-r1",
+        "qt6-qtmultimedia=6.11.1-r0",
         "pc:Qt6Core",
         "pc:Qt6Gui",
         "pc:Qt6Network",
@@ -240563,15 +240655,16 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6Multimedia=6.11.0",
-        "pc:Qt6MultimediaWidgets=6.11.0",
-        "pc:Qt6SpatialAudio=6.11.0"
+        "pc:Qt6Multimedia=6.11.1",
+        "pc:Qt6MultimediaWidgets=6.11.1",
+        "pc:Qt6SpatialAudio=6.11.1"
       ]
     },
     "qt6-qtmultimedia-ffmpeg": {
       "origin": "qt6-qtmultimedia",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libEGL.so.1",
@@ -240591,13 +240684,15 @@
         "so:libgcc_s.so.1",
         "so:libstdc++.so.6",
         "so:libswresample.so.6",
-        "so:libswscale.so.9"
+        "so:libswscale.so.9",
+        "so:libva.so.2"
       ]
     },
     "qt6-qtmultimedia-gstreamer": {
       "origin": "qt6-qtmultimedia",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libEGL.so.1",
@@ -240625,7 +240720,8 @@
     "qt6-qtnetworkauth": {
       "origin": "qt6-qtnetworkauth",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -240636,30 +240732,32 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libQt6NetworkAuth.so.6=6.11.0"
+        "so:libQt6NetworkAuth.so.6=6.11.1"
       ]
     },
     "qt6-qtnetworkauth-dev": {
       "origin": "qt6-qtnetworkauth",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "qt6-qtbase-dev",
         "qt6-qtbase-private-dev",
-        "qt6-qtnetworkauth=6.11.0-r1",
+        "qt6-qtnetworkauth=6.11.1-r0",
         "pc:Qt6Core",
         "pc:Qt6Network",
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6NetworkAuth=6.11.0"
+        "pc:Qt6NetworkAuth=6.11.1"
       ]
     },
     "qt6-qtpositioning": {
       "origin": "qt6-qtpositioning",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "xdg-utils",
@@ -240673,33 +240771,35 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libQt6Positioning.so.6=6.11.0",
-        "so:libQt6PositioningQuick.so.6=6.11.0"
+        "so:libQt6Positioning.so.6=6.11.1",
+        "so:libQt6PositioningQuick.so.6=6.11.1"
       ]
     },
     "qt6-qtpositioning-dev": {
       "origin": "qt6-qtpositioning",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "qt6-qtbase-dev",
         "qt6-qtdeclarative-dev",
-        "qt6-qtpositioning=6.11.0-r1",
+        "qt6-qtpositioning=6.11.1-r0",
         "pc:Qt6Core",
         "pc:Qt6Qml",
         "pc:Qt6Quick",
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6Positioning=6.11.0",
-        "pc:Qt6PositioningQuick=6.11.0"
+        "pc:Qt6Positioning=6.11.1",
+        "pc:Qt6PositioningQuick=6.11.1"
       ]
     },
     "qt6-qtquick3d": {
       "origin": "qt6-qtquick3d",
       "versions": {
-        "6.11.0-r0": 1775828785
+        "6.11.0-r0": 1775828785,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libEGL.so.1",
@@ -240713,6 +240813,7 @@
         "so:libQt6QuickTimeline.so.6",
         "so:libQt6ShaderTools.so.6",
         "so:libQt6Widgets.so.6",
+        "so:libassimp.so.6",
         "so:libc.musl-x86.so.1",
         "so:libgcc_s.so.1",
         "so:libopenxr_loader.so.1",
@@ -240720,25 +240821,26 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libQt6Quick3D.so.6=6.11.0",
-        "so:libQt6Quick3DAssetImport.so.6=6.11.0",
-        "so:libQt6Quick3DAssetUtils.so.6=6.11.0",
-        "so:libQt6Quick3DEffects.so.6=6.11.0",
-        "so:libQt6Quick3DGlslParser.so.6=6.11.0",
-        "so:libQt6Quick3DHelpers.so.6=6.11.0",
-        "so:libQt6Quick3DHelpersImpl.so.6=6.11.0",
-        "so:libQt6Quick3DIblBaker.so.6=6.11.0",
-        "so:libQt6Quick3DParticleEffects.so.6=6.11.0",
-        "so:libQt6Quick3DParticles.so.6=6.11.0",
-        "so:libQt6Quick3DRuntimeRender.so.6=6.11.0",
-        "so:libQt6Quick3DUtils.so.6=6.11.0",
-        "so:libQt6Quick3DXr.so.6=6.11.0"
+        "so:libQt6Quick3D.so.6=6.11.1",
+        "so:libQt6Quick3DAssetImport.so.6=6.11.1",
+        "so:libQt6Quick3DAssetUtils.so.6=6.11.1",
+        "so:libQt6Quick3DEffects.so.6=6.11.1",
+        "so:libQt6Quick3DGlslParser.so.6=6.11.1",
+        "so:libQt6Quick3DHelpers.so.6=6.11.1",
+        "so:libQt6Quick3DHelpersImpl.so.6=6.11.1",
+        "so:libQt6Quick3DIblBaker.so.6=6.11.1",
+        "so:libQt6Quick3DParticleEffects.so.6=6.11.1",
+        "so:libQt6Quick3DParticles.so.6=6.11.1",
+        "so:libQt6Quick3DRuntimeRender.so.6=6.11.1",
+        "so:libQt6Quick3DUtils.so.6=6.11.1",
+        "so:libQt6Quick3DXr.so.6=6.11.1"
       ]
     },
     "qt6-qtquick3d-dev": {
       "origin": "qt6-qtquick3d",
       "versions": {
-        "6.11.0-r0": 1775828785
+        "6.11.0-r0": 1775828785,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "openxr-dev",
@@ -240746,7 +240848,7 @@
         "qt6-qtquicktimeline-dev",
         "qt6-qtshadertools-dev",
         "vulkan-headers",
-        "qt6-qtquick3d=6.11.0-r0",
+        "qt6-qtquick3d=6.11.1-r0",
         "pc:Qt6Core",
         "pc:Qt6Gui",
         "pc:Qt6Qml",
@@ -240755,24 +240857,25 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6Quick3D=6.11.0",
-        "pc:Qt6Quick3DAssetImport=6.11.0",
-        "pc:Qt6Quick3DAssetUtils=6.11.0",
-        "pc:Qt6Quick3DEffects=6.11.0",
-        "pc:Qt6Quick3DHelpers=6.11.0",
-        "pc:Qt6Quick3DHelpersImpl=6.11.0",
-        "pc:Qt6Quick3DIblBaker=6.11.0",
-        "pc:Qt6Quick3DParticleEffects=6.11.0",
-        "pc:Qt6Quick3DParticles=6.11.0",
-        "pc:Qt6Quick3DRuntimeRender=6.11.0",
-        "pc:Qt6Quick3DUtils=6.11.0",
-        "pc:Qt6Quick3DXr=6.11.0"
+        "pc:Qt6Quick3D=6.11.1",
+        "pc:Qt6Quick3DAssetImport=6.11.1",
+        "pc:Qt6Quick3DAssetUtils=6.11.1",
+        "pc:Qt6Quick3DEffects=6.11.1",
+        "pc:Qt6Quick3DHelpers=6.11.1",
+        "pc:Qt6Quick3DHelpersImpl=6.11.1",
+        "pc:Qt6Quick3DIblBaker=6.11.1",
+        "pc:Qt6Quick3DParticleEffects=6.11.1",
+        "pc:Qt6Quick3DParticles=6.11.1",
+        "pc:Qt6Quick3DRuntimeRender=6.11.1",
+        "pc:Qt6Quick3DUtils=6.11.1",
+        "pc:Qt6Quick3DXr=6.11.1"
       ]
     },
     "qt6-qtquicktimeline": {
       "origin": "qt6-qtquicktimeline",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -240783,34 +240886,36 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libQt6QuickTimeline.so.6=6.11.0",
-        "so:libQt6QuickTimelineBlendTrees.so.6=6.11.0"
+        "so:libQt6QuickTimeline.so.6=6.11.1",
+        "so:libQt6QuickTimelineBlendTrees.so.6=6.11.1"
       ]
     },
     "qt6-qtquicktimeline-dev": {
       "origin": "qt6-qtquicktimeline",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "qt6-qtbase-dev",
         "qt6-qtdeclarative-dev",
         "vulkan-headers",
-        "qt6-qtquicktimeline=6.11.0-r1",
+        "qt6-qtquicktimeline=6.11.1-r0",
         "pc:Qt6Core",
         "pc:Qt6Qml",
         "pc:Qt6Quick",
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6QuickTimeline=6.11.0",
-        "pc:Qt6QuickTimelineBlendTrees=6.11.0"
+        "pc:Qt6QuickTimeline=6.11.1",
+        "pc:Qt6QuickTimelineBlendTrees=6.11.1"
       ]
     },
     "qt6-qtremoteobjects": {
       "origin": "qt6-qtremoteobjects",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -240820,20 +240925,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libQt6RemoteObjects.so.6=6.11.0",
-        "so:libQt6RemoteObjectsQml.so.6=6.11.0"
+        "so:libQt6RemoteObjects.so.6=6.11.1",
+        "so:libQt6RemoteObjectsQml.so.6=6.11.1"
       ]
     },
     "qt6-qtremoteobjects-dev": {
       "origin": "qt6-qtremoteobjects",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "qt6-qtbase-dev",
         "qt6-qtconnectivity-dev",
         "qt6-qtdeclarative-dev",
-        "qt6-qtremoteobjects=6.11.0-r1",
+        "qt6-qtremoteobjects=6.11.1-r0",
         "pc:Qt6Core",
         "pc:Qt6Gui",
         "pc:Qt6Network",
@@ -240841,15 +240947,16 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6RemoteObjects=6.11.0",
-        "pc:Qt6RemoteObjectsQml=6.11.0",
-        "pc:Qt6RepParser=6.11.0"
+        "pc:Qt6RemoteObjects=6.11.1",
+        "pc:Qt6RemoteObjectsQml=6.11.1",
+        "pc:Qt6RepParser=6.11.1"
       ]
     },
     "qt6-qtscxml": {
       "origin": "qt6-qtscxml",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -240859,38 +240966,40 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libQt6Scxml.so.6=6.11.0",
-        "so:libQt6ScxmlQml.so.6=6.11.0",
-        "so:libQt6StateMachine.so.6=6.11.0",
-        "so:libQt6StateMachineQml.so.6=6.11.0"
+        "so:libQt6Scxml.so.6=6.11.1",
+        "so:libQt6ScxmlQml.so.6=6.11.1",
+        "so:libQt6StateMachine.so.6=6.11.1",
+        "so:libQt6StateMachineQml.so.6=6.11.1"
       ]
     },
     "qt6-qtscxml-dev": {
       "origin": "qt6-qtscxml",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "qt6-qtbase-dev",
         "qt6-qtbase-private-dev",
         "qt6-qtdeclarative-dev",
-        "qt6-qtscxml=6.11.0-r1",
+        "qt6-qtscxml=6.11.1-r0",
         "pc:Qt6Core",
         "pc:Qt6Gui",
         "pc:Qt6Qml",
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6Scxml=6.11.0",
-        "pc:Qt6ScxmlQml=6.11.0",
-        "pc:Qt6StateMachine=6.11.0",
-        "pc:Qt6StateMachineQml=6.11.0"
+        "pc:Qt6Scxml=6.11.1",
+        "pc:Qt6ScxmlQml=6.11.1",
+        "pc:Qt6StateMachine=6.11.1",
+        "pc:Qt6StateMachineQml=6.11.1"
       ]
     },
     "qt6-qtsensors": {
       "origin": "qt6-qtsensors",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -240900,33 +241009,35 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libQt6Sensors.so.6=6.11.0",
-        "so:libQt6SensorsQuick.so.6=6.11.0"
+        "so:libQt6Sensors.so.6=6.11.1",
+        "so:libQt6SensorsQuick.so.6=6.11.1"
       ]
     },
     "qt6-qtsensors-dev": {
       "origin": "qt6-qtsensors",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "qt6-qtbase-dev",
         "qt6-qtsvg-dev",
         "qt6-qtdeclarative-dev",
-        "qt6-qtsensors=6.11.0-r1",
+        "qt6-qtsensors=6.11.1-r0",
         "pc:Qt6Core",
         "pc:Qt6Qml",
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6Sensors=6.11.0",
-        "pc:Qt6SensorsQuick=6.11.0"
+        "pc:Qt6Sensors=6.11.1",
+        "pc:Qt6SensorsQuick=6.11.1"
       ]
     },
     "qt6-qtserialbus": {
       "origin": "qt6-qtserialbus",
       "versions": {
-        "6.11.0-r0": 1775828785
+        "6.11.0-r0": 1775828785,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -240937,31 +241048,33 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libQt6SerialBus.so.6=6.11.0"
+        "so:libQt6SerialBus.so.6=6.11.1"
       ]
     },
     "qt6-qtserialbus-dev": {
       "origin": "qt6-qtserialbus",
       "versions": {
-        "6.11.0-r0": 1775828785
+        "6.11.0-r0": 1775828785,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "qt6-qtbase-dev",
         "qt6-qtserialport-dev",
-        "qt6-qtserialbus=6.11.0-r0",
+        "qt6-qtserialbus=6.11.1-r0",
         "pc:Qt6Core",
         "pc:Qt6Network",
         "pc:Qt6SerialPort",
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6SerialBus=6.11.0"
+        "pc:Qt6SerialBus=6.11.1"
       ]
     },
     "qt6-qtserialport": {
       "origin": "qt6-qtserialport",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -240970,29 +241083,31 @@
         "so:libudev.so.1"
       ],
       "provides": [
-        "so:libQt6SerialPort.so.6=6.11.0"
+        "so:libQt6SerialPort.so.6=6.11.1"
       ]
     },
     "qt6-qtserialport-dev": {
       "origin": "qt6-qtserialport",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "qt6-qtbase-dev",
         "qt6-qtbase-private-dev",
-        "qt6-qtserialport=6.11.0-r1",
+        "qt6-qtserialport=6.11.1-r0",
         "pc:Qt6Core",
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6SerialPort=6.11.0"
+        "pc:Qt6SerialPort=6.11.1"
       ]
     },
     "qt6-qtshadertools": {
       "origin": "qt6-qtshadertools",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -241002,29 +241117,31 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libQt6ShaderTools.so.6=6.11.0"
+        "so:libQt6ShaderTools.so.6=6.11.1"
       ]
     },
     "qt6-qtshadertools-dev": {
       "origin": "qt6-qtshadertools",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "vulkan-headers",
-        "qt6-qtshadertools=6.11.0-r1",
+        "qt6-qtshadertools=6.11.1-r0",
         "pc:Qt6Core",
         "pc:Qt6Gui",
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6ShaderTools=6.11.0"
+        "pc:Qt6ShaderTools=6.11.1"
       ]
     },
     "qt6-qtspeech": {
       "origin": "qt6-qtspeech",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -241035,32 +241152,34 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libQt6TextToSpeech.so.6=6.11.0"
+        "so:libQt6TextToSpeech.so.6=6.11.1"
       ]
     },
     "qt6-qtspeech-dev": {
       "origin": "qt6-qtspeech",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "alsa-lib-dev",
         "flite-dev",
         "qt6-qtmultimedia-dev",
         "qt6-qtdeclarative-dev",
-        "qt6-qtspeech=6.11.0-r1",
+        "qt6-qtspeech=6.11.1-r0",
         "pc:Qt6Core",
         "pc:Qt6Multimedia",
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6TextToSpeech=6.11.0"
+        "pc:Qt6TextToSpeech=6.11.1"
       ]
     },
     "qt6-qtsvg": {
       "origin": "qt6-qtsvg",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -241072,32 +241191,34 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libQt6Svg.so.6=6.11.0",
-        "so:libQt6SvgWidgets.so.6=6.11.0"
+        "so:libQt6Svg.so.6=6.11.1",
+        "so:libQt6SvgWidgets.so.6=6.11.1"
       ]
     },
     "qt6-qtsvg-dev": {
       "origin": "qt6-qtsvg",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "vulkan-headers",
-        "qt6-qtsvg=6.11.0-r1",
+        "qt6-qtsvg=6.11.1-r0",
         "pc:Qt6Core",
         "pc:Qt6Gui",
         "pc:Qt6Widgets",
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6Svg=6.11.0",
-        "pc:Qt6SvgWidgets=6.11.0"
+        "pc:Qt6Svg=6.11.1",
+        "pc:Qt6SvgWidgets=6.11.1"
       ]
     },
     "qt6-qttools": {
       "origin": "qt6-qttools",
       "versions": {
-        "6.11.0-r2": 1775852176
+        "6.11.0-r2": 1775852176,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libLLVM.so.21.1",
@@ -241124,36 +241245,37 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:assistant6=6.11.0-r2",
-        "cmd:designer6=6.11.0-r2",
-        "cmd:kmap2qmap6=6.11.0-r2",
-        "cmd:lcheck6=6.11.0-r2",
-        "cmd:lconvert6=6.11.0-r2",
-        "cmd:linguist6=6.11.0-r2",
-        "cmd:lrelease-pro6=6.11.0-r2",
-        "cmd:lrelease6=6.11.0-r2",
-        "cmd:ltext2id6=6.11.0-r2",
-        "cmd:lupdate-pro6=6.11.0-r2",
-        "cmd:lupdate6=6.11.0-r2",
-        "cmd:pixeltool6=6.11.0-r2",
-        "cmd:qdbus6=6.11.0-r2",
-        "cmd:qdbusviewer6=6.11.0-r2",
-        "cmd:qdistancefieldgenerator6=6.11.0-r2",
-        "cmd:qdoc6=6.11.0-r2",
-        "cmd:qtdiag6=6.11.0-r2",
-        "cmd:qtplugininfo6=6.11.0-r2"
+        "cmd:assistant6=6.11.1-r0",
+        "cmd:designer6=6.11.1-r0",
+        "cmd:kmap2qmap6=6.11.1-r0",
+        "cmd:lcheck6=6.11.1-r0",
+        "cmd:lconvert6=6.11.1-r0",
+        "cmd:linguist6=6.11.1-r0",
+        "cmd:lrelease-pro6=6.11.1-r0",
+        "cmd:lrelease6=6.11.1-r0",
+        "cmd:ltext2id6=6.11.1-r0",
+        "cmd:lupdate-pro6=6.11.1-r0",
+        "cmd:lupdate6=6.11.1-r0",
+        "cmd:pixeltool6=6.11.1-r0",
+        "cmd:qdbus6=6.11.1-r0",
+        "cmd:qdbusviewer6=6.11.1-r0",
+        "cmd:qdistancefieldgenerator6=6.11.1-r0",
+        "cmd:qdoc6=6.11.1-r0",
+        "cmd:qtdiag6=6.11.1-r0",
+        "cmd:qtplugininfo6=6.11.1-r0"
       ]
     },
     "qt6-qttools-dev": {
       "origin": "qt6-qttools",
       "versions": {
-        "6.11.0-r2": 1775852176
+        "6.11.0-r2": 1775852176,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
-        "qt6-qttools=6.11.0-r2",
+        "qt6-qttools=6.11.1-r0",
         "vulkan-headers",
         "qt6-qtdeclarative-dev",
-        "qt6-qttools-libs=6.11.0-r2",
+        "qt6-qttools-libs=6.11.1-r0",
         "pc:Qt6Core",
         "pc:Qt6Gui",
         "pc:Qt6OpenGLWidgets",
@@ -241163,17 +241285,18 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6Designer=6.11.0",
-        "pc:Qt6Help=6.11.0",
-        "pc:Qt6Linguist=6.11.0",
-        "pc:Qt6UiPlugin=6.11.0",
-        "pc:Qt6UiTools=6.11.0"
+        "pc:Qt6Designer=6.11.1",
+        "pc:Qt6Help=6.11.1",
+        "pc:Qt6Linguist=6.11.1",
+        "pc:Qt6UiPlugin=6.11.1",
+        "pc:Qt6UiTools=6.11.1"
       ]
     },
     "qt6-qttools-libs": {
       "origin": "qt6-qttools",
       "versions": {
-        "6.11.0-r2": 1775852176
+        "6.11.0-r2": 1775852176,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -241187,22 +241310,24 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "so:libQt6Designer.so.6=6.11.0",
-        "so:libQt6DesignerComponents.so.6=6.11.0",
-        "so:libQt6Help.so.6=6.11.0",
-        "so:libQt6UiTools.so.6=6.11.0"
+        "so:libQt6Designer.so.6=6.11.1",
+        "so:libQt6DesignerComponents.so.6=6.11.1",
+        "so:libQt6Help.so.6=6.11.1",
+        "so:libQt6UiTools.so.6=6.11.1"
       ]
     },
     "qt6-qttranslations": {
       "origin": "qt6-qttranslations",
       "versions": {
-        "6.11.0-r0": 1775828785
+        "6.11.0-r0": 1775828785,
+        "6.11.1-r0": 1779210735
       }
     },
     "qt6-qtvirtualkeyboard": {
       "origin": "qt6-qtvirtualkeyboard",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -241216,23 +241341,24 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libQt6HunspellInputMethod.so.6=6.11.0",
-        "so:libQt6VirtualKeyboard.so.6=6.11.0",
-        "so:libQt6VirtualKeyboardQml.so.6=6.11.0",
-        "so:libQt6VirtualKeyboardSettings.so.6=6.11.0"
+        "so:libQt6HunspellInputMethod.so.6=6.11.1",
+        "so:libQt6VirtualKeyboard.so.6=6.11.1",
+        "so:libQt6VirtualKeyboardQml.so.6=6.11.1",
+        "so:libQt6VirtualKeyboardSettings.so.6=6.11.1"
       ]
     },
     "qt6-qtvirtualkeyboard-dev": {
       "origin": "qt6-qtvirtualkeyboard",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "hunspell-dev",
         "qt6-qtbase-dev",
         "qt6-qtdeclarative-dev",
         "qt6-qtsvg-dev",
-        "qt6-qtvirtualkeyboard=6.11.0-r1",
+        "qt6-qtvirtualkeyboard=6.11.1-r0",
         "pc:Qt6Core",
         "pc:Qt6Gui",
         "pc:Qt6Qml",
@@ -241240,16 +241366,17 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6HunspellInputMethod=6.11.0",
-        "pc:Qt6VirtualKeyboard=6.11.0",
-        "pc:Qt6VirtualKeyboardQml=6.11.0",
-        "pc:Qt6VirtualKeyboardSettings=6.11.0"
+        "pc:Qt6HunspellInputMethod=6.11.1",
+        "pc:Qt6VirtualKeyboard=6.11.1",
+        "pc:Qt6VirtualKeyboardQml=6.11.1",
+        "pc:Qt6VirtualKeyboardSettings=6.11.1"
       ]
     },
     "qt6-qtwayland": {
       "origin": "qt6-qtwayland",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libEGL.so.1",
@@ -241269,25 +241396,26 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "so:libQt6WaylandCompositor.so.6=6.11.0",
-        "so:libQt6WaylandCompositorIviapplication.so.6=6.11.0",
-        "so:libQt6WaylandCompositorPresentationTime.so.6=6.11.0",
-        "so:libQt6WaylandCompositorWLShell.so.6=6.11.0",
-        "so:libQt6WaylandCompositorXdgShell.so.6=6.11.0",
-        "so:libQt6WaylandEglCompositorHwIntegration.so.6=6.11.0"
+        "so:libQt6WaylandCompositor.so.6=6.11.1",
+        "so:libQt6WaylandCompositorIviapplication.so.6=6.11.1",
+        "so:libQt6WaylandCompositorPresentationTime.so.6=6.11.1",
+        "so:libQt6WaylandCompositorWLShell.so.6=6.11.1",
+        "so:libQt6WaylandCompositorXdgShell.so.6=6.11.1",
+        "so:libQt6WaylandEglCompositorHwIntegration.so.6=6.11.1"
       ]
     },
     "qt6-qtwayland-dev": {
       "origin": "qt6-qtwayland",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "qt6-qtbase-dev",
         "qt6-qtbase-private-dev",
         "vulkan-headers",
         "qt6-qtdeclarative-dev",
-        "qt6-qtwayland=6.11.0-r1",
+        "qt6-qtwayland=6.11.1-r0",
         "pc:Qt6Core",
         "pc:Qt6Gui",
         "pc:Qt6OpenGL",
@@ -241296,17 +241424,18 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6WaylandCompositor=6.11.0",
-        "pc:Qt6WaylandCompositorIviapplication=6.11.0",
-        "pc:Qt6WaylandCompositorPresentationTime=6.11.0",
-        "pc:Qt6WaylandCompositorWLShell=6.11.0",
-        "pc:Qt6WaylandCompositorXdgShell=6.11.0"
+        "pc:Qt6WaylandCompositor=6.11.1",
+        "pc:Qt6WaylandCompositorIviapplication=6.11.1",
+        "pc:Qt6WaylandCompositorPresentationTime=6.11.1",
+        "pc:Qt6WaylandCompositorWLShell=6.11.1",
+        "pc:Qt6WaylandCompositorXdgShell=6.11.1"
       ]
     },
     "qt6-qtwebchannel": {
       "origin": "qt6-qtwebchannel",
       "versions": {
-        "6.11.0-r0": 1775828785
+        "6.11.0-r0": 1775828785,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -241315,31 +241444,33 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libQt6WebChannel.so.6=6.11.0",
-        "so:libQt6WebChannelQuick.so.6=6.11.0"
+        "so:libQt6WebChannel.so.6=6.11.1",
+        "so:libQt6WebChannelQuick.so.6=6.11.1"
       ]
     },
     "qt6-qtwebchannel-dev": {
       "origin": "qt6-qtwebchannel",
       "versions": {
-        "6.11.0-r0": 1775828785
+        "6.11.0-r0": 1775828785,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "qt6-qtbase-dev",
         "qt6-qtwebsockets-dev",
-        "qt6-qtwebchannel=6.11.0-r0",
+        "qt6-qtwebchannel=6.11.1-r0",
         "pc:Qt6Qml",
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6WebChannel=6.11.0",
-        "pc:Qt6WebChannelQuick=6.11.0"
+        "pc:Qt6WebChannel=6.11.1",
+        "pc:Qt6WebChannelQuick=6.11.1"
       ]
     },
     "qt6-qtwebsockets": {
       "origin": "qt6-qtwebsockets",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -241353,38 +241484,41 @@
     "qt6-qtwebsockets-dbg": {
       "origin": "qt6-qtwebsockets",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
-        "!qt6-qtwebsockets-libs<6.11.0-r1",
-        "!qt6-qtwebsockets-libs>6.11.0-r1",
-        "!qt6-qtwebsockets<6.11.0-r1",
-        "!qt6-qtwebsockets>6.11.0-r1"
+        "!qt6-qtwebsockets-libs<6.11.1-r0",
+        "!qt6-qtwebsockets-libs>6.11.1-r0",
+        "!qt6-qtwebsockets<6.11.1-r0",
+        "!qt6-qtwebsockets>6.11.1-r0"
       ]
     },
     "qt6-qtwebsockets-dev": {
       "origin": "qt6-qtwebsockets",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "qt6-qtbase-dev",
         "qt6-qtbase-private-dev",
         "qt6-qtdeclarative-dev",
-        "qt6-qtwebsockets=6.11.0-r1",
-        "qt6-qtwebsockets-libs=6.11.0-r1",
+        "qt6-qtwebsockets=6.11.1-r0",
+        "qt6-qtwebsockets-libs=6.11.1-r0",
         "pc:Qt6Core",
         "pc:Qt6Network",
         "pkgconfig"
       ],
       "provides": [
-        "pc:Qt6WebSockets=6.11.0"
+        "pc:Qt6WebSockets=6.11.1"
       ]
     },
     "qt6-qtwebsockets-libs": {
       "origin": "qt6-qtwebsockets",
       "versions": {
-        "6.11.0-r1": 1775828910
+        "6.11.0-r1": 1775828910,
+        "6.11.1-r0": 1779210735
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -241394,7 +241528,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libQt6WebSockets.so.6=6.11.0"
+        "so:libQt6WebSockets.so.6=6.11.1"
       ]
     },
     "qt6-qwt": {
@@ -260062,7 +260196,8 @@
     "strawberry": {
       "origin": "strawberry",
       "versions": {
-        "1.2.19-r0": 1776595182
+        "1.2.19-r0": 1776595182,
+        "1.2.19-r1": 1779210865
       },
       "dependencies": [
         "gst-plugins-base",
@@ -260104,13 +260239,14 @@
         "so:libtag.so.2"
       ],
       "provides": [
-        "cmd:strawberry=1.2.19-r0"
+        "cmd:strawberry=1.2.19-r1"
       ]
     },
     "strawberry-doc": {
       "origin": "strawberry",
       "versions": {
-        "1.2.19-r0": 1776595182
+        "1.2.19-r0": 1776595182,
+        "1.2.19-r1": 1779210865
       }
     },
     "streamlink": {
@@ -309895,619 +310031,619 @@
       },
       "libQt63DAnimation.so.6": {
         "package": "qt6-qt3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt63DCore.so.6": {
         "package": "qt6-qt3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt63DExtras.so.6": {
         "package": "qt6-qt3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt63DInput.so.6": {
         "package": "qt6-qt3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt63DLogic.so.6": {
         "package": "qt6-qt3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt63DQuick.so.6": {
         "package": "qt6-qt3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt63DQuickAnimation.so.6": {
         "package": "qt6-qt3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt63DQuickExtras.so.6": {
         "package": "qt6-qt3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt63DQuickInput.so.6": {
         "package": "qt6-qt3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt63DQuickLogic.so.6": {
         "package": "qt6-qt3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt63DQuickRender.so.6": {
         "package": "qt6-qt3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt63DQuickScene2D.so.6": {
         "package": "qt6-qt3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt63DQuickScene3D.so.6": {
         "package": "qt6-qt3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt63DRender.so.6": {
         "package": "qt6-qt3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Core5Compat.so.6": {
         "package": "qt6-qt5compat",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Concurrent.so.6": {
         "package": "qt6-qtbase",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Core.so.6": {
         "package": "qt6-qtbase",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6DBus.so.6": {
         "package": "qt6-qtbase",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Network.so.6": {
         "package": "qt6-qtbase",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Sql.so.6": {
         "package": "qt6-qtbase",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Test.so.6": {
         "package": "qt6-qtbase",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Xml.so.6": {
         "package": "qt6-qtbase",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6WaylandClient.so.6": {
         "package": "qt6-qtbase-wayland",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6WlShellIntegration.so.6": {
         "package": "qt6-qtbase-wayland",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6EglFSDeviceIntegration.so.6": {
         "package": "qt6-qtbase-x11",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6EglFsKmsGbmSupport.so.6": {
         "package": "qt6-qtbase-x11",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6EglFsKmsSupport.so.6": {
         "package": "qt6-qtbase-x11",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Gui.so.6": {
         "package": "qt6-qtbase-x11",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6OpenGL.so.6": {
         "package": "qt6-qtbase-x11",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6OpenGLWidgets.so.6": {
         "package": "qt6-qtbase-x11",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6PrintSupport.so.6": {
         "package": "qt6-qtbase-x11",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Widgets.so.6": {
         "package": "qt6-qtbase-x11",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6XcbQpa.so.6": {
         "package": "qt6-qtbase-x11",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Charts.so.6": {
         "package": "qt6-qtcharts",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6ChartsQml.so.6": {
         "package": "qt6-qtcharts",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Bluetooth.so.6": {
         "package": "qt6-qtconnectivity",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Nfc.so.6": {
         "package": "qt6-qtconnectivity",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6DataVisualization.so.6": {
         "package": "qt6-qtdatavis3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6DataVisualizationQml.so.6": {
         "package": "qt6-qtdatavis3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6LabsAnimation.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6LabsFolderListModel.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6LabsPlatform.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6LabsQmlModels.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6LabsSettings.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6LabsSharedImage.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6LabsStyleKit.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6LabsStyleKitImpl.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6LabsSynchronizer.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6LabsWavefrontMesh.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Qml.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QmlCompiler.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QmlCore.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QmlLocalStorage.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QmlMeta.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QmlModels.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QmlNetwork.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QmlWorkerScript.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QmlXmlListModel.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Quick.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickControls2.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickControls2Basic.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickControls2BasicStyleImpl.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickControls2FluentWinUI3StyleImpl.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickControls2Fusion.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickControls2FusionStyleImpl.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickControls2Imagine.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickControls2ImagineStyleImpl.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickControls2Impl.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickControls2Material.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickControls2MaterialStyleImpl.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickControls2Universal.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickControls2UniversalStyleImpl.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickDialogs2.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickDialogs2QuickImpl.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickDialogs2Utils.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickEffects.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickLayouts.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickParticles.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickShapes.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickShapesDesignHelpers.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickTemplates2.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickTest.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickVectorImage.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickVectorImageGenerator.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickVectorImageHelpers.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickWidgets.so.6": {
         "package": "qt6-qtdeclarative",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Graphs.so.6": {
         "package": "qt6-qtgraphs",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6GraphsWidgets.so.6": {
         "package": "qt6-qtgraphs",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Grpc.so.6": {
         "package": "qt6-qtgrpc",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6GrpcQuick.so.6": {
         "package": "qt6-qtgrpc",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Protobuf.so.6": {
         "package": "qt6-qtgrpc",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6ProtobufQtCoreTypes.so.6": {
         "package": "qt6-qtgrpc",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6ProtobufQtGuiTypes.so.6": {
         "package": "qt6-qtgrpc",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6ProtobufQuick.so.6": {
         "package": "qt6-qtgrpc",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6ProtobufWellKnownTypes.so.6": {
         "package": "qt6-qtgrpc",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6HttpServer.so.6": {
         "package": "qt6-qthttpserver",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Location.so.6": {
         "package": "qt6-qtlocation",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Lottie.so.6": {
         "package": "qt6-qtlottie",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6LottieVectorImageGenerator.so.6": {
         "package": "qt6-qtlottie",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6LottieVectorImageHelpers.so.6": {
         "package": "qt6-qtlottie",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Mqtt.so.6": {
         "package": "qt6-qtmqtt",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Multimedia.so.6": {
         "package": "qt6-qtmultimedia",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6MultimediaQuick.so.6": {
         "package": "qt6-qtmultimedia",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6MultimediaWidgets.so.6": {
         "package": "qt6-qtmultimedia",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6SpatialAudio.so.6": {
         "package": "qt6-qtmultimedia",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6NetworkAuth.so.6": {
         "package": "qt6-qtnetworkauth",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Positioning.so.6": {
         "package": "qt6-qtpositioning",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6PositioningQuick.so.6": {
         "package": "qt6-qtpositioning",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Quick3D.so.6": {
         "package": "qt6-qtquick3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Quick3DAssetImport.so.6": {
         "package": "qt6-qtquick3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Quick3DAssetUtils.so.6": {
         "package": "qt6-qtquick3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Quick3DEffects.so.6": {
         "package": "qt6-qtquick3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Quick3DGlslParser.so.6": {
         "package": "qt6-qtquick3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Quick3DHelpers.so.6": {
         "package": "qt6-qtquick3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Quick3DHelpersImpl.so.6": {
         "package": "qt6-qtquick3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Quick3DIblBaker.so.6": {
         "package": "qt6-qtquick3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Quick3DParticleEffects.so.6": {
         "package": "qt6-qtquick3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Quick3DParticles.so.6": {
         "package": "qt6-qtquick3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Quick3DRuntimeRender.so.6": {
         "package": "qt6-qtquick3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Quick3DUtils.so.6": {
         "package": "qt6-qtquick3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Quick3DXr.so.6": {
         "package": "qt6-qtquick3d",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickTimeline.so.6": {
         "package": "qt6-qtquicktimeline",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6QuickTimelineBlendTrees.so.6": {
         "package": "qt6-qtquicktimeline",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6RemoteObjects.so.6": {
         "package": "qt6-qtremoteobjects",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6RemoteObjectsQml.so.6": {
         "package": "qt6-qtremoteobjects",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Scxml.so.6": {
         "package": "qt6-qtscxml",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6ScxmlQml.so.6": {
         "package": "qt6-qtscxml",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6StateMachine.so.6": {
         "package": "qt6-qtscxml",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6StateMachineQml.so.6": {
         "package": "qt6-qtscxml",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Sensors.so.6": {
         "package": "qt6-qtsensors",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6SensorsQuick.so.6": {
         "package": "qt6-qtsensors",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6SerialBus.so.6": {
         "package": "qt6-qtserialbus",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6SerialPort.so.6": {
         "package": "qt6-qtserialport",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6ShaderTools.so.6": {
         "package": "qt6-qtshadertools",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6TextToSpeech.so.6": {
         "package": "qt6-qtspeech",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Svg.so.6": {
         "package": "qt6-qtsvg",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6SvgWidgets.so.6": {
         "package": "qt6-qtsvg",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Designer.so.6": {
         "package": "qt6-qttools-libs",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6DesignerComponents.so.6": {
         "package": "qt6-qttools-libs",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6Help.so.6": {
         "package": "qt6-qttools-libs",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6UiTools.so.6": {
         "package": "qt6-qttools-libs",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6HunspellInputMethod.so.6": {
         "package": "qt6-qtvirtualkeyboard",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6VirtualKeyboard.so.6": {
         "package": "qt6-qtvirtualkeyboard",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6VirtualKeyboardQml.so.6": {
         "package": "qt6-qtvirtualkeyboard",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6VirtualKeyboardSettings.so.6": {
         "package": "qt6-qtvirtualkeyboard",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6WaylandCompositor.so.6": {
         "package": "qt6-qtwayland",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6WaylandCompositorIviapplication.so.6": {
         "package": "qt6-qtwayland",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6WaylandCompositorPresentationTime.so.6": {
         "package": "qt6-qtwayland",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6WaylandCompositorWLShell.so.6": {
         "package": "qt6-qtwayland",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6WaylandCompositorXdgShell.so.6": {
         "package": "qt6-qtwayland",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6WaylandEglCompositorHwIntegration.so.6": {
         "package": "qt6-qtwayland",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6WebChannel.so.6": {
         "package": "qt6-qtwebchannel",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6WebChannelQuick.so.6": {
         "package": "qt6-qtwebchannel",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libQt6WebSockets.so.6": {
         "package": "qt6-qtwebsockets-libs",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libqwt-qt6.so.6.3": {
         "package": "qt6-qwt",
@@ -315021,7 +315157,7 @@
       },
       "pinentry-gtk": {
         "package": "pinentry-gnome",
-        "version": "1.3.2-r6"
+        "version": "1.3.2-r7"
       },
       "jack": {
         "package": "pipewire-jack",
