@@ -93194,7 +93194,8 @@
     "kitty": {
       "origin": "kitty",
       "versions": {
-        "0.46.2-r3": 1778661427
+        "0.46.2-r3": 1778661427,
+        "0.47.0-r0": 1779206257
       },
       "dependencies": [
         "less",
@@ -93215,40 +93216,44 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:kitty=0.46.2-r3"
+        "cmd:kitty=0.47.0-r0"
       ]
     },
     "kitty-kitten": {
       "origin": "kitty",
       "versions": {
-        "0.46.2-r3": 1778661427
+        "0.46.2-r3": 1778661427,
+        "0.47.0-r0": 1779206257
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:kitten=0.46.2-r3"
+        "cmd:kitten=0.47.0-r0"
       ]
     },
     "kitty-pyc": {
       "origin": "kitty",
       "versions": {
-        "0.46.2-r3": 1778661427
+        "0.46.2-r3": 1778661427,
+        "0.47.0-r0": 1779206257
       }
     },
     "kitty-terminfo": {
       "origin": "kitty",
       "versions": {
-        "0.46.2-r3": 1778661427
+        "0.46.2-r3": 1778661427,
+        "0.47.0-r0": 1779206257
       }
     },
     "kitty-wayland": {
       "origin": "kitty",
       "versions": {
-        "0.46.2-r3": 1778661427
+        "0.46.2-r3": 1778661427,
+        "0.47.0-r0": 1779206257
       },
       "dependencies": [
-        "kitty=0.46.2-r3",
+        "kitty=0.47.0-r0",
         "wayland-libs-egl",
         "so:libc.musl-armv7.so.1",
         "so:libdbus-1.so.3",
@@ -93259,10 +93264,11 @@
     "kitty-x11": {
       "origin": "kitty",
       "versions": {
-        "0.46.2-r3": 1778661427
+        "0.46.2-r3": 1778661427,
+        "0.47.0-r0": 1779206257
       },
       "dependencies": [
-        "kitty=0.46.2-r3",
+        "kitty=0.47.0-r0",
         "so:libX11-xcb.so.1",
         "so:libX11.so.6",
         "so:libXcursor.so.1",
@@ -98532,16 +98538,18 @@
     "kube-apiserver": {
       "origin": "kubernetes",
       "versions": {
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       },
       "provides": [
-        "cmd:kube-apiserver=1.36.0-r1"
+        "cmd:kube-apiserver=1.36.1-r0"
       ]
     },
     "kube-apiserver-openrc": {
       "origin": "kubernetes",
       "versions": {
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       },
       "dependencies": [
         "openrc"
@@ -98550,16 +98558,18 @@
     "kube-controller-manager": {
       "origin": "kubernetes",
       "versions": {
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       },
       "provides": [
-        "cmd:kube-controller-manager=1.36.0-r1"
+        "cmd:kube-controller-manager=1.36.1-r0"
       ]
     },
     "kube-controller-manager-openrc": {
       "origin": "kubernetes",
       "versions": {
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       },
       "dependencies": [
         "openrc"
@@ -98568,19 +98578,21 @@
     "kube-proxy": {
       "origin": "kubernetes",
       "versions": {
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       },
       "dependencies": [
         "iptables"
       ],
       "provides": [
-        "cmd:kube-proxy=1.36.0-r1"
+        "cmd:kube-proxy=1.36.1-r0"
       ]
     },
     "kube-proxy-openrc": {
       "origin": "kubernetes",
       "versions": {
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       },
       "dependencies": [
         "openrc"
@@ -98589,16 +98601,18 @@
     "kube-scheduler": {
       "origin": "kubernetes",
       "versions": {
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       },
       "provides": [
-        "cmd:kube-scheduler=1.36.0-r1"
+        "cmd:kube-scheduler=1.36.1-r0"
       ]
     },
     "kube-scheduler-openrc": {
       "origin": "kubernetes",
       "versions": {
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       },
       "dependencies": [
         "openrc"
@@ -98607,7 +98621,8 @@
     "kubeadm": {
       "origin": "kubernetes",
       "versions": {
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       },
       "dependencies": [
         "iproute2",
@@ -98617,34 +98632,38 @@
         "cri-tools"
       ],
       "provides": [
-        "cmd:kubeadm=1.36.0-r1"
+        "cmd:kubeadm=1.36.1-r0"
       ]
     },
     "kubeadm-bash-completion": {
       "origin": "kubernetes",
       "versions": {
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       }
     },
     "kubeadm-zsh-completion": {
       "origin": "kubernetes",
       "versions": {
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       }
     },
     "kubectl": {
       "origin": "kubernetes",
       "versions": {
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       },
       "provides": [
-        "cmd:kubectl=1.36.0-r1"
+        "cmd:kubectl=1.36.1-r0"
       ]
     },
     "kubectl-bash-completion": {
       "origin": "kubernetes",
       "versions": {
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       }
     },
     "kubectl-cert-manager": {
@@ -98664,19 +98683,21 @@
     "kubectl-convert": {
       "origin": "kubernetes",
       "versions": {
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       },
       "dependencies": [
         "kubectl"
       ],
       "provides": [
-        "cmd:kubectl-convert=1.36.0-r1"
+        "cmd:kubectl-convert=1.36.1-r0"
       ]
     },
     "kubectl-zsh-completion": {
       "origin": "kubernetes",
       "versions": {
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       }
     },
     "kubectx": {
@@ -98713,19 +98734,21 @@
     "kubelet": {
       "origin": "kubernetes",
       "versions": {
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       },
       "dependencies": [
         "iptables"
       ],
       "provides": [
-        "cmd:kubelet=1.36.0-r1"
+        "cmd:kubelet=1.36.1-r0"
       ]
     },
     "kubelet-openrc": {
       "origin": "kubernetes",
       "versions": {
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       },
       "dependencies": [
         "openrc"
@@ -98734,7 +98757,8 @@
     "kubernetes": {
       "origin": "kubernetes",
       "versions": {
-        "1.36.0-r1": 1778661427
+        "1.36.0-r1": 1778661427,
+        "1.36.1-r0": 1779206375
       }
     },
     "kubie": {
@@ -103873,7 +103897,8 @@
     "libdatachannel": {
       "origin": "libdatachannel",
       "versions": {
-        "0.24.2-r0": 1775499103
+        "0.24.2-r0": 1775499103,
+        "0.24.3-r0": 1779203894
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -103888,16 +103913,17 @@
         "so:libusrsctp.so.2"
       ],
       "provides": [
-        "so:libdatachannel.so.0.24=0.24.2"
+        "so:libdatachannel.so.0.24=0.24.3"
       ]
     },
     "libdatachannel-dev": {
       "origin": "libdatachannel",
       "versions": {
-        "0.24.2-r0": 1775499103
+        "0.24.2-r0": 1775499103,
+        "0.24.3-r0": 1779203894
       },
       "dependencies": [
-        "libdatachannel=0.24.2-r0"
+        "libdatachannel=0.24.3-r0"
       ]
     },
     "libdatovka": {
@@ -139927,7 +139953,8 @@
     "mtr": {
       "origin": "mtr",
       "versions": {
-        "0.96-r1": 1769897592
+        "0.96-r1": 1769897592,
+        "0.96-r2": 1779205721
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -139936,26 +139963,29 @@
         "so:libncursesw.so.6"
       ],
       "provides": [
-        "cmd:mtr-packet=0.96-r1",
-        "cmd:mtr=0.96-r1"
+        "cmd:mtr-packet=0.96-r2",
+        "cmd:mtr=0.96-r2"
       ]
     },
     "mtr-bash-completion": {
       "origin": "mtr",
       "versions": {
-        "0.96-r1": 1769897592
+        "0.96-r1": 1769897592,
+        "0.96-r2": 1779205721
       }
     },
     "mtr-doc": {
       "origin": "mtr",
       "versions": {
-        "0.96-r1": 1769897592
+        "0.96-r1": 1769897592,
+        "0.96-r2": 1779205721
       }
     },
     "mtr-gtk": {
       "origin": "mtr",
       "versions": {
-        "0.96-r1": 1769897592
+        "0.96-r1": 1769897592,
+        "0.96-r2": 1779205721
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -139968,8 +139998,8 @@
         "so:libncursesw.so.6"
       ],
       "provides": [
-        "cmd:mtr-gtk=0.96-r1",
-        "cmd:mtr-packet-gtk=0.96-r1"
+        "cmd:mtr-gtk=0.96-r2",
+        "cmd:mtr-packet-gtk=0.96-r2"
       ]
     },
     "mtree-portable": {
@@ -167949,7 +167979,8 @@
     "openal-soft": {
       "origin": "openal-soft",
       "versions": {
-        "1.25.1-r0": 1772664025
+        "1.25.1-r0": 1772664025,
+        "1.25.2-r0": 1779203480
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -167959,27 +167990,28 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:aldebug=1.25.1-r0",
-        "cmd:aldirect=1.25.1-r0",
-        "cmd:alhrtf=1.25.1-r0",
-        "cmd:allafplay=1.25.1-r0",
-        "cmd:allatency=1.25.1-r0",
-        "cmd:almultireverb=1.25.1-r0",
-        "cmd:alplay=1.25.1-r0",
-        "cmd:alrecord=1.25.1-r0",
-        "cmd:alreverb=1.25.1-r0",
-        "cmd:alstream=1.25.1-r0",
-        "cmd:altonegen=1.25.1-r0",
-        "cmd:openal-info=1.25.1-r0"
+        "cmd:aldebug=1.25.2-r0",
+        "cmd:aldirect=1.25.2-r0",
+        "cmd:alhrtf=1.25.2-r0",
+        "cmd:allafplay=1.25.2-r0",
+        "cmd:allatency=1.25.2-r0",
+        "cmd:almultireverb=1.25.2-r0",
+        "cmd:alplay=1.25.2-r0",
+        "cmd:alrecord=1.25.2-r0",
+        "cmd:alreverb=1.25.2-r0",
+        "cmd:alstream=1.25.2-r0",
+        "cmd:altonegen=1.25.2-r0",
+        "cmd:openal-info=1.25.2-r0"
       ]
     },
     "openal-soft-dev": {
       "origin": "openal-soft",
       "versions": {
-        "1.25.1-r0": 1772664025
+        "1.25.1-r0": 1772664025,
+        "1.25.2-r0": 1779203480
       },
       "dependencies": [
-        "openal-soft-libs=1.25.1-r0",
+        "openal-soft-libs=1.25.2-r0",
         "pkgconfig",
         "so:libQt6Core.so.6",
         "so:libQt6Gui.so.6",
@@ -167989,14 +168021,15 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:alsoft-config=1.25.1-r0",
-        "pc:openal=1.25.1"
+        "cmd:alsoft-config=1.25.2-r0",
+        "pc:openal=1.25.2"
       ]
     },
     "openal-soft-libs": {
       "origin": "openal-soft",
       "versions": {
-        "1.25.1-r0": 1772664025
+        "1.25.1-r0": 1772664025,
+        "1.25.2-r0": 1779203480
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -168004,7 +168037,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libopenal.so.1=1.25.1"
+        "so:libopenal.so.1=1.25.2"
       ]
     },
     "openbao": {
@@ -175119,7 +175152,8 @@
     "perl-authen-radius": {
       "origin": "perl-authen-radius",
       "versions": {
-        "0.36-r0": 1778677105
+        "0.36-r0": 1778677105,
+        "0.37-r0": 1779203371
       },
       "dependencies": [
         "perl",
@@ -175127,13 +175161,14 @@
         "perl-data-hexdump"
       ],
       "provides": [
-        "perl-radiusperl=0.36-r0"
+        "perl-radiusperl=0.37-r0"
       ]
     },
     "perl-authen-radius-doc": {
       "origin": "perl-authen-radius",
       "versions": {
-        "0.36-r0": 1778677105
+        "0.36-r0": 1778677105,
+        "0.37-r0": 1779203371
       }
     },
     "perl-autovivification": {
@@ -206908,21 +206943,23 @@
     "py3-decorator": {
       "origin": "py3-decorator",
       "versions": {
-        "5.2.1-r1": 1774640368
+        "5.2.1-r1": 1774640368,
+        "5.3.1-r0": 1779203985
       },
       "dependencies": [
         "python3",
         "python3~3.14"
       ],
       "provides": [
-        "py-decorator=5.2.1-r1",
-        "py3.14:decorator=5.2.1-r1"
+        "py-decorator=5.3.1-r0",
+        "py3.14:decorator=5.3.1-r0"
       ]
     },
     "py3-decorator-pyc": {
       "origin": "py3-decorator",
       "versions": {
-        "5.2.1-r1": 1774640368
+        "5.2.1-r1": 1774640368,
+        "5.3.1-r0": 1779203985
       },
       "dependencies": [
         "python3~3.14"
@@ -219549,7 +219586,8 @@
     "py3-numpy": {
       "origin": "py3-numpy",
       "versions": {
-        "2.4.5-r0": 1778942099
+        "2.4.5-r0": 1778942099,
+        "2.4.6-r0": 1779204043
       },
       "dependencies": [
         "python3~3.14",
@@ -219559,39 +219597,42 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "py3.14:numpy=2.4.5-r0"
+        "py3.14:numpy=2.4.6-r0"
       ]
     },
     "py3-numpy-dev": {
       "origin": "py3-numpy",
       "versions": {
-        "2.4.5-r0": 1778942099
+        "2.4.5-r0": 1778942099,
+        "2.4.6-r0": 1779204043
       },
       "dependencies": [
-        "py3-numpy=2.4.5-r0",
+        "py3-numpy=2.4.6-r0",
         "python3~3.14"
       ],
       "provides": [
-        "cmd:numpy-config=2.4.5-r0"
+        "cmd:numpy-config=2.4.6-r0"
       ]
     },
     "py3-numpy-f2py": {
       "origin": "py3-numpy",
       "versions": {
-        "2.4.5-r0": 1778942099
+        "2.4.5-r0": 1778942099,
+        "2.4.6-r0": 1779204043
       },
       "dependencies": [
-        "py3-numpy=2.4.5-r0",
+        "py3-numpy=2.4.6-r0",
         "python3-dev"
       ],
       "provides": [
-        "cmd:f2py=2.4.5-r0"
+        "cmd:f2py=2.4.6-r0"
       ]
     },
     "py3-numpy-pyc": {
       "origin": "py3-numpy",
       "versions": {
-        "2.4.5-r0": 1778942099
+        "2.4.5-r0": 1778942099,
+        "2.4.6-r0": 1779204043
       },
       "dependencies": [
         "python3~3.14"
@@ -219600,7 +219641,8 @@
     "py3-numpy-tests": {
       "origin": "py3-numpy",
       "versions": {
-        "2.4.5-r0": 1778942099
+        "2.4.5-r0": 1778942099,
+        "2.4.6-r0": 1779204043
       },
       "dependencies": [
         "python3~3.14"
@@ -222183,7 +222225,8 @@
     "py3-pontos": {
       "origin": "py3-pontos",
       "versions": {
-        "26.4.3-r0": 1778002062
+        "26.4.3-r0": 1778002062,
+        "26.5.0-r0": 1779206312
       },
       "dependencies": [
         "py3-colorful",
@@ -222199,29 +222242,30 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:pontos-changelog=26.4.3-r0",
-        "cmd:pontos-github-actions=26.4.3-r0",
-        "cmd:pontos-github-script=26.4.3-r0",
-        "cmd:pontos-github=26.4.3-r0",
-        "cmd:pontos-nvd-cpe-match=26.4.3-r0",
-        "cmd:pontos-nvd-cpe-matches=26.4.3-r0",
-        "cmd:pontos-nvd-cpe=26.4.3-r0",
-        "cmd:pontos-nvd-cpes=26.4.3-r0",
-        "cmd:pontos-nvd-cve-changes=26.4.3-r0",
-        "cmd:pontos-nvd-cve=26.4.3-r0",
-        "cmd:pontos-nvd-cves=26.4.3-r0",
-        "cmd:pontos-nvd-sources=26.4.3-r0",
-        "cmd:pontos-release=26.4.3-r0",
-        "cmd:pontos-update-header=26.4.3-r0",
-        "cmd:pontos-version=26.4.3-r0",
-        "cmd:pontos=26.4.3-r0",
-        "py3.14:pontos=26.4.3-r0"
+        "cmd:pontos-changelog=26.5.0-r0",
+        "cmd:pontos-github-actions=26.5.0-r0",
+        "cmd:pontos-github-script=26.5.0-r0",
+        "cmd:pontos-github=26.5.0-r0",
+        "cmd:pontos-nvd-cpe-match=26.5.0-r0",
+        "cmd:pontos-nvd-cpe-matches=26.5.0-r0",
+        "cmd:pontos-nvd-cpe=26.5.0-r0",
+        "cmd:pontos-nvd-cpes=26.5.0-r0",
+        "cmd:pontos-nvd-cve-changes=26.5.0-r0",
+        "cmd:pontos-nvd-cve=26.5.0-r0",
+        "cmd:pontos-nvd-cves=26.5.0-r0",
+        "cmd:pontos-nvd-sources=26.5.0-r0",
+        "cmd:pontos-release=26.5.0-r0",
+        "cmd:pontos-update-header=26.5.0-r0",
+        "cmd:pontos-version=26.5.0-r0",
+        "cmd:pontos=26.5.0-r0",
+        "py3.14:pontos=26.5.0-r0"
       ]
     },
     "py3-pontos-pyc": {
       "origin": "py3-pontos",
       "versions": {
-        "26.4.3-r0": 1778002062
+        "26.4.3-r0": 1778002062,
+        "26.5.0-r0": 1779206312
       },
       "dependencies": [
         "python3~3.14"
@@ -224676,20 +224720,22 @@
     "py3-pypdf": {
       "origin": "py3-pypdf",
       "versions": {
-        "6.4.2-r1": 1774640426
+        "6.4.2-r1": 1774640426,
+        "6.11.0-r0": 1779203948
       },
       "dependencies": [
         "python3~3.14"
       ],
       "provides": [
-        "py3-pypdf2=6.4.2-r1",
-        "py3.14:pypdf=6.4.2-r1"
+        "py3-pypdf2=6.11.0-r0",
+        "py3.14:pypdf=6.11.0-r0"
       ]
     },
     "py3-pypdf-pyc": {
       "origin": "py3-pypdf",
       "versions": {
-        "6.4.2-r1": 1774640426
+        "6.4.2-r1": 1774640426,
+        "6.11.0-r0": 1779203948
       },
       "dependencies": [
         "python3~3.14"
@@ -302415,7 +302461,7 @@
       },
       "libdatachannel.so.0.24": {
         "package": "libdatachannel",
-        "version": "0.24.2"
+        "version": "0.24.3"
       },
       "libdatovka.so.8": {
         "package": "libdatovka",
@@ -306991,7 +307037,7 @@
       },
       "libopenal.so.1": {
         "package": "openal-soft-libs",
-        "version": "1.25.1"
+        "version": "1.25.2"
       },
       "openblas:libopenblas.so.3": {
         "package": "openblas",
@@ -313921,7 +313967,7 @@
       },
       "perl-radiusperl": {
         "package": "perl-authen-radius",
-        "version": "0.36-r0"
+        "version": "0.37-r0"
       },
       "perl-authen-ntlm": {
         "package": "perl-ntlm",
@@ -314701,7 +314747,7 @@
       },
       "py-decorator": {
         "package": "py3-decorator",
-        "version": "5.2.1-r1"
+        "version": "5.3.1-r0"
       },
       "py-defusedxml": {
         "package": "py3-defusedxml",
@@ -315289,7 +315335,7 @@
       },
       "py3-pypdf2": {
         "package": "py3-pypdf",
-        "version": "6.4.2-r1"
+        "version": "6.11.0-r0"
       },
       "py-pypeg2": {
         "package": "py3-pypeg2",
