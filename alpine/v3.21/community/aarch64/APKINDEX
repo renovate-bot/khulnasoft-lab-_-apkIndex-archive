@@ -194390,228 +194390,228 @@ t:1730463392
 c:8bb275a95ec91f83b0131f4bf374d08fe08789e0
 D:postgresql17 so:libc.musl-aarch64.so.1
 
-C:Q11Xkar15d1f07F5GAxo1bQAIetRY=
+C:Q1czrNJ41OusoO9JMylbx5GXQKtig=
 P:postgresql15
-V:15.17-r0
+V:15.18-r0
 A:aarch64
-S:5560554
-I:15317774
+S:5571298
+I:15383310
 T:A sophisticated object-relational DBMS, version 15
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql15
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1773329893
-c:cee73f0f507dc7c1326b0089f00b2d6858de3c51
+t:1779223642
+c:817c7780e5f8f175bf02af18f48dbf43bb45e903
 k:15
 D:postgresql15-client postgresql-common tzdata /bin/sh so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libicui18n.so.74 so:libicuuc.so.74 so:libldap.so.2 so:liblz4.so.1 so:libpq.so.5 so:libssl.so.3 so:libxml2.so.2 so:libz.so.1 so:libzstd.so.1
-p:postgresql cmd:postmaster cmd:pg_test_fsync cmd:pg_archivecleanup cmd:pg_rewind cmd:pg_checksums cmd:pg_ctl cmd:pg_controldata cmd:pg_test_timing cmd:pg_resetwal cmd:postgres cmd:pg_upgrade cmd:pg_waldump cmd:initdb cmd:postgres15=15.17-r0
+p:postgresql cmd:pg_controldata cmd:pg_archivecleanup cmd:pg_upgrade cmd:initdb cmd:pg_checksums cmd:pg_waldump cmd:pg_test_fsync cmd:pg_ctl cmd:postgres cmd:pg_test_timing cmd:postmaster cmd:pg_resetwal cmd:pg_rewind cmd:postgres15=15.18-r0
 
-C:Q1yk6RDh5xMC/MvTOJK1/IC1alJ1o=
+C:Q1Ohhyt/CvUVx4zwMO8GIN4wZjp3I=
 P:postgresql15-client
-V:15.17-r0
+V:15.18-r0
 A:aarch64
-S:1253610
+S:1265294
 I:3589139
 T:PostgreSQL client
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql15
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1773329893
-c:cee73f0f507dc7c1326b0089f00b2d6858de3c51
+t:1779223642
+c:817c7780e5f8f175bf02af18f48dbf43bb45e903
 k:15
 D:postgresql-common so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:liblz4.so.1 so:libpq.so.5 so:libreadline.so.8 so:libz.so.1 so:libzstd.so.1
 p:postgresql-client cmd:clusterdb cmd:createdb cmd:createuser cmd:dropdb cmd:dropuser cmd:pg_amcheck cmd:pg_basebackup cmd:pg_dump cmd:pg_dumpall cmd:pg_isready cmd:pg_receivewal cmd:pg_recvlogical cmd:pg_restore cmd:pg_verifybackup cmd:pgbench cmd:psql cmd:reindexdb cmd:vacuumdb
 
-C:Q1frJ5lnXIjfZKhQWaoilFjJg0ghc=
+C:Q1SA5ZxqHTDC6PqqfCu0rWtwo8oV8=
 P:postgresql15-contrib
-V:15.17-r0
+V:15.18-r0
 A:aarch64
-S:692684
+S:693737
 I:4259011
 T:Extension modules distributed with PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql15
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1773329893
-c:cee73f0f507dc7c1326b0089f00b2d6858de3c51
+t:1779223642
+c:817c7780e5f8f175bf02af18f48dbf43bb45e903
 k:15
-D:postgresql15=15.17-r0 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libpq.so.5 so:libuuid.so.1 so:libxml2.so.2 so:libz.so.1
+D:postgresql15=15.18-r0 so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libpq.so.5 so:libuuid.so.1 so:libxml2.so.2 so:libz.so.1
 p:postgresql-contrib cmd:oid2name cmd:vacuumlo
 
-C:Q17JzKU16G0LRZ7lPTofG7L+qIItk=
+C:Q1bxPbcVOX1FzUaUxADsZKETbRrho=
 P:postgresql15-contrib-jit
-V:15.17-r0
+V:15.18-r0
 A:aarch64
-S:1640116
-I:2902408
+S:1639410
+I:2901280
 T:Extension modules distributed with PostgreSQL (JIT support)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql15
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1773329893
-c:cee73f0f507dc7c1326b0089f00b2d6858de3c51
+t:1779223642
+c:817c7780e5f8f175bf02af18f48dbf43bb45e903
 k:15
-D:postgresql15-contrib=15.17-r0
+D:postgresql15-contrib=15.18-r0
 p:postgresql-contrib-jit
-i:postgresql15-jit postgresql15-contrib=15.17-r0
+i:postgresql15-jit postgresql15-contrib=15.18-r0
 
-C:Q1kO6WrDYxp4spreptu8WJOEywXvA=
+C:Q1OXuXDf9vXINbN5/9+EeT2yetY/0=
 P:postgresql15-dev
-V:15.17-r0
+V:15.18-r0
 A:aarch64
-S:1874279
-I:7032897
+S:1879924
+I:7049689
 T:A sophisticated object-relational DBMS, version 15 (development files)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql15
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1773329893
-c:cee73f0f507dc7c1326b0089f00b2d6858de3c51
+t:1779223642
+c:817c7780e5f8f175bf02af18f48dbf43bb45e903
 k:15
 D:libpq-dev libecpg-dev clang16 icu-dev llvm16 lz4-dev openssl-dev zstd-dev so:libc.musl-aarch64.so.1 so:libpq.so.5
 p:postgresql-dev
 
-C:Q1BEsWpeEpdd1ihXi/O84PLbuwXas=
+C:Q1HK+MwvdpDhE98RFPdFxu+4CdJLw=
 P:postgresql15-doc
-V:15.17-r0
+V:15.18-r0
 A:aarch64
-S:500150
-I:2124909
+S:500163
+I:2125558
 T:A sophisticated object-relational DBMS, version 15 (documentation)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql15
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1773329893
-c:cee73f0f507dc7c1326b0089f00b2d6858de3c51
+t:1779223642
+c:817c7780e5f8f175bf02af18f48dbf43bb45e903
 k:15
 p:postgresql-doc
-i:docs postgresql15=15.17-r0
+i:docs postgresql15=15.18-r0
 
-C:Q1wkfqEHHI4BuhCY6//ICqYDFfEnk=
+C:Q1DAPmgaQ3okCTGfi4pP20citj8cs=
 P:postgresql15-jit
-V:15.17-r0
+V:15.18-r0
 A:aarch64
-S:12385131
-I:20889744
+S:12401703
+I:20899672
 T:Just-in-time compilation support for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql15
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1773329893
-c:cee73f0f507dc7c1326b0089f00b2d6858de3c51
+t:1779223642
+c:817c7780e5f8f175bf02af18f48dbf43bb45e903
 k:15
-D:postgresql15=15.17-r0 so:libLLVM-16.so so:libc.musl-aarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+D:postgresql15=15.18-r0 so:libLLVM-16.so so:libc.musl-aarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 p:postgresql-jit
 
-C:Q1h2JKz8bV6iJezVkNZM92QbIuyO0=
+C:Q1z7u0/5syKhUc8GtKhnH7fj4SofU=
 P:postgresql15-openrc
-V:15.17-r0
+V:15.18-r0
 A:aarch64
-S:1285
+S:1284
 I:0
 T:A sophisticated object-relational DBMS, version 15 (OpenRC init scripts)
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql15
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1773329893
-c:cee73f0f507dc7c1326b0089f00b2d6858de3c51
+t:1779223642
+c:817c7780e5f8f175bf02af18f48dbf43bb45e903
 k:15
 D:postgresql-common-openrc
-i:openrc postgresql15=15.17-r0
+i:openrc postgresql15=15.18-r0
 
-C:Q1QQEuV3T52yq1ANMImqukQ467ZYY=
+C:Q1b3DaHrs4fvT9TigtqEU+RzPxb4k=
 P:postgresql15-plperl
-V:15.17-r0
+V:15.18-r0
 A:aarch64
-S:38213
+S:38200
 I:134373
 T:PL/Perl procedural language for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql15
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1773329893
-c:cee73f0f507dc7c1326b0089f00b2d6858de3c51
+t:1779223642
+c:817c7780e5f8f175bf02af18f48dbf43bb45e903
 k:15
-D:postgresql15=15.17-r0 so:libc.musl-aarch64.so.1 so:libperl.so
+D:postgresql15=15.18-r0 so:libc.musl-aarch64.so.1 so:libperl.so
 p:postgresql-plperl
 
-C:Q1UobS2q/2BBnKAPU4Nje+6zVrnZs=
+C:Q1EzsALfgf7plVyffFj1Sc9Hk2Fq0=
 P:postgresql15-plperl-contrib
-V:15.17-r0
+V:15.18-r0
 A:aarch64
-S:6703
+S:6706
 I:68822
 T:PL/Perl extension modules distributed with PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql15
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1773329893
-c:cee73f0f507dc7c1326b0089f00b2d6858de3c51
+t:1779223642
+c:817c7780e5f8f175bf02af18f48dbf43bb45e903
 k:15
-D:postgresql15-plperl=15.17-r0 so:libc.musl-aarch64.so.1 so:libperl.so
+D:postgresql15-plperl=15.18-r0 so:libc.musl-aarch64.so.1 so:libperl.so
 p:postgresql-plperl-contrib
-i:postgresql15-plperl=15.17-r0 postgresql15-contrib=15.17-r0
+i:postgresql15-plperl=15.18-r0 postgresql15-contrib=15.18-r0
 
-C:Q1OA/rwkWG9zV+9LnPqtxYGrOFdzk=
+C:Q1empQ6OjSGPWwS/e3weB4KnOXFGw=
 P:postgresql15-plpython3
-V:15.17-r0
+V:15.18-r0
 A:aarch64
-S:45550
+S:45542
 I:136880
 T:PL/Python3 procedural language for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql15
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1773329893
-c:cee73f0f507dc7c1326b0089f00b2d6858de3c51
+t:1779223642
+c:817c7780e5f8f175bf02af18f48dbf43bb45e903
 k:15
-D:postgresql15=15.17-r0 python3 so:libc.musl-aarch64.so.1 so:libpython3.12.so.1.0
+D:postgresql15=15.18-r0 python3 so:libc.musl-aarch64.so.1 so:libpython3.12.so.1.0
 p:postgresql-plpython3
 
-C:Q1lAOe7jjcxuBVBwdzG/qrz5dRm6A=
+C:Q1XOx1ScofMUp4Pi0b9aiGXPLbQBE=
 P:postgresql15-plpython3-contrib
-V:15.17-r0
+V:15.18-r0
 A:aarch64
-S:8676
+S:8673
 I:136077
 T:PL/Python 3 extension modules distributed with PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql15
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1773329893
-c:cee73f0f507dc7c1326b0089f00b2d6858de3c51
+t:1779223642
+c:817c7780e5f8f175bf02af18f48dbf43bb45e903
 k:15
-D:postgresql15-plpython3=15.17-r0 so:libc.musl-aarch64.so.1 so:libpython3.12.so.1.0
+D:postgresql15-plpython3=15.18-r0 so:libc.musl-aarch64.so.1 so:libpython3.12.so.1.0
 p:postgresql-plpython3-contrib
-i:postgresql15-plpython3=15.17-r0 postgresql15-contrib=15.17-r0
+i:postgresql15-plpython3=15.18-r0 postgresql15-contrib=15.18-r0
 
-C:Q1mkSHJF6hEvitFjl5kW/uUXXieWw=
+C:Q1BGmnyXpwLNHC/m+qm/7367DOsIY=
 P:postgresql15-pltcl
-V:15.17-r0
+V:15.18-r0
 A:aarch64
-S:24700
+S:24687
 I:68982
 T:PL/Tcl procedural language for PostgreSQL
 U:https://www.postgresql.org/
 L:PostgreSQL
 o:postgresql15
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1773329893
-c:cee73f0f507dc7c1326b0089f00b2d6858de3c51
+t:1779223642
+c:817c7780e5f8f175bf02af18f48dbf43bb45e903
 k:15
-D:postgresql15=15.17-r0 pgtcl so:libc.musl-aarch64.so.1 so:libtcl8.6.so
+D:postgresql15=15.18-r0 pgtcl so:libc.musl-aarch64.so.1 so:libtcl8.6.so
 p:postgresql-pltcl
 
 C:Q15JfdIrRHbQRMOspFaONvBGZGirI=
