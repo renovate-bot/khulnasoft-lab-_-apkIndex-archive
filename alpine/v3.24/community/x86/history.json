@@ -37748,15 +37748,16 @@
     "emacs": {
       "origin": "emacs",
       "versions": {
-        "30.2-r2": 1771160091
+        "30.2-r2": 1771160091,
+        "30.2-r3": 1779256921
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:ctags.emacs=30.2-r2",
-        "cmd:ebrowse=30.2-r2",
-        "cmd:etags=30.2-r2"
+        "cmd:ctags.emacs=30.2-r3",
+        "cmd:ebrowse=30.2-r3",
+        "cmd:etags=30.2-r3"
       ]
     },
     "emacs-ace-window": {
@@ -37942,7 +37943,8 @@
     "emacs-doc": {
       "origin": "emacs",
       "versions": {
-        "30.2-r2": 1771160091
+        "30.2-r2": 1771160091,
+        "30.2-r3": 1779256921
       }
     },
     "emacs-elfeed": {
@@ -38115,10 +38117,11 @@
     "emacs-gtk3": {
       "origin": "emacs",
       "versions": {
-        "30.2-r2": 1771160091
+        "30.2-r2": 1771160091,
+        "30.2-r3": 1779256921
       },
       "dependencies": [
-        "emacs=30.2-r2",
+        "emacs=30.2-r3",
         "!emacs-gtk3-nativecomp",
         "!emacs-pgtk",
         "!emacs-pgtk-nativecomp",
@@ -38161,7 +38164,7 @@
         "so:libpng16.so.16",
         "so:librsvg-2.so.2",
         "so:libsqlite3.so.0",
-        "so:libtree-sitter.so.0.25",
+        "so:libtree-sitter.so.0.26",
         "so:libwebpdecoder.so.3",
         "so:libwebpdemux.so.2",
         "so:libxcb-shape.so.0",
@@ -38170,18 +38173,19 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:emacs-30.2=30.2-r2",
-        "cmd:emacs=30.2-r2",
-        "cmd:emacsclient=30.2-r2"
+        "cmd:emacs-30.2=30.2-r3",
+        "cmd:emacs=30.2-r3",
+        "cmd:emacsclient=30.2-r3"
       ]
     },
     "emacs-gtk3-nativecomp": {
       "origin": "emacs",
       "versions": {
-        "30.2-r2": 1771160091
+        "30.2-r2": 1771160091,
+        "30.2-r3": 1779256921
       },
       "dependencies": [
-        "emacs=30.2-r2",
+        "emacs=30.2-r3",
         "!emacs-gtk3",
         "!emacs-pgtk",
         "!emacs-pgtk-nativecomp",
@@ -38227,7 +38231,7 @@
         "so:libpng16.so.16",
         "so:librsvg-2.so.2",
         "so:libsqlite3.so.0",
-        "so:libtree-sitter.so.0.25",
+        "so:libtree-sitter.so.0.26",
         "so:libwebpdecoder.so.3",
         "so:libwebpdemux.so.2",
         "so:libxcb-shape.so.0",
@@ -38236,9 +38240,9 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:emacs-30.2=30.2-r2",
-        "cmd:emacs=30.2-r2",
-        "cmd:emacsclient=30.2-r2"
+        "cmd:emacs-30.2=30.2-r3",
+        "cmd:emacs=30.2-r3",
+        "cmd:emacsclient=30.2-r3"
       ]
     },
     "emacs-hackernews": {
@@ -38396,10 +38400,11 @@
     "emacs-nox": {
       "origin": "emacs",
       "versions": {
-        "30.2-r2": 1771160091
+        "30.2-r2": 1771160091,
+        "30.2-r3": 1779256921
       },
       "dependencies": [
-        "emacs=30.2-r2",
+        "emacs=30.2-r3",
         "!emacs-gtk3",
         "!emacs-gtk3-nativecomp",
         "!emacs-pgtk",
@@ -38413,23 +38418,24 @@
         "so:liblcms2.so.2",
         "so:libncursesw.so.6",
         "so:libsqlite3.so.0",
-        "so:libtree-sitter.so.0.25",
+        "so:libtree-sitter.so.0.26",
         "so:libxml2.so.2",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:emacs-30.2=30.2-r2",
-        "cmd:emacs=30.2-r2",
-        "cmd:emacsclient=30.2-r2"
+        "cmd:emacs-30.2=30.2-r3",
+        "cmd:emacs=30.2-r3",
+        "cmd:emacsclient=30.2-r3"
       ]
     },
     "emacs-pgtk": {
       "origin": "emacs",
       "versions": {
-        "30.2-r2": 1771160091
+        "30.2-r2": 1771160091,
+        "30.2-r3": 1779256921
       },
       "dependencies": [
-        "emacs=30.2-r2",
+        "emacs=30.2-r3",
         "!emacs-gtk3",
         "!emacs-gtk3-nativecomp",
         "!emacs-pgtk-nativecomp",
@@ -38461,25 +38467,26 @@
         "so:libpng16.so.16",
         "so:librsvg-2.so.2",
         "so:libsqlite3.so.0",
-        "so:libtree-sitter.so.0.25",
+        "so:libtree-sitter.so.0.26",
         "so:libwebpdecoder.so.3",
         "so:libwebpdemux.so.2",
         "so:libxml2.so.2",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:emacs-30.2=30.2-r2",
-        "cmd:emacs=30.2-r2",
-        "cmd:emacsclient=30.2-r2"
+        "cmd:emacs-30.2=30.2-r3",
+        "cmd:emacs=30.2-r3",
+        "cmd:emacsclient=30.2-r3"
       ]
     },
     "emacs-pgtk-nativecomp": {
       "origin": "emacs",
       "versions": {
-        "30.2-r2": 1771160091
+        "30.2-r2": 1771160091,
+        "30.2-r3": 1779256921
       },
       "dependencies": [
-        "emacs=30.2-r2",
+        "emacs=30.2-r3",
         "!emacs-gtk3",
         "!emacs-gtk3-nativecomp",
         "!emacs-pgtk",
@@ -38514,16 +38521,16 @@
         "so:libpng16.so.16",
         "so:librsvg-2.so.2",
         "so:libsqlite3.so.0",
-        "so:libtree-sitter.so.0.25",
+        "so:libtree-sitter.so.0.26",
         "so:libwebpdecoder.so.3",
         "so:libwebpdemux.so.2",
         "so:libxml2.so.2",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:emacs-30.2=30.2-r2",
-        "cmd:emacs=30.2-r2",
-        "cmd:emacsclient=30.2-r2"
+        "cmd:emacs-30.2=30.2-r3",
+        "cmd:emacs=30.2-r3",
+        "cmd:emacsclient=30.2-r3"
       ]
     },
     "emacs-plz": {
@@ -38773,10 +38780,11 @@
     "emacs-x11": {
       "origin": "emacs",
       "versions": {
-        "30.2-r2": 1771160091
+        "30.2-r2": 1771160091,
+        "30.2-r3": 1779256921
       },
       "dependencies": [
-        "emacs=30.2-r2",
+        "emacs=30.2-r3",
         "!emacs-gtk3",
         "!emacs-gtk3-nativecomp",
         "!emacs-pgtk",
@@ -38820,7 +38828,7 @@
         "so:librsvg-2.so.2",
         "so:libsqlite3.so.0",
         "so:libtiff.so.6",
-        "so:libtree-sitter.so.0.25",
+        "so:libtree-sitter.so.0.26",
         "so:libwebpdecoder.so.3",
         "so:libwebpdemux.so.2",
         "so:libxcb-shape.so.0",
@@ -38829,18 +38837,19 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:emacs-30.2=30.2-r2",
-        "cmd:emacs=30.2-r2",
-        "cmd:emacsclient=30.2-r2"
+        "cmd:emacs-30.2=30.2-r3",
+        "cmd:emacs=30.2-r3",
+        "cmd:emacsclient=30.2-r3"
       ]
     },
     "emacs-x11-nativecomp": {
       "origin": "emacs",
       "versions": {
-        "30.2-r2": 1771160091
+        "30.2-r2": 1771160091,
+        "30.2-r3": 1779256921
       },
       "dependencies": [
-        "emacs=30.2-r2",
+        "emacs=30.2-r3",
         "!emacs-gtk3",
         "!emacs-gtk3-nativecomp",
         "!emacs-pgtk",
@@ -38887,7 +38896,7 @@
         "so:librsvg-2.so.2",
         "so:libsqlite3.so.0",
         "so:libtiff.so.6",
-        "so:libtree-sitter.so.0.25",
+        "so:libtree-sitter.so.0.26",
         "so:libwebpdecoder.so.3",
         "so:libwebpdemux.so.2",
         "so:libxcb-shape.so.0",
@@ -38896,9 +38905,9 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:emacs-30.2=30.2-r2",
-        "cmd:emacs=30.2-r2",
-        "cmd:emacsclient=30.2-r2"
+        "cmd:emacs-30.2=30.2-r3",
+        "cmd:emacs=30.2-r3",
+        "cmd:emacsclient=30.2-r3"
       ]
     },
     "emacs-xr": {
@@ -142247,34 +142256,42 @@
     "neovim": {
       "origin": "neovim",
       "versions": {
-        "0.11.7-r0": 1774905671
+        "0.11.7-r0": 1774905671,
+        "0.12.2-r0": 1779256921
       },
       "dependencies": [
         "lua5.1-lpeg",
+        "tree-sitter-c",
+        "tree-sitter-lua",
+        "tree-sitter-markdown",
+        "tree-sitter-vim",
         "tree-sitter-vimdoc",
+        "tree-sitter-query",
         "so:libc.musl-x86.so.1",
         "so:libintl.so.8",
         "so:libluajit-5.1.so.2",
         "so:libluv.so.1",
-        "so:libtree-sitter.so.0.25",
+        "so:libtree-sitter.so.0.26",
         "so:libunibilium.so.4",
         "so:libutf8proc.so.3",
         "so:libuv.so.1"
       ],
       "provides": [
-        "cmd:nvim=0.11.7-r0"
+        "cmd:nvim=0.12.2-r0"
       ]
     },
     "neovim-doc": {
       "origin": "neovim",
       "versions": {
-        "0.11.7-r0": 1774905671
+        "0.11.7-r0": 1774905671,
+        "0.12.2-r0": 1779256921
       }
     },
     "neovim-lang": {
       "origin": "neovim",
       "versions": {
-        "0.11.7-r0": 1774905671
+        "0.11.7-r0": 1774905671,
+        "0.12.2-r0": 1779256921
       }
     },
     "nerd-fonts": {
@@ -148182,7 +148199,8 @@
       "origin": "obs-studio",
       "versions": {
         "32.1.2-r1": 1777022464,
-        "32.1.2-r2": 1779210865
+        "32.1.2-r2": 1779210865,
+        "32.1.2-r3": 1779261074
       },
       "dependencies": [
         "so:libEGL.so.1",
@@ -148246,8 +148264,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:obs-ffmpeg-mux=32.1.2-r2",
-        "cmd:obs=32.1.2-r2",
+        "cmd:obs-ffmpeg-mux=32.1.2-r3",
+        "cmd:obs=32.1.2-r3",
         "so:libobs-frontend-api.so.30=30",
         "so:libobs-opengl.so.30=30",
         "so:libobs-scripting.so.30=30",
@@ -148258,10 +148276,12 @@
       "origin": "obs-studio",
       "versions": {
         "32.1.2-r1": 1777022464,
-        "32.1.2-r2": 1779210865
+        "32.1.2-r2": 1779210865,
+        "32.1.2-r3": 1779261074
       },
       "dependencies": [
-        "obs-studio=32.1.2-r2",
+        "simde-dev",
+        "obs-studio=32.1.2-r3",
         "pkgconfig"
       ],
       "provides": [
@@ -270133,13 +270153,14 @@
     "tree-sitter": {
       "origin": "tree-sitter",
       "versions": {
-        "0.25.10-r0": 1758619435
+        "0.25.10-r0": 1758619435,
+        "0.26.7-r0": 1779256921
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "so:libtree-sitter.so.0.25=0.25"
+        "so:libtree-sitter.so.0.26=0.26"
       ]
     },
     "tree-sitter-bash": {
@@ -270169,7 +270190,8 @@
     "tree-sitter-cli": {
       "origin": "tree-sitter",
       "versions": {
-        "0.25.10-r0": 1758619435
+        "0.25.10-r0": 1758619435,
+        "0.26.7-r0": 1779256921
       },
       "dependencies": [
         "nodejs",
@@ -270177,7 +270199,7 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:tree-sitter=0.25.10-r0"
+        "cmd:tree-sitter=0.26.7-r0"
       ]
     },
     "tree-sitter-cmake": {
@@ -270219,16 +270241,17 @@
     "tree-sitter-dev": {
       "origin": "tree-sitter",
       "versions": {
-        "0.25.10-r0": 1758619435
+        "0.25.10-r0": 1758619435,
+        "0.26.7-r0": 1779256921
       },
       "dependencies": [
         "jq",
-        "tree-sitter=0.25.10-r0",
+        "tree-sitter=0.26.7-r0",
         "pkgconfig"
       ],
       "provides": [
-        "cmd:abuild-tree-sitter=0.25.10-r0",
-        "pc:tree-sitter=0.25.10"
+        "cmd:abuild-tree-sitter=0.26.7-r0",
+        "pc:tree-sitter=0.26.7"
       ]
     },
     "tree-sitter-elixir": {
@@ -270267,7 +270290,8 @@
     "tree-sitter-grammars": {
       "origin": "tree-sitter",
       "versions": {
-        "0.25.10-r0": 1758619435
+        "0.25.10-r0": 1758619435,
+        "0.26.7-r0": 1779256921
       }
     },
     "tree-sitter-html": {
@@ -270336,7 +270360,8 @@
     "tree-sitter-lua": {
       "origin": "tree-sitter-lua",
       "versions": {
-        "0.3.0-r1": 1753447870
+        "0.3.0-r1": 1753447870,
+        "0.5.0-r0": 1779256921
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
@@ -270465,7 +270490,8 @@
     "tree-sitter-static": {
       "origin": "tree-sitter",
       "versions": {
-        "0.25.10-r0": 1758619435
+        "0.25.10-r0": 1758619435,
+        "0.26.7-r0": 1779256921
       },
       "dependencies": [
         "tree-sitter-dev"
@@ -313276,6 +313302,10 @@
       "libMpvQt.so.3": {
         "package": "mpvqt",
         "version": "1.2.0"
+      },
+      "libtree-sitter.so.0.26": {
+        "package": "tree-sitter",
+        "version": "0.26"
       }
     },
     "package": {
