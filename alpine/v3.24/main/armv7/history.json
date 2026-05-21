@@ -28271,7 +28271,8 @@
     "librrd": {
       "origin": "rrdtool",
       "versions": {
-        "1.9.0-r6": 1773905654
+        "1.9.0-r6": 1773905654,
+        "1.10.2-r0": 1779358581
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -30009,7 +30010,8 @@
     "libxapian": {
       "origin": "xapian-core",
       "versions": {
-        "1.4.29-r0": 1750962786
+        "1.4.29-r0": 1750962786,
+        "2.0.0-r0": 1779370102
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -30019,7 +30021,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libxapian.so.30=30.14.1"
+        "so:libxapian.so.45=45.0.0"
       ]
     },
     "libxau": {
@@ -35167,7 +35169,8 @@
     "lua-rrd": {
       "origin": "rrdtool",
       "versions": {
-        "1.9.0-r6": 1773905654
+        "1.9.0-r6": 1773905654,
+        "1.10.2-r0": 1779358581
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -50185,7 +50188,8 @@
     "perl-http-daemon": {
       "origin": "perl-http-daemon",
       "versions": {
-        "6.16-r2": 1735923921
+        "6.16-r2": 1735923921,
+        "6.17-r0": 1779358804
       },
       "dependencies": [
         "perl",
@@ -52106,7 +52110,8 @@
     "perl-rrd": {
       "origin": "rrdtool",
       "versions": {
-        "1.9.0-r6": 1773905654
+        "1.9.0-r6": 1773905654,
+        "1.10.2-r0": 1779358581
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -53599,7 +53604,8 @@
       "origin": "perl-xml-parser",
       "versions": {
         "2.56-r0": 1775223721,
-        "2.58-r0": 1777058134
+        "2.58-r0": 1777058134,
+        "2.59-r0": 1779358624
       },
       "dependencies": [
         "perl",
@@ -53613,7 +53619,8 @@
       "origin": "perl-xml-parser",
       "versions": {
         "2.56-r0": 1775223721,
-        "2.58-r0": 1777058134
+        "2.58-r0": 1777058134,
+        "2.59-r0": 1779358624
       }
     },
     "perl-xml-rss": {
@@ -60672,7 +60679,8 @@
     "rrdtool": {
       "origin": "rrdtool",
       "versions": {
-        "1.9.0-r6": 1773905654
+        "1.9.0-r6": 1773905654,
+        "1.10.2-r0": 1779358581
       },
       "dependencies": [
         "font-cantarell",
@@ -60680,13 +60688,14 @@
         "so:librrd.so.8"
       ],
       "provides": [
-        "cmd:rrdtool=1.9.0-r6"
+        "cmd:rrdtool=1.10.2-r0"
       ]
     },
     "rrdtool-cached": {
       "origin": "rrdtool",
       "versions": {
-        "1.9.0-r6": 1773905654
+        "1.9.0-r6": 1773905654,
+        "1.10.2-r0": 1779358581
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -60694,60 +60703,65 @@
         "so:librrd.so.8"
       ],
       "provides": [
-        "cmd:rrdcached=1.9.0-r6"
+        "cmd:rrdcached=1.10.2-r0"
       ]
     },
     "rrdtool-cached-openrc": {
       "origin": "rrdtool",
       "versions": {
-        "1.9.0-r6": 1773905654
+        "1.9.0-r6": 1773905654,
+        "1.10.2-r0": 1779358581
       }
     },
     "rrdtool-cgi": {
       "origin": "rrdtool",
       "versions": {
-        "1.9.0-r6": 1773905654
+        "1.9.0-r6": 1773905654,
+        "1.10.2-r0": 1779358581
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
         "so:librrd.so.8"
       ],
       "provides": [
-        "cmd:rrdcgi=1.9.0-r6"
+        "cmd:rrdcgi=1.10.2-r0"
       ]
     },
     "rrdtool-dev": {
       "origin": "rrdtool",
       "versions": {
-        "1.9.0-r6": 1773905654
+        "1.9.0-r6": 1773905654,
+        "1.10.2-r0": 1779358581
       },
       "dependencies": [
-        "librrd=1.9.0-r6",
+        "librrd=1.10.2-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:librrd=1.9.0"
+        "pc:librrd=1.10.2"
       ]
     },
     "rrdtool-doc": {
       "origin": "rrdtool",
       "versions": {
-        "1.9.0-r6": 1773905654
+        "1.9.0-r6": 1773905654,
+        "1.10.2-r0": 1779358581
       }
     },
     "rrdtool-utils": {
       "origin": "rrdtool",
       "versions": {
-        "1.9.0-r6": 1773905654
+        "1.9.0-r6": 1773905654,
+        "1.10.2-r0": 1779358581
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
         "so:libglib-2.0.so.0"
       ],
       "provides": [
-        "cmd:rrdcreate=1.9.0-r6",
-        "cmd:rrdinfo=1.9.0-r6",
-        "cmd:rrdupdate=1.9.0-r6"
+        "cmd:rrdcreate=1.10.2-r0",
+        "cmd:rrdinfo=1.10.2-r0",
+        "cmd:rrdupdate=1.10.2-r0"
       ]
     },
     "rrsync": {
@@ -68059,14 +68073,15 @@
     "tcl-rrd": {
       "origin": "rrdtool",
       "versions": {
-        "1.9.0-r6": 1773905654
+        "1.9.0-r6": 1773905654,
+        "1.10.2-r0": 1779358581
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
         "so:librrd.so.8"
       ],
       "provides": [
-        "so:tclrrd1.9.0.so=0"
+        "so:tclrrd1.10.2.so=0"
       ]
     },
     "tcl-tls": {
@@ -71804,49 +71819,52 @@
     "xapian-core": {
       "origin": "xapian-core",
       "versions": {
-        "1.4.29-r0": 1750962786
+        "1.4.29-r0": 1750962786,
+        "2.0.0-r0": 1779370102
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
         "so:libgcc_s.so.1",
         "so:libstdc++.so.6",
-        "so:libxapian.so.30"
+        "so:libxapian.so.45"
       ],
       "provides": [
-        "cmd:copydatabase=1.4.29-r0",
-        "cmd:quest=1.4.29-r0",
-        "cmd:simpleexpand=1.4.29-r0",
-        "cmd:simpleindex=1.4.29-r0",
-        "cmd:simplesearch=1.4.29-r0",
-        "cmd:xapian-check=1.4.29-r0",
-        "cmd:xapian-compact=1.4.29-r0",
-        "cmd:xapian-delve=1.4.29-r0",
-        "cmd:xapian-metadata=1.4.29-r0",
-        "cmd:xapian-pos=1.4.29-r0",
-        "cmd:xapian-progsrv=1.4.29-r0",
-        "cmd:xapian-replicate-server=1.4.29-r0",
-        "cmd:xapian-replicate=1.4.29-r0",
-        "cmd:xapian-tcpsrv=1.4.29-r0"
+        "cmd:copydatabase=2.0.0-r0",
+        "cmd:simpleexpand=2.0.0-r0",
+        "cmd:simpleindex=2.0.0-r0",
+        "cmd:simplesearch=2.0.0-r0",
+        "cmd:xapian-check=2.0.0-r0",
+        "cmd:xapian-compact=2.0.0-r0",
+        "cmd:xapian-delve=2.0.0-r0",
+        "cmd:xapian-metadata=2.0.0-r0",
+        "cmd:xapian-pos=2.0.0-r0",
+        "cmd:xapian-progsrv=2.0.0-r0",
+        "cmd:xapian-quest=2.0.0-r0",
+        "cmd:xapian-replicate-server=2.0.0-r0",
+        "cmd:xapian-replicate=2.0.0-r0",
+        "cmd:xapian-tcpsrv=2.0.0-r0"
       ]
     },
     "xapian-core-dev": {
       "origin": "xapian-core",
       "versions": {
-        "1.4.29-r0": 1750962786
+        "1.4.29-r0": 1750962786,
+        "2.0.0-r0": 1779370102
       },
       "dependencies": [
-        "libxapian=1.4.29-r0",
+        "libxapian=2.0.0-r0",
         "pkgconfig"
       ],
       "provides": [
-        "cmd:xapian-config=1.4.29-r0",
-        "pc:xapian-core=1.4.29"
+        "cmd:xapian-config=2.0.0-r0",
+        "pc:xapian-core=2.0.0"
       ]
     },
     "xapian-core-doc": {
       "origin": "xapian-core",
       "versions": {
-        "1.4.29-r0": 1750962786
+        "1.4.29-r0": 1750962786,
+        "2.0.0-r0": 1779370102
       }
     },
     "xcb-proto": {
@@ -81618,6 +81636,14 @@
       },
       "libgallium-26.1.1.so": {
         "package": "mesa",
+        "version": "0"
+      },
+      "libxapian.so.45": {
+        "package": "libxapian",
+        "version": "45.0.0"
+      },
+      "tclrrd1.10.2.so": {
+        "package": "tcl-rrd",
         "version": "0"
       }
     }
