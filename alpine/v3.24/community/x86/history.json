@@ -247192,11 +247192,12 @@
     "rofi": {
       "origin": "rofi",
       "versions": {
-        "1.7.9_p1-r0": 1748555438
+        "1.7.9_p1-r0": 1748555438,
+        "2.0.0-r0": 1779486665
       },
       "provides": [
-        "cmd:rofi-sensible-terminal=1.7.9_p1-r0",
-        "cmd:rofi-theme-selector=1.7.9_p1-r0"
+        "cmd:rofi-sensible-terminal=2.0.0-r0",
+        "cmd:rofi-theme-selector=2.0.0-r0"
       ]
     },
     "rofi-blocks": {
@@ -247227,7 +247228,8 @@
     "rofi-dev": {
       "origin": "rofi",
       "versions": {
-        "1.7.9_p1-r0": 1748555438
+        "1.7.9_p1-r0": 1748555438,
+        "2.0.0-r0": 1779486665
       },
       "dependencies": [
         "pc:cairo",
@@ -247236,13 +247238,14 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:rofi=1.7.9"
+        "pc:rofi=2.0.0"
       ]
     },
     "rofi-doc": {
       "origin": "rofi",
       "versions": {
-        "1.7.9_p1-r0": 1748555438
+        "1.7.9_p1-r0": 1748555438,
+        "2.0.0-r0": 1779486665
       }
     },
     "rofi-emoji": {
@@ -247306,10 +247309,11 @@
     "rofi-wayland": {
       "origin": "rofi",
       "versions": {
-        "1.7.9_p1-r0": 1748555438
+        "1.7.9_p1-r0": 1748555438,
+        "2.0.0-r0": 1779486665
       },
       "dependencies": [
-        "rofi=1.7.9_p1-r0",
+        "rofi=2.0.0-r0",
         "!rofi-x11-wayland",
         "so:libc.musl-x86.so.1",
         "so:libcairo.so.2",
@@ -247325,16 +247329,17 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:rofi=1.7.9_p1-r0"
+        "cmd:rofi=2.0.0-r0"
       ]
     },
     "rofi-x11-wayland": {
       "origin": "rofi",
       "versions": {
-        "1.7.9_p1-r0": 1748555438
+        "1.7.9_p1-r0": 1748555438,
+        "2.0.0-r0": 1779486665
       },
       "dependencies": [
-        "rofi=1.7.9_p1-r0",
+        "rofi=2.0.0-r0",
         "!rofi-wayland",
         "so:libc.musl-x86.so.1",
         "so:libcairo.so.2",
@@ -247360,7 +247365,7 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:rofi=1.7.9_p1-r0"
+        "cmd:rofi=2.0.0-r0"
       ]
     },
     "ronn": {
