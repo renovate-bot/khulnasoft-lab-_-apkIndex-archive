@@ -138862,7 +138862,8 @@
     "mpd": {
       "origin": "mpd",
       "versions": {
-        "0.24.10-r0": 1778308246
+        "0.24.10-r0": 1778308246,
+        "0.24.12-r0": 1779492335
       },
       "dependencies": [
         "/bin/sh",
@@ -138881,6 +138882,7 @@
         "so:libcdio_cdda.so.2",
         "so:libcdio_paranoia.so.2",
         "so:libcurl.so.4",
+        "so:libdbus-1.so.3",
         "so:libexpat.so.1",
         "so:libfaad.so.2",
         "so:libfmt.so.11",
@@ -138912,23 +138914,25 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:mpd=0.24.10-r0"
+        "cmd:mpd=0.24.12-r0"
       ]
     },
     "mpd-dbg": {
       "origin": "mpd",
       "versions": {
-        "0.24.10-r0": 1778308246
+        "0.24.10-r0": 1778308246,
+        "0.24.12-r0": 1779492335
       },
       "dependencies": [
-        "!mpd<0.24.10-r0",
-        "!mpd>0.24.10-r0"
+        "!mpd<0.24.12-r0",
+        "!mpd>0.24.12-r0"
       ]
     },
     "mpd-doc": {
       "origin": "mpd",
       "versions": {
-        "0.24.10-r0": 1778308246
+        "0.24.10-r0": 1778308246,
+        "0.24.12-r0": 1779492335
       }
     },
     "mpd-mpris": {
@@ -138947,7 +138951,8 @@
     "mpd-openrc": {
       "origin": "mpd",
       "versions": {
-        "0.24.10-r0": 1778308246
+        "0.24.10-r0": 1778308246,
+        "0.24.12-r0": 1779492335
       }
     },
     "mpdris2-rs": {
@@ -168647,7 +168652,8 @@
     "opencolorio": {
       "origin": "opencolorio",
       "versions": {
-        "2.5.1-r3": 1776595803
+        "2.5.1-r3": 1776595803,
+        "2.5.2-r0": 1779491012
       },
       "dependencies": [
         "so:libImath-3_2.so.30",
@@ -168660,26 +168666,28 @@
         "so:libyaml-cpp.so.0.9"
       ],
       "provides": [
-        "so:libOpenColorIO.so.2.5=2.5.1"
+        "so:libOpenColorIO.so.2.5=2.5.2"
       ]
     },
     "opencolorio-dev": {
       "origin": "opencolorio",
       "versions": {
-        "2.5.1-r3": 1776595803
+        "2.5.1-r3": 1776595803,
+        "2.5.2-r0": 1779491012
       },
       "dependencies": [
-        "opencolorio=2.5.1-r3",
+        "opencolorio=2.5.2-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:OpenColorIO=2.5.1"
+        "pc:OpenColorIO=2.5.2"
       ]
     },
     "opencolorio-tools": {
       "origin": "opencolorio",
       "versions": {
-        "2.5.1-r3": 1776595803
+        "2.5.1-r3": 1776595803,
+        "2.5.2-r0": 1779491012
       },
       "dependencies": [
         "so:libGL.so.1",
@@ -168696,18 +168704,18 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:ocioarchive=2.5.1-r3",
-        "cmd:ociobakelut=2.5.1-r3",
-        "cmd:ociocheck=2.5.1-r3",
-        "cmd:ociochecklut=2.5.1-r3",
-        "cmd:ocioconvert=2.5.1-r3",
-        "cmd:ociocpuinfo=2.5.1-r3",
-        "cmd:ociodisplay=2.5.1-r3",
-        "cmd:ociolutimage=2.5.1-r3",
-        "cmd:ociomakeclf=2.5.1-r3",
-        "cmd:ociomergeconfigs=2.5.1-r3",
-        "cmd:ocioperf=2.5.1-r3",
-        "cmd:ociowrite=2.5.1-r3"
+        "cmd:ocioarchive=2.5.2-r0",
+        "cmd:ociobakelut=2.5.2-r0",
+        "cmd:ociocheck=2.5.2-r0",
+        "cmd:ociochecklut=2.5.2-r0",
+        "cmd:ocioconvert=2.5.2-r0",
+        "cmd:ociocpuinfo=2.5.2-r0",
+        "cmd:ociodisplay=2.5.2-r0",
+        "cmd:ociolutimage=2.5.2-r0",
+        "cmd:ociomakeclf=2.5.2-r0",
+        "cmd:ociomergeconfigs=2.5.2-r0",
+        "cmd:ocioperf=2.5.2-r0",
+        "cmd:ociowrite=2.5.2-r0"
       ]
     },
     "openconnect": {
@@ -169486,7 +169494,8 @@
     "openimageio": {
       "origin": "openimageio",
       "versions": {
-        "3.1.12.0-r1": 1777277460
+        "3.1.12.0-r1": 1777277460,
+        "3.1.13.1-r0": 1779491249
       },
       "dependencies": [
         "so:libIex-3_4.so.33",
@@ -169515,33 +169524,36 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libOpenImageIO.so.3.1=3.1.12",
-        "so:libOpenImageIO_Util.so.3.1=3.1.12"
+        "so:libOpenImageIO.so.3.1=3.1.13",
+        "so:libOpenImageIO_Util.so.3.1=3.1.13"
       ]
     },
     "openimageio-dev": {
       "origin": "openimageio",
       "versions": {
-        "3.1.12.0-r1": 1777277460
+        "3.1.12.0-r1": 1777277460,
+        "3.1.13.1-r0": 1779491249
       },
       "dependencies": [
-        "openimageio=3.1.12.0-r1",
+        "openimageio=3.1.13.1-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:OpenImageIO=3.1.12.0"
+        "pc:OpenImageIO=3.1.13.1"
       ]
     },
     "openimageio-doc": {
       "origin": "openimageio",
       "versions": {
-        "3.1.12.0-r1": 1777277460
+        "3.1.12.0-r1": 1777277460,
+        "3.1.13.1-r0": 1779491249
       }
     },
     "openimageio-tools": {
       "origin": "openimageio",
       "versions": {
-        "3.1.12.0-r1": 1777277460
+        "3.1.12.0-r1": 1777277460,
+        "3.1.13.1-r0": 1779491249
       },
       "dependencies": [
         "so:libGL.so.1",
@@ -169558,14 +169570,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:iconvert=3.1.12.0-r1",
-        "cmd:idiff=3.1.12.0-r1",
-        "cmd:igrep=3.1.12.0-r1",
-        "cmd:iinfo=3.1.12.0-r1",
-        "cmd:iv=3.1.12.0-r1",
-        "cmd:maketx=3.1.12.0-r1",
-        "cmd:oiiotool=3.1.12.0-r1",
-        "cmd:testtex=3.1.12.0-r1"
+        "cmd:iconvert=3.1.13.1-r0",
+        "cmd:idiff=3.1.13.1-r0",
+        "cmd:igrep=3.1.13.1-r0",
+        "cmd:iinfo=3.1.13.1-r0",
+        "cmd:iv=3.1.13.1-r0",
+        "cmd:maketx=3.1.13.1-r0",
+        "cmd:oiiotool=3.1.13.1-r0",
+        "cmd:testtex=3.1.13.1-r0"
       ]
     },
     "openipmi": {
@@ -220660,7 +220672,8 @@
     "py3-opencolorio": {
       "origin": "opencolorio",
       "versions": {
-        "2.5.1-r3": 1776595803
+        "2.5.1-r3": 1776595803,
+        "2.5.2-r0": 1779491012
       },
       "dependencies": [
         "python3~3.14",
@@ -220670,7 +220683,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "py3.14:PyOpenColorIO=2.5.1-r3",
+        "py3.14:PyOpenColorIO=2.5.2-r0",
         "so:PyOpenColorIO.so=0"
       ]
     },
@@ -220789,7 +220802,8 @@
     "py3-openimageio": {
       "origin": "openimageio",
       "versions": {
-        "3.1.12.0-r1": 1777277460
+        "3.1.12.0-r1": 1777277460,
+        "3.1.13.1-r0": 1779491249
       },
       "dependencies": [
         "python3~3.14",
@@ -220800,7 +220814,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "py3.14:OpenImageIO=3.1.12.0-r1"
+        "py3.14:OpenImageIO=3.1.13.1-r0"
       ]
     },
     "py3-openpyxl": {
@@ -242507,34 +242521,37 @@
       "origin": "rabbitmq-server",
       "versions": {
         "4.3.0-r0": 1777011529,
-        "4.3.0-r1": 1778659219
+        "4.3.0-r1": 1778659219,
+        "4.3.1-r0": 1779492114
       },
       "dependencies": [
         "erlang27",
         "/bin/sh"
       ],
       "provides": [
-        "cmd:rabbitmq-diagnostics=4.3.0-r1",
-        "cmd:rabbitmq-plugins=4.3.0-r1",
-        "cmd:rabbitmq-queues=4.3.0-r1",
-        "cmd:rabbitmq-server=4.3.0-r1",
-        "cmd:rabbitmq-streams=4.3.0-r1",
-        "cmd:rabbitmq-upgrade=4.3.0-r1",
-        "cmd:rabbitmqctl=4.3.0-r1"
+        "cmd:rabbitmq-diagnostics=4.3.1-r0",
+        "cmd:rabbitmq-plugins=4.3.1-r0",
+        "cmd:rabbitmq-queues=4.3.1-r0",
+        "cmd:rabbitmq-server=4.3.1-r0",
+        "cmd:rabbitmq-streams=4.3.1-r0",
+        "cmd:rabbitmq-upgrade=4.3.1-r0",
+        "cmd:rabbitmqctl=4.3.1-r0"
       ]
     },
     "rabbitmq-server-doc": {
       "origin": "rabbitmq-server",
       "versions": {
         "4.3.0-r0": 1777011529,
-        "4.3.0-r1": 1778659219
+        "4.3.0-r1": 1778659219,
+        "4.3.1-r0": 1779492114
       }
     },
     "rabbitmq-server-openrc": {
       "origin": "rabbitmq-server",
       "versions": {
         "4.3.0-r0": 1777011529,
-        "4.3.0-r1": 1778659219
+        "4.3.0-r1": 1778659219,
+        "4.3.1-r0": 1779492114
       }
     },
     "racket": {
@@ -308194,7 +308211,7 @@
       },
       "libOpenColorIO.so.2.5": {
         "package": "opencolorio",
-        "version": "2.5.1"
+        "version": "2.5.2"
       },
       "libopenconnect.so.5": {
         "package": "openconnect",
@@ -308250,11 +308267,11 @@
       },
       "libOpenImageIO.so.3.1": {
         "package": "openimageio",
-        "version": "3.1.12"
+        "version": "3.1.13"
       },
       "libOpenImageIO_Util.so.3.1": {
         "package": "openimageio",
-        "version": "3.1.12"
+        "version": "3.1.13"
       },
       "libIPMIlanserv.so.0": {
         "package": "openipmi-lanserv",
