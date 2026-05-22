@@ -47934,7 +47934,8 @@
     "foot": {
       "origin": "foot",
       "versions": {
-        "1.26.1-r0": 1773680663
+        "1.26.1-r0": 1773680663,
+        "1.27.0-r0": 1779472864
       },
       "dependencies": [
         "ncurses-terminfo",
@@ -47948,36 +47949,40 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:foot=1.26.1-r0",
-        "cmd:footclient=1.26.1-r0"
+        "cmd:foot=1.27.0-r0",
+        "cmd:footclient=1.27.0-r0"
       ]
     },
     "foot-bash-completion": {
       "origin": "foot",
       "versions": {
-        "1.26.1-r0": 1773680663
+        "1.26.1-r0": 1773680663,
+        "1.27.0-r0": 1779472864
       }
     },
     "foot-dbg": {
       "origin": "foot",
       "versions": {
-        "1.26.1-r0": 1773680663
+        "1.26.1-r0": 1773680663,
+        "1.27.0-r0": 1779472864
       },
       "dependencies": [
-        "!foot<1.26.1-r0",
-        "!foot>1.26.1-r0"
+        "!foot<1.27.0-r0",
+        "!foot>1.27.0-r0"
       ]
     },
     "foot-doc": {
       "origin": "foot",
       "versions": {
-        "1.26.1-r0": 1773680663
+        "1.26.1-r0": 1773680663,
+        "1.27.0-r0": 1779472864
       }
     },
     "foot-extra-terminfo": {
       "origin": "foot",
       "versions": {
-        "1.26.1-r0": 1773680663
+        "1.26.1-r0": 1773680663,
+        "1.27.0-r0": 1779472864
       },
       "dependencies": [
         "ncurses-terminfo"
@@ -47986,19 +47991,22 @@
     "foot-fish-completion": {
       "origin": "foot",
       "versions": {
-        "1.26.1-r0": 1773680663
+        "1.26.1-r0": 1773680663,
+        "1.27.0-r0": 1779472864
       }
     },
     "foot-openrc": {
       "origin": "foot",
       "versions": {
-        "1.26.1-r0": 1773680663
+        "1.26.1-r0": 1773680663,
+        "1.27.0-r0": 1779472864
       }
     },
     "foot-themes": {
       "origin": "foot",
       "versions": {
-        "1.26.1-r0": 1773680663
+        "1.26.1-r0": 1773680663,
+        "1.27.0-r0": 1779472864
       },
       "dependencies": [
         "ncurses-terminfo"
@@ -48007,7 +48015,8 @@
     "foot-zsh-completion": {
       "origin": "foot",
       "versions": {
-        "1.26.1-r0": 1773680663
+        "1.26.1-r0": 1773680663,
+        "1.27.0-r0": 1779472864
       }
     },
     "forgejo": {
@@ -222129,23 +222138,25 @@
     "py3-peewee": {
       "origin": "py3-peewee",
       "versions": {
-        "4.0.2-r1": 1774640418
+        "4.0.2-r1": 1774640418,
+        "4.0.6-r0": 1779467722
       },
       "dependencies": [
         "python3~3.14",
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:pwiz=4.0.2-r1",
-        "py3.14:peewee=4.0.2-r1",
-        "py3.14:playhouse=4.0.2-r1",
-        "py3.14:pwiz=4.0.2-r1"
+        "cmd:pwiz=4.0.6-r0",
+        "py3.14:peewee=4.0.6-r0",
+        "py3.14:playhouse=4.0.6-r0",
+        "py3.14:pwiz=4.0.6-r0"
       ]
     },
     "py3-peewee-pyc": {
       "origin": "py3-peewee",
       "versions": {
-        "4.0.2-r1": 1774640418
+        "4.0.2-r1": 1774640418,
+        "4.0.6-r0": 1779467722
       },
       "dependencies": [
         "python3~3.14"
@@ -247793,25 +247804,27 @@
     "rset": {
       "origin": "rset",
       "versions": {
-        "3.3-r0": 1768787161
+        "3.3-r0": 1768787161,
+        "3.3-r1": 1779467322
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:labelgrep=3.3-r0",
-        "cmd:miniquark=3.3-r0",
-        "cmd:renv=3.3-r0",
-        "cmd:rexec-summary=3.3-r0",
-        "cmd:rinstall=3.3-r0",
-        "cmd:rset=3.3-r0",
-        "cmd:rsub=3.3-r0"
+        "cmd:labelgrep=3.3-r1",
+        "cmd:miniquark=3.3-r1",
+        "cmd:renv=3.3-r1",
+        "cmd:rexec-summary=3.3-r1",
+        "cmd:rinstall=3.3-r1",
+        "cmd:rset=3.3-r1",
+        "cmd:rsub=3.3-r1"
       ]
     },
     "rset-doc": {
       "origin": "rset",
       "versions": {
-        "3.3-r0": 1768787161
+        "3.3-r0": 1768787161,
+        "3.3-r1": 1779467322
       }
     },
     "rsgain": {
@@ -291998,6 +292011,38 @@
       "provides": [
         "nginx-mod-devel-kit=1.29.2.3-r1"
       ]
+    },
+    "wayneko": {
+      "origin": "wayneko",
+      "versions": {
+        "0_git20260326-r0": 1779467570
+      },
+      "dependencies": [
+        "so:libc.musl-x86.so.1",
+        "so:libpixman-1.so.0",
+        "so:libwayland-client.so.0"
+      ],
+      "provides": [
+        "cmd:wayneko=0_git20260326-r0"
+      ]
+    },
+    "wayneko-bash-completion": {
+      "origin": "wayneko",
+      "versions": {
+        "0_git20260326-r0": 1779467570
+      }
+    },
+    "wayneko-doc": {
+      "origin": "wayneko",
+      "versions": {
+        "0_git20260326-r0": 1779467570
+      }
+    },
+    "wayneko-zsh-completion": {
+      "origin": "wayneko",
+      "versions": {
+        "0_git20260326-r0": 1779467570
+      }
     }
   },
   "provide": {
