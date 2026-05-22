@@ -3618,7 +3618,8 @@
     "ansible": {
       "origin": "ansible",
       "versions": {
-        "13.6.0-r0": 1776845167
+        "13.6.0-r0": 1776845167,
+        "13.7.0-r0": 1779461648
       },
       "dependencies": [
         "python3",
@@ -3626,7 +3627,7 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:ansible-community=13.6.0-r0"
+        "cmd:ansible-community=13.7.0-r0"
       ]
     },
     "ansible-core": {
@@ -3716,7 +3717,8 @@
     "ansible-pyc": {
       "origin": "ansible",
       "versions": {
-        "13.6.0-r0": 1776845167
+        "13.6.0-r0": 1776845167,
+        "13.7.0-r0": 1779461648
       },
       "dependencies": [
         "python3~3.14"
@@ -31253,7 +31255,8 @@
     "cwm": {
       "origin": "cwm",
       "versions": {
-        "7.4-r2": 1769151900
+        "7.4-r2": 1769151900,
+        "7.9-r0": 1779462063
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -31262,13 +31265,14 @@
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:cwm=7.4-r2"
+        "cmd:cwm=7.9-r0"
       ]
     },
     "cwm-doc": {
       "origin": "cwm",
       "versions": {
-        "7.4-r2": 1769151900
+        "7.4-r2": 1769151900,
+        "7.9-r0": 1779462063
       }
     },
     "cyanrip": {
@@ -85011,7 +85015,8 @@
       "origin": "kakoune",
       "versions": {
         "2026.04.12-r0": 1775974293,
-        "2026.05.21-r0": 1779350061
+        "2026.05.21-r0": 1779350061,
+        "2026.05.21-r1": 1779460948
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -85019,14 +85024,15 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kak=2026.05.21-r0"
+        "cmd:kak=2026.05.21-r1"
       ]
     },
     "kakoune-doc": {
       "origin": "kakoune",
       "versions": {
         "2026.04.12-r0": 1775974293,
-        "2026.05.21-r0": 1779350061
+        "2026.05.21-r0": 1779350061,
+        "2026.05.21-r1": 1779460948
       }
     },
     "kakoune-lsp": {
@@ -122693,7 +122699,8 @@
     "libxdp": {
       "origin": "xdp-tools",
       "versions": {
-        "1.6.3-r0": 1777470236
+        "1.6.3-r0": 1777470236,
+        "1.6.3-r1": 1779461059
       },
       "dependencies": [
         "so:libbpf.so.1",
@@ -122706,10 +122713,11 @@
     "libxdp-dev": {
       "origin": "xdp-tools",
       "versions": {
-        "1.6.3-r0": 1777470236
+        "1.6.3-r0": 1777470236,
+        "1.6.3-r1": 1779461059
       },
       "dependencies": [
-        "libxdp=1.6.3-r0",
+        "libxdp=1.6.3-r1",
         "pc:libbpf",
         "pkgconfig"
       ],
@@ -122720,7 +122728,8 @@
     "libxdp-static": {
       "origin": "xdp-tools",
       "versions": {
-        "1.6.3-r0": 1777470236
+        "1.6.3-r0": 1777470236,
+        "1.6.3-r1": 1779461059
       },
       "dependencies": [
         "libxdp-dev"
@@ -196516,7 +196525,8 @@
     "pmbootstrap": {
       "origin": "pmbootstrap",
       "versions": {
-        "3.10.2-r0": 1777802069
+        "3.10.2-r0": 1777802069,
+        "3.10.3-r0": 1779463106
       },
       "dependencies": [
         "git",
@@ -196528,14 +196538,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:pmbootstrap=3.10.2-r0",
-        "py3.14:pmb=3.10.2-r0"
+        "cmd:pmbootstrap=3.10.3-r0",
+        "py3.14:pmb=3.10.3-r0"
       ]
     },
     "pmbootstrap-pyc": {
       "origin": "pmbootstrap",
       "versions": {
-        "3.10.2-r0": 1777802069
+        "3.10.2-r0": 1777802069,
+        "3.10.3-r0": 1779463106
       },
       "dependencies": [
         "python3~3.14"
@@ -283829,7 +283840,8 @@
     "xdp-tests": {
       "origin": "xdp-tools",
       "versions": {
-        "1.6.3-r0": 1777470236
+        "1.6.3-r0": 1777470236,
+        "1.6.3-r1": 1779461059
       },
       "dependencies": [
         "so:libbpf.so.1",
@@ -283840,7 +283852,8 @@
     "xdp-tools": {
       "origin": "xdp-tools",
       "versions": {
-        "1.6.3-r0": 1777470236
+        "1.6.3-r0": 1777470236,
+        "1.6.3-r1": 1779461059
       },
       "dependencies": [
         "so:libbpf.so.1",
@@ -283849,19 +283862,20 @@
         "so:libxdp.so.1"
       ],
       "provides": [
-        "cmd:xdp-bench=1.6.3-r0",
-        "cmd:xdp-filter=1.6.3-r0",
-        "cmd:xdp-forward=1.6.3-r0",
-        "cmd:xdp-loader=1.6.3-r0",
-        "cmd:xdp-monitor=1.6.3-r0",
-        "cmd:xdp-trafficgen=1.6.3-r0",
-        "cmd:xdpdump=1.6.3-r0"
+        "cmd:xdp-bench=1.6.3-r1",
+        "cmd:xdp-filter=1.6.3-r1",
+        "cmd:xdp-forward=1.6.3-r1",
+        "cmd:xdp-loader=1.6.3-r1",
+        "cmd:xdp-monitor=1.6.3-r1",
+        "cmd:xdp-trafficgen=1.6.3-r1",
+        "cmd:xdpdump=1.6.3-r1"
       ]
     },
     "xdp-tools-doc": {
       "origin": "xdp-tools",
       "versions": {
-        "1.6.3-r0": 1777470236
+        "1.6.3-r0": 1777470236,
+        "1.6.3-r1": 1779461059
       }
     },
     "xdpyinfo": {
