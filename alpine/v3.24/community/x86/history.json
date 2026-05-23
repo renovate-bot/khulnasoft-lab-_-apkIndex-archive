@@ -37310,42 +37310,46 @@
     "efibootguard": {
       "origin": "efibootguard",
       "versions": {
-        "0.21-r0": 1760647197
+        "0.21-r0": 1760647197,
+        "0.22-r0": 1779536301
       },
       "dependencies": [
         "python3",
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:bg_gen_unified_kernel=0.21-r0",
-        "cmd:bg_printenv=0.21-r0",
-        "cmd:bg_setenv=0.21-r0",
+        "cmd:bg_gen_unified_kernel=0.22-r0",
+        "cmd:bg_printenv=0.22-r0",
+        "cmd:bg_setenv=0.22-r0",
         "so:libebgenv.so.0=0.1.0"
       ]
     },
     "efibootguard-bash-completion": {
       "origin": "efibootguard",
       "versions": {
-        "0.21-r0": 1760647197
+        "0.21-r0": 1760647197,
+        "0.22-r0": 1779536301
       }
     },
     "efibootguard-dev": {
       "origin": "efibootguard",
       "versions": {
-        "0.21-r0": 1760647197
+        "0.21-r0": 1760647197,
+        "0.22-r0": 1779536301
       },
       "dependencies": [
-        "efibootguard=0.21-r0",
+        "efibootguard=0.22-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libebgenv=0.21"
+        "pc:libebgenv=0.22"
       ]
     },
     "efibootguard-zsh-completion": {
       "origin": "efibootguard",
       "versions": {
-        "0.21-r0": 1760647197
+        "0.21-r0": 1760647197,
+        "0.22-r0": 1779536301
       }
     },
     "efm-langserver": {
@@ -134359,26 +134363,29 @@
     "mdbook": {
       "origin": "mdbook",
       "versions": {
-        "0.5.2-r0": 1769045077
+        "0.5.2-r0": 1769045077,
+        "0.5.3-r0": 1779534803
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:mdbook=0.5.2-r0"
+        "cmd:mdbook=0.5.3-r0"
       ]
     },
     "mdbook-bash-completion": {
       "origin": "mdbook",
       "versions": {
-        "0.5.2-r0": 1769045077
+        "0.5.2-r0": 1769045077,
+        "0.5.3-r0": 1779534803
       }
     },
     "mdbook-fish-completion": {
       "origin": "mdbook",
       "versions": {
-        "0.5.2-r0": 1769045077
+        "0.5.2-r0": 1769045077,
+        "0.5.3-r0": 1779534803
       }
     },
     "mdbook-mermaid": {
@@ -134418,7 +134425,8 @@
     "mdbook-zsh-completion": {
       "origin": "mdbook",
       "versions": {
-        "0.5.2-r0": 1769045077
+        "0.5.2-r0": 1769045077,
+        "0.5.3-r0": 1779534803
       }
     },
     "mdbtools": {
@@ -263039,7 +263047,8 @@
       "origin": "syncthing",
       "versions": {
         "2.0.16-r1": 1775839666,
-        "2.0.16-r2": 1778661427
+        "2.0.16-r2": 1778661427,
+        "2.1.0-r0": 1779535960
       },
       "dependencies": [
         "/bin/sh",
@@ -263047,50 +263056,55 @@
         "so:libsqlite3.so.0"
       ],
       "provides": [
-        "cmd:syncthing=2.0.16-r2"
+        "cmd:syncthing=2.1.0-r0"
       ]
     },
     "syncthing-doc": {
       "origin": "syncthing",
       "versions": {
         "2.0.16-r1": 1775839666,
-        "2.0.16-r2": 1778661427
+        "2.0.16-r2": 1778661427,
+        "2.1.0-r0": 1779535960
       }
     },
     "syncthing-nftrules": {
       "origin": "syncthing",
       "versions": {
         "2.0.16-r1": 1775839666,
-        "2.0.16-r2": 1778661427
+        "2.0.16-r2": 1778661427,
+        "2.1.0-r0": 1779535960
       }
     },
     "syncthing-openrc": {
       "origin": "syncthing",
       "versions": {
         "2.0.16-r1": 1775839666,
-        "2.0.16-r2": 1778661427
+        "2.0.16-r2": 1778661427,
+        "2.1.0-r0": 1779535960
       }
     },
     "syncthing-systemd": {
       "origin": "syncthing",
       "versions": {
         "2.0.16-r1": 1775839666,
-        "2.0.16-r2": 1778661427
+        "2.0.16-r2": 1778661427,
+        "2.1.0-r0": 1779535960
       }
     },
     "syncthing-utils": {
       "origin": "syncthing",
       "versions": {
         "2.0.16-r1": 1775839666,
-        "2.0.16-r2": 1778661427
+        "2.0.16-r2": 1778661427,
+        "2.1.0-r0": 1779535960
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:stdiscosrv=2.0.16-r2",
-        "cmd:strelaypoolsrv=2.0.16-r2",
-        "cmd:strelaysrv=2.0.16-r2"
+        "cmd:stdiscosrv=2.1.0-r0",
+        "cmd:strelaypoolsrv=2.1.0-r0",
+        "cmd:strelaysrv=2.1.0-r0"
       ]
     },
     "syncwhen": {
