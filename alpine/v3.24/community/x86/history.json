@@ -51800,7 +51800,8 @@
     "gcompris-qt": {
       "origin": "gcompris-qt",
       "versions": {
-        "25.1.1-r4": 1770113315
+        "25.1.1-r4": 1770113315,
+        "26.1-r0": 1779562777
       },
       "dependencies": [
         "qt6-qtsvg",
@@ -51812,13 +51813,12 @@
         "so:libQt6Qml.so.6",
         "so:libQt6Quick.so.6",
         "so:libQt6Sensors.so.6",
-        "so:libQt6Widgets.so.6",
         "so:libc.musl-x86.so.1",
         "so:libgcc_s.so.1",
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:gcompris-qt=25.1.1-r4"
+        "cmd:gcompris-qt=26.1-r0"
       ]
     },
     "gcovr": {
@@ -60423,55 +60423,61 @@
       "origin": "go-task",
       "versions": {
         "3.50.0-r0": 1776142236,
-        "3.50.0-r1": 1778661427
+        "3.50.0-r1": 1778661427,
+        "3.51.1-r0": 1779563568
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:go-task=3.50.0-r1"
+        "cmd:go-task=3.51.1-r0"
       ]
     },
     "go-task-bashcomp": {
       "origin": "go-task",
       "versions": {
         "3.50.0-r0": 1776142236,
-        "3.50.0-r1": 1778661427
+        "3.50.0-r1": 1778661427,
+        "3.51.1-r0": 1779563568
       }
     },
     "go-task-doc": {
       "origin": "go-task",
       "versions": {
         "3.50.0-r0": 1776142236,
-        "3.50.0-r1": 1778661427
+        "3.50.0-r1": 1778661427,
+        "3.51.1-r0": 1779563568
       }
     },
     "go-task-fishcomp": {
       "origin": "go-task",
       "versions": {
         "3.50.0-r0": 1776142236,
-        "3.50.0-r1": 1778661427
+        "3.50.0-r1": 1778661427,
+        "3.51.1-r0": 1779563568
       }
     },
     "go-task-task": {
       "origin": "go-task",
       "versions": {
         "3.50.0-r0": 1776142236,
-        "3.50.0-r1": 1778661427
+        "3.50.0-r1": 1778661427,
+        "3.51.1-r0": 1779563568
       },
       "dependencies": [
         "!task",
-        "go-task=3.50.0-r1"
+        "go-task=3.51.1-r0"
       ],
       "provides": [
-        "cmd:task=3.50.0-r1"
+        "cmd:task=3.51.1-r0"
       ]
     },
     "go-task-zshcomp": {
       "origin": "go-task",
       "versions": {
         "3.50.0-r0": 1776142236,
-        "3.50.0-r1": 1778661427
+        "3.50.0-r1": 1778661427,
+        "3.51.1-r0": 1779563568
       }
     },
     "go2rtc": {
@@ -84849,7 +84855,8 @@
     "k2": {
       "origin": "k2",
       "versions": {
-        "0_git20250903-r0": 1769566951
+        "0_git20250903-r0": 1769566951,
+        "0_git20260430-r0": 1779556049
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -84857,7 +84864,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:k2=0_git20250903-r0"
+        "cmd:k2=0_git20260430-r0"
       ]
     },
     "k3b": {
@@ -119129,7 +119136,8 @@
     "libsigc++3": {
       "origin": "libsigc++3",
       "versions": {
-        "3.8.0-r0": 1766073759
+        "3.8.0-r0": 1766073759,
+        "3.8.1-r0": 1779563295
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -119143,14 +119151,15 @@
     "libsigc++3-dev": {
       "origin": "libsigc++3",
       "versions": {
-        "3.8.0-r0": 1766073759
+        "3.8.0-r0": 1766073759,
+        "3.8.1-r0": 1779563295
       },
       "dependencies": [
-        "libsigc++3=3.8.0-r0",
+        "libsigc++3=3.8.1-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:sigc++-3.0=3.8.0"
+        "pc:sigc++-3.0=3.8.1"
       ]
     },
     "libsignal-protocol-c": {
@@ -276498,14 +276507,15 @@
     "vivid": {
       "origin": "vivid",
       "versions": {
-        "0.10.1-r0": 1731751460
+        "0.10.1-r0": 1731751460,
+        "0.11.1-r0": 1779564197
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:vivid=0.10.1-r0"
+        "cmd:vivid=0.11.1-r0"
       ]
     },
     "vkmark": {
