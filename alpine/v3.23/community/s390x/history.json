@@ -40109,7 +40109,8 @@
     "evince": {
       "origin": "evince",
       "versions": {
-        "48.1-r1": 1763508651
+        "48.1-r1": 1763508651,
+        "48.4-r0": 1779569020
       },
       "dependencies": [
         "adwaita-icon-theme",
@@ -40134,27 +40135,29 @@
         "so:libsecret-1.so.0"
       ],
       "provides": [
-        "cmd:evince-previewer=48.1-r1",
-        "cmd:evince-thumbnailer=48.1-r1",
-        "cmd:evince=48.1-r1"
+        "cmd:evince-previewer=48.4-r0",
+        "cmd:evince-thumbnailer=48.4-r0",
+        "cmd:evince=48.4-r0"
       ]
     },
     "evince-dbg": {
       "origin": "evince",
       "versions": {
-        "48.1-r1": 1763508651
+        "48.1-r1": 1763508651,
+        "48.4-r0": 1779569020
       },
       "dependencies": [
-        "!evince-libs<48.1-r1",
-        "!evince-libs>48.1-r1",
-        "!evince<48.1-r1",
-        "!evince>48.1-r1"
+        "!evince-libs<48.4-r0",
+        "!evince-libs>48.4-r0",
+        "!evince<48.4-r0",
+        "!evince>48.4-r0"
       ]
     },
     "evince-dev": {
       "origin": "evince",
       "versions": {
-        "48.1-r1": 1763508651
+        "48.1-r1": 1763508651,
+        "48.4-r0": 1779569020
       },
       "dependencies": [
         "gobject-introspection-dev",
@@ -40163,34 +40166,36 @@
         "libxml2-dev",
         "poppler-dev",
         "tiff-dev",
-        "evince-libs=48.1-r1",
-        "pc:evince-document-3.0=48.1",
+        "evince-libs=48.4-r0",
         "pc:gio-2.0>=2.44.0",
         "pc:gthread-2.0>=2.44.0",
         "pc:gtk+-3.0>=3.22.0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:evince-document-3.0=48.1",
-        "pc:evince-view-3.0=48.1"
+        "pc:evince-document-3.0=48.4",
+        "pc:evince-view-3.0=48.4"
       ]
     },
     "evince-doc": {
       "origin": "evince",
       "versions": {
-        "48.1-r1": 1763508651
+        "48.1-r1": 1763508651,
+        "48.4-r0": 1779569020
       }
     },
     "evince-lang": {
       "origin": "evince",
       "versions": {
-        "48.1-r1": 1763508651
+        "48.1-r1": 1763508651,
+        "48.4-r0": 1779569020
       }
     },
     "evince-libs": {
       "origin": "evince",
       "versions": {
-        "48.1-r1": 1763508651
+        "48.1-r1": 1763508651,
+        "48.4-r0": 1779569020
       },
       "dependencies": [
         "so:libarchive.so.13",
@@ -40223,7 +40228,8 @@
     "evince-systemd": {
       "origin": "evince",
       "versions": {
-        "48.1-r1": 1763508651
+        "48.1-r1": 1763508651,
+        "48.4-r0": 1779569020
       }
     },
     "evolution": {

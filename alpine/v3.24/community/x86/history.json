@@ -5807,7 +5807,8 @@
     "atril": {
       "origin": "atril",
       "versions": {
-        "1.28.0-r2": 1774640355
+        "1.28.0-r2": 1774640355,
+        "1.28.0-r3": 1779569636
       },
       "dependencies": [
         "mate-icon-theme",
@@ -5840,9 +5841,9 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:atril-previewer=1.28.0-r2",
-        "cmd:atril-thumbnailer=1.28.0-r2",
-        "cmd:atril=1.28.0-r2",
+        "cmd:atril-previewer=1.28.0-r3",
+        "cmd:atril-thumbnailer=1.28.0-r3",
+        "cmd:atril=1.28.0-r3",
         "so:libatrildocument.so.3=3.0.0",
         "so:libatrilview.so.3=3.0.0"
       ]
@@ -5850,10 +5851,11 @@
     "atril-dev": {
       "origin": "atril",
       "versions": {
-        "1.28.0-r2": 1774640355
+        "1.28.0-r2": 1774640355,
+        "1.28.0-r3": 1779569636
       },
       "dependencies": [
-        "atril=1.28.0-r2",
+        "atril=1.28.0-r3",
         "pc:gio-2.0>=2.54.0",
         "pc:gthread-2.0",
         "pc:gtk+-3.0>=3.22.0",
@@ -5867,13 +5869,15 @@
     "atril-doc": {
       "origin": "atril",
       "versions": {
-        "1.28.0-r2": 1774640355
+        "1.28.0-r2": 1774640355,
+        "1.28.0-r3": 1779569636
       }
     },
     "atril-lang": {
       "origin": "atril",
       "versions": {
-        "1.28.0-r2": 1774640355
+        "1.28.0-r2": 1774640355,
+        "1.28.0-r3": 1779569636
       }
     },
     "ats2": {
@@ -69037,7 +69041,8 @@
       "origin": "got",
       "versions": {
         "0.124-r0": 1776390566,
-        "0.125-r0": 1778538077
+        "0.125-r0": 1778538077,
+        "0.126-r0": 1779570871
       },
       "dependencies": [
         "so:libbsd.so.0",
@@ -69052,22 +69057,23 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:gitwrapper=0.125-r0",
-        "cmd:got=0.125-r0",
-        "cmd:gotadmin=0.125-r0",
-        "cmd:gotctl=0.125-r0",
-        "cmd:gotd=0.125-r0",
-        "cmd:gotsh=0.125-r0",
-        "cmd:gotwebctl=0.125-r0",
-        "cmd:gotwebd=0.125-r0",
-        "cmd:tog=0.125-r0"
+        "cmd:gitwrapper=0.126-r0",
+        "cmd:got=0.126-r0",
+        "cmd:gotadmin=0.126-r0",
+        "cmd:gotctl=0.126-r0",
+        "cmd:gotd=0.126-r0",
+        "cmd:gotsh=0.126-r0",
+        "cmd:gotwebctl=0.126-r0",
+        "cmd:gotwebd=0.126-r0",
+        "cmd:tog=0.126-r0"
       ]
     },
     "got-doc": {
       "origin": "got",
       "versions": {
         "0.124-r0": 1776390566,
-        "0.125-r0": 1778538077
+        "0.125-r0": 1778538077,
+        "0.126-r0": 1779570871
       }
     },
     "gotestfmt": {
@@ -79865,7 +79871,8 @@
       "origin": "icinga2",
       "versions": {
         "2.15.2-r0": 1770858740,
-        "2.16.0-r0": 1779386368
+        "2.16.0-r0": 1779386368,
+        "2.16.1-r0": 1779565728
       },
       "dependencies": [
         "monitoring-plugins",
@@ -79889,16 +79896,17 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:icinga2=2.16.0-r0",
-        "so:libmysql_shim.so.2.16.0=2.16.0",
-        "so:libpgsql_shim.so.2.16.0=2.16.0"
+        "cmd:icinga2=2.16.1-r0",
+        "so:libmysql_shim.so.2.16.1=2.16.1",
+        "so:libpgsql_shim.so.2.16.1=2.16.1"
       ]
     },
     "icinga2-bash-completion": {
       "origin": "icinga2",
       "versions": {
         "2.15.2-r0": 1770858740,
-        "2.16.0-r0": 1779386368
+        "2.16.0-r0": 1779386368,
+        "2.16.1-r0": 1779565728
       },
       "dependencies": [
         "bash"
@@ -79908,21 +79916,24 @@
       "origin": "icinga2",
       "versions": {
         "2.15.2-r0": 1770858740,
-        "2.16.0-r0": 1779386368
+        "2.16.0-r0": 1779386368,
+        "2.16.1-r0": 1779565728
       }
     },
     "icinga2-openrc": {
       "origin": "icinga2",
       "versions": {
         "2.15.2-r0": 1770858740,
-        "2.16.0-r0": 1779386368
+        "2.16.0-r0": 1779386368,
+        "2.16.1-r0": 1779565728
       }
     },
     "icinga2-vim": {
       "origin": "icinga2",
       "versions": {
         "2.15.2-r0": 1770858740,
-        "2.16.0-r0": 1779386368
+        "2.16.0-r0": 1779386368,
+        "2.16.1-r0": 1779565728
       }
     },
     "icingaweb2": {
@@ -314084,6 +314095,14 @@
       "libgvm_util.so.23": {
         "package": "gvm-libs",
         "version": "23.1.2"
+      },
+      "libmysql_shim.so.2.16.1": {
+        "package": "icinga2",
+        "version": "2.16.1"
+      },
+      "libpgsql_shim.so.2.16.1": {
+        "package": "icinga2",
+        "version": "2.16.1"
       }
     },
     "package": {
