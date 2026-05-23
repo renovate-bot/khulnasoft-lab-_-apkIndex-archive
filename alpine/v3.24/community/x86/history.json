@@ -292394,6 +292394,83 @@
       "dependencies": [
         "python3~3.14"
       ]
+    },
+    "gnucobol": {
+      "origin": "gnucobol",
+      "versions": {
+        "3.2-r0": 1779549535
+      },
+      "dependencies": [
+        "gcc",
+        "gmp-dev",
+        "musl-dev",
+        "libcob4=3.2-r0",
+        "so:libc.musl-x86.so.1",
+        "so:libcob.so.4",
+        "so:libintl.so.8"
+      ],
+      "provides": [
+        "cmd:cob-config=3.2-r0",
+        "cmd:cobc=3.2-r0",
+        "cmd:cobcrun=3.2-r0"
+      ]
+    },
+    "gnucobol-doc": {
+      "origin": "gnucobol",
+      "versions": {
+        "3.2-r0": 1779549535
+      }
+    },
+    "gnucobol-lang": {
+      "origin": "gnucobol",
+      "versions": {
+        "3.2-r0": 1779549535
+      }
+    },
+    "libcob4": {
+      "origin": "gnucobol",
+      "versions": {
+        "3.2-r0": 1779549535
+      },
+      "dependencies": [
+        "so:libc.musl-x86.so.1",
+        "so:libcjson.so.1",
+        "so:libgmp.so.10",
+        "so:libintl.so.8",
+        "so:libncursesw.so.6",
+        "so:libxml2.so.2"
+      ],
+      "provides": [
+        "so:libcob.so.4=4.2.0"
+      ]
+    },
+    "resources": {
+      "origin": "resources",
+      "versions": {
+        "1.10.2-r1": 1779549608
+      },
+      "dependencies": [
+        "lscpu",
+        "so:libadwaita-1.so.0",
+        "so:libc.musl-x86.so.1",
+        "so:libcairo.so.2",
+        "so:libgcc_s.so.1",
+        "so:libgio-2.0.so.0",
+        "so:libglib-2.0.so.0",
+        "so:libgobject-2.0.so.0",
+        "so:libgraphene-1.0.so.0",
+        "so:libgtk-4.so.1",
+        "so:libintl.so.8"
+      ],
+      "provides": [
+        "cmd:resources=1.10.2-r1"
+      ]
+    },
+    "resources-lang": {
+      "origin": "resources",
+      "versions": {
+        "1.10.2-r1": 1779549608
+      }
     }
   },
   "provide": {
@@ -313929,6 +314006,10 @@
       "libopenvdb.so.13.0": {
         "package": "openvdb",
         "version": "13.0.0"
+      },
+      "libcob.so.4": {
+        "package": "libcob4",
+        "version": "4.2.0"
       }
     },
     "package": {
