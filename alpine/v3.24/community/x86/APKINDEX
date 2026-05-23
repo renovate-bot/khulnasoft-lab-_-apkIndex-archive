@@ -6059,51 +6059,51 @@ t:1769946622
 c:c1b8089ad85cf6ec058e7ffccb69adc1af67f6f2
 i:docs arping=2.28-r0
 
-C:Q1KDKYNefOX0B5nux5XQjvSDe9PJg=
+C:Q1ljTZ2hhQdKNlGI0FrRzXsuDTR7Y=
 P:arti
-V:2.2.0-r0
+V:2.3.0-r0
 A:x86
-S:4218366
-I:8529200
+S:4251599
+I:8636204
 T:An implementation of Tor, in Rust
 U:https://tpo.pages.torproject.net/core/arti/
 L:GPL-3.0-or-later
 o:arti
 m:omni <omni+alpine@hack.org>
-t:1774982892
-c:f1d5e3bc45cc04084f685ab62d9b4467da08a6e4
+t:1779496586
+c:5946076585160161396c1070a4aeb3f28d730a1c
 D:/bin/sh so:libc.musl-x86.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:liblzma.so.5 so:libsqlite3.so.0 so:libssl.so.3 so:libzstd.so.1
-p:cmd:arti=2.2.0-r0
+p:cmd:arti=2.3.0-r0
 
-C:Q1lPH4mtSaStGH1jYO58Q8zE2YDj4=
+C:Q1WJa2SWPDHd3rYPJ22WzhpynQKjA=
 P:arti-doc
-V:2.2.0-r0
+V:2.3.0-r0
 A:x86
-S:160394
-I:633444
+S:164868
+I:651635
 T:An implementation of Tor, in Rust (documentation)
 U:https://tpo.pages.torproject.net/core/arti/
 L:GPL-3.0-or-later
 o:arti
 m:omni <omni+alpine@hack.org>
-t:1774982892
-c:f1d5e3bc45cc04084f685ab62d9b4467da08a6e4
-i:docs arti=2.2.0-r0
+t:1779496586
+c:5946076585160161396c1070a4aeb3f28d730a1c
+i:docs arti=2.3.0-r0
 
-C:Q1tuZ5JwUS7sDjImxQDZd6X+tAYWY=
+C:Q1QY0aa4K5o2dGAQ/fKqizAXXPRWk=
 P:arti-openrc
-V:2.2.0-r0
+V:2.3.0-r0
 A:x86
-S:2260
+S:2265
 I:1290
 T:An implementation of Tor, in Rust (OpenRC init scripts)
 U:https://tpo.pages.torproject.net/core/arti/
 L:GPL-3.0-or-later
 o:arti
 m:omni <omni+alpine@hack.org>
-t:1774982892
-c:f1d5e3bc45cc04084f685ab62d9b4467da08a6e4
-i:openrc arti=2.2.0-r0
+t:1779496586
+c:5946076585160161396c1070a4aeb3f28d730a1c
+i:openrc arti=2.3.0-r0
 
 C:Q1ubhAZjnsIWrgy1CkobH/emZwep4=
 P:artikulate
@@ -7811,6 +7811,37 @@ m:Stuart Cardall <developer@it-offshore.co.uk>
 t:1681263464
 c:dcf926d126ee921df71282780cae6c160fe30783
 i:docs autossh=1.4g-r3
+
+C:Q1b+/f0STXVDPayK+F517IPBIqH9w=
+P:autosuspend
+V:10.1.0-r2
+A:x86
+S:99743
+I:278968
+T:Daemon to automatically suspend and wake up a system
+U:https://github.com/languitar/autosuspend
+L:GPL-2.0
+o:autosuspend
+m:Clayton Craft <clayton@craftyguy.net>
+t:1779503054
+c:711c86fa16d3bdb332de2d07a32b3a48900c3766
+D:py3-dateutil py3-dbus py3-gobject3 py3-icalendar py3-jsonpath-ng py3-lxml py3-mpd2 py3-psutil py3-requests-file py3-tzlocal python3~3.14
+p:cmd:autosuspend=10.1.0-r2 py3.14:autosuspend=10.1.0-r2
+
+C:Q1g0LKeyjRNd4bcWPQ48dwvpd7wjg=
+P:autosuspend-systemd
+V:10.1.0-r2
+A:x86
+S:1864
+I:338
+T:Daemon to automatically suspend and wake up a system (systemd files)
+U:https://github.com/languitar/autosuspend
+L:GPL-2.0
+o:autosuspend
+m:Clayton Craft <clayton@craftyguy.net>
+t:1779503054
+c:711c86fa16d3bdb332de2d07a32b3a48900c3766
+i:systemd autosuspend=10.1.0-r2
 
 C:Q1Dghg7f7+0NTc/D/aOQMnePubPwA=
 P:autotiling
@@ -56721,161 +56752,161 @@ t:1768074264
 c:d333f5dc96f5427912b4496a56bd5e1c1773933b
 i:docs freecell-solver=6.16.0-r0
 
-C:Q1uPSAHerEU49VkpN/pO2kqQA4cl8=
+C:Q1PT1OSAz0z0vA1Lr14ESW5Zk4jGQ=
 P:freeciv
-V:3.2.0-r1
+V:3.2.4-r0
 A:x86
-S:439330
-I:1249434
+S:447069
+I:1278121
 T:Free and Open Source empire-building strategy game (meta package)
 U:http://www.freeciv.org
 L:GPL-2.0-or-later
 o:freeciv
 m:Thomas Kienlen <kommander@laposte.net>
-t:1768294072
-c:e4d40bc5247d76c6231176aed388e295d042fa7d
+t:1779503937
+c:8d9fe49bd740ba2dcb90195ede1fca05a222682d
 D:freeciv-server freeciv-client-gtk3 so:libbz2.so.1 so:libc.musl-x86.so.1 so:libcurl.so.4 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libicuuc.so.78 so:libintl.so.8 so:liblzma.so.5 so:libsqlite3.so.0 so:libz.so.1 so:libzstd.so.1
-p:cmd:freeciv-mp-gtk4=3.2.0-r1
+p:cmd:freeciv-mp-gtk4=3.2.4-r0
 
-C:Q1XVat/GPCK0dr4z8JU6O3Ckixc9s=
+C:Q1imoo7PQDxwHzOeJU9MvPYBTozi4=
 P:freeciv-client-gtk3
-V:3.2.0-r1
+V:3.2.4-r0
 A:x86
-S:3015494
-I:7902641
+S:3038870
+I:7997017
 T:Free and Open Source empire-building strategy game (gtk3.22 client)
 U:http://www.freeciv.org
 L:GPL-2.0-or-later
 o:freeciv
 m:Thomas Kienlen <kommander@laposte.net>
-t:1768294072
-c:e4d40bc5247d76c6231176aed388e295d042fa7d
+t:1779503937
+c:8d9fe49bd740ba2dcb90195ede1fca05a222682d
 k:1
 D:freeciv-data freeciv-common-client freeciv-server so:libSDL2-2.0.so.0 so:libSDL2_mixer-2.0.so.0 so:libbz2.so.1 so:libc.musl-x86.so.1 so:libcairo.so.2 so:libcurl.so.4 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libicuuc.so.78 so:libintl.so.8 so:liblzma.so.5 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libreadline.so.8 so:libsqlite3.so.0 so:libz.so.1 so:libzstd.so.1
-p:freeciv-client cmd:freeciv-gtk3.22=3.2.0-r1 cmd:freeciv-manual=3.2.0-r1 cmd:freeciv-mp-gtk3=3.2.0-r1
+p:freeciv-client cmd:freeciv-gtk3.22=3.2.4-r0 cmd:freeciv-manual=3.2.4-r0 cmd:freeciv-mp-gtk3=3.2.4-r0
 
-C:Q1u3/5fuqR66G6zPweJP9GhDLepvw=
+C:Q1jYQ8jFZYrtYW9hX26lY/k6p3Nug=
 P:freeciv-client-gtk4
-V:3.2.0-r1
+V:3.2.4-r0
 A:x86
-S:1177024
-I:3044176
+S:1184723
+I:3077012
 T:Free and Open Source empire-building strategy game (gtk4 client)
 U:http://www.freeciv.org
 L:GPL-2.0-or-later
 o:freeciv
 m:Thomas Kienlen <kommander@laposte.net>
-t:1768294072
-c:e4d40bc5247d76c6231176aed388e295d042fa7d
+t:1779503937
+c:8d9fe49bd740ba2dcb90195ede1fca05a222682d
 k:1
 D:freeciv-data freeciv-common-client freeciv-server so:libSDL2-2.0.so.0 so:libSDL2_mixer-2.0.so.0 so:libbz2.so.1 so:libc.musl-x86.so.1 so:libcairo.so.2 so:libcurl.so.4 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libicuuc.so.78 so:libintl.so.8 so:liblzma.so.5 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libz.so.1 so:libzstd.so.1
-p:freeciv-client cmd:freeciv-gtk4=3.2.0-r1
+p:freeciv-client cmd:freeciv-gtk4=3.2.4-r0
 
-C:Q1oPIp43DtFn1C5m8DFffjeBQh95g=
+C:Q1FwYQvhm6iPUwHKAp1WUW7tzavcY=
 P:freeciv-client-qt
-V:3.2.0-r1
+V:3.2.4-r0
 A:x86
-S:4893807
-I:12690027
+S:4926593
+I:12808874
 T:Free and Open Source empire-building strategy game (qt client)
 U:http://www.freeciv.org
 L:GPL-2.0-or-later
 o:freeciv
 m:Thomas Kienlen <kommander@laposte.net>
-t:1768294072
-c:e4d40bc5247d76c6231176aed388e295d042fa7d
+t:1779503937
+c:8d9fe49bd740ba2dcb90195ede1fca05a222682d
 D:freeciv-data freeciv-common-client freeciv-server so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Widgets.so.6 so:libSDL2-2.0.so.0 so:libSDL2_mixer-2.0.so.0 so:libbz2.so.1 so:libc.musl-x86.so.1 so:libcurl.so.4 so:libgcc_s.so.1 so:libicuuc.so.78 so:libintl.so.8 so:liblzma.so.5 so:libreadline.so.8 so:libsqlite3.so.0 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
-p:freeciv-client cmd:freeciv-mp-qt=3.2.0-r1 cmd:freeciv-qt=3.2.0-r1 cmd:freeciv-ruledit=3.2.0-r1 cmd:freeciv-ruleup=3.2.0-r1
+p:freeciv-client cmd:freeciv-mp-qt=3.2.4-r0 cmd:freeciv-qt=3.2.4-r0 cmd:freeciv-ruledit=3.2.4-r0 cmd:freeciv-ruleup=3.2.4-r0
 
-C:Q1wWMZMRM+d7//+gix7QbaZKgqCDw=
+C:Q1mAYK7dv+bZQa8n7IQAySfiT1Pmk=
 P:freeciv-client-sdl2
-V:3.2.0-r1
+V:3.2.4-r0
 A:x86
-S:1140333
-I:2957739
+S:1149256
+I:2990550
 T:Free and Open Source empire-building strategy game (sdl2 client)
 U:http://www.freeciv.org
 L:GPL-2.0-or-later
 o:freeciv
 m:Thomas Kienlen <kommander@laposte.net>
-t:1768294072
-c:e4d40bc5247d76c6231176aed388e295d042fa7d
+t:1779503937
+c:8d9fe49bd740ba2dcb90195ede1fca05a222682d
 D:freeciv-data freeciv-common-client freeciv-server so:libSDL2-2.0.so.0 so:libSDL2_gfx-1.0.so.0 so:libSDL2_image-2.0.so.0 so:libSDL2_mixer-2.0.so.0 so:libSDL2_ttf-2.0.so.0 so:libbz2.so.1 so:libc.musl-x86.so.1 so:libcurl.so.4 so:libicuuc.so.78 so:libintl.so.8 so:liblzma.so.5 so:libz.so.1 so:libzstd.so.1
-p:freeciv-client cmd:freeciv-sdl2=3.2.0-r1
+p:freeciv-client cmd:freeciv-sdl2=3.2.4-r0
 
-C:Q1u1MqNOvR7jUuzvg7RlicK5oEt10=
+C:Q1/KS7C3A+7AKQnqgaJ9psD+bIYro=
 P:freeciv-common-client
-V:3.2.0-r1
+V:3.2.4-r0
 A:x86
-S:99500
+S:99496
 I:96762
 T:Free and Open Source empire-building strategy game (common files for every clients)
 U:http://www.freeciv.org
 L:GPL-2.0-or-later
 o:freeciv
 m:Thomas Kienlen <kommander@laposte.net>
-t:1768294072
-c:e4d40bc5247d76c6231176aed388e295d042fa7d
+t:1779503937
+c:8d9fe49bd740ba2dcb90195ede1fca05a222682d
 
-C:Q1DJQ22YRpVP7LhMSvXJ5vZvP7y5E=
+C:Q1xIGaVnrPcBnyUggyIKl1gwwpBq0=
 P:freeciv-data
-V:3.2.0-r1
+V:3.2.4-r0
 A:x86
-S:31061611
-I:48272868
+S:31064819
+I:48280926
 T:Free and Open Source empire-building strategy game (data files for client and server)
 U:http://www.freeciv.org
 L:GPL-2.0-or-later
 o:freeciv
 m:Thomas Kienlen <kommander@laposte.net>
-t:1768294072
-c:e4d40bc5247d76c6231176aed388e295d042fa7d
+t:1779503937
+c:8d9fe49bd740ba2dcb90195ede1fca05a222682d
 
-C:Q1sH7Bhk33Quv0yK4RGxSHP+PqTmc=
+C:Q1ZlWeX0J3bwnGBmLdK0ryrGqZzSw=
 P:freeciv-doc
-V:3.2.0-r1
+V:3.2.4-r0
 A:x86
-S:252813
-I:753121
+S:256337
+I:764875
 T:Free and Open Source empire-building strategy game (documentation) (documentation)
 U:http://www.freeciv.org
 L:GPL-2.0-or-later
 o:freeciv
 m:Thomas Kienlen <kommander@laposte.net>
-t:1768294072
-c:e4d40bc5247d76c6231176aed388e295d042fa7d
-i:docs freeciv=3.2.0-r1
+t:1779503937
+c:8d9fe49bd740ba2dcb90195ede1fca05a222682d
+i:docs freeciv=3.2.4-r0
 
-C:Q1NOvO9kKfXDipBwz0aQjSm1n4AIc=
+C:Q1TY5I8Xl3ciu5f67TFPAYUAmN/qI=
 P:freeciv-lang
-V:3.2.0-r1
+V:3.2.4-r0
 A:x86
-S:8433591
-I:24198588
+S:8428773
+I:24193671
 T:Languages for package freeciv
 U:http://www.freeciv.org
 L:GPL-2.0-or-later
 o:freeciv
 m:Thomas Kienlen <kommander@laposte.net>
-t:1768294072
-c:e4d40bc5247d76c6231176aed388e295d042fa7d
-i:freeciv=3.2.0-r1 lang
+t:1779503937
+c:8d9fe49bd740ba2dcb90195ede1fca05a222682d
+i:freeciv=3.2.4-r0 lang
 
-C:Q1xsZ2XnOyHjxVxYOVGWRSyndSh+g=
+C:Q1Kt+oHwXzW0HUFh2feMK5LYaGy9A=
 P:freeciv-server
-V:3.2.0-r1
+V:3.2.4-r0
 A:x86
-S:1828762
-I:4775390
+S:1843559
+I:4828637
 T:Free and Open Source empire-building strategy game (server)
 U:http://www.freeciv.org
 L:GPL-2.0-or-later
 o:freeciv
 m:Thomas Kienlen <kommander@laposte.net>
-t:1768294072
-c:e4d40bc5247d76c6231176aed388e295d042fa7d
+t:1779503937
+c:8d9fe49bd740ba2dcb90195ede1fca05a222682d
 D:freeciv-data so:libbz2.so.1 so:libc.musl-x86.so.1 so:libcurl.so.4 so:libicuuc.so.78 so:libintl.so.8 so:liblzma.so.5 so:libreadline.so.8 so:libsqlite3.so.0 so:libz.so.1 so:libzstd.so.1
-p:cmd:freeciv-mp-cli=3.2.0-r1 cmd:freeciv-server=3.2.0-r1
+p:cmd:freeciv-mp-cli=3.2.4-r0 cmd:freeciv-server=3.2.4-r0
 
 C:Q1jTsvK3HRxDa+wn/HW0h55Vqza8k=
 P:freedoom
@@ -76612,21 +76643,21 @@ t:1772106951
 c:aaf37588e480f5101eb66b1de82df2f571e37fde
 D:!gst-libav<1.28.1-r0 !gst-libav>1.28.1-r0
 
-C:Q1AD7dUCu+EB8GxG+F7qN95CbeLTU=
+C:Q1yugdqNzXrY8QEzyj8XESizd/XUA=
 P:gst-plugin-pipewire
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:83148
+S:83142
 I:189852
 T:Multimedia graph framework - PipeWire plugin
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
 D:pipewire-session-manager gst-plugins-base so:libc.musl-x86.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstallocators-1.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libpipewire-0.3.so.0
-i:pipewire=1.6.5-r0 gstreamer
+i:pipewire=1.6.5-r1 gstreamer
 
 C:Q1Kjr6jgiGsO/cV1MV79z3DBAmjRQ=
 P:gst-plugins-bad
@@ -79814,22 +79845,22 @@ t:1773567302
 c:af6f93920f6c04cae607afba64be5c578c553997
 i:systemd gvfs=1.60.0-r0
 
-C:Q1j+TanWdJLXSWFTmsQashSE8ud7o=
+C:Q1kafiBDum7vPkUGm+KvSjnB10Sy4=
 P:gvim
-V:9.2.0498-r0
+V:9.2.0514-r0
 A:x86
-S:1907338
-I:3663284
+S:1907071
+I:3659284
 T:Improved vi-style text editor (GTK3 GUI)
 U:https://www.vim.org/
 L:Vim
 o:vim
 m:mio <miyopan@e.email>
-t:1779056078
-c:16c3754565daa13939209451a521d8a360556fa4
+t:1779497738
+c:bad79dc096c6ca1867181df5b6f1a6d00f94e9f8
 k:1
-D:vim-common=9.2.0498-r0 xxd=9.2.0498-r0 so:libICE.so.6 so:libSM.so.6 so:libX11.so.6 so:libXt.so.6 so:libc.musl-x86.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libncursesw.so.6 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libwayland-client.so.0
-p:vim=9.2.0498-r0 cmd:eview=9.2.0498-r0 cmd:evim=9.2.0498-r0 cmd:ex=9.2.0498-r0 cmd:gview=9.2.0498-r0 cmd:gvim=9.2.0498-r0 cmd:gvimdiff=9.2.0498-r0 cmd:gvimtutor=9.2.0498-r0 cmd:rgview=9.2.0498-r0 cmd:rgvim=9.2.0498-r0 cmd:rview=9.2.0498-r0 cmd:rvim=9.2.0498-r0 cmd:view=9.2.0498-r0 cmd:vim=9.2.0498-r0
+D:vim-common=9.2.0514-r0 xxd=9.2.0514-r0 so:libICE.so.6 so:libSM.so.6 so:libX11.so.6 so:libXt.so.6 so:libc.musl-x86.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libncursesw.so.6 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libwayland-client.so.0
+p:vim=9.2.0514-r0 cmd:eview=9.2.0514-r0 cmd:evim=9.2.0514-r0 cmd:ex=9.2.0514-r0 cmd:gview=9.2.0514-r0 cmd:gvim=9.2.0514-r0 cmd:gvimdiff=9.2.0514-r0 cmd:gvimtutor=9.2.0514-r0 cmd:rgview=9.2.0514-r0 cmd:rgvim=9.2.0514-r0 cmd:rview=9.2.0514-r0 cmd:rvim=9.2.0514-r0 cmd:view=9.2.0514-r0 cmd:vim=9.2.0514-r0
 
 C:Q1EpQLTW90HuqMpmcw0533fdOrhT0=
 P:gvm-libs
@@ -113419,19 +113450,19 @@ c:dda0b5a100ff8cb4bd50d64de0fc75157b33ca48
 D:so:libc.musl-x86.so.1 so:libfreeaptx.so.0
 p:cmd:freeaptxdec=0.2.2-r0 cmd:freeaptxenc=0.2.2-r0
 
-C:Q100u62GOouRktkzkZucYLZayhS7g=
+C:Q1z9Euk9hh/1UfcCGvcJTPs6uAbGA=
 P:libfreeciv-static
-V:3.2.0-r1
+V:3.2.4-r0
 A:x86
-S:2219387
-I:6497872
+S:2231044
+I:6538450
 T:Free and Open Source empire-building strategy game (static libs for ai modules)
 U:http://www.freeciv.org
 L:GPL-2.0-or-later
 o:freeciv
 m:Thomas Kienlen <kommander@laposte.net>
-t:1768294072
-c:e4d40bc5247d76c6231176aed388e295d042fa7d
+t:1779503937
+c:8d9fe49bd740ba2dcb90195ede1fca05a222682d
 
 C:Q1npdNuTgNU3OIawtcph+7Ko9Xmw8=
 P:libfreehand
@@ -149029,37 +149060,37 @@ t:1769724317
 c:2ee991d44430a7e06a8e317cefab5299e04967ff
 i:docs mise=2025.12.13-r0
 
-C:Q1yQRHhXV2Y/v2eirydpkWr9wKllM=
+C:Q1YYOiOKxZjpLLix75xHZEpQV5r24=
 P:mitmproxy
-V:11.0.0-r2
+V:11.0.0-r3
 A:x86
-S:1579319
+S:1579324
 I:4542962
 T:Interactive TLS-capable intercepting HTTP proxy
 U:https://mitmproxy.org/
 L:MIT
 o:mitmproxy
 m:Michał Polański <michal@polanski.me>
-t:1776595260
-c:71da7714df19c5066e5b8ed9efcd08e2329eaba7
-D:py3-aioquic py3-asgiref py3-brotli py3-certifi py3-cryptography py3-flask py3-h11 py3-h2 py3-hyperframe py3-kaitaistruct py3-ldap3 py3-mitmproxy-rs py3-msgpack py3-protobuf py3-openssl py3-parsing py3-pyperclip py3-ruamel.yaml py3-sortedcontainers py3-tornado py3-urwid py3-wsproto py3-publicsuffix2 py3-zstandard python3~3.14
-p:cmd:mitmdump=11.0.0-r2 cmd:mitmproxy=11.0.0-r2 cmd:mitmweb=11.0.0-r2 py3.14:mitmproxy=11.0.0-r2
+t:1779502080
+c:ff22fd1f45e668e6e989740df1b43c9a1800d545
+D:py3-aioquic py3-asgiref py3-bcrypt py3-brotli py3-certifi py3-cryptography py3-flask py3-h11 py3-h2 py3-hyperframe py3-kaitaistruct py3-ldap3 py3-mitmproxy-rs py3-msgpack py3-protobuf py3-openssl py3-parsing py3-pyperclip py3-ruamel.yaml py3-sortedcontainers py3-tornado py3-urwid py3-wsproto py3-publicsuffix2 py3-zstandard python3~3.14
+p:cmd:mitmdump=11.0.0-r3 cmd:mitmproxy=11.0.0-r3 cmd:mitmweb=11.0.0-r3 py3.14:mitmproxy=11.0.0-r3
 
-C:Q1p1S7Gw1TNtjnVLq2Sr4IoYicsO4=
+C:Q14vsIR+Bww5/s5jSpaUPWwM5Y7Wc=
 P:mitmproxy-pyc
-V:11.0.0-r2
+V:11.0.0-r3
 A:x86
-S:1002573
+S:1002532
 I:2647941
 T:Precompiled Python bytecode for mitmproxy
 U:https://mitmproxy.org/
 L:MIT
 o:mitmproxy
 m:Michał Polański <michal@polanski.me>
-t:1776595260
-c:71da7714df19c5066e5b8ed9efcd08e2329eaba7
+t:1779502080
+c:ff22fd1f45e668e6e989740df1b43c9a1800d545
 D:python3~3.14
-i:mitmproxy=11.0.0-r2 pyc
+i:mitmproxy=11.0.0-r3 pyc
 
 C:Q1gpB3iilkxWzrwGyoM2fOoCLhhmQ=
 P:mixxx
@@ -150757,37 +150788,37 @@ t:1777456164
 c:e9a6cce7cecd3488b553e57057cba277ffe10910
 i:mousepad=0.7.0-r0 lang
 
-C:Q1kJGz/Hmdur94QynOT1e0ssvugPI=
+C:Q1+caEOsboYvxJrKNXv3L8H+8VFZY=
 P:mozjs
-V:140.10.1-r0
+V:140.11.0-r0
 A:x86
-S:17843885
-I:40623024
+S:17846622
+I:40627576
 T:Standalone Mozilla JavaScript engine (ESR)
 U:https://spidermonkey.dev/
 L:MPL-2.0
 o:mozjs
 m:Krassy Boykinov <kboykinov@teamcentrixx.com>
-t:1777958985
-c:d4604b35157fef20398f9f5c217087cc9c11c246
+t:1779492914
+c:27ee45840b0943101b3748c243b3ca9d9b34b13d
 D:so:libc.musl-x86.so.1 so:libgcc_s.so.1 so:libicui18n.so.78 so:libicuuc.so.78 so:libnspr4.so so:libstdc++.so.6 so:libz.so.1
-p:cmd:js140=140.10.1-r0 so:libmozjs-140.so=0
+p:cmd:js140=140.11.0-r0 so:libmozjs-140.so=0
 
-C:Q1ISoxvYDCUA9DkQr5l8QUam5oqOc=
+C:Q16th9APH8eyMFXTkfJ+0LgZtxHbg=
 P:mozjs-dev
-V:140.10.1-r0
+V:140.11.0-r0
 A:x86
-S:1044436
-I:4197027
+S:1044465
+I:4197160
 T:Standalone Mozilla JavaScript engine (ESR) (development files)
 U:https://spidermonkey.dev/
 L:MPL-2.0
 o:mozjs
 m:Krassy Boykinov <kboykinov@teamcentrixx.com>
-t:1777958985
-c:d4604b35157fef20398f9f5c217087cc9c11c246
+t:1779492914
+c:27ee45840b0943101b3748c243b3ca9d9b34b13d
 D:mozjs icu-dev libffi-dev nspr-dev pc:nspr>=4.10 pkgconfig
-p:cmd:js140-config=140.10.1-r0 pc:mozjs-140=140.10.1
+p:cmd:js140-config=140.11.0-r0 pc:mozjs-140=140.11.0
 
 C:Q1rivavulsnbI1isan9Dg8lTaQ/S0=
 P:mozo
@@ -171468,6 +171499,82 @@ t:1763633651
 c:cc0e8a03315bdc4ec222cc05d68e7fb203bea5d5
 i:docs openvas-smb=22.5.10-r0
 
+C:Q1sIyrxWEDhrCOf3vuulZH1/xOGYw=
+P:openvdb
+V:13.0.0-r1
+A:x86
+S:10760232
+I:65181148
+T:Sparse volume data structure and tools
+U:https://www.openvdb.org/
+L:MPL-2.0
+o:openvdb
+m:Leon Marz <main@lmarz.org>
+t:1779493423
+c:99793733fc61a4a611502ef1d3b2ec07ac415fe8
+D:so:libblosc.so.1 so:libboost_iostreams.so.1.84.0 so:libc.musl-x86.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libtbb.so.12 so:libz.so.1
+p:so:libopenvdb.so.13.0=13.0.0
+
+C:Q1NXmnZfSc01VjLfsNep3vCoT2op4=
+P:openvdb-dev
+V:13.0.0-r1
+A:x86
+S:842691
+I:4607667
+T:Sparse volume data structure and tools (development files)
+U:https://www.openvdb.org/
+L:MPL-2.0
+o:openvdb
+m:Leon Marz <main@lmarz.org>
+t:1779493423
+c:99793733fc61a4a611502ef1d3b2ec07ac415fe8
+D:openvdb=13.0.0-r1
+
+C:Q10AQkWNBsY0rqaa60fHJfZd+kQjg=
+P:openvdb-nanovdb
+V:13.0.0-r1
+A:x86
+S:291530
+I:1720209
+T:Sparse volume data structure and tools (nanovdb)
+U:https://www.openvdb.org/
+L:MPL-2.0
+o:openvdb
+m:Leon Marz <main@lmarz.org>
+t:1779493423
+c:99793733fc61a4a611502ef1d3b2ec07ac415fe8
+
+C:Q1v0Y/SF4khIWQ9rRh8lnKR5M/xbY=
+P:openvdb-static
+V:13.0.0-r1
+A:x86
+S:27931575
+I:249458208
+T:Sparse volume data structure and tools (static library)
+U:https://www.openvdb.org/
+L:MPL-2.0
+o:openvdb
+m:Leon Marz <main@lmarz.org>
+t:1779493423
+c:99793733fc61a4a611502ef1d3b2ec07ac415fe8
+D:openvdb-dev
+
+C:Q1OE7P4oaZrRI7p0dwDe0vXiRSK0I=
+P:openvdb-tools
+V:13.0.0-r1
+A:x86
+S:1146260
+I:5657068
+T:Sparse volume data structure and tools (Tools)
+U:https://www.openvdb.org/
+L:MPL-2.0
+o:openvdb
+m:Leon Marz <main@lmarz.org>
+t:1779493423
+c:99793733fc61a4a611502ef1d3b2ec07ac415fe8
+D:so:libblosc.so.1 so:libc.musl-x86.so.1 so:libgcc_s.so.1 so:libopenvdb.so.13.0 so:libstdc++.so.6 so:libtbb.so.12 so:libz.so.1
+p:cmd:nanovdb_print=13.0.0-r1 cmd:nanovdb_validate=13.0.0-r1 cmd:vdb_print=13.0.0-r1
+
 C:Q1mV+5foprO7umnDPgbs40A21cyg0=
 P:openvi
 V:7.7.32-r0
@@ -190480,35 +190587,35 @@ t:1732004420
 c:b559a2dead68e6c6547cd19ac1ebdd50ff9973ee
 i:docs perl-sql-translator=1.66-r0
 
-C:Q1wusm0NGW/Ywu1ZuKN/Q+QGROsds=
+C:Q1Fwe/dnQxNk7lx5mlUl3opg71SZ8=
 P:perl-starlet
-V:0.31-r3
+V:0.32-r0
 A:x86
-S:9716
-I:26971
+S:9960
+I:27736
 T:a simple, high-performance PSGI/Plack HTTP server
 U:https://metacpan.org/release/Starlet/
 L:GPL-1.0-or-later OR Artistic-1.0-Perl
 o:perl-starlet
 m:Timo Teräs <timo.teras@iki.fi>
-t:1688403119
-c:efc6ae3b4703310ac78d557c59f1cfc0bb30c0e0
+t:1779496754
+c:7f904bb1f8bfa957844447fa52e9260c1224d5ec
 D:perl perl-server-starter perl-plack perl-parallel-prefork
 
-C:Q1ntbhNlhS1y00NBJeF7Wc7tiIWbg=
+C:Q1rMBF7WKznjjPwOkQ8RDQGOadCDI=
 P:perl-starlet-doc
-V:0.31-r3
+V:0.32-r0
 A:x86
-S:4240
-I:2404
+S:4243
+I:2403
 T:a simple, high-performance PSGI/Plack HTTP server (documentation)
 U:https://metacpan.org/release/Starlet/
 L:GPL-1.0-or-later OR Artistic-1.0-Perl
 o:perl-starlet
 m:Timo Teräs <timo.teras@iki.fi>
-t:1688403119
-c:efc6ae3b4703310ac78d557c59f1cfc0bb30c0e0
-i:docs perl-starlet=0.31-r3
+t:1779496754
+c:7f904bb1f8bfa957844447fa52e9260c1224d5ec
+i:docs perl-starlet=0.32-r0
 
 C:Q1wsZu1j3MmQSAX4MIGF3eTNGf55I=
 P:perl-statistics-chisquare
@@ -203178,438 +203285,438 @@ c:144b0bf3d0c0f4269dfd01b4cd69e986b8201dc4
 D:python3~3.14
 i:piper=0.8-r1 pyc
 
-C:Q1r6n9fodfQbcfiZGkFRYRyvfXgsE=
+C:Q1qtHzjV1WMhLPu2nIwXnaRPJgiRE=
 P:pipewire
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:93672
+S:93653
 I:393691
 T:Multimedia processing graphs
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
 D:/bin/sh so:libc.musl-x86.so.1 so:libpipewire-0.3.so.0
-p:cmd:pipewire-aes67=1.6.5-r0 cmd:pipewire-avb=1.6.5-r0 cmd:pipewire-vulkan=1.6.5-r0 cmd:pipewire=1.6.5-r0 so:libpw-v4l2.so=0
+p:cmd:pipewire-aes67=1.6.5-r1 cmd:pipewire-avb=1.6.5-r1 cmd:pipewire-vulkan=1.6.5-r1 cmd:pipewire=1.6.5-r1 so:libpw-v4l2.so=0
 
-C:Q1+5Vi94wVuiAd9mP+uUA0NuHGjjI=
+C:Q1E+JygQfCIkyJLp7cfwbD5P02pmU=
 P:pipewire-alsa
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:66656
+S:66647
 I:154260
 T:ALSA support for pipewire
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
 D:so:libasound.so.2 so:libc.musl-x86.so.1 so:libpipewire-0.3.so.0
 
-C:Q1HrsdZPDZmHTqmsr6eZ0MQgCnBxo=
+C:Q1FWbUnFta5gpACLkCRCOUlH9AYeI=
 P:pipewire-dbg
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:16650909
+S:16650801
 I:38278056
 T:Multimedia processing graphs (debug symbols)
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
-D:!gst-plugin-pipewire<1.6.5-r0 !gst-plugin-pipewire>1.6.5-r0 !pipewire-alsa<1.6.5-r0 !pipewire-alsa>1.6.5-r0 !pipewire-dev<1.6.5-r0 !pipewire-dev>1.6.5-r0 !pipewire-echo-cancel<1.6.5-r0 !pipewire-echo-cancel>1.6.5-r0 !pipewire-filter-graph-builtin<1.6.5-r0 !pipewire-filter-graph-builtin>1.6.5-r0 !pipewire-filter-graph-ebur128<1.6.5-r0 !pipewire-filter-graph-ebur128>1.6.5-r0 !pipewire-filter-graph-ladspa<1.6.5-r0 !pipewire-filter-graph-ladspa>1.6.5-r0 !pipewire-filter-graph-lv2<1.6.5-r0 !pipewire-filter-graph-lv2>1.6.5-r0 !pipewire-filter-graph-sofa<1.6.5-r0 !pipewire-filter-graph-sofa>1.6.5-r0 !pipewire-filter-graph<1.6.5-r0 !pipewire-filter-graph>1.6.5-r0 !pipewire-jack<1.6.5-r0 !pipewire-jack>1.6.5-r0 !pipewire-libs<1.6.5-r0 !pipewire-libs>1.6.5-r0 !pipewire-pulse<1.6.5-r0 !pipewire-pulse>1.6.5-r0 !pipewire-spa-bluez<1.6.5-r0 !pipewire-spa-bluez>1.6.5-r0 !pipewire-spa-tools<1.6.5-r0 !pipewire-spa-tools>1.6.5-r0 !pipewire-spa-vulkan<1.6.5-r0 !pipewire-spa-vulkan>1.6.5-r0 !pipewire-tools<1.6.5-r0 !pipewire-tools>1.6.5-r0 !pipewire-x11<1.6.5-r0 !pipewire-x11>1.6.5-r0 !pipewire-zeroconf<1.6.5-r0 !pipewire-zeroconf>1.6.5-r0 !pipewire<1.6.5-r0 !pipewire>1.6.5-r0
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
+D:!gst-plugin-pipewire<1.6.5-r1 !gst-plugin-pipewire>1.6.5-r1 !pipewire-alsa<1.6.5-r1 !pipewire-alsa>1.6.5-r1 !pipewire-dev<1.6.5-r1 !pipewire-dev>1.6.5-r1 !pipewire-echo-cancel<1.6.5-r1 !pipewire-echo-cancel>1.6.5-r1 !pipewire-filter-graph-builtin<1.6.5-r1 !pipewire-filter-graph-builtin>1.6.5-r1 !pipewire-filter-graph-ebur128<1.6.5-r1 !pipewire-filter-graph-ebur128>1.6.5-r1 !pipewire-filter-graph-ladspa<1.6.5-r1 !pipewire-filter-graph-ladspa>1.6.5-r1 !pipewire-filter-graph-lv2<1.6.5-r1 !pipewire-filter-graph-lv2>1.6.5-r1 !pipewire-filter-graph-sofa<1.6.5-r1 !pipewire-filter-graph-sofa>1.6.5-r1 !pipewire-filter-graph<1.6.5-r1 !pipewire-filter-graph>1.6.5-r1 !pipewire-jack<1.6.5-r1 !pipewire-jack>1.6.5-r1 !pipewire-libs<1.6.5-r1 !pipewire-libs>1.6.5-r1 !pipewire-pulse<1.6.5-r1 !pipewire-pulse>1.6.5-r1 !pipewire-spa-bluez<1.6.5-r1 !pipewire-spa-bluez>1.6.5-r1 !pipewire-spa-tools<1.6.5-r1 !pipewire-spa-tools>1.6.5-r1 !pipewire-spa-vulkan<1.6.5-r1 !pipewire-spa-vulkan>1.6.5-r1 !pipewire-tools<1.6.5-r1 !pipewire-tools>1.6.5-r1 !pipewire-x11<1.6.5-r1 !pipewire-x11>1.6.5-r1 !pipewire-zeroconf<1.6.5-r1 !pipewire-zeroconf>1.6.5-r1 !pipewire<1.6.5-r1 !pipewire>1.6.5-r1
 
-C:Q1TS6qNFHUPFU28pdiKrYtTF4KZFk=
+C:Q1BM9OrN3SNvnG2fwvctKjk63ygNc=
 P:pipewire-dev
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:224863
+S:224858
 I:1035847
 T:Multimedia processing graphs (development files)
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
-D:pipewire-libs=1.6.5-r0 pkgconfig so:libc.musl-x86.so.1 so:libpipewire-0.3.so.0
-p:cmd:pw-config=1.6.5-r0 pc:jackserver=3.1605.0 pc:libpipewire-0.3=1.6.5 pc:libspa-0.2=0.2
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
+D:pipewire-libs=1.6.5-r1 pkgconfig so:libc.musl-x86.so.1 so:libpipewire-0.3.so.0
+p:cmd:pw-config=1.6.5-r1 pc:jackserver=3.1605.0 pc:libpipewire-0.3=1.6.5 pc:libspa-0.2=0.2
 
-C:Q1tr7ugNkxH+siG+cmOXAldmgvLXI=
+C:Q1ia8z/Bp/3dXwCwbpp+gqgDRGpfQ=
 P:pipewire-doc
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:142859
+S:142850
 I:131771
 T:Multimedia processing graphs (documentation)
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
-i:docs pipewire=1.6.5-r0
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
+i:docs pipewire=1.6.5-r1
 
-C:Q1yolHoxkjcVHb62/J0hZL0e+WtFU=
+C:Q17WDE3JL8MLfEgQUSDUtybXMLTII=
 P:pipewire-echo-cancel
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:43778
+S:43766
 I:120528
 T:WebRTC-based echo canceller module for PipeWire
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
-D:pipewire=1.6.5-r0 so:libc.musl-x86.so.1 so:libpipewire-0.3.so.0
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
+D:pipewire=1.6.5-r1 so:libc.musl-x86.so.1 so:libpipewire-0.3.so.0
 p:so:libpipewire-module-echo-cancel.so=0
 
-C:Q1epD7LhSYHu5H4Cs0vJ5YN6FPyjs=
+C:Q11BDIZm+jNILBqvaDUVMCmdnGkDo=
 P:pipewire-filter-graph
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:112678
+S:112664
 I:226752
 T:Multimedia processing graphs
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
 D:so:libc.musl-x86.so.1 so:libfftw3f.so.3
 
-C:Q13w7rehFVyw4FC3Z7GVUG4eflHqQ=
+C:Q1/84lr3Kbv8fyZvBD+V3ZImCoEMY=
 P:pipewire-filter-graph-builtin
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:325865
+S:325854
 I:458144
 T:Multimedia processing graphs
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
 D:so:libc.musl-x86.so.1 so:libsndfile.so.1
 
-C:Q1HmrS0VNoV5nbyRuxiwzM7X4VVU4=
+C:Q1B+6jfB+iFDpK0hHS1E9IEPkBQaY=
 P:pipewire-filter-graph-ebur128
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:10912
+S:10903
 I:26840
 T:Multimedia processing graphs
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
 D:so:libc.musl-x86.so.1 so:libebur128.so.1
 
-C:Q1qlfkXFYhEtqQ+EjfryU30LpPUDY=
+C:Q1A3uuECmnsx4uISS2lLfC8mDqhT0=
 P:pipewire-filter-graph-ladspa
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:6920
+S:6908
 I:17744
 T:Multimedia processing graphs
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
 D:so:libc.musl-x86.so.1
 
-C:Q1IdMiOfoPhN1h0HJTgGYZZ39MQtg=
+C:Q1bAiB0Y3XhEoCoFlr2NQo+6joN+w=
 P:pipewire-filter-graph-lv2
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:11989
+S:11976
 I:25932
 T:Multimedia processing graphs
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
 D:so:libc.musl-x86.so.1 so:liblilv-0.so.0
 
-C:Q1UR4AGyUBWhZrVygYq8HNJUwPYNA=
+C:Q1B0kd+bRVF0ozwAFWSh4BzUpNhFY=
 P:pipewire-filter-graph-sofa
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:15781
+S:15769
 I:34408
 T:Multimedia processing graphs
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
 D:so:libc.musl-x86.so.1 so:libmysofa.so.1
 
-C:Q1Mq1OMRzBwol0yVKA7eUHzET42AQ=
+C:Q1XZfVptyZjJ5ELZZTRtbVh+FBei8=
 P:pipewire-jack
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:294241
+S:294244
 I:707634
 T:JACK support for pipewire
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:GPL-2.0-only
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
 D:pipewire-session-manager so:libc.musl-x86.so.1 so:libpipewire-0.3.so.0
-p:jack=1.6.5-r0 cmd:pw-jack=1.6.5-r0 so:libjack.so.0=0.3.1605 so:libjacknet.so.0=0.3.1605 so:libjackserver.so.0=0.3.1605
+p:jack=1.6.5-r1 cmd:pw-jack=1.6.5-r1 so:libjack.so.0=0.3.1605 so:libjacknet.so.0=0.3.1605 so:libjackserver.so.0=0.3.1605
 
-C:Q1rKgVUZqXaTPy47iWyO9eYOY6stc=
+C:Q16+Mo+dpfaARHAvXBqw1uupqD1XY=
 P:pipewire-jack-dev
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:46082
+S:46095
 I:191610
 T:JACK development files (from pipewire)
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT AND GPL-2.0-only AND LGPL-2.1-or-later
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
-D:pipewire-jack=1.6.5-r0 pkgconfig
-p:jack-dev=1.6.5-r0 pc:jack=3.1605.0
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
+D:pipewire-jack=1.6.5-r1 pkgconfig
+p:jack-dev=1.6.5-r1 pc:jack=3.1605.0
 
-C:Q1fQI18xiKZ5rBbz4+1ldA3/o5lsE=
+C:Q1H1SNvbws1Sy8NE76LQsDMhPu+xA=
 P:pipewire-lang
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:127962
+S:127935
 I:558200
 T:Languages for package pipewire
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
-i:pipewire=1.6.5-r0 lang
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
+i:pipewire=1.6.5-r1 lang
 
-C:Q15sX/PFx8KrC/jHF6yb1MMIvdoyw=
+C:Q1SD+JRElAbznYfc97/vvIwAIvIuk=
 P:pipewire-libs
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:2877312
+S:2877309
 I:7101795
 T:Multimedia processing graphs (libraries)
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT AND LGPL-2.1-or-later
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
 D:so:libasound.so.2 so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-x86.so.1 so:libcamera-base.so.0.7 so:libcamera.so.0.7 so:libdbus-1.so.3 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libintl.so.8 so:libopus.so.0 so:libroc.so.0.4 so:libstdc++.so.6 so:libudev.so.1 so:libwebrtc-audio-processing-2.so.1
 p:so:libpipewire-0.3.so.0=0.1605.0 so:libpipewire-module-access.so=0 so:libpipewire-module-adapter.so=0 so:libpipewire-module-avb.so=0 so:libpipewire-module-client-device.so=0 so:libpipewire-module-client-node.so=0 so:libpipewire-module-combine-stream.so=0 so:libpipewire-module-fallback-sink.so=0 so:libpipewire-module-jack-tunnel.so=0 so:libpipewire-module-jackdbus-detect.so=0 so:libpipewire-module-link-factory.so=0 so:libpipewire-module-loopback.so=0 so:libpipewire-module-metadata.so=0 so:libpipewire-module-netjack2-driver.so=0 so:libpipewire-module-netjack2-manager.so=0 so:libpipewire-module-parametric-equalizer.so=0 so:libpipewire-module-pipe-tunnel.so=0 so:libpipewire-module-portal.so=0 so:libpipewire-module-profiler.so=0 so:libpipewire-module-protocol-native.so=0 so:libpipewire-module-protocol-simple.so=0 so:libpipewire-module-roc-sink.so=0 so:libpipewire-module-roc-source.so=0 so:libpipewire-module-rt.so=0 so:libpipewire-module-rtkit.so=0 so:libpipewire-module-rtp-sap.so=0 so:libpipewire-module-rtp-session.so=0 so:libpipewire-module-rtp-sink.so=0 so:libpipewire-module-rtp-source.so=0 so:libpipewire-module-session-manager.so=0 so:libpipewire-module-snapcast-discover.so=0 so:libpipewire-module-spa-device-factory.so=0 so:libpipewire-module-spa-device.so=0 so:libpipewire-module-spa-node-factory.so=0 so:libpipewire-module-spa-node.so=0 so:libpipewire-module-vban-recv.so=0 so:libpipewire-module-vban-send.so=0
 
-C:Q1IZQciq9WR0qm8VHaZQk6UKsWBJ4=
+C:Q1cpdE4fBjhRvDyk/X97FJB81UuSI=
 P:pipewire-openrc
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:1837
+S:1827
 I:291
 T:Multimedia processing graphs (OpenRC init scripts)
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
-i:openrc pipewire=1.6.5-r0
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
+i:openrc pipewire=1.6.5-r1
 
-C:Q1Bo8k1KbRmlhPWgGLZ/G3f1Zsvs0=
+C:Q1pOZPxfwNNY9SoJMKLyExg4Z2Qxc=
 P:pipewire-pulse
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:267675
+S:267669
 I:669107
 T:Pulseaudio support for pipewire
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
 k:1
-D:pipewire-session-manager pulseaudio-utils pipewire=1.6.5-r0 so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-x86.so.1 so:libdbus-1.so.3 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libpipewire-0.3.so.0 so:libpulse.so.0
-p:pulseaudio=1.6.5-r0 pulseaudio-bluez=1.6.5-r0 cmd:pipewire-pulse=1.6.5-r0 so:libpipewire-module-filter-chain.so=0 so:libpipewire-module-protocol-pulse.so=0 so:libpipewire-module-pulse-tunnel.so=0
+D:pipewire-session-manager pulseaudio-utils pipewire=1.6.5-r1 so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-x86.so.1 so:libdbus-1.so.3 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libpipewire-0.3.so.0 so:libpulse.so.0
+p:pulseaudio=1.6.5-r1 pulseaudio-bluez=1.6.5-r1 cmd:pipewire-pulse=1.6.5-r1 so:libpipewire-module-filter-chain.so=0 so:libpipewire-module-protocol-pulse.so=0 so:libpipewire-module-pulse-tunnel.so=0
 
-C:Q1JW7Kg4CqUBqurjSynPWDi2/xX+w=
+C:Q1PJgPu5L2J8x0ofzQ2k+ppeas7ew=
 P:pipewire-pulse-openrc
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:1825
+S:1810
 I:299
 T:Multimedia processing graphs
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
 i:pipewire-pulse openrc
 
-C:Q1fOEtsJiEdnPaBy4+JBNqs9C0SSc=
+C:Q1DYCbn3htUdz7R1gCV9QgIYfs+Nc=
 P:pipewire-pulse-systemd
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:2258
+S:2249
 I:1216
 T:Pulseaudio support for pipewire (systemd files)
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
-i:pipewire-pulse=1.6.5-r0 systemd
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
+i:pipewire-pulse=1.6.5-r1 systemd
 
-C:Q1xpoRUrAwLAlyiaDVUr65yXFGVdo=
+C:Q1CwRjztLpIcufVGnuEoCiqOL6pos=
 P:pipewire-spa-bluez
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:681101
+S:681092
 I:1671552
 T:PipeWire BlueZ5 SPA plugin (Bluetooth)
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
 D:so:libbluetooth.so.3 so:libc.musl-x86.so.1 so:libdbus-1.so.3 so:libfdk-aac.so.2 so:libfreeaptx.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:liblc3.so.1 so:libldacBT_abr.so.2 so:libldacBT_enc.so.2 so:libopus.so.0 so:libsbc.so.1 so:libusb-1.0.so.0
 
-C:Q1XAd0VbiOF3bPx3LQDLTROTTELNo=
+C:Q17cHs8D3Oa2KQ67/7En6kmQIXR0Y=
 P:pipewire-spa-tools
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:472156
+S:472148
 I:806832
 T:PipeWire SPA tools
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
 D:so:libasound.so.2 so:libc.musl-x86.so.1 so:libsndfile.so.1
-p:cmd:spa-acp-tool=1.6.5-r0 cmd:spa-inspect=1.6.5-r0 cmd:spa-json-dump=1.6.5-r0 cmd:spa-monitor=1.6.5-r0 cmd:spa-resample=1.6.5-r0
+p:cmd:spa-acp-tool=1.6.5-r1 cmd:spa-inspect=1.6.5-r1 cmd:spa-json-dump=1.6.5-r1 cmd:spa-monitor=1.6.5-r1 cmd:spa-resample=1.6.5-r1
 
-C:Q1wXaKIFnl/fKYoldqz9IUuqObsUs=
+C:Q1b8FzJrJm9P4piwB7Rocy4ZXB1LM=
 P:pipewire-spa-vulkan
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:88468
+S:88456
 I:198224
 T:PipeWire Vulkan SPA plugin
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
 D:so:libc.musl-x86.so.1 so:libdrm.so.2 so:libvulkan.so.1
 
-C:Q1pqbtM7UDkHPAJOxrb5y2czRGpOA=
+C:Q1uZOcPjPmcaOcxhQk1tb3rL9+TKU=
 P:pipewire-systemd
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:2617
+S:2613
 I:1836
 T:Multimedia processing graphs (systemd files)
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
-i:systemd pipewire=1.6.5-r0
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
+i:systemd pipewire=1.6.5-r1
 
-C:Q1AEQ9wWq6HfPqhKaE/XYBCP6xw6k=
+C:Q1wfLixJnluunGqyduaVpoDYroFVs=
 P:pipewire-tools
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:255019
+S:255006
 I:694908
 T:PipeWire tools
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
-D:pipewire=1.6.5-r0 so:libc.musl-x86.so.1 so:libdbus-1.so.3 so:libncursesw.so.6 so:libpipewire-0.3.so.0 so:libreadline.so.8 so:libsndfile.so.1
-p:cmd:pw-cat=1.6.5-r0 cmd:pw-cli=1.6.5-r0 cmd:pw-container=1.6.5-r0 cmd:pw-dot=1.6.5-r0 cmd:pw-dsdplay=1.6.5-r0 cmd:pw-dump=1.6.5-r0 cmd:pw-encplay=1.6.5-r0 cmd:pw-link=1.6.5-r0 cmd:pw-loopback=1.6.5-r0 cmd:pw-metadata=1.6.5-r0 cmd:pw-midi2play=1.6.5-r0 cmd:pw-midi2record=1.6.5-r0 cmd:pw-mididump=1.6.5-r0 cmd:pw-midiplay=1.6.5-r0 cmd:pw-midirecord=1.6.5-r0 cmd:pw-mon=1.6.5-r0 cmd:pw-play=1.6.5-r0 cmd:pw-profiler=1.6.5-r0 cmd:pw-record=1.6.5-r0 cmd:pw-reserve=1.6.5-r0 cmd:pw-sysex=1.6.5-r0 cmd:pw-top=1.6.5-r0 cmd:pw-v4l2=1.6.5-r0
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
+D:pipewire=1.6.5-r1 so:libc.musl-x86.so.1 so:libdbus-1.so.3 so:libncursesw.so.6 so:libpipewire-0.3.so.0 so:libreadline.so.8 so:libsndfile.so.1
+p:cmd:pw-cat=1.6.5-r1 cmd:pw-cli=1.6.5-r1 cmd:pw-container=1.6.5-r1 cmd:pw-dot=1.6.5-r1 cmd:pw-dsdplay=1.6.5-r1 cmd:pw-dump=1.6.5-r1 cmd:pw-encplay=1.6.5-r1 cmd:pw-link=1.6.5-r1 cmd:pw-loopback=1.6.5-r1 cmd:pw-metadata=1.6.5-r1 cmd:pw-midi2play=1.6.5-r1 cmd:pw-midi2record=1.6.5-r1 cmd:pw-mididump=1.6.5-r1 cmd:pw-midiplay=1.6.5-r1 cmd:pw-midirecord=1.6.5-r1 cmd:pw-mon=1.6.5-r1 cmd:pw-play=1.6.5-r1 cmd:pw-profiler=1.6.5-r1 cmd:pw-record=1.6.5-r1 cmd:pw-reserve=1.6.5-r1 cmd:pw-sysex=1.6.5-r1 cmd:pw-top=1.6.5-r1 cmd:pw-v4l2=1.6.5-r1
 
-C:Q1LJtnhGv6KFAk7ROGf0Qi9sxHBm8=
+C:Q1HXihC7BWFByC7kahU1ml0VNktL4=
 P:pipewire-udev
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:4885
+S:4873
 I:14034
 T:Multimedia processing graphs (udev rules)
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
-i:udev pipewire=1.6.5-r0
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
+i:udev pipewire=1.6.5-r1
 
-C:Q1ocbsjkK7ZULl6XODlYW07R4rL84=
+C:Q1JvRTiiijm8CactB8NVgsuAriWUY=
 P:pipewire-x11
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:7508
+S:7503
 I:17724
 T:Multimedia processing graphs
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
 D:so:libX11.so.6 so:libXfixes.so.3 so:libc.musl-x86.so.1 so:libcanberra.so.0 so:libpipewire-0.3.so.0
 p:so:libpipewire-module-x11-bell.so=0
 
-C:Q1ikrD0+l/xfmgHLWVFeGdmawLXRI=
+C:Q1NnkR5IO/dRmh93wg0D6YBBZS8As=
 P:pipewire-zeroconf
-V:1.6.5-r0
+V:1.6.5-r1
 A:x86
-S:102052
+S:102050
 I:258092
 T:Multimedia processing graphs - Zeroconf support
 U:https://pipewire.org/
-L:LGPL-2.1-or-later
+L:MIT
 o:pipewire
 m:team/alpine-desktop <bribbers@disroot.org>
-t:1778930288
-c:8658f35569d583b7afbcb267e5b06390d62889ad
+t:1779495808
+c:94d885ab563a488d41c954514efa92c844534c39
 k:1
 D:so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-x86.so.1 so:libcrypto.so.3 so:libopus.so.0 so:libpipewire-0.3.so.0
-p:pulseaudio-zeroconf=1.6.5-r0 so:libpipewire-module-raop-discover.so=0 so:libpipewire-module-raop-sink.so=0 so:libpipewire-module-zeroconf-discover.so=0
+p:pulseaudio-zeroconf=1.6.5-r1 so:libpipewire-module-raop-discover.so=0 so:libpipewire-module-raop-sink.so=0 so:libpipewire-module-zeroconf-discover.so=0
 
 C:Q1vQALxffGMqdfbMIPYFNpQhuclwg=
 P:pipexec
@@ -211644,34 +211751,34 @@ t:1778661427
 c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
 i:openrc pushgateway=1.11.2-r6
 
-C:Q1xevCGohSluyPmrXvr89HX3wD7v4=
+C:Q1njeWUxpzKABijJi4zvDixeKD+Lg=
 P:putty
-V:0.83-r2
+V:0.84-r0
 A:x86
-S:2370105
-I:5255708
+S:2384972
+I:5325380
 T:SSH and telnet client
 U:https://putty.software/
 L:MIT
 o:putty
-t:1771160091
-c:a9e2a2dc46f377eb25884f7fea9834492de7f518
-D:ncurses-terminfo-base so:libX11.so.6 so:libc.musl-x86.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0
-p:cmd:pageant=0.83-r2 cmd:plink=0.83-r2 cmd:pscp=0.83-r2 cmd:psftp=0.83-r2 cmd:psusan=0.83-r2 cmd:pterm=0.83-r2 cmd:putty=0.83-r2 cmd:puttygen=0.83-r2
+t:1779503295
+c:2c1ae39315ff0857ba9dc96816880240514e3962
+D:ncurses-terminfo-base so:libX11.so.6 so:libXrender.so.1 so:libc.musl-x86.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0
+p:cmd:pageant=0.84-r0 cmd:plink=0.84-r0 cmd:pscp=0.84-r0 cmd:psftp=0.84-r0 cmd:psusan=0.84-r0 cmd:pterm=0.84-r0 cmd:putty=0.84-r0 cmd:puttygen=0.84-r0
 
-C:Q14q4aslA5yg8xC4OKz07PbqLrWKw=
+C:Q1sHjo63aJJb+TA/KM68D2eRJex08=
 P:putty-doc
-V:0.83-r2
+V:0.84-r0
 A:x86
-S:40144
-I:37900
+S:40756
+I:38421
 T:SSH and telnet client (documentation)
 U:https://putty.software/
 L:MIT
 o:putty
-t:1771160091
-c:a9e2a2dc46f377eb25884f7fea9834492de7f518
-i:docs putty=0.83-r2
+t:1779503295
+c:2c1ae39315ff0857ba9dc96816880240514e3962
+i:docs putty=0.84-r0
 
 C:Q1P4amb4nNLqSBHTb3mDatBIVb9ks=
 P:pv
@@ -237092,6 +237199,21 @@ c:0eb76ec1ab80da92d545d0a2c4cadf50d4c6c53e
 D:python3~3.14
 i:py3-openssl=26.1.0-r0 pyc
 
+C:Q1h5mwkAshP9KjKpnNAp6AWBX/H/0=
+P:py3-openvdb
+V:13.0.0-r1
+A:x86
+S:797671
+I:2505256
+T:Sparse volume data structure and tools (Python bindings)
+U:https://www.openvdb.org/
+L:MPL-2.0
+o:openvdb
+m:Leon Marz <main@lmarz.org>
+t:1779493423
+c:99793733fc61a4a611502ef1d3b2ec07ac415fe8
+D:python3~3.14 so:libc.musl-x86.so.1 so:libgcc_s.so.1 so:libopenvdb.so.13.0 so:libstdc++.so.6 so:libtbb.so.12
+
 C:Q1oJV3gG8qv1cRSLL1oroJbaOjSyY=
 P:py3-openvswitch
 V:3.7.1-r0
@@ -244162,6 +244284,38 @@ t:1774640361
 c:c97a71e33765bd5f42a5aa2d97f1e86a25c5a539
 D:python3~3.14
 i:py3-pytest-covdefaults=2.3.0-r2 pyc
+
+C:Q1Vz1F29lOrneBh6WXScYD9VjkyDM=
+P:py3-pytest-datadir
+V:1.8.0-r1
+A:x86
+S:7256
+I:12079
+T:pytest plugin for test data directories and files
+U:https://github.com/gabrielcnr/pytest-datadir
+L:MIT
+o:py3-pytest-datadir
+m:Struan Robertson <contact@struanrobertson.co.uk>
+t:1779503054
+c:ce4ab1999be70086097fe856a8dfd85a380c6475
+D:python3 py3-pytest python3~3.14
+p:py3.14:pytest_datadir=1.8.0-r1
+
+C:Q19kY9Z21ucN0c2X1rvq4rJxJ96Z4=
+P:py3-pytest-datadir-pyc
+V:1.8.0-r1
+A:x86
+S:6166
+I:9562
+T:Precompiled Python bytecode for py3-pytest-datadir
+U:https://github.com/gabrielcnr/pytest-datadir
+L:MIT
+o:py3-pytest-datadir
+m:Struan Robertson <contact@struanrobertson.co.uk>
+t:1779503054
+c:ce4ab1999be70086097fe856a8dfd85a380c6475
+D:python3~3.14
+i:py3-pytest-datadir=1.8.0-r1 pyc
 
 C:Q11Rv9UdxhnbRMlvrQTX+sgGLn1Hc=
 P:py3-pytest-dependency
@@ -255465,21 +255619,21 @@ c:f83cbcdce6c84265b9e944ca7033bf1dbb371379
 D:python3~3.14
 i:py3-uuid6=2025.0.1-r1 pyc
 
-C:Q17O/oGQYhLEWC/fXWIZjhR2ab4ck=
+C:Q10upwapdeRA4pXdOrUv/c22AfsYw=
 P:py3-uv
-V:0.11.15-r0
+V:0.11.16-r0
 A:x86
-S:13663
+S:13662
 I:30193
 T:Extremely fast Python package installer and resolver, written in Rust (python module)
 U:https://github.com/astral-sh/uv
 L:Apache-2.0 OR MIT
 o:uv
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1779188376
-c:8768335faaabfc913a3cce448b736d88e07e825d
-D:uv=0.11.15-r0 python3~3.14
-p:py3.14:uv=0.11.15-r0
+t:1779494324
+c:f8d30695481f513e9a519995ac155754ebfbd410
+D:uv=0.11.16-r0 python3~3.14
+p:py3.14:uv=0.11.16-r0
 
 C:Q1tpdkk2zuzXCmc6+xxB5kQCospkY=
 P:py3-uv-build
@@ -255513,21 +255667,21 @@ c:387e7747e50a2cbebd08f2b0c32c8aba390708ca
 D:python3~3.14
 i:py3-uv-build=0.11.14-r0 pyc
 
-C:Q1dPY/FtM2FNA8EsB+rKChXFjU7b8=
+C:Q1Yor1B/DizSRj9gGOmK6aZ/SxK5E=
 P:py3-uv-pyc
-V:0.11.15-r0
+V:0.11.16-r0
 A:x86
-S:6341
+S:6335
 I:9079
 T:Precompiled Python bytecode for py3-uv
 U:https://github.com/astral-sh/uv
 L:Apache-2.0 OR MIT
 o:uv
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1779188376
-c:8768335faaabfc913a3cce448b736d88e07e825d
+t:1779494324
+c:f8d30695481f513e9a519995ac155754ebfbd410
 D:python3~3.14
-i:py3-uv=0.11.15-r0 pyc
+i:py3-uv=0.11.16-r0 pyc
 
 C:Q1l6SP40eeuwSSqaceMvDPSV8n7vM=
 P:py3-uvloop
@@ -278148,113 +278302,113 @@ t:1747081365
 c:e1b77cbba8275696e70cc7c1c4c8d25961f84393
 i:docs sent=1-r3
 
-C:Q1JbrIzSdrvEgAP0swJ0ED2qXe29Y=
+C:Q104C6tCFEVgEaxAxwoLe13BimRdY=
 P:sequoia-chameleon-gnupg
-V:0.13.1-r1
+V:0.13.1-r2
 A:x86
-S:4203133
-I:8807332
+S:4195494
+I:8795092
 T:Sequoia's reimplementation of the GnuPG interface
 U:https://sequoia-pgp.org/
 L:GPL-3.0-or-later
 o:sequoia-chameleon-gnupg
 m:Simon Rupf <simon@rupf.net>
-t:1777666155
-c:8c8a519bff735b3a1de1b8408d7a3a496a6f2ad3
+t:1779493765
+c:45a00144568f6f8ccf3eafe1cb83efa64ce63083
 D:so:libbz2.so.1 so:libc.musl-x86.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libsqlite3.so.0 so:libssl.so.3
-p:cmd:gpg-sq=0.13.1-r1 cmd:gpgv-sq=0.13.1-r1
+p:cmd:gpg-sq=0.13.1-r2 cmd:gpgv-sq=0.13.1-r2
 
-C:Q1qpJuWF6mpNl8xLCiwqE6hT4nxi8=
+C:Q17pQvTWKKrTMZydZnTs2dJVj+xOo=
 P:sequoia-sq
-V:1.3.1-r3
+V:1.3.1-r4
 A:x86
-S:4384596
-I:10001876
+S:4383692
+I:9993592
 T:Command-line frontends for Sequoia
 U:https://gitlab.com/sequoia-pgp/sequoia-sq
 L:GPL-2.0-or-later
 o:sequoia-sq
 m:Simon Rupf <simon@rupf.net>
-t:1775229467
-c:0124693ff6f0af49758c223712da29e02eb9f40b
+t:1779493765
+c:0e872801e42867d25b6293ccf61ff572de099243
 D:so:libbz2.so.1 so:libc.musl-x86.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libsqlite3.so.0 so:libssl.so.3
-p:cmd:sq=1.3.1-r3
+p:cmd:sq=1.3.1-r4
 
-C:Q1LGUc/sBFYQjm/Vm4BDkhpE4FjBU=
+C:Q1e6to0pt09i7jx0xtzrMI4XtVA1A=
 P:sequoia-sq-bash-completion
-V:1.3.1-r3
+V:1.3.1-r4
 A:x86
-S:9461
+S:9462
 I:276942
 T:Bash completions for sequoia-sq
 U:https://gitlab.com/sequoia-pgp/sequoia-sq
 L:GPL-2.0-or-later
 o:sequoia-sq
 m:Simon Rupf <simon@rupf.net>
-t:1775229467
-c:0124693ff6f0af49758c223712da29e02eb9f40b
-i:sequoia-sq=1.3.1-r3 bash-completion
+t:1779493765
+c:0e872801e42867d25b6293ccf61ff572de099243
+i:sequoia-sq=1.3.1-r4 bash-completion
 
-C:Q1fu7z6e6k26Nkkf4oEnMqXlI5CBI=
+C:Q1BWo65jCgDJj8byJU9nFb0Ax3+UU=
 P:sequoia-sq-doc
-V:1.3.1-r3
+V:1.3.1-r4
 A:x86
-S:117392
+S:117389
 I:108763
 T:Command-line frontends for Sequoia (documentation)
 U:https://gitlab.com/sequoia-pgp/sequoia-sq
 L:GPL-2.0-or-later
 o:sequoia-sq
 m:Simon Rupf <simon@rupf.net>
-t:1775229467
-c:0124693ff6f0af49758c223712da29e02eb9f40b
-i:docs sequoia-sq=1.3.1-r3
+t:1779493765
+c:0e872801e42867d25b6293ccf61ff572de099243
+i:docs sequoia-sq=1.3.1-r4
 
-C:Q1XeHjwN8i6L+YyYbeMq559NvBjG4=
+C:Q1X3UKdkOHdXSH2ghD8ky/VwFwhOk=
 P:sequoia-sq-fish-completion
-V:1.3.1-r3
+V:1.3.1-r4
 A:x86
-S:13645
+S:13638
 I:184852
 T:Fish completions for sequoia-sq
 U:https://gitlab.com/sequoia-pgp/sequoia-sq
 L:GPL-2.0-or-later
 o:sequoia-sq
 m:Simon Rupf <simon@rupf.net>
-t:1775229467
-c:0124693ff6f0af49758c223712da29e02eb9f40b
-i:sequoia-sq=1.3.1-r3 fish
+t:1779493765
+c:0e872801e42867d25b6293ccf61ff572de099243
+i:sequoia-sq=1.3.1-r4 fish
 
-C:Q1qTSBb26cZTrcFvw1oWnaJfRyQCM=
+C:Q1yFRgTzqAXFV3AqI+/D8PmyETyNk=
 P:sequoia-sq-zsh-completion
-V:1.3.1-r3
+V:1.3.1-r4
 A:x86
-S:14186
+S:14191
 I:199689
 T:Zsh completions for sequoia-sq
 U:https://gitlab.com/sequoia-pgp/sequoia-sq
 L:GPL-2.0-or-later
 o:sequoia-sq
 m:Simon Rupf <simon@rupf.net>
-t:1775229467
-c:0124693ff6f0af49758c223712da29e02eb9f40b
-i:sequoia-sq=1.3.1-r3 zsh
+t:1779493765
+c:0e872801e42867d25b6293ccf61ff572de099243
+i:sequoia-sq=1.3.1-r4 zsh
 
-C:Q16tnF6tg+4rSLPW8fV93PThiWXRs=
+C:Q1yByp2ac2D9w3jThy5+RNsE5HzLQ=
 P:sequoia-sqv
-V:1.3.0-r1
+V:1.3.0-r2
 A:x86
-S:775245
-I:1549720
+S:772227
+I:1545668
 T:simple signature verification program
 U:https://sequoia-pgp.org/
 L:GPL-2.0-or-later
 o:sequoia-sqv
 m:Simon Rupf <simon@rupf.net>
-t:1777671397
-c:f8ed604ff014e81f8da7a94cf439cb3dcb25208b
+t:1779493765
+c:a941286b51b1d225fcb3c93ee008c0e458d63ab8
 D:so:libc.musl-x86.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
-p:cmd:sqv=1.3.0-r1
+p:cmd:sqv=1.3.0-r2
 
 C:Q1gcBem1MVRBNhsNRAjl9lteVZLE0=
 P:serd
@@ -298961,20 +299115,20 @@ c:cc787277dcb3b925150e46ca27b58e77cc48692f
 D:so:libc.musl-x86.so.1 so:libgcc_s.so.1
 p:cmd:tuc=1.3.0-r0
 
-C:Q1cqX1rtyb0/VPnlHbHjaImh8VAr8=
+C:Q1pyeNpc8O4Z0CwTdl2fzuGn4o6nw=
 P:tuckr
-V:0.12.0-r1
+V:0.13.1-r0
 A:x86
-S:528106
-I:1045220
+S:524425
+I:1037044
 T:Dotfile manager inspired by Stow and Git
 U:https://raphgl.github.io/Tuckr/
 L:GPL-3.0-only
 o:tuckr
-t:1771160091
-c:a9e2a2dc46f377eb25884f7fea9834492de7f518
+t:1779503535
+c:a7ea187c6c0defbe6faa83b8532c389221a3d9f9
 D:so:libc.musl-x86.so.1 so:libgcc_s.so.1
-p:cmd:tuckr=0.12.0-r1
+p:cmd:tuckr=0.13.1-r0
 
 C:Q1w9GK4d7QX5Hzne5ikIxx49Gipn8=
 P:tumbler
@@ -303035,66 +303189,66 @@ t:1775514246
 c:bc86b6126808bb66f01426a9aeb2a71a60c01ab7
 i:docs uutils=0.8.0-r0
 
-C:Q12tmrbOZCjmOEXoOOJ4WTr9/LWTY=
+C:Q1fEP13GWPaZWl3vBnoUm5U6gB+0s=
 P:uv
-V:0.11.15-r0
+V:0.11.16-r0
 A:x86
-S:10705830
-I:24573394
+S:10824618
+I:24827590
 T:Extremely fast Python package installer and resolver, written in Rust
 U:https://github.com/astral-sh/uv
 L:Apache-2.0 OR MIT
 o:uv
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1779188376
-c:8768335faaabfc913a3cce448b736d88e07e825d
+t:1779494324
+c:f8d30695481f513e9a519995ac155754ebfbd410
 D:so:libbz2.so.1 so:libc.musl-x86.so.1 so:libgcc_s.so.1
-p:cmd:uv=0.11.15-r0 cmd:uvx=0.11.15-r0
+p:cmd:uv=0.11.16-r0 cmd:uvx=0.11.16-r0
 
-C:Q1BWeV6rh8aEBbFAgpygOwmqK+Lqk=
+C:Q1LZFMwVnundJoWWoymyu6uJuIAB8=
 P:uv-bash-completion
-V:0.11.15-r0
+V:0.11.16-r0
 A:x86
-S:14868
+S:14860
 I:441983
 T:Bash completions for uv
 U:https://github.com/astral-sh/uv
 L:Apache-2.0 OR MIT
 o:uv
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1779188376
-c:8768335faaabfc913a3cce448b736d88e07e825d
-i:uv=0.11.15-r0 bash-completion
+t:1779494324
+c:f8d30695481f513e9a519995ac155754ebfbd410
+i:uv=0.11.16-r0 bash-completion
 
-C:Q1wYVnf8vp7issqs2J2ZTf9M7BU/s=
+C:Q1zcuvk4eFtLX1hJryW6v6vFc4alM=
 P:uv-fish-completion
-V:0.11.15-r0
+V:0.11.16-r0
 A:x86
-S:42411
-I:755433
+S:42562
+I:757034
 T:Fish completions for uv
 U:https://github.com/astral-sh/uv
 L:Apache-2.0 OR MIT
 o:uv
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1779188376
-c:8768335faaabfc913a3cce448b736d88e07e825d
-i:uv=0.11.15-r0 fish
+t:1779494324
+c:f8d30695481f513e9a519995ac155754ebfbd410
+i:uv=0.11.16-r0 fish
 
-C:Q1el7UMmbq9b7UgvaGF+jCf9K0nAk=
+C:Q10sVFxt9n4WYGRQoVQoIqRLQIyQ8=
 P:uv-zsh-completion
-V:0.11.15-r0
+V:0.11.16-r0
 A:x86
-S:32498
-I:529833
+S:32579
+I:531699
 T:Zsh completions for uv
 U:https://github.com/astral-sh/uv
 L:Apache-2.0 OR MIT
 o:uv
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1779188376
-c:8768335faaabfc913a3cce448b736d88e07e825d
-i:uv=0.11.15-r0 zsh
+t:1779494324
+c:f8d30695481f513e9a519995ac155754ebfbd410
+i:uv=0.11.16-r0 zsh
 
 C:Q1Lsg5G/+JkZMMFPUYB3uR4waUpBM=
 P:uvicorn
@@ -304608,51 +304762,51 @@ t:1775926185
 c:f42eaf6b8d614289a6a02ab6368dd6211f93e457
 i:docs vile=9.8z_p2-r0
 
-C:Q1rJHd/d0buOK1pgE+hFXNhRX7D5U=
+C:Q1VQG1XuDGn+WD4qRf6JgMd7afiaE=
 P:vim
-V:9.2.0498-r0
+V:9.2.0514-r0
 A:x86
-S:1766914
-I:3394600
+S:1766700
+I:3394660
 T:Improved vi-style text editor
 U:https://www.vim.org/
 L:Vim
 o:vim
 m:mio <miyopan@e.email>
-t:1779056078
-c:16c3754565daa13939209451a521d8a360556fa4
+t:1779497738
+c:bad79dc096c6ca1867181df5b6f1a6d00f94e9f8
 k:10
-D:vim-common=9.2.0498-r0 xxd=9.2.0498-r0 so:libc.musl-x86.so.1 so:libncursesw.so.6
-p:cmd:ex=9.2.0498-r0 cmd:rview=9.2.0498-r0 cmd:rvim=9.2.0498-r0 cmd:view=9.2.0498-r0 cmd:vim=9.2.0498-r0
+D:vim-common=9.2.0514-r0 xxd=9.2.0514-r0 so:libc.musl-x86.so.1 so:libncursesw.so.6
+p:cmd:ex=9.2.0514-r0 cmd:rview=9.2.0514-r0 cmd:rvim=9.2.0514-r0 cmd:view=9.2.0514-r0 cmd:vim=9.2.0514-r0
 
-C:Q1yRhDqnW8+kS0WdI9Yfw27NHTQSg=
+C:Q1E1onosbNTRs4rEb8/4g2liTYgf0=
 P:vim-common
-V:9.2.0498-r0
+V:9.2.0514-r0
 A:x86
-S:8390046
-I:27552800
+S:8391210
+I:27557258
 T:Improved vi-style text editor (common files)
 U:https://www.vim.org/
 L:Vim
 o:vim
 m:mio <miyopan@e.email>
-t:1779056078
-c:16c3754565daa13939209451a521d8a360556fa4
+t:1779497738
+c:bad79dc096c6ca1867181df5b6f1a6d00f94e9f8
 
-C:Q1ISIaRdK1EhbTE/mA+DkeYm72hDY=
+C:Q1zIORxHWeU34Zm7aMyUTJgAd2lfE=
 P:vim-doc
-V:9.2.0498-r0
+V:9.2.0514-r0
 A:x86
-S:22223
-I:25943
+S:22248
+I:25964
 T:Improved vi-style text editor (documentation)
 U:https://www.vim.org/
 L:Vim
 o:vim
 m:mio <miyopan@e.email>
-t:1779056078
-c:16c3754565daa13939209451a521d8a360556fa4
-i:docs vim=9.2.0498-r0
+t:1779497738
+c:bad79dc096c6ca1867181df5b6f1a6d00f94e9f8
+i:docs vim=9.2.0514-r0
 
 C:Q1TeHcmWbG2vf8V8sFNAky9Fm2inU=
 P:vim-editorconfig
@@ -304712,21 +304866,21 @@ t:1755762870
 c:542ab6493c7d2e9be59770adefab5c0b01c00590
 D:vim
 
-C:Q1tScvY42PNmCSYUim3OximvTLJPY=
+C:Q1rjHmmaeJqiAztdA36x+jG/mIs5Q=
 P:vim-tutor
-V:9.2.0498-r0
+V:9.2.0514-r0
 A:x86
-S:507258
+S:507263
 I:1693351
 T:Improved vi-style text editor (interactive tutorial)
 U:https://www.vim.org/
 L:Vim
 o:vim
 m:mio <miyopan@e.email>
-t:1779056078
-c:16c3754565daa13939209451a521d8a360556fa4
-D:vim=9.2.0498-r0
-p:cmd:vimtutor=9.2.0498-r0
+t:1779497738
+c:bad79dc096c6ca1867181df5b6f1a6d00f94e9f8
+D:vim=9.2.0514-r0
+p:cmd:vimtutor=9.2.0514-r0
 
 C:Q1k80wYSH++7YSilDV2USwvJgc7Rg=
 P:vimb
@@ -304757,21 +304911,21 @@ t:1704775968
 c:be0ad7999e2931e281426b5c7742b4f96ecc8c0f
 i:docs vimb=3.7.0-r0
 
-C:Q1CwPc5wZlLR5cAM33ya0p27j8FJI=
+C:Q1RKMnPrDA5rDqUCJGTeap578idX0=
 P:vimdiff
-V:9.2.0498-r0
+V:9.2.0514-r0
 A:x86
-S:1582
+S:1579
 I:1
 T:Improved vi-style text editor (diff view mode)
 U:https://www.vim.org/
 L:Vim
 o:vim
 m:mio <miyopan@e.email>
-t:1779056078
-c:16c3754565daa13939209451a521d8a360556fa4
-D:diffutils vim=9.2.0498-r0
-p:cmd:vimdiff=9.2.0498-r0
+t:1779497738
+c:bad79dc096c6ca1867181df5b6f1a6d00f94e9f8
+D:diffutils vim=9.2.0514-r0
+p:cmd:vimdiff=9.2.0514-r0
 
 C:Q1FlAeLIDT9/VtUuavciLZYtS2ncg=
 P:vimiv
@@ -312402,82 +312556,82 @@ t:1768719322
 c:50b379d36027eb88dd006b1524ac57e84c131c74
 i:xboard=4.9.1-r5 lang
 
-C:Q1dOue6OFE42GH6WMVqfZHpO66Ixo=
+C:Q1PL49QvMt7lm2HZOeCFUajjHAkLA=
 P:xbps
-V:0.60.6-r0
+V:0.60.6-r1
 A:x86
-S:219441
+S:219428
 I:589354
 T:The X Binary Package System
 U:https://github.com/void-linux/xbps
-L:BSD-2-Clause AND (BSD-3-Clause AND ISC AND BSD-2-Clause-NetBSD)
+L:BSD-2-Clause AND BSD-3-Clause AND ISC
 o:xbps
 m:André Klitzing <aklitzing@gmail.com>
-t:1764716900
-c:f141f93baac24db1d25341727c1df62030412a61
+t:1779495363
+c:653ec461b6d554ea03867a58184176a203ffe16b
 D:ca-certificates so:libarchive.so.13 so:libc.musl-x86.so.1 so:libcrypto.so.3 so:libssl.so.3 so:libz.so.1
-p:cmd:xbps-alternatives=0.60.6-r0 cmd:xbps-checkvers=0.60.6-r0 cmd:xbps-create=0.60.6-r0 cmd:xbps-dgraph=0.60.6-r0 cmd:xbps-digest=0.60.6-r0 cmd:xbps-fbulk=0.60.6-r0 cmd:xbps-fetch=0.60.6-r0 cmd:xbps-install=0.60.6-r0 cmd:xbps-pkgdb=0.60.6-r0 cmd:xbps-query=0.60.6-r0 cmd:xbps-reconfigure=0.60.6-r0 cmd:xbps-remove=0.60.6-r0 cmd:xbps-rindex=0.60.6-r0 cmd:xbps-uchroot=0.60.6-r0 cmd:xbps-uhelper=0.60.6-r0 cmd:xbps-uunshare=0.60.6-r0 so:libxbps.so.6=6.0.0
+p:cmd:xbps-alternatives=0.60.6-r1 cmd:xbps-checkvers=0.60.6-r1 cmd:xbps-create=0.60.6-r1 cmd:xbps-dgraph=0.60.6-r1 cmd:xbps-digest=0.60.6-r1 cmd:xbps-fbulk=0.60.6-r1 cmd:xbps-fetch=0.60.6-r1 cmd:xbps-install=0.60.6-r1 cmd:xbps-pkgdb=0.60.6-r1 cmd:xbps-query=0.60.6-r1 cmd:xbps-reconfigure=0.60.6-r1 cmd:xbps-remove=0.60.6-r1 cmd:xbps-rindex=0.60.6-r1 cmd:xbps-uchroot=0.60.6-r1 cmd:xbps-uhelper=0.60.6-r1 cmd:xbps-uunshare=0.60.6-r1 so:libxbps.so.6=6.0.0
 
-C:Q13jJsPF6ZTgGC42I6FuuuCAEUS8w=
+C:Q1s0t+LyDP44OW90EBJ/c2onQxbXA=
 P:xbps-bash-completion
-V:0.60.6-r0
+V:0.60.6-r1
 A:x86
-S:2927
+S:2920
 I:2574
 T:Bash completions for xbps
 U:https://github.com/void-linux/xbps
-L:BSD-2-Clause AND (BSD-3-Clause AND ISC AND BSD-2-Clause-NetBSD)
+L:BSD-2-Clause AND BSD-3-Clause AND ISC
 o:xbps
 m:André Klitzing <aklitzing@gmail.com>
-t:1764716900
-c:f141f93baac24db1d25341727c1df62030412a61
-i:xbps=0.60.6-r0 bash-completion
+t:1779495363
+c:653ec461b6d554ea03867a58184176a203ffe16b
+i:xbps=0.60.6-r1 bash-completion
 
-C:Q1KqodUIwFCiDxUzZ+Rt+8lkBgZY8=
+C:Q1Om5hIhUeFQMnA0BWE26RZWWw+Xs=
 P:xbps-dev
-V:0.60.6-r0
+V:0.60.6-r1
 A:x86
 S:20830
 I:98034
 T:The X Binary Package System (development files)
 U:https://github.com/void-linux/xbps
-L:BSD-2-Clause AND (BSD-3-Clause AND ISC AND BSD-2-Clause-NetBSD)
+L:BSD-2-Clause AND BSD-3-Clause AND ISC
 o:xbps
 m:André Klitzing <aklitzing@gmail.com>
-t:1764716900
-c:f141f93baac24db1d25341727c1df62030412a61
-D:xbps=0.60.6-r0 pkgconfig
+t:1779495363
+c:653ec461b6d554ea03867a58184176a203ffe16b
+D:xbps=0.60.6-r1 pkgconfig
 p:pc:libxbps=0.60
 
-C:Q1hoynuJMAS7NilNamJyU5r71gAjc=
+C:Q1DuuwRgOPD/1iuaxGT2XoEspWZS0=
 P:xbps-doc
-V:0.60.6-r0
+V:0.60.6-r1
 A:x86
-S:39483
+S:39474
 I:47246
 T:The X Binary Package System (documentation)
 U:https://github.com/void-linux/xbps
-L:BSD-2-Clause AND (BSD-3-Clause AND ISC AND BSD-2-Clause-NetBSD)
+L:BSD-2-Clause AND BSD-3-Clause AND ISC
 o:xbps
 m:André Klitzing <aklitzing@gmail.com>
-t:1764716900
-c:f141f93baac24db1d25341727c1df62030412a61
-i:docs xbps=0.60.6-r0
+t:1779495363
+c:653ec461b6d554ea03867a58184176a203ffe16b
+i:docs xbps=0.60.6-r1
 
-C:Q1rR5oT6kr+gs0oVpux+OZrt1foGk=
+C:Q1rK4RGypPhB+uqmrEOYPyImWsgAA=
 P:xbps-zsh-completion
-V:0.60.6-r0
+V:0.60.6-r1
 A:x86
-S:6486
+S:6473
 I:16244
 T:Zsh completions for xbps
 U:https://github.com/void-linux/xbps
-L:BSD-2-Clause AND (BSD-3-Clause AND ISC AND BSD-2-Clause-NetBSD)
+L:BSD-2-Clause AND BSD-3-Clause AND ISC
 o:xbps
 m:André Klitzing <aklitzing@gmail.com>
-t:1764716900
-c:f141f93baac24db1d25341727c1df62030412a61
-i:xbps=0.60.6-r0 zsh
+t:1779495363
+c:653ec461b6d554ea03867a58184176a203ffe16b
+i:xbps=0.60.6-r1 zsh
 
 C:Q1R/39RLicT1/kARVV8H2fLwWLV/k=
 P:xca
@@ -319312,21 +319466,21 @@ t:1681061028
 c:55a9d95d44c8c4830342df61685d7f3f97a5b4e6
 i:docs xwininfo=1.1.6-r0
 
-C:Q1qtXWus+RK4u5Yr20H1j+BzVtUm0=
+C:Q1vwo5xHFBF8llmBd9kMwasOfhRbY=
 P:xxd
-V:9.2.0498-r0
+V:9.2.0514-r0
 A:x86
-S:9956
+S:9954
 I:17820
 T:Tool to make (or reverse) a hex dump
 U:https://www.vim.org/
 L:Vim
 o:vim
 m:mio <miyopan@e.email>
-t:1779056078
-c:16c3754565daa13939209451a521d8a360556fa4
+t:1779497738
+c:bad79dc096c6ca1867181df5b6f1a6d00f94e9f8
 D:so:libc.musl-x86.so.1
-p:cmd:xxd=9.2.0498-r0
+p:cmd:xxd=9.2.0514-r0
 
 C:Q1sHli1hDNwCT6W3M89dOudn98lrI=
 P:yabasic

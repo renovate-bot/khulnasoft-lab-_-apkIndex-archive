@@ -168324,7 +168324,8 @@
     "nix": {
       "origin": "nix",
       "versions": {
-        "2.31.2-r0": 1759278931
+        "2.31.2-r0": 1759278931,
+        "2.31.5-r0": 1779499334
       },
       "dependencies": [
         "ca-certificates",
@@ -168355,23 +168356,23 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:nix-build=2.31.2-r0",
-        "cmd:nix-channel=2.31.2-r0",
-        "cmd:nix-collect-garbage=2.31.2-r0",
-        "cmd:nix-copy-closure=2.31.2-r0",
-        "cmd:nix-daemon=2.31.2-r0",
-        "cmd:nix-env=2.31.2-r0",
-        "cmd:nix-expr-tests=2.31.2-r0",
-        "cmd:nix-fetchers-tests=2.31.2-r0",
-        "cmd:nix-flake-tests=2.31.2-r0",
-        "cmd:nix-hash=2.31.2-r0",
-        "cmd:nix-instantiate=2.31.2-r0",
-        "cmd:nix-prefetch-url=2.31.2-r0",
-        "cmd:nix-shell=2.31.2-r0",
-        "cmd:nix-store-tests=2.31.2-r0",
-        "cmd:nix-store=2.31.2-r0",
-        "cmd:nix-util-tests=2.31.2-r0",
-        "cmd:nix=2.31.2-r0",
+        "cmd:nix-build=2.31.5-r0",
+        "cmd:nix-channel=2.31.5-r0",
+        "cmd:nix-collect-garbage=2.31.5-r0",
+        "cmd:nix-copy-closure=2.31.5-r0",
+        "cmd:nix-daemon=2.31.5-r0",
+        "cmd:nix-env=2.31.5-r0",
+        "cmd:nix-expr-tests=2.31.5-r0",
+        "cmd:nix-fetchers-tests=2.31.5-r0",
+        "cmd:nix-flake-tests=2.31.5-r0",
+        "cmd:nix-hash=2.31.5-r0",
+        "cmd:nix-instantiate=2.31.5-r0",
+        "cmd:nix-prefetch-url=2.31.5-r0",
+        "cmd:nix-shell=2.31.5-r0",
+        "cmd:nix-store-tests=2.31.5-r0",
+        "cmd:nix-store=2.31.5-r0",
+        "cmd:nix-util-tests=2.31.5-r0",
+        "cmd:nix=2.31.5-r0",
         "so:libnix-expr-test-support.so=0",
         "so:libnix-store-test-support.so=0",
         "so:libnix-util-test-support.so=0",
@@ -168393,13 +168394,15 @@
     "nix-bash-completion": {
       "origin": "nix",
       "versions": {
-        "2.31.2-r0": 1759278931
+        "2.31.2-r0": 1759278931,
+        "2.31.5-r0": 1779499334
       }
     },
     "nix-dev": {
       "origin": "nix",
       "versions": {
-        "2.31.2-r0": 1759278931
+        "2.31.2-r0": 1759278931,
+        "2.31.5-r0": 1779499334
       },
       "dependencies": [
         "boost-dev",
@@ -168417,58 +168420,49 @@
         "pc:libseccomp>=2.5.5",
         "pc:libsodium",
         "pc:lowdown>=0.9.0",
-        "pc:nix-expr",
-        "pc:nix-expr-c",
-        "pc:nix-fetchers",
-        "pc:nix-fetchers-c",
-        "pc:nix-flake",
-        "pc:nix-main",
-        "pc:nix-store",
-        "pc:nix-store-c",
-        "pc:nix-store-test-support",
-        "pc:nix-util",
-        "pc:nix-util-c",
-        "pc:nix-util-test-support",
         "pc:nlohmann_json>=3.9",
         "pc:rapidcheck",
         "pc:sqlite3>=3.6.19",
         "pkgconfig"
       ],
       "provides": [
-        "pc:nix-cmd=2.31.2",
-        "pc:nix-expr-c=2.31.2",
-        "pc:nix-expr-test-support=2.31.2",
-        "pc:nix-expr=2.31.2",
-        "pc:nix-fetchers-c=2.31.2",
-        "pc:nix-fetchers=2.31.2",
-        "pc:nix-flake-c=2.31.2",
-        "pc:nix-flake=2.31.2",
-        "pc:nix-main-c=2.31.2",
-        "pc:nix-main=2.31.2",
-        "pc:nix-store-c=2.31.2",
-        "pc:nix-store-test-support=2.31.2",
-        "pc:nix-store=2.31.2",
-        "pc:nix-util-c=2.31.2",
-        "pc:nix-util-test-support=2.31.2",
-        "pc:nix-util=2.31.2"
+        "pc:nix-cmd=2.31.5",
+        "pc:nix-expr-c=2.31.5",
+        "pc:nix-expr-test-support=2.31.5",
+        "pc:nix-expr=2.31.5",
+        "pc:nix-fetchers-c=2.31.5",
+        "pc:nix-fetchers=2.31.5",
+        "pc:nix-flake-c=2.31.5",
+        "pc:nix-flake=2.31.5",
+        "pc:nix-main-c=2.31.5",
+        "pc:nix-main=2.31.5",
+        "pc:nix-store-c=2.31.5",
+        "pc:nix-store-test-support=2.31.5",
+        "pc:nix-store=2.31.5",
+        "pc:nix-util-c=2.31.5",
+        "pc:nix-util-test-support=2.31.5",
+        "pc:nix-util=2.31.5"
       ]
     },
     "nix-doc": {
       "origin": "nix",
       "versions": {
-        "2.31.2-r0": 1759278931
+        "2.31.2-r0": 1759278931,
+        "2.31.5-r0": 1779499334
       }
     },
     "nix-fish-completion": {
       "origin": "nix",
       "versions": {
-        "2.31.2-r0": 1759278931
+        "2.31.2-r0": 1759278931,
+        "2.31.5-r0": 1779499334
       }
     },
     "nix-manual": {
       "origin": "nix",
       "versions": {
-        "2.31.2-r0": 1759278931
+        "2.31.2-r0": 1759278931,
+        "2.31.5-r0": 1779499334
       },
       "dependencies": [
         "ca-certificates"
@@ -168477,13 +168471,15 @@
     "nix-openrc": {
       "origin": "nix",
       "versions": {
-        "2.31.2-r0": 1759278931
+        "2.31.2-r0": 1759278931,
+        "2.31.5-r0": 1779499334
       }
     },
     "nix-zsh-completion": {
       "origin": "nix",
       "versions": {
-        "2.31.2-r0": 1759278931
+        "2.31.2-r0": 1759278931,
+        "2.31.5-r0": 1779499334
       }
     },
     "njs": {
@@ -202661,10 +202657,11 @@
     "perl-nix": {
       "origin": "nix",
       "versions": {
-        "2.31.2-r0": 1759278931
+        "2.31.2-r0": 1759278931,
+        "2.31.5-r0": 1779499334
       },
       "dependencies": [
-        "nix=2.31.2-r0",
+        "nix=2.31.5-r0",
         "perl",
         "so:libc.musl-x86_64.so.1",
         "so:libgcc_s.so.1",
