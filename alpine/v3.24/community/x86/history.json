@@ -75599,7 +75599,8 @@
     "gvm-libs": {
       "origin": "gvm-libs",
       "versions": {
-        "22.41.0-r0": 1777984331
+        "22.41.0-r0": 1777984331,
+        "23.1.2-r0": 1779553477
       },
       "dependencies": [
         "/bin/sh",
@@ -75624,27 +75625,28 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libgvm_agent_controller.so.22=22.41.0",
-        "so:libgvm_base.so.22=22.41.0",
-        "so:libgvm_boreas.so.22=22.41.0",
-        "so:libgvm_container_image_scanner.so.22=22.41.0",
-        "so:libgvm_cyberark.so.22=22.41.0",
-        "so:libgvm_gmp.so.22=22.41.0",
-        "so:libgvm_http.so.22=22.41.0",
-        "so:libgvm_http_scanner.so.22=22.41.0",
-        "so:libgvm_openvasd.so.22=22.41.0",
-        "so:libgvm_osp.so.22=22.41.0",
-        "so:libgvm_security_intelligence.so.22=22.41.0",
-        "so:libgvm_util.so.22=22.41.0"
+        "so:libgvm_agent_controller.so.23=23.1.2",
+        "so:libgvm_base.so.23=23.1.2",
+        "so:libgvm_boreas.so.23=23.1.2",
+        "so:libgvm_container_image_scanner.so.23=23.1.2",
+        "so:libgvm_cyberark.so.23=23.1.2",
+        "so:libgvm_gmp.so.23=23.1.2",
+        "so:libgvm_http.so.23=23.1.2",
+        "so:libgvm_http_scanner.so.23=23.1.2",
+        "so:libgvm_openvasd.so.23=23.1.2",
+        "so:libgvm_osp.so.23=23.1.2",
+        "so:libgvm_security_intelligence.so.23=23.1.2",
+        "so:libgvm_util.so.23=23.1.2"
       ]
     },
     "gvm-libs-dev": {
       "origin": "gvm-libs",
       "versions": {
-        "22.41.0-r0": 1777984331
+        "22.41.0-r0": 1777984331,
+        "23.1.2-r0": 1779553477
       },
       "dependencies": [
-        "gvm-libs=22.41.0-r0",
+        "gvm-libs=23.1.2-r0",
         "pc:gio-2.0>=2.42.1",
         "pc:glib-2.0>=2.42.0",
         "pc:glib-2.0>=2.42.1",
@@ -75654,30 +75656,32 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:libgvm_agent_controller=22.41.0",
-        "pc:libgvm_base=22.41.0",
-        "pc:libgvm_boreas=22.41.0",
-        "pc:libgvm_container_image_scanner=22.41.0",
-        "pc:libgvm_cyberark=22.41.0",
-        "pc:libgvm_gmp=22.41.0",
-        "pc:libgvm_http=22.41.0",
-        "pc:libgvm_http_scanner=22.41.0",
-        "pc:libgvm_openvasd=22.41.0",
-        "pc:libgvm_osp=22.41.0",
-        "pc:libgvm_security_intelligence=22.41.0",
-        "pc:libgvm_util=22.41.0"
+        "pc:libgvm_agent_controller=23.1.2",
+        "pc:libgvm_base=23.1.2",
+        "pc:libgvm_boreas=23.1.2",
+        "pc:libgvm_container_image_scanner=23.1.2",
+        "pc:libgvm_cyberark=23.1.2",
+        "pc:libgvm_gmp=23.1.2",
+        "pc:libgvm_http=23.1.2",
+        "pc:libgvm_http_scanner=23.1.2",
+        "pc:libgvm_openvasd=23.1.2",
+        "pc:libgvm_osp=23.1.2",
+        "pc:libgvm_security_intelligence=23.1.2",
+        "pc:libgvm_util=23.1.2"
       ]
     },
     "gvm-libs-doc": {
       "origin": "gvm-libs",
       "versions": {
-        "22.41.0-r0": 1777984331
+        "22.41.0-r0": 1777984331,
+        "23.1.2-r0": 1779553477
       }
     },
     "gvm-tools": {
       "origin": "gvm-tools",
       "versions": {
-        "26.0.2-r0": 1777992072
+        "26.0.2-r0": 1777992072,
+        "26.0.4-r0": 1779553477
       },
       "dependencies": [
         "python3",
@@ -75686,16 +75690,17 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:gvm-cli=26.0.2-r0",
-        "cmd:gvm-pyshell=26.0.2-r0",
-        "cmd:gvm-script=26.0.2-r0",
-        "py3.14:gvmtools=26.0.2-r0"
+        "cmd:gvm-cli=26.0.4-r0",
+        "cmd:gvm-pyshell=26.0.4-r0",
+        "cmd:gvm-script=26.0.4-r0",
+        "py3.14:gvmtools=26.0.4-r0"
       ]
     },
     "gvm-tools-pyc": {
       "origin": "gvm-tools",
       "versions": {
-        "26.0.2-r0": 1777992072
+        "26.0.2-r0": 1777992072,
+        "26.0.4-r0": 1779553477
       },
       "dependencies": [
         "python3~3.14"
@@ -75704,7 +75709,8 @@
     "gvmd": {
       "origin": "gvmd",
       "versions": {
-        "26.24.0-r0": 1777992039
+        "26.24.0-r0": 1777992039,
+        "26.28.0-r0": 1779553477
       },
       "dependencies": [
         "rsync",
@@ -75724,35 +75730,38 @@
         "so:libglib-2.0.so.0",
         "so:libgnutls.so.30",
         "so:libgpgme.so.45",
-        "so:libgvm_base.so.22",
-        "so:libgvm_gmp.so.22",
-        "so:libgvm_osp.so.22",
-        "so:libgvm_util.so.22",
+        "so:libgvm_base.so.23",
+        "so:libgvm_gmp.so.23",
+        "so:libgvm_osp.so.23",
+        "so:libgvm_util.so.23",
         "so:libical.so.3",
         "so:libpq.so.5"
       ],
       "provides": [
-        "cmd:gvm-manage-certs=26.24.0-r0",
-        "cmd:gvmd=26.24.0-r0",
-        "so:libgvm-pg-server.so.26=26.24.0"
+        "cmd:gvm-manage-certs=26.28.0-r0",
+        "cmd:gvmd=26.28.0-r0",
+        "so:libgvm-pg-server.so.26=26.28.0"
       ]
     },
     "gvmd-doc": {
       "origin": "gvmd",
       "versions": {
-        "26.24.0-r0": 1777992039
+        "26.24.0-r0": 1777992039,
+        "26.28.0-r0": 1779553477
       }
     },
     "gvmd-openrc": {
       "origin": "gvmd",
       "versions": {
-        "26.24.0-r0": 1777992039
+        "26.24.0-r0": 1777992039,
+        "26.28.0-r0": 1779553477
       }
     },
     "gvmd-systemd": {
       "origin": "gvmd",
       "versions": {
-        "26.24.0-r0": 1777992039
+        "26.24.0-r0": 1777992039,
+        "26.28.0-r0": 1779553477
       }
     },
     "gvncviewer": {
@@ -171533,7 +171542,8 @@
       "origin": "openvas-scanner",
       "versions": {
         "23.44.0-r1": 1777984331,
-        "23.45.2-r0": 1778758800
+        "23.45.2-r0": 1778758800,
+        "23.45.5-r0": 1779553477
       },
       "dependencies": [
         "redis",
@@ -171554,9 +171564,9 @@
         "so:libgpg-error.so.0",
         "so:libgpgme.so.45",
         "so:libgssapi_krb5.so.2",
-        "so:libgvm_base.so.22",
-        "so:libgvm_boreas.so.22",
-        "so:libgvm_util.so.22",
+        "so:libgvm_base.so.23",
+        "so:libgvm_boreas.so.23",
+        "so:libgvm_util.so.23",
         "so:libjson-glib-1.0.so.0",
         "so:libksba.so.8",
         "so:libmagic.so.1",
@@ -171565,18 +171575,19 @@
         "so:libssh.so.4"
       ],
       "provides": [
-        "cmd:openvas-nasl-lint=23.45.2-r0",
-        "cmd:openvas-nasl=23.45.2-r0",
-        "cmd:openvas=23.45.2-r0",
-        "so:libopenvas_misc.so.23=23.45.2",
-        "so:libopenvas_nasl.so.23=23.45.2"
+        "cmd:openvas-nasl-lint=23.45.5-r0",
+        "cmd:openvas-nasl=23.45.5-r0",
+        "cmd:openvas=23.45.5-r0",
+        "so:libopenvas_misc.so.23=23.45.5",
+        "so:libopenvas_nasl.so.23=23.45.5"
       ]
     },
     "openvas-scanner-config": {
       "origin": "openvas-scanner",
       "versions": {
         "23.44.0-r1": 1777984331,
-        "23.45.2-r0": 1778758800
+        "23.45.2-r0": 1778758800,
+        "23.45.5-r0": 1779553477
       },
       "dependencies": [
         "redis",
@@ -171591,13 +171602,15 @@
       "origin": "openvas-scanner",
       "versions": {
         "23.44.0-r1": 1777984331,
-        "23.45.2-r0": 1778758800
+        "23.45.2-r0": 1778758800,
+        "23.45.5-r0": 1779553477
       }
     },
     "openvas-smb": {
       "origin": "openvas-smb",
       "versions": {
-        "22.5.10-r0": 1763633651
+        "22.5.10-r0": 1763633651,
+        "22.5.10-r1": 1779553477
       },
       "dependencies": [
         "so:libasn1.so.8",
@@ -171611,17 +171624,18 @@
         "so:libroken.so.18"
       ],
       "provides": [
-        "cmd:wmic=22.5.10-r0",
+        "cmd:wmic=22.5.10-r1",
         "so:libopenvas_wmiclient.so.22=22.5.10"
       ]
     },
     "openvas-smb-dev": {
       "origin": "openvas-smb",
       "versions": {
-        "22.5.10-r0": 1763633651
+        "22.5.10-r0": 1763633651,
+        "22.5.10-r1": 1779553477
       },
       "dependencies": [
-        "openvas-smb=22.5.10-r0",
+        "openvas-smb=22.5.10-r1",
         "pkgconfig"
       ],
       "provides": [
@@ -171631,7 +171645,8 @@
     "openvas-smb-doc": {
       "origin": "openvas-smb",
       "versions": {
-        "22.5.10-r0": 1763633651
+        "22.5.10-r0": 1763633651,
+        "22.5.10-r1": 1779553477
       }
     },
     "openvi": {
@@ -187154,11 +187169,12 @@
     "pg-gvm": {
       "origin": "pg-gvm",
       "versions": {
-        "22.6.17-r0": 1775599894
+        "22.6.17-r0": 1775599894,
+        "22.6.17-r1": 1779553477
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
-        "so:libgvm_base.so.22",
+        "so:libgvm_base.so.23",
         "so:libical.so.3"
       ]
     },
@@ -301725,7 +301741,7 @@
       },
       "libgvm-pg-server.so.26": {
         "package": "gvmd",
-        "version": "26.24.0"
+        "version": "26.28.0"
       },
       "libgwengui-cpp.so.79": {
         "package": "gwenhywfar",
@@ -309185,11 +309201,11 @@
       },
       "libopenvas_misc.so.23": {
         "package": "openvas-scanner",
-        "version": "23.45.2"
+        "version": "23.45.5"
       },
       "libopenvas_nasl.so.23": {
         "package": "openvas-scanner",
-        "version": "23.45.2"
+        "version": "23.45.5"
       },
       "libopenvas_wmiclient.so.22": {
         "package": "openvas-smb",
@@ -314010,6 +314026,54 @@
       "libcob.so.4": {
         "package": "libcob4",
         "version": "4.2.0"
+      },
+      "libgvm_agent_controller.so.23": {
+        "package": "gvm-libs",
+        "version": "23.1.2"
+      },
+      "libgvm_base.so.23": {
+        "package": "gvm-libs",
+        "version": "23.1.2"
+      },
+      "libgvm_boreas.so.23": {
+        "package": "gvm-libs",
+        "version": "23.1.2"
+      },
+      "libgvm_container_image_scanner.so.23": {
+        "package": "gvm-libs",
+        "version": "23.1.2"
+      },
+      "libgvm_cyberark.so.23": {
+        "package": "gvm-libs",
+        "version": "23.1.2"
+      },
+      "libgvm_gmp.so.23": {
+        "package": "gvm-libs",
+        "version": "23.1.2"
+      },
+      "libgvm_http.so.23": {
+        "package": "gvm-libs",
+        "version": "23.1.2"
+      },
+      "libgvm_http_scanner.so.23": {
+        "package": "gvm-libs",
+        "version": "23.1.2"
+      },
+      "libgvm_openvasd.so.23": {
+        "package": "gvm-libs",
+        "version": "23.1.2"
+      },
+      "libgvm_osp.so.23": {
+        "package": "gvm-libs",
+        "version": "23.1.2"
+      },
+      "libgvm_security_intelligence.so.23": {
+        "package": "gvm-libs",
+        "version": "23.1.2"
+      },
+      "libgvm_util.so.23": {
+        "package": "gvm-libs",
+        "version": "23.1.2"
       }
     },
     "package": {
