@@ -21067,7 +21067,8 @@
     "cargo-credential-oo7": {
       "origin": "oo7",
       "versions": {
-        "0.6.0-r3": 1778084572
+        "0.6.0-r3": 1778084572,
+        "0.6.0-r4": 1779544423
       },
       "dependencies": [
         "cargo",
@@ -21075,7 +21076,7 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:cargo-credential-oo7=0.6.0-r3"
+        "cmd:cargo-credential-oo7=0.6.0-r4"
       ]
     },
     "cargo-cyclonedx": {
@@ -124175,14 +124176,15 @@
         "7.0.6-r0": 1778490241,
         "7.0.7-r0": 1778766697,
         "7.0.8-r0": 1778930167,
-        "7.0.9-r0": 1779033522
+        "7.0.9-r0": 1779033522,
+        "7.0.10-r0": 1779537019
       },
       "dependencies": [
         "initramfs-generator",
         "linux-firmware-any"
       ],
       "provides": [
-        "linux-edge=7.0.9-r0"
+        "linux-edge=7.0.10-r0"
       ]
     },
     "linux-stable-dev": {
@@ -124191,7 +124193,8 @@
         "7.0.6-r0": 1778490241,
         "7.0.7-r0": 1778766697,
         "7.0.8-r0": 1778930167,
-        "7.0.9-r0": 1779033522
+        "7.0.9-r0": 1779033522,
+        "7.0.10-r0": 1779537019
       },
       "dependencies": [
         "perl",
@@ -124217,7 +124220,8 @@
         "7.0.6-r0": 1778490241,
         "7.0.7-r0": 1778766697,
         "7.0.8-r0": 1778930167,
-        "7.0.9-r0": 1779033522
+        "7.0.9-r0": 1779033522,
+        "7.0.10-r0": 1779537019
       }
     },
     "linuxconsoletools": {
@@ -167922,9 +167926,11 @@
     "oo7": {
       "origin": "oo7",
       "versions": {
-        "0.6.0-r3": 1778084572
+        "0.6.0-r3": 1778084572,
+        "0.6.0-r4": 1779544423
       },
       "dependencies": [
+        "oo7-cli",
         "oo7-pam",
         "oo7-portal",
         "oo7-server"
@@ -167933,26 +167939,29 @@
     "oo7-cli": {
       "origin": "oo7",
       "versions": {
-        "0.6.0-r3": 1778084572
+        "0.6.0-r3": 1778084572,
+        "0.6.0-r4": 1779544423
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:oo7-cli=0.6.0-r3"
+        "cmd:oo7-cli=0.6.0-r4"
       ]
     },
     "oo7-doc": {
       "origin": "oo7",
       "versions": {
-        "0.6.0-r3": 1778084572
+        "0.6.0-r3": 1778084572,
+        "0.6.0-r4": 1779544423
       }
     },
     "oo7-pam": {
       "origin": "oo7",
       "versions": {
-        "0.6.0-r3": 1778084572
+        "0.6.0-r3": 1778084572,
+        "0.6.0-r4": 1779544423
       },
       "dependencies": [
         "oo7-server",
@@ -167963,7 +167972,8 @@
     "oo7-portal": {
       "origin": "oo7",
       "versions": {
-        "0.6.0-r3": 1778084572
+        "0.6.0-r3": 1778084572,
+        "0.6.0-r4": 1779544423
       },
       "dependencies": [
         "dbus",
@@ -167974,9 +167984,11 @@
     "oo7-portal-openrc": {
       "origin": "oo7",
       "versions": {
-        "0.6.0-r3": 1778084572
+        "0.6.0-r3": 1778084572,
+        "0.6.0-r4": 1779544423
       },
       "dependencies": [
+        "oo7-cli",
         "oo7-pam",
         "oo7-portal",
         "oo7-server"
@@ -167985,9 +167997,11 @@
     "oo7-portal-systemd": {
       "origin": "oo7",
       "versions": {
-        "0.6.0-r3": 1778084572
+        "0.6.0-r3": 1778084572,
+        "0.6.0-r4": 1779544423
       },
       "dependencies": [
+        "oo7-cli",
         "oo7-pam",
         "oo7-portal",
         "oo7-server"
@@ -167996,20 +168010,26 @@
     "oo7-server": {
       "origin": "oo7",
       "versions": {
-        "0.6.0-r3": 1778084572
+        "0.6.0-r3": 1778084572,
+        "0.6.0-r4": 1779544423
       },
       "dependencies": [
         "dbus",
         "so:libc.musl-x86.so.1",
         "so:libgcc_s.so.1"
+      ],
+      "provides": [
+        "dbus:org.freedesktop.Secrets"
       ]
     },
     "oo7-server-openrc": {
       "origin": "oo7",
       "versions": {
-        "0.6.0-r3": 1778084572
+        "0.6.0-r3": 1778084572,
+        "0.6.0-r4": 1779544423
       },
       "dependencies": [
+        "oo7-cli",
         "oo7-pam",
         "oo7-portal",
         "oo7-server"
@@ -168018,9 +168038,11 @@
     "oo7-server-systemd": {
       "origin": "oo7",
       "versions": {
-        "0.6.0-r3": 1778084572
+        "0.6.0-r3": 1778084572,
+        "0.6.0-r4": 1779544423
       },
       "dependencies": [
+        "oo7-cli",
         "oo7-pam",
         "oo7-portal",
         "oo7-server"
@@ -291016,10 +291038,11 @@
         "7.0.6-r0": 1778490241,
         "7.0.7-r0": 1778766708,
         "7.0.8-r0": 1778930167,
-        "7.0.9-r0": 1779033522
+        "7.0.9-r0": 1779033522,
+        "7.0.10-r0": 1779537020
       },
       "dependencies": [
-        "linux-stable=7.0.9-r0"
+        "linux-stable=7.0.10-r0"
       ]
     },
     "zfs-stable-dev": {
@@ -291028,14 +291051,15 @@
         "7.0.6-r0": 1778490241,
         "7.0.7-r0": 1778766708,
         "7.0.8-r0": 1778930167,
-        "7.0.9-r0": 1779033522
+        "7.0.9-r0": 1779033522,
+        "7.0.10-r0": 1779537020
       },
       "dependencies": [
         "glib-dev",
         "e2fsprogs-dev",
         "util-linux-dev",
         "libtirpc-dev",
-        "linux-stable-dev=7.0.9-r0"
+        "linux-stable-dev=7.0.10-r0"
       ]
     },
     "zigbee2mqtt": {
@@ -314550,7 +314574,7 @@
       },
       "linux-edge": {
         "package": "linux-stable",
-        "version": "7.0.9-r0"
+        "version": "7.0.10-r0"
       },
       "lit": {
         "package": "llvm16-test-utils",
