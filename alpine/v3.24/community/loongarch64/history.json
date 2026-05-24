@@ -17879,27 +17879,31 @@
     "blazesym": {
       "origin": "blazesym",
       "versions": {
-        "0.1.1-r0": 1749124784
+        "0.1.1-r0": 1749124784,
+        "0.1.7-r0": 1779643180
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
-        "so:libgcc_s.so.1"
+        "so:libgcc_s.so.1",
+        "so:liblzma.so.5"
       ],
       "provides": [
-        "cmd:blazecli=0.1.1-r0",
+        "cmd:blazecli=0.1.7-r0",
         "so:libblazesym_c.so=0"
       ]
     },
     "blazesym-dev": {
       "origin": "blazesym",
       "versions": {
-        "0.1.1-r0": 1749124784
+        "0.1.1-r0": 1749124784,
+        "0.1.7-r0": 1779643180
       }
     },
     "blazesym-static": {
       "origin": "blazesym",
       "versions": {
-        "0.1.1-r0": 1749124784
+        "0.1.1-r0": 1749124784,
+        "0.1.7-r0": 1779643180
       },
       "dependencies": [
         "blazesym-dev"
@@ -24662,7 +24666,8 @@
     "cesnet-telemetry": {
       "origin": "cesnet-telemetry",
       "versions": {
-        "1.1.0-r1": 1750320741
+        "1.1.0-r1": 1750320741,
+        "1.4.0-r0": 1779642505
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -24678,10 +24683,11 @@
     "cesnet-telemetry-dev": {
       "origin": "cesnet-telemetry",
       "versions": {
-        "1.1.0-r1": 1750320741
+        "1.1.0-r1": 1750320741,
+        "1.4.0-r0": 1779642505
       },
       "dependencies": [
-        "cesnet-telemetry=1.1.0-r1",
+        "cesnet-telemetry=1.4.0-r0",
         "fuse3-dev"
       ]
     },
@@ -25217,7 +25223,8 @@
     "chawan": {
       "origin": "chawan",
       "versions": {
-        "0.4.0-r0": 1779122206
+        "0.4.0-r0": 1779122206,
+        "0.4.1-r0": 1779644582
       },
       "dependencies": [
         "so:libbrotlidec.so.1",
@@ -25227,14 +25234,15 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:cha=0.4.0-r0",
-        "cmd:mancha=0.4.0-r0"
+        "cmd:cha=0.4.1-r0",
+        "cmd:mancha=0.4.1-r0"
       ]
     },
     "chawan-doc": {
       "origin": "chawan",
       "versions": {
-        "0.4.0-r0": 1779122206
+        "0.4.0-r0": 1779122206,
+        "0.4.1-r0": 1779644582
       }
     },
     "chayang": {
@@ -87881,24 +87889,28 @@
     "ipfixprobe": {
       "origin": "ipfixprobe",
       "versions": {
-        "4.16.0-r0": 1745855462
+        "4.16.0-r0": 1745855462,
+        "5.6.0-r0": 1779642505
       },
       "dependencies": [
+        "py3-jsonschema",
+        "py3-pyaml",
+        "python3",
         "/bin/sh",
-        "so:libappFs.so",
         "so:libatomic.so.1",
         "so:libc.musl-loongarch64.so.1",
         "so:libcrypto.so.3",
+        "so:libfuse3.so.4",
         "so:libgcc_s.so.1",
         "so:liblz4.so.1",
-        "so:libpcap.so.1",
         "so:libstdc++.so.6",
-        "so:libtelemetry.so"
+        "so:libunwind.so.8"
       ],
       "provides": [
-        "cmd:ipfixprobe=4.16.0-r0",
-        "cmd:ipfixprobe_stats=4.16.0-r0",
-        "cmd:ipfixprobed=4.16.0-r0"
+        "cmd:ipfixprobe=5.6.0-r0",
+        "cmd:ipfixprobed=5.6.0-r0",
+        "so:libipfixprobe-output-ipfix.so=0",
+        "so:libipfixprobe-output-text.so=0"
       ]
     },
     "ipfixprobe-bash-completion": {
@@ -87916,7 +87928,8 @@
     "ipfixprobe-openrc": {
       "origin": "ipfixprobe",
       "versions": {
-        "4.16.0-r0": 1745855462
+        "4.16.0-r0": 1745855462,
+        "5.6.0-r0": 1779642505
       }
     },
     "ipmitool": {
@@ -89745,10 +89758,11 @@
     "jool-modules-lts": {
       "origin": "jool-modules-lts",
       "versions": {
-        "6.18.32-r1": 1779099374
+        "6.18.32-r1": 1779099374,
+        "6.18.33-r0": 1779643356
       },
       "dependencies": [
-        "linux-lts=6.18.32-r1"
+        "linux-lts=6.18.33-r0"
       ]
     },
     "jool-tools": {
@@ -192928,20 +192942,22 @@
     "py3-cachetools": {
       "origin": "py3-cachetools",
       "versions": {
-        "5.5.2-r1": 1774640360
+        "5.5.2-r1": 1774640360,
+        "7.1.4-r0": 1779642847
       },
       "dependencies": [
         "python3",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:cachetools=5.5.2-r1"
+        "py3.14:cachetools=7.1.4-r0"
       ]
     },
     "py3-cachetools-pyc": {
       "origin": "py3-cachetools",
       "versions": {
-        "5.5.2-r1": 1774640360
+        "5.5.2-r1": 1774640360,
+        "7.1.4-r0": 1779642847
       },
       "dependencies": [
         "python3~3.14"
@@ -238853,7 +238869,8 @@
     "rtpengine-lts": {
       "origin": "rtpengine-lts",
       "versions": {
-        "6.18.32-r1": 1779099374
+        "6.18.32-r1": 1779099374,
+        "6.18.33-r0": 1779643356
       }
     },
     "rtpengine-openrc": {
@@ -239790,11 +239807,12 @@
     "ruby-rspec-expectations": {
       "origin": "ruby-rspec-expectations",
       "versions": {
-        "3.13.5-r0": 1779616111
+        "3.13.5-r0": 1779616111,
+        "3.13.5-r1": 1779640890
       },
       "dependencies": [
         "ruby",
-        "ruby-diff-lcs",
+        "ruby-diff-lcs~1",
         "ruby-rspec-support~3.13"
       ]
     },
@@ -268388,7 +268406,8 @@
     "wasm-bindgen": {
       "origin": "wasm-bindgen",
       "versions": {
-        "0.2.118-r0": 1776626443
+        "0.2.118-r0": 1776626443,
+        "0.2.122-r0": 1779643291
       },
       "dependencies": [
         "cargo",
@@ -268398,9 +268417,9 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:wasm-bindgen-test-runner=0.2.118-r0",
-        "cmd:wasm-bindgen=0.2.118-r0",
-        "cmd:wasm2es6js=0.2.118-r0"
+        "cmd:wasm-bindgen-test-runner=0.2.122-r0",
+        "cmd:wasm-bindgen=0.2.122-r0",
+        "cmd:wasm2es6js=0.2.122-r0"
       ]
     },
     "wasm-pack": {
@@ -281951,6 +281970,32 @@
       "versions": {
         "0.2.0-r0": 1723734253
       }
+    },
+    "ipfixprobe-input-pcap": {
+      "origin": "ipfixprobe",
+      "versions": {
+        "5.6.0-r0": 1779642505
+      },
+      "dependencies": [
+        "ipfixprobe=5.6.0-r0",
+        "so:libc.musl-loongarch64.so.1",
+        "so:libgcc_s.so.1",
+        "so:libpcap.so.1",
+        "so:libstdc++.so.6"
+      ]
+    },
+    "ipfixprobe-process-experimental": {
+      "origin": "ipfixprobe",
+      "versions": {
+        "5.6.0-r0": 1779642505
+      },
+      "dependencies": [
+        "ipfixprobe=5.6.0-r0",
+        "so:libc.musl-loongarch64.so.1",
+        "so:libgcc_s.so.1",
+        "so:libstdc++.so.6",
+        "so:libunwind.so.8"
+      ]
     }
   },
   "provide": {
@@ -305722,6 +305767,14 @@
       "libzzipmmapped.so.13": {
         "package": "zziplib",
         "version": "13.0.80"
+      },
+      "libipfixprobe-output-ipfix.so": {
+        "package": "ipfixprobe",
+        "version": "0"
+      },
+      "libipfixprobe-output-text.so": {
+        "package": "ipfixprobe",
+        "version": "0"
       }
     },
     "package": {

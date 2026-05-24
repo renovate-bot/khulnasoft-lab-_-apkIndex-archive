@@ -17301,27 +17301,31 @@
     "blazesym": {
       "origin": "blazesym",
       "versions": {
-        "0.1.1-r0": 1749124784
+        "0.1.1-r0": 1749124784,
+        "0.1.7-r0": 1779643180
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
-        "so:libgcc_s.so.1"
+        "so:libgcc_s.so.1",
+        "so:liblzma.so.5"
       ],
       "provides": [
-        "cmd:blazecli=0.1.1-r0",
+        "cmd:blazecli=0.1.7-r0",
         "so:libblazesym_c.so=0"
       ]
     },
     "blazesym-dev": {
       "origin": "blazesym",
       "versions": {
-        "0.1.1-r0": 1749124784
+        "0.1.1-r0": 1749124784,
+        "0.1.7-r0": 1779643180
       }
     },
     "blazesym-static": {
       "origin": "blazesym",
       "versions": {
-        "0.1.1-r0": 1749124784
+        "0.1.1-r0": 1749124784,
+        "0.1.7-r0": 1779643180
       },
       "dependencies": [
         "blazesym-dev"
@@ -22766,7 +22770,8 @@
     "cesnet-telemetry": {
       "origin": "cesnet-telemetry",
       "versions": {
-        "1.1.0-r1": 1750320741
+        "1.1.0-r1": 1750320741,
+        "1.4.0-r0": 1779642505
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -22782,10 +22787,11 @@
     "cesnet-telemetry-dev": {
       "origin": "cesnet-telemetry",
       "versions": {
-        "1.1.0-r1": 1750320741
+        "1.1.0-r1": 1750320741,
+        "1.4.0-r0": 1779642505
       },
       "dependencies": [
-        "cesnet-telemetry=1.1.0-r1",
+        "cesnet-telemetry=1.4.0-r0",
         "fuse3-dev"
       ]
     },
@@ -205285,20 +205291,22 @@
     "py3-cachetools": {
       "origin": "py3-cachetools",
       "versions": {
-        "5.5.2-r1": 1774640360
+        "5.5.2-r1": 1774640360,
+        "7.1.4-r0": 1779642847
       },
       "dependencies": [
         "python3",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:cachetools=5.5.2-r1"
+        "py3.14:cachetools=7.1.4-r0"
       ]
     },
     "py3-cachetools-pyc": {
       "origin": "py3-cachetools",
       "versions": {
-        "5.5.2-r1": 1774640360
+        "5.5.2-r1": 1774640360,
+        "7.1.4-r0": 1779642847
       },
       "dependencies": [
         "python3~3.14"
@@ -249696,11 +249704,12 @@
       "origin": "ruby-rspec-expectations",
       "versions": {
         "3.13.4-r0": 1746482815,
-        "3.13.5-r0": 1779616111
+        "3.13.5-r0": 1779616111,
+        "3.13.5-r1": 1779640890
       },
       "dependencies": [
         "ruby",
-        "ruby-diff-lcs",
+        "ruby-diff-lcs~1",
         "ruby-rspec-support~3.13"
       ]
     },

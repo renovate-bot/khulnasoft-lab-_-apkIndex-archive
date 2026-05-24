@@ -7471,7 +7471,8 @@
       "origin": "aws-crt-cpp",
       "versions": {
         "0.38.7-r0": 1778323007,
-        "0.39.0-r0": 1779530330
+        "0.39.0-r0": 1779530330,
+        "0.39.1-r0": 1779616302
       },
       "dependencies": [
         "so:libaws-c-auth.so.1.0.0",
@@ -7496,10 +7497,11 @@
       "origin": "aws-crt-cpp",
       "versions": {
         "0.38.7-r0": 1778323007,
-        "0.39.0-r0": 1779530330
+        "0.39.0-r0": 1779530330,
+        "0.39.1-r0": 1779616302
       },
       "dependencies": [
-        "aws-crt-cpp=0.39.0-r0",
+        "aws-crt-cpp=0.39.1-r0",
         "aws-c-auth-dev",
         "aws-c-cal-dev",
         "aws-c-common-dev",
@@ -17793,27 +17795,31 @@
     "blazesym": {
       "origin": "blazesym",
       "versions": {
-        "0.1.1-r0": 1749124784
+        "0.1.1-r0": 1749124784,
+        "0.1.7-r0": 1779643180
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
-        "so:libgcc_s.so.1"
+        "so:libgcc_s.so.1",
+        "so:liblzma.so.5"
       ],
       "provides": [
-        "cmd:blazecli=0.1.1-r0",
+        "cmd:blazecli=0.1.7-r0",
         "so:libblazesym_c.so=0"
       ]
     },
     "blazesym-dev": {
       "origin": "blazesym",
       "versions": {
-        "0.1.1-r0": 1749124784
+        "0.1.1-r0": 1749124784,
+        "0.1.7-r0": 1779643180
       }
     },
     "blazesym-static": {
       "origin": "blazesym",
       "versions": {
-        "0.1.1-r0": 1749124784
+        "0.1.1-r0": 1749124784,
+        "0.1.7-r0": 1779643180
       },
       "dependencies": [
         "blazesym-dev"
@@ -23216,7 +23222,8 @@
     "cesnet-telemetry": {
       "origin": "cesnet-telemetry",
       "versions": {
-        "1.1.0-r1": 1750320741
+        "1.1.0-r1": 1750320741,
+        "1.4.0-r0": 1779642505
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -23232,10 +23239,11 @@
     "cesnet-telemetry-dev": {
       "origin": "cesnet-telemetry",
       "versions": {
-        "1.1.0-r1": 1750320741
+        "1.1.0-r1": 1750320741,
+        "1.4.0-r0": 1779642505
       },
       "dependencies": [
-        "cesnet-telemetry=1.1.0-r1",
+        "cesnet-telemetry=1.4.0-r0",
         "fuse3-dev"
       ]
     },
@@ -24175,7 +24183,8 @@
     "chawan": {
       "origin": "chawan",
       "versions": {
-        "0.4.0-r0": 1779122206
+        "0.4.0-r0": 1779122206,
+        "0.4.1-r0": 1779644582
       },
       "dependencies": [
         "so:libbrotlidec.so.1",
@@ -24185,14 +24194,15 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:cha=0.4.0-r0",
-        "cmd:mancha=0.4.0-r0"
+        "cmd:cha=0.4.1-r0",
+        "cmd:mancha=0.4.1-r0"
       ]
     },
     "chawan-doc": {
       "origin": "chawan",
       "versions": {
-        "0.4.0-r0": 1779122206
+        "0.4.0-r0": 1779122206,
+        "0.4.1-r0": 1779644582
       }
     },
     "chayang": {
@@ -34848,7 +34858,8 @@
     "dnscrypt-proxy": {
       "origin": "dnscrypt-proxy",
       "versions": {
-        "2.1.15-r5": 1778661427
+        "2.1.15-r5": 1778661427,
+        "2.1.16-r0": 1779619316
       },
       "dependencies": [
         "ca-certificates",
@@ -34856,33 +34867,36 @@
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:dnscrypt-proxy=2.1.15-r5"
+        "cmd:dnscrypt-proxy=2.1.16-r0"
       ]
     },
     "dnscrypt-proxy-doc": {
       "origin": "dnscrypt-proxy",
       "versions": {
-        "2.1.15-r5": 1778661427
+        "2.1.15-r5": 1778661427,
+        "2.1.16-r0": 1779619316
       }
     },
     "dnscrypt-proxy-openrc": {
       "origin": "dnscrypt-proxy",
       "versions": {
-        "2.1.15-r5": 1778661427
+        "2.1.15-r5": 1778661427,
+        "2.1.16-r0": 1779619316
       }
     },
     "dnscrypt-proxy-setup": {
       "origin": "dnscrypt-proxy",
       "versions": {
-        "2.1.15-r5": 1778661427
+        "2.1.15-r5": 1778661427,
+        "2.1.16-r0": 1779619316
       },
       "dependencies": [
         "sed",
         "wget",
-        "dnscrypt-proxy=2.1.15-r5"
+        "dnscrypt-proxy=2.1.16-r0"
       ],
       "provides": [
-        "cmd:setup-dnscrypt=2.1.15-r5"
+        "cmd:setup-dnscrypt=2.1.16-r0"
       ]
     },
     "dnsdist": {
@@ -35153,7 +35167,8 @@
     "docker-cli-buildx": {
       "origin": "docker-cli-buildx",
       "versions": {
-        "0.33.0-r2": 1778661427
+        "0.33.0-r2": 1778661427,
+        "0.34.1-r0": 1779634605
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1"
@@ -71531,7 +71546,8 @@
     "greetd-regreet": {
       "origin": "greetd-regreet",
       "versions": {
-        "0.2.0-r2": 1768764494
+        "0.2.0-r2": 1768764494,
+        "0.2.0-r3": 1779619131
       },
       "dependencies": [
         "greetd",
@@ -71544,7 +71560,7 @@
         "so:libpango-1.0.so.0"
       ],
       "provides": [
-        "cmd:regreet=0.2.0-r2"
+        "cmd:regreet=0.2.0-r3"
       ]
     },
     "greetd-systemd": {
@@ -85193,10 +85209,11 @@
     "jool-modules-lts": {
       "origin": "jool-modules-lts",
       "versions": {
-        "6.18.32-r1": 1779099374
+        "6.18.32-r1": 1779099374,
+        "6.18.33-r0": 1779643356
       },
       "dependencies": [
-        "linux-lts=6.18.32-r1"
+        "linux-lts=6.18.33-r0"
       ]
     },
     "jool-modules-rpi": {
@@ -100786,7 +100803,8 @@
     "lastversion": {
       "origin": "lastversion",
       "versions": {
-        "3.6.7-r2": 1774640423
+        "3.6.7-r2": 1774640423,
+        "3.6.12-r0": 1779633125
       },
       "dependencies": [
         "py3-appdirs",
@@ -100804,14 +100822,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:lastversion=3.6.7-r2",
-        "py3.14:lastversion=3.6.7-r2"
+        "cmd:lastversion=3.6.12-r0",
+        "py3.14:lastversion=3.6.12-r0"
       ]
     },
     "lastversion-pyc": {
       "origin": "lastversion",
       "versions": {
-        "3.6.7-r2": 1774640423
+        "3.6.7-r2": 1774640423,
+        "3.6.12-r0": 1779633125
       },
       "dependencies": [
         "python3~3.14"
@@ -196632,13 +196651,15 @@
     "podman": {
       "origin": "podman",
       "versions": {
-        "5.8.2-r3": 1778661427
+        "5.8.2-r3": 1778661427,
+        "5.8.2-r4": 1779616589
       },
       "dependencies": [
         "conmon",
         "oci-runtime",
         "passt",
-        "shadow-subids",
+        "cmd:newgidmap",
+        "cmd:newuidmap",
         "containers-common",
         "netavark",
         "aardvark-dns",
@@ -196650,14 +196671,15 @@
         "so:libsqlite3.so.0"
       ],
       "provides": [
-        "cmd:podman=5.8.2-r3",
-        "cmd:podmansh=5.8.2-r3"
+        "cmd:podman=5.8.2-r4",
+        "cmd:podmansh=5.8.2-r4"
       ]
     },
     "podman-bash-completion": {
       "origin": "podman",
       "versions": {
-        "5.8.2-r3": 1778661427
+        "5.8.2-r3": 1778661427,
+        "5.8.2-r4": 1779616589
       }
     },
     "podman-compose": {
@@ -196700,13 +196722,15 @@
     "podman-doc": {
       "origin": "podman",
       "versions": {
-        "5.8.2-r3": 1778661427
+        "5.8.2-r3": 1778661427,
+        "5.8.2-r4": 1779616589
       }
     },
     "podman-docker": {
       "origin": "podman",
       "versions": {
-        "5.8.2-r3": 1778661427
+        "5.8.2-r3": 1778661427,
+        "5.8.2-r4": 1779616589
       },
       "dependencies": [
         "podman"
@@ -196714,29 +196738,32 @@
       "provides": [
         "docker",
         "docker-cli",
-        "cmd:docker=5.8.2-r3"
+        "cmd:docker=5.8.2-r4"
       ]
     },
     "podman-docker-doc": {
       "origin": "podman",
       "versions": {
-        "5.8.2-r3": 1778661427
+        "5.8.2-r3": 1778661427,
+        "5.8.2-r4": 1779616589
       },
       "dependencies": [
         "podman-doc",
-        "podman-doc=5.8.2-r3"
+        "podman-doc=5.8.2-r4"
       ]
     },
     "podman-docker-systemd": {
       "origin": "podman",
       "versions": {
-        "5.8.2-r3": 1778661427
+        "5.8.2-r3": 1778661427,
+        "5.8.2-r4": 1779616589
       },
       "dependencies": [
         "conmon",
         "oci-runtime",
         "passt",
-        "shadow-subids",
+        "cmd:newgidmap",
+        "cmd:newuidmap",
         "containers-common",
         "netavark",
         "aardvark-dns",
@@ -196746,25 +196773,29 @@
     "podman-fish-completion": {
       "origin": "podman",
       "versions": {
-        "5.8.2-r3": 1778661427
+        "5.8.2-r3": 1778661427,
+        "5.8.2-r4": 1779616589
       }
     },
     "podman-openrc": {
       "origin": "podman",
       "versions": {
-        "5.8.2-r3": 1778661427
+        "5.8.2-r3": 1778661427,
+        "5.8.2-r4": 1779616589
       }
     },
     "podman-remote": {
       "origin": "podman",
       "versions": {
-        "5.8.2-r3": 1778661427
+        "5.8.2-r3": 1778661427,
+        "5.8.2-r4": 1779616589
       },
       "dependencies": [
         "conmon",
         "oci-runtime",
         "passt",
-        "shadow-subids",
+        "cmd:newgidmap",
+        "cmd:newuidmap",
         "containers-common",
         "netavark",
         "aardvark-dns",
@@ -196772,13 +196803,14 @@
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:podman-remote=5.8.2-r3"
+        "cmd:podman-remote=5.8.2-r4"
       ]
     },
     "podman-systemd": {
       "origin": "podman",
       "versions": {
-        "5.8.2-r3": 1778661427
+        "5.8.2-r3": 1778661427,
+        "5.8.2-r4": 1779616589
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1"
@@ -196801,7 +196833,8 @@
     "podman-zsh-completion": {
       "origin": "podman",
       "versions": {
-        "5.8.2-r3": 1778661427
+        "5.8.2-r3": 1778661427,
+        "5.8.2-r4": 1779616589
       }
     },
     "podofo": {
@@ -201481,7 +201514,8 @@
       "origin": "putty",
       "versions": {
         "0.83-r2": 1771160091,
-        "0.84-r0": 1779503295
+        "0.84-r0": 1779503295,
+        "0.84-r1": 1779638903
       },
       "dependencies": [
         "ncurses-terminfo-base",
@@ -201498,21 +201532,22 @@
         "so:libpangocairo-1.0.so.0"
       ],
       "provides": [
-        "cmd:pageant=0.84-r0",
-        "cmd:plink=0.84-r0",
-        "cmd:pscp=0.84-r0",
-        "cmd:psftp=0.84-r0",
-        "cmd:psusan=0.84-r0",
-        "cmd:pterm=0.84-r0",
-        "cmd:putty=0.84-r0",
-        "cmd:puttygen=0.84-r0"
+        "cmd:pageant=0.84-r1",
+        "cmd:plink=0.84-r1",
+        "cmd:pscp=0.84-r1",
+        "cmd:psftp=0.84-r1",
+        "cmd:psusan=0.84-r1",
+        "cmd:pterm=0.84-r1",
+        "cmd:putty=0.84-r1",
+        "cmd:puttygen=0.84-r1"
       ]
     },
     "putty-doc": {
       "origin": "putty",
       "versions": {
         "0.83-r2": 1771160091,
-        "0.84-r0": 1779503295
+        "0.84-r0": 1779503295,
+        "0.84-r1": 1779638903
       }
     },
     "pv": {
@@ -204822,20 +204857,22 @@
     "py3-cachetools": {
       "origin": "py3-cachetools",
       "versions": {
-        "5.5.2-r1": 1774640360
+        "5.5.2-r1": 1774640360,
+        "7.1.4-r0": 1779642847
       },
       "dependencies": [
         "python3",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:cachetools=5.5.2-r1"
+        "py3.14:cachetools=7.1.4-r0"
       ]
     },
     "py3-cachetools-pyc": {
       "origin": "py3-cachetools",
       "versions": {
-        "5.5.2-r1": 1774640360
+        "5.5.2-r1": 1774640360,
+        "7.1.4-r0": 1779642847
       },
       "dependencies": [
         "python3~3.14"
@@ -222142,21 +222179,23 @@
     "py3-phonenumbers": {
       "origin": "py3-phonenumbers",
       "versions": {
-        "9.0.30-r0": 1778323874
+        "9.0.30-r0": 1778323874,
+        "9.0.31-r0": 1779616302
       },
       "dependencies": [
         "python3",
         "python3~3.14"
       ],
       "provides": [
-        "py-phonenumbers=9.0.30-r0",
-        "py3.14:phonenumbers=9.0.30-r0"
+        "py-phonenumbers=9.0.31-r0",
+        "py3.14:phonenumbers=9.0.31-r0"
       ]
     },
     "py3-phonenumbers-pyc": {
       "origin": "py3-phonenumbers",
       "versions": {
-        "9.0.30-r0": 1778323874
+        "9.0.30-r0": 1778323874,
+        "9.0.31-r0": 1779616302
       },
       "dependencies": [
         "python3~3.14"
@@ -248614,7 +248653,8 @@
     "rtpengine-lts": {
       "origin": "rtpengine-lts",
       "versions": {
-        "6.18.32-r1": 1779099374
+        "6.18.32-r1": 1779099374,
+        "6.18.33-r0": 1779643356
       }
     },
     "rtpengine-openrc": {
@@ -248650,10 +248690,11 @@
     "rtpengine-virt": {
       "origin": "rtpengine-lts",
       "versions": {
-        "6.18.32-r1": 1779099374
+        "6.18.32-r1": 1779099374,
+        "6.18.33-r0": 1779643356
       },
       "dependencies": [
-        "linux-virt=6.18.32-r1"
+        "linux-virt=6.18.33-r0"
       ]
     },
     "rtrlib": {
@@ -249498,7 +249539,8 @@
     "ruby-rmagick": {
       "origin": "ruby-rmagick",
       "versions": {
-        "6.1.1-r1": 1745358469
+        "6.1.1-r1": 1745358469,
+        "7.0.0-r0": 1779616017
       },
       "dependencies": [
         "ghostscript-fonts",
@@ -249524,7 +249566,8 @@
     "ruby-rspec": {
       "origin": "ruby-rspec",
       "versions": {
-        "3.13.0-r1": 1745356767
+        "3.13.0-r1": 1745356767,
+        "3.13.2-r0": 1779616111
       },
       "dependencies": [
         "ruby",
@@ -249536,24 +249579,26 @@
     "ruby-rspec-core": {
       "origin": "ruby-rspec-core",
       "versions": {
-        "3.13.3-r0": 1745619532
+        "3.13.3-r0": 1745619532,
+        "3.13.6-r0": 1779616111
       },
       "dependencies": [
         "ruby",
         "ruby-rspec-support~3.13"
       ],
       "provides": [
-        "cmd:rspec=3.13.3-r0"
+        "cmd:rspec=3.13.6-r0"
       ]
     },
     "ruby-rspec-expectations": {
       "origin": "ruby-rspec-expectations",
       "versions": {
-        "3.13.4-r0": 1746482815
+        "3.13.4-r0": 1746482815,
+        "3.13.5-r1": 1779640890
       },
       "dependencies": [
         "ruby",
-        "ruby-diff-lcs",
+        "ruby-diff-lcs~1",
         "ruby-rspec-support~3.13"
       ]
     },
@@ -249571,7 +249616,8 @@
     "ruby-rspec-mocks": {
       "origin": "ruby-rspec-mocks",
       "versions": {
-        "3.13.3-r0": 1746482815
+        "3.13.3-r0": 1746482815,
+        "3.13.8-r0": 1779616111
       },
       "dependencies": [
         "ruby",
@@ -249582,7 +249628,8 @@
     "ruby-rspec-support": {
       "origin": "ruby-rspec-support",
       "versions": {
-        "3.13.3-r0": 1746482815
+        "3.13.3-r0": 1746482815,
+        "3.13.7-r0": 1779616111
       },
       "dependencies": [
         "ruby"
@@ -273792,7 +273839,8 @@
     "upmpdcli": {
       "origin": "upmpdcli",
       "versions": {
-        "1.9.15-r0": 1774425869
+        "1.9.15-r0": 1774425869,
+        "1.9.17-r0": 1779635557
       },
       "dependencies": [
         "/bin/sh",
@@ -273806,19 +273854,21 @@
         "so:libupnpp.so.17"
       ],
       "provides": [
-        "cmd:upmpdcli=1.9.15-r0"
+        "cmd:upmpdcli=1.9.17-r0"
       ]
     },
     "upmpdcli-doc": {
       "origin": "upmpdcli",
       "versions": {
-        "1.9.15-r0": 1774425869
+        "1.9.15-r0": 1774425869,
+        "1.9.17-r0": 1779635557
       }
     },
     "upmpdcli-openrc": {
       "origin": "upmpdcli",
       "versions": {
-        "1.9.15-r0": 1774425869
+        "1.9.15-r0": 1774425869,
+        "1.9.17-r0": 1779635557
       }
     },
     "upower": {
@@ -278088,7 +278138,8 @@
     "wasm-bindgen": {
       "origin": "wasm-bindgen",
       "versions": {
-        "0.2.118-r0": 1776626443
+        "0.2.118-r0": 1776626443,
+        "0.2.122-r0": 1779643291
       },
       "dependencies": [
         "cargo",
@@ -278098,9 +278149,9 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:wasm-bindgen-test-runner=0.2.118-r0",
-        "cmd:wasm-bindgen=0.2.118-r0",
-        "cmd:wasm2es6js=0.2.118-r0"
+        "cmd:wasm-bindgen-test-runner=0.2.122-r0",
+        "cmd:wasm-bindgen=0.2.122-r0",
+        "cmd:wasm2es6js=0.2.122-r0"
       ]
     },
     "wasm-micro-runtime": {
@@ -316347,7 +316398,7 @@
       },
       "py-phonenumbers": {
         "package": "py3-phonenumbers",
-        "version": "9.0.30-r0"
+        "version": "9.0.31-r0"
       },
       "py-pickleshare": {
         "package": "py3-pickleshare",
