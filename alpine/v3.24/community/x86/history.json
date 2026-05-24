@@ -20874,7 +20874,8 @@
     "capstone": {
       "origin": "capstone",
       "versions": {
-        "5.0.7-r1": 1774640365
+        "5.0.7-r1": 1774640365,
+        "5.0.8-r0": 1779578739
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
@@ -20886,21 +20887,23 @@
     "capstone-dev": {
       "origin": "capstone",
       "versions": {
-        "5.0.7-r1": 1774640365
+        "5.0.7-r1": 1774640365,
+        "5.0.8-r0": 1779578739
       },
       "dependencies": [
-        "capstone=5.0.7-r1",
-        "capstone=5.0.7-r1",
+        "capstone=5.0.8-r0",
+        "capstone=5.0.8-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:capstone=5.0.7"
+        "pc:capstone=5.0.8"
       ]
     },
     "capstone-static": {
       "origin": "capstone",
       "versions": {
-        "5.0.7-r1": 1774640365
+        "5.0.7-r1": 1774640365,
+        "5.0.8-r0": 1779578739
       },
       "dependencies": [
         "capstone-dev"
@@ -30959,13 +30962,14 @@
     "cstool": {
       "origin": "capstone",
       "versions": {
-        "5.0.7-r1": 1774640365
+        "5.0.7-r1": 1774640365,
+        "5.0.8-r0": 1779578739
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:cstool=5.0.7-r1"
+        "cmd:cstool=5.0.8-r0"
       ]
     },
     "csview": {
@@ -205344,7 +205348,8 @@
     "py3-capstone": {
       "origin": "capstone",
       "versions": {
-        "5.0.7-r1": 1774640365
+        "5.0.7-r1": 1774640365,
+        "5.0.8-r0": 1779578739
       },
       "dependencies": [
         "py3-setuptools",
@@ -205352,13 +205357,14 @@
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:capstone=5.0.7-r1"
+        "py3.14:capstone=5.0.8-r0"
       ]
     },
     "py3-capstone-pyc": {
       "origin": "capstone",
       "versions": {
-        "5.0.7-r1": 1774640365
+        "5.0.7-r1": 1774640365,
+        "5.0.8-r0": 1779578739
       },
       "dependencies": [
         "python3~3.14"
