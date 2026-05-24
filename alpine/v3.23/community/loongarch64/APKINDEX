@@ -92852,21 +92852,21 @@ c:cb528479ce7389730baa832e757b0e00914bba19
 D:so:libc.musl-loongarch64.so.1
 p:cmd:joker=1.5.8-r6
 
-C:Q1Sj4JiGlhb7HrhUTJDHMb8rLGT1A=
+C:Q1YWmGmd1mYSLXPs4GNu1gVwHLkHM=
 P:jool-modules-lts
-V:6.18.32-r0
+V:6.18.33-r0
 A:loongarch64
-S:11530791
-I:11809893
+S:11530731
+I:11809880
 T:SIIT and NAT64 for Linux (kernel modules for linux-lts)
 U:https://nicmx.github.io/Jool/
 L:GPL-2.0-or-later
 o:jool-modules-lts
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779047465
-c:ac63e985f20912d92bb5b187be110ae4c2ab0d69
-D:linux-lts=6.18.32-r0
-i:linux-lts=6.18.32-r0 jool-tools
+t:1779645995
+c:3b30e258b824b67efdb9d8b0403a26377f176bce
+D:linux-lts=6.18.33-r0
+i:linux-lts=6.18.33-r0 jool-tools
 
 C:Q1VMXXtDZ41xdTgREFcdw27Mf8y6c=
 P:jool-tools
@@ -256781,36 +256781,36 @@ c:80001b5d7dde18ab1976c5a9f731d217c8ef9356
 D:qt6-qtbase-dev qt6-qtwebsockets-dev qt6-qtwebchannel=6.10.3-r0 pc:Qt6Qml pkgconfig
 p:pc:Qt6WebChannel=6.10.3 pc:Qt6WebChannelQuick=6.10.3
 
-C:Q1EFQN8K9b1oNVCZdaqVO5FipGAUM=
+C:Q1IaP7PuUNS2Oj/abwP8Th31XNUCQ=
 P:qt6-qtwebengine
-V:6.10.3-r2
+V:6.10.3-r3
 A:loongarch64
-S:126651866
+S:126652525
 I:307452037
 T:Provides support for web applications using the Chromium browser project
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtwebengine
 m:Bart Ribbers <bribbers@disroot.org>
-t:1778809139
-c:f4f9b6636e2cf69a8214432057abc1861dacd53b
+t:1779643297
+c:3292c5ed8a0676f6ec038323c68cff52bd279671
 D:so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6Positioning.so.6 so:libQt6PrintSupport.so.6 so:libQt6Qml.so.6 so:libQt6Quick.so.6 so:libQt6QuickWidgets.so.6 so:libQt6WebChannel.so.6 so:libQt6WebChannelQuick.so.6 so:libQt6Widgets.so.6 so:libasound.so.2 so:libavcodec.so.62 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-loongarch64.so.1 so:libdbus-1.so.3 so:libexpat.so.1 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgbm.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libharfbuzz-subset.so.0 so:libharfbuzz.so.0 so:libicui18n.so.76 so:libicuuc.so.76 so:libjpeg.so.8 so:liblcms2.so.2 so:libminizip.so.1 so:libnspr4.so so:libnss3.so so:libnssutil3.so so:libopus.so.0 so:libpng16.so.16 so:libsmime3.so so:libsnappy.so.1 so:libstdc++.so.6 so:libtiff.so.6 so:libudev.so.1 so:libwebp.so.7 so:libwebpdemux.so.2 so:libwebpmux.so.3 so:libxml2.so.2 so:libxslt.so.1 so:libz.so.1
 p:so:libQt6Pdf.so.6=6.10.3 so:libQt6PdfQuick.so.6=6.10.3 so:libQt6PdfWidgets.so.6=6.10.3 so:libQt6WebEngineCore.so.6=6.10.3 so:libQt6WebEngineQuick.so.6=6.10.3 so:libQt6WebEngineQuickDelegatesQml.so.6=6.10.3 so:libQt6WebEngineWidgets.so.6=6.10.3
 
-C:Q1AppyoTCElZVN/Ny+ySdN23cicUY=
+C:Q1O5+GqIn62+LEaT90NLdeBrUXG2A=
 P:qt6-qtwebengine-dev
-V:6.10.3-r2
+V:6.10.3-r3
 A:loongarch64
-S:193038
+S:193053
 I:920820
 T:Provides support for web applications using the Chromium browser project (development files)
 U:https://qt.io/
 L:LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0
 o:qt6-qtwebengine
 m:Bart Ribbers <bribbers@disroot.org>
-t:1778809139
-c:f4f9b6636e2cf69a8214432057abc1861dacd53b
-D:alsa-lib-dev ffmpeg-dev icu-dev krb5-dev lcms2-dev libepoxy-dev libevent-dev libvpx-dev>=1.10.0-r1 libxkbfile-dev libxml2-dev libxslt-dev minizip-dev nss-dev opus-dev pciutils-dev pipewire-dev pulseaudio-dev qt6-qtbase-dev qt6-qtdeclarative-dev qt6-qtpositioning-dev qt6-qttools-dev qt6-qtwebchannel-dev snappy-dev qt6-qtwebengine=6.10.3-r2 pc:Qt6Core pc:Qt6Gui pc:Qt6Network pc:Qt6Positioning pc:Qt6PrintSupport pc:Qt6Qml pc:Qt6Quick pc:Qt6WebChannel pc:Qt6WebChannelQuick pc:Qt6Widgets pkgconfig
+t:1779643297
+c:3292c5ed8a0676f6ec038323c68cff52bd279671
+D:alsa-lib-dev ffmpeg-dev icu-dev krb5-dev lcms2-dev libepoxy-dev libevent-dev libvpx-dev>=1.10.0-r1 libxkbfile-dev libxml2-dev libxslt-dev minizip-dev nss-dev opus-dev pciutils-dev pipewire-dev pulseaudio-dev qt6-qtbase-dev qt6-qtdeclarative-dev qt6-qtpositioning-dev qt6-qttools-dev qt6-qtwebchannel-dev snappy-dev qt6-qtwebengine=6.10.3-r3 pc:Qt6Core pc:Qt6Gui pc:Qt6Network pc:Qt6Positioning pc:Qt6PrintSupport pc:Qt6Qml pc:Qt6Quick pc:Qt6WebChannel pc:Qt6WebChannelQuick pc:Qt6Widgets pkgconfig
 p:pc:Qt6Pdf=6.10.3 pc:Qt6PdfQuick=6.10.3 pc:Qt6PdfWidgets=6.10.3 pc:Qt6WebEngineCore=6.10.3 pc:Qt6WebEngineQuick=6.10.3 pc:Qt6WebEngineQuickDelegatesQml=6.10.3 pc:Qt6WebEngineWidgets=6.10.3
 
 C:Q1nvsmSeZoxBlV07uD06nxe6kXKGg=
@@ -265368,20 +265368,20 @@ t:1758826049
 c:08d6c2c270beb9e283f632a130f0f2d0a0240804
 i:docs rtpengine=12.2.1.4-r2
 
-C:Q1S4gEO08N6rkek9jcHdBjT2zMI3Q=
+C:Q1c6sUCqwtCbPaYrjh2ImROoFUQXc=
 P:rtpengine-lts
-V:6.18.32-r0
+V:6.18.33-r0
 A:loongarch64
-S:643554
+S:643516
 I:2599424
 T:Kernel module for rtpengine
 U:https://github.com/sipwise/rtpengine
 L:GPL-3.0-only
 o:rtpengine-lts
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1779047482
-c:58e2852ad4fd92a8eaddd0cb8b557c5f6bd9b08f
-i:rtpengine linux-lts=6.18.32-r0
+t:1779645995
+c:283094990e2c5ad1afa8789f5cc18978c0f1b120
+i:rtpengine linux-lts=6.18.33-r0
 
 C:Q157BfueVZ8gHMa2z2spxEqJA1Q/0=
 P:rtpengine-openrc
