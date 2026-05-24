@@ -1023,7 +1023,8 @@
     "acme-redirect": {
       "origin": "acme-redirect",
       "versions": {
-        "0.7.1-r0": 1768835285
+        "0.7.1-r0": 1768835285,
+        "0.8.1-r0": 1779373787
       },
       "dependencies": [
         "/bin/sh",
@@ -1033,37 +1034,42 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:acme-redirect=0.7.1-r0"
+        "cmd:acme-redirect=0.8.1-r0"
       ]
     },
     "acme-redirect-bash-completion": {
       "origin": "acme-redirect",
       "versions": {
-        "0.7.1-r0": 1768835285
+        "0.7.1-r0": 1768835285,
+        "0.8.1-r0": 1779373787
       }
     },
     "acme-redirect-doc": {
       "origin": "acme-redirect",
       "versions": {
-        "0.7.1-r0": 1768835285
+        "0.7.1-r0": 1768835285,
+        "0.8.1-r0": 1779373787
       }
     },
     "acme-redirect-fish-completion": {
       "origin": "acme-redirect",
       "versions": {
-        "0.7.1-r0": 1768835285
+        "0.7.1-r0": 1768835285,
+        "0.8.1-r0": 1779373787
       }
     },
     "acme-redirect-openrc": {
       "origin": "acme-redirect",
       "versions": {
-        "0.7.1-r0": 1768835285
+        "0.7.1-r0": 1768835285,
+        "0.8.1-r0": 1779373787
       }
     },
     "acme-redirect-zsh-completion": {
       "origin": "acme-redirect",
       "versions": {
-        "0.7.1-r0": 1768835285
+        "0.7.1-r0": 1768835285,
+        "0.8.1-r0": 1779373787
       }
     },
     "acme-tiny": {
@@ -3548,7 +3554,8 @@
     "ansible": {
       "origin": "ansible",
       "versions": {
-        "13.6.0-r0": 1776845167
+        "13.6.0-r0": 1776845167,
+        "13.7.0-r0": 1779461648
       },
       "dependencies": [
         "python3",
@@ -3556,7 +3563,7 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:ansible-community=13.6.0-r0"
+        "cmd:ansible-community=13.7.0-r0"
       ]
     },
     "ansible-core": {
@@ -3646,7 +3653,8 @@
     "ansible-pyc": {
       "origin": "ansible",
       "versions": {
-        "13.6.0-r0": 1776845167
+        "13.6.0-r0": 1776845167,
+        "13.7.0-r0": 1779461648
       },
       "dependencies": [
         "python3~3.14"
@@ -5122,7 +5130,8 @@
     "arti": {
       "origin": "arti",
       "versions": {
-        "2.2.0-r0": 1774982892
+        "2.2.0-r0": 1774982892,
+        "2.3.0-r0": 1779496586
       },
       "dependencies": [
         "/bin/sh",
@@ -5135,19 +5144,21 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:arti=2.2.0-r0"
+        "cmd:arti=2.3.0-r0"
       ]
     },
     "arti-doc": {
       "origin": "arti",
       "versions": {
-        "2.2.0-r0": 1774982892
+        "2.2.0-r0": 1774982892,
+        "2.3.0-r0": 1779496586
       }
     },
     "arti-openrc": {
       "origin": "arti",
       "versions": {
-        "2.2.0-r0": 1774982892
+        "2.2.0-r0": 1774982892,
+        "2.3.0-r0": 1779496586
       }
     },
     "artikulate": {
@@ -5821,7 +5832,8 @@
     "atril": {
       "origin": "atril",
       "versions": {
-        "1.28.0-r2": 1774640355
+        "1.28.0-r2": 1774640355,
+        "1.28.0-r3": 1779569636
       },
       "dependencies": [
         "mate-icon-theme",
@@ -5855,9 +5867,9 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:atril-previewer=1.28.0-r2",
-        "cmd:atril-thumbnailer=1.28.0-r2",
-        "cmd:atril=1.28.0-r2",
+        "cmd:atril-previewer=1.28.0-r3",
+        "cmd:atril-thumbnailer=1.28.0-r3",
+        "cmd:atril=1.28.0-r3",
         "so:libatrildocument.so.3=3.0.0",
         "so:libatrilview.so.3=3.0.0"
       ]
@@ -5865,10 +5877,11 @@
     "atril-dev": {
       "origin": "atril",
       "versions": {
-        "1.28.0-r2": 1774640355
+        "1.28.0-r2": 1774640355,
+        "1.28.0-r3": 1779569636
       },
       "dependencies": [
-        "atril=1.28.0-r2",
+        "atril=1.28.0-r3",
         "pc:gio-2.0>=2.54.0",
         "pc:gthread-2.0",
         "pc:gtk+-3.0>=3.22.0",
@@ -5882,13 +5895,15 @@
     "atril-doc": {
       "origin": "atril",
       "versions": {
-        "1.28.0-r2": 1774640355
+        "1.28.0-r2": 1774640355,
+        "1.28.0-r3": 1779569636
       }
     },
     "atril-lang": {
       "origin": "atril",
       "versions": {
-        "1.28.0-r2": 1774640355
+        "1.28.0-r2": 1774640355,
+        "1.28.0-r3": 1779569636
       }
     },
     "ats2": {
@@ -6616,27 +6631,30 @@
     "autobrr": {
       "origin": "autobrr",
       "versions": {
-        "1.78.0-r0": 1778671658
+        "1.78.0-r0": 1778671658,
+        "1.79.0-r0": 1779286208
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:autobrr=1.78.0-r0",
-        "cmd:autobrrctl=1.78.0-r0"
+        "cmd:autobrr=1.79.0-r0",
+        "cmd:autobrrctl=1.79.0-r0"
       ]
     },
     "autobrr-doc": {
       "origin": "autobrr",
       "versions": {
-        "1.78.0-r0": 1778671658
+        "1.78.0-r0": 1778671658,
+        "1.79.0-r0": 1779286208
       }
     },
     "autobrr-openrc": {
       "origin": "autobrr",
       "versions": {
-        "1.78.0-r0": 1778671658
+        "1.78.0-r0": 1778671658,
+        "1.79.0-r0": 1779286208
       }
     },
     "autocutsel": {
@@ -7090,7 +7108,8 @@
     "aws-c-auth": {
       "origin": "aws-c-auth",
       "versions": {
-        "0.10.1-r0": 1772729352
+        "0.10.1-r0": 1772729352,
+        "0.10.3-r0": 1779530329
       },
       "dependencies": [
         "so:libaws-c-cal.so.1.0.0",
@@ -7107,16 +7126,18 @@
     "aws-c-auth-dev": {
       "origin": "aws-c-auth",
       "versions": {
-        "0.10.1-r0": 1772729352
+        "0.10.1-r0": 1772729352,
+        "0.10.3-r0": 1779530329
       },
       "dependencies": [
-        "aws-c-auth=0.10.1-r0"
+        "aws-c-auth=0.10.3-r0"
       ]
     },
     "aws-c-cal": {
       "origin": "aws-c-cal",
       "versions": {
-        "0.9.13-r0": 1764190152
+        "0.9.13-r0": 1764190152,
+        "0.9.14-r0": 1779530330
       },
       "dependencies": [
         "so:libaws-c-common.so.1",
@@ -7130,10 +7151,11 @@
     "aws-c-cal-dev": {
       "origin": "aws-c-cal",
       "versions": {
-        "0.9.13-r0": 1764190152
+        "0.9.13-r0": 1764190152,
+        "0.9.14-r0": 1779530330
       },
       "dependencies": [
-        "aws-c-cal=0.9.13-r0"
+        "aws-c-cal=0.9.14-r0"
       ]
     },
     "aws-c-common": {
@@ -7182,7 +7204,8 @@
     "aws-c-event-stream": {
       "origin": "aws-c-event-stream",
       "versions": {
-        "0.7.0-r0": 1774621815
+        "0.7.0-r0": 1774621815,
+        "0.7.1-r0": 1779530330
       },
       "dependencies": [
         "so:libaws-c-common.so.1",
@@ -7197,16 +7220,18 @@
     "aws-c-event-stream-dev": {
       "origin": "aws-c-event-stream",
       "versions": {
-        "0.7.0-r0": 1774621815
+        "0.7.0-r0": 1774621815,
+        "0.7.1-r0": 1779530330
       },
       "dependencies": [
-        "aws-c-event-stream=0.7.0-r0"
+        "aws-c-event-stream=0.7.1-r0"
       ]
     },
     "aws-c-http": {
       "origin": "aws-c-http",
       "versions": {
-        "0.10.15-r0": 1778692755
+        "0.10.15-r0": 1778692755,
+        "0.11.0-r0": 1779530330
       },
       "dependencies": [
         "so:libaws-c-cal.so.1.0.0",
@@ -7222,10 +7247,11 @@
     "aws-c-http-dev": {
       "origin": "aws-c-http",
       "versions": {
-        "0.10.15-r0": 1778692755
+        "0.10.15-r0": 1778692755,
+        "0.11.0-r0": 1779530330
       },
       "dependencies": [
-        "aws-c-http=0.10.15-r0"
+        "aws-c-http=0.11.0-r0"
       ]
     },
     "aws-c-io": {
@@ -7351,7 +7377,8 @@
     "aws-cli": {
       "origin": "aws-cli",
       "versions": {
-        "2.34.48-r0": 1779165378
+        "2.34.48-r0": 1779165378,
+        "2.34.52-r0": 1779530330
       },
       "dependencies": [
         "py3-awscrt",
@@ -7370,16 +7397,17 @@
         "python3~3.14"
       ],
       "provides": [
-        "aws-cli-v2=2.34.48-r0",
-        "cmd:aws=2.34.48-r0",
-        "cmd:aws_completer=2.34.48-r0",
-        "py3.14:awscli=2.34.48-r0"
+        "aws-cli-v2=2.34.52-r0",
+        "cmd:aws=2.34.52-r0",
+        "cmd:aws_completer=2.34.52-r0",
+        "py3.14:awscli=2.34.52-r0"
       ]
     },
     "aws-cli-bash-completion": {
       "origin": "aws-cli",
       "versions": {
-        "2.34.48-r0": 1779165378
+        "2.34.48-r0": 1779165378,
+        "2.34.52-r0": 1779530330
       },
       "dependencies": [
         "py3-awscrt",
@@ -7400,7 +7428,8 @@
     "aws-cli-doc": {
       "origin": "aws-cli",
       "versions": {
-        "2.34.48-r0": 1779165378
+        "2.34.48-r0": 1779165378,
+        "2.34.52-r0": 1779530330
       },
       "dependencies": [
         "python3~3.14"
@@ -7409,7 +7438,8 @@
     "aws-cli-pyc": {
       "origin": "aws-cli",
       "versions": {
-        "2.34.48-r0": 1779165378
+        "2.34.48-r0": 1779165378,
+        "2.34.52-r0": 1779530330
       },
       "dependencies": [
         "python3~3.14"
@@ -7418,7 +7448,8 @@
     "aws-cli-zsh-completion": {
       "origin": "aws-cli",
       "versions": {
-        "2.34.48-r0": 1779165378
+        "2.34.48-r0": 1779165378,
+        "2.34.52-r0": 1779530330
       },
       "dependencies": [
         "py3-awscrt",
@@ -7439,7 +7470,8 @@
     "aws-crt-cpp": {
       "origin": "aws-crt-cpp",
       "versions": {
-        "0.38.7-r0": 1778323007
+        "0.38.7-r0": 1778323007,
+        "0.39.0-r0": 1779530330
       },
       "dependencies": [
         "so:libaws-c-auth.so.1.0.0",
@@ -7463,10 +7495,11 @@
     "aws-crt-cpp-dev": {
       "origin": "aws-crt-cpp",
       "versions": {
-        "0.38.7-r0": 1778323007
+        "0.38.7-r0": 1778323007,
+        "0.39.0-r0": 1779530330
       },
       "dependencies": [
-        "aws-crt-cpp=0.38.7-r0",
+        "aws-crt-cpp=0.39.0-r0",
         "aws-c-auth-dev",
         "aws-c-cal-dev",
         "aws-c-common-dev",
@@ -17938,20 +17971,22 @@
     "blocky": {
       "origin": "blocky",
       "versions": {
-        "0.28.2-r6": 1778661427
+        "0.28.2-r6": 1778661427,
+        "0.30.0-r0": 1779416301
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:blocky=0.28.2-r6"
+        "cmd:blocky=0.30.0-r0"
       ]
     },
     "blocky-openrc": {
       "origin": "blocky",
       "versions": {
-        "0.28.2-r6": 1778661427
+        "0.28.2-r6": 1778661427,
+        "0.30.0-r0": 1779416301
       }
     },
     "blosc": {
@@ -18895,38 +18930,43 @@
     "bottom": {
       "origin": "bottom",
       "versions": {
-        "0.10.2-r0": 1754412069
+        "0.10.2-r0": 1754412069,
+        "0.12.3-r0": 1779374601
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:btm=0.10.2-r0"
+        "cmd:btm=0.12.3-r0"
       ]
     },
     "bottom-bash-completion": {
       "origin": "bottom",
       "versions": {
-        "0.10.2-r0": 1754412069
+        "0.10.2-r0": 1754412069,
+        "0.12.3-r0": 1779374601
       }
     },
     "bottom-doc": {
       "origin": "bottom",
       "versions": {
-        "0.10.2-r0": 1754412069
+        "0.10.2-r0": 1754412069,
+        "0.12.3-r0": 1779374601
       }
     },
     "bottom-fish-completion": {
       "origin": "bottom",
       "versions": {
-        "0.10.2-r0": 1754412069
+        "0.10.2-r0": 1754412069,
+        "0.12.3-r0": 1779374601
       }
     },
     "bottom-zsh-completion": {
       "origin": "bottom",
       "versions": {
-        "0.10.2-r0": 1754412069
+        "0.10.2-r0": 1754412069,
+        "0.12.3-r0": 1779374601
       }
     },
     "bovo": {
@@ -20597,7 +20637,8 @@
     "cadaver": {
       "origin": "cadaver",
       "versions": {
-        "0.27-r0": 1758196467
+        "0.27-r0": 1758196467,
+        "0.28-r0": 1779372577
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -20605,13 +20646,14 @@
         "so:libreadline.so.8"
       ],
       "provides": [
-        "cmd:cadaver=0.27-r0"
+        "cmd:cadaver=0.28-r0"
       ]
     },
     "cadaver-doc": {
       "origin": "cadaver",
       "versions": {
-        "0.27-r0": 1758196467
+        "0.27-r0": 1758196467,
+        "0.28-r0": 1779372577
       }
     },
     "caddy": {
@@ -21320,7 +21362,8 @@
     "capstone": {
       "origin": "capstone",
       "versions": {
-        "5.0.7-r1": 1774640365
+        "5.0.7-r1": 1774640365,
+        "5.0.8-r0": 1779578739
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1"
@@ -21332,21 +21375,23 @@
     "capstone-dev": {
       "origin": "capstone",
       "versions": {
-        "5.0.7-r1": 1774640365
+        "5.0.7-r1": 1774640365,
+        "5.0.8-r0": 1779578739
       },
       "dependencies": [
-        "capstone=5.0.7-r1",
-        "capstone=5.0.7-r1",
+        "capstone=5.0.8-r0",
+        "capstone=5.0.8-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:capstone=5.0.7"
+        "pc:capstone=5.0.8"
       ]
     },
     "capstone-static": {
       "origin": "capstone",
       "versions": {
-        "5.0.7-r1": 1774640365
+        "5.0.7-r1": 1774640365,
+        "5.0.8-r0": 1779578739
       },
       "dependencies": [
         "capstone-dev"
@@ -21516,7 +21561,8 @@
     "cargo-credential-oo7": {
       "origin": "oo7",
       "versions": {
-        "0.6.0-r3": 1778084572
+        "0.6.0-r3": 1778084572,
+        "0.6.0-r4": 1779544423
       },
       "dependencies": [
         "cargo",
@@ -21524,7 +21570,7 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:cargo-credential-oo7=0.6.0-r3"
+        "cmd:cargo-credential-oo7=0.6.0-r4"
       ]
     },
     "cargo-cyclonedx": {
@@ -24054,7 +24100,8 @@
     "chatty": {
       "origin": "chatty",
       "versions": {
-        "0.8.9-r6": 1778323874
+        "0.8.9-r6": 1778323874,
+        "0.8.9-r7": 1779530332
       },
       "dependencies": [
         "cyrus-sasl",
@@ -24090,35 +24137,39 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:chatty=0.8.9-r6"
+        "cmd:chatty=0.8.9-r7"
       ]
     },
     "chatty-bash-completion": {
       "origin": "chatty",
       "versions": {
-        "0.8.9-r6": 1778323874
+        "0.8.9-r6": 1778323874,
+        "0.8.9-r7": 1779530332
       }
     },
     "chatty-dbg": {
       "origin": "chatty",
       "versions": {
-        "0.8.9-r6": 1778323874
+        "0.8.9-r6": 1778323874,
+        "0.8.9-r7": 1779530332
       },
       "dependencies": [
-        "!chatty<0.8.9-r6",
-        "!chatty>0.8.9-r6"
+        "!chatty<0.8.9-r7",
+        "!chatty>0.8.9-r7"
       ]
     },
     "chatty-lang": {
       "origin": "chatty",
       "versions": {
-        "0.8.9-r6": 1778323874
+        "0.8.9-r6": 1778323874,
+        "0.8.9-r7": 1779530332
       }
     },
     "chatty-systemd": {
       "origin": "chatty",
       "versions": {
-        "0.8.9-r6": 1778323874
+        "0.8.9-r6": 1778323874,
+        "0.8.9-r7": 1779530332
       }
     },
     "chawan": {
@@ -24551,10 +24602,11 @@
     "chromium": {
       "origin": "chromium",
       "versions": {
-        "148.0.7778.96-r0": 1778101321
+        "148.0.7778.96-r0": 1778101321,
+        "148.0.7778.178-r0": 1779533144
       },
       "dependencies": [
-        "chromium-common=148.0.7778.96-r0",
+        "chromium-common=148.0.7778.178-r0",
         "font-opensans",
         "gtk+3.0",
         "icu-data-full",
@@ -24620,14 +24672,15 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:chromium-browser=148.0.7778.96-r0",
-        "cmd:chromium=148.0.7778.96-r0"
+        "cmd:chromium-browser=148.0.7778.178-r0",
+        "cmd:chromium=148.0.7778.178-r0"
       ]
     },
     "chromium-angle": {
       "origin": "chromium",
       "versions": {
-        "148.0.7778.96-r0": 1778101321
+        "148.0.7778.96-r0": 1778101321,
+        "148.0.7778.178-r0": 1779533144
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -24642,10 +24695,11 @@
     "chromium-chromedriver": {
       "origin": "chromium",
       "versions": {
-        "148.0.7778.96-r0": 1778101321
+        "148.0.7778.96-r0": 1778101321,
+        "148.0.7778.178-r0": 1779533144
       },
       "dependencies": [
-        "chromium=148.0.7778.96-r0",
+        "chromium=148.0.7778.178-r0",
         "so:libbrotlidec.so.1",
         "so:libc.musl-armv7.so.1",
         "so:libdouble-conversion.so.3",
@@ -24660,51 +24714,55 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:chromedriver=148.0.7778.96-r0"
+        "cmd:chromedriver=148.0.7778.178-r0"
       ]
     },
     "chromium-common": {
       "origin": "chromium",
       "versions": {
-        "148.0.7778.96-r0": 1778101321
+        "148.0.7778.96-r0": 1778101321,
+        "148.0.7778.178-r0": 1779533144
       },
       "dependencies": [
-        "chromium-angle=148.0.7778.96-r0"
+        "chromium-angle=148.0.7778.178-r0"
       ]
     },
     "chromium-dbg": {
       "origin": "chromium",
       "versions": {
-        "148.0.7778.96-r0": 1778101321
+        "148.0.7778.96-r0": 1778101321,
+        "148.0.7778.178-r0": 1779533144
       },
       "dependencies": [
-        "!chromium-angle<148.0.7778.96-r0",
-        "!chromium-angle>148.0.7778.96-r0",
-        "!chromium-chromedriver<148.0.7778.96-r0",
-        "!chromium-chromedriver>148.0.7778.96-r0",
-        "!chromium-headless-shell<148.0.7778.96-r0",
-        "!chromium-headless-shell>148.0.7778.96-r0",
-        "!chromium-qt6<148.0.7778.96-r0",
-        "!chromium-qt6>148.0.7778.96-r0",
-        "!chromium-swiftshader<148.0.7778.96-r0",
-        "!chromium-swiftshader>148.0.7778.96-r0",
-        "!chromium<148.0.7778.96-r0",
-        "!chromium>148.0.7778.96-r0"
+        "!chromium-angle<148.0.7778.178-r0",
+        "!chromium-angle>148.0.7778.178-r0",
+        "!chromium-chromedriver<148.0.7778.178-r0",
+        "!chromium-chromedriver>148.0.7778.178-r0",
+        "!chromium-headless-shell<148.0.7778.178-r0",
+        "!chromium-headless-shell>148.0.7778.178-r0",
+        "!chromium-qt6<148.0.7778.178-r0",
+        "!chromium-qt6>148.0.7778.178-r0",
+        "!chromium-swiftshader<148.0.7778.178-r0",
+        "!chromium-swiftshader>148.0.7778.178-r0",
+        "!chromium<148.0.7778.178-r0",
+        "!chromium>148.0.7778.178-r0"
       ]
     },
     "chromium-doc": {
       "origin": "chromium",
       "versions": {
-        "148.0.7778.96-r0": 1778101321
+        "148.0.7778.96-r0": 1778101321,
+        "148.0.7778.178-r0": 1779533144
       }
     },
     "chromium-headless-shell": {
       "origin": "chromium",
       "versions": {
-        "148.0.7778.96-r0": 1778101321
+        "148.0.7778.96-r0": 1778101321,
+        "148.0.7778.178-r0": 1779533144
       },
       "dependencies": [
-        "chromium-common=148.0.7778.96-r0",
+        "chromium-common=148.0.7778.178-r0",
         "font-opensans",
         "gtk+3.0",
         "icu-data-full",
@@ -24712,7 +24770,7 @@
         "musl>=1.2.3_git20230322-r0",
         "so:libudev.so.1",
         "xdg-utils",
-        "chromium-swiftshader=148.0.7778.96-r0",
+        "chromium-swiftshader=148.0.7778.178-r0",
         "so:libFLAC.so.12",
         "so:libX11.so.6",
         "so:libXcomposite.so.1",
@@ -24766,22 +24824,24 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:chromium-headless-shell=148.0.7778.96-r0"
+        "cmd:chromium-headless-shell=148.0.7778.178-r0"
       ]
     },
     "chromium-lang": {
       "origin": "chromium",
       "versions": {
-        "148.0.7778.96-r0": 1778101321
+        "148.0.7778.96-r0": 1778101321,
+        "148.0.7778.178-r0": 1779533144
       }
     },
     "chromium-qt6": {
       "origin": "chromium",
       "versions": {
-        "148.0.7778.96-r0": 1778101321
+        "148.0.7778.96-r0": 1778101321,
+        "148.0.7778.178-r0": 1779533144
       },
       "dependencies": [
-        "chromium-common=148.0.7778.96-r0",
+        "chromium-common=148.0.7778.178-r0",
         "font-opensans",
         "gtk+3.0",
         "icu-data-full",
@@ -24800,10 +24860,11 @@
     "chromium-swiftshader": {
       "origin": "chromium",
       "versions": {
-        "148.0.7778.96-r0": 1778101321
+        "148.0.7778.96-r0": 1778101321,
+        "148.0.7778.178-r0": 1779533144
       },
       "dependencies": [
-        "chromium-angle=148.0.7778.96-r0",
+        "chromium-angle=148.0.7778.178-r0",
         "so:libc.musl-armv7.so.1",
         "so:libgcc_s.so.1"
       ]
@@ -29672,40 +29733,44 @@
     "containerd": {
       "origin": "containerd",
       "versions": {
-        "2.3.0-r1": 1778661427
+        "2.3.0-r1": 1778661427,
+        "2.3.1-r0": 1779323991
       },
       "dependencies": [
         "runc",
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:containerd-shim-runc-v2=2.3.0-r1",
-        "cmd:containerd=2.3.0-r1"
+        "cmd:containerd-shim-runc-v2=2.3.1-r0",
+        "cmd:containerd=2.3.1-r0"
       ]
     },
     "containerd-ctr": {
       "origin": "containerd",
       "versions": {
-        "2.3.0-r1": 1778661427
+        "2.3.0-r1": 1778661427,
+        "2.3.1-r0": 1779323991
       },
       "dependencies": [
         "runc",
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:ctr=2.3.0-r1"
+        "cmd:ctr=2.3.1-r0"
       ]
     },
     "containerd-doc": {
       "origin": "containerd",
       "versions": {
-        "2.3.0-r1": 1778661427
+        "2.3.0-r1": 1778661427,
+        "2.3.1-r0": 1779323991
       }
     },
     "containerd-openrc": {
       "origin": "containerd",
       "versions": {
-        "2.3.0-r1": 1778661427
+        "2.3.0-r1": 1778661427,
+        "2.3.1-r0": 1779323991
       },
       "dependencies": [
         "log_proxy"
@@ -29714,20 +29779,22 @@
     "containerd-stress": {
       "origin": "containerd",
       "versions": {
-        "2.3.0-r1": 1778661427
+        "2.3.0-r1": 1778661427,
+        "2.3.1-r0": 1779323991
       },
       "dependencies": [
         "runc",
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:containerd-stress=2.3.0-r1"
+        "cmd:containerd-stress=2.3.1-r0"
       ]
     },
     "containerd-systemd": {
       "origin": "containerd",
       "versions": {
-        "2.3.0-r1": 1778661427
+        "2.3.0-r1": 1778661427,
+        "2.3.1-r0": 1779323991
       }
     },
     "containers-common": {
@@ -31173,7 +31240,8 @@
     "cri-o": {
       "origin": "cri-o",
       "versions": {
-        "1.35.2-r2": 1778661427
+        "1.35.2-r2": 1778661427,
+        "1.36.0-r0": 1779367748
       },
       "dependencies": [
         "cni-plugins",
@@ -31187,38 +31255,43 @@
         "so:libsqlite3.so.0"
       ],
       "provides": [
-        "cmd:crio=1.35.2-r2",
-        "cmd:pinns=1.35.2-r2"
+        "cmd:crio=1.36.0-r0",
+        "cmd:pinns=1.36.0-r0"
       ]
     },
     "cri-o-bash-completion": {
       "origin": "cri-o",
       "versions": {
-        "1.35.2-r2": 1778661427
+        "1.35.2-r2": 1778661427,
+        "1.36.0-r0": 1779367748
       }
     },
     "cri-o-doc": {
       "origin": "cri-o",
       "versions": {
-        "1.35.2-r2": 1778661427
+        "1.35.2-r2": 1778661427,
+        "1.36.0-r0": 1779367748
       }
     },
     "cri-o-fish-completion": {
       "origin": "cri-o",
       "versions": {
-        "1.35.2-r2": 1778661427
+        "1.35.2-r2": 1778661427,
+        "1.36.0-r0": 1779367748
       }
     },
     "cri-o-openrc": {
       "origin": "cri-o",
       "versions": {
-        "1.35.2-r2": 1778661427
+        "1.35.2-r2": 1778661427,
+        "1.36.0-r0": 1779367748
       }
     },
     "cri-o-zsh-completion": {
       "origin": "cri-o",
       "versions": {
-        "1.35.2-r2": 1778661427
+        "1.35.2-r2": 1778661427,
+        "1.36.0-r0": 1779367748
       }
     },
     "cri-tools": {
@@ -31480,13 +31553,14 @@
     "cstool": {
       "origin": "capstone",
       "versions": {
-        "5.0.7-r1": 1774640365
+        "5.0.7-r1": 1774640365,
+        "5.0.8-r0": 1779578739
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:cstool=5.0.7-r1"
+        "cmd:cstool=5.0.8-r0"
       ]
     },
     "csview": {
@@ -31815,7 +31889,8 @@
     "cwm": {
       "origin": "cwm",
       "versions": {
-        "7.4-r2": 1769151900
+        "7.4-r2": 1769151900,
+        "7.9-r0": 1779462063
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -31824,13 +31899,14 @@
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:cwm=7.4-r2"
+        "cmd:cwm=7.9-r0"
       ]
     },
     "cwm-doc": {
       "origin": "cwm",
       "versions": {
-        "7.4-r2": 1769151900
+        "7.4-r2": 1769151900,
+        "7.9-r0": 1779462063
       }
     },
     "cyanrip": {
@@ -35016,11 +35092,12 @@
     "docker": {
       "origin": "docker",
       "versions": {
-        "29.5.1-r0": 1779156966
+        "29.5.1-r0": 1779156966,
+        "29.5.2-r0": 1779325011
       },
       "dependencies": [
-        "docker-engine=29.5.1-r0",
-        "docker-cli=29.5.1-r0",
+        "docker-engine=29.5.2-r0",
+        "docker-cli=29.5.2-r0",
         "docker-cli-buildx"
       ]
     },
@@ -35051,20 +35128,22 @@
     "docker-bash-completion": {
       "origin": "docker",
       "versions": {
-        "29.5.1-r0": 1779156966
+        "29.5.1-r0": 1779156966,
+        "29.5.2-r0": 1779325011
       }
     },
     "docker-cli": {
       "origin": "docker",
       "versions": {
-        "29.5.1-r0": 1779156966
+        "29.5.1-r0": 1779156966,
+        "29.5.2-r0": 1779325011
       },
       "dependencies": [
         "ca-certificates",
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:docker=29.5.1-r0"
+        "cmd:docker=29.5.2-r0"
       ]
     },
     "docker-cli-buildx": {
@@ -35079,27 +35158,30 @@
     "docker-cli-compose": {
       "origin": "docker-cli-compose",
       "versions": {
-        "5.1.3-r1": 1778661427
+        "5.1.3-r1": 1778661427,
+        "5.1.4-r0": 1779327404
       },
       "dependencies": [
         "docker-cli",
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "docker-compose=5.1.3-r1",
-        "cmd:docker-compose=5.1.3-r1"
+        "docker-compose=5.1.4-r0",
+        "cmd:docker-compose=5.1.4-r0"
       ]
     },
     "docker-doc": {
       "origin": "docker",
       "versions": {
-        "29.5.1-r0": 1779156966
+        "29.5.1-r0": 1779156966,
+        "29.5.2-r0": 1779325011
       }
     },
     "docker-engine": {
       "origin": "docker",
       "versions": {
-        "29.5.1-r0": 1779156966
+        "29.5.1-r0": 1779156966,
+        "29.5.2-r0": 1779325011
       },
       "dependencies": [
         "ca-certificates",
@@ -35111,21 +35193,23 @@
         "so:libnftables.so.1"
       ],
       "provides": [
-        "cmd:docker-init=29.5.1-r0",
-        "cmd:docker-proxy=29.5.1-r0",
-        "cmd:dockerd=29.5.1-r0"
+        "cmd:docker-init=29.5.2-r0",
+        "cmd:docker-proxy=29.5.2-r0",
+        "cmd:dockerd=29.5.2-r0"
       ]
     },
     "docker-fish-completion": {
       "origin": "docker",
       "versions": {
-        "29.5.1-r0": 1779156966
+        "29.5.1-r0": 1779156966,
+        "29.5.2-r0": 1779325011
       }
     },
     "docker-openrc": {
       "origin": "docker",
       "versions": {
-        "29.5.1-r0": 1779156966
+        "29.5.1-r0": 1779156966,
+        "29.5.2-r0": 1779325011
       },
       "dependencies": [
         "log_proxy"
@@ -35155,7 +35239,8 @@
     "docker-rootless-extras": {
       "origin": "docker",
       "versions": {
-        "29.5.1-r0": 1779156966
+        "29.5.1-r0": 1779156966,
+        "29.5.2-r0": 1779325011
       },
       "dependencies": [
         "docker",
@@ -35164,13 +35249,14 @@
         "fuse-overlayfs"
       ],
       "provides": [
-        "cmd:dockerd-rootless=29.5.1-r0"
+        "cmd:dockerd-rootless=29.5.2-r0"
       ]
     },
     "docker-rootless-extras-openrc": {
       "origin": "docker",
       "versions": {
-        "29.5.1-r0": 1779156966
+        "29.5.1-r0": 1779156966,
+        "29.5.2-r0": 1779325011
       },
       "dependencies": [
         "docker-rootless-extras"
@@ -35179,13 +35265,15 @@
     "docker-systemd": {
       "origin": "docker",
       "versions": {
-        "29.5.1-r0": 1779156966
+        "29.5.1-r0": 1779156966,
+        "29.5.2-r0": 1779325011
       }
     },
     "docker-zsh-completion": {
       "origin": "docker",
       "versions": {
-        "29.5.1-r0": 1779156966
+        "29.5.1-r0": 1779156966,
+        "29.5.2-r0": 1779325011
       }
     },
     "dockviz": {
@@ -36460,7 +36548,8 @@
     "dovecot-fts-xapian": {
       "origin": "dovecot-fts-xapian",
       "versions": {
-        "1.9.3-r1": 1768294070
+        "1.9.3-r1": 1768294070,
+        "1.9.3-r2": 1779370102
       },
       "dependencies": [
         "dovecot",
@@ -36471,7 +36560,7 @@
         "so:libicuuc.so.78",
         "so:libsqlite3.so.0",
         "so:libstdc++.so.6",
-        "so:libxapian.so.30"
+        "so:libxapian.so.45"
       ]
     },
     "dovi-tool": {
@@ -38978,15 +39067,16 @@
     "emacs": {
       "origin": "emacs",
       "versions": {
-        "30.2-r2": 1771160091
+        "30.2-r2": 1771160091,
+        "30.2-r3": 1779256921
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:ctags.emacs=30.2-r2",
-        "cmd:ebrowse=30.2-r2",
-        "cmd:etags=30.2-r2"
+        "cmd:ctags.emacs=30.2-r3",
+        "cmd:ebrowse=30.2-r3",
+        "cmd:etags=30.2-r3"
       ]
     },
     "emacs-ace-window": {
@@ -39172,7 +39262,8 @@
     "emacs-doc": {
       "origin": "emacs",
       "versions": {
-        "30.2-r2": 1771160091
+        "30.2-r2": 1771160091,
+        "30.2-r3": 1779256921
       }
     },
     "emacs-elfeed": {
@@ -39345,10 +39436,11 @@
     "emacs-gtk3": {
       "origin": "emacs",
       "versions": {
-        "30.2-r2": 1771160091
+        "30.2-r2": 1771160091,
+        "30.2-r3": 1779256921
       },
       "dependencies": [
-        "emacs=30.2-r2",
+        "emacs=30.2-r3",
         "!emacs-gtk3-nativecomp",
         "!emacs-pgtk",
         "!emacs-pgtk-nativecomp",
@@ -39391,7 +39483,7 @@
         "so:libpng16.so.16",
         "so:librsvg-2.so.2",
         "so:libsqlite3.so.0",
-        "so:libtree-sitter.so.0.25",
+        "so:libtree-sitter.so.0.26",
         "so:libwebpdecoder.so.3",
         "so:libwebpdemux.so.2",
         "so:libxcb-shape.so.0",
@@ -39400,18 +39492,19 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:emacs-30.2=30.2-r2",
-        "cmd:emacs=30.2-r2",
-        "cmd:emacsclient=30.2-r2"
+        "cmd:emacs-30.2=30.2-r3",
+        "cmd:emacs=30.2-r3",
+        "cmd:emacsclient=30.2-r3"
       ]
     },
     "emacs-gtk3-nativecomp": {
       "origin": "emacs",
       "versions": {
-        "30.2-r2": 1771160091
+        "30.2-r2": 1771160091,
+        "30.2-r3": 1779256921
       },
       "dependencies": [
-        "emacs=30.2-r2",
+        "emacs=30.2-r3",
         "!emacs-gtk3",
         "!emacs-pgtk",
         "!emacs-pgtk-nativecomp",
@@ -39457,7 +39550,7 @@
         "so:libpng16.so.16",
         "so:librsvg-2.so.2",
         "so:libsqlite3.so.0",
-        "so:libtree-sitter.so.0.25",
+        "so:libtree-sitter.so.0.26",
         "so:libwebpdecoder.so.3",
         "so:libwebpdemux.so.2",
         "so:libxcb-shape.so.0",
@@ -39466,9 +39559,9 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:emacs-30.2=30.2-r2",
-        "cmd:emacs=30.2-r2",
-        "cmd:emacsclient=30.2-r2"
+        "cmd:emacs-30.2=30.2-r3",
+        "cmd:emacs=30.2-r3",
+        "cmd:emacsclient=30.2-r3"
       ]
     },
     "emacs-hackernews": {
@@ -39626,10 +39719,11 @@
     "emacs-nox": {
       "origin": "emacs",
       "versions": {
-        "30.2-r2": 1771160091
+        "30.2-r2": 1771160091,
+        "30.2-r3": 1779256921
       },
       "dependencies": [
-        "emacs=30.2-r2",
+        "emacs=30.2-r3",
         "!emacs-gtk3",
         "!emacs-gtk3-nativecomp",
         "!emacs-pgtk",
@@ -39643,23 +39737,24 @@
         "so:liblcms2.so.2",
         "so:libncursesw.so.6",
         "so:libsqlite3.so.0",
-        "so:libtree-sitter.so.0.25",
+        "so:libtree-sitter.so.0.26",
         "so:libxml2.so.2",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:emacs-30.2=30.2-r2",
-        "cmd:emacs=30.2-r2",
-        "cmd:emacsclient=30.2-r2"
+        "cmd:emacs-30.2=30.2-r3",
+        "cmd:emacs=30.2-r3",
+        "cmd:emacsclient=30.2-r3"
       ]
     },
     "emacs-pgtk": {
       "origin": "emacs",
       "versions": {
-        "30.2-r2": 1771160091
+        "30.2-r2": 1771160091,
+        "30.2-r3": 1779256921
       },
       "dependencies": [
-        "emacs=30.2-r2",
+        "emacs=30.2-r3",
         "!emacs-gtk3",
         "!emacs-gtk3-nativecomp",
         "!emacs-pgtk-nativecomp",
@@ -39691,25 +39786,26 @@
         "so:libpng16.so.16",
         "so:librsvg-2.so.2",
         "so:libsqlite3.so.0",
-        "so:libtree-sitter.so.0.25",
+        "so:libtree-sitter.so.0.26",
         "so:libwebpdecoder.so.3",
         "so:libwebpdemux.so.2",
         "so:libxml2.so.2",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:emacs-30.2=30.2-r2",
-        "cmd:emacs=30.2-r2",
-        "cmd:emacsclient=30.2-r2"
+        "cmd:emacs-30.2=30.2-r3",
+        "cmd:emacs=30.2-r3",
+        "cmd:emacsclient=30.2-r3"
       ]
     },
     "emacs-pgtk-nativecomp": {
       "origin": "emacs",
       "versions": {
-        "30.2-r2": 1771160091
+        "30.2-r2": 1771160091,
+        "30.2-r3": 1779256921
       },
       "dependencies": [
-        "emacs=30.2-r2",
+        "emacs=30.2-r3",
         "!emacs-gtk3",
         "!emacs-gtk3-nativecomp",
         "!emacs-pgtk",
@@ -39744,16 +39840,16 @@
         "so:libpng16.so.16",
         "so:librsvg-2.so.2",
         "so:libsqlite3.so.0",
-        "so:libtree-sitter.so.0.25",
+        "so:libtree-sitter.so.0.26",
         "so:libwebpdecoder.so.3",
         "so:libwebpdemux.so.2",
         "so:libxml2.so.2",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:emacs-30.2=30.2-r2",
-        "cmd:emacs=30.2-r2",
-        "cmd:emacsclient=30.2-r2"
+        "cmd:emacs-30.2=30.2-r3",
+        "cmd:emacs=30.2-r3",
+        "cmd:emacsclient=30.2-r3"
       ]
     },
     "emacs-plz": {
@@ -40003,10 +40099,11 @@
     "emacs-x11": {
       "origin": "emacs",
       "versions": {
-        "30.2-r2": 1771160091
+        "30.2-r2": 1771160091,
+        "30.2-r3": 1779256921
       },
       "dependencies": [
-        "emacs=30.2-r2",
+        "emacs=30.2-r3",
         "!emacs-gtk3",
         "!emacs-gtk3-nativecomp",
         "!emacs-pgtk",
@@ -40050,7 +40147,7 @@
         "so:librsvg-2.so.2",
         "so:libsqlite3.so.0",
         "so:libtiff.so.6",
-        "so:libtree-sitter.so.0.25",
+        "so:libtree-sitter.so.0.26",
         "so:libwebpdecoder.so.3",
         "so:libwebpdemux.so.2",
         "so:libxcb-shape.so.0",
@@ -40059,18 +40156,19 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:emacs-30.2=30.2-r2",
-        "cmd:emacs=30.2-r2",
-        "cmd:emacsclient=30.2-r2"
+        "cmd:emacs-30.2=30.2-r3",
+        "cmd:emacs=30.2-r3",
+        "cmd:emacsclient=30.2-r3"
       ]
     },
     "emacs-x11-nativecomp": {
       "origin": "emacs",
       "versions": {
-        "30.2-r2": 1771160091
+        "30.2-r2": 1771160091,
+        "30.2-r3": 1779256921
       },
       "dependencies": [
-        "emacs=30.2-r2",
+        "emacs=30.2-r3",
         "!emacs-gtk3",
         "!emacs-gtk3-nativecomp",
         "!emacs-pgtk",
@@ -40117,7 +40215,7 @@
         "so:librsvg-2.so.2",
         "so:libsqlite3.so.0",
         "so:libtiff.so.6",
-        "so:libtree-sitter.so.0.25",
+        "so:libtree-sitter.so.0.26",
         "so:libwebpdecoder.so.3",
         "so:libwebpdemux.so.2",
         "so:libxcb-shape.so.0",
@@ -40126,9 +40224,9 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:emacs-30.2=30.2-r2",
-        "cmd:emacs=30.2-r2",
-        "cmd:emacsclient=30.2-r2"
+        "cmd:emacs-30.2=30.2-r3",
+        "cmd:emacs=30.2-r3",
+        "cmd:emacsclient=30.2-r3"
       ]
     },
     "emacs-xr": {
@@ -41469,7 +41567,8 @@
     "evince": {
       "origin": "evince",
       "versions": {
-        "48.1-r2": 1768240204
+        "48.1-r2": 1768240204,
+        "48.4-r0": 1779282639
       },
       "dependencies": [
         "adwaita-icon-theme",
@@ -41494,27 +41593,29 @@
         "so:libsecret-1.so.0"
       ],
       "provides": [
-        "cmd:evince-previewer=48.1-r2",
-        "cmd:evince-thumbnailer=48.1-r2",
-        "cmd:evince=48.1-r2"
+        "cmd:evince-previewer=48.4-r0",
+        "cmd:evince-thumbnailer=48.4-r0",
+        "cmd:evince=48.4-r0"
       ]
     },
     "evince-dbg": {
       "origin": "evince",
       "versions": {
-        "48.1-r2": 1768240204
+        "48.1-r2": 1768240204,
+        "48.4-r0": 1779282639
       },
       "dependencies": [
-        "!evince-libs<48.1-r2",
-        "!evince-libs>48.1-r2",
-        "!evince<48.1-r2",
-        "!evince>48.1-r2"
+        "!evince-libs<48.4-r0",
+        "!evince-libs>48.4-r0",
+        "!evince<48.4-r0",
+        "!evince>48.4-r0"
       ]
     },
     "evince-dev": {
       "origin": "evince",
       "versions": {
-        "48.1-r2": 1768240204
+        "48.1-r2": 1768240204,
+        "48.4-r0": 1779282639
       },
       "dependencies": [
         "gobject-introspection-dev",
@@ -41523,33 +41624,36 @@
         "libxml2-dev",
         "poppler-dev",
         "tiff-dev",
-        "evince-libs=48.1-r2",
+        "evince-libs=48.4-r0",
         "pc:gio-2.0>=2.44.0",
         "pc:gthread-2.0>=2.44.0",
         "pc:gtk+-3.0>=3.22.0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:evince-document-3.0=48.1",
-        "pc:evince-view-3.0=48.1"
+        "pc:evince-document-3.0=48.4",
+        "pc:evince-view-3.0=48.4"
       ]
     },
     "evince-doc": {
       "origin": "evince",
       "versions": {
-        "48.1-r2": 1768240204
+        "48.1-r2": 1768240204,
+        "48.4-r0": 1779282639
       }
     },
     "evince-lang": {
       "origin": "evince",
       "versions": {
-        "48.1-r2": 1768240204
+        "48.1-r2": 1768240204,
+        "48.4-r0": 1779282639
       }
     },
     "evince-libs": {
       "origin": "evince",
       "versions": {
-        "48.1-r2": 1768240204
+        "48.1-r2": 1768240204,
+        "48.4-r0": 1779282639
       },
       "dependencies": [
         "so:libarchive.so.13",
@@ -41582,13 +41686,15 @@
     "evince-systemd": {
       "origin": "evince",
       "versions": {
-        "48.1-r2": 1768240204
+        "48.1-r2": 1768240204,
+        "48.4-r0": 1779282639
       }
     },
     "evolution": {
       "origin": "evolution",
       "versions": {
-        "3.60.1-r0": 1775841260
+        "3.60.1-r0": 1775841260,
+        "3.60.2-r0": 1779530331
       },
       "dependencies": [
         "highlight",
@@ -41638,7 +41744,7 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:evolution=3.60.1-r0",
+        "cmd:evolution=3.60.2-r0",
         "so:libeabutil.so=0",
         "so:libeabwidgets.so=0",
         "so:libecontacteditor.so=0",
@@ -41664,7 +41770,8 @@
     "evolution-data-server": {
       "origin": "evolution-data-server",
       "versions": {
-        "3.60.1-r3": 1778323874
+        "3.60.1-r3": 1778323874,
+        "3.60.2-r1": 1779530332
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -41722,12 +41829,13 @@
     "evolution-data-server-dev": {
       "origin": "evolution-data-server",
       "versions": {
-        "3.60.1-r3": 1778323874
+        "3.60.1-r3": 1778323874,
+        "3.60.2-r1": 1779530332
       },
       "dependencies": [
         "gcr-dev",
         "icu-dev",
-        "evolution-data-server=3.60.1-r3",
+        "evolution-data-server=3.60.2-r1",
         "pc:gio-2.0",
         "pc:gmodule-2.0",
         "pc:gtk+-3.0",
@@ -41740,38 +41848,41 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:camel-1.2=3.60.1",
-        "pc:evolution-data-server-1.2=3.60.1",
-        "pc:libebackend-1.2=3.60.1",
-        "pc:libebook-1.2=3.60.1",
-        "pc:libebook-contacts-1.2=3.60.1",
-        "pc:libecal-2.0=3.60.1",
-        "pc:libedata-book-1.2=3.60.1",
-        "pc:libedata-cal-2.0=3.60.1",
-        "pc:libedataserver-1.2=3.60.1",
-        "pc:libedataserverui-1.2=3.60.1",
-        "pc:libedataserverui4-1.0=3.60.1"
+        "pc:camel-1.2=3.60.2",
+        "pc:evolution-data-server-1.2=3.60.2",
+        "pc:libebackend-1.2=3.60.2",
+        "pc:libebook-1.2=3.60.2",
+        "pc:libebook-contacts-1.2=3.60.2",
+        "pc:libecal-2.0=3.60.2",
+        "pc:libedata-book-1.2=3.60.2",
+        "pc:libedata-cal-2.0=3.60.2",
+        "pc:libedataserver-1.2=3.60.2",
+        "pc:libedataserverui-1.2=3.60.2",
+        "pc:libedataserverui4-1.0=3.60.2"
       ]
     },
     "evolution-data-server-lang": {
       "origin": "evolution-data-server",
       "versions": {
-        "3.60.1-r3": 1778323874
+        "3.60.1-r3": 1778323874,
+        "3.60.2-r1": 1779530332
       }
     },
     "evolution-data-server-systemd": {
       "origin": "evolution-data-server",
       "versions": {
-        "3.60.1-r3": 1778323874
+        "3.60.1-r3": 1778323874,
+        "3.60.2-r1": 1779530332
       }
     },
     "evolution-dev": {
       "origin": "evolution",
       "versions": {
-        "3.60.1-r0": 1775841260
+        "3.60.1-r0": 1775841260,
+        "3.60.2-r0": 1779530331
       },
       "dependencies": [
-        "evolution=3.60.1-r0",
+        "evolution=3.60.2-r0",
         "enchant2-dev",
         "gcr-dev",
         "itstool",
@@ -41791,22 +41902,24 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:evolution-calendar-3.0=3.60.1",
-        "pc:evolution-mail-3.0=3.60.1",
-        "pc:evolution-shell-3.0=3.60.1",
-        "pc:libemail-engine=3.60.1"
+        "pc:evolution-calendar-3.0=3.60.2",
+        "pc:evolution-mail-3.0=3.60.2",
+        "pc:evolution-shell-3.0=3.60.2",
+        "pc:libemail-engine=3.60.2"
       ]
     },
     "evolution-doc": {
       "origin": "evolution",
       "versions": {
-        "3.60.1-r0": 1775841260
+        "3.60.1-r0": 1775841260,
+        "3.60.2-r0": 1779530331
       }
     },
     "evolution-ews": {
       "origin": "evolution-ews",
       "versions": {
-        "3.60.1-r0": 1775841261
+        "3.60.1-r0": 1775841261,
+        "3.60.2-r0": 1779530331
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -41849,13 +41962,15 @@
     "evolution-ews-lang": {
       "origin": "evolution-ews",
       "versions": {
-        "3.60.1-r0": 1775841261
+        "3.60.1-r0": 1775841261,
+        "3.60.2-r0": 1779530331
       }
     },
     "evolution-lang": {
       "origin": "evolution",
       "versions": {
-        "3.60.1-r0": 1775841260
+        "3.60.1-r0": 1775841260,
+        "3.60.2-r0": 1779530331
       }
     },
     "evtest": {
@@ -45411,7 +45526,8 @@
     "firefox": {
       "origin": "firefox",
       "versions": {
-        "150.0.3-r0": 1778667882
+        "150.0.3-r0": 1778667882,
+        "151.0-r0": 1779281098
       },
       "dependencies": [
         "ffmpeg-libavcodec",
@@ -45463,7 +45579,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:firefox=150.0.3-r0",
+        "cmd:firefox=151.0-r0",
         "so:firefox:libgkcodecs.so=0",
         "so:firefox:liblgpllibs.so=0",
         "so:firefox:libmozavcodec.so=0",
@@ -45553,7 +45669,8 @@
     "firefox-intl": {
       "origin": "firefox",
       "versions": {
-        "150.0.3-r0": 1778667882
+        "150.0.3-r0": 1778667882,
+        "151.0-r0": 1779281098
       },
       "dependencies": [
         "icu-data-full"
@@ -49138,7 +49255,8 @@
     "foot": {
       "origin": "foot",
       "versions": {
-        "1.26.1-r0": 1773680663
+        "1.26.1-r0": 1773680663,
+        "1.27.0-r0": 1779472864
       },
       "dependencies": [
         "ncurses-terminfo",
@@ -49152,36 +49270,40 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:foot=1.26.1-r0",
-        "cmd:footclient=1.26.1-r0"
+        "cmd:foot=1.27.0-r0",
+        "cmd:footclient=1.27.0-r0"
       ]
     },
     "foot-bash-completion": {
       "origin": "foot",
       "versions": {
-        "1.26.1-r0": 1773680663
+        "1.26.1-r0": 1773680663,
+        "1.27.0-r0": 1779472864
       }
     },
     "foot-dbg": {
       "origin": "foot",
       "versions": {
-        "1.26.1-r0": 1773680663
+        "1.26.1-r0": 1773680663,
+        "1.27.0-r0": 1779472864
       },
       "dependencies": [
-        "!foot<1.26.1-r0",
-        "!foot>1.26.1-r0"
+        "!foot<1.27.0-r0",
+        "!foot>1.27.0-r0"
       ]
     },
     "foot-doc": {
       "origin": "foot",
       "versions": {
-        "1.26.1-r0": 1773680663
+        "1.26.1-r0": 1773680663,
+        "1.27.0-r0": 1779472864
       }
     },
     "foot-extra-terminfo": {
       "origin": "foot",
       "versions": {
-        "1.26.1-r0": 1773680663
+        "1.26.1-r0": 1773680663,
+        "1.27.0-r0": 1779472864
       },
       "dependencies": [
         "ncurses-terminfo"
@@ -49190,19 +49312,22 @@
     "foot-fish-completion": {
       "origin": "foot",
       "versions": {
-        "1.26.1-r0": 1773680663
+        "1.26.1-r0": 1773680663,
+        "1.27.0-r0": 1779472864
       }
     },
     "foot-openrc": {
       "origin": "foot",
       "versions": {
-        "1.26.1-r0": 1773680663
+        "1.26.1-r0": 1773680663,
+        "1.27.0-r0": 1779472864
       }
     },
     "foot-themes": {
       "origin": "foot",
       "versions": {
-        "1.26.1-r0": 1773680663
+        "1.26.1-r0": 1773680663,
+        "1.27.0-r0": 1779472864
       },
       "dependencies": [
         "ncurses-terminfo"
@@ -49211,7 +49336,8 @@
     "foot-zsh-completion": {
       "origin": "foot",
       "versions": {
-        "1.26.1-r0": 1773680663
+        "1.26.1-r0": 1773680663,
+        "1.27.0-r0": 1779472864
       }
     },
     "forgejo": {
@@ -50096,7 +50222,8 @@
     "freeciv": {
       "origin": "freeciv",
       "versions": {
-        "3.2.0-r1": 1768294072
+        "3.2.0-r1": 1768294072,
+        "3.2.4-r0": 1779503937
       },
       "dependencies": [
         "freeciv-server",
@@ -50116,13 +50243,14 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:freeciv-mp-gtk4=3.2.0-r1"
+        "cmd:freeciv-mp-gtk4=3.2.4-r0"
       ]
     },
     "freeciv-client-gtk3": {
       "origin": "freeciv",
       "versions": {
-        "3.2.0-r1": 1768294072
+        "3.2.0-r1": 1768294072,
+        "3.2.4-r0": 1779503937
       },
       "dependencies": [
         "freeciv-data",
@@ -50151,15 +50279,16 @@
       ],
       "provides": [
         "freeciv-client",
-        "cmd:freeciv-gtk3.22=3.2.0-r1",
-        "cmd:freeciv-manual=3.2.0-r1",
-        "cmd:freeciv-mp-gtk3=3.2.0-r1"
+        "cmd:freeciv-gtk3.22=3.2.4-r0",
+        "cmd:freeciv-manual=3.2.4-r0",
+        "cmd:freeciv-mp-gtk3=3.2.4-r0"
       ]
     },
     "freeciv-client-gtk4": {
       "origin": "freeciv",
       "versions": {
-        "3.2.0-r1": 1768294072
+        "3.2.0-r1": 1768294072,
+        "3.2.4-r0": 1779503937
       },
       "dependencies": [
         "freeciv-data",
@@ -50186,13 +50315,14 @@
       ],
       "provides": [
         "freeciv-client",
-        "cmd:freeciv-gtk4=3.2.0-r1"
+        "cmd:freeciv-gtk4=3.2.4-r0"
       ]
     },
     "freeciv-client-qt": {
       "origin": "freeciv",
       "versions": {
-        "3.2.0-r1": 1768294072
+        "3.2.0-r1": 1768294072,
+        "3.2.4-r0": 1779503937
       },
       "dependencies": [
         "freeciv-data",
@@ -50218,16 +50348,17 @@
       ],
       "provides": [
         "freeciv-client",
-        "cmd:freeciv-mp-qt=3.2.0-r1",
-        "cmd:freeciv-qt=3.2.0-r1",
-        "cmd:freeciv-ruledit=3.2.0-r1",
-        "cmd:freeciv-ruleup=3.2.0-r1"
+        "cmd:freeciv-mp-qt=3.2.4-r0",
+        "cmd:freeciv-qt=3.2.4-r0",
+        "cmd:freeciv-ruledit=3.2.4-r0",
+        "cmd:freeciv-ruleup=3.2.4-r0"
       ]
     },
     "freeciv-client-sdl2": {
       "origin": "freeciv",
       "versions": {
-        "3.2.0-r1": 1768294072
+        "3.2.0-r1": 1768294072,
+        "3.2.4-r0": 1779503937
       },
       "dependencies": [
         "freeciv-data",
@@ -50249,37 +50380,42 @@
       ],
       "provides": [
         "freeciv-client",
-        "cmd:freeciv-sdl2=3.2.0-r1"
+        "cmd:freeciv-sdl2=3.2.4-r0"
       ]
     },
     "freeciv-common-client": {
       "origin": "freeciv",
       "versions": {
-        "3.2.0-r1": 1768294072
+        "3.2.0-r1": 1768294072,
+        "3.2.4-r0": 1779503937
       }
     },
     "freeciv-data": {
       "origin": "freeciv",
       "versions": {
-        "3.2.0-r1": 1768294072
+        "3.2.0-r1": 1768294072,
+        "3.2.4-r0": 1779503937
       }
     },
     "freeciv-doc": {
       "origin": "freeciv",
       "versions": {
-        "3.2.0-r1": 1768294072
+        "3.2.0-r1": 1768294072,
+        "3.2.4-r0": 1779503937
       }
     },
     "freeciv-lang": {
       "origin": "freeciv",
       "versions": {
-        "3.2.0-r1": 1768294072
+        "3.2.0-r1": 1768294072,
+        "3.2.4-r0": 1779503937
       }
     },
     "freeciv-server": {
       "origin": "freeciv",
       "versions": {
-        "3.2.0-r1": 1768294072
+        "3.2.0-r1": 1768294072,
+        "3.2.4-r0": 1779503937
       },
       "dependencies": [
         "freeciv-data",
@@ -50295,8 +50431,8 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:freeciv-mp-cli=3.2.0-r1",
-        "cmd:freeciv-server=3.2.0-r1"
+        "cmd:freeciv-mp-cli=3.2.4-r0",
+        "cmd:freeciv-server=3.2.4-r0"
       ]
     },
     "freedoom": {
@@ -52914,7 +53050,8 @@
     "gcompris-qt": {
       "origin": "gcompris-qt",
       "versions": {
-        "25.1.1-r4": 1770113315
+        "25.1.1-r4": 1770113315,
+        "26.1-r0": 1779562777
       },
       "dependencies": [
         "qt6-qtsvg",
@@ -52926,13 +53063,12 @@
         "so:libQt6Qml.so.6",
         "so:libQt6Quick.so.6",
         "so:libQt6Sensors.so.6",
-        "so:libQt6Widgets.so.6",
         "so:libc.musl-armv7.so.1",
         "so:libgcc_s.so.1",
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:gcompris-qt=25.1.1-r4"
+        "cmd:gcompris-qt=26.1-r0"
       ]
     },
     "gcovr": {
@@ -54957,7 +55093,8 @@
     "geeqie": {
       "origin": "geeqie",
       "versions": {
-        "2.6.1-r0": 1759236526
+        "2.6.1-r0": 1759236526,
+        "2.7-r0": 1779382881
       },
       "dependencies": [
         "so:libarchive.so.13",
@@ -54982,25 +55119,28 @@
         "so:libwebp.so.7"
       ],
       "provides": [
-        "cmd:geeqie=2.6.1-r0"
+        "cmd:geeqie=2.7-r0"
       ]
     },
     "geeqie-bash-completion": {
       "origin": "geeqie",
       "versions": {
-        "2.6.1-r0": 1759236526
+        "2.6.1-r0": 1759236526,
+        "2.7-r0": 1779382881
       }
     },
     "geeqie-doc": {
       "origin": "geeqie",
       "versions": {
-        "2.6.1-r0": 1759236526
+        "2.6.1-r0": 1759236526,
+        "2.7-r0": 1779382881
       }
     },
     "geeqie-lang": {
       "origin": "geeqie",
       "versions": {
-        "2.6.1-r0": 1759236526
+        "2.6.1-r0": 1759236526,
+        "2.7-r0": 1779382881
       }
     },
     "gegl": {
@@ -56977,38 +57117,43 @@
     "glab": {
       "origin": "glab",
       "versions": {
-        "1.97.0-r0": 1778753095
+        "1.97.0-r0": 1778753095,
+        "1.99.0-r0": 1779571493
       },
       "dependencies": [
         "git",
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:glab=1.97.0-r0"
+        "cmd:glab=1.99.0-r0"
       ]
     },
     "glab-bash-completion": {
       "origin": "glab",
       "versions": {
-        "1.97.0-r0": 1778753095
+        "1.97.0-r0": 1778753095,
+        "1.99.0-r0": 1779571493
       }
     },
     "glab-doc": {
       "origin": "glab",
       "versions": {
-        "1.97.0-r0": 1778753095
+        "1.97.0-r0": 1778753095,
+        "1.99.0-r0": 1779571493
       }
     },
     "glab-fish-completion": {
       "origin": "glab",
       "versions": {
-        "1.97.0-r0": 1778753095
+        "1.97.0-r0": 1778753095,
+        "1.99.0-r0": 1779571493
       }
     },
     "glab-zsh-completion": {
       "origin": "glab",
       "versions": {
-        "1.97.0-r0": 1778753095
+        "1.97.0-r0": 1778753095,
+        "1.99.0-r0": 1779571493
       }
     },
     "glade": {
@@ -59916,7 +60061,8 @@
     "gnome-software": {
       "origin": "gnome-software",
       "versions": {
-        "50.1-r0": 1776161606
+        "50.1-r0": 1776161606,
+        "50.2-r0": 1779530331
       },
       "dependencies": [
         "gnome-app-list",
@@ -59939,38 +60085,41 @@
         "so:libxmlb.so.2"
       ],
       "provides": [
-        "cmd:gnome-software=50.1-r0"
+        "cmd:gnome-software=50.2-r0"
       ]
     },
     "gnome-software-bash-completion": {
       "origin": "gnome-software",
       "versions": {
-        "50.1-r0": 1776161606
+        "50.1-r0": 1776161606,
+        "50.2-r0": 1779530331
       }
     },
     "gnome-software-dbg": {
       "origin": "gnome-software",
       "versions": {
-        "50.1-r0": 1776161606
+        "50.1-r0": 1776161606,
+        "50.2-r0": 1779530331
       },
       "dependencies": [
-        "!gnome-software-lib<50.1-r0",
-        "!gnome-software-lib>50.1-r0",
-        "!gnome-software-plugin-flatpak<50.1-r0",
-        "!gnome-software-plugin-flatpak>50.1-r0",
-        "!gnome-software-plugin-sysupdate<50.1-r0",
-        "!gnome-software-plugin-sysupdate>50.1-r0",
-        "!gnome-software<50.1-r0",
-        "!gnome-software>50.1-r0"
+        "!gnome-software-lib<50.2-r0",
+        "!gnome-software-lib>50.2-r0",
+        "!gnome-software-plugin-flatpak<50.2-r0",
+        "!gnome-software-plugin-flatpak>50.2-r0",
+        "!gnome-software-plugin-sysupdate<50.2-r0",
+        "!gnome-software-plugin-sysupdate>50.2-r0",
+        "!gnome-software<50.2-r0",
+        "!gnome-software>50.2-r0"
       ]
     },
     "gnome-software-dev": {
       "origin": "gnome-software",
       "versions": {
-        "50.1-r0": 1776161606
+        "50.1-r0": 1776161606,
+        "50.2-r0": 1779530331
       },
       "dependencies": [
-        "gnome-software-lib=50.1-r0",
+        "gnome-software-lib=50.2-r0",
         "pc:appstream>=0.16.4",
         "pc:gio-unix-2.0>=2.56.0",
         "pc:glib-2.0>=2.76.0",
@@ -59983,25 +60132,28 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:gnome-software=50.1"
+        "pc:gnome-software=50.2"
       ]
     },
     "gnome-software-doc": {
       "origin": "gnome-software",
       "versions": {
-        "50.1-r0": 1776161606
+        "50.1-r0": 1776161606,
+        "50.2-r0": 1779530331
       }
     },
     "gnome-software-lang": {
       "origin": "gnome-software",
       "versions": {
-        "50.1-r0": 1776161606
+        "50.1-r0": 1776161606,
+        "50.2-r0": 1779530331
       }
     },
     "gnome-software-lib": {
       "origin": "gnome-software",
       "versions": {
-        "50.1-r0": 1776161606
+        "50.1-r0": 1776161606,
+        "50.2-r0": 1779530331
       },
       "dependencies": [
         "so:libappstream.so.5",
@@ -60053,7 +60205,8 @@
     "gnome-software-plugin-flatpak": {
       "origin": "gnome-software",
       "versions": {
-        "50.1-r0": 1776161606
+        "50.1-r0": 1776161606,
+        "50.2-r0": 1779530331
       },
       "dependencies": [
         "so:libappstream.so.5",
@@ -60071,7 +60224,8 @@
     "gnome-software-plugin-sysupdate": {
       "origin": "gnome-software",
       "versions": {
-        "50.1-r0": 1776161606
+        "50.1-r0": 1776161606,
+        "50.2-r0": 1779530331
       },
       "dependencies": [
         "so:libappstream.so.5",
@@ -60087,7 +60241,8 @@
     "gnome-software-systemd": {
       "origin": "gnome-software",
       "versions": {
-        "50.1-r0": 1776161606
+        "50.1-r0": 1776161606,
+        "50.2-r0": 1779530331
       }
     },
     "gnome-sound-recorder": {
@@ -61407,50 +61562,56 @@
     "go-task": {
       "origin": "go-task",
       "versions": {
-        "3.50.0-r1": 1778661427
+        "3.50.0-r1": 1778661427,
+        "3.51.1-r0": 1779563568
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:go-task=3.50.0-r1"
+        "cmd:go-task=3.51.1-r0"
       ]
     },
     "go-task-bashcomp": {
       "origin": "go-task",
       "versions": {
-        "3.50.0-r1": 1778661427
+        "3.50.0-r1": 1778661427,
+        "3.51.1-r0": 1779563568
       }
     },
     "go-task-doc": {
       "origin": "go-task",
       "versions": {
-        "3.50.0-r1": 1778661427
+        "3.50.0-r1": 1778661427,
+        "3.51.1-r0": 1779563568
       }
     },
     "go-task-fishcomp": {
       "origin": "go-task",
       "versions": {
-        "3.50.0-r1": 1778661427
+        "3.50.0-r1": 1778661427,
+        "3.51.1-r0": 1779563568
       }
     },
     "go-task-task": {
       "origin": "go-task",
       "versions": {
-        "3.50.0-r1": 1778661427
+        "3.50.0-r1": 1778661427,
+        "3.51.1-r0": 1779563568
       },
       "dependencies": [
         "!task",
-        "go-task=3.50.0-r1"
+        "go-task=3.51.1-r0"
       ],
       "provides": [
-        "cmd:task=3.50.0-r1"
+        "cmd:task=3.51.1-r0"
       ]
     },
     "go-task-zshcomp": {
       "origin": "go-task",
       "versions": {
-        "3.50.0-r1": 1778661427
+        "3.50.0-r1": 1778661427,
+        "3.51.1-r0": 1779563568
       }
     },
     "go2rtc": {
@@ -69978,7 +70139,8 @@
     "got": {
       "origin": "got",
       "versions": {
-        "0.125-r0": 1778538077
+        "0.125-r0": 1778538077,
+        "0.126-r0": 1779570871
       },
       "dependencies": [
         "so:libbsd.so.0",
@@ -69993,21 +70155,22 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:gitwrapper=0.125-r0",
-        "cmd:got=0.125-r0",
-        "cmd:gotadmin=0.125-r0",
-        "cmd:gotctl=0.125-r0",
-        "cmd:gotd=0.125-r0",
-        "cmd:gotsh=0.125-r0",
-        "cmd:gotwebctl=0.125-r0",
-        "cmd:gotwebd=0.125-r0",
-        "cmd:tog=0.125-r0"
+        "cmd:gitwrapper=0.126-r0",
+        "cmd:got=0.126-r0",
+        "cmd:gotadmin=0.126-r0",
+        "cmd:gotctl=0.126-r0",
+        "cmd:gotd=0.126-r0",
+        "cmd:gotsh=0.126-r0",
+        "cmd:gotwebctl=0.126-r0",
+        "cmd:gotwebd=0.126-r0",
+        "cmd:tog=0.126-r0"
       ]
     },
     "got-doc": {
       "origin": "got",
       "versions": {
-        "0.125-r0": 1778538077
+        "0.125-r0": 1778538077,
+        "0.126-r0": 1779570871
       }
     },
     "gotestfmt": {
@@ -72687,7 +72850,8 @@
     "gst-plugin-pipewire": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       },
       "dependencies": [
         "pipewire-session-manager",
@@ -76447,11 +76611,12 @@
     "gvim": {
       "origin": "vim",
       "versions": {
-        "9.2.0498-r0": 1779056078
+        "9.2.0498-r0": 1779056078,
+        "9.2.0514-r0": 1779497738
       },
       "dependencies": [
-        "vim-common=9.2.0498-r0",
-        "xxd=9.2.0498-r0",
+        "vim-common=9.2.0514-r0",
+        "xxd=9.2.0514-r0",
         "so:libICE.so.6",
         "so:libSM.so.6",
         "so:libX11.so.6",
@@ -76470,26 +76635,27 @@
         "so:libwayland-client.so.0"
       ],
       "provides": [
-        "vim=9.2.0498-r0",
-        "cmd:eview=9.2.0498-r0",
-        "cmd:evim=9.2.0498-r0",
-        "cmd:ex=9.2.0498-r0",
-        "cmd:gview=9.2.0498-r0",
-        "cmd:gvim=9.2.0498-r0",
-        "cmd:gvimdiff=9.2.0498-r0",
-        "cmd:gvimtutor=9.2.0498-r0",
-        "cmd:rgview=9.2.0498-r0",
-        "cmd:rgvim=9.2.0498-r0",
-        "cmd:rview=9.2.0498-r0",
-        "cmd:rvim=9.2.0498-r0",
-        "cmd:view=9.2.0498-r0",
-        "cmd:vim=9.2.0498-r0"
+        "vim=9.2.0514-r0",
+        "cmd:eview=9.2.0514-r0",
+        "cmd:evim=9.2.0514-r0",
+        "cmd:ex=9.2.0514-r0",
+        "cmd:gview=9.2.0514-r0",
+        "cmd:gvim=9.2.0514-r0",
+        "cmd:gvimdiff=9.2.0514-r0",
+        "cmd:gvimtutor=9.2.0514-r0",
+        "cmd:rgview=9.2.0514-r0",
+        "cmd:rgvim=9.2.0514-r0",
+        "cmd:rview=9.2.0514-r0",
+        "cmd:rvim=9.2.0514-r0",
+        "cmd:view=9.2.0514-r0",
+        "cmd:vim=9.2.0514-r0"
       ]
     },
     "gvm-libs": {
       "origin": "gvm-libs",
       "versions": {
-        "22.41.0-r0": 1777984331
+        "22.41.0-r0": 1777984331,
+        "23.1.2-r0": 1779553477
       },
       "dependencies": [
         "/bin/sh",
@@ -76514,27 +76680,28 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libgvm_agent_controller.so.22=22.41.0",
-        "so:libgvm_base.so.22=22.41.0",
-        "so:libgvm_boreas.so.22=22.41.0",
-        "so:libgvm_container_image_scanner.so.22=22.41.0",
-        "so:libgvm_cyberark.so.22=22.41.0",
-        "so:libgvm_gmp.so.22=22.41.0",
-        "so:libgvm_http.so.22=22.41.0",
-        "so:libgvm_http_scanner.so.22=22.41.0",
-        "so:libgvm_openvasd.so.22=22.41.0",
-        "so:libgvm_osp.so.22=22.41.0",
-        "so:libgvm_security_intelligence.so.22=22.41.0",
-        "so:libgvm_util.so.22=22.41.0"
+        "so:libgvm_agent_controller.so.23=23.1.2",
+        "so:libgvm_base.so.23=23.1.2",
+        "so:libgvm_boreas.so.23=23.1.2",
+        "so:libgvm_container_image_scanner.so.23=23.1.2",
+        "so:libgvm_cyberark.so.23=23.1.2",
+        "so:libgvm_gmp.so.23=23.1.2",
+        "so:libgvm_http.so.23=23.1.2",
+        "so:libgvm_http_scanner.so.23=23.1.2",
+        "so:libgvm_openvasd.so.23=23.1.2",
+        "so:libgvm_osp.so.23=23.1.2",
+        "so:libgvm_security_intelligence.so.23=23.1.2",
+        "so:libgvm_util.so.23=23.1.2"
       ]
     },
     "gvm-libs-dev": {
       "origin": "gvm-libs",
       "versions": {
-        "22.41.0-r0": 1777984331
+        "22.41.0-r0": 1777984331,
+        "23.1.2-r0": 1779553477
       },
       "dependencies": [
-        "gvm-libs=22.41.0-r0",
+        "gvm-libs=23.1.2-r0",
         "pc:gio-2.0>=2.42.1",
         "pc:glib-2.0>=2.42.0",
         "pc:glib-2.0>=2.42.1",
@@ -76544,30 +76711,32 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:libgvm_agent_controller=22.41.0",
-        "pc:libgvm_base=22.41.0",
-        "pc:libgvm_boreas=22.41.0",
-        "pc:libgvm_container_image_scanner=22.41.0",
-        "pc:libgvm_cyberark=22.41.0",
-        "pc:libgvm_gmp=22.41.0",
-        "pc:libgvm_http=22.41.0",
-        "pc:libgvm_http_scanner=22.41.0",
-        "pc:libgvm_openvasd=22.41.0",
-        "pc:libgvm_osp=22.41.0",
-        "pc:libgvm_security_intelligence=22.41.0",
-        "pc:libgvm_util=22.41.0"
+        "pc:libgvm_agent_controller=23.1.2",
+        "pc:libgvm_base=23.1.2",
+        "pc:libgvm_boreas=23.1.2",
+        "pc:libgvm_container_image_scanner=23.1.2",
+        "pc:libgvm_cyberark=23.1.2",
+        "pc:libgvm_gmp=23.1.2",
+        "pc:libgvm_http=23.1.2",
+        "pc:libgvm_http_scanner=23.1.2",
+        "pc:libgvm_openvasd=23.1.2",
+        "pc:libgvm_osp=23.1.2",
+        "pc:libgvm_security_intelligence=23.1.2",
+        "pc:libgvm_util=23.1.2"
       ]
     },
     "gvm-libs-doc": {
       "origin": "gvm-libs",
       "versions": {
-        "22.41.0-r0": 1777984331
+        "22.41.0-r0": 1777984331,
+        "23.1.2-r0": 1779553477
       }
     },
     "gvm-tools": {
       "origin": "gvm-tools",
       "versions": {
-        "26.0.2-r0": 1777992072
+        "26.0.2-r0": 1777992072,
+        "26.0.4-r0": 1779553477
       },
       "dependencies": [
         "python3",
@@ -76576,16 +76745,17 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:gvm-cli=26.0.2-r0",
-        "cmd:gvm-pyshell=26.0.2-r0",
-        "cmd:gvm-script=26.0.2-r0",
-        "py3.14:gvmtools=26.0.2-r0"
+        "cmd:gvm-cli=26.0.4-r0",
+        "cmd:gvm-pyshell=26.0.4-r0",
+        "cmd:gvm-script=26.0.4-r0",
+        "py3.14:gvmtools=26.0.4-r0"
       ]
     },
     "gvm-tools-pyc": {
       "origin": "gvm-tools",
       "versions": {
-        "26.0.2-r0": 1777992072
+        "26.0.2-r0": 1777992072,
+        "26.0.4-r0": 1779553477
       },
       "dependencies": [
         "python3~3.14"
@@ -76594,7 +76764,8 @@
     "gvmd": {
       "origin": "gvmd",
       "versions": {
-        "26.24.0-r0": 1777992039
+        "26.24.0-r0": 1777992039,
+        "26.28.0-r0": 1779553477
       },
       "dependencies": [
         "rsync",
@@ -76614,35 +76785,38 @@
         "so:libglib-2.0.so.0",
         "so:libgnutls.so.30",
         "so:libgpgme.so.45",
-        "so:libgvm_base.so.22",
-        "so:libgvm_gmp.so.22",
-        "so:libgvm_osp.so.22",
-        "so:libgvm_util.so.22",
+        "so:libgvm_base.so.23",
+        "so:libgvm_gmp.so.23",
+        "so:libgvm_osp.so.23",
+        "so:libgvm_util.so.23",
         "so:libical.so.3",
         "so:libpq.so.5"
       ],
       "provides": [
-        "cmd:gvm-manage-certs=26.24.0-r0",
-        "cmd:gvmd=26.24.0-r0",
-        "so:libgvm-pg-server.so.26=26.24.0"
+        "cmd:gvm-manage-certs=26.28.0-r0",
+        "cmd:gvmd=26.28.0-r0",
+        "so:libgvm-pg-server.so.26=26.28.0"
       ]
     },
     "gvmd-doc": {
       "origin": "gvmd",
       "versions": {
-        "26.24.0-r0": 1777992039
+        "26.24.0-r0": 1777992039,
+        "26.28.0-r0": 1779553477
       }
     },
     "gvmd-openrc": {
       "origin": "gvmd",
       "versions": {
-        "26.24.0-r0": 1777992039
+        "26.24.0-r0": 1777992039,
+        "26.28.0-r0": 1779553477
       }
     },
     "gvmd-systemd": {
       "origin": "gvmd",
       "versions": {
-        "26.24.0-r0": 1777992039
+        "26.24.0-r0": 1777992039,
+        "26.28.0-r0": 1779553477
       }
     },
     "gvncviewer": {
@@ -78573,10 +78747,11 @@
     "hplip": {
       "origin": "hplip",
       "versions": {
-        "3.25.8-r3": 1775925402
+        "3.25.8-r3": 1775925402,
+        "3.26.4-r0": 1779383305
       },
       "dependencies": [
-        "hplip-libs=3.25.8-r3",
+        "hplip-libs=3.26.4-r0",
         "python3~3.14",
         "so:libc.musl-armv7.so.1",
         "so:libcups.so.2",
@@ -78594,13 +78769,15 @@
     "hplip-doc": {
       "origin": "hplip",
       "versions": {
-        "3.25.8-r3": 1775925402
+        "3.25.8-r3": 1775925402,
+        "3.26.4-r0": 1779383305
       }
     },
     "hplip-libs": {
       "origin": "hplip",
       "versions": {
-        "3.25.8-r3": 1775925402
+        "3.25.8-r3": 1775925402,
+        "3.26.4-r0": 1779383305
       },
       "dependencies": [
         "so:libavahi-client.so.3",
@@ -78620,7 +78797,8 @@
     "hplip-ppd": {
       "origin": "hplip",
       "versions": {
-        "3.25.8-r3": 1775925402
+        "3.25.8-r3": 1775925402,
+        "3.26.4-r0": 1779383305
       }
     },
     "hr": {
@@ -79944,38 +80122,41 @@
     "i2c-tools": {
       "origin": "i2c-tools",
       "versions": {
-        "4.4-r2": 1774640372
+        "4.4-r2": 1774640372,
+        "4.4-r3": 1779530885
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:ddcmon=4.4-r2",
-        "cmd:decode-dimms=4.4-r2",
-        "cmd:decode-edid=4.4-r2",
-        "cmd:decode-vaio=4.4-r2",
-        "cmd:i2c-stub-from-dump=4.4-r2",
-        "cmd:i2cdetect=4.4-r2",
-        "cmd:i2cdump=4.4-r2",
-        "cmd:i2cget=4.4-r2",
-        "cmd:i2cset=4.4-r2",
-        "cmd:i2ctransfer=4.4-r2",
+        "cmd:ddcmon=4.4-r3",
+        "cmd:decode-dimms=4.4-r3",
+        "cmd:decode-edid=4.4-r3",
+        "cmd:decode-vaio=4.4-r3",
+        "cmd:i2c-stub-from-dump=4.4-r3",
+        "cmd:i2cdetect=4.4-r3",
+        "cmd:i2cdump=4.4-r3",
+        "cmd:i2cget=4.4-r3",
+        "cmd:i2cset=4.4-r3",
+        "cmd:i2ctransfer=4.4-r3",
         "so:libi2c.so.0=0.1.1"
       ]
     },
     "i2c-tools-dev": {
       "origin": "i2c-tools",
       "versions": {
-        "4.4-r2": 1774640372
+        "4.4-r2": 1774640372,
+        "4.4-r3": 1779530885
       },
       "dependencies": [
-        "i2c-tools=4.4-r2"
+        "i2c-tools=4.4-r3"
       ]
     },
     "i2c-tools-doc": {
       "origin": "i2c-tools",
       "versions": {
-        "4.4-r2": 1774640372
+        "4.4-r2": 1774640372,
+        "4.4-r3": 1779530885
       }
     },
     "i2pd": {
@@ -85759,7 +85940,8 @@
     "k2": {
       "origin": "k2",
       "versions": {
-        "0_git20250903-r0": 1769566951
+        "0_git20250903-r0": 1769566951,
+        "0_git20260430-r0": 1779556049
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -85767,7 +85949,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:k2=0_git20250903-r0"
+        "cmd:k2=0_git20260430-r0"
       ]
     },
     "k3b": {
@@ -85848,7 +86030,8 @@
     "k3s": {
       "origin": "k3s",
       "versions": {
-        "1.36.0.1-r1": 1778661427
+        "1.36.0.1-r1": 1778661427,
+        "1.36.1.1-r0": 1779315374
       },
       "dependencies": [
         "cni-plugins",
@@ -85863,25 +86046,28 @@
         "/bin/sh"
       ],
       "provides": [
-        "cmd:k3s=1.36.0.1-r1"
+        "cmd:k3s=1.36.1.1-r0"
       ]
     },
     "k3s-doc": {
       "origin": "k3s",
       "versions": {
-        "1.36.0.1-r1": 1778661427
+        "1.36.0.1-r1": 1778661427,
+        "1.36.1.1-r0": 1779315374
       }
     },
     "k3s-openrc": {
       "origin": "k3s",
       "versions": {
-        "1.36.0.1-r1": 1778661427
+        "1.36.0.1-r1": 1778661427,
+        "1.36.1.1-r0": 1779315374
       }
     },
     "k3s-systemd": {
       "origin": "k3s",
       "versions": {
-        "1.36.0.1-r1": 1778661427
+        "1.36.0.1-r1": 1778661427,
+        "1.36.1.1-r0": 1779315374
       }
     },
     "k9s": {
@@ -86038,7 +86224,8 @@
     "kakoune": {
       "origin": "kakoune",
       "versions": {
-        "2026.04.12-r0": 1775974293
+        "2026.04.12-r0": 1775974293,
+        "2026.05.21-r1": 1779460948
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -86046,13 +86233,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kak=2026.04.12-r0"
+        "cmd:kak=2026.05.21-r1"
       ]
     },
     "kakoune-doc": {
       "origin": "kakoune",
       "versions": {
-        "2026.04.12-r0": 1775974293
+        "2026.04.12-r0": 1775974293,
+        "2026.05.21-r1": 1779460948
       }
     },
     "kakoune-lsp": {
@@ -93165,7 +93353,8 @@
     "kitinerary": {
       "origin": "kitinerary",
       "versions": {
-        "26.04.0-r1": 1778323874
+        "26.04.0-r1": 1778323874,
+        "26.04.0-r2": 1779530332
       },
       "dependencies": [
         "so:libKF6Archive.so.6",
@@ -93197,7 +93386,8 @@
     "kitinerary-dev": {
       "origin": "kitinerary",
       "versions": {
-        "26.04.0-r1": 1778323874
+        "26.04.0-r1": 1778323874,
+        "26.04.0-r2": 1779530332
       },
       "dependencies": [
         "kcalendarcore-dev",
@@ -93206,13 +93396,14 @@
         "kpkpass-dev",
         "libphonenumber-dev",
         "zxing-cpp-dev",
-        "kitinerary=26.04.0-r1"
+        "kitinerary=26.04.0-r2"
       ]
     },
     "kitinerary-lang": {
       "origin": "kitinerary",
       "versions": {
-        "26.04.0-r1": 1778323874
+        "26.04.0-r1": 1778323874,
+        "26.04.0-r2": 1779530332
       }
     },
     "kitty": {
@@ -106111,7 +106302,8 @@
     "libfreeciv-static": {
       "origin": "freeciv",
       "versions": {
-        "3.2.0-r1": 1768294072
+        "3.2.0-r1": 1768294072,
+        "3.2.4-r0": 1779503937
       }
     },
     "libfreehand": {
@@ -106735,7 +106927,8 @@
     "libgeocoding": {
       "origin": "libphonenumber",
       "versions": {
-        "9.0.30-r0": 1778323874
+        "9.0.30-r0": 1778323874,
+        "9.0.31-r0": 1779530332
       },
       "dependencies": [
         "so:libabsl_synchronization.so.2508.0.0",
@@ -110011,7 +110204,8 @@
     "libkiwix": {
       "origin": "libkiwix",
       "versions": {
-        "14.2.0-r0": 1774382521
+        "14.2.0-r0": 1774382521,
+        "14.2.0-r1": 1779370102
       },
       "dependencies": [
         "aria2",
@@ -110023,24 +110217,25 @@
         "so:libmicrohttpd.so.12",
         "so:libpugixml.so.1",
         "so:libstdc++.so.6",
-        "so:libxapian.so.30",
+        "so:libxapian.so.45",
         "so:libz.so.1",
         "so:libzim.so.9"
       ],
       "provides": [
-        "kiwix-lib=14.2.0-r0",
-        "cmd:kiwix-compile-i18n=14.2.0-r0",
-        "cmd:kiwix-compile-resources=14.2.0-r0",
+        "kiwix-lib=14.2.0-r1",
+        "cmd:kiwix-compile-i18n=14.2.0-r1",
+        "cmd:kiwix-compile-resources=14.2.0-r1",
         "so:libkiwix.so.14=14.2.0"
       ]
     },
     "libkiwix-dev": {
       "origin": "libkiwix",
       "versions": {
-        "14.2.0-r0": 1774382521
+        "14.2.0-r0": 1774382521,
+        "14.2.0-r1": 1779370102
       },
       "dependencies": [
-        "libkiwix=14.2.0-r0",
+        "libkiwix=14.2.0-r1",
         "pc:icu-i18n",
         "pc:icu-uc",
         "pc:libcurl",
@@ -110059,7 +110254,8 @@
     "libkiwix-doc": {
       "origin": "libkiwix",
       "versions": {
-        "14.2.0-r0": 1774382521
+        "14.2.0-r0": 1774382521,
+        "14.2.0-r1": 1779370102
       }
     },
     "libkkc": {
@@ -114775,7 +114971,8 @@
     "libphonenumber": {
       "origin": "libphonenumber",
       "versions": {
-        "9.0.30-r0": 1778323874
+        "9.0.30-r0": 1778323874,
+        "9.0.31-r0": 1779530332
       },
       "dependencies": [
         "so:libabsl_hash.so.2508.0.0",
@@ -114799,21 +114996,23 @@
     "libphonenumber-dev": {
       "origin": "libphonenumber",
       "versions": {
-        "9.0.30-r0": 1778323874
+        "9.0.30-r0": 1778323874,
+        "9.0.31-r0": 1779530332
       },
       "dependencies": [
         "libphonenumber-static",
         "abseil-cpp-dev",
         "icu-dev",
         "protobuf-dev",
-        "libgeocoding=9.0.30-r0",
-        "libphonenumber=9.0.30-r0"
+        "libgeocoding=9.0.31-r0",
+        "libphonenumber=9.0.31-r0"
       ]
     },
     "libphonenumber-static": {
       "origin": "libphonenumber",
       "versions": {
-        "9.0.30-r0": 1778323874
+        "9.0.30-r0": 1778323874,
+        "9.0.31-r0": 1779530332
       },
       "dependencies": [
         "libphonenumber-dev"
@@ -118728,7 +118927,8 @@
     "librewolf": {
       "origin": "librewolf",
       "versions": {
-        "150.0.1_p1-r0": 1778172214
+        "150.0.1_p1-r0": 1778172214,
+        "151.0_p1-r0": 1779534493
       },
       "dependencies": [
         "ffmpeg-libavcodec",
@@ -118778,7 +118978,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:librewolf=150.0.1_p1-r0",
+        "cmd:librewolf=151.0_p1-r0",
         "so:librewolf:libgkcodecs.so=0",
         "so:librewolf:liblgpllibs.so=0",
         "so:librewolf:libmozavcodec.so=0",
@@ -119527,7 +119727,8 @@
     "libsigc++3": {
       "origin": "libsigc++3",
       "versions": {
-        "3.8.0-r0": 1766073759
+        "3.8.0-r0": 1766073759,
+        "3.8.1-r0": 1779563295
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -119541,14 +119742,15 @@
     "libsigc++3-dev": {
       "origin": "libsigc++3",
       "versions": {
-        "3.8.0-r0": 1766073759
+        "3.8.0-r0": 1766073759,
+        "3.8.1-r0": 1779563295
       },
       "dependencies": [
-        "libsigc++3=3.8.0-r0",
+        "libsigc++3=3.8.1-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:sigc++-3.0=3.8.0"
+        "pc:sigc++-3.0=3.8.1"
       ]
     },
     "libsignal-protocol-c": {
@@ -123127,7 +123329,8 @@
     "libxdp": {
       "origin": "xdp-tools",
       "versions": {
-        "1.6.3-r0": 1777470236
+        "1.6.3-r0": 1777470236,
+        "1.6.3-r1": 1779461059
       },
       "dependencies": [
         "so:libbpf.so.1",
@@ -123140,10 +123343,11 @@
     "libxdp-dev": {
       "origin": "xdp-tools",
       "versions": {
-        "1.6.3-r0": 1777470236
+        "1.6.3-r0": 1777470236,
+        "1.6.3-r1": 1779461059
       },
       "dependencies": [
-        "libxdp=1.6.3-r0",
+        "libxdp=1.6.3-r1",
         "pc:libbpf",
         "pkgconfig"
       ],
@@ -123154,7 +123358,8 @@
     "libxdp-static": {
       "origin": "xdp-tools",
       "versions": {
-        "1.6.3-r0": 1777470236
+        "1.6.3-r0": 1777470236,
+        "1.6.3-r1": 1779461059
       },
       "dependencies": [
         "libxdp-dev"
@@ -123492,7 +123697,8 @@
     "libxmlb": {
       "origin": "libxmlb",
       "versions": {
-        "0.3.26-r0": 1776257330
+        "0.3.26-r0": 1776257330,
+        "0.3.27-r0": 1779282639
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -123509,23 +123715,25 @@
     "libxmlb-dbg": {
       "origin": "libxmlb",
       "versions": {
-        "0.3.26-r0": 1776257330
+        "0.3.26-r0": 1776257330,
+        "0.3.27-r0": 1779282639
       },
       "dependencies": [
-        "!libxmlb-dev<0.3.26-r0",
-        "!libxmlb-dev>0.3.26-r0",
-        "!libxmlb<0.3.26-r0",
-        "!libxmlb>0.3.26-r0"
+        "!libxmlb-dev<0.3.27-r0",
+        "!libxmlb-dev>0.3.27-r0",
+        "!libxmlb<0.3.27-r0",
+        "!libxmlb>0.3.27-r0"
       ]
     },
     "libxmlb-dev": {
       "origin": "libxmlb",
       "versions": {
-        "0.3.26-r0": 1776257330
+        "0.3.26-r0": 1776257330,
+        "0.3.27-r0": 1779282639
       },
       "dependencies": [
-        "libxmlb=0.3.26-r0",
-        "pc:gio-2.0>=2.45.8",
+        "libxmlb=0.3.27-r0",
+        "pc:gio-2.0>=2.68.0",
         "pc:liblzma",
         "pc:libzstd",
         "pkgconfig",
@@ -123536,14 +123744,15 @@
         "so:libxmlb.so.2"
       ],
       "provides": [
-        "cmd:xb-tool=0.3.26-r0",
-        "pc:xmlb=0.3.26"
+        "cmd:xb-tool=0.3.27-r0",
+        "pc:xmlb=0.3.27"
       ]
     },
     "libxmlb-doc": {
       "origin": "libxmlb",
       "versions": {
-        "0.3.26-r0": 1776257330
+        "0.3.26-r0": 1776257330,
+        "0.3.27-r0": 1779282639
       }
     },
     "libxmp": {
@@ -123893,7 +124102,8 @@
     "libzeitgeist": {
       "origin": "zeitgeist",
       "versions": {
-        "1.0.4-r4": 1774640448
+        "1.0.4-r4": 1774640448,
+        "1.0.4-r5": 1779370102
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -123936,7 +124146,8 @@
     "libzim": {
       "origin": "libzim",
       "versions": {
-        "9.7.0-r0": 1778448064
+        "9.7.0-r0": 1778448064,
+        "9.7.0-r2": 1779370102
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -123945,7 +124156,7 @@
         "so:libicuuc.so.78",
         "so:liblzma.so.5",
         "so:libstdc++.so.6",
-        "so:libxapian.so.30",
+        "so:libxapian.so.45",
         "so:libzstd.so.1"
       ],
       "provides": [
@@ -123955,10 +124166,11 @@
     "libzim-dev": {
       "origin": "libzim",
       "versions": {
-        "9.7.0-r0": 1778448064
+        "9.7.0-r0": 1778448064,
+        "9.7.0-r2": 1779370102
       },
       "dependencies": [
-        "libzim=9.7.0-r0",
+        "libzim=9.7.0-r2",
         "pc:icu-i18n",
         "pc:icu-uc",
         "pc:liblzma",
@@ -123973,7 +124185,8 @@
     "libzim-doc": {
       "origin": "libzim",
       "versions": {
-        "9.7.0-r0": 1778448064
+        "9.7.0-r0": 1778448064,
+        "9.7.0-r2": 1779370102
       }
     },
     "libzip": {
@@ -124510,20 +124723,22 @@
     "linux-stable": {
       "origin": "linux-stable",
       "versions": {
-        "7.0.9-r0": 1779033522
+        "7.0.9-r0": 1779033522,
+        "7.0.10-r0": 1779537019
       },
       "dependencies": [
         "initramfs-generator",
         "linux-firmware-any"
       ],
       "provides": [
-        "linux-edge=7.0.9-r0"
+        "linux-edge=7.0.10-r0"
       ]
     },
     "linux-stable-dev": {
       "origin": "linux-stable",
       "versions": {
-        "7.0.9-r0": 1779033522
+        "7.0.9-r0": 1779033522,
+        "7.0.10-r0": 1779537019
       },
       "dependencies": [
         "perl",
@@ -124546,7 +124761,8 @@
     "linux-stable-doc": {
       "origin": "linux-stable",
       "versions": {
-        "7.0.9-r0": 1779033522
+        "7.0.9-r0": 1779033522,
+        "7.0.10-r0": 1779537019
       }
     },
     "linuxconsoletools": {
@@ -127508,7 +127724,8 @@
     "lua-luaphonenumber": {
       "origin": "lua-luaphonenumber",
       "versions": {
-        "1.0.1-r54": 1778323874
+        "1.0.1-r54": 1778323874,
+        "1.0.1-r55": 1779530332
       },
       "dependencies": [
         "libphonenumber"
@@ -127669,10 +127886,11 @@
     "lua-resty-hmac": {
       "origin": "lua-resty-hmac",
       "versions": {
-        "0.06-r1": 1765112254
+        "0.06-r1": 1765112254,
+        "0.06-r2": 1779376172
       },
       "dependencies": [
-        "nginx-mod-http-lua",
+        "openresty-mod-http-lua",
         "lua-resty-string"
       ]
     },
@@ -127724,10 +127942,11 @@
     "lua-resty-string": {
       "origin": "lua-resty-string",
       "versions": {
-        "0.15-r0": 1765112254
+        "0.15-r0": 1765112254,
+        "0.15-r1": 1779376172
       },
       "dependencies": [
-        "nginx-mod-http-lua"
+        "openresty-mod-http-lua"
       ]
     },
     "lua-signal": {
@@ -128142,7 +128361,8 @@
     "lua5.1-luaphonenumber": {
       "origin": "lua-luaphonenumber",
       "versions": {
-        "1.0.1-r54": 1778323874
+        "1.0.1-r54": 1778323874,
+        "1.0.1-r55": 1779530332
       },
       "dependencies": [
         "lua5.1",
@@ -128713,7 +128933,8 @@
     "lua5.2-luaphonenumber": {
       "origin": "lua-luaphonenumber",
       "versions": {
-        "1.0.1-r54": 1778323874
+        "1.0.1-r54": 1778323874,
+        "1.0.1-r55": 1779530332
       },
       "dependencies": [
         "lua5.2",
@@ -129256,7 +129477,8 @@
     "lua5.3-luaphonenumber": {
       "origin": "lua-luaphonenumber",
       "versions": {
-        "1.0.1-r54": 1778323874
+        "1.0.1-r54": 1778323874,
+        "1.0.1-r55": 1779530332
       },
       "dependencies": [
         "lua5.3",
@@ -129736,7 +129958,8 @@
     "lua5.4-luaphonenumber": {
       "origin": "lua-luaphonenumber",
       "versions": {
-        "1.0.1-r54": 1778323874
+        "1.0.1-r54": 1778323874,
+        "1.0.1-r55": 1779530332
       },
       "dependencies": [
         "lua5.4",
@@ -129996,7 +130219,8 @@
     "lua5.5-luaphonenumber": {
       "origin": "lua-luaphonenumber",
       "versions": {
-        "1.0.1-r54": 1778323874
+        "1.0.1-r54": 1778323874,
+        "1.0.1-r55": 1779530332
       },
       "dependencies": [
         "lua5.5",
@@ -134564,26 +134788,29 @@
     "mdbook": {
       "origin": "mdbook",
       "versions": {
-        "0.5.2-r0": 1769045077
+        "0.5.2-r0": 1769045077,
+        "0.5.3-r0": 1779534803
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:mdbook=0.5.2-r0"
+        "cmd:mdbook=0.5.3-r0"
       ]
     },
     "mdbook-bash-completion": {
       "origin": "mdbook",
       "versions": {
-        "0.5.2-r0": 1769045077
+        "0.5.2-r0": 1769045077,
+        "0.5.3-r0": 1779534803
       }
     },
     "mdbook-fish-completion": {
       "origin": "mdbook",
       "versions": {
-        "0.5.2-r0": 1769045077
+        "0.5.2-r0": 1769045077,
+        "0.5.3-r0": 1779534803
       }
     },
     "mdbook-mermaid": {
@@ -134623,7 +134850,8 @@
     "mdbook-zsh-completion": {
       "origin": "mdbook",
       "versions": {
-        "0.5.2-r0": 1769045077
+        "0.5.2-r0": 1769045077,
+        "0.5.3-r0": 1779534803
       }
     },
     "mdbtools": {
@@ -136785,38 +137013,43 @@
     "minijinja-cli": {
       "origin": "minijinja-cli",
       "versions": {
-        "2.19.0-r0": 1776023540
+        "2.19.0-r0": 1776023540,
+        "2.20.0-r0": 1779524150
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:minijinja-cli=2.19.0-r0"
+        "cmd:minijinja-cli=2.20.0-r0"
       ]
     },
     "minijinja-cli-bash-completion": {
       "origin": "minijinja-cli",
       "versions": {
-        "2.19.0-r0": 1776023540
+        "2.19.0-r0": 1776023540,
+        "2.20.0-r0": 1779524150
       }
     },
     "minijinja-cli-doc": {
       "origin": "minijinja-cli",
       "versions": {
-        "2.19.0-r0": 1776023540
+        "2.19.0-r0": 1776023540,
+        "2.20.0-r0": 1779524150
       }
     },
     "minijinja-cli-fish-completion": {
       "origin": "minijinja-cli",
       "versions": {
-        "2.19.0-r0": 1776023540
+        "2.19.0-r0": 1776023540,
+        "2.20.0-r0": 1779524150
       }
     },
     "minijinja-cli-zsh-completion": {
       "origin": "minijinja-cli",
       "versions": {
-        "2.19.0-r0": 1776023540
+        "2.19.0-r0": 1776023540,
+        "2.20.0-r0": 1779524150
       }
     },
     "minio-client": {
@@ -137174,11 +137407,13 @@
     "mitmproxy": {
       "origin": "mitmproxy",
       "versions": {
-        "11.0.0-r2": 1776595260
+        "11.0.0-r2": 1776595260,
+        "11.0.0-r3": 1779502080
       },
       "dependencies": [
         "py3-aioquic",
         "py3-asgiref",
+        "py3-bcrypt",
         "py3-brotli",
         "py3-certifi",
         "py3-cryptography",
@@ -137204,16 +137439,17 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:mitmdump=11.0.0-r2",
-        "cmd:mitmproxy=11.0.0-r2",
-        "cmd:mitmweb=11.0.0-r2",
-        "py3.14:mitmproxy=11.0.0-r2"
+        "cmd:mitmdump=11.0.0-r3",
+        "cmd:mitmproxy=11.0.0-r3",
+        "cmd:mitmweb=11.0.0-r3",
+        "py3.14:mitmproxy=11.0.0-r3"
       ]
     },
     "mitmproxy-pyc": {
       "origin": "mitmproxy",
       "versions": {
-        "11.0.0-r2": 1776595260
+        "11.0.0-r2": 1776595260,
+        "11.0.0-r3": 1779502080
       },
       "dependencies": [
         "python3~3.14"
@@ -137748,7 +137984,8 @@
     "mmsd-tng": {
       "origin": "mmsd-tng",
       "versions": {
-        "2.6.4-r23": 1778323874
+        "2.6.4-r23": 1778323874,
+        "2.6.4-r24": 1779530332
       },
       "dependencies": [
         "mobile-broadband-provider-info",
@@ -137766,27 +138003,30 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "mmsd=2.6.4-r23",
-        "cmd:mmsctl=2.6.4-r23",
-        "cmd:mmsdtng=2.6.4-r23"
+        "mmsd=2.6.4-r24",
+        "cmd:mmsctl=2.6.4-r24",
+        "cmd:mmsdtng=2.6.4-r24"
       ]
     },
     "mmsd-tng-openrc": {
       "origin": "mmsd-tng",
       "versions": {
-        "2.6.4-r23": 1778323874
+        "2.6.4-r23": 1778323874,
+        "2.6.4-r24": 1779530332
       }
     },
     "mmsd-tng-systemd": {
       "origin": "mmsd-tng",
       "versions": {
-        "2.6.4-r23": 1778323874
+        "2.6.4-r23": 1778323874,
+        "2.6.4-r24": 1779530332
       }
     },
     "mmsd-tng-tools": {
       "origin": "mmsd-tng",
       "versions": {
-        "2.6.4-r23": 1778323874
+        "2.6.4-r23": 1778323874,
+        "2.6.4-r24": 1779530332
       },
       "dependencies": [
         "mobile-broadband-provider-info",
@@ -137794,8 +138034,8 @@
         "so:libglib-2.0.so.0"
       ],
       "provides": [
-        "cmd:create-hex-array=2.6.4-r23",
-        "cmd:decode-mms=2.6.4-r23"
+        "cmd:create-hex-array=2.6.4-r24",
+        "cmd:decode-mms=2.6.4-r24"
       ]
     },
     "mmtc": {
@@ -138676,7 +138916,8 @@
     "mozjs": {
       "origin": "mozjs",
       "versions": {
-        "140.10.1-r0": 1777958985
+        "140.10.1-r0": 1777958985,
+        "140.11.0-r0": 1779492914
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -138688,14 +138929,15 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:js140=140.10.1-r0",
+        "cmd:js140=140.11.0-r0",
         "so:libmozjs-140.so=0"
       ]
     },
     "mozjs-dev": {
       "origin": "mozjs",
       "versions": {
-        "140.10.1-r0": 1777958985
+        "140.10.1-r0": 1777958985,
+        "140.11.0-r0": 1779492914
       },
       "dependencies": [
         "mozjs",
@@ -138706,8 +138948,8 @@
         "pkgconfig"
       ],
       "provides": [
-        "cmd:js140-config=140.10.1-r0",
-        "pc:mozjs-140=140.10.1"
+        "cmd:js140-config=140.11.0-r0",
+        "pc:mozjs-140=140.11.0"
       ]
     },
     "mozo": {
@@ -138841,7 +139083,8 @@
     "mpd": {
       "origin": "mpd",
       "versions": {
-        "0.24.10-r0": 1778308246
+        "0.24.10-r0": 1778308246,
+        "0.24.12-r0": 1779492335
       },
       "dependencies": [
         "/bin/sh",
@@ -138860,6 +139103,7 @@
         "so:libcdio_cdda.so.2",
         "so:libcdio_paranoia.so.2",
         "so:libcurl.so.4",
+        "so:libdbus-1.so.3",
         "so:libexpat.so.1",
         "so:libfaad.so.2",
         "so:libfmt.so.11",
@@ -138891,23 +139135,25 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:mpd=0.24.10-r0"
+        "cmd:mpd=0.24.12-r0"
       ]
     },
     "mpd-dbg": {
       "origin": "mpd",
       "versions": {
-        "0.24.10-r0": 1778308246
+        "0.24.10-r0": 1778308246,
+        "0.24.12-r0": 1779492335
       },
       "dependencies": [
-        "!mpd<0.24.10-r0",
-        "!mpd>0.24.10-r0"
+        "!mpd<0.24.12-r0",
+        "!mpd>0.24.12-r0"
       ]
     },
     "mpd-doc": {
       "origin": "mpd",
       "versions": {
-        "0.24.10-r0": 1778308246
+        "0.24.10-r0": 1778308246,
+        "0.24.12-r0": 1779492335
       }
     },
     "mpd-mpris": {
@@ -138925,7 +139171,8 @@
     "mpd-openrc": {
       "origin": "mpd",
       "versions": {
-        "0.24.10-r0": 1778308246
+        "0.24.10-r0": 1778308246,
+        "0.24.12-r0": 1779492335
       }
     },
     "mpdris2-rs": {
@@ -142373,34 +142620,42 @@
     "neovim": {
       "origin": "neovim",
       "versions": {
-        "0.11.7-r0": 1774905671
+        "0.11.7-r0": 1774905671,
+        "0.12.2-r0": 1779345284
       },
       "dependencies": [
         "lua5.1-lpeg",
+        "tree-sitter-c",
+        "tree-sitter-lua",
+        "tree-sitter-markdown",
+        "tree-sitter-vim",
         "tree-sitter-vimdoc",
+        "tree-sitter-query",
         "so:libc.musl-armv7.so.1",
         "so:libintl.so.8",
         "so:libluajit-5.1.so.2",
         "so:libluv.so.1",
-        "so:libtree-sitter.so.0.25",
+        "so:libtree-sitter.so.0.26",
         "so:libunibilium.so.4",
         "so:libutf8proc.so.3",
         "so:libuv.so.1"
       ],
       "provides": [
-        "cmd:nvim=0.11.7-r0"
+        "cmd:nvim=0.12.2-r0"
       ]
     },
     "neovim-doc": {
       "origin": "neovim",
       "versions": {
-        "0.11.7-r0": 1774905671
+        "0.11.7-r0": 1774905671,
+        "0.12.2-r0": 1779345284
       }
     },
     "neovim-lang": {
       "origin": "neovim",
       "versions": {
-        "0.11.7-r0": 1774905671
+        "0.11.7-r0": 1774905671,
+        "0.12.2-r0": 1779345284
       }
     },
     "nerd-fonts": {
@@ -142623,7 +142878,8 @@
     "netbird": {
       "origin": "netbird",
       "versions": {
-        "0.70.5-r1": 1778661427
+        "0.70.5-r1": 1778661427,
+        "0.71.2-r0": 1779323460
       },
       "dependencies": [
         "openresolv",
@@ -142631,94 +142887,105 @@
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:netbird=0.70.5-r1"
+        "cmd:netbird=0.71.2-r0"
       ]
     },
     "netbird-bash-completion": {
       "origin": "netbird",
       "versions": {
-        "0.70.5-r1": 1778661427
+        "0.70.5-r1": 1778661427,
+        "0.71.2-r0": 1779323460
       }
     },
     "netbird-doc": {
       "origin": "netbird",
       "versions": {
-        "0.70.5-r1": 1778661427
+        "0.70.5-r1": 1778661427,
+        "0.71.2-r0": 1779323460
       }
     },
     "netbird-fish-completion": {
       "origin": "netbird",
       "versions": {
-        "0.70.5-r1": 1778661427
+        "0.70.5-r1": 1778661427,
+        "0.71.2-r0": 1779323460
       }
     },
     "netbird-mgmt": {
       "origin": "netbird",
       "versions": {
-        "0.70.5-r1": 1778661427
+        "0.70.5-r1": 1778661427,
+        "0.71.2-r0": 1779323460
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:netbird-mgmt=0.70.5-r1"
+        "cmd:netbird-mgmt=0.71.2-r0"
       ]
     },
     "netbird-mgmt-openrc": {
       "origin": "netbird",
       "versions": {
-        "0.70.5-r1": 1778661427
+        "0.70.5-r1": 1778661427,
+        "0.71.2-r0": 1779323460
       }
     },
     "netbird-openrc": {
       "origin": "netbird",
       "versions": {
-        "0.70.5-r1": 1778661427
+        "0.70.5-r1": 1778661427,
+        "0.71.2-r0": 1779323460
       }
     },
     "netbird-relay": {
       "origin": "netbird",
       "versions": {
-        "0.70.5-r1": 1778661427
+        "0.70.5-r1": 1778661427,
+        "0.71.2-r0": 1779323460
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:netbird-relay=0.70.5-r1"
+        "cmd:netbird-relay=0.71.2-r0"
       ]
     },
     "netbird-relay-openrc": {
       "origin": "netbird",
       "versions": {
-        "0.70.5-r1": 1778661427
+        "0.70.5-r1": 1778661427,
+        "0.71.2-r0": 1779323460
       }
     },
     "netbird-signal": {
       "origin": "netbird",
       "versions": {
-        "0.70.5-r1": 1778661427
+        "0.70.5-r1": 1778661427,
+        "0.71.2-r0": 1779323460
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:netbird-signal=0.70.5-r1"
+        "cmd:netbird-signal=0.71.2-r0"
       ]
     },
     "netbird-signal-openrc": {
       "origin": "netbird",
       "versions": {
-        "0.70.5-r1": 1778661427
+        "0.70.5-r1": 1778661427,
+        "0.71.2-r0": 1779323460
       }
     },
     "netbird-ui": {
       "origin": "netbird",
       "versions": {
-        "0.70.5-r1": 1778661427
+        "0.70.5-r1": 1778661427,
+        "0.71.2-r0": 1779323460
       },
       "dependencies": [
         "openresolv",
@@ -142727,13 +142994,14 @@
         "so:libwayland-client.so.0"
       ],
       "provides": [
-        "cmd:netbird-ui=0.70.5-r1"
+        "cmd:netbird-ui=0.71.2-r0"
       ]
     },
     "netbird-zsh-completion": {
       "origin": "netbird",
       "versions": {
-        "0.70.5-r1": 1778661427
+        "0.70.5-r1": 1778661427,
+        "0.71.2-r0": 1779323460
       }
     },
     "netcdf": {
@@ -146664,7 +146932,8 @@
     "notmuch": {
       "origin": "notmuch",
       "versions": {
-        "0.40-r1": 1774640381
+        "0.40-r1": 1774640381,
+        "0.40-r2": 1779370102
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -146676,47 +146945,52 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:notmuch=0.40-r1"
+        "cmd:notmuch=0.40-r2"
       ]
     },
     "notmuch-bash-completion": {
       "origin": "notmuch",
       "versions": {
-        "0.40-r1": 1774640381
+        "0.40-r1": 1774640381,
+        "0.40-r2": 1779370102
       }
     },
     "notmuch-dev": {
       "origin": "notmuch",
       "versions": {
-        "0.40-r1": 1774640381
+        "0.40-r1": 1774640381,
+        "0.40-r2": 1779370102
       },
       "dependencies": [
-        "notmuch-libs=0.40-r1"
+        "notmuch-libs=0.40-r2"
       ]
     },
     "notmuch-doc": {
       "origin": "notmuch",
       "versions": {
-        "0.40-r1": 1774640381
+        "0.40-r1": 1774640381,
+        "0.40-r2": 1779370102
       }
     },
     "notmuch-emacs": {
       "origin": "notmuch",
       "versions": {
-        "0.40-r1": 1774640381
+        "0.40-r1": 1774640381,
+        "0.40-r2": 1779370102
       },
       "dependencies": [
         "emacs",
-        "notmuch=0.40-r1"
+        "notmuch=0.40-r2"
       ],
       "provides": [
-        "cmd:notmuch-emacs-mua=0.40-r1"
+        "cmd:notmuch-emacs-mua=0.40-r2"
       ]
     },
     "notmuch-libs": {
       "origin": "notmuch",
       "versions": {
-        "0.40-r1": 1774640381
+        "0.40-r1": 1774640381,
+        "0.40-r2": 1779370102
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -146726,7 +147000,7 @@
         "so:libgobject-2.0.so.0",
         "so:libstdc++.so.6",
         "so:libtalloc.so.2",
-        "so:libxapian.so.30"
+        "so:libxapian.so.45"
       ],
       "provides": [
         "so:libnotmuch.so.5=5.7.0"
@@ -146735,17 +147009,19 @@
     "notmuch-vim": {
       "origin": "notmuch",
       "versions": {
-        "0.40-r1": 1774640381
+        "0.40-r1": 1774640381,
+        "0.40-r2": 1779370102
       },
       "dependencies": [
         "vim",
-        "notmuch=0.40-r1"
+        "notmuch=0.40-r2"
       ]
     },
     "notmuch-zsh-completion": {
       "origin": "notmuch",
       "versions": {
-        "0.40-r1": 1774640381
+        "0.40-r1": 1774640381,
+        "0.40-r2": 1779370102
       }
     },
     "nototools": {
@@ -148309,7 +148585,8 @@
       "origin": "obs-studio",
       "versions": {
         "32.1.2-r1": 1777022464,
-        "32.1.2-r2": 1779210865
+        "32.1.2-r2": 1779210865,
+        "32.1.2-r3": 1779261074
       },
       "dependencies": [
         "so:libEGL.so.1",
@@ -148373,8 +148650,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:obs-ffmpeg-mux=32.1.2-r2",
-        "cmd:obs=32.1.2-r2",
+        "cmd:obs-ffmpeg-mux=32.1.2-r3",
+        "cmd:obs=32.1.2-r3",
         "so:libobs-frontend-api.so.30=30",
         "so:libobs-opengl.so.30=30",
         "so:libobs-scripting.so.30=30",
@@ -148385,10 +148662,12 @@
       "origin": "obs-studio",
       "versions": {
         "32.1.2-r1": 1777022464,
-        "32.1.2-r2": 1779210865
+        "32.1.2-r2": 1779210865,
+        "32.1.2-r3": 1779261074
       },
       "dependencies": [
-        "obs-studio=32.1.2-r2",
+        "simde-dev",
+        "obs-studio=32.1.2-r3",
         "pkgconfig"
       ],
       "provides": [
@@ -167725,9 +168004,11 @@
     "oo7": {
       "origin": "oo7",
       "versions": {
-        "0.6.0-r3": 1778084572
+        "0.6.0-r3": 1778084572,
+        "0.6.0-r4": 1779544423
       },
       "dependencies": [
+        "oo7-cli",
         "oo7-pam",
         "oo7-portal",
         "oo7-server"
@@ -167736,26 +168017,29 @@
     "oo7-cli": {
       "origin": "oo7",
       "versions": {
-        "0.6.0-r3": 1778084572
+        "0.6.0-r3": 1778084572,
+        "0.6.0-r4": 1779544423
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:oo7-cli=0.6.0-r3"
+        "cmd:oo7-cli=0.6.0-r4"
       ]
     },
     "oo7-doc": {
       "origin": "oo7",
       "versions": {
-        "0.6.0-r3": 1778084572
+        "0.6.0-r3": 1778084572,
+        "0.6.0-r4": 1779544423
       }
     },
     "oo7-pam": {
       "origin": "oo7",
       "versions": {
-        "0.6.0-r3": 1778084572
+        "0.6.0-r3": 1778084572,
+        "0.6.0-r4": 1779544423
       },
       "dependencies": [
         "oo7-server",
@@ -167766,7 +168050,8 @@
     "oo7-portal": {
       "origin": "oo7",
       "versions": {
-        "0.6.0-r3": 1778084572
+        "0.6.0-r3": 1778084572,
+        "0.6.0-r4": 1779544423
       },
       "dependencies": [
         "dbus",
@@ -167777,9 +168062,11 @@
     "oo7-portal-openrc": {
       "origin": "oo7",
       "versions": {
-        "0.6.0-r3": 1778084572
+        "0.6.0-r3": 1778084572,
+        "0.6.0-r4": 1779544423
       },
       "dependencies": [
+        "oo7-cli",
         "oo7-pam",
         "oo7-portal",
         "oo7-server"
@@ -167788,9 +168075,11 @@
     "oo7-portal-systemd": {
       "origin": "oo7",
       "versions": {
-        "0.6.0-r3": 1778084572
+        "0.6.0-r3": 1778084572,
+        "0.6.0-r4": 1779544423
       },
       "dependencies": [
+        "oo7-cli",
         "oo7-pam",
         "oo7-portal",
         "oo7-server"
@@ -167799,20 +168088,26 @@
     "oo7-server": {
       "origin": "oo7",
       "versions": {
-        "0.6.0-r3": 1778084572
+        "0.6.0-r3": 1778084572,
+        "0.6.0-r4": 1779544423
       },
       "dependencies": [
         "dbus",
         "so:libc.musl-armv7.so.1",
         "so:libgcc_s.so.1"
+      ],
+      "provides": [
+        "dbus:org.freedesktop.Secrets"
       ]
     },
     "oo7-server-openrc": {
       "origin": "oo7",
       "versions": {
-        "0.6.0-r3": 1778084572
+        "0.6.0-r3": 1778084572,
+        "0.6.0-r4": 1779544423
       },
       "dependencies": [
+        "oo7-cli",
         "oo7-pam",
         "oo7-portal",
         "oo7-server"
@@ -167821,9 +168116,11 @@
     "oo7-server-systemd": {
       "origin": "oo7",
       "versions": {
-        "0.6.0-r3": 1778084572
+        "0.6.0-r3": 1778084572,
+        "0.6.0-r4": 1779544423
       },
       "dependencies": [
+        "oo7-cli",
         "oo7-pam",
         "oo7-portal",
         "oo7-server"
@@ -168085,20 +168382,22 @@
     "openbao": {
       "origin": "openbao",
       "versions": {
-        "2.5.0-r3": 1778661427
+        "2.5.0-r3": 1778661427,
+        "2.5.4-r0": 1779387602
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:bao=2.5.0-r3"
+        "cmd:bao=2.5.4-r0"
       ]
     },
     "openbao-openrc": {
       "origin": "openbao",
       "versions": {
-        "2.5.0-r3": 1778661427
+        "2.5.0-r3": 1778661427,
+        "2.5.4-r0": 1779387602
       }
     },
     "openbgpd": {
@@ -168545,7 +168844,8 @@
     "opencolorio": {
       "origin": "opencolorio",
       "versions": {
-        "2.5.1-r3": 1776595803
+        "2.5.1-r3": 1776595803,
+        "2.5.2-r0": 1779491012
       },
       "dependencies": [
         "so:libImath-3_2.so.30",
@@ -168558,26 +168858,28 @@
         "so:libyaml-cpp.so.0.9"
       ],
       "provides": [
-        "so:libOpenColorIO.so.2.5=2.5.1"
+        "so:libOpenColorIO.so.2.5=2.5.2"
       ]
     },
     "opencolorio-dev": {
       "origin": "opencolorio",
       "versions": {
-        "2.5.1-r3": 1776595803
+        "2.5.1-r3": 1776595803,
+        "2.5.2-r0": 1779491012
       },
       "dependencies": [
-        "opencolorio=2.5.1-r3",
+        "opencolorio=2.5.2-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:OpenColorIO=2.5.1"
+        "pc:OpenColorIO=2.5.2"
       ]
     },
     "opencolorio-tools": {
       "origin": "opencolorio",
       "versions": {
-        "2.5.1-r3": 1776595803
+        "2.5.1-r3": 1776595803,
+        "2.5.2-r0": 1779491012
       },
       "dependencies": [
         "so:libGL.so.1",
@@ -168594,18 +168896,18 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:ocioarchive=2.5.1-r3",
-        "cmd:ociobakelut=2.5.1-r3",
-        "cmd:ociocheck=2.5.1-r3",
-        "cmd:ociochecklut=2.5.1-r3",
-        "cmd:ocioconvert=2.5.1-r3",
-        "cmd:ociocpuinfo=2.5.1-r3",
-        "cmd:ociodisplay=2.5.1-r3",
-        "cmd:ociolutimage=2.5.1-r3",
-        "cmd:ociomakeclf=2.5.1-r3",
-        "cmd:ociomergeconfigs=2.5.1-r3",
-        "cmd:ocioperf=2.5.1-r3",
-        "cmd:ociowrite=2.5.1-r3"
+        "cmd:ocioarchive=2.5.2-r0",
+        "cmd:ociobakelut=2.5.2-r0",
+        "cmd:ociocheck=2.5.2-r0",
+        "cmd:ociochecklut=2.5.2-r0",
+        "cmd:ocioconvert=2.5.2-r0",
+        "cmd:ociocpuinfo=2.5.2-r0",
+        "cmd:ociodisplay=2.5.2-r0",
+        "cmd:ociolutimage=2.5.2-r0",
+        "cmd:ociomakeclf=2.5.2-r0",
+        "cmd:ociomergeconfigs=2.5.2-r0",
+        "cmd:ocioperf=2.5.2-r0",
+        "cmd:ociowrite=2.5.2-r0"
       ]
     },
     "openconnect": {
@@ -169375,7 +169677,8 @@
     "openimageio": {
       "origin": "openimageio",
       "versions": {
-        "3.1.12.0-r1": 1777277460
+        "3.1.12.0-r1": 1777277460,
+        "3.1.13.1-r0": 1779491249
       },
       "dependencies": [
         "so:libIex-3_4.so.33",
@@ -169404,33 +169707,36 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libOpenImageIO.so.3.1=3.1.12",
-        "so:libOpenImageIO_Util.so.3.1=3.1.12"
+        "so:libOpenImageIO.so.3.1=3.1.13",
+        "so:libOpenImageIO_Util.so.3.1=3.1.13"
       ]
     },
     "openimageio-dev": {
       "origin": "openimageio",
       "versions": {
-        "3.1.12.0-r1": 1777277460
+        "3.1.12.0-r1": 1777277460,
+        "3.1.13.1-r0": 1779491249
       },
       "dependencies": [
-        "openimageio=3.1.12.0-r1",
+        "openimageio=3.1.13.1-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:OpenImageIO=3.1.12.0"
+        "pc:OpenImageIO=3.1.13.1"
       ]
     },
     "openimageio-doc": {
       "origin": "openimageio",
       "versions": {
-        "3.1.12.0-r1": 1777277460
+        "3.1.12.0-r1": 1777277460,
+        "3.1.13.1-r0": 1779491249
       }
     },
     "openimageio-tools": {
       "origin": "openimageio",
       "versions": {
-        "3.1.12.0-r1": 1777277460
+        "3.1.12.0-r1": 1777277460,
+        "3.1.13.1-r0": 1779491249
       },
       "dependencies": [
         "so:libOpenEXR-3_4.so.33",
@@ -169441,13 +169747,13 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:iconvert=3.1.12.0-r1",
-        "cmd:idiff=3.1.12.0-r1",
-        "cmd:igrep=3.1.12.0-r1",
-        "cmd:iinfo=3.1.12.0-r1",
-        "cmd:maketx=3.1.12.0-r1",
-        "cmd:oiiotool=3.1.12.0-r1",
-        "cmd:testtex=3.1.12.0-r1"
+        "cmd:iconvert=3.1.13.1-r0",
+        "cmd:idiff=3.1.13.1-r0",
+        "cmd:igrep=3.1.13.1-r0",
+        "cmd:iinfo=3.1.13.1-r0",
+        "cmd:maketx=3.1.13.1-r0",
+        "cmd:oiiotool=3.1.13.1-r0",
+        "cmd:testtex=3.1.13.1-r0"
       ]
     },
     "openipmi": {
@@ -169966,7 +170272,8 @@
     "openrazer": {
       "origin": "openrazer",
       "versions": {
-        "3.12.2-r0": 1776765752
+        "3.12.2-r0": 1776765752,
+        "3.12.3-r0": 1779383203
       },
       "dependencies": [
         "py3-daemonize",
@@ -169977,20 +170284,22 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:openrazer-daemon=3.12.2-r0",
-        "py3.14:openrazer_daemon=3.12.2-r0"
+        "cmd:openrazer-daemon=3.12.3-r0",
+        "py3.14:openrazer_daemon=3.12.3-r0"
       ]
     },
     "openrazer-doc": {
       "origin": "openrazer",
       "versions": {
-        "3.12.2-r0": 1776765752
+        "3.12.2-r0": 1776765752,
+        "3.12.3-r0": 1779383203
       }
     },
     "openrazer-src": {
       "origin": "openrazer",
       "versions": {
-        "3.12.2-r0": 1776765752
+        "3.12.2-r0": 1776765752,
+        "3.12.3-r0": 1779383203
       },
       "dependencies": [
         "akms"
@@ -169999,13 +170308,15 @@
     "openrazer-systemd": {
       "origin": "openrazer",
       "versions": {
-        "3.12.2-r0": 1776765752
+        "3.12.2-r0": 1776765752,
+        "3.12.3-r0": 1779383203
       }
     },
     "openrazer-udev": {
       "origin": "openrazer",
       "versions": {
-        "3.12.2-r0": 1776765752
+        "3.12.2-r0": 1776765752,
+        "3.12.3-r0": 1779383203
       }
     },
     "openrc-settingsd": {
@@ -170100,7 +170411,8 @@
     "openresty": {
       "origin": "openresty",
       "versions": {
-        "1.29.2.3-r0": 1775351621
+        "1.29.2.3-r0": 1775351621,
+        "1.29.2.3-r1": 1779376172
       },
       "dependencies": [
         "/bin/sh",
@@ -170119,29 +170431,32 @@
       ],
       "provides": [
         "nginx",
-        "cmd:nginx=1.29.2.3-r0"
+        "cmd:nginx=1.29.2.3-r1"
       ]
     },
     "openresty-dbg": {
       "origin": "openresty",
       "versions": {
-        "1.29.2.3-r0": 1775351621
+        "1.29.2.3-r0": 1775351621,
+        "1.29.2.3-r1": 1779376172
       },
       "dependencies": [
-        "!openresty<1.29.2.3-r0",
-        "!openresty>1.29.2.3-r0"
+        "!openresty<1.29.2.3-r1",
+        "!openresty>1.29.2.3-r1"
       ]
     },
     "openresty-doc": {
       "origin": "openresty",
       "versions": {
-        "1.29.2.3-r0": 1775351621
+        "1.29.2.3-r0": 1775351621,
+        "1.29.2.3-r1": 1779376172
       }
     },
     "openresty-mod-http-echo": {
       "origin": "openresty",
       "versions": {
-        "1.29.2.3-r0": 1775351621
+        "1.29.2.3-r0": 1775351621,
+        "1.29.2.3-r1": 1779376172
       },
       "dependencies": [
         "cmd:nginx",
@@ -170152,7 +170467,8 @@
     "openresty-mod-http-headers-more": {
       "origin": "openresty",
       "versions": {
-        "1.29.2.3-r0": 1775351621
+        "1.29.2.3-r0": 1775351621,
+        "1.29.2.3-r1": 1779376172
       },
       "dependencies": [
         "cmd:nginx",
@@ -170163,12 +170479,13 @@
     "openresty-mod-http-lua": {
       "origin": "openresty",
       "versions": {
-        "1.29.2.3-r0": 1775351621
+        "1.29.2.3-r0": 1775351621,
+        "1.29.2.3-r1": 1779376172
       },
       "dependencies": [
         "cmd:nginx",
         "openresty",
-        "nginx-mod-devel-kit",
+        "openresty-mod-devel-kit",
         "so:libc.musl-armv7.so.1",
         "so:libluajit-5.1.so.2"
       ]
@@ -170176,7 +170493,8 @@
     "openresty-mod-http-lua-upstream": {
       "origin": "openresty",
       "versions": {
-        "1.29.2.3-r0": 1775351621
+        "1.29.2.3-r0": 1775351621,
+        "1.29.2.3-r1": 1779376172
       },
       "dependencies": [
         "cmd:nginx",
@@ -170188,7 +170506,8 @@
     "openresty-mod-http-redis2": {
       "origin": "openresty",
       "versions": {
-        "1.29.2.3-r0": 1775351621
+        "1.29.2.3-r0": 1775351621,
+        "1.29.2.3-r1": 1779376172
       },
       "dependencies": [
         "cmd:nginx",
@@ -170199,19 +170518,21 @@
     "openresty-mod-http-set-misc": {
       "origin": "openresty",
       "versions": {
-        "1.29.2.3-r0": 1775351621
+        "1.29.2.3-r0": 1775351621,
+        "1.29.2.3-r1": 1779376172
       },
       "dependencies": [
         "cmd:nginx",
         "openresty",
-        "nginx-mod-devel-kit",
+        "openresty-mod-devel-kit",
         "so:libc.musl-armv7.so.1"
       ]
     },
     "openresty-openrc": {
       "origin": "openresty",
       "versions": {
-        "1.29.2.3-r0": 1775351621
+        "1.29.2.3-r0": 1775351621,
+        "1.29.2.3-r1": 1779376172
       }
     },
     "openrgb": {
@@ -171066,7 +171387,8 @@
     "openvas-scanner": {
       "origin": "openvas-scanner",
       "versions": {
-        "23.45.2-r0": 1778758800
+        "23.45.2-r0": 1778758800,
+        "23.45.5-r0": 1779553477
       },
       "dependencies": [
         "redis",
@@ -171087,9 +171409,9 @@
         "so:libgpg-error.so.0",
         "so:libgpgme.so.45",
         "so:libgssapi_krb5.so.2",
-        "so:libgvm_base.so.22",
-        "so:libgvm_boreas.so.22",
-        "so:libgvm_util.so.22",
+        "so:libgvm_base.so.23",
+        "so:libgvm_boreas.so.23",
+        "so:libgvm_util.so.23",
         "so:libjson-glib-1.0.so.0",
         "so:libksba.so.8",
         "so:libmagic.so.1",
@@ -171098,17 +171420,18 @@
         "so:libssh.so.4"
       ],
       "provides": [
-        "cmd:openvas-nasl-lint=23.45.2-r0",
-        "cmd:openvas-nasl=23.45.2-r0",
-        "cmd:openvas=23.45.2-r0",
-        "so:libopenvas_misc.so.23=23.45.2",
-        "so:libopenvas_nasl.so.23=23.45.2"
+        "cmd:openvas-nasl-lint=23.45.5-r0",
+        "cmd:openvas-nasl=23.45.5-r0",
+        "cmd:openvas=23.45.5-r0",
+        "so:libopenvas_misc.so.23=23.45.5",
+        "so:libopenvas_nasl.so.23=23.45.5"
       ]
     },
     "openvas-scanner-config": {
       "origin": "openvas-scanner",
       "versions": {
-        "23.45.2-r0": 1778758800
+        "23.45.2-r0": 1778758800,
+        "23.45.5-r0": 1779553477
       },
       "dependencies": [
         "redis",
@@ -171122,7 +171445,8 @@
     "openvas-scanner-doc": {
       "origin": "openvas-scanner",
       "versions": {
-        "23.45.2-r0": 1778758800
+        "23.45.2-r0": 1778758800,
+        "23.45.5-r0": 1779553477
       }
     },
     "openvi": {
@@ -183423,7 +183747,8 @@
     "perl-starlet": {
       "origin": "perl-starlet",
       "versions": {
-        "0.31-r3": 1688403119
+        "0.31-r3": 1688403119,
+        "0.32-r0": 1779496754
       },
       "dependencies": [
         "perl",
@@ -183435,7 +183760,8 @@
     "perl-starlet-doc": {
       "origin": "perl-starlet",
       "versions": {
-        "0.31-r3": 1688403119
+        "0.31-r3": 1688403119,
+        "0.32-r0": 1779496754
       }
     },
     "perl-statistics-chisquare": {
@@ -186518,11 +186844,12 @@
     "pg-gvm": {
       "origin": "pg-gvm",
       "versions": {
-        "22.6.17-r0": 1775599894
+        "22.6.17-r0": 1775599894,
+        "22.6.17-r1": 1779553477
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
-        "so:libgvm_base.so.22",
+        "so:libgvm_base.so.23",
         "so:libical.so.3"
       ]
     },
@@ -188462,7 +188789,8 @@
     "php83-pecl-mongodb": {
       "origin": "php83-pecl-mongodb",
       "versions": {
-        "2.3.1-r0": 1777575297
+        "2.3.1-r0": 1777575297,
+        "2.3.3-r0": 1779449348
       },
       "dependencies": [
         "php83-common",
@@ -188475,7 +188803,7 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "php83-mongodb=2.3.1-r0"
+        "php83-mongodb=2.3.3-r0"
       ]
     },
     "php83-pecl-msgpack": {
@@ -189984,7 +190312,8 @@
     "php84-pecl-mongodb": {
       "origin": "php84-pecl-mongodb",
       "versions": {
-        "2.3.1-r0": 1777575297
+        "2.3.1-r0": 1777575297,
+        "2.3.3-r0": 1779449365
       },
       "dependencies": [
         "php84-common",
@@ -189997,7 +190326,7 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "php84-mongodb=2.3.1-r0"
+        "php84-mongodb=2.3.3-r0"
       ]
     },
     "php84-pecl-msgpack": {
@@ -191464,7 +191793,8 @@
     "php85-pecl-mongodb": {
       "origin": "php85-pecl-mongodb",
       "versions": {
-        "2.3.1-r0": 1777575297
+        "2.3.1-r0": 1777575297,
+        "2.3.3-r0": 1779449373
       },
       "dependencies": [
         "php85-common",
@@ -191477,7 +191807,7 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "php85-mongodb=2.3.1-r0"
+        "php85-mongodb=2.3.3-r0"
       ]
     },
     "php85-pecl-msgpack": {
@@ -193093,7 +193423,8 @@
     "pipeline": {
       "origin": "pipeline",
       "versions": {
-        "4.0.2-r0": 1778323008
+        "4.0.2-r0": 1778323008,
+        "4.0.3-r0": 1779530331
       },
       "dependencies": [
         "clapper-enhancers",
@@ -193116,19 +193447,21 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:tubefeeder=4.0.2-r0"
+        "cmd:tubefeeder=4.0.3-r0"
       ]
     },
     "pipeline-doc": {
       "origin": "pipeline",
       "versions": {
-        "4.0.2-r0": 1778323008
+        "4.0.2-r0": 1778323008,
+        "4.0.3-r0": 1779530331
       }
     },
     "pipeline-lang": {
       "origin": "pipeline",
       "versions": {
-        "4.0.2-r0": 1778323008
+        "4.0.2-r0": 1778323008,
+        "4.0.3-r0": 1779530331
       }
     },
     "piper": {
@@ -193174,7 +193507,8 @@
     "pipewire": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       },
       "dependencies": [
         "/bin/sh",
@@ -193182,17 +193516,18 @@
         "so:libpipewire-0.3.so.0"
       ],
       "provides": [
-        "cmd:pipewire-aes67=1.6.5-r0",
-        "cmd:pipewire-avb=1.6.5-r0",
-        "cmd:pipewire-vulkan=1.6.5-r0",
-        "cmd:pipewire=1.6.5-r0",
+        "cmd:pipewire-aes67=1.6.5-r1",
+        "cmd:pipewire-avb=1.6.5-r1",
+        "cmd:pipewire-vulkan=1.6.5-r1",
+        "cmd:pipewire=1.6.5-r1",
         "so:libpw-v4l2.so=0"
       ]
     },
     "pipewire-alsa": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       },
       "dependencies": [
         "so:libasound.so.2",
@@ -193203,66 +193538,68 @@
     "pipewire-dbg": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       },
       "dependencies": [
-        "!gst-plugin-pipewire<1.6.5-r0",
-        "!gst-plugin-pipewire>1.6.5-r0",
-        "!pipewire-alsa<1.6.5-r0",
-        "!pipewire-alsa>1.6.5-r0",
-        "!pipewire-dev<1.6.5-r0",
-        "!pipewire-dev>1.6.5-r0",
-        "!pipewire-echo-cancel<1.6.5-r0",
-        "!pipewire-echo-cancel>1.6.5-r0",
-        "!pipewire-filter-graph-builtin<1.6.5-r0",
-        "!pipewire-filter-graph-builtin>1.6.5-r0",
-        "!pipewire-filter-graph-ebur128<1.6.5-r0",
-        "!pipewire-filter-graph-ebur128>1.6.5-r0",
-        "!pipewire-filter-graph-ladspa<1.6.5-r0",
-        "!pipewire-filter-graph-ladspa>1.6.5-r0",
-        "!pipewire-filter-graph-lv2<1.6.5-r0",
-        "!pipewire-filter-graph-lv2>1.6.5-r0",
-        "!pipewire-filter-graph-onnx<1.6.5-r0",
-        "!pipewire-filter-graph-onnx>1.6.5-r0",
-        "!pipewire-filter-graph-sofa<1.6.5-r0",
-        "!pipewire-filter-graph-sofa>1.6.5-r0",
-        "!pipewire-filter-graph<1.6.5-r0",
-        "!pipewire-filter-graph>1.6.5-r0",
-        "!pipewire-jack<1.6.5-r0",
-        "!pipewire-jack>1.6.5-r0",
-        "!pipewire-libs<1.6.5-r0",
-        "!pipewire-libs>1.6.5-r0",
-        "!pipewire-pulse<1.6.5-r0",
-        "!pipewire-pulse>1.6.5-r0",
-        "!pipewire-spa-bluez<1.6.5-r0",
-        "!pipewire-spa-bluez>1.6.5-r0",
-        "!pipewire-spa-tools<1.6.5-r0",
-        "!pipewire-spa-tools>1.6.5-r0",
-        "!pipewire-spa-vulkan<1.6.5-r0",
-        "!pipewire-spa-vulkan>1.6.5-r0",
-        "!pipewire-tools<1.6.5-r0",
-        "!pipewire-tools>1.6.5-r0",
-        "!pipewire-x11<1.6.5-r0",
-        "!pipewire-x11>1.6.5-r0",
-        "!pipewire-zeroconf<1.6.5-r0",
-        "!pipewire-zeroconf>1.6.5-r0",
-        "!pipewire<1.6.5-r0",
-        "!pipewire>1.6.5-r0"
+        "!gst-plugin-pipewire<1.6.5-r1",
+        "!gst-plugin-pipewire>1.6.5-r1",
+        "!pipewire-alsa<1.6.5-r1",
+        "!pipewire-alsa>1.6.5-r1",
+        "!pipewire-dev<1.6.5-r1",
+        "!pipewire-dev>1.6.5-r1",
+        "!pipewire-echo-cancel<1.6.5-r1",
+        "!pipewire-echo-cancel>1.6.5-r1",
+        "!pipewire-filter-graph-builtin<1.6.5-r1",
+        "!pipewire-filter-graph-builtin>1.6.5-r1",
+        "!pipewire-filter-graph-ebur128<1.6.5-r1",
+        "!pipewire-filter-graph-ebur128>1.6.5-r1",
+        "!pipewire-filter-graph-ladspa<1.6.5-r1",
+        "!pipewire-filter-graph-ladspa>1.6.5-r1",
+        "!pipewire-filter-graph-lv2<1.6.5-r1",
+        "!pipewire-filter-graph-lv2>1.6.5-r1",
+        "!pipewire-filter-graph-onnx<1.6.5-r1",
+        "!pipewire-filter-graph-onnx>1.6.5-r1",
+        "!pipewire-filter-graph-sofa<1.6.5-r1",
+        "!pipewire-filter-graph-sofa>1.6.5-r1",
+        "!pipewire-filter-graph<1.6.5-r1",
+        "!pipewire-filter-graph>1.6.5-r1",
+        "!pipewire-jack<1.6.5-r1",
+        "!pipewire-jack>1.6.5-r1",
+        "!pipewire-libs<1.6.5-r1",
+        "!pipewire-libs>1.6.5-r1",
+        "!pipewire-pulse<1.6.5-r1",
+        "!pipewire-pulse>1.6.5-r1",
+        "!pipewire-spa-bluez<1.6.5-r1",
+        "!pipewire-spa-bluez>1.6.5-r1",
+        "!pipewire-spa-tools<1.6.5-r1",
+        "!pipewire-spa-tools>1.6.5-r1",
+        "!pipewire-spa-vulkan<1.6.5-r1",
+        "!pipewire-spa-vulkan>1.6.5-r1",
+        "!pipewire-tools<1.6.5-r1",
+        "!pipewire-tools>1.6.5-r1",
+        "!pipewire-x11<1.6.5-r1",
+        "!pipewire-x11>1.6.5-r1",
+        "!pipewire-zeroconf<1.6.5-r1",
+        "!pipewire-zeroconf>1.6.5-r1",
+        "!pipewire<1.6.5-r1",
+        "!pipewire>1.6.5-r1"
       ]
     },
     "pipewire-dev": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       },
       "dependencies": [
-        "pipewire-libs=1.6.5-r0",
+        "pipewire-libs=1.6.5-r1",
         "pkgconfig",
         "so:libc.musl-armv7.so.1",
         "so:libpipewire-0.3.so.0"
       ],
       "provides": [
-        "cmd:pw-config=1.6.5-r0",
+        "cmd:pw-config=1.6.5-r1",
         "pc:jackserver=3.1605.0",
         "pc:libpipewire-0.3=1.6.5",
         "pc:libspa-0.2=0.2"
@@ -193271,16 +193608,18 @@
     "pipewire-doc": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       }
     },
     "pipewire-echo-cancel": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       },
       "dependencies": [
-        "pipewire=1.6.5-r0",
+        "pipewire=1.6.5-r1",
         "so:libc.musl-armv7.so.1",
         "so:libpipewire-0.3.so.0"
       ],
@@ -193291,7 +193630,8 @@
     "pipewire-filter-graph": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -193301,7 +193641,8 @@
     "pipewire-filter-graph-builtin": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -193311,7 +193652,8 @@
     "pipewire-filter-graph-ebur128": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -193321,7 +193663,8 @@
     "pipewire-filter-graph-ladspa": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1"
@@ -193330,7 +193673,8 @@
     "pipewire-filter-graph-lv2": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -193340,7 +193684,8 @@
     "pipewire-filter-graph-onnx": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -193350,7 +193695,8 @@
     "pipewire-filter-graph-sofa": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -193360,7 +193706,8 @@
     "pipewire-jack": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       },
       "dependencies": [
         "pipewire-session-manager",
@@ -193368,8 +193715,8 @@
         "so:libpipewire-0.3.so.0"
       ],
       "provides": [
-        "jack=1.6.5-r0",
-        "cmd:pw-jack=1.6.5-r0",
+        "jack=1.6.5-r1",
+        "cmd:pw-jack=1.6.5-r1",
         "so:libjack.so.0=0.3.1605",
         "so:libjacknet.so.0=0.3.1605",
         "so:libjackserver.so.0=0.3.1605"
@@ -193378,27 +193725,30 @@
     "pipewire-jack-dev": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       },
       "dependencies": [
-        "pipewire-jack=1.6.5-r0",
+        "pipewire-jack=1.6.5-r1",
         "pkgconfig"
       ],
       "provides": [
-        "jack-dev=1.6.5-r0",
+        "jack-dev=1.6.5-r1",
         "pc:jack=3.1605.0"
       ]
     },
     "pipewire-lang": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       }
     },
     "pipewire-libs": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       },
       "dependencies": [
         "so:libasound.so.2",
@@ -193460,18 +193810,20 @@
     "pipewire-openrc": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       }
     },
     "pipewire-pulse": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       },
       "dependencies": [
         "pipewire-session-manager",
         "pulseaudio-utils",
-        "pipewire=1.6.5-r0",
+        "pipewire=1.6.5-r1",
         "so:libavahi-client.so.3",
         "so:libavahi-common.so.3",
         "so:libc.musl-armv7.so.1",
@@ -193483,9 +193835,9 @@
         "so:libpulse.so.0"
       ],
       "provides": [
-        "pulseaudio=1.6.5-r0",
-        "pulseaudio-bluez=1.6.5-r0",
-        "cmd:pipewire-pulse=1.6.5-r0",
+        "pulseaudio=1.6.5-r1",
+        "pulseaudio-bluez=1.6.5-r1",
+        "cmd:pipewire-pulse=1.6.5-r1",
         "so:libpipewire-module-filter-chain.so=0",
         "so:libpipewire-module-protocol-pulse.so=0",
         "so:libpipewire-module-pulse-tunnel.so=0"
@@ -193494,19 +193846,22 @@
     "pipewire-pulse-openrc": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       }
     },
     "pipewire-pulse-systemd": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       }
     },
     "pipewire-spa-bluez": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       },
       "dependencies": [
         "so:libbluetooth.so.3",
@@ -193528,7 +193883,8 @@
     "pipewire-spa-tools": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       },
       "dependencies": [
         "so:libasound.so.2",
@@ -193536,17 +193892,18 @@
         "so:libsndfile.so.1"
       ],
       "provides": [
-        "cmd:spa-acp-tool=1.6.5-r0",
-        "cmd:spa-inspect=1.6.5-r0",
-        "cmd:spa-json-dump=1.6.5-r0",
-        "cmd:spa-monitor=1.6.5-r0",
-        "cmd:spa-resample=1.6.5-r0"
+        "cmd:spa-acp-tool=1.6.5-r1",
+        "cmd:spa-inspect=1.6.5-r1",
+        "cmd:spa-json-dump=1.6.5-r1",
+        "cmd:spa-monitor=1.6.5-r1",
+        "cmd:spa-resample=1.6.5-r1"
       ]
     },
     "pipewire-spa-vulkan": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -193557,16 +193914,18 @@
     "pipewire-systemd": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       }
     },
     "pipewire-tools": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       },
       "dependencies": [
-        "pipewire=1.6.5-r0",
+        "pipewire=1.6.5-r1",
         "so:libc.musl-armv7.so.1",
         "so:libdbus-1.so.3",
         "so:libncursesw.so.6",
@@ -193575,41 +193934,43 @@
         "so:libsndfile.so.1"
       ],
       "provides": [
-        "cmd:pw-cat=1.6.5-r0",
-        "cmd:pw-cli=1.6.5-r0",
-        "cmd:pw-container=1.6.5-r0",
-        "cmd:pw-dot=1.6.5-r0",
-        "cmd:pw-dsdplay=1.6.5-r0",
-        "cmd:pw-dump=1.6.5-r0",
-        "cmd:pw-encplay=1.6.5-r0",
-        "cmd:pw-link=1.6.5-r0",
-        "cmd:pw-loopback=1.6.5-r0",
-        "cmd:pw-metadata=1.6.5-r0",
-        "cmd:pw-midi2play=1.6.5-r0",
-        "cmd:pw-midi2record=1.6.5-r0",
-        "cmd:pw-mididump=1.6.5-r0",
-        "cmd:pw-midiplay=1.6.5-r0",
-        "cmd:pw-midirecord=1.6.5-r0",
-        "cmd:pw-mon=1.6.5-r0",
-        "cmd:pw-play=1.6.5-r0",
-        "cmd:pw-profiler=1.6.5-r0",
-        "cmd:pw-record=1.6.5-r0",
-        "cmd:pw-reserve=1.6.5-r0",
-        "cmd:pw-sysex=1.6.5-r0",
-        "cmd:pw-top=1.6.5-r0",
-        "cmd:pw-v4l2=1.6.5-r0"
+        "cmd:pw-cat=1.6.5-r1",
+        "cmd:pw-cli=1.6.5-r1",
+        "cmd:pw-container=1.6.5-r1",
+        "cmd:pw-dot=1.6.5-r1",
+        "cmd:pw-dsdplay=1.6.5-r1",
+        "cmd:pw-dump=1.6.5-r1",
+        "cmd:pw-encplay=1.6.5-r1",
+        "cmd:pw-link=1.6.5-r1",
+        "cmd:pw-loopback=1.6.5-r1",
+        "cmd:pw-metadata=1.6.5-r1",
+        "cmd:pw-midi2play=1.6.5-r1",
+        "cmd:pw-midi2record=1.6.5-r1",
+        "cmd:pw-mididump=1.6.5-r1",
+        "cmd:pw-midiplay=1.6.5-r1",
+        "cmd:pw-midirecord=1.6.5-r1",
+        "cmd:pw-mon=1.6.5-r1",
+        "cmd:pw-play=1.6.5-r1",
+        "cmd:pw-profiler=1.6.5-r1",
+        "cmd:pw-record=1.6.5-r1",
+        "cmd:pw-reserve=1.6.5-r1",
+        "cmd:pw-sysex=1.6.5-r1",
+        "cmd:pw-top=1.6.5-r1",
+        "cmd:pw-v4l2=1.6.5-r1"
       ]
     },
     "pipewire-udev": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       }
     },
     "pipewire-x11": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -193625,7 +193986,8 @@
     "pipewire-zeroconf": {
       "origin": "pipewire",
       "versions": {
-        "1.6.5-r0": 1778930288
+        "1.6.5-r0": 1778930288,
+        "1.6.5-r1": 1779495808
       },
       "dependencies": [
         "so:libavahi-client.so.3",
@@ -193636,7 +193998,7 @@
         "so:libpipewire-0.3.so.0"
       ],
       "provides": [
-        "pulseaudio-zeroconf=1.6.5-r0",
+        "pulseaudio-zeroconf=1.6.5-r1",
         "so:libpipewire-module-raop-discover.so=0",
         "so:libpipewire-module-raop-sink.so=0",
         "so:libpipewire-module-zeroconf-discover.so=0"
@@ -194182,7 +194544,8 @@
     "plasma-dialer": {
       "origin": "plasma-dialer",
       "versions": {
-        "6.6.5-r0": 1778857556
+        "6.6.5-r0": 1778857556,
+        "6.6.5-r1": 1779530332
       },
       "dependencies": [
         "kirigami-addons",
@@ -194219,14 +194582,15 @@
         "so:libwayland-client.so.0"
       ],
       "provides": [
-        "cmd:plasma-dialer-fakeserver=6.6.5-r0",
-        "cmd:plasma-dialer=6.6.5-r0"
+        "cmd:plasma-dialer-fakeserver=6.6.5-r1",
+        "cmd:plasma-dialer=6.6.5-r1"
       ]
     },
     "plasma-dialer-lang": {
       "origin": "plasma-dialer",
       "versions": {
-        "6.6.5-r0": 1778857556
+        "6.6.5-r0": 1778857556,
+        "6.6.5-r1": 1779530332
       }
     },
     "plasma-disks": {
@@ -195749,7 +196113,8 @@
     "plymouth": {
       "origin": "plymouth",
       "versions": {
-        "24.004.60-r3": 1777932485
+        "24.004.60-r3": 1777932485,
+        "26.134.222-r0": 1779379671
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -195766,9 +196131,9 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:plymouth-set-default-theme=24.004.60-r3",
-        "cmd:plymouth=24.004.60-r3",
-        "cmd:plymouthd=24.004.60-r3",
+        "cmd:plymouth-set-default-theme=26.134.222-r0",
+        "cmd:plymouth=26.134.222-r0",
+        "cmd:plymouthd=26.134.222-r0",
         "so:libply-boot-client.so.5=5.0.0",
         "so:libply-splash-core.so.5=5.0.0",
         "so:libply-splash-graphics.so.5=5.0.0",
@@ -195778,13 +196143,14 @@
     "plymouth-dev": {
       "origin": "plymouth",
       "versions": {
-        "24.004.60-r3": 1777932485
+        "24.004.60-r3": 1777932485,
+        "26.134.222-r0": 1779379671
       },
       "dependencies": [
         "eudev-dev",
         "gtk+3.0-dev",
         "pango-dev",
-        "plymouth=24.004.60-r3",
+        "plymouth=26.134.222-r0",
         "pc:libevdev",
         "pc:libpng>=1.2.16",
         "pc:libudev",
@@ -195793,21 +196159,23 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:ply-boot-client=24.004.60",
-        "pc:ply-splash-core=24.004.60",
-        "pc:ply-splash-graphics=24.004.60"
+        "pc:ply-boot-client=26.134.222",
+        "pc:ply-splash-core=26.134.222",
+        "pc:ply-splash-graphics=26.134.222"
       ]
     },
     "plymouth-doc": {
       "origin": "plymouth",
       "versions": {
-        "24.004.60-r3": 1777932485
+        "24.004.60-r3": 1777932485,
+        "26.134.222-r0": 1779379671
       }
     },
     "plymouth-drm": {
       "origin": "plymouth",
       "versions": {
-        "24.004.60-r3": 1777932485
+        "24.004.60-r3": 1777932485,
+        "26.134.222-r0": 1779379671
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -195851,7 +196219,8 @@
     "plymouth-lang": {
       "origin": "plymouth",
       "versions": {
-        "24.004.60-r3": 1777932485
+        "24.004.60-r3": 1777932485,
+        "26.134.222-r0": 1779379671
       }
     },
     "plymouth-openrc-plugin": {
@@ -195869,7 +196238,8 @@
     "plymouth-systemd": {
       "origin": "plymouth",
       "versions": {
-        "24.004.60-r3": 1777932485
+        "24.004.60-r3": 1777932485,
+        "26.134.222-r0": 1779379671
       }
     },
     "plymouth-theme-phosh": {
@@ -195881,16 +196251,18 @@
     "plymouth-themes": {
       "origin": "plymouth",
       "versions": {
-        "24.004.60-r3": 1777932485
+        "24.004.60-r3": 1777932485,
+        "26.134.222-r0": 1779379671
       },
       "dependencies": [
-        "plymouth=24.004.60-r3"
+        "plymouth=26.134.222-r0"
       ]
     },
     "plymouth-x11": {
       "origin": "plymouth",
       "versions": {
-        "24.004.60-r3": 1777932485
+        "24.004.60-r3": 1777932485,
+        "26.134.222-r0": 1779379671
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -195970,7 +196342,8 @@
     "pmbootstrap": {
       "origin": "pmbootstrap",
       "versions": {
-        "3.10.2-r0": 1777802069
+        "3.10.2-r0": 1777802069,
+        "3.10.3-r0": 1779463106
       },
       "dependencies": [
         "git",
@@ -195982,14 +196355,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:pmbootstrap=3.10.2-r0",
-        "py3.14:pmb=3.10.2-r0"
+        "cmd:pmbootstrap=3.10.3-r0",
+        "py3.14:pmb=3.10.3-r0"
       ]
     },
     "pmbootstrap-pyc": {
       "origin": "pmbootstrap",
       "versions": {
-        "3.10.2-r0": 1777802069
+        "3.10.2-r0": 1777802069,
+        "3.10.3-r0": 1779463106
       },
       "dependencies": [
         "python3~3.14"
@@ -195998,7 +196372,8 @@
     "pn": {
       "origin": "pn",
       "versions": {
-        "0.9.0-r46": 1778323874
+        "0.9.0-r46": 1778323874,
+        "0.9.0-r47": 1779530332
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -196009,19 +196384,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:pn=0.9.0-r46"
+        "cmd:pn=0.9.0-r47"
       ]
     },
     "pn-doc": {
       "origin": "pn",
       "versions": {
-        "0.9.0-r46": 1778323874
+        "0.9.0-r46": 1778323874,
+        "0.9.0-r47": 1779530332
       }
     },
     "pn-gawk": {
       "origin": "pn",
       "versions": {
-        "0.9.0-r46": 1778323874
+        "0.9.0-r46": 1778323874,
+        "0.9.0-r47": 1779530332
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -196035,7 +196412,8 @@
     "pnc": {
       "origin": "pnc",
       "versions": {
-        "0.9.5-r30": 1778323874
+        "0.9.5-r30": 1778323874,
+        "0.9.5-r31": 1779530332
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -196046,19 +196424,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:pnc=0.9.5-r30"
+        "cmd:pnc=0.9.5-r31"
       ]
     },
     "pnc-doc": {
       "origin": "pnc",
       "versions": {
-        "0.9.5-r30": 1778323874
+        "0.9.5-r30": 1778323874,
+        "0.9.5-r31": 1779530332
       }
     },
     "pnc-gawk": {
       "origin": "pnc",
       "versions": {
-        "0.9.5-r30": 1778323874
+        "0.9.5-r30": 1778323874,
+        "0.9.5-r31": 1779530332
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -201070,11 +201450,13 @@
     "putty": {
       "origin": "putty",
       "versions": {
-        "0.83-r2": 1771160091
+        "0.83-r2": 1771160091,
+        "0.84-r0": 1779503295
       },
       "dependencies": [
         "ncurses-terminfo-base",
         "so:libX11.so.6",
+        "so:libXrender.so.1",
         "so:libc.musl-armv7.so.1",
         "so:libcairo.so.2",
         "so:libgdk-3.so.0",
@@ -201086,20 +201468,21 @@
         "so:libpangocairo-1.0.so.0"
       ],
       "provides": [
-        "cmd:pageant=0.83-r2",
-        "cmd:plink=0.83-r2",
-        "cmd:pscp=0.83-r2",
-        "cmd:psftp=0.83-r2",
-        "cmd:psusan=0.83-r2",
-        "cmd:pterm=0.83-r2",
-        "cmd:putty=0.83-r2",
-        "cmd:puttygen=0.83-r2"
+        "cmd:pageant=0.84-r0",
+        "cmd:plink=0.84-r0",
+        "cmd:pscp=0.84-r0",
+        "cmd:psftp=0.84-r0",
+        "cmd:psusan=0.84-r0",
+        "cmd:pterm=0.84-r0",
+        "cmd:putty=0.84-r0",
+        "cmd:puttygen=0.84-r0"
       ]
     },
     "putty-doc": {
       "origin": "putty",
       "versions": {
-        "0.83-r2": 1771160091
+        "0.83-r2": 1771160091,
+        "0.84-r0": 1779503295
       }
     },
     "pv": {
@@ -204530,7 +204913,8 @@
     "py3-capstone": {
       "origin": "capstone",
       "versions": {
-        "5.0.7-r1": 1774640365
+        "5.0.7-r1": 1774640365,
+        "5.0.8-r0": 1779578739
       },
       "dependencies": [
         "py3-setuptools",
@@ -204538,13 +204922,14 @@
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:capstone=5.0.7-r1"
+        "py3.14:capstone=5.0.8-r0"
       ]
     },
     "py3-capstone-pyc": {
       "origin": "capstone",
       "versions": {
-        "5.0.7-r1": 1774640365
+        "5.0.7-r1": 1774640365,
+        "5.0.8-r0": 1779578739
       },
       "dependencies": [
         "python3~3.14"
@@ -216554,7 +216939,8 @@
     "py3-libzim": {
       "origin": "py3-libzim",
       "versions": {
-        "3.9.0-r1": 1774640427
+        "3.9.0-r1": 1774640427,
+        "3.10.0-r0": 1779410058
       },
       "dependencies": [
         "libzim",
@@ -217990,7 +218376,8 @@
     "py3-minijinja": {
       "origin": "minijinja-cli",
       "versions": {
-        "2.19.0-r0": 1776023540
+        "2.19.0-r0": 1776023540,
+        "2.20.0-r0": 1779524150
       },
       "dependencies": [
         "python3~3.14",
@@ -217998,13 +218385,14 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "py3.14:minijinja=2.19.0-r0"
+        "py3.14:minijinja=2.20.0-r0"
       ]
     },
     "py3-minijinja-pyc": {
       "origin": "minijinja-cli",
       "versions": {
-        "2.19.0-r0": 1776023540
+        "2.19.0-r0": 1776023540,
+        "2.20.0-r0": 1779524150
       },
       "dependencies": [
         "python3~3.14"
@@ -219137,7 +219525,8 @@
     "py3-niaarm": {
       "origin": "py3-niaarm",
       "versions": {
-        "0.4.6-r2": 1774640433
+        "0.4.6-r2": 1774640433,
+        "0.4.7-r0": 1779376697
       },
       "dependencies": [
         "python3",
@@ -219149,20 +219538,22 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:niaarm=0.4.6-r2",
-        "py3.14:niaarm=0.4.6-r2"
+        "cmd:niaarm=0.4.7-r0",
+        "py3.14:niaarm=0.4.7-r0"
       ]
     },
     "py3-niaarm-doc": {
       "origin": "py3-niaarm",
       "versions": {
-        "0.4.6-r2": 1774640433
+        "0.4.6-r2": 1774640433,
+        "0.4.7-r0": 1779376697
       }
     },
     "py3-niaarm-pyc": {
       "origin": "py3-niaarm",
       "versions": {
-        "0.4.6-r2": 1774640433
+        "0.4.6-r2": 1774640433,
+        "0.4.7-r0": 1779376697
       },
       "dependencies": [
         "python3~3.14"
@@ -219527,7 +219918,8 @@
     "py3-notmuch": {
       "origin": "notmuch",
       "versions": {
-        "0.40-r1": 1774640381
+        "0.40-r1": 1774640381,
+        "0.40-r2": 1779370102
       },
       "dependencies": [
         "py3-cffi",
@@ -219536,13 +219928,14 @@
         "so:libnotmuch.so.5"
       ],
       "provides": [
-        "py3.14:notmuch2=0.40-r1"
+        "py3.14:notmuch2=0.40-r2"
       ]
     },
     "py3-notmuch-pyc": {
       "origin": "notmuch",
       "versions": {
-        "0.40-r1": 1774640381
+        "0.40-r1": 1774640381,
+        "0.40-r2": 1779370102
       },
       "dependencies": [
         "python3~3.14"
@@ -220073,7 +220466,8 @@
     "py3-opencolorio": {
       "origin": "opencolorio",
       "versions": {
-        "2.5.1-r3": 1776595803
+        "2.5.1-r3": 1776595803,
+        "2.5.2-r0": 1779491012
       },
       "dependencies": [
         "python3~3.14",
@@ -220083,7 +220477,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "py3.14:PyOpenColorIO=2.5.1-r3",
+        "py3.14:PyOpenColorIO=2.5.2-r0",
         "so:PyOpenColorIO.so=0"
       ]
     },
@@ -220202,7 +220596,8 @@
     "py3-openimageio": {
       "origin": "openimageio",
       "versions": {
-        "3.1.12.0-r1": 1777277460
+        "3.1.12.0-r1": 1777277460,
+        "3.1.13.1-r0": 1779491249
       },
       "dependencies": [
         "python3~3.14",
@@ -220213,7 +220608,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "py3.14:OpenImageIO=3.1.12.0-r1"
+        "py3.14:OpenImageIO=3.1.13.1-r0"
       ]
     },
     "py3-openpyxl": {
@@ -220244,20 +220639,22 @@
     "py3-openrazer": {
       "origin": "openrazer",
       "versions": {
-        "3.12.2-r0": 1776765752
+        "3.12.2-r0": 1776765752,
+        "3.12.3-r0": 1779383203
       },
       "dependencies": [
         "py3-numpy",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:openrazer=3.12.2-r0"
+        "py3.14:openrazer=3.12.3-r0"
       ]
     },
     "py3-openrazer-pyc": {
       "origin": "openrazer",
       "versions": {
-        "3.12.2-r0": 1776765752
+        "3.12.2-r0": 1776765752,
+        "3.12.3-r0": 1779383203
       },
       "dependencies": [
         "python3~3.14"
@@ -221546,23 +221943,25 @@
     "py3-peewee": {
       "origin": "py3-peewee",
       "versions": {
-        "4.0.2-r1": 1774640418
+        "4.0.2-r1": 1774640418,
+        "4.0.6-r0": 1779467722
       },
       "dependencies": [
         "python3~3.14",
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:pwiz=4.0.2-r1",
-        "py3.14:peewee=4.0.2-r1",
-        "py3.14:playhouse=4.0.2-r1",
-        "py3.14:pwiz=4.0.2-r1"
+        "cmd:pwiz=4.0.6-r0",
+        "py3.14:peewee=4.0.6-r0",
+        "py3.14:playhouse=4.0.6-r0",
+        "py3.14:pwiz=4.0.6-r0"
       ]
     },
     "py3-peewee-pyc": {
       "origin": "py3-peewee",
       "versions": {
-        "4.0.2-r1": 1774640418
+        "4.0.2-r1": 1774640418,
+        "4.0.6-r0": 1779467722
       },
       "dependencies": [
         "python3~3.14"
@@ -224766,21 +225165,23 @@
       "origin": "py3-pypdf",
       "versions": {
         "6.4.2-r1": 1774640426,
-        "6.11.0-r0": 1779203948
+        "6.11.0-r0": 1779203948,
+        "6.12.0-r0": 1779369062
       },
       "dependencies": [
         "python3~3.14"
       ],
       "provides": [
-        "py3-pypdf2=6.11.0-r0",
-        "py3.14:pypdf=6.11.0-r0"
+        "py3-pypdf2=6.12.0-r0",
+        "py3.14:pypdf=6.12.0-r0"
       ]
     },
     "py3-pypdf-pyc": {
       "origin": "py3-pypdf",
       "versions": {
         "6.4.2-r1": 1774640426,
-        "6.11.0-r0": 1779203948
+        "6.11.0-r0": 1779203948,
+        "6.12.0-r0": 1779369062
       },
       "dependencies": [
         "python3~3.14"
@@ -230525,7 +230926,8 @@
     "py3-smbus": {
       "origin": "i2c-tools",
       "versions": {
-        "4.4-r2": 1774640372
+        "4.4-r2": 1774640372,
+        "4.4-r3": 1779530885
       },
       "dependencies": [
         "python3~3.14",
@@ -230533,7 +230935,7 @@
         "so:libi2c.so.0"
       ],
       "provides": [
-        "py-smbus=4.4-r2"
+        "py-smbus=4.4-r3"
       ]
     },
     "py3-smmap2": {
@@ -231699,21 +232101,23 @@
     "py3-striprtf": {
       "origin": "py3-striprtf",
       "versions": {
-        "0.0.29-r1": 1774640444
+        "0.0.29-r1": 1774640444,
+        "0.0.32-r0": 1779372682
       },
       "dependencies": [
         "python3",
         "python3~3.14"
       ],
       "provides": [
-        "cmd:striprtf=0.0.29-r1",
-        "py3.14:striprtf=0.0.29-r1"
+        "cmd:striprtf=0.0.32-r0",
+        "py3.14:striprtf=0.0.32-r0"
       ]
     },
     "py3-striprtf-pyc": {
       "origin": "py3-striprtf",
       "versions": {
-        "0.0.29-r1": 1774640444
+        "0.0.29-r1": 1774640444,
+        "0.0.32-r0": 1779372682
       },
       "dependencies": [
         "python3~3.14"
@@ -234354,14 +234758,15 @@
       "origin": "uv",
       "versions": {
         "0.11.14-r0": 1778985878,
-        "0.11.15-r0": 1779188376
+        "0.11.15-r0": 1779188376,
+        "0.11.16-r0": 1779494324
       },
       "dependencies": [
-        "uv=0.11.15-r0",
+        "uv=0.11.16-r0",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:uv=0.11.15-r0"
+        "py3.14:uv=0.11.16-r0"
       ]
     },
     "py3-uv-build": {
@@ -234393,7 +234798,8 @@
       "origin": "uv",
       "versions": {
         "0.11.14-r0": 1778985878,
-        "0.11.15-r0": 1779188376
+        "0.11.15-r0": 1779188376,
+        "0.11.16-r0": 1779494324
       },
       "dependencies": [
         "python3~3.14"
@@ -235931,7 +236337,8 @@
     "py3-yarl": {
       "origin": "py3-yarl",
       "versions": {
-        "1.20.0-r2": 1774640361
+        "1.20.0-r2": 1774640361,
+        "1.24.2-r0": 1779282639
       },
       "dependencies": [
         "python3",
@@ -235942,13 +236349,14 @@
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "py3.14:yarl=1.20.0-r2"
+        "py3.14:yarl=1.24.2-r0"
       ]
     },
     "py3-yarl-pyc": {
       "origin": "py3-yarl",
       "versions": {
-        "1.20.0-r2": 1774640361
+        "1.20.0-r2": 1774640361,
+        "1.24.2-r0": 1779282639
       },
       "dependencies": [
         "python3~3.14"
@@ -236106,15 +236514,16 @@
     "py3-zeitgeist": {
       "origin": "zeitgeist",
       "versions": {
-        "1.0.4-r4": 1774640448
+        "1.0.4-r4": 1774640448,
+        "1.0.4-r5": 1779370102
       },
       "dependencies": [
         "python3",
-        "libzeitgeist=1.0.4-r4",
+        "libzeitgeist=1.0.4-r5",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:zeitgeist=1.0.4-r4"
+        "py3.14:zeitgeist=1.0.4-r5"
       ]
     },
     "py3-zeroconf": {
@@ -241998,32 +242407,35 @@
     "rabbitmq-server": {
       "origin": "rabbitmq-server",
       "versions": {
-        "4.3.0-r1": 1778659219
+        "4.3.0-r1": 1778659219,
+        "4.3.1-r0": 1779492114
       },
       "dependencies": [
         "erlang27",
         "/bin/sh"
       ],
       "provides": [
-        "cmd:rabbitmq-diagnostics=4.3.0-r1",
-        "cmd:rabbitmq-plugins=4.3.0-r1",
-        "cmd:rabbitmq-queues=4.3.0-r1",
-        "cmd:rabbitmq-server=4.3.0-r1",
-        "cmd:rabbitmq-streams=4.3.0-r1",
-        "cmd:rabbitmq-upgrade=4.3.0-r1",
-        "cmd:rabbitmqctl=4.3.0-r1"
+        "cmd:rabbitmq-diagnostics=4.3.1-r0",
+        "cmd:rabbitmq-plugins=4.3.1-r0",
+        "cmd:rabbitmq-queues=4.3.1-r0",
+        "cmd:rabbitmq-server=4.3.1-r0",
+        "cmd:rabbitmq-streams=4.3.1-r0",
+        "cmd:rabbitmq-upgrade=4.3.1-r0",
+        "cmd:rabbitmqctl=4.3.1-r0"
       ]
     },
     "rabbitmq-server-doc": {
       "origin": "rabbitmq-server",
       "versions": {
-        "4.3.0-r1": 1778659219
+        "4.3.0-r1": 1778659219,
+        "4.3.1-r0": 1779492114
       }
     },
     "rabbitmq-server-openrc": {
       "origin": "rabbitmq-server",
       "versions": {
-        "4.3.0-r1": 1778659219
+        "4.3.0-r1": 1778659219,
+        "4.3.1-r0": 1779492114
       }
     },
     "racket": {
@@ -246924,11 +247336,12 @@
     "rofi": {
       "origin": "rofi",
       "versions": {
-        "1.7.9_p1-r0": 1748555438
+        "1.7.9_p1-r0": 1748555438,
+        "2.0.0-r0": 1779486665
       },
       "provides": [
-        "cmd:rofi-sensible-terminal=1.7.9_p1-r0",
-        "cmd:rofi-theme-selector=1.7.9_p1-r0"
+        "cmd:rofi-sensible-terminal=2.0.0-r0",
+        "cmd:rofi-theme-selector=2.0.0-r0"
       ]
     },
     "rofi-blocks": {
@@ -246959,7 +247372,8 @@
     "rofi-dev": {
       "origin": "rofi",
       "versions": {
-        "1.7.9_p1-r0": 1748555438
+        "1.7.9_p1-r0": 1748555438,
+        "2.0.0-r0": 1779486665
       },
       "dependencies": [
         "pc:cairo",
@@ -246968,13 +247382,14 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:rofi=1.7.9"
+        "pc:rofi=2.0.0"
       ]
     },
     "rofi-doc": {
       "origin": "rofi",
       "versions": {
-        "1.7.9_p1-r0": 1748555438
+        "1.7.9_p1-r0": 1748555438,
+        "2.0.0-r0": 1779486665
       }
     },
     "rofi-emoji": {
@@ -247038,10 +247453,11 @@
     "rofi-wayland": {
       "origin": "rofi",
       "versions": {
-        "1.7.9_p1-r0": 1748555438
+        "1.7.9_p1-r0": 1748555438,
+        "2.0.0-r0": 1779486665
       },
       "dependencies": [
-        "rofi=1.7.9_p1-r0",
+        "rofi=2.0.0-r0",
         "!rofi-x11-wayland",
         "so:libc.musl-armv7.so.1",
         "so:libcairo.so.2",
@@ -247057,16 +247473,17 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:rofi=1.7.9_p1-r0"
+        "cmd:rofi=2.0.0-r0"
       ]
     },
     "rofi-x11-wayland": {
       "origin": "rofi",
       "versions": {
-        "1.7.9_p1-r0": 1748555438
+        "1.7.9_p1-r0": 1748555438,
+        "2.0.0-r0": 1779486665
       },
       "dependencies": [
-        "rofi=1.7.9_p1-r0",
+        "rofi=2.0.0-r0",
         "!rofi-wayland",
         "so:libc.musl-armv7.so.1",
         "so:libcairo.so.2",
@@ -247092,7 +247509,7 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:rofi=1.7.9_p1-r0"
+        "cmd:rofi=2.0.0-r0"
       ]
     },
     "ronn": {
@@ -247529,25 +247946,27 @@
     "rset": {
       "origin": "rset",
       "versions": {
-        "3.3-r0": 1768787161
+        "3.3-r0": 1768787161,
+        "3.3-r1": 1779467322
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:labelgrep=3.3-r0",
-        "cmd:miniquark=3.3-r0",
-        "cmd:renv=3.3-r0",
-        "cmd:rexec-summary=3.3-r0",
-        "cmd:rinstall=3.3-r0",
-        "cmd:rset=3.3-r0",
-        "cmd:rsub=3.3-r0"
+        "cmd:labelgrep=3.3-r1",
+        "cmd:miniquark=3.3-r1",
+        "cmd:renv=3.3-r1",
+        "cmd:rexec-summary=3.3-r1",
+        "cmd:rinstall=3.3-r1",
+        "cmd:rset=3.3-r1",
+        "cmd:rsub=3.3-r1"
       ]
     },
     "rset-doc": {
       "origin": "rset",
       "versions": {
-        "3.3-r0": 1768787161
+        "3.3-r0": 1768787161,
+        "3.3-r1": 1779467322
       }
     },
     "rsgain": {
@@ -249657,7 +250076,8 @@
     "rustls-ffi": {
       "origin": "rustls-ffi",
       "versions": {
-        "0.15.3-r1": 1778832043
+        "0.15.3-r1": 1778832043,
+        "0.15.3-r2": 1779413040
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -249670,10 +250090,11 @@
     "rustls-ffi-dev": {
       "origin": "rustls-ffi",
       "versions": {
-        "0.15.3-r1": 1778832043
+        "0.15.3-r1": 1778832043,
+        "0.15.3-r2": 1779413040
       },
       "dependencies": [
-        "rustls-ffi=0.15.3-r1",
+        "rustls-ffi=0.15.3-r2",
         "pkgconfig"
       ],
       "provides": [
@@ -251086,7 +251507,8 @@
     "sane-backend-hpaio": {
       "origin": "hplip",
       "versions": {
-        "3.25.8-r3": 1775925402
+        "3.25.8-r3": 1775925402,
+        "3.26.4-r0": 1779383305
       },
       "dependencies": [
         "sane",
@@ -253955,7 +254377,8 @@
     "sequoia-chameleon-gnupg": {
       "origin": "sequoia-chameleon-gnupg",
       "versions": {
-        "0.13.1-r1": 1777666155
+        "0.13.1-r1": 1777666155,
+        "0.13.1-r2": 1779493765
       },
       "dependencies": [
         "so:libbz2.so.1",
@@ -253966,14 +254389,15 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:gpg-sq=0.13.1-r1",
-        "cmd:gpgv-sq=0.13.1-r1"
+        "cmd:gpg-sq=0.13.1-r2",
+        "cmd:gpgv-sq=0.13.1-r2"
       ]
     },
     "sequoia-sq": {
       "origin": "sequoia-sq",
       "versions": {
-        "1.3.1-r3": 1775229467
+        "1.3.1-r3": 1775229467,
+        "1.3.1-r4": 1779493765
       },
       "dependencies": [
         "so:libbz2.so.1",
@@ -253984,37 +254408,42 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:sq=1.3.1-r3"
+        "cmd:sq=1.3.1-r4"
       ]
     },
     "sequoia-sq-bash-completion": {
       "origin": "sequoia-sq",
       "versions": {
-        "1.3.1-r3": 1775229467
+        "1.3.1-r3": 1775229467,
+        "1.3.1-r4": 1779493765
       }
     },
     "sequoia-sq-doc": {
       "origin": "sequoia-sq",
       "versions": {
-        "1.3.1-r3": 1775229467
+        "1.3.1-r3": 1775229467,
+        "1.3.1-r4": 1779493765
       }
     },
     "sequoia-sq-fish-completion": {
       "origin": "sequoia-sq",
       "versions": {
-        "1.3.1-r3": 1775229467
+        "1.3.1-r3": 1775229467,
+        "1.3.1-r4": 1779493765
       }
     },
     "sequoia-sq-zsh-completion": {
       "origin": "sequoia-sq",
       "versions": {
-        "1.3.1-r3": 1775229467
+        "1.3.1-r3": 1775229467,
+        "1.3.1-r4": 1779493765
       }
     },
     "sequoia-sqv": {
       "origin": "sequoia-sqv",
       "versions": {
-        "1.3.0-r1": 1777671397
+        "1.3.0-r1": 1777671397,
+        "1.3.0-r2": 1779493765
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -254023,7 +254452,7 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:sqv=1.3.0-r1"
+        "cmd:sqv=1.3.0-r2"
       ]
     },
     "serd": {
@@ -257803,7 +258232,8 @@
     "spacebar": {
       "origin": "spacebar",
       "versions": {
-        "6.6.5-r0": 1778857556
+        "6.6.5-r0": 1778857556,
+        "6.6.5-r1": 1779530332
       },
       "dependencies": [
         "kirigami",
@@ -257838,14 +258268,15 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:spacebar-fakeserver=6.6.5-r0",
-        "cmd:spacebar=6.6.5-r0"
+        "cmd:spacebar-fakeserver=6.6.5-r1",
+        "cmd:spacebar=6.6.5-r1"
       ]
     },
     "spacebar-lang": {
       "origin": "spacebar",
       "versions": {
-        "6.6.5-r0": 1778857556
+        "6.6.5-r0": 1778857556,
+        "6.6.5-r1": 1779530332
       }
     },
     "spacefm": {
@@ -262268,7 +262699,8 @@
     "synapse": {
       "origin": "synapse",
       "versions": {
-        "1.152.1-r0": 1778220225
+        "1.152.1-r0": 1778220225,
+        "1.153.0-r0": 1779281614
       },
       "dependencies": [
         "python3",
@@ -262320,31 +262752,33 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:export_signing_key=1.152.1-r0",
-        "cmd:generate_config=1.152.1-r0",
-        "cmd:generate_log_config=1.152.1-r0",
-        "cmd:generate_signing_key=1.152.1-r0",
-        "cmd:hash_password=1.152.1-r0",
-        "cmd:register_new_matrix_user=1.152.1-r0",
-        "cmd:synapse_homeserver=1.152.1-r0",
-        "cmd:synapse_port_db=1.152.1-r0",
-        "cmd:synapse_review_recent_signups=1.152.1-r0",
-        "cmd:synapse_worker=1.152.1-r0",
-        "cmd:synctl=1.152.1-r0",
-        "cmd:update_synapse_database=1.152.1-r0",
-        "py3.14:synapse=1.152.1-r0"
+        "cmd:export_signing_key=1.153.0-r0",
+        "cmd:generate_config=1.153.0-r0",
+        "cmd:generate_log_config=1.153.0-r0",
+        "cmd:generate_signing_key=1.153.0-r0",
+        "cmd:hash_password=1.153.0-r0",
+        "cmd:register_new_matrix_user=1.153.0-r0",
+        "cmd:synapse_homeserver=1.153.0-r0",
+        "cmd:synapse_port_db=1.153.0-r0",
+        "cmd:synapse_review_recent_signups=1.153.0-r0",
+        "cmd:synapse_worker=1.153.0-r0",
+        "cmd:synctl=1.153.0-r0",
+        "cmd:update_synapse_database=1.153.0-r0",
+        "py3.14:synapse=1.153.0-r0"
       ]
     },
     "synapse-openrc": {
       "origin": "synapse",
       "versions": {
-        "1.152.1-r0": 1778220225
+        "1.152.1-r0": 1778220225,
+        "1.153.0-r0": 1779281614
       }
     },
     "synapse-pyc": {
       "origin": "synapse",
       "versions": {
-        "1.152.1-r0": 1778220225
+        "1.152.1-r0": 1778220225,
+        "1.153.0-r0": 1779281614
       },
       "dependencies": [
         "python3~3.14"
@@ -262455,7 +262889,8 @@
     "syncthing": {
       "origin": "syncthing",
       "versions": {
-        "2.0.16-r2": 1778661427
+        "2.0.16-r2": 1778661427,
+        "2.1.0-r0": 1779535960
       },
       "dependencies": [
         "/bin/sh",
@@ -262463,45 +262898,50 @@
         "so:libsqlite3.so.0"
       ],
       "provides": [
-        "cmd:syncthing=2.0.16-r2"
+        "cmd:syncthing=2.1.0-r0"
       ]
     },
     "syncthing-doc": {
       "origin": "syncthing",
       "versions": {
-        "2.0.16-r2": 1778661427
+        "2.0.16-r2": 1778661427,
+        "2.1.0-r0": 1779535960
       }
     },
     "syncthing-nftrules": {
       "origin": "syncthing",
       "versions": {
-        "2.0.16-r2": 1778661427
+        "2.0.16-r2": 1778661427,
+        "2.1.0-r0": 1779535960
       }
     },
     "syncthing-openrc": {
       "origin": "syncthing",
       "versions": {
-        "2.0.16-r2": 1778661427
+        "2.0.16-r2": 1778661427,
+        "2.1.0-r0": 1779535960
       }
     },
     "syncthing-systemd": {
       "origin": "syncthing",
       "versions": {
-        "2.0.16-r2": 1778661427
+        "2.0.16-r2": 1778661427,
+        "2.1.0-r0": 1779535960
       }
     },
     "syncthing-utils": {
       "origin": "syncthing",
       "versions": {
-        "2.0.16-r2": 1778661427
+        "2.0.16-r2": 1778661427,
+        "2.1.0-r0": 1779535960
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:stdiscosrv=2.0.16-r2",
-        "cmd:strelaypoolsrv=2.0.16-r2",
-        "cmd:strelaysrv=2.0.16-r2"
+        "cmd:stdiscosrv=2.1.0-r0",
+        "cmd:strelaypoolsrv=2.1.0-r0",
+        "cmd:strelaysrv=2.1.0-r0"
       ]
     },
     "syncwhen": {
@@ -270473,13 +270913,14 @@
     "tree-sitter": {
       "origin": "tree-sitter",
       "versions": {
-        "0.25.10-r0": 1758619435
+        "0.25.10-r0": 1758619435,
+        "0.26.7-r0": 1779256921
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "so:libtree-sitter.so.0.25=0.25"
+        "so:libtree-sitter.so.0.26=0.26"
       ]
     },
     "tree-sitter-bash": {
@@ -270509,7 +270950,8 @@
     "tree-sitter-cli": {
       "origin": "tree-sitter",
       "versions": {
-        "0.25.10-r0": 1758619435
+        "0.25.10-r0": 1758619435,
+        "0.26.7-r0": 1779256921
       },
       "dependencies": [
         "nodejs",
@@ -270517,7 +270959,7 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:tree-sitter=0.25.10-r0"
+        "cmd:tree-sitter=0.26.7-r0"
       ]
     },
     "tree-sitter-cmake": {
@@ -270559,16 +271001,17 @@
     "tree-sitter-dev": {
       "origin": "tree-sitter",
       "versions": {
-        "0.25.10-r0": 1758619435
+        "0.25.10-r0": 1758619435,
+        "0.26.7-r0": 1779256921
       },
       "dependencies": [
         "jq",
-        "tree-sitter=0.25.10-r0",
+        "tree-sitter=0.26.7-r0",
         "pkgconfig"
       ],
       "provides": [
-        "cmd:abuild-tree-sitter=0.25.10-r0",
-        "pc:tree-sitter=0.25.10"
+        "cmd:abuild-tree-sitter=0.26.7-r0",
+        "pc:tree-sitter=0.26.7"
       ]
     },
     "tree-sitter-elixir": {
@@ -270607,7 +271050,8 @@
     "tree-sitter-grammars": {
       "origin": "tree-sitter",
       "versions": {
-        "0.25.10-r0": 1758619435
+        "0.25.10-r0": 1758619435,
+        "0.26.7-r0": 1779256921
       }
     },
     "tree-sitter-html": {
@@ -270676,7 +271120,8 @@
     "tree-sitter-lua": {
       "origin": "tree-sitter-lua",
       "versions": {
-        "0.3.0-r1": 1753447870
+        "0.3.0-r1": 1753447870,
+        "0.5.0-r0": 1779605810
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1"
@@ -270805,7 +271250,8 @@
     "tree-sitter-static": {
       "origin": "tree-sitter",
       "versions": {
-        "0.25.10-r0": 1758619435
+        "0.25.10-r0": 1758619435,
+        "0.26.7-r0": 1779256921
       },
       "dependencies": [
         "tree-sitter-dev"
@@ -271231,14 +271677,15 @@
     "tuckr": {
       "origin": "tuckr",
       "versions": {
-        "0.12.0-r1": 1771160091
+        "0.12.0-r1": 1771160091,
+        "0.13.1-r0": 1779503535
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:tuckr=0.12.0-r1"
+        "cmd:tuckr=0.13.1-r0"
       ]
     },
     "tumbler": {
@@ -272148,7 +272595,8 @@
     "ud3tn": {
       "origin": "ud3tn",
       "versions": {
-        "0.14.5-r0": 1768012710
+        "0.14.5-r0": 1768012710,
+        "0.15.0-r0": 1779285817
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -272156,13 +272604,14 @@
         "so:libsqlite3.so.0"
       ],
       "provides": [
-        "cmd:ud3tn=0.14.5-r0"
+        "cmd:ud3tn=0.15.0-r0"
       ]
     },
     "ud3tn-doc": {
       "origin": "ud3tn",
       "versions": {
-        "0.14.5-r0": 1768012710
+        "0.14.5-r0": 1768012710,
+        "0.15.0-r0": 1779285817
       }
     },
     "udftools": {
@@ -274254,7 +274703,8 @@
       "origin": "uv",
       "versions": {
         "0.11.14-r0": 1778985878,
-        "0.11.15-r0": 1779188376
+        "0.11.15-r0": 1779188376,
+        "0.11.16-r0": 1779494324
       },
       "dependencies": [
         "so:libbz2.so.1",
@@ -274262,29 +274712,32 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:uv=0.11.15-r0",
-        "cmd:uvx=0.11.15-r0"
+        "cmd:uv=0.11.16-r0",
+        "cmd:uvx=0.11.16-r0"
       ]
     },
     "uv-bash-completion": {
       "origin": "uv",
       "versions": {
         "0.11.14-r0": 1778985878,
-        "0.11.15-r0": 1779188376
+        "0.11.15-r0": 1779188376,
+        "0.11.16-r0": 1779494324
       }
     },
     "uv-fish-completion": {
       "origin": "uv",
       "versions": {
         "0.11.14-r0": 1778985878,
-        "0.11.15-r0": 1779188376
+        "0.11.15-r0": 1779188376,
+        "0.11.16-r0": 1779494324
       }
     },
     "uv-zsh-completion": {
       "origin": "uv",
       "versions": {
         "0.11.14-r0": 1778985878,
-        "0.11.15-r0": 1779188376
+        "0.11.15-r0": 1779188376,
+        "0.11.16-r0": 1779494324
       }
     },
     "uvicorn": {
@@ -275583,32 +276036,35 @@
     "vim": {
       "origin": "vim",
       "versions": {
-        "9.2.0498-r0": 1779056078
+        "9.2.0498-r0": 1779056078,
+        "9.2.0514-r0": 1779497738
       },
       "dependencies": [
-        "vim-common=9.2.0498-r0",
-        "xxd=9.2.0498-r0",
+        "vim-common=9.2.0514-r0",
+        "xxd=9.2.0514-r0",
         "so:libc.musl-armv7.so.1",
         "so:libncursesw.so.6"
       ],
       "provides": [
-        "cmd:ex=9.2.0498-r0",
-        "cmd:rview=9.2.0498-r0",
-        "cmd:rvim=9.2.0498-r0",
-        "cmd:view=9.2.0498-r0",
-        "cmd:vim=9.2.0498-r0"
+        "cmd:ex=9.2.0514-r0",
+        "cmd:rview=9.2.0514-r0",
+        "cmd:rvim=9.2.0514-r0",
+        "cmd:view=9.2.0514-r0",
+        "cmd:vim=9.2.0514-r0"
       ]
     },
     "vim-common": {
       "origin": "vim",
       "versions": {
-        "9.2.0498-r0": 1779056078
+        "9.2.0498-r0": 1779056078,
+        "9.2.0514-r0": 1779497738
       }
     },
     "vim-doc": {
       "origin": "vim",
       "versions": {
-        "9.2.0498-r0": 1779056078
+        "9.2.0498-r0": 1779056078,
+        "9.2.0514-r0": 1779497738
       }
     },
     "vim-editorconfig": {
@@ -275647,13 +276103,14 @@
     "vim-tutor": {
       "origin": "vim",
       "versions": {
-        "9.2.0498-r0": 1779056078
+        "9.2.0498-r0": 1779056078,
+        "9.2.0514-r0": 1779497738
       },
       "dependencies": [
-        "vim=9.2.0498-r0"
+        "vim=9.2.0514-r0"
       ],
       "provides": [
-        "cmd:vimtutor=9.2.0498-r0"
+        "cmd:vimtutor=9.2.0514-r0"
       ]
     },
     "vimb": {
@@ -275685,14 +276142,15 @@
     "vimdiff": {
       "origin": "vim",
       "versions": {
-        "9.2.0498-r0": 1779056078
+        "9.2.0498-r0": 1779056078,
+        "9.2.0514-r0": 1779497738
       },
       "dependencies": [
         "diffutils",
-        "vim=9.2.0498-r0"
+        "vim=9.2.0514-r0"
       ],
       "provides": [
-        "cmd:vimdiff=9.2.0498-r0"
+        "cmd:vimdiff=9.2.0514-r0"
       ]
     },
     "vimiv": {
@@ -276234,14 +276692,15 @@
     "vivid": {
       "origin": "vivid",
       "versions": {
-        "0.10.1-r0": 1731751460
+        "0.10.1-r0": 1731751460,
+        "0.11.1-r0": 1779564197
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:vivid=0.10.1-r0"
+        "cmd:vivid=0.11.1-r0"
       ]
     },
     "vkmark": {
@@ -277250,7 +277709,8 @@
     "vvmd": {
       "origin": "vvmd",
       "versions": {
-        "1.1-r29": 1778323874
+        "1.1-r29": 1778323874,
+        "1.1-r30": 1779530332
       },
       "dependencies": [
         "mobile-broadband-provider-info",
@@ -277266,19 +277726,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:vvmd=1.1-r29"
+        "cmd:vvmd=1.1-r30"
       ]
     },
     "vvmd-openrc": {
       "origin": "vvmd",
       "versions": {
-        "1.1-r29": 1778323874
+        "1.1-r29": 1778323874,
+        "1.1-r30": 1779530332
       }
     },
     "vvmd-systemd": {
       "origin": "vvmd",
       "versions": {
-        "1.1-r29": 1778323874
+        "1.1-r29": 1778323874,
+        "1.1-r30": 1779530332
       }
     },
     "vvmplayer": {
@@ -278393,7 +278855,8 @@
     "webkit2gtk-4.1": {
       "origin": "webkit2gtk-4.1",
       "versions": {
-        "2.48.1-r3": 1768294069
+        "2.48.1-r3": 1768294069,
+        "2.48.7-r0": 1779418665
       },
       "dependencies": [
         "bubblewrap",
@@ -278466,28 +278929,30 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:WebKitWebDriver-4.1=2.48.1-r3",
-        "so:libjavascriptcoregtk-4.1.so.0=0.8.4",
-        "so:libwebkit2gtk-4.1.so.0=0.17.6"
+        "cmd:WebKitWebDriver-4.1=2.48.7-r0",
+        "so:libjavascriptcoregtk-4.1.so.0=0.8.10",
+        "so:libwebkit2gtk-4.1.so.0=0.17.12"
       ]
     },
     "webkit2gtk-4.1-dbg": {
       "origin": "webkit2gtk-4.1",
       "versions": {
-        "2.48.1-r3": 1768294069
+        "2.48.1-r3": 1768294069,
+        "2.48.7-r0": 1779418665
       },
       "dependencies": [
-        "!webkit2gtk-4.1<2.48.1-r3",
-        "!webkit2gtk-4.1>2.48.1-r3"
+        "!webkit2gtk-4.1<2.48.7-r0",
+        "!webkit2gtk-4.1>2.48.7-r0"
       ]
     },
     "webkit2gtk-4.1-dev": {
       "origin": "webkit2gtk-4.1",
       "versions": {
-        "2.48.1-r3": 1768294069
+        "2.48.1-r3": 1768294069,
+        "2.48.7-r0": 1779418665
       },
       "dependencies": [
-        "webkit2gtk-4.1=2.48.1-r3",
+        "webkit2gtk-4.1=2.48.7-r0",
         "pc:glib-2.0",
         "pc:gobject-2.0",
         "pc:gtk+-3.0",
@@ -278495,15 +278960,16 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:javascriptcoregtk-4.1=2.48.1",
-        "pc:webkit2gtk-4.1=2.48.1",
-        "pc:webkit2gtk-web-extension-4.1=2.48.1"
+        "pc:javascriptcoregtk-4.1=2.48.7",
+        "pc:webkit2gtk-4.1=2.48.7",
+        "pc:webkit2gtk-web-extension-4.1=2.48.7"
       ]
     },
     "webkit2gtk-4.1-lang": {
       "origin": "webkit2gtk-4.1",
       "versions": {
-        "2.48.1-r3": 1768294069
+        "2.48.1-r3": 1768294069,
+        "2.48.7-r0": 1779418665
       }
     },
     "webkit2gtk-6.0": {
@@ -280527,7 +280993,8 @@
     "wlroots0.20": {
       "origin": "wlroots0.20",
       "versions": {
-        "0.20.0-r0": 1774543534
+        "0.20.0-r0": 1774543534,
+        "0.20.1-r0": 1779282638
       },
       "dependencies": [
         "so:libEGL.so.1",
@@ -280560,27 +281027,29 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "wlroots=0.20.0-r0",
+        "wlroots=0.20.1-r0",
         "so:libwlroots-0.20.so=0"
       ]
     },
     "wlroots0.20-dbg": {
       "origin": "wlroots0.20",
       "versions": {
-        "0.20.0-r0": 1774543534
+        "0.20.0-r0": 1774543534,
+        "0.20.1-r0": 1779282638
       },
       "dependencies": [
-        "!wlroots0.20<0.20.0-r0",
-        "!wlroots0.20>0.20.0-r0"
+        "!wlroots0.20<0.20.1-r0",
+        "!wlroots0.20>0.20.1-r0"
       ]
     },
     "wlroots0.20-dev": {
       "origin": "wlroots0.20",
       "versions": {
-        "0.20.0-r0": 1774543534
+        "0.20.0-r0": 1774543534,
+        "0.20.1-r0": 1779282638
       },
       "dependencies": [
-        "wlroots0.20=0.20.0-r0",
+        "wlroots0.20=0.20.1-r0",
         "pc:egl",
         "pc:gbm",
         "pc:glesv2",
@@ -280612,14 +281081,15 @@
         "pkgconfig"
       ],
       "provides": [
-        "wlroots-dev=0.20.0-r0",
-        "pc:wlroots-0.20=0.20.0"
+        "wlroots-dev=0.20.1-r0",
+        "pc:wlroots-0.20=0.20.1"
       ]
     },
     "wlroots0.20-static": {
       "origin": "wlroots0.20",
       "versions": {
-        "0.20.0-r0": 1774543534
+        "0.20.0-r0": 1774543534,
+        "0.20.1-r0": 1779282638
       },
       "dependencies": [
         "wlroots0.20-dev"
@@ -282054,96 +282524,106 @@
     "xapian-bindings": {
       "origin": "xapian-bindings",
       "versions": {
-        "1.4.27-r3": 1774640452
+        "1.4.27-r3": 1774640452,
+        "2.0.0-r0": 1779370102
       }
     },
     "xapian-bindings-doc": {
       "origin": "xapian-bindings",
       "versions": {
-        "1.4.27-r3": 1774640452
+        "1.4.27-r3": 1774640452,
+        "2.0.0-r0": 1779370102
       }
     },
     "xapian-bindings-lua": {
       "origin": "xapian-bindings",
       "versions": {
-        "1.4.27-r3": 1774640452
+        "1.4.27-r3": 1774640452,
+        "2.0.0-r0": 1779370102
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
         "so:libgcc_s.so.1",
         "so:liblua-5.3.so.0",
         "so:libstdc++.so.6",
-        "so:libxapian.so.30"
+        "so:libxapian.so.45"
       ]
     },
     "xapian-bindings-perl": {
       "origin": "xapian-bindings",
       "versions": {
-        "1.4.27-r3": 1774640452
+        "1.4.27-r3": 1774640452,
+        "2.0.0-r0": 1779370102
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
         "so:libgcc_s.so.1",
         "so:libstdc++.so.6",
-        "so:libxapian.so.30"
+        "so:libxapian.so.45"
       ]
     },
     "xapian-bindings-php85": {
       "origin": "xapian-bindings",
       "versions": {
-        "1.4.27-r3": 1774640452
+        "1.4.27-r3": 1774640452,
+        "2.0.0-r0": 1779370102
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
         "so:libgcc_s.so.1",
         "so:libstdc++.so.6",
-        "so:libxapian.so.30"
+        "so:libxapian.so.45"
       ]
     },
     "xapian-bindings-python3": {
       "origin": "xapian-bindings",
       "versions": {
-        "1.4.27-r3": 1774640452
+        "1.4.27-r3": 1774640452,
+        "2.0.0-r0": 1779370102
       },
       "dependencies": [
         "python3~3.14",
         "so:libc.musl-armv7.so.1",
         "so:libgcc_s.so.1",
         "so:libstdc++.so.6",
-        "so:libxapian.so.30"
+        "so:libxapian.so.45"
       ],
       "provides": [
-        "py3.14:xapian=1.4.27-r3"
+        "py3.14:xapian=2.0.0-r0"
       ]
     },
     "xapian-bindings-ruby": {
       "origin": "xapian-bindings",
       "versions": {
-        "1.4.27-r3": 1774640452
+        "1.4.27-r3": 1774640452,
+        "2.0.0-r0": 1779370102
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
         "so:libgcc_s.so.1",
+        "so:libruby.so.3.4",
         "so:libstdc++.so.6",
-        "so:libxapian.so.30"
+        "so:libxapian.so.45"
       ]
     },
     "xapian-bindings-tcl": {
       "origin": "xapian-bindings",
       "versions": {
-        "1.4.27-r3": 1774640452
+        "1.4.27-r3": 1774640452,
+        "2.0.0-r0": 1779370102
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
         "so:libgcc_s.so.1",
         "so:libstdc++.so.6",
-        "so:libxapian.so.30"
+        "so:libxapian.so.45"
       ]
     },
     "xapian-omega": {
       "origin": "xapian-omega",
       "versions": {
-        "1.4.29-r1": 1751255085
+        "1.4.29-r1": 1751255085,
+        "2.0.0-r0": 1779370102
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -282151,22 +282631,22 @@
         "so:libmagic.so.1",
         "so:libpcre2-8.so.0",
         "so:libstdc++.so.6",
-        "so:libxapian.so.30",
+        "so:libxapian.so.45",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:dbi2omega=1.4.29-r1",
-        "cmd:htdig2omega=1.4.29-r1",
-        "cmd:mbox2omega=1.4.29-r1",
-        "cmd:omindex-list=1.4.29-r1",
-        "cmd:omindex=1.4.29-r1",
-        "cmd:scriptindex=1.4.29-r1"
+        "cmd:dbi2omega=2.0.0-r0",
+        "cmd:mbox2omega=2.0.0-r0",
+        "cmd:omindex-list=2.0.0-r0",
+        "cmd:omindex=2.0.0-r0",
+        "cmd:scriptindex=2.0.0-r0"
       ]
     },
     "xapian-omega-doc": {
       "origin": "xapian-omega",
       "versions": {
-        "1.4.29-r1": 1751255085
+        "1.4.29-r1": 1751255085,
+        "2.0.0-r0": 1779370102
       }
     },
     "xapp": {
@@ -282493,7 +282973,8 @@
     "xbps": {
       "origin": "xbps",
       "versions": {
-        "0.60.6-r0": 1764716900
+        "0.60.6-r0": 1764716900,
+        "0.60.6-r1": 1779495363
       },
       "dependencies": [
         "ca-certificates",
@@ -282504,38 +282985,40 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:xbps-alternatives=0.60.6-r0",
-        "cmd:xbps-checkvers=0.60.6-r0",
-        "cmd:xbps-create=0.60.6-r0",
-        "cmd:xbps-dgraph=0.60.6-r0",
-        "cmd:xbps-digest=0.60.6-r0",
-        "cmd:xbps-fbulk=0.60.6-r0",
-        "cmd:xbps-fetch=0.60.6-r0",
-        "cmd:xbps-install=0.60.6-r0",
-        "cmd:xbps-pkgdb=0.60.6-r0",
-        "cmd:xbps-query=0.60.6-r0",
-        "cmd:xbps-reconfigure=0.60.6-r0",
-        "cmd:xbps-remove=0.60.6-r0",
-        "cmd:xbps-rindex=0.60.6-r0",
-        "cmd:xbps-uchroot=0.60.6-r0",
-        "cmd:xbps-uhelper=0.60.6-r0",
-        "cmd:xbps-uunshare=0.60.6-r0",
+        "cmd:xbps-alternatives=0.60.6-r1",
+        "cmd:xbps-checkvers=0.60.6-r1",
+        "cmd:xbps-create=0.60.6-r1",
+        "cmd:xbps-dgraph=0.60.6-r1",
+        "cmd:xbps-digest=0.60.6-r1",
+        "cmd:xbps-fbulk=0.60.6-r1",
+        "cmd:xbps-fetch=0.60.6-r1",
+        "cmd:xbps-install=0.60.6-r1",
+        "cmd:xbps-pkgdb=0.60.6-r1",
+        "cmd:xbps-query=0.60.6-r1",
+        "cmd:xbps-reconfigure=0.60.6-r1",
+        "cmd:xbps-remove=0.60.6-r1",
+        "cmd:xbps-rindex=0.60.6-r1",
+        "cmd:xbps-uchroot=0.60.6-r1",
+        "cmd:xbps-uhelper=0.60.6-r1",
+        "cmd:xbps-uunshare=0.60.6-r1",
         "so:libxbps.so.6=6.0.0"
       ]
     },
     "xbps-bash-completion": {
       "origin": "xbps",
       "versions": {
-        "0.60.6-r0": 1764716900
+        "0.60.6-r0": 1764716900,
+        "0.60.6-r1": 1779495363
       }
     },
     "xbps-dev": {
       "origin": "xbps",
       "versions": {
-        "0.60.6-r0": 1764716900
+        "0.60.6-r0": 1764716900,
+        "0.60.6-r1": 1779495363
       },
       "dependencies": [
-        "xbps=0.60.6-r0",
+        "xbps=0.60.6-r1",
         "pkgconfig"
       ],
       "provides": [
@@ -282545,13 +283028,15 @@
     "xbps-doc": {
       "origin": "xbps",
       "versions": {
-        "0.60.6-r0": 1764716900
+        "0.60.6-r0": 1764716900,
+        "0.60.6-r1": 1779495363
       }
     },
     "xbps-zsh-completion": {
       "origin": "xbps",
       "versions": {
-        "0.60.6-r0": 1764716900
+        "0.60.6-r0": 1764716900,
+        "0.60.6-r1": 1779495363
       }
     },
     "xca": {
@@ -283567,7 +284052,8 @@
     "xdp-tests": {
       "origin": "xdp-tools",
       "versions": {
-        "1.6.3-r0": 1777470236
+        "1.6.3-r0": 1777470236,
+        "1.6.3-r1": 1779461059
       },
       "dependencies": [
         "so:libbpf.so.1",
@@ -283578,7 +284064,8 @@
     "xdp-tools": {
       "origin": "xdp-tools",
       "versions": {
-        "1.6.3-r0": 1777470236
+        "1.6.3-r0": 1777470236,
+        "1.6.3-r1": 1779461059
       },
       "dependencies": [
         "so:libbpf.so.1",
@@ -283587,19 +284074,20 @@
         "so:libxdp.so.1"
       ],
       "provides": [
-        "cmd:xdp-bench=1.6.3-r0",
-        "cmd:xdp-filter=1.6.3-r0",
-        "cmd:xdp-forward=1.6.3-r0",
-        "cmd:xdp-loader=1.6.3-r0",
-        "cmd:xdp-monitor=1.6.3-r0",
-        "cmd:xdp-trafficgen=1.6.3-r0",
-        "cmd:xdpdump=1.6.3-r0"
+        "cmd:xdp-bench=1.6.3-r1",
+        "cmd:xdp-filter=1.6.3-r1",
+        "cmd:xdp-forward=1.6.3-r1",
+        "cmd:xdp-loader=1.6.3-r1",
+        "cmd:xdp-monitor=1.6.3-r1",
+        "cmd:xdp-trafficgen=1.6.3-r1",
+        "cmd:xdpdump=1.6.3-r1"
       ]
     },
     "xdp-tools-doc": {
       "origin": "xdp-tools",
       "versions": {
-        "1.6.3-r0": 1777470236
+        "1.6.3-r0": 1777470236,
+        "1.6.3-r1": 1779461059
       }
     },
     "xdpyinfo": {
@@ -287842,13 +288330,14 @@
     "xxd": {
       "origin": "vim",
       "versions": {
-        "9.2.0498-r0": 1779056078
+        "9.2.0498-r0": 1779056078,
+        "9.2.0514-r0": 1779497738
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:xxd=9.2.0498-r0"
+        "cmd:xxd=9.2.0514-r0"
       ]
     },
     "yabasic": {
@@ -289712,7 +290201,8 @@
     "zathura": {
       "origin": "zathura",
       "versions": {
-        "2026.05.11-r0": 1779063937
+        "2026.05.11-r0": 1779063937,
+        "2026.05.20-r0": 1779323369
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -289734,14 +290224,15 @@
         "so:libsynctex.so.2"
       ],
       "provides": [
-        "cmd:zathura-sandbox=2026.05.11-r0",
-        "cmd:zathura=2026.05.11-r0"
+        "cmd:zathura-sandbox=2026.05.20-r0",
+        "cmd:zathura=2026.05.20-r0"
       ]
     },
     "zathura-bash-completion": {
       "origin": "zathura",
       "versions": {
-        "2026.05.11-r0": 1779063937
+        "2026.05.11-r0": 1779063937,
+        "2026.05.20-r0": 1779323369
       }
     },
     "zathura-cb": {
@@ -289766,7 +290257,8 @@
     "zathura-dev": {
       "origin": "zathura",
       "versions": {
-        "2026.05.11-r0": 1779063937
+        "2026.05.11-r0": 1779063937,
+        "2026.05.20-r0": 1779323369
       },
       "dependencies": [
         "pc:cairo",
@@ -289775,7 +290267,7 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:zathura=2026.05.11"
+        "pc:zathura=2026.05.20"
       ]
     },
     "zathura-djvu": {
@@ -289795,19 +290287,22 @@
     "zathura-doc": {
       "origin": "zathura",
       "versions": {
-        "2026.05.11-r0": 1779063937
+        "2026.05.11-r0": 1779063937,
+        "2026.05.20-r0": 1779323369
       }
     },
     "zathura-fish-completion": {
       "origin": "zathura",
       "versions": {
-        "2026.05.11-r0": 1779063937
+        "2026.05.11-r0": 1779063937,
+        "2026.05.20-r0": 1779323369
       }
     },
     "zathura-lang": {
       "origin": "zathura",
       "versions": {
-        "2026.05.11-r0": 1779063937
+        "2026.05.11-r0": 1779063937,
+        "2026.05.20-r0": 1779323369
       }
     },
     "zathura-pdf-mupdf": {
@@ -289856,7 +290351,8 @@
     "zathura-zsh-completion": {
       "origin": "zathura",
       "versions": {
-        "2026.05.11-r0": 1779063937
+        "2026.05.11-r0": 1779063937,
+        "2026.05.20-r0": 1779323369
       }
     },
     "zbar": {
@@ -289929,7 +290425,8 @@
     "zeitgeist": {
       "origin": "zeitgeist",
       "versions": {
-        "1.0.4-r4": 1774640448
+        "1.0.4-r4": 1774640448,
+        "1.0.4-r5": 1779370102
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -289943,24 +290440,26 @@
         "so:libsqlite3.so.0",
         "so:libstdc++.so.6",
         "so:libtelepathy-glib.so.0",
-        "so:libxapian.so.30",
+        "so:libxapian.so.45",
         "so:libzeitgeist-2.0.so.0"
       ],
       "provides": [
-        "cmd:zeitgeist-daemon=1.0.4-r4",
-        "cmd:zeitgeist-datahub=1.0.4-r4"
+        "cmd:zeitgeist-daemon=1.0.4-r5",
+        "cmd:zeitgeist-datahub=1.0.4-r5"
       ]
     },
     "zeitgeist-bash-completion": {
       "origin": "zeitgeist",
       "versions": {
-        "1.0.4-r4": 1774640448
+        "1.0.4-r4": 1774640448,
+        "1.0.4-r5": 1779370102
       }
     },
     "zeitgeist-dev": {
       "origin": "zeitgeist",
       "versions": {
-        "1.0.4-r4": 1774640448
+        "1.0.4-r4": 1774640448,
+        "1.0.4-r5": 1779370102
       },
       "dependencies": [
         "sqlite-dev",
@@ -289969,7 +290468,7 @@
         "telepathy-glib-dev",
         "gtk+3.0-dev",
         "json-glib-dev",
-        "libzeitgeist=1.0.4-r4",
+        "libzeitgeist=1.0.4-r5",
         "pc:gio-2.0",
         "pc:glib-2.0",
         "pc:gobject-2.0",
@@ -289982,7 +290481,8 @@
     "zeitgeist-doc": {
       "origin": "zeitgeist",
       "versions": {
-        "1.0.4-r4": 1774640448
+        "1.0.4-r4": 1774640448,
+        "1.0.4-r5": 1779370102
       }
     },
     "zenith": {
@@ -290083,23 +290583,25 @@
     "zfs-stable": {
       "origin": "zfs-stable",
       "versions": {
-        "7.0.9-r0": 1779033522
+        "7.0.9-r0": 1779033522,
+        "7.0.10-r0": 1779537020
       },
       "dependencies": [
-        "linux-stable=7.0.9-r0"
+        "linux-stable=7.0.10-r0"
       ]
     },
     "zfs-stable-dev": {
       "origin": "zfs-stable",
       "versions": {
-        "7.0.9-r0": 1779033522
+        "7.0.9-r0": 1779033522,
+        "7.0.10-r0": 1779537020
       },
       "dependencies": [
         "glib-dev",
         "e2fsprogs-dev",
         "util-linux-dev",
         "libtirpc-dev",
-        "linux-stable-dev=7.0.9-r0"
+        "linux-stable-dev=7.0.10-r0"
       ]
     },
     "zigbee2mqtt": {
@@ -291095,6 +291597,258 @@
       "origin": "zzz",
       "versions": {
         "0.2.0-r0": 1723734253
+      }
+    },
+    "autosuspend": {
+      "origin": "autosuspend",
+      "versions": {
+        "10.1.0-r2": 1779503054
+      },
+      "dependencies": [
+        "py3-dateutil",
+        "py3-dbus",
+        "py3-gobject3",
+        "py3-icalendar",
+        "py3-jsonpath-ng",
+        "py3-lxml",
+        "py3-mpd2",
+        "py3-psutil",
+        "py3-requests-file",
+        "py3-tzlocal",
+        "python3~3.14"
+      ],
+      "provides": [
+        "cmd:autosuspend=10.1.0-r2",
+        "py3.14:autosuspend=10.1.0-r2"
+      ]
+    },
+    "autosuspend-systemd": {
+      "origin": "autosuspend",
+      "versions": {
+        "10.1.0-r2": 1779503054
+      }
+    },
+    "gnucobol": {
+      "origin": "gnucobol",
+      "versions": {
+        "3.2-r0": 1779549535
+      },
+      "dependencies": [
+        "gcc",
+        "gmp-dev",
+        "musl-dev",
+        "libcob4=3.2-r0",
+        "so:libc.musl-armv7.so.1",
+        "so:libcob.so.4",
+        "so:libintl.so.8"
+      ],
+      "provides": [
+        "cmd:cob-config=3.2-r0",
+        "cmd:cobc=3.2-r0",
+        "cmd:cobcrun=3.2-r0"
+      ]
+    },
+    "gnucobol-doc": {
+      "origin": "gnucobol",
+      "versions": {
+        "3.2-r0": 1779549535
+      }
+    },
+    "gnucobol-lang": {
+      "origin": "gnucobol",
+      "versions": {
+        "3.2-r0": 1779549535
+      }
+    },
+    "libcob4": {
+      "origin": "gnucobol",
+      "versions": {
+        "3.2-r0": 1779549535
+      },
+      "dependencies": [
+        "so:libc.musl-armv7.so.1",
+        "so:libcjson.so.1",
+        "so:libdb-5.3.so",
+        "so:libgmp.so.10",
+        "so:libintl.so.8",
+        "so:libncursesw.so.6",
+        "so:libxml2.so.2"
+      ],
+      "provides": [
+        "so:libcob.so.4=4.2.0"
+      ]
+    },
+    "openresty-mod-devel-kit": {
+      "origin": "openresty",
+      "versions": {
+        "1.29.2.3-r1": 1779376172
+      },
+      "dependencies": [
+        "cmd:nginx",
+        "openresty",
+        "so:libc.musl-armv7.so.1"
+      ],
+      "provides": [
+        "nginx-mod-devel-kit=1.29.2.3-r1"
+      ]
+    },
+    "openvdb": {
+      "origin": "openvdb",
+      "versions": {
+        "13.0.0-r1": 1779493423
+      },
+      "dependencies": [
+        "so:libblosc.so.1",
+        "so:libboost_iostreams.so.1.84.0",
+        "so:libc.musl-armv7.so.1",
+        "so:libgcc_s.so.1",
+        "so:libstdc++.so.6",
+        "so:libtbb.so.12",
+        "so:libz.so.1"
+      ],
+      "provides": [
+        "so:libopenvdb.so.13.0=13.0.0"
+      ]
+    },
+    "openvdb-dev": {
+      "origin": "openvdb",
+      "versions": {
+        "13.0.0-r1": 1779493423
+      },
+      "dependencies": [
+        "openvdb=13.0.0-r1"
+      ]
+    },
+    "openvdb-nanovdb": {
+      "origin": "openvdb",
+      "versions": {
+        "13.0.0-r1": 1779493423
+      }
+    },
+    "openvdb-static": {
+      "origin": "openvdb",
+      "versions": {
+        "13.0.0-r1": 1779493423
+      },
+      "dependencies": [
+        "openvdb-dev"
+      ]
+    },
+    "openvdb-tools": {
+      "origin": "openvdb",
+      "versions": {
+        "13.0.0-r1": 1779493423
+      },
+      "dependencies": [
+        "so:libblosc.so.1",
+        "so:libc.musl-armv7.so.1",
+        "so:libgcc_s.so.1",
+        "so:libopenvdb.so.13.0",
+        "so:libstdc++.so.6",
+        "so:libtbb.so.12",
+        "so:libz.so.1"
+      ],
+      "provides": [
+        "cmd:nanovdb_print=13.0.0-r1",
+        "cmd:nanovdb_validate=13.0.0-r1",
+        "cmd:vdb_print=13.0.0-r1"
+      ]
+    },
+    "py3-openvdb": {
+      "origin": "openvdb",
+      "versions": {
+        "13.0.0-r1": 1779493423
+      },
+      "dependencies": [
+        "python3~3.14",
+        "so:libc.musl-armv7.so.1",
+        "so:libgcc_s.so.1",
+        "so:libopenvdb.so.13.0",
+        "so:libstdc++.so.6",
+        "so:libtbb.so.12"
+      ]
+    },
+    "py3-pytest-datadir": {
+      "origin": "py3-pytest-datadir",
+      "versions": {
+        "1.8.0-r1": 1779503054
+      },
+      "dependencies": [
+        "python3",
+        "py3-pytest",
+        "python3~3.14"
+      ],
+      "provides": [
+        "py3.14:pytest_datadir=1.8.0-r1"
+      ]
+    },
+    "py3-pytest-datadir-pyc": {
+      "origin": "py3-pytest-datadir",
+      "versions": {
+        "1.8.0-r1": 1779503054
+      },
+      "dependencies": [
+        "python3~3.14"
+      ]
+    },
+    "resources": {
+      "origin": "resources",
+      "versions": {
+        "1.10.2-r1": 1779549608
+      },
+      "dependencies": [
+        "lscpu",
+        "so:libadwaita-1.so.0",
+        "so:libc.musl-armv7.so.1",
+        "so:libcairo.so.2",
+        "so:libgcc_s.so.1",
+        "so:libgio-2.0.so.0",
+        "so:libglib-2.0.so.0",
+        "so:libgobject-2.0.so.0",
+        "so:libgraphene-1.0.so.0",
+        "so:libgtk-4.so.1",
+        "so:libintl.so.8"
+      ],
+      "provides": [
+        "cmd:resources=1.10.2-r1"
+      ]
+    },
+    "resources-lang": {
+      "origin": "resources",
+      "versions": {
+        "1.10.2-r1": 1779549608
+      }
+    },
+    "wayneko": {
+      "origin": "wayneko",
+      "versions": {
+        "0_git20260326-r0": 1779467570
+      },
+      "dependencies": [
+        "so:libc.musl-armv7.so.1",
+        "so:libpixman-1.so.0",
+        "so:libwayland-client.so.0"
+      ],
+      "provides": [
+        "cmd:wayneko=0_git20260326-r0"
+      ]
+    },
+    "wayneko-bash-completion": {
+      "origin": "wayneko",
+      "versions": {
+        "0_git20260326-r0": 1779467570
+      }
+    },
+    "wayneko-doc": {
+      "origin": "wayneko",
+      "versions": {
+        "0_git20260326-r0": 1779467570
+      }
+    },
+    "wayneko-zsh-completion": {
+      "origin": "wayneko",
+      "versions": {
+        "0_git20260326-r0": 1779467570
       }
     }
   },
@@ -300614,7 +301368,7 @@
       },
       "libgvm-pg-server.so.26": {
         "package": "gvmd",
-        "version": "26.24.0"
+        "version": "26.28.0"
       },
       "libgwengui-cpp.so.79": {
         "package": "gwenhywfar",
@@ -307478,7 +308232,7 @@
       },
       "libOpenColorIO.so.2.5": {
         "package": "opencolorio",
-        "version": "2.5.1"
+        "version": "2.5.2"
       },
       "libopenconnect.so.5": {
         "package": "openconnect",
@@ -307534,11 +308288,11 @@
       },
       "libOpenImageIO.so.3.1": {
         "package": "openimageio",
-        "version": "3.1.12"
+        "version": "3.1.13"
       },
       "libOpenImageIO_Util.so.3.1": {
         "package": "openimageio",
-        "version": "3.1.12"
+        "version": "3.1.13"
       },
       "libIPMIlanserv.so.0": {
         "package": "openipmi-lanserv",
@@ -307894,11 +308648,11 @@
       },
       "libopenvas_misc.so.23": {
         "package": "openvas-scanner",
-        "version": "23.45.2"
+        "version": "23.45.5"
       },
       "libopenvas_nasl.so.23": {
         "package": "openvas-scanner",
-        "version": "23.45.2"
+        "version": "23.45.5"
       },
       "libofproto-3.7.so.0": {
         "package": "openvswitch-libs",
@@ -312018,11 +312772,11 @@
       },
       "libjavascriptcoregtk-4.1.so.0": {
         "package": "webkit2gtk-4.1",
-        "version": "0.8.4"
+        "version": "0.8.10"
       },
       "libwebkit2gtk-4.1.so.0": {
         "package": "webkit2gtk-4.1",
-        "version": "0.17.6"
+        "version": "0.17.12"
       },
       "libjavascriptcoregtk-6.0.so.1": {
         "package": "webkit2gtk-6.0",
@@ -312535,6 +313289,66 @@
       "libzzipmmapped.so.13": {
         "package": "zziplib",
         "version": "13.0.80"
+      },
+      "libgvm_agent_controller.so.23": {
+        "package": "gvm-libs",
+        "version": "23.1.2"
+      },
+      "libgvm_base.so.23": {
+        "package": "gvm-libs",
+        "version": "23.1.2"
+      },
+      "libgvm_boreas.so.23": {
+        "package": "gvm-libs",
+        "version": "23.1.2"
+      },
+      "libgvm_container_image_scanner.so.23": {
+        "package": "gvm-libs",
+        "version": "23.1.2"
+      },
+      "libgvm_cyberark.so.23": {
+        "package": "gvm-libs",
+        "version": "23.1.2"
+      },
+      "libgvm_gmp.so.23": {
+        "package": "gvm-libs",
+        "version": "23.1.2"
+      },
+      "libgvm_http.so.23": {
+        "package": "gvm-libs",
+        "version": "23.1.2"
+      },
+      "libgvm_http_scanner.so.23": {
+        "package": "gvm-libs",
+        "version": "23.1.2"
+      },
+      "libgvm_openvasd.so.23": {
+        "package": "gvm-libs",
+        "version": "23.1.2"
+      },
+      "libgvm_osp.so.23": {
+        "package": "gvm-libs",
+        "version": "23.1.2"
+      },
+      "libgvm_security_intelligence.so.23": {
+        "package": "gvm-libs",
+        "version": "23.1.2"
+      },
+      "libgvm_util.so.23": {
+        "package": "gvm-libs",
+        "version": "23.1.2"
+      },
+      "libcob.so.4": {
+        "package": "libcob4",
+        "version": "4.2.0"
+      },
+      "libopenvdb.so.13.0": {
+        "package": "openvdb",
+        "version": "13.0.0"
+      },
+      "libtree-sitter.so.0.26": {
+        "package": "tree-sitter",
+        "version": "0.26"
       }
     },
     "package": {
@@ -312632,7 +313446,7 @@
       },
       "aws-cli-v2": {
         "package": "aws-cli",
-        "version": "2.34.48-r0"
+        "version": "2.34.52-r0"
       },
       "swww": {
         "package": "awww",
@@ -312688,7 +313502,7 @@
       },
       "docker-compose": {
         "package": "docker-cli-compose",
-        "version": "5.1.3-r1"
+        "version": "5.1.4-r0"
       },
       "docopt": {
         "package": "docopt-cpp",
@@ -313224,7 +314038,7 @@
       },
       "vim": {
         "package": "gvim",
-        "version": "9.2.0498-r0"
+        "version": "9.2.0514-r0"
       },
       "haproxy-dataplaneapi": {
         "package": "haproxy-dataplaneapi3",
@@ -313332,7 +314146,7 @@
       },
       "kiwix-lib": {
         "package": "libkiwix",
-        "version": "14.2.0-r0"
+        "version": "14.2.0-r1"
       },
       "libreoffice-gtk4": {
         "package": "libreoffice-gtk",
@@ -313364,7 +314178,7 @@
       },
       "linux-edge": {
         "package": "linux-stable",
-        "version": "7.0.9-r0"
+        "version": "7.0.10-r0"
       },
       "lit": {
         "package": "llvm16-test-utils",
@@ -313524,7 +314338,7 @@
       },
       "mmsd": {
         "package": "mmsd-tng",
-        "version": "2.6.4-r23"
+        "version": "2.6.4-r24"
       },
       "mongo-php7-library": {
         "package": "mongo-php-library",
@@ -314376,7 +315190,7 @@
       },
       "php83-mongodb": {
         "package": "php83-pecl-mongodb",
-        "version": "2.3.1-r0"
+        "version": "2.3.3-r0"
       },
       "php83-msgpack": {
         "package": "php83-pecl-msgpack",
@@ -314520,7 +315334,7 @@
       },
       "php84-mongodb": {
         "package": "php84-pecl-mongodb",
-        "version": "2.3.1-r0"
+        "version": "2.3.3-r0"
       },
       "php84-msgpack": {
         "package": "php84-pecl-msgpack",
@@ -314568,7 +315382,7 @@
       },
       "php85-mongodb": {
         "package": "php85-pecl-mongodb",
-        "version": "2.3.1-r0"
+        "version": "2.3.3-r0"
       },
       "php85-msgpack": {
         "package": "php85-pecl-msgpack",
@@ -314600,23 +315414,23 @@
       },
       "jack": {
         "package": "pipewire-jack",
-        "version": "1.6.5-r0"
+        "version": "1.6.5-r1"
       },
       "jack-dev": {
         "package": "pipewire-jack-dev",
-        "version": "1.6.5-r0"
+        "version": "1.6.5-r1"
       },
       "pulseaudio": {
         "package": "pipewire-pulse",
-        "version": "1.6.5-r0"
+        "version": "1.6.5-r1"
       },
       "pulseaudio-bluez": {
         "package": "pipewire-pulse",
-        "version": "1.6.5-r0"
+        "version": "1.6.5-r1"
       },
       "pulseaudio-zeroconf": {
         "package": "pipewire-zeroconf",
-        "version": "1.6.5-r0"
+        "version": "1.6.5-r1"
       },
       "plasma": {
         "package": "plasma-desktop-meta",
@@ -315476,7 +316290,7 @@
       },
       "py3-pypdf2": {
         "package": "py3-pypdf",
-        "version": "6.11.0-r0"
+        "version": "6.12.0-r0"
       },
       "py-pypeg2": {
         "package": "py3-pypeg2",
@@ -315672,7 +316486,7 @@
       },
       "py-smbus": {
         "package": "py3-smbus",
-        "version": "4.4-r2"
+        "version": "4.4-r3"
       },
       "py-snmp": {
         "package": "py3-snmp",
@@ -316076,11 +316890,11 @@
       },
       "wlroots": {
         "package": "wlroots0.20",
-        "version": "0.20.0-r0"
+        "version": "0.20.1-r0"
       },
       "wlroots-dev": {
         "package": "wlroots0.20-dev",
-        "version": "0.20.0-r0"
+        "version": "0.20.1-r0"
       },
       "wolfssl": {
         "package": "wolfssl-jni",
@@ -316121,6 +316935,10 @@
       "zimwriterfs": {
         "package": "zim-tools",
         "version": "3.7.0-r0"
+      },
+      "nginx-mod-devel-kit": {
+        "package": "openresty-mod-devel-kit",
+        "version": "1.29.2.3-r1"
       }
     }
   }
