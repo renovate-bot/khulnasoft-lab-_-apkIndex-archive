@@ -34654,7 +34654,8 @@
       "origin": "docker-cli-buildx",
       "versions": {
         "0.33.0-r1": 1775839666,
-        "0.33.0-r2": 1778661427
+        "0.33.0-r2": 1778661427,
+        "0.34.1-r0": 1779634605
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
@@ -201902,7 +201903,8 @@
       "origin": "putty",
       "versions": {
         "0.83-r2": 1771160091,
-        "0.84-r0": 1779503295
+        "0.84-r0": 1779503295,
+        "0.84-r1": 1779638903
       },
       "dependencies": [
         "ncurses-terminfo-base",
@@ -201919,21 +201921,22 @@
         "so:libpangocairo-1.0.so.0"
       ],
       "provides": [
-        "cmd:pageant=0.84-r0",
-        "cmd:plink=0.84-r0",
-        "cmd:pscp=0.84-r0",
-        "cmd:psftp=0.84-r0",
-        "cmd:psusan=0.84-r0",
-        "cmd:pterm=0.84-r0",
-        "cmd:putty=0.84-r0",
-        "cmd:puttygen=0.84-r0"
+        "cmd:pageant=0.84-r1",
+        "cmd:plink=0.84-r1",
+        "cmd:pscp=0.84-r1",
+        "cmd:psftp=0.84-r1",
+        "cmd:psusan=0.84-r1",
+        "cmd:pterm=0.84-r1",
+        "cmd:putty=0.84-r1",
+        "cmd:puttygen=0.84-r1"
       ]
     },
     "putty-doc": {
       "origin": "putty",
       "versions": {
         "0.83-r2": 1771160091,
-        "0.84-r0": 1779503295
+        "0.84-r0": 1779503295,
+        "0.84-r1": 1779638903
       }
     },
     "pv": {
@@ -273585,7 +273588,8 @@
     "upmpdcli": {
       "origin": "upmpdcli",
       "versions": {
-        "1.9.15-r0": 1774425869
+        "1.9.15-r0": 1774425869,
+        "1.9.17-r0": 1779635557
       },
       "dependencies": [
         "/bin/sh",
@@ -273599,19 +273603,21 @@
         "so:libupnpp.so.17"
       ],
       "provides": [
-        "cmd:upmpdcli=1.9.15-r0"
+        "cmd:upmpdcli=1.9.17-r0"
       ]
     },
     "upmpdcli-doc": {
       "origin": "upmpdcli",
       "versions": {
-        "1.9.15-r0": 1774425869
+        "1.9.15-r0": 1774425869,
+        "1.9.17-r0": 1779635557
       }
     },
     "upmpdcli-openrc": {
       "origin": "upmpdcli",
       "versions": {
-        "1.9.15-r0": 1774425869
+        "1.9.15-r0": 1774425869,
+        "1.9.17-r0": 1779635557
       }
     },
     "upower": {

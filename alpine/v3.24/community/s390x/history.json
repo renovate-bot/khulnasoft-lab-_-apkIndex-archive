@@ -32437,10 +32437,11 @@
     "dillo": {
       "origin": "dillo",
       "versions": {
-        "3.3.0-r1": 1777353505
+        "3.3.0-r1": 1777353505,
+        "3.3.0-r2": 1779608349
       },
       "dependencies": [
-        "dillo-common=3.3.0-r1",
+        "dillo-common=3.3.0-r2",
         "so:libX11.so.6",
         "so:libbrotlidec.so.1",
         "so:libc.musl-s390x.so.1",
@@ -32454,14 +32455,15 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:dillo=3.3.0-r1",
-        "cmd:dilloc=3.3.0-r1"
+        "cmd:dillo=3.3.0-r2",
+        "cmd:dilloc=3.3.0-r2"
       ]
     },
     "dillo-common": {
       "origin": "dillo",
       "versions": {
-        "3.3.0-r1": 1777353505
+        "3.3.0-r1": 1777353505,
+        "3.3.0-r2": 1779608349
       },
       "dependencies": [
         "ca-certificates",
@@ -32471,24 +32473,26 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:dillo-install-hyphenation=3.3.0-r1",
-        "cmd:dpid=3.3.0-r1",
-        "cmd:dpidc=3.3.0-r1"
+        "cmd:dillo-install-hyphenation=3.3.0-r2",
+        "cmd:dpid=3.3.0-r2",
+        "cmd:dpidc=3.3.0-r2"
       ]
     },
     "dillo-doc": {
       "origin": "dillo",
       "versions": {
-        "3.3.0-r1": 1777353505
+        "3.3.0-r1": 1777353505,
+        "3.3.0-r2": 1779608349
       }
     },
     "dillo-mbedtls": {
       "origin": "dillo",
       "versions": {
-        "3.3.0-r1": 1777353505
+        "3.3.0-r1": 1777353505,
+        "3.3.0-r2": 1779608349
       },
       "dependencies": [
-        "dillo-common=3.3.0-r1",
+        "dillo-common=3.3.0-r2",
         "so:libX11.so.6",
         "so:libbrotlidec.so.1",
         "so:libc.musl-s390x.so.1",
@@ -32503,7 +32507,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:dillo-mbedtls=3.3.0-r1"
+        "cmd:dillo-mbedtls=3.3.0-r2"
       ]
     },
     "ding-libs": {
@@ -73875,11 +73879,12 @@
     "haxe": {
       "origin": "haxe",
       "versions": {
-        "4.3.3-r3": 1776825955
+        "4.3.3-r3": 1776825955,
+        "4.3.3-r4": 1779608349
       },
       "dependencies": [
         "musl",
-        "mbedtls",
+        "mbedtls3",
         "pcre2",
         "zlib",
         "so:libc.musl-s390x.so.1",
@@ -73891,14 +73896,15 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:haxe=4.3.3-r3",
-        "cmd:haxelib=4.3.3-r3"
+        "cmd:haxe=4.3.3-r4",
+        "cmd:haxelib=4.3.3-r4"
       ]
     },
     "haxe-doc": {
       "origin": "haxe",
       "versions": {
-        "4.3.3-r3": 1776825955
+        "4.3.3-r3": 1776825955,
+        "4.3.3-r4": 1779608349
       }
     },
     "hcloud": {
@@ -78346,7 +78352,8 @@
     "imhex": {
       "origin": "imhex",
       "versions": {
-        "1.38.1-r2": 1774640377
+        "1.38.1-r2": 1774640377,
+        "1.38.1-r3": 1779608349
       },
       "dependencies": [
         "so:libbz2.so.1",
@@ -78365,22 +78372,24 @@
         "so:liblz4.so.1",
         "so:liblzma.so.5",
         "so:libmagic.so.1",
-        "so:libmbedcrypto.so.16",
+        "so:libmbedx509.so.9",
         "so:libssh2.so.1",
         "so:libstdc++.so.6",
+        "so:libtfpsacrypto.so.2",
         "so:libyara.so.10",
         "so:libz.so.1",
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:imhex=1.38.1-r2",
+        "cmd:imhex=1.38.1-r3",
         "so:libimhex.so.1.38.1=1.38.1"
       ]
     },
     "imhex-doc": {
       "origin": "imhex",
       "versions": {
-        "1.38.1-r2": 1774640377
+        "1.38.1-r2": 1774640377,
+        "1.38.1-r3": 1779608349
       }
     },
     "imlib2": {
@@ -101359,7 +101368,8 @@
     "libetpan": {
       "origin": "libetpan",
       "versions": {
-        "1.9.4-r2": 1684120357
+        "1.9.4-r2": 1684120357,
+        "1.10-r0": 1779608089
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -101374,11 +101384,12 @@
     "libetpan-dev": {
       "origin": "libetpan",
       "versions": {
-        "1.9.4-r2": 1684120357
+        "1.9.4-r2": 1684120357,
+        "1.10-r0": 1779608089
       },
       "dependencies": [
         "cyrus-sasl-dev",
-        "libetpan=1.9.4-r2",
+        "libetpan=1.10-r0",
         "pkgconfig"
       ],
       "provides": [
@@ -101388,7 +101399,8 @@
     "libetpan-doc": {
       "origin": "libetpan",
       "versions": {
-        "1.9.4-r2": 1684120357
+        "1.9.4-r2": 1684120357,
+        "1.10-r0": 1779608089
       }
     },
     "libevdev": {
@@ -102898,7 +102910,8 @@
     "libgit2": {
       "origin": "libgit2",
       "versions": {
-        "1.9.3-r0": 1777960406
+        "1.9.3-r0": 1777960406,
+        "1.9.4-r0": 1779612341
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -102910,31 +102923,33 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libgit2.so.1.9=1.9.3"
+        "so:libgit2.so.1.9=1.9.4"
       ]
     },
     "libgit2-dbg": {
       "origin": "libgit2",
       "versions": {
-        "1.9.3-r0": 1777960406
+        "1.9.3-r0": 1777960406,
+        "1.9.4-r0": 1779612341
       },
       "dependencies": [
-        "!libgit2-tools<1.9.3-r0",
-        "!libgit2-tools>1.9.3-r0",
-        "!libgit2<1.9.3-r0",
-        "!libgit2>1.9.3-r0"
+        "!libgit2-tools<1.9.4-r0",
+        "!libgit2-tools>1.9.4-r0",
+        "!libgit2<1.9.4-r0",
+        "!libgit2>1.9.4-r0"
       ]
     },
     "libgit2-dev": {
       "origin": "libgit2",
       "versions": {
-        "1.9.3-r0": 1777960406
+        "1.9.3-r0": 1777960406,
+        "1.9.4-r0": 1779612341
       },
       "dependencies": [
         "curl-dev",
         "libssh2-dev",
         "llhttp-dev",
-        "libgit2=1.9.3-r0",
+        "libgit2=1.9.4-r0",
         "pc:libpcre2-8",
         "pc:libssh2",
         "pc:openssl",
@@ -102942,7 +102957,7 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:libgit2=1.9.3"
+        "pc:libgit2=1.9.4"
       ]
     },
     "libgit2-glib": {
@@ -102991,7 +103006,8 @@
     "libgit2-static": {
       "origin": "libgit2",
       "versions": {
-        "1.9.3-r0": 1777960406
+        "1.9.3-r0": 1777960406,
+        "1.9.4-r0": 1779612341
       },
       "dependencies": [
         "libgit2-dev"
@@ -103000,13 +103016,15 @@
     "libgit2-tests": {
       "origin": "libgit2",
       "versions": {
-        "1.9.3-r0": 1777960406
+        "1.9.3-r0": 1777960406,
+        "1.9.4-r0": 1779612341
       }
     },
     "libgit2-tools": {
       "origin": "libgit2",
       "versions": {
-        "1.9.3-r0": 1777960406
+        "1.9.3-r0": 1777960406,
+        "1.9.4-r0": 1779612341
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -103018,7 +103036,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:git2=1.9.3-r0"
+        "cmd:git2=1.9.4-r0"
       ]
     },
     "libglib-testing": {
@@ -112888,7 +112906,8 @@
     "librist": {
       "origin": "librist",
       "versions": {
-        "0.2.13-r0": 1776796773
+        "0.2.13-r0": 1776796773,
+        "0.2.13-r1": 1779608349
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -112902,10 +112921,11 @@
     "librist-dev": {
       "origin": "librist",
       "versions": {
-        "0.2.13-r0": 1776796773
+        "0.2.13-r0": 1776796773,
+        "0.2.13-r1": 1779608349
       },
       "dependencies": [
-        "librist=0.2.13-r0",
+        "librist=0.2.13-r1",
         "pc:libcjson",
         "pkgconfig"
       ],
@@ -112916,7 +112936,8 @@
     "librist-progs": {
       "origin": "librist",
       "versions": {
-        "0.2.13-r0": 1776796773
+        "0.2.13-r0": 1776796773,
+        "0.2.13-r1": 1779608349
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -112925,12 +112946,12 @@
         "so:librist.so.4"
       ],
       "provides": [
-        "cmd:rist2rist=0.2.13-r0",
-        "cmd:ristreceiver=0.2.13-r0",
-        "cmd:ristsender=0.2.13-r0",
-        "cmd:ristsrppasswd=0.2.13-r0",
-        "cmd:risttunnel=0.2.13-r0",
-        "cmd:udp2udp=0.2.13-r0"
+        "cmd:rist2rist=0.2.13-r1",
+        "cmd:ristreceiver=0.2.13-r1",
+        "cmd:ristsender=0.2.13-r1",
+        "cmd:ristsrppasswd=0.2.13-r1",
+        "cmd:risttunnel=0.2.13-r1",
+        "cmd:udp2udp=0.2.13-r1"
       ]
     },
     "librnp": {
@@ -135756,7 +135777,8 @@
     "neko": {
       "origin": "neko",
       "versions": {
-        "2.4.1-r0": 1769250919
+        "2.4.1-r0": 1769250919,
+        "2.4.1-r1": 1779608349
       },
       "dependencies": [
         "so:libapr-1.so.0",
@@ -135773,26 +135795,28 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:neko=2.4.1-r0",
-        "cmd:nekoc=2.4.1-r0",
-        "cmd:nekoml=2.4.1-r0",
-        "cmd:nekotools=2.4.1-r0",
+        "cmd:neko=2.4.1-r1",
+        "cmd:nekoc=2.4.1-r1",
+        "cmd:nekoml=2.4.1-r1",
+        "cmd:nekotools=2.4.1-r1",
         "so:libneko.so.2=2.4.1"
       ]
     },
     "neko-dev": {
       "origin": "neko",
       "versions": {
-        "2.4.1-r0": 1769250919
+        "2.4.1-r0": 1769250919,
+        "2.4.1-r1": 1779608349
       },
       "dependencies": [
-        "neko=2.4.1-r0"
+        "neko=2.4.1-r1"
       ]
     },
     "neko-doc": {
       "origin": "neko",
       "versions": {
-        "2.4.1-r0": 1769250919
+        "2.4.1-r0": 1769250919,
+        "2.4.1-r1": 1779608349
       }
     },
     "nemo": {
@@ -141786,7 +141810,8 @@
       "versions": {
         "32.1.2-r1": 1777022464,
         "32.1.2-r2": 1779210865,
-        "32.1.2-r3": 1779261074
+        "32.1.2-r3": 1779261074,
+        "32.1.2-r4": 1779608349
       },
       "dependencies": [
         "so:libEGL.so.1",
@@ -141850,8 +141875,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:obs-ffmpeg-mux=32.1.2-r3",
-        "cmd:obs=32.1.2-r3",
+        "cmd:obs-ffmpeg-mux=32.1.2-r4",
+        "cmd:obs=32.1.2-r4",
         "so:libobs-frontend-api.so.30=30",
         "so:libobs-opengl.so.30=30",
         "so:libobs-scripting.so.30=30",
@@ -141863,11 +141888,12 @@
       "versions": {
         "32.1.2-r1": 1777022464,
         "32.1.2-r2": 1779210865,
-        "32.1.2-r3": 1779261074
+        "32.1.2-r3": 1779261074,
+        "32.1.2-r4": 1779608349
       },
       "dependencies": [
         "simde-dev",
-        "obs-studio=32.1.2-r3",
+        "obs-studio=32.1.2-r4",
         "pkgconfig"
       ],
       "provides": [
@@ -163900,7 +163926,8 @@
     "openrgb": {
       "origin": "openrgb",
       "versions": {
-        "0.9-r2": 1765112254
+        "0.9-r2": 1765112254,
+        "0.9-r3": 1779608349
       },
       "dependencies": [
         "/bin/sh",
@@ -163917,13 +163944,14 @@
         "so:libusb-1.0.so.0"
       ],
       "provides": [
-        "cmd:openrgb=0.9-r2"
+        "cmd:openrgb=0.9-r3"
       ]
     },
     "openrgb-udev": {
       "origin": "openrgb",
       "versions": {
-        "0.9-r2": 1765112254
+        "0.9-r2": 1765112254,
+        "0.9-r3": 1779608349
       }
     },
     "openring": {
@@ -190862,7 +190890,8 @@
     "postgresql-pg_roaringbitmap": {
       "origin": "postgresql-pg_roaringbitmap",
       "versions": {
-        "0.5.4-r3": 1762729912
+        "0.5.4-r3": 1762729912,
+        "1.1.0-r0": 1779615831
       },
       "dependencies": [
         "postgresql18",
@@ -190872,10 +190901,11 @@
     "postgresql-pg_roaringbitmap-bitcode": {
       "origin": "postgresql-pg_roaringbitmap",
       "versions": {
-        "0.5.4-r3": 1762729912
+        "0.5.4-r3": 1762729912,
+        "1.1.0-r0": 1779615831
       },
       "dependencies": [
-        "postgresql-pg_roaringbitmap=0.5.4-r3"
+        "postgresql-pg_roaringbitmap=1.1.0-r0"
       ]
     },
     "postgresql-pgvector": {
@@ -240239,7 +240269,8 @@
     "retroarch": {
       "origin": "retroarch",
       "versions": {
-        "1.22.2-r0": 1776112970
+        "1.22.2-r0": 1776112970,
+        "1.22.2-r1": 1779608349
       },
       "dependencies": [
         "retroarch-assets",
@@ -240284,8 +240315,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:retroarch-cg2glsl=1.22.2-r0",
-        "cmd:retroarch=1.22.2-r0"
+        "cmd:retroarch-cg2glsl=1.22.2-r1",
+        "cmd:retroarch=1.22.2-r1"
       ]
     },
     "retroarch-assets": {
@@ -240297,7 +240328,8 @@
     "retroarch-doc": {
       "origin": "retroarch",
       "versions": {
-        "1.22.2-r0": 1776112970
+        "1.22.2-r0": 1776112970,
+        "1.22.2-r1": 1779608349
       }
     },
     "retroarch-joypad-autoconfig": {
@@ -263888,7 +263920,8 @@
     "tshark": {
       "origin": "wireshark",
       "versions": {
-        "4.6.5-r0": 1777791607
+        "4.6.5-r0": 1777791607,
+        "4.6.6-r0": 1779608156
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -263901,7 +263934,7 @@
         "so:libwsutil.so.17"
       ],
       "provides": [
-        "cmd:tshark=4.6.5-r0"
+        "cmd:tshark=4.6.6-r0"
       ]
     },
     "tslib": {
@@ -272297,7 +272330,8 @@
     "wireshark": {
       "origin": "wireshark",
       "versions": {
-        "4.6.5-r0": 1777791607
+        "4.6.5-r0": 1777791607,
+        "4.6.6-r0": 1779608156
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -272322,13 +272356,14 @@
         "so:libwsutil.so.17"
       ],
       "provides": [
-        "cmd:wireshark=4.6.5-r0"
+        "cmd:wireshark=4.6.6-r0"
       ]
     },
     "wireshark-common": {
       "origin": "wireshark",
       "versions": {
-        "4.6.5-r0": 1777791607
+        "4.6.5-r0": 1777791607,
+        "4.6.6-r0": 1779608156
       },
       "dependencies": [
         "/bin/sh",
@@ -272359,44 +272394,46 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:capinfos=4.6.5-r0",
-        "cmd:captype=4.6.5-r0",
-        "cmd:dftest=4.6.5-r0",
-        "cmd:dumpcap=4.6.5-r0",
-        "cmd:editcap=4.6.5-r0",
-        "cmd:idl2wrs=4.6.5-r0",
-        "cmd:mergecap=4.6.5-r0",
-        "cmd:mmdbresolve=4.6.5-r0",
-        "cmd:randpkt=4.6.5-r0",
-        "cmd:rawshark=4.6.5-r0",
-        "cmd:reordercap=4.6.5-r0",
-        "cmd:sharkd=4.6.5-r0",
-        "cmd:text2pcap=4.6.5-r0",
-        "so:libwireshark.so.19=19.0.5",
-        "so:libwiretap.so.16=16.0.5",
+        "cmd:capinfos=4.6.6-r0",
+        "cmd:captype=4.6.6-r0",
+        "cmd:dftest=4.6.6-r0",
+        "cmd:dumpcap=4.6.6-r0",
+        "cmd:editcap=4.6.6-r0",
+        "cmd:idl2wrs=4.6.6-r0",
+        "cmd:mergecap=4.6.6-r0",
+        "cmd:mmdbresolve=4.6.6-r0",
+        "cmd:randpkt=4.6.6-r0",
+        "cmd:rawshark=4.6.6-r0",
+        "cmd:reordercap=4.6.6-r0",
+        "cmd:sharkd=4.6.6-r0",
+        "cmd:text2pcap=4.6.6-r0",
+        "so:libwireshark.so.19=19.0.6",
+        "so:libwiretap.so.16=16.0.6",
         "so:libwsutil.so.17=17.0.0"
       ]
     },
     "wireshark-dev": {
       "origin": "wireshark",
       "versions": {
-        "4.6.5-r0": 1777791607
+        "4.6.5-r0": 1777791607,
+        "4.6.6-r0": 1779608156
       },
       "dependencies": [
-        "wireshark-common=4.6.5-r0",
+        "wireshark-common=4.6.6-r0",
         "pc:glib-2.0",
         "pc:gmodule-2.0",
         "pc:gthread-2.0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:wireshark=4.6.5"
+        "pc:wireshark=4.6.6"
       ]
     },
     "wireshark-doc": {
       "origin": "wireshark",
       "versions": {
-        "4.6.5-r0": 1777791607
+        "4.6.5-r0": 1777791607,
+        "4.6.6-r0": 1779608156
       }
     },
     "wl-clipboard": {
@@ -283647,6 +283684,118 @@
       "versions": {
         "0_git20260326-r0": 1779467570
       }
+    },
+    "mbedtls3": {
+      "origin": "mbedtls3",
+      "versions": {
+        "3.6.6-r0": 1779608349
+      },
+      "dependencies": [
+        "so:libc.musl-s390x.so.1"
+      ],
+      "provides": [
+        "so:libmbedcrypto.so.16=3.6.6",
+        "so:libmbedtls.so.21=3.6.6",
+        "so:libmbedx509.so.7=3.6.6"
+      ]
+    },
+    "mbedtls3-dev": {
+      "origin": "mbedtls3",
+      "versions": {
+        "3.6.6-r0": 1779608349
+      },
+      "dependencies": [
+        "mbedtls3=3.6.6-r0",
+        "pkgconfig"
+      ],
+      "provides": [
+        "pc:mbedcrypto=3.6.6",
+        "pc:mbedtls=3.6.6",
+        "pc:mbedx509=3.6.6"
+      ]
+    },
+    "mbedtls3-static": {
+      "origin": "mbedtls3",
+      "versions": {
+        "3.6.6-r0": 1779608349
+      },
+      "dependencies": [
+        "mbedtls3-dev"
+      ]
+    },
+    "mbedtls3-utils": {
+      "origin": "mbedtls3",
+      "versions": {
+        "3.6.6-r0": 1779608349
+      },
+      "dependencies": [
+        "so:libc.musl-s390x.so.1",
+        "so:libmbedcrypto.so.16",
+        "so:libmbedtls.so.21",
+        "so:libmbedx509.so.7"
+      ],
+      "provides": [
+        "cmd:aead_demo=3.6.6-r0",
+        "cmd:benchmark=3.6.6-r0",
+        "cmd:cert_app=3.6.6-r0",
+        "cmd:cert_req=3.6.6-r0",
+        "cmd:cert_write=3.6.6-r0",
+        "cmd:cipher_aead_demo=3.6.6-r0",
+        "cmd:crl_app=3.6.6-r0",
+        "cmd:crypt_and_hash=3.6.6-r0",
+        "cmd:crypto_examples=3.6.6-r0",
+        "cmd:dh_client=3.6.6-r0",
+        "cmd:dh_genprime=3.6.6-r0",
+        "cmd:dh_server=3.6.6-r0",
+        "cmd:dtls_client=3.6.6-r0",
+        "cmd:dtls_server=3.6.6-r0",
+        "cmd:ecdh_curve25519=3.6.6-r0",
+        "cmd:ecdsa=3.6.6-r0",
+        "cmd:gen_entropy=3.6.6-r0",
+        "cmd:gen_key=3.6.6-r0",
+        "cmd:gen_random_ctr_drbg=3.6.6-r0",
+        "cmd:generic_sum=3.6.6-r0",
+        "cmd:hello=3.6.6-r0",
+        "cmd:hmac_demo=3.6.6-r0",
+        "cmd:key_app=3.6.6-r0",
+        "cmd:key_app_writer=3.6.6-r0",
+        "cmd:key_ladder_demo.sh=3.6.6-r0",
+        "cmd:key_ladder_demo=3.6.6-r0",
+        "cmd:load_roots=3.6.6-r0",
+        "cmd:md_hmac_demo=3.6.6-r0",
+        "cmd:metatest=3.6.6-r0",
+        "cmd:mini_client=3.6.6-r0",
+        "cmd:mpi_demo=3.6.6-r0",
+        "cmd:pem2der=3.6.6-r0",
+        "cmd:pk_decrypt=3.6.6-r0",
+        "cmd:pk_encrypt=3.6.6-r0",
+        "cmd:pk_sign=3.6.6-r0",
+        "cmd:pk_verify=3.6.6-r0",
+        "cmd:psa_constant_names=3.6.6-r0",
+        "cmd:psa_hash=3.6.6-r0",
+        "cmd:query_compile_time_config=3.6.6-r0",
+        "cmd:query_included_headers=3.6.6-r0",
+        "cmd:req_app=3.6.6-r0",
+        "cmd:rsa_decrypt=3.6.6-r0",
+        "cmd:rsa_encrypt=3.6.6-r0",
+        "cmd:rsa_genkey=3.6.6-r0",
+        "cmd:rsa_sign=3.6.6-r0",
+        "cmd:rsa_sign_pss=3.6.6-r0",
+        "cmd:rsa_verify=3.6.6-r0",
+        "cmd:rsa_verify_pss=3.6.6-r0",
+        "cmd:selftest=3.6.6-r0",
+        "cmd:ssl_client1=3.6.6-r0",
+        "cmd:ssl_client2=3.6.6-r0",
+        "cmd:ssl_context_info=3.6.6-r0",
+        "cmd:ssl_fork_server=3.6.6-r0",
+        "cmd:ssl_mail_client=3.6.6-r0",
+        "cmd:ssl_pthread_server=3.6.6-r0",
+        "cmd:ssl_server2=3.6.6-r0",
+        "cmd:ssl_server=3.6.6-r0",
+        "cmd:strerror=3.6.6-r0",
+        "cmd:udp_proxy=3.6.6-r0",
+        "cmd:zeroize=3.6.6-r0"
+      ]
     }
   },
   "provide": {
@@ -293733,7 +293882,7 @@
       },
       "libgit2.so.1.9": {
         "package": "libgit2",
-        "version": "1.9.3"
+        "version": "1.9.4"
       },
       "libgit2-glib-1.0.so.0": {
         "package": "libgit2-glib",
@@ -301249,11 +301398,11 @@
       },
       "libwireshark.so.19": {
         "package": "wireshark-common",
-        "version": "19.0.5"
+        "version": "19.0.6"
       },
       "libwiretap.so.16": {
         "package": "wireshark-common",
-        "version": "16.0.5"
+        "version": "16.0.6"
       },
       "libwsutil.so.17": {
         "package": "wireshark-common",
@@ -301782,6 +301931,18 @@
       "libtree-sitter.so.0.26": {
         "package": "tree-sitter",
         "version": "0.26"
+      },
+      "libmbedcrypto.so.16": {
+        "package": "mbedtls3",
+        "version": "3.6.6"
+      },
+      "libmbedtls.so.21": {
+        "package": "mbedtls3",
+        "version": "3.6.6"
+      },
+      "libmbedx509.so.7": {
+        "package": "mbedtls3",
+        "version": "3.6.6"
       }
     },
     "package": {

@@ -36252,7 +36252,8 @@
     "docker-cli-buildx": {
       "origin": "docker-cli-buildx",
       "versions": {
-        "0.33.0-r2": 1778661427
+        "0.33.0-r2": 1778661427,
+        "0.34.1-r0": 1779634605
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1"
@@ -107579,7 +107580,8 @@
     "lastversion": {
       "origin": "lastversion",
       "versions": {
-        "3.6.7-r2": 1774640423
+        "3.6.7-r2": 1774640423,
+        "3.6.12-r0": 1779633125
       },
       "dependencies": [
         "py3-appdirs",
@@ -107597,14 +107599,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:lastversion=3.6.7-r2",
-        "py3.14:lastversion=3.6.7-r2"
+        "cmd:lastversion=3.6.12-r0",
+        "py3.14:lastversion=3.6.12-r0"
       ]
     },
     "lastversion-pyc": {
       "origin": "lastversion",
       "versions": {
-        "3.6.7-r2": 1774640423
+        "3.6.7-r2": 1774640423,
+        "3.6.12-r0": 1779633125
       },
       "dependencies": [
         "python3~3.14"
@@ -210224,7 +210227,8 @@
     "putty": {
       "origin": "putty",
       "versions": {
-        "0.84-r0": 1779503295
+        "0.84-r0": 1779503295,
+        "0.84-r1": 1779638903
       },
       "dependencies": [
         "ncurses-terminfo-base",
@@ -210241,20 +210245,21 @@
         "so:libpangocairo-1.0.so.0"
       ],
       "provides": [
-        "cmd:pageant=0.84-r0",
-        "cmd:plink=0.84-r0",
-        "cmd:pscp=0.84-r0",
-        "cmd:psftp=0.84-r0",
-        "cmd:psusan=0.84-r0",
-        "cmd:pterm=0.84-r0",
-        "cmd:putty=0.84-r0",
-        "cmd:puttygen=0.84-r0"
+        "cmd:pageant=0.84-r1",
+        "cmd:plink=0.84-r1",
+        "cmd:pscp=0.84-r1",
+        "cmd:psftp=0.84-r1",
+        "cmd:psusan=0.84-r1",
+        "cmd:pterm=0.84-r1",
+        "cmd:putty=0.84-r1",
+        "cmd:puttygen=0.84-r1"
       ]
     },
     "putty-doc": {
       "origin": "putty",
       "versions": {
-        "0.84-r0": 1779503295
+        "0.84-r0": 1779503295,
+        "0.84-r1": 1779638903
       }
     },
     "pv": {
@@ -261381,7 +261386,8 @@
     "ruby-diff-lcs": {
       "origin": "ruby-diff-lcs",
       "versions": {
-        "2.0.0-r0": 1779616111
+        "2.0.0-r0": 1779616111,
+        "1.6.1-r0": 1779631114
       },
       "dependencies": [
         "ruby"
@@ -261390,13 +261396,15 @@
     "ruby-diff-lcs-tools": {
       "origin": "ruby-diff-lcs",
       "versions": {
-        "2.0.0-r0": 1779616111
+        "2.0.0-r0": 1779616111,
+        "1.6.1-r0": 1779631114
       },
       "dependencies": [
-        "ruby-diff-lcs=2.0.0-r0"
+        "ruby-diff-lcs=1.6.1-r0"
       ],
       "provides": [
-        "cmd:ldiff=2.0.0-r0"
+        "cmd:htmldiff=1.6.1-r0",
+        "cmd:ldiff=1.6.1-r0"
       ]
     },
     "ruby-docile": {
@@ -286987,7 +286995,8 @@
     "upmpdcli": {
       "origin": "upmpdcli",
       "versions": {
-        "1.9.15-r0": 1774425869
+        "1.9.15-r0": 1774425869,
+        "1.9.17-r0": 1779635557
       },
       "dependencies": [
         "/bin/sh",
@@ -287001,19 +287010,21 @@
         "so:libupnpp.so.17"
       ],
       "provides": [
-        "cmd:upmpdcli=1.9.15-r0"
+        "cmd:upmpdcli=1.9.17-r0"
       ]
     },
     "upmpdcli-doc": {
       "origin": "upmpdcli",
       "versions": {
-        "1.9.15-r0": 1774425869
+        "1.9.15-r0": 1774425869,
+        "1.9.17-r0": 1779635557
       }
     },
     "upmpdcli-openrc": {
       "origin": "upmpdcli",
       "versions": {
-        "1.9.15-r0": 1774425869
+        "1.9.15-r0": 1774425869,
+        "1.9.17-r0": 1779635557
       }
     },
     "upower": {

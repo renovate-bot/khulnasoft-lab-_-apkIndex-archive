@@ -40955,19 +40955,19 @@ c:81173128bd4a09096425c7e51c542e0720904aeb
 D:ca-certificates so:libc.musl-ppc64le.so.1
 p:cmd:docker=29.5.2-r0
 
-C:Q1gpfx6uvnZYjUBOsXbd0NgmOCmCY=
+C:Q1ywGUJLmfm9m09eF7FgTA5j4RsGo=
 P:docker-cli-buildx
-V:0.33.0-r2
+V:0.34.1-r0
 A:ppc64le
-S:21529549
-I:71265576
+S:21698882
+I:71619112
 T:A Docker CLI plugin for extended build capabilities
 U:https://docs.docker.com/engine/reference/commandline/buildx_build
 L:Apache-2.0
 o:docker-cli-buildx
 m:Jake Buchholz Göktürk <tomalok@gmail.com>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1779634605
+c:813910da94ad8306e139d799a8ca14b7f11504be
 D:so:libc.musl-ppc64le.so.1
 
 C:Q1Ngi7Q2qPJYk6MfVHz6LAjderOHI=
@@ -114431,35 +114431,37 @@ t:1761116632
 c:21130cf4df4d42e851e27b2547b32ee445c8b706
 i:lastpass-cli=1.6.1-r1 zsh
 
-C:Q1P/BfyAL37Su+6rZfJuwGvSmZZYI=
+C:Q1UbPTyjTwfUUIpatSOyooPfA0WAg=
 P:lastversion
-V:3.6.7-r2
+V:3.6.12-r0
 A:ppc64le
-S:84030
-I:307086
+S:84960
+I:310452
 T:CLI tool to find the latest stable version of a project
 U:https://lastversion.getpagespeed.com/
 L:BSD-2-Clause
 o:lastversion
-t:1774640423
-c:476ccee524bb914c5510b335c7fa5f45ce781ba6
+m:Wen Heping <wenhepingalpine@sohu.com>
+t:1779633125
+c:4f05438666345540b9afee7086efd2626c2c54c0
 D:py3-appdirs py3-beautifulsoup4 py3-cachecontrol py3-dateutil py3-distro py3-feedparser py3-filelock py3-packaging py3-requests py3-tqdm py3-urllib3 py3-yaml python3~3.14
-p:cmd:lastversion=3.6.7-r2 py3.14:lastversion=3.6.7-r2
+p:cmd:lastversion=3.6.12-r0 py3.14:lastversion=3.6.12-r0
 
-C:Q1RWKkVsn+i4pXcycf5lNfgYKoy0I=
+C:Q1HNg+Z9a/GRn/icbWOi3w6lUnidE=
 P:lastversion-pyc
-V:3.6.7-r2
+V:3.6.12-r0
 A:ppc64le
-S:140021
-I:333082
+S:141807
+I:337053
 T:Precompiled Python bytecode for lastversion
 U:https://lastversion.getpagespeed.com/
 L:BSD-2-Clause
 o:lastversion
-t:1774640423
-c:476ccee524bb914c5510b335c7fa5f45ce781ba6
+m:Wen Heping <wenhepingalpine@sohu.com>
+t:1779633125
+c:4f05438666345540b9afee7086efd2626c2c54c0
 D:python3~3.14
-i:lastversion=3.6.7-r2 pyc
+i:lastversion=3.6.12-r0 pyc
 
 C:Q14eWT6WKeY2Vx5qNvNAvUR+gTtoo=
 P:laszip
@@ -220282,34 +220284,36 @@ t:1778661427
 c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
 i:openrc pushgateway=1.11.2-r6
 
-C:Q1o8mOdfxbAQfJ0gdQidFOuwesyC4=
+C:Q1u4ZNeuPAf+a176cozhtfZlca6Z0=
 P:putty
-V:0.84-r0
+V:0.84-r1
 A:ppc64le
-S:2425988
+S:2426020
 I:6703816
 T:SSH and telnet client
 U:https://putty.software/
 L:MIT
 o:putty
-t:1779503295
-c:2c1ae39315ff0857ba9dc96816880240514e3962
+m:Robert Mongold <rtmongold@gmail.com>
+t:1779638903
+c:820ad7c81f2c2316fe2b4fc1cdc7e5f8f6c82d84
 D:ncurses-terminfo-base so:libX11.so.6 so:libXrender.so.1 so:libc.musl-ppc64le.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0
-p:cmd:pageant=0.84-r0 cmd:plink=0.84-r0 cmd:pscp=0.84-r0 cmd:psftp=0.84-r0 cmd:psusan=0.84-r0 cmd:pterm=0.84-r0 cmd:putty=0.84-r0 cmd:puttygen=0.84-r0
+p:cmd:pageant=0.84-r1 cmd:plink=0.84-r1 cmd:pscp=0.84-r1 cmd:psftp=0.84-r1 cmd:psusan=0.84-r1 cmd:pterm=0.84-r1 cmd:putty=0.84-r1 cmd:puttygen=0.84-r1
 
-C:Q1SfSIUDPm0PfX/gfI9VfC0SkB5XE=
+C:Q14ClYAVAzZlHEee6urpwkv5Sa0pI=
 P:putty-doc
-V:0.84-r0
+V:0.84-r1
 A:ppc64le
-S:40490
+S:40517
 I:38421
 T:SSH and telnet client (documentation)
 U:https://putty.software/
 L:MIT
 o:putty
-t:1779503295
-c:2c1ae39315ff0857ba9dc96816880240514e3962
-i:docs putty=0.84-r0
+m:Robert Mongold <rtmongold@gmail.com>
+t:1779638903
+c:820ad7c81f2c2316fe2b4fc1cdc7e5f8f6c82d84
+i:docs putty=0.84-r1
 
 C:Q1vIVZOCytyE5Qak3RjkC5SsgsNdc=
 P:pv
@@ -282520,36 +282524,36 @@ t:1765569077
 c:3f8dd0c5c92f5c67ffd7dd37cace7cadae212c7b
 i:docs ruby-connection_pool=3.0.2-r0
 
-C:Q13xi/oDB1DR2mntG3Gsuc7Eb4MPQ=
+C:Q1ZOXrevN8+ZSOzW4lxyimciGI+Js=
 P:ruby-diff-lcs
-V:2.0.0-r0
+V:1.6.1-r0
 A:ppc64le
-S:29786
-I:94009
+S:22988
+I:76763
 T:Generate difference sets between Ruby sequences
 U:http://halostatue.github.io/diff-lcs/
 L:MIT
 o:ruby-diff-lcs
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779616111
-c:09de6fa34fb1d5acead3c6876161e34c726df7e2
+t:1779631114
+c:9f20ab60f31eb413f8c6691350feb2ead4fe54f3
 D:ruby
 
-C:Q1cfyOhbYNeNdi1sk0GAeLvjVRPB0=
+C:Q189FpPL6hQw0budAttAQ1KhP/8JM=
 P:ruby-diff-lcs-tools
-V:2.0.0-r0
+V:1.6.1-r0
 A:ppc64le
-S:1651
-I:548
+S:1734
+I:1102
 T:Generate difference sets between Ruby sequences (CLI tools)
 U:http://halostatue.github.io/diff-lcs/
 L:MIT
 o:ruby-diff-lcs
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779616111
-c:09de6fa34fb1d5acead3c6876161e34c726df7e2
-D:ruby-diff-lcs=2.0.0-r0
-p:cmd:ldiff=2.0.0-r0
+t:1779631114
+c:9f20ab60f31eb413f8c6691350feb2ead4fe54f3
+D:ruby-diff-lcs=1.6.1-r0
+p:cmd:htmldiff=1.6.1-r0 cmd:ldiff=1.6.1-r0
 
 C:Q1cGk0CjkIriOedtibecq8fZSKsLE=
 P:ruby-docile
@@ -314718,51 +314722,51 @@ c:a70f02a1172c743d64f7b97ee5dec37835d041f1
 D:so:libc.musl-ppc64le.so.1
 p:cmd:unudhcpd=0.2.1-r2
 
-C:Q18raXqrggYFMjNHgT7IId5q/pFcA=
+C:Q1WKJj2hxQ7xm9zu4uevV8YcqzBw8=
 P:upmpdcli
-V:1.9.15-r0
+V:1.9.17-r0
 A:ppc64le
-S:975252
-I:3978710
+S:979578
+I:3984939
 T:upmpdcli is a UPnP Media Renderer front-end for MPD, the Music Player Daemon
 U:https://www.lesbonscomptes.com/upmpdcli
 L:LGPL-2.1-or-later
 o:upmpdcli
 m:Sodface <sod@sodface.com>
-t:1774425869
-c:c332b1ef381cf9a77f24de3be309b861566885e4
+t:1779635557
+c:51937045f202ea5548996b2dd9d3ac697c84fa99
 D:/bin/sh so:libc.musl-ppc64le.so.1 so:libcurl.so.4 so:libgcc_s.so.1 so:libjsoncpp.so.26 so:libmicrohttpd.so.12 so:libmpdclient.so.2 so:libstdc++.so.6 so:libupnpp.so.17
-p:cmd:upmpdcli=1.9.15-r0
+p:cmd:upmpdcli=1.9.17-r0
 
-C:Q1H6790huPn52uiNKticCMljw2thQ=
+C:Q1go4Tli04cA4v9v6zpmI94ZHqDs8=
 P:upmpdcli-doc
-V:1.9.15-r0
+V:1.9.17-r0
 A:ppc64le
-S:14093
-I:12396
+S:14111
+I:12418
 T:upmpdcli is a UPnP Media Renderer front-end for MPD, the Music Player Daemon (documentation)
 U:https://www.lesbonscomptes.com/upmpdcli
 L:LGPL-2.1-or-later
 o:upmpdcli
 m:Sodface <sod@sodface.com>
-t:1774425869
-c:c332b1ef381cf9a77f24de3be309b861566885e4
-i:docs upmpdcli=1.9.15-r0
+t:1779635557
+c:51937045f202ea5548996b2dd9d3ac697c84fa99
+i:docs upmpdcli=1.9.17-r0
 
-C:Q1oxpnnoxe7ge2v/3EeEvAKFruVhI=
+C:Q1vv6TypHqNTriEcHRa3ksRnXjBCc=
 P:upmpdcli-openrc
-V:1.9.15-r0
+V:1.9.17-r0
 A:ppc64le
-S:1555
+S:1551
 I:307
 T:upmpdcli is a UPnP Media Renderer front-end for MPD, the Music Player Daemon (OpenRC init scripts)
 U:https://www.lesbonscomptes.com/upmpdcli
 L:LGPL-2.1-or-later
 o:upmpdcli
 m:Sodface <sod@sodface.com>
-t:1774425869
-c:c332b1ef381cf9a77f24de3be309b861566885e4
-i:openrc upmpdcli=1.9.15-r0
+t:1779635557
+c:51937045f202ea5548996b2dd9d3ac697c84fa99
+i:openrc upmpdcli=1.9.17-r0
 
 C:Q1RBPXUcujWrSUQRTsPfZoAkctjwY=
 P:upower
