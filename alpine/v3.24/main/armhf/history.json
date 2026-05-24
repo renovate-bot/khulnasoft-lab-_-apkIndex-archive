@@ -4798,7 +4798,8 @@
       "versions": {
         "2.60.1-r0": 1776615573,
         "2.60.2-r0": 1777295510,
-        "2.60.3-r0": 1778323004
+        "2.60.3-r0": 1778323004,
+        "2.60.4-r0": 1779616302
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -4816,17 +4817,18 @@
       "versions": {
         "2.60.1-r0": 1776615573,
         "2.60.2-r0": 1777295510,
-        "2.60.3-r0": 1778323004
+        "2.60.3-r0": 1778323004,
+        "2.60.4-r0": 1779616302
       },
       "dependencies": [
-        "!at-spi2-core-libs<2.60.3-r0",
-        "!at-spi2-core-libs>2.60.3-r0",
-        "!at-spi2-core<2.60.3-r0",
-        "!at-spi2-core>2.60.3-r0",
-        "!libatk-1.0<2.60.3-r0",
-        "!libatk-1.0>2.60.3-r0",
-        "!libatk-bridge-2.0<2.60.3-r0",
-        "!libatk-bridge-2.0>2.60.3-r0"
+        "!at-spi2-core-libs<2.60.4-r0",
+        "!at-spi2-core-libs>2.60.4-r0",
+        "!at-spi2-core<2.60.4-r0",
+        "!at-spi2-core>2.60.4-r0",
+        "!libatk-1.0<2.60.4-r0",
+        "!libatk-1.0>2.60.4-r0",
+        "!libatk-bridge-2.0<2.60.4-r0",
+        "!libatk-bridge-2.0>2.60.4-r0"
       ]
     },
     "at-spi2-core-dev": {
@@ -4834,12 +4836,13 @@
       "versions": {
         "2.60.1-r0": 1776615573,
         "2.60.2-r0": 1777295510,
-        "2.60.3-r0": 1778323004
+        "2.60.3-r0": 1778323004,
+        "2.60.4-r0": 1779616302
       },
       "dependencies": [
-        "at-spi2-core-libs=2.60.3-r0",
-        "libatk-1.0=2.60.3-r0",
-        "libatk-bridge-2.0=2.60.3-r0",
+        "at-spi2-core-libs=2.60.4-r0",
+        "libatk-1.0=2.60.4-r0",
+        "libatk-bridge-2.0=2.60.4-r0",
         "pc:dbus-1>=1.5",
         "pc:gio-2.0>=2.28.0",
         "pc:glib-2.0>=2.67.4",
@@ -4851,9 +4854,9 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:atk-bridge-2.0=2.60.3",
-        "pc:atk=2.60.3",
-        "pc:atspi-2=2.60.3"
+        "pc:atk-bridge-2.0=2.60.4",
+        "pc:atk=2.60.4",
+        "pc:atspi-2=2.60.4"
       ]
     },
     "at-spi2-core-lang": {
@@ -4861,7 +4864,8 @@
       "versions": {
         "2.60.1-r0": 1776615573,
         "2.60.2-r0": 1777295510,
-        "2.60.3-r0": 1778323004
+        "2.60.3-r0": 1778323004,
+        "2.60.4-r0": 1779616302
       }
     },
     "at-spi2-core-libs": {
@@ -4869,7 +4873,8 @@
       "versions": {
         "2.60.1-r0": 1776615573,
         "2.60.2-r0": 1777295510,
-        "2.60.3-r0": 1778323004
+        "2.60.3-r0": 1778323004,
+        "2.60.4-r0": 1779616302
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -4890,7 +4895,8 @@
       "versions": {
         "2.60.1-r0": 1776615573,
         "2.60.2-r0": 1777295510,
-        "2.60.3-r0": 1778323004
+        "2.60.3-r0": 1778323004,
+        "2.60.4-r0": 1779616302
       }
     },
     "atf": {
@@ -5959,14 +5965,12 @@
     "bctoolbox": {
       "origin": "bctoolbox",
       "versions": {
-        "5.3.81-r0": 1730669024
+        "5.3.81-r0": 1730669024,
+        "5.3.81-r1": 1779608349
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
         "so:libgcc_s.so.1",
-        "so:libmbedcrypto.so.16",
-        "so:libmbedtls.so.21",
-        "so:libmbedx509.so.7",
         "so:libstdc++.so.6"
       ],
       "provides": [
@@ -5976,10 +5980,11 @@
     "bctoolbox-dev": {
       "origin": "bctoolbox",
       "versions": {
-        "5.3.81-r0": 1730669024
+        "5.3.81-r0": 1730669024,
+        "5.3.81-r1": 1779608349
       },
       "dependencies": [
-        "bctoolbox=5.3.81-r0",
+        "bctoolbox=5.3.81-r1",
         "pkgconfig"
       ],
       "provides": [
@@ -24321,7 +24326,8 @@
       "versions": {
         "2.60.1-r0": 1776615573,
         "2.60.2-r0": 1777295510,
-        "2.60.3-r0": 1778323004
+        "2.60.3-r0": 1778323004,
+        "2.60.4-r0": 1779616302
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -24330,7 +24336,7 @@
         "so:libintl.so.8"
       ],
       "provides": [
-        "so:libatk-1.0.so.0=0.26012.1"
+        "so:libatk-1.0.so.0=0.26013.1"
       ]
     },
     "libatk-bridge-2.0": {
@@ -24338,7 +24344,8 @@
       "versions": {
         "2.60.1-r0": 1776615573,
         "2.60.2-r0": 1777295510,
-        "2.60.3-r0": 1778323004
+        "2.60.3-r0": 1778323004,
+        "2.60.4-r0": 1779616302
       },
       "dependencies": [
         "so:libatk-1.0.so.0",
@@ -40076,36 +40083,40 @@
     "mbedtls": {
       "origin": "mbedtls",
       "versions": {
-        "3.6.6-r0": 1774992016
+        "3.6.6-r0": 1774992016,
+        "4.1.0-r0": 1779608349
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "so:libmbedcrypto.so.16=3.6.6",
-        "so:libmbedtls.so.21=3.6.6",
-        "so:libmbedx509.so.7=3.6.6"
+        "so:libmbedtls.so.23=4.1.0",
+        "so:libmbedx509.so.9=4.1.0",
+        "so:libtfpsacrypto.so.2=1.1.0"
       ]
     },
     "mbedtls-dev": {
       "origin": "mbedtls",
       "versions": {
-        "3.6.6-r0": 1774992016
+        "3.6.6-r0": 1774992016,
+        "4.1.0-r0": 1779608349
       },
       "dependencies": [
-        "mbedtls=3.6.6-r0",
+        "mbedtls=4.1.0-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:mbedcrypto=3.6.6",
-        "pc:mbedtls=3.6.6",
-        "pc:mbedx509=3.6.6"
+        "pc:mbedcrypto=4.1.0",
+        "pc:mbedtls=4.1.0",
+        "pc:mbedx509=4.1.0",
+        "pc:tfpsacrypto=1.1.0"
       ]
     },
     "mbedtls-static": {
       "origin": "mbedtls",
       "versions": {
-        "3.6.6-r0": 1774992016
+        "3.6.6-r0": 1774992016,
+        "4.1.0-r0": 1779608349
       },
       "dependencies": [
         "mbedtls-dev"
@@ -40114,75 +40125,49 @@
     "mbedtls-utils": {
       "origin": "mbedtls",
       "versions": {
-        "3.6.6-r0": 1774992016
+        "3.6.6-r0": 1774992016,
+        "4.1.0-r0": 1779608349
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
-        "so:libmbedcrypto.so.16",
-        "so:libmbedtls.so.21",
-        "so:libmbedx509.so.7"
+        "so:libmbedtls.so.23",
+        "so:libmbedx509.so.9",
+        "so:libtfpsacrypto.so.2"
       ],
       "provides": [
-        "cmd:aead_demo=3.6.6-r0",
-        "cmd:benchmark=3.6.6-r0",
-        "cmd:cert_app=3.6.6-r0",
-        "cmd:cert_req=3.6.6-r0",
-        "cmd:cert_write=3.6.6-r0",
-        "cmd:cipher_aead_demo=3.6.6-r0",
-        "cmd:crl_app=3.6.6-r0",
-        "cmd:crypt_and_hash=3.6.6-r0",
-        "cmd:crypto_examples=3.6.6-r0",
-        "cmd:dh_client=3.6.6-r0",
-        "cmd:dh_genprime=3.6.6-r0",
-        "cmd:dh_server=3.6.6-r0",
-        "cmd:dtls_client=3.6.6-r0",
-        "cmd:dtls_server=3.6.6-r0",
-        "cmd:ecdh_curve25519=3.6.6-r0",
-        "cmd:ecdsa=3.6.6-r0",
-        "cmd:gen_entropy=3.6.6-r0",
-        "cmd:gen_key=3.6.6-r0",
-        "cmd:gen_random_ctr_drbg=3.6.6-r0",
-        "cmd:generic_sum=3.6.6-r0",
-        "cmd:hello=3.6.6-r0",
-        "cmd:hmac_demo=3.6.6-r0",
-        "cmd:key_app=3.6.6-r0",
-        "cmd:key_app_writer=3.6.6-r0",
-        "cmd:key_ladder_demo.sh=3.6.6-r0",
-        "cmd:key_ladder_demo=3.6.6-r0",
-        "cmd:load_roots=3.6.6-r0",
-        "cmd:md_hmac_demo=3.6.6-r0",
-        "cmd:metatest=3.6.6-r0",
-        "cmd:mini_client=3.6.6-r0",
-        "cmd:mpi_demo=3.6.6-r0",
-        "cmd:pem2der=3.6.6-r0",
-        "cmd:pk_decrypt=3.6.6-r0",
-        "cmd:pk_encrypt=3.6.6-r0",
-        "cmd:pk_sign=3.6.6-r0",
-        "cmd:pk_verify=3.6.6-r0",
-        "cmd:psa_constant_names=3.6.6-r0",
-        "cmd:psa_hash=3.6.6-r0",
-        "cmd:query_compile_time_config=3.6.6-r0",
-        "cmd:query_included_headers=3.6.6-r0",
-        "cmd:req_app=3.6.6-r0",
-        "cmd:rsa_decrypt=3.6.6-r0",
-        "cmd:rsa_encrypt=3.6.6-r0",
-        "cmd:rsa_genkey=3.6.6-r0",
-        "cmd:rsa_sign=3.6.6-r0",
-        "cmd:rsa_sign_pss=3.6.6-r0",
-        "cmd:rsa_verify=3.6.6-r0",
-        "cmd:rsa_verify_pss=3.6.6-r0",
-        "cmd:selftest=3.6.6-r0",
-        "cmd:ssl_client1=3.6.6-r0",
-        "cmd:ssl_client2=3.6.6-r0",
-        "cmd:ssl_context_info=3.6.6-r0",
-        "cmd:ssl_fork_server=3.6.6-r0",
-        "cmd:ssl_mail_client=3.6.6-r0",
-        "cmd:ssl_pthread_server=3.6.6-r0",
-        "cmd:ssl_server2=3.6.6-r0",
-        "cmd:ssl_server=3.6.6-r0",
-        "cmd:strerror=3.6.6-r0",
-        "cmd:udp_proxy=3.6.6-r0",
-        "cmd:zeroize=3.6.6-r0"
+        "cmd:aead_demo=4.1.0-r0",
+        "cmd:cert_app=4.1.0-r0",
+        "cmd:cert_req=4.1.0-r0",
+        "cmd:cert_write=4.1.0-r0",
+        "cmd:crl_app=4.1.0-r0",
+        "cmd:crypto_examples=4.1.0-r0",
+        "cmd:dtls_client=4.1.0-r0",
+        "cmd:dtls_server=4.1.0-r0",
+        "cmd:generate_random_uuid=4.1.0-r0",
+        "cmd:hmac_demo=4.1.0-r0",
+        "cmd:key_ladder_demo.sh=4.1.0-r0",
+        "cmd:key_ladder_demo=4.1.0-r0",
+        "cmd:load_roots=4.1.0-r0",
+        "cmd:metatest=4.1.0-r0",
+        "cmd:mini_client=4.1.0-r0",
+        "cmd:pem2der=4.1.0-r0",
+        "cmd:psa_constant_names=4.1.0-r0",
+        "cmd:psa_hash=4.1.0-r0",
+        "cmd:query_compile_time_config=4.1.0-r0",
+        "cmd:query_included_headers=4.1.0-r0",
+        "cmd:req_app=4.1.0-r0",
+        "cmd:selftest=4.1.0-r0",
+        "cmd:ssl_client1=4.1.0-r0",
+        "cmd:ssl_client2=4.1.0-r0",
+        "cmd:ssl_context_info=4.1.0-r0",
+        "cmd:ssl_fork_server=4.1.0-r0",
+        "cmd:ssl_mail_client=4.1.0-r0",
+        "cmd:ssl_pthread_server=4.1.0-r0",
+        "cmd:ssl_server2=4.1.0-r0",
+        "cmd:ssl_server=4.1.0-r0",
+        "cmd:strerror=4.1.0-r0",
+        "cmd:udp_proxy=4.1.0-r0",
+        "cmd:zeroize=4.1.0-r0"
       ]
     },
     "mc": {
@@ -56813,10 +56798,11 @@
       "versions": {
         "2.60.1-r0": 1776615573,
         "2.60.2-r0": 1777295510,
-        "2.60.3-r0": 1778323004
+        "2.60.3-r0": 1778323004,
+        "2.60.4-r0": 1779616302
       },
       "dependencies": [
-        "at-spi2-core=2.60.3-r0",
+        "at-spi2-core=2.60.4-r0",
         "python3~3.14"
       ]
     },
@@ -56825,7 +56811,8 @@
       "versions": {
         "2.60.1-r0": 1776615573,
         "2.60.2-r0": 1777295510,
-        "2.60.3-r0": 1778323004
+        "2.60.3-r0": 1778323004,
+        "2.60.4-r0": 1779616302
       },
       "dependencies": [
         "python3~3.14"
@@ -72037,33 +72024,37 @@
     "xkeyboard-config": {
       "origin": "xkeyboard-config",
       "versions": {
-        "2.46-r0": 1764342118
+        "2.46-r0": 1764342118,
+        "2.47-r0": 1779612311
       }
     },
     "xkeyboard-config-dev": {
       "origin": "xkeyboard-config",
       "versions": {
-        "2.46-r0": 1764342118
+        "2.46-r0": 1764342118,
+        "2.47-r0": 1779612311
       },
       "dependencies": [
         "xkeyboard-config",
         "pkgconfig"
       ],
       "provides": [
-        "pc:xkeyboard-config-2=2.46",
-        "pc:xkeyboard-config=2.46"
+        "pc:xkeyboard-config-2=2.47",
+        "pc:xkeyboard-config=2.47"
       ]
     },
     "xkeyboard-config-doc": {
       "origin": "xkeyboard-config",
       "versions": {
-        "2.46-r0": 1764342118
+        "2.46-r0": 1764342118,
+        "2.47-r0": 1779612311
       }
     },
     "xkeyboard-config-lang": {
       "origin": "xkeyboard-config",
       "versions": {
-        "2.46-r0": 1764342118
+        "2.46-r0": 1764342118,
+        "2.47-r0": 1779612311
       }
     },
     "xl2tpd": {
@@ -77457,7 +77448,7 @@
       },
       "libatk-1.0.so.0": {
         "package": "libatk-1.0",
-        "version": "0.26012.1"
+        "version": "0.26013.1"
       },
       "libatk-bridge-2.0.so.0": {
         "package": "libatk-bridge-2.0",
@@ -81186,6 +81177,18 @@
       "libns-9.20.23.so": {
         "package": "bind-libs",
         "version": "0"
+      },
+      "libmbedtls.so.23": {
+        "package": "mbedtls",
+        "version": "4.1.0"
+      },
+      "libmbedx509.so.9": {
+        "package": "mbedtls",
+        "version": "4.1.0"
+      },
+      "libtfpsacrypto.so.2": {
+        "package": "mbedtls",
+        "version": "1.1.0"
       }
     }
   }
