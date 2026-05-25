@@ -4341,7 +4341,8 @@
     "ansible-core": {
       "origin": "ansible-core",
       "versions": {
-        "2.20.5-r0": 1776759306
+        "2.20.5-r0": 1776759306,
+        "2.21.0-r0": 1779667123
       },
       "dependencies": [
         "py3-cryptography",
@@ -4354,30 +4355,32 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:ansible-config=2.20.5-r0",
-        "cmd:ansible-console=2.20.5-r0",
-        "cmd:ansible-doc=2.20.5-r0",
-        "cmd:ansible-galaxy=2.20.5-r0",
-        "cmd:ansible-inventory=2.20.5-r0",
-        "cmd:ansible-playbook=2.20.5-r0",
-        "cmd:ansible-pull=2.20.5-r0",
-        "cmd:ansible-test=2.20.5-r0",
-        "cmd:ansible-vault=2.20.5-r0",
-        "cmd:ansible=2.20.5-r0",
-        "py3.14:ansible=2.20.5-r0",
-        "py3.14:ansible_test=2.20.5-r0"
+        "cmd:ansible-config=2.21.0-r0",
+        "cmd:ansible-console=2.21.0-r0",
+        "cmd:ansible-doc=2.21.0-r0",
+        "cmd:ansible-galaxy=2.21.0-r0",
+        "cmd:ansible-inventory=2.21.0-r0",
+        "cmd:ansible-playbook=2.21.0-r0",
+        "cmd:ansible-pull=2.21.0-r0",
+        "cmd:ansible-test=2.21.0-r0",
+        "cmd:ansible-vault=2.21.0-r0",
+        "cmd:ansible=2.21.0-r0",
+        "py3.14:ansible=2.21.0-r0",
+        "py3.14:ansible_test=2.21.0-r0"
       ]
     },
     "ansible-core-doc": {
       "origin": "ansible-core",
       "versions": {
-        "2.20.5-r0": 1776759306
+        "2.20.5-r0": 1776759306,
+        "2.21.0-r0": 1779667123
       }
     },
     "ansible-core-pyc": {
       "origin": "ansible-core",
       "versions": {
-        "2.20.5-r0": 1776759306
+        "2.20.5-r0": 1776759306,
+        "2.21.0-r0": 1779667123
       },
       "dependencies": [
         "python3~3.14"
@@ -253915,7 +253918,8 @@
     "qbittorrent": {
       "origin": "qbittorrent",
       "versions": {
-        "5.1.4-r4": 1779210865
+        "5.1.4-r4": 1779210865,
+        "5.2.0-r0": 1779667506
       },
       "dependencies": [
         "qt6-qtsvg",
@@ -253934,19 +253938,21 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:qbittorrent=5.1.4-r4"
+        "cmd:qbittorrent=5.2.0-r0"
       ]
     },
     "qbittorrent-doc": {
       "origin": "qbittorrent",
       "versions": {
-        "5.1.4-r4": 1779210865
+        "5.1.4-r4": 1779210865,
+        "5.2.0-r0": 1779667506
       }
     },
     "qbittorrent-nox": {
       "origin": "qbittorrent",
       "versions": {
-        "5.1.4-r4": 1779210865
+        "5.1.4-r4": 1779210865,
+        "5.2.0-r0": 1779667506
       },
       "dependencies": [
         "/bin/sh",
@@ -253962,19 +253968,21 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:qbittorrent-nox=5.1.4-r4"
+        "cmd:qbittorrent-nox=5.2.0-r0"
       ]
     },
     "qbittorrent-nox-doc": {
       "origin": "qbittorrent",
       "versions": {
-        "5.1.4-r4": 1779210865
+        "5.1.4-r4": 1779210865,
+        "5.2.0-r0": 1779667506
       }
     },
     "qbittorrent-nox-openrc": {
       "origin": "qbittorrent",
       "versions": {
-        "5.1.4-r4": 1779210865
+        "5.1.4-r4": 1779210865,
+        "5.2.0-r0": 1779667506
       }
     },
     "qbootctl": {
@@ -296754,7 +296762,8 @@
     "utfcpp": {
       "origin": "utfcpp",
       "versions": {
-        "4.0.9-r0": 1768143529
+        "4.0.9-r0": 1768143529,
+        "4.1.0-r0": 1779667572
       }
     },
     "uthash": {
@@ -301632,7 +301641,8 @@
     "webkit2gtk-6.0": {
       "origin": "webkit2gtk-6.0",
       "versions": {
-        "2.48.1-r3": 1768294070
+        "2.48.1-r3": 1768294070,
+        "2.48.1-r4": 1779663396
       },
       "dependencies": [
         "bubblewrap",
@@ -301704,7 +301714,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:WebKitWebDriver-6.0=2.48.1-r3",
+        "cmd:WebKitWebDriver-6.0=2.48.1-r4",
         "so:libjavascriptcoregtk-6.0.so.1=1.5.4",
         "so:libwebkitgtk-6.0.so.4=4.11.6"
       ]
@@ -301712,20 +301722,22 @@
     "webkit2gtk-6.0-dbg": {
       "origin": "webkit2gtk-6.0",
       "versions": {
-        "2.48.1-r3": 1768294070
+        "2.48.1-r3": 1768294070,
+        "2.48.1-r4": 1779663396
       },
       "dependencies": [
-        "!webkit2gtk-6.0<2.48.1-r3",
-        "!webkit2gtk-6.0>2.48.1-r3"
+        "!webkit2gtk-6.0<2.48.1-r4",
+        "!webkit2gtk-6.0>2.48.1-r4"
       ]
     },
     "webkit2gtk-6.0-dev": {
       "origin": "webkit2gtk-6.0",
       "versions": {
-        "2.48.1-r3": 1768294070
+        "2.48.1-r3": 1768294070,
+        "2.48.1-r4": 1779663396
       },
       "dependencies": [
-        "webkit2gtk-6.0=2.48.1-r3",
+        "webkit2gtk-6.0=2.48.1-r4",
         "pc:glib-2.0",
         "pc:gobject-2.0",
         "pc:gtk4",
@@ -301741,7 +301753,8 @@
     "webkit2gtk-6.0-lang": {
       "origin": "webkit2gtk-6.0",
       "versions": {
-        "2.48.1-r3": 1768294070
+        "2.48.1-r3": 1768294070,
+        "2.48.1-r4": 1779663396
       }
     },
     "webrtc-audio-processing-1": {
