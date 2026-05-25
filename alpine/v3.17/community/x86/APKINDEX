@@ -30978,6 +30978,21 @@ t:1668517745
 c:8c93b2cacde4a97bb1ded00d5f56a3fcd55998f2
 i:kiconthemes=5.100.0-r0 lang
 
+C:Q1Pl5ccDUaqMXR2043aw3zQIL+BWE=
+P:rtpengine-lts
+V:5.15.208-r0
+A:x86
+S:27457
+I:81920
+T:Kernel module for rtpengine
+U:https://github.com/sipwise/rtpengine
+L:GPL-3.0-only
+o:rtpengine-lts
+m:Leonardo Arena <rnalrd@alpinelinux.org>
+t:1779696424
+c:4304b2c629a893066905c3eba84d653b0bb04cc6
+i:rtpengine linux-lts=5.15.208-r0
+
 C:Q1kmT6j+mLl5sinA+SRA70cqr2M6k=
 P:xf86-video-qxl
 V:0.1.5-r8
@@ -43868,6 +43883,22 @@ t:1666276116
 c:890d37dcb9b3fc3296e65cf1859d70ed81bd3f8a
 D:tesseract-ocr
 
+C:Q13slPBreWCrpLTZ62KWWqyqcly7Y=
+P:jool-modules-virt
+V:5.15.208-r0
+A:x86
+S:93043
+I:118784
+T:SIIT and NAT64 for Linux (kernel modules for linux-virt)
+U:https://jool.mx
+L:GPL-2.0-or-later
+o:jool-modules-lts
+m:Jakub Jirutka <jakub@jirutka.cz>
+t:1779696407
+c:4856f13bee3227a30ac524545713da29ca795be7
+D:linux-virt=5.15.208-r0
+i:linux-virt=5.15.208-r0 jool-tools
+
 C:Q1UfzEEVIWDwLuL3uKPNZLvDA4tZg=
 P:librevenge
 V:0.0.4-r10
@@ -50639,6 +50670,22 @@ o:plasma-workspace-wallpapers
 m:Bart Ribbers <bribbers@disroot.org>
 t:1676708657
 c:d1a2efdbac35cfd9bfbd21cf6eb5378378f5f488
+
+C:Q1g4sV9NxdeM2S8fZ3m3OlkBe+Xhg=
+P:rtpengine-virt
+V:5.15.208-r0
+A:x86
+S:26592
+I:81920
+T: kernel modules for rtpengine
+U:https://github.com/sipwise/rtpengine
+L:GPL-3.0-only
+o:rtpengine-lts
+m:Leonardo Arena <rnalrd@alpinelinux.org>
+t:1779696424
+c:4304b2c629a893066905c3eba84d653b0bb04cc6
+D:linux-virt=5.15.208-r0
+i:rtpengine linux-virt=5.15.208-r0
 
 C:Q142OhiqyOAvl1JCLU++gash/LgEo=
 P:gpodder-adaptive-doc
@@ -72989,6 +73036,20 @@ c:0f0f1bb2453aa7a11f355c741c6ce32d3ffdfdf2
 D:python3 py3-boto gpg gpg-agent ncftp py3-fasteners py3-future so:libc.musl-x86.so.1 so:librsync.so.2
 p:cmd:duplicity=1.0.1-r0 cmd:rdiffdir=1.0.1-r0 py3.10:duplicity=1.0.1-r0
 
+C:Q1yTLbmyylJjwuxl/lq8t3yvbj7sw=
+P:rtl8821ce-lts
+V:5.15.208-r0
+A:x86
+S:729555
+I:2007040
+T:Wifi drivers for Realtek 8821ce
+U:https://github.com/tomaspinho/rtl8821ce
+L:GPL-2.0-only
+o:rtl8821ce-lts
+m:Kevin Daudt <kdaudt@alpinelinux.org>
+t:1779696417
+c:f327fe9269d2330f1034a82b607b5edf1c80e758
+
 C:Q1WhrLtjVfboIx4UtV7G4jjmF2s2Y=
 P:perl-par
 V:1.018-r0
@@ -86364,22 +86425,6 @@ t:1666619692
 c:6d3f459f1e2a47230cb5fb845d196b48fbbe1ae5
 D:dante=1.4.3-r2
 
-C:Q1iY+Rp1ZfDdfz2QuB60g++NyBXEk=
-P:rtpengine-virt
-V:5.15.207-r0
-A:x86
-S:26589
-I:81920
-T: kernel modules for rtpengine
-U:https://github.com/sipwise/rtpengine
-L:GPL-3.0-only
-o:rtpengine-lts
-m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1778924665
-c:90e0ab7491e47c17453435f79a5d756da9060595
-D:linux-virt=5.15.207-r0
-i:rtpengine linux-virt=5.15.207-r0
-
 C:Q1CV3hRtSYiKejPzdL17ss8LZz3Po=
 P:rhythmbox
 V:3.4.6-r0
@@ -94243,20 +94288,6 @@ t:1666276116
 c:890d37dcb9b3fc3296e65cf1859d70ed81bd3f8a
 D:libqxp=0.0.2-r8 pc:librevenge-0.0 pkgconfig
 p:pc:libqxp-0.0=0.0.2
-
-C:Q1ZGkPCaY2/YGmQbEQepmbjgPJmks=
-P:rtl8821ce-lts
-V:5.15.207-r0
-A:x86
-S:729571
-I:2007040
-T:Wifi drivers for Realtek 8821ce
-U:https://github.com/tomaspinho/rtl8821ce
-L:GPL-2.0-only
-o:rtl8821ce-lts
-m:Kevin Daudt <kdaudt@alpinelinux.org>
-t:1778924658
-c:943f7081a71d654e353092331f9b56ff7749dcce
 
 C:Q1ZW2Sd8+rPULtLxyN0kEJRuriRLg=
 P:skim-doc
@@ -128341,6 +128372,22 @@ t:1666619692
 c:6d3f459f1e2a47230cb5fb845d196b48fbbe1ae5
 i:docs xhost=1.0.8-r1
 
+C:Q1T1bIjV54x4vY6ly52j+ZD7fNkvY=
+P:jool-modules-lts
+V:5.15.208-r0
+A:x86
+S:96480
+I:122880
+T:SIIT and NAT64 for Linux (kernel modules for linux-lts)
+U:https://jool.mx
+L:GPL-2.0-or-later
+o:jool-modules-lts
+m:Jakub Jirutka <jakub@jirutka.cz>
+t:1779696407
+c:4856f13bee3227a30ac524545713da29ca795be7
+D:linux-lts=5.15.208-r0
+i:linux-lts=5.15.208-r0 jool-tools
+
 C:Q18Yxpu39Gcs12Y+YVx1bL+4DrRbY=
 P:acme-redirect-openrc
 V:0.5.3-r2
@@ -136353,22 +136400,6 @@ m:Keith Maxwell <keith.maxwell@gmail.com>
 t:1666998870
 c:b5720e8de1d1401beecc868fb9cbfdbcd1b11ff7
 D:python3 py3-cachetools<5.0 py3-asn1-modules py3-rsa py3-setuptools py3-six
-
-C:Q1Li0mNEKZBj+DSTmIJ7EVoD7MkNU=
-P:jool-modules-virt
-V:5.15.207-r0
-A:x86
-S:93050
-I:118784
-T:SIIT and NAT64 for Linux (kernel modules for linux-virt)
-U:https://jool.mx
-L:GPL-2.0-or-later
-o:jool-modules-lts
-m:Jakub Jirutka <jakub@jirutka.cz>
-t:1778924648
-c:dd2f5ae94ee5e95fc230d1b43caadd0ab0da7655
-D:linux-virt=5.15.207-r0
-i:linux-virt=5.15.207-r0 jool-tools
 
 C:Q1vwOUN6c49Xps8nGxQYB0O4t0O70=
 P:pekwm-doc
@@ -145757,21 +145788,6 @@ m:Clayton Craft <clayton@craftyguy.net>
 t:1656451167
 c:0407facebd01d7c930e92c76c17cedd523eddddd
 i:docs nemo=5.4.0-r0
-
-C:Q1sDDwbRb751WkupZoaVetaHQBfzI=
-P:rtpengine-lts
-V:5.15.207-r0
-A:x86
-S:27467
-I:81920
-T:Kernel module for rtpengine
-U:https://github.com/sipwise/rtpengine
-L:GPL-3.0-only
-o:rtpengine-lts
-m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1778924665
-c:90e0ab7491e47c17453435f79a5d756da9060595
-i:rtpengine linux-lts=5.15.207-r0
 
 C:Q18WyHlvThh7sAylZDyGdUidYpEvo=
 P:kirigami2-lang
@@ -160282,22 +160298,6 @@ m:Bart Ribbers <bribbers@disroot.org>
 t:1667565417
 c:f3e0e78ae20189060f0b9dffad7671fb378fe18e
 D:libkleo=22.08.3-r0
-
-C:Q1XyiN3FuU0HjMlNQAQpMe2umRSVk=
-P:jool-modules-lts
-V:5.15.207-r0
-A:x86
-S:96499
-I:122880
-T:SIIT and NAT64 for Linux (kernel modules for linux-lts)
-U:https://jool.mx
-L:GPL-2.0-or-later
-o:jool-modules-lts
-m:Jakub Jirutka <jakub@jirutka.cz>
-t:1778924648
-c:dd2f5ae94ee5e95fc230d1b43caadd0ab0da7655
-D:linux-lts=5.15.207-r0
-i:linux-lts=5.15.207-r0 jool-tools
 
 C:Q18PMjWY2RxaLVN9mH8XKoU67C62s=
 P:mate-settings-daemon-dev

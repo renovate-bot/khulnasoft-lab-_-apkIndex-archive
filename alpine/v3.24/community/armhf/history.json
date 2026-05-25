@@ -6399,7 +6399,8 @@
       "versions": {
         "2.34.47-r0": 1778930167,
         "2.34.48-r0": 1779165378,
-        "2.34.52-r0": 1779530330
+        "2.34.52-r0": 1779530330,
+        "2.34.53-r0": 1779707056
       },
       "dependencies": [
         "py3-awscrt",
@@ -6418,10 +6419,10 @@
         "python3~3.14"
       ],
       "provides": [
-        "aws-cli-v2=2.34.52-r0",
-        "cmd:aws=2.34.52-r0",
-        "cmd:aws_completer=2.34.52-r0",
-        "py3.14:awscli=2.34.52-r0"
+        "aws-cli-v2=2.34.53-r0",
+        "cmd:aws=2.34.53-r0",
+        "cmd:aws_completer=2.34.53-r0",
+        "py3.14:awscli=2.34.53-r0"
       ]
     },
     "aws-cli-bash-completion": {
@@ -6429,7 +6430,8 @@
       "versions": {
         "2.34.47-r0": 1778930167,
         "2.34.48-r0": 1779165378,
-        "2.34.52-r0": 1779530330
+        "2.34.52-r0": 1779530330,
+        "2.34.53-r0": 1779707056
       },
       "dependencies": [
         "py3-awscrt",
@@ -6452,7 +6454,8 @@
       "versions": {
         "2.34.47-r0": 1778930167,
         "2.34.48-r0": 1779165378,
-        "2.34.52-r0": 1779530330
+        "2.34.52-r0": 1779530330,
+        "2.34.53-r0": 1779707056
       },
       "dependencies": [
         "python3~3.14"
@@ -6463,7 +6466,8 @@
       "versions": {
         "2.34.47-r0": 1778930167,
         "2.34.48-r0": 1779165378,
-        "2.34.52-r0": 1779530330
+        "2.34.52-r0": 1779530330,
+        "2.34.53-r0": 1779707056
       },
       "dependencies": [
         "python3~3.14"
@@ -6474,7 +6478,8 @@
       "versions": {
         "2.34.47-r0": 1778930167,
         "2.34.48-r0": 1779165378,
-        "2.34.52-r0": 1779530330
+        "2.34.52-r0": 1779530330,
+        "2.34.53-r0": 1779707056
       },
       "dependencies": [
         "py3-awscrt",
@@ -19462,46 +19467,50 @@
     "calcurse": {
       "origin": "calcurse",
       "versions": {
-        "4.8.2-r0": 1755251851
+        "4.8.2-r0": 1755251851,
+        "4.8.2-r1": 1779713882
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
         "so:libncursesw.so.6"
       ],
       "provides": [
-        "cmd:calcurse-upgrade=4.8.2-r0",
-        "cmd:calcurse-vdir=4.8.2-r0",
-        "cmd:calcurse=4.8.2-r0"
+        "cmd:calcurse-upgrade=4.8.2-r1",
+        "cmd:calcurse-vdir=4.8.2-r1",
+        "cmd:calcurse=4.8.2-r1"
       ]
     },
     "calcurse-caldav": {
       "origin": "calcurse",
       "versions": {
-        "4.8.2-r0": 1755251851
+        "4.8.2-r0": 1755251851,
+        "4.8.2-r1": 1779713882
       },
       "dependencies": [
-        "calcurse=4.8.2-r0",
+        "calcurse=4.8.2-r1",
         "python3",
         "py3-httplib2"
       ],
       "provides": [
-        "cmd:calcurse-caldav=4.8.2-r0"
+        "cmd:calcurse-caldav=4.8.2-r1"
       ]
     },
     "calcurse-dbg": {
       "origin": "calcurse",
       "versions": {
-        "4.8.2-r0": 1755251851
+        "4.8.2-r0": 1755251851,
+        "4.8.2-r1": 1779713882
       },
       "dependencies": [
-        "!calcurse<4.8.2-r0",
-        "!calcurse>4.8.2-r0"
+        "!calcurse<4.8.2-r1",
+        "!calcurse>4.8.2-r1"
       ]
     },
     "calcurse-doc": {
       "origin": "calcurse",
       "versions": {
-        "4.8.2-r0": 1755251851
+        "4.8.2-r0": 1755251851,
+        "4.8.2-r1": 1779713882
       }
     },
     "calf": {
@@ -22999,7 +23008,8 @@
     "cinnamon-desktop": {
       "origin": "cinnamon-desktop",
       "versions": {
-        "6.4.1-r1": 1775475196
+        "6.4.1-r1": 1775475196,
+        "6.6.2-r0": 1779707057
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -23024,10 +23034,11 @@
     "cinnamon-desktop-dev": {
       "origin": "cinnamon-desktop",
       "versions": {
-        "6.4.1-r1": 1775475196
+        "6.4.1-r1": 1775475196,
+        "6.6.2-r0": 1779707057
       },
       "dependencies": [
-        "cinnamon-desktop=6.4.1-r1",
+        "cinnamon-desktop=6.6.2-r0",
         "pc:gio-2.0",
         "pc:gobject-2.0",
         "pc:gtk+-3.0",
@@ -23037,14 +23048,15 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:cinnamon-desktop=6.4.1",
-        "pc:cvc=6.4.1"
+        "pc:cinnamon-desktop=6.6.2",
+        "pc:cvc=6.6.2"
       ]
     },
     "cinnamon-desktop-lang": {
       "origin": "cinnamon-desktop",
       "versions": {
-        "6.4.1-r1": 1775475196
+        "6.4.1-r1": 1775475196,
+        "6.6.2-r0": 1779707057
       }
     },
     "ciso": {
@@ -51313,7 +51325,8 @@
     "ghex": {
       "origin": "ghex",
       "versions": {
-        "50.0-r0": 1773698892
+        "50.0-r0": 1773698892,
+        "50.1-r0": 1779707056
       },
       "dependencies": [
         "dconf",
@@ -51330,17 +51343,18 @@
         "so:libpangocairo-1.0.so.0"
       ],
       "provides": [
-        "cmd:ghex=50.0-r0",
+        "cmd:ghex=50.1-r0",
         "so:libgtkhex-4.so.1=1.12.0"
       ]
     },
     "ghex-dev": {
       "origin": "ghex",
       "versions": {
-        "50.0-r0": 1773698892
+        "50.0-r0": 1773698892,
+        "50.1-r0": 1779707056
       },
       "dependencies": [
-        "ghex=50.0-r0",
+        "ghex=50.1-r0",
         "pc:gtk4",
         "pkgconfig"
       ],
@@ -51351,13 +51365,15 @@
     "ghex-doc": {
       "origin": "ghex",
       "versions": {
-        "50.0-r0": 1773698892
+        "50.0-r0": 1773698892,
+        "50.1-r0": 1779707056
       }
     },
     "ghex-lang": {
       "origin": "ghex",
       "versions": {
-        "50.0-r0": 1773698892
+        "50.0-r0": 1773698892,
+        "50.1-r0": 1779707056
       }
     },
     "ghi": {
@@ -55250,7 +55266,8 @@
     "gnome-sudoku": {
       "origin": "gnome-sudoku",
       "versions": {
-        "50.0-r0": 1773423132
+        "50.0-r0": 1773423132,
+        "50.1-r0": 1779707056
       },
       "dependencies": [
         "so:libadwaita-1.so.0",
@@ -55270,19 +55287,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:gnome-sudoku=50.0-r0"
+        "cmd:gnome-sudoku=50.1-r0"
       ]
     },
     "gnome-sudoku-doc": {
       "origin": "gnome-sudoku",
       "versions": {
-        "50.0-r0": 1773423132
+        "50.0-r0": 1773423132,
+        "50.1-r0": 1779707056
       }
     },
     "gnome-sudoku-lang": {
       "origin": "gnome-sudoku",
       "versions": {
-        "50.0-r0": 1773423132
+        "50.0-r0": 1773423132,
+        "50.1-r0": 1779707056
       }
     },
     "gnome-system-monitor": {
@@ -55465,13 +55484,15 @@
     "gnome-user-docs": {
       "origin": "gnome-user-docs",
       "versions": {
-        "50.0-r0": 1773567303
+        "50.0-r0": 1773567303,
+        "50.2-r0": 1779707057
       }
     },
     "gnome-user-share": {
       "origin": "gnome-user-share",
       "versions": {
-        "48.2-r1": 1777732705
+        "48.2-r1": 1777732705,
+        "48.3-r0": 1779707057
       },
       "dependencies": [
         "apache2",
@@ -55489,13 +55510,15 @@
     "gnome-user-share-lang": {
       "origin": "gnome-user-share",
       "versions": {
-        "48.2-r1": 1777732705
+        "48.2-r1": 1777732705,
+        "48.3-r0": 1779707057
       }
     },
     "gnome-user-share-systemd": {
       "origin": "gnome-user-share",
       "versions": {
-        "48.2-r1": 1777732705
+        "48.2-r1": 1777732705,
+        "48.3-r0": 1779707057
       }
     },
     "gnome-wine-icon-theme": {
@@ -65715,7 +65738,8 @@
     "granite7": {
       "origin": "granite7",
       "versions": {
-        "7.8.0-r1": 1772957071
+        "7.8.0-r1": 1772957071,
+        "7.8.1-r0": 1779707057
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -65730,16 +65754,17 @@
         "so:libpango-1.0.so.0"
       ],
       "provides": [
-        "so:libgranite-7.so.7=7.8.0"
+        "so:libgranite-7.so.7=7.8.1"
       ]
     },
     "granite7-dev": {
       "origin": "granite7",
       "versions": {
-        "7.8.0-r1": 1772957071
+        "7.8.0-r1": 1772957071,
+        "7.8.1-r0": 1779707057
       },
       "dependencies": [
-        "granite7=7.8.0-r1",
+        "granite7=7.8.1-r0",
         "pc:gee-0.8",
         "pc:gio-2.0>=2.50",
         "pc:gio-unix-2.0>=2.50",
@@ -65756,14 +65781,15 @@
         "so:libshumate-1.0.so.1"
       ],
       "provides": [
-        "cmd:granite-7-demo=7.8.0-r1",
-        "pc:granite-7=7.8.0"
+        "cmd:granite-7-demo=7.8.1-r0",
+        "pc:granite-7=7.8.1"
       ]
     },
     "granite7-lang": {
       "origin": "granite7",
       "versions": {
-        "7.8.0-r1": 1772957071
+        "7.8.0-r1": 1772957071,
+        "7.8.1-r0": 1779707057
       }
     },
     "graphicsmagick": {
@@ -75208,7 +75234,8 @@
     "icinga-director-openrc": {
       "origin": "icingaweb2-module-director",
       "versions": {
-        "1.11.5-r1": 1761261640
+        "1.11.5-r1": 1761261640,
+        "1.11.8-r0": 1779711224
       },
       "dependencies": [
         "php83-cli",
@@ -75222,25 +75249,29 @@
     "icinga-php-library": {
       "origin": "icinga-php-library",
       "versions": {
-        "0.18.1-r0": 1764318784
+        "0.18.1-r0": 1764318784,
+        "0.19.2-r0": 1779710317
       }
     },
     "icinga-php-library-doc": {
       "origin": "icinga-php-library",
       "versions": {
-        "0.18.1-r0": 1764318784
+        "0.18.1-r0": 1764318784,
+        "0.19.2-r0": 1779710317
       }
     },
     "icinga-php-thirdparty": {
       "origin": "icinga-php-thirdparty",
       "versions": {
-        "0.14.0-r0": 1763826838
+        "0.14.0-r0": 1763826838,
+        "0.15.2-r0": 1779710256
       }
     },
     "icinga-php-thirdparty-doc": {
       "origin": "icinga-php-thirdparty",
       "versions": {
-        "0.14.0-r0": 1763826838
+        "0.14.0-r0": 1763826838,
+        "0.15.2-r0": 1779710256
       }
     },
     "icingaweb2": {
@@ -75294,7 +75325,8 @@
     "icingaweb2-module-director": {
       "origin": "icingaweb2-module-director",
       "versions": {
-        "1.11.5-r1": 1761261640
+        "1.11.5-r1": 1761261640,
+        "1.11.8-r0": 1779711224
       },
       "dependencies": [
         "icingaweb2",
@@ -75307,7 +75339,8 @@
     "icingaweb2-module-director-doc": {
       "origin": "icingaweb2-module-director",
       "versions": {
-        "1.11.5-r1": 1761261640
+        "1.11.5-r1": 1761261640,
+        "1.11.8-r0": 1779711224
       }
     },
     "icingaweb2-module-incubator": {
@@ -83989,7 +84022,8 @@
     "libadwaita": {
       "origin": "libadwaita",
       "versions": {
-        "1.9.0-r0": 1773422695
+        "1.9.0-r0": 1773422695,
+        "1.9.1-r0": 1779707056
       },
       "dependencies": [
         "adwaita-fonts",
@@ -84011,19 +84045,21 @@
     "libadwaita-dbg": {
       "origin": "libadwaita",
       "versions": {
-        "1.9.0-r0": 1773422695
+        "1.9.0-r0": 1773422695,
+        "1.9.1-r0": 1779707056
       },
       "dependencies": [
-        "!libadwaita-demo<1.9.0-r0",
-        "!libadwaita-demo>1.9.0-r0",
-        "!libadwaita<1.9.0-r0",
-        "!libadwaita>1.9.0-r0"
+        "!libadwaita-demo<1.9.1-r0",
+        "!libadwaita-demo>1.9.1-r0",
+        "!libadwaita<1.9.1-r0",
+        "!libadwaita>1.9.1-r0"
       ]
     },
     "libadwaita-demo": {
       "origin": "libadwaita",
       "versions": {
-        "1.9.0-r0": 1773422695
+        "1.9.0-r0": 1773422695,
+        "1.9.1-r0": 1779707056
       },
       "dependencies": [
         "adwaita-fonts",
@@ -84036,16 +84072,17 @@
         "so:libintl.so.8"
       ],
       "provides": [
-        "cmd:adwaita-1-demo=1.9.0-r0"
+        "cmd:adwaita-1-demo=1.9.1-r0"
       ]
     },
     "libadwaita-dev": {
       "origin": "libadwaita",
       "versions": {
-        "1.9.0-r0": 1773422695
+        "1.9.0-r0": 1773422695,
+        "1.9.1-r0": 1779707056
       },
       "dependencies": [
-        "libadwaita=1.9.0-r0",
+        "libadwaita=1.9.1-r0",
         "pc:appstream",
         "pc:fribidi",
         "pc:gio-2.0>=2.84.0",
@@ -84054,13 +84091,14 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:libadwaita-1=1.9.0"
+        "pc:libadwaita-1=1.9.1"
       ]
     },
     "libadwaita-lang": {
       "origin": "libadwaita",
       "versions": {
-        "1.9.0-r0": 1773422695
+        "1.9.0-r0": 1773422695,
+        "1.9.1-r0": 1779707056
       }
     },
     "libaec": {
@@ -116003,7 +116041,8 @@
     "mkvtoolnix": {
       "origin": "mkvtoolnix",
       "versions": {
-        "98.0-r0": 1775501370
+        "98.0-r0": 1775501370,
+        "99.0-r0": 1779708490
       },
       "dependencies": [
         "so:libFLAC.so.12",
@@ -116022,22 +116061,24 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:mkvextract=98.0-r0",
-        "cmd:mkvinfo=98.0-r0",
-        "cmd:mkvmerge=98.0-r0",
-        "cmd:mkvpropedit=98.0-r0"
+        "cmd:mkvextract=99.0-r0",
+        "cmd:mkvinfo=99.0-r0",
+        "cmd:mkvmerge=99.0-r0",
+        "cmd:mkvpropedit=99.0-r0"
       ]
     },
     "mkvtoolnix-doc": {
       "origin": "mkvtoolnix",
       "versions": {
-        "98.0-r0": 1775501370
+        "98.0-r0": 1775501370,
+        "99.0-r0": 1779708490
       }
     },
     "mkvtoolnix-gui": {
       "origin": "mkvtoolnix",
       "versions": {
-        "98.0-r0": 1775501370
+        "98.0-r0": 1775501370,
+        "99.0-r0": 1779708490
       },
       "dependencies": [
         "mkvtoolnix",
@@ -116062,7 +116103,7 @@
         "so:libvorbis.so.0"
       ],
       "provides": [
-        "cmd:mkvtoolnix-gui=98.0-r0"
+        "cmd:mkvtoolnix-gui=99.0-r0"
       ]
     },
     "mle": {
@@ -152553,7 +152594,8 @@
     "perl-business-isbn-data": {
       "origin": "perl-business-isbn-data",
       "versions": {
-        "20260424.001-r0": 1777902805
+        "20260424.001-r0": 1777902805,
+        "20260523.001-r0": 1779708666
       },
       "dependencies": [
         "perl"
@@ -152562,7 +152604,8 @@
     "perl-business-isbn-data-doc": {
       "origin": "perl-business-isbn-data",
       "versions": {
-        "20260424.001-r0": 1777902805
+        "20260424.001-r0": 1777902805,
+        "20260523.001-r0": 1779708666
       }
     },
     "perl-business-isbn-doc": {
@@ -161053,7 +161096,8 @@
     "perl-template-toolkit": {
       "origin": "perl-template-toolkit",
       "versions": {
-        "3.102-r1": 1751254741
+        "3.102-r1": 1751254741,
+        "3.105-r0": 1779708716
       },
       "dependencies": [
         "perl",
@@ -161061,14 +161105,15 @@
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:tpage=3.102-r1",
-        "cmd:ttree=3.102-r1"
+        "cmd:tpage=3.105-r0",
+        "cmd:ttree=3.105-r0"
       ]
     },
     "perl-template-toolkit-doc": {
       "origin": "perl-template-toolkit",
       "versions": {
-        "3.102-r1": 1751254741
+        "3.102-r1": 1751254741,
+        "3.105-r0": 1779708716
       }
     },
     "perl-term-animation": {
@@ -169715,7 +169760,8 @@
       "origin": "pipeline",
       "versions": {
         "4.0.2-r0": 1778323008,
-        "4.0.3-r0": 1779530331
+        "4.0.3-r0": 1779530331,
+        "4.0.4-r0": 1779707056
       },
       "dependencies": [
         "clapper-enhancers",
@@ -169738,21 +169784,23 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:tubefeeder=4.0.3-r0"
+        "cmd:tubefeeder=4.0.4-r0"
       ]
     },
     "pipeline-doc": {
       "origin": "pipeline",
       "versions": {
         "4.0.2-r0": 1778323008,
-        "4.0.3-r0": 1779530331
+        "4.0.3-r0": 1779530331,
+        "4.0.4-r0": 1779707056
       }
     },
     "pipeline-lang": {
       "origin": "pipeline",
       "versions": {
         "4.0.2-r0": 1778323008,
-        "4.0.3-r0": 1779530331
+        "4.0.3-r0": 1779530331,
+        "4.0.4-r0": 1779707056
       }
     },
     "piper": {
@@ -177795,7 +177843,8 @@
     "py3-awscrt": {
       "origin": "py3-awscrt",
       "versions": {
-        "0.32.2-r0": 1777225042
+        "0.32.2-r0": 1777225042,
+        "0.33.0-r0": 1779707056
       },
       "dependencies": [
         "python3~3.14",
@@ -177811,13 +177860,14 @@
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "py3.14:awscrt=0.32.2-r0"
+        "py3.14:awscrt=0.33.0-r0"
       ]
     },
     "py3-awscrt-pyc": {
       "origin": "py3-awscrt",
       "versions": {
-        "0.32.2-r0": 1777225042
+        "0.32.2-r0": 1777225042,
+        "0.33.0-r0": 1779707056
       },
       "dependencies": [
         "python3~3.14"
@@ -191403,7 +191453,8 @@
     "py3-lsp-server": {
       "origin": "py3-lsp-server",
       "versions": {
-        "1.14.0-r0": 1777370779
+        "1.14.0-r0": 1777370779,
+        "1.14.0-r1": 1779712840
       },
       "dependencies": [
         "py3-docstring-to-markdown",
@@ -191418,14 +191469,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:pylsp=1.14.0-r0",
-        "py3.14:pylsp=1.14.0-r0"
+        "cmd:pylsp=1.14.0-r1",
+        "py3.14:pylsp=1.14.0-r1"
       ]
     },
     "py3-lsp-server-pyc": {
       "origin": "py3-lsp-server",
       "versions": {
-        "1.14.0-r0": 1777370779
+        "1.14.0-r0": 1777370779,
+        "1.14.0-r1": 1779712840
       },
       "dependencies": [
         "python3~3.14"
@@ -199068,14 +199120,15 @@
       "versions": {
         "6.4.2-r1": 1774640426,
         "6.11.0-r0": 1779203948,
-        "6.12.0-r0": 1779369062
+        "6.12.0-r0": 1779369062,
+        "6.12.1-r0": 1779708617
       },
       "dependencies": [
         "python3~3.14"
       ],
       "provides": [
-        "py3-pypdf2=6.12.0-r0",
-        "py3.14:pypdf=6.12.0-r0"
+        "py3-pypdf2=6.12.1-r0",
+        "py3.14:pypdf=6.12.1-r0"
       ]
     },
     "py3-pypdf-pyc": {
@@ -199083,7 +199136,8 @@
       "versions": {
         "6.4.2-r1": 1774640426,
         "6.11.0-r0": 1779203948,
-        "6.12.0-r0": 1779369062
+        "6.12.0-r0": 1779369062,
+        "6.12.1-r0": 1779708617
       },
       "dependencies": [
         "python3~3.14"
@@ -199826,7 +199880,8 @@
     "py3-pytest-codspeed": {
       "origin": "py3-pytest-codspeed",
       "versions": {
-        "5.0.2-r0": 1778817102
+        "5.0.2-r0": 1778817102,
+        "5.0.3-r0": 1779712510
       },
       "dependencies": [
         "py3-pytest",
@@ -199834,19 +199889,21 @@
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:pytest_codspeed=5.0.2-r0"
+        "py3.14:pytest_codspeed=5.0.3-r0"
       ]
     },
     "py3-pytest-codspeed-doc": {
       "origin": "py3-pytest-codspeed",
       "versions": {
-        "5.0.2-r0": 1778817102
+        "5.0.2-r0": 1778817102,
+        "5.0.3-r0": 1779712510
       }
     },
     "py3-pytest-codspeed-pyc": {
       "origin": "py3-pytest-codspeed",
       "versions": {
-        "5.0.2-r0": 1778817102
+        "5.0.2-r0": 1778817102,
+        "5.0.3-r0": 1779712510
       },
       "dependencies": [
         "python3~3.14"
@@ -253591,14 +253648,17 @@
     "xdg-desktop-portal-xapp": {
       "origin": "xdg-desktop-portal-xapp",
       "versions": {
-        "1.0.4-r1": 1776503070
+        "1.0.4-r1": 1776503070,
+        "1.1.3-r0": 1779707057
       },
       "dependencies": [
         "xdg-desktop-portal",
         "so:libc.musl-armhf.so.1",
+        "so:libgdk-3.so.0",
         "so:libgio-2.0.so.0",
         "so:libglib-2.0.so.0",
         "so:libgobject-2.0.so.0",
+        "so:libgtk-3.so.0",
         "so:libintl.so.8"
       ]
     },
@@ -260481,20 +260541,22 @@
     "zizmor": {
       "origin": "zizmor",
       "versions": {
-        "1.24.1-r0": 1776222485
+        "1.24.1-r0": 1776222485,
+        "1.25.2-r0": 1779712578
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:zizmor=1.24.1-r0"
+        "cmd:zizmor=1.25.2-r0"
       ]
     },
     "zizmor-doc": {
       "origin": "zizmor",
       "versions": {
-        "1.24.1-r0": 1776222485
+        "1.24.1-r0": 1776222485,
+        "1.25.2-r0": 1779712578
       }
     },
     "zk": {
@@ -261627,6 +261689,26 @@
       "origin": "unudhcpd",
       "versions": {
         "0.3.0-r0": 1779657170
+      }
+    },
+    "adguardhome": {
+      "origin": "adguardhome",
+      "versions": {
+        "0.107.76-r0": 1779713642
+      },
+      "dependencies": [
+        "ca-certificates",
+        "/bin/sh",
+        "so:libc.musl-armhf.so.1"
+      ],
+      "provides": [
+        "cmd:adguardhome=0.107.76-r0"
+      ]
+    },
+    "adguardhome-openrc": {
+      "origin": "adguardhome",
+      "versions": {
+        "0.107.76-r0": 1779713642
       }
     }
   },
@@ -268646,7 +268728,7 @@
       },
       "libgranite-7.so.7": {
         "package": "granite7",
-        "version": "7.8.0"
+        "version": "7.8.1"
       },
       "libGraphicsMagick.so.3": {
         "package": "graphicsmagick",
@@ -279280,7 +279362,7 @@
       },
       "aws-cli-v2": {
         "package": "aws-cli",
-        "version": "2.34.52-r0"
+        "version": "2.34.53-r0"
       },
       "swww": {
         "package": "awww",
@@ -281944,7 +282026,7 @@
       },
       "py3-pypdf2": {
         "package": "py3-pypdf",
-        "version": "6.12.0-r0"
+        "version": "6.12.1-r0"
       },
       "py-pypeg2": {
         "package": "py3-pypeg2",

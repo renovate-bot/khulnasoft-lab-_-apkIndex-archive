@@ -3029,22 +3029,6 @@ c:3d79f5d8d7ce8300cc20e86e9c098cdd6d23152d
 D:so:libQt5Core.so.5 so:libQt5DBus.so.5 so:libQt5Gui.so.5 so:libQt5Widgets.so.5 so:libQt5X11Extras.so.5 so:libX11.so.6 so:libc.musl-x86_64.so.1 so:libqtermwidget5.so.1 so:libstdc++.so.6
 p:cmd:qterminal=1.2.0-r0
 
-C:Q1B1Ja0GrIU/BVlKQ7NTQKgZ/Csvo=
-P:rtpengine-virt
-V:5.15.207-r0
-A:x86_64
-S:32562
-I:131072
-T: kernel modules for rtpengine
-U:https://github.com/sipwise/rtpengine
-L:GPL-3.0-only
-o:rtpengine-lts
-m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1778924665
-c:90e0ab7491e47c17453435f79a5d756da9060595
-D:linux-virt=5.15.207-r0
-i:rtpengine linux-virt=5.15.207-r0
-
 C:Q1KOAN4r9aYtqUkDpVSBFF89iSsE0=
 P:synapse-openrc
 V:1.71.0-r0
@@ -14785,6 +14769,21 @@ t:1660491829
 c:a09867082543af880c4d362a7509b235f80e728b
 D:python3
 p:py3.10:unicodecsv=0.14.1-r5
+
+C:Q15q/iP683KAzBXCxqj2n1WjWOvPw=
+P:rtpengine-lts
+V:5.15.208-r0
+A:x86_64
+S:33135
+I:135168
+T:Kernel module for rtpengine
+U:https://github.com/sipwise/rtpengine
+L:GPL-3.0-only
+o:rtpengine-lts
+m:Leonardo Arena <rnalrd@alpinelinux.org>
+t:1779696424
+c:4304b2c629a893066905c3eba84d653b0bb04cc6
+i:rtpengine linux-lts=5.15.208-r0
 
 C:Q19sqmc+7+o1SwtND5aX0MWiyiWD0=
 P:qemu-chardev-spice
@@ -28065,22 +28064,6 @@ t:1657672799
 c:edc53dd7e1a8a1718f71667dde53acbc09ef9958
 i:colord=1.4.6-r1 bash-completion
 
-C:Q1kyiggwCbBSdIcmD1kz2cmYtyLRY=
-P:jool-modules-virt
-V:5.15.207-r0
-A:x86_64
-S:123657
-I:151552
-T:SIIT and NAT64 for Linux (kernel modules for linux-virt)
-U:https://jool.mx
-L:GPL-2.0-or-later
-o:jool-modules-lts
-m:Jakub Jirutka <jakub@jirutka.cz>
-t:1778924648
-c:dd2f5ae94ee5e95fc230d1b43caadd0ab0da7655
-D:linux-virt=5.15.207-r0
-i:linux-virt=5.15.207-r0 jool-tools
-
 C:Q1FAuEplzSei5mnMYuQ0IIiFzMIjU=
 P:wvkbd
 V:0.12-r0
@@ -38827,6 +38810,22 @@ t:1668598970
 c:77ab979b68e7a336c3676d3c81412348c96e2c34
 D:coreutils gawk curl doas gojq so:libc.musl-x86_64.so.1
 p:cmd:sxmo_aligned_sleep=1.12.0-r0 cmd:sxmo_appmenu.sh=1.12.0-r0 cmd:sxmo_audio.sh=1.12.0-r0 cmd:sxmo_autorotate.sh=1.12.0-r0 cmd:sxmo_battery_monitor.sh=1.12.0-r0 cmd:sxmo_bluetoothmenu.sh=1.12.0-r0 cmd:sxmo_bluetoothtoggle.sh=1.12.0-r0 cmd:sxmo_brightness.sh=1.12.0-r0 cmd:sxmo_common.sh=1.12.0-r0 cmd:sxmo_contactmenu.sh=1.12.0-r0 cmd:sxmo_contacts.sh=1.12.0-r0 cmd:sxmo_daemons.sh=1.12.0-r0 cmd:sxmo_deviceprofile_lge,hammerhead.sh=1.12.0-r0 cmd:sxmo_deviceprofile_longcheer,l8150.sh=1.12.0-r0 cmd:sxmo_deviceprofile_oneplus,cheeseburger.sh=1.12.0-r0 cmd:sxmo_deviceprofile_oneplus,dumpling.sh=1.12.0-r0 cmd:sxmo_deviceprofile_oneplus,enchilada.sh=1.12.0-r0 cmd:sxmo_deviceprofile_oneplus,fajita.sh=1.12.0-r0 cmd:sxmo_deviceprofile_pine64,pinenote.sh=1.12.0-r0 cmd:sxmo_deviceprofile_pine64,pinephone-1.0.sh=1.12.0-r0 cmd:sxmo_deviceprofile_pine64,pinephone-1.1.sh=1.12.0-r0 cmd:sxmo_deviceprofile_pine64,pinephone-1.2.sh=1.12.0-r0 cmd:sxmo_deviceprofile_pine64,pinephone-pro.sh=1.12.0-r0 cmd:sxmo_deviceprofile_purism,librem5r2.sh=1.12.0-r0 cmd:sxmo_deviceprofile_purism,librem5r3.sh=1.12.0-r0 cmd:sxmo_deviceprofile_purism,librem5r4.sh=1.12.0-r0 cmd:sxmo_deviceprofile_qcom,msm8226-mtp.sh=1.12.0-r0 cmd:sxmo_deviceprofile_samsung,a5u-eur.sh=1.12.0-r0 cmd:sxmo_deviceprofile_samsung,gt510.sh=1.12.0-r0 cmd:sxmo_deviceprofile_samsung,i9300.sh=1.12.0-r0 cmd:sxmo_deviceprofile_wingtech,wt88047.sh=1.12.0-r0 cmd:sxmo_deviceprofile_xiaomi,beryllium.sh=1.12.0-r0 cmd:sxmo_dmenu.sh=1.12.0-r0 cmd:sxmo_dmenu_with_kb.sh=1.12.0-r0 cmd:sxmo_dtmf.sh=1.12.0-r0 cmd:sxmo_edit_screen.sh=1.12.0-r0 cmd:sxmo_files.sh=1.12.0-r0 cmd:sxmo_flashtoggle.sh=1.12.0-r0 cmd:sxmo_hookmenu.sh=1.12.0-r0 cmd:sxmo_idle.sh=1.12.0-r0 cmd:sxmo_keyboard.sh=1.12.0-r0 cmd:sxmo_killwindow.sh=1.12.0-r0 cmd:sxmo_led.sh=1.12.0-r0 cmd:sxmo_menumode_toggler.sh=1.12.0-r0 cmd:sxmo_migrate.sh=1.12.0-r0 cmd:sxmo_mms.sh=1.12.0-r0 cmd:sxmo_mmsdconfig.sh=1.12.0-r0 cmd:sxmo_modem.sh=1.12.0-r0 cmd:sxmo_modemaudio.sh=1.12.0-r0 cmd:sxmo_modemcall.sh=1.12.0-r0 cmd:sxmo_modemdial.sh=1.12.0-r0 cmd:sxmo_modeminfo.sh=1.12.0-r0 cmd:sxmo_modemlog.sh=1.12.0-r0 cmd:sxmo_modemmonitor.sh=1.12.0-r0 cmd:sxmo_modemsendsms.sh=1.12.0-r0 cmd:sxmo_modemtext.sh=1.12.0-r0 cmd:sxmo_movement.sh=1.12.0-r0 cmd:sxmo_multikey.sh=1.12.0-r0 cmd:sxmo_mutex.sh=1.12.0-r0 cmd:sxmo_networkmonitor.sh=1.12.0-r0 cmd:sxmo_networks.sh=1.12.0-r0 cmd:sxmo_notificationmonitor.sh=1.12.0-r0 cmd:sxmo_notificationsmenu.sh=1.12.0-r0 cmd:sxmo_notificationwrite.sh=1.12.0-r0 cmd:sxmo_notify_user.sh=1.12.0-r0 cmd:sxmo_open.sh=1.12.0-r0 cmd:sxmo_phonemenu.sh=1.12.0-r0 cmd:sxmo_pipecomplete.sh=1.12.0-r0 cmd:sxmo_playerctl.sh=1.12.0-r0 cmd:sxmo_power.sh=1.12.0-r0 cmd:sxmo_record.sh=1.12.0-r0 cmd:sxmo_reddit.sh=1.12.0-r0 cmd:sxmo_rotate.sh=1.12.0-r0 cmd:sxmo_rss.sh=1.12.0-r0 cmd:sxmo_rtcwake.sh=1.12.0-r0 cmd:sxmo_run_aligned.sh=1.12.0-r0 cmd:sxmo_run_periodically.sh=1.12.0-r0 cmd:sxmo_screenshot.sh=1.12.0-r0 cmd:sxmo_screenshot_selection.sh=1.12.0-r0 cmd:sxmo_setpermissions.sh=1.12.0-r0 cmd:sxmo_soundmonitor.sh=1.12.0-r0 cmd:sxmo_status.sh=1.12.0-r0 cmd:sxmo_status_xsetroot.sh=1.12.0-r0 cmd:sxmo_surf_linkselect.sh=1.12.0-r0 cmd:sxmo_suspend.sh=1.12.0-r0 cmd:sxmo_swayinitconf.sh=1.12.0-r0 cmd:sxmo_terminal.sh=1.12.0-r0 cmd:sxmo_timer.sh=1.12.0-r0 cmd:sxmo_timezonechange.sh=1.12.0-r0 cmd:sxmo_type.sh=1.12.0-r0 cmd:sxmo_uniq_exec.sh=1.12.0-r0 cmd:sxmo_unlocksim.sh=1.12.0-r0 cmd:sxmo_upgrade.sh=1.12.0-r0 cmd:sxmo_urlhandler.sh=1.12.0-r0 cmd:sxmo_validnumber.sh=1.12.0-r0 cmd:sxmo_version.sh=1.12.0-r0 cmd:sxmo_vibrate=1.12.0-r0 cmd:sxmo_vvm.sh=1.12.0-r0 cmd:sxmo_vvmdconfig.sh=1.12.0-r0 cmd:sxmo_weather.sh=1.12.0-r0 cmd:sxmo_websearch.sh=1.12.0-r0 cmd:sxmo_wifitoggle.sh=1.12.0-r0 cmd:sxmo_winit.sh=1.12.0-r0 cmd:sxmo_wm.sh=1.12.0-r0 cmd:sxmo_wmmenu.sh=1.12.0-r0 cmd:sxmo_wob.sh=1.12.0-r0 cmd:sxmo_xinit.sh=1.12.0-r0 cmd:sxmo_youtube.sh=1.12.0-r0 cmd:sxmo_youtube_audio.sh=1.12.0-r0
+
+C:Q1mprEnxn0m2990tph7UhuJH7txA0=
+P:rtpengine-virt
+V:5.15.208-r0
+A:x86_64
+S:32565
+I:131072
+T: kernel modules for rtpengine
+U:https://github.com/sipwise/rtpengine
+L:GPL-3.0-only
+o:rtpengine-lts
+m:Leonardo Arena <rnalrd@alpinelinux.org>
+t:1779696424
+c:4304b2c629a893066905c3eba84d653b0bb04cc6
+D:linux-virt=5.15.208-r0
+i:rtpengine linux-virt=5.15.208-r0
 
 C:Q1GnjqikFEMGSATQSyBLgqvKNWc6g=
 P:kcgi
@@ -60462,21 +60461,6 @@ m:Duncan Bellamy <dunk@denkimushi.com>
 t:1666619692
 c:6d3f459f1e2a47230cb5fb845d196b48fbbe1ae5
 i:openrc dcc=2.3.168-r1
-
-C:Q1ZJ1HhbevJ8gYVcivJclNJW2dHHE=
-P:rtpengine-lts
-V:5.15.207-r0
-A:x86_64
-S:33146
-I:135168
-T:Kernel module for rtpengine
-U:https://github.com/sipwise/rtpengine
-L:GPL-3.0-only
-o:rtpengine-lts
-m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1778924665
-c:90e0ab7491e47c17453435f79a5d756da9060595
-i:rtpengine linux-lts=5.15.207-r0
 
 C:Q1ZTE/s6qWNab+m21d8q0TT7n3i0o=
 P:adwaita-qt-dev
@@ -85748,6 +85732,22 @@ t:1660906587
 c:1b2faf80d3727a0a80a475a921f31f91eea18825
 D:so:libGL.so.1 so:libc.musl-x86_64.so.1
 
+C:Q1p8AYCt8hWhjvCjQmakQcUxP+1HU=
+P:jool-modules-virt
+V:5.15.208-r0
+A:x86_64
+S:123640
+I:151552
+T:SIIT and NAT64 for Linux (kernel modules for linux-virt)
+U:https://jool.mx
+L:GPL-2.0-or-later
+o:jool-modules-lts
+m:Jakub Jirutka <jakub@jirutka.cz>
+t:1779696407
+c:4856f13bee3227a30ac524545713da29ca795be7
+D:linux-virt=5.15.208-r0
+i:linux-virt=5.15.208-r0 jool-tools
+
 C:Q1WO3iNcSiWpyY7XmRHd8GnO+/Fm0=
 P:lapack
 V:3.11-r0
@@ -99350,20 +99350,6 @@ m:Kevin Daudt <kdaudt@alpinelinux.org>
 t:1652518797
 c:e0cbc6286c33e20f8abe17e71eac8d0edbce4ba9
 D:lua5.1
-
-C:Q1eEZisg7XmunJZdoMU6a1i0ylVZM=
-P:rtl8821ce-lts
-V:5.15.207-r0
-A:x86_64
-S:954058
-I:4263936
-T:Wifi drivers for Realtek 8821ce
-U:https://github.com/tomaspinho/rtl8821ce
-L:GPL-2.0-only
-o:rtl8821ce-lts
-m:Kevin Daudt <kdaudt@alpinelinux.org>
-t:1778924658
-c:943f7081a71d654e353092331f9b56ff7749dcce
 
 C:Q1OFbF9wu2piyp5Xu8HKm8/5qBDpo=
 P:farstream-doc
@@ -143103,6 +143089,22 @@ c:e244668fd4763451ce47029cc6c1b6d1afb21df2
 D:so:libc.musl-x86_64.so.1
 p:cmd:zps=1.2.8-r0
 
+C:Q1RPslghkhjfFumO4Pta8ij2bTg5U=
+P:jool-modules-lts
+V:5.15.208-r0
+A:x86_64
+S:127900
+I:155648
+T:SIIT and NAT64 for Linux (kernel modules for linux-lts)
+U:https://jool.mx
+L:GPL-2.0-or-later
+o:jool-modules-lts
+m:Jakub Jirutka <jakub@jirutka.cz>
+t:1779696407
+c:4856f13bee3227a30ac524545713da29ca795be7
+D:linux-lts=5.15.208-r0
+i:linux-lts=5.15.208-r0 jool-tools
+
 C:Q15c0Pdg0HH56I8Ue3ho1Q6rPQlCg=
 P:exa-doc
 V:0.10.1-r3
@@ -164466,6 +164468,20 @@ t:1662504342
 c:a2d0d0b61b70e0ef7c157c643d1a398af36a22d3
 D:so:libc.musl-x86_64.so.1 so:libfts.so.0 so:libxar.so.1
 p:cmd:xar=1.8.0.487.100.1-r0
+
+C:Q1fE6mHblVaQnJV3CpW6sT3PqyCvg=
+P:rtl8821ce-lts
+V:5.15.208-r0
+A:x86_64
+S:954052
+I:4263936
+T:Wifi drivers for Realtek 8821ce
+U:https://github.com/tomaspinho/rtl8821ce
+L:GPL-2.0-only
+o:rtl8821ce-lts
+m:Kevin Daudt <kdaudt@alpinelinux.org>
+t:1779696417
+c:f327fe9269d2330f1034a82b607b5edf1c80e758
 
 C:Q1DpWBZo6/qNFXptLE62Z4wqixOZ0=
 P:libcephfs16
@@ -190023,22 +190039,6 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1666342567
 c:bc2d097c787f2ee5bb8a31f59b925d38cf728a3f
 D:claws-mail=4.1.1-r0 so:libc.musl-x86_64.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8
-
-C:Q1Fl8PWR+xmb/3j53v8FR6HhTpKOE=
-P:jool-modules-lts
-V:5.15.207-r0
-A:x86_64
-S:127869
-I:155648
-T:SIIT and NAT64 for Linux (kernel modules for linux-lts)
-U:https://jool.mx
-L:GPL-2.0-or-later
-o:jool-modules-lts
-m:Jakub Jirutka <jakub@jirutka.cz>
-t:1778924648
-c:dd2f5ae94ee5e95fc230d1b43caadd0ab0da7655
-D:linux-lts=5.15.207-r0
-i:linux-lts=5.15.207-r0 jool-tools
 
 C:Q1x3F0XrEZkNludVIHDcuKMCYN4N0=
 P:py3-podcastparser

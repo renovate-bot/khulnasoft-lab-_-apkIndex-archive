@@ -1584,6 +1584,37 @@ t:1725023017
 c:4785da1733a5c429c2cd4f47214369b6e531f32c
 i:openrc addrwatch=1.0.2-r1
 
+C:Q1si5Ft11WA/RFDX6bGq104tO8zYo=
+P:adguardhome
+V:0.107.76-r0
+A:armhf
+S:11753693
+I:34406052
+T:Network-wide ads & trackers blocking DNS server
+U:https://adguard.com/adguard-home.html
+L:GPL-3.0-only
+o:adguardhome
+m:Fabricio Silva <hi@fabricio.dev>
+t:1779713642
+c:2c7287604b232997acec822780e359cd4ca11452
+D:ca-certificates /bin/sh so:libc.musl-armhf.so.1
+p:cmd:adguardhome=0.107.76-r0
+
+C:Q1MWS+8PF7IBa/pTLljyxdC12DS3E=
+P:adguardhome-openrc
+V:0.107.76-r0
+A:armhf
+S:2224
+I:1253
+T:Network-wide ads & trackers blocking DNS server (OpenRC init scripts)
+U:https://adguard.com/adguard-home.html
+L:GPL-3.0-only
+o:adguardhome
+m:Fabricio Silva <hi@fabricio.dev>
+t:1779713642
+c:2c7287604b232997acec822780e359cd4ca11452
+i:openrc adguardhome=0.107.76-r0
+
 C:Q15BxTafjzSDMTaG+f1/GbjwhbUMA=
 P:adman
 V:0.9.0-r6
@@ -7788,85 +7819,85 @@ t:1771072249
 c:f7850d29e3c2c39659f1aa49e2a080d413a1ea56
 D:aws-checksums=0.2.10-r0
 
-C:Q1FhH4WhPcBabaolrBOVKIfMcxOf0=
+C:Q1JEwCQa9vp0bHLiuFpDVjF4EUtEs=
 P:aws-cli
-V:2.34.52-r0
+V:2.34.53-r0
 A:armhf
-S:17768821
-I:131510366
+S:17771630
+I:131531089
 T:Universal Command Line Interface for Amazon Web Services (v2)
 U:https://github.com/aws/aws-cli
 L:Apache-2.0
 o:aws-cli
 m:Achill Gilgenast <achill@achill.org>
-t:1779530330
-c:cc8ffe0d2ba7737ddbc953b5c64545b5d14bbc2a
+t:1779707056
+c:21a4c178a7c915bb55d738ef9e3e3dcda2e73f9f
 D:py3-awscrt py3-certifi py3-colorama py3-cryptography py3-dateutil py3-distro py3-docutils py3-jmespath py3-prompt_toolkit py3-ruamel.yaml py3-urllib3 py3-zipp python3 python3~3.14
-p:aws-cli-v2=2.34.52-r0 cmd:aws=2.34.52-r0 cmd:aws_completer=2.34.52-r0 py3.14:awscli=2.34.52-r0
+p:aws-cli-v2=2.34.53-r0 cmd:aws=2.34.53-r0 cmd:aws_completer=2.34.53-r0 py3.14:awscli=2.34.53-r0
 
-C:Q1DKNH3tz8osEmL5jwFnRFfsrkTNY=
+C:Q1NALxFO/BU7/RzntHso57KvwMC4k=
 P:aws-cli-bash-completion
-V:2.34.52-r0
+V:2.34.53-r0
 A:armhf
-S:1863
+S:1857
 I:204
 T:Universal Command Line Interface for Amazon Web Services (v2) (bash completions)
 U:https://github.com/aws/aws-cli
 L:Apache-2.0
 o:aws-cli
 m:Achill Gilgenast <achill@achill.org>
-t:1779530330
-c:cc8ffe0d2ba7737ddbc953b5c64545b5d14bbc2a
+t:1779707056
+c:21a4c178a7c915bb55d738ef9e3e3dcda2e73f9f
 D:py3-awscrt py3-certifi py3-colorama py3-cryptography py3-dateutil py3-distro py3-docutils py3-jmespath py3-prompt_toolkit py3-ruamel.yaml py3-urllib3 py3-zipp python3
-i:aws-cli=2.34.52-r0 bash-completion
+i:aws-cli=2.34.53-r0 bash-completion
 
-C:Q1sephctd9I4Q2JpE748g06bBu1vg=
+C:Q1XGhlz5nHz/ddMMsqV74OVHERhyw=
 P:aws-cli-doc
-V:2.34.52-r0
+V:2.34.53-r0
 A:armhf
-S:1731158
+S:1731203
 I:8125189
 T:Universal Command Line Interface for Amazon Web Services (v2) (documentation)
 U:https://github.com/aws/aws-cli
 L:Apache-2.0
 o:aws-cli
 m:Achill Gilgenast <achill@achill.org>
-t:1779530330
-c:cc8ffe0d2ba7737ddbc953b5c64545b5d14bbc2a
+t:1779707056
+c:21a4c178a7c915bb55d738ef9e3e3dcda2e73f9f
 D:python3~3.14
-i:docs aws-cli=2.34.52-r0
+i:docs aws-cli=2.34.53-r0
 
-C:Q1GYbu5IZq7UoPi85wJWA5/NouZXo=
+C:Q1ri7CxHdh6hIy2HcGKY3pP/xsCzw=
 P:aws-cli-pyc
-V:2.34.52-r0
+V:2.34.53-r0
 A:armhf
-S:1747175
-I:4438037
+S:1748017
+I:4439812
 T:Precompiled Python bytecode for aws-cli
 U:https://github.com/aws/aws-cli
 L:Apache-2.0
 o:aws-cli
 m:Achill Gilgenast <achill@achill.org>
-t:1779530330
-c:cc8ffe0d2ba7737ddbc953b5c64545b5d14bbc2a
+t:1779707056
+c:21a4c178a7c915bb55d738ef9e3e3dcda2e73f9f
 D:python3~3.14
-i:aws-cli=2.34.52-r0 pyc
+i:aws-cli=2.34.53-r0 pyc
 
-C:Q1NuxBLrBHmvnhCOKV73RTfQF3K3Q=
+C:Q1h2H7QfHLCDZThgre/dKPO6d8hOw=
 P:aws-cli-zsh-completion
-V:2.34.52-r0
+V:2.34.53-r0
 A:armhf
-S:2639
+S:2636
 I:1808
 T:Universal Command Line Interface for Amazon Web Services (v2) (zsh completions)
 U:https://github.com/aws/aws-cli
 L:Apache-2.0
 o:aws-cli
 m:Achill Gilgenast <achill@achill.org>
-t:1779530330
-c:cc8ffe0d2ba7737ddbc953b5c64545b5d14bbc2a
+t:1779707056
+c:21a4c178a7c915bb55d738ef9e3e3dcda2e73f9f
 D:py3-awscrt py3-certifi py3-colorama py3-cryptography py3-dateutil py3-distro py3-docutils py3-jmespath py3-prompt_toolkit py3-ruamel.yaml py3-urllib3 py3-zipp python3
-i:aws-cli=2.34.52-r0 zsh
+i:aws-cli=2.34.53-r0 zsh
 
 C:Q18JbRiOfDLwhagct+1AiLWwxvz7o=
 P:aws-crt-cpp
@@ -21317,67 +21348,67 @@ t:1749563157
 c:c1a31f720869cac0ede5ac8329abe8ffc6b2b1ca
 i:caja=1.28.0-r0 lang
 
-C:Q1Cw0+RJaUPoS3cLClLF0cFR+bP/c=
+C:Q1LcU39VZ5GJHxgBLDqgaEV2yKYsE=
 P:calcurse
-V:4.8.2-r0
+V:4.8.2-r1
 A:armhf
-S:125707
+S:125732
 I:267922
 T:A text-based personal organizer
 U:https://calcurse.org/
 L:BSD-2-Clause
 o:calcurse
 m:Roberto Oliveira <robertoguimaraes8@gmail.com>
-t:1755251851
-c:4995c5a9b61f048d8c4b9a3aa5390741f19c9640
+t:1779713882
+c:b0364837e8119b8f699110c1beba9edb63def035
 D:so:libc.musl-armhf.so.1 so:libncursesw.so.6
-p:cmd:calcurse-upgrade=4.8.2-r0 cmd:calcurse-vdir=4.8.2-r0 cmd:calcurse=4.8.2-r0
+p:cmd:calcurse-upgrade=4.8.2-r1 cmd:calcurse-vdir=4.8.2-r1 cmd:calcurse=4.8.2-r1
 
-C:Q10eRD1mSqVbSF0/XpY4Ix7J5xiP4=
+C:Q1tTzpY1XwZwpomWy5PprLR9ATOxc=
 P:calcurse-caldav
-V:4.8.2-r0
+V:4.8.2-r1
 A:armhf
-S:8827
+S:8829
 I:26970
 T:CalDAV synchronization support for calcurse
 U:https://calcurse.org/
 L:BSD-2-Clause
 o:calcurse
 m:Roberto Oliveira <robertoguimaraes8@gmail.com>
-t:1755251851
-c:4995c5a9b61f048d8c4b9a3aa5390741f19c9640
-D:calcurse=4.8.2-r0 python3 py3-httplib2
-p:cmd:calcurse-caldav=4.8.2-r0
+t:1779713882
+c:b0364837e8119b8f699110c1beba9edb63def035
+D:calcurse=4.8.2-r1 python3 py3-httplib2
+p:cmd:calcurse-caldav=4.8.2-r1
 
-C:Q1cpuR3YxcAhKTp5PXF2xasdUzvZM=
+C:Q11+yoBCcRD1sjGYnSBmTX4QozSWI=
 P:calcurse-dbg
-V:4.8.2-r0
+V:4.8.2-r1
 A:armhf
-S:321097
-I:714560
+S:321139
+I:714668
 T:A text-based personal organizer (debug symbols)
 U:https://calcurse.org/
 L:BSD-2-Clause
 o:calcurse
 m:Roberto Oliveira <robertoguimaraes8@gmail.com>
-t:1755251851
-c:4995c5a9b61f048d8c4b9a3aa5390741f19c9640
-D:!calcurse<4.8.2-r0 !calcurse>4.8.2-r0
+t:1779713882
+c:b0364837e8119b8f699110c1beba9edb63def035
+D:!calcurse<4.8.2-r1 !calcurse>4.8.2-r1
 
-C:Q1oAoXgbezeO9by1itvAvQ7AkdNfg=
+C:Q1QL8OOqXOwY6rKacxvXQYz2lxNxM=
 P:calcurse-doc
-V:4.8.2-r0
+V:4.8.2-r1
 A:armhf
-S:118366
+S:118373
 I:322946
 T:A text-based personal organizer (documentation)
 U:https://calcurse.org/
 L:BSD-2-Clause
 o:calcurse
 m:Roberto Oliveira <robertoguimaraes8@gmail.com>
-t:1755251851
-c:4995c5a9b61f048d8c4b9a3aa5390741f19c9640
-i:docs calcurse=4.8.2-r0
+t:1779713882
+c:b0364837e8119b8f699110c1beba9edb63def035
+i:docs calcurse=4.8.2-r1
 
 C:Q1HdkIgL09WskUu/VYyX9wUUgHtdc=
 P:calf
@@ -25206,52 +25237,52 @@ t:1776327818
 c:b27ea34d8c9febb951dbb255035acd10693aaa19
 i:docs cicada=1.2.2-r1
 
-C:Q1rvOtx//LH9z8PMKpOlgGdnLksbI=
+C:Q1BfQDa1XVMYxMZ+II7o6hO44Q968=
 P:cinnamon-desktop
-V:6.4.1-r1
+V:6.6.2-r0
 A:armhf
-S:173821
-I:522820
+S:172138
+I:513765
 T:Library providing shared API for Cinnamon applications
 U:https://github.com/linuxmint/cinnamon-desktop
 L:GPL-2.0-only
 o:cinnamon-desktop
 m:Achill Gilgenast <achill@achill.org>
-t:1775475196
-c:ae6386774f0976c9ad6f3acc7bb08d1f8d78b937
+t:1779707057
+c:746a9a2c5bc8799eaa5e6311ed71a539a80b6c20
 D:so:libX11.so.6 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libpulse-mainloop-glib.so.0 so:libpulse.so.0 so:libudev.so.1
 p:so:libcinnamon-desktop.so.4=4.0.0 so:libcvc.so.0=0.0.0
 
-C:Q1/xvcRJCs3wHFhbbOtE0VBxOyuwc=
+C:Q11mXuDIBTwYcmPhQi0KrKCxPENGs=
 P:cinnamon-desktop-dev
-V:6.4.1-r1
+V:6.6.2-r0
 A:armhf
-S:51283
-I:509217
+S:52965
+I:529359
 T:Library providing shared API for Cinnamon applications (development files)
 U:https://github.com/linuxmint/cinnamon-desktop
 L:GPL-2.0-only
 o:cinnamon-desktop
 m:Achill Gilgenast <achill@achill.org>
-t:1775475196
-c:ae6386774f0976c9ad6f3acc7bb08d1f8d78b937
-D:cinnamon-desktop=6.4.1-r1 pc:gio-2.0 pc:gobject-2.0 pc:gtk+-3.0 pc:libpulse pc:libpulse-mainloop-glib pc:xkbfile pkgconfig
-p:pc:cinnamon-desktop=6.4.1 pc:cvc=6.4.1
+t:1779707057
+c:746a9a2c5bc8799eaa5e6311ed71a539a80b6c20
+D:cinnamon-desktop=6.6.2-r0 pc:gio-2.0 pc:gobject-2.0 pc:gtk+-3.0 pc:libpulse pc:libpulse-mainloop-glib pc:xkbfile pkgconfig
+p:pc:cinnamon-desktop=6.6.2 pc:cvc=6.6.2
 
-C:Q1aHUAGYzP/qAwF9kVw/Rq+5UgbRE=
+C:Q1AKp9fIF6kz8l7Wv3aTFXiK1xW2A=
 P:cinnamon-desktop-lang
-V:6.4.1-r1
+V:6.6.2-r0
 A:armhf
-S:99599
+S:99603
 I:363575
 T:Languages for package cinnamon-desktop
 U:https://github.com/linuxmint/cinnamon-desktop
 L:GPL-2.0-only
 o:cinnamon-desktop
 m:Achill Gilgenast <achill@achill.org>
-t:1775475196
-c:ae6386774f0976c9ad6f3acc7bb08d1f8d78b937
-i:cinnamon-desktop=6.4.1-r1 lang
+t:1779707057
+c:746a9a2c5bc8799eaa5e6311ed71a539a80b6c20
+i:cinnamon-desktop=6.6.2-r0 lang
 
 C:Q18EJ534DohWvNEOXAv3PzSd67jnc=
 P:ciso
@@ -59926,67 +59957,67 @@ t:1774736179
 c:cdf9c6597e29a756e321336f26efc73edc6345d9
 i:docs gfold=2026.3.0-r0
 
-C:Q1RvKuhMV+P97yhfUM8G54Q5ysWpA=
+C:Q18P0JNoOBg7yp0/iGElYssnOm75A=
 P:ghex
-V:50.0-r0
+V:50.1-r0
 A:armhf
-S:134389
-I:320844
+S:134449
+I:321011
 T:A hex editor for GNOME
 U:https://gitlab.gnome.org/GNOME/ghex
 L:GPL-2.0-or-later
 o:ghex
 m:Achill Gilgenast <achill@achill.org>
-t:1773698892
-c:2c039528722dfbb7cacf6a56073337993aa6a757
+t:1779707056
+c:e4b4688c7a424924bae948deffc9887c164f50d1
 D:dconf so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0
-p:cmd:ghex=50.0-r0 so:libgtkhex-4.so.1=1.12.0
+p:cmd:ghex=50.1-r0 so:libgtkhex-4.so.1=1.12.0
 
-C:Q1jaxul5Qsged03pKyq9jlQYVMwGQ=
+C:Q1j7DsHPYzKEIJPF0Gj/w9jv7C73g=
 P:ghex-dev
-V:50.0-r0
+V:50.1-r0
 A:armhf
-S:6793
+S:6789
 I:19691
 T:A hex editor for GNOME (development files)
 U:https://gitlab.gnome.org/GNOME/ghex
 L:GPL-2.0-or-later
 o:ghex
 m:Achill Gilgenast <achill@achill.org>
-t:1773698892
-c:2c039528722dfbb7cacf6a56073337993aa6a757
-D:ghex=50.0-r0 pc:gtk4 pkgconfig
+t:1779707056
+c:e4b4688c7a424924bae948deffc9887c164f50d1
+D:ghex=50.1-r0 pc:gtk4 pkgconfig
 p:pc:gtkhex-4=4.12.0
 
-C:Q1nB2o5vUSCz50YslBa2+B6jwJytI=
+C:Q1LLDpl4Fjf/pZBBs1xzmOi4jZr34=
 P:ghex-doc
-V:50.0-r0
+V:50.1-r0
 A:armhf
-S:187442
-I:667631
+S:209541
+I:760937
 T:A hex editor for GNOME (documentation)
 U:https://gitlab.gnome.org/GNOME/ghex
 L:GPL-2.0-or-later
 o:ghex
 m:Achill Gilgenast <achill@achill.org>
-t:1773698892
-c:2c039528722dfbb7cacf6a56073337993aa6a757
-i:docs ghex=50.0-r0
+t:1779707056
+c:e4b4688c7a424924bae948deffc9887c164f50d1
+i:docs ghex=50.1-r0
 
-C:Q11fKT55l3A7n1iRCRAk0pOUUw17s=
+C:Q1qwedY+odqrauk4RgRT4EFYrlEzA=
 P:ghex-lang
-V:50.0-r0
+V:50.1-r0
 A:armhf
-S:406463
-I:1178588
+S:408364
+I:1182412
 T:Languages for package ghex
 U:https://gitlab.gnome.org/GNOME/ghex
 L:GPL-2.0-or-later
 o:ghex
 m:Achill Gilgenast <achill@achill.org>
-t:1773698892
-c:2c039528722dfbb7cacf6a56073337993aa6a757
-i:ghex=50.0-r0 lang
+t:1779707056
+c:e4b4688c7a424924bae948deffc9887c164f50d1
+i:ghex=50.1-r0 lang
 
 C:Q1wZFCBqBN24YQpxySzDmJ3IJdiA8=
 P:ghi
@@ -64639,51 +64670,51 @@ t:1779530331
 c:1fb4bdf7322845d6141796c5542e62597b312365
 i:systemd gnome-software=50.2-r0
 
-C:Q198dxDUM+GUP/riGZAo+f12+fbX0=
+C:Q1IvXwHB6bUcqO4lpP0ZDYiwWH8Jg=
 P:gnome-sudoku
-V:50.0-r0
+V:50.1-r0
 A:armhf
-S:122590
-I:326276
+S:124033
+I:328574
 T:Test your logic skills in this number grid puzzle
 U:https://gitlab.gnome.org/GNOME/gnome-sudoku/-/wikis/home
 L:GPL-3.0-or-later
 o:gnome-sudoku
 m:Achill Gilgenast <achill@achill.org>
-t:1773423132
-c:b58c3ed0b95cd601c7f33b0b1833d02da2f49306
+t:1779707056
+c:de1079b3b608bf64d69b190943db9f5dceb4a97d
 D:so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgcc_s.so.1 so:libgee-0.8.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libqqwing.so.2 so:libstdc++.so.6
-p:cmd:gnome-sudoku=50.0-r0
+p:cmd:gnome-sudoku=50.1-r0
 
-C:Q1BkVv55arWUo8aNGTIbHB+mgwsrQ=
+C:Q1xsMOT0jj6m9LWaN1SG23Sd8KX/8=
 P:gnome-sudoku-doc
-V:50.0-r0
+V:50.1-r0
 A:armhf
-S:229979
-I:672799
+S:245481
+I:732940
 T:Test your logic skills in this number grid puzzle (documentation)
 U:https://gitlab.gnome.org/GNOME/gnome-sudoku/-/wikis/home
 L:GPL-3.0-or-later
 o:gnome-sudoku
 m:Achill Gilgenast <achill@achill.org>
-t:1773423132
-c:b58c3ed0b95cd601c7f33b0b1833d02da2f49306
-i:docs gnome-sudoku=50.0-r0
+t:1779707056
+c:de1079b3b608bf64d69b190943db9f5dceb4a97d
+i:docs gnome-sudoku=50.1-r0
 
-C:Q1a6yHfGZRjLXEaj4ww4L3mdFC09Q=
+C:Q1sd9qvT99gVTQl2X/qvoCv58Dxbg=
 P:gnome-sudoku-lang
-V:50.0-r0
+V:50.1-r0
 A:armhf
-S:215545
-I:625314
+S:213753
+I:629354
 T:Languages for package gnome-sudoku
 U:https://gitlab.gnome.org/GNOME/gnome-sudoku/-/wikis/home
 L:GPL-3.0-or-later
 o:gnome-sudoku
 m:Achill Gilgenast <achill@achill.org>
-t:1773423132
-c:b58c3ed0b95cd601c7f33b0b1833d02da2f49306
-i:gnome-sudoku=50.0-r0 lang
+t:1779707056
+c:de1079b3b608bf64d69b190943db9f5dceb4a97d
+i:gnome-sudoku=50.1-r0 lang
 
 C:Q1c/53mpnbx7hA0wEgGzORSCyZQaQ=
 P:gnome-system-monitor
@@ -64900,64 +64931,64 @@ t:1761480566
 c:5ad8dde5742424d51c850d18531743f2c2ad0589
 i:gnome-usage=48.0-r0 lang
 
-C:Q1LTDNRzbjg7ORx/2b2FSDgX0WDyw=
+C:Q1AOInDYFxIz1O4Qr4LhDUs+EWrOA=
 P:gnome-user-docs
-V:50.0-r0
+V:50.2-r0
 A:armhf
-S:19274100
-I:62940425
+S:19272662
+I:62943975
 T:GNOME User Documentation
 U:https://gitlab.gnome.org/GNOME/gnome-user-docs
 L:CC-BY-3.0
 o:gnome-user-docs
 m:team/gnome <achill@achill.org>
-t:1773567303
-c:7f564b2e00d00bdeb5295190c1d994553e5cbdfb
+t:1779707057
+c:6eaed86a7aca007b603116fc7762ff27faee15f4
 
-C:Q11qAdS1jPsL2pr8BgJPZol4zaj3o=
+C:Q1pkFfv4WtNMZfNA5Z/pMWhXk9P4I=
 P:gnome-user-share
-V:48.2-r1
+V:48.3-r0
 A:armhf
-S:310093
-I:731341
+S:309922
+I:731366
 T:Easy to use user-level file sharing for GNOME
 U:https://gitlab.gnome.org/GNOME/gnome-user-share
 L:GPL-2.0-or-later
 o:gnome-user-share
 m:Achill Gilgenast <achill@achill.org>
-t:1777732705
-c:04b45d26e712a027f7fc3046766ccea01b0ba8cd
+t:1779707057
+c:6b54b4aa7b6adc5cad0ddfe2bfeecefb08067cb9
 D:apache2 apache2-webdav mod_dnssd so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libselinux.so.1
 
-C:Q17DngMIACVTulZvz3teZqgYche/w=
+C:Q1xJrpvg/7Uj6GjK2uI7DLTQVxM2E=
 P:gnome-user-share-lang
-V:48.2-r1
+V:48.3-r0
 A:armhf
-S:69515
-I:203414
+S:69332
+I:203181
 T:Languages for package gnome-user-share
 U:https://gitlab.gnome.org/GNOME/gnome-user-share
 L:GPL-2.0-or-later
 o:gnome-user-share
 m:Achill Gilgenast <achill@achill.org>
-t:1777732705
-c:04b45d26e712a027f7fc3046766ccea01b0ba8cd
-i:gnome-user-share=48.2-r1 lang
+t:1779707057
+c:6b54b4aa7b6adc5cad0ddfe2bfeecefb08067cb9
+i:gnome-user-share=48.3-r0 lang
 
-C:Q1kVp9jdD2RJ+y6uwYqZ4zVLJHWFI=
+C:Q1zcWZA3VJAguULfMKRnZYwQvgwSU=
 P:gnome-user-share-systemd
-V:48.2-r1
+V:48.3-r0
 A:armhf
-S:1754
+S:1750
 I:173
 T:Easy to use user-level file sharing for GNOME (systemd files)
 U:https://gitlab.gnome.org/GNOME/gnome-user-share
 L:GPL-2.0-or-later
 o:gnome-user-share
 m:Achill Gilgenast <achill@achill.org>
-t:1777732705
-c:04b45d26e712a027f7fc3046766ccea01b0ba8cd
-i:systemd gnome-user-share=48.2-r1
+t:1779707057
+c:6b54b4aa7b6adc5cad0ddfe2bfeecefb08067cb9
+i:systemd gnome-user-share=48.3-r0
 
 C:Q1y08AxEgt3QU/nf1SpFeWNHEbwgM=
 P:gnome-wine-icon-theme
@@ -71082,52 +71113,52 @@ t:1772957071
 c:dfdea62038b99139a30481bf34c708386cfe0a7a
 i:granite=6.2.0-r3 lang
 
-C:Q1kuGTroymXYN47sH08ZVC6v59U0k=
+C:Q1nYiXqRJVha13TrTzGCb6d/c0cjU=
 P:granite7
-V:7.8.0-r1
+V:7.8.1-r0
 A:armhf
-S:172793
-I:466009
+S:169377
+I:377923
 T:Library that extends GTK with common widgets and utilities
 U:https://github.com/elementary/granite
 L:LGPL-3.0-or-later
 o:granite7
 m:Achill Gilgenast <achill@achill.org>
-t:1772957071
-c:dfdea62038b99139a30481bf34c708386cfe0a7a
+t:1779707057
+c:087e4994fad869c1dd71772c6d1669fc627f90cf
 D:gsettings-desktop-schemas hicolor-icon-theme so:libc.musl-armhf.so.1 so:libgee-0.8.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libpango-1.0.so.0
-p:so:libgranite-7.so.7=7.8.0
+p:so:libgranite-7.so.7=7.8.1
 
-C:Q1dTN+vTvfoWZP2VWhkbTzwQfCtfw=
+C:Q1Z8B4XY8FWEjmnTuKIsbz47MsOII=
 P:granite7-dev
-V:7.8.0-r1
+V:7.8.1-r0
 A:armhf
-S:67302
+S:67294
 I:322908
 T:Library that extends GTK with common widgets and utilities (development files)
 U:https://github.com/elementary/granite
 L:LGPL-3.0-or-later
 o:granite7
 m:Achill Gilgenast <achill@achill.org>
-t:1772957071
-c:dfdea62038b99139a30481bf34c708386cfe0a7a
-D:granite7=7.8.0-r1 pc:gee-0.8 pc:gio-2.0>=2.50 pc:gio-unix-2.0>=2.50 pc:glib-2.0>=2.50 pc:gobject-2.0>=2.50 pc:gtk4>=4.12 pkgconfig so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgranite-7.so.7 so:libgtk-4.so.1 so:libshumate-1.0.so.1
-p:cmd:granite-7-demo=7.8.0-r1 pc:granite-7=7.8.0
+t:1779707057
+c:087e4994fad869c1dd71772c6d1669fc627f90cf
+D:granite7=7.8.1-r0 pc:gee-0.8 pc:gio-2.0>=2.50 pc:gio-unix-2.0>=2.50 pc:glib-2.0>=2.50 pc:gobject-2.0>=2.50 pc:gtk4>=4.12 pkgconfig so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgranite-7.so.7 so:libgtk-4.so.1 so:libshumate-1.0.so.1
+p:cmd:granite-7-demo=7.8.1-r0 pc:granite-7=7.8.1
 
-C:Q1DqAEVX13/8X14ZDMb1FZOrpH9Dw=
+C:Q1Y9C+lqqnybLVYuxBcjyvVYiHOH8=
 P:granite7-lang
-V:7.8.0-r1
+V:7.8.1-r0
 A:armhf
-S:56980
-I:131762
+S:57656
+I:129830
 T:Languages for package granite7
 U:https://github.com/elementary/granite
 L:LGPL-3.0-or-later
 o:granite7
 m:Achill Gilgenast <achill@achill.org>
-t:1772957071
-c:dfdea62038b99139a30481bf34c708386cfe0a7a
-i:granite7=7.8.0-r1 lang
+t:1779707057
+c:087e4994fad869c1dd71772c6d1669fc627f90cf
+i:granite7=7.8.1-r0 lang
 
 C:Q1sY+ohtZ0t28tvuFQ/l/qnwo6nIY=
 P:graphicsmagick
@@ -81078,79 +81109,79 @@ t:1771160091
 c:a9e2a2dc46f377eb25884f7fea9834492de7f518
 i:icewm=4.0.0-r1 lang
 
-C:Q1UZEmAZJ7PXZNcR+PTHk5qxQ/te0=
+C:Q1V7cswmeve+KAKe/ESkaXV03SQ9Q=
 P:icinga-director-openrc
-V:1.11.5-r1
+V:1.11.8-r0
 A:armhf
-S:1949
+S:1946
 I:318
 T:Configuration frontend for Icinga 2, integrated automation (OpenRC init scripts)
 U:https://icinga.com/docs/icinga-director/latest/doc/01-Introduction/
 L:GPL-2.0-or-later
 o:icingaweb2-module-director
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1761261640
-c:9551588c887a7c0eb2b50245bceef24bd7d35349
+t:1779711224
+c:77a79ae3c0639b178d72a253a4d382d05c58ed93
 D:php83-cli php83-posix php83-iconv php83-sockets php83-curl php83-gettext
-i:openrc icinga-director=1.11.5-r1
+i:openrc icinga-director=1.11.8-r0
 
-C:Q1iv4QItMI6HbayHv1PmNu/DMXA2I=
+C:Q1WWk/3ITE+KMxzSGCuqXT16xOZQA=
 P:icinga-php-library
-V:0.18.1-r0
+V:0.19.2-r0
 A:armhf
-S:3404285
-I:19065587
+S:4272467
+I:24100278
 T:Bundle for all Icinga PHP libraries
 U:https://github.com/Icinga/icinga-php-library
 L:MIT
 o:icinga-php-library
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1764318784
-c:d7b702f53a23be8bce9bd2b8066a022c11864004
+t:1779710317
+c:f597f6c7dd63e70e28c0ecb9c2c7b92834b6c176
 
-C:Q1LhaKr2xrbxGTI5E2rZW9AAQg0qc=
+C:Q12HrusOffM2NOVux2O9VqHLPoLOE=
 P:icinga-php-library-doc
-V:0.18.1-r0
+V:0.19.2-r0
 A:armhf
-S:2308
+S:2313
 I:1095
 T:Bundle for all Icinga PHP libraries (documentation)
 U:https://github.com/Icinga/icinga-php-library
 L:MIT
 o:icinga-php-library
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1764318784
-c:d7b702f53a23be8bce9bd2b8066a022c11864004
-i:docs icinga-php-library=0.18.1-r0
+t:1779710317
+c:f597f6c7dd63e70e28c0ecb9c2c7b92834b6c176
+i:docs icinga-php-library=0.19.2-r0
 
-C:Q1Nc8J9QyuCNAS1Z08TnxmxlyhzWU=
+C:Q1k1PnuNhVy8QwyBu16DNcSbC+V2k=
 P:icinga-php-thirdparty
-V:0.14.0-r0
+V:0.15.2-r0
 A:armhf
-S:15196446
-I:71360055
+S:11229907
+I:55228588
 T:Bundle for all 3rd party PHP libraries used by Icinga Web products
 U:https://github.com/Icinga/icinga-php-thirdparty
 L:MIT
 o:icinga-php-thirdparty
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1763826838
-c:2df5201a3ddf94448a61a3bd17dfe1bb52716599
+t:1779710256
+c:f589e9da09a3ee0392a6d8531b9e60252c594682
 
-C:Q1IsW0LfBmKq0df3ikGPDlsas2AkY=
+C:Q1BEqyi/7KLpQ8VcyTZ4KY2VjgPSw=
 P:icinga-php-thirdparty-doc
-V:0.14.0-r0
+V:0.15.2-r0
 A:armhf
-S:2332
-I:1095
+S:2724
+I:1844
 T:Bundle for all 3rd party PHP libraries used by Icinga Web products (documentation)
 U:https://github.com/Icinga/icinga-php-thirdparty
 L:MIT
 o:icinga-php-thirdparty
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1763826838
-c:2df5201a3ddf94448a61a3bd17dfe1bb52716599
-i:docs icinga-php-thirdparty=0.14.0-r0
+t:1779710256
+c:f589e9da09a3ee0392a6d8531b9e60252c594682
+i:docs icinga-php-thirdparty=0.15.2-r0
 
 C:Q1OgvAdHwaS+BfMTmgV+JLHrm/88E=
 P:icingaweb2
@@ -81213,35 +81244,35 @@ t:1777980075
 c:7d7b61cb8d05e5547474f17c0ce0b88922db9c5c
 D:icingaweb2 php85-ldap
 
-C:Q1ffXdl1x+165CPEw0Y1h/liNFh6w=
+C:Q1F9zZGSbvsTKvXndFQyq7ePGrGr4=
 P:icingaweb2-module-director
-V:1.11.5-r1
+V:1.11.8-r0
 A:armhf
-S:1027103
-I:4713636
+S:1030561
+I:4728834
 T:Configuration frontend for Icinga 2, integrated automation
 U:https://icinga.com/docs/icinga-director/latest/doc/01-Introduction/
 L:GPL-2.0-or-later
 o:icingaweb2-module-director
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1761261640
-c:9551588c887a7c0eb2b50245bceef24bd7d35349
+t:1779711224
+c:77a79ae3c0639b178d72a253a4d382d05c58ed93
 D:icingaweb2 php83-curl php83-pcntl icingaweb2-module-incubator /bin/sh
 
-C:Q1zqrye6/B8bwPTxccXdhgrcsBbA8=
+C:Q1wdepHl7eYXQJFKk92WmULhEmbOQ=
 P:icingaweb2-module-director-doc
-V:1.11.5-r1
+V:1.11.8-r0
 A:armhf
-S:2504438
-I:2804546
+S:2505097
+I:2807292
 T:Configuration frontend for Icinga 2, integrated automation (documentation)
 U:https://icinga.com/docs/icinga-director/latest/doc/01-Introduction/
 L:GPL-2.0-or-later
 o:icingaweb2-module-director
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1761261640
-c:9551588c887a7c0eb2b50245bceef24bd7d35349
-i:docs icingaweb2-module-director=1.11.5-r1
+t:1779711224
+c:77a79ae3c0639b178d72a253a4d382d05c58ed93
+i:docs icingaweb2-module-director=1.11.8-r0
 
 C:Q19qX9QMPSDqHDlSHTbqce1txzkNo=
 P:icingaweb2-module-incubator
@@ -92103,83 +92134,83 @@ c:e2d1abeef8d26d9c94789328907cca43d07f2bd8
 D:grpc=1.78.1-r2 so:libc.musl-armhf.so.1
 p:so:libaddress_sorting.so.52=52.0.0
 
-C:Q1WyFX0IlKRIGQ5xBNUMh+YO/FIM4=
+C:Q1qQ0TxDNwei8skbRRWZKmD30UraY=
 P:libadwaita
-V:1.9.0-r0
+V:1.9.1-r0
 A:armhf
-S:530945
+S:531243
 I:1814732
 T:Building blocks for modern GNOME applications
 U:https://gitlab.gnome.org/GNOME/libadwaita
 L:LGPL-2.1-or-later
 o:libadwaita
 m:team/gnome <achill@achill.org>
-t:1773422695
-c:723ada64ef43fbe614fd967607a73f76f66e3c64
+t:1779707056
+c:3d86b82b5b50eb941430a14c270f665a2194f8a7
 D:adwaita-fonts so:libappstream.so.5 so:libc.musl-armhf.so.1 so:libfribidi.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libpango-1.0.so.0
 p:so:libadwaita-1.so.0=0
 
-C:Q1q+fVS2uuwam9/mvI755L/goApxE=
+C:Q1pieiL+uZ6A/KehYonjz+N25+RqI=
 P:libadwaita-dbg
-V:1.9.0-r0
+V:1.9.1-r0
 A:armhf
-S:494930
-I:1622852
+S:495295
+I:1623744
 T:Building blocks for modern GNOME applications (debug symbols)
 U:https://gitlab.gnome.org/GNOME/libadwaita
 L:LGPL-2.1-or-later
 o:libadwaita
 m:team/gnome <achill@achill.org>
-t:1773422695
-c:723ada64ef43fbe614fd967607a73f76f66e3c64
-D:!libadwaita-demo<1.9.0-r0 !libadwaita-demo>1.9.0-r0 !libadwaita<1.9.0-r0 !libadwaita>1.9.0-r0
+t:1779707056
+c:3d86b82b5b50eb941430a14c270f665a2194f8a7
+D:!libadwaita-demo<1.9.1-r0 !libadwaita-demo>1.9.1-r0 !libadwaita<1.9.1-r0 !libadwaita>1.9.1-r0
 
-C:Q1rai19Gb98TXS9rbNMS4m+TbLoiw=
+C:Q1QCIaHInFtJaU1LReB/Rb8PK+rb0=
 P:libadwaita-demo
-V:1.9.0-r0
+V:1.9.1-r0
 A:armhf
-S:62373
+S:62377
 I:313227
 T:Building blocks for modern GNOME applications (libadwaita demo)
 U:https://gitlab.gnome.org/GNOME/libadwaita
 L:LGPL-2.1-or-later
 o:libadwaita
 m:team/gnome <achill@achill.org>
-t:1773422695
-c:723ada64ef43fbe614fd967607a73f76f66e3c64
+t:1779707056
+c:3d86b82b5b50eb941430a14c270f665a2194f8a7
 D:adwaita-fonts so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8
-p:cmd:adwaita-1-demo=1.9.0-r0
+p:cmd:adwaita-1-demo=1.9.1-r0
 
-C:Q1VIyuLOkQ88xZBoBfUbnoINGD7gY=
+C:Q16XkjxaNVXsOQdWduXI9OMzeQ4P0=
 P:libadwaita-dev
-V:1.9.0-r0
+V:1.9.1-r0
 A:armhf
-S:271115
-I:2697178
+S:271119
+I:2697206
 T:Building blocks for modern GNOME applications (development files)
 U:https://gitlab.gnome.org/GNOME/libadwaita
 L:LGPL-2.1-or-later
 o:libadwaita
 m:team/gnome <achill@achill.org>
-t:1773422695
-c:723ada64ef43fbe614fd967607a73f76f66e3c64
-D:libadwaita=1.9.0-r0 pc:appstream pc:fribidi pc:gio-2.0>=2.84.0 pc:glib-2.0>=2.84.0 pc:gtk4>=4.21.1 pkgconfig
-p:pc:libadwaita-1=1.9.0
+t:1779707056
+c:3d86b82b5b50eb941430a14c270f665a2194f8a7
+D:libadwaita=1.9.1-r0 pc:appstream pc:fribidi pc:gio-2.0>=2.84.0 pc:glib-2.0>=2.84.0 pc:gtk4>=4.21.1 pkgconfig
+p:pc:libadwaita-1=1.9.1
 
-C:Q1q2LJ8avgHwtEfgGjVsiLD2dOLh0=
+C:Q1Jy7y8ZB6bvF5YzihqOrGAbi3vEY=
 P:libadwaita-lang
-V:1.9.0-r0
+V:1.9.1-r0
 A:armhf
-S:143736
-I:557722
+S:142626
+I:565437
 T:Languages for package libadwaita
 U:https://gitlab.gnome.org/GNOME/libadwaita
 L:LGPL-2.1-or-later
 o:libadwaita
 m:team/gnome <achill@achill.org>
-t:1773422695
-c:723ada64ef43fbe614fd967607a73f76f66e3c64
-i:libadwaita=1.9.0-r0 lang
+t:1779707056
+c:3d86b82b5b50eb941430a14c270f665a2194f8a7
+i:libadwaita=1.9.1-r0 lang
 
 C:Q1bqxtyqQHskjzK6P2A9gQA5UODbY=
 P:libaec
@@ -128703,52 +128734,52 @@ t:1669994788
 c:c539949f5b622e82b7f26d63163db7d5fae4b921
 i:docs mktorrent=1.1-r6
 
-C:Q1crNemKqOF+ibgc62+Og78OxL1wY=
+C:Q1evhmGdITXubD88NfQJDrdbwuPzE=
 P:mkvtoolnix
-V:98.0-r0
+V:99.0-r0
 A:armhf
-S:2807168
+S:2808644
 I:7440052
 T:Set of tools to create, edit and inspect Matroska files
 U:https://mkvtoolnix.download/index.html
 L:GPL-2.0-only
 o:mkvtoolnix
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1775501370
-c:0232d1708ef65a924711431f6e00c9283741184e
+t:1779708490
+c:158148340683ca035f570b344d8a4bcdeaa434c2
 D:so:libFLAC.so.12 so:libQt6Core.so.6 so:libboost_filesystem.so.1.84.0 so:libc.musl-armhf.so.1 so:libebml.so.5 so:libfmt.so.11 so:libgcc_s.so.1 so:libgmp.so.10 so:libmatroska.so.7 so:libogg.so.0 so:libpugixml.so.1 so:libstdc++.so.6 so:libvorbis.so.0 so:libz.so.1
-p:cmd:mkvextract=98.0-r0 cmd:mkvinfo=98.0-r0 cmd:mkvmerge=98.0-r0 cmd:mkvpropedit=98.0-r0
+p:cmd:mkvextract=99.0-r0 cmd:mkvinfo=99.0-r0 cmd:mkvmerge=99.0-r0 cmd:mkvpropedit=99.0-r0
 
-C:Q1+3dCakkfuJKYjoBPgj/tuwRG3vE=
+C:Q1qgsXVvFX9MnczBg23/bI68bM124=
 P:mkvtoolnix-doc
-V:98.0-r0
+V:99.0-r0
 A:armhf
-S:50622
-I:48385
+S:50628
+I:48381
 T:Set of tools to create, edit and inspect Matroska files (documentation)
 U:https://mkvtoolnix.download/index.html
 L:GPL-2.0-only
 o:mkvtoolnix
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1775501370
-c:0232d1708ef65a924711431f6e00c9283741184e
-i:docs mkvtoolnix=98.0-r0
+t:1779708490
+c:158148340683ca035f570b344d8a4bcdeaa434c2
+i:docs mkvtoolnix=99.0-r0
 
-C:Q1CeJ9iMz1rQ4gI/qdvEBjGM9VDeE=
+C:Q1KzSn+DP1Tfg+55/XxD8WVT2IvBM=
 P:mkvtoolnix-gui
-V:98.0-r0
+V:99.0-r0
 A:armhf
-S:8157666
-I:11709592
+S:8176468
+I:11754812
 T:Set of tools to create, edit and inspect Matroska files (GUI)
 U:https://mkvtoolnix.download/index.html
 L:GPL-2.0-only
 o:mkvtoolnix
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1775501370
-c:0232d1708ef65a924711431f6e00c9283741184e
+t:1779708490
+c:158148340683ca035f570b344d8a4bcdeaa434c2
 D:mkvtoolnix qt6-qtsvg so:libFLAC.so.12 so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Gui.so.6 so:libQt6Multimedia.so.6 so:libQt6Network.so.6 so:libQt6Widgets.so.6 so:libboost_filesystem.so.1.84.0 so:libc.musl-armhf.so.1 so:libcmark.so.0.31.2 so:libebml.so.5 so:libfmt.so.11 so:libgcc_s.so.1 so:libgmp.so.10 so:libmatroska.so.7 so:libpugixml.so.1 so:libstdc++.so.6 so:libvorbis.so.0
-p:cmd:mkvtoolnix-gui=98.0-r0
+p:cmd:mkvtoolnix-gui=99.0-r0
 
 C:Q1QoRCGXPYuvv+yTErJu4+ZAcUY/Y=
 P:mle
@@ -155141,35 +155172,35 @@ t:1779176766
 c:7f0e33d8a26147d579de3cfce54895ec8d4de0fd
 D:perl perl-business-isbn-data
 
-C:Q1RJ2ldgCYZj21s2ZQMBY/3m2F59c=
+C:Q1ixl0BaadZkHYVXMl/mRpXiXuUYI=
 P:perl-business-isbn-data
-V:20260424.001-r0
+V:20260523.001-r0
 A:armhf
-S:22411
-I:267712
+S:22482
+I:268556
 T:data pack for Business::ISBN
 U:https://metacpan.org/release/Business-ISBN-Data/
 L:Artistic-2.0
 o:perl-business-isbn-data
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1777902805
-c:fe8bf94c639469c283a8053f96563f868c9a95f6
+t:1779708666
+c:066e8a2980f8d2e76fec4391474ff8db01056b9b
 D:perl
 
-C:Q19Hzy9GO1iWHu3/8mjxGC9zZK7l4=
+C:Q1Tqf7YqWwMMRZMoqdbawwxjEOPPc=
 P:perl-business-isbn-data-doc
-V:20260424.001-r0
+V:20260523.001-r0
 A:armhf
-S:4326
+S:4320
 I:2511
 T:data pack for Business::ISBN (documentation)
 U:https://metacpan.org/release/Business-ISBN-Data/
 L:Artistic-2.0
 o:perl-business-isbn-data
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1777902805
-c:fe8bf94c639469c283a8053f96563f868c9a95f6
-i:docs perl-business-isbn-data=20260424.001-r0
+t:1779708666
+c:066e8a2980f8d2e76fec4391474ff8db01056b9b
+i:docs perl-business-isbn-data=20260523.001-r0
 
 C:Q121N6HHi6t/y3Q1ZIjVCDo9X/LmU=
 P:perl-business-isbn-doc
@@ -169226,36 +169257,36 @@ t:1771160091
 c:a9e2a2dc46f377eb25884f7fea9834492de7f518
 i:docs perl-tcl=1.53-r2
 
-C:Q1QRUfGi2nrP2lynJyTDHY5FxC7PU=
+C:Q1d09KfmJjOX4FUAUGr/m+IRNDUqs=
 P:perl-template-toolkit
-V:3.102-r1
+V:3.105-r0
 A:armhf
-S:190267
-I:769711
+S:192216
+I:774397
 T:comprehensive template processing system
 U:https://metacpan.org/release/Template-Toolkit/
 L:GPL-1.0-or-later OR Artistic-1.0-Perl
 o:perl-template-toolkit
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1751254741
-c:73f15dd15737412cabd93c4b988bdef74464a283
+t:1779708716
+c:c127a87d58d19beee35ab562b38b0b237d7cbbe2
 D:perl perl-appconfig so:libc.musl-armhf.so.1
-p:cmd:tpage=3.102-r1 cmd:ttree=3.102-r1
+p:cmd:tpage=3.105-r0 cmd:ttree=3.105-r0
 
-C:Q1Ue1TVxpcaBbRxzat8QwKCcmyLUU=
+C:Q1ymfkuGAlhJBKJf8u5cz9JOH4nHM=
 P:perl-template-toolkit-doc
-V:3.102-r1
+V:3.105-r0
 A:armhf
-S:369707
-I:586659
+S:371938
+I:590685
 T:comprehensive template processing system (documentation)
 U:https://metacpan.org/release/Template-Toolkit/
 L:GPL-1.0-or-later OR Artistic-1.0-Perl
 o:perl-template-toolkit
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1751254741
-c:73f15dd15737412cabd93c4b988bdef74464a283
-i:docs perl-template-toolkit=3.102-r1
+t:1779708716
+c:c127a87d58d19beee35ab562b38b0b237d7cbbe2
+i:docs perl-template-toolkit=3.105-r0
 
 C:Q1ppbsIiiJps6B0CZruXQwEobYxQQ=
 P:perl-term-animation
@@ -180588,51 +180619,51 @@ t:1760370042
 c:1d4903c8f9e01966a35fd39c083e4ba2e7dcd19f
 i:docs pipectl=0.5.1-r2
 
-C:Q1DCVQ8F01IA6myLKycyuR9rvnon8=
+C:Q1GDPIO6sY2QiLwLUsESoUjWNfoMw=
 P:pipeline
-V:4.0.3-r0
+V:4.0.4-r0
 A:armhf
-S:2958639
-I:6580265
+S:2958454
+I:6576574
 T:Watch YouTube and PeerTube videos in one place
 U:https://gitlab.com/schmiddi-on-mobile/pipeline
 L:GPL-3.0-or-later
 o:pipeline
 m:Achill Gilgenast <achill@achill.org>
-t:1779530331
-c:caf6f83c07455a62e4dbb3b0a91e0c7246ed8d09
+t:1779707056
+c:79f4a7509326a664f2161cbbe4a5918fc79d1142
 D:clapper-enhancers glycin-image-rs so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libclapper-0.0.so.0 so:libclapper-gtk-0.0.so.0 so:libcrypto.so.3 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libpango-1.0.so.0 so:libsqlite3.so.0 so:libssl.so.3
-p:cmd:tubefeeder=4.0.3-r0
+p:cmd:tubefeeder=4.0.4-r0
 
-C:Q1IU3tD6jrF5eGbG0u3EB82MNjqws=
+C:Q1k8bf2yeig95OpwT4rr83q0UmHCo=
 P:pipeline-doc
-V:4.0.3-r0
+V:4.0.4-r0
 A:armhf
-S:13869
+S:13866
 I:35149
 T:Watch YouTube and PeerTube videos in one place (documentation)
 U:https://gitlab.com/schmiddi-on-mobile/pipeline
 L:GPL-3.0-or-later
 o:pipeline
 m:Achill Gilgenast <achill@achill.org>
-t:1779530331
-c:caf6f83c07455a62e4dbb3b0a91e0c7246ed8d09
-i:docs pipeline=4.0.3-r0
+t:1779707056
+c:79f4a7509326a664f2161cbbe4a5918fc79d1142
+i:docs pipeline=4.0.4-r0
 
-C:Q1xPAqWGA2TGY5I8il8q5V2MCRu7s=
+C:Q14FiN5Kx3HWzFxfiMTV211sOi1R0=
 P:pipeline-lang
-V:4.0.3-r0
+V:4.0.4-r0
 A:armhf
-S:186454
-I:554222
+S:189755
+I:561676
 T:Languages for package pipeline
 U:https://gitlab.com/schmiddi-on-mobile/pipeline
 L:GPL-3.0-or-later
 o:pipeline
 m:Achill Gilgenast <achill@achill.org>
-t:1779530331
-c:caf6f83c07455a62e4dbb3b0a91e0c7246ed8d09
-i:pipeline=4.0.3-r0 lang
+t:1779707056
+c:79f4a7509326a664f2161cbbe4a5918fc79d1142
+i:pipeline=4.0.4-r0 lang
 
 C:Q1UsI/gclJrXmZrLTNNB7N/WpJYu0=
 P:piper
@@ -190722,37 +190753,37 @@ c:4c1f60a60f911b195079e67f6c0a75f3791826f2
 D:python3~3.14
 i:py3-awesomeversion=25.8.0-r1 pyc
 
-C:Q1Tib/YuU1cHcxX4JS50jDDykENS8=
+C:Q1ywWXUgacnZPT2zx9Y1uqrGHL/gU=
 P:py3-awscrt
-V:0.32.2-r0
+V:0.33.0-r0
 A:armhf
-S:173716
+S:173799
 I:641816
 T:Python bindings for the AWS Common Runtime
 U:https://github.com/awslabs/aws-crt-python
 L:Apache-2.0
 o:py3-awscrt
 m:Achill Gilgenast <achill@achill.org>
-t:1777225042
-c:d88561857d70035aa5bf736ce26269162bac4153
+t:1779707056
+c:79f0e95c1a8552bca009c56c763569b7f6a1665d
 D:python3~3.14 so:libaws-c-auth.so.1.0.0 so:libaws-c-cal.so.1.0.0 so:libaws-c-common.so.1 so:libaws-c-event-stream.so.1.0.0 so:libaws-c-http.so.1.0.0 so:libaws-c-io.so.1.0.0 so:libaws-c-mqtt.so.1.0.0 so:libaws-c-s3.so.0unstable so:libaws-checksums.so.1.0.0 so:libc.musl-armhf.so.1
-p:py3.14:awscrt=0.32.2-r0
+p:py3.14:awscrt=0.33.0-r0
 
-C:Q1zqFFYQ02x15M9Qr0gbHl9jLOtOA=
+C:Q1QiELVcEFlku7rxSUQ41x0KoaOy4=
 P:py3-awscrt-pyc
-V:0.32.2-r0
+V:0.33.0-r0
 A:armhf
-S:165962
+S:165952
 I:499495
 T:Precompiled Python bytecode for py3-awscrt
 U:https://github.com/awslabs/aws-crt-python
 L:Apache-2.0
 o:py3-awscrt
 m:Achill Gilgenast <achill@achill.org>
-t:1777225042
-c:d88561857d70035aa5bf736ce26269162bac4153
+t:1779707056
+c:79f0e95c1a8552bca009c56c763569b7f6a1665d
 D:python3~3.14
-i:py3-awscrt=0.32.2-r0 pyc
+i:py3-awscrt=0.33.0-r0 pyc
 
 C:Q1/mTcBY8c7D0M+AeDF2HW/+KjqFs=
 P:py3-axolotl
@@ -208824,37 +208855,37 @@ c:bf5981808991f39c8abbf916cd355ce0a7c5d70f
 D:python3~3.14
 i:py3-lsp-jsonrpc=1.1.2-r2 pyc
 
-C:Q1aT/hZqyYhdk51HTf2znivaLmmBA=
+C:Q16SuAlFVo3Z6xonhCtClGZBaHp7A=
 P:py3-lsp-server
-V:1.14.0-r0
+V:1.14.0-r1
 A:armhf
-S:65973
+S:65965
 I:229827
 T:python implementation of the language server protocol, fork of python-language-server
 U:https://github.com/python-lsp/python-lsp-server
 L:MIT
 o:py3-lsp-server
 m:Clayton Craft <clayton@craftyguy.net>
-t:1777370779
-c:e2e994913b3ac980d3881dc0ff0c5112f0ec2f7a
+t:1779712840
+c:edc8c05082a5a163087056202292a836314f8ae6
 D:py3-docstring-to-markdown py3-jedi py3-lsp-jsonrpc py3-pluggy py3-setuptools py3-ujson py3-whatthepatch py3-yapf python3 python3~3.14
-p:cmd:pylsp=1.14.0-r0 py3.14:pylsp=1.14.0-r0
+p:cmd:pylsp=1.14.0-r1 py3.14:pylsp=1.14.0-r1
 
-C:Q12OJBcFa1c0k2SD4Oeyp/rVnRiuE=
+C:Q14biiVXpvxEYHe14hyDPXtl7rCC8=
 P:py3-lsp-server-pyc
-V:1.14.0-r0
+V:1.14.0-r1
 A:armhf
-S:127607
+S:127591
 I:297853
 T:Precompiled Python bytecode for py3-lsp-server
 U:https://github.com/python-lsp/python-lsp-server
 L:MIT
 o:py3-lsp-server
 m:Clayton Craft <clayton@craftyguy.net>
-t:1777370779
-c:e2e994913b3ac980d3881dc0ff0c5112f0ec2f7a
+t:1779712840
+c:edc8c05082a5a163087056202292a836314f8ae6
 D:python3~3.14
-i:py3-lsp-server=1.14.0-r0 pyc
+i:py3-lsp-server=1.14.0-r1 pyc
 
 C:Q1cBgfuqm/6abRRhQDxq1Wg3oxHeo=
 P:py3-lupa
@@ -218907,37 +218938,37 @@ t:1776915155
 c:da9a6e7ee187cd3a3d531463d9c43de888edf415
 i:udev py3-pyocd=0.43.1-r0
 
-C:Q1oOB11pZYQZrHJ9HdDJQTUAewzzc=
+C:Q1y4KnEd2ZaSih/y5JkQsUXVTN250=
 P:py3-pypdf
-V:6.12.0-r0
+V:6.12.1-r0
 A:armhf
-S:322888
-I:1475872
+S:323214
+I:1476872
 T:Pure-Python library built as a PDF toolkit
 U:https://github.com/py-pdf/pypdf
 L:BSD-3-Clause
 o:py3-pypdf
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1779369062
-c:846d1968d68095186439b164bbf258cd60815abd
+t:1779708617
+c:58fe71c3ffa1f55dbeafd121f2634aeedf348fcf
 D:python3~3.14
-p:py3-pypdf2=6.12.0-r0 py3.14:pypdf=6.12.0-r0
+p:py3-pypdf2=6.12.1-r0 py3.14:pypdf=6.12.1-r0
 
-C:Q1km0OI6uGX5H5I7+NpnvQKFq7yeY=
+C:Q1Srf/KhLELFLb+D3TsdBur2jD/cM=
 P:py3-pypdf-pyc
-V:6.12.0-r0
+V:6.12.1-r0
 A:armhf
-S:697699
-I:1976043
+S:698298
+I:1977300
 T:Precompiled Python bytecode for py3-pypdf
 U:https://github.com/py-pdf/pypdf
 L:BSD-3-Clause
 o:py3-pypdf
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1779369062
-c:846d1968d68095186439b164bbf258cd60815abd
+t:1779708617
+c:58fe71c3ffa1f55dbeafd121f2634aeedf348fcf
 D:python3~3.14
-i:py3-pypdf=6.12.0-r0 pyc
+i:py3-pypdf=6.12.1-r0 pyc
 
 C:Q1GNxI5rEZskEmszKJ93WfLG5dE+U=
 P:py3-pypeg2
@@ -219905,52 +219936,52 @@ c:2d0f4aa62ec312e70c6568eb02e2c7869afa2390
 D:python3~3.14
 i:py3-pytest-click=1.1.0-r1 pyc
 
-C:Q1+w4KnC0rB6OHWuCYfhcQLFJ4b5I=
+C:Q15kk45otkptBsrCKFSxEgOTJkxDw=
 P:py3-pytest-codspeed
-V:5.0.2-r0
+V:5.0.3-r0
 A:armhf
-S:315165
-I:3141352
+S:317609
+I:3181119
 T:Pytest plugin to create CodSpeed benchmarks
 U:https://codspeed.io/
 L:MIT
 o:py3-pytest-codspeed
 m:Oleg Titov <oleg.titov@gmail.com>
-t:1778817102
-c:7006fa81bfaed2718d682fc937ee254b42896e7b
+t:1779712510
+c:80c5f8e9c21e63fd126ce95018c02f872b758186
 D:py3-pytest py3-rich python3~3.14
-p:py3.14:pytest_codspeed=5.0.2-r0
+p:py3.14:pytest_codspeed=5.0.3-r0
 
-C:Q1lnVz1stl8uzNv6mHyJAaM+QEalk=
+C:Q1atXc05rYVIrH59mVWnAoefkcLD4=
 P:py3-pytest-codspeed-doc
-V:5.0.2-r0
+V:5.0.3-r0
 A:armhf
-S:4125
+S:4128
 I:5530
 T:Pytest plugin to create CodSpeed benchmarks (documentation)
 U:https://codspeed.io/
 L:MIT
 o:py3-pytest-codspeed
 m:Oleg Titov <oleg.titov@gmail.com>
-t:1778817102
-c:7006fa81bfaed2718d682fc937ee254b42896e7b
-i:docs py3-pytest-codspeed=5.0.2-r0
+t:1779712510
+c:80c5f8e9c21e63fd126ce95018c02f872b758186
+i:docs py3-pytest-codspeed=5.0.3-r0
 
-C:Q1GbToCOfesRBf3r8l15lgojMqkxs=
+C:Q1gbbD0JRfCtt9wlTStJ8uWDycwvA=
 P:py3-pytest-codspeed-pyc
-V:5.0.2-r0
+V:5.0.3-r0
 A:armhf
-S:34696
-I:82546
+S:34332
+I:81771
 T:Precompiled Python bytecode for py3-pytest-codspeed
 U:https://codspeed.io/
 L:MIT
 o:py3-pytest-codspeed
 m:Oleg Titov <oleg.titov@gmail.com>
-t:1778817102
-c:7006fa81bfaed2718d682fc937ee254b42896e7b
+t:1779712510
+c:80c5f8e9c21e63fd126ce95018c02f872b758186
 D:python3~3.14
-i:py3-pytest-codspeed=5.0.2-r0 pyc
+i:py3-pytest-codspeed=5.0.3-r0 pyc
 
 C:Q1xl5/+EDvMJopRfXFRUWMEkpObyc=
 P:py3-pytest-console-scripts
@@ -286357,20 +286388,20 @@ t:1776454797
 c:1e42418391da48efec37d28a7a36bcad1ae9348d
 i:systemd xdg-desktop-portal-wlr=0.8.2-r0
 
-C:Q1P5+86B5qr29fNGjkcowQvvMK6Oc=
+C:Q10lAk50L707IlW7YMl5rZEty2VkU=
 P:xdg-desktop-portal-xapp
-V:1.0.4-r1
+V:1.1.3-r0
 A:armhf
-S:38753
-I:108493
+S:44515
+I:125020
 T:xdg-desktop-portal backend for the xapp ecosystem
 U:https://github.com/linuxmint/xdg-desktop-portal-xapp
 L:LGPL-2.0-or-later
 o:xdg-desktop-portal-xapp
 m:Achill Gilgenast <achill@achill.org>
-t:1776503070
-c:2a691b33fba0f29287e58e32e68b77c3c840bacd
-D:xdg-desktop-portal so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8
+t:1779707057
+c:44bd552f1262830d3a6506a597165a8583b75ca2
+D:xdg-desktop-portal so:libc.musl-armhf.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8
 
 C:Q1Gh/7uH9fQLvGLPgXVd7Hs6q/i8E=
 P:xdg-document-portal
@@ -294758,36 +294789,36 @@ c:50bcdef493280b1fcd5106d99ee81fd6b72fa8e2
 D:so:libc.musl-armhf.so.1
 p:so:libzix-0.so.0=0.8.0
 
-C:Q1Dv400jvv5CMeO8rGNe2SIlg+bEY=
+C:Q1elMGNw2rkAG6J0ixUBSLTzOl9YY=
 P:zizmor
-V:1.24.1-r0
+V:1.25.2-r0
 A:armhf
-S:4864767
-I:12215644
+S:4905801
+I:12354920
 T:A static analysis tool for GitHub Actions
 U:https://github.com/zizmorcore/zizmor
 L:MIT
 o:zizmor
 m:Thiago Perrotta <tbperrotta@gmail.com>
-t:1776222485
-c:437ae91210d7cf479aed6f30c3e8adff772c321f
+t:1779712578
+c:baa837f208b877330d6b0dc7fb6aebc40e67d0ef
 D:so:libc.musl-armhf.so.1 so:libgcc_s.so.1
-p:cmd:zizmor=1.24.1-r0
+p:cmd:zizmor=1.25.2-r0
 
-C:Q1z0VSG2g4RTptZ+BzQHLcmQFm/JA=
+C:Q1oRu/n8+IJXKO0p7fich5Kk2FRek=
 P:zizmor-doc
-V:1.24.1-r0
+V:1.25.2-r0
 A:armhf
-S:2311
+S:2307
 I:1109
 T:A static analysis tool for GitHub Actions (documentation)
 U:https://github.com/zizmorcore/zizmor
 L:MIT
 o:zizmor
 m:Thiago Perrotta <tbperrotta@gmail.com>
-t:1776222485
-c:437ae91210d7cf479aed6f30c3e8adff772c321f
-i:docs zizmor=1.24.1-r0
+t:1779712578
+c:baa837f208b877330d6b0dc7fb6aebc40e67d0ef
+i:docs zizmor=1.25.2-r0
 
 C:Q1MHkXPTDh7BtHhQuY7pJuVoQmr4Y=
 P:zk

@@ -1676,6 +1676,37 @@ t:1725023017
 c:4785da1733a5c429c2cd4f47214369b6e531f32c
 i:openrc addrwatch=1.0.2-r1
 
+C:Q1j9hdupGO+oZIfFuiX1/hXyN8iV0=
+P:adguardhome
+V:0.107.76-r0
+A:aarch64
+S:11354064
+I:35402544
+T:Network-wide ads & trackers blocking DNS server
+U:https://adguard.com/adguard-home.html
+L:GPL-3.0-only
+o:adguardhome
+m:Fabricio Silva <hi@fabricio.dev>
+t:1779713642
+c:2c7287604b232997acec822780e359cd4ca11452
+D:ca-certificates /bin/sh so:libc.musl-aarch64.so.1
+p:cmd:adguardhome=0.107.76-r0
+
+C:Q1MWS+8PF7IBa/pTLljyxdC12DS3E=
+P:adguardhome-openrc
+V:0.107.76-r0
+A:aarch64
+S:2223
+I:1253
+T:Network-wide ads & trackers blocking DNS server (OpenRC init scripts)
+U:https://adguard.com/adguard-home.html
+L:GPL-3.0-only
+o:adguardhome
+m:Fabricio Silva <hi@fabricio.dev>
+t:1779713642
+c:2c7287604b232997acec822780e359cd4ca11452
+i:openrc adguardhome=0.107.76-r0
+
 C:Q15BxTafjzSDMTaG+f1/GbjwhbUMA=
 P:adman
 V:0.9.0-r6
@@ -9565,85 +9596,85 @@ t:1771072249
 c:f7850d29e3c2c39659f1aa49e2a080d413a1ea56
 D:aws-checksums=0.2.10-r0
 
-C:Q1P6RGlnfeFEt1nDEbLiojfq608G0=
+C:Q1m61V/E2hxz/MskxVp2Q/kPIye6Y=
 P:aws-cli
-V:2.34.52-r0
+V:2.34.53-r0
 A:aarch64
-S:17768818
-I:131510366
+S:17771633
+I:131531089
 T:Universal Command Line Interface for Amazon Web Services (v2)
 U:https://github.com/aws/aws-cli
 L:Apache-2.0
 o:aws-cli
 m:Achill Gilgenast <achill@achill.org>
-t:1779530330
-c:cc8ffe0d2ba7737ddbc953b5c64545b5d14bbc2a
+t:1779707056
+c:21a4c178a7c915bb55d738ef9e3e3dcda2e73f9f
 D:py3-awscrt py3-certifi py3-colorama py3-cryptography py3-dateutil py3-distro py3-docutils py3-jmespath py3-prompt_toolkit py3-ruamel.yaml py3-urllib3 py3-zipp python3 python3~3.14
-p:aws-cli-v2=2.34.52-r0 cmd:aws=2.34.52-r0 cmd:aws_completer=2.34.52-r0 py3.14:awscli=2.34.52-r0
+p:aws-cli-v2=2.34.53-r0 cmd:aws=2.34.53-r0 cmd:aws_completer=2.34.53-r0 py3.14:awscli=2.34.53-r0
 
-C:Q1DKNH3tz8osEmL5jwFnRFfsrkTNY=
+C:Q1NALxFO/BU7/RzntHso57KvwMC4k=
 P:aws-cli-bash-completion
-V:2.34.52-r0
+V:2.34.53-r0
 A:aarch64
-S:1863
+S:1856
 I:204
 T:Universal Command Line Interface for Amazon Web Services (v2) (bash completions)
 U:https://github.com/aws/aws-cli
 L:Apache-2.0
 o:aws-cli
 m:Achill Gilgenast <achill@achill.org>
-t:1779530330
-c:cc8ffe0d2ba7737ddbc953b5c64545b5d14bbc2a
+t:1779707056
+c:21a4c178a7c915bb55d738ef9e3e3dcda2e73f9f
 D:py3-awscrt py3-certifi py3-colorama py3-cryptography py3-dateutil py3-distro py3-docutils py3-jmespath py3-prompt_toolkit py3-ruamel.yaml py3-urllib3 py3-zipp python3
-i:aws-cli=2.34.52-r0 bash-completion
+i:aws-cli=2.34.53-r0 bash-completion
 
-C:Q1sephctd9I4Q2JpE748g06bBu1vg=
+C:Q1XGhlz5nHz/ddMMsqV74OVHERhyw=
 P:aws-cli-doc
-V:2.34.52-r0
+V:2.34.53-r0
 A:aarch64
-S:1731157
+S:1731206
 I:8125189
 T:Universal Command Line Interface for Amazon Web Services (v2) (documentation)
 U:https://github.com/aws/aws-cli
 L:Apache-2.0
 o:aws-cli
 m:Achill Gilgenast <achill@achill.org>
-t:1779530330
-c:cc8ffe0d2ba7737ddbc953b5c64545b5d14bbc2a
+t:1779707056
+c:21a4c178a7c915bb55d738ef9e3e3dcda2e73f9f
 D:python3~3.14
-i:docs aws-cli=2.34.52-r0
+i:docs aws-cli=2.34.53-r0
 
-C:Q1GYbu5IZq7UoPi85wJWA5/NouZXo=
+C:Q1ri7CxHdh6hIy2HcGKY3pP/xsCzw=
 P:aws-cli-pyc
-V:2.34.52-r0
+V:2.34.53-r0
 A:aarch64
-S:1747173
-I:4438037
+S:1748018
+I:4439812
 T:Precompiled Python bytecode for aws-cli
 U:https://github.com/aws/aws-cli
 L:Apache-2.0
 o:aws-cli
 m:Achill Gilgenast <achill@achill.org>
-t:1779530330
-c:cc8ffe0d2ba7737ddbc953b5c64545b5d14bbc2a
+t:1779707056
+c:21a4c178a7c915bb55d738ef9e3e3dcda2e73f9f
 D:python3~3.14
-i:aws-cli=2.34.52-r0 pyc
+i:aws-cli=2.34.53-r0 pyc
 
-C:Q1NuxBLrBHmvnhCOKV73RTfQF3K3Q=
+C:Q1h2H7QfHLCDZThgre/dKPO6d8hOw=
 P:aws-cli-zsh-completion
-V:2.34.52-r0
+V:2.34.53-r0
 A:aarch64
-S:2642
+S:2638
 I:1808
 T:Universal Command Line Interface for Amazon Web Services (v2) (zsh completions)
 U:https://github.com/aws/aws-cli
 L:Apache-2.0
 o:aws-cli
 m:Achill Gilgenast <achill@achill.org>
-t:1779530330
-c:cc8ffe0d2ba7737ddbc953b5c64545b5d14bbc2a
+t:1779707056
+c:21a4c178a7c915bb55d738ef9e3e3dcda2e73f9f
 D:py3-awscrt py3-certifi py3-colorama py3-cryptography py3-dateutil py3-distro py3-docutils py3-jmespath py3-prompt_toolkit py3-ruamel.yaml py3-urllib3 py3-zipp python3
-i:aws-cli=2.34.52-r0 zsh
+i:aws-cli=2.34.53-r0 zsh
 
 C:Q1c3mS0ftSRtw24nCNrRMFNvY/RB8=
 P:aws-crt-cpp
@@ -24134,67 +24165,67 @@ t:1749563157
 c:c1a31f720869cac0ede5ac8329abe8ffc6b2b1ca
 i:caja=1.28.0-r0 lang
 
-C:Q1fXeU/qHp8W7rV9T1UqcY21O7Jng=
+C:Q18vQ1SEHjJ7dPwFzKLPP+0bDqOl0=
 P:calcurse
-V:4.8.2-r0
+V:4.8.2-r1
 A:aarch64
-S:120774
+S:120835
 I:277910
 T:A text-based personal organizer
 U:https://calcurse.org/
 L:BSD-2-Clause
 o:calcurse
 m:Roberto Oliveira <robertoguimaraes8@gmail.com>
-t:1755251851
-c:4995c5a9b61f048d8c4b9a3aa5390741f19c9640
+t:1779713882
+c:b0364837e8119b8f699110c1beba9edb63def035
 D:so:libc.musl-aarch64.so.1 so:libncursesw.so.6
-p:cmd:calcurse-upgrade=4.8.2-r0 cmd:calcurse-vdir=4.8.2-r0 cmd:calcurse=4.8.2-r0
+p:cmd:calcurse-upgrade=4.8.2-r1 cmd:calcurse-vdir=4.8.2-r1 cmd:calcurse=4.8.2-r1
 
-C:Q10eRD1mSqVbSF0/XpY4Ix7J5xiP4=
+C:Q1tTzpY1XwZwpomWy5PprLR9ATOxc=
 P:calcurse-caldav
-V:4.8.2-r0
+V:4.8.2-r1
 A:aarch64
-S:8827
+S:8828
 I:26970
 T:CalDAV synchronization support for calcurse
 U:https://calcurse.org/
 L:BSD-2-Clause
 o:calcurse
 m:Roberto Oliveira <robertoguimaraes8@gmail.com>
-t:1755251851
-c:4995c5a9b61f048d8c4b9a3aa5390741f19c9640
-D:calcurse=4.8.2-r0 python3 py3-httplib2
-p:cmd:calcurse-caldav=4.8.2-r0
+t:1779713882
+c:b0364837e8119b8f699110c1beba9edb63def035
+D:calcurse=4.8.2-r1 python3 py3-httplib2
+p:cmd:calcurse-caldav=4.8.2-r1
 
-C:Q1cF9VDwVvn/a0L65EYCfUWwzjnxE=
+C:Q1kC8Djwh+SfFQsad8gvpJUnZrcxE=
 P:calcurse-dbg
-V:4.8.2-r0
+V:4.8.2-r1
 A:aarch64
-S:312420
-I:718304
+S:312577
+I:718472
 T:A text-based personal organizer (debug symbols)
 U:https://calcurse.org/
 L:BSD-2-Clause
 o:calcurse
 m:Roberto Oliveira <robertoguimaraes8@gmail.com>
-t:1755251851
-c:4995c5a9b61f048d8c4b9a3aa5390741f19c9640
-D:!calcurse<4.8.2-r0 !calcurse>4.8.2-r0
+t:1779713882
+c:b0364837e8119b8f699110c1beba9edb63def035
+D:!calcurse<4.8.2-r1 !calcurse>4.8.2-r1
 
-C:Q1oAoXgbezeO9by1itvAvQ7AkdNfg=
+C:Q1QL8OOqXOwY6rKacxvXQYz2lxNxM=
 P:calcurse-doc
-V:4.8.2-r0
+V:4.8.2-r1
 A:aarch64
-S:118370
+S:118372
 I:322946
 T:A text-based personal organizer (documentation)
 U:https://calcurse.org/
 L:BSD-2-Clause
 o:calcurse
 m:Roberto Oliveira <robertoguimaraes8@gmail.com>
-t:1755251851
-c:4995c5a9b61f048d8c4b9a3aa5390741f19c9640
-i:docs calcurse=4.8.2-r0
+t:1779713882
+c:b0364837e8119b8f699110c1beba9edb63def035
+i:docs calcurse=4.8.2-r1
 
 C:Q12MJVrXaEtojldZqTbVChQ58qdlg=
 P:calendarsupport
@@ -29415,52 +29446,52 @@ t:1776327818
 c:b27ea34d8c9febb951dbb255035acd10693aaa19
 i:docs cicada=1.2.2-r1
 
-C:Q12Istc8cxN77ALThxTCzhy5VVpag=
+C:Q1eGf9Y8J4QkGNiM0q437FaPoElbc=
 P:cinnamon-desktop
-V:6.4.1-r1
+V:6.6.2-r0
 A:aarch64
-S:180034
-I:590240
+S:178481
+I:581185
 T:Library providing shared API for Cinnamon applications
 U:https://github.com/linuxmint/cinnamon-desktop
 L:GPL-2.0-only
 o:cinnamon-desktop
 m:Achill Gilgenast <achill@achill.org>
-t:1775475196
-c:ae6386774f0976c9ad6f3acc7bb08d1f8d78b937
+t:1779707057
+c:746a9a2c5bc8799eaa5e6311ed71a539a80b6c20
 D:so:libX11.so.6 so:libc.musl-aarch64.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libpulse-mainloop-glib.so.0 so:libpulse.so.0 so:libudev.so.1
 p:so:libcinnamon-desktop.so.4=4.0.0 so:libcvc.so.0=0.0.0
 
-C:Q1xJfKTSYPu+9fawBXFWgnM0wN62o=
+C:Q1pZ/yVr8lU1XL38DP+mbAog+zbq8=
 P:cinnamon-desktop-dev
-V:6.4.1-r1
+V:6.6.2-r0
 A:aarch64
-S:51290
-I:509225
+S:52973
+I:529367
 T:Library providing shared API for Cinnamon applications (development files)
 U:https://github.com/linuxmint/cinnamon-desktop
 L:GPL-2.0-only
 o:cinnamon-desktop
 m:Achill Gilgenast <achill@achill.org>
-t:1775475196
-c:ae6386774f0976c9ad6f3acc7bb08d1f8d78b937
-D:cinnamon-desktop=6.4.1-r1 pc:gio-2.0 pc:gobject-2.0 pc:gtk+-3.0 pc:libpulse pc:libpulse-mainloop-glib pc:xkbfile pkgconfig
-p:pc:cinnamon-desktop=6.4.1 pc:cvc=6.4.1
+t:1779707057
+c:746a9a2c5bc8799eaa5e6311ed71a539a80b6c20
+D:cinnamon-desktop=6.6.2-r0 pc:gio-2.0 pc:gobject-2.0 pc:gtk+-3.0 pc:libpulse pc:libpulse-mainloop-glib pc:xkbfile pkgconfig
+p:pc:cinnamon-desktop=6.6.2 pc:cvc=6.6.2
 
-C:Q1aHUAGYzP/qAwF9kVw/Rq+5UgbRE=
+C:Q1AKp9fIF6kz8l7Wv3aTFXiK1xW2A=
 P:cinnamon-desktop-lang
-V:6.4.1-r1
+V:6.6.2-r0
 A:aarch64
-S:99597
+S:99602
 I:363575
 T:Languages for package cinnamon-desktop
 U:https://github.com/linuxmint/cinnamon-desktop
 L:GPL-2.0-only
 o:cinnamon-desktop
 m:Achill Gilgenast <achill@achill.org>
-t:1775475196
-c:ae6386774f0976c9ad6f3acc7bb08d1f8d78b937
-i:cinnamon-desktop=6.4.1-r1 lang
+t:1779707057
+c:746a9a2c5bc8799eaa5e6311ed71a539a80b6c20
+i:cinnamon-desktop=6.6.2-r0 lang
 
 C:Q11+QPlSylWdJiKaN8L2zlzM1UXX0=
 P:ciso
@@ -71587,67 +71618,67 @@ t:1778259886
 c:7c35da4b527c6082109254ff180a932e734d3dab
 i:docs ghc=9.10.3-r2
 
-C:Q1iwBXvE7ztdDEEqpUrJbEuQGagbw=
+C:Q19Es9sSwinszc1G74JuEnr6bkV3I=
 P:ghex
-V:50.0-r0
+V:50.1-r0
 A:aarch64
-S:139333
-I:511656
+S:139396
+I:511823
 T:A hex editor for GNOME
 U:https://gitlab.gnome.org/GNOME/ghex
 L:GPL-2.0-or-later
 o:ghex
 m:Achill Gilgenast <achill@achill.org>
-t:1773698892
-c:2c039528722dfbb7cacf6a56073337993aa6a757
+t:1779707056
+c:e4b4688c7a424924bae948deffc9887c164f50d1
 D:dconf so:libadwaita-1.so.0 so:libc.musl-aarch64.so.1 so:libcairo.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0
-p:cmd:ghex=50.0-r0 so:libgtkhex-4.so.1=1.12.0
+p:cmd:ghex=50.1-r0 so:libgtkhex-4.so.1=1.12.0
 
-C:Q1WQ0jLgja1juX547+TG7S0Xm+m2o=
+C:Q1c0NgCW25BxsS9F0ZsDg2VLVFfvY=
 P:ghex-dev
-V:50.0-r0
+V:50.1-r0
 A:aarch64
-S:6791
+S:6793
 I:19691
 T:A hex editor for GNOME (development files)
 U:https://gitlab.gnome.org/GNOME/ghex
 L:GPL-2.0-or-later
 o:ghex
 m:Achill Gilgenast <achill@achill.org>
-t:1773698892
-c:2c039528722dfbb7cacf6a56073337993aa6a757
-D:ghex=50.0-r0 pc:gtk4 pkgconfig
+t:1779707056
+c:e4b4688c7a424924bae948deffc9887c164f50d1
+D:ghex=50.1-r0 pc:gtk4 pkgconfig
 p:pc:gtkhex-4=4.12.0
 
-C:Q1nB2o5vUSCz50YslBa2+B6jwJytI=
+C:Q1LLDpl4Fjf/pZBBs1xzmOi4jZr34=
 P:ghex-doc
-V:50.0-r0
+V:50.1-r0
 A:aarch64
-S:187441
-I:667631
+S:209537
+I:760937
 T:A hex editor for GNOME (documentation)
 U:https://gitlab.gnome.org/GNOME/ghex
 L:GPL-2.0-or-later
 o:ghex
 m:Achill Gilgenast <achill@achill.org>
-t:1773698892
-c:2c039528722dfbb7cacf6a56073337993aa6a757
-i:docs ghex=50.0-r0
+t:1779707056
+c:e4b4688c7a424924bae948deffc9887c164f50d1
+i:docs ghex=50.1-r0
 
-C:Q11fKT55l3A7n1iRCRAk0pOUUw17s=
+C:Q1qwedY+odqrauk4RgRT4EFYrlEzA=
 P:ghex-lang
-V:50.0-r0
+V:50.1-r0
 A:aarch64
-S:406463
-I:1178588
+S:408363
+I:1182412
 T:Languages for package ghex
 U:https://gitlab.gnome.org/GNOME/ghex
 L:GPL-2.0-or-later
 o:ghex
 m:Achill Gilgenast <achill@achill.org>
-t:1773698892
-c:2c039528722dfbb7cacf6a56073337993aa6a757
-i:ghex=50.0-r0 lang
+t:1779707056
+c:e4b4688c7a424924bae948deffc9887c164f50d1
+i:ghex=50.1-r0 lang
 
 C:Q1wZFCBqBN24YQpxySzDmJ3IJdiA8=
 P:ghi
@@ -77127,51 +77158,51 @@ t:1751404482
 c:c97799aa548f601eb43cfd276ba52f1a9da85d48
 i:gnome-sound-recorder=42.0-r2 lang
 
-C:Q19S/5e2zA3xuyuU/xSN7wUPQAKCA=
+C:Q1i7UurdmDOQ3R7IVbFautrYv7snc=
 P:gnome-sudoku
-V:50.0-r0
+V:50.1-r0
 A:aarch64
-S:124573
-I:396580
+S:125985
+I:398878
 T:Test your logic skills in this number grid puzzle
 U:https://gitlab.gnome.org/GNOME/gnome-sudoku/-/wikis/home
 L:GPL-3.0-or-later
 o:gnome-sudoku
 m:Achill Gilgenast <achill@achill.org>
-t:1773423132
-c:b58c3ed0b95cd601c7f33b0b1833d02da2f49306
+t:1779707056
+c:de1079b3b608bf64d69b190943db9f5dceb4a97d
 D:so:libadwaita-1.so.0 so:libc.musl-aarch64.so.1 so:libcairo.so.2 so:libgee-0.8.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libqqwing.so.2 so:libstdc++.so.6
-p:cmd:gnome-sudoku=50.0-r0
+p:cmd:gnome-sudoku=50.1-r0
 
-C:Q1BkVv55arWUo8aNGTIbHB+mgwsrQ=
+C:Q1xsMOT0jj6m9LWaN1SG23Sd8KX/8=
 P:gnome-sudoku-doc
-V:50.0-r0
+V:50.1-r0
 A:aarch64
-S:229982
-I:672799
+S:245482
+I:732940
 T:Test your logic skills in this number grid puzzle (documentation)
 U:https://gitlab.gnome.org/GNOME/gnome-sudoku/-/wikis/home
 L:GPL-3.0-or-later
 o:gnome-sudoku
 m:Achill Gilgenast <achill@achill.org>
-t:1773423132
-c:b58c3ed0b95cd601c7f33b0b1833d02da2f49306
-i:docs gnome-sudoku=50.0-r0
+t:1779707056
+c:de1079b3b608bf64d69b190943db9f5dceb4a97d
+i:docs gnome-sudoku=50.1-r0
 
-C:Q1a6yHfGZRjLXEaj4ww4L3mdFC09Q=
+C:Q1sd9qvT99gVTQl2X/qvoCv58Dxbg=
 P:gnome-sudoku-lang
-V:50.0-r0
+V:50.1-r0
 A:aarch64
-S:215545
-I:625314
+S:213749
+I:629354
 T:Languages for package gnome-sudoku
 U:https://gitlab.gnome.org/GNOME/gnome-sudoku/-/wikis/home
 L:GPL-3.0-or-later
 o:gnome-sudoku
 m:Achill Gilgenast <achill@achill.org>
-t:1773423132
-c:b58c3ed0b95cd601c7f33b0b1833d02da2f49306
-i:gnome-sudoku=50.0-r0 lang
+t:1779707056
+c:de1079b3b608bf64d69b190943db9f5dceb4a97d
+i:gnome-sudoku=50.1-r0 lang
 
 C:Q1BHzRoKeBqAosSayoauOSih3pHwQ=
 P:gnome-system-monitor
@@ -77496,64 +77527,64 @@ t:1761480566
 c:5ad8dde5742424d51c850d18531743f2c2ad0589
 i:gnome-usage=48.0-r0 lang
 
-C:Q1LTDNRzbjg7ORx/2b2FSDgX0WDyw=
+C:Q1AOInDYFxIz1O4Qr4LhDUs+EWrOA=
 P:gnome-user-docs
-V:50.0-r0
+V:50.2-r0
 A:aarch64
-S:19274102
-I:62940425
+S:19272664
+I:62943975
 T:GNOME User Documentation
 U:https://gitlab.gnome.org/GNOME/gnome-user-docs
 L:CC-BY-3.0
 o:gnome-user-docs
 m:team/gnome <achill@achill.org>
-t:1773567303
-c:7f564b2e00d00bdeb5295190c1d994553e5cbdfb
+t:1779707057
+c:6eaed86a7aca007b603116fc7762ff27faee15f4
 
-C:Q192zTHePx/lFw52JiYMCM5nzWse8=
+C:Q1zsL7q7uoT+BeBgjKxDV+HlEaPno=
 P:gnome-user-share
-V:48.2-r1
+V:48.3-r0
 A:aarch64
-S:321176
-I:806909
+S:321032
+I:806934
 T:Easy to use user-level file sharing for GNOME
 U:https://gitlab.gnome.org/GNOME/gnome-user-share
 L:GPL-2.0-or-later
 o:gnome-user-share
 m:Achill Gilgenast <achill@achill.org>
-t:1777732705
-c:04b45d26e712a027f7fc3046766ccea01b0ba8cd
+t:1779707057
+c:6b54b4aa7b6adc5cad0ddfe2bfeecefb08067cb9
 D:apache2 apache2-webdav mod_dnssd so:libc.musl-aarch64.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libselinux.so.1
 
-C:Q17DngMIACVTulZvz3teZqgYche/w=
+C:Q1xJrpvg/7Uj6GjK2uI7DLTQVxM2E=
 P:gnome-user-share-lang
-V:48.2-r1
+V:48.3-r0
 A:aarch64
-S:69514
-I:203414
+S:69329
+I:203181
 T:Languages for package gnome-user-share
 U:https://gitlab.gnome.org/GNOME/gnome-user-share
 L:GPL-2.0-or-later
 o:gnome-user-share
 m:Achill Gilgenast <achill@achill.org>
-t:1777732705
-c:04b45d26e712a027f7fc3046766ccea01b0ba8cd
-i:gnome-user-share=48.2-r1 lang
+t:1779707057
+c:6b54b4aa7b6adc5cad0ddfe2bfeecefb08067cb9
+i:gnome-user-share=48.3-r0 lang
 
-C:Q1kVp9jdD2RJ+y6uwYqZ4zVLJHWFI=
+C:Q1zcWZA3VJAguULfMKRnZYwQvgwSU=
 P:gnome-user-share-systemd
-V:48.2-r1
+V:48.3-r0
 A:aarch64
-S:1754
+S:1749
 I:173
 T:Easy to use user-level file sharing for GNOME (systemd files)
 U:https://gitlab.gnome.org/GNOME/gnome-user-share
 L:GPL-2.0-or-later
 o:gnome-user-share
 m:Achill Gilgenast <achill@achill.org>
-t:1777732705
-c:04b45d26e712a027f7fc3046766ccea01b0ba8cd
-i:systemd gnome-user-share=48.2-r1
+t:1779707057
+c:6b54b4aa7b6adc5cad0ddfe2bfeecefb08067cb9
+i:systemd gnome-user-share=48.3-r0
 
 C:Q11IKWnQy+O8zIB+moVChXTkwcNys=
 P:gnome-weather
@@ -83919,52 +83950,52 @@ t:1772957071
 c:dfdea62038b99139a30481bf34c708386cfe0a7a
 i:granite=6.2.0-r3 lang
 
-C:Q1DQ6O9a8C5LSgkYxEGyczxZGCMpw=
+C:Q1KUHkxkUgfFYzHsr7plmWrTaIfOc=
 P:granite7
-V:7.8.0-r1
+V:7.8.1-r0
 A:aarch64
-S:179379
-I:507589
+S:175716
+I:476847
 T:Library that extends GTK with common widgets and utilities
 U:https://github.com/elementary/granite
 L:LGPL-3.0-or-later
 o:granite7
 m:Achill Gilgenast <achill@achill.org>
-t:1772957071
-c:dfdea62038b99139a30481bf34c708386cfe0a7a
+t:1779707057
+c:087e4994fad869c1dd71772c6d1669fc627f90cf
 D:gsettings-desktop-schemas hicolor-icon-theme so:libc.musl-aarch64.so.1 so:libgee-0.8.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libpango-1.0.so.0
-p:so:libgranite-7.so.7=7.8.0
+p:so:libgranite-7.so.7=7.8.1
 
-C:Q1wues/2G0CAYD3b+lAERRCavIRKY=
+C:Q1tab8cROXR168T4seBjZjnyE6nc0=
 P:granite7-dev
-V:7.8.0-r1
+V:7.8.1-r0
 A:aarch64
-S:70626
+S:70616
 I:356328
 T:Library that extends GTK with common widgets and utilities (development files)
 U:https://github.com/elementary/granite
 L:LGPL-3.0-or-later
 o:granite7
 m:Achill Gilgenast <achill@achill.org>
-t:1772957071
-c:dfdea62038b99139a30481bf34c708386cfe0a7a
-D:granite7=7.8.0-r1 pc:gee-0.8 pc:gio-2.0>=2.50 pc:gio-unix-2.0>=2.50 pc:glib-2.0>=2.50 pc:gobject-2.0>=2.50 pc:gtk4>=4.12 pkgconfig so:libc.musl-aarch64.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgranite-7.so.7 so:libgtk-4.so.1 so:libshumate-1.0.so.1
-p:cmd:granite-7-demo=7.8.0-r1 pc:granite-7=7.8.0
+t:1779707057
+c:087e4994fad869c1dd71772c6d1669fc627f90cf
+D:granite7=7.8.1-r0 pc:gee-0.8 pc:gio-2.0>=2.50 pc:gio-unix-2.0>=2.50 pc:glib-2.0>=2.50 pc:gobject-2.0>=2.50 pc:gtk4>=4.12 pkgconfig so:libc.musl-aarch64.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgranite-7.so.7 so:libgtk-4.so.1 so:libshumate-1.0.so.1
+p:cmd:granite-7-demo=7.8.1-r0 pc:granite-7=7.8.1
 
-C:Q16NUcJaBwoDF6zR1wB35Z8DohWeU=
+C:Q1Y9C+lqqnybLVYuxBcjyvVYiHOH8=
 P:granite7-lang
-V:7.8.0-r1
+V:7.8.1-r0
 A:aarch64
-S:56981
-I:131762
+S:57654
+I:129830
 T:Languages for package granite7
 U:https://github.com/elementary/granite
 L:LGPL-3.0-or-later
 o:granite7
 m:Achill Gilgenast <achill@achill.org>
-t:1772957071
-c:dfdea62038b99139a30481bf34c708386cfe0a7a
-i:granite7=7.8.0-r1 lang
+t:1779707057
+c:087e4994fad869c1dd71772c6d1669fc627f90cf
+i:granite7=7.8.1-r0 lang
 
 C:Q1G6NAWhA2mBYs6wKobtOv4hYOsXs=
 P:grantlee
@@ -95349,79 +95380,79 @@ t:1771160091
 c:a9e2a2dc46f377eb25884f7fea9834492de7f518
 i:icewm=4.0.0-r1 lang
 
-C:Q1UZEmAZJ7PXZNcR+PTHk5qxQ/te0=
+C:Q1V7cswmeve+KAKe/ESkaXV03SQ9Q=
 P:icinga-director-openrc
-V:1.11.5-r1
+V:1.11.8-r0
 A:aarch64
-S:1949
+S:1945
 I:318
 T:Configuration frontend for Icinga 2, integrated automation (OpenRC init scripts)
 U:https://icinga.com/docs/icinga-director/latest/doc/01-Introduction/
 L:GPL-2.0-or-later
 o:icingaweb2-module-director
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1761261640
-c:9551588c887a7c0eb2b50245bceef24bd7d35349
+t:1779711224
+c:77a79ae3c0639b178d72a253a4d382d05c58ed93
 D:php83-cli php83-posix php83-iconv php83-sockets php83-curl php83-gettext
-i:openrc icinga-director=1.11.5-r1
+i:openrc icinga-director=1.11.8-r0
 
-C:Q1iv4QItMI6HbayHv1PmNu/DMXA2I=
+C:Q1WWk/3ITE+KMxzSGCuqXT16xOZQA=
 P:icinga-php-library
-V:0.18.1-r0
+V:0.19.2-r0
 A:aarch64
-S:3404287
-I:19065587
+S:4272469
+I:24100278
 T:Bundle for all Icinga PHP libraries
 U:https://github.com/Icinga/icinga-php-library
 L:MIT
 o:icinga-php-library
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1764318784
-c:d7b702f53a23be8bce9bd2b8066a022c11864004
+t:1779710317
+c:f597f6c7dd63e70e28c0ecb9c2c7b92834b6c176
 
-C:Q1LhaKr2xrbxGTI5E2rZW9AAQg0qc=
+C:Q12HrusOffM2NOVux2O9VqHLPoLOE=
 P:icinga-php-library-doc
-V:0.18.1-r0
+V:0.19.2-r0
 A:aarch64
-S:2306
+S:2314
 I:1095
 T:Bundle for all Icinga PHP libraries (documentation)
 U:https://github.com/Icinga/icinga-php-library
 L:MIT
 o:icinga-php-library
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1764318784
-c:d7b702f53a23be8bce9bd2b8066a022c11864004
-i:docs icinga-php-library=0.18.1-r0
+t:1779710317
+c:f597f6c7dd63e70e28c0ecb9c2c7b92834b6c176
+i:docs icinga-php-library=0.19.2-r0
 
-C:Q1Nc8J9QyuCNAS1Z08TnxmxlyhzWU=
+C:Q1k1PnuNhVy8QwyBu16DNcSbC+V2k=
 P:icinga-php-thirdparty
-V:0.14.0-r0
+V:0.15.2-r0
 A:aarch64
-S:15196448
-I:71360055
+S:11229907
+I:55228588
 T:Bundle for all 3rd party PHP libraries used by Icinga Web products
 U:https://github.com/Icinga/icinga-php-thirdparty
 L:MIT
 o:icinga-php-thirdparty
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1763826838
-c:2df5201a3ddf94448a61a3bd17dfe1bb52716599
+t:1779710256
+c:f589e9da09a3ee0392a6d8531b9e60252c594682
 
-C:Q1IsW0LfBmKq0df3ikGPDlsas2AkY=
+C:Q1BEqyi/7KLpQ8VcyTZ4KY2VjgPSw=
 P:icinga-php-thirdparty-doc
-V:0.14.0-r0
+V:0.15.2-r0
 A:aarch64
-S:2336
-I:1095
+S:2724
+I:1844
 T:Bundle for all 3rd party PHP libraries used by Icinga Web products (documentation)
 U:https://github.com/Icinga/icinga-php-thirdparty
 L:MIT
 o:icinga-php-thirdparty
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1763826838
-c:2df5201a3ddf94448a61a3bd17dfe1bb52716599
-i:docs icinga-php-thirdparty=0.14.0-r0
+t:1779710256
+c:f589e9da09a3ee0392a6d8531b9e60252c594682
+i:docs icinga-php-thirdparty=0.15.2-r0
 
 C:Q1P1xmtePuJVsDsGJS2pCvTI4fWaE=
 P:icinga2
@@ -95559,35 +95590,35 @@ t:1777980075
 c:7d7b61cb8d05e5547474f17c0ce0b88922db9c5c
 D:icingaweb2 php85-ldap
 
-C:Q1ffXdl1x+165CPEw0Y1h/liNFh6w=
+C:Q1F9zZGSbvsTKvXndFQyq7ePGrGr4=
 P:icingaweb2-module-director
-V:1.11.5-r1
+V:1.11.8-r0
 A:aarch64
-S:1027101
-I:4713636
+S:1030566
+I:4728834
 T:Configuration frontend for Icinga 2, integrated automation
 U:https://icinga.com/docs/icinga-director/latest/doc/01-Introduction/
 L:GPL-2.0-or-later
 o:icingaweb2-module-director
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1761261640
-c:9551588c887a7c0eb2b50245bceef24bd7d35349
+t:1779711224
+c:77a79ae3c0639b178d72a253a4d382d05c58ed93
 D:icingaweb2 php83-curl php83-pcntl icingaweb2-module-incubator /bin/sh
 
-C:Q1zqrye6/B8bwPTxccXdhgrcsBbA8=
+C:Q1wdepHl7eYXQJFKk92WmULhEmbOQ=
 P:icingaweb2-module-director-doc
-V:1.11.5-r1
+V:1.11.8-r0
 A:aarch64
-S:2504442
-I:2804546
+S:2505096
+I:2807292
 T:Configuration frontend for Icinga 2, integrated automation (documentation)
 U:https://icinga.com/docs/icinga-director/latest/doc/01-Introduction/
 L:GPL-2.0-or-later
 o:icingaweb2-module-director
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1761261640
-c:9551588c887a7c0eb2b50245bceef24bd7d35349
-i:docs icingaweb2-module-director=1.11.5-r1
+t:1779711224
+c:77a79ae3c0639b178d72a253a4d382d05c58ed93
+i:docs icingaweb2-module-director=1.11.8-r0
 
 C:Q19qX9QMPSDqHDlSHTbqce1txzkNo=
 P:icingaweb2-module-incubator
@@ -109661,66 +109692,66 @@ c:adabeccd74e20546e4fa9618037f90ba20ccbe6d
 D:so:libc.musl-aarch64.so.1 so:libgcc_s.so.1
 p:cmd:kibi=0.3.2-r0
 
-C:Q1MdzVnJPyUW7SDaeZaCS37CHa7uc=
+C:Q12+WGI4BF8H4nyKDo8Ysc/Ei9vpI=
 P:kicad
-V:10.0.2-r0
+V:10.0.3-r0
 A:aarch64
-S:41638741
-I:108263597
+S:41699335
+I:108460247
 T:Cross Platform and Open Source Electronics Design Automation Suite
 U:https://www.kicad.org/
 L:GPL-3.0-or-later
 o:kicad
 m:Marian Buschsieweke <marian.buschsieweke@posteo.net>
-t:1778520534
-c:65193b9814c94e78ff05b1acf5729fc8165d35de
+t:1779712074
+c:3117b594accdc5c70ee142263f5a216efa6cc584
 D:python3 py3-cairosvg py3-wxpython python3~3.14 so:libGLU.so.1 so:libTKBO.so.7.9 so:libTKBRep.so.7.9 so:libTKCDF.so.7.9 so:libTKDEGLTF.so.7.9 so:libTKDEIGES.so.7.9 so:libTKDEPLY.so.7.9 so:libTKDESTEP.so.7.9 so:libTKDESTL.so.7.9 so:libTKDEVRML.so.7.9 so:libTKG3d.so.7.9 so:libTKGeomBase.so.7.9 so:libTKLCAF.so.7.9 so:libTKMath.so.7.9 so:libTKMesh.so.7.9 so:libTKPrim.so.7.9 so:libTKRWMesh.so.7.9 so:libTKShHealing.so.7.9 so:libTKTopAlgo.so.7.9 so:libTKXCAF.so.7.9 so:libTKXSBase.so.7.9 so:libTKernel.so.7.9 so:libabsl_hash.so.2508.0.0 so:libabsl_log_internal_check_op.so.2508.0.0 so:libabsl_log_internal_message.so.2508.0.0 so:libc.musl-aarch64.so.1 so:libcairo.so.2 so:libcurl.so.4 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libgit2.so.1.9 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libharfbuzz.so.0 so:libnng.so.1 so:libodbc.so.2 so:libpoppler-glib.so.8 so:libprotobuf.so.31 so:libpython3.14.so.1.0 so:libsecret-1.so.0 so:libspnav.so.0 so:libstdc++.so.6 so:libwayland-client.so.0 so:libwx_baseu-3.2.so.0 so:libwx_baseu_net-3.2.so.0 so:libwx_baseu_xml-3.2.so.0 so:libwx_gtk3u_aui-3.2.so.0 so:libwx_gtk3u_core-3.2.so.0 so:libwx_gtk3u_gl-3.2.so.0 so:libwx_gtk3u_html-3.2.so.0 so:libwx_gtk3u_propgrid-3.2.so.0 so:libwx_gtk3u_stc-3.2.so.0 so:libwx_gtk3u_webview-3.2.so.0 so:libz.so.1 so:libzstd.so.1
-p:kicad-opencascade=10.0.2-r0 cmd:_cvpcb.kiface=10.0.2-r0 cmd:_eeschema.kiface=10.0.2-r0 cmd:_gerbview.kiface=10.0.2-r0 cmd:_kipython.kiface=10.0.2-r0 cmd:_pcb_calculator.kiface=10.0.2-r0 cmd:_pcbnew.kiface=10.0.2-r0 cmd:_pl_editor.kiface=10.0.2-r0 cmd:bitmap2component=10.0.2-r0 cmd:dxf2idf=10.0.2-r0 cmd:eeschema=10.0.2-r0 cmd:gerbview=10.0.2-r0 cmd:idf2vrml=10.0.2-r0 cmd:idfcyl=10.0.2-r0 cmd:idfrect=10.0.2-r0 cmd:kicad-cli=10.0.2-r0 cmd:kicad=10.0.2-r0 cmd:pcb_calculator=10.0.2-r0 cmd:pcbnew=10.0.2-r0 cmd:pl_editor=10.0.2-r0 py3.14:pcbnew=10.0.2-r0 so:libkiapi.so.10.0.2=10.0.2 so:libkicad_3dsg.so.2.0.0=2.0.0 so:libkicommon.so.10.0.2=10.0.2 so:libkigal.so.10.0.2=10.0.2
+p:kicad-opencascade=10.0.3-r0 cmd:_cvpcb.kiface=10.0.3-r0 cmd:_eeschema.kiface=10.0.3-r0 cmd:_gerbview.kiface=10.0.3-r0 cmd:_kipython.kiface=10.0.3-r0 cmd:_pcb_calculator.kiface=10.0.3-r0 cmd:_pcbnew.kiface=10.0.3-r0 cmd:_pl_editor.kiface=10.0.3-r0 cmd:bitmap2component=10.0.3-r0 cmd:dxf2idf=10.0.3-r0 cmd:eeschema=10.0.3-r0 cmd:gerbview=10.0.3-r0 cmd:idf2vrml=10.0.3-r0 cmd:idfcyl=10.0.3-r0 cmd:idfrect=10.0.3-r0 cmd:kicad-cli=10.0.3-r0 cmd:kicad=10.0.3-r0 cmd:pcb_calculator=10.0.3-r0 cmd:pcbnew=10.0.3-r0 cmd:pl_editor=10.0.3-r0 py3.14:pcbnew=10.0.3-r0 so:libkiapi.so.10.0.3=10.0.3 so:libkicad_3dsg.so.2.0.0=2.0.0 so:libkicommon.so.10.0.3=10.0.3 so:libkigal.so.10.0.3=10.0.3
 
-C:Q10A0voV/frSWL5e5rCVIYJlUp7GI=
+C:Q1UxJ03UL2sQlGDxsdZpF8S6pamF0=
 P:kicad-bash-completion
-V:10.0.2-r0
+V:10.0.3-r0
 A:aarch64
-S:3896
+S:3897
 I:16400
 T:Bash completions for kicad
 U:https://www.kicad.org/
 L:GPL-3.0-or-later
 o:kicad
 m:Marian Buschsieweke <marian.buschsieweke@posteo.net>
-t:1778520534
-c:65193b9814c94e78ff05b1acf5729fc8165d35de
-i:kicad=10.0.2-r0 bash-completion
+t:1779712074
+c:3117b594accdc5c70ee142263f5a216efa6cc584
+i:kicad=10.0.3-r0 bash-completion
 
-C:Q12YCn/6pDKFMgYFT8DqRLzcCs3L8=
+C:Q1CTOUTVygZK+ILzTs5tfaEGHsAGs=
 P:kicad-demos
-V:10.0.2-r0
+V:10.0.3-r0
 A:aarch64
-S:95138582
+S:95138583
 I:354844641
 T:Demos for KiCad
 U:https://www.kicad.org/
 L:GPL-3.0-or-later
 o:kicad
 m:Marian Buschsieweke <marian.buschsieweke@posteo.net>
-t:1778520534
-c:65193b9814c94e78ff05b1acf5729fc8165d35de
+t:1779712074
+c:3117b594accdc5c70ee142263f5a216efa6cc584
 D:python3 py3-cairosvg py3-wxpython
 
-C:Q1QQE1nnp3NN94qUTG3Yd0KowVNSw=
+C:Q1L15ABXoBhAKYVw5VOCsWOEB/pok=
 P:kicad-lang
-V:10.0.2-r0
+V:10.0.3-r0
 A:aarch64
-S:14656385
+S:14656410
 I:47995494
 T:Languages for package kicad
 U:https://www.kicad.org/
 L:GPL-3.0-or-later
 o:kicad
 m:Marian Buschsieweke <marian.buschsieweke@posteo.net>
-t:1778520534
-c:65193b9814c94e78ff05b1acf5729fc8165d35de
-i:kicad=10.0.2-r0 lang
+t:1779712074
+c:3117b594accdc5c70ee142263f5a216efa6cc584
+i:kicad=10.0.3-r0 lang
 
 C:Q1cNEaq4yZIqJa2oLLyVJJ+8ZZk2Q=
 P:kicad-library
@@ -109767,20 +109798,20 @@ t:1770989810
 c:4a52ddf8b184dc89b8c83e665fb6d05a6060e45b
 D:kicad-library
 
-C:Q1b9IHTs+n2R30BNtgQ1VgFqms8+4=
+C:Q1YuAn4NSc3MKuypsaV5pJUktmo/I=
 P:kicad-zsh-completion
-V:10.0.2-r0
+V:10.0.3-r0
 A:aarch64
-S:9922
+S:9925
 I:73441
 T:Zsh completions for kicad
 U:https://www.kicad.org/
 L:GPL-3.0-or-later
 o:kicad
 m:Marian Buschsieweke <marian.buschsieweke@posteo.net>
-t:1778520534
-c:65193b9814c94e78ff05b1acf5729fc8165d35de
-i:kicad=10.0.2-r0 zsh
+t:1779712074
+c:3117b594accdc5c70ee142263f5a216efa6cc584
+i:kicad=10.0.3-r0 zsh
 
 C:Q1pmsULig4cKd3YlABY4fZpnjOX6M=
 P:kiconthemes
@@ -121180,83 +121211,83 @@ c:e2d1abeef8d26d9c94789328907cca43d07f2bd8
 D:grpc=1.78.1-r2 so:libc.musl-aarch64.so.1
 p:so:libaddress_sorting.so.52=52.0.0
 
-C:Q1BriMbcZGmtunyen4FVIxQcp8XKY=
+C:Q1hzhx2rgV2xlc6XY+Q64acu/Emss=
 P:libadwaita
-V:1.9.0-r0
+V:1.9.1-r0
 A:aarch64
-S:555325
+S:555617
 I:2061164
 T:Building blocks for modern GNOME applications
 U:https://gitlab.gnome.org/GNOME/libadwaita
 L:LGPL-2.1-or-later
 o:libadwaita
 m:team/gnome <achill@achill.org>
-t:1773422695
-c:723ada64ef43fbe614fd967607a73f76f66e3c64
+t:1779707056
+c:3d86b82b5b50eb941430a14c270f665a2194f8a7
 D:adwaita-fonts so:libappstream.so.5 so:libc.musl-aarch64.so.1 so:libfribidi.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libpango-1.0.so.0
 p:so:libadwaita-1.so.0=0
 
-C:Q1EuDXIRJzmkHLiwY3K2gQSHSumMs=
+C:Q1H6jS7aY7MY960gw1g0eqLGS7OBk=
 P:libadwaita-dbg
-V:1.9.0-r0
+V:1.9.1-r0
 A:aarch64
-S:432871
-I:1551856
+S:433053
+I:1552664
 T:Building blocks for modern GNOME applications (debug symbols)
 U:https://gitlab.gnome.org/GNOME/libadwaita
 L:LGPL-2.1-or-later
 o:libadwaita
 m:team/gnome <achill@achill.org>
-t:1773422695
-c:723ada64ef43fbe614fd967607a73f76f66e3c64
-D:!libadwaita-demo<1.9.0-r0 !libadwaita-demo>1.9.0-r0 !libadwaita<1.9.0-r0 !libadwaita>1.9.0-r0
+t:1779707056
+c:3d86b82b5b50eb941430a14c270f665a2194f8a7
+D:!libadwaita-demo<1.9.1-r0 !libadwaita-demo>1.9.1-r0 !libadwaita<1.9.1-r0 !libadwaita>1.9.1-r0
 
-C:Q1Oxf/R1HQUirUIXqd4xSv19vS2eM=
+C:Q1YLkhvXE8BkpJzhv+rmZ7IkvhQ2k=
 P:libadwaita-demo
-V:1.9.0-r0
+V:1.9.1-r0
 A:aarch64
-S:65231
+S:65226
 I:339147
 T:Building blocks for modern GNOME applications (libadwaita demo)
 U:https://gitlab.gnome.org/GNOME/libadwaita
 L:LGPL-2.1-or-later
 o:libadwaita
 m:team/gnome <achill@achill.org>
-t:1773422695
-c:723ada64ef43fbe614fd967607a73f76f66e3c64
+t:1779707056
+c:3d86b82b5b50eb941430a14c270f665a2194f8a7
 D:adwaita-fonts so:libadwaita-1.so.0 so:libc.musl-aarch64.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8
-p:cmd:adwaita-1-demo=1.9.0-r0
+p:cmd:adwaita-1-demo=1.9.1-r0
 
-C:Q17pPPZDct3S+qb6Sx+GzBVqz/x3g=
+C:Q11PHX+ZU3NtmexvEN4muRL8/6k4g=
 P:libadwaita-dev
-V:1.9.0-r0
+V:1.9.1-r0
 A:aarch64
-S:271115
-I:2697178
+S:271120
+I:2697206
 T:Building blocks for modern GNOME applications (development files)
 U:https://gitlab.gnome.org/GNOME/libadwaita
 L:LGPL-2.1-or-later
 o:libadwaita
 m:team/gnome <achill@achill.org>
-t:1773422695
-c:723ada64ef43fbe614fd967607a73f76f66e3c64
-D:libadwaita=1.9.0-r0 pc:appstream pc:fribidi pc:gio-2.0>=2.84.0 pc:glib-2.0>=2.84.0 pc:gtk4>=4.21.1 pkgconfig
-p:pc:libadwaita-1=1.9.0
+t:1779707056
+c:3d86b82b5b50eb941430a14c270f665a2194f8a7
+D:libadwaita=1.9.1-r0 pc:appstream pc:fribidi pc:gio-2.0>=2.84.0 pc:glib-2.0>=2.84.0 pc:gtk4>=4.21.1 pkgconfig
+p:pc:libadwaita-1=1.9.1
 
-C:Q1uOCtxHBekgzg7hj1Jw+D6vmFFoQ=
+C:Q1Jy7y8ZB6bvF5YzihqOrGAbi3vEY=
 P:libadwaita-lang
-V:1.9.0-r0
+V:1.9.1-r0
 A:aarch64
-S:143734
-I:557722
+S:142627
+I:565437
 T:Languages for package libadwaita
 U:https://gitlab.gnome.org/GNOME/libadwaita
 L:LGPL-2.1-or-later
 o:libadwaita
 m:team/gnome <achill@achill.org>
-t:1773422695
-c:723ada64ef43fbe614fd967607a73f76f66e3c64
-i:libadwaita=1.9.0-r0 lang
+t:1779707056
+c:3d86b82b5b50eb941430a14c270f665a2194f8a7
+i:libadwaita=1.9.1-r0 lang
 
 C:Q1CzzT+kjzHAT/sqtFHfENDG0gsc0=
 P:libaec
@@ -163343,52 +163374,52 @@ t:1669994788
 c:c539949f5b622e82b7f26d63163db7d5fae4b921
 i:docs mktorrent=1.1-r6
 
-C:Q1b0y36Ii8Oht/Askk2WCxtpamhdw=
+C:Q1abEWhZmSnxUNf8P34MqAAtCd77Y=
 P:mkvtoolnix
-V:98.0-r0
+V:99.0-r0
 A:aarch64
-S:2501126
+S:2503285
 I:7052136
 T:Set of tools to create, edit and inspect Matroska files
 U:https://mkvtoolnix.download/index.html
 L:GPL-2.0-only
 o:mkvtoolnix
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1775501370
-c:0232d1708ef65a924711431f6e00c9283741184e
+t:1779708490
+c:158148340683ca035f570b344d8a4bcdeaa434c2
 D:so:libFLAC.so.12 so:libQt6Core.so.6 so:libboost_filesystem.so.1.84.0 so:libc.musl-aarch64.so.1 so:libebml.so.5 so:libfmt.so.11 so:libgcc_s.so.1 so:libgmp.so.10 so:libmatroska.so.7 so:libogg.so.0 so:libpugixml.so.1 so:libstdc++.so.6 so:libvorbis.so.0 so:libz.so.1
-p:cmd:mkvextract=98.0-r0 cmd:mkvinfo=98.0-r0 cmd:mkvmerge=98.0-r0 cmd:mkvpropedit=98.0-r0
+p:cmd:mkvextract=99.0-r0 cmd:mkvinfo=99.0-r0 cmd:mkvmerge=99.0-r0 cmd:mkvpropedit=99.0-r0
 
-C:Q1+3dCakkfuJKYjoBPgj/tuwRG3vE=
+C:Q1qgsXVvFX9MnczBg23/bI68bM124=
 P:mkvtoolnix-doc
-V:98.0-r0
+V:99.0-r0
 A:aarch64
-S:50623
-I:48385
+S:50628
+I:48381
 T:Set of tools to create, edit and inspect Matroska files (documentation)
 U:https://mkvtoolnix.download/index.html
 L:GPL-2.0-only
 o:mkvtoolnix
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1775501370
-c:0232d1708ef65a924711431f6e00c9283741184e
-i:docs mkvtoolnix=98.0-r0
+t:1779708490
+c:158148340683ca035f570b344d8a4bcdeaa434c2
+i:docs mkvtoolnix=99.0-r0
 
-C:Q1uRcROWl9k8Z1h6TQDuzeW2+3vi4=
+C:Q1ZW9wDwlPRP3VKjZp6ZWLhTy14Ck=
 P:mkvtoolnix-gui
-V:98.0-r0
+V:99.0-r0
 A:aarch64
-S:8100342
-I:11778084
+S:8102659
+I:11843784
 T:Set of tools to create, edit and inspect Matroska files (GUI)
 U:https://mkvtoolnix.download/index.html
 L:GPL-2.0-only
 o:mkvtoolnix
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1775501370
-c:0232d1708ef65a924711431f6e00c9283741184e
+t:1779708490
+c:158148340683ca035f570b344d8a4bcdeaa434c2
 D:mkvtoolnix qt6-qtsvg so:libFLAC.so.12 so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Gui.so.6 so:libQt6Multimedia.so.6 so:libQt6Network.so.6 so:libQt6Widgets.so.6 so:libboost_filesystem.so.1.84.0 so:libc.musl-aarch64.so.1 so:libcmark.so.0.31.2 so:libebml.so.5 so:libfmt.so.11 so:libgcc_s.so.1 so:libgmp.so.10 so:libmatroska.so.7 so:libpugixml.so.1 so:libstdc++.so.6 so:libvorbis.so.0
-p:cmd:mkvtoolnix-gui=98.0-r0
+p:cmd:mkvtoolnix-gui=99.0-r0
 
 C:Q1FD7j37//GyGjVQlMSaNMTTdvO7Y=
 P:mle
@@ -192916,35 +192947,35 @@ t:1779176766
 c:7f0e33d8a26147d579de3cfce54895ec8d4de0fd
 D:perl perl-business-isbn-data
 
-C:Q1RJ2ldgCYZj21s2ZQMBY/3m2F59c=
+C:Q1ixl0BaadZkHYVXMl/mRpXiXuUYI=
 P:perl-business-isbn-data
-V:20260424.001-r0
+V:20260523.001-r0
 A:aarch64
-S:22414
-I:267712
+S:22482
+I:268556
 T:data pack for Business::ISBN
 U:https://metacpan.org/release/Business-ISBN-Data/
 L:Artistic-2.0
 o:perl-business-isbn-data
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1777902805
-c:fe8bf94c639469c283a8053f96563f868c9a95f6
+t:1779708666
+c:066e8a2980f8d2e76fec4391474ff8db01056b9b
 D:perl
 
-C:Q19Hzy9GO1iWHu3/8mjxGC9zZK7l4=
+C:Q1Tqf7YqWwMMRZMoqdbawwxjEOPPc=
 P:perl-business-isbn-data-doc
-V:20260424.001-r0
+V:20260523.001-r0
 A:aarch64
-S:4330
+S:4322
 I:2511
 T:data pack for Business::ISBN (documentation)
 U:https://metacpan.org/release/Business-ISBN-Data/
 L:Artistic-2.0
 o:perl-business-isbn-data
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1777902805
-c:fe8bf94c639469c283a8053f96563f868c9a95f6
-i:docs perl-business-isbn-data=20260424.001-r0
+t:1779708666
+c:066e8a2980f8d2e76fec4391474ff8db01056b9b
+i:docs perl-business-isbn-data=20260523.001-r0
 
 C:Q121N6HHi6t/y3Q1ZIjVCDo9X/LmU=
 P:perl-business-isbn-doc
@@ -207121,36 +207152,36 @@ t:1771160091
 c:a9e2a2dc46f377eb25884f7fea9834492de7f518
 i:docs perl-tcl=1.53-r2
 
-C:Q152EZ/pdMH1ngXJKe3rY2m8r46Zo=
+C:Q1P14TITVQDpnD8jGXxCBIVmuhY2M=
 P:perl-template-toolkit
-V:3.102-r1
+V:3.105-r0
 A:aarch64
-S:191631
-I:811191
+S:193519
+I:815877
 T:comprehensive template processing system
 U:https://metacpan.org/release/Template-Toolkit/
 L:GPL-1.0-or-later OR Artistic-1.0-Perl
 o:perl-template-toolkit
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1751254741
-c:73f15dd15737412cabd93c4b988bdef74464a283
+t:1779708716
+c:c127a87d58d19beee35ab562b38b0b237d7cbbe2
 D:perl perl-appconfig so:libc.musl-aarch64.so.1
-p:cmd:tpage=3.102-r1 cmd:ttree=3.102-r1
+p:cmd:tpage=3.105-r0 cmd:ttree=3.105-r0
 
-C:Q1Ue1TVxpcaBbRxzat8QwKCcmyLUU=
+C:Q1ymfkuGAlhJBKJf8u5cz9JOH4nHM=
 P:perl-template-toolkit-doc
-V:3.102-r1
+V:3.105-r0
 A:aarch64
-S:369710
-I:586659
+S:371936
+I:590685
 T:comprehensive template processing system (documentation)
 U:https://metacpan.org/release/Template-Toolkit/
 L:GPL-1.0-or-later OR Artistic-1.0-Perl
 o:perl-template-toolkit
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1751254741
-c:73f15dd15737412cabd93c4b988bdef74464a283
-i:docs perl-template-toolkit=3.102-r1
+t:1779708716
+c:c127a87d58d19beee35ab562b38b0b237d7cbbe2
+i:docs perl-template-toolkit=3.105-r0
 
 C:Q1ppbsIiiJps6B0CZruXQwEobYxQQ=
 P:perl-term-animation
@@ -219336,51 +219367,51 @@ t:1760370042
 c:1d4903c8f9e01966a35fd39c083e4ba2e7dcd19f
 i:docs pipectl=0.5.1-r2
 
-C:Q1HiyX++i/Y4a7hGbQrMnkpjke5mw=
+C:Q1DdBs1sNixbzHp5Fnism0cOQDRQE=
 P:pipeline
-V:4.0.3-r0
+V:4.0.4-r0
 A:aarch64
-S:2814945
-I:6583673
+S:2814699
+I:6584070
 T:Watch YouTube and PeerTube videos in one place
 U:https://gitlab.com/schmiddi-on-mobile/pipeline
 L:GPL-3.0-or-later
 o:pipeline
 m:Achill Gilgenast <achill@achill.org>
-t:1779530331
-c:caf6f83c07455a62e4dbb3b0a91e0c7246ed8d09
+t:1779707056
+c:79f4a7509326a664f2161cbbe4a5918fc79d1142
 D:clapper-enhancers glycin-image-rs so:libadwaita-1.so.0 so:libc.musl-aarch64.so.1 so:libclapper-0.0.so.0 so:libclapper-gtk-0.0.so.0 so:libcrypto.so.3 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libpango-1.0.so.0 so:libsqlite3.so.0 so:libssl.so.3
-p:cmd:tubefeeder=4.0.3-r0
+p:cmd:tubefeeder=4.0.4-r0
 
-C:Q1IU3tD6jrF5eGbG0u3EB82MNjqws=
+C:Q1k8bf2yeig95OpwT4rr83q0UmHCo=
 P:pipeline-doc
-V:4.0.3-r0
+V:4.0.4-r0
 A:aarch64
-S:13872
+S:13865
 I:35149
 T:Watch YouTube and PeerTube videos in one place (documentation)
 U:https://gitlab.com/schmiddi-on-mobile/pipeline
 L:GPL-3.0-or-later
 o:pipeline
 m:Achill Gilgenast <achill@achill.org>
-t:1779530331
-c:caf6f83c07455a62e4dbb3b0a91e0c7246ed8d09
-i:docs pipeline=4.0.3-r0
+t:1779707056
+c:79f4a7509326a664f2161cbbe4a5918fc79d1142
+i:docs pipeline=4.0.4-r0
 
-C:Q1xPAqWGA2TGY5I8il8q5V2MCRu7s=
+C:Q14FiN5Kx3HWzFxfiMTV211sOi1R0=
 P:pipeline-lang
-V:4.0.3-r0
+V:4.0.4-r0
 A:aarch64
-S:186455
-I:554222
+S:189753
+I:561676
 T:Languages for package pipeline
 U:https://gitlab.com/schmiddi-on-mobile/pipeline
 L:GPL-3.0-or-later
 o:pipeline
 m:Achill Gilgenast <achill@achill.org>
-t:1779530331
-c:caf6f83c07455a62e4dbb3b0a91e0c7246ed8d09
-i:pipeline=4.0.3-r0 lang
+t:1779707056
+c:79f4a7509326a664f2161cbbe4a5918fc79d1142
+i:pipeline=4.0.4-r0 lang
 
 C:Q1UsI/gclJrXmZrLTNNB7N/WpJYu0=
 P:piper
@@ -231439,37 +231470,37 @@ c:4c1f60a60f911b195079e67f6c0a75f3791826f2
 D:python3~3.14
 i:py3-awesomeversion=25.8.0-r1 pyc
 
-C:Q1ymq6wJs84uGrNuB5wdiI3kO4Rw4=
+C:Q1hISg1qLtrDbLFyjdO+aahyMt61w=
 P:py3-awscrt
-V:0.32.2-r0
+V:0.33.0-r0
 A:aarch64
-S:176668
+S:176761
 I:666201
 T:Python bindings for the AWS Common Runtime
 U:https://github.com/awslabs/aws-crt-python
 L:Apache-2.0
 o:py3-awscrt
 m:Achill Gilgenast <achill@achill.org>
-t:1777225042
-c:d88561857d70035aa5bf736ce26269162bac4153
+t:1779707056
+c:79f0e95c1a8552bca009c56c763569b7f6a1665d
 D:python3~3.14 so:libaws-c-auth.so.1.0.0 so:libaws-c-cal.so.1.0.0 so:libaws-c-common.so.1 so:libaws-c-event-stream.so.1.0.0 so:libaws-c-http.so.1.0.0 so:libaws-c-io.so.1.0.0 so:libaws-c-mqtt.so.1.0.0 so:libaws-c-s3.so.0unstable so:libaws-checksums.so.1.0.0 so:libc.musl-aarch64.so.1
-p:py3.14:awscrt=0.32.2-r0
+p:py3.14:awscrt=0.33.0-r0
 
-C:Q1zqFFYQ02x15M9Qr0gbHl9jLOtOA=
+C:Q1QiELVcEFlku7rxSUQ41x0KoaOy4=
 P:py3-awscrt-pyc
-V:0.32.2-r0
+V:0.33.0-r0
 A:aarch64
-S:165961
+S:165950
 I:499495
 T:Precompiled Python bytecode for py3-awscrt
 U:https://github.com/awslabs/aws-crt-python
 L:Apache-2.0
 o:py3-awscrt
 m:Achill Gilgenast <achill@achill.org>
-t:1777225042
-c:d88561857d70035aa5bf736ce26269162bac4153
+t:1779707056
+c:79f0e95c1a8552bca009c56c763569b7f6a1665d
 D:python3~3.14
-i:py3-awscrt=0.32.2-r0 pyc
+i:py3-awscrt=0.33.0-r0 pyc
 
 C:Q1/mTcBY8c7D0M+AeDF2HW/+KjqFs=
 P:py3-axolotl
@@ -249946,37 +249977,37 @@ c:bf5981808991f39c8abbf916cd355ce0a7c5d70f
 D:python3~3.14
 i:py3-lsp-jsonrpc=1.1.2-r2 pyc
 
-C:Q1tYrwPfchCGf74HFoCoSZKgA2EU4=
+C:Q16SuAlFVo3Z6xonhCtClGZBaHp7A=
 P:py3-lsp-server
-V:1.14.0-r0
+V:1.14.0-r1
 A:aarch64
-S:65973
+S:65965
 I:229827
 T:python implementation of the language server protocol, fork of python-language-server
 U:https://github.com/python-lsp/python-lsp-server
 L:MIT
 o:py3-lsp-server
 m:Clayton Craft <clayton@craftyguy.net>
-t:1777370779
-c:e2e994913b3ac980d3881dc0ff0c5112f0ec2f7a
+t:1779712840
+c:edc8c05082a5a163087056202292a836314f8ae6
 D:py3-docstring-to-markdown py3-jedi py3-lsp-jsonrpc py3-pluggy py3-setuptools py3-ujson py3-whatthepatch py3-yapf python3 python3~3.14
-p:cmd:pylsp=1.14.0-r0 py3.14:pylsp=1.14.0-r0
+p:cmd:pylsp=1.14.0-r1 py3.14:pylsp=1.14.0-r1
 
-C:Q1LZGIKk9f2FW3/WAXtHdfzT9ZldY=
+C:Q14biiVXpvxEYHe14hyDPXtl7rCC8=
 P:py3-lsp-server-pyc
-V:1.14.0-r0
+V:1.14.0-r1
 A:aarch64
-S:127602
+S:127590
 I:297853
 T:Precompiled Python bytecode for py3-lsp-server
 U:https://github.com/python-lsp/python-lsp-server
 L:MIT
 o:py3-lsp-server
 m:Clayton Craft <clayton@craftyguy.net>
-t:1777370779
-c:e2e994913b3ac980d3881dc0ff0c5112f0ec2f7a
+t:1779712840
+c:edc8c05082a5a163087056202292a836314f8ae6
 D:python3~3.14
-i:py3-lsp-server=1.14.0-r0 pyc
+i:py3-lsp-server=1.14.0-r1 pyc
 
 C:Q1y4sMtSBoECE6syMSIoLgj+gA++0=
 P:py3-lupa
@@ -260108,37 +260139,37 @@ t:1774640437
 c:c6093cc62d4703d1a2cf0829b8a8007c598d247f
 D:so:libQt5Core.so.5 so:libQt5Gui.so.5 so:libQt5Qml.so.5 so:libQt5Quick.so.5 so:libQt5Svg.so.5 so:libc.musl-aarch64.so.1 so:libgcc_s.so.1 so:libpython3.14.so.1.0 so:libstdc++.so.6
 
-C:Q1oOB11pZYQZrHJ9HdDJQTUAewzzc=
+C:Q1y4KnEd2ZaSih/y5JkQsUXVTN250=
 P:py3-pypdf
-V:6.12.0-r0
+V:6.12.1-r0
 A:aarch64
-S:322891
-I:1475872
+S:323216
+I:1476872
 T:Pure-Python library built as a PDF toolkit
 U:https://github.com/py-pdf/pypdf
 L:BSD-3-Clause
 o:py3-pypdf
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1779369062
-c:846d1968d68095186439b164bbf258cd60815abd
+t:1779708617
+c:58fe71c3ffa1f55dbeafd121f2634aeedf348fcf
 D:python3~3.14
-p:py3-pypdf2=6.12.0-r0 py3.14:pypdf=6.12.0-r0
+p:py3-pypdf2=6.12.1-r0 py3.14:pypdf=6.12.1-r0
 
-C:Q1km0OI6uGX5H5I7+NpnvQKFq7yeY=
+C:Q1Srf/KhLELFLb+D3TsdBur2jD/cM=
 P:py3-pypdf-pyc
-V:6.12.0-r0
+V:6.12.1-r0
 A:aarch64
-S:697699
-I:1976043
+S:698299
+I:1977300
 T:Precompiled Python bytecode for py3-pypdf
 U:https://github.com/py-pdf/pypdf
 L:BSD-3-Clause
 o:py3-pypdf
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1779369062
-c:846d1968d68095186439b164bbf258cd60815abd
+t:1779708617
+c:58fe71c3ffa1f55dbeafd121f2634aeedf348fcf
 D:python3~3.14
-i:py3-pypdf=6.12.0-r0 pyc
+i:py3-pypdf=6.12.1-r0 pyc
 
 C:Q1GNxI5rEZskEmszKJ93WfLG5dE+U=
 P:py3-pypeg2
@@ -261184,52 +261215,52 @@ c:2d0f4aa62ec312e70c6568eb02e2c7869afa2390
 D:python3~3.14
 i:py3-pytest-click=1.1.0-r1 pyc
 
-C:Q13D64r9atNkrLIgP30ipfIbywwwE=
+C:Q1GAjkmvvmm5x+YgzTQgnholfKej0=
 P:py3-pytest-codspeed
-V:5.0.2-r0
+V:5.0.3-r0
 A:aarch64
-S:315185
-I:3141367
+S:317623
+I:3181134
 T:Pytest plugin to create CodSpeed benchmarks
 U:https://codspeed.io/
 L:MIT
 o:py3-pytest-codspeed
 m:Oleg Titov <oleg.titov@gmail.com>
-t:1778817102
-c:7006fa81bfaed2718d682fc937ee254b42896e7b
+t:1779712510
+c:80c5f8e9c21e63fd126ce95018c02f872b758186
 D:py3-pytest py3-rich python3~3.14
-p:py3.14:pytest_codspeed=5.0.2-r0
+p:py3.14:pytest_codspeed=5.0.3-r0
 
-C:Q1lnVz1stl8uzNv6mHyJAaM+QEalk=
+C:Q1atXc05rYVIrH59mVWnAoefkcLD4=
 P:py3-pytest-codspeed-doc
-V:5.0.2-r0
+V:5.0.3-r0
 A:aarch64
-S:4127
+S:4130
 I:5530
 T:Pytest plugin to create CodSpeed benchmarks (documentation)
 U:https://codspeed.io/
 L:MIT
 o:py3-pytest-codspeed
 m:Oleg Titov <oleg.titov@gmail.com>
-t:1778817102
-c:7006fa81bfaed2718d682fc937ee254b42896e7b
-i:docs py3-pytest-codspeed=5.0.2-r0
+t:1779712510
+c:80c5f8e9c21e63fd126ce95018c02f872b758186
+i:docs py3-pytest-codspeed=5.0.3-r0
 
-C:Q1GbToCOfesRBf3r8l15lgojMqkxs=
+C:Q1gbbD0JRfCtt9wlTStJ8uWDycwvA=
 P:py3-pytest-codspeed-pyc
-V:5.0.2-r0
+V:5.0.3-r0
 A:aarch64
-S:34694
-I:82546
+S:34335
+I:81771
 T:Precompiled Python bytecode for py3-pytest-codspeed
 U:https://codspeed.io/
 L:MIT
 o:py3-pytest-codspeed
 m:Oleg Titov <oleg.titov@gmail.com>
-t:1778817102
-c:7006fa81bfaed2718d682fc937ee254b42896e7b
+t:1779712510
+c:80c5f8e9c21e63fd126ce95018c02f872b758186
 D:python3~3.14
-i:py3-pytest-codspeed=5.0.2-r0 pyc
+i:py3-pytest-codspeed=5.0.3-r0 pyc
 
 C:Q1xl5/+EDvMJopRfXFRUWMEkpObyc=
 P:py3-pytest-console-scripts
@@ -293175,21 +293206,21 @@ c:e4453ce4fcefdd6d94741d0f640203e4a8e212e7
 D:so:libKF6Archive.so.6 so:libKF6Codecs.so.6 so:libKF6ColorScheme.so.6 so:libKF6ConfigCore.so.6 so:libKF6ConfigGui.so.6 so:libKF6ConfigWidgets.so.6 so:libKF6CoreAddons.so.6 so:libKF6Crash.so.6 so:libKF6DBusAddons.so.6 so:libKF6I18n.so.6 so:libKF6IconThemes.so.6 so:libKF6IdleTime.so.6 so:libKF6ItemViews.so.6 so:libKF6KIOCore.so.6 so:libKF6KIOGui.so.6 so:libKF6KIOWidgets.so.6 so:libKF6Notifications.so.6 so:libKF6NotifyConfig.so.6 so:libKF6Prison.so.6 so:libKF6Purpose.so.6 so:libKF6PurposeWidgets.so.6 so:libKF6Service.so.6 so:libKF6SonnetUi.so.6 so:libKF6StatusNotifierItem.so.6 so:libKF6SyntaxHighlighting.so.6 so:libKF6TextAddonsWidgets.so.1 so:libKF6TextAutoCorrectionCore.so.1 so:libKF6TextAutoCorrectionWidgets.so.1 so:libKF6TextAutoGenerateText.so.1 so:libKF6TextCustomEditor.so.1 so:libKF6TextEditTextToSpeech.so.1 so:libKF6TextEmoticonsCore.so.1 so:libKF6TextEmoticonsWidgets.so.1 so:libKF6TextTranslator.so.1 so:libKF6TextUtils.so.1 so:libKF6TextWidgets.so.6 so:libKF6UserFeedbackCore.so.6 so:libKF6UserFeedbackWidgets.so.6 so:libKF6WidgetsAddons.so.6 so:libKF6WindowSystem.so.6 so:libKF6XmlGui.so.6 so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Gui.so.6 so:libQt6Multimedia.so.6 so:libQt6MultimediaWidgets.so.6 so:libQt6Network.so.6 so:libQt6NetworkAuth.so.6 so:libQt6Sql.so.6 so:libQt6WebSockets.so.6 so:libQt6Widgets.so.6 so:libc.musl-aarch64.so.1 so:libqt6keychain.so.1 so:libstdc++.so.6
 p:cmd:ruqola=2.7.2-r0 so:librocketchatrestapi-qt.so.0=2.7.2 so:libruqolacore.so.0=2.7.2 so:libruqolawidgets.so.0=2.7.2
 
-C:Q1lf5XUDEcnobzZFAV8km98yzIJRw=
+C:Q1wy4oJFwHabAm8AXGth9CPXCv+Is=
 P:rust-analyzer
-V:2026.05.18-r0
+V:2026.05.25-r0
 A:aarch64
-S:9366175
-I:21084600
+S:9364304
+I:21084632
 T:Rust compiler front-end for IDEs
 U:https://github.com/rust-lang/rust-analyzer
 L:MIT OR Apache-2.0
 o:rust-analyzer
 m:team/rust <alpine@ptrcnull.me>
-t:1779108183
-c:6f5692dcd45436dac239d83b1833acac980a14b8
+t:1779706291
+c:1882ce7f3c13c2bc54bba2344e6077ca64b1a81a
 D:rust-src so:libc.musl-aarch64.so.1 so:libgcc_s.so.1 so:libmimalloc-secure.so.2
-p:cmd:rust-analyzer=2026.05.18-r0
+p:cmd:rust-analyzer=2026.05.25-r0
 
 C:Q1PHW+8GsYexa/tr/raubFNuIg2IU=
 P:rustlings
@@ -337185,20 +337216,20 @@ t:1776454797
 c:1e42418391da48efec37d28a7a36bcad1ae9348d
 i:systemd xdg-desktop-portal-wlr=0.8.2-r0
 
-C:Q1ez/EaHh9YBVuFstJAr7srbYWCF0=
+C:Q1AKk8b0FpGs6PwtTsaOAY3m6SuBk=
 P:xdg-desktop-portal-xapp
-V:1.0.4-r1
+V:1.1.3-r0
 A:aarch64
-S:39635
-I:133813
+S:45350
+I:199492
 T:xdg-desktop-portal backend for the xapp ecosystem
 U:https://github.com/linuxmint/xdg-desktop-portal-xapp
 L:LGPL-2.0-or-later
 o:xdg-desktop-portal-xapp
 m:Achill Gilgenast <achill@achill.org>
-t:1776503070
-c:2a691b33fba0f29287e58e32e68b77c3c840bacd
-D:xdg-desktop-portal so:libc.musl-aarch64.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8
+t:1779707057
+c:44bd552f1262830d3a6506a597165a8583b75ca2
+D:xdg-desktop-portal so:libc.musl-aarch64.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8
 
 C:Q1+iymW4oL7QxwdN213Z3BHT6GFlQ=
 P:xdg-document-portal
@@ -346136,36 +346167,36 @@ c:50bcdef493280b1fcd5106d99ee81fd6b72fa8e2
 D:so:libc.musl-aarch64.so.1
 p:so:libzix-0.so.0=0.8.0
 
-C:Q13KoIEIEpOxqmyaOpaaPB35tRyWA=
+C:Q1LYQEngQJk/wN+edRjbKSDh6nQUI=
 P:zizmor
-V:1.24.1-r0
+V:1.25.2-r0
 A:aarch64
-S:5064799
-I:12742680
+S:5101142
+I:12873768
 T:A static analysis tool for GitHub Actions
 U:https://github.com/zizmorcore/zizmor
 L:MIT
 o:zizmor
 m:Thiago Perrotta <tbperrotta@gmail.com>
-t:1776222485
-c:437ae91210d7cf479aed6f30c3e8adff772c321f
+t:1779712578
+c:baa837f208b877330d6b0dc7fb6aebc40e67d0ef
 D:so:libc.musl-aarch64.so.1 so:libgcc_s.so.1
-p:cmd:zizmor=1.24.1-r0
+p:cmd:zizmor=1.25.2-r0
 
-C:Q12Ccut/wB1YZ/xdzHpc3L7C5pENc=
+C:Q1oRu/n8+IJXKO0p7fich5Kk2FRek=
 P:zizmor-doc
-V:1.24.1-r0
+V:1.25.2-r0
 A:aarch64
-S:2312
+S:2307
 I:1109
 T:A static analysis tool for GitHub Actions (documentation)
 U:https://github.com/zizmorcore/zizmor
 L:MIT
 o:zizmor
 m:Thiago Perrotta <tbperrotta@gmail.com>
-t:1776222485
-c:437ae91210d7cf479aed6f30c3e8adff772c321f
-i:docs zizmor=1.24.1-r0
+t:1779712578
+c:baa837f208b877330d6b0dc7fb6aebc40e67d0ef
+i:docs zizmor=1.25.2-r0
 
 C:Q1v6LxWt0MHc0Co7x2ZAsukpzwRdA=
 P:zk

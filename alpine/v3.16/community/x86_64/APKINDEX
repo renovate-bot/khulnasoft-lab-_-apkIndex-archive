@@ -304,20 +304,6 @@ t:1626299249
 c:f60261a8b40d10ebedd83f0319bb8924565c67f2
 D:perl perl-carp-clan perl-bit-vector
 
-C:Q1P8gSkItPWX0KFfHk0lpltL33AM8=
-P:rtl8821ce-lts
-V:5.15.207-r0
-A:x86_64
-S:955923
-I:4268032
-T:Wifi drivers for Realtek 8821ce
-U:https://github.com/tomaspinho/rtl8821ce
-L:GPL-2.0-only
-o:rtl8821ce-lts
-m:Kevin Daudt <kdaudt@alpinelinux.org>
-t:1778927123
-c:6ecc6c2a82c6220bdf7423ca526ce33dd44bb550
-
 C:Q1sdFIuMFlyZlIM178F1Evq1LsSIo=
 P:openblas-ilp64
 V:0.3.20-r0
@@ -9006,22 +8992,6 @@ t:1621635945
 c:d0e1f58647e48f34bc6fae7f751e5d4814d7b5ee
 D:gtkspell3=3.0.10-r0 pc:enchant-2 pc:glib-2.0 pc:gtk+-3.0 pkgconfig
 p:pc:gtkspell3-3.0=3.0.10
-
-C:Q1pfnW8GBh1iZfRQen+4jwPtJgRXA=
-P:rtpengine-virt
-V:5.15.207-r0
-A:x86_64
-S:32903
-I:131072
-T: kernel modules for rtpengine
-U:https://github.com/sipwise/rtpengine
-L:GPL-3.0-only
-o:rtpengine-lts
-m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1778927129
-c:30fdaf394049e0404a64876a2aafa5ff602ccd3d
-D:linux-virt=5.15.207-r0
-i:rtpengine linux-virt=5.15.207-r0
 
 C:Q1Nl2c7GL8bT4X+AZzZxwlKMkQ4GE=
 P:gopass-fish-completion
@@ -48673,22 +48643,6 @@ t:1644856195
 c:f5095f0ce3f565f0425a42a817579c9a9989d561
 D:dbus xinit accountsservice gnome-themes-standard adwaita-icon-theme /bin/sh so:libX11.so.6 so:libXdmcp.so.6 so:libc.musl-x86_64.so.1 so:libgcrypt.so.20 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libpam.so.0 so:libxcb.so.1 so:libxklavier.so.16
 p:so:liblightdm-gobject-1.so.0=0.0.0 cmd:dm-tool=1.30.0-r5 cmd:lightdm-session=1.30.0-r5 cmd:lightdm=1.30.0-r5
-
-C:Q17QKAyJg4dV3bK2DNoHibfaRITkg=
-P:jool-modules-virt
-V:5.15.207-r0
-A:x86_64
-S:124617
-I:151552
-T:SIIT and NAT64 for Linux (kernel modules for linux-virt)
-U:https://jool.mx
-L:GPL-2.0-or-later
-o:jool-modules-lts
-m:Jakub Jirutka <jakub@jirutka.cz>
-t:1778927112
-c:5ddebfffe76a9029e810004d40e4a3ef43007145
-D:linux-virt=5.15.207-r0
-i:linux-virt=5.15.207-r0 jool-tools
 
 C:Q1Hu8rBopDraw1jOk2I1vOL7xMnjI=
 P:akonadi-calendar-tools-doc
@@ -90540,6 +90494,20 @@ c:6d85b1b07dd60d3fd6d825b04c1751d6d700cc6f
 D:py3-pyee python3
 p:py3.10:adapt=1.0.0-r1
 
+C:Q1EoYv27fIWxSDfqMWoRfnFopVK7I=
+P:rtl8821ce-lts
+V:5.15.208-r0
+A:x86_64
+S:955926
+I:4268032
+T:Wifi drivers for Realtek 8821ce
+U:https://github.com/tomaspinho/rtl8821ce
+L:GPL-2.0-only
+o:rtl8821ce-lts
+m:Kevin Daudt <kdaudt@alpinelinux.org>
+t:1779709391
+c:496e5c68954a49cc16f3bcfac5c3c130b85d50b3
+
 C:Q1k2hdyCXmeO7VFNKbPTzLOozGfZQ=
 P:libidl-dev
 V:0.8.14-r2
@@ -127346,6 +127314,21 @@ t:1602584752
 c:60f1a98d3ada3fa13141ad434679af90e532bf15
 i:docs dos2unix=7.4.2-r0
 
+C:Q17Om3vVIhk0qSoGCMbOT72mF9inI=
+P:rtpengine-lts
+V:5.15.208-r0
+A:x86_64
+S:33447
+I:135168
+T:Kernel module for rtpengine
+U:https://github.com/sipwise/rtpengine
+L:GPL-3.0-only
+o:rtpengine-lts
+m:Leonardo Arena <rnalrd@alpinelinux.org>
+t:1779709399
+c:6ac2086379d438cc0055144059b83064b77aed18
+i:rtpengine linux-lts=5.15.208-r0
+
 C:Q17TwCnu8SNpL6c0HWHkZ6BLLaB4A=
 P:xfce4-battery-plugin-lang
 V:1.1.4-r0
@@ -130361,6 +130344,22 @@ t:1629519817
 c:86878c2bb655de52b0cf48b5be50d64684efbb2b
 D:gpg
 p:cmd:tpm=1.3.3-r3
+
+C:Q1yZKQuj5XqdauDT3dpN6Kxji7oKw=
+P:jool-modules-virt
+V:5.15.208-r0
+A:x86_64
+S:124668
+I:151552
+T:SIIT and NAT64 for Linux (kernel modules for linux-virt)
+U:https://jool.mx
+L:GPL-2.0-or-later
+o:jool-modules-lts
+m:Jakub Jirutka <jakub@jirutka.cz>
+t:1779709379
+c:513f9c150689a66de94d9a03ee6a6e4ab2394581
+D:linux-virt=5.15.208-r0
+i:linux-virt=5.15.208-r0 jool-tools
 
 C:Q1aUBudqtqsvLeTr/0GWIWEdYN4RI=
 P:fstrcmp-dev
@@ -153279,6 +153278,22 @@ t:1653090903
 c:c0bd98ade0a7df658d6d2c03d8fe9ce79033834b
 i:mokutil=0.6.0-r0 bash-completion
 
+C:Q1mHzojx9+Fu3j2MD8jNZ3FcdnZOg=
+P:rtpengine-virt
+V:5.15.208-r0
+A:x86_64
+S:32906
+I:131072
+T: kernel modules for rtpengine
+U:https://github.com/sipwise/rtpengine
+L:GPL-3.0-only
+o:rtpengine-lts
+m:Leonardo Arena <rnalrd@alpinelinux.org>
+t:1779709399
+c:6ac2086379d438cc0055144059b83064b77aed18
+D:linux-virt=5.15.208-r0
+i:rtpengine linux-virt=5.15.208-r0
+
 C:Q1KYPN5l0OE/rPEr9mkUbrbogHCM0=
 P:xcb-util-wm-dev
 V:0.4.1-r1
@@ -166969,21 +166984,6 @@ c:20207fcb72a3de2771d7b6ea0574a8f3d7669b1f
 D:so:libKF5AkonadiContact.so.5 so:libKF5AkonadiCore.so.5 so:libKF5AkonadiSearchPIM.so.5 so:libKF5AkonadiWidgets.so.5 so:libKF5Archive.so.5 so:libKF5Codecs.so.5 so:libKF5Completion.so.5 so:libKF5ConfigCore.so.5 so:libKF5ConfigGui.so.5 so:libKF5ConfigWidgets.so.5 so:libKF5Contacts.so.5 so:libKF5CoreAddons.so.5 so:libKF5I18n.so.5 so:libKF5IMAP.so.5 so:libKF5ItemModels.so.5 so:libKF5ItemViews.so.5 so:libKF5JobWidgets.so.5 so:libKF5KCMUtils.so.5 so:libKF5KIOCore.so.5 so:libKF5KIOWidgets.so.5 so:libKF5Ldap.so.5 so:libKF5Libkdepim.so.5 so:libKF5NewStuff.so.5 so:libKF5NewStuffCore.so.5 so:libKF5PimTextEdit.so.5 so:libKF5Purpose.so.5 so:libKF5PurposeWidgets.so.5 so:libKF5WidgetsAddons.so.5 so:libKF5XmlGui.so.5 so:libQt5Core.so.5 so:libQt5DBus.so.5 so:libQt5Gui.so.5 so:libQt5Network.so.5 so:libQt5PrintSupport.so.5 so:libQt5Widgets.so.5 so:libQt5Xml.so.5 so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 p:so:libKF5PimCommon.so.5=5.20.3 so:libKF5PimCommonAkonadi.so.5=5.20.3
 
-C:Q1Y0Uk8AC+o7cx5tMlr1QDtxqoNfY=
-P:rtpengine-lts
-V:5.15.207-r0
-A:x86_64
-S:33444
-I:135168
-T:Kernel module for rtpengine
-U:https://github.com/sipwise/rtpengine
-L:GPL-3.0-only
-o:rtpengine-lts
-m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1778927129
-c:30fdaf394049e0404a64876a2aafa5ff602ccd3d
-i:rtpengine linux-lts=5.15.207-r0
-
 C:Q1A8wDTy7AslhAdtX2hCEcMfuzO7c=
 P:libksieve
 V:22.04.3-r0
@@ -172266,22 +172266,6 @@ t:1607656629
 c:bffb996dee3ebecfeaa757020d375b988b308a6d
 i:docs perl-data-validator=1.07-r0
 
-C:Q1QNp2Tzhl00r92e42eTTmDxqT3so=
-P:jool-modules-lts
-V:5.15.207-r0
-A:x86_64
-S:128863
-I:155648
-T:SIIT and NAT64 for Linux (kernel modules for linux-lts)
-U:https://jool.mx
-L:GPL-2.0-or-later
-o:jool-modules-lts
-m:Jakub Jirutka <jakub@jirutka.cz>
-t:1778927112
-c:5ddebfffe76a9029e810004d40e4a3ef43007145
-D:linux-lts=5.15.207-r0
-i:linux-lts=5.15.207-r0 jool-tools
-
 C:Q1Uv3nXxiWyDJyii50PVKB+C7OLUA=
 P:libreoffice-kf5
 V:7.2.7.2-r2
@@ -176174,6 +176158,22 @@ m:Leonardo Arena <rnalrd@alpinelinux.org>
 t:1671014156
 c:a620ff7cad1eabc965e28d6953b6dfbe4cb8408e
 D:nextcloud23
+
+C:Q1IoibHr7BuZ/eF4UFm7SwdVHQ3LM=
+P:jool-modules-lts
+V:5.15.208-r0
+A:x86_64
+S:128879
+I:155648
+T:SIIT and NAT64 for Linux (kernel modules for linux-lts)
+U:https://jool.mx
+L:GPL-2.0-or-later
+o:jool-modules-lts
+m:Jakub Jirutka <jakub@jirutka.cz>
+t:1779709379
+c:513f9c150689a66de94d9a03ee6a6e4ab2394581
+D:linux-lts=5.15.208-r0
+i:linux-lts=5.15.208-r0 jool-tools
 
 C:Q1cuqB5N8GZSzn5NmzBlvBz5ttSQQ=
 P:minidlna-doc
