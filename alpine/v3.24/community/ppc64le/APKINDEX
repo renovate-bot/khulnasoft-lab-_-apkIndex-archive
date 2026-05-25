@@ -18274,51 +18274,51 @@ t:1775421603
 c:97ac972d3668f20a755bdf65fae7320f7bba344a
 i:openrc bird=3.2.1-r0
 
-C:Q1FOb3HOcAmqULUfOP6bkvfuL5024=
+C:Q1ES7xabdU0oOLNiP1b8OGTjK12w8=
 P:bird2
-V:2.18.1-r0
+V:2.19.0-r0
 A:ppc64le
-S:496370
-I:1467421
+S:530303
+I:1467541
 T:BIRD Internet Routing Daemon
 U:https://bird.network.cz/
 L:GPL-2.0-or-later
 o:bird2
 m:Mike Crute <mike@crute.us>
-t:1775522824
-c:84b3d66302854316b506ee5299e47df7fee8a898
+t:1779726264
+c:c5a3d00a6818d8938760cdf063bcbee630385255
 D:/bin/sh so:libc.musl-ppc64le.so.1 so:libncursesw.so.6 so:libreadline.so.8 so:libssh.so.4
-p:cmd:bird=2.18.1-r0 cmd:birdc=2.18.1-r0 cmd:birdcl=2.18.1-r0
+p:cmd:bird=2.19.0-r0 cmd:birdc=2.19.0-r0 cmd:birdcl=2.19.0-r0
 
-C:Q1nLvp4lcyuWChv+XwZHxO3f+T0Dc=
+C:Q1Js/qT9WKgjwGqPxWM0FiVIDJpCY=
 P:bird2-dbg
-V:2.18.1-r0
+V:2.19.0-r0
 A:ppc64le
-S:1617116
-I:3529424
+S:1765157
+I:3847304
 T:BIRD Internet Routing Daemon (debug symbols)
 U:https://bird.network.cz/
 L:GPL-2.0-or-later
 o:bird2
 m:Mike Crute <mike@crute.us>
-t:1775522824
-c:84b3d66302854316b506ee5299e47df7fee8a898
-D:!bird2<2.18.1-r0 !bird2>2.18.1-r0
+t:1779726264
+c:c5a3d00a6818d8938760cdf063bcbee630385255
+D:!bird2<2.19.0-r0 !bird2>2.19.0-r0
 
-C:Q1FGlMcaLclu3kNsCh7pzmMN4HszM=
+C:Q1q96KS+FAKS++xadbkAyUwTRdfBI=
 P:bird2-openrc
-V:2.18.1-r0
+V:2.19.0-r0
 A:ppc64le
-S:2152
+S:2146
 I:1650
 T:BIRD Internet Routing Daemon (OpenRC init scripts)
 U:https://bird.network.cz/
 L:GPL-2.0-or-later
 o:bird2
 m:Mike Crute <mike@crute.us>
-t:1775522824
-c:84b3d66302854316b506ee5299e47df7fee8a898
-i:openrc bird2=2.18.1-r0
+t:1779726264
+c:c5a3d00a6818d8938760cdf063bcbee630385255
+i:openrc bird2=2.19.0-r0
 
 C:Q1qPxCYmMsQIZH1+rttzN2+qhSs5M=
 P:bird_exporter
@@ -19060,6 +19060,67 @@ m:Leon White <badfunkstripe@gmail.com>
 t:1763234071
 c:085152d8e8c2920e532626ab5fc2279700e6636f
 D:blend2d=0.21.2-r0
+
+C:Q1ISF2H+Ci5voStyd9HfSHVWoO0uk=
+P:blender
+V:5.1.2-r0
+A:ppc64le
+S:44006754
+I:113685131
+T:3D Creation/Animation/Publishing System
+U:https://www.blender.org/
+L:GPL-2.0-or-later
+o:blender
+m:Leon Marz <main@lmarz.org>
+t:1779720820
+c:fa0f7f910233f59bad0181ef5cea23a945ff4c20
+D:blender-shared=5.1.2-r0 so:libAlembic.so.1.8 so:libIex-3_4.so.33 so:libImath-3_2.so.30 so:libOpenColorIO.so.2.5 so:libOpenEXR-3_4.so.33 so:libOpenImageIO.so.3.1 so:libOpenImageIO_Util.so.3.1 so:libX11.so.6 so:libXfixes.so.3 so:libXi.so.6 so:libavcodec.so.62 so:libavdevice.so.62 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-ppc64le.so.1 so:libceres.so.4 so:libepoxy.so.0 so:libfftw3.so.3 so:libfftw3f.so.3 so:libfftw3f_threads.so.3 so:libfmt.so.11 so:libfreetype.so.6 so:libgcc_s.so.1 so:libgflags.so.2.3 so:libglog.so.2 so:libgmp.so.10 so:libhpdf.so.2.4 so:libjack.so.0 so:libjpeg.so.8 so:libopenal.so.1 so:libopenjp2.so.7 so:libopenvdb.so.13.0 so:libopenxr_loader.so.1 so:libosdCPU.so.3.6.1 so:libosdGPU.so.3.6.1 so:libpipewire-0.3.so.0 so:libpng16.so.16 so:libpotrace.so.0 so:libpugixml.so.1 so:libpulse.so.0 so:libpython3.14.so.1.0 so:librubberband.so.3 so:libshaderc_shared.so.1 so:libsndfile.so.1 so:libstdc++.so.6 so:libswscale.so.9 so:libtbb.so.12 so:libtbbmalloc.so.2 so:libvulkan.so.1 so:libwebp.so.7 so:libxkbcommon.so.0 so:libz.so.1 so:libzstd.so.1
+p:cmd:blender-thumbnailer=5.1.2-r0 cmd:blender=5.1.2-r0
+
+C:Q1gowY7O12wdgm4RoMXRT5XqxvsMo=
+P:blender-doc
+V:5.1.2-r0
+A:ppc64le
+S:120602
+I:396096
+T:3D Creation/Animation/Publishing System (documentation)
+U:https://www.blender.org/
+L:GPL-2.0-or-later
+o:blender
+m:Leon Marz <main@lmarz.org>
+t:1779720820
+c:fa0f7f910233f59bad0181ef5cea23a945ff4c20
+i:docs blender=5.1.2-r0
+
+C:Q13mNv5M028pL8pXmz3WWHXaTo6Wg=
+P:blender-headless
+V:5.1.2-r0
+A:ppc64le
+S:39202541
+I:105109200
+T:3D Creation/Animation/Publishing System (headless build)
+U:https://www.blender.org/
+L:GPL-2.0-or-later
+o:blender
+m:Leon Marz <main@lmarz.org>
+t:1779720820
+c:fa0f7f910233f59bad0181ef5cea23a945ff4c20
+D:blender-shared=5.1.2-r0 so:libAlembic.so.1.8 so:libIex-3_4.so.33 so:libImath-3_2.so.30 so:libOpenColorIO.so.2.5 so:libOpenEXR-3_4.so.33 so:libOpenImageIO.so.3.1 so:libOpenImageIO_Util.so.3.1 so:libc.musl-ppc64le.so.1 so:libceres.so.4 so:libepoxy.so.0 so:libfftw3.so.3 so:libfftw3f.so.3 so:libfftw3f_threads.so.3 so:libfmt.so.11 so:libfreetype.so.6 so:libgcc_s.so.1 so:libgflags.so.2.3 so:libglog.so.2 so:libgmp.so.10 so:libhpdf.so.2.4 so:libjpeg.so.8 so:libopenjp2.so.7 so:libopenvdb.so.13.0 so:libosdCPU.so.3.6.1 so:libosdGPU.so.3.6.1 so:libpng16.so.16 so:libpotrace.so.0 so:libpugixml.so.1 so:libpython3.14.so.1.0 so:libshaderc_shared.so.1 so:libstdc++.so.6 so:libtbb.so.12 so:libtbbmalloc.so.2 so:libvulkan.so.1 so:libwebp.so.7 so:libz.so.1 so:libzstd.so.1
+p:cmd:blender-headless=5.1.2-r0
+
+C:Q1LcQWcM6Y8dtl7GQ3CCTCxBoj7os=
+P:blender-shared
+V:5.1.2-r0
+A:ppc64le
+S:61157452
+I:142925763
+T:Blender shared runtime data and add-on scripts
+U:https://www.blender.org/
+L:GPL-2.0-or-later
+o:blender
+m:Leon Marz <main@lmarz.org>
+t:1779720820
+c:fa0f7f910233f59bad0181ef5cea23a945ff4c20
 
 C:Q1g1qjtNRkR8+BG/QEp0/stWvFrGM=
 P:blind
@@ -90653,19 +90714,19 @@ t:1777574736
 c:710bb5a4d51dba6e60e49d4bc8539a1e3d4597ab
 i:ibus=1.5.34-r0 pyc
 
-C:Q1X+um6RVKk8aKe7/E3/agWcjMyi0=
+C:Q1LyovwncfBKh8L6tT7LPov1BFB2o=
 P:ibus-rime
-V:1.6.0-r0
+V:1.6.1-r0
 A:ppc64le
-S:26152
+S:26161
 I:93549
 T:Chinese input method Rime for IBus Framework
 U:https://github.com/rime/ibus-rime
 L:GPL-3.0-or-later
 o:ibus-rime
 m:mio <miyopan@e.email>
-t:1767797491
-c:28b59d913df6f1eb50de0bb257b455731d623617
+t:1779727052
+c:d372d481277ed86054b9e9bb36255d55d033b64d
 D:rime-plum-data so:libc.musl-ppc64le.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libibus-1.0.so.5 so:libnotify.so.4 so:librime.so.1
 
 C:Q1WBUR2TBmwewXYS8DQocTFbDroCY=
@@ -128734,67 +128795,67 @@ t:1684120357
 c:33283848034c9885d984c8e8697c645c57324938
 i:docs liboauth=1.0.3-r5
 
-C:Q1iUk8rZ9Pr0HPD9RCvLGO2TaL3mo=
+C:Q1oeSxleWZBHIUo+pj/jhcu7Gan5k=
 P:libobjfw1
-V:1.5.1-r0
+V:1.5.4-r0
 A:ppc64le
-S:938157
-I:4058480
+S:939114
+I:4058640
 T:Library needed by programs using ObjFW
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1773032936
-c:57aa1f60cf65a2ed2d077e2cb640f2d9ba316a96
+t:1779726067
+c:a70e74a3fd44bd2eda16bd028cef9426f4790fa5
 D:so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libobjfwrt.so.1
-p:so:libobjfw.so.1=1.5.0
+p:so:libobjfw.so.1=1.5.4
 
-C:Q1gXffsqXODHOsnCaQXyz0FqaO2ug=
+C:Q1m2sr3lMGFvRNDAcg62rUXJ/eOPw=
 P:libobjfwhid1
-V:1.5.1-r0
+V:1.5.4-r0
 A:ppc64le
-S:83587
+S:83588
 I:463776
 T:Library for HID support for ObjFW
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1773032936
-c:57aa1f60cf65a2ed2d077e2cb640f2d9ba316a96
+t:1779726067
+c:a70e74a3fd44bd2eda16bd028cef9426f4790fa5
 D:so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1
 p:so:libobjfwhid.so.1=1.5.0
 
-C:Q1jh1s/sdTpssylxNZ62zOpHTWPpw=
+C:Q1sdjy7ysitdiTRSS8fwQ2tG5TgBI=
 P:libobjfwrt1
-V:1.5.1-r0
+V:1.5.4-r0
 A:ppc64le
-S:30296
+S:30302
 I:134688
 T:ObjFW Objective-C runtime library
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1773032936
-c:57aa1f60cf65a2ed2d077e2cb640f2d9ba316a96
+t:1779726067
+c:a70e74a3fd44bd2eda16bd028cef9426f4790fa5
 D:so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1
-p:so:libobjfwrt.so.1=1.5.1
+p:so:libobjfwrt.so.1=1.5.2
 
-C:Q1NfHvnTx3ZPPuDsS8Dl63MRu/03M=
+C:Q1xjFIBXAVIw5he4RHev9bjhfNLBU=
 P:libobjfwtls1
-V:1.5.1-r0
+V:1.5.4-r0
 A:ppc64le
-S:17816
+S:17818
 I:75208
 T:Library for TLS support for ObjFW
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1773032936
-c:57aa1f60cf65a2ed2d077e2cb640f2d9ba316a96
+t:1779726067
+c:a70e74a3fd44bd2eda16bd028cef9426f4790fa5
 D:so:libc.musl-ppc64le.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1 so:libssl.so.3
 p:so:libobjfwtls.so.1=1.5.0
 
@@ -153702,21 +153763,21 @@ t:1779021940
 c:27686b439ab7c8664e74eb904eb70d11f8b4422d
 i:openrc mautrix-whatsapp=0.2605.0-r0
 
-C:Q1zW7WJlK12OaGLHEL0wddVcTtIZ4=
+C:Q1XlJRSGdSDzUMGf3aP+774AZuZo4=
 P:maven
-V:3.9.15-r0
+V:3.9.16-r0
 A:ppc64le
-S:9109300
-I:10182519
+S:9155422
+I:10230690
 T:Java project management and project comprehension tool
 U:https://maven.apache.org/
 L:Apache-2.0
 o:maven
 m:Stuart Cardall <developer@it-offshore.co.uk>
-t:1776725004
-c:6e2944751040dba7ed77abd4b7e340efbec01500
+t:1779724872
+c:49451c2614ca5bf96effddae31a129c9c8941a4e
 D:java-jdk
-p:cmd:mvn=3.9.15-r0 cmd:mvnDebug=3.9.15-r0 cmd:mvnyjp=3.9.15-r0
+p:cmd:mvn=3.9.16-r0 cmd:mvnDebug=3.9.16-r0 cmd:mvnyjp=3.9.16-r0
 
 C:Q1SkTq0wZN+fupOw1o5cjWPcN5yWo=
 P:mbedtls2
@@ -169367,66 +169428,66 @@ t:1769978999
 c:acc66f8f67476c901ef5dcbba5a2dbab4db8ef95
 i:obfuscate=0.0.10-r0 lang
 
-C:Q1cyiAgfqMlGWFR+AmLYN8CuGU4To=
+C:Q1vAF34BWnfaSkRP77DdYnGu74Nf0=
 P:objfw
-V:1.5.1-r0
+V:1.5.4-r0
 A:ppc64le
-S:79363
+S:79375
 I:334170
 T:Portable, lightweight framework for the Objective-C language
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1773032936
-c:57aa1f60cf65a2ed2d077e2cb640f2d9ba316a96
-D:libobjfw1=1.5.1-r0 libobjfwrt1=1.5.1-r0 libobjfwtls1=1.5.1-r0 libobjfwhid1=1.5.1-r0 objfw-dev=1.5.1-r0 objfw-doc=1.5.1-r0 ofarc=1.5.1-r0 ofdns=1.5.1-r0 ofhash=1.5.1-r0 ofhttp=1.5.1-r0 ofgctester=1.5.1-r0
+t:1779726067
+c:a70e74a3fd44bd2eda16bd028cef9426f4790fa5
+D:libobjfw1=1.5.4-r0 libobjfwrt1=1.5.4-r0 libobjfwtls1=1.5.4-r0 libobjfwhid1=1.5.4-r0 objfw-dev=1.5.4-r0 objfw-doc=1.5.4-r0 ofarc=1.5.4-r0 ofdns=1.5.4-r0 ofhash=1.5.4-r0 ofhttp=1.5.4-r0 ofgctester=1.5.4-r0
 
-C:Q1BwRGATX4S5IIMqKeMqhb/6Gb7XU=
+C:Q1fjT4UCJTLAx+xF2oqCDCNbQlv4g=
 P:objfw-dbg
-V:1.5.1-r0
+V:1.5.4-r0
 A:ppc64le
-S:1505405
-I:4545640
+S:1506610
+I:4548440
 T:Portable, lightweight framework for the Objective-C language (debug symbols)
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1773032936
-c:57aa1f60cf65a2ed2d077e2cb640f2d9ba316a96
-D:!libobjfw1<1.5.1-r0 !libobjfw1>1.5.1-r0 !libobjfwhid1<1.5.1-r0 !libobjfwhid1>1.5.1-r0 !libobjfwrt1<1.5.1-r0 !libobjfwrt1>1.5.1-r0 !libobjfwtls1<1.5.1-r0 !libobjfwtls1>1.5.1-r0 !objfw-dev<1.5.1-r0 !objfw-dev>1.5.1-r0 !ofarc<1.5.1-r0 !ofarc>1.5.1-r0 !ofdns<1.5.1-r0 !ofdns>1.5.1-r0 !ofgctester<1.5.1-r0 !ofgctester>1.5.1-r0 !ofhash<1.5.1-r0 !ofhash>1.5.1-r0 !ofhttp<1.5.1-r0 !ofhttp>1.5.1-r0
+t:1779726067
+c:a70e74a3fd44bd2eda16bd028cef9426f4790fa5
+D:!libobjfw1<1.5.4-r0 !libobjfw1>1.5.4-r0 !libobjfwhid1<1.5.4-r0 !libobjfwhid1>1.5.4-r0 !libobjfwrt1<1.5.4-r0 !libobjfwrt1>1.5.4-r0 !libobjfwtls1<1.5.4-r0 !libobjfwtls1>1.5.4-r0 !objfw-dev<1.5.4-r0 !objfw-dev>1.5.4-r0 !ofarc<1.5.4-r0 !ofarc>1.5.4-r0 !ofdns<1.5.4-r0 !ofdns>1.5.4-r0 !ofgctester<1.5.4-r0 !ofgctester>1.5.4-r0 !ofhash<1.5.4-r0 !ofhash>1.5.4-r0 !ofhttp<1.5.4-r0 !ofhttp>1.5.4-r0
 
-C:Q17yePNQr/rTySVJNyknFK9KajxYo=
+C:Q1cA2GaQ+v4ewnrkc7IfCQpWqhP/w=
 P:objfw-dev
-V:1.5.1-r0
+V:1.5.4-r0
 A:ppc64le
-S:221640
-I:1386576
+S:221764
+I:1387181
 T:Portable, lightweight framework for the Objective-C language
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1773032936
-c:57aa1f60cf65a2ed2d077e2cb640f2d9ba316a96
-D:clang22 libobjfw1=1.5.1-r0 libobjfwhid1=1.5.1-r0 libobjfwrt1=1.5.1-r0 libobjfwtls1=1.5.1-r0 so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1
-p:cmd:objfw-compile=1.5.1-r0 cmd:objfw-config=1.5.1-r0 cmd:objfw-embed=1.5.1-r0 cmd:objfw-new=1.5.1-r0
+t:1779726067
+c:a70e74a3fd44bd2eda16bd028cef9426f4790fa5
+D:clang22 libobjfw1=1.5.4-r0 libobjfwhid1=1.5.4-r0 libobjfwrt1=1.5.4-r0 libobjfwtls1=1.5.4-r0 so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1
+p:cmd:objfw-compile=1.5.4-r0 cmd:objfw-config=1.5.4-r0 cmd:objfw-embed=1.5.4-r0 cmd:objfw-new=1.5.4-r0
 
-C:Q1UtUiM4DQnwzGPwggDz7/G2rT4FQ=
+C:Q14wNn/aPY8NXiPQzqRsRR/nmzcLc=
 P:objfw-doc
-V:1.5.1-r0
+V:1.5.4-r0
 A:ppc64le
-S:5252269
-I:38952559
+S:5254851
+I:38962153
 T:Portable, lightweight framework for the Objective-C language (documentation)
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1773032936
-c:57aa1f60cf65a2ed2d077e2cb640f2d9ba316a96
-i:docs objfw=1.5.1-r0
+t:1779726067
+c:a70e74a3fd44bd2eda16bd028cef9426f4790fa5
+i:docs objfw=1.5.4-r0
 
 C:Q1VQAAuo4YuI4p+L3+K+g5rZohlok=
 P:obs-studio
@@ -175005,37 +175066,37 @@ t:1771160091
 c:a9e2a2dc46f377eb25884f7fea9834492de7f518
 i:docs oed=7.4-r1
 
-C:Q1B2qlVbpa/SdvWnjSoE3bfYsBrG0=
+C:Q1jKxWCvwB6SwpzSpEY9VPPfCH6mY=
 P:ofarc
-V:1.5.1-r0
+V:1.5.4-r0
 A:ppc64le
-S:64023
-I:263133
+S:64569
+I:263210
 T:Utility for handling ZIP, Tar and LHA archives
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1773032936
-c:57aa1f60cf65a2ed2d077e2cb640f2d9ba316a96
+t:1779726067
+c:a70e74a3fd44bd2eda16bd028cef9426f4790fa5
 D:so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1 so:libobjfwtls.so.1
-p:cmd:ofarc=1.5.1-r0
+p:cmd:ofarc=1.5.4-r0
 
-C:Q1n4McJmVbvUr/cUIZIi7LQMcOPVU=
+C:Q1cEnS7Q8AkovCtaKT+C2KoGfsiQE=
 P:ofdns
-V:1.5.1-r0
+V:1.5.4-r0
 A:ppc64le
-S:11910
+S:11912
 I:74556
 T:Utility for performing DNS requests on the command line
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1773032936
-c:57aa1f60cf65a2ed2d077e2cb640f2d9ba316a96
+t:1779726067
+c:a70e74a3fd44bd2eda16bd028cef9426f4790fa5
 D:so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1
-p:cmd:ofdns=1.5.1-r0
+p:cmd:ofdns=1.5.4-r0
 
 C:Q1YrjjRWeVWHCZc/P5KPZtX1JUrwc=
 P:offlineimap
@@ -175146,53 +175207,53 @@ t:1774640425
 c:d9901ead65d37dba049ea4f9e7d6f504788b7984
 D:offpunk=3.1-r1 py3-beautifulsoup4 py3-chardet py3-feedparser py3-setproctitle
 
-C:Q1SRkvCeGJotw6amGUunp+kK+j6SM=
+C:Q1CRNpB5Z+Nt8i0zKS5BmBHcC2et8=
 P:ofgctester
-V:1.5.1-r0
+V:1.5.4-r0
 A:ppc64le
-S:12160
+S:12168
 I:74016
 T:Game controller tester for the terminal
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1773032936
-c:57aa1f60cf65a2ed2d077e2cb640f2d9ba316a96
+t:1779726067
+c:a70e74a3fd44bd2eda16bd028cef9426f4790fa5
 D:so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwhid.so.1 so:libobjfwrt.so.1
-p:cmd:ofgctester=1.5.1-r0
+p:cmd:ofgctester=1.5.4-r0
 
-C:Q1W57DP7m8nezuzavGkMERLIKs6Js=
+C:Q1zPnxxYqltLEFwJsNOnNqYYXM+Mk=
 P:ofhash
-V:1.5.1-r0
+V:1.5.4-r0
 A:ppc64le
-S:12481
+S:12483
 I:74799
 T:Utility to hash files with various cryptographic hashes
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1773032936
-c:57aa1f60cf65a2ed2d077e2cb640f2d9ba316a96
+t:1779726067
+c:a70e74a3fd44bd2eda16bd028cef9426f4790fa5
 D:so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1 so:libobjfwtls.so.1
-p:cmd:ofhash=1.5.1-r0
+p:cmd:ofhash=1.5.4-r0
 
-C:Q1sO0tp15TGXse8y0RAGw2mQKD3Rg=
+C:Q172M+RQbbm+mV3ardGiPrrbGaODM=
 P:ofhttp
-V:1.5.1-r0
+V:1.5.4-r0
 A:ppc64le
-S:33733
-I:156188
+S:33743
+I:156204
 T:Command line downloader for HTTP(S)
 U:https://objfw.nil.im/
 L:LGPL-3.0-only
 o:objfw
 m:Jonathan Schleifer <js@nil.im>
-t:1773032936
-c:57aa1f60cf65a2ed2d077e2cb640f2d9ba316a96
+t:1779726067
+c:a70e74a3fd44bd2eda16bd028cef9426f4790fa5
 D:so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libobjfw.so.1 so:libobjfwrt.so.1 so:libobjfwtls.so.1
-p:cmd:ofhttp=1.5.1-r0
+p:cmd:ofhttp=1.5.4-r0
 
 C:Q1Nz/9le7lBQ0UWVFyKnOLPO/tEVo=
 P:ofono
@@ -224228,6 +224289,21 @@ t:1774640389
 c:efed5290f3c43f66061fa3a87858ac344d54ad7d
 D:python3~3.14
 i:py3-bleach=5.0.1-r4 pyc
+
+C:Q10Ap7zyWseNqMp5YhsxDEx6SU1DQ=
+P:py3-blender
+V:5.1.2-r0
+A:ppc64le
+S:43925599
+I:113708152
+T:Blender modules for Python 3
+U:https://www.blender.org/
+L:GPL-2.0-or-later
+o:blender
+m:Leon Marz <main@lmarz.org>
+t:1779720820
+c:fa0f7f910233f59bad0181ef5cea23a945ff4c20
+D:py3-numpy py3-zstandard blender-shared=5.1.2-r0 python3~3.14 so:libAlembic.so.1.8 so:libIex-3_4.so.33 so:libImath-3_2.so.30 so:libOpenColorIO.so.2.5 so:libOpenEXR-3_4.so.33 so:libOpenImageIO.so.3.1 so:libOpenImageIO_Util.so.3.1 so:libX11.so.6 so:libXfixes.so.3 so:libXi.so.6 so:libavcodec.so.62 so:libavdevice.so.62 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-ppc64le.so.1 so:libceres.so.4 so:libepoxy.so.0 so:libfftw3.so.3 so:libfftw3f.so.3 so:libfftw3f_threads.so.3 so:libfmt.so.11 so:libfreetype.so.6 so:libgcc_s.so.1 so:libgflags.so.2.3 so:libglog.so.2 so:libgmp.so.10 so:libhpdf.so.2.4 so:libjpeg.so.8 so:libopenjp2.so.7 so:libopenvdb.so.13.0 so:libopenxr_loader.so.1 so:libosdCPU.so.3.6.1 so:libosdGPU.so.3.6.1 so:libpipewire-0.3.so.0 so:libpng16.so.16 so:libpotrace.so.0 so:libpugixml.so.1 so:librubberband.so.3 so:libshaderc_shared.so.1 so:libsndfile.so.1 so:libstdc++.so.6 so:libswscale.so.9 so:libtbb.so.12 so:libvulkan.so.1 so:libwebp.so.7 so:libxkbcommon.so.0 so:libz.so.1 so:libzstd.so.1
 
 C:Q1jawWWh6eIk5JqQGoZJ668oHSDX0=
 P:py3-blessed
