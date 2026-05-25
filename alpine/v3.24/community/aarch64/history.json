@@ -17887,7 +17887,8 @@
     "bird2": {
       "origin": "bird2",
       "versions": {
-        "2.18.1-r0": 1775522824
+        "2.18.1-r0": 1775522824,
+        "2.19.0-r0": 1779726264
       },
       "dependencies": [
         "/bin/sh",
@@ -17897,25 +17898,27 @@
         "so:libssh.so.4"
       ],
       "provides": [
-        "cmd:bird=2.18.1-r0",
-        "cmd:birdc=2.18.1-r0",
-        "cmd:birdcl=2.18.1-r0"
+        "cmd:bird=2.19.0-r0",
+        "cmd:birdc=2.19.0-r0",
+        "cmd:birdcl=2.19.0-r0"
       ]
     },
     "bird2-dbg": {
       "origin": "bird2",
       "versions": {
-        "2.18.1-r0": 1775522824
+        "2.18.1-r0": 1775522824,
+        "2.19.0-r0": 1779726264
       },
       "dependencies": [
-        "!bird2<2.18.1-r0",
-        "!bird2>2.18.1-r0"
+        "!bird2<2.19.0-r0",
+        "!bird2>2.19.0-r0"
       ]
     },
     "bird2-openrc": {
       "origin": "bird2",
       "versions": {
-        "2.18.1-r0": 1775522824
+        "2.18.1-r0": 1775522824,
+        "2.19.0-r0": 1779726264
       }
     },
     "bird_exporter": {
@@ -125933,7 +125936,8 @@
     "libobjfw1": {
       "origin": "objfw",
       "versions": {
-        "1.5.1-r0": 1773032936
+        "1.5.1-r0": 1773032936,
+        "1.5.4-r0": 1779726067
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -125941,13 +125945,14 @@
         "so:libobjfwrt.so.1"
       ],
       "provides": [
-        "so:libobjfw.so.1=1.5.0"
+        "so:libobjfw.so.1=1.5.4"
       ]
     },
     "libobjfwhid1": {
       "origin": "objfw",
       "versions": {
-        "1.5.1-r0": 1773032936
+        "1.5.1-r0": 1773032936,
+        "1.5.4-r0": 1779726067
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -125962,20 +125967,22 @@
     "libobjfwrt1": {
       "origin": "objfw",
       "versions": {
-        "1.5.1-r0": 1773032936
+        "1.5.1-r0": 1773032936,
+        "1.5.4-r0": 1779726067
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "so:libobjfwrt.so.1=1.5.1"
+        "so:libobjfwrt.so.1=1.5.2"
       ]
     },
     "libobjfwtls1": {
       "origin": "objfw",
       "versions": {
-        "1.5.1-r0": 1773032936
+        "1.5.1-r0": 1773032936,
+        "1.5.4-r0": 1779726067
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -147552,15 +147559,16 @@
     "maven": {
       "origin": "maven",
       "versions": {
-        "3.9.15-r0": 1776725004
+        "3.9.15-r0": 1776725004,
+        "3.9.16-r0": 1779724872
       },
       "dependencies": [
         "java-jdk"
       ],
       "provides": [
-        "cmd:mvn=3.9.15-r0",
-        "cmd:mvnDebug=3.9.15-r0",
-        "cmd:mvnyjp=3.9.15-r0"
+        "cmd:mvn=3.9.16-r0",
+        "cmd:mvnDebug=3.9.16-r0",
+        "cmd:mvnyjp=3.9.16-r0"
       ]
     },
     "mbedtls2": {
@@ -162697,77 +162705,81 @@
     "objfw": {
       "origin": "objfw",
       "versions": {
-        "1.5.1-r0": 1773032936
+        "1.5.1-r0": 1773032936,
+        "1.5.4-r0": 1779726067
       },
       "dependencies": [
-        "libobjfw1=1.5.1-r0",
-        "libobjfwrt1=1.5.1-r0",
-        "libobjfwtls1=1.5.1-r0",
-        "libobjfwhid1=1.5.1-r0",
-        "objfw-dev=1.5.1-r0",
-        "objfw-doc=1.5.1-r0",
-        "ofarc=1.5.1-r0",
-        "ofdns=1.5.1-r0",
-        "ofhash=1.5.1-r0",
-        "ofhttp=1.5.1-r0",
-        "ofgctester=1.5.1-r0"
+        "libobjfw1=1.5.4-r0",
+        "libobjfwrt1=1.5.4-r0",
+        "libobjfwtls1=1.5.4-r0",
+        "libobjfwhid1=1.5.4-r0",
+        "objfw-dev=1.5.4-r0",
+        "objfw-doc=1.5.4-r0",
+        "ofarc=1.5.4-r0",
+        "ofdns=1.5.4-r0",
+        "ofhash=1.5.4-r0",
+        "ofhttp=1.5.4-r0",
+        "ofgctester=1.5.4-r0"
       ]
     },
     "objfw-dbg": {
       "origin": "objfw",
       "versions": {
-        "1.5.1-r0": 1773032936
+        "1.5.1-r0": 1773032936,
+        "1.5.4-r0": 1779726067
       },
       "dependencies": [
-        "!libobjfw1<1.5.1-r0",
-        "!libobjfw1>1.5.1-r0",
-        "!libobjfwhid1<1.5.1-r0",
-        "!libobjfwhid1>1.5.1-r0",
-        "!libobjfwrt1<1.5.1-r0",
-        "!libobjfwrt1>1.5.1-r0",
-        "!libobjfwtls1<1.5.1-r0",
-        "!libobjfwtls1>1.5.1-r0",
-        "!objfw-dev<1.5.1-r0",
-        "!objfw-dev>1.5.1-r0",
-        "!ofarc<1.5.1-r0",
-        "!ofarc>1.5.1-r0",
-        "!ofdns<1.5.1-r0",
-        "!ofdns>1.5.1-r0",
-        "!ofgctester<1.5.1-r0",
-        "!ofgctester>1.5.1-r0",
-        "!ofhash<1.5.1-r0",
-        "!ofhash>1.5.1-r0",
-        "!ofhttp<1.5.1-r0",
-        "!ofhttp>1.5.1-r0"
+        "!libobjfw1<1.5.4-r0",
+        "!libobjfw1>1.5.4-r0",
+        "!libobjfwhid1<1.5.4-r0",
+        "!libobjfwhid1>1.5.4-r0",
+        "!libobjfwrt1<1.5.4-r0",
+        "!libobjfwrt1>1.5.4-r0",
+        "!libobjfwtls1<1.5.4-r0",
+        "!libobjfwtls1>1.5.4-r0",
+        "!objfw-dev<1.5.4-r0",
+        "!objfw-dev>1.5.4-r0",
+        "!ofarc<1.5.4-r0",
+        "!ofarc>1.5.4-r0",
+        "!ofdns<1.5.4-r0",
+        "!ofdns>1.5.4-r0",
+        "!ofgctester<1.5.4-r0",
+        "!ofgctester>1.5.4-r0",
+        "!ofhash<1.5.4-r0",
+        "!ofhash>1.5.4-r0",
+        "!ofhttp<1.5.4-r0",
+        "!ofhttp>1.5.4-r0"
       ]
     },
     "objfw-dev": {
       "origin": "objfw",
       "versions": {
-        "1.5.1-r0": 1773032936
+        "1.5.1-r0": 1773032936,
+        "1.5.4-r0": 1779726067
       },
       "dependencies": [
         "clang22",
-        "libobjfw1=1.5.1-r0",
-        "libobjfwhid1=1.5.1-r0",
-        "libobjfwrt1=1.5.1-r0",
-        "libobjfwtls1=1.5.1-r0",
+        "libobjfw1=1.5.4-r0",
+        "libobjfwhid1=1.5.4-r0",
+        "libobjfwrt1=1.5.4-r0",
+        "libobjfwtls1=1.5.4-r0",
         "so:libc.musl-aarch64.so.1",
         "so:libgcc_s.so.1",
         "so:libobjfw.so.1",
         "so:libobjfwrt.so.1"
       ],
       "provides": [
-        "cmd:objfw-compile=1.5.1-r0",
-        "cmd:objfw-config=1.5.1-r0",
-        "cmd:objfw-embed=1.5.1-r0",
-        "cmd:objfw-new=1.5.1-r0"
+        "cmd:objfw-compile=1.5.4-r0",
+        "cmd:objfw-config=1.5.4-r0",
+        "cmd:objfw-embed=1.5.4-r0",
+        "cmd:objfw-new=1.5.4-r0"
       ]
     },
     "objfw-doc": {
       "origin": "objfw",
       "versions": {
-        "1.5.1-r0": 1773032936
+        "1.5.1-r0": 1773032936,
+        "1.5.4-r0": 1779726067
       }
     },
     "obs-studio": {
@@ -181577,7 +181589,8 @@
     "ofarc": {
       "origin": "objfw",
       "versions": {
-        "1.5.1-r0": 1773032936
+        "1.5.1-r0": 1773032936,
+        "1.5.4-r0": 1779726067
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -181587,13 +181600,14 @@
         "so:libobjfwtls.so.1"
       ],
       "provides": [
-        "cmd:ofarc=1.5.1-r0"
+        "cmd:ofarc=1.5.4-r0"
       ]
     },
     "ofdns": {
       "origin": "objfw",
       "versions": {
-        "1.5.1-r0": 1773032936
+        "1.5.1-r0": 1773032936,
+        "1.5.4-r0": 1779726067
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -181602,7 +181616,7 @@
         "so:libobjfwrt.so.1"
       ],
       "provides": [
-        "cmd:ofdns=1.5.1-r0"
+        "cmd:ofdns=1.5.4-r0"
       ]
     },
     "offlineimap": {
@@ -181705,7 +181719,8 @@
     "ofgctester": {
       "origin": "objfw",
       "versions": {
-        "1.5.1-r0": 1773032936
+        "1.5.1-r0": 1773032936,
+        "1.5.4-r0": 1779726067
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -181715,13 +181730,14 @@
         "so:libobjfwrt.so.1"
       ],
       "provides": [
-        "cmd:ofgctester=1.5.1-r0"
+        "cmd:ofgctester=1.5.4-r0"
       ]
     },
     "ofhash": {
       "origin": "objfw",
       "versions": {
-        "1.5.1-r0": 1773032936
+        "1.5.1-r0": 1773032936,
+        "1.5.4-r0": 1779726067
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -181731,13 +181747,14 @@
         "so:libobjfwtls.so.1"
       ],
       "provides": [
-        "cmd:ofhash=1.5.1-r0"
+        "cmd:ofhash=1.5.4-r0"
       ]
     },
     "ofhttp": {
       "origin": "objfw",
       "versions": {
-        "1.5.1-r0": 1773032936
+        "1.5.1-r0": 1773032936,
+        "1.5.4-r0": 1779726067
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -181747,7 +181764,7 @@
         "so:libobjfwtls.so.1"
       ],
       "provides": [
-        "cmd:ofhttp=1.5.1-r0"
+        "cmd:ofhttp=1.5.4-r0"
       ]
     },
     "ofono": {
@@ -330093,7 +330110,7 @@
       },
       "libobjfw.so.1": {
         "package": "libobjfw1",
-        "version": "1.5.0"
+        "version": "1.5.4"
       },
       "libobjfwhid.so.1": {
         "package": "libobjfwhid1",
@@ -330101,7 +330118,7 @@
       },
       "libobjfwrt.so.1": {
         "package": "libobjfwrt1",
-        "version": "1.5.1"
+        "version": "1.5.2"
       },
       "libobjfwtls.so.1": {
         "package": "libobjfwtls1",
