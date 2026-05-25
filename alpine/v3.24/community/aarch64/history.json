@@ -136917,7 +136917,8 @@
     "liferea": {
       "origin": "liferea",
       "versions": {
-        "1.16.9-r0": 1777745421
+        "1.16.9-r0": 1777745421,
+        "1.16.10-r0": 1779741122
       },
       "dependencies": [
         "py3-gobject3",
@@ -136943,20 +136944,22 @@
         "so:libxslt.so.1"
       ],
       "provides": [
-        "cmd:liferea-add-feed=1.16.9-r0",
-        "cmd:liferea=1.16.9-r0"
+        "cmd:liferea-add-feed=1.16.10-r0",
+        "cmd:liferea=1.16.10-r0"
       ]
     },
     "liferea-doc": {
       "origin": "liferea",
       "versions": {
-        "1.16.9-r0": 1777745421
+        "1.16.9-r0": 1777745421,
+        "1.16.10-r0": 1779741122
       }
     },
     "liferea-lang": {
       "origin": "liferea",
       "versions": {
-        "1.16.9-r0": 1777745421
+        "1.16.9-r0": 1777745421,
+        "1.16.10-r0": 1779741122
       }
     },
     "lightdm": {
@@ -217245,128 +217248,142 @@
     "pulumi": {
       "origin": "pulumi",
       "versions": {
-        "3.238.0-r0": 1778716740
+        "3.238.0-r0": 1778716740,
+        "3.243.0-r0": 1779740031
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "cmd:pulumi=3.238.0-r0"
+        "cmd:pulumi=3.243.0-r0"
       ]
     },
     "pulumi-bash-completion": {
       "origin": "pulumi",
       "versions": {
-        "3.238.0-r0": 1778716740
+        "3.238.0-r0": 1778716740,
+        "3.243.0-r0": 1779740031
       }
     },
     "pulumi-fish-completion": {
       "origin": "pulumi",
       "versions": {
-        "3.238.0-r0": 1778716740
+        "3.238.0-r0": 1778716740,
+        "3.243.0-r0": 1779740031
       }
     },
     "pulumi-language-dotnet": {
       "origin": "pulumi-language-dotnet",
       "versions": {
-        "3.91.0-r6": 1778661427
+        "3.91.0-r6": 1778661427,
+        "3.106.2-r0": 1779740031
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "cmd:pulumi-language-dotnet=3.91.0-r6"
+        "cmd:pulumi-language-dotnet=3.106.2-r0"
       ]
     },
     "pulumi-language-go": {
       "origin": "pulumi",
       "versions": {
-        "3.238.0-r0": 1778716740
+        "3.238.0-r0": 1778716740,
+        "3.243.0-r0": 1779740031
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "cmd:pulumi-language-go=3.238.0-r0"
+        "cmd:pulumi-language-go=3.243.0-r0"
       ]
     },
     "pulumi-language-java": {
       "origin": "pulumi-language-java",
       "versions": {
-        "1.17.0-r6": 1778661427
+        "1.17.0-r6": 1778661427,
+        "1.28.0-r0": 1779740031
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "cmd:pulumi-java-gen=1.17.0-r6",
-        "cmd:pulumi-language-java=1.17.0-r6"
+        "cmd:pulumi-java-gen=1.28.0-r0",
+        "cmd:pulumi-language-java=1.28.0-r0"
       ]
     },
     "pulumi-language-java-bash-completion": {
       "origin": "pulumi-language-java",
       "versions": {
-        "1.17.0-r6": 1778661427
+        "1.17.0-r6": 1778661427,
+        "1.28.0-r0": 1779740031
       }
     },
     "pulumi-language-java-fish-completion": {
       "origin": "pulumi-language-java",
       "versions": {
-        "1.17.0-r6": 1778661427
+        "1.17.0-r6": 1778661427,
+        "1.28.0-r0": 1779740031
       }
     },
     "pulumi-language-java-zsh-completion": {
       "origin": "pulumi-language-java",
       "versions": {
-        "1.17.0-r6": 1778661427
+        "1.17.0-r6": 1778661427,
+        "1.28.0-r0": 1779740031
       }
     },
     "pulumi-language-nodejs": {
       "origin": "pulumi",
       "versions": {
-        "3.238.0-r0": 1778716740
+        "3.238.0-r0": 1778716740,
+        "3.243.0-r0": 1779740031
       },
       "dependencies": [
         "cmd:node",
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "cmd:pulumi-language-nodejs=3.238.0-r0",
-        "cmd:pulumi-resource-pulumi-nodejs=3.238.0-r0"
+        "cmd:pulumi-language-bun=3.243.0-r0",
+        "cmd:pulumi-language-nodejs=3.243.0-r0",
+        "cmd:pulumi-resource-pulumi-nodejs=3.243.0-r0"
       ]
     },
     "pulumi-language-python": {
       "origin": "pulumi",
       "versions": {
-        "3.238.0-r0": 1778716740
+        "3.238.0-r0": 1778716740,
+        "3.243.0-r0": 1779740031
       },
       "dependencies": [
         "python3",
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "cmd:pulumi-language-python-exec=3.238.0-r0",
-        "cmd:pulumi-language-python=3.238.0-r0",
-        "cmd:pulumi-resource-pulumi-python=3.238.0-r0"
+        "cmd:pulumi-language-python-exec=3.243.0-r0",
+        "cmd:pulumi-language-python=3.243.0-r0",
+        "cmd:pulumi-resource-pulumi-python=3.243.0-r0"
       ]
     },
     "pulumi-language-yaml": {
       "origin": "pulumi-language-yaml",
       "versions": {
-        "1.34.0-r0": 1778718812
+        "1.34.0-r0": 1778718812,
+        "1.35.0-r0": 1779740031
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "cmd:pulumi-converter-yaml=1.34.0-r0",
-        "cmd:pulumi-language-yaml=1.34.0-r0"
+        "cmd:pulumi-converter-yaml=1.35.0-r0",
+        "cmd:pulumi-language-yaml=1.35.0-r0"
       ]
     },
     "pulumi-zsh-completion": {
       "origin": "pulumi",
       "versions": {
-        "3.238.0-r0": 1778716740
+        "3.238.0-r0": 1778716740,
+        "3.243.0-r0": 1779740031
       }
     },
     "pup": {
@@ -223421,21 +223438,23 @@
     "py3-daemonize": {
       "origin": "py3-daemonize",
       "versions": {
-        "2.5.0-r9": 1774640395
+        "2.5.0-r9": 1774640395,
+        "2.5.0-r10": 1779737693
       },
       "dependencies": [
         "python3",
         "python3~3.14"
       ],
       "provides": [
-        "py-daemonize=2.5.0-r9",
-        "py3.14:daemonize=2.5.0-r9"
+        "py-daemonize=2.5.0-r10",
+        "py3.14:daemonize=2.5.0-r10"
       ]
     },
     "py3-daemonize-pyc": {
       "origin": "py3-daemonize",
       "versions": {
-        "2.5.0-r9": 1774640395
+        "2.5.0-r9": 1774640395,
+        "2.5.0-r10": 1779737693
       },
       "dependencies": [
         "python3~3.14"
@@ -315181,6 +315200,18 @@
       "versions": {
         "0.107.76-r0": 1779713642
       }
+    },
+    "pulumi-language-pcl": {
+      "origin": "pulumi",
+      "versions": {
+        "3.243.0-r0": 1779740031
+      },
+      "dependencies": [
+        "so:libc.musl-aarch64.so.1"
+      ],
+      "provides": [
+        "cmd:pulumi-language-pcl=3.243.0-r0"
+      ]
     }
   },
   "provide": {
@@ -343209,7 +343240,7 @@
       },
       "py-daemonize": {
         "package": "py3-daemonize",
-        "version": "2.5.0-r9"
+        "version": "2.5.0-r10"
       },
       "py-decorator": {
         "package": "py3-decorator",
