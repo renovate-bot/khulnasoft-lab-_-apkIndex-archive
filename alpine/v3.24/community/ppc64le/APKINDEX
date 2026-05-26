@@ -3797,36 +3797,36 @@ t:1774289248
 c:7913372ee9caf46943e1cd6e2ba6c568e4d28840
 i:systemd amazfish=2.9.0-r2
 
-C:Q10yWGfwlSo6j3mIdLxZlj7HWBNKo=
+C:Q1jHskNvsLe3Vbwk0qT1WloGTodFc=
 P:amazon-ssm-agent
-V:3.3.4364.0-r1
+V:3.3.4515.0-r0
 A:ppc64le
-S:34867613
+S:34867667
 I:128447149
 T:Amazon SSM Agent for managing EC2 Instances using the SSM APIs.
 U:https://aws.amazon.com/documentation/systems-manager/
 L:Apache-2.0
 o:amazon-ssm-agent
 m:Will Sinatra <wpsinatra@gmail.com>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1779797748
+c:a89459af516655550bdf205ab8c8be58dc87d095
 D:so:libc.musl-ppc64le.so.1
-p:cmd:amazon-ssm-agent=3.3.4364.0-r1 cmd:ssm-agent-worker=3.3.4364.0-r1 cmd:ssm-cli=3.3.4364.0-r1 cmd:ssm-document-worker=3.3.4364.0-r1 cmd:ssm-session-logger=3.3.4364.0-r1 cmd:ssm-session-worker=3.3.4364.0-r1 cmd:ssm-setup-cli=3.3.4364.0-r1
+p:cmd:amazon-ssm-agent=3.3.4515.0-r0 cmd:ssm-agent-worker=3.3.4515.0-r0 cmd:ssm-cli=3.3.4515.0-r0 cmd:ssm-document-worker=3.3.4515.0-r0 cmd:ssm-session-logger=3.3.4515.0-r0 cmd:ssm-session-worker=3.3.4515.0-r0 cmd:ssm-setup-cli=3.3.4515.0-r0
 
-C:Q1Xf1ZE9FGVzGIsTKLsngVum2gsO8=
+C:Q1NNsQUelmcKQLSTnjc0iBG3ubgl8=
 P:amazon-ssm-agent-openrc
-V:3.3.4364.0-r1
+V:3.3.4515.0-r0
 A:ppc64le
-S:1525
+S:1526
 I:217
 T:Amazon SSM Agent for managing EC2 Instances using the SSM APIs. (OpenRC init scripts)
 U:https://aws.amazon.com/documentation/systems-manager/
 L:Apache-2.0
 o:amazon-ssm-agent
 m:Will Sinatra <wpsinatra@gmail.com>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:openrc amazon-ssm-agent=3.3.4364.0-r1
+t:1779797748
+c:a89459af516655550bdf205ab8c8be58dc87d095
+i:openrc amazon-ssm-agent=3.3.4515.0-r0
 
 C:Q1DuttOSvmS15fTk0Q3tH+HB5Hh68=
 P:amber-mpris
@@ -53512,6 +53512,22 @@ c:a9605e3b248266b2e5984494fb80d25b97ac32a2
 D:faudio=24.09-r0 pc:sdl2 pkgconfig
 p:pc:FAudio=0.24.09
 
+C:Q1i3eX0WJz/vL6VDWX6TG6N3dJ88A=
+P:fbdebug
+V:1.0.1-r0
+A:ppc64le
+S:5684
+I:67312
+T:Framebuffer debugging tool
+U:https://gitlab.postmarketos.org/postmarketOS/fbdebug
+L:GPL-3.0-or-later
+o:fbdebug
+m:Achill Gilgenast <achill@achill.org>
+t:1779801471
+c:a5a0f3d29dbe3141999ea394801952065125586d
+D:so:libc.musl-ppc64le.so.1
+p:cmd:fbdebug=1.0.1-r0
+
 C:Q1BEtU1pyc7cWZHVc76wpYeZlGsvY=
 P:fbgrab
 V:1.5-r2
@@ -53629,6 +53645,22 @@ t:1759754511
 c:f2ec5601a14b36df413d91e0ec929d7d9c37489d
 D:so:libX11.so.6 so:libXext.so.6 so:libXm.so.4 so:libXpm.so.4 so:libXt.so.6 so:libc.musl-ppc64le.so.1 so:libexif.so.12 so:libgif.so.7 so:libjpeg.so.8 so:libpixman-1.so.0 so:libpng16.so.16 so:libtiff.so.6 so:libwebp.so.7
 p:cmd:ida=2.14-r6
+
+C:Q1ApfHSxKgm1aSmDFWwjrjp1FgsbM=
+P:fbkeyboard
+V:0.5-r0
+A:ppc64le
+S:9924
+I:67784
+T:Framebuffer softkeyboard for use on devices with touchscreen input like smartphones
+U:https://github.com/ph0nix-foss/fbkeyboard
+L:GPL-3.0-or-later
+o:fbkeyboard
+m:Robert Bloy <ph0nix.foss@mailbox.org>
+t:1779801574
+c:a5b95aa9e3aa872b2da5d48638352ea50a486d48
+D:font-dejavu so:libc.musl-ppc64le.so.1 so:libfreetype.so.6
+p:cmd:fbkeyboard=0.5-r0
 
 C:Q1QltWYTQQ13FVBqQDbi6KlgavvDU=
 P:fbvnc
@@ -58250,109 +58282,109 @@ m:lauren n. liberda <lauren@selfisekai.rocks>
 t:1764079317
 c:fe45bfe8c5133e94712fe6feda4391e64cd610ec
 
-C:Q1G6xHKmZi6ecvmpQMGsRVtVTb0Dg=
+C:Q1PNv3KAWemmfmfhJDj1ZizMvV/yw=
 P:font-iosevka
-V:34.5.0-r0
+V:34.6.1-r0
 A:ppc64le
-S:1050
+S:1052
 I:0
 T:Versatile typeface for code, from code
 U:https://typeof.net/Iosevka/
 L:OFL-1.1
 o:font-iosevka
 m:Will Sinatra <wpsinatra@gmail.com>
-t:1778515496
-c:a3d26e045c631c5a28b5bfeabb210ac096f4d232
-D:font-iosevka-base=34.5.0-r0 font-iosevka-aile=34.5.0-r0 font-iosevka-etoile=34.5.0-r0 font-iosevka-slab=34.5.0-r0 font-iosevka-curly=34.5.0-r0 font-iosevka-curly-slab=34.5.0-r0
+t:1779797705
+c:862ba8e43f433fa09d3b647e9a55689630b0f998
+D:font-iosevka-base=34.6.1-r0 font-iosevka-aile=34.6.1-r0 font-iosevka-etoile=34.6.1-r0 font-iosevka-slab=34.6.1-r0 font-iosevka-curly=34.6.1-r0 font-iosevka-curly-slab=34.6.1-r0
 
-C:Q1KJfdt2jUlcCuprQPC7mC+R/bSqU=
+C:Q1fJuBrWc95nERYKyqEaxV4VoJvBY=
 P:font-iosevka-aile
-V:34.5.0-r0
+V:34.6.1-r0
 A:ppc64le
-S:63773627
-I:217787124
+S:66637287
+I:230334524
 T:Versatile typeface for code, from code (Iosevka Aile)
 U:https://typeof.net/Iosevka/
 L:OFL-1.1
 o:font-iosevka
 m:Will Sinatra <wpsinatra@gmail.com>
-t:1778515496
-c:a3d26e045c631c5a28b5bfeabb210ac096f4d232
+t:1779797705
+c:862ba8e43f433fa09d3b647e9a55689630b0f998
 D:fontconfig
 
-C:Q1pciMBEaMy0r3q4nCLAcIu3O7aYM=
+C:Q1vHJy5tSLa7KJmmSQlATXa/Ij9oI=
 P:font-iosevka-base
-V:34.5.0-r0
+V:34.6.1-r0
 A:ppc64le
-S:137866510
-I:447505960
+S:142707267
+I:467672952
 T:Versatile typeface for code, from code (Iosevka)
 U:https://typeof.net/Iosevka/
 L:OFL-1.1
 o:font-iosevka
 m:Will Sinatra <wpsinatra@gmail.com>
-t:1778515496
-c:a3d26e045c631c5a28b5bfeabb210ac096f4d232
+t:1779797705
+c:862ba8e43f433fa09d3b647e9a55689630b0f998
 D:fontconfig
 
-C:Q1CjqLaRK89wZkNKBdHCikzys658o=
+C:Q14T+yiR5xfqatEnX0z5AMJQzRTiE=
 P:font-iosevka-curly
-V:34.5.0-r0
+V:34.6.1-r0
 A:ppc64le
-S:167540734
-I:565517428
+S:173691006
+I:592277428
 T:Versatile typeface for code, from code (Iosevka Curly)
 U:https://typeof.net/Iosevka/
 L:OFL-1.1
 o:font-iosevka
 m:Will Sinatra <wpsinatra@gmail.com>
-t:1778515496
-c:a3d26e045c631c5a28b5bfeabb210ac096f4d232
+t:1779797705
+c:862ba8e43f433fa09d3b647e9a55689630b0f998
 D:fontconfig
 
-C:Q1M38doQXM5/vgAjpnrJpYQ4E6XUg=
+C:Q1LZMSuWc3/CeSHHt/i78F5COo7mU=
 P:font-iosevka-curly-slab
-V:34.5.0-r0
+V:34.6.1-r0
 A:ppc64le
-S:166201312
-I:561585096
+S:172219472
+I:587972308
 T:Versatile typeface for code, from code (Iosevka Curly Slab)
 U:https://typeof.net/Iosevka/
 L:OFL-1.1
 o:font-iosevka
 m:Will Sinatra <wpsinatra@gmail.com>
-t:1778515496
-c:a3d26e045c631c5a28b5bfeabb210ac096f4d232
+t:1779797705
+c:862ba8e43f433fa09d3b647e9a55689630b0f998
 D:fontconfig
 
-C:Q1eVR7SeeNbc8AKwBVXtns82B00p8=
+C:Q1edfDvzV3Izq+1YHQudjC4a2CWkw=
 P:font-iosevka-etoile
-V:34.5.0-r0
+V:34.6.1-r0
 A:ppc64le
-S:68432892
-I:230637720
+S:71468293
+I:243749728
 T:Versatile typeface for code, from code (Iosevka Etoile)
 U:https://typeof.net/Iosevka/
 L:OFL-1.1
 o:font-iosevka
 m:Will Sinatra <wpsinatra@gmail.com>
-t:1778515496
-c:a3d26e045c631c5a28b5bfeabb210ac096f4d232
+t:1779797705
+c:862ba8e43f433fa09d3b647e9a55689630b0f998
 D:fontconfig
 
-C:Q1x2qvX1cQ9nDCdakxrV5saRDcIDc=
+C:Q1F1sUKdd4QU86neejrgkiYue3x/g=
 P:font-iosevka-slab
-V:34.5.0-r0
+V:34.6.1-r0
 A:ppc64le
-S:140943569
-I:457420452
+S:145817780
+I:477888104
 T:Versatile typeface for code, from code (Iosevka Slab)
 U:https://typeof.net/Iosevka/
 L:OFL-1.1
 o:font-iosevka
 m:Will Sinatra <wpsinatra@gmail.com>
-t:1778515496
-c:a3d26e045c631c5a28b5bfeabb210ac096f4d232
+t:1779797705
+c:862ba8e43f433fa09d3b647e9a55689630b0f998
 D:fontconfig
 
 C:Q1HDuripzA0t6Dc8cxm/GRM4SB1kA=
@@ -114048,51 +114080,51 @@ t:1778661427
 c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
 i:lab=0.25.1-r36 zsh
 
-C:Q1qKjBr0e62BHXxILgBTSEUjuPlAM=
+C:Q15lr0xWIc5MxAVXEerP3rBXlH34g=
 P:labwc
-V:0.9.7-r0
+V:0.20.0-r0
 A:ppc64le
-S:224359
-I:597439
+S:220125
+I:597407
 T:Wayland stacking compositor
 U:https://github.com/labwc/labwc
 L:GPL-2.0-only
 o:labwc
 m:Patrycja Rosa <alpine@ptrcnull.me>
-t:1776465592
-c:bd669d1a1980d15c8bb6ccef41f2d1dfdae55a21
-D:xwayland so:libc.musl-ppc64le.so.1 so:libcairo.so.2 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libinput.so.10 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpixman-1.so.0 so:libpng16.so.16 so:librsvg-2.so.2 so:libsfdo-basedir.so.0 so:libsfdo-desktop.so.0 so:libsfdo-icon.so.0 so:libwayland-client.so.0 so:libwayland-cursor.so.0 so:libwayland-server.so.0 so:libwlroots-0.19.so so:libxcb-ewmh.so.2 so:libxcb.so.1 so:libxkbcommon.so.0 so:libxml2.so.2
-p:cmd:lab-sensible-terminal=0.9.7-r0 cmd:labnag=0.9.7-r0 cmd:labwc=0.9.7-r0
+t:1779797121
+c:c7ab0898130aa3b101750d4443c2c055e4287e71
+D:xwayland so:libc.musl-ppc64le.so.1 so:libcairo.so.2 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libinput.so.10 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpixman-1.so.0 so:libpng16.so.16 so:librsvg-2.so.2 so:libsfdo-basedir.so.0 so:libsfdo-desktop.so.0 so:libsfdo-icon.so.0 so:libwayland-client.so.0 so:libwayland-cursor.so.0 so:libwayland-server.so.0 so:libwlroots-0.20.so so:libxcb-ewmh.so.2 so:libxcb.so.1 so:libxkbcommon.so.0 so:libxml2.so.2
+p:cmd:lab-sensible-terminal=0.20.0-r0 cmd:labnag=0.20.0-r0 cmd:labwc=0.20.0-r0
 
-C:Q1Jb7fUQmzyk5KUVNEUc5HGvUfM/o=
+C:Q1OzgOd6Vn0mDqv0rgXfpt2aPtW4U=
 P:labwc-doc
-V:0.9.7-r0
+V:0.20.0-r0
 A:ppc64le
-S:53320
-I:75109
+S:56091
+I:78649
 T:Wayland stacking compositor (documentation)
 U:https://github.com/labwc/labwc
 L:GPL-2.0-only
 o:labwc
 m:Patrycja Rosa <alpine@ptrcnull.me>
-t:1776465592
-c:bd669d1a1980d15c8bb6ccef41f2d1dfdae55a21
-i:docs labwc=0.9.7-r0
+t:1779797121
+c:c7ab0898130aa3b101750d4443c2c055e4287e71
+i:docs labwc=0.20.0-r0
 
-C:Q1koEuVaGD2wSvT7wjcCrfs6JA6MU=
+C:Q1tn7IdliljWNzQJptB63n9UQwuYU=
 P:labwc-lang
-V:0.9.7-r0
+V:0.20.0-r0
 A:ppc64le
-S:16633
-I:46545
+S:17351
+I:48468
 T:Languages for package labwc
 U:https://github.com/labwc/labwc
 L:GPL-2.0-only
 o:labwc
 m:Patrycja Rosa <alpine@ptrcnull.me>
-t:1776465592
-c:bd669d1a1980d15c8bb6ccef41f2d1dfdae55a21
-i:labwc=0.9.7-r0 lang
+t:1779797121
+c:c7ab0898130aa3b101750d4443c2c055e4287e71
+i:labwc=0.20.0-r0 lang
 
 C:Q1S7+GV7cCrx2tkvCrB+PoNb6kXzc=
 P:ladspa
@@ -166293,49 +166325,52 @@ t:1776140896
 c:430dc14746e8dacfb5bf782fe155700b01142473
 i:docs nickle=2.108-r0
 
-C:Q18CpqcDcn+nL3F5vlxJ+4/E6Y2Rc=
+C:Q1C8kzIIMO77enN2bd8KlUpSrXjLo=
 P:nihtest
-V:1.10.0-r2
+V:1.11.1-r0
 A:ppc64le
-S:17443
-I:57205
+S:17717
+I:58783
 T:Testing tool for command line utilities
 U:https://github.com/nih-at/nihtest
 L:BSD-3-Clause
 o:nihtest
-t:1774640416
-c:71937bf82c15f0fa6737da15c091f41182051c78
-D:py3-dateutil python3~3.14
-p:cmd:nihtest=1.10.0-r2 py3.14:nihtest=1.10.0-r2
+m:Robert Mongold <rtmongold@gmail.com>
+t:1779797793
+c:1e9b3bbc815a07a1220272bc9b0608a52e8161bf
+D:python3~3.14
+p:cmd:nihtest=1.11.1-r0 py3.14:nihtest=1.11.1-r0
 
-C:Q12wzIP0fuIZzU0BB4FnDqEDMjZoA=
+C:Q10eEfy8rFs/F+VTONiEmXZV9JUE8=
 P:nihtest-doc
-V:1.10.0-r2
+V:1.11.1-r0
 A:ppc64le
-S:9628
-I:7914
+S:9725
+I:7968
 T:Testing tool for command line utilities (documentation)
 U:https://github.com/nih-at/nihtest
 L:BSD-3-Clause
 o:nihtest
-t:1774640416
-c:71937bf82c15f0fa6737da15c091f41182051c78
-i:docs nihtest=1.10.0-r2
+m:Robert Mongold <rtmongold@gmail.com>
+t:1779797793
+c:1e9b3bbc815a07a1220272bc9b0608a52e8161bf
+i:docs nihtest=1.11.1-r0
 
-C:Q1fnHCblkbjI3epXWtkegxiMnnI0A=
+C:Q1Rm249XQ17og10YmMwFvZx9iYUH0=
 P:nihtest-pyc
-V:1.10.0-r2
+V:1.11.1-r0
 A:ppc64le
-S:34653
-I:81162
+S:35551
+I:83497
 T:Precompiled Python bytecode for nihtest
 U:https://github.com/nih-at/nihtest
 L:BSD-3-Clause
 o:nihtest
-t:1774640416
-c:71937bf82c15f0fa6737da15c091f41182051c78
+m:Robert Mongold <rtmongold@gmail.com>
+t:1779797793
+c:1e9b3bbc815a07a1220272bc9b0608a52e8161bf
 D:python3~3.14
-i:nihtest=1.10.0-r2 pyc
+i:nihtest=1.11.1-r0 pyc
 
 C:Q1kOjGLIcDZbk8REAzxA+HUGj3JuY=
 P:nikto
@@ -206927,19 +206962,19 @@ c:c05fade8b5d9662ca600ab63d34b34c7adc7b026
 D:php83-ctype graphviz ghostscript-fonts
 p:php83-xhprof-assets=2.3.10-r0
 
-C:Q1/uBNLsQDJ7PrjO0rchPXAHx1EjQ=
+C:Q167ihWZ3xrQ+Bn7yQghAggFkq6UE=
 P:php83-pecl-xlswriter
-V:1.5.8-r0
+V:2.0.1-r0
 A:ppc64le
-S:237952
-I:664484
+S:296035
+I:864076
 T:PHP 8.3 extension for creating and reader XLSX files - PECL
 U:https://pecl.php.net/package/xlswriter
 L:BSD-2-Clause
 o:php83-pecl-xlswriter
 m:viest <dev@service.viest.me>
-t:1731288807
-c:0a9680a42b4db8eb6f01390c4c209a9ce7edd9ee
+t:1779800443
+c:0039f9ab919bc06e0f13ea6a21f78dd6887a1364
 D:php83-common so:libc.musl-ppc64le.so.1
 
 C:Q1RwZOEyRtT75XYfOnINCHM1mG/Xw=
@@ -208623,19 +208658,19 @@ c:405cd8fea5d89b2bdc866b52bf93325e31f48b6b
 D:php84-ctype graphviz ghostscript-fonts
 p:php84-xhprof-assets=2.3.10-r1
 
-C:Q1zOLCHOiKsrrNBJDTh/MVwuDi4xs=
+C:Q1NedK4v1BF+iiw+jI1SpY9k+tq6c=
 P:php84-pecl-xlswriter
-V:1.5.8-r0
+V:2.0.1-r0
 A:ppc64le
-S:238016
-I:666276
+S:296166
+I:867292
 T:PHP 8.4 extension for creating and reader XLSX files - PECL
 U:https://pecl.php.net/package/xlswriter
 L:BSD-2-Clause
 o:php84-pecl-xlswriter
 m:viest <dev@service.viest.me>
-t:1733274517
-c:a36de6d958a1cffb7a76a9ddef5d4b0fc138fbb0
+t:1779800443
+c:446398677a8691d35891941e96ab697deb5bddeb
 D:php84-common so:libc.musl-ppc64le.so.1
 
 C:Q17onSylwsOPDj/yEmkNpVGLLgiVk=
@@ -210285,19 +210320,19 @@ c:4955129fc0d8ec2aefe96ca46842ed16e660f059
 D:php85-ctype graphviz ghostscript-fonts
 p:php85-xhprof-assets=2.3.10-r1
 
-C:Q1WPsoyAo3KVjTwLnDUbrMV9yqQGg=
+C:Q1YCQYOExGgWQjr4MG02ykS7C6D0c=
 P:php85-pecl-xlswriter
-V:1.5.8-r0
+V:2.0.1-r0
 A:ppc64le
-S:237957
-I:666276
+S:296155
+I:867292
 T:PHP 8.5 extension for creating and reader XLSX files - PECL
 U:https://pecl.php.net/package/xlswriter
 L:BSD-2-Clause
 o:php85-pecl-xlswriter
 m:viest <dev@service.viest.me>
-t:1761391554
-c:d69bd0d3a478b612c442409bd505ec20503931b7
+t:1779800443
+c:0cd306e6551824a8465a48762ac9bff9526865cc
 D:php85-common so:libc.musl-ppc64le.so.1
 
 C:Q1/+ShzV7+IeuYN1XLUNHhCeGuqBg=
@@ -214394,81 +214429,81 @@ t:1716944914
 c:baa06d61133868f896cd55a41a043ab83d79c57b
 i:docs pngquant=3.0.3-r0
 
-C:Q14+Gc/flN8ZSpSGjKio7cEodeToA=
+C:Q1BtiFz8w+Z7wZBOMli1DejtHGDWw=
 P:pnpm
-V:11.2.2-r0
+V:11.3.0-r0
 A:ppc64le
-S:5138046
-I:25159810
+S:5159428
+I:25249433
 T:Fast, disk space efficient package manager
 U:https://pnpm.io
 L:MIT
 o:pnpm
 m:Johannes Müller <alpinelinux@jogemu.at>
-t:1779657979
-c:35f9907168d552ab9adcb23d236465e323f91b9e
+t:1779797604
+c:cf8d909279dcc53efdfcab747fc357f77023a25a
 D:nodejs
-p:cmd:pnpm=11.2.2-r0 cmd:pnpx=11.2.2-r0
+p:cmd:pnpm=11.3.0-r0 cmd:pnpx=11.3.0-r0
 
-C:Q1VlU1rOmNIlqHnGIn/TFazvfYUis=
+C:Q1ldgF7sSc2SqGK8s1nl0Pvw8zMjM=
 P:pnpm-bash-completion
-V:11.2.2-r0
+V:11.3.0-r0
 A:ppc64le
-S:1754
+S:1751
 I:994
 T:Bash completions for pnpm
 U:https://pnpm.io
 L:MIT
 o:pnpm
 m:Johannes Müller <alpinelinux@jogemu.at>
-t:1779657979
-c:35f9907168d552ab9adcb23d236465e323f91b9e
-i:pnpm=11.2.2-r0 bash-completion
+t:1779797604
+c:cf8d909279dcc53efdfcab747fc357f77023a25a
+i:pnpm=11.3.0-r0 bash-completion
 
-C:Q1ISBj0MAUw3mFTK11u/LFFAkGbM8=
+C:Q13GzgPFcFW3b9iDPZMaCeGi9e+GU=
 P:pnpm-doc
-V:11.2.2-r0
+V:11.3.0-r0
 A:ppc64le
-S:2066
+S:2058
 I:1170
 T:Fast, disk space efficient package manager (documentation)
 U:https://pnpm.io
 L:MIT
 o:pnpm
 m:Johannes Müller <alpinelinux@jogemu.at>
-t:1779657979
-c:35f9907168d552ab9adcb23d236465e323f91b9e
-i:docs pnpm=11.2.2-r0
+t:1779797604
+c:cf8d909279dcc53efdfcab747fc357f77023a25a
+i:docs pnpm=11.3.0-r0
 
-C:Q1zt5onJZ1PrMgg7cbD7ODyySEeS8=
+C:Q1mbZK0COSX2wtxRX788cmIF/f85A=
 P:pnpm-fish-completion
-V:11.2.2-r0
+V:11.3.0-r0
 A:ppc64le
-S:1689
+S:1680
 I:672
 T:Fish completions for pnpm
 U:https://pnpm.io
 L:MIT
 o:pnpm
 m:Johannes Müller <alpinelinux@jogemu.at>
-t:1779657979
-c:35f9907168d552ab9adcb23d236465e323f91b9e
-i:pnpm=11.2.2-r0 fish
+t:1779797604
+c:cf8d909279dcc53efdfcab747fc357f77023a25a
+i:pnpm=11.3.0-r0 fish
 
-C:Q16HObRaa31ehBL+MtPLn1e0CoaPo=
+C:Q1rwE9871kbRhg/9agqlFvqvX/pVU=
 P:pnpm-zsh-completion
-V:11.2.2-r0
+V:11.3.0-r0
 A:ppc64le
-S:1819
+S:1811
 I:839
 T:Zsh completions for pnpm
 U:https://pnpm.io
 L:MIT
 o:pnpm
 m:Johannes Müller <alpinelinux@jogemu.at>
-t:1779657979
-c:35f9907168d552ab9adcb23d236465e323f91b9e
-i:pnpm=11.2.2-r0 zsh
+t:1779797604
+c:cf8d909279dcc53efdfcab747fc357f77023a25a
+i:pnpm=11.3.0-r0 zsh
 
 C:Q1N3yGp1nrMToTTONCHbmLADfpcCQ=
 P:poco
@@ -264697,37 +264732,37 @@ c:f8d30695481f513e9a519995ac155754ebfbd410
 D:uv=0.11.16-r0 python3~3.14
 p:py3.14:uv=0.11.16-r0
 
-C:Q1/I8X9Vi05+QQL3TLcmgI1bFiBFk=
+C:Q1eju+J3JSPVSNys6ySpChvAyEsNY=
 P:py3-uv-build
-V:0.11.14-r0
+V:0.11.16-r0
 A:ppc64le
-S:1632550
-I:3763899
+S:1623973
+I:3766971
 T:An extremely fast Python build backend written in Rust
 U:https://github.com/astral-sh/uv
 L:MIT or Apache-2.0
 o:py3-uv-build
 m:Will Sinatra <wpsinatra@gmail.com>
-t:1779065623
-c:387e7747e50a2cbebd08f2b0c32c8aba390708ca
+t:1779797632
+c:c6727d55adc05ed0fdeccada3249025c91e478aa
 D:python3 python3~3.14 so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1
-p:cmd:uv-build=0.11.14-r0 py3.14:uv_build=0.11.14-r0
+p:cmd:uv-build=0.11.16-r0 py3.14:uv_build=0.11.16-r0
 
-C:Q1fnl4xR9greiH9LBitlzMf9pT+AE=
+C:Q1/DYxNIhPAKhB5cgNbkY39Bu7LaM=
 P:py3-uv-build-pyc
-V:0.11.14-r0
+V:0.11.16-r0
 A:ppc64le
-S:4717
+S:4709
 I:7332
 T:Precompiled Python bytecode for py3-uv-build
 U:https://github.com/astral-sh/uv
 L:MIT or Apache-2.0
 o:py3-uv-build
 m:Will Sinatra <wpsinatra@gmail.com>
-t:1779065623
-c:387e7747e50a2cbebd08f2b0c32c8aba390708ca
+t:1779797632
+c:c6727d55adc05ed0fdeccada3249025c91e478aa
 D:python3~3.14
-i:py3-uv-build=0.11.14-r0 pyc
+i:py3-uv-build=0.11.16-r0 pyc
 
 C:Q1BGh9kn4mvm4SgX7xMXwfrHg+xKw=
 P:py3-uv-pyc

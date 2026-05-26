@@ -2453,25 +2453,27 @@
     "amazon-ssm-agent": {
       "origin": "amazon-ssm-agent",
       "versions": {
-        "3.3.4364.0-r1": 1778661427
+        "3.3.4364.0-r1": 1778661427,
+        "3.3.4515.0-r0": 1779797748
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:amazon-ssm-agent=3.3.4364.0-r1",
-        "cmd:ssm-agent-worker=3.3.4364.0-r1",
-        "cmd:ssm-cli=3.3.4364.0-r1",
-        "cmd:ssm-document-worker=3.3.4364.0-r1",
-        "cmd:ssm-session-logger=3.3.4364.0-r1",
-        "cmd:ssm-session-worker=3.3.4364.0-r1",
-        "cmd:ssm-setup-cli=3.3.4364.0-r1"
+        "cmd:amazon-ssm-agent=3.3.4515.0-r0",
+        "cmd:ssm-agent-worker=3.3.4515.0-r0",
+        "cmd:ssm-cli=3.3.4515.0-r0",
+        "cmd:ssm-document-worker=3.3.4515.0-r0",
+        "cmd:ssm-session-logger=3.3.4515.0-r0",
+        "cmd:ssm-session-worker=3.3.4515.0-r0",
+        "cmd:ssm-setup-cli=3.3.4515.0-r0"
       ]
     },
     "amazon-ssm-agent-openrc": {
       "origin": "amazon-ssm-agent",
       "versions": {
-        "3.3.4364.0-r1": 1778661427
+        "3.3.4364.0-r1": 1778661427,
+        "3.3.4515.0-r0": 1779797748
       }
     },
     "amberol": {
@@ -43429,21 +43431,23 @@
     "font-iosevka": {
       "origin": "font-iosevka",
       "versions": {
-        "34.5.0-r0": 1778515496
+        "34.5.0-r0": 1778515496,
+        "34.6.1-r0": 1779797705
       },
       "dependencies": [
-        "font-iosevka-base=34.5.0-r0",
-        "font-iosevka-aile=34.5.0-r0",
-        "font-iosevka-etoile=34.5.0-r0",
-        "font-iosevka-slab=34.5.0-r0",
-        "font-iosevka-curly=34.5.0-r0",
-        "font-iosevka-curly-slab=34.5.0-r0"
+        "font-iosevka-base=34.6.1-r0",
+        "font-iosevka-aile=34.6.1-r0",
+        "font-iosevka-etoile=34.6.1-r0",
+        "font-iosevka-slab=34.6.1-r0",
+        "font-iosevka-curly=34.6.1-r0",
+        "font-iosevka-curly-slab=34.6.1-r0"
       ]
     },
     "font-iosevka-aile": {
       "origin": "font-iosevka",
       "versions": {
-        "34.5.0-r0": 1778515496
+        "34.5.0-r0": 1778515496,
+        "34.6.1-r0": 1779797705
       },
       "dependencies": [
         "fontconfig"
@@ -43452,7 +43456,8 @@
     "font-iosevka-base": {
       "origin": "font-iosevka",
       "versions": {
-        "34.5.0-r0": 1778515496
+        "34.5.0-r0": 1778515496,
+        "34.6.1-r0": 1779797705
       },
       "dependencies": [
         "fontconfig"
@@ -43461,7 +43466,8 @@
     "font-iosevka-curly": {
       "origin": "font-iosevka",
       "versions": {
-        "34.5.0-r0": 1778515496
+        "34.5.0-r0": 1778515496,
+        "34.6.1-r0": 1779797705
       },
       "dependencies": [
         "fontconfig"
@@ -43470,7 +43476,8 @@
     "font-iosevka-curly-slab": {
       "origin": "font-iosevka",
       "versions": {
-        "34.5.0-r0": 1778515496
+        "34.5.0-r0": 1778515496,
+        "34.6.1-r0": 1779797705
       },
       "dependencies": [
         "fontconfig"
@@ -43479,7 +43486,8 @@
     "font-iosevka-etoile": {
       "origin": "font-iosevka",
       "versions": {
-        "34.5.0-r0": 1778515496
+        "34.5.0-r0": 1778515496,
+        "34.6.1-r0": 1779797705
       },
       "dependencies": [
         "fontconfig"
@@ -43488,7 +43496,8 @@
     "font-iosevka-slab": {
       "origin": "font-iosevka",
       "versions": {
-        "34.5.0-r0": 1778515496
+        "34.5.0-r0": 1778515496,
+        "34.6.1-r0": 1779797705
       },
       "dependencies": [
         "fontconfig"
@@ -82713,7 +82722,8 @@
     "labwc": {
       "origin": "labwc",
       "versions": {
-        "0.9.7-r0": 1776465592
+        "0.9.7-r0": 1776465592,
+        "0.20.0-r0": 1779797121
       },
       "dependencies": [
         "xwayland",
@@ -82734,28 +82744,30 @@
         "so:libwayland-client.so.0",
         "so:libwayland-cursor.so.0",
         "so:libwayland-server.so.0",
-        "so:libwlroots-0.19.so",
+        "so:libwlroots-0.20.so",
         "so:libxcb-ewmh.so.2",
         "so:libxcb.so.1",
         "so:libxkbcommon.so.0",
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:lab-sensible-terminal=0.9.7-r0",
-        "cmd:labnag=0.9.7-r0",
-        "cmd:labwc=0.9.7-r0"
+        "cmd:lab-sensible-terminal=0.20.0-r0",
+        "cmd:labnag=0.20.0-r0",
+        "cmd:labwc=0.20.0-r0"
       ]
     },
     "labwc-doc": {
       "origin": "labwc",
       "versions": {
-        "0.9.7-r0": 1776465592
+        "0.9.7-r0": 1776465592,
+        "0.20.0-r0": 1779797121
       }
     },
     "labwc-lang": {
       "origin": "labwc",
       "versions": {
-        "0.9.7-r0": 1776465592
+        "0.9.7-r0": 1776465592,
+        "0.20.0-r0": 1779797121
       }
     },
     "ladspa": {
@@ -123533,27 +123545,29 @@
     "nihtest": {
       "origin": "nihtest",
       "versions": {
-        "1.10.0-r2": 1774640416
+        "1.10.0-r2": 1774640416,
+        "1.11.1-r0": 1779797793
       },
       "dependencies": [
-        "py3-dateutil",
         "python3~3.14"
       ],
       "provides": [
-        "cmd:nihtest=1.10.0-r2",
-        "py3.14:nihtest=1.10.0-r2"
+        "cmd:nihtest=1.11.1-r0",
+        "py3.14:nihtest=1.11.1-r0"
       ]
     },
     "nihtest-doc": {
       "origin": "nihtest",
       "versions": {
-        "1.10.0-r2": 1774640416
+        "1.10.0-r2": 1774640416,
+        "1.11.1-r0": 1779797793
       }
     },
     "nihtest-pyc": {
       "origin": "nihtest",
       "versions": {
-        "1.10.0-r2": 1774640416
+        "1.10.0-r2": 1774640416,
+        "1.11.1-r0": 1779797793
       },
       "dependencies": [
         "python3~3.14"
@@ -165542,7 +165556,8 @@
     "php83-pecl-xlswriter": {
       "origin": "php83-pecl-xlswriter",
       "versions": {
-        "1.5.8-r0": 1731288807
+        "1.5.8-r0": 1731288807,
+        "2.0.1-r0": 1779800443
       },
       "dependencies": [
         "php83-common",
@@ -167043,7 +167058,8 @@
     "php84-pecl-xlswriter": {
       "origin": "php84-pecl-xlswriter",
       "versions": {
-        "1.5.8-r0": 1733274517
+        "1.5.8-r0": 1733274517,
+        "2.0.1-r0": 1779800443
       },
       "dependencies": [
         "php84-common",
@@ -168524,7 +168540,8 @@
     "php85-pecl-xlswriter": {
       "origin": "php85-pecl-xlswriter",
       "versions": {
-        "1.5.8-r0": 1761391554
+        "1.5.8-r0": 1761391554,
+        "2.0.1-r0": 1779800443
       },
       "dependencies": [
         "php85-common",
@@ -171126,42 +171143,47 @@
       "origin": "pnpm",
       "versions": {
         "10.33.0-r0": 1775053831,
-        "11.2.2-r0": 1779657979
+        "11.2.2-r0": 1779657979,
+        "11.3.0-r0": 1779797604
       },
       "dependencies": [
         "nodejs"
       ],
       "provides": [
-        "cmd:pnpm=11.2.2-r0",
-        "cmd:pnpx=11.2.2-r0"
+        "cmd:pnpm=11.3.0-r0",
+        "cmd:pnpx=11.3.0-r0"
       ]
     },
     "pnpm-bash-completion": {
       "origin": "pnpm",
       "versions": {
         "10.33.0-r0": 1775053831,
-        "11.2.2-r0": 1779657979
+        "11.2.2-r0": 1779657979,
+        "11.3.0-r0": 1779797604
       }
     },
     "pnpm-doc": {
       "origin": "pnpm",
       "versions": {
         "10.33.0-r0": 1775053831,
-        "11.2.2-r0": 1779657979
+        "11.2.2-r0": 1779657979,
+        "11.3.0-r0": 1779797604
       }
     },
     "pnpm-fish-completion": {
       "origin": "pnpm",
       "versions": {
         "10.33.0-r0": 1775053831,
-        "11.2.2-r0": 1779657979
+        "11.2.2-r0": 1779657979,
+        "11.3.0-r0": 1779797604
       }
     },
     "pnpm-zsh-completion": {
       "origin": "pnpm",
       "versions": {
         "10.33.0-r0": 1775053831,
-        "11.2.2-r0": 1779657979
+        "11.2.2-r0": 1779657979,
+        "11.3.0-r0": 1779797604
       }
     },
     "poco": {
@@ -208491,7 +208513,8 @@
     "py3-uv-build": {
       "origin": "py3-uv-build",
       "versions": {
-        "0.11.14-r0": 1779065623
+        "0.11.14-r0": 1779065623,
+        "0.11.16-r0": 1779797632
       },
       "dependencies": [
         "python3",
@@ -208500,14 +208523,15 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:uv-build=0.11.14-r0",
-        "py3.14:uv_build=0.11.14-r0"
+        "cmd:uv-build=0.11.16-r0",
+        "py3.14:uv_build=0.11.16-r0"
       ]
     },
     "py3-uv-build-pyc": {
       "origin": "py3-uv-build",
       "versions": {
-        "0.11.14-r0": 1779065623
+        "0.11.14-r0": 1779065623,
+        "0.11.16-r0": 1779797632
       },
       "dependencies": [
         "python3~3.14"
@@ -261739,6 +261763,32 @@
       "versions": {
         "0.107.76-r0": 1779713642
       }
+    },
+    "fbdebug": {
+      "origin": "fbdebug",
+      "versions": {
+        "1.0.1-r0": 1779801471
+      },
+      "dependencies": [
+        "so:libc.musl-armhf.so.1"
+      ],
+      "provides": [
+        "cmd:fbdebug=1.0.1-r0"
+      ]
+    },
+    "fbkeyboard": {
+      "origin": "fbkeyboard",
+      "versions": {
+        "0.5-r0": 1779801574
+      },
+      "dependencies": [
+        "font-dejavu",
+        "so:libc.musl-armhf.so.1",
+        "so:libfreetype.so.6"
+      ],
+      "provides": [
+        "cmd:fbkeyboard=0.5-r0"
+      ]
     }
   },
   "provide": {
