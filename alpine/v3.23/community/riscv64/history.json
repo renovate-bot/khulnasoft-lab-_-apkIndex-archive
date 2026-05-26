@@ -99193,7 +99193,8 @@
     "kissfft": {
       "origin": "kissfft",
       "versions": {
-        "131.2.0-r0": 1761393636
+        "131.2.0-r0": 1761393636,
+        "131.2.0_git20260422-r0": 1779825060
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1",
@@ -99201,20 +99202,21 @@
         "so:libpng16.so.16"
       ],
       "provides": [
-        "cmd:fastconv-float=131.2.0-r0",
-        "cmd:fastconvr-float=131.2.0-r0",
-        "cmd:fft-float=131.2.0-r0",
-        "cmd:psdpng-float=131.2.0-r0"
+        "cmd:fastconv-float=131.2.0_git20260422-r0",
+        "cmd:fastconvr-float=131.2.0_git20260422-r0",
+        "cmd:fft-float=131.2.0_git20260422-r0",
+        "cmd:psdpng-float=131.2.0_git20260422-r0"
       ]
     },
     "kissfft-dev": {
       "origin": "kissfft",
       "versions": {
-        "131.2.0-r0": 1761393636
+        "131.2.0-r0": 1761393636,
+        "131.2.0_git20260422-r0": 1779825060
       },
       "dependencies": [
-        "kissfft=131.2.0-r0",
-        "kissfft-libs=131.2.0-r0",
+        "kissfft=131.2.0_git20260422-r0",
+        "kissfft-libs=131.2.0_git20260422-r0",
         "pkgconfig"
       ],
       "provides": [
@@ -99224,7 +99226,8 @@
     "kissfft-libs": {
       "origin": "kissfft",
       "versions": {
-        "131.2.0-r0": 1761393636
+        "131.2.0-r0": 1761393636,
+        "131.2.0_git20260422-r0": 1779825060
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1"
@@ -181213,42 +181216,47 @@
       "origin": "pnpm",
       "versions": {
         "10.23.0-r0": 1763826561,
-        "10.24.0-r0": 1764358420
+        "10.24.0-r0": 1764358420,
+        "10.33.4-r0": 1779745355
       },
       "dependencies": [
         "nodejs"
       ],
       "provides": [
-        "cmd:pnpm=10.24.0-r0",
-        "cmd:pnpx=10.24.0-r0"
+        "cmd:pnpm=10.33.4-r0",
+        "cmd:pnpx=10.33.4-r0"
       ]
     },
     "pnpm-bash-completion": {
       "origin": "pnpm",
       "versions": {
         "10.23.0-r0": 1763826561,
-        "10.24.0-r0": 1764358420
+        "10.24.0-r0": 1764358420,
+        "10.33.4-r0": 1779745355
       }
     },
     "pnpm-doc": {
       "origin": "pnpm",
       "versions": {
         "10.23.0-r0": 1763826561,
-        "10.24.0-r0": 1764358420
+        "10.24.0-r0": 1764358420,
+        "10.33.4-r0": 1779745355
       }
     },
     "pnpm-fish-completion": {
       "origin": "pnpm",
       "versions": {
         "10.23.0-r0": 1763826561,
-        "10.24.0-r0": 1764358420
+        "10.24.0-r0": 1764358420,
+        "10.33.4-r0": 1779745355
       }
     },
     "pnpm-zsh-completion": {
       "origin": "pnpm",
       "versions": {
         "10.23.0-r0": 1763826561,
-        "10.24.0-r0": 1764358420
+        "10.24.0-r0": 1764358420,
+        "10.33.4-r0": 1779745355
       }
     },
     "poco": {
@@ -262146,7 +262154,8 @@
         "1.35.1-r0": 1767889463,
         "1.35.2-r0": 1769093593,
         "1.35.3-r0": 1771819640,
-        "1.35.4-r0": 1772578345
+        "1.35.4-r0": 1772578345,
+        "1.36.0-r0": 1779736588
       },
       "dependencies": [
         "/bin/sh",
@@ -262159,8 +262168,8 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "bitwarden_rs=1.35.4-r0",
-        "cmd:vaultwarden=1.35.4-r0"
+        "bitwarden_rs=1.36.0-r0",
+        "cmd:vaultwarden=1.36.0-r0"
       ]
     },
     "vaultwarden-openrc": {
@@ -262170,7 +262179,8 @@
         "1.35.1-r0": 1767889463,
         "1.35.2-r0": 1769093593,
         "1.35.3-r0": 1771819640,
-        "1.35.4-r0": 1772578345
+        "1.35.4-r0": 1772578345,
+        "1.36.0-r0": 1779736588
       }
     },
     "vaultwarden-web-vault": {
@@ -262180,7 +262190,8 @@
         "1.35.1-r0": 1767889463,
         "1.35.2-r0": 1769093593,
         "1.35.3-r0": 1771819640,
-        "1.35.4-r0": 1772578345
+        "1.35.4-r0": 1772578345,
+        "1.36.0-r0": 1779736588
       }
     },
     "vbindiff": {
@@ -303757,7 +303768,7 @@
       },
       "bitwarden_rs": {
         "package": "vaultwarden",
-        "version": "1.35.4-r0"
+        "version": "1.36.0-r0"
       },
       "qemu-virtiofsd": {
         "package": "virtiofsd",
