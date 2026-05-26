@@ -53925,7 +53925,8 @@
     "firefox-esr": {
       "origin": "firefox-esr",
       "versions": {
-        "140.10.2-r0": 1778327910
+        "140.10.2-r0": 1778327910,
+        "140.11.0-r0": 1779825695
       },
       "dependencies": [
         "ffmpeg7-libavcodec",
@@ -53975,7 +53976,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:firefox-esr=140.10.2-r0",
+        "cmd:firefox-esr=140.11.0-r0",
         "so:firefox-esr:libgkcodecs.so=0",
         "so:firefox-esr:liblgpllibs.so=0",
         "so:firefox-esr:libmozavcodec.so=0",
@@ -53990,7 +53991,8 @@
     "firefox-esr-intl": {
       "origin": "firefox-esr",
       "versions": {
-        "140.10.2-r0": 1778327910
+        "140.10.2-r0": 1778327910,
+        "140.11.0-r0": 1779825695
       },
       "dependencies": [
         "icu-data-full"
@@ -254675,14 +254677,15 @@
     "py3-ykman": {
       "origin": "yubikey-manager",
       "versions": {
-        "5.8.0-r1": 1774640448
+        "5.8.0-r1": 1774640448,
+        "5.8.0-r2": 1779828471
       },
       "dependencies": [
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:ykman=5.8.0-r1",
-        "py3.14:yubikit=5.8.0-r1"
+        "py3.14:ykman=5.8.0-r2",
+        "py3.14:yubikit=5.8.0-r2"
       ]
     },
     "py3-yoyo-migrations": {
@@ -302337,7 +302340,8 @@
     "wasm-pack": {
       "origin": "wasm-pack",
       "versions": {
-        "0.14.0-r2": 1778075880
+        "0.14.0-r2": 1778075880,
+        "0.15.0-r0": 1779826426
       },
       "dependencies": [
         "cargo",
@@ -302348,7 +302352,7 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:wasm-pack=0.14.0-r2"
+        "cmd:wasm-pack=0.15.0-r0"
       ]
     },
     "wasm-tools": {
@@ -314640,10 +314644,12 @@
     "yubikey-manager": {
       "origin": "yubikey-manager",
       "versions": {
-        "5.8.0-r1": 1774640448
+        "5.8.0-r1": 1774640448,
+        "5.8.0-r2": 1779828471
       },
       "dependencies": [
         "ccid",
+        "libfido2-udev",
         "pcsc-lite",
         "pcsc-lite-libs",
         "py3-click",
@@ -314655,25 +314661,28 @@
         "python3"
       ],
       "provides": [
-        "cmd:ykman=5.8.0-r1"
+        "cmd:ykman=5.8.0-r2"
       ]
     },
     "yubikey-manager-bash-completion": {
       "origin": "yubikey-manager",
       "versions": {
-        "5.8.0-r1": 1774640448
+        "5.8.0-r1": 1774640448,
+        "5.8.0-r2": 1779828471
       }
     },
     "yubikey-manager-fish-completion": {
       "origin": "yubikey-manager",
       "versions": {
-        "5.8.0-r1": 1774640448
+        "5.8.0-r1": 1774640448,
+        "5.8.0-r2": 1779828471
       }
     },
     "yubikey-manager-pyc": {
       "origin": "yubikey-manager",
       "versions": {
-        "5.8.0-r1": 1774640448
+        "5.8.0-r1": 1774640448,
+        "5.8.0-r2": 1779828471
       },
       "dependencies": [
         "python3~3.14"
@@ -314682,7 +314691,8 @@
     "yubikey-manager-zsh-completion": {
       "origin": "yubikey-manager",
       "versions": {
-        "5.8.0-r1": 1774640448
+        "5.8.0-r1": 1774640448,
+        "5.8.0-r2": 1779828471
       }
     },
     "yubikey-touch-detector": {

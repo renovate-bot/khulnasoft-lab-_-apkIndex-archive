@@ -229029,14 +229029,15 @@
     "py3-ykman": {
       "origin": "yubikey-manager",
       "versions": {
-        "5.8.0-r1": 1774640448
+        "5.8.0-r1": 1774640448,
+        "5.8.0-r2": 1779828471
       },
       "dependencies": [
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:ykman=5.8.0-r1",
-        "py3.14:yubikit=5.8.0-r1"
+        "py3.14:ykman=5.8.0-r2",
+        "py3.14:yubikit=5.8.0-r2"
       ]
     },
     "py3-yoyo-migrations": {
@@ -281667,10 +281668,12 @@
     "yubikey-manager": {
       "origin": "yubikey-manager",
       "versions": {
-        "5.8.0-r1": 1774640448
+        "5.8.0-r1": 1774640448,
+        "5.8.0-r2": 1779828471
       },
       "dependencies": [
         "ccid",
+        "libfido2-udev",
         "pcsc-lite",
         "pcsc-lite-libs",
         "py3-click",
@@ -281682,25 +281685,28 @@
         "python3"
       ],
       "provides": [
-        "cmd:ykman=5.8.0-r1"
+        "cmd:ykman=5.8.0-r2"
       ]
     },
     "yubikey-manager-bash-completion": {
       "origin": "yubikey-manager",
       "versions": {
-        "5.8.0-r1": 1774640448
+        "5.8.0-r1": 1774640448,
+        "5.8.0-r2": 1779828471
       }
     },
     "yubikey-manager-fish-completion": {
       "origin": "yubikey-manager",
       "versions": {
-        "5.8.0-r1": 1774640448
+        "5.8.0-r1": 1774640448,
+        "5.8.0-r2": 1779828471
       }
     },
     "yubikey-manager-pyc": {
       "origin": "yubikey-manager",
       "versions": {
-        "5.8.0-r1": 1774640448
+        "5.8.0-r1": 1774640448,
+        "5.8.0-r2": 1779828471
       },
       "dependencies": [
         "python3~3.14"
@@ -281709,7 +281715,8 @@
     "yubikey-manager-zsh-completion": {
       "origin": "yubikey-manager",
       "versions": {
-        "5.8.0-r1": 1774640448
+        "5.8.0-r1": 1774640448,
+        "5.8.0-r2": 1779828471
       }
     },
     "yubikey-touch-detector": {
