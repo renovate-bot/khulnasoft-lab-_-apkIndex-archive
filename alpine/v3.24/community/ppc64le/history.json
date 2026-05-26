@@ -1145,21 +1145,23 @@
     "acme-tiny": {
       "origin": "acme-tiny",
       "versions": {
-        "5.0.3-r0": 1778795347
+        "5.0.3-r0": 1778795347,
+        "5.0.3-r1": 1779810489
       },
       "dependencies": [
         "python3",
         "python3~3.14"
       ],
       "provides": [
-        "cmd:acme-tiny=5.0.3-r0",
-        "py3.14:acme_tiny=5.0.3-r0"
+        "cmd:acme-tiny=5.0.3-r1",
+        "py3.14:acme_tiny=5.0.3-r1"
       ]
     },
     "acme-tiny-pyc": {
       "origin": "acme-tiny",
       "versions": {
-        "5.0.3-r0": 1778795347
+        "5.0.3-r0": 1778795347,
+        "5.0.3-r1": 1779810489
       },
       "dependencies": [
         "python3~3.14"
@@ -66623,7 +66625,8 @@
     "gonic": {
       "origin": "gonic",
       "versions": {
-        "0.20.1-r3": 1778661427
+        "0.20.1-r3": 1778661427,
+        "0.21.0-r0": 1779815347
       },
       "dependencies": [
         "ffmpeg",
@@ -66632,13 +66635,14 @@
         "so:libsqlite3.so.0"
       ],
       "provides": [
-        "cmd:gonic=0.20.1-r3"
+        "cmd:gonic=0.21.0-r0"
       ]
     },
     "gonic-openrc": {
       "origin": "gonic",
       "versions": {
-        "0.20.1-r3": 1778661427
+        "0.20.1-r3": 1778661427,
+        "0.21.0-r0": 1779815347
       }
     },
     "goobook": {
@@ -205099,7 +205103,8 @@
     "plymouth": {
       "origin": "plymouth",
       "versions": {
-        "26.134.222-r0": 1779379671
+        "26.134.222-r0": 1779379671,
+        "26.134.222-r1": 1779815853
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -205116,9 +205121,9 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:plymouth-set-default-theme=26.134.222-r0",
-        "cmd:plymouth=26.134.222-r0",
-        "cmd:plymouthd=26.134.222-r0",
+        "cmd:plymouth-set-default-theme=26.134.222-r1",
+        "cmd:plymouth=26.134.222-r1",
+        "cmd:plymouthd=26.134.222-r1",
         "so:libply-boot-client.so.5=5.0.0",
         "so:libply-splash-core.so.5=5.0.0",
         "so:libply-splash-graphics.so.5=5.0.0",
@@ -205128,13 +205133,14 @@
     "plymouth-dev": {
       "origin": "plymouth",
       "versions": {
-        "26.134.222-r0": 1779379671
+        "26.134.222-r0": 1779379671,
+        "26.134.222-r1": 1779815853
       },
       "dependencies": [
         "eudev-dev",
         "gtk+3.0-dev",
         "pango-dev",
-        "plymouth=26.134.222-r0",
+        "plymouth=26.134.222-r1",
         "pc:libevdev",
         "pc:libpng>=1.2.16",
         "pc:libudev",
@@ -205151,13 +205157,15 @@
     "plymouth-doc": {
       "origin": "plymouth",
       "versions": {
-        "26.134.222-r0": 1779379671
+        "26.134.222-r0": 1779379671,
+        "26.134.222-r1": 1779815853
       }
     },
     "plymouth-drm": {
       "origin": "plymouth",
       "versions": {
-        "26.134.222-r0": 1779379671
+        "26.134.222-r0": 1779379671,
+        "26.134.222-r1": 1779815853
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -205201,7 +205209,8 @@
     "plymouth-lang": {
       "origin": "plymouth",
       "versions": {
-        "26.134.222-r0": 1779379671
+        "26.134.222-r0": 1779379671,
+        "26.134.222-r1": 1779815853
       }
     },
     "plymouth-openrc-plugin": {
@@ -205219,7 +205228,8 @@
     "plymouth-systemd": {
       "origin": "plymouth",
       "versions": {
-        "26.134.222-r0": 1779379671
+        "26.134.222-r0": 1779379671,
+        "26.134.222-r1": 1779815853
       }
     },
     "plymouth-theme-phosh": {
@@ -205231,16 +205241,18 @@
     "plymouth-themes": {
       "origin": "plymouth",
       "versions": {
-        "26.134.222-r0": 1779379671
+        "26.134.222-r0": 1779379671,
+        "26.134.222-r1": 1779815853
       },
       "dependencies": [
-        "plymouth=26.134.222-r0"
+        "plymouth=26.134.222-r1"
       ]
     },
     "plymouth-x11": {
       "origin": "plymouth",
       "versions": {
-        "26.134.222-r0": 1779379671
+        "26.134.222-r0": 1779379671,
+        "26.134.222-r1": 1779815853
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -209048,21 +209060,23 @@
     "prometheus-blackbox-exporter": {
       "origin": "prometheus-blackbox-exporter",
       "versions": {
-        "0.28.0-r5": 1778661427
+        "0.28.0-r5": 1778661427,
+        "0.28.0-r6": 1779814483
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "blackbox_exporter=0.28.0-r5",
-        "cmd:blackbox_exporter=0.28.0-r5"
+        "blackbox_exporter=0.28.0-r6",
+        "cmd:blackbox_exporter=0.28.0-r6"
       ]
     },
     "prometheus-blackbox-exporter-openrc": {
       "origin": "prometheus-blackbox-exporter",
       "versions": {
-        "0.28.0-r5": 1778661427
+        "0.28.0-r5": 1778661427,
+        "0.28.0-r6": 1779814483
       }
     },
     "prometheus-fastly-exporter": {
@@ -211435,20 +211449,22 @@
     "py3-ansicolor": {
       "origin": "py3-ansicolor",
       "versions": {
-        "0.3.3-r1": 1774640385
+        "0.3.3-r1": 1774640385,
+        "0.3.3-r2": 1779811573
       },
       "dependencies": [
         "python3",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:ansicolor=0.3.3-r1"
+        "py3.14:ansicolor=0.3.3-r2"
       ]
     },
     "py3-ansicolor-pyc": {
       "origin": "py3-ansicolor",
       "versions": {
-        "0.3.3-r1": 1774640385
+        "0.3.3-r1": 1774640385,
+        "0.3.3-r2": 1779811573
       },
       "dependencies": [
         "python3~3.14"
@@ -305349,6 +305365,34 @@
       "provides": [
         "cmd:fbkeyboard=0.5-r0"
       ]
+    },
+    "beebzzr": {
+      "origin": "beebzzr",
+      "versions": {
+        "0_git20251214-r0": 1779808407
+      },
+      "dependencies": [
+        "so:libc.musl-ppc64le.so.1"
+      ],
+      "provides": [
+        "cmd:beebzzr=0_git20251214-r0"
+      ]
+    },
+    "beebzzr-doc": {
+      "origin": "beebzzr",
+      "versions": {
+        "0_git20251214-r0": 1779808407
+      }
+    },
+    "cups-pdf": {
+      "origin": "cups-pdf",
+      "versions": {
+        "3.0.2-r0": 1779807667
+      },
+      "dependencies": [
+        "so:libc.musl-ppc64le.so.1",
+        "so:libcups.so.2"
+      ]
     }
   },
   "provide": {
@@ -331633,7 +331677,7 @@
       },
       "blackbox_exporter": {
         "package": "prometheus-blackbox-exporter",
-        "version": "0.28.0-r5"
+        "version": "0.28.0-r6"
       },
       "libpurple-bonjour": {
         "package": "purple-bonjour",

@@ -1337,37 +1337,37 @@ t:1779373787
 c:ecd6fe79d19396fdccaec838c277cc45b5abdaa1
 i:acme-redirect=0.8.1-r0 zsh
 
-C:Q1TP6owqYbD2u18OCteTb9bT3ul0U=
+C:Q1azFlUSvaXqhbAaORE04FdE48s1Q=
 P:acme-tiny
-V:5.0.3-r0
+V:5.0.3-r1
 A:aarch64
-S:11698
+S:11699
 I:24539
 T:A tiny script to issue and renew TLS certs from Let's Encrypt
 U:https://pypi.org/project/acme-tiny/
 L:MIT
 o:acme-tiny
-m:Niklas Meyer <derlinkman@gmail.com>
-t:1778795347
-c:45e21679425c95378e2899f16312cd35ae5a3580
+m:Hannes Braun <hannes@hannesbraun.net>
+t:1779810489
+c:f094602ba02a8e53a46595d6b3e2d8c22ec37444
 D:python3 python3~3.14
-p:cmd:acme-tiny=5.0.3-r0 py3.14:acme_tiny=5.0.3-r0
+p:cmd:acme-tiny=5.0.3-r1 py3.14:acme_tiny=5.0.3-r1
 
-C:Q1br8w6itoYSachHw5w/y1rHf1HmE=
+C:Q12+wGR7z5U8YaMZfqLXLfw3P4S6w=
 P:acme-tiny-pyc
-V:5.0.3-r0
+V:5.0.3-r1
 A:aarch64
-S:10409
+S:10408
 I:16511
 T:Precompiled Python bytecode for acme-tiny
 U:https://pypi.org/project/acme-tiny/
 L:MIT
 o:acme-tiny
-m:Niklas Meyer <derlinkman@gmail.com>
-t:1778795347
-c:45e21679425c95378e2899f16312cd35ae5a3580
+m:Hannes Braun <hannes@hannesbraun.net>
+t:1779810489
+c:f094602ba02a8e53a46595d6b3e2d8c22ec37444
 D:python3~3.14
-i:acme-tiny=5.0.3-r0 pyc
+i:acme-tiny=5.0.3-r1 pyc
 
 C:Q1I5vu3KynSO8oSxg3LgRJGqXfHKs=
 P:acme.sh
@@ -18429,6 +18429,37 @@ o:bear
 t:1773224980
 c:0c62a094e7ea4b729e90ef55d68059cf44e54f9c
 i:docs bear=4.0.4-r1
+
+C:Q1NQouKbuZ83V3Lv+6Y0cB6LofvH8=
+P:beebzzr
+V:0_git20251214-r0
+A:aarch64
+S:5425
+I:67264
+T:Simple minimal vibration tool
+U:https://scm.dersco.re/utils/beebzzr.git
+L:BSD-3-Clause
+o:beebzzr
+m:Ferass El Hafidi <funderscore@postmarketos.org>
+t:1779808407
+c:5d0357a8fd2cc940f164032cb28936277002e299
+D:so:libc.musl-aarch64.so.1
+p:cmd:beebzzr=0_git20251214-r0
+
+C:Q1NpcIFPOv+RsIiWmArYlN65EOTIc=
+P:beebzzr-doc
+V:0_git20251214-r0
+A:aarch64
+S:2514
+I:1558
+T:Simple minimal vibration tool (documentation)
+U:https://scm.dersco.re/utils/beebzzr.git
+L:BSD-3-Clause
+o:beebzzr
+m:Ferass El Hafidi <funderscore@postmarketos.org>
+t:1779808407
+c:5d0357a8fd2cc940f164032cb28936277002e299
+i:docs beebzzr=0_git20251214-r0
 
 C:Q1Yt4YgCP1xlXkzxEFSAcoezeDoYA=
 P:beets
@@ -38407,6 +38438,21 @@ t:1773596317
 c:35284554309c9e72ed6b8f35961d584c137f299f
 i:systemd cups-filters=1.28.17-r9
 
+C:Q1VmFZDF4hH7RgoB1yicCxNTKLHfw=
+P:cups-pdf
+V:3.0.2-r0
+A:aarch64
+S:22160
+I:207130
+T:CUPS PDF printer
+U:https://www.cups-pdf.de
+L:GPL-2.0-or-later
+o:cups-pdf
+m:Leonardo Arena <rnalrd@alpinelinux.org>
+t:1779807667
+c:510dcde9a472b7af52eb7e36936d239e8f15d853
+D:so:libc.musl-aarch64.so.1 so:libcups.so.2
+
 C:Q1sew21OrNsA/0kRJbyzfaIzkQvNI=
 P:cups-pk-helper
 V:0.2.7-r3
@@ -42113,22 +42159,6 @@ m:team/kde <bribbers@disroot.org>
 t:1778857556
 c:c813d8b2e7a434ba72e705ac80a234f625d8b569
 i:discover=6.6.5-r0 lang
-
-C:Q16OPz6N44HoeaenlszjyM8Xp6yBk=
-P:display-switch
-V:1.2.0-r4
-A:aarch64
-S:310242
-I:595794
-T:utility for switching displays over DDC/CI on USB disconnect/connect events
-U:https://github.com/haimgel/display-switch
-L:MIT
-o:display-switch
-m:Clayton Craft <clayton@craftyguy.net>
-t:1727693404
-c:8525d2e6943f25e7c679c9c0b0590f079c5ba46b
-D:/bin/sh so:libc.musl-aarch64.so.1 so:libgcc_s.so.1 so:libudev.so.1 so:libusb-1.0.so.0
-p:cmd:display_switch=1.2.0-r4
 
 C:Q1nmD+iNhbYIOGC7OF+I1SpXcO03c=
 P:dissent
@@ -79076,36 +79106,36 @@ t:1778661427
 c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
 i:docs gomuks=0.3.1-r16
 
-C:Q1ElZPsp+njICPbcktrGfNxHjARw0=
+C:Q1B9U/f7D0d+946gKywlohqnv4KOY=
 P:gonic
-V:0.20.1-r3
+V:0.21.0-r0
 A:aarch64
-S:6482545
-I:17162344
+S:6562637
+I:17427336
 T:Subsonic compatible music streaming server
 U:https://github.com/sentriz/gonic
 L:GPL-3.0-or-later
 o:gonic
 m:Alex McGrath <amk@amk.ie>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1779815347
+c:c16d4cbccf04dcbe2a925b5cae4d51919398d09e
 D:ffmpeg /bin/sh so:libc.musl-aarch64.so.1 so:libsqlite3.so.0
-p:cmd:gonic=0.20.1-r3
+p:cmd:gonic=0.21.0-r0
 
-C:Q1US9yLN/CHmndzbQXS5rcBwZt+Vk=
+C:Q1V28gPxw9QCGNTJ9TF3djwngi0Vs=
 P:gonic-openrc
-V:0.20.1-r3
+V:0.21.0-r0
 A:aarch64
-S:2033
+S:2030
 I:755
 T:Subsonic compatible music streaming server (OpenRC init scripts)
 U:https://github.com/sentriz/gonic
 L:GPL-3.0-or-later
 o:gonic
 m:Alex McGrath <amk@amk.ie>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:openrc gonic=0.20.1-r3
+t:1779815347
+c:c16d4cbccf04dcbe2a925b5cae4d51919398d09e
+i:openrc gonic=0.21.0-r0
 
 C:Q1DRuUn33jLvGW5T74FGKbjSUuQls=
 P:goobook
@@ -221702,66 +221732,66 @@ t:1755162628
 c:6a4bb4081bda87a3d3e240f8d70bb86dece11031
 i:docs ply=2.4.0-r0
 
-C:Q1b4M1nGU5A+bLtF4MC1TkEXKcoiQ=
+C:Q1y93s998Hdz4nVq2fT9fXG+o3e4w=
 P:plymouth
-V:26.134.222-r0
+V:26.134.222-r1
 A:aarch64
-S:312801
+S:312815
 I:1514402
 T:graphical bootsplash on linux
 U:https://www.freedesktop.org/wiki/Software/Plymouth
 L:GPL-2.0-or-later
 o:plymouth
 m:Timo Teräs <timo.teras@iki.fi>
-t:1779379671
-c:fc2fbf4fce63c099c9564eac3f2462deb059e482
+t:1779815853
+c:aa6094808ac6c3aa0fbf8d5fa8b8bc195ff86d69
 D:so:libc.musl-aarch64.so.1 so:libcairo.so.2 so:libevdev.so.2 so:libfreetype.so.6 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpng16.so.16 so:libudev.so.1 so:libxkbcommon.so.0
-p:cmd:plymouth-set-default-theme=26.134.222-r0 cmd:plymouth=26.134.222-r0 cmd:plymouthd=26.134.222-r0 so:libply-boot-client.so.5=5.0.0 so:libply-splash-core.so.5=5.0.0 so:libply-splash-graphics.so.5=5.0.0 so:libply.so.5=5.0.0
+p:cmd:plymouth-set-default-theme=26.134.222-r1 cmd:plymouth=26.134.222-r1 cmd:plymouthd=26.134.222-r1 so:libply-boot-client.so.5=5.0.0 so:libply-splash-core.so.5=5.0.0 so:libply-splash-graphics.so.5=5.0.0 so:libply.so.5=5.0.0
 
-C:Q1YDEXcOGh0R4XRM1QbTWeMi52Rdo=
+C:Q1T90TV7PTL7nmjtdasMhzl+b2jYM=
 P:plymouth-dev
-V:26.134.222-r0
+V:26.134.222-r1
 A:aarch64
-S:29404
+S:29402
 I:191439
 T:graphical bootsplash on linux (development files)
 U:https://www.freedesktop.org/wiki/Software/Plymouth
 L:GPL-2.0-or-later
 o:plymouth
 m:Timo Teräs <timo.teras@iki.fi>
-t:1779379671
-c:fc2fbf4fce63c099c9564eac3f2462deb059e482
-D:eudev-dev gtk+3.0-dev pango-dev plymouth=26.134.222-r0 pc:libevdev pc:libpng>=1.2.16 pc:libudev pc:xkbcommon pc:xkeyboard-config pkgconfig
+t:1779815853
+c:aa6094808ac6c3aa0fbf8d5fa8b8bc195ff86d69
+D:eudev-dev gtk+3.0-dev pango-dev plymouth=26.134.222-r1 pc:libevdev pc:libpng>=1.2.16 pc:libudev pc:xkbcommon pc:xkeyboard-config pkgconfig
 p:pc:ply-boot-client=26.134.222 pc:ply-splash-core=26.134.222 pc:ply-splash-graphics=26.134.222
 
-C:Q1HctqVBD5wUbCeF2BUZncbx4PLcI=
+C:Q1tHrL+Rbk0dR/hrEzSNBcDZtjoUM=
 P:plymouth-doc
-V:26.134.222-r0
+V:26.134.222-r1
 A:aarch64
-S:7161
-I:5062
+S:7162
+I:5063
 T:graphical bootsplash on linux (documentation)
 U:https://www.freedesktop.org/wiki/Software/Plymouth
 L:GPL-2.0-or-later
 o:plymouth
 m:Timo Teräs <timo.teras@iki.fi>
-t:1779379671
-c:fc2fbf4fce63c099c9564eac3f2462deb059e482
-i:docs plymouth=26.134.222-r0
+t:1779815853
+c:aa6094808ac6c3aa0fbf8d5fa8b8bc195ff86d69
+i:docs plymouth=26.134.222-r1
 
-C:Q1bdZlfQEUe1Z+6DFwkQqu5Ps3vo8=
+C:Q1YsB3tCCXb2isb4Pv3DInRVTPpNo=
 P:plymouth-drm
-V:26.134.222-r0
+V:26.134.222-r1
 A:aarch64
-S:18340
+S:18342
 I:67432
 T:graphical bootsplash on linux
 U:https://www.freedesktop.org/wiki/Software/Plymouth
 L:GPL-2.0-or-later
 o:plymouth
 m:Timo Teräs <timo.teras@iki.fi>
-t:1779379671
-c:fc2fbf4fce63c099c9564eac3f2462deb059e482
+t:1779815853
+c:aa6094808ac6c3aa0fbf8d5fa8b8bc195ff86d69
 D:so:libc.musl-aarch64.so.1 so:libdrm.so.2 so:libply-splash-core.so.5 so:libply.so.5
 
 C:Q1nZ5Evx8xjAJvyAtXN2SMHgchu+o=
@@ -221796,20 +221826,20 @@ t:1778857556
 c:c813d8b2e7a434ba72e705ac80a234f625d8b569
 i:plymouth-kcm=6.6.5-r0 lang
 
-C:Q1i0Loi+NDEtvkd1D6R4XutDis6bw=
+C:Q1qXlEd8mebEIklY0ptJ+Pw+EhQpc=
 P:plymouth-lang
-V:26.134.222-r0
+V:26.134.222-r1
 A:aarch64
-S:17908
+S:17916
 I:49401
 T:Languages for package plymouth
 U:https://www.freedesktop.org/wiki/Software/Plymouth
 L:GPL-2.0-or-later
 o:plymouth
 m:Timo Teräs <timo.teras@iki.fi>
-t:1779379671
-c:fc2fbf4fce63c099c9564eac3f2462deb059e482
-i:plymouth=26.134.222-r0 lang
+t:1779815853
+c:aa6094808ac6c3aa0fbf8d5fa8b8bc195ff86d69
+i:plymouth=26.134.222-r1 lang
 
 C:Q12Dbv7uOmrEq+Z5ihsxnK6rdR1qQ=
 P:plymouth-openrc-plugin
@@ -221826,20 +221856,20 @@ t:1778267829
 c:4e0d17dbe3a6bc26a06e07a043982f3e8f506ba5
 D:plymouth so:libc.musl-aarch64.so.1 so:libeinfo.so.1 so:librc.so.1
 
-C:Q1JplHhSR8D3qWRBYsfAyvl88NmYU=
+C:Q1kemb26DdeTLO4/cZsaaaO8cd8+E=
 P:plymouth-systemd
-V:26.134.222-r0
+V:26.134.222-r1
 A:aarch64
-S:4601
+S:4606
 I:4758
 T:graphical bootsplash on linux (systemd files)
 U:https://www.freedesktop.org/wiki/Software/Plymouth
 L:GPL-2.0-or-later
 o:plymouth
 m:Timo Teräs <timo.teras@iki.fi>
-t:1779379671
-c:fc2fbf4fce63c099c9564eac3f2462deb059e482
-i:systemd plymouth=26.134.222-r0
+t:1779815853
+c:aa6094808ac6c3aa0fbf8d5fa8b8bc195ff86d69
+i:systemd plymouth=26.134.222-r1
 
 C:Q15Z6+UdObbLTO6qDVsTKtUQj0Rn4=
 P:plymouth-theme-phosh
@@ -221855,34 +221885,34 @@ m:team/phosh <achill@achill.org>
 t:1779021940
 c:616357d695f4f07fefb5ac4c69d0d58c3541e1f4
 
-C:Q14ePyhiuOIJhJUBVHvbiFNnr3vRc=
+C:Q1lMJU730eWPuP91tUyTg5yr26b/U=
 P:plymouth-themes
-V:26.134.222-r0
+V:26.134.222-r1
 A:aarch64
-S:835868
+S:835863
 I:890660
 T:graphical bootsplash on linux
 U:https://www.freedesktop.org/wiki/Software/Plymouth
 L:GPL-2.0-or-later
 o:plymouth
 m:Timo Teräs <timo.teras@iki.fi>
-t:1779379671
-c:fc2fbf4fce63c099c9564eac3f2462deb059e482
-D:plymouth=26.134.222-r0
+t:1779815853
+c:aa6094808ac6c3aa0fbf8d5fa8b8bc195ff86d69
+D:plymouth=26.134.222-r1
 
-C:Q1Yc76dYZTFezqptHQBrO9o+GnpJI=
+C:Q1Kqc9xJdED4Wx/MVGIdKitH/r+Uc=
 P:plymouth-x11
-V:26.134.222-r0
+V:26.134.222-r1
 A:aarch64
-S:7568
+S:7567
 I:67504
 T:graphical bootsplash on linux
 U:https://www.freedesktop.org/wiki/Software/Plymouth
 L:GPL-2.0-or-later
 o:plymouth
 m:Timo Teräs <timo.teras@iki.fi>
-t:1779379671
-c:fc2fbf4fce63c099c9564eac3f2462deb059e482
+t:1779815853
+c:aa6094808ac6c3aa0fbf8d5fa8b8bc195ff86d69
 D:so:libc.musl-aarch64.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libply-splash-core.so.5 so:libply.so.5
 
 C:Q1SjKquoYgZilb/SvVhGXMM/Q/grY=
@@ -226608,36 +226638,36 @@ t:1778661427
 c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
 i:openrc prometheus-bind-exporter=0.8.0-r11
 
-C:Q1cFC8jH6qnIdeIXmCDFwyJ9F1K3A=
+C:Q1ZxcispBUQuQv2/Di5/mnQ0pYS44=
 P:prometheus-blackbox-exporter
-V:0.28.0-r5
+V:0.28.0-r6
 A:aarch64
-S:8233854
+S:8233851
 I:25164507
 T:Prometheus Blackbox Exporter
 U:https://github.com/prometheus/blackbox_exporter
 L:Apache-2.0
 o:prometheus-blackbox-exporter
 m:ungleich <alpinelinux@ungleich.ch>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1779814483
+c:c52c1db2d2982eb8280c9f89a883b685d9228e9f
 D:/bin/sh so:libc.musl-aarch64.so.1
-p:blackbox_exporter=0.28.0-r5 cmd:blackbox_exporter=0.28.0-r5
+p:blackbox_exporter=0.28.0-r6 cmd:blackbox_exporter=0.28.0-r6
 
-C:Q17/FFSJWZI6VQN9Zz+sbLdxTXjWo=
+C:Q1gFvau6AwPc6XOgYv5M7TuGwXRf8=
 P:prometheus-blackbox-exporter-openrc
-V:0.28.0-r5
+V:0.28.0-r6
 A:aarch64
-S:1963
+S:1966
 I:688
 T:Prometheus Blackbox Exporter (OpenRC init scripts)
 U:https://github.com/prometheus/blackbox_exporter
 L:Apache-2.0
 o:prometheus-blackbox-exporter
 m:ungleich <alpinelinux@ungleich.ch>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:openrc prometheus-blackbox-exporter=0.28.0-r5
+t:1779814483
+c:c52c1db2d2982eb8280c9f89a883b685d9228e9f
+i:openrc prometheus-blackbox-exporter=0.28.0-r6
 
 C:Q1zFGnHBaGtGKhm83YzInfyfsfgIw=
 P:prometheus-fastly-exporter
@@ -229880,37 +229910,37 @@ c:a542f67696ee05b336814b6b094cadb6633090f4
 D:python3~3.14
 i:py3-ansible-compat=26.3.0-r0 pyc
 
-C:Q1bYsHY01LvHlOSt1MHW5XRZbYt6o=
+C:Q1mIj/aVvQ55nv6k0TprFpOd0rsFs=
 P:py3-ansicolor
-V:0.3.3-r1
+V:0.3.3-r2
 A:aarch64
-S:7528
-I:22610
+S:8269
+I:23634
 T:A library to produce ansi color output, highlighting and diffing
 U:https://github.com/numerodix/ansicolor
 L:Apache-2.0
 o:py3-ansicolor
 m:Keith Maxwell <keith.maxwell@gmail.com>
-t:1774640385
-c:5a8d205fb5defc31025da72321fb5dd1695862a5
+t:1779811573
+c:028fd83a5f829463909a4fcd4d67b1c8d691c159
 D:python3 python3~3.14
-p:py3.14:ansicolor=0.3.3-r1
+p:py3.14:ansicolor=0.3.3-r2
 
-C:Q1XcM6Nqkj9DHkUDgnOoV8/Geznhg=
+C:Q1sVYjDqgZKLDMJVundYjdwa2Lw+s=
 P:py3-ansicolor-pyc
-V:0.3.3-r1
+V:0.3.3-r2
 A:aarch64
-S:13302
+S:13309
 I:28807
 T:Precompiled Python bytecode for py3-ansicolor
 U:https://github.com/numerodix/ansicolor
 L:Apache-2.0
 o:py3-ansicolor
 m:Keith Maxwell <keith.maxwell@gmail.com>
-t:1774640385
-c:5a8d205fb5defc31025da72321fb5dd1695862a5
+t:1779811573
+c:028fd83a5f829463909a4fcd4d67b1c8d691c159
 D:python3~3.14
-i:py3-ansicolor=0.3.3-r1 pyc
+i:py3-ansicolor=0.3.3-r2 pyc
 
 C:Q1J8a3GQ5FKP2ZenT1ubmmxgWxYeo=
 P:py3-ansicolors
