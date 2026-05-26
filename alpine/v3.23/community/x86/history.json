@@ -95635,7 +95635,8 @@
     "kissfft": {
       "origin": "kissfft",
       "versions": {
-        "131.2.0-r0": 1761393636
+        "131.2.0-r0": 1761393636,
+        "131.2.0_git20260422-r0": 1779825060
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -95643,20 +95644,21 @@
         "so:libpng16.so.16"
       ],
       "provides": [
-        "cmd:fastconv-float=131.2.0-r0",
-        "cmd:fastconvr-float=131.2.0-r0",
-        "cmd:fft-float=131.2.0-r0",
-        "cmd:psdpng-float=131.2.0-r0"
+        "cmd:fastconv-float=131.2.0_git20260422-r0",
+        "cmd:fastconvr-float=131.2.0_git20260422-r0",
+        "cmd:fft-float=131.2.0_git20260422-r0",
+        "cmd:psdpng-float=131.2.0_git20260422-r0"
       ]
     },
     "kissfft-dev": {
       "origin": "kissfft",
       "versions": {
-        "131.2.0-r0": 1761393636
+        "131.2.0-r0": 1761393636,
+        "131.2.0_git20260422-r0": 1779825060
       },
       "dependencies": [
-        "kissfft=131.2.0-r0",
-        "kissfft-libs=131.2.0-r0",
+        "kissfft=131.2.0_git20260422-r0",
+        "kissfft-libs=131.2.0_git20260422-r0",
         "pkgconfig"
       ],
       "provides": [
@@ -95666,7 +95668,8 @@
     "kissfft-libs": {
       "origin": "kissfft",
       "versions": {
-        "131.2.0-r0": 1761393636
+        "131.2.0-r0": 1761393636,
+        "131.2.0_git20260422-r0": 1779825060
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"

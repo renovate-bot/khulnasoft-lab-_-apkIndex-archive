@@ -34572,7 +34572,8 @@
     "dracut": {
       "origin": "dracut",
       "versions": {
-        "110-r0": 1770644397
+        "110-r0": 1770644397,
+        "111-r0": 1779824581
       },
       "dependencies": [
         "dracut-core",
@@ -34586,13 +34587,15 @@
     "dracut-bash-completion": {
       "origin": "dracut",
       "versions": {
-        "110-r0": 1770644397
+        "110-r0": 1770644397,
+        "111-r0": 1779824581
       }
     },
     "dracut-core": {
       "origin": "dracut",
       "versions": {
-        "110-r0": 1770644397
+        "110-r0": 1770644397,
+        "111-r0": 1779824581
       },
       "dependencies": [
         "bash",
@@ -34602,33 +34605,36 @@
         "so:libkmod.so.2"
       ],
       "provides": [
-        "cmd:dracut-catimages=110-r0",
-        "cmd:dracut=110-r0",
-        "cmd:lsinitrd=110-r0"
+        "cmd:dracut-catimages=111-r0",
+        "cmd:dracut=111-r0",
+        "cmd:lsinitrd=111-r0"
       ]
     },
     "dracut-dev": {
       "origin": "dracut",
       "versions": {
-        "110-r0": 1770644397
+        "110-r0": 1770644397,
+        "111-r0": 1779824581
       },
       "dependencies": [
         "pkgconfig"
       ],
       "provides": [
-        "pc:dracut=110"
+        "pc:dracut=111"
       ]
     },
     "dracut-doc": {
       "origin": "dracut",
       "versions": {
-        "110-r0": 1770644397
+        "110-r0": 1770644397,
+        "111-r0": 1779824581
       }
     },
     "dracut-modules": {
       "origin": "dracut",
       "versions": {
-        "110-r0": 1770644397
+        "110-r0": 1770644397,
+        "111-r0": 1779824581
       },
       "dependencies": [
         "dracut-core",
@@ -34644,7 +34650,8 @@
     "dracut-modules-network": {
       "origin": "dracut",
       "versions": {
-        "110-r0": 1770644397
+        "110-r0": 1770644397,
+        "111-r0": 1779824581
       },
       "dependencies": [
         "dracut-modules",
@@ -34655,7 +34662,8 @@
     "dracut-tests": {
       "origin": "dracut",
       "versions": {
-        "110-r0": 1770644397
+        "110-r0": 1770644397,
+        "111-r0": 1779824581
       },
       "dependencies": [
         "dracut-modules-network",
@@ -34692,12 +34700,10 @@
         "parted",
         "plymouth-themes",
         "procps",
-        "qemu-img",
         "sfdisk",
         "squashfs-tools",
         "util-linux",
         "xorriso",
-        "qemu-system-s390x",
         "linux-lts"
       ]
     },
@@ -163916,7 +163922,8 @@
       "origin": "openresty",
       "versions": {
         "1.29.2.3-r0": 1775351621,
-        "1.29.2.3-r1": 1779376172
+        "1.29.2.3-r1": 1779376172,
+        "1.29.2.5-r0": 1779824531
       },
       "dependencies": [
         "/bin/sh",
@@ -163935,32 +163942,35 @@
       ],
       "provides": [
         "nginx",
-        "cmd:nginx=1.29.2.3-r1"
+        "cmd:nginx=1.29.2.5-r0"
       ]
     },
     "openresty-dbg": {
       "origin": "openresty",
       "versions": {
         "1.29.2.3-r0": 1775351621,
-        "1.29.2.3-r1": 1779376172
+        "1.29.2.3-r1": 1779376172,
+        "1.29.2.5-r0": 1779824531
       },
       "dependencies": [
-        "!openresty<1.29.2.3-r1",
-        "!openresty>1.29.2.3-r1"
+        "!openresty<1.29.2.5-r0",
+        "!openresty>1.29.2.5-r0"
       ]
     },
     "openresty-doc": {
       "origin": "openresty",
       "versions": {
         "1.29.2.3-r0": 1775351621,
-        "1.29.2.3-r1": 1779376172
+        "1.29.2.3-r1": 1779376172,
+        "1.29.2.5-r0": 1779824531
       }
     },
     "openresty-mod-http-echo": {
       "origin": "openresty",
       "versions": {
         "1.29.2.3-r0": 1775351621,
-        "1.29.2.3-r1": 1779376172
+        "1.29.2.3-r1": 1779376172,
+        "1.29.2.5-r0": 1779824531
       },
       "dependencies": [
         "cmd:nginx",
@@ -163972,7 +163982,8 @@
       "origin": "openresty",
       "versions": {
         "1.29.2.3-r0": 1775351621,
-        "1.29.2.3-r1": 1779376172
+        "1.29.2.3-r1": 1779376172,
+        "1.29.2.5-r0": 1779824531
       },
       "dependencies": [
         "cmd:nginx",
@@ -163984,7 +163995,8 @@
       "origin": "openresty",
       "versions": {
         "1.29.2.3-r0": 1775351621,
-        "1.29.2.3-r1": 1779376172
+        "1.29.2.3-r1": 1779376172,
+        "1.29.2.5-r0": 1779824531
       },
       "dependencies": [
         "cmd:nginx",
@@ -163998,7 +164010,8 @@
       "origin": "openresty",
       "versions": {
         "1.29.2.3-r0": 1775351621,
-        "1.29.2.3-r1": 1779376172
+        "1.29.2.3-r1": 1779376172,
+        "1.29.2.5-r0": 1779824531
       },
       "dependencies": [
         "cmd:nginx",
@@ -164011,7 +164024,8 @@
       "origin": "openresty",
       "versions": {
         "1.29.2.3-r0": 1775351621,
-        "1.29.2.3-r1": 1779376172
+        "1.29.2.3-r1": 1779376172,
+        "1.29.2.5-r0": 1779824531
       },
       "dependencies": [
         "cmd:nginx",
@@ -164023,7 +164037,8 @@
       "origin": "openresty",
       "versions": {
         "1.29.2.3-r0": 1775351621,
-        "1.29.2.3-r1": 1779376172
+        "1.29.2.3-r1": 1779376172,
+        "1.29.2.5-r0": 1779824531
       },
       "dependencies": [
         "cmd:nginx",
@@ -164036,7 +164051,8 @@
       "origin": "openresty",
       "versions": {
         "1.29.2.3-r0": 1775351621,
-        "1.29.2.3-r1": 1779376172
+        "1.29.2.3-r1": 1779376172,
+        "1.29.2.5-r0": 1779824531
       }
     },
     "openrgb": {
@@ -229907,7 +229923,8 @@
       "versions": {
         "5.1.4-r3": 1775828910,
         "5.1.4-r4": 1779210865,
-        "5.2.0-r0": 1779667506
+        "5.2.0-r0": 1779667506,
+        "5.2.1-r0": 1779819909
       },
       "dependencies": [
         "qt6-qtsvg",
@@ -229926,7 +229943,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:qbittorrent=5.2.0-r0"
+        "cmd:qbittorrent=5.2.1-r0"
       ]
     },
     "qbittorrent-doc": {
@@ -229934,7 +229951,8 @@
       "versions": {
         "5.1.4-r3": 1775828910,
         "5.1.4-r4": 1779210865,
-        "5.2.0-r0": 1779667506
+        "5.2.0-r0": 1779667506,
+        "5.2.1-r0": 1779819909
       }
     },
     "qbittorrent-nox": {
@@ -229942,7 +229960,8 @@
       "versions": {
         "5.1.4-r3": 1775828910,
         "5.1.4-r4": 1779210865,
-        "5.2.0-r0": 1779667506
+        "5.2.0-r0": 1779667506,
+        "5.2.1-r0": 1779819909
       },
       "dependencies": [
         "/bin/sh",
@@ -229958,7 +229977,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:qbittorrent-nox=5.2.0-r0"
+        "cmd:qbittorrent-nox=5.2.1-r0"
       ]
     },
     "qbittorrent-nox-doc": {
@@ -229966,7 +229985,8 @@
       "versions": {
         "5.1.4-r3": 1775828910,
         "5.1.4-r4": 1779210865,
-        "5.2.0-r0": 1779667506
+        "5.2.0-r0": 1779667506,
+        "5.2.1-r0": 1779819909
       }
     },
     "qbittorrent-nox-openrc": {
@@ -229974,7 +229994,8 @@
       "versions": {
         "5.1.4-r3": 1775828910,
         "5.1.4-r4": 1779210865,
-        "5.2.0-r0": 1779667506
+        "5.2.0-r0": 1779667506,
+        "5.2.1-r0": 1779819909
       }
     },
     "qbootctl": {
@@ -240105,9 +240126,11 @@
     "release-plz": {
       "origin": "release-plz",
       "versions": {
-        "0.3.139-r0": 1753430906
+        "0.3.139-r0": 1753430906,
+        "0.3.158-r0": 1779819413
       },
       "dependencies": [
+        "git",
         "so:libc.musl-s390x.so.1",
         "so:libcrypto.so.3",
         "so:libgcc_s.so.1",
@@ -240116,31 +240139,35 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:release-plz=0.3.139-r0"
+        "cmd:release-plz=0.3.158-r0"
       ]
     },
     "release-plz-bash-completion": {
       "origin": "release-plz",
       "versions": {
-        "0.3.139-r0": 1753430906
+        "0.3.139-r0": 1753430906,
+        "0.3.158-r0": 1779819413
       }
     },
     "release-plz-doc": {
       "origin": "release-plz",
       "versions": {
-        "0.3.139-r0": 1753430906
+        "0.3.139-r0": 1753430906,
+        "0.3.158-r0": 1779819413
       }
     },
     "release-plz-fish-completion": {
       "origin": "release-plz",
       "versions": {
-        "0.3.139-r0": 1753430906
+        "0.3.139-r0": 1753430906,
+        "0.3.158-r0": 1779819413
       }
     },
     "release-plz-zsh-completion": {
       "origin": "release-plz",
       "versions": {
-        "0.3.139-r0": 1753430906
+        "0.3.139-r0": 1753430906,
+        "0.3.158-r0": 1779819413
       }
     },
     "remind": {
@@ -270393,7 +270420,8 @@
     "wasm-pack": {
       "origin": "wasm-pack",
       "versions": {
-        "0.14.0-r2": 1778075880
+        "0.14.0-r2": 1778075880,
+        "0.15.0-r0": 1779826426
       },
       "dependencies": [
         "cargo",
@@ -270403,7 +270431,7 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:wasm-pack=0.14.0-r2"
+        "cmd:wasm-pack=0.15.0-r0"
       ]
     },
     "wasm-tools": {
@@ -283821,7 +283849,8 @@
     "openresty-mod-devel-kit": {
       "origin": "openresty",
       "versions": {
-        "1.29.2.3-r1": 1779376172
+        "1.29.2.3-r1": 1779376172,
+        "1.29.2.5-r0": 1779824531
       },
       "dependencies": [
         "cmd:nginx",
@@ -283829,7 +283858,7 @@
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "nginx-mod-devel-kit=1.29.2.3-r1"
+        "nginx-mod-devel-kit=1.29.2.5-r0"
       ]
     },
     "py3-pytest-datadir": {
@@ -305910,7 +305939,7 @@
       },
       "nginx-mod-devel-kit": {
         "package": "openresty-mod-devel-kit",
-        "version": "1.29.2.3-r1"
+        "version": "1.29.2.5-r0"
       }
     }
   }
