@@ -142370,47 +142370,51 @@
     "md4c": {
       "origin": "md4c",
       "versions": {
-        "0.5.2-r2": 1769177414
+        "0.5.2-r2": 1769177414,
+        "0.5.3-r0": 1779765654
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
         "so:libmd4c-html.so.0"
       ],
       "provides": [
-        "cmd:md2html=0.5.2-r2"
+        "cmd:md2html=0.5.3-r0"
       ]
     },
     "md4c-dev": {
       "origin": "md4c",
       "versions": {
-        "0.5.2-r2": 1769177414
+        "0.5.2-r2": 1769177414,
+        "0.5.3-r0": 1779765654
       },
       "dependencies": [
-        "md4c-libs=0.5.2-r2",
+        "md4c-libs=0.5.3-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:md4c-html=0.5.2",
-        "pc:md4c=0.5.2"
+        "pc:md4c-html=0.5.3",
+        "pc:md4c=0.5.3"
       ]
     },
     "md4c-doc": {
       "origin": "md4c",
       "versions": {
-        "0.5.2-r2": 1769177414
+        "0.5.2-r2": 1769177414,
+        "0.5.3-r0": 1779765654
       }
     },
     "md4c-libs": {
       "origin": "md4c",
       "versions": {
-        "0.5.2-r2": 1769177414
+        "0.5.2-r2": 1769177414,
+        "0.5.3-r0": 1779765654
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "so:libmd4c-html.so.0=0.5.2",
-        "so:libmd4c.so.0=0.5.2"
+        "so:libmd4c-html.so.0=0.5.3",
+        "so:libmd4c.so.0=0.5.3"
       ]
     },
     "mda-lv2": {
@@ -190479,7 +190483,8 @@
     "perl-mojo-sqlite": {
       "origin": "perl-mojo-sqlite",
       "versions": {
-        "3.009-r1": 1771160091
+        "3.009-r1": 1771160091,
+        "4.0.0-r0": 1779752380
       },
       "dependencies": [
         "perl",
@@ -190494,7 +190499,8 @@
     "perl-mojo-sqlite-doc": {
       "origin": "perl-mojo-sqlite",
       "versions": {
-        "3.009-r1": 1771160091
+        "3.009-r1": 1771160091,
+        "4.0.0-r0": 1779752380
       }
     },
     "perl-mojolicious": {
@@ -322187,11 +322193,11 @@
       },
       "libmd4c-html.so.0": {
         "package": "md4c-libs",
-        "version": "0.5.2"
+        "version": "0.5.3"
       },
       "libmd4c.so.0": {
         "package": "md4c-libs",
-        "version": "0.5.2"
+        "version": "0.5.3"
       },
       "libmdb.so.3": {
         "package": "mdbtools",
