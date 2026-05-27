@@ -49774,7 +49774,8 @@
     "firefox": {
       "origin": "firefox",
       "versions": {
-        "151.0-r0": 1779281098
+        "151.0-r0": 1779281098,
+        "151.0.2-r0": 1779841364
       },
       "dependencies": [
         "ffmpeg-libavcodec",
@@ -49827,7 +49828,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:firefox=151.0-r0",
+        "cmd:firefox=151.0.2-r0",
         "so:firefox:libgkcodecs.so=0",
         "so:firefox:liblgpllibs.so=0",
         "so:firefox:libmozavcodec.so=0",
@@ -49842,11 +49843,12 @@
     "firefox-dbg": {
       "origin": "firefox",
       "versions": {
-        "151.0-r0": 1779281098
+        "151.0-r0": 1779281098,
+        "151.0.2-r0": 1779841364
       },
       "dependencies": [
-        "!firefox<151.0-r0",
-        "!firefox>151.0-r0"
+        "!firefox<151.0.2-r0",
+        "!firefox>151.0.2-r0"
       ]
     },
     "firefox-esr": {
@@ -49927,7 +49929,8 @@
     "firefox-intl": {
       "origin": "firefox",
       "versions": {
-        "151.0-r0": 1779281098
+        "151.0-r0": 1779281098,
+        "151.0.2-r0": 1779841364
       },
       "dependencies": [
         "icu-data-full"
@@ -151452,7 +151455,8 @@
     "nodejs-current": {
       "origin": "nodejs-current",
       "versions": {
-        "25.9.0-r0": 1777974767
+        "25.9.0-r0": 1777974767,
+        "26.2.0-r0": 1779843199
       },
       "dependencies": [
         "ca-certificates",
@@ -151472,13 +151476,14 @@
       ],
       "provides": [
         "nodejs",
-        "cmd:node=25.9.0-r0"
+        "cmd:node=26.2.0-r0"
       ]
     },
     "nodejs-current-dev": {
       "origin": "nodejs-current",
       "versions": {
-        "25.9.0-r0": 1777974767
+        "25.9.0-r0": 1777974767,
+        "26.2.0-r0": 1779843199
       },
       "dependencies": [
         "libuv-dev"
@@ -151487,7 +151492,8 @@
     "nodejs-current-doc": {
       "origin": "nodejs-current",
       "versions": {
-        "25.9.0-r0": 1777974767
+        "25.9.0-r0": 1777974767,
+        "26.2.0-r0": 1779843199
       }
     },
     "noip2": {
@@ -186922,7 +186928,8 @@
     "pound": {
       "origin": "pound",
       "versions": {
-        "4.22-r0": 1775246698
+        "4.22-r0": 1775246698,
+        "4.23-r0": 1779843025
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -186931,20 +186938,22 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:pound=4.22-r0",
-        "cmd:poundctl=4.22-r0"
+        "cmd:pound=4.23-r0",
+        "cmd:poundctl=4.23-r0"
       ]
     },
     "pound-doc": {
       "origin": "pound",
       "versions": {
-        "4.22-r0": 1775246698
+        "4.22-r0": 1775246698,
+        "4.23-r0": 1779843025
       }
     },
     "pound-openrc": {
       "origin": "pound",
       "versions": {
-        "4.22-r0": 1775246698
+        "4.22-r0": 1775246698,
+        "4.23-r0": 1779843025
       }
     },
     "power-profiles-daemon": {
@@ -245656,7 +245665,8 @@
     "shairport-sync": {
       "origin": "shairport-sync",
       "versions": {
-        "4.3.7-r1": 1749822890
+        "4.3.7-r1": 1749822890,
+        "5.0.4-r0": 1779843138
       },
       "dependencies": [
         "avahi",
@@ -245669,25 +245679,25 @@
         "so:libgio-2.0.so.0",
         "so:libglib-2.0.so.0",
         "so:libgobject-2.0.so.0",
-        "so:libpipewire-0.3.so.0",
         "so:libpopt.so.0",
-        "so:libpulse.so.0",
         "so:libsoxr.so.0"
       ],
       "provides": [
-        "cmd:shairport-sync=4.3.7-r1"
+        "cmd:shairport-sync=5.0.4-r0"
       ]
     },
     "shairport-sync-doc": {
       "origin": "shairport-sync",
       "versions": {
-        "4.3.7-r1": 1749822890
+        "4.3.7-r1": 1749822890,
+        "5.0.4-r0": 1779843138
       }
     },
     "shairport-sync-openrc": {
       "origin": "shairport-sync",
       "versions": {
-        "4.3.7-r1": 1749822890
+        "4.3.7-r1": 1749822890,
+        "5.0.4-r0": 1779843138
       }
     },
     "shapelib": {
@@ -258438,7 +258448,8 @@
     "thunderbird": {
       "origin": "thunderbird",
       "versions": {
-        "151.0-r0": 1779281130
+        "151.0-r0": 1779281130,
+        "151.0.1-r0": 1779842922
       },
       "dependencies": [
         "libotr",
@@ -258489,7 +258500,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:thunderbird=151.0-r0",
+        "cmd:thunderbird=151.0.1-r0",
         "so:thunderbird:libgkcodecs.so=0",
         "so:thunderbird:liblgpllibs.so=0",
         "so:thunderbird:libmozavcodec.so=0",

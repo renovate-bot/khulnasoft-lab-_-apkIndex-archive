@@ -124328,7 +124328,8 @@
     "nodejs-current": {
       "origin": "nodejs-current",
       "versions": {
-        "25.9.0-r0": 1777974767
+        "25.9.0-r0": 1777974767,
+        "26.2.0-r0": 1779843199
       },
       "dependencies": [
         "ca-certificates",
@@ -124348,13 +124349,14 @@
       ],
       "provides": [
         "nodejs",
-        "cmd:node=25.9.0-r0"
+        "cmd:node=26.2.0-r0"
       ]
     },
     "nodejs-current-dev": {
       "origin": "nodejs-current",
       "versions": {
-        "25.9.0-r0": 1777974767
+        "25.9.0-r0": 1777974767,
+        "26.2.0-r0": 1779843199
       },
       "dependencies": [
         "libuv-dev"
@@ -124363,7 +124365,8 @@
     "nodejs-current-doc": {
       "origin": "nodejs-current",
       "versions": {
-        "25.9.0-r0": 1777974767
+        "25.9.0-r0": 1777974767,
+        "26.2.0-r0": 1779843199
       }
     },
     "noip2": {
@@ -173226,7 +173229,8 @@
     "pound": {
       "origin": "pound",
       "versions": {
-        "4.22-r0": 1775246698
+        "4.22-r0": 1775246698,
+        "4.23-r0": 1779843025
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -173235,20 +173239,22 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:pound=4.22-r0",
-        "cmd:poundctl=4.22-r0"
+        "cmd:pound=4.23-r0",
+        "cmd:poundctl=4.23-r0"
       ]
     },
     "pound-doc": {
       "origin": "pound",
       "versions": {
-        "4.22-r0": 1775246698
+        "4.22-r0": 1775246698,
+        "4.23-r0": 1779843025
       }
     },
     "pound-openrc": {
       "origin": "pound",
       "versions": {
-        "4.22-r0": 1775246698
+        "4.22-r0": 1775246698,
+        "4.23-r0": 1779843025
       }
     },
     "power-profiles-daemon": {
@@ -185269,7 +185275,8 @@
     "py3-flask-babel": {
       "origin": "py3-flask-babel",
       "versions": {
-        "4.0.0-r2": 1774640407
+        "4.0.0-r2": 1774640407,
+        "4.1.0-r0": 1779842741
       },
       "dependencies": [
         "python3",
@@ -185279,14 +185286,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "py-flask-babel=4.0.0-r2",
-        "py3.14:flask_babel=4.0.0-r2"
+        "py-flask-babel=4.1.0-r0",
+        "py3.14:flask_babel=4.1.0-r0"
       ]
     },
     "py3-flask-babel-pyc": {
       "origin": "py3-flask-babel",
       "versions": {
-        "4.0.0-r2": 1774640407
+        "4.0.0-r2": 1774640407,
+        "4.1.0-r0": 1779842741
       },
       "dependencies": [
         "python3~3.14"
@@ -194981,7 +194989,8 @@
     "py3-orjson": {
       "origin": "py3-orjson",
       "versions": {
-        "3.11.7-r1": 1774640367
+        "3.11.7-r1": 1774640367,
+        "3.11.9-r0": 1779836321
       },
       "dependencies": [
         "python3~3.14",
@@ -194989,13 +194998,14 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "py3.14:orjson=3.11.7-r1"
+        "py3.14:orjson=3.11.9-r0"
       ]
     },
     "py3-orjson-pyc": {
       "origin": "py3-orjson",
       "versions": {
-        "3.11.7-r1": 1774640367
+        "3.11.7-r1": 1774640367,
+        "3.11.9-r0": 1779836321
       },
       "dependencies": [
         "python3~3.14"
@@ -227227,7 +227237,8 @@
     "shairport-sync": {
       "origin": "shairport-sync",
       "versions": {
-        "4.3.7-r1": 1749822890
+        "4.3.7-r1": 1749822890,
+        "5.0.4-r0": 1779843138
       },
       "dependencies": [
         "avahi",
@@ -227241,25 +227252,25 @@
         "so:libgio-2.0.so.0",
         "so:libglib-2.0.so.0",
         "so:libgobject-2.0.so.0",
-        "so:libpipewire-0.3.so.0",
         "so:libpopt.so.0",
-        "so:libpulse.so.0",
         "so:libsoxr.so.0"
       ],
       "provides": [
-        "cmd:shairport-sync=4.3.7-r1"
+        "cmd:shairport-sync=5.0.4-r0"
       ]
     },
     "shairport-sync-doc": {
       "origin": "shairport-sync",
       "versions": {
-        "4.3.7-r1": 1749822890
+        "4.3.7-r1": 1749822890,
+        "5.0.4-r0": 1779843138
       }
     },
     "shairport-sync-openrc": {
       "origin": "shairport-sync",
       "versions": {
-        "4.3.7-r1": 1749822890
+        "4.3.7-r1": 1749822890,
+        "5.0.4-r0": 1779843138
       }
     },
     "shapelib": {
@@ -281740,7 +281751,7 @@
       },
       "py-flask-babel": {
         "package": "py3-flask-babel",
-        "version": "4.0.0-r2"
+        "version": "4.1.0-r0"
       },
       "py-flask-login": {
         "package": "py3-flask-login",

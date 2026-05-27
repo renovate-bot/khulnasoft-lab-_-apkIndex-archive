@@ -52946,37 +52946,37 @@ t:1763057803
 c:03e7ef8165b379e61ea59dfa229ef15b852bd61e
 D:!firefox<145.0-r0 !firefox>145.0-r0
 
-C:Q1le4J5rxSXRcmIFeXnsfft7j9nfw=
+C:Q1d/6keE4xai/ethLFzf4t5epmnm4=
 P:firefox-esr
-V:140.10.2-r0
+V:140.11.0-r0
 A:ppc64le
-S:91186899
-I:268697937
+S:91154109
+I:268494673
 T:Firefox web browser - Extended Support Release
 U:https://www.mozilla.org/en-US/firefox/organizations/
 L:GPL-3.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MPL-2.0
 o:firefox-esr
 m:Patrycja Rosa <alpine@ptrcnull.me>
-t:1778667980
-c:c3662f1e92babde299ee23cbdf03597e79587e13
+t:1779832111
+c:e5f32deb6ea2b274ef9cad9a7083e5dd7930136c
 D:ffmpeg7-libavcodec /bin/sh so:libX11-xcb.so.1 so:libX11.so.6 so:libXcomposite.so.1 so:libXdamage.so.1 so:libXext.so.6 so:libXfixes.so.3 so:libXrandr.so.2 so:libasound.so.2 so:libatk-1.0.so.0 so:libc.musl-ppc64le.so.1 so:libcairo-gobject.so.2 so:libcairo.so.2 so:libdbus-1.so.3 so:libevent-2.1.so.7 so:libffi.so.8 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libicui18n.so.76 so:libicuuc.so.76 so:libjpeg.so.8 so:libnspr4.so so:libnss3.so so:libnssutil3.so so:libpango-1.0.so.0 so:libpixman-1.so.0 so:libplc4.so so:libpng16.so.16 so:libsmime3.so so:libssl3.so so:libstdc++.so.6 so:libvpx.so.11 so:libwebp.so.7 so:libwebpdemux.so.2 so:libxcb-shm.so.0 so:libxcb.so.1 so:libz.so.1
-p:cmd:firefox-esr=140.10.2-r0 so:firefox-esr:libgkcodecs.so=0 so:firefox-esr:liblgpllibs.so=0 so:firefox-esr:libmozavcodec.so=0 so:firefox-esr:libmozavutil.so=0 so:firefox-esr:libmozgtk.so=0 so:firefox-esr:libmozsqlite3.so=0 so:firefox-esr:libmozwayland.so=0 so:firefox-esr:libxul.so=0
+p:cmd:firefox-esr=140.11.0-r0 so:firefox-esr:libgkcodecs.so=0 so:firefox-esr:liblgpllibs.so=0 so:firefox-esr:libmozavcodec.so=0 so:firefox-esr:libmozavutil.so=0 so:firefox-esr:libmozgtk.so=0 so:firefox-esr:libmozsqlite3.so=0 so:firefox-esr:libmozwayland.so=0 so:firefox-esr:libxul.so=0
 
-C:Q1D1zhUgBAY+inV+fd4kJgm/1lL0M=
+C:Q1RPD7yv7w1Bv7hbXhbGXPuawtpxQ=
 P:firefox-esr-intl
-V:140.10.2-r0
+V:140.11.0-r0
 A:ppc64le
-S:1079
+S:1081
 I:0
 T:firefox-esr - International ICU data
 U:https://www.mozilla.org/en-US/firefox/organizations/
 L:GPL-3.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MPL-2.0
 o:firefox-esr
 m:Patrycja Rosa <alpine@ptrcnull.me>
-t:1778667980
-c:c3662f1e92babde299ee23cbdf03597e79587e13
+t:1779832111
+c:e5f32deb6ea2b274ef9cad9a7083e5dd7930136c
 D:icu-data-full
-i:firefox-esr=140.10.2-r0 icu
+i:firefox-esr=140.11.0-r0 icu
 
 C:Q1qw86/4dUjt1CCI9kfCLI61h4iLs=
 P:firefox-intl
@@ -100464,51 +100464,51 @@ t:1762805574
 c:68f54c1472617b38a625b8a10433f70c37aa12f5
 i:kiriki=25.08.3-r0 lang
 
-C:Q1asw/EAiXfswnRV2W5nKr5EooALo=
+C:Q1LMixeJWvPvZA99EwZVyOQ/kAGTE=
 P:kissfft
-V:131.2.0-r0
+V:131.2.0_git20260422-r0
 A:ppc64le
-S:22008
+S:22028
 I:269704
 T:Fast Fourier Transform (FFT) library that tries to Keep it Simple, Stupid
 U:https://github.com/mborgerding/kissfft
 L:BSD-3-Clause
 o:kissfft
 m:Sodface <sod@sodface.com>
-t:1761393636
-c:4c986ab36afbb01d5e948657b3bd693c3963f212
+t:1779825060
+c:0529eae7f6f2b15bf45adda3327844ceb6a729ef
 D:so:libc.musl-ppc64le.so.1 so:libkissfft-float.so.131 so:libpng16.so.16
-p:cmd:fastconv-float=131.2.0-r0 cmd:fastconvr-float=131.2.0-r0 cmd:fft-float=131.2.0-r0 cmd:psdpng-float=131.2.0-r0
+p:cmd:fastconv-float=131.2.0_git20260422-r0 cmd:fastconvr-float=131.2.0_git20260422-r0 cmd:fft-float=131.2.0_git20260422-r0 cmd:psdpng-float=131.2.0_git20260422-r0
 
-C:Q1NwR+9uDZYczCY4Xes/fZPFHIJhM=
+C:Q1qEyReV/tHw7TgjCN5SW/vVvF+Q8=
 P:kissfft-dev
-V:131.2.0-r0
+V:131.2.0_git20260422-r0
 A:ppc64le
-S:11494
+S:11497
 I:33410
 T:Fast Fourier Transform (FFT) library that tries to Keep it Simple, Stupid (development files)
 U:https://github.com/mborgerding/kissfft
 L:BSD-3-Clause
 o:kissfft
 m:Sodface <sod@sodface.com>
-t:1761393636
-c:4c986ab36afbb01d5e948657b3bd693c3963f212
-D:kissfft=131.2.0-r0 kissfft-libs=131.2.0-r0 pkgconfig
+t:1779825060
+c:0529eae7f6f2b15bf45adda3327844ceb6a729ef
+D:kissfft=131.2.0_git20260422-r0 kissfft-libs=131.2.0_git20260422-r0 pkgconfig
 p:pc:kissfft-float=131.1.0
 
-C:Q1k6j58JQLmXXzFixhYv/qIpGlDzg=
+C:Q1otEhLlfT4tQQEJyuHu0PIvZ00l8=
 P:kissfft-libs
-V:131.2.0-r0
+V:131.2.0_git20260422-r0
 A:ppc64le
-S:10919
+S:11061
 I:67336
 T:Fast Fourier Transform (FFT) library that tries to Keep it Simple, Stupid (libraries)
 U:https://github.com/mborgerding/kissfft
 L:BSD-3-Clause
 o:kissfft
 m:Sodface <sod@sodface.com>
-t:1761393636
-c:4c986ab36afbb01d5e948657b3bd693c3963f212
+t:1779825060
+c:0529eae7f6f2b15bf45adda3327844ceb6a729ef
 D:so:libc.musl-ppc64le.so.1
 p:so:libkissfft-float.so.131=131.1.0
 
@@ -157596,54 +157596,54 @@ c:cb528479ce7389730baa832e757b0e00914bba19
 D:so:libc.musl-ppc64le.so.1
 p:cmd:nodeinfo=1.0.0-r11
 
-C:Q1VN/w/Z+ToE77iiUxdc2BI0+EwTI=
+C:Q1B0uhoF/MhIpLvtxhfZBdVbvngAQ=
 P:nodejs-current
-V:24.9.0-r1
+V:24.15.0-r0
 A:ppc64le
-S:26271195
-I:79078071
+S:24576537
+I:72334162
 T:JavaScript runtime built on V8 engine - current stable version
 U:https://nodejs.org/
 L:MIT
 o:nodejs-current
 m:Patrycja Rosa <alpine@ptrcnull.me>
-t:1763728678
-c:d73dac0512f1f1a5774343bff1fa594c1c6ac999
+t:1779844656
+c:dd6c30b6006902fb3d7e05cfa86f839f123246ec
 k:10
 D:ca-certificates so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-ppc64le.so.1 so:libcares.so.2 so:libcrypto.so.3 so:libgcc_s.so.1 so:libicui18n.so.76 so:libicuuc.so.76 so:libnghttp2.so.14 so:libssl.so.3 so:libstdc++.so.6 so:libuv.so.1 so:libz.so.1
-p:nodejs cmd:corepack=24.9.0-r1 cmd:node=24.9.0-r1
+p:nodejs cmd:corepack=24.15.0-r0 cmd:node=24.15.0-r0
 
-C:Q1zRHPw7GlAyD7ubDjcmKdZomZns8=
+C:Q1nN5AFF6K0zJw43pgnO9+eK8P5AM=
 P:nodejs-current-dev
-V:24.9.0-r1
+V:24.15.0-r0
 A:ppc64le
-S:274389
-I:1203257
+S:274909
+I:1193169
 T:JavaScript runtime built on V8 engine - current stable version (development files)
 U:https://nodejs.org/
 L:MIT
 o:nodejs-current
 m:Patrycja Rosa <alpine@ptrcnull.me>
-t:1763728678
-c:d73dac0512f1f1a5774343bff1fa594c1c6ac999
+t:1779844656
+c:dd6c30b6006902fb3d7e05cfa86f839f123246ec
 k:10
 D:libuv-dev
 
-C:Q1ASDbp9jKJ591xh1C7Kssc9Xur5M=
+C:Q1PibTT5QDI60I9bOiDXFqBxaupck=
 P:nodejs-current-doc
-V:24.9.0-r1
+V:24.15.0-r0
 A:ppc64le
-S:19421
-I:35989
+S:19586
+I:36166
 T:JavaScript runtime built on V8 engine - current stable version (documentation)
 U:https://nodejs.org/
 L:MIT
 o:nodejs-current
 m:Patrycja Rosa <alpine@ptrcnull.me>
-t:1763728678
-c:d73dac0512f1f1a5774343bff1fa594c1c6ac999
+t:1779844656
+c:dd6c30b6006902fb3d7e05cfa86f839f123246ec
 k:10
-i:docs nodejs-current=24.9.0-r1
+i:docs nodejs-current=24.15.0-r0
 
 C:Q1oQdXrfaZlMAu8dRez4MdYEf5wnc=
 P:noip2
@@ -198998,81 +198998,81 @@ t:1716944914
 c:baa06d61133868f896cd55a41a043ab83d79c57b
 i:docs pngquant=3.0.3-r0
 
-C:Q1ApuIMFPmWiJ/olaDgFErZvR3fw8=
+C:Q1MqFwa9mrWSNWM7+Th66DUlLwNvM=
 P:pnpm
-V:10.24.0-r0
+V:10.33.4-r0
 A:ppc64le
-S:3776834
-I:18439896
+S:3978381
+I:19367743
 T:Fast, disk space efficient package manager
 U:https://pnpm.io
 L:MIT
 o:pnpm
-m:Fabricio Silva <hi@fabricio.dev>
-t:1764358420
-c:45fd9fa128c1e98a876fd8df16d8a76874e45ba2
+m:Johannes Müller <alpinelinux@jogemu.at>
+t:1779745355
+c:a0cea9fd68e588ecdf2a1476576fdd42bb210d8e
 D:nodejs
-p:cmd:pnpm=10.24.0-r0 cmd:pnpx=10.24.0-r0
+p:cmd:pnpm=10.33.4-r0 cmd:pnpx=10.33.4-r0
 
-C:Q1rjR7PoXrW43jUOq4JKYeQHEbCLc=
+C:Q1SSS8bpVsLBQLQX1fjvJZwnIKuwQ=
 P:pnpm-bash-completion
-V:10.24.0-r0
+V:10.33.4-r0
 A:ppc64le
-S:1751
+S:1749
 I:994
 T:Bash completions for pnpm
 U:https://pnpm.io
 L:MIT
 o:pnpm
-m:Fabricio Silva <hi@fabricio.dev>
-t:1764358420
-c:45fd9fa128c1e98a876fd8df16d8a76874e45ba2
-i:pnpm=10.24.0-r0 bash-completion
+m:Johannes Müller <alpinelinux@jogemu.at>
+t:1779745355
+c:a0cea9fd68e588ecdf2a1476576fdd42bb210d8e
+i:pnpm=10.33.4-r0 bash-completion
 
-C:Q1mzonjvW0UzAILwRBtLh6qZKHGYM=
+C:Q1qpjwzv1XHM2zcvFgoM1b2VCyHyY=
 P:pnpm-doc
-V:10.24.0-r0
+V:10.33.4-r0
 A:ppc64le
-S:2058
+S:2064
 I:1170
 T:Fast, disk space efficient package manager (documentation)
 U:https://pnpm.io
 L:MIT
 o:pnpm
-m:Fabricio Silva <hi@fabricio.dev>
-t:1764358420
-c:45fd9fa128c1e98a876fd8df16d8a76874e45ba2
-i:docs pnpm=10.24.0-r0
+m:Johannes Müller <alpinelinux@jogemu.at>
+t:1779745355
+c:a0cea9fd68e588ecdf2a1476576fdd42bb210d8e
+i:docs pnpm=10.33.4-r0
 
-C:Q1TJO8sx64OR5/ggLU48O77Hr3FgU=
+C:Q1JPJaVhr4jjStI8MnKUGsZi2GPmg=
 P:pnpm-fish-completion
-V:10.24.0-r0
+V:10.33.4-r0
 A:ppc64le
-S:1679
+S:1686
 I:672
 T:Fish completions for pnpm
 U:https://pnpm.io
 L:MIT
 o:pnpm
-m:Fabricio Silva <hi@fabricio.dev>
-t:1764358420
-c:45fd9fa128c1e98a876fd8df16d8a76874e45ba2
-i:pnpm=10.24.0-r0 fish
+m:Johannes Müller <alpinelinux@jogemu.at>
+t:1779745355
+c:a0cea9fd68e588ecdf2a1476576fdd42bb210d8e
+i:pnpm=10.33.4-r0 fish
 
-C:Q13e+ggmA/1p0paRU1Dhn4VMkiuhY=
+C:Q1LbVCSzzwJMx7Xk50tVnudaCSNQY=
 P:pnpm-zsh-completion
-V:10.24.0-r0
+V:10.33.4-r0
 A:ppc64le
-S:1810
+S:1813
 I:839
 T:Zsh completions for pnpm
 U:https://pnpm.io
 L:MIT
 o:pnpm
-m:Fabricio Silva <hi@fabricio.dev>
-t:1764358420
-c:45fd9fa128c1e98a876fd8df16d8a76874e45ba2
-i:pnpm=10.24.0-r0 zsh
+m:Johannes Müller <alpinelinux@jogemu.at>
+t:1779745355
+c:a0cea9fd68e588ecdf2a1476576fdd42bb210d8e
+i:pnpm=10.33.4-r0 zsh
 
 C:Q1QSlSPk4+ECRwtPVJRf4S3LxLIbw=
 P:poco
@@ -272563,113 +272563,113 @@ t:1747081365
 c:e1b77cbba8275696e70cc7c1c4c8d25961f84393
 i:docs sent=1-r3
 
-C:Q1BG2K/l93uFrnhhUX/ODZDSlhXf8=
+C:Q1PuA+4HSh7u1+O8CrrS/S5/WgyYU=
 P:sequoia-chameleon-gnupg
-V:0.13.1-r0
+V:0.13.1-r1
 A:ppc64le
-S:4484000
-I:10639344
+S:4471930
+I:10639360
 T:Sequoia's reimplementation of the GnuPG interface
 U:https://sequoia-pgp.org/
 L:GPL-3.0-or-later
 o:sequoia-chameleon-gnupg
 m:Simon Rupf <simon@rupf.net>
-t:1742471553
-c:adb338152e5ded3c0c8d67a7ef2d1aa15a894f4a
+t:1779667331
+c:53eca41bc44a007e2f0f28564f9d4948998dc3ac
 D:so:libbz2.so.1 so:libc.musl-ppc64le.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libgmp.so.10 so:libhogweed.so.6 so:libnettle.so.8 so:libsqlite3.so.0 so:libssl.so.3
-p:cmd:gpg-sq=0.13.1-r0 cmd:gpgv-sq=0.13.1-r0
+p:cmd:gpg-sq=0.13.1-r1 cmd:gpgv-sq=0.13.1-r1
 
-C:Q1LljVeTlWl0OUOhw06IustJpeeLc=
+C:Q142Ikh3YFEgxWOy8h5GsXiNXEG/w=
 P:sequoia-sq
-V:1.3.1-r1
+V:1.3.1-r2
 A:ppc64le
-S:4794960
-I:12410832
+S:4807716
+I:12345200
 T:Command-line frontends for Sequoia
 U:https://gitlab.com/sequoia-pgp/sequoia-sq
 L:GPL-2.0-or-later
 o:sequoia-sq
 m:Simon Rupf <simon@rupf.net>
-t:1751156141
-c:79d610aa423637934326f9ce0c5360555d5e5eae
+t:1779667331
+c:3ed0a1d1d5cdd1f84647ef70891e287f80b7ba8a
 D:so:libbz2.so.1 so:libc.musl-ppc64le.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libsqlite3.so.0 so:libssl.so.3
-p:cmd:sq=1.3.1-r1
+p:cmd:sq=1.3.1-r2
 
-C:Q1qM1tUBeto0l4YBtwntiyO9jgbyY=
+C:Q1Pn9Pgaq2E125/FzizoyzrovpipQ=
 P:sequoia-sq-bash-completion
-V:1.3.1-r1
+V:1.3.1-r2
 A:ppc64le
-S:9186
+S:9190
 I:276942
 T:Bash completions for sequoia-sq
 U:https://gitlab.com/sequoia-pgp/sequoia-sq
 L:GPL-2.0-or-later
 o:sequoia-sq
 m:Simon Rupf <simon@rupf.net>
-t:1751156141
-c:79d610aa423637934326f9ce0c5360555d5e5eae
-i:sequoia-sq=1.3.1-r1 bash-completion
+t:1779667331
+c:3ed0a1d1d5cdd1f84647ef70891e287f80b7ba8a
+i:sequoia-sq=1.3.1-r2 bash-completion
 
-C:Q1bmftfzg+JH/UOkFBGUiBC2G0pe4=
+C:Q1BffUsBO74mcz4BFSbvdW7TurgvI=
 P:sequoia-sq-doc
-V:1.3.1-r1
+V:1.3.1-r2
 A:ppc64le
-S:117104
+S:117111
 I:108763
 T:Command-line frontends for Sequoia (documentation)
 U:https://gitlab.com/sequoia-pgp/sequoia-sq
 L:GPL-2.0-or-later
 o:sequoia-sq
 m:Simon Rupf <simon@rupf.net>
-t:1751156141
-c:79d610aa423637934326f9ce0c5360555d5e5eae
-i:docs sequoia-sq=1.3.1-r1
+t:1779667331
+c:3ed0a1d1d5cdd1f84647ef70891e287f80b7ba8a
+i:docs sequoia-sq=1.3.1-r2
 
-C:Q1laVAT9av9GvjoiElHHx0Tcdg2cY=
+C:Q1gNcbDU2VUgs1s2lqPawPftfbEpI=
 P:sequoia-sq-fish-completion
-V:1.3.1-r1
+V:1.3.1-r2
 A:ppc64le
-S:13368
+S:13373
 I:184852
 T:Fish completions for sequoia-sq
 U:https://gitlab.com/sequoia-pgp/sequoia-sq
 L:GPL-2.0-or-later
 o:sequoia-sq
 m:Simon Rupf <simon@rupf.net>
-t:1751156141
-c:79d610aa423637934326f9ce0c5360555d5e5eae
-i:sequoia-sq=1.3.1-r1 fish
+t:1779667331
+c:3ed0a1d1d5cdd1f84647ef70891e287f80b7ba8a
+i:sequoia-sq=1.3.1-r2 fish
 
-C:Q1L52KaToe+Vtx0hHRVSe2sXt+PSU=
+C:Q1PxP/CdoJOGIRJ2LntHISngy3tcE=
 P:sequoia-sq-zsh-completion
-V:1.3.1-r1
+V:1.3.1-r2
 A:ppc64le
-S:13915
+S:13916
 I:199689
 T:Zsh completions for sequoia-sq
 U:https://gitlab.com/sequoia-pgp/sequoia-sq
 L:GPL-2.0-or-later
 o:sequoia-sq
 m:Simon Rupf <simon@rupf.net>
-t:1751156141
-c:79d610aa423637934326f9ce0c5360555d5e5eae
-i:sequoia-sq=1.3.1-r1 zsh
+t:1779667331
+c:3ed0a1d1d5cdd1f84647ef70891e287f80b7ba8a
+i:sequoia-sq=1.3.1-r2 zsh
 
-C:Q1F6KSTyetGvmTdxUi3D2YTRpe7jk=
+C:Q1faGPzzBqV93cjIDqfUfC9ZL1IxU=
 P:sequoia-sqv
-V:1.3.0-r0
+V:1.3.0-r1
 A:ppc64le
-S:794887
-I:1777240
+S:787107
+I:1777256
 T:simple signature verification program
 U:https://sequoia-pgp.org/
 L:GPL-2.0-or-later
 o:sequoia-sqv
 m:Simon Rupf <simon@rupf.net>
-t:1742285838
-c:f0050bd0944b69b48bd5e367fdc694d4eae0e918
+t:1779667331
+c:80518573ecc689dcb352c85882c19f0ec63c95a5
 D:so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libgmp.so.10 so:libhogweed.so.6 so:libnettle.so.8
-p:cmd:sqv=1.3.0-r0
+p:cmd:sqv=1.3.0-r1
 
 C:Q1bosWRpDjJ/LPvAQvGC5kGvZzFBY=
 P:serd
@@ -297008,50 +297008,50 @@ t:1746823694
 c:6bd45b53fb316dc01bda59f5feaf1e127eb64f22
 i:vim varlink=24-r0
 
-C:Q1GDy/D7QL1PhtlLa/O1etpGDncY4=
+C:Q1Qj9ObgP92GVH29UNFqrzFpxegJo=
 P:vaultwarden
-V:1.35.4-r0
+V:1.36.0-r0
 A:ppc64le
-S:8609428
-I:22771872
+S:8709129
+I:22838409
 T:Bitwarden alternative backend
 U:https://github.com/dani-garcia/vaultwarden
 L:AGPL-3.0-only
 o:vaultwarden
 m:Fabricio Silva <hi@fabricio.dev>
-t:1772578345
-c:b749269d0074296df45ac82e9620495a9ae686fc
+t:1779736588
+c:9464430f2ddf3c343628b0c7a0dd2296efc26c47
 D:/bin/sh so:libc.musl-ppc64le.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libmariadb.so.3 so:libmimalloc-secure.so.2 so:libpq.so.5 so:libssl.so.3
-p:bitwarden_rs=1.35.4-r0 cmd:vaultwarden=1.35.4-r0
+p:bitwarden_rs=1.36.0-r0 cmd:vaultwarden=1.36.0-r0
 
-C:Q1e1E2itdX+5lGjN6taVmio/rDFJE=
+C:Q1rkaBRUkUGstfSY2//A+TGivEgpo=
 P:vaultwarden-openrc
-V:1.35.4-r0
+V:1.36.0-r0
 A:ppc64le
-S:2189
+S:2186
 I:1549
 T:Bitwarden alternative backend (OpenRC init scripts)
 U:https://github.com/dani-garcia/vaultwarden
 L:AGPL-3.0-only
 o:vaultwarden
 m:Fabricio Silva <hi@fabricio.dev>
-t:1772578345
-c:b749269d0074296df45ac82e9620495a9ae686fc
-i:openrc vaultwarden=1.35.4-r0
+t:1779736588
+c:9464430f2ddf3c343628b0c7a0dd2296efc26c47
+i:openrc vaultwarden=1.36.0-r0
 
-C:Q1AScYrTkV9T/Xp0HTNEiTRndJQWI=
+C:Q1x2e6zOwgO8x7NUF8NsTSRq21Bs0=
 P:vaultwarden-web-vault
-V:1.35.4-r0
+V:1.36.0-r0
 A:ppc64le
-S:26407733
-I:107334740
+S:29261042
+I:119792808
 T:Bitwarden alternative backend (web ui)
 U:https://github.com/dani-garcia/vaultwarden
 L:AGPL-3.0-only
 o:vaultwarden
 m:Fabricio Silva <hi@fabricio.dev>
-t:1772578345
-c:b749269d0074296df45ac82e9620495a9ae686fc
+t:1779736588
+c:9464430f2ddf3c343628b0c7a0dd2296efc26c47
 
 C:Q1tZIxH4ch4zwKLpOOBo+db1IQ9u4=
 P:vbindiff

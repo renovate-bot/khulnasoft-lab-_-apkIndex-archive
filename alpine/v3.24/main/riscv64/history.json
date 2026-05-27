@@ -12156,7 +12156,8 @@
     "doxygen": {
       "origin": "doxygen",
       "versions": {
-        "1.16.1-r0": 1771919560
+        "1.16.1-r0": 1771919560,
+        "1.17.0-r0": 1779828566
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1",
@@ -12164,13 +12165,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:doxygen=1.16.1-r0"
+        "cmd:doxygen=1.17.0-r0"
       ]
     },
     "doxygen-doc": {
       "origin": "doxygen",
       "versions": {
-        "1.16.1-r0": 1771919560
+        "1.16.1-r0": 1771919560,
+        "1.17.0-r0": 1779828566
       }
     },
     "dpaste": {
@@ -13770,7 +13772,8 @@
     "fido2": {
       "origin": "libfido2",
       "versions": {
-        "1.16.0-r2": 1759781495
+        "1.16.0-r2": 1759781495,
+        "1.16.0-r3": 1779806399
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1",
@@ -13780,9 +13783,9 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:fido2-assert=1.16.0-r2",
-        "cmd:fido2-cred=1.16.0-r2",
-        "cmd:fido2-token=1.16.0-r2"
+        "cmd:fido2-assert=1.16.0-r3",
+        "cmd:fido2-cred=1.16.0-r3",
+        "cmd:fido2-token=1.16.0-r3"
       ]
     },
     "file": {
@@ -13839,40 +13842,44 @@
     "findutils": {
       "origin": "findutils",
       "versions": {
-        "4.10.0-r0": 1720000898
+        "4.10.0-r0": 1720000898,
+        "4.10.0-r1": 1779825981
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1"
       ],
       "provides": [
-        "cmd:find=4.10.0-r0",
-        "cmd:xargs=4.10.0-r0"
+        "cmd:find=4.10.0-r1",
+        "cmd:xargs=4.10.0-r1"
       ]
     },
     "findutils-doc": {
       "origin": "findutils",
       "versions": {
-        "4.10.0-r0": 1720000898
+        "4.10.0-r0": 1720000898,
+        "4.10.0-r1": 1779825981
       }
     },
     "findutils-locate": {
       "origin": "findutils",
       "versions": {
-        "4.10.0-r0": 1720000898
+        "4.10.0-r0": 1720000898,
+        "4.10.0-r1": 1779825981
       },
       "dependencies": [
-        "findutils=4.10.0-r0",
+        "findutils=4.10.0-r1",
         "so:libc.musl-riscv64.so.1"
       ],
       "provides": [
-        "cmd:locate=4.10.0-r0",
-        "cmd:updatedb=4.10.0-r0"
+        "cmd:locate=4.10.0-r1",
+        "cmd:updatedb=4.10.0-r1"
       ]
     },
     "findutils-locate-doc": {
       "origin": "findutils",
       "versions": {
-        "4.10.0-r0": 1720000898
+        "4.10.0-r0": 1720000898,
+        "4.10.0-r1": 1779825981
       }
     },
     "fish": {
@@ -25734,10 +25741,10 @@
     "libfido2": {
       "origin": "libfido2",
       "versions": {
-        "1.16.0-r2": 1759781495
+        "1.16.0-r2": 1759781495,
+        "1.16.0-r3": 1779806399
       },
       "dependencies": [
-        "/bin/sh",
         "so:libc.musl-riscv64.so.1",
         "so:libcbor.so.0.13",
         "so:libcrypto.so.3",
@@ -25751,10 +25758,11 @@
     "libfido2-dev": {
       "origin": "libfido2",
       "versions": {
-        "1.16.0-r2": 1759781495
+        "1.16.0-r2": 1759781495,
+        "1.16.0-r3": 1779806399
       },
       "dependencies": [
-        "libfido2=1.16.0-r2",
+        "libfido2=1.16.0-r3",
         "pc:libcrypto",
         "pkgconfig"
       ],
@@ -25765,14 +25773,19 @@
     "libfido2-doc": {
       "origin": "libfido2",
       "versions": {
-        "1.16.0-r2": 1759781495
+        "1.16.0-r2": 1759781495,
+        "1.16.0-r3": 1779806399
       }
     },
     "libfido2-udev": {
       "origin": "libfido2",
       "versions": {
-        "1.16.0-r2": 1759781495
-      }
+        "1.16.0-r2": 1759781495,
+        "1.16.0-r3": 1779806399
+      },
+      "dependencies": [
+        "/bin/sh"
+      ]
     },
     "libflac": {
       "origin": "flac",
@@ -44720,7 +44733,8 @@
       "origin": "nss",
       "versions": {
         "3.122.1-r0": 1776358990,
-        "3.123.1-r0": 1777044480
+        "3.123.1-r0": 1777044480,
+        "3.124-r0": 1779842899
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1",
@@ -44730,36 +44744,37 @@
         "so:libsqlite3.so.0"
       ],
       "provides": [
-        "so:libfreebl3.so=123",
-        "so:libfreeblpriv3.so=123",
-        "so:libnss3.so=123",
-        "so:libnssckbi-testlib.so=123",
-        "so:libnssckbi.so=123",
-        "so:libnsssysinit.so=123",
-        "so:libnssutil3.so=123",
-        "so:libsmime3.so=123",
-        "so:libsoftokn3.so=123",
-        "so:libssl3.so=123"
+        "so:libfreebl3.so=124",
+        "so:libfreeblpriv3.so=124",
+        "so:libnss3.so=124",
+        "so:libnssckbi-testlib.so=124",
+        "so:libnssckbi.so=124",
+        "so:libnsssysinit.so=124",
+        "so:libnssutil3.so=124",
+        "so:libsmime3.so=124",
+        "so:libsoftokn3.so=124",
+        "so:libssl3.so=124"
       ]
     },
     "nss-dev": {
       "origin": "nss",
       "versions": {
         "3.122.1-r0": 1776358990,
-        "3.123.1-r0": 1777044480
+        "3.123.1-r0": 1777044480,
+        "3.124-r0": 1779842899
       },
       "dependencies": [
-        "nss=3.123.1-r0",
+        "nss=3.124-r0",
         "nspr-dev",
         "pc:nspr>=4.38.2",
         "pkgconfig"
       ],
       "provides": [
-        "cmd:nss-config=3.123.1-r0",
-        "pc:mozilla-nss=3.123.1",
-        "pc:nss-softokn=3.123.1",
-        "pc:nss-util=3.123.1",
-        "pc:nss=3.123.1"
+        "cmd:nss-config=3.124-r0",
+        "pc:mozilla-nss=3.124",
+        "pc:nss-softokn=3.124",
+        "pc:nss-util=3.124",
+        "pc:nss=3.124"
       ]
     },
     "nss-pam-ldapd": {
@@ -44797,7 +44812,8 @@
       "origin": "nss",
       "versions": {
         "3.122.1-r0": 1776358990,
-        "3.123.1-r0": 1777044480
+        "3.123.1-r0": 1777044480,
+        "3.124-r0": 1779842899
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1",
@@ -44811,15 +44827,15 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:certutil=3.123.1-r0",
-        "cmd:cmsutil=3.123.1-r0",
-        "cmd:crlutil=3.123.1-r0",
-        "cmd:modutil=3.123.1-r0",
-        "cmd:pk12util=3.123.1-r0",
-        "cmd:shlibsign=3.123.1-r0",
-        "cmd:signtool=3.123.1-r0",
-        "cmd:signver=3.123.1-r0",
-        "cmd:ssltap=3.123.1-r0"
+        "cmd:certutil=3.124-r0",
+        "cmd:cmsutil=3.124-r0",
+        "cmd:crlutil=3.124-r0",
+        "cmd:modutil=3.124-r0",
+        "cmd:pk12util=3.124-r0",
+        "cmd:shlibsign=3.124-r0",
+        "cmd:signtool=3.124-r0",
+        "cmd:signver=3.124-r0",
+        "cmd:ssltap=3.124-r0"
       ]
     },
     "ntfs-3g": {
@@ -78988,43 +79004,43 @@
       },
       "libfreebl3.so": {
         "package": "nss",
-        "version": "123"
+        "version": "124"
       },
       "libfreeblpriv3.so": {
         "package": "nss",
-        "version": "123"
+        "version": "124"
       },
       "libnss3.so": {
         "package": "nss",
-        "version": "123"
+        "version": "124"
       },
       "libnssckbi-testlib.so": {
         "package": "nss",
-        "version": "123"
+        "version": "124"
       },
       "libnssckbi.so": {
         "package": "nss",
-        "version": "123"
+        "version": "124"
       },
       "libnsssysinit.so": {
         "package": "nss",
-        "version": "123"
+        "version": "124"
       },
       "libnssutil3.so": {
         "package": "nss",
-        "version": "123"
+        "version": "124"
       },
       "libsmime3.so": {
         "package": "nss",
-        "version": "123"
+        "version": "124"
       },
       "libsoftokn3.so": {
         "package": "nss",
-        "version": "123"
+        "version": "124"
       },
       "libssl3.so": {
         "package": "nss",
-        "version": "123"
+        "version": "124"
       },
       "libnss_ldap.so.2": {
         "package": "nss-pam-ldapd",

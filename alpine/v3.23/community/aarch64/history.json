@@ -55157,7 +55157,8 @@
       "versions": {
         "140.5.0-r0": 1763069048,
         "140.9.1-r0": 1775680169,
-        "140.10.2-r0": 1778667980
+        "140.10.2-r0": 1778667980,
+        "140.11.0-r0": 1779832111
       },
       "dependencies": [
         "ffmpeg7-libavcodec",
@@ -55207,7 +55208,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:firefox-esr=140.10.2-r0",
+        "cmd:firefox-esr=140.11.0-r0",
         "so:firefox-esr:libgkcodecs.so=0",
         "so:firefox-esr:liblgpllibs.so=0",
         "so:firefox-esr:libmozavcodec.so=0",
@@ -55224,7 +55225,8 @@
       "versions": {
         "140.5.0-r0": 1763069048,
         "140.9.1-r0": 1775680169,
-        "140.10.2-r0": 1778667980
+        "140.10.2-r0": 1778667980,
+        "140.11.0-r0": 1779832111
       },
       "dependencies": [
         "icu-data-full"
@@ -167297,7 +167299,8 @@
       "origin": "nodejs-current",
       "versions": {
         "24.9.0-r0": 1760450352,
-        "24.9.0-r1": 1763728678
+        "24.9.0-r1": 1763728678,
+        "24.15.0-r0": 1779844656
       },
       "dependencies": [
         "ca-certificates",
@@ -167317,15 +167320,16 @@
       ],
       "provides": [
         "nodejs",
-        "cmd:corepack=24.9.0-r1",
-        "cmd:node=24.9.0-r1"
+        "cmd:corepack=24.15.0-r0",
+        "cmd:node=24.15.0-r0"
       ]
     },
     "nodejs-current-dev": {
       "origin": "nodejs-current",
       "versions": {
         "24.9.0-r0": 1760450352,
-        "24.9.0-r1": 1763728678
+        "24.9.0-r1": 1763728678,
+        "24.15.0-r0": 1779844656
       },
       "dependencies": [
         "libuv-dev"
@@ -167335,7 +167339,8 @@
       "origin": "nodejs-current",
       "versions": {
         "24.9.0-r0": 1760450352,
-        "24.9.0-r1": 1763728678
+        "24.9.0-r1": 1763728678,
+        "24.15.0-r0": 1779844656
       }
     },
     "noip2": {
