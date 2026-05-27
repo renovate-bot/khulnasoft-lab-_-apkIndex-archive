@@ -32459,29 +32459,32 @@
     "crun": {
       "origin": "crun",
       "versions": {
-        "1.27.1-r0": 1776773005
+        "1.27.1-r0": 1776773005,
+        "1.28-r0": 1779889041
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
         "so:libcap.so.2",
-        "so:libseccomp.so.2",
-        "so:libyajl.so.2"
+        "so:libjson-c.so.5",
+        "so:libseccomp.so.2"
       ],
       "provides": [
         "oci-runtime",
-        "cmd:crun=1.27.1-r0"
+        "cmd:crun=1.28-r0"
       ]
     },
     "crun-doc": {
       "origin": "crun",
       "versions": {
-        "1.27.1-r0": 1776773005
+        "1.27.1-r0": 1776773005,
+        "1.28-r0": 1779889041
       }
     },
     "crun-static": {
       "origin": "crun",
       "versions": {
-        "1.27.1-r0": 1776773005
+        "1.27.1-r0": 1776773005,
+        "1.28-r0": 1779889041
       }
     },
     "crypto++": {
