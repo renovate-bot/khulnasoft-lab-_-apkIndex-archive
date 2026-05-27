@@ -305505,6 +305505,28 @@
         "so:libc.musl-ppc64le.so.1",
         "so:libcups.so.2"
       ]
+    },
+    "coldbrew": {
+      "origin": "coldbrew",
+      "versions": {
+        "1.2-r0": 1779911421
+      },
+      "dependencies": [
+        "bubblewrap"
+      ],
+      "provides": [
+        "cmd:coldbrew=1.2-r0"
+      ]
+    },
+    "py3-pylibi2c": {
+      "origin": "py3-pylibi2c",
+      "versions": {
+        "0.2.1_git20250528-r0": 1779914276
+      },
+      "dependencies": [
+        "python3~3.14",
+        "so:libc.musl-ppc64le.so.1"
+      ]
     }
   },
   "provide": {
