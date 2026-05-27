@@ -65599,7 +65599,8 @@
     "gitu": {
       "origin": "gitu",
       "versions": {
-        "0.41.0-r0": 1773322287
+        "0.41.0-r0": 1773322287,
+        "0.42.0-r0": 1779902722
       },
       "dependencies": [
         "git",
@@ -65608,13 +65609,14 @@
         "so:libgit2.so.1.9"
       ],
       "provides": [
-        "cmd:gitu=0.41.0-r0"
+        "cmd:gitu=0.42.0-r0"
       ]
     },
     "gitu-doc": {
       "origin": "gitu",
       "versions": {
-        "0.41.0-r0": 1773322287
+        "0.41.0-r0": 1773322287,
+        "0.42.0-r0": 1779902722
       }
     },
     "gitui": {
@@ -187655,7 +187657,8 @@
     "osmin": {
       "origin": "osmin",
       "versions": {
-        "1.14.3-r2": 1759740911
+        "1.14.3-r2": 1759740911,
+        "1.15.1-r0": 1779903597
       },
       "dependencies": [
         "qt6-qt5compat",
@@ -187675,10 +187678,11 @@
         "so:libgcc_s.so.1",
         "so:libmarisa.so.0",
         "so:libstdc++.so.6",
-        "so:libxml2.so.2"
+        "so:libxml2.so.2",
+        "so:libz.so.1"
       ],
       "provides": [
-        "cmd:osmin=1.14.3-r2"
+        "cmd:osmin=1.15.1-r0"
       ]
     },
     "osmo": {
