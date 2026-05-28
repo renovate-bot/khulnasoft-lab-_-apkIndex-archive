@@ -22659,7 +22659,8 @@
     "capstone": {
       "origin": "capstone",
       "versions": {
-        "5.0.8-r0": 1779578739
+        "5.0.8-r0": 1779578739,
+        "5.0.9-r0": 1779988805
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1"
@@ -22671,21 +22672,23 @@
     "capstone-dev": {
       "origin": "capstone",
       "versions": {
-        "5.0.8-r0": 1779578739
+        "5.0.8-r0": 1779578739,
+        "5.0.9-r0": 1779988805
       },
       "dependencies": [
-        "capstone=5.0.8-r0",
-        "capstone=5.0.8-r0",
+        "capstone=5.0.9-r0",
+        "capstone=5.0.9-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:capstone=5.0.8"
+        "pc:capstone=5.0.9"
       ]
     },
     "capstone-static": {
       "origin": "capstone",
       "versions": {
-        "5.0.8-r0": 1779578739
+        "5.0.8-r0": 1779578739,
+        "5.0.9-r0": 1779988805
       },
       "dependencies": [
         "capstone-dev"
@@ -34678,13 +34681,14 @@
     "cstool": {
       "origin": "capstone",
       "versions": {
-        "5.0.8-r0": 1779578739
+        "5.0.8-r0": 1779578739,
+        "5.0.9-r0": 1779988805
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1"
       ],
       "provides": [
-        "cmd:cstool=5.0.8-r0"
+        "cmd:cstool=5.0.9-r0"
       ]
     },
     "csview": {
@@ -66199,38 +66203,43 @@
     "glab": {
       "origin": "glab",
       "versions": {
-        "1.99.0-r0": 1779571493
+        "1.99.0-r0": 1779571493,
+        "1.100.0-r0": 1779995229
       },
       "dependencies": [
         "git",
         "so:libc.musl-x86_64.so.1"
       ],
       "provides": [
-        "cmd:glab=1.99.0-r0"
+        "cmd:glab=1.100.0-r0"
       ]
     },
     "glab-bash-completion": {
       "origin": "glab",
       "versions": {
-        "1.99.0-r0": 1779571493
+        "1.99.0-r0": 1779571493,
+        "1.100.0-r0": 1779995229
       }
     },
     "glab-doc": {
       "origin": "glab",
       "versions": {
-        "1.99.0-r0": 1779571493
+        "1.99.0-r0": 1779571493,
+        "1.100.0-r0": 1779995229
       }
     },
     "glab-fish-completion": {
       "origin": "glab",
       "versions": {
-        "1.99.0-r0": 1779571493
+        "1.99.0-r0": 1779571493,
+        "1.100.0-r0": 1779995229
       }
     },
     "glab-zsh-completion": {
       "origin": "glab",
       "versions": {
-        "1.99.0-r0": 1779571493
+        "1.99.0-r0": 1779571493,
+        "1.100.0-r0": 1779995229
       }
     },
     "glade": {
@@ -223026,7 +223035,8 @@
     "py3-capstone": {
       "origin": "capstone",
       "versions": {
-        "5.0.8-r0": 1779578739
+        "5.0.8-r0": 1779578739,
+        "5.0.9-r0": 1779988805
       },
       "dependencies": [
         "py3-setuptools",
@@ -223034,13 +223044,14 @@
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:capstone=5.0.8-r0"
+        "py3.14:capstone=5.0.9-r0"
       ]
     },
     "py3-capstone-pyc": {
       "origin": "capstone",
       "versions": {
-        "5.0.8-r0": 1779578739
+        "5.0.8-r0": 1779578739,
+        "5.0.9-r0": 1779988805
       },
       "dependencies": [
         "python3~3.14"
@@ -263655,7 +263666,8 @@
     "raku-cro-http": {
       "origin": "raku-cro-http",
       "versions": {
-        "0.8.12-r0": 1778993844
+        "0.8.12-r0": 1778993844,
+        "0.8.12-r1": 1779994782
       },
       "dependencies": [
         "rakudo",
@@ -263676,13 +263688,15 @@
     "raku-cro-http-doc": {
       "origin": "raku-cro-http",
       "versions": {
-        "0.8.12-r0": 1778993844
+        "0.8.12-r0": 1778993844,
+        "0.8.12-r1": 1779994782
       }
     },
     "raku-cro-tls": {
       "origin": "raku-cro-tls",
       "versions": {
-        "0.8.10-r3": 1771160091
+        "0.8.10-r3": 1771160091,
+        "0.8.10-r4": 1779994782
       },
       "dependencies": [
         "rakudo",
@@ -263693,13 +263707,15 @@
     "raku-cro-tls-doc": {
       "origin": "raku-cro-tls",
       "versions": {
-        "0.8.10-r3": 1771160091
+        "0.8.10-r3": 1771160091,
+        "0.8.10-r4": 1779994782
       }
     },
     "raku-cro-webapp": {
       "origin": "raku-cro-webapp",
       "versions": {
-        "0.10.0-r3": 1771160091
+        "0.10.0-r3": 1771160091,
+        "0.10.0-r4": 1779994782
       },
       "dependencies": [
         "rakudo",
@@ -263711,7 +263727,8 @@
     "raku-cro-webapp-doc": {
       "origin": "raku-cro-webapp",
       "versions": {
-        "0.10.0-r3": 1771160091
+        "0.10.0-r3": 1771160091,
+        "0.10.0-r4": 1779994782
       }
     },
     "raku-cro-websocket": {
@@ -264077,7 +264094,8 @@
     "raku-io-socket-async-ssl": {
       "origin": "raku-io-socket-async-ssl",
       "versions": {
-        "0.8.2-r3": 1771160091
+        "0.8.2-r3": 1771160091,
+        "0.8.2-r4": 1779994782
       },
       "dependencies": [
         "rakudo",
@@ -264087,7 +264105,8 @@
     "raku-io-socket-async-ssl-doc": {
       "origin": "raku-io-socket-async-ssl",
       "versions": {
-        "0.8.2-r3": 1771160091
+        "0.8.2-r3": 1771160091,
+        "0.8.2-r4": 1779994782
       }
     },
     "raku-io-socket-ssl": {
@@ -264143,7 +264162,8 @@
     "raku-json-jwt": {
       "origin": "raku-json-jwt",
       "versions": {
-        "1.1.2-r3": 1771160091
+        "1.1.2-r3": 1771160091,
+        "1.1.2-r4": 1779994782
       },
       "dependencies": [
         "rakudo",
@@ -264156,7 +264176,8 @@
     "raku-json-jwt-doc": {
       "origin": "raku-json-jwt",
       "versions": {
-        "1.1.2-r3": 1771160091
+        "1.1.2-r3": 1771160091,
+        "1.1.2-r4": 1779994782
       }
     },
     "raku-json-marshal": {
