@@ -20205,36 +20205,36 @@ c:8eb3dad635d141ecd18ac501b6fb845a6ea17f59
 D:libmikmod so:libSDL-1.2.so.0 so:libSDL_image-1.2.so.0 so:libSDL_mixer-1.2.so.0 so:libc.musl-armhf.so.1
 p:cmd:bugsquish=0.0.6-r2
 
-C:Q1SNl7C3ruCFQzYh1N3NBRFuUPcMU=
+C:Q1tgsyylThGt+vK2/lYTCKGTbH7xI=
 P:buildah
-V:1.43.1-r2
+V:1.44.0-r0
 A:armhf
-S:12829403
-I:33647588
+S:13357685
+I:34204636
 T:tool that facilitates building OCI container images
 U:https://github.com/containers/buildah
 L:Apache-2.0
 o:buildah
 m:Michał Polański <michal@polanski.me>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1779980082
+c:a1d0a5b541fb2fd15155bfe4bfcba8214fabae4a
 D:oci-runtime shadow-subids slirp4netns containers-common so:libc.musl-armhf.so.1 so:libgpgme.so.45 so:libseccomp.so.2
-p:cmd:buildah=1.43.1-r2
+p:cmd:buildah=1.44.0-r0
 
-C:Q1ROM5cfyFYn4mWVmqJRnuScr0HbI=
+C:Q1VBT+KS+clDWwoXz8M422XTCM6ag=
 P:buildah-doc
-V:1.43.1-r2
+V:1.44.0-r0
 A:armhf
-S:96764
-I:91416
+S:99088
+I:93710
 T:tool that facilitates building OCI container images (documentation)
 U:https://github.com/containers/buildah
 L:Apache-2.0
 o:buildah
 m:Michał Polański <michal@polanski.me>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:docs buildah=1.43.1-r2
+t:1779980082
+c:a1d0a5b541fb2fd15155bfe4bfcba8214fabae4a
+i:docs buildah=1.44.0-r0
 
 C:Q1cVt3C++DDPydaOZ8CNRIP/SQvgU=
 P:buildctl
@@ -37394,56 +37394,56 @@ c:e47b698774bc368861f7ebab0c68a06ba2316ccd
 D:sed wget dnscrypt-proxy=2.1.16-r0
 p:cmd:setup-dnscrypt=2.1.16-r0
 
-C:Q1Edyf4duKMJGuamZ78R8Fqmx2Lo8=
+C:Q1A0WJpD43yxLD8sa10HyV1LNDkP0=
 P:dnsdist
-V:2.0.4-r0
+V:2.0.6-r0
 A:armhf
-S:3156378
-I:8621780
+S:3156167
+I:8625876
 T:dnsdist is a highly DNS-, DoS-, and abuse-aware loadbalancer.
 U:https://dnsdist.org/
 L:GPL-2.0-only WITH OpenSSL-Exception
 o:dnsdist
 m:Peter van Dijk <peter.van.dijk@powerdns.com>
-t:1776931478
-c:f2a7cb6e852b710d473f49dd8c57293df00acaa6
+t:1779982662
+c:84dc39d45291c7f1b4d1905ada053d66019a38eb
 D:dnsdist-common so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libedit.so.0 so:libfstrm.so.0 so:libgcc_s.so.1 so:liblmdb.so.0 so:liblua-5.4.so.0 so:libnetsnmp.so.45 so:libnetsnmpagent.so.45 so:libnghttp2.so.14 so:libre2.so.11 so:libsodium.so.26 so:libssl.so.3 so:libstdc++.so.6
-p:cmd:dnsdist=2.0.4-r0
+p:cmd:dnsdist=2.0.6-r0
 
-C:Q1eNVd4X+FxJ0hyYYS7/OVLRxWxuk=
+C:Q1y0HrcCVLJcPummyFPodJv/+vX3U=
 P:dnsdist-common
-V:2.0.4-r0
+V:2.0.6-r0
 A:armhf
-S:3481
+S:3484
 I:4520
 T:dnsdist common files
 U:https://dnsdist.org/
 L:GPL-2.0-only WITH OpenSSL-Exception
 o:dnsdist
 m:Peter van Dijk <peter.van.dijk@powerdns.com>
-t:1776931478
-c:f2a7cb6e852b710d473f49dd8c57293df00acaa6
+t:1779982662
+c:84dc39d45291c7f1b4d1905ada053d66019a38eb
 D:/bin/sh
 
-C:Q1c/yEznH945a24g5tKEheGy0uuXM=
+C:Q1pmzFpBIwzYEyiWbtdYoWuarNEfM=
 P:dnsdist-common-openrc
-V:2.0.4-r0
+V:2.0.6-r0
 A:armhf
-S:1939
+S:1936
 I:758
 T:dnsdist is a highly DNS-, DoS-, and abuse-aware loadbalancer.
 U:https://dnsdist.org/
 L:GPL-2.0-only WITH OpenSSL-Exception
 o:dnsdist
 m:Peter van Dijk <peter.van.dijk@powerdns.com>
-t:1776931478
-c:f2a7cb6e852b710d473f49dd8c57293df00acaa6
+t:1779982662
+c:84dc39d45291c7f1b4d1905ada053d66019a38eb
 D:dnsdist-common
 i:dnsdist-common
 
-C:Q1iIY30oriuwZi0mWX/oNaqjrwIBI=
+C:Q10Y9r8HLjjPO73/AqA7QjHeCOxR4=
 P:dnsdist-doc
-V:2.0.4-r0
+V:2.0.6-r0
 A:armhf
 S:3917
 I:2119
@@ -37452,25 +37452,25 @@ U:https://dnsdist.org/
 L:GPL-2.0-only WITH OpenSSL-Exception
 o:dnsdist
 m:Peter van Dijk <peter.van.dijk@powerdns.com>
-t:1776931478
-c:f2a7cb6e852b710d473f49dd8c57293df00acaa6
-i:docs dnsdist=2.0.4-r0
+t:1779982662
+c:84dc39d45291c7f1b4d1905ada053d66019a38eb
+i:docs dnsdist=2.0.6-r0
 
-C:Q1JB9AS5KswgEr1lhJ/e2R6D1esMc=
+C:Q1jDaASZ/DhRokj9QzVzbFx5PC49Q=
 P:dnsdist-luajit
-V:2.0.4-r0
+V:2.0.6-r0
 A:armhf
-S:3203578
-I:8838868
+S:3204370
+I:8842964
 T:dnsdist with luajit bindings
 U:https://dnsdist.org/
 L:GPL-2.0-only WITH OpenSSL-Exception
 o:dnsdist
 m:Peter van Dijk <peter.van.dijk@powerdns.com>
-t:1776931478
-c:f2a7cb6e852b710d473f49dd8c57293df00acaa6
+t:1779982662
+c:84dc39d45291c7f1b4d1905ada053d66019a38eb
 D:dnsdist-common so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libedit.so.0 so:libfstrm.so.0 so:libgcc_s.so.1 so:liblmdb.so.0 so:libluajit-5.1.so.2 so:libnetsnmp.so.45 so:libnetsnmpagent.so.45 so:libnghttp2.so.14 so:libre2.so.11 so:libsodium.so.26 so:libssl.so.3 so:libstdc++.so.6
-p:dnsdist=2.0.4-r0 cmd:dnsdist=2.0.4-r0
+p:dnsdist=2.0.6-r0 cmd:dnsdist=2.0.6-r0
 
 C:Q1fJxsDzXTeq+7CSJOPoSj/HSVyEg=
 P:dnsenum
@@ -60051,67 +60051,67 @@ t:1774736179
 c:cdf9c6597e29a756e321336f26efc73edc6345d9
 i:docs gfold=2026.3.0-r0
 
-C:Q18P0JNoOBg7yp0/iGElYssnOm75A=
+C:Q1Varc4ucUNeh9nD6Ucov2OObXtp0=
 P:ghex
-V:50.1-r0
+V:50.2-r0
 A:armhf
-S:134449
-I:321011
+S:134522
+I:321059
 T:A hex editor for GNOME
 U:https://gitlab.gnome.org/GNOME/ghex
 L:GPL-2.0-or-later
 o:ghex
 m:Achill Gilgenast <achill@achill.org>
-t:1779707056
-c:e4b4688c7a424924bae948deffc9887c164f50d1
+t:1779985191
+c:1b58d15d5108efd916897037a12e0117cffa873c
 D:dconf so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0
-p:cmd:ghex=50.1-r0 so:libgtkhex-4.so.1=1.12.0
+p:cmd:ghex=50.2-r0 so:libgtkhex-4.so.1=1.12.1
 
-C:Q1j7DsHPYzKEIJPF0Gj/w9jv7C73g=
+C:Q1DaMV3JNP7rBsK2vFfFoSqqneptA=
 P:ghex-dev
-V:50.1-r0
+V:50.2-r0
 A:armhf
-S:6789
+S:6796
 I:19691
 T:A hex editor for GNOME (development files)
 U:https://gitlab.gnome.org/GNOME/ghex
 L:GPL-2.0-or-later
 o:ghex
 m:Achill Gilgenast <achill@achill.org>
-t:1779707056
-c:e4b4688c7a424924bae948deffc9887c164f50d1
-D:ghex=50.1-r0 pc:gtk4 pkgconfig
-p:pc:gtkhex-4=4.12.0
+t:1779985191
+c:1b58d15d5108efd916897037a12e0117cffa873c
+D:ghex=50.2-r0 pc:gtk4 pkgconfig
+p:pc:gtkhex-4=4.12.1
 
-C:Q1LLDpl4Fjf/pZBBs1xzmOi4jZr34=
+C:Q19eqPSxQa3w0xStA8eaQ4CkbgIsg=
 P:ghex-doc
-V:50.1-r0
+V:50.2-r0
 A:armhf
-S:209541
+S:209549
 I:760937
 T:A hex editor for GNOME (documentation)
 U:https://gitlab.gnome.org/GNOME/ghex
 L:GPL-2.0-or-later
 o:ghex
 m:Achill Gilgenast <achill@achill.org>
-t:1779707056
-c:e4b4688c7a424924bae948deffc9887c164f50d1
-i:docs ghex=50.1-r0
+t:1779985191
+c:1b58d15d5108efd916897037a12e0117cffa873c
+i:docs ghex=50.2-r0
 
-C:Q1qwedY+odqrauk4RgRT4EFYrlEzA=
+C:Q1nu+FdVQSefrWecyDER3ipHmI4JE=
 P:ghex-lang
-V:50.1-r0
+V:50.2-r0
 A:armhf
-S:408364
+S:408396
 I:1182412
 T:Languages for package ghex
 U:https://gitlab.gnome.org/GNOME/ghex
 L:GPL-2.0-or-later
 o:ghex
 m:Achill Gilgenast <achill@achill.org>
-t:1779707056
-c:e4b4688c7a424924bae948deffc9887c164f50d1
-i:ghex=50.1-r0 lang
+t:1779985191
+c:1b58d15d5108efd916897037a12e0117cffa873c
+i:ghex=50.2-r0 lang
 
 C:Q1wZFCBqBN24YQpxySzDmJ3IJdiA8=
 P:ghi
@@ -151982,99 +151982,99 @@ m:Carlo Landmeter <clandmeter@alpinelinux.org>
 t:1685947925
 c:a251d066b386ffca4afb7f8f18b6fabeea2566e1
 
-C:Q1izTkDWQ83A7yaPtebON8BQbhOf0=
+C:Q13KgWmENWVX0DojbfDHDVGvMMe1Q=
 P:papers
-V:50.1-r0
+V:50.2-r0
 A:armhf
-S:2388772
-I:5396748
+S:2393243
+I:5406553
 T:simple document viewer for GNOME desktop
 U:https://apps.gnome.org/Papers/
 L:GPL-2.0-or-later
 o:papers
 m:team/gnome <achill@achill.org>
-t:1776005039
-c:909f7a7f2ca827c4db4e10ce077d707db438cfc9
+t:1779985191
+c:218ffbe2478226425806b63ccae1dcb44b6a925b
 D:adwaita-icon-theme gsettings-desktop-schemas so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libpango-1.0.so.0 so:libppsdocument-4.0.so.6 so:libppsview-4.0.so.5
-p:cmd:papers-previewer=50.1-r0 cmd:papers-thumbnailer=50.1-r0 cmd:papers=50.1-r0
+p:cmd:papers-previewer=50.2-r0 cmd:papers-thumbnailer=50.2-r0 cmd:papers=50.2-r0
 
-C:Q1/hEf7hSMCEeSiGjc3yKepGqJrK4=
+C:Q1RUIgNgAo5cSvmaPeB6IqMbqmWTY=
 P:papers-dev
-V:50.1-r0
+V:50.2-r0
 A:armhf
-S:92341
+S:92338
 I:1010716
 T:simple document viewer for GNOME desktop (development files)
 U:https://apps.gnome.org/Papers/
 L:GPL-2.0-or-later
 o:papers
 m:team/gnome <achill@achill.org>
-t:1776005039
-c:909f7a7f2ca827c4db4e10ce077d707db438cfc9
-D:gobject-introspection-dev gtk4.0-dev libadwaita-dev libspectre-dev poppler-dev tiff-dev papers-libs=50.1-r0 pc:gio-2.0>=2.75.0 pc:gthread-2.0>=2.75.0 pc:gtk4>=4.17.1 pc:libadwaita-1>=1.8 pkgconfig
-p:pc:papers-document-4.0=50.1 pc:papers-view-4.0=50.1
+t:1779985191
+c:218ffbe2478226425806b63ccae1dcb44b6a925b
+D:gobject-introspection-dev gtk4.0-dev libadwaita-dev libspectre-dev poppler-dev tiff-dev papers-libs=50.2-r0 pc:gio-2.0>=2.75.0 pc:gthread-2.0>=2.75.0 pc:gtk4>=4.17.1 pc:libadwaita-1>=1.8 pkgconfig
+p:pc:papers-document-4.0=50.2 pc:papers-view-4.0=50.2
 
-C:Q1sg0eXQZa5Cet3c3ve0HqygDvVS8=
+C:Q1w0Uqfk+lUHPGCxDxGgEZ6AQeKB8=
 P:papers-doc
-V:50.1-r0
+V:50.2-r0
 A:armhf
-S:1517632
+S:1517596
 I:6286320
 T:simple document viewer for GNOME desktop (documentation)
 U:https://apps.gnome.org/Papers/
 L:GPL-2.0-or-later
 o:papers
 m:team/gnome <achill@achill.org>
-t:1776005039
-c:909f7a7f2ca827c4db4e10ce077d707db438cfc9
-i:docs papers=50.1-r0
+t:1779985191
+c:218ffbe2478226425806b63ccae1dcb44b6a925b
+i:docs papers=50.2-r0
 
-C:Q1iJJnFIXXwxCsVmhaWEw4y/2Q5rM=
+C:Q1DWpqRj1ndDP7eKGK7iIpmb12YV8=
 P:papers-lang
-V:50.1-r0
+V:50.2-r0
 A:armhf
-S:1163631
-I:3214522
+S:1162243
+I:3205123
 T:Languages for package papers
 U:https://apps.gnome.org/Papers/
 L:GPL-2.0-or-later
 o:papers
 m:team/gnome <achill@achill.org>
-t:1776005039
-c:909f7a7f2ca827c4db4e10ce077d707db438cfc9
-i:papers=50.1-r0 lang
+t:1779985191
+c:218ffbe2478226425806b63ccae1dcb44b6a925b
+i:papers=50.2-r0 lang
 
-C:Q1Gu5lyoiaGgINxKUWj9zQTP70eho=
+C:Q1AEsdaVYx5/U9UeiX8LwqRmwfFqU=
 P:papers-libs
-V:50.1-r0
+V:50.2-r0
 A:armhf
-S:301931
+S:302013
 I:777333
 T:simple document viewer for GNOME desktop (libraries)
 U:https://apps.gnome.org/Papers/
 L:GPL-2.0-or-later
 o:papers
 m:team/gnome <achill@achill.org>
-t:1776005039
-c:909f7a7f2ca827c4db4e10ce077d707db438cfc9
+t:1779985191
+c:218ffbe2478226425806b63ccae1dcb44b6a925b
 D:so:libadwaita-1.so.0 so:libarchive.so.13 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libdjvulibre.so.21 so:libexempi.so.8 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libpango-1.0.so.0 so:libpoppler-glib.so.8 so:libtiff.so.6
 p:so:libppsdocument-4.0.so.6=6.0.0 so:libppsview-4.0.so.5=5.0.0
 
-C:Q1dgZ8ywvhYwlq+vCm2Tkrvnu50nw=
+C:Q1wuGZ3zcPAeD1M8WVnQ4Y/5K1Zlo=
 P:papers-nautilus
-V:50.1-r0
+V:50.2-r0
 A:armhf
-S:4970
+S:4971
 I:9372
 T:papers (Nautilus extension)
 U:https://apps.gnome.org/Papers/
 L:GPL-2.0-or-later
 o:papers
 m:team/gnome <achill@achill.org>
-t:1776005039
-c:909f7a7f2ca827c4db4e10ce077d707db438cfc9
+t:1779985191
+c:218ffbe2478226425806b63ccae1dcb44b6a925b
 D:adwaita-icon-theme gsettings-desktop-schemas so:libc.musl-armhf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libnautilus-extension.so.4 so:libppsdocument-4.0.so.6
-i:papers=50.1-r0 nautilus
+i:papers=50.2-r0 nautilus
 
 C:Q1gWvHtJ+DENdBTPeg/Vd4OFd+vSI=
 P:papirus-icon-theme
@@ -153482,231 +153482,231 @@ c:d3242e1244d06d88d719fd3d2d54185ec9094e48
 D:python3~3.14
 i:pdfposter=0.9.1-r2 pyc
 
-C:Q1Sv8iIZdORDhFfWckA/jpq8x20Cw=
+C:Q1zhnS9HbaDXUSbyABeo+4Hkb9DsA=
 P:pdns
-V:5.0.4-r0
+V:5.0.5-r0
 A:armhf
-S:3049501
-I:8171103
+S:3052155
+I:8175199
 T:PowerDNS Authoritative Server
 U:https://www.powerdns.com/
 L:GPL-2.0-only WITH OpenSSL-Exception
 o:pdns
 m:Peter van Dijk <peter.van.dijk@powerdns.com>
-t:1776891950
-c:82f273b36c6cbc1148cf5e4a193ff117e2b2b62c
+t:1779982521
+c:921a257126b9367c0b87b685e28b95c83c4b76cb
 D:/bin/sh so:libboost_program_options.so.1.84.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgcc_s.so.1 so:libluajit-5.1.so.2 so:libsodium.so.26 so:libsqlite3.so.0 so:libstdc++.so.6
-p:cmd:dnspcap2calidns=5.0.4-r0 cmd:pdns_control=5.0.4-r0 cmd:pdns_server=5.0.4-r0 cmd:pdnsutil=5.0.4-r0
+p:cmd:dnspcap2calidns=5.0.5-r0 cmd:pdns_control=5.0.5-r0 cmd:pdns_server=5.0.5-r0 cmd:pdnsutil=5.0.5-r0
 
-C:Q1fwfhWHdGEzCsYuhFvLAyx2YNkek=
+C:Q1dRFTaXtCGA3aLXIhGgkMUoWmfRc=
 P:pdns-backend-bind
-V:5.0.4-r0
+V:5.0.5-r0
 A:armhf
-S:81463
+S:81641
 I:206216
 T:bind backend module for PowerDNS
 U:https://www.powerdns.com/
 L:GPL-2.0-only WITH OpenSSL-Exception
 o:pdns
 m:Peter van Dijk <peter.van.dijk@powerdns.com>
-t:1776891950
-c:82f273b36c6cbc1148cf5e4a193ff117e2b2b62c
+t:1779982521
+c:921a257126b9367c0b87b685e28b95c83c4b76cb
 D:pdns so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 
-C:Q1mRdcGkK0dMDdbpuX1WwAIqoW/rk=
+C:Q1QGxEkABGFEwMM7CJ/iFJ6FgScgc=
 P:pdns-backend-geoip
-V:5.0.4-r0
+V:5.0.5-r0
 A:armhf
-S:101030
+S:101032
 I:255360
 T:geoip backend module for PowerDNS
 U:https://www.powerdns.com/
 L:GPL-2.0-only WITH OpenSSL-Exception
 o:pdns
 m:Peter van Dijk <peter.van.dijk@powerdns.com>
-t:1776891950
-c:82f273b36c6cbc1148cf5e4a193ff117e2b2b62c
+t:1779982521
+c:921a257126b9367c0b87b685e28b95c83c4b76cb
 D:pdns geoip so:libGeoIP.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libmaxminddb.so.0 so:libstdc++.so.6 so:libyaml-cpp.so.0.9
 
-C:Q145UpqmmYFwR/B0LQ4TJNNYeLJ90=
+C:Q1xtyALzNOOqANLgy4/nmeRlsSK/4=
 P:pdns-backend-ldap
-V:5.0.4-r0
+V:5.0.5-r0
 A:armhf
-S:58410
+S:58432
 I:136828
 T:ldap backend module for PowerDNS
 U:https://www.powerdns.com/
 L:GPL-2.0-only WITH OpenSSL-Exception
 o:pdns
 m:Peter van Dijk <peter.van.dijk@powerdns.com>
-t:1776891950
-c:82f273b36c6cbc1148cf5e4a193ff117e2b2b62c
+t:1779982521
+c:921a257126b9367c0b87b685e28b95c83c4b76cb
 D:pdns so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkrb5.so.3 so:liblber.so.2 so:libldap.so.2 so:libstdc++.so.6
 
-C:Q1o24CTTLt6FJpTa9VscmmYQhkDH0=
+C:Q1JO3Ku7N911BSSSjR6qGIMPZoaBc=
 P:pdns-backend-lmdb
-V:5.0.4-r0
+V:5.0.5-r0
 A:armhf
-S:155193
+S:155188
 I:468352
 T:lmdb backend module for PowerDNS
 U:https://www.powerdns.com/
 L:GPL-2.0-only WITH OpenSSL-Exception
 o:pdns
 m:Peter van Dijk <peter.van.dijk@powerdns.com>
-t:1776891950
-c:82f273b36c6cbc1148cf5e4a193ff117e2b2b62c
+t:1779982521
+c:921a257126b9367c0b87b685e28b95c83c4b76cb
 D:pdns lmdb so:libboost_serialization.so.1.84.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblmdb.so.0 so:libstdc++.so.6
 
-C:Q1861mAh3ZtRLwBz8FfDJSfQKKdmM=
+C:Q1Lxx3DWN42vYDgAc3I2WkXQsJ6+A=
 P:pdns-backend-lua2
-V:5.0.4-r0
+V:5.0.5-r0
 A:armhf
-S:87376
+S:87366
 I:284056
 T:lua2 backend module for PowerDNS
 U:https://www.powerdns.com/
 L:GPL-2.0-only WITH OpenSSL-Exception
 o:pdns
 m:Peter van Dijk <peter.van.dijk@powerdns.com>
-t:1776891950
-c:82f273b36c6cbc1148cf5e4a193ff117e2b2b62c
+t:1779982521
+c:921a257126b9367c0b87b685e28b95c83c4b76cb
 D:pdns lua luajit so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libluajit-5.1.so.2 so:libstdc++.so.6
 
-C:Q1S8JZ462I/xl6VvgcvYreXyaT2VQ=
+C:Q1xhheOdz1jfBx6t0BBwNLhgJoLMA=
 P:pdns-backend-mariadb
-V:5.0.4-r0
+V:5.0.5-r0
 A:armhf
-S:1296
+S:1292
 I:0
 T:mariadb backend module for PowerDNS
 U:https://www.powerdns.com/
 L:GPL-2.0-only WITH OpenSSL-Exception
 o:pdns
 m:Peter van Dijk <peter.van.dijk@powerdns.com>
-t:1776891950
-c:82f273b36c6cbc1148cf5e4a193ff117e2b2b62c
+t:1779982521
+c:921a257126b9367c0b87b685e28b95c83c4b76cb
 D:pdns pdns-backend-mysql
 
-C:Q1fNkZAeE4EsDz9DCUYPxqtIwHVZM=
+C:Q1LWSaJDggJXHi5bN9xoyKsALZ+Ag=
 P:pdns-backend-mysql
-V:5.0.4-r0
+V:5.0.5-r0
 A:armhf
-S:35051
+S:35043
 I:87468
 T:gmysql backend module for PowerDNS
 U:https://www.powerdns.com/
 L:GPL-2.0-only WITH OpenSSL-Exception
 o:pdns
 m:Peter van Dijk <peter.van.dijk@powerdns.com>
-t:1776891950
-c:82f273b36c6cbc1148cf5e4a193ff117e2b2b62c
+t:1779982521
+c:921a257126b9367c0b87b685e28b95c83c4b76cb
 D:pdns mariadb-client so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libmariadb.so.3 so:libstdc++.so.6
 
-C:Q1F585xqjIMLYddj50NjrseXYHtqY=
+C:Q1cdGNRmas2LUqfUTZmcBS+EEpVgI=
 P:pdns-backend-odbc
-V:5.0.4-r0
+V:5.0.5-r0
 A:armhf
-S:28874
+S:28871
 I:75136
 T:godbc backend module for PowerDNS
 U:https://www.powerdns.com/
 L:GPL-2.0-only WITH OpenSSL-Exception
 o:pdns
 m:Peter van Dijk <peter.van.dijk@powerdns.com>
-t:1776891950
-c:82f273b36c6cbc1148cf5e4a193ff117e2b2b62c
+t:1779982521
+c:921a257126b9367c0b87b685e28b95c83c4b76cb
 D:pdns unixodbc so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libodbc.so.2 so:libstdc++.so.6
 
-C:Q1nN9LTYlBMfNCYFi1tH9YnLZYdrs=
+C:Q1SlwU4V7Lze3EKYRaLNAITQXZP1w=
 P:pdns-backend-pgsql
-V:5.0.4-r0
+V:5.0.5-r0
 A:armhf
-S:39340
+S:39332
 I:95786
 T:gpgsql backend module for PowerDNS
 U:https://www.powerdns.com/
 L:GPL-2.0-only WITH OpenSSL-Exception
 o:pdns
 m:Peter van Dijk <peter.van.dijk@powerdns.com>
-t:1776891950
-c:82f273b36c6cbc1148cf5e4a193ff117e2b2b62c
+t:1779982521
+c:921a257126b9367c0b87b685e28b95c83c4b76cb
 D:pdns postgresql-client /bin/sh so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libpq.so.5 so:libstdc++.so.6
 
-C:Q1N7Z4NvhcaRC2YXz3OfMYR8TV7fY=
+C:Q1mH3ciE7FDFAYhqi8TKbHBf5XuyY=
 P:pdns-backend-pipe
-V:5.0.4-r0
+V:5.0.5-r0
 A:armhf
-S:38949
+S:38946
 I:91520
 T:pipe backend module for PowerDNS
 U:https://www.powerdns.com/
 L:GPL-2.0-only WITH OpenSSL-Exception
 o:pdns
 m:Peter van Dijk <peter.van.dijk@powerdns.com>
-t:1776891950
-c:82f273b36c6cbc1148cf5e4a193ff117e2b2b62c
+t:1779982521
+c:921a257126b9367c0b87b685e28b95c83c4b76cb
 D:pdns so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 
-C:Q1QOZdllIDyQt4mweknvfzOTWY6jQ=
+C:Q1fJzsuWMShEFXw3L7ZxrFpX3aVsg=
 P:pdns-backend-remote
-V:5.0.4-r0
+V:5.0.5-r0
 A:armhf
-S:131081
+S:130810
 I:324992
 T:remote backend module for PowerDNS
 U:https://www.powerdns.com/
 L:GPL-2.0-only WITH OpenSSL-Exception
 o:pdns
 m:Peter van Dijk <peter.van.dijk@powerdns.com>
-t:1776891950
-c:82f273b36c6cbc1148cf5e4a193ff117e2b2b62c
+t:1779982521
+c:921a257126b9367c0b87b685e28b95c83c4b76cb
 D:pdns so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libzmq.so.5
 
-C:Q1AEaFfQft0sn5PwBmrjG5LOoiAro=
+C:Q1143yW2rs85H7aZB+OBXZN6s2iWM=
 P:pdns-backend-sqlite3
-V:5.0.4-r0
+V:5.0.5-r0
 A:armhf
-S:20614
+S:20605
 I:54656
 T:gsqlite3 backend module for PowerDNS
 U:https://www.powerdns.com/
 L:GPL-2.0-only WITH OpenSSL-Exception
 o:pdns
 m:Peter van Dijk <peter.van.dijk@powerdns.com>
-t:1776891950
-c:82f273b36c6cbc1148cf5e4a193ff117e2b2b62c
+t:1779982521
+c:921a257126b9367c0b87b685e28b95c83c4b76cb
 D:pdns sqlite so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 
-C:Q1crRRbo3BdM2I3Ad7bTlQipVZAZU=
+C:Q1wz40sSVmuT/C3P7s7AwDXEscChA=
 P:pdns-doc
-V:5.0.4-r0
+V:5.0.5-r0
 A:armhf
-S:42342
-I:81220
+S:42360
+I:81212
 T:PowerDNS Authoritative Server (documentation)
 U:https://www.powerdns.com/
 L:GPL-2.0-only WITH OpenSSL-Exception
 o:pdns
 m:Peter van Dijk <peter.van.dijk@powerdns.com>
-t:1776891950
-c:82f273b36c6cbc1148cf5e4a193ff117e2b2b62c
-i:docs pdns=5.0.4-r0
+t:1779982521
+c:921a257126b9367c0b87b685e28b95c83c4b76cb
+i:docs pdns=5.0.5-r0
 
-C:Q1Hnz6FuYzKrj/nHG8eI2uO9ZGPpc=
+C:Q1T8ZxXgJ4EOcbW75OGkrzBEFldZE=
 P:pdns-openrc
-V:5.0.4-r0
+V:5.0.5-r0
 A:armhf
-S:1960
+S:1959
 I:718
 T:PowerDNS Authoritative Server (OpenRC init scripts)
 U:https://www.powerdns.com/
 L:GPL-2.0-only WITH OpenSSL-Exception
 o:pdns
 m:Peter van Dijk <peter.van.dijk@powerdns.com>
-t:1776891950
-c:82f273b36c6cbc1148cf5e4a193ff117e2b2b62c
-i:openrc pdns=5.0.4-r0
+t:1779982521
+c:921a257126b9367c0b87b685e28b95c83c4b76cb
+i:openrc pdns=5.0.5-r0
 
 C:Q1VNwfL6SaRijXxsgBlBNAd3ffAMQ=
 P:pdns-recursor
@@ -153785,21 +153785,21 @@ t:1777381370
 c:d3b2adc9fba33059c0753e99e509e103edaa4fcc
 i:openrc pdns-recursor=5.4.1-r0
 
-C:Q1PjwOCPGLrkeB9NJUQd+5+J5hb4k=
+C:Q1C7mXEYzOS3Lf2BMb5PMsd78yj5E=
 P:pdns-tools
-V:5.0.4-r0
+V:5.0.5-r0
 A:armhf
-S:4958509
-I:11863520
+S:4962248
+I:11871712
 T:PowerDNS Authoritative Server
 U:https://www.powerdns.com/
 L:GPL-2.0-only WITH OpenSSL-Exception
 o:pdns
 m:Peter van Dijk <peter.van.dijk@powerdns.com>
-t:1776891950
-c:82f273b36c6cbc1148cf5e4a193ff117e2b2b62c
+t:1779982521
+c:921a257126b9367c0b87b685e28b95c83c4b76cb
 D:so:libboost_program_options.so.1.84.0 so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgcc_s.so.1 so:libsodium.so.26 so:libstdc++.so.6
-p:cmd:calidns=5.0.4-r0 cmd:dnsbulktest=5.0.4-r0 cmd:dnsgram=5.0.4-r0 cmd:dnspcap2protobuf=5.0.4-r0 cmd:dnsreplay=5.0.4-r0 cmd:dnsscan=5.0.4-r0 cmd:dnsscope=5.0.4-r0 cmd:dnstcpbench=5.0.4-r0 cmd:dnswasher=5.0.4-r0 cmd:dumresp=5.0.4-r0 cmd:ixplore=5.0.4-r0 cmd:nproxy=5.0.4-r0 cmd:nsec3dig=5.0.4-r0 cmd:pdns_notify=5.0.4-r0 cmd:saxfr=5.0.4-r0 cmd:sdig=5.0.4-r0 cmd:stubquery=5.0.4-r0 cmd:zone2json=5.0.4-r0 cmd:zone2ldap=5.0.4-r0 cmd:zone2sql=5.0.4-r0
+p:cmd:calidns=5.0.5-r0 cmd:dnsbulktest=5.0.5-r0 cmd:dnsgram=5.0.5-r0 cmd:dnspcap2protobuf=5.0.5-r0 cmd:dnsreplay=5.0.5-r0 cmd:dnsscan=5.0.5-r0 cmd:dnsscope=5.0.5-r0 cmd:dnstcpbench=5.0.5-r0 cmd:dnswasher=5.0.5-r0 cmd:dumresp=5.0.5-r0 cmd:ixplore=5.0.5-r0 cmd:nproxy=5.0.5-r0 cmd:nsec3dig=5.0.5-r0 cmd:pdns_notify=5.0.5-r0 cmd:saxfr=5.0.5-r0 cmd:sdig=5.0.5-r0 cmd:stubquery=5.0.5-r0 cmd:zone2json=5.0.5-r0 cmd:zone2ldap=5.0.5-r0 cmd:zone2sql=5.0.5-r0
 
 C:Q1u/30UJ1VT6kO1a5W3cwKjI9btoo=
 P:pdpmake
@@ -223133,37 +223133,37 @@ c:97031e01735203109b44e735a961a246951985fb
 D:python3~3.14
 i:py3-recipe-scrapers=15.11.0-r1 pyc
 
-C:Q1yUXTJa8BJ5S8lOrDbqfHo4/3xlw=
+C:Q195ieK2bfxEDgDZQx8IWGkOiPEcU=
 P:py3-redis
-V:7.4.0-r1
+V:8.0.0-r0
 A:armhf
-S:377641
-I:1823511
+S:465515
+I:2351441
 T:Python3 client for Redis key-value store
 U:https://github.com/andymccurdy/redis-py
 L:MIT
 o:py3-redis
 m:Achill Gilgenast <achill@achill.org>
-t:1774640365
-c:3067512ae85ef59101450a1832b98c5fd821ff9b
+t:1779985191
+c:3d2e2899f8b3f3a53d44208ac6643536ecf7651c
 D:py3-hiredis python3~3.14
-p:py-redis=7.4.0-r1 py3.14:redis=7.4.0-r1
+p:py-redis=8.0.0-r0 py3.14:redis=8.0.0-r0
 
-C:Q1xbDaoUjVudhsAOIxS2X9oAGykpg=
+C:Q1vcHE0ImDCxJLIju41NFPisoDMws=
 P:py3-redis-pyc
-V:7.4.0-r1
+V:8.0.0-r0
 A:armhf
-S:857002
-I:2427787
+S:1064765
+I:3164555
 T:Precompiled Python bytecode for py3-redis
 U:https://github.com/andymccurdy/redis-py
 L:MIT
 o:py3-redis
 m:Achill Gilgenast <achill@achill.org>
-t:1774640365
-c:3067512ae85ef59101450a1832b98c5fd821ff9b
+t:1779985191
+c:3d2e2899f8b3f3a53d44208ac6643536ecf7651c
 D:python3~3.14
-i:py3-redis=7.4.0-r1 pyc
+i:py3-redis=8.0.0-r0 pyc
 
 C:Q1o7Ka0OvZlUu/Nx9fUuOu3r1isqk=
 P:py3-reedsolo
@@ -224838,21 +224838,21 @@ t:1774640357
 c:5881674e8bd165e1014a050579e3b629a5a7bfad
 D:python3 python3~3.14 so:libc.musl-armhf.so.1
 
-C:Q1ThybIK1iZz00f2qgJTq8uGXeZF0=
+C:Q1i2x6VVtoJg1XF1yiLqywGOQWAuE=
 P:py3-ruff
-V:0.15.12-r0
+V:0.15.14-r0
 A:armhf
-S:14880
+S:14881
 I:52138
 T:Extremely fast Python linter
 U:https://github.com/astral-sh/ruff
 L:MIT
 o:ruff
 m:Hugo Osvaldo Barrera <hugo@whynothugo.nl>
-t:1777459771
-c:539eae2214e3e87af77756cb5b5f76398bdf33a7
+t:1779974653
+c:91adef23c3acebc44a3f1ec8aa6a2b6d5c43e062
 D:python3~3.14
-p:py3.14:ruff=0.15.12-r0
+p:py3.14:ruff=0.15.14-r0
 
 C:Q1HLZNjVZXROn7dzW8MaB3pRSwQ/c=
 P:py3-ruffus
@@ -247603,82 +247603,82 @@ t:1745356767
 c:db6431d8ab76f9e2e33c797706d5491cf689c890
 D:ruby
 
-C:Q1U5P7m2BYfZBYexmpN/NUsEoy4jg=
+C:Q1p1JnURdXTzvXY2On7ev1ERRWqg8=
 P:ruff
-V:0.15.12-r0
+V:0.15.14-r0
 A:armhf
-S:8389908
-I:19045996
+S:8408058
+I:19119744
 T:Extremely fast Python linter
 U:https://github.com/astral-sh/ruff
 L:MIT
 o:ruff
 m:Hugo Osvaldo Barrera <hugo@whynothugo.nl>
-t:1777459771
-c:539eae2214e3e87af77756cb5b5f76398bdf33a7
+t:1779974653
+c:91adef23c3acebc44a3f1ec8aa6a2b6d5c43e062
 D:so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libjemalloc.so.2
-p:cmd:ruff=0.15.12-r0
+p:cmd:ruff=0.15.14-r0
 
-C:Q1R18qAXTF0/0/3XgPcBLgQgyLRD8=
+C:Q1pIqgcZ+qiGR/iPTtgyAjV8WcnxU=
 P:ruff-bash-completion
-V:0.15.12-r0
+V:0.15.14-r0
 A:armhf
-S:8571
-I:89444
+S:8594
+I:89802
 T:Bash completions for ruff
 U:https://github.com/astral-sh/ruff
 L:MIT
 o:ruff
 m:Hugo Osvaldo Barrera <hugo@whynothugo.nl>
-t:1777459771
-c:539eae2214e3e87af77756cb5b5f76398bdf33a7
-i:ruff=0.15.12-r0 bash-completion
+t:1779974653
+c:91adef23c3acebc44a3f1ec8aa6a2b6d5c43e062
+i:ruff=0.15.14-r0 bash-completion
 
-C:Q1oiG2okV4b3Dv4eToaCwo9Xy7nKA=
+C:Q1aqMK4XXhiXmUtHPe16Kjm3/AXh0=
 P:ruff-fish-completion
-V:0.15.12-r0
+V:0.15.14-r0
 A:armhf
-S:86062
-I:309377
+S:86683
+I:312145
 T:Fish completions for ruff
 U:https://github.com/astral-sh/ruff
 L:MIT
 o:ruff
 m:Hugo Osvaldo Barrera <hugo@whynothugo.nl>
-t:1777459771
-c:539eae2214e3e87af77756cb5b5f76398bdf33a7
-i:ruff=0.15.12-r0 fish
+t:1779974653
+c:91adef23c3acebc44a3f1ec8aa6a2b6d5c43e062
+i:ruff=0.15.14-r0 fish
 
-C:Q1Glc3DimEKUWCfMHnoY54bA7XIP8=
+C:Q1Is/xaJMsRAFgKYGBJ48GGEtEk7Q=
 P:ruff-pyc
-V:0.15.12-r0
+V:0.15.14-r0
 A:armhf
-S:5351
+S:5346
 I:7169
 T:Precompiled Python bytecode for ruff
 U:https://github.com/astral-sh/ruff
 L:MIT
 o:ruff
 m:Hugo Osvaldo Barrera <hugo@whynothugo.nl>
-t:1777459771
-c:539eae2214e3e87af77756cb5b5f76398bdf33a7
+t:1779974653
+c:91adef23c3acebc44a3f1ec8aa6a2b6d5c43e062
 D:python3~3.14
-i:ruff=0.15.12-r0 pyc
+i:ruff=0.15.14-r0 pyc
 
-C:Q1db7LYeTdNjyabkrvp5YFN/dd2mw=
+C:Q1MB9yrL+fiODxeHOYJrrSkDHyEaQ=
 P:ruff-zsh-completion
-V:0.15.12-r0
+V:0.15.14-r0
 A:armhf
-S:105234
-I:372403
+S:105969
+I:375588
 T:Zsh completions for ruff
 U:https://github.com/astral-sh/ruff
 L:MIT
 o:ruff
 m:Hugo Osvaldo Barrera <hugo@whynothugo.nl>
-t:1777459771
-c:539eae2214e3e87af77756cb5b5f76398bdf33a7
-i:ruff=0.15.12-r0 zsh
+t:1779974653
+c:91adef23c3acebc44a3f1ec8aa6a2b6d5c43e062
+i:ruff=0.15.14-r0 zsh
 
 C:Q1crQkdmTpSjBLo+qIEBw05tGoXcg=
 P:runc
@@ -273632,21 +273632,21 @@ m:Hugo Osvaldo Barrera <hugo@whynothugo.nl>
 t:1778807396
 c:452fbe3c1042ff40320e1b6bd692201ce54d39c6
 
-C:Q14t/qnqhdZQIDOIRuGlJAzkJiL8U=
+C:Q1SMLN9ySYsiJXghX13Nk1AeK5nKs=
 P:ubridge
-V:0.9.19-r0
+V:1.0.0-r0
 A:armhf
-S:30426
+S:30442
 I:67840
 T:Bridge for UDP tunnels, Ethernet, TAP and VMnet interfaces.
 U:https://github.com/GNS3/ubridge
 L:GPL-3.0-or-later
 o:ubridge
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1727767075
-c:c4f553b486e3cada6d728eef962a72503e8487b6
+t:1779973838
+c:ce0e2f547753b585908947cf9466cdfb39a8b88f
 D:/bin/sh so:libc.musl-armhf.so.1 so:libpcap.so.1
-p:cmd:ubridge=0.9.19-r0
+p:cmd:ubridge=1.0.0-r0
 
 C:Q14gFYSJnY8nBfhz9TmxL20vMbf0o=
 P:uchardet

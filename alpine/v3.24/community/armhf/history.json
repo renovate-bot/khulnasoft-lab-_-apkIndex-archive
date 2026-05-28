@@ -18511,7 +18511,8 @@
     "buildah": {
       "origin": "buildah",
       "versions": {
-        "1.43.1-r2": 1778661427
+        "1.43.1-r2": 1778661427,
+        "1.44.0-r0": 1779980082
       },
       "dependencies": [
         "oci-runtime",
@@ -18523,13 +18524,14 @@
         "so:libseccomp.so.2"
       ],
       "provides": [
-        "cmd:buildah=1.43.1-r2"
+        "cmd:buildah=1.44.0-r0"
       ]
     },
     "buildah-doc": {
       "origin": "buildah",
       "versions": {
-        "1.43.1-r2": 1778661427
+        "1.43.1-r2": 1778661427,
+        "1.44.0-r0": 1779980082
       }
     },
     "buildctl": {
@@ -32744,7 +32746,8 @@
     "dnsdist": {
       "origin": "dnsdist",
       "versions": {
-        "2.0.4-r0": 1776931478
+        "2.0.4-r0": 1776931478,
+        "2.0.6-r0": 1779982662
       },
       "dependencies": [
         "dnsdist-common",
@@ -32764,13 +32767,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:dnsdist=2.0.4-r0"
+        "cmd:dnsdist=2.0.6-r0"
       ]
     },
     "dnsdist-common": {
       "origin": "dnsdist",
       "versions": {
-        "2.0.4-r0": 1776931478
+        "2.0.4-r0": 1776931478,
+        "2.0.6-r0": 1779982662
       },
       "dependencies": [
         "/bin/sh"
@@ -32779,7 +32783,8 @@
     "dnsdist-common-openrc": {
       "origin": "dnsdist",
       "versions": {
-        "2.0.4-r0": 1776931478
+        "2.0.4-r0": 1776931478,
+        "2.0.6-r0": 1779982662
       },
       "dependencies": [
         "dnsdist-common"
@@ -32788,13 +32793,15 @@
     "dnsdist-doc": {
       "origin": "dnsdist",
       "versions": {
-        "2.0.4-r0": 1776931478
+        "2.0.4-r0": 1776931478,
+        "2.0.6-r0": 1779982662
       }
     },
     "dnsdist-luajit": {
       "origin": "dnsdist",
       "versions": {
-        "2.0.4-r0": 1776931478
+        "2.0.4-r0": 1776931478,
+        "2.0.6-r0": 1779982662
       },
       "dependencies": [
         "dnsdist-common",
@@ -32814,8 +32821,8 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "dnsdist=2.0.4-r0",
-        "cmd:dnsdist=2.0.4-r0"
+        "dnsdist=2.0.6-r0",
+        "cmd:dnsdist=2.0.6-r0"
       ]
     },
     "dnsenum": {
@@ -51372,7 +51379,8 @@
       "origin": "ghex",
       "versions": {
         "50.0-r0": 1773698892,
-        "50.1-r0": 1779707056
+        "50.1-r0": 1779707056,
+        "50.2-r0": 1779985191
       },
       "dependencies": [
         "dconf",
@@ -51389,37 +51397,40 @@
         "so:libpangocairo-1.0.so.0"
       ],
       "provides": [
-        "cmd:ghex=50.1-r0",
-        "so:libgtkhex-4.so.1=1.12.0"
+        "cmd:ghex=50.2-r0",
+        "so:libgtkhex-4.so.1=1.12.1"
       ]
     },
     "ghex-dev": {
       "origin": "ghex",
       "versions": {
         "50.0-r0": 1773698892,
-        "50.1-r0": 1779707056
+        "50.1-r0": 1779707056,
+        "50.2-r0": 1779985191
       },
       "dependencies": [
-        "ghex=50.1-r0",
+        "ghex=50.2-r0",
         "pc:gtk4",
         "pkgconfig"
       ],
       "provides": [
-        "pc:gtkhex-4=4.12.0"
+        "pc:gtkhex-4=4.12.1"
       ]
     },
     "ghex-doc": {
       "origin": "ghex",
       "versions": {
         "50.0-r0": 1773698892,
-        "50.1-r0": 1779707056
+        "50.1-r0": 1779707056,
+        "50.2-r0": 1779985191
       }
     },
     "ghex-lang": {
       "origin": "ghex",
       "versions": {
         "50.0-r0": 1773698892,
-        "50.1-r0": 1779707056
+        "50.1-r0": 1779707056,
+        "50.2-r0": 1779985191
       }
     },
     "ghi": {
@@ -150348,7 +150359,8 @@
     "papers": {
       "origin": "papers",
       "versions": {
-        "50.1-r0": 1776005039
+        "50.1-r0": 1776005039,
+        "50.2-r0": 1779985191
       },
       "dependencies": [
         "adwaita-icon-theme",
@@ -150368,15 +150380,16 @@
         "so:libppsview-4.0.so.5"
       ],
       "provides": [
-        "cmd:papers-previewer=50.1-r0",
-        "cmd:papers-thumbnailer=50.1-r0",
-        "cmd:papers=50.1-r0"
+        "cmd:papers-previewer=50.2-r0",
+        "cmd:papers-thumbnailer=50.2-r0",
+        "cmd:papers=50.2-r0"
       ]
     },
     "papers-dev": {
       "origin": "papers",
       "versions": {
-        "50.1-r0": 1776005039
+        "50.1-r0": 1776005039,
+        "50.2-r0": 1779985191
       },
       "dependencies": [
         "gobject-introspection-dev",
@@ -150385,7 +150398,7 @@
         "libspectre-dev",
         "poppler-dev",
         "tiff-dev",
-        "papers-libs=50.1-r0",
+        "papers-libs=50.2-r0",
         "pc:gio-2.0>=2.75.0",
         "pc:gthread-2.0>=2.75.0",
         "pc:gtk4>=4.17.1",
@@ -150393,26 +150406,29 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:papers-document-4.0=50.1",
-        "pc:papers-view-4.0=50.1"
+        "pc:papers-document-4.0=50.2",
+        "pc:papers-view-4.0=50.2"
       ]
     },
     "papers-doc": {
       "origin": "papers",
       "versions": {
-        "50.1-r0": 1776005039
+        "50.1-r0": 1776005039,
+        "50.2-r0": 1779985191
       }
     },
     "papers-lang": {
       "origin": "papers",
       "versions": {
-        "50.1-r0": 1776005039
+        "50.1-r0": 1776005039,
+        "50.2-r0": 1779985191
       }
     },
     "papers-libs": {
       "origin": "papers",
       "versions": {
-        "50.1-r0": 1776005039
+        "50.1-r0": 1776005039,
+        "50.2-r0": 1779985191
       },
       "dependencies": [
         "so:libadwaita-1.so.0",
@@ -150441,7 +150457,8 @@
     "papers-nautilus": {
       "origin": "papers",
       "versions": {
-        "50.1-r0": 1776005039
+        "50.1-r0": 1776005039,
+        "50.2-r0": 1779985191
       },
       "dependencies": [
         "adwaita-icon-theme",
@@ -151461,7 +151478,8 @@
     "pdns": {
       "origin": "pdns",
       "versions": {
-        "5.0.4-r0": 1776891950
+        "5.0.4-r0": 1776891950,
+        "5.0.5-r0": 1779982521
       },
       "dependencies": [
         "/bin/sh",
@@ -151476,16 +151494,17 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:dnspcap2calidns=5.0.4-r0",
-        "cmd:pdns_control=5.0.4-r0",
-        "cmd:pdns_server=5.0.4-r0",
-        "cmd:pdnsutil=5.0.4-r0"
+        "cmd:dnspcap2calidns=5.0.5-r0",
+        "cmd:pdns_control=5.0.5-r0",
+        "cmd:pdns_server=5.0.5-r0",
+        "cmd:pdnsutil=5.0.5-r0"
       ]
     },
     "pdns-backend-bind": {
       "origin": "pdns",
       "versions": {
-        "5.0.4-r0": 1776891950
+        "5.0.4-r0": 1776891950,
+        "5.0.5-r0": 1779982521
       },
       "dependencies": [
         "pdns",
@@ -151497,7 +151516,8 @@
     "pdns-backend-geoip": {
       "origin": "pdns",
       "versions": {
-        "5.0.4-r0": 1776891950
+        "5.0.4-r0": 1776891950,
+        "5.0.5-r0": 1779982521
       },
       "dependencies": [
         "pdns",
@@ -151513,7 +151533,8 @@
     "pdns-backend-ldap": {
       "origin": "pdns",
       "versions": {
-        "5.0.4-r0": 1776891950
+        "5.0.4-r0": 1776891950,
+        "5.0.5-r0": 1779982521
       },
       "dependencies": [
         "pdns",
@@ -151528,7 +151549,8 @@
     "pdns-backend-lmdb": {
       "origin": "pdns",
       "versions": {
-        "5.0.4-r0": 1776891950
+        "5.0.4-r0": 1776891950,
+        "5.0.5-r0": 1779982521
       },
       "dependencies": [
         "pdns",
@@ -151543,7 +151565,8 @@
     "pdns-backend-lua2": {
       "origin": "pdns",
       "versions": {
-        "5.0.4-r0": 1776891950
+        "5.0.4-r0": 1776891950,
+        "5.0.5-r0": 1779982521
       },
       "dependencies": [
         "pdns",
@@ -151558,7 +151581,8 @@
     "pdns-backend-mariadb": {
       "origin": "pdns",
       "versions": {
-        "5.0.4-r0": 1776891950
+        "5.0.4-r0": 1776891950,
+        "5.0.5-r0": 1779982521
       },
       "dependencies": [
         "pdns",
@@ -151568,7 +151592,8 @@
     "pdns-backend-mysql": {
       "origin": "pdns",
       "versions": {
-        "5.0.4-r0": 1776891950
+        "5.0.4-r0": 1776891950,
+        "5.0.5-r0": 1779982521
       },
       "dependencies": [
         "pdns",
@@ -151582,7 +151607,8 @@
     "pdns-backend-odbc": {
       "origin": "pdns",
       "versions": {
-        "5.0.4-r0": 1776891950
+        "5.0.4-r0": 1776891950,
+        "5.0.5-r0": 1779982521
       },
       "dependencies": [
         "pdns",
@@ -151596,7 +151622,8 @@
     "pdns-backend-pgsql": {
       "origin": "pdns",
       "versions": {
-        "5.0.4-r0": 1776891950
+        "5.0.4-r0": 1776891950,
+        "5.0.5-r0": 1779982521
       },
       "dependencies": [
         "pdns",
@@ -151611,7 +151638,8 @@
     "pdns-backend-pipe": {
       "origin": "pdns",
       "versions": {
-        "5.0.4-r0": 1776891950
+        "5.0.4-r0": 1776891950,
+        "5.0.5-r0": 1779982521
       },
       "dependencies": [
         "pdns",
@@ -151623,7 +151651,8 @@
     "pdns-backend-remote": {
       "origin": "pdns",
       "versions": {
-        "5.0.4-r0": 1776891950
+        "5.0.4-r0": 1776891950,
+        "5.0.5-r0": 1779982521
       },
       "dependencies": [
         "pdns",
@@ -151636,7 +151665,8 @@
     "pdns-backend-sqlite3": {
       "origin": "pdns",
       "versions": {
-        "5.0.4-r0": 1776891950
+        "5.0.4-r0": 1776891950,
+        "5.0.5-r0": 1779982521
       },
       "dependencies": [
         "pdns",
@@ -151649,13 +151679,15 @@
     "pdns-doc": {
       "origin": "pdns",
       "versions": {
-        "5.0.4-r0": 1776891950
+        "5.0.4-r0": 1776891950,
+        "5.0.5-r0": 1779982521
       }
     },
     "pdns-openrc": {
       "origin": "pdns",
       "versions": {
-        "5.0.4-r0": 1776891950
+        "5.0.4-r0": 1776891950,
+        "5.0.5-r0": 1779982521
       }
     },
     "pdns-recursor": {
@@ -151731,7 +151763,8 @@
     "pdns-tools": {
       "origin": "pdns",
       "versions": {
-        "5.0.4-r0": 1776891950
+        "5.0.4-r0": 1776891950,
+        "5.0.5-r0": 1779982521
       },
       "dependencies": [
         "so:libboost_program_options.so.1.84.0",
@@ -151743,26 +151776,26 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:calidns=5.0.4-r0",
-        "cmd:dnsbulktest=5.0.4-r0",
-        "cmd:dnsgram=5.0.4-r0",
-        "cmd:dnspcap2protobuf=5.0.4-r0",
-        "cmd:dnsreplay=5.0.4-r0",
-        "cmd:dnsscan=5.0.4-r0",
-        "cmd:dnsscope=5.0.4-r0",
-        "cmd:dnstcpbench=5.0.4-r0",
-        "cmd:dnswasher=5.0.4-r0",
-        "cmd:dumresp=5.0.4-r0",
-        "cmd:ixplore=5.0.4-r0",
-        "cmd:nproxy=5.0.4-r0",
-        "cmd:nsec3dig=5.0.4-r0",
-        "cmd:pdns_notify=5.0.4-r0",
-        "cmd:saxfr=5.0.4-r0",
-        "cmd:sdig=5.0.4-r0",
-        "cmd:stubquery=5.0.4-r0",
-        "cmd:zone2json=5.0.4-r0",
-        "cmd:zone2ldap=5.0.4-r0",
-        "cmd:zone2sql=5.0.4-r0"
+        "cmd:calidns=5.0.5-r0",
+        "cmd:dnsbulktest=5.0.5-r0",
+        "cmd:dnsgram=5.0.5-r0",
+        "cmd:dnspcap2protobuf=5.0.5-r0",
+        "cmd:dnsreplay=5.0.5-r0",
+        "cmd:dnsscan=5.0.5-r0",
+        "cmd:dnsscope=5.0.5-r0",
+        "cmd:dnstcpbench=5.0.5-r0",
+        "cmd:dnswasher=5.0.5-r0",
+        "cmd:dumresp=5.0.5-r0",
+        "cmd:ixplore=5.0.5-r0",
+        "cmd:nproxy=5.0.5-r0",
+        "cmd:nsec3dig=5.0.5-r0",
+        "cmd:pdns_notify=5.0.5-r0",
+        "cmd:saxfr=5.0.5-r0",
+        "cmd:sdig=5.0.5-r0",
+        "cmd:stubquery=5.0.5-r0",
+        "cmd:zone2json=5.0.5-r0",
+        "cmd:zone2ldap=5.0.5-r0",
+        "cmd:zone2sql=5.0.5-r0"
       ]
     },
     "pdpmake": {
@@ -202358,21 +202391,23 @@
     "py3-redis": {
       "origin": "py3-redis",
       "versions": {
-        "7.4.0-r1": 1774640365
+        "7.4.0-r1": 1774640365,
+        "8.0.0-r0": 1779985191
       },
       "dependencies": [
         "py3-hiredis",
         "python3~3.14"
       ],
       "provides": [
-        "py-redis=7.4.0-r1",
-        "py3.14:redis=7.4.0-r1"
+        "py-redis=8.0.0-r0",
+        "py3.14:redis=8.0.0-r0"
       ]
     },
     "py3-redis-pyc": {
       "origin": "py3-redis",
       "versions": {
-        "7.4.0-r1": 1774640365
+        "7.4.0-r1": 1774640365,
+        "8.0.0-r0": 1779985191
       },
       "dependencies": [
         "python3~3.14"
@@ -203627,13 +203662,14 @@
     "py3-ruff": {
       "origin": "ruff",
       "versions": {
-        "0.15.12-r0": 1777459771
+        "0.15.12-r0": 1777459771,
+        "0.15.14-r0": 1779974653
       },
       "dependencies": [
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:ruff=0.15.12-r0"
+        "py3.14:ruff=0.15.14-r0"
       ]
     },
     "py3-ruffus": {
@@ -222265,7 +222301,8 @@
     "ruff": {
       "origin": "ruff",
       "versions": {
-        "0.15.12-r0": 1777459771
+        "0.15.12-r0": 1777459771,
+        "0.15.14-r0": 1779974653
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -222273,25 +222310,28 @@
         "so:libjemalloc.so.2"
       ],
       "provides": [
-        "cmd:ruff=0.15.12-r0"
+        "cmd:ruff=0.15.14-r0"
       ]
     },
     "ruff-bash-completion": {
       "origin": "ruff",
       "versions": {
-        "0.15.12-r0": 1777459771
+        "0.15.12-r0": 1777459771,
+        "0.15.14-r0": 1779974653
       }
     },
     "ruff-fish-completion": {
       "origin": "ruff",
       "versions": {
-        "0.15.12-r0": 1777459771
+        "0.15.12-r0": 1777459771,
+        "0.15.14-r0": 1779974653
       }
     },
     "ruff-pyc": {
       "origin": "ruff",
       "versions": {
-        "0.15.12-r0": 1777459771
+        "0.15.12-r0": 1777459771,
+        "0.15.14-r0": 1779974653
       },
       "dependencies": [
         "python3~3.14"
@@ -222300,7 +222340,8 @@
     "ruff-zsh-completion": {
       "origin": "ruff",
       "versions": {
-        "0.15.12-r0": 1777459771
+        "0.15.12-r0": 1777459771,
+        "0.15.14-r0": 1779974653
       }
     },
     "runc": {
@@ -242828,7 +242869,8 @@
     "ubridge": {
       "origin": "ubridge",
       "versions": {
-        "0.9.19-r0": 1727767075
+        "0.9.19-r0": 1727767075,
+        "1.0.0-r0": 1779973838
       },
       "dependencies": [
         "/bin/sh",
@@ -242836,7 +242878,7 @@
         "so:libpcap.so.1"
       ],
       "provides": [
-        "cmd:ubridge=0.9.19-r0"
+        "cmd:ubridge=1.0.0-r0"
       ]
     },
     "uchardet": {
@@ -266448,7 +266490,7 @@
       },
       "libgtkhex-4.so.1": {
         "package": "ghex",
-        "version": "1.12.0"
+        "version": "1.12.1"
       },
       "libharbourowncloudcommon.so.1": {
         "package": "ghostcloud",
@@ -279750,7 +279792,7 @@
       },
       "dnsdist": {
         "package": "dnsdist-luajit",
-        "version": "2.0.4-r0"
+        "version": "2.0.6-r0"
       },
       "docker-compose": {
         "package": "docker-cli-compose",
@@ -282454,7 +282496,7 @@
       },
       "py-redis": {
         "package": "py3-redis",
-        "version": "7.4.0-r1"
+        "version": "8.0.0-r0"
       },
       "py-rencode": {
         "package": "py3-rencode",
