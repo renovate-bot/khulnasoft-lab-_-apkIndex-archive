@@ -284426,6 +284426,20 @@
         "python3~3.14",
         "so:libc.musl-s390x.so.1"
       ]
+    },
+    "raspberrypi-usbboot": {
+      "origin": "raspberrypi-usbboot",
+      "versions": {
+        "20250227-r0": 1779969293
+      },
+      "dependencies": [
+        "so:libc.musl-s390x.so.1",
+        "so:libusb-1.0.so.0"
+      ],
+      "provides": [
+        "cmd:bin2c=20250227-r0",
+        "cmd:rpiboot=20250227-r0"
+      ]
     }
   },
   "provide": {

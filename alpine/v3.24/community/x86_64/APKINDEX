@@ -86099,51 +86099,51 @@ m:Francesco Colista <fcolista@alpinelinux.org>
 t:1779956144
 c:bf95613e33ac477ed57ddacce6de99d703b28570
 
-C:Q1eGQNWL8hUsdMBwfTOEp5JlXMCmE=
+C:Q1Qtfa1T8wNbcuUiq/k8A5BDCe8/Q=
 P:gsad
-V:26.0.0-r0
+V:26.1.0-r0
 A:x86_64
-S:152650
+S:153104
 I:436962
 T:Greenbone Security Assistant HTTP Server - The server talking to the Greenbone Vulnerability Management (GVM) deamon
 U:https://www.openvas.org/
 L:AGPL-3.0-or-later
 o:gsad
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1779553477
-c:5b64491df9c459bac78196daa4867f8db248a56d
+t:1779972637
+c:71c8b593baadbbcb7cfa1a9b21b571a1cbc1c893
 D:gsa so:libbrotlienc.so.1 so:libc.musl-x86_64.so.1 so:libgcrypt.so.20 so:libglib-2.0.so.0 so:libgnutls.so.30 so:libgvm_base.so.23 so:libgvm_gmp.so.23 so:libgvm_util.so.23 so:libmicrohttpd.so.12 so:libxml2.so.2 so:libz.so.1
-p:cmd:gsad=26.0.0-r0
+p:cmd:gsad=26.1.0-r0
 
-C:Q1zehwgF14f4Z19HCY6c7HXTSB4PA=
+C:Q11cu8e89pw8r6Vke1Y1+D+4Wvbbg=
 P:gsad-doc
-V:26.0.0-r0
+V:26.1.0-r0
 A:x86_64
-S:3581
+S:3580
 I:1757
 T:Greenbone Security Assistant HTTP Server - The server talking to the Greenbone Vulnerability Management (GVM) deamon (documentation)
 U:https://www.openvas.org/
 L:AGPL-3.0-or-later
 o:gsad
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1779553477
-c:5b64491df9c459bac78196daa4867f8db248a56d
-i:docs gsad=26.0.0-r0
+t:1779972637
+c:71c8b593baadbbcb7cfa1a9b21b571a1cbc1c893
+i:docs gsad=26.1.0-r0
 
-C:Q1eTpC72PHRRKxzRrxgoRRdAKcmHA=
+C:Q1Neyyfyn85GxCbrD9RxRRSb+Mneg=
 P:gsad-openrc
-V:26.0.0-r0
+V:26.1.0-r0
 A:x86_64
-S:2021
+S:2017
 I:754
 T:Greenbone Security Assistant HTTP Server - The server talking to the Greenbone Vulnerability Management (GVM) deamon (OpenRC init scripts)
 U:https://www.openvas.org/
 L:AGPL-3.0-or-later
 o:gsad
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1779553477
-c:5b64491df9c459bac78196daa4867f8db248a56d
-i:openrc gsad=26.0.0-r0
+t:1779972637
+c:71c8b593baadbbcb7cfa1a9b21b571a1cbc1c893
+i:openrc gsad=26.1.0-r0
 
 C:Q1OIfTJpYVNbiqqleeaSNbMux2cKw=
 P:gsettings-desktop-schemas
@@ -287143,6 +287143,22 @@ m:Henrik Riomar <henrik.riomar@gmail.com>
 t:1763655413
 c:267e73b96aa28d1d9b5089970109bf63060a95cd
 i:rasdaemon=0.8.4-r0 zsh
+
+C:Q1P/wFnZZn52niciDnAudJHm+PHTo=
+P:raspberrypi-usbboot
+V:20250227-r0
+A:x86_64
+S:906877
+I:2083734
+T:rpiboot and bin2c from Raspberry Pi
+U:https://github.com/raspberrypi/usbboot
+L:Apache-2.0
+o:raspberrypi-usbboot
+m:Antoine Martin (ayakael) <dev@ayakael.net>
+t:1779969293
+c:24e2031861a1654132f312c2ec7c6f454138629d
+D:so:libc.musl-x86_64.so.1 so:libusb-1.0.so.0
+p:cmd:bin2c=20250227-r0 cmd:rpiboot=20250227-r0
 
 C:Q1xlWE0ogyX32VuGlmkgeYnErhNOE=
 P:rasqal
