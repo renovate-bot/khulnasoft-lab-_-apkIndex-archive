@@ -82223,7 +82223,8 @@
     "inspircd": {
       "origin": "inspircd",
       "versions": {
-        "4.9.0-r0": 1769791714
+        "4.9.0-r0": 1769791714,
+        "4.10.1-r0": 1779931235
       },
       "dependencies": [
         "/bin/sh",
@@ -82244,20 +82245,22 @@
         "so:libyyjson.so.0"
       ],
       "provides": [
-        "cmd:inspircd-testssl=4.9.0-r0",
-        "cmd:inspircd=4.9.0-r0"
+        "cmd:inspircd-testssl=4.10.1-r0",
+        "cmd:inspircd=4.10.1-r0"
       ]
     },
     "inspircd-doc": {
       "origin": "inspircd",
       "versions": {
-        "4.9.0-r0": 1769791714
+        "4.9.0-r0": 1769791714,
+        "4.10.1-r0": 1779931235
       }
     },
     "inspircd-openrc": {
       "origin": "inspircd",
       "versions": {
-        "4.9.0-r0": 1769791714
+        "4.9.0-r0": 1769791714,
+        "4.10.1-r0": 1779931235
       }
     },
     "install-makedepends": {
@@ -118731,7 +118734,8 @@
       "origin": "librist",
       "versions": {
         "0.2.13-r0": 1776796773,
-        "0.2.13-r1": 1779608349
+        "0.2.13-r1": 1779608349,
+        "0.2.15-r0": 1779932713
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -118739,29 +118743,31 @@
         "so:libmbedcrypto.so.16"
       ],
       "provides": [
-        "so:librist.so.4=4.6.1"
+        "so:librist.so.4=4.6.3"
       ]
     },
     "librist-dev": {
       "origin": "librist",
       "versions": {
         "0.2.13-r0": 1776796773,
-        "0.2.13-r1": 1779608349
+        "0.2.13-r1": 1779608349,
+        "0.2.15-r0": 1779932713
       },
       "dependencies": [
-        "librist=0.2.13-r1",
+        "librist=0.2.15-r0",
         "pc:libcjson",
         "pkgconfig"
       ],
       "provides": [
-        "pc:librist=0.2.13"
+        "pc:librist=0.2.15"
       ]
     },
     "librist-progs": {
       "origin": "librist",
       "versions": {
         "0.2.13-r0": 1776796773,
-        "0.2.13-r1": 1779608349
+        "0.2.13-r1": 1779608349,
+        "0.2.15-r0": 1779932713
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -118770,12 +118776,12 @@
         "so:librist.so.4"
       ],
       "provides": [
-        "cmd:rist2rist=0.2.13-r1",
-        "cmd:ristreceiver=0.2.13-r1",
-        "cmd:ristsender=0.2.13-r1",
-        "cmd:ristsrppasswd=0.2.13-r1",
-        "cmd:risttunnel=0.2.13-r1",
-        "cmd:udp2udp=0.2.13-r1"
+        "cmd:rist2rist=0.2.15-r0",
+        "cmd:ristreceiver=0.2.15-r0",
+        "cmd:ristsender=0.2.15-r0",
+        "cmd:ristsrppasswd=0.2.15-r0",
+        "cmd:risttunnel=0.2.15-r0",
+        "cmd:udp2udp=0.2.15-r0"
       ]
     },
     "librnp": {
@@ -168000,7 +168006,8 @@
     "onboard": {
       "origin": "onboard",
       "versions": {
-        "1.4.4.1-r0": 1776390852
+        "1.4.4.1-r0": 1776390852,
+        "1.4.4.2-r0": 1779934397
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -168030,28 +168037,31 @@
         "so:libxkbfile.so.1"
       ],
       "provides": [
-        "cmd:onboard-settings=1.4.4.1-r0",
-        "cmd:onboard=1.4.4.1-r0",
-        "py3.14:Onboard=1.4.4.1-r0",
-        "py3.14:settings_ui=1.4.4.1-r0"
+        "cmd:onboard-settings=1.4.4.2-r0",
+        "cmd:onboard=1.4.4.2-r0",
+        "py3.14:Onboard=1.4.4.2-r0",
+        "py3.14:settings_ui=1.4.4.2-r0"
       ]
     },
     "onboard-doc": {
       "origin": "onboard",
       "versions": {
-        "1.4.4.1-r0": 1776390852
+        "1.4.4.1-r0": 1776390852,
+        "1.4.4.2-r0": 1779934397
       }
     },
     "onboard-lang": {
       "origin": "onboard",
       "versions": {
-        "1.4.4.1-r0": 1776390852
+        "1.4.4.1-r0": 1776390852,
+        "1.4.4.2-r0": 1779934397
       }
     },
     "onboard-pyc": {
       "origin": "onboard",
       "versions": {
-        "1.4.4.1-r0": 1776390852
+        "1.4.4.1-r0": 1776390852,
+        "1.4.4.2-r0": 1779934397
       },
       "dependencies": [
         "python3~3.14"
@@ -268729,33 +268739,37 @@
     "tinydm": {
       "origin": "tinydm",
       "versions": {
-        "1.3.0-r0": 1764023931
+        "1.3.0-r0": 1764023931,
+        "1.3.1-r0": 1779931502
       },
       "dependencies": [
         "autologin"
       ],
       "provides": [
-        "cmd:tinydm-run-session=1.3.0-r0",
-        "cmd:tinydm-set-session=1.3.0-r0",
-        "cmd:tinydm-unset-session=1.3.0-r0"
+        "cmd:tinydm-run-session=1.3.1-r0",
+        "cmd:tinydm-set-session=1.3.1-r0",
+        "cmd:tinydm-unset-session=1.3.1-r0"
       ]
     },
     "tinydm-openrc": {
       "origin": "tinydm",
       "versions": {
-        "1.3.0-r0": 1764023931
+        "1.3.0-r0": 1764023931,
+        "1.3.1-r0": 1779931502
       }
     },
     "tinydm-systemd": {
       "origin": "tinydm",
       "versions": {
-        "1.3.0-r0": 1764023931
+        "1.3.0-r0": 1764023931,
+        "1.3.1-r0": 1779931502
       }
     },
     "tinydm-x11": {
       "origin": "tinydm",
       "versions": {
-        "1.3.0-r0": 1764023931
+        "1.3.0-r0": 1764023931,
+        "1.3.1-r0": 1779931502
       },
       "dependencies": [
         "xinit"
@@ -307060,7 +307074,7 @@
       },
       "librist.so.4": {
         "package": "librist",
-        "version": "4.6.1"
+        "version": "4.6.3"
       },
       "librnp.so.0": {
         "package": "librnp",
