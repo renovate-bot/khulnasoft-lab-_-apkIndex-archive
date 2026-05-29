@@ -15976,7 +15976,8 @@
     "b4": {
       "origin": "b4",
       "versions": {
-        "0.14.3-r1": 1774640416
+        "0.14.3-r1": 1774640416,
+        "0.15.1-r0": 1780044447
       },
       "dependencies": [
         "py3-requests",
@@ -15986,23 +15987,26 @@
         "py3-dnspython",
         "py3-patatt",
         "py3-dkimpy",
+        "py3-textual",
         "python3~3.14"
       ],
       "provides": [
-        "cmd:b4=0.14.3-r1",
-        "py3.14:b4=0.14.3-r1"
+        "cmd:b4=0.15.1-r0",
+        "py3.14:b4=0.15.1-r0"
       ]
     },
     "b4-doc": {
       "origin": "b4",
       "versions": {
-        "0.14.3-r1": 1774640416
+        "0.14.3-r1": 1774640416,
+        "0.15.1-r0": 1780044447
       }
     },
     "b4-pyc": {
       "origin": "b4",
       "versions": {
-        "0.14.3-r1": 1774640416
+        "0.14.3-r1": 1774640416,
+        "0.15.1-r0": 1780044447
       },
       "dependencies": [
         "python3~3.14"
@@ -19987,7 +19991,8 @@
     "bpftrace": {
       "origin": "bpftrace",
       "versions": {
-        "0.25.1-r0": 1774530358
+        "0.25.1-r0": 1774530358,
+        "0.26.0-r0": 1780045003
       },
       "dependencies": [
         "so:libLLVM.so.20.1",
@@ -20004,20 +20009,22 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:bpftrace-aotrt=0.25.1-r0",
-        "cmd:bpftrace=0.25.1-r0"
+        "cmd:bpftrace-aotrt=0.26.0-r0",
+        "cmd:bpftrace=0.26.0-r0"
       ]
     },
     "bpftrace-doc": {
       "origin": "bpftrace",
       "versions": {
-        "0.25.1-r0": 1774530358
+        "0.25.1-r0": 1774530358,
+        "0.26.0-r0": 1780045003
       }
     },
     "bpftrace-tools": {
       "origin": "bpftrace",
       "versions": {
-        "0.25.1-r0": 1774530358
+        "0.25.1-r0": 1774530358,
+        "0.26.0-r0": 1780045003
       },
       "dependencies": [
         "bpftrace"
@@ -20026,7 +20033,8 @@
     "bpftrace-tools-doc": {
       "origin": "bpftrace",
       "versions": {
-        "0.25.1-r0": 1774530358
+        "0.25.1-r0": 1774530358,
+        "0.26.0-r0": 1780045003
       }
     },
     "brasero": {
@@ -51160,19 +51168,22 @@
     "fbida": {
       "origin": "fbida",
       "versions": {
-        "2.14-r6": 1759754511
+        "2.14-r6": 1759754511,
+        "2.14-r7": 1780043171
       }
     },
     "fbida-doc": {
       "origin": "fbida",
       "versions": {
-        "2.14-r6": 1759754511
+        "2.14-r6": 1759754511,
+        "2.14-r7": 1780043171
       }
     },
     "fbida-exiftran": {
       "origin": "fbida",
       "versions": {
-        "2.14-r6": 1759754511
+        "2.14-r6": 1759754511,
+        "2.14-r7": 1780043171
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -51181,26 +51192,28 @@
         "so:libpixman-1.so.0"
       ],
       "provides": [
-        "cmd:exiftran=2.14-r6"
+        "cmd:exiftran=2.14-r7"
       ]
     },
     "fbida-fbgs": {
       "origin": "fbida",
       "versions": {
-        "2.14-r6": 1759754511
+        "2.14-r6": 1759754511,
+        "2.14-r7": 1780043171
       },
       "dependencies": [
         "fbida-fbi",
         "ghostscript"
       ],
       "provides": [
-        "cmd:fbgs=2.14-r6"
+        "cmd:fbgs=2.14-r7"
       ]
     },
     "fbida-fbi": {
       "origin": "fbida",
       "versions": {
-        "2.14-r6": 1759754511
+        "2.14-r6": 1759754511,
+        "2.14-r7": 1780043171
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -51216,18 +51229,19 @@
         "so:libwebp.so.7"
       ],
       "provides": [
-        "cmd:fbi=2.14-r6"
+        "cmd:fbi=2.14-r7"
       ]
     },
     "fbida-ida": {
       "origin": "fbida",
       "versions": {
-        "2.14-r6": 1759754511
+        "2.14-r6": 1759754511,
+        "2.14-r7": 1780043171
       },
       "dependencies": [
         "so:libX11.so.6",
         "so:libXext.so.6",
-        "so:libXm.so.4",
+        "so:libXm.so.5",
         "so:libXpm.so.4",
         "so:libXt.so.6",
         "so:libc.musl-aarch64.so.1",
@@ -51240,7 +51254,7 @@
         "so:libwebp.so.7"
       ],
       "provides": [
-        "cmd:ida=2.14-r6"
+        "cmd:ida=2.14-r7"
       ]
     },
     "fbvnc": {
@@ -65940,7 +65954,8 @@
     "gleam": {
       "origin": "gleam",
       "versions": {
-        "1.15.4-r0": 1776254107
+        "1.15.4-r0": 1776254107,
+        "1.16.0-r0": 1780041239
       },
       "dependencies": [
         "erlang-dev",
@@ -65948,7 +65963,7 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:gleam=1.15.4-r0"
+        "cmd:gleam=1.16.0-r0"
       ]
     },
     "glew": {
@@ -113031,7 +113046,8 @@
     "lbreakouthd": {
       "origin": "lbreakouthd",
       "versions": {
-        "1.1.11-r0": 1756311103
+        "1.1.11-r0": 1756311103,
+        "1.2.2-r0": 1780041555
       },
       "dependencies": [
         "lbreakouthd-data",
@@ -113045,19 +113061,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:lbreakouthd=1.1.11-r0"
+        "cmd:lbreakouthd=1.2.2-r0"
       ]
     },
     "lbreakouthd-data": {
       "origin": "lbreakouthd",
       "versions": {
-        "1.1.11-r0": 1756311103
+        "1.1.11-r0": 1756311103,
+        "1.2.2-r0": 1780041555
       }
     },
     "lbreakouthd-lang": {
       "origin": "lbreakouthd",
       "versions": {
-        "1.1.11-r0": 1756311103
+        "1.1.11-r0": 1756311103,
+        "1.2.2-r0": 1780041555
       }
     },
     "lcdproc": {
@@ -152857,42 +152875,58 @@
     "motif": {
       "origin": "motif",
       "versions": {
-        "2.3.8-r3": 1760052932
+        "2.3.8-r3": 1760052932,
+        "2.5.2-r0": 1780043171
       },
       "dependencies": [
+        "xbitmaps",
         "so:libX11.so.6",
+        "so:libXcursor.so.1",
         "so:libXext.so.6",
         "so:libXft.so.2",
+        "so:libXmu.so.6",
+        "so:libXpm.so.4",
+        "so:libXrandr.so.2",
+        "so:libXrender.so.1",
         "so:libXt.so.6",
         "so:libc.musl-aarch64.so.1",
-        "so:libfontconfig.so.1"
+        "so:libfontconfig.so.1",
+        "so:libpng16.so.16"
       ],
       "provides": [
-        "cmd:uil=2.3.8-r3",
-        "so:libMrm.so.4=4.0.4",
-        "so:libUil.so.4=4.0.4",
-        "so:libXm.so.4=4.0.4"
+        "cmd:uil=2.5.2-r0",
+        "so:libMrm.so.5=5.0.1",
+        "so:libUil.so.5=5.0.1",
+        "so:libXm.so.5=5.0.1"
       ]
     },
     "motif-dev": {
       "origin": "motif",
       "versions": {
-        "2.3.8-r3": 1760052932
+        "2.3.8-r3": 1760052932,
+        "2.5.2-r0": 1780043171
       },
       "dependencies": [
-        "libx11-dev",
-        "libxft-dev",
-        "libxt-dev",
-        "libxpm-dev",
-        "libxext-dev",
-        "xbitmaps",
-        "motif=2.3.8-r3"
+        "motif=2.5.2-r0",
+        "pc:x11",
+        "pc:xext",
+        "pc:xft",
+        "pc:xmu",
+        "pc:xpm",
+        "pc:xt",
+        "pkgconfig"
+      ],
+      "provides": [
+        "pc:Mrm=2.5.2",
+        "pc:Uil=2.5.2",
+        "pc:motif=2.5.2"
       ]
     },
     "motif-doc": {
       "origin": "motif",
       "versions": {
-        "2.3.8-r3": 1760052932
+        "2.3.8-r3": 1760052932,
+        "2.5.2-r0": 1780043171
       }
     },
     "mousepad": {
@@ -155211,18 +155245,20 @@
     "mwm": {
       "origin": "motif",
       "versions": {
-        "2.3.8-r3": 1760052932
+        "2.3.8-r3": 1760052932,
+        "2.5.2-r0": 1780043171
       },
       "dependencies": [
+        "xbitmaps",
         "so:libX11.so.6",
         "so:libXext.so.6",
-        "so:libXm.so.4",
+        "so:libXm.so.5",
         "so:libXt.so.6",
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "cmd:mwm=2.3.8-r3",
-        "cmd:xmbind=2.3.8-r3"
+        "cmd:mwm=2.5.2-r0",
+        "cmd:xmbind=2.5.2-r0"
       ]
     },
     "mxml": {
@@ -156292,23 +156328,25 @@
     "nedit": {
       "origin": "nedit",
       "versions": {
-        "5.7-r3": 1771160091
+        "5.7-r3": 1771160091,
+        "5.7-r4": 1780043171
       },
       "dependencies": [
         "so:libX11.so.6",
-        "so:libXm.so.4",
+        "so:libXm.so.5",
         "so:libXt.so.6",
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "cmd:nedit-nc=5.7-r3",
-        "cmd:nedit=5.7-r3"
+        "cmd:nedit-nc=5.7-r4",
+        "cmd:nedit=5.7-r4"
       ]
     },
     "nedit-doc": {
       "origin": "nedit",
       "versions": {
-        "5.7-r3": 1771160091
+        "5.7-r3": 1771160091,
+        "5.7-r4": 1780043171
       }
     },
     "neko": {
@@ -191266,7 +191304,8 @@
     "perl-app-cpm": {
       "origin": "perl-app-cpm",
       "versions": {
-        "0.998003-r1": 1771160091
+        "0.998003-r1": 1771160091,
+        "1.0.3-r0": 1780044141
       },
       "dependencies": [
         "perl",
@@ -191289,13 +191328,14 @@
         "perl-parse-localdistribution"
       ],
       "provides": [
-        "cmd:cpm=0.998003-r1"
+        "cmd:cpm=1.0.3-r0"
       ]
     },
     "perl-app-cpm-doc": {
       "origin": "perl-app-cpm",
       "versions": {
-        "0.998003-r1": 1771160091
+        "0.998003-r1": 1771160091,
+        "1.0.3-r0": 1780044141
       }
     },
     "perl-app-fatpacker": {
@@ -237217,7 +237257,8 @@
     "py3-openapi-schema-validator": {
       "origin": "py3-openapi-schema-validator",
       "versions": {
-        "0.8.1-r0": 1775387228
+        "0.8.1-r0": 1775387228,
+        "0.9.0-r0": 1780044086
       },
       "dependencies": [
         "py3-jsonschema",
@@ -237226,13 +237267,14 @@
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:openapi_schema_validator=0.8.1-r0"
+        "py3.14:openapi_schema_validator=0.9.0-r0"
       ]
     },
     "py3-openapi-schema-validator-pyc": {
       "origin": "py3-openapi-schema-validator",
       "versions": {
-        "0.8.1-r0": 1775387228
+        "0.8.1-r0": 1775387228,
+        "0.9.0-r0": 1780044086
       },
       "dependencies": [
         "python3~3.14"
@@ -237241,7 +237283,8 @@
     "py3-openapi-spec-validator": {
       "origin": "py3-openapi-spec-validator",
       "versions": {
-        "0.8.4-r0": 1775387428
+        "0.8.4-r0": 1775387428,
+        "0.8.5-r0": 1780044086
       },
       "dependencies": [
         "py3-jsonschema",
@@ -237252,14 +237295,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:openapi-spec-validator=0.8.4-r0",
-        "py3.14:openapi_spec_validator=0.8.4-r0"
+        "cmd:openapi-spec-validator=0.8.5-r0",
+        "py3.14:openapi_spec_validator=0.8.5-r0"
       ]
     },
     "py3-openapi-spec-validator-pyc": {
       "origin": "py3-openapi-spec-validator",
       "versions": {
-        "0.8.4-r0": 1775387428
+        "0.8.4-r0": 1775387428,
+        "0.8.5-r0": 1780044086
       },
       "dependencies": [
         "python3~3.14"
@@ -306151,11 +306195,12 @@
     "xastir": {
       "origin": "xastir",
       "versions": {
-        "2.2.4-r0": 1772573424
+        "2.2.4-r0": 1772573424,
+        "2.2.4-r1": 1780043171
       },
       "dependencies": [
         "so:libX11.so.6",
-        "so:libXm.so.4",
+        "so:libXm.so.5",
         "so:libXpm.so.4",
         "so:libXt.so.6",
         "so:libax25.so.1",
@@ -306165,16 +306210,17 @@
         "so:libshp.so.4"
       ],
       "provides": [
-        "cmd:callpass=2.2.4-r0",
-        "cmd:testdbfawk=2.2.4-r0",
-        "cmd:xastir=2.2.4-r0",
-        "cmd:xastir_udp_client=2.2.4-r0"
+        "cmd:callpass=2.2.4-r1",
+        "cmd:testdbfawk=2.2.4-r1",
+        "cmd:xastir=2.2.4-r1",
+        "cmd:xastir_udp_client=2.2.4-r1"
       ]
     },
     "xastir-doc": {
       "origin": "xastir",
       "versions": {
-        "2.2.4-r0": 1772573424
+        "2.2.4-r0": 1772573424,
+        "2.2.4-r1": 1780043171
       }
     },
     "xauth": {
@@ -315736,6 +315782,112 @@
         "cmd:bin2c=20250227-r0",
         "cmd:rpiboot=20250227-r0"
       ]
+    },
+    "py3-ioctl-opt": {
+      "origin": "py3-ioctl-opt",
+      "versions": {
+        "1.3-r1": 1780044929
+      },
+      "dependencies": [
+        "python3~3.14"
+      ],
+      "provides": [
+        "py3.14:ioctl_opt=1.3-r1"
+      ]
+    },
+    "py3-ioctl-opt-pyc": {
+      "origin": "py3-ioctl-opt",
+      "versions": {
+        "1.3-r1": 1780044929
+      },
+      "dependencies": [
+        "python3~3.14"
+      ]
+    },
+    "py3-libacl": {
+      "origin": "py3-libacl",
+      "versions": {
+        "0.7.3-r1": 1780044929
+      },
+      "dependencies": [
+        "python3~3.14",
+        "so:libacl.so.1",
+        "so:libc.musl-aarch64.so.1"
+      ],
+      "provides": [
+        "py-libacl=0.7.3-r1"
+      ]
+    },
+    "py3-vdf": {
+      "origin": "py3-vdf",
+      "versions": {
+        "3.4-r3": 1780044929
+      },
+      "dependencies": [
+        "python3~3.14"
+      ],
+      "provides": [
+        "py3.14:vdf=3.4-r3"
+      ]
+    },
+    "py3-vdf-pyc": {
+      "origin": "py3-vdf",
+      "versions": {
+        "3.4-r3": 1780044929
+      },
+      "dependencies": [
+        "python3~3.14"
+      ]
+    },
+    "sc-controller": {
+      "origin": "sc-controller",
+      "versions": {
+        "0.5.5-r1": 1780044929
+      },
+      "dependencies": [
+        "gtk+3.0",
+        "gtk-layer-shell",
+        "libayatana-appindicator",
+        "librsvg",
+        "py3-cairo",
+        "py3-evdev",
+        "py3-gobject3",
+        "py3-ioctl-opt",
+        "py3-libacl",
+        "py3-libusb1",
+        "py3-vdf",
+        "python3~3.14",
+        "so:libc.musl-aarch64.so.1",
+        "so:libz.so.1"
+      ],
+      "provides": [
+        "cmd:sc-controller=0.5.5-r1",
+        "cmd:scc-daemon=0.5.5-r1",
+        "cmd:scc-osd-dialog=0.5.5-r1",
+        "cmd:scc-osd-keyboard=0.5.5-r1",
+        "cmd:scc-osd-launcher=0.5.5-r1",
+        "cmd:scc-osd-menu=0.5.5-r1",
+        "cmd:scc-osd-message=0.5.5-r1",
+        "cmd:scc-osd-radial-menu=0.5.5-r1",
+        "cmd:scc-osd-show-bindings=0.5.5-r1",
+        "cmd:scc=0.5.5-r1",
+        "py3.14:scc=0.5.5-r1"
+      ]
+    },
+    "sc-controller-pyc": {
+      "origin": "sc-controller",
+      "versions": {
+        "0.5.5-r1": 1780044929
+      },
+      "dependencies": [
+        "python3~3.14"
+      ]
+    },
+    "sc-controller-udev": {
+      "origin": "sc-controller",
+      "versions": {
+        "0.5.5-r1": 1780044929
+      }
     }
   },
   "provide": {
@@ -341203,6 +341355,18 @@
       "libkigal.so.10.0.3": {
         "package": "kicad",
         "version": "10.0.3"
+      },
+      "libMrm.so.5": {
+        "package": "motif",
+        "version": "5.0.1"
+      },
+      "libUil.so.5": {
+        "package": "motif",
+        "version": "5.0.1"
+      },
+      "libXm.so.5": {
+        "package": "motif",
+        "version": "5.0.1"
       }
     },
     "package": {
@@ -345065,6 +345229,10 @@
       "ipfixprobe-dpdk": {
         "package": "ipfixprobe-input-dpdk",
         "version": "5.6.0-r0"
+      },
+      "py-libacl": {
+        "package": "py3-libacl",
+        "version": "0.7.3-r1"
       }
     }
   }
