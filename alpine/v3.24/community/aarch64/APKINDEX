@@ -59936,36 +59936,36 @@ t:1776105473
 c:24fe36d3da0a2e3a25d94a050056208236c77981
 i:flatpak=1.16.6-r2 bash-completion
 
-C:Q1uR3mM7ZEhHbbKMUHjY2iyudD2g0=
+C:Q1RMsrjq1F9BpDRogn6DC2qxdlh38=
 P:flatpak-builder
-V:1.4.7-r1
+V:1.4.9-r0
 A:aarch64
-S:163584
-I:403877
+S:167634
+I:403933
 T:Tool to build flatpaks from source
 U:https://flatpak.org
 L:LGPL-2.1-or-later
 o:flatpak-builder
 m:André Klitzing <aklitzing@gmail.com>
-t:1770824164
-c:8a1888d386a7f24ae881827223ce862b830285e3
+t:1780012630
+c:15c88764978ee1d1b66e558c0123a333976400b8
 D:appstream-compose elfutils flatpak git libarchive-tools patch /bin/sh so:libc.musl-aarch64.so.1 so:libcurl.so.4 so:libdw.so.1 so:libelf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libostree-1.so.1 so:libxml2.so.2 so:libyaml-0.so.2
-p:cmd:flatpak-builder=1.4.7-r1
+p:cmd:flatpak-builder=1.4.9-r0
 
-C:Q1tJQl7tcuLisfKKQco3VocFX7ZAQ=
+C:Q1FbMqNBJdm7kG2oiirNXKPmz4M2Q=
 P:flatpak-builder-doc
-V:1.4.7-r1
+V:1.4.9-r0
 A:aarch64
-S:35687
-I:97925
+S:35741
+I:98051
 T:Tool to build flatpaks from source (documentation)
 U:https://flatpak.org
 L:LGPL-2.1-or-later
 o:flatpak-builder
 m:André Klitzing <aklitzing@gmail.com>
-t:1770824164
-c:8a1888d386a7f24ae881827223ce862b830285e3
-i:docs flatpak-builder=1.4.7-r1
+t:1780012630
+c:15c88764978ee1d1b66e558c0123a333976400b8
+i:docs flatpak-builder=1.4.9-r0
 
 C:Q16kx9w4LIRNNqu5CVdz/m+lXpCtQ=
 P:flatpak-dbg
@@ -86088,98 +86088,98 @@ c:8dadf3ab6d3e5e6a6ed713a49636d480f3947ea0
 D:gst-devtools=1.28.1-r1 pc:gio-2.0>=2.64.0 pc:gmodule-no-export-2.0 pc:gstreamer-1.0>=1.28.0 pc:gstreamer-app-1.0>=1.28.0 pc:gstreamer-base-1.0>=1.28.0 pc:gstreamer-check-1.0>=1.28.0 pc:gstreamer-controller-1.0>=1.28.0 pc:gstreamer-pbutils-1.0>=1.28.0 pc:gstreamer-video-1.0>=1.28.0 pc:json-glib-1.0 pkgconfig
 p:pc:gstreamer-validate-1.0=1.28.1
 
-C:Q1gwqKHY5SSsdF/k3y6ryE21bsT7Y=
+C:Q10AYWUUiuoq4AtK7Ty29yMO2b7fs=
 P:gst-editing-services
-V:1.28.1-r1
+V:1.28.3-r0
 A:aarch64
-S:494465
+S:495014
 I:1365267
 T:GStreamer Editing Services Library
 U:https://gstreamer.freedesktop.org
 L:LGPL-2.0-or-later
 o:gst-editing-services
 m:team/alpine-desktop <achill@achill.org>
-t:1774866507
-c:36c63ee04cc5db25eb17761542b31cf6c0f4b8fc
+t:1780013391
+c:6aa1c224a8ec5f4293f9880ffa06cc856d4ed09f
 D:python3~3.14 so:libc.musl-aarch64.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstcontroller-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libxml2.so.2
-p:cmd:ges-launch-1.0=1.28.1-r1 so:libges-1.0.so.0=0.2801.0
+p:cmd:ges-launch-1.0=1.28.3-r0 so:libges-1.0.so.0=0.2803.0
 
-C:Q1SUio6V3hucxLgcis1HHkYDUC22E=
+C:Q1bXUDG6teY4hv8wcd7TzPYszn1ZU=
 P:gst-editing-services-dev
-V:1.28.1-r1
+V:1.28.3-r0
 A:aarch64
-S:165593
+S:165605
 I:1333711
 T:GStreamer Editing Services Library (development files)
 U:https://gstreamer.freedesktop.org
 L:LGPL-2.0-or-later
 o:gst-editing-services
 m:team/alpine-desktop <achill@achill.org>
-t:1774866507
-c:36c63ee04cc5db25eb17761542b31cf6c0f4b8fc
-D:gst-editing-services=1.28.1-r1 pc:gio-2.0>=2.64.0 pc:gstreamer-1.0>=1.28.0 pc:gstreamer-base-1.0>=1.28.0 pc:gstreamer-controller-1.0>=1.28.0 pc:gstreamer-pbutils-1.0>=1.28.0 pc:gstreamer-video-1.0>=1.28.0 pc:libxml-2.0 pkgconfig
-p:pc:gst-editing-services-1.0=1.28.1
+t:1780013391
+c:6aa1c224a8ec5f4293f9880ffa06cc856d4ed09f
+D:gst-editing-services=1.28.3-r0 pc:gio-2.0>=2.64.0 pc:gstreamer-1.0>=1.28.0 pc:gstreamer-base-1.0>=1.28.0 pc:gstreamer-controller-1.0>=1.28.0 pc:gstreamer-pbutils-1.0>=1.28.0 pc:gstreamer-video-1.0>=1.28.0 pc:libxml-2.0 pkgconfig
+p:pc:gst-editing-services-1.0=1.28.3
 
-C:Q1VIqjQjy/YpblXrkFfxeoWOBIOWU=
+C:Q1GGoycICmDlmgNJWYWdTqh8xe0xk=
 P:gst-editing-services-doc
-V:1.28.1-r1
+V:1.28.3-r0
 A:aarch64
-S:2337
+S:2339
 I:630
 T:GStreamer Editing Services Library (documentation)
 U:https://gstreamer.freedesktop.org
 L:LGPL-2.0-or-later
 o:gst-editing-services
 m:team/alpine-desktop <achill@achill.org>
-t:1774866507
-c:36c63ee04cc5db25eb17761542b31cf6c0f4b8fc
-i:docs gst-editing-services=1.28.1-r1
+t:1780013391
+c:6aa1c224a8ec5f4293f9880ffa06cc856d4ed09f
+i:docs gst-editing-services=1.28.3-r0
 
-C:Q1uZW8Xom+I3kjnNV6gZao6CzNd8M=
+C:Q1Puzc82uJHdg8vuOlPlhao9p92yI=
 P:gst-editing-services-pyc
-V:1.28.1-r1
+V:1.28.3-r0
 A:aarch64
-S:3819
+S:3821
 I:3809
 T:Precompiled Python bytecode for gst-editing-services
 U:https://gstreamer.freedesktop.org
 L:LGPL-2.0-or-later
 o:gst-editing-services
 m:team/alpine-desktop <achill@achill.org>
-t:1774866507
-c:36c63ee04cc5db25eb17761542b31cf6c0f4b8fc
+t:1780013391
+c:6aa1c224a8ec5f4293f9880ffa06cc856d4ed09f
 D:python3~3.14
-i:gst-editing-services=1.28.1-r1 pyc
+i:gst-editing-services=1.28.3-r0 pyc
 
-C:Q1WBWTnMixpg/pN/gDJqzxwgK6cQA=
+C:Q1mdfEI0FlQP4Gv88U9MwGjdo0kbM=
 P:gst-libav
-V:1.28.1-r0
+V:1.28.3-r0
 A:aarch64
-S:106431
+S:106834
 I:264880
 T:GStreamer streaming media framework libav plugin
 U:https://gstreamer.freedesktop.org
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-libav
 m:team/alpine-desktop <achill@achill.org>
-t:1772106951
-c:aaf37588e480f5101eb66b1de82df2f571e37fde
+t:1780013391
+c:40338013a27bd86cc474626e4071a43395d0031a
 D:so:libavcodec.so.62 so:libavfilter.so.11 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-aarch64.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0
 
-C:Q1lDZmxZbr0pbveNs5+mKZ+0bB8RM=
+C:Q1vcNFQtHS51B+1cviCvXFDtL0pV8=
 P:gst-libav-dbg
-V:1.28.1-r0
+V:1.28.3-r0
 A:aarch64
-S:441982
-I:988064
+S:442964
+I:990024
 T:GStreamer streaming media framework libav plugin (debug symbols)
 U:https://gstreamer.freedesktop.org
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-libav
 m:team/alpine-desktop <achill@achill.org>
-t:1772106951
-c:aaf37588e480f5101eb66b1de82df2f571e37fde
-D:!gst-libav<1.28.1-r0 !gst-libav>1.28.1-r0
+t:1780013391
+c:40338013a27bd86cc474626e4071a43395d0031a
+D:!gst-libav<1.28.3-r0 !gst-libav>1.28.3-r0
 
 C:Q1eyzn53lLLIcO4IRRWx22QW68tGo=
 P:gst-plugin-pipewire
@@ -86197,102 +86197,102 @@ c:1d5e42f8b003105f2289b356009b2ae062b5d245
 D:pipewire-session-manager gst-plugins-base so:libc.musl-aarch64.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstallocators-1.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libpipewire-0.3.so.0
 i:pipewire=1.6.6-r0 gstreamer
 
-C:Q10AT+FHBZUFO394u9BmPXHLjqwH0=
+C:Q1DaUvnQk93WFrVymftZcIh0sFk7I=
 P:gst-plugins-bad
-V:1.28.1-r0
+V:1.28.3-r0
 A:aarch64
-S:5024025
-I:17838357
+S:5030654
+I:17838565
 T:GStreamer streaming media framework bad plug-ins
 U:https://gstreamer.freedesktop.org/
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-plugins-bad
 m:team/alpine-desktop <achill@achill.org>
-t:1773007760
-c:e923bcf62eec9b483e37d47af142e976ad0d6ddd
+t:1780013391
+c:3a9f73115455709c59f4d4895c3562fecbb78c59
 D:so:libIex-3_4.so.33 so:libImath-3_2.so.30 so:libOpenEXR-3_4.so.33 so:libSoundTouch.so.2 so:libSvtAv1Enc.so.4 so:libX11.so.6 so:libaom.so.3 so:libass.so.9 so:libbz2.so.1 so:libc.musl-aarch64.so.1 so:libcairo.so.2 so:libcrypto.so.3 so:libcurl.so.4 so:libdc1394.so.26 so:libde265.so.0 so:libdirectfb-1.7.so.7 so:libdrm.so.2 so:libdvdnav.so.4 so:libdvdread.so.8 so:libfaac.so.0 so:libfaad.so.2 so:libfdk-aac.so.2 so:libflite.so.1 so:libflite_cmu_us_kal.so.1 so:libfreeaptx.so.0 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgsm.so.1 so:libgstallocators-1.0.so.0 so:libgstapp-1.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstfft-1.0.so.0 so:libgstgl-1.0.so.0 so:libgstnet-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstrtp-1.0.so.0 so:libgstsdp-1.0.so.0 so:libgsttag-1.0.so.0 so:libgstvideo-1.0.so.0 so:libgtk-3.so.0 so:libgudev-1.0.so.0 so:libintl.so.8 so:liblcms2.so.2 so:libldacBT_enc.so.2 so:libmodplug.so.1 so:libneon.so.27 so:libnettle.so.8 so:libopenal.so.1 so:libopenh264.so.8 so:libopenjp2.so.7 so:libopus.so.0 so:liborc-0.4.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:librsvg-2.so.2 so:librtmp.so.1 so:libsbc.so.1 so:libsndfile.so.1 so:libspandsp.so.2 so:libsrt.so.1.5 so:libsrtp2.so.1 so:libssl.so.3 so:libstdc++.so.6 so:libusb-1.0.so.0 so:libva-drm.so.2 so:libva.so.2 so:libvo-aacenc.so.0 so:libvo-amrwbenc.so.0 so:libvulkan.so.1 so:libwayland-client.so.0 so:libwebp.so.7 so:libwebpmux.so.3 so:libx265.so.215 so:libxcb.so.1 so:libxkbcommon-x11.so.0 so:libxkbcommon.so.0 so:libxml2.so.2 so:libzbar.so.0
-p:cmd:gst-transcoder-1.0=1.28.1-r0 cmd:playout=1.28.1-r0 so:libgstaccurip.so=0 so:libgstadaptivedemux-1.0.so.0=0.2801.0 so:libgstadpcmdec.so=0 so:libgstadpcmenc.so=0 so:libgstaes.so=0 so:libgstaiff.so=0 so:libgstanalytics-1.0.so.0=0.2801.0 so:libgstanalyticsoverlay.so=0 so:libgstaom.so=0 so:libgstasfmux.so=0 so:libgstassrender.so=0 so:libgstaudiobuffersplit.so=0 so:libgstaudiofxbad.so=0 so:libgstaudiolatency.so=0 so:libgstaudiomixmatrix.so=0 so:libgstaudiovisualizers.so=0 so:libgstautoconvert.so=0 so:libgstbadaudio-1.0.so.0=0.2801.0 so:libgstbasecamerabinsrc-1.0.so.0=0.2801.0 so:libgstbayer.so=0 so:libgstbluez.so=0 so:libgstbz2.so=0 so:libgstcamerabin.so=0 so:libgstclosedcaption.so=0 so:libgstcodecalpha.so=0 so:libgstcodecparsers-1.0.so.0=0.2801.0 so:libgstcodecs-1.0.so.0=0.2801.0 so:libgstcodectimestamper.so=0 so:libgstcoloreffects.so=0 so:libgstcolormanagement.so=0 so:libgstcuda-1.0.so.0=0.2801.0 so:libgstcurl.so=0 so:libgstdash.so=0 so:libgstdc1394.so=0 so:libgstde265.so=0 so:libgstdebugutilsbad.so=0 so:libgstdecklink.so=0 so:libgstdirectfb.so=0 so:libgstdtls.so=0 so:libgstdvb.so=0 so:libgstdvbsubenc.so=0 so:libgstdvbsuboverlay.so=0 so:libgstdvdspu.so=0 so:libgstdxva-1.0.so.0=0.2801.0 so:libgstfaac.so=0 so:libgstfaad.so=0 so:libgstfaceoverlay.so=0 so:libgstfbdevsink.so=0 so:libgstfdkaac.so=0 so:libgstfestival.so=0 so:libgstfieldanalysis.so=0 so:libgstflite.so=0 so:libgstfreeverb.so=0 so:libgstfrei0r.so=0 so:libgstgaudieffects.so=0 so:libgstgdp.so=0 so:libgstgeometrictransform.so=0 so:libgstgsm.so=0 so:libgstgtkwayland.so=0 so:libgsthip.so.0=0.2801.0 so:libgsthip.so=0 so:libgsthls.so=0 so:libgstid3tag.so=0 so:libgstinsertbin-1.0.so.0=0.2801.0 so:libgstinsertbin.so=0 so:libgstinter.so=0 so:libgstinterlace.so=0 so:libgstipcpipeline.so=0 so:libgstisoff-1.0.so.0=0.2801.0 so:libgstivfparse.so=0 so:libgstivtc.so=0 so:libgstjp2kdecimator.so=0 so:libgstjpegformat.so=0 so:libgstkms.so=0 so:libgstldac.so=0 so:libgstlegacyrawparse.so=0 so:libgstmidi.so=0 so:libgstmodplug.so=0 so:libgstmpegpsdemux.so=0 so:libgstmpegpsmux.so=0 so:libgstmpegts-1.0.so.0=0.2801.0 so:libgstmpegtsdemux.so=0 so:libgstmpegtsmux.so=0 so:libgstmse-1.0.so.0=0.2801.0 so:libgstmse.so=0 so:libgstmxf.so=0 so:libgstneonhttpsrc.so=0 so:libgstnetsim.so=0 so:libgstnvcodec.so=0 so:libgstopenal.so=0 so:libgstopenaptx.so=0 so:libgstopenexr.so=0 so:libgstopenh264.so=0 so:libgstopenjpeg.so=0 so:libgstopusparse.so=0 so:libgstpcapparse.so=0 so:libgstphotography-1.0.so.0=0.2801.0 so:libgstplay-1.0.so.0=0.2801.0 so:libgstplayer-1.0.so.0=0.2801.0 so:libgstpnm.so=0 so:libgstproxy.so=0 so:libgstqsv.so=0 so:libgstremovesilence.so=0 so:libgstresindvd.so=0 so:libgstrfbsrc.so=0 so:libgstrist.so=0 so:libgstrsvg.so=0 so:libgstrtmp.so=0 so:libgstrtmp2.so=0 so:libgstrtpmanagerbad.so=0 so:libgstrtponvif.so=0 so:libgstsbc.so=0 so:libgstsctp-1.0.so.0=0.2801.0 so:libgstsctp.so=0 so:libgstsdpelem.so=0 so:libgstsegmentclip.so=0 so:libgstshm.so=0 so:libgstsiren.so=0 so:libgstsmooth.so=0 so:libgstsmoothstreaming.so=0 so:libgstsndfile.so=0 so:libgstsoundtouch.so=0 so:libgstspandsp.so=0 so:libgstspeed.so=0 so:libgstsrt.so=0 so:libgstsrtp.so=0 so:libgstsubenc.so=0 so:libgstsvtav1.so=0 so:libgstswitchbin.so=0 so:libgsttensordecoders.so=0 so:libgsttimecode.so=0 so:libgsttranscode.so=0 so:libgsttranscoder-1.0.so.0=0 so:libgstttmlsubs.so=0 so:libgstunixfd.so=0 so:libgsturidownloader-1.0.so.0=0.2801.0 so:libgstuvcgadget.so=0 so:libgstuvch264.so=0 so:libgstv4l2codecs.so=0 so:libgstva-1.0.so.0=0.2801.0 so:libgstva.so=0 so:libgstvideofiltersbad.so=0 so:libgstvideoframe_audiolevel.so=0 so:libgstvideoparsersbad.so=0 so:libgstvideosignal.so=0 so:libgstvmnc.so=0 so:libgstvoaacenc.so=0 so:libgstvoamrwbenc.so=0 so:libgstvulkan-1.0.so.0=0.2801.0 so:libgstwayland-1.0.so.0=0.2801.0 so:libgstwaylandsink.so=0 so:libgstwebp.so=0 so:libgstwebrtc-1.0.so.0=0.2801.0 so:libgstx265.so=0 so:libgstzbar.so=0
+p:cmd:gst-transcoder-1.0=1.28.3-r0 cmd:playout=1.28.3-r0 so:libgstaccurip.so=0 so:libgstadaptivedemux-1.0.so.0=0.2803.0 so:libgstadpcmdec.so=0 so:libgstadpcmenc.so=0 so:libgstaes.so=0 so:libgstaiff.so=0 so:libgstanalytics-1.0.so.0=0.2803.0 so:libgstanalyticsoverlay.so=0 so:libgstaom.so=0 so:libgstasfmux.so=0 so:libgstassrender.so=0 so:libgstaudiobuffersplit.so=0 so:libgstaudiofxbad.so=0 so:libgstaudiolatency.so=0 so:libgstaudiomixmatrix.so=0 so:libgstaudiovisualizers.so=0 so:libgstautoconvert.so=0 so:libgstbadaudio-1.0.so.0=0.2803.0 so:libgstbasecamerabinsrc-1.0.so.0=0.2803.0 so:libgstbayer.so=0 so:libgstbluez.so=0 so:libgstbz2.so=0 so:libgstcamerabin.so=0 so:libgstclosedcaption.so=0 so:libgstcodecalpha.so=0 so:libgstcodecparsers-1.0.so.0=0.2803.0 so:libgstcodecs-1.0.so.0=0.2803.0 so:libgstcodectimestamper.so=0 so:libgstcoloreffects.so=0 so:libgstcolormanagement.so=0 so:libgstcuda-1.0.so.0=0.2803.0 so:libgstcurl.so=0 so:libgstdash.so=0 so:libgstdc1394.so=0 so:libgstde265.so=0 so:libgstdebugutilsbad.so=0 so:libgstdecklink.so=0 so:libgstdirectfb.so=0 so:libgstdtls.so=0 so:libgstdvb.so=0 so:libgstdvbsubenc.so=0 so:libgstdvbsuboverlay.so=0 so:libgstdvdspu.so=0 so:libgstdxva-1.0.so.0=0.2803.0 so:libgstfaac.so=0 so:libgstfaad.so=0 so:libgstfaceoverlay.so=0 so:libgstfbdevsink.so=0 so:libgstfdkaac.so=0 so:libgstfestival.so=0 so:libgstfieldanalysis.so=0 so:libgstflite.so=0 so:libgstfreeverb.so=0 so:libgstfrei0r.so=0 so:libgstgaudieffects.so=0 so:libgstgdp.so=0 so:libgstgeometrictransform.so=0 so:libgstgsm.so=0 so:libgstgtkwayland.so=0 so:libgsthip.so.0=0.2803.0 so:libgsthip.so=0 so:libgsthls.so=0 so:libgstid3tag.so=0 so:libgstinsertbin-1.0.so.0=0.2803.0 so:libgstinsertbin.so=0 so:libgstinter.so=0 so:libgstinterlace.so=0 so:libgstipcpipeline.so=0 so:libgstisoff-1.0.so.0=0.2803.0 so:libgstivfparse.so=0 so:libgstivtc.so=0 so:libgstjp2kdecimator.so=0 so:libgstjpegformat.so=0 so:libgstkms.so=0 so:libgstldac.so=0 so:libgstlegacyrawparse.so=0 so:libgstmidi.so=0 so:libgstmodplug.so=0 so:libgstmpegpsdemux.so=0 so:libgstmpegpsmux.so=0 so:libgstmpegts-1.0.so.0=0.2803.0 so:libgstmpegtsdemux.so=0 so:libgstmpegtsmux.so=0 so:libgstmse-1.0.so.0=0.2803.0 so:libgstmse.so=0 so:libgstmxf.so=0 so:libgstneonhttpsrc.so=0 so:libgstnetsim.so=0 so:libgstnvcodec.so=0 so:libgstopenal.so=0 so:libgstopenaptx.so=0 so:libgstopenexr.so=0 so:libgstopenh264.so=0 so:libgstopenjpeg.so=0 so:libgstopusparse.so=0 so:libgstpcapparse.so=0 so:libgstphotography-1.0.so.0=0.2803.0 so:libgstplay-1.0.so.0=0.2803.0 so:libgstplayer-1.0.so.0=0.2803.0 so:libgstpnm.so=0 so:libgstproxy.so=0 so:libgstqsv.so=0 so:libgstremovesilence.so=0 so:libgstresindvd.so=0 so:libgstrfbsrc.so=0 so:libgstrist.so=0 so:libgstrsvg.so=0 so:libgstrtmp.so=0 so:libgstrtmp2.so=0 so:libgstrtpmanagerbad.so=0 so:libgstrtponvif.so=0 so:libgstsbc.so=0 so:libgstsctp-1.0.so.0=0.2803.0 so:libgstsctp.so=0 so:libgstsdpelem.so=0 so:libgstsegmentclip.so=0 so:libgstshm.so=0 so:libgstsiren.so=0 so:libgstsmooth.so=0 so:libgstsmoothstreaming.so=0 so:libgstsndfile.so=0 so:libgstsoundtouch.so=0 so:libgstspandsp.so=0 so:libgstspeed.so=0 so:libgstsrt.so=0 so:libgstsrtp.so=0 so:libgstsubenc.so=0 so:libgstsvtav1.so=0 so:libgstswitchbin.so=0 so:libgsttensordecoders.so=0 so:libgsttimecode.so=0 so:libgsttranscode.so=0 so:libgsttranscoder-1.0.so.0=0 so:libgstttmlsubs.so=0 so:libgstunixfd.so=0 so:libgsturidownloader-1.0.so.0=0.2803.0 so:libgstuvcgadget.so=0 so:libgstuvch264.so=0 so:libgstv4l2codecs.so=0 so:libgstva-1.0.so.0=0.2803.0 so:libgstva.so=0 so:libgstvideofiltersbad.so=0 so:libgstvideoframe_audiolevel.so=0 so:libgstvideoparsersbad.so=0 so:libgstvideosignal.so=0 so:libgstvmnc.so=0 so:libgstvoaacenc.so=0 so:libgstvoamrwbenc.so=0 so:libgstvulkan-1.0.so.0=0.2803.0 so:libgstwayland-1.0.so.0=0.2803.0 so:libgstwaylandsink.so=0 so:libgstwebp.so=0 so:libgstwebrtc-1.0.so.0=0.2803.0 so:libgstx265.so=0 so:libgstzbar.so=0
 
-C:Q1RAw/DWMJnhZrZXffiQmzHvMrBU0=
+C:Q14V2ntB8oCOz69L7NiPTLobcrp3Y=
 P:gst-plugins-bad-dbg
-V:1.28.1-r0
+V:1.28.3-r0
 A:aarch64
-S:21597153
-I:52813408
+S:21604051
+I:52822120
 T:GStreamer streaming media framework bad plug-ins (debug symbols)
 U:https://gstreamer.freedesktop.org/
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-plugins-bad
 m:team/alpine-desktop <achill@achill.org>
-t:1773007760
-c:e923bcf62eec9b483e37d47af142e976ad0d6ddd
-D:!gst-plugins-bad<1.28.1-r0 !gst-plugins-bad>1.28.1-r0
+t:1780013391
+c:3a9f73115455709c59f4d4895c3562fecbb78c59
+D:!gst-plugins-bad<1.28.3-r0 !gst-plugins-bad>1.28.3-r0
 
-C:Q1GgK5ux4w4lcCOdQJZK7w+DKaRZU=
+C:Q1KAgeKUPHm0hy5oXOKy3BJju0T4c=
 P:gst-plugins-bad-dev
-V:1.28.1-r0
+V:1.28.3-r0
 A:aarch64
-S:633647
-I:5682079
+S:633942
+I:5683812
 T:GStreamer streaming media framework bad plug-ins (development files)
 U:https://gstreamer.freedesktop.org/
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-plugins-bad
 m:team/alpine-desktop <achill@achill.org>
-t:1773007760
-c:e923bcf62eec9b483e37d47af142e976ad0d6ddd
-D:gst-plugins-bad=1.28.1-r0 pc:gmodule-no-export-2.0 pc:gstreamer-1.0>=1.28.0 pc:gstreamer-allocators-1.0>=1.28.0 pc:gstreamer-app-1.0>=1.28.0 pc:gstreamer-audio-1.0>=1.28.0 pc:gstreamer-base-1.0>=1.28.0 pc:gstreamer-gl-1.0>=1.28.0 pc:gstreamer-gl-prototypes-1.0>=1.28.0 pc:gstreamer-pbutils-1.0>=1.28.0 pc:gstreamer-sdp-1.0>=1.28.0 pc:gstreamer-tag-1.0>=1.28.0 pc:gstreamer-video-1.0>=1.28.0 pc:libdrm>=2.4.50 pc:libva-drm>=1.12 pc:libva>=1.12 pc:vulkan pc:wayland-client pc:wayland-client>=1.4 pc:xcb pc:xcb>=1.10 pc:xkbcommon pc:xkbcommon-x11 pkgconfig
-p:pc:gstreamer-analytics-1.0=1.28.1 pc:gstreamer-bad-audio-1.0=1.28.1 pc:gstreamer-codecparsers-1.0=1.28.1 pc:gstreamer-cuda-1.0=1.28.1 pc:gstreamer-hip-1.0=1.28.1 pc:gstreamer-hip-gl-1.0=1.28.1 pc:gstreamer-insertbin-1.0=1.28.1 pc:gstreamer-mpegts-1.0=1.28.1 pc:gstreamer-mse-1.0=1.28.1 pc:gstreamer-photography-1.0=1.28.1 pc:gstreamer-play-1.0=1.28.1 pc:gstreamer-player-1.0=1.28.1 pc:gstreamer-plugins-bad-1.0=1.28.1 pc:gstreamer-sctp-1.0=1.28.1 pc:gstreamer-transcoder-1.0=1.28.1 pc:gstreamer-va-1.0=1.28.1 pc:gstreamer-vulkan-1.0=1.28.1 pc:gstreamer-vulkan-wayland-1.0=1.28.1 pc:gstreamer-vulkan-xcb-1.0=1.28.1 pc:gstreamer-wayland-1.0=1.28.1 pc:gstreamer-webrtc-1.0=1.28.1
+t:1780013391
+c:3a9f73115455709c59f4d4895c3562fecbb78c59
+D:gst-plugins-bad=1.28.3-r0 pc:gmodule-no-export-2.0 pc:gstreamer-1.0>=1.28.0 pc:gstreamer-allocators-1.0>=1.28.0 pc:gstreamer-app-1.0>=1.28.0 pc:gstreamer-audio-1.0>=1.28.0 pc:gstreamer-base-1.0>=1.28.0 pc:gstreamer-gl-1.0>=1.28.0 pc:gstreamer-gl-prototypes-1.0>=1.28.0 pc:gstreamer-pbutils-1.0>=1.28.0 pc:gstreamer-sdp-1.0>=1.28.0 pc:gstreamer-tag-1.0>=1.28.0 pc:gstreamer-video-1.0>=1.28.0 pc:libdrm>=2.4.50 pc:libva-drm>=1.12 pc:libva>=1.12 pc:vulkan pc:wayland-client pc:wayland-client>=1.4 pc:xcb pc:xcb>=1.10 pc:xkbcommon pc:xkbcommon-x11 pkgconfig
+p:pc:gstreamer-analytics-1.0=1.28.3 pc:gstreamer-bad-audio-1.0=1.28.3 pc:gstreamer-codecparsers-1.0=1.28.3 pc:gstreamer-cuda-1.0=1.28.3 pc:gstreamer-hip-1.0=1.28.3 pc:gstreamer-hip-gl-1.0=1.28.3 pc:gstreamer-insertbin-1.0=1.28.3 pc:gstreamer-mpegts-1.0=1.28.3 pc:gstreamer-mse-1.0=1.28.3 pc:gstreamer-photography-1.0=1.28.3 pc:gstreamer-play-1.0=1.28.3 pc:gstreamer-player-1.0=1.28.3 pc:gstreamer-plugins-bad-1.0=1.28.3 pc:gstreamer-sctp-1.0=1.28.3 pc:gstreamer-transcoder-1.0=1.28.3 pc:gstreamer-va-1.0=1.28.3 pc:gstreamer-vulkan-1.0=1.28.3 pc:gstreamer-vulkan-wayland-1.0=1.28.3 pc:gstreamer-vulkan-xcb-1.0=1.28.3 pc:gstreamer-wayland-1.0=1.28.3 pc:gstreamer-webrtc-1.0=1.28.3
 
-C:Q1WyeHLEZqnGH8e0dpghAfiIjhVnw=
+C:Q1YzvLsp/7x4of/Cpf2bLN5qP/u9E=
 P:gst-plugins-bad-lang
-V:1.28.1-r0
+V:1.28.3-r0
 A:aarch64
-S:40362
-I:144162
+S:41524
+I:148940
 T:Languages for package gst-plugins-bad
 U:https://gstreamer.freedesktop.org/
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-plugins-bad
 m:team/alpine-desktop <achill@achill.org>
-t:1773007760
-c:e923bcf62eec9b483e37d47af142e976ad0d6ddd
-i:gst-plugins-bad=1.28.1-r0 lang
+t:1780013391
+c:3a9f73115455709c59f4d4895c3562fecbb78c59
+i:gst-plugins-bad=1.28.3-r0 lang
 
-C:Q17glgAzBmtq7w7MbyJfnmV6cC/pI=
+C:Q1xsAziWH8eAVM01GO069eWyjmkY0=
 P:gst-plugins-good
-V:1.28.1-r0
+V:1.28.3-r0
 A:aarch64
-S:2783237
+S:2785113
 I:8920612
 T:GStreamer streaming media framework good plugins
 U:https://gstreamer.freedesktop.org
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-plugins-good
 m:team/alpine-desktop <achill@achill.org>
-t:1773007760
-c:df0956af7bad21950860dc5314640eb536dd9396
+t:1780013391
+c:74b7f4d73e1235f6184ca8094b9336cb8b117293
 D:libsoup3 so:libFLAC.so.12 so:libX11.so.6 so:libXdamage.so.1 so:libXext.so.6 so:libXfixes.so.3 so:libXtst.so.6 so:libavc1394.so.0 so:libbz2.so.1 so:libc.musl-aarch64.so.1 so:libcairo-gobject.so.2 so:libcairo.so.2 so:libdv.so.4 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgstallocators-1.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstfft-1.0.so.0 so:libgstnet-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstriff-1.0.so.0 so:libgstrtp-1.0.so.0 so:libgstrtsp-1.0.so.0 so:libgstsdp-1.0.so.0 so:libgsttag-1.0.so.0 so:libgstvideo-1.0.so.0 so:libgudev-1.0.so.0 so:libiec61883.so.0 so:libintl.so.8 so:libjpeg.so.8 so:libmp3lame.so.0 so:libmpg123.so.0 so:libnettle.so.8 so:libopencore-amrnb.so.0 so:libopencore-amrwb.so.0 so:liborc-0.4.so.0 so:libpng16.so.16 so:libpulse.so.0 so:libraw1394.so.11 so:librom1394.so.0 so:libshout.so.3 so:libspeex.so.1 so:libstdc++.so.6 so:libtag.so.2 so:libvpx.so.11 so:libwavpack.so.1 so:libxml2.so.2 so:libz.so.1
 p:so:libgst1394.so=0 so:libgstadaptivedemux2.so=0 so:libgstalaw.so=0 so:libgstalpha.so=0 so:libgstalphacolor.so=0 so:libgstamrnb.so=0 so:libgstamrwbdec.so=0 so:libgstapetag.so=0 so:libgstaudiofx.so=0 so:libgstaudioparsers.so=0 so:libgstauparse.so=0 so:libgstautodetect.so=0 so:libgstavi.so=0 so:libgstcairo.so=0 so:libgstcutter.so=0 so:libgstdebug.so=0 so:libgstdeinterlace.so=0 so:libgstdtmf.so=0 so:libgstdv.so=0 so:libgsteffectv.so=0 so:libgstequalizer.so=0 so:libgstflac.so=0 so:libgstflv.so=0 so:libgstflxdec.so=0 so:libgstgdkpixbuf.so=0 so:libgstgoom.so=0 so:libgstgoom2k1.so=0 so:libgsticydemux.so=0 so:libgstid3demux.so=0 so:libgstimagefreeze.so=0 so:libgstinterleave.so=0 so:libgstisomp4.so=0 so:libgstjack.so=0 so:libgstjpeg.so=0 so:libgstlame.so=0 so:libgstlevel.so=0 so:libgstmatroska.so=0 so:libgstmonoscope.so=0 so:libgstmpg123.so=0 so:libgstmulaw.so=0 so:libgstmultifile.so=0 so:libgstmultipart.so=0 so:libgstnavigationtest.so=0 so:libgstoss4.so=0 so:libgstossaudio.so=0 so:libgstpng.so=0 so:libgstpulseaudio.so=0 so:libgstreplaygain.so=0 so:libgstrtp.so=0 so:libgstrtpmanager.so=0 so:libgstrtsp.so=0 so:libgstshapewipe.so=0 so:libgstshout2.so=0 so:libgstsmpte.so=0 so:libgstsoup.so=0 so:libgstspectrum.so=0 so:libgstspeex.so=0 so:libgsttaglib.so=0 so:libgstudp.so=0 so:libgstvideo4linux2.so=0 so:libgstvideobox.so=0 so:libgstvideocrop.so=0 so:libgstvideofilter.so=0 so:libgstvideomixer.so=0 so:libgstvpx.so=0 so:libgstwavenc.so=0 so:libgstwavpack.so=0 so:libgstwavparse.so=0 so:libgstximagesrc.so=0 so:libgstxingmux.so=0 so:libgsty4m.so=0
 
-C:Q1tpwDouToPTp6CVEYGq+X0cDXRRk=
+C:Q1dpuZDnJl/D9+XurF+tnThCrCh4w=
 P:gst-plugins-good-dbg
-V:1.28.1-r0
+V:1.28.3-r0
 A:aarch64
-S:12207876
-I:30020512
+S:12211323
+I:30028192
 T:GStreamer streaming media framework good plugins (debug symbols)
 U:https://gstreamer.freedesktop.org
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-plugins-good
 m:team/alpine-desktop <achill@achill.org>
-t:1773007760
-c:df0956af7bad21950860dc5314640eb536dd9396
-D:!gst-plugins-good-gtk<1.28.1-r0 !gst-plugins-good-gtk>1.28.1-r0 !gst-plugins-good-qt<1.28.1-r0 !gst-plugins-good-qt>1.28.1-r0 !gst-plugins-good<1.28.1-r0 !gst-plugins-good>1.28.1-r0
+t:1780013391
+c:74b7f4d73e1235f6184ca8094b9336cb8b117293
+D:!gst-plugins-good-gtk<1.28.3-r0 !gst-plugins-good-gtk>1.28.3-r0 !gst-plugins-good-qt<1.28.3-r0 !gst-plugins-good-qt>1.28.3-r0 !gst-plugins-good<1.28.3-r0 !gst-plugins-good>1.28.3-r0
 
-C:Q1O941+aZIZd6FFEXg+MJWQGxtsOA=
+C:Q1u4VmZ3L+1aiTCMHK+42OOQJUJeY=
 P:gst-plugins-good-gtk
-V:1.28.1-r0
+V:1.28.3-r0
 A:aarch64
 S:23395
 I:67456
@@ -86301,39 +86301,39 @@ U:https://gstreamer.freedesktop.org
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-plugins-good
 m:team/alpine-desktop <achill@achill.org>
-t:1773007760
-c:df0956af7bad21950860dc5314640eb536dd9396
+t:1780013391
+c:74b7f4d73e1235f6184ca8094b9336cb8b117293
 D:libsoup3 so:libc.musl-aarch64.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstgl-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libgtk-3.so.0
 p:so:libgstgtk.so=0
 
-C:Q1ULYI78Ch/qLSghnyA9OIBzZt6VA=
+C:Q1OcfAAIks4nt9iaJWHwfFeqmpVUw=
 P:gst-plugins-good-lang
-V:1.28.1-r0
+V:1.28.3-r0
 A:aarch64
-S:113809
-I:491428
+S:116144
+I:509324
 T:Languages for package gst-plugins-good
 U:https://gstreamer.freedesktop.org
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-plugins-good
 m:team/alpine-desktop <achill@achill.org>
-t:1773007760
-c:df0956af7bad21950860dc5314640eb536dd9396
-i:gst-plugins-good=1.28.1-r0 lang
+t:1780013391
+c:74b7f4d73e1235f6184ca8094b9336cb8b117293
+i:gst-plugins-good=1.28.3-r0 lang
 
-C:Q18DYogieTMzV5iR3inCF+weWJUMo=
+C:Q1OQcgtrFPCUB1TsjuZTkqSbHuVFs=
 P:gst-plugins-good-qt
-V:1.28.1-r0
+V:1.28.3-r0
 A:aarch64
-S:81600
+S:81683
 I:265512
 T:Gstreamer Qt plugin
 U:https://gstreamer.freedesktop.org
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-plugins-good
 m:team/alpine-desktop <achill@achill.org>
-t:1773007760
-c:df0956af7bad21950860dc5314640eb536dd9396
+t:1780013391
+c:74b7f4d73e1235f6184ca8094b9336cb8b117293
 D:libsoup3 so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Qml.so.6 so:libQt6Quick.so.6 so:libc.musl-aarch64.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstbase-1.0.so.0 so:libgstgl-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libstdc++.so.6
 p:so:libgstqml6.so=0
 
@@ -86997,83 +86997,83 @@ t:1778692755
 c:bebdc38573ea55fb525d000c958a551f942d03b6
 D:so:libc.musl-aarch64.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstreamer-1.0.so.0 so:libgstsdp-1.0.so.0 so:libgstwebrtc-1.0.so.0
 
-C:Q1I1nMYdiLyoFXnAz9zEAn3IMHKKQ=
+C:Q1/OitE7LRSC2N9tNyNswwPXoqtvw=
 P:gst-plugins-ugly
-V:1.28.1-r0
+V:1.28.3-r0
 A:aarch64
-S:152913
+S:152916
 I:537442
 T:GStreamer streaming media framework ugly plug-ins
 U:https://gstreamer.freedesktop.org
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-plugins-ugly
 m:team/alpine-desktop <achill@achill.org>
-t:1772106951
-c:7bb1154bb960730468caf7d48363f72c2bd7c63e
+t:1780013391
+c:9eb1dd35a7011cfef88c53a17c197ce3fae90e3f
 D:so:liba52.so.0 so:libc.musl-aarch64.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstriff-1.0.so.0 so:libgstrtp-1.0.so.0 so:libgstrtsp-1.0.so.0 so:libgstsdp-1.0.so.0 so:libgsttag-1.0.so.0 so:libgstvideo-1.0.so.0 so:libintl.so.8 so:libx264.so.164
 p:so:libgsta52dec.so=0 so:libgstasf.so=0 so:libgstdvdlpcmdec.so=0 so:libgstdvdsub.so=0 so:libgstrealmedia.so=0 so:libgstx264.so=0
 
-C:Q1O2XDEF3i/bvDvcfW5Cz9uN6Qsk4=
+C:Q1iy4YGq8DnilMndEFOQ1Ufhvzsk0=
 P:gst-plugins-ugly-dbg
-V:1.28.1-r0
+V:1.28.3-r0
 A:aarch64
-S:478820
-I:1106680
+S:478801
+I:1106480
 T:GStreamer streaming media framework ugly plug-ins (debug symbols)
 U:https://gstreamer.freedesktop.org
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-plugins-ugly
 m:team/alpine-desktop <achill@achill.org>
-t:1772106951
-c:7bb1154bb960730468caf7d48363f72c2bd7c63e
-D:!gst-plugins-ugly<1.28.1-r0 !gst-plugins-ugly>1.28.1-r0
+t:1780013391
+c:9eb1dd35a7011cfef88c53a17c197ce3fae90e3f
+D:!gst-plugins-ugly<1.28.3-r0 !gst-plugins-ugly>1.28.3-r0
 
-C:Q1kMYi6P0GSd6Uihtk91f1ZJhiIbI=
+C:Q12gPVVDD+2UiLeSlCOk5uzcqt9ys=
 P:gst-plugins-ugly-lang
-V:1.28.1-r0
+V:1.28.3-r0
 A:aarch64
-S:24749
-I:73025
+S:25345
+I:74900
 T:Languages for package gst-plugins-ugly
 U:https://gstreamer.freedesktop.org
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-plugins-ugly
 m:team/alpine-desktop <achill@achill.org>
-t:1772106951
-c:7bb1154bb960730468caf7d48363f72c2bd7c63e
-i:gst-plugins-ugly=1.28.1-r0 lang
+t:1780013391
+c:9eb1dd35a7011cfef88c53a17c197ce3fae90e3f
+i:gst-plugins-ugly=1.28.3-r0 lang
 
-C:Q1D+xz1aS/M45eWXBPPoQmRuVVdD8=
+C:Q1Hv56E+BVtUHz4WSI3pp0swObowQ=
 P:gst-rtsp-server
-V:1.28.1-r0
+V:1.28.3-r0
 A:aarch64
-S:224501
+S:224544
 I:658996
 T:GStreamer RTSP server
 U:https://gstreamer.freedesktop.org
 L:LGPL-2.0-or-later
 o:gst-rtsp-server
 m:team/alpine-desktop <achill@achill.org>
-t:1773007760
-c:374ce432d88932c58dece422c80b71379ded2957
+t:1780013391
+c:428b541d6ac045477b97702b1c3d25200c63127e
 D:so:libc.musl-aarch64.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstapp-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstnet-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstrtp-1.0.so.0 so:libgstrtsp-1.0.so.0 so:libgstsdp-1.0.so.0 so:libgstvideo-1.0.so.0
-p:so:libgstrtspserver-1.0.so.0=0.2801.0
+p:so:libgstrtspserver-1.0.so.0=0.2803.0
 
-C:Q1/UbKoLF/t50TcRkrv6Z92GKF5Xk=
+C:Q19INufKHi87HJpyryfX5KY5AF1Jo=
 P:gst-rtsp-server-dev
-V:1.28.1-r0
+V:1.28.3-r0
 A:aarch64
-S:96569
+S:96584
 I:1018972
 T:GStreamer RTSP server (development files)
 U:https://gstreamer.freedesktop.org
 L:LGPL-2.0-or-later
 o:gst-rtsp-server
 m:team/alpine-desktop <achill@achill.org>
-t:1773007760
-c:374ce432d88932c58dece422c80b71379ded2957
-D:gst-plugins-base-dev gst-rtsp-server=1.28.1-r0 pc:gstreamer-1.0>=1.28.0 pc:gstreamer-app-1.0>=1.28.0 pc:gstreamer-net-1.0>=1.28.0 pc:gstreamer-rtp-1.0>=1.28.0 pc:gstreamer-rtsp-1.0>=1.28.0 pc:gstreamer-sdp-1.0>=1.28.0 pc:gstreamer-video-1.0>=1.28.0 pkgconfig
-p:pc:gstreamer-rtsp-server-1.0=1.28.1
+t:1780013391
+c:428b541d6ac045477b97702b1c3d25200c63127e
+D:gst-plugins-base-dev gst-rtsp-server=1.28.3-r0 pc:gstreamer-1.0>=1.28.0 pc:gstreamer-app-1.0>=1.28.0 pc:gstreamer-net-1.0>=1.28.0 pc:gstreamer-rtp-1.0>=1.28.0 pc:gstreamer-rtsp-1.0>=1.28.0 pc:gstreamer-sdp-1.0>=1.28.0 pc:gstreamer-video-1.0>=1.28.0 pkgconfig
+p:pc:gstreamer-rtsp-server-1.0=1.28.3
 
 C:Q1m3FUTDkWZy1nzP4wrzmA72ykBQI=
 P:gst-thumbnailers
@@ -222179,40 +222179,40 @@ t:1716944914
 c:baa06d61133868f896cd55a41a043ab83d79c57b
 i:docs pngquant=3.0.3-r0
 
-C:Q1Li64/R03PWDmEA48pmFRwCrpcUA=
+C:Q1o3osb9HdfwA+Lyn8os7zGD5jBqE=
 P:pnpm
-V:11.3.0-r0
+V:11.4.0-r0
 A:aarch64
-S:5159678
-I:25249433
+S:5171887
+I:25249451
 T:Fast, disk space efficient package manager
 U:https://pnpm.io
 L:MIT
 o:pnpm
 m:Johannes Müller <alpinelinux@jogemu.at>
-t:1779797604
-c:cf8d909279dcc53efdfcab747fc357f77023a25a
+t:1780012740
+c:64db22ae6cc3ebb5b0c5a1fe230398416eaa0c25
 D:nodejs
-p:cmd:pnpm=11.3.0-r0 cmd:pnpx=11.3.0-r0
+p:cmd:pnpm=11.4.0-r0 cmd:pnpx=11.4.0-r0
 
-C:Q1RLEh1QEd/S8ZFYP2H/6LDmDrzSY=
+C:Q1gak7mtuk5Dh8S0sYFYs7lu+mB+0=
 P:pnpm-bash-completion
-V:11.3.0-r0
+V:11.4.0-r0
 A:aarch64
-S:2000
+S:1998
 I:994
 T:Bash completions for pnpm
 U:https://pnpm.io
 L:MIT
 o:pnpm
 m:Johannes Müller <alpinelinux@jogemu.at>
-t:1779797604
-c:cf8d909279dcc53efdfcab747fc357f77023a25a
-i:pnpm=11.3.0-r0 bash-completion
+t:1780012740
+c:64db22ae6cc3ebb5b0c5a1fe230398416eaa0c25
+i:pnpm=11.4.0-r0 bash-completion
 
-C:Q1CnHRH+v0KTMOQKLoETYF5v4V2nM=
+C:Q1TgTiLx2YVVP/40R8vhY07QIP7lA=
 P:pnpm-doc
-V:11.3.0-r0
+V:11.4.0-r0
 A:aarch64
 S:2307
 I:1170
@@ -222221,39 +222221,39 @@ U:https://pnpm.io
 L:MIT
 o:pnpm
 m:Johannes Müller <alpinelinux@jogemu.at>
-t:1779797604
-c:cf8d909279dcc53efdfcab747fc357f77023a25a
-i:docs pnpm=11.3.0-r0
+t:1780012740
+c:64db22ae6cc3ebb5b0c5a1fe230398416eaa0c25
+i:docs pnpm=11.4.0-r0
 
-C:Q1Ul9KtqMpA5DeC7GGcwfVi1IUkA0=
+C:Q1ODZt4HhjGVz+MVQUGfEJAshKXAg=
 P:pnpm-fish-completion
-V:11.3.0-r0
+V:11.4.0-r0
 A:aarch64
-S:1925
+S:1928
 I:672
 T:Fish completions for pnpm
 U:https://pnpm.io
 L:MIT
 o:pnpm
 m:Johannes Müller <alpinelinux@jogemu.at>
-t:1779797604
-c:cf8d909279dcc53efdfcab747fc357f77023a25a
-i:pnpm=11.3.0-r0 fish
+t:1780012740
+c:64db22ae6cc3ebb5b0c5a1fe230398416eaa0c25
+i:pnpm=11.4.0-r0 fish
 
-C:Q1uVndXUy1VnBVZVg6kgMe64VMWqM=
+C:Q1rwhT1IyaKrMN4laJO7ODuGOTazA=
 P:pnpm-zsh-completion
-V:11.3.0-r0
+V:11.4.0-r0
 A:aarch64
-S:2056
+S:2053
 I:839
 T:Zsh completions for pnpm
 U:https://pnpm.io
 L:MIT
 o:pnpm
 m:Johannes Müller <alpinelinux@jogemu.at>
-t:1779797604
-c:cf8d909279dcc53efdfcab747fc357f77023a25a
-i:pnpm=11.3.0-r0 zsh
+t:1780012740
+c:64db22ae6cc3ebb5b0c5a1fe230398416eaa0c25
+i:pnpm=11.4.0-r0 zsh
 
 C:Q1mrjk50DgUvFpQIQmSlpc5aM7cOc=
 P:poco
@@ -237436,37 +237436,37 @@ c:8aec4a8581588a9940e9e9844058ca5596c4f72e
 D:python3 py3-asgiref py3-sqlparse tzdata python3~3.14
 p:py-django=5.2.14-r0 cmd:django-admin=5.2.14-r0 py3.14:django=5.2.14-r0
 
-C:Q11I57nhMuWl1x3X4jnWmMK1w83OU=
+C:Q1PHNmjKBeIsBy13ILq+28l65BKfw=
 P:py3-django-allauth
-V:65.15.1-r0
+V:65.16.1-r0
 A:aarch64
-S:365213
-I:1357351
+S:370759
+I:1414939
 T:Integrated set of Django applications addressing SSO
 U:https://pypi.python.org/project/django-allauth
 L:MIT
 o:py3-django-allauth
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1775386680
-c:613dd3f6bb45db4b2d0b270884e94f52e9fd1fcc
+t:1780016324
+c:60c3797d200988bc3d5f0db9d0b814385679b746
 D:py3-python3-saml py3-qrcode py3-django py3-openid py3-requests py3-requests-oauthlib py3-jwt py3-cryptography py3-fido2 python3~3.14
-p:py3.14:allauth=65.15.1-r0
+p:py3.14:allauth=65.16.1-r0
 
-C:Q1Cj4FedHHqUe+uRzhijtUkppf9Ec=
+C:Q1K0SG+Lcvu/T2pwZ8ca8NU/wI/HE=
 P:py3-django-allauth-pyc
-V:65.15.1-r0
+V:65.16.1-r0
 A:aarch64
-S:848331
-I:2181993
+S:871367
+I:2295511
 T:Precompiled Python bytecode for py3-django-allauth
 U:https://pypi.python.org/project/django-allauth
 L:MIT
 o:py3-django-allauth
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1775386680
-c:613dd3f6bb45db4b2d0b270884e94f52e9fd1fcc
+t:1780016324
+c:60c3797d200988bc3d5f0db9d0b814385679b746
 D:python3~3.14
-i:py3-django-allauth=65.15.1-r0 pyc
+i:py3-django-allauth=65.16.1-r0 pyc
 
 C:Q1B7RCOlc7ufHfXg7rCU2O60R+G0k=
 P:py3-django-annoying
@@ -243783,36 +243783,36 @@ c:e2d1abeef8d26d9c94789328907cca43d07f2bd8
 D:py3-grpcio python3~3.14 so:libabsl_hash.so.2508.0.0 so:libabsl_raw_hash_set.so.2508.0.0 so:libc.musl-aarch64.so.1 so:libgcc_s.so.1 so:libprotobuf.so.31 so:libprotoc.so.31 so:libstdc++.so.6 so:libutf8_range.so.31.1.0
 p:cmd:python-grpc-tools-protoc=1.78.1-r2 py3.14:grpc_tools=1.78.1-r2
 
-C:Q1e4/D0DrlwwRh/UMDjQFZmhJB01A=
+C:Q15dmNyuNK2/j10NuSmD+jFm1SFr8=
 P:py3-gst
-V:1.28.1-r1
+V:1.28.3-r0
 A:aarch64
-S:40779
-I:253035
+S:40992
+I:254442
 T:GStreamer Python3 bindings
 U:https://gitlab.freedesktop.org/gstreamer/gstreamer
 L:LGPL-2.1-or-later
 o:py3-gst
 m:team/alpine-desktop <achill@achill.org>
-t:1774640379
-c:34f0c5e3f26f1955b308f95c10e96ccb2f1cbfd2
+t:1780013391
+c:896820260084156855088f2f588cdb6204ea72fa
 D:py3-gobject3 gst-plugins-base python3~3.14 so:libc.musl-aarch64.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstanalytics-1.0.so.0 so:libgstreamer-1.0.so.0 so:libpython3.14.so.1.0
 
-C:Q1seL1ELLY8EyIp6e0xOlzZHEo/TY=
+C:Q1xNTsA0EwnTvbOoscJcK4CkRI/3s=
 P:py3-gst-pyc
-V:1.28.1-r1
+V:1.28.3-r0
 A:aarch64
-S:31038
-I:92650
+S:31955
+I:96243
 T:Precompiled Python bytecode for py3-gst
 U:https://gitlab.freedesktop.org/gstreamer/gstreamer
 L:LGPL-2.1-or-later
 o:py3-gst
 m:team/alpine-desktop <achill@achill.org>
-t:1774640379
-c:34f0c5e3f26f1955b308f95c10e96ccb2f1cbfd2
+t:1780013391
+c:896820260084156855088f2f588cdb6204ea72fa
 D:python3~3.14
-i:py3-gst=1.28.1-r1 pyc
+i:py3-gst=1.28.3-r0 pyc
 
 C:Q1YU8MWB5VNOUPchipTdpcoGCj1W0=
 P:py3-gtts
@@ -269106,37 +269106,37 @@ c:ed27fc49e62e1a0c6df07f25f88a41905df1af0b
 D:python3~3.14
 i:py3-stack_data=0.6.3-r3 pyc
 
-C:Q10nrdvri8eZsdJ6nJyJnkZKKBo7g=
+C:Q1MA8w1DjvO7F1o9CvIUG+fYR/RyQ=
 P:py3-starlette
-V:1.0.0-r0
+V:1.1.0-r0
 A:aarch64
-S:62032
-I:253097
+S:62347
+I:253654
 T:Lightweight ASGI framework/toolkit, which is ideal for building async web services in Python
 U:https://github.com/encode/starlette
 L:MIT
 o:py3-starlette
 m:Steven Guikal <apk-void@fluix.one>
-t:1778783723
-c:d2119491869fcce18027c7ec330a41821767f746
+t:1780012499
+c:16ce7c83bb8c50e04d8bec9ba9d7ca98af8a7f54
 D:py3-anyio py3-typing-extensions python3~3.14
-p:py3.14:starlette=1.0.0-r0
+p:py3.14:starlette=1.1.0-r0
 
-C:Q1rGG9IxNkCNuTn24V6HCYrx0Bo9E=
+C:Q1EquKIAbBPBdzMAUZ/AyyhDBCBMA=
 P:py3-starlette-pyc
-V:1.0.0-r0
+V:1.1.0-r0
 A:aarch64
-S:165192
-I:424166
+S:165460
+I:424731
 T:Precompiled Python bytecode for py3-starlette
 U:https://github.com/encode/starlette
 L:MIT
 o:py3-starlette
 m:Steven Guikal <apk-void@fluix.one>
-t:1778783723
-c:d2119491869fcce18027c7ec330a41821767f746
+t:1780012499
+c:16ce7c83bb8c50e04d8bec9ba9d7ca98af8a7f54
 D:python3~3.14
-i:py3-starlette=1.0.0-r0 pyc
+i:py3-starlette=1.1.0-r0 pyc
 
 C:Q1LbZEH2G+FgNz4L1Qm+RAMYkt7M4=
 P:py3-statmake
@@ -285612,463 +285612,463 @@ c:24e2031861a1654132f312c2ec7c6f454138629d
 D:so:libc.musl-aarch64.so.1 so:libusb-1.0.so.0
 p:cmd:bin2c=20250227-r0 cmd:rpiboot=20250227-r0
 
-C:Q1Dt97KgX59mVzEFEQnBY0okc45Pk=
+C:Q1w4bvvVwCftb8pmyOUFEleFsjyss=
 P:raspberrypi-utils
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:1407
+S:1403
 I:0
 T:Collection of Raspberry Pi utilities (scripts and simple applications)
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
-D:raspberrypi-utils-dtmerge=0.20260428-r0 raspberrypi-utils-eeptools=0.20260428-r0 raspberrypi-utils-kdtc=0.20260428-r0 raspberrypi-utils-otamaker=0.20260428-r0 raspberrypi-utils-otpset=0.20260428-r0 raspberrypi-utils-overlaycheck=0.20260428-r0 raspberrypi-utils-ovmerge=0.20260428-r0 raspberrypi-utils-pinctrl=0.20260428-r0 raspberrypi-utils-raspinfo=0.20260428-r0 raspberrypi-utils-rpifwcrypto=0.20260428-r0 raspberrypi-utils-vcgencmd=0.20260428-r0 raspberrypi-utils-vclog=0.20260428-r0 raspberrypi-utils-vcmailbox=0.20260428-r0 raspberrypi-utils-piolib=0.20260428-r0 raspberrypi-utils-rpieepromab=0.20260428-r0 raspberrypi-utils-rpi-gpu-usage=0.20260428-r0
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
+D:raspberrypi-utils-dtmerge=0.20260526-r0 raspberrypi-utils-eeptools=0.20260526-r0 raspberrypi-utils-kdtc=0.20260526-r0 raspberrypi-utils-otamaker=0.20260526-r0 raspberrypi-utils-otpset=0.20260526-r0 raspberrypi-utils-overlaycheck=0.20260526-r0 raspberrypi-utils-ovmerge=0.20260526-r0 raspberrypi-utils-pinctrl=0.20260526-r0 raspberrypi-utils-raspinfo=0.20260526-r0 raspberrypi-utils-rpifwcrypto=0.20260526-r0 raspberrypi-utils-vcgencmd=0.20260526-r0 raspberrypi-utils-vclog=0.20260526-r0 raspberrypi-utils-vcmailbox=0.20260526-r0 raspberrypi-utils-piolib=0.20260526-r0 raspberrypi-utils-rpieepromab=0.20260526-r0 raspberrypi-utils-rpi-gpu-usage=0.20260526-r0
 
-C:Q1mMORzx83wHBrTOqA7Wo8nZLLO5E=
+C:Q1+ZrifbIWeVfZQkVElBcZmTfzkgc=
 P:raspberrypi-utils-dtmerge
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:37806
+S:37822
 I:202296
 T:A tool for applying compiled DT overlays (*.dtbo) to base Device Tree files (*.dtb).
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
 D:so:libc.musl-aarch64.so.1 so:libfdt.so.1
-p:cmd:dtmerge=0.20260428-r0 cmd:dtoverlay=0.20260428-r0 cmd:dtparam=0.20260428-r0 so:libdtovl.so.0=0
+p:cmd:dtmerge=0.20260526-r0 cmd:dtoverlay=0.20260526-r0 cmd:dtparam=0.20260526-r0 so:libdtovl.so.0=0
 
-C:Q1V1ZVjV07+a6H/RyOIAfXsCxttVg=
+C:Q17dIvM+e4ZsTnNCqrMt2R9eILUO4=
 P:raspberrypi-utils-dtmerge-dev
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:4337
+S:4335
 I:9817
 T:A tool for applying compiled DT overlays (*.dtbo) to base Device Tree files (*.dtb).(development files)
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
-D:raspberrypi-utils-dtmerge=0.20260428-r0
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
+D:raspberrypi-utils-dtmerge=0.20260526-r0
 
-C:Q1BplTvIcR/i7D2E3ZFpv/C2ROETY=
+C:Q1zLranFIGskfYMYO3KG//55jQAVI=
 P:raspberrypi-utils-dtmerge-doc
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:4996
+S:4994
 I:3090
 T:Documentation for raspberrypi-utils-dtmerge
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
-D:raspberrypi-utils-dtmerge=0.20260428-r0
-i:raspberrypi-utils-dtmerge=0.20260428-r0 docs
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
+D:raspberrypi-utils-dtmerge=0.20260526-r0
+i:raspberrypi-utils-dtmerge=0.20260526-r0 docs
 
-C:Q11oC5ALwbt8NQfyo5vgA5ikjYw78=
+C:Q1oEwsd5R4me/+tl6kWxECR25u9jU=
 P:raspberrypi-utils-eeptools
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:19774
+S:19766
 I:139123
 T:Tools for creating and managing EEPROMs for HAT+ and HAT board.
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
 D:so:libc.musl-aarch64.so.1
-p:cmd:eepdump=0.20260428-r0 cmd:eepflash.sh=0.20260428-r0 cmd:eepmake=0.20260428-r0
+p:cmd:eepdump=0.20260526-r0 cmd:eepflash.sh=0.20260526-r0 cmd:eepmake=0.20260526-r0
 
-C:Q1LeiGWv2O0qYg3/sryTwyFwCA0ng=
+C:Q1E9xfibjkL0pfh0Wcz7vU7rrmWKM=
 P:raspberrypi-utils-kdtc
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:3750
+S:3752
 I:5731
 T:A tool for compiling overlays with #includes, etc., as used in the kernel tree.
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
 D:dtc perl
-p:cmd:kdtc=0.20260428-r0
+p:cmd:kdtc=0.20260526-r0
 
-C:Q1xCNbK45HLPG7wbaPb1EgFv/rdw4=
+C:Q153zxg1pZ5DRnjSNMfYg16/j8VxI=
 P:raspberrypi-utils-otamaker
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:3961
+S:3958
 I:6194
 T:A tool for building Remote Update artefacts, as used by Raspberry Pi Connect Remote Update.
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
 D:python3
-p:cmd:otamaker=0.20260428-r0
+p:cmd:otamaker=0.20260526-r0
 
-C:Q1P2rBBpbQuWxJEu0LaG3w0R0HgbY=
+C:Q1jd+OlfLJKAbw9TtMlVB2V1cKt54=
 P:raspberrypi-utils-otpset
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:3827
+S:3820
 I:5934
 T:A short script to help with reading and setting the customer OTP bits.
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
-D:python3 raspberrypi-utils-vcmailbox=0.20260428-r0
-p:cmd:otpset=0.20260428-r0
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
+D:python3 raspberrypi-utils-vcmailbox=0.20260526-r0
+p:cmd:otpset=0.20260526-r0
 
-C:Q114+qg8LboJ1OoZ/0g8w6KFMDMIY=
+C:Q1GxNMfDHafgP3Cz825m+kDDD8b1Y=
 P:raspberrypi-utils-overlaycheck
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:9434
+S:9431
 I:31222
 T:A tool for validating the overlay files and README in a kernel source tree.
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
-D:raspberrypi-utils-dtmerge=0.20260428-r0 raspberrypi-utils-ovmerge=0.20260428-r0 dtc perl
-p:cmd:overlaycheck=0.20260428-r0
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
+D:raspberrypi-utils-dtmerge=0.20260526-r0 raspberrypi-utils-ovmerge=0.20260526-r0 dtc perl
+p:cmd:overlaycheck=0.20260526-r0
 
-C:Q1IflOsuPOb6YU8n01RKC8LtfrFPQ=
+C:Q1ZPCgSAbeEwpnU59e9pT0LkPURXM=
 P:raspberrypi-utils-ovmerge
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:15153
-I:47951
+S:15172
+I:48007
 T:A tool for merging DT overlay source files (*-overlay.dts), flattening and sorting .dts files for easy comparison, displaying the include tree, etc.
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
 D:perl
-p:cmd:ovmerge=0.20260428-r0
+p:cmd:ovmerge=0.20260526-r0
 
-C:Q1OIl/r8Dq2fKWqddIPsv6zjwNqyE=
+C:Q1f9shcMEVMnoQMHmrxoenxi3bIBM=
 P:raspberrypi-utils-pinctrl
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:29909
+S:29911
 I:134896
 T:A tool for displaying and modifying the GPIO and pin muxing state of a system, bypassing the kernel.
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
 D:so:libc.musl-aarch64.so.1
-p:cmd:pinctrl=0.20260428-r0 so:libgpiolib.so.0=0
+p:cmd:pinctrl=0.20260526-r0 so:libgpiolib.so.0=0
 
-C:Q1jhtdIec1rCyaSlXSXnksdh6171s=
+C:Q1zaFtYxbA5zNMCIjX0jzaR6ja0FM=
 P:raspberrypi-utils-pinctrl-bash-completion
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:2496
+S:2491
 I:2747
 T:Bash completions for raspberrypi-utils-pinctrl
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
-D:raspberrypi-utils-pinctrl=0.20260428-r0
-i:raspberrypi-utils-pinctrl=0.20260428-r0 bash-completion
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
+D:raspberrypi-utils-pinctrl=0.20260526-r0
+i:raspberrypi-utils-pinctrl=0.20260526-r0 bash-completion
 
-C:Q1ojrBAIBkuaVSJn4GsMdTTRmxGyI=
+C:Q1ZC7j01DHEck2H/2OWaoBA6/1hGk=
 P:raspberrypi-utils-pinctrl-dev
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:2391
+S:2390
 I:2109
 T:gpiolib library for Raspberry Pi devices (development files)
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
-D:raspberrypi-utils-pinctrl=0.20260428-r0
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
+D:raspberrypi-utils-pinctrl=0.20260526-r0
 
-C:Q1Jzv2PTZq2EEQC3h36ZaH8e/gpCw=
+C:Q1Mz9SKqcJOC73gmob1sECzrsCdLU=
 P:raspberrypi-utils-piolib
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:34900
+S:34878
 I:606392
 T:Sample utilities leveraging Pi 5's PIO hardware.
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
 D:so:libc.musl-aarch64.so.1
-p:cmd:apitest=0.20260428-r0 cmd:dpi_csync=0.20260428-r0 cmd:piopwm=0.20260428-r0 cmd:pioseq=0.20260428-r0 cmd:piotest=0.20260428-r0 cmd:piows2812=0.20260428-r0 cmd:quadenc=0.20260428-r0 cmd:rp1sm=0.20260428-r0 so:libpio.so.0=0
+p:cmd:apitest=0.20260526-r0 cmd:dpi_csync=0.20260526-r0 cmd:piopwm=0.20260526-r0 cmd:pioseq=0.20260526-r0 cmd:piotest=0.20260526-r0 cmd:piows2812=0.20260526-r0 cmd:quadenc=0.20260526-r0 cmd:rp1sm=0.20260526-r0 so:libpio.so.0=0
 
-C:Q1x0Zqhy2ozq7RJ1qIgmwSgxK8Jh8=
+C:Q1QlZlCKBWKbXqSGdZ+z0/5ynB5io=
 P:raspberrypi-utils-piolib-dev
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:10019
+S:10012
 I:50544
 T:piolib library for accessing Pi 5's PIO hardware (development files)
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
-D:raspberrypi-utils-piolib=0.20260428-r0
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
+D:raspberrypi-utils-piolib=0.20260526-r0
 
-C:Q1vFgQcIiUApfBmMc+k083WSWx8vA=
+C:Q1cxpmQY3m3MGvJ56m3dRWhhjGRoU=
 P:raspberrypi-utils-raspinfo
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:3718
-I:6957
+S:3837
+I:7493
 T:A short script to dump information about the Pi. Intended for the submission of bug reports.
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
-D:raspberrypi-utils-vclog=0.20260428-r0 raspberrypi-utils-pinctrl=0.20260428-r0 raspberrypi-utils-vcgencmd=0.20260428-r0 sudo-virt !sudo usbutils
-p:cmd:raspinfo=0.20260428-r0
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
+D:raspberrypi-utils-vclog=0.20260526-r0 raspberrypi-utils-pinctrl=0.20260526-r0 raspberrypi-utils-vcgencmd=0.20260526-r0 sudo-virt !sudo usbutils
+p:cmd:raspinfo=0.20260526-r0
 
-C:Q1xt3aRCNFERvsbKbEB1d4NJXae+Y=
+C:Q1nkRgaDwwOIWykZXz4h0cNgmE5x4=
 P:raspberrypi-utils-rpi-gpu-usage
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:7018
+S:7012
 I:67312
 T:A tool for showing the per-process usage of the V3D GPU on Raspberry Pi 4 and 5.
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
 D:so:libc.musl-aarch64.so.1 so:libncursesw.so.6
-p:cmd:rpi-gpu-usage=0.20260428-r0
+p:cmd:rpi-gpu-usage=0.20260526-r0
 
-C:Q1PId2VBlOsuDAjnJuAk/ok9qJqys=
+C:Q1LDUC9TliS1UCSQLVmd22PAVbv0U=
 P:raspberrypi-utils-rpi-gpu-usage-bash-completion
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:1762
+S:1758
 I:180
 T:Bash completions for raspberrypi-utils-rpi-gpu-usage
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
-D:raspberrypi-utils-rpi-gpu-usage=0.20260428-r0
-i:raspberrypi-utils-rpi-gpu-usage=0.20260428-r0 bash-completion
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
+D:raspberrypi-utils-rpi-gpu-usage=0.20260526-r0
+i:raspberrypi-utils-rpi-gpu-usage=0.20260526-r0 bash-completion
 
-C:Q12mMiEwCCEAg7LOTjVe83GfQAjzs=
+C:Q12MhgQogbC03wHM6I9K4l33bqGuk=
 P:raspberrypi-utils-rpi-gpu-usage-doc
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:2195
+S:2193
 I:509
 T:Documentation for raspberrypi-utils-rpi-gpu-usage
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
-D:raspberrypi-utils-rpi-gpu-usage=0.20260428-r0
-i:raspberrypi-utils-rpi-gpu-usage=0.20260428-r0 docs
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
+D:raspberrypi-utils-rpi-gpu-usage=0.20260526-r0
+i:raspberrypi-utils-rpi-gpu-usage=0.20260526-r0 docs
 
-C:Q1cnb23D6Dnl4AiJjrH9LxBWvLj7A=
+C:Q1BoTXDwegB2cUCkWQwRFajDPxwkQ=
 P:raspberrypi-utils-rpieepromab
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:13468
+S:13510
 I:134552
 T:A tool to update and manage the AB EEPROM partitions on a device in the Pi 5 family.
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
 D:so:libc.musl-aarch64.so.1
-p:cmd:rpi-eeprom-ab=0.20260428-r0 so:librpieepromab.so.0=0
+p:cmd:rpi-eeprom-ab=0.20260526-r0 so:librpieepromab.so.0=0
 
-C:Q1262HEKDY5S6Kx09LgBPcTwZ5bv8=
+C:Q1kQY4LjaA2eRzXtLSR4EQ0XZlV6g=
 P:raspberrypi-utils-rpieepromab-dev
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:3456
+S:3461
 I:8184
 T:Shared library for rpieepromab tool (development files)
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
-D:raspberrypi-utils-rpieepromab=0.20260428-r0
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
+D:raspberrypi-utils-rpieepromab=0.20260526-r0
 
-C:Q18a2nhGCzQWSIkVe0Z5Xv0FWYSl4=
+C:Q1sBExA2/6R49kKdyXCMvwhAX5aNM=
 P:raspberrypi-utils-rpifwcrypto
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:12328
+S:12991
 I:134712
 T:A command line application for the firmware cryptography service.
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
 D:so:libc.musl-aarch64.so.1 so:libgnutls.so.30
-p:cmd:rpi-fw-crypto=0.20260428-r0 so:librpifwcrypto.so.0=0
+p:cmd:rpi-fw-crypto=0.20260526-r0 so:librpifwcrypto.so.0=0
 
-C:Q1RB6+bVFQxfj+eIH/P81dvJN+qKY=
+C:Q1+ezI374qgyuK6rNDXRZs4KccX/I=
 P:raspberrypi-utils-rpifwcrypto-dev
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:3169
-I:5310
+S:3389
+I:7037
 T:Shared library for the firmware cryptography service (development files)
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
-D:raspberrypi-utils-rpifwcrypto=0.20260428-r0
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
+D:raspberrypi-utils-rpifwcrypto=0.20260526-r0
 
-C:Q1M6WfrVy/KHtfZ1y+GkBUAEFyfD4=
+C:Q15MHm+gnVnhhNwHAqQYFt0SOK5T4=
 P:raspberrypi-utils-vcgencmd
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:4579
+S:4611
 I:67312
 T:A tool to send commands to the VideoCore firmware and display the results
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
 D:so:libc.musl-aarch64.so.1
-p:cmd:vcgencmd=0.20260428-r0
+p:cmd:vcgencmd=0.20260526-r0
 
-C:Q10IcJMC9fNugw1fJI1czxarh53vQ=
+C:Q11lFAcvbpCDD5W+RxFh+COYkx8w0=
 P:raspberrypi-utils-vcgencmd-bash-completion
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:1814
+S:1807
 I:281
 T:Bash completions for raspberrypi-utils-vcgencmd
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
-D:raspberrypi-utils-vcgencmd=0.20260428-r0
-i:raspberrypi-utils-vcgencmd=0.20260428-r0 bash-completion
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
+D:raspberrypi-utils-vcgencmd=0.20260526-r0
+i:raspberrypi-utils-vcgencmd=0.20260526-r0 bash-completion
 
-C:Q1bkYfbw8jJLCc71iQLY31uY3kB/U=
+C:Q1KpT7zNSDbQcCmRttl+J663LraBY=
 P:raspberrypi-utils-vcgencmd-doc
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:4520
+S:4518
 I:2749
 T:Documentation for raspberrypi-utils-vcgencmd
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
-D:raspberrypi-utils-vcgencmd=0.20260428-r0
-i:raspberrypi-utils-vcgencmd=0.20260428-r0 docs
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
+D:raspberrypi-utils-vcgencmd=0.20260526-r0
+i:raspberrypi-utils-vcgencmd=0.20260526-r0 docs
 
-C:Q1eJSqhesh/QJ1odxltDHEJA5eURU=
+C:Q1vBAw5yLOMjk/AQ/nNZtlZXPZ5r8=
 P:raspberrypi-utils-vclog
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:6192
+S:6188
 I:67408
 T:A tool to get VideoCore 'assert' or 'msg' logs with optional -f to wait for new logs to arrive.
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
 D:so:libc.musl-aarch64.so.1
-p:cmd:vclog=0.20260428-r0
+p:cmd:vclog=0.20260526-r0
 
-C:Q1VH6mgLmJc979+ReEVopGqzVJ980=
+C:Q1tYIvlKDtrpIRVIMRk3W3OA78vWc=
 P:raspberrypi-utils-vcmailbox
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:3977
+S:3976
 I:67312
 T:A low-level tool giving access the VideoCore mailbox interface.
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
 D:so:libc.musl-aarch64.so.1
-p:cmd:vcmailbox=0.20260428-r0
+p:cmd:vcmailbox=0.20260526-r0
 
-C:Q1liBfCBPwSJ6qceG+YeN+fIpi/dk=
+C:Q1TFeTM9c44323xFjHaV/qyVJXNds=
 P:raspberrypi-utils-vcmailbox-doc
-V:0.20260428-r0
+V:0.20260526-r0
 A:aarch64
-S:11780
+S:11776
 I:9737
 T:Documentation for raspberrypi-utils-vcmailbox
 U:https://github.com/raspberrypi/utils
 L:BSD-3-Clause
 o:raspberrypi-utils
 m:macmpi <spam@ipik.org>
-t:1778238295
-c:f9023a58fa3eab24f402d83c38247a24018c9076
-D:raspberrypi-utils-vcmailbox=0.20260428-r0
-i:raspberrypi-utils-vcmailbox=0.20260428-r0 docs
+t:1780013016
+c:0ef9582161eb11591c9ea78d63a20d79a64c138d
+D:raspberrypi-utils-vcmailbox=0.20260526-r0
+i:raspberrypi-utils-vcmailbox=0.20260526-r0 docs
 
 C:Q1zG1ko3J5yNyi4W35XAfEDYPx+iw=
 P:rasqal

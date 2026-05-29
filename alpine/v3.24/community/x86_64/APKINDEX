@@ -60290,36 +60290,36 @@ t:1776105473
 c:24fe36d3da0a2e3a25d94a050056208236c77981
 i:flatpak=1.16.6-r2 bash-completion
 
-C:Q1iusJTRgsUD5A3SeYe+09hM/3WAM=
+C:Q1nwb1jszEx6oXLE3WlixgXpaeCns=
 P:flatpak-builder
-V:1.4.7-r1
+V:1.4.9-r0
 A:x86_64
-S:164679
-I:375461
+S:169093
+I:379597
 T:Tool to build flatpaks from source
 U:https://flatpak.org
 L:LGPL-2.1-or-later
 o:flatpak-builder
 m:André Klitzing <aklitzing@gmail.com>
-t:1770824164
-c:8a1888d386a7f24ae881827223ce862b830285e3
+t:1780012630
+c:15c88764978ee1d1b66e558c0123a333976400b8
 D:appstream-compose elfutils flatpak git libarchive-tools patch /bin/sh so:libc.musl-x86_64.so.1 so:libcurl.so.4 so:libdw.so.1 so:libelf.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libostree-1.so.1 so:libxml2.so.2 so:libyaml-0.so.2
-p:cmd:flatpak-builder=1.4.7-r1
+p:cmd:flatpak-builder=1.4.9-r0
 
-C:Q1UeOCB6D9QsaAI69U4A85GC0wDsY=
+C:Q1q621rn6byK+LniaGNE8IaeGTz5E=
 P:flatpak-builder-doc
-V:1.4.7-r1
+V:1.4.9-r0
 A:x86_64
-S:35712
-I:97925
+S:35768
+I:98051
 T:Tool to build flatpaks from source (documentation)
 U:https://flatpak.org
 L:LGPL-2.1-or-later
 o:flatpak-builder
 m:André Klitzing <aklitzing@gmail.com>
-t:1770824164
-c:8a1888d386a7f24ae881827223ce862b830285e3
-i:docs flatpak-builder=1.4.7-r1
+t:1780012630
+c:15c88764978ee1d1b66e558c0123a333976400b8
+i:docs flatpak-builder=1.4.9-r0
 
 C:Q16THnJPGoXoOYRbWyvK5Poe5V8aE=
 P:flatpak-dbg
@@ -86442,98 +86442,98 @@ c:8dadf3ab6d3e5e6a6ed713a49636d480f3947ea0
 D:gst-devtools=1.28.1-r1 pc:gio-2.0>=2.64.0 pc:gmodule-no-export-2.0 pc:gstreamer-1.0>=1.28.0 pc:gstreamer-app-1.0>=1.28.0 pc:gstreamer-base-1.0>=1.28.0 pc:gstreamer-check-1.0>=1.28.0 pc:gstreamer-controller-1.0>=1.28.0 pc:gstreamer-pbutils-1.0>=1.28.0 pc:gstreamer-video-1.0>=1.28.0 pc:json-glib-1.0 pkgconfig
 p:pc:gstreamer-validate-1.0=1.28.1
 
-C:Q1Vt2fbkEP5PaO3ljB9fhotIDP6lU=
+C:Q1tuIsFMi4ko2QEyOs0Zi+HUTpQiY=
 P:gst-editing-services
-V:1.28.1-r1
+V:1.28.3-r0
 A:x86_64
-S:507708
-I:1315083
+S:508145
+I:1319179
 T:GStreamer Editing Services Library
 U:https://gstreamer.freedesktop.org
 L:LGPL-2.0-or-later
 o:gst-editing-services
 m:team/alpine-desktop <achill@achill.org>
-t:1774866507
-c:36c63ee04cc5db25eb17761542b31cf6c0f4b8fc
+t:1780013391
+c:6aa1c224a8ec5f4293f9880ffa06cc856d4ed09f
 D:python3~3.14 so:libc.musl-x86_64.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstcontroller-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libxml2.so.2
-p:cmd:ges-launch-1.0=1.28.1-r1 so:libges-1.0.so.0=0.2801.0
+p:cmd:ges-launch-1.0=1.28.3-r0 so:libges-1.0.so.0=0.2803.0
 
-C:Q1U3/1blq4G3c5pMp+ZVNXpgMygVA=
+C:Q1/NonFkDm30qmYuzUuEtWsXN9KI0=
 P:gst-editing-services-dev
-V:1.28.1-r1
+V:1.28.3-r0
 A:x86_64
-S:165612
+S:165627
 I:1333711
 T:GStreamer Editing Services Library (development files)
 U:https://gstreamer.freedesktop.org
 L:LGPL-2.0-or-later
 o:gst-editing-services
 m:team/alpine-desktop <achill@achill.org>
-t:1774866507
-c:36c63ee04cc5db25eb17761542b31cf6c0f4b8fc
-D:gst-editing-services=1.28.1-r1 pc:gio-2.0>=2.64.0 pc:gstreamer-1.0>=1.28.0 pc:gstreamer-base-1.0>=1.28.0 pc:gstreamer-controller-1.0>=1.28.0 pc:gstreamer-pbutils-1.0>=1.28.0 pc:gstreamer-video-1.0>=1.28.0 pc:libxml-2.0 pkgconfig
-p:pc:gst-editing-services-1.0=1.28.1
+t:1780013391
+c:6aa1c224a8ec5f4293f9880ffa06cc856d4ed09f
+D:gst-editing-services=1.28.3-r0 pc:gio-2.0>=2.64.0 pc:gstreamer-1.0>=1.28.0 pc:gstreamer-base-1.0>=1.28.0 pc:gstreamer-controller-1.0>=1.28.0 pc:gstreamer-pbutils-1.0>=1.28.0 pc:gstreamer-video-1.0>=1.28.0 pc:libxml-2.0 pkgconfig
+p:pc:gst-editing-services-1.0=1.28.3
 
-C:Q1WF2kkLzdVw39ZrJD/bXajD4H58A=
+C:Q1TgxE5El76LlrpFMS5cjNkW3b9d0=
 P:gst-editing-services-doc
-V:1.28.1-r1
+V:1.28.3-r0
 A:x86_64
-S:2359
+S:2361
 I:630
 T:GStreamer Editing Services Library (documentation)
 U:https://gstreamer.freedesktop.org
 L:LGPL-2.0-or-later
 o:gst-editing-services
 m:team/alpine-desktop <achill@achill.org>
-t:1774866507
-c:36c63ee04cc5db25eb17761542b31cf6c0f4b8fc
-i:docs gst-editing-services=1.28.1-r1
+t:1780013391
+c:6aa1c224a8ec5f4293f9880ffa06cc856d4ed09f
+i:docs gst-editing-services=1.28.3-r0
 
-C:Q1pk43KI/f68qHix4PTxFL7MMqS3M=
+C:Q1RZlaJXZZo1QdPEaIzb0UGHt5xjk=
 P:gst-editing-services-pyc
-V:1.28.1-r1
+V:1.28.3-r0
 A:x86_64
-S:3836
+S:3837
 I:3809
 T:Precompiled Python bytecode for gst-editing-services
 U:https://gstreamer.freedesktop.org
 L:LGPL-2.0-or-later
 o:gst-editing-services
 m:team/alpine-desktop <achill@achill.org>
-t:1774866507
-c:36c63ee04cc5db25eb17761542b31cf6c0f4b8fc
+t:1780013391
+c:6aa1c224a8ec5f4293f9880ffa06cc856d4ed09f
 D:python3~3.14
-i:gst-editing-services=1.28.1-r1 pyc
+i:gst-editing-services=1.28.3-r0 pyc
 
-C:Q1uQp1XIrox4DdN5rXw0PNO5wKqRg=
+C:Q1KcWtrGWYbhqf1ks83q8MVdBEcYE=
 P:gst-libav
-V:1.28.1-r0
+V:1.28.3-r0
 A:x86_64
-S:113782
+S:114167
 I:268952
 T:GStreamer streaming media framework libav plugin
 U:https://gstreamer.freedesktop.org
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-libav
 m:team/alpine-desktop <achill@achill.org>
-t:1772106951
-c:aaf37588e480f5101eb66b1de82df2f571e37fde
+t:1780013391
+c:40338013a27bd86cc474626e4071a43395d0031a
 D:so:libavcodec.so.62 so:libavfilter.so.11 so:libavformat.so.62 so:libavutil.so.60 so:libc.musl-x86_64.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0
 
-C:Q1LxecZC2b5S9PXSP54Jp16d5vIzs=
+C:Q1ZMlENcnlixUVbvo06yZl1oA1Wek=
 P:gst-libav-dbg
-V:1.28.1-r0
+V:1.28.3-r0
 A:x86_64
-S:446422
-I:966200
+S:447211
+I:967960
 T:GStreamer streaming media framework libav plugin (debug symbols)
 U:https://gstreamer.freedesktop.org
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-libav
 m:team/alpine-desktop <achill@achill.org>
-t:1772106951
-c:aaf37588e480f5101eb66b1de82df2f571e37fde
-D:!gst-libav<1.28.1-r0 !gst-libav>1.28.1-r0
+t:1780013391
+c:40338013a27bd86cc474626e4071a43395d0031a
+D:!gst-libav<1.28.3-r0 !gst-libav>1.28.3-r0
 
 C:Q1mjhN+NfgBctHtUNSkDNQchOPyvM=
 P:gst-plugin-pipewire
@@ -86551,143 +86551,143 @@ c:1d5e42f8b003105f2289b356009b2ae062b5d245
 D:pipewire-session-manager gst-plugins-base so:libc.musl-x86_64.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstallocators-1.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libpipewire-0.3.so.0
 i:pipewire=1.6.6-r0 gstreamer
 
-C:Q1EPhpjBTNLX+d3ln4F4fCSiNq0KM=
+C:Q19/LJyGD5dwy1vlpiF5ytyb+ReSI=
 P:gst-plugins-bad
-V:1.28.1-r0
+V:1.28.3-r0
 A:x86_64
-S:5252011
-I:13576269
+S:5259873
+I:13592861
 T:GStreamer streaming media framework bad plug-ins
 U:https://gstreamer.freedesktop.org/
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-plugins-bad
 m:team/alpine-desktop <achill@achill.org>
-t:1773007760
-c:e923bcf62eec9b483e37d47af142e976ad0d6ddd
+t:1780013391
+c:3a9f73115455709c59f4d4895c3562fecbb78c59
 D:so:libIex-3_4.so.33 so:libImath-3_2.so.30 so:libOpenEXR-3_4.so.33 so:libSoundTouch.so.2 so:libSvtAv1Enc.so.4 so:libX11.so.6 so:libaom.so.3 so:libass.so.9 so:libbz2.so.1 so:libc.musl-x86_64.so.1 so:libcairo.so.2 so:libcrypto.so.3 so:libcurl.so.4 so:libdc1394.so.26 so:libde265.so.0 so:libdirectfb-1.7.so.7 so:libdrm.so.2 so:libdvdnav.so.4 so:libdvdread.so.8 so:libfaac.so.0 so:libfaad.so.2 so:libfdk-aac.so.2 so:libflite.so.1 so:libflite_cmu_us_kal.so.1 so:libfreeaptx.so.0 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgsm.so.1 so:libgstallocators-1.0.so.0 so:libgstapp-1.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstfft-1.0.so.0 so:libgstgl-1.0.so.0 so:libgstnet-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstrtp-1.0.so.0 so:libgstsdp-1.0.so.0 so:libgsttag-1.0.so.0 so:libgstvideo-1.0.so.0 so:libgtk-3.so.0 so:libgudev-1.0.so.0 so:libintl.so.8 so:liblcms2.so.2 so:libldacBT_enc.so.2 so:libmodplug.so.1 so:libneon.so.27 so:libnettle.so.8 so:libopenal.so.1 so:libopenh264.so.8 so:libopenjp2.so.7 so:libopus.so.0 so:liborc-0.4.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:librsvg-2.so.2 so:librtmp.so.1 so:libsbc.so.1 so:libsndfile.so.1 so:libspandsp.so.2 so:libsrt.so.1.5 so:libsrtp2.so.1 so:libssl.so.3 so:libstdc++.so.6 so:libusb-1.0.so.0 so:libva-drm.so.2 so:libva.so.2 so:libvo-aacenc.so.0 so:libvo-amrwbenc.so.0 so:libvulkan.so.1 so:libwayland-client.so.0 so:libwebp.so.7 so:libwebpmux.so.3 so:libx265.so.215 so:libxcb.so.1 so:libxkbcommon-x11.so.0 so:libxkbcommon.so.0 so:libxml2.so.2 so:libzbar.so.0
-p:cmd:gst-transcoder-1.0=1.28.1-r0 cmd:playout=1.28.1-r0 so:libgstaccurip.so=0 so:libgstadaptivedemux-1.0.so.0=0.2801.0 so:libgstadpcmdec.so=0 so:libgstadpcmenc.so=0 so:libgstaes.so=0 so:libgstaiff.so=0 so:libgstanalytics-1.0.so.0=0.2801.0 so:libgstanalyticsoverlay.so=0 so:libgstaom.so=0 so:libgstasfmux.so=0 so:libgstassrender.so=0 so:libgstaudiobuffersplit.so=0 so:libgstaudiofxbad.so=0 so:libgstaudiolatency.so=0 so:libgstaudiomixmatrix.so=0 so:libgstaudiovisualizers.so=0 so:libgstautoconvert.so=0 so:libgstbadaudio-1.0.so.0=0.2801.0 so:libgstbasecamerabinsrc-1.0.so.0=0.2801.0 so:libgstbayer.so=0 so:libgstbluez.so=0 so:libgstbz2.so=0 so:libgstcamerabin.so=0 so:libgstclosedcaption.so=0 so:libgstcodecalpha.so=0 so:libgstcodecparsers-1.0.so.0=0.2801.0 so:libgstcodecs-1.0.so.0=0.2801.0 so:libgstcodectimestamper.so=0 so:libgstcoloreffects.so=0 so:libgstcolormanagement.so=0 so:libgstcuda-1.0.so.0=0.2801.0 so:libgstcurl.so=0 so:libgstdash.so=0 so:libgstdc1394.so=0 so:libgstde265.so=0 so:libgstdebugutilsbad.so=0 so:libgstdecklink.so=0 so:libgstdirectfb.so=0 so:libgstdtls.so=0 so:libgstdvb.so=0 so:libgstdvbsubenc.so=0 so:libgstdvbsuboverlay.so=0 so:libgstdvdspu.so=0 so:libgstdxva-1.0.so.0=0.2801.0 so:libgstfaac.so=0 so:libgstfaad.so=0 so:libgstfaceoverlay.so=0 so:libgstfbdevsink.so=0 so:libgstfdkaac.so=0 so:libgstfestival.so=0 so:libgstfieldanalysis.so=0 so:libgstflite.so=0 so:libgstfreeverb.so=0 so:libgstfrei0r.so=0 so:libgstgaudieffects.so=0 so:libgstgdp.so=0 so:libgstgeometrictransform.so=0 so:libgstgsm.so=0 so:libgstgtkwayland.so=0 so:libgsthip.so.0=0.2801.0 so:libgsthip.so=0 so:libgsthls.so=0 so:libgstid3tag.so=0 so:libgstinsertbin-1.0.so.0=0.2801.0 so:libgstinsertbin.so=0 so:libgstinter.so=0 so:libgstinterlace.so=0 so:libgstipcpipeline.so=0 so:libgstisoff-1.0.so.0=0.2801.0 so:libgstivfparse.so=0 so:libgstivtc.so=0 so:libgstjp2kdecimator.so=0 so:libgstjpegformat.so=0 so:libgstkms.so=0 so:libgstldac.so=0 so:libgstlegacyrawparse.so=0 so:libgstmidi.so=0 so:libgstmodplug.so=0 so:libgstmpegpsdemux.so=0 so:libgstmpegpsmux.so=0 so:libgstmpegts-1.0.so.0=0.2801.0 so:libgstmpegtsdemux.so=0 so:libgstmpegtsmux.so=0 so:libgstmse-1.0.so.0=0.2801.0 so:libgstmse.so=0 so:libgstmxf.so=0 so:libgstneonhttpsrc.so=0 so:libgstnetsim.so=0 so:libgstnvcodec.so=0 so:libgstopenal.so=0 so:libgstopenaptx.so=0 so:libgstopenexr.so=0 so:libgstopenh264.so=0 so:libgstopenjpeg.so=0 so:libgstopusparse.so=0 so:libgstpcapparse.so=0 so:libgstphotography-1.0.so.0=0.2801.0 so:libgstplay-1.0.so.0=0.2801.0 so:libgstplayer-1.0.so.0=0.2801.0 so:libgstpnm.so=0 so:libgstproxy.so=0 so:libgstqsv.so=0 so:libgstremovesilence.so=0 so:libgstresindvd.so=0 so:libgstrfbsrc.so=0 so:libgstrist.so=0 so:libgstrsvg.so=0 so:libgstrtmp.so=0 so:libgstrtmp2.so=0 so:libgstrtpmanagerbad.so=0 so:libgstrtponvif.so=0 so:libgstsbc.so=0 so:libgstsctp-1.0.so.0=0.2801.0 so:libgstsctp.so=0 so:libgstsdpelem.so=0 so:libgstsegmentclip.so=0 so:libgstshm.so=0 so:libgstsiren.so=0 so:libgstsmooth.so=0 so:libgstsmoothstreaming.so=0 so:libgstsndfile.so=0 so:libgstsoundtouch.so=0 so:libgstspandsp.so=0 so:libgstspeed.so=0 so:libgstsrt.so=0 so:libgstsrtp.so=0 so:libgstsubenc.so=0 so:libgstsvtav1.so=0 so:libgstswitchbin.so=0 so:libgsttensordecoders.so=0 so:libgsttimecode.so=0 so:libgsttranscode.so=0 so:libgsttranscoder-1.0.so.0=0 so:libgstttmlsubs.so=0 so:libgstunixfd.so=0 so:libgsturidownloader-1.0.so.0=0.2801.0 so:libgstuvcgadget.so=0 so:libgstuvch264.so=0 so:libgstv4l2codecs.so=0 so:libgstva-1.0.so.0=0.2801.0 so:libgstva.so=0 so:libgstvideofiltersbad.so=0 so:libgstvideoframe_audiolevel.so=0 so:libgstvideoparsersbad.so=0 so:libgstvideosignal.so=0 so:libgstvmnc.so=0 so:libgstvoaacenc.so=0 so:libgstvoamrwbenc.so=0 so:libgstvulkan-1.0.so.0=0.2801.0 so:libgstwayland-1.0.so.0=0.2801.0 so:libgstwaylandsink.so=0 so:libgstwebp.so=0 so:libgstwebrtc-1.0.so.0=0.2801.0 so:libgstx265.so=0 so:libgstzbar.so=0
+p:cmd:gst-transcoder-1.0=1.28.3-r0 cmd:playout=1.28.3-r0 so:libgstaccurip.so=0 so:libgstadaptivedemux-1.0.so.0=0.2803.0 so:libgstadpcmdec.so=0 so:libgstadpcmenc.so=0 so:libgstaes.so=0 so:libgstaiff.so=0 so:libgstanalytics-1.0.so.0=0.2803.0 so:libgstanalyticsoverlay.so=0 so:libgstaom.so=0 so:libgstasfmux.so=0 so:libgstassrender.so=0 so:libgstaudiobuffersplit.so=0 so:libgstaudiofxbad.so=0 so:libgstaudiolatency.so=0 so:libgstaudiomixmatrix.so=0 so:libgstaudiovisualizers.so=0 so:libgstautoconvert.so=0 so:libgstbadaudio-1.0.so.0=0.2803.0 so:libgstbasecamerabinsrc-1.0.so.0=0.2803.0 so:libgstbayer.so=0 so:libgstbluez.so=0 so:libgstbz2.so=0 so:libgstcamerabin.so=0 so:libgstclosedcaption.so=0 so:libgstcodecalpha.so=0 so:libgstcodecparsers-1.0.so.0=0.2803.0 so:libgstcodecs-1.0.so.0=0.2803.0 so:libgstcodectimestamper.so=0 so:libgstcoloreffects.so=0 so:libgstcolormanagement.so=0 so:libgstcuda-1.0.so.0=0.2803.0 so:libgstcurl.so=0 so:libgstdash.so=0 so:libgstdc1394.so=0 so:libgstde265.so=0 so:libgstdebugutilsbad.so=0 so:libgstdecklink.so=0 so:libgstdirectfb.so=0 so:libgstdtls.so=0 so:libgstdvb.so=0 so:libgstdvbsubenc.so=0 so:libgstdvbsuboverlay.so=0 so:libgstdvdspu.so=0 so:libgstdxva-1.0.so.0=0.2803.0 so:libgstfaac.so=0 so:libgstfaad.so=0 so:libgstfaceoverlay.so=0 so:libgstfbdevsink.so=0 so:libgstfdkaac.so=0 so:libgstfestival.so=0 so:libgstfieldanalysis.so=0 so:libgstflite.so=0 so:libgstfreeverb.so=0 so:libgstfrei0r.so=0 so:libgstgaudieffects.so=0 so:libgstgdp.so=0 so:libgstgeometrictransform.so=0 so:libgstgsm.so=0 so:libgstgtkwayland.so=0 so:libgsthip.so.0=0.2803.0 so:libgsthip.so=0 so:libgsthls.so=0 so:libgstid3tag.so=0 so:libgstinsertbin-1.0.so.0=0.2803.0 so:libgstinsertbin.so=0 so:libgstinter.so=0 so:libgstinterlace.so=0 so:libgstipcpipeline.so=0 so:libgstisoff-1.0.so.0=0.2803.0 so:libgstivfparse.so=0 so:libgstivtc.so=0 so:libgstjp2kdecimator.so=0 so:libgstjpegformat.so=0 so:libgstkms.so=0 so:libgstldac.so=0 so:libgstlegacyrawparse.so=0 so:libgstmidi.so=0 so:libgstmodplug.so=0 so:libgstmpegpsdemux.so=0 so:libgstmpegpsmux.so=0 so:libgstmpegts-1.0.so.0=0.2803.0 so:libgstmpegtsdemux.so=0 so:libgstmpegtsmux.so=0 so:libgstmse-1.0.so.0=0.2803.0 so:libgstmse.so=0 so:libgstmxf.so=0 so:libgstneonhttpsrc.so=0 so:libgstnetsim.so=0 so:libgstnvcodec.so=0 so:libgstopenal.so=0 so:libgstopenaptx.so=0 so:libgstopenexr.so=0 so:libgstopenh264.so=0 so:libgstopenjpeg.so=0 so:libgstopusparse.so=0 so:libgstpcapparse.so=0 so:libgstphotography-1.0.so.0=0.2803.0 so:libgstplay-1.0.so.0=0.2803.0 so:libgstplayer-1.0.so.0=0.2803.0 so:libgstpnm.so=0 so:libgstproxy.so=0 so:libgstqsv.so=0 so:libgstremovesilence.so=0 so:libgstresindvd.so=0 so:libgstrfbsrc.so=0 so:libgstrist.so=0 so:libgstrsvg.so=0 so:libgstrtmp.so=0 so:libgstrtmp2.so=0 so:libgstrtpmanagerbad.so=0 so:libgstrtponvif.so=0 so:libgstsbc.so=0 so:libgstsctp-1.0.so.0=0.2803.0 so:libgstsctp.so=0 so:libgstsdpelem.so=0 so:libgstsegmentclip.so=0 so:libgstshm.so=0 so:libgstsiren.so=0 so:libgstsmooth.so=0 so:libgstsmoothstreaming.so=0 so:libgstsndfile.so=0 so:libgstsoundtouch.so=0 so:libgstspandsp.so=0 so:libgstspeed.so=0 so:libgstsrt.so=0 so:libgstsrtp.so=0 so:libgstsubenc.so=0 so:libgstsvtav1.so=0 so:libgstswitchbin.so=0 so:libgsttensordecoders.so=0 so:libgsttimecode.so=0 so:libgsttranscode.so=0 so:libgsttranscoder-1.0.so.0=0 so:libgstttmlsubs.so=0 so:libgstunixfd.so=0 so:libgsturidownloader-1.0.so.0=0.2803.0 so:libgstuvcgadget.so=0 so:libgstuvch264.so=0 so:libgstv4l2codecs.so=0 so:libgstva-1.0.so.0=0.2803.0 so:libgstva.so=0 so:libgstvideofiltersbad.so=0 so:libgstvideoframe_audiolevel.so=0 so:libgstvideoparsersbad.so=0 so:libgstvideosignal.so=0 so:libgstvmnc.so=0 so:libgstvoaacenc.so=0 so:libgstvoamrwbenc.so=0 so:libgstvulkan-1.0.so.0=0.2803.0 so:libgstwayland-1.0.so.0=0.2803.0 so:libgstwaylandsink.so=0 so:libgstwebp.so=0 so:libgstwebrtc-1.0.so.0=0.2803.0 so:libgstx265.so=0 so:libgstzbar.so=0
 
-C:Q1aY5IQXbrA3s5y+kRf7tUTLWnW0A=
+C:Q1cGbLomud4fBviKJOv/p4ClozunQ=
 P:gst-plugins-bad-dbg
-V:1.28.1-r0
+V:1.28.3-r0
 A:x86_64
-S:21964205
-I:52180328
+S:21967475
+I:52165856
 T:GStreamer streaming media framework bad plug-ins (debug symbols)
 U:https://gstreamer.freedesktop.org/
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-plugins-bad
 m:team/alpine-desktop <achill@achill.org>
-t:1773007760
-c:e923bcf62eec9b483e37d47af142e976ad0d6ddd
-D:!gst-plugins-bad<1.28.1-r0 !gst-plugins-bad>1.28.1-r0
+t:1780013391
+c:3a9f73115455709c59f4d4895c3562fecbb78c59
+D:!gst-plugins-bad<1.28.3-r0 !gst-plugins-bad>1.28.3-r0
 
-C:Q1m+0Z8u1+lw3ndfL7/Qb111Nzp7E=
+C:Q1VwLFLZ2uhig5sv5/qIgzdSoqJ6o=
 P:gst-plugins-bad-dev
-V:1.28.1-r0
+V:1.28.3-r0
 A:x86_64
-S:633669
-I:5682079
+S:633958
+I:5683812
 T:GStreamer streaming media framework bad plug-ins (development files)
 U:https://gstreamer.freedesktop.org/
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-plugins-bad
 m:team/alpine-desktop <achill@achill.org>
-t:1773007760
-c:e923bcf62eec9b483e37d47af142e976ad0d6ddd
-D:gst-plugins-bad=1.28.1-r0 pc:gmodule-no-export-2.0 pc:gstreamer-1.0>=1.28.0 pc:gstreamer-allocators-1.0>=1.28.0 pc:gstreamer-app-1.0>=1.28.0 pc:gstreamer-audio-1.0>=1.28.0 pc:gstreamer-base-1.0>=1.28.0 pc:gstreamer-gl-1.0>=1.28.0 pc:gstreamer-gl-prototypes-1.0>=1.28.0 pc:gstreamer-pbutils-1.0>=1.28.0 pc:gstreamer-sdp-1.0>=1.28.0 pc:gstreamer-tag-1.0>=1.28.0 pc:gstreamer-video-1.0>=1.28.0 pc:libdrm>=2.4.50 pc:libva-drm>=1.12 pc:libva>=1.12 pc:vulkan pc:wayland-client pc:wayland-client>=1.4 pc:xcb pc:xcb>=1.10 pc:xkbcommon pc:xkbcommon-x11 pkgconfig
-p:pc:gstreamer-analytics-1.0=1.28.1 pc:gstreamer-bad-audio-1.0=1.28.1 pc:gstreamer-codecparsers-1.0=1.28.1 pc:gstreamer-cuda-1.0=1.28.1 pc:gstreamer-hip-1.0=1.28.1 pc:gstreamer-hip-gl-1.0=1.28.1 pc:gstreamer-insertbin-1.0=1.28.1 pc:gstreamer-mpegts-1.0=1.28.1 pc:gstreamer-mse-1.0=1.28.1 pc:gstreamer-photography-1.0=1.28.1 pc:gstreamer-play-1.0=1.28.1 pc:gstreamer-player-1.0=1.28.1 pc:gstreamer-plugins-bad-1.0=1.28.1 pc:gstreamer-sctp-1.0=1.28.1 pc:gstreamer-transcoder-1.0=1.28.1 pc:gstreamer-va-1.0=1.28.1 pc:gstreamer-vulkan-1.0=1.28.1 pc:gstreamer-vulkan-wayland-1.0=1.28.1 pc:gstreamer-vulkan-xcb-1.0=1.28.1 pc:gstreamer-wayland-1.0=1.28.1 pc:gstreamer-webrtc-1.0=1.28.1
+t:1780013391
+c:3a9f73115455709c59f4d4895c3562fecbb78c59
+D:gst-plugins-bad=1.28.3-r0 pc:gmodule-no-export-2.0 pc:gstreamer-1.0>=1.28.0 pc:gstreamer-allocators-1.0>=1.28.0 pc:gstreamer-app-1.0>=1.28.0 pc:gstreamer-audio-1.0>=1.28.0 pc:gstreamer-base-1.0>=1.28.0 pc:gstreamer-gl-1.0>=1.28.0 pc:gstreamer-gl-prototypes-1.0>=1.28.0 pc:gstreamer-pbutils-1.0>=1.28.0 pc:gstreamer-sdp-1.0>=1.28.0 pc:gstreamer-tag-1.0>=1.28.0 pc:gstreamer-video-1.0>=1.28.0 pc:libdrm>=2.4.50 pc:libva-drm>=1.12 pc:libva>=1.12 pc:vulkan pc:wayland-client pc:wayland-client>=1.4 pc:xcb pc:xcb>=1.10 pc:xkbcommon pc:xkbcommon-x11 pkgconfig
+p:pc:gstreamer-analytics-1.0=1.28.3 pc:gstreamer-bad-audio-1.0=1.28.3 pc:gstreamer-codecparsers-1.0=1.28.3 pc:gstreamer-cuda-1.0=1.28.3 pc:gstreamer-hip-1.0=1.28.3 pc:gstreamer-hip-gl-1.0=1.28.3 pc:gstreamer-insertbin-1.0=1.28.3 pc:gstreamer-mpegts-1.0=1.28.3 pc:gstreamer-mse-1.0=1.28.3 pc:gstreamer-photography-1.0=1.28.3 pc:gstreamer-play-1.0=1.28.3 pc:gstreamer-player-1.0=1.28.3 pc:gstreamer-plugins-bad-1.0=1.28.3 pc:gstreamer-sctp-1.0=1.28.3 pc:gstreamer-transcoder-1.0=1.28.3 pc:gstreamer-va-1.0=1.28.3 pc:gstreamer-vulkan-1.0=1.28.3 pc:gstreamer-vulkan-wayland-1.0=1.28.3 pc:gstreamer-vulkan-xcb-1.0=1.28.3 pc:gstreamer-wayland-1.0=1.28.3 pc:gstreamer-webrtc-1.0=1.28.3
 
-C:Q1UrATRTab4RlR5AKJ4m9zZYJ/QJo=
+C:Q1+m726gw1LlqiNafH/epVk+t6xYo=
 P:gst-plugins-bad-lang
-V:1.28.1-r0
+V:1.28.3-r0
 A:x86_64
-S:40382
-I:144162
+S:41543
+I:148940
 T:Languages for package gst-plugins-bad
 U:https://gstreamer.freedesktop.org/
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-plugins-bad
 m:team/alpine-desktop <achill@achill.org>
-t:1773007760
-c:e923bcf62eec9b483e37d47af142e976ad0d6ddd
-i:gst-plugins-bad=1.28.1-r0 lang
+t:1780013391
+c:3a9f73115455709c59f4d4895c3562fecbb78c59
+i:gst-plugins-bad=1.28.3-r0 lang
 
-C:Q1PecW5Nts6W2GZ4XpGgQeKO/5sz0=
+C:Q1Pd15R8n2wcg0S4sGGqdM7+kJPgw=
 P:gst-plugins-good
-V:1.28.1-r0
+V:1.28.3-r0
 A:x86_64
-S:2934420
+S:2937272
 I:7221612
 T:GStreamer streaming media framework good plugins
 U:https://gstreamer.freedesktop.org
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-plugins-good
 m:team/alpine-desktop <achill@achill.org>
-t:1773007760
-c:df0956af7bad21950860dc5314640eb536dd9396
+t:1780013391
+c:74b7f4d73e1235f6184ca8094b9336cb8b117293
 D:libsoup3 so:libFLAC.so.12 so:libX11.so.6 so:libXdamage.so.1 so:libXext.so.6 so:libXfixes.so.3 so:libXtst.so.6 so:libavc1394.so.0 so:libbz2.so.1 so:libc.musl-x86_64.so.1 so:libcairo-gobject.so.2 so:libcairo.so.2 so:libdv.so.4 so:libgcc_s.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgstallocators-1.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstfft-1.0.so.0 so:libgstnet-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstriff-1.0.so.0 so:libgstrtp-1.0.so.0 so:libgstrtsp-1.0.so.0 so:libgstsdp-1.0.so.0 so:libgsttag-1.0.so.0 so:libgstvideo-1.0.so.0 so:libgudev-1.0.so.0 so:libiec61883.so.0 so:libintl.so.8 so:libjpeg.so.8 so:libmp3lame.so.0 so:libmpg123.so.0 so:libnettle.so.8 so:libopencore-amrnb.so.0 so:libopencore-amrwb.so.0 so:liborc-0.4.so.0 so:libpng16.so.16 so:libpulse.so.0 so:libraw1394.so.11 so:librom1394.so.0 so:libshout.so.3 so:libspeex.so.1 so:libstdc++.so.6 so:libtag.so.2 so:libvpx.so.11 so:libwavpack.so.1 so:libxml2.so.2 so:libz.so.1
 p:so:libgst1394.so=0 so:libgstadaptivedemux2.so=0 so:libgstalaw.so=0 so:libgstalpha.so=0 so:libgstalphacolor.so=0 so:libgstamrnb.so=0 so:libgstamrwbdec.so=0 so:libgstapetag.so=0 so:libgstaudiofx.so=0 so:libgstaudioparsers.so=0 so:libgstauparse.so=0 so:libgstautodetect.so=0 so:libgstavi.so=0 so:libgstcairo.so=0 so:libgstcutter.so=0 so:libgstdebug.so=0 so:libgstdeinterlace.so=0 so:libgstdtmf.so=0 so:libgstdv.so=0 so:libgsteffectv.so=0 so:libgstequalizer.so=0 so:libgstflac.so=0 so:libgstflv.so=0 so:libgstflxdec.so=0 so:libgstgdkpixbuf.so=0 so:libgstgoom.so=0 so:libgstgoom2k1.so=0 so:libgsticydemux.so=0 so:libgstid3demux.so=0 so:libgstimagefreeze.so=0 so:libgstinterleave.so=0 so:libgstisomp4.so=0 so:libgstjack.so=0 so:libgstjpeg.so=0 so:libgstlame.so=0 so:libgstlevel.so=0 so:libgstmatroska.so=0 so:libgstmonoscope.so=0 so:libgstmpg123.so=0 so:libgstmulaw.so=0 so:libgstmultifile.so=0 so:libgstmultipart.so=0 so:libgstnavigationtest.so=0 so:libgstoss4.so=0 so:libgstossaudio.so=0 so:libgstpng.so=0 so:libgstpulseaudio.so=0 so:libgstreplaygain.so=0 so:libgstrtp.so=0 so:libgstrtpmanager.so=0 so:libgstrtsp.so=0 so:libgstshapewipe.so=0 so:libgstshout2.so=0 so:libgstsmpte.so=0 so:libgstsoup.so=0 so:libgstspectrum.so=0 so:libgstspeex.so=0 so:libgsttaglib.so=0 so:libgstudp.so=0 so:libgstvideo4linux2.so=0 so:libgstvideobox.so=0 so:libgstvideocrop.so=0 so:libgstvideofilter.so=0 so:libgstvideomixer.so=0 so:libgstvpx.so=0 so:libgstwavenc.so=0 so:libgstwavpack.so=0 so:libgstwavparse.so=0 so:libgstximagesrc.so=0 so:libgstxingmux.so=0 so:libgsty4m.so=0
 
-C:Q1/cKgtFwKLz5/Rd/fd7PyZewAel0=
+C:Q1nGqeJz1WBxJQUJeiIwXbKW7GcYs=
 P:gst-plugins-good-dbg
-V:1.28.1-r0
+V:1.28.3-r0
 A:x86_64
-S:12363559
-I:29542160
+S:12368165
+I:29551704
 T:GStreamer streaming media framework good plugins (debug symbols)
 U:https://gstreamer.freedesktop.org
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-plugins-good
 m:team/alpine-desktop <achill@achill.org>
-t:1773007760
-c:df0956af7bad21950860dc5314640eb536dd9396
-D:!gst-plugins-good-gtk<1.28.1-r0 !gst-plugins-good-gtk>1.28.1-r0 !gst-plugins-good-qt<1.28.1-r0 !gst-plugins-good-qt>1.28.1-r0 !gst-plugins-good<1.28.1-r0 !gst-plugins-good>1.28.1-r0
+t:1780013391
+c:74b7f4d73e1235f6184ca8094b9336cb8b117293
+D:!gst-plugins-good-gtk<1.28.3-r0 !gst-plugins-good-gtk>1.28.3-r0 !gst-plugins-good-qt<1.28.3-r0 !gst-plugins-good-qt>1.28.3-r0 !gst-plugins-good<1.28.3-r0 !gst-plugins-good>1.28.3-r0
 
-C:Q1FDoK0/ALDQ4SCBISQyEl/6ZxA+c=
+C:Q1+vLU6oD/hgjc8b2SNmvL+kpMyQE=
 P:gst-plugins-good-gtk
-V:1.28.1-r0
+V:1.28.3-r0
 A:x86_64
-S:23303
+S:23312
 I:59224
 T:Gstreamer gtk-3 plugin
 U:https://gstreamer.freedesktop.org
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-plugins-good
 m:team/alpine-desktop <achill@achill.org>
-t:1773007760
-c:df0956af7bad21950860dc5314640eb536dd9396
+t:1780013391
+c:74b7f4d73e1235f6184ca8094b9336cb8b117293
 D:libsoup3 so:libc.musl-x86_64.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstgl-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libgtk-3.so.0
 p:so:libgstgtk.so=0
 
-C:Q1cEeJMHdTPVvXUc115qUHiTVdhEI=
+C:Q1CSVstXspFx0gjoNBBixT8QHxzjo=
 P:gst-plugins-good-lang
-V:1.28.1-r0
+V:1.28.3-r0
 A:x86_64
-S:113826
-I:491428
+S:116161
+I:509324
 T:Languages for package gst-plugins-good
 U:https://gstreamer.freedesktop.org
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-plugins-good
 m:team/alpine-desktop <achill@achill.org>
-t:1773007760
-c:df0956af7bad21950860dc5314640eb536dd9396
-i:gst-plugins-good=1.28.1-r0 lang
+t:1780013391
+c:74b7f4d73e1235f6184ca8094b9336cb8b117293
+i:gst-plugins-good=1.28.3-r0 lang
 
-C:Q1T1tceu2Ed90E8h7p8TClBw/H36g=
+C:Q1zNdU0rEBcl/C6WAZWk4FQHoZQ+c=
 P:gst-plugins-good-qt
-V:1.28.1-r0
+V:1.28.3-r0
 A:x86_64
-S:84991
+S:85051
 I:216432
 T:Gstreamer Qt plugin
 U:https://gstreamer.freedesktop.org
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-plugins-good
 m:team/alpine-desktop <achill@achill.org>
-t:1773007760
-c:df0956af7bad21950860dc5314640eb536dd9396
+t:1780013391
+c:74b7f4d73e1235f6184ca8094b9336cb8b117293
 D:libsoup3 so:libGLESv2.so.2 so:libQt6Core.so.6 so:libQt6Gui.so.6 so:libQt6Qml.so.6 so:libQt6Quick.so.6 so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstbase-1.0.so.0 so:libgstgl-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstvideo-1.0.so.0 so:libstdc++.so.6
 p:so:libgstqml6.so=0
 
@@ -87382,83 +87382,83 @@ t:1778692755
 c:bebdc38573ea55fb525d000c958a551f942d03b6
 D:so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstreamer-1.0.so.0 so:libgstsdp-1.0.so.0 so:libgstwebrtc-1.0.so.0
 
-C:Q1J/CM2Scdj3UQrAoqgT1Rc6us92Q=
+C:Q1DvbA/cfllbexI7CJn5k8BNWUPpI=
 P:gst-plugins-ugly
-V:1.28.1-r0
+V:1.28.3-r0
 A:x86_64
-S:159534
+S:159528
 I:389394
 T:GStreamer streaming media framework ugly plug-ins
 U:https://gstreamer.freedesktop.org
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-plugins-ugly
 m:team/alpine-desktop <achill@achill.org>
-t:1772106951
-c:7bb1154bb960730468caf7d48363f72c2bd7c63e
+t:1780013391
+c:9eb1dd35a7011cfef88c53a17c197ce3fae90e3f
 D:so:liba52.so.0 so:libc.musl-x86_64.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstriff-1.0.so.0 so:libgstrtp-1.0.so.0 so:libgstrtsp-1.0.so.0 so:libgstsdp-1.0.so.0 so:libgsttag-1.0.so.0 so:libgstvideo-1.0.so.0 so:libintl.so.8 so:libx264.so.164
 p:so:libgsta52dec.so=0 so:libgstasf.so=0 so:libgstdvdlpcmdec.so=0 so:libgstdvdsub.so=0 so:libgstrealmedia.so=0 so:libgstx264.so=0
 
-C:Q1hHUodc8ZzIZoGVT7igWW0pDl7/c=
+C:Q12tvsEkcil0vVJAPWwtWpNR3BG2w=
 P:gst-plugins-ugly-dbg
-V:1.28.1-r0
+V:1.28.3-r0
 A:x86_64
-S:496057
-I:1102320
+S:495977
+I:1102112
 T:GStreamer streaming media framework ugly plug-ins (debug symbols)
 U:https://gstreamer.freedesktop.org
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-plugins-ugly
 m:team/alpine-desktop <achill@achill.org>
-t:1772106951
-c:7bb1154bb960730468caf7d48363f72c2bd7c63e
-D:!gst-plugins-ugly<1.28.1-r0 !gst-plugins-ugly>1.28.1-r0
+t:1780013391
+c:9eb1dd35a7011cfef88c53a17c197ce3fae90e3f
+D:!gst-plugins-ugly<1.28.3-r0 !gst-plugins-ugly>1.28.3-r0
 
-C:Q1hrhDAPk7EO5hbtIoEMnbRlqPLAc=
+C:Q1pZPqmalBpbZqwWVxpajj0Yh1LuU=
 P:gst-plugins-ugly-lang
-V:1.28.1-r0
+V:1.28.3-r0
 A:x86_64
-S:24765
-I:73025
+S:25365
+I:74900
 T:Languages for package gst-plugins-ugly
 U:https://gstreamer.freedesktop.org
 L:GPL-2.0-or-later LGPL-2.0-or-later
 o:gst-plugins-ugly
 m:team/alpine-desktop <achill@achill.org>
-t:1772106951
-c:7bb1154bb960730468caf7d48363f72c2bd7c63e
-i:gst-plugins-ugly=1.28.1-r0 lang
+t:1780013391
+c:9eb1dd35a7011cfef88c53a17c197ce3fae90e3f
+i:gst-plugins-ugly=1.28.3-r0 lang
 
-C:Q1FGvqySWKa0YSe+D9NFxNOBYDBTM=
+C:Q1dGRtEihntgxzWnqVTMQ6q+zJwB0=
 P:gst-rtsp-server
-V:1.28.1-r0
+V:1.28.3-r0
 A:x86_64
-S:240709
+S:240812
 I:613924
 T:GStreamer RTSP server
 U:https://gstreamer.freedesktop.org
 L:LGPL-2.0-or-later
 o:gst-rtsp-server
 m:team/alpine-desktop <achill@achill.org>
-t:1773007760
-c:374ce432d88932c58dece422c80b71379ded2957
+t:1780013391
+c:428b541d6ac045477b97702b1c3d25200c63127e
 D:so:libc.musl-x86_64.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstapp-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstnet-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgstrtp-1.0.so.0 so:libgstrtsp-1.0.so.0 so:libgstsdp-1.0.so.0 so:libgstvideo-1.0.so.0
-p:so:libgstrtspserver-1.0.so.0=0.2801.0
+p:so:libgstrtspserver-1.0.so.0=0.2803.0
 
-C:Q1EZLX5Nm+yQjFutFWy43bJpTgTns=
+C:Q1wuUybhJuS3+mtpsf9xbaauRKhBM=
 P:gst-rtsp-server-dev
-V:1.28.1-r0
+V:1.28.3-r0
 A:x86_64
-S:96591
+S:96607
 I:1018972
 T:GStreamer RTSP server (development files)
 U:https://gstreamer.freedesktop.org
 L:LGPL-2.0-or-later
 o:gst-rtsp-server
 m:team/alpine-desktop <achill@achill.org>
-t:1773007760
-c:374ce432d88932c58dece422c80b71379ded2957
-D:gst-plugins-base-dev gst-rtsp-server=1.28.1-r0 pc:gstreamer-1.0>=1.28.0 pc:gstreamer-app-1.0>=1.28.0 pc:gstreamer-net-1.0>=1.28.0 pc:gstreamer-rtp-1.0>=1.28.0 pc:gstreamer-rtsp-1.0>=1.28.0 pc:gstreamer-sdp-1.0>=1.28.0 pc:gstreamer-video-1.0>=1.28.0 pkgconfig
-p:pc:gstreamer-rtsp-server-1.0=1.28.1
+t:1780013391
+c:428b541d6ac045477b97702b1c3d25200c63127e
+D:gst-plugins-base-dev gst-rtsp-server=1.28.3-r0 pc:gstreamer-1.0>=1.28.0 pc:gstreamer-app-1.0>=1.28.0 pc:gstreamer-net-1.0>=1.28.0 pc:gstreamer-rtp-1.0>=1.28.0 pc:gstreamer-rtsp-1.0>=1.28.0 pc:gstreamer-sdp-1.0>=1.28.0 pc:gstreamer-video-1.0>=1.28.0 pkgconfig
+p:pc:gstreamer-rtsp-server-1.0=1.28.3
 
 C:Q1DgkzeCrlcB8/zoXgSbpXFscp44E=
 P:gst-thumbnailers
@@ -223622,55 +223622,55 @@ t:1716944914
 c:baa06d61133868f896cd55a41a043ab83d79c57b
 i:docs pngquant=3.0.3-r0
 
-C:Q1blZ+j1dmsYbcqDUa8F5DADtpcx0=
+C:Q1L2g8Aif7KdnZblQW2q+be0pgkRU=
 P:pnpm
-V:11.3.0-r0
+V:11.4.0-r0
 A:x86_64
-S:5159692
-I:25249433
+S:5171907
+I:25249451
 T:Fast, disk space efficient package manager
 U:https://pnpm.io
 L:MIT
 o:pnpm
 m:Johannes Müller <alpinelinux@jogemu.at>
-t:1779797604
-c:cf8d909279dcc53efdfcab747fc357f77023a25a
+t:1780012740
+c:64db22ae6cc3ebb5b0c5a1fe230398416eaa0c25
 D:nodejs
-p:cmd:pnpm=11.3.0-r0 cmd:pnpx=11.3.0-r0
+p:cmd:pnpm=11.4.0-r0 cmd:pnpx=11.4.0-r0
 
-C:Q1fcPggq0EH3PfI6/QW8ygZDNM0aI=
+C:Q1hY+loQFR89xuD3byTSp4NbgTMyQ=
 P:pnpm-bash-completion
-V:11.3.0-r0
+V:11.4.0-r0
 A:x86_64
-S:2018
+S:2016
 I:994
 T:Bash completions for pnpm
 U:https://pnpm.io
 L:MIT
 o:pnpm
 m:Johannes Müller <alpinelinux@jogemu.at>
-t:1779797604
-c:cf8d909279dcc53efdfcab747fc357f77023a25a
-i:pnpm=11.3.0-r0 bash-completion
+t:1780012740
+c:64db22ae6cc3ebb5b0c5a1fe230398416eaa0c25
+i:pnpm=11.4.0-r0 bash-completion
 
-C:Q15l8EP4LNquSrp5KjDiV2EwvcjM0=
+C:Q1roXoTjog77H/DLJdomka+HyRON0=
 P:pnpm-doc
-V:11.3.0-r0
+V:11.4.0-r0
 A:x86_64
-S:2327
+S:2325
 I:1170
 T:Fast, disk space efficient package manager (documentation)
 U:https://pnpm.io
 L:MIT
 o:pnpm
 m:Johannes Müller <alpinelinux@jogemu.at>
-t:1779797604
-c:cf8d909279dcc53efdfcab747fc357f77023a25a
-i:docs pnpm=11.3.0-r0
+t:1780012740
+c:64db22ae6cc3ebb5b0c5a1fe230398416eaa0c25
+i:docs pnpm=11.4.0-r0
 
-C:Q1CbvQh2QDosOP3zeWJQRkfGlD0Jg=
+C:Q1rW8ZSzO8bgEAkc6wdiirme9Z0j0=
 P:pnpm-fish-completion
-V:11.3.0-r0
+V:11.4.0-r0
 A:x86_64
 S:1946
 I:672
@@ -223679,24 +223679,24 @@ U:https://pnpm.io
 L:MIT
 o:pnpm
 m:Johannes Müller <alpinelinux@jogemu.at>
-t:1779797604
-c:cf8d909279dcc53efdfcab747fc357f77023a25a
-i:pnpm=11.3.0-r0 fish
+t:1780012740
+c:64db22ae6cc3ebb5b0c5a1fe230398416eaa0c25
+i:pnpm=11.4.0-r0 fish
 
-C:Q1gW37+RzYTTrgxn9Vod4kffgXa3Q=
+C:Q18j4af1SwbqnY0MLYJ8dZW3Anbko=
 P:pnpm-zsh-completion
-V:11.3.0-r0
+V:11.4.0-r0
 A:x86_64
-S:2078
+S:2079
 I:839
 T:Zsh completions for pnpm
 U:https://pnpm.io
 L:MIT
 o:pnpm
 m:Johannes Müller <alpinelinux@jogemu.at>
-t:1779797604
-c:cf8d909279dcc53efdfcab747fc357f77023a25a
-i:pnpm=11.3.0-r0 zsh
+t:1780012740
+c:64db22ae6cc3ebb5b0c5a1fe230398416eaa0c25
+i:pnpm=11.4.0-r0 zsh
 
 C:Q1C3WCZHvATJb1AEKCreVtjoTh0Qg=
 P:poco
@@ -238942,37 +238942,37 @@ c:8aec4a8581588a9940e9e9844058ca5596c4f72e
 D:python3 py3-asgiref py3-sqlparse tzdata python3~3.14
 p:py-django=5.2.14-r0 cmd:django-admin=5.2.14-r0 py3.14:django=5.2.14-r0
 
-C:Q1ki8AnoHrYyJ0iAqIFaXb86bXugE=
+C:Q14kEbzC+jNVvr2ndTJVJK0mzwcas=
 P:py3-django-allauth
-V:65.15.1-r0
+V:65.16.1-r0
 A:x86_64
-S:365239
-I:1357351
+S:370785
+I:1414939
 T:Integrated set of Django applications addressing SSO
 U:https://pypi.python.org/project/django-allauth
 L:MIT
 o:py3-django-allauth
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1775386680
-c:613dd3f6bb45db4b2d0b270884e94f52e9fd1fcc
+t:1780016324
+c:60c3797d200988bc3d5f0db9d0b814385679b746
 D:py3-python3-saml py3-qrcode py3-django py3-openid py3-requests py3-requests-oauthlib py3-jwt py3-cryptography py3-fido2 python3~3.14
-p:py3.14:allauth=65.15.1-r0
+p:py3.14:allauth=65.16.1-r0
 
-C:Q1QT40RaB5gjL5kQWqtCA/HTy+ffQ=
+C:Q1Edj+W1XGvJbFkdlFvI0riEW3XnE=
 P:py3-django-allauth-pyc
-V:65.15.1-r0
+V:65.16.1-r0
 A:x86_64
-S:848359
-I:2181993
+S:871387
+I:2295511
 T:Precompiled Python bytecode for py3-django-allauth
 U:https://pypi.python.org/project/django-allauth
 L:MIT
 o:py3-django-allauth
 m:Antoine Martin (ayakael) <dev@ayakael.net>
-t:1775386680
-c:613dd3f6bb45db4b2d0b270884e94f52e9fd1fcc
+t:1780016324
+c:60c3797d200988bc3d5f0db9d0b814385679b746
 D:python3~3.14
-i:py3-django-allauth=65.15.1-r0 pyc
+i:py3-django-allauth=65.16.1-r0 pyc
 
 C:Q1gi+WtVRWdA1+3Q9ScTcqnVzwJnI=
 P:py3-django-annoying
@@ -245257,36 +245257,36 @@ c:e2d1abeef8d26d9c94789328907cca43d07f2bd8
 D:py3-grpcio python3~3.14 so:libabsl_hash.so.2508.0.0 so:libabsl_raw_hash_set.so.2508.0.0 so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libprotobuf.so.31 so:libprotoc.so.31 so:libstdc++.so.6 so:libutf8_range.so.31.1.0
 p:cmd:python-grpc-tools-protoc=1.78.1-r2 py3.14:grpc_tools=1.78.1-r2
 
-C:Q1/zigyOed+lwVt5CDH10fu3ISBDA=
+C:Q1uOdz2HH+bZ7nQTMeqabRuTUpFKg=
 P:py3-gst
-V:1.28.1-r1
+V:1.28.3-r0
 A:x86_64
-S:38841
-I:134155
+S:39036
+I:135562
 T:GStreamer Python3 bindings
 U:https://gitlab.freedesktop.org/gstreamer/gstreamer
 L:LGPL-2.1-or-later
 o:py3-gst
 m:team/alpine-desktop <achill@achill.org>
-t:1774640379
-c:34f0c5e3f26f1955b308f95c10e96ccb2f1cbfd2
+t:1780013391
+c:896820260084156855088f2f588cdb6204ea72fa
 D:py3-gobject3 gst-plugins-base python3~3.14 so:libc.musl-x86_64.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgstanalytics-1.0.so.0 so:libgstreamer-1.0.so.0 so:libpython3.14.so.1.0
 
-C:Q1H3EZtA/2EZJdy4d5Dzpj52bjuGA=
+C:Q1qnqP81+yS+yaEIjSCMzrXMiwcas=
 P:py3-gst-pyc
-V:1.28.1-r1
+V:1.28.3-r0
 A:x86_64
-S:31058
-I:92650
+S:31971
+I:96243
 T:Precompiled Python bytecode for py3-gst
 U:https://gitlab.freedesktop.org/gstreamer/gstreamer
 L:LGPL-2.1-or-later
 o:py3-gst
 m:team/alpine-desktop <achill@achill.org>
-t:1774640379
-c:34f0c5e3f26f1955b308f95c10e96ccb2f1cbfd2
+t:1780013391
+c:896820260084156855088f2f588cdb6204ea72fa
 D:python3~3.14
-i:py3-gst=1.28.1-r1 pyc
+i:py3-gst=1.28.3-r0 pyc
 
 C:Q1dzKc4SrKjifWhTi75n32IUB8pSk=
 P:py3-gtts
