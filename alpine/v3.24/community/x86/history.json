@@ -293567,6 +293567,34 @@
       "versions": {
         "1.03-r0": 1780045406
       }
+    },
+    "wolfssh": {
+      "origin": "wolfssh",
+      "versions": {
+        "1.5.0-r0": 1780074251
+      },
+      "dependencies": [
+        "so:libc.musl-x86.so.1",
+        "so:libwolfssl.so.44"
+      ],
+      "provides": [
+        "cmd:wolfssh=1.5.0-r0",
+        "cmd:wolfsshd=1.5.0-r0",
+        "so:libwolfssh.so.18=18.2.0"
+      ]
+    },
+    "wolfssh-dev": {
+      "origin": "wolfssh",
+      "versions": {
+        "1.5.0-r0": 1780074251
+      },
+      "dependencies": [
+        "wolfssl-dev",
+        "wolfssh=1.5.0-r0"
+      ],
+      "provides": [
+        "cmd:wolfssh-config=1.5.0-r0"
+      ]
     }
   },
   "provide": {
@@ -315206,6 +315234,10 @@
       "libhyprgraphics.so.4": {
         "package": "hyprgraphics",
         "version": "0.5.1"
+      },
+      "libwolfssh.so.18": {
+        "package": "wolfssh",
+        "version": "18.2.0"
       }
     },
     "package": {

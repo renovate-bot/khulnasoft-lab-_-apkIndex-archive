@@ -323667,6 +323667,38 @@ t:1767817279
 c:507c5d06376e296b70b8879149f6fa601fdbe5cd
 i:docs wofi=1.5.3-r0
 
+C:Q1YAyN71bHrHKxw3kE2V6BKeCtIZE=
+P:wolfssh
+V:1.5.0-r0
+A:ppc64le
+S:157948
+I:464272
+T:Small, fast, portable SSH implementation, including SCP and SFTP
+U:https://www.wolfssl.com
+L:GPL-3.0-only
+o:wolfssh
+m:Robert Mongold <rtmongold@gmail.com>
+t:1780074251
+c:9c7b21cb0fb2ca06aa1dc5bc109db0284431bbf0
+D:so:libc.musl-ppc64le.so.1 so:libwolfssl.so.44
+p:cmd:wolfssh=1.5.0-r0 cmd:wolfsshd=1.5.0-r0 so:libwolfssh.so.18=18.2.0
+
+C:Q1LoxtYfvNQbjHHKok7MWRK76Eo6E=
+P:wolfssh-dev
+V:1.5.0-r0
+A:ppc64le
+S:197913
+I:744321
+T:Small, fast, portable SSH implementation, including SCP and SFTP (development files)
+U:https://www.wolfssl.com
+L:GPL-3.0-only
+o:wolfssh
+m:Robert Mongold <rtmongold@gmail.com>
+t:1780074251
+c:9c7b21cb0fb2ca06aa1dc5bc109db0284431bbf0
+D:wolfssl-dev wolfssh=1.5.0-r0
+p:cmd:wolfssh-config=1.5.0-r0
+
 C:Q12HyyI7iSn4b3hB5qqu3MYL/5TVc=
 P:wolfssl
 V:5.9.1-r0
