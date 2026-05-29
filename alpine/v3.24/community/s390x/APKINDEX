@@ -117919,21 +117919,21 @@ c:3fbfff182a746706127706e7ab82a7621a9deca3
 D:so:libc.musl-s390x.so.1 so:libncursesw.so.6 so:libnjb.so.5 so:libz.so.1
 p:cmd:njb-cursesplay=2.2.7-r7 cmd:njb-delfile=2.2.7-r7 cmd:njb-deltr=2.2.7-r7 cmd:njb-dumpeax=2.2.7-r7 cmd:njb-dumptime=2.2.7-r7 cmd:njb-files=2.2.7-r7 cmd:njb-fwupgrade=2.2.7-r7 cmd:njb-getfile=2.2.7-r7 cmd:njb-getowner=2.2.7-r7 cmd:njb-gettr=2.2.7-r7 cmd:njb-getusage=2.2.7-r7 cmd:njb-handshake=2.2.7-r7 cmd:njb-pl=2.2.7-r7 cmd:njb-play=2.2.7-r7 cmd:njb-playlists=2.2.7-r7 cmd:njb-sendfile=2.2.7-r7 cmd:njb-sendtr=2.2.7-r7 cmd:njb-setowner=2.2.7-r7 cmd:njb-setpbm=2.2.7-r7 cmd:njb-settime=2.2.7-r7 cmd:njb-tagtr=2.2.7-r7 cmd:njb-tracks=2.2.7-r7
 
-C:Q1AWYCXVtceTl4Fo1gBwcEYfn5xds=
+C:Q1qtCYwXar7FGzYsL3Eaf+eAYYsOQ=
 P:libnjs
-V:0.9.8-r0
+V:0.9.9-r0
 A:s390x
-S:326162
+S:326437
 I:919896
 T:NGINX JavaScript interpreter library
 U:https://nginx.org/en/docs/njs/
 L:BSD-2-Clause
 o:njs
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1778778636
-c:7e95c758925cdf41d67e172a2853f9f1d9d41c10
+t:1780050675
+c:f0862a729e89e2778b24d803b26a5a53ce132503
 D:so:libc.musl-s390x.so.1 so:libcrypto.so.3 so:libpcre2-8.so.0 so:libz.so.1
-p:so:libnjs.so.0.9.8=0.9.8
+p:so:libnjs.so.0.9.9=0.9.9
 
 C:Q18u7b65+yR0uENnrPItqbTkEzulg=
 P:libnm
@@ -152556,67 +152556,67 @@ t:1778546017
 c:62b660a5e676c0d116921e64cb65826ef19e9c42
 i:nix=2.31.5-r0 zsh
 
-C:Q1+AagX/XeIaOX7+J5ZhkdJqwvGn8=
+C:Q144nx5AUiupe9ZYGD7dpFETm8qas=
 P:njs
-V:0.9.8-r0
+V:0.9.9-r0
 A:s390x
-S:331527
+S:331838
 I:916880
 T:NGINX JavaScript interpreter CLI
 U:https://nginx.org/en/docs/njs/
 L:BSD-2-Clause
 o:njs
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1778778636
-c:7e95c758925cdf41d67e172a2853f9f1d9d41c10
+t:1780050675
+c:f0862a729e89e2778b24d803b26a5a53ce132503
 D:so:libc.musl-s390x.so.1 so:libcrypto.so.3 so:libedit.so.0 so:libpcre2-8.so.0 so:libz.so.1
-p:cmd:njs=0.9.8-r0
+p:cmd:njs=0.9.9-r0
 
-C:Q1eFZvQ56GJkM7rnD0KchEDhxZV9M=
+C:Q1Z67VlgfGEsKKLLCONlcNrxU7fQI=
 P:njs-debug
-V:0.9.8-r0
+V:0.9.9-r0
 A:s390x
-S:379305
-I:1083064
+S:379560
+I:1083128
 T:njs built with additional runtime checks and debug symbols
 U:https://nginx.org/en/docs/njs/
 L:BSD-2-Clause
 o:njs
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1778778636
-c:7e95c758925cdf41d67e172a2853f9f1d9d41c10
+t:1780050675
+c:f0862a729e89e2778b24d803b26a5a53ce132503
 D:so:libc.musl-s390x.so.1 so:libcrypto.so.3 so:libedit.so.0 so:libpcre2-8.so.0 so:libz.so.1
-p:cmd:njs-debug=0.9.8-r0
+p:cmd:njs-debug=0.9.9-r0
 
-C:Q17A07fBB/vZedugVRkAgz4l4Lj90=
+C:Q1xw0c+0+SXJnpvC44prAfkvwe5Os=
 P:njs-dev
-V:0.9.8-r0
+V:0.9.9-r0
 A:s390x
-S:77873
+S:77867
 I:379798
 T:NGINX JavaScript interpreter CLI (development files)
 U:https://nginx.org/en/docs/njs/
 L:BSD-2-Clause
 o:njs
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1778778636
-c:7e95c758925cdf41d67e172a2853f9f1d9d41c10
-D:libnjs=0.9.8-r0 pc:libcrypto pc:libpcre2-8 pc:zlib pkgconfig
-p:pc:njs=0.9.8
+t:1780050675
+c:f0862a729e89e2778b24d803b26a5a53ce132503
+D:libnjs=0.9.9-r0 pc:libcrypto pc:libpcre2-8 pc:zlib pkgconfig
+p:pc:njs=0.9.9
 
-C:Q1YdAjuM6NFAVxhvyzIaEex2BV4Xc=
+C:Q1Lb5a1nziBm7tP0RYimgEMI72D0Q=
 P:njs-libs-static
-V:0.9.8-r0
+V:0.9.9-r0
 A:s390x
-S:847657
-I:3014636
+S:848421
+I:3016308
 T:NGINX JavaScript interpreter CLI (static library)
 U:https://nginx.org/en/docs/njs/
 L:BSD-2-Clause
 o:njs
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1778778636
-c:7e95c758925cdf41d67e172a2853f9f1d9d41c10
+t:1780050675
+c:f0862a729e89e2778b24d803b26a5a53ce132503
 D:njs-dev
 
 C:Q1U3oSYqpbi4KlYqCWDx93WB2oaQk=
@@ -175725,6 +175725,36 @@ t:1771160091
 c:a9e2a2dc46f377eb25884f7fea9834492de7f518
 i:docs perl-file-sharedir-tiny=0.001-r1
 
+C:Q1v0orh8ASmBdkTv67VP0m/yvF08k=
+P:perl-file-xdg
+V:1.03-r0
+A:s390x
+S:6353
+I:15431
+T:Basic implementation of the XDG base directory specification
+U:https://metacpan.org/release/File-XDG/
+L:GPL-1.0-or-later OR Artistic-1.0-Perl
+o:perl-file-xdg
+m:Timothy Legge <timlegge@gmail.com>
+t:1780045406
+c:eeac792b338cf2ec580a0b99467844d70d6150f1
+D:perl perl-path-tiny perl-ref-util
+
+C:Q1HqNXdewEbxo1i5Y9QYhL1h+aJaU=
+P:perl-file-xdg-doc
+V:1.03-r0
+A:s390x
+S:5875
+I:4027
+T:Basic implementation of the XDG base directory specification (documentation)
+U:https://metacpan.org/release/File-XDG/
+L:GPL-1.0-or-later OR Artistic-1.0-Perl
+o:perl-file-xdg
+m:Timothy Legge <timlegge@gmail.com>
+t:1780045406
+c:eeac792b338cf2ec580a0b99467844d70d6150f1
+i:docs perl-file-xdg=1.03-r0
+
 C:Q1XZkPJlwsK3lOntrgBzZx/ausYl8=
 P:perl-font-ttf
 V:1.06-r2
@@ -188066,35 +188096,35 @@ c:11a12c8b71459ed6abbab347f012635df46406cd
 D:perl perl-libwww perl-html-tree perl-uri perl-html-parser perl-http-cookies perl-http-message perl-html-form
 p:cmd:mech-dump=2.20-r0
 
-C:Q1omh4BOQqyRks0QIj6TOiHz2yRDI=
+C:Q1V681gha+lqrP5MUHtlA7pHAr77I=
 P:perl-www-mechanize-cached
-V:1.56-r1
+V:2.00-r0
 A:s390x
-S:6931
-I:14139
+S:6759
+I:14660
 T:Cache response to be polite
 U:https://metacpan.org/release/WWW-Mechanize-Cached/
 L:GPL-1.0-or-later OR Artistic-1.0-Perl
 o:perl-www-mechanize-cached
 m:Timothy Legge <timlegge@gmail.com>
-t:1688403119
-c:efc6ae3b4703310ac78d557c59f1cfc0bb30c0e0
-D:perl perl-www-mechanize perl-cache-cache perl-data-dump perl-moo perl-moox-types-mooselike perl-namespace-clean perl-module-runtime perl-libwww
+t:1780045406
+c:8aa3324621cfe87a0f48028e70be55d1a4389893
+D:perl perl-www-mechanize perl-cache-cache perl-data-dump perl-moo perl-moox-types-mooselike perl-namespace-clean perl-module-runtime perl-libwww perl-file-xdg perl-path-tiny
 
-C:Q1H1bJL/cXXmkfPfAxUB5zXdlg3Gw=
+C:Q1pgr2Z6j1MGoVYbTsqhvCGiG/bgE=
 P:perl-www-mechanize-cached-doc
-V:1.56-r1
+V:2.00-r0
 A:s390x
-S:5549
-I:3684
+S:5568
+I:3703
 T:Cache response to be polite (documentation)
 U:https://metacpan.org/release/WWW-Mechanize-Cached/
 L:GPL-1.0-or-later OR Artistic-1.0-Perl
 o:perl-www-mechanize-cached
 m:Timothy Legge <timlegge@gmail.com>
-t:1688403119
-c:efc6ae3b4703310ac78d557c59f1cfc0bb30c0e0
-i:docs perl-www-mechanize-cached=1.56-r1
+t:1780045406
+c:8aa3324621cfe87a0f48028e70be55d1a4389893
+i:docs perl-www-mechanize-cached=2.00-r0
 
 C:Q1Y+6/JOoPFRihINP8KUFd4im1XFo=
 P:perl-www-mechanize-doc

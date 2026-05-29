@@ -119214,7 +119214,8 @@
     "libnjs": {
       "origin": "njs",
       "versions": {
-        "0.9.8-r0": 1778778636
+        "0.9.8-r0": 1778778636,
+        "0.9.9-r0": 1780050675
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -119223,7 +119224,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libnjs.so.0.9.8=0.9.8"
+        "so:libnjs.so.0.9.9=0.9.9"
       ]
     },
     "libnm": {
@@ -123545,7 +123546,8 @@
     "librewolf": {
       "origin": "librewolf",
       "versions": {
-        "151.0_p1-r0": 1779534493
+        "151.0_p1-r0": 1779534493,
+        "151.0.2_p1-r0": 1780045798
       },
       "dependencies": [
         "ffmpeg-libavcodec",
@@ -123596,7 +123598,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:librewolf=151.0_p1-r0",
+        "cmd:librewolf=151.0.2_p1-r0",
         "so:librewolf:libgkcodecs.so=0",
         "so:librewolf:liblgpllibs.so=0",
         "so:librewolf:libmozavcodec.so=0",
@@ -123611,11 +123613,12 @@
     "librewolf-dbg": {
       "origin": "librewolf",
       "versions": {
-        "151.0_p1-r0": 1779534493
+        "151.0_p1-r0": 1779534493,
+        "151.0.2_p1-r0": 1780045798
       },
       "dependencies": [
-        "!librewolf<151.0_p1-r0",
-        "!librewolf>151.0_p1-r0"
+        "!librewolf<151.0.2_p1-r0",
+        "!librewolf>151.0.2_p1-r0"
       ]
     },
     "librime": {
@@ -151299,7 +151302,8 @@
     "njs": {
       "origin": "njs",
       "versions": {
-        "0.9.8-r0": 1778778636
+        "0.9.8-r0": 1778778636,
+        "0.9.9-r0": 1780050675
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -151309,13 +151313,14 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:njs=0.9.8-r0"
+        "cmd:njs=0.9.9-r0"
       ]
     },
     "njs-debug": {
       "origin": "njs",
       "versions": {
-        "0.9.8-r0": 1778778636
+        "0.9.8-r0": 1778778636,
+        "0.9.9-r0": 1780050675
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -151325,29 +151330,31 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:njs-debug=0.9.8-r0"
+        "cmd:njs-debug=0.9.9-r0"
       ]
     },
     "njs-dev": {
       "origin": "njs",
       "versions": {
-        "0.9.8-r0": 1778778636
+        "0.9.8-r0": 1778778636,
+        "0.9.9-r0": 1780050675
       },
       "dependencies": [
-        "libnjs=0.9.8-r0",
+        "libnjs=0.9.9-r0",
         "pc:libcrypto",
         "pc:libpcre2-8",
         "pc:zlib",
         "pkgconfig"
       ],
       "provides": [
-        "pc:njs=0.9.8"
+        "pc:njs=0.9.9"
       ]
     },
     "njs-libs-static": {
       "origin": "njs",
       "versions": {
-        "0.9.8-r0": 1778778636
+        "0.9.8-r0": 1778778636,
+        "0.9.9-r0": 1780050675
       },
       "dependencies": [
         "njs-dev"
@@ -174651,7 +174658,8 @@
     "perl-www-mechanize-cached": {
       "origin": "perl-www-mechanize-cached",
       "versions": {
-        "1.56-r1": 1688403119
+        "1.56-r1": 1688403119,
+        "2.00-r0": 1780045406
       },
       "dependencies": [
         "perl",
@@ -174662,13 +174670,16 @@
         "perl-moox-types-mooselike",
         "perl-namespace-clean",
         "perl-module-runtime",
-        "perl-libwww"
+        "perl-libwww",
+        "perl-file-xdg",
+        "perl-path-tiny"
       ]
     },
     "perl-www-mechanize-cached-doc": {
       "origin": "perl-www-mechanize-cached",
       "versions": {
-        "1.56-r1": 1688403119
+        "1.56-r1": 1688403119,
+        "2.00-r0": 1780045406
       }
     },
     "perl-www-mechanize-doc": {
@@ -283038,6 +283049,23 @@
       "versions": {
         "0.5.5-r1": 1780044929
       }
+    },
+    "perl-file-xdg": {
+      "origin": "perl-file-xdg",
+      "versions": {
+        "1.03-r0": 1780045406
+      },
+      "dependencies": [
+        "perl",
+        "perl-path-tiny",
+        "perl-ref-util"
+      ]
+    },
+    "perl-file-xdg-doc": {
+      "origin": "perl-file-xdg",
+      "versions": {
+        "1.03-r0": 1780045406
+      }
     }
   },
   "provide": {
@@ -306841,6 +306869,10 @@
       "libXm.so.5": {
         "package": "motif",
         "version": "5.0.1"
+      },
+      "libnjs.so.0.9.9": {
+        "package": "libnjs",
+        "version": "0.9.9"
       }
     },
     "package": {
