@@ -24189,22 +24189,23 @@
     "less": {
       "origin": "less",
       "versions": {
-        "692-r0": 1771088573
+        "692-r0": 1771088573,
+        "702-r0": 1780061993
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
         "so:libncursesw.so.6"
       ],
       "provides": [
-        "cmd:less=692-r0",
-        "cmd:lessecho=692-r0",
-        "cmd:lesskey=692-r0"
+        "cmd:less=702-r0",
+        "cmd:lesskey=702-r0"
       ]
     },
     "less-doc": {
       "origin": "less",
       "versions": {
-        "692-r0": 1771088573
+        "692-r0": 1771088573,
+        "702-r0": 1780061993
       }
     },
     "lftp": {
@@ -42386,7 +42387,8 @@
     "nagios": {
       "origin": "nagios",
       "versions": {
-        "4.5.12-r0": 1775482564
+        "4.5.12-r0": 1775482564,
+        "4.5.13-r0": 1780066177
       },
       "dependencies": [
         "perl",
@@ -42397,14 +42399,15 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:nagios=4.5.12-r0",
-        "cmd:nagiostats=4.5.12-r0"
+        "cmd:nagios=4.5.13-r0",
+        "cmd:nagiostats=4.5.13-r0"
       ]
     },
     "nagios-apache": {
       "origin": "nagios",
       "versions": {
-        "4.5.12-r0": 1775482564
+        "4.5.12-r0": 1775482564,
+        "4.5.13-r0": 1780066177
       },
       "dependencies": [
         "apache2",
@@ -42414,7 +42417,8 @@
     "nagios-openrc": {
       "origin": "nagios",
       "versions": {
-        "4.5.12-r0": 1775482564
+        "4.5.12-r0": 1775482564,
+        "4.5.13-r0": 1780066177
       }
     },
     "nagios-plugins": {
@@ -43045,7 +43049,8 @@
     "nagios-web": {
       "origin": "nagios",
       "versions": {
-        "4.5.12-r0": 1775482564
+        "4.5.12-r0": 1775482564,
+        "4.5.13-r0": 1780066177
       },
       "dependencies": [
         "perl"

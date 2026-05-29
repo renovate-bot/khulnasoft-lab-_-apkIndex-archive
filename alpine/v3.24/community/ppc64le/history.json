@@ -16184,21 +16184,23 @@
     "bear": {
       "origin": "bear",
       "versions": {
-        "4.0.4-r1": 1773224980
+        "4.0.4-r1": 1773224980,
+        "4.1.3-r0": 1780068351
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:bear=4.0.4-r1",
+        "cmd:bear=4.1.3-r0",
         "so:libexec.so=0"
       ]
     },
     "bear-doc": {
       "origin": "bear",
       "versions": {
-        "4.0.4-r1": 1773224980
+        "4.0.4-r1": 1773224980,
+        "4.1.3-r0": 1780068351
       }
     },
     "beets": {
@@ -26887,7 +26889,8 @@
     "clifm": {
       "origin": "clifm",
       "versions": {
-        "1.27.1-r0": 1768100025
+        "1.27.1-r0": 1768100025,
+        "1.28-r0": 1780064675
       },
       "dependencies": [
         "so:libacl.so.1",
@@ -26897,31 +26900,35 @@
         "so:libreadline.so.8"
       ],
       "provides": [
-        "cmd:clifm=1.27.1-r0"
+        "cmd:clifm=1.28-r0"
       ]
     },
     "clifm-bash-completion": {
       "origin": "clifm",
       "versions": {
-        "1.27.1-r0": 1768100025
+        "1.27.1-r0": 1768100025,
+        "1.28-r0": 1780064675
       }
     },
     "clifm-doc": {
       "origin": "clifm",
       "versions": {
-        "1.27.1-r0": 1768100025
+        "1.27.1-r0": 1768100025,
+        "1.28-r0": 1780064675
       }
     },
     "clifm-fish-completion": {
       "origin": "clifm",
       "versions": {
-        "1.27.1-r0": 1768100025
+        "1.27.1-r0": 1768100025,
+        "1.28-r0": 1780064675
       }
     },
     "clifm-zsh-completion": {
       "origin": "clifm",
       "versions": {
-        "1.27.1-r0": 1768100025
+        "1.27.1-r0": 1768100025,
+        "1.28-r0": 1780064675
       }
     },
     "clingo": {
@@ -60551,7 +60558,8 @@
     "ghostscript": {
       "origin": "ghostscript",
       "versions": {
-        "10.07.0-r0": 1774393056
+        "10.07.0-r0": 1774393056,
+        "10.07.1-r0": 1780062131
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -60571,35 +60579,35 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:dvipdf=10.07.0-r0",
-        "cmd:eps2eps=10.07.0-r0",
-        "cmd:gs=10.07.0-r0",
-        "cmd:gsbj=10.07.0-r0",
-        "cmd:gsc=10.07.0-r0",
-        "cmd:gsdj500=10.07.0-r0",
-        "cmd:gsdj=10.07.0-r0",
-        "cmd:gslj=10.07.0-r0",
-        "cmd:gslp=10.07.0-r0",
-        "cmd:gsnd=10.07.0-r0",
-        "cmd:ijs_client_example=10.07.0-r0",
-        "cmd:ijs_server_example=10.07.0-r0",
-        "cmd:lprsetup.sh=10.07.0-r0",
-        "cmd:pdf2dsc=10.07.0-r0",
-        "cmd:pdf2ps=10.07.0-r0",
-        "cmd:pf2afm=10.07.0-r0",
-        "cmd:pfbtopfa=10.07.0-r0",
-        "cmd:pphs=10.07.0-r0",
-        "cmd:printafm=10.07.0-r0",
-        "cmd:ps2ascii=10.07.0-r0",
-        "cmd:ps2epsi=10.07.0-r0",
-        "cmd:ps2pdf12=10.07.0-r0",
-        "cmd:ps2pdf13=10.07.0-r0",
-        "cmd:ps2pdf14=10.07.0-r0",
-        "cmd:ps2pdf=10.07.0-r0",
-        "cmd:ps2pdfwr=10.07.0-r0",
-        "cmd:ps2ps2=10.07.0-r0",
-        "cmd:ps2ps=10.07.0-r0",
-        "cmd:unix-lpr.sh=10.07.0-r0",
+        "cmd:dvipdf=10.07.1-r0",
+        "cmd:eps2eps=10.07.1-r0",
+        "cmd:gs=10.07.1-r0",
+        "cmd:gsbj=10.07.1-r0",
+        "cmd:gsc=10.07.1-r0",
+        "cmd:gsdj500=10.07.1-r0",
+        "cmd:gsdj=10.07.1-r0",
+        "cmd:gslj=10.07.1-r0",
+        "cmd:gslp=10.07.1-r0",
+        "cmd:gsnd=10.07.1-r0",
+        "cmd:ijs_client_example=10.07.1-r0",
+        "cmd:ijs_server_example=10.07.1-r0",
+        "cmd:lprsetup.sh=10.07.1-r0",
+        "cmd:pdf2dsc=10.07.1-r0",
+        "cmd:pdf2ps=10.07.1-r0",
+        "cmd:pf2afm=10.07.1-r0",
+        "cmd:pfbtopfa=10.07.1-r0",
+        "cmd:pphs=10.07.1-r0",
+        "cmd:printafm=10.07.1-r0",
+        "cmd:ps2ascii=10.07.1-r0",
+        "cmd:ps2epsi=10.07.1-r0",
+        "cmd:ps2pdf12=10.07.1-r0",
+        "cmd:ps2pdf13=10.07.1-r0",
+        "cmd:ps2pdf14=10.07.1-r0",
+        "cmd:ps2pdf=10.07.1-r0",
+        "cmd:ps2pdfwr=10.07.1-r0",
+        "cmd:ps2ps2=10.07.1-r0",
+        "cmd:ps2ps=10.07.1-r0",
+        "cmd:unix-lpr.sh=10.07.1-r0",
         "so:libgs.so.10=10.07",
         "so:libijs-0.35.so=0"
       ]
@@ -60607,22 +60615,24 @@
     "ghostscript-dbg": {
       "origin": "ghostscript",
       "versions": {
-        "10.07.0-r0": 1774393056
+        "10.07.0-r0": 1774393056,
+        "10.07.1-r0": 1780062131
       },
       "dependencies": [
-        "!ghostscript-gtk<10.07.0-r0",
-        "!ghostscript-gtk>10.07.0-r0",
-        "!ghostscript<10.07.0-r0",
-        "!ghostscript>10.07.0-r0"
+        "!ghostscript-gtk<10.07.1-r0",
+        "!ghostscript-gtk>10.07.1-r0",
+        "!ghostscript<10.07.1-r0",
+        "!ghostscript>10.07.1-r0"
       ]
     },
     "ghostscript-dev": {
       "origin": "ghostscript",
       "versions": {
-        "10.07.0-r0": 1774393056
+        "10.07.0-r0": 1774393056,
+        "10.07.1-r0": 1780062131
       },
       "dependencies": [
-        "ghostscript=10.07.0-r0",
+        "ghostscript=10.07.1-r0",
         "pkgconfig"
       ],
       "provides": [
@@ -60632,7 +60642,8 @@
     "ghostscript-doc": {
       "origin": "ghostscript",
       "versions": {
-        "10.07.0-r0": 1774393056
+        "10.07.0-r0": 1774393056,
+        "10.07.1-r0": 1780062131
       }
     },
     "ghostscript-fonts": {
@@ -60644,7 +60655,8 @@
     "ghostscript-gtk": {
       "origin": "ghostscript",
       "versions": {
-        "10.07.0-r0": 1774393056
+        "10.07.0-r0": 1774393056,
+        "10.07.1-r0": 1780062131
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -60657,7 +60669,7 @@
         "so:libgtk-3.so.0"
       ],
       "provides": [
-        "cmd:gsx=10.07.0-r0"
+        "cmd:gsx=10.07.1-r0"
       ]
     },
     "ghostwriter": {
@@ -84802,7 +84814,8 @@
     "hyprgraphics": {
       "origin": "hyprgraphics",
       "versions": {
-        "0.4.0-r0": 1765709363
+        "0.4.0-r0": 1765709363,
+        "0.5.1-r0": 1780064996
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -84824,32 +84837,35 @@
         "so:libwebp.so.7"
       ],
       "provides": [
-        "so:libhyprgraphics.so.3=0.4.0"
+        "so:libhyprgraphics.so.4=0.5.1"
       ]
     },
     "hyprgraphics-dev": {
       "origin": "hyprgraphics",
       "versions": {
-        "0.4.0-r0": 1765709363
+        "0.4.0-r0": 1765709363,
+        "0.5.1-r0": 1780064996
       },
       "dependencies": [
-        "hyprgraphics=0.4.0-r0",
+        "hyprgraphics=0.5.1-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:hyprgraphics=0.4.0"
+        "pc:hyprgraphics=0.5.1"
       ]
     },
     "hyprgraphics-doc": {
       "origin": "hyprgraphics",
       "versions": {
-        "0.4.0-r0": 1765709363
+        "0.4.0-r0": 1765709363,
+        "0.5.1-r0": 1780064996
       }
     },
     "hyprland": {
       "origin": "hyprland",
       "versions": {
-        "0.52.2-r1": 1768845073
+        "0.52.2-r1": 1768845073,
+        "0.52.2-r2": 1780064996
       },
       "dependencies": [
         "so:libEGL.so.1",
@@ -84864,7 +84880,7 @@
         "so:libgio-2.0.so.0",
         "so:libgobject-2.0.so.0",
         "so:libhyprcursor.so.0",
-        "so:libhyprgraphics.so.3",
+        "so:libhyprgraphics.so.4",
         "so:libhyprlang.so.2",
         "so:libhyprutils.so.10",
         "so:libinput.so.10",
@@ -84886,21 +84902,23 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:Hyprland=0.52.2-r1",
-        "cmd:hyprctl=0.52.2-r1",
-        "cmd:hyprland=0.52.2-r1"
+        "cmd:Hyprland=0.52.2-r2",
+        "cmd:hyprctl=0.52.2-r2",
+        "cmd:hyprland=0.52.2-r2"
       ]
     },
     "hyprland-bash-completion": {
       "origin": "hyprland",
       "versions": {
-        "0.52.2-r1": 1768845073
+        "0.52.2-r1": 1768845073,
+        "0.52.2-r2": 1780064996
       }
     },
     "hyprland-dev": {
       "origin": "hyprland",
       "versions": {
-        "0.52.2-r1": 1768845073
+        "0.52.2-r1": 1768845073,
+        "0.52.2-r2": 1780064996
       },
       "dependencies": [
         "pkgconfig"
@@ -84912,19 +84930,22 @@
     "hyprland-doc": {
       "origin": "hyprland",
       "versions": {
-        "0.52.2-r1": 1768845073
+        "0.52.2-r1": 1768845073,
+        "0.52.2-r2": 1780064996
       }
     },
     "hyprland-fish-completion": {
       "origin": "hyprland",
       "versions": {
-        "0.52.2-r1": 1768845073
+        "0.52.2-r1": 1768845073,
+        "0.52.2-r2": 1780064996
       }
     },
     "hyprland-plugins": {
       "origin": "hyprland-plugins",
       "versions": {
-        "0.52.0-r1": 1768845073
+        "0.52.0-r1": 1768845073,
+        "0.52.0-r2": 1780064996
       },
       "dependencies": [
         "hyprland~0.52",
@@ -84942,7 +84963,8 @@
     "hyprland-plugins-borders-plus-plus": {
       "origin": "hyprland-plugins",
       "versions": {
-        "0.52.0-r1": 1768845073
+        "0.52.0-r1": 1768845073,
+        "0.52.0-r2": 1780064996
       },
       "dependencies": [
         "hyprland~0.52",
@@ -84957,7 +84979,8 @@
     "hyprland-plugins-csgo-vulkan-fix": {
       "origin": "hyprland-plugins",
       "versions": {
-        "0.52.0-r1": 1768845073
+        "0.52.0-r1": 1768845073,
+        "0.52.0-r2": 1780064996
       },
       "dependencies": [
         "hyprland~0.52",
@@ -84972,13 +84995,15 @@
     "hyprland-plugins-doc": {
       "origin": "hyprland-plugins",
       "versions": {
-        "0.52.0-r1": 1768845073
+        "0.52.0-r1": 1768845073,
+        "0.52.0-r2": 1780064996
       }
     },
     "hyprland-plugins-hyprbars": {
       "origin": "hyprland-plugins",
       "versions": {
-        "0.52.0-r1": 1768845073
+        "0.52.0-r1": 1768845073,
+        "0.52.0-r2": 1780064996
       },
       "dependencies": [
         "hyprland~0.52",
@@ -84997,7 +85022,8 @@
     "hyprland-plugins-hyprexpo": {
       "origin": "hyprland-plugins",
       "versions": {
-        "0.52.0-r1": 1768845073
+        "0.52.0-r1": 1768845073,
+        "0.52.0-r2": 1780064996
       },
       "dependencies": [
         "hyprland~0.52",
@@ -85012,7 +85038,8 @@
     "hyprland-plugins-hyprfocus": {
       "origin": "hyprland-plugins",
       "versions": {
-        "0.52.0-r1": 1768845073
+        "0.52.0-r1": 1768845073,
+        "0.52.0-r2": 1780064996
       },
       "dependencies": [
         "hyprland~0.52",
@@ -85027,7 +85054,8 @@
     "hyprland-plugins-hyprscrolling": {
       "origin": "hyprland-plugins",
       "versions": {
-        "0.52.0-r1": 1768845073
+        "0.52.0-r1": 1768845073,
+        "0.52.0-r2": 1780064996
       },
       "dependencies": [
         "hyprland~0.52",
@@ -85042,7 +85070,8 @@
     "hyprland-plugins-hyprtrails": {
       "origin": "hyprland-plugins",
       "versions": {
-        "0.52.0-r1": 1768845073
+        "0.52.0-r1": 1768845073,
+        "0.52.0-r2": 1780064996
       },
       "dependencies": [
         "hyprland~0.52",
@@ -85058,7 +85087,8 @@
     "hyprland-plugins-hyprwinwrap": {
       "origin": "hyprland-plugins",
       "versions": {
-        "0.52.0-r1": 1768845073
+        "0.52.0-r1": 1768845073,
+        "0.52.0-r2": 1780064996
       },
       "dependencies": [
         "hyprland~0.52",
@@ -85073,7 +85103,8 @@
     "hyprland-plugins-xtra-dispatchers": {
       "origin": "hyprland-plugins",
       "versions": {
-        "0.52.0-r1": 1768845073
+        "0.52.0-r1": 1768845073,
+        "0.52.0-r2": 1780064996
       },
       "dependencies": [
         "hyprland~0.52",
@@ -85128,13 +85159,15 @@
     "hyprland-wallpapers": {
       "origin": "hyprland",
       "versions": {
-        "0.52.2-r1": 1768845073
+        "0.52.2-r1": 1768845073,
+        "0.52.2-r2": 1780064996
       }
     },
     "hyprland-zsh-completion": {
       "origin": "hyprland",
       "versions": {
-        "0.52.2-r1": 1768845073
+        "0.52.2-r1": 1768845073,
+        "0.52.2-r2": 1780064996
       }
     },
     "hyprlang": {
@@ -236165,26 +236198,29 @@
     "py3-pytest-run-parallel": {
       "origin": "py3-pytest-run-parallel",
       "versions": {
-        "0.8.2-r1": 1774640367
+        "0.8.2-r1": 1774640367,
+        "0.9.0-r0": 1780062217
       },
       "dependencies": [
         "py3-pytest",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:pytest_run_parallel=0.8.2-r1"
+        "py3.14:pytest_run_parallel=0.9.0-r0"
       ]
     },
     "py3-pytest-run-parallel-doc": {
       "origin": "py3-pytest-run-parallel",
       "versions": {
-        "0.8.2-r1": 1774640367
+        "0.8.2-r1": 1774640367,
+        "0.9.0-r0": 1780062217
       }
     },
     "py3-pytest-run-parallel-pyc": {
       "origin": "py3-pytest-run-parallel",
       "versions": {
-        "0.8.2-r1": 1774640367
+        "0.8.2-r1": 1774640367,
+        "0.9.0-r0": 1780062217
       },
       "dependencies": [
         "python3~3.14"
@@ -330065,6 +330101,10 @@
       "libnjs.so.0.9.9": {
         "package": "libnjs",
         "version": "0.9.9"
+      },
+      "libhyprgraphics.so.4": {
+        "package": "hyprgraphics",
+        "version": "0.5.1"
       }
     },
     "package": {
