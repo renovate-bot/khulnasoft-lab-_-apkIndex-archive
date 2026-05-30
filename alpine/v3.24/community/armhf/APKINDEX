@@ -7930,56 +7930,56 @@ t:1779616302
 c:9c6d8479c8c8f42e5e65c833fdd6a3e6b4bcace3
 D:aws-crt-cpp=0.39.1-r0 aws-c-auth-dev aws-c-cal-dev aws-c-common-dev aws-c-compression-dev aws-c-event-stream-dev aws-c-http-dev aws-c-io-dev aws-c-mqtt-dev aws-c-s3-dev aws-c-sdkutils-dev aws-checksums-dev s2n-tls-dev
 
-C:Q161iDuuS3WVHRtJRns2yqKkP7n30=
+C:Q1wwL/0yRCQtEWOrFFx4xWcBGCKnQ=
 P:aws-lc
-V:1.73.0-r1
+V:5.0.0-r0
 A:armhf
-S:977465
+S:978885
 I:1997752
 T:General-purpose cryptographic library based on BoringSSL and OpenSSL
 U:https://github.com/aws/aws-lc
 L:(Apache-2.0 OR ISC) AND BSD-3-Clause AND MIT AND OpenSSL
 o:aws-lc
 m:Achill Gilgenast <achill@achill.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1780144184
+c:e1426cc4e0ec16b35a14f23b39ed9d5cc04843ef
 k:10
 D:so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 p:so:aws-lc:libcrypto.so=0 so:aws-lc:libssl.so=0
 
-C:Q142gEF7v0R1qskYzsk8wGj+m4ngg=
+C:Q1gQigkQCT2no42SMc7FlwW/Si8iI=
 P:aws-lc-dev
-V:1.73.0-r1
+V:5.0.0-r0
 A:armhf
-S:396065
-I:1714564
+S:396401
+I:1715700
 T:General-purpose cryptographic library based on BoringSSL and OpenSSL (development files)
 U:https://github.com/aws/aws-lc
 L:(Apache-2.0 OR ISC) AND BSD-3-Clause AND MIT AND OpenSSL
 o:aws-lc
 m:Achill Gilgenast <achill@achill.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1780144184
+c:e1426cc4e0ec16b35a14f23b39ed9d5cc04843ef
 k:10
 D:!openssl-dev pkgconfig
 p:pc:aws-lc:aws-lc=1.1.1 pc:aws-lc:libcrypto=1.1.1 pc:aws-lc:libssl=1.1.1 pc:aws-lc:openssl=1.1.1
 
-C:Q1gdlvqpcdi7eoi0hgov9zlU9ZULQ=
+C:Q15wApSqz1DC1NXVKcWQWVd/TJtE8=
 P:aws-lc-tools
-V:1.73.0-r1
+V:5.0.0-r0
 A:armhf
-S:172936
+S:173806
 I:392375
 T:General-purpose cryptographic library based on BoringSSL and OpenSSL (tools)
 U:https://github.com/aws/aws-lc
 L:(Apache-2.0 OR ISC) AND BSD-3-Clause AND MIT AND OpenSSL
 o:aws-lc
 m:Achill Gilgenast <achill@achill.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1780144184
+c:e1426cc4e0ec16b35a14f23b39ed9d5cc04843ef
 k:10
 D:so:aws-lc:libcrypto.so so:aws-lc:libssl.so so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:cmd:bssl=1.73.0-r1 cmd:c_rehash=1.73.0-r1 cmd:openssl=1.73.0-r1
+p:cmd:bssl=5.0.0-r0 cmd:c_rehash=5.0.0-r0 cmd:openssl=5.0.0-r0
 
 C:Q1GOxEhVLyKh0Oc5Z/Nfv0flwg5Vs=
 P:aws-sdk-cpp
@@ -43493,313 +43493,313 @@ c:a9e2a2dc46f377eb25884f7fea9834492de7f518
 D:erlang
 p:cmd:erlang_ls=1.1.0-r2
 
-C:Q1Va7ynM147OGMMordbpf8vQhJjas=
+C:Q1nRr3EA+GXkmUT4WzLoNBU1SE/wo=
 P:erlang27
-V:27.3.4.11-r0
+V:27.3.4.12-r0
 A:armhf
-S:35744955
-I:74401386
+S:35745345
+I:74404798
 T:General-purpose programming language and runtime environment, version 27
 U:https://www.erlang.org/
 L:Apache-2.0
 o:erlang27
 m:Daniel Néri <dne+alpine@mayonnaise.net>
-t:1776787962
-c:a7bc5f29882f6a941787b7d4dc68f2fc403a1970
+t:1780142994
+c:7242bc7ef2b8b22f5bb1c1a80ba15bbe818293ad
 D:so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libncursesw.so.6 so:libz.so.1
-p:erlang=127 cmd:ct_run=27.3.4.11-r0 cmd:dialyzer=27.3.4.11-r0 cmd:epmd=27.3.4.11-r0 cmd:erl=27.3.4.11-r0 cmd:erlc=27.3.4.11-r0 cmd:escript=27.3.4.11-r0 cmd:run_erl=27.3.4.11-r0 cmd:to_erl=27.3.4.11-r0 cmd:typer=27.3.4.11-r0
+p:erlang=127 cmd:ct_run=27.3.4.12-r0 cmd:dialyzer=27.3.4.12-r0 cmd:epmd=27.3.4.12-r0 cmd:erl=27.3.4.12-r0 cmd:erlc=27.3.4.12-r0 cmd:escript=27.3.4.12-r0 cmd:run_erl=27.3.4.12-r0 cmd:to_erl=27.3.4.12-r0 cmd:typer=27.3.4.12-r0
 
-C:Q1uUOnYgogv5Gql5iZuVd++/SvVUo=
+C:Q11p6s4AWU88+6RLMxwyzNkaIlmEI=
 P:erlang27-debugger
-V:27.3.4.11-r0
+V:27.3.4.12-r0
 A:armhf
-S:510151
+S:510141
 I:632134
 T:General-purpose programming language and runtime environment, version 27
 U:https://www.erlang.org/
 L:Apache-2.0
 o:erlang27
 m:Daniel Néri <dne+alpine@mayonnaise.net>
-t:1776787962
-c:a7bc5f29882f6a941787b7d4dc68f2fc403a1970
-D:erlang27=27.3.4.11-r0 erlang27-wx=27.3.4.11-r0
+t:1780142994
+c:7242bc7ef2b8b22f5bb1c1a80ba15bbe818293ad
+D:erlang27=27.3.4.12-r0 erlang27-wx=27.3.4.12-r0
 p:erlang-debugger=127
 
-C:Q169u8JqzhaYuwMqK7mANFpPE95Sk=
+C:Q1ivZcBVN0TgdBzIcNbeHAdtyCndg=
 P:erlang27-dev
-V:27.3.4.11-r0
+V:27.3.4.12-r0
 A:armhf
-S:743138
+S:743144
 I:3318973
 T:General-purpose programming language and runtime environment, version 27 (development files)
 U:https://www.erlang.org/
 L:Apache-2.0
 o:erlang27
 m:Daniel Néri <dne+alpine@mayonnaise.net>
-t:1776787962
-c:a7bc5f29882f6a941787b7d4dc68f2fc403a1970
-D:erlang27=27.3.4.11-r0
+t:1780142994
+c:7242bc7ef2b8b22f5bb1c1a80ba15bbe818293ad
+D:erlang27=27.3.4.12-r0
 p:erlang-dev=127
 
-C:Q1HoYq9aO120UudnHJ3TLpSpTwyBw=
+C:Q17LvPeCZu7IeXvXaX5D1IdFugo0I=
 P:erlang27-dialyzer
-V:27.3.4.11-r0
+V:27.3.4.12-r0
 A:armhf
-S:1157884
+S:1157873
 I:1488216
 T:General-purpose programming language and runtime environment, version 27
 U:https://www.erlang.org/
 L:Apache-2.0
 o:erlang27
 m:Daniel Néri <dne+alpine@mayonnaise.net>
-t:1776787962
-c:a7bc5f29882f6a941787b7d4dc68f2fc403a1970
-D:erlang27=27.3.4.11-r0 erlang27-wx=27.3.4.11-r0
+t:1780142994
+c:7242bc7ef2b8b22f5bb1c1a80ba15bbe818293ad
+D:erlang27=27.3.4.12-r0 erlang27-wx=27.3.4.12-r0
 p:erlang-dialyzer=127
 
-C:Q1nFDI3L6rLuNqpUHDUef8LmAZWms=
+C:Q1iJA7GjfUiy+Hw7Hs8rxPIM9L6pA=
 P:erlang27-doc
-V:27.3.4.11-r0
+V:27.3.4.12-r0
 A:armhf
-S:91866
+S:91857
 I:410414
 T:General-purpose programming language and runtime environment, version 27 (documentation) (documentation chunks and man pages)
 U:https://www.erlang.org/
 L:Apache-2.0
 o:erlang27
 m:Daniel Néri <dne+alpine@mayonnaise.net>
-t:1776787962
-c:a7bc5f29882f6a941787b7d4dc68f2fc403a1970
+t:1780142994
+c:7242bc7ef2b8b22f5bb1c1a80ba15bbe818293ad
 p:erlang-doc=127
-i:docs erlang27=27.3.4.11-r0
+i:docs erlang27=27.3.4.12-r0
 
-C:Q1amtqQV0radN0X+L9Km5muhKH4iA=
+C:Q1pAcLweAkfURbMxccTu+z2AF7vm0=
 P:erlang27-et
-V:27.3.4.11-r0
+V:27.3.4.12-r0
 A:armhf
-S:189569
+S:189563
 I:242836
 T:General-purpose programming language and runtime environment, version 27
 U:https://www.erlang.org/
 L:Apache-2.0
 o:erlang27
 m:Daniel Néri <dne+alpine@mayonnaise.net>
-t:1776787962
-c:a7bc5f29882f6a941787b7d4dc68f2fc403a1970
-D:erlang27=27.3.4.11-r0 erlang27-wx=27.3.4.11-r0
+t:1780142994
+c:7242bc7ef2b8b22f5bb1c1a80ba15bbe818293ad
+D:erlang27=27.3.4.12-r0 erlang27-wx=27.3.4.12-r0
 p:erlang-et=127
 
-C:Q1GBucXsKzet1SMCWUugdbegHbTeA=
+C:Q1nYytdBmmEzqwzhtMQpDbZmJBfgU=
 P:erlang27-megaco
-V:27.3.4.11-r0
+V:27.3.4.12-r0
 A:armhf
-S:5141086
+S:5141062
 I:12665772
 T:General-purpose programming language and runtime environment, version 27
 U:https://www.erlang.org/
 L:Apache-2.0
 o:erlang27
 m:Daniel Néri <dne+alpine@mayonnaise.net>
-t:1776787962
-c:a7bc5f29882f6a941787b7d4dc68f2fc403a1970
-D:erlang27=27.3.4.11-r0 erlang27-debugger=27.3.4.11-r0 erlang27-et=27.3.4.11-r0
+t:1780142994
+c:7242bc7ef2b8b22f5bb1c1a80ba15bbe818293ad
+D:erlang27=27.3.4.12-r0 erlang27-debugger=27.3.4.12-r0 erlang27-et=27.3.4.12-r0
 p:erlang-megaco=127
 
-C:Q1lwJaGJjwd/4MvifkOkV80lPJMCM=
+C:Q1MxyisNGo8dfIlv5pTIKXS8UoUps=
 P:erlang27-observer
-V:27.3.4.11-r0
+V:27.3.4.12-r0
 A:armhf
-S:1117906
+S:1117876
 I:1335530
 T:General-purpose programming language and runtime environment, version 27
 U:https://www.erlang.org/
 L:Apache-2.0
 o:erlang27
 m:Daniel Néri <dne+alpine@mayonnaise.net>
-t:1776787962
-c:a7bc5f29882f6a941787b7d4dc68f2fc403a1970
-D:erlang27=27.3.4.11-r0 erlang27-et=27.3.4.11-r0 erlang27-wx=27.3.4.11-r0
+t:1780142994
+c:7242bc7ef2b8b22f5bb1c1a80ba15bbe818293ad
+D:erlang27=27.3.4.12-r0 erlang27-et=27.3.4.12-r0 erlang27-wx=27.3.4.12-r0
 p:erlang-observer=127
 
-C:Q19Epv/6YcmbgPAIVNzxzjA1IWLAw=
+C:Q1hmywXblDqUElCtw9ZLEGvdjSLH4=
 P:erlang27-odbc
-V:27.3.4.11-r0
+V:27.3.4.12-r0
 A:armhf
-S:62465
+S:62456
 I:101594
 T:General-purpose programming language and runtime environment, version 27
 U:https://www.erlang.org/
 L:Apache-2.0
 o:erlang27
 m:Daniel Néri <dne+alpine@mayonnaise.net>
-t:1776787962
-c:a7bc5f29882f6a941787b7d4dc68f2fc403a1970
-D:erlang27=27.3.4.11-r0 so:libc.musl-armhf.so.1 so:libodbc.so.2
+t:1780142994
+c:7242bc7ef2b8b22f5bb1c1a80ba15bbe818293ad
+D:erlang27=27.3.4.12-r0 so:libc.musl-armhf.so.1 so:libodbc.so.2
 p:erlang-odbc=127
 
-C:Q1ddz9rqbcoV4+sy0XBSNGIGMFjCc=
+C:Q1o0v3+s8bTfy/JyM8x+3rbzQkUpA=
 P:erlang27-reltool
-V:27.3.4.11-r0
+V:27.3.4.12-r0
 A:armhf
-S:408998
+S:409002
 I:509283
 T:General-purpose programming language and runtime environment, version 27
 U:https://www.erlang.org/
 L:Apache-2.0
 o:erlang27
 m:Daniel Néri <dne+alpine@mayonnaise.net>
-t:1776787962
-c:a7bc5f29882f6a941787b7d4dc68f2fc403a1970
-D:erlang27=27.3.4.11-r0 erlang27-wx=27.3.4.11-r0
+t:1780142994
+c:7242bc7ef2b8b22f5bb1c1a80ba15bbe818293ad
+D:erlang27=27.3.4.12-r0 erlang27-wx=27.3.4.12-r0
 p:erlang-reltool=127
 
-C:Q1BB8iYNKkCKUHwXCSzFNH0XbqUWI=
+C:Q1ROdEhlD2fidRMGr0QZqynEu8lGU=
 P:erlang27-wx
-V:27.3.4.11-r0
+V:27.3.4.12-r0
 A:armhf
-S:7826673
+S:7826622
 I:19247279
 T:General-purpose programming language and runtime environment, version 27
 U:https://www.erlang.org/
 L:Apache-2.0
 o:erlang27
 m:Daniel Néri <dne+alpine@mayonnaise.net>
-t:1776787962
-c:a7bc5f29882f6a941787b7d4dc68f2fc403a1970
-D:erlang27=27.3.4.11-r0 xauth font-terminus so:libGLU.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libstdc++.so.6 so:libwx_baseu-3.2.so.0 so:libwx_gtk3u_aui-3.2.so.0 so:libwx_gtk3u_core-3.2.so.0 so:libwx_gtk3u_gl-3.2.so.0 so:libwx_gtk3u_html-3.2.so.0 so:libwx_gtk3u_stc-3.2.so.0 so:libwx_gtk3u_webview-3.2.so.0 so:libwx_gtk3u_xrc-3.2.so.0
+t:1780142994
+c:7242bc7ef2b8b22f5bb1c1a80ba15bbe818293ad
+D:erlang27=27.3.4.12-r0 xauth font-terminus so:libGLU.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libstdc++.so.6 so:libwx_baseu-3.2.so.0 so:libwx_gtk3u_aui-3.2.so.0 so:libwx_gtk3u_core-3.2.so.0 so:libwx_gtk3u_gl-3.2.so.0 so:libwx_gtk3u_html-3.2.so.0 so:libwx_gtk3u_stc-3.2.so.0 so:libwx_gtk3u_webview-3.2.so.0 so:libwx_gtk3u_xrc-3.2.so.0
 p:erlang-wx=127
 
-C:Q1RPMOBepcfrRjda9+x+A2LsMfIVM=
+C:Q1vH9Xur/1mxLo2kWbMyJa7nbrBl4=
 P:erlang28
-V:28.5-r0
+V:28.5.0.1-r0
 A:armhf
-S:37646021
-I:76446944
+S:37653091
+I:76454590
 T:General-purpose programming language and runtime environment, version 28
 U:https://www.erlang.org/
 L:Apache-2.0
 o:erlang28
 m:Daniel Néri <dne+alpine@mayonnaise.net>
-t:1777039103
-c:a3078c28bd294400e24cbde9b6741d2d62e03360
+t:1780142916
+c:18848d12cc1b57d3b293d3ebf24067c0d86a6b06
 D:so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libncursesw.so.6 so:libz.so.1
-p:erlang=28 cmd:ct_run=28.5-r0 cmd:dialyzer=28.5-r0 cmd:epmd=28.5-r0 cmd:erl=28.5-r0 cmd:erlc=28.5-r0 cmd:escript=28.5-r0 cmd:run_erl=28.5-r0 cmd:to_erl=28.5-r0 cmd:typer=28.5-r0
+p:erlang=28 cmd:ct_run=28.5.0.1-r0 cmd:dialyzer=28.5.0.1-r0 cmd:epmd=28.5.0.1-r0 cmd:erl=28.5.0.1-r0 cmd:erlc=28.5.0.1-r0 cmd:escript=28.5.0.1-r0 cmd:run_erl=28.5.0.1-r0 cmd:to_erl=28.5.0.1-r0 cmd:typer=28.5.0.1-r0
 
-C:Q15sWuKuGR4cN35qHYtMITULQc/G8=
+C:Q19AVFphkVmqr3JGiya8HGbrOgEko=
 P:erlang28-debugger
-V:28.5-r0
+V:28.5.0.1-r0
 A:armhf
-S:528418
+S:528417
 I:639148
 T:General-purpose programming language and runtime environment, version 28
 U:https://www.erlang.org/
 L:Apache-2.0
 o:erlang28
 m:Daniel Néri <dne+alpine@mayonnaise.net>
-t:1777039103
-c:a3078c28bd294400e24cbde9b6741d2d62e03360
-D:erlang28=28.5-r0 erlang28-wx=28.5-r0
+t:1780142916
+c:18848d12cc1b57d3b293d3ebf24067c0d86a6b06
+D:erlang28=28.5.0.1-r0 erlang28-wx=28.5.0.1-r0
 p:erlang-debugger=28
 
-C:Q1WKvaC4aVv+P2KQkLEDdNXagzL3A=
+C:Q1Yhj3gSk0ShitihStmZqIUBDnVLk=
 P:erlang28-dev
-V:28.5-r0
+V:28.5.0.1-r0
 A:armhf
-S:768156
+S:768166
 I:3447499
 T:General-purpose programming language and runtime environment, version 28 (development files)
 U:https://www.erlang.org/
 L:Apache-2.0
 o:erlang28
 m:Daniel Néri <dne+alpine@mayonnaise.net>
-t:1777039103
-c:a3078c28bd294400e24cbde9b6741d2d62e03360
-D:erlang28=28.5-r0
+t:1780142916
+c:18848d12cc1b57d3b293d3ebf24067c0d86a6b06
+D:erlang28=28.5.0.1-r0
 p:erlang-dev=28
 
-C:Q10M9emYypoIG+TXoRTrzEFthi8lU=
+C:Q1C5GXha8DWonp2MqqNkKOwSyncN4=
 P:erlang28-dialyzer
-V:28.5-r0
+V:28.5.0.1-r0
 A:armhf
-S:1141875
+S:1141848
 I:1429070
 T:General-purpose programming language and runtime environment, version 28
 U:https://www.erlang.org/
 L:Apache-2.0
 o:erlang28
 m:Daniel Néri <dne+alpine@mayonnaise.net>
-t:1777039103
-c:a3078c28bd294400e24cbde9b6741d2d62e03360
-D:erlang28=28.5-r0 erlang28-wx=28.5-r0
+t:1780142916
+c:18848d12cc1b57d3b293d3ebf24067c0d86a6b06
+D:erlang28=28.5.0.1-r0 erlang28-wx=28.5.0.1-r0
 p:erlang-dialyzer=28
 
-C:Q18nCfp+NTB7R+pcDs/+PU1CK7Pe4=
+C:Q18JG8dQDrMdJyBjldzqQjlM7vA9Y=
 P:erlang28-doc
-V:28.5-r0
+V:28.5.0.1-r0
 A:armhf
-S:2772059
-I:10578196
+S:2886379
+I:10760449
 T:General-purpose programming language and runtime environment, version 28 (documentation) (documentation chunks and man pages)
 U:https://www.erlang.org/
 L:Apache-2.0
 o:erlang28
 m:Daniel Néri <dne+alpine@mayonnaise.net>
-t:1777039103
-c:a3078c28bd294400e24cbde9b6741d2d62e03360
+t:1780142916
+c:18848d12cc1b57d3b293d3ebf24067c0d86a6b06
 p:erlang-doc=28
-i:docs erlang28=28.5-r0
+i:docs erlang28=28.5.0.1-r0
 
-C:Q1ba5hSZB5zVDIWm+xB5YaJsLGJFo=
+C:Q158QaiwJkWwEWZ7EoJmc9AFG928U=
 P:erlang28-et
-V:28.5-r0
+V:28.5.0.1-r0
 A:armhf
-S:186182
+S:186175
 I:219208
 T:General-purpose programming language and runtime environment, version 28
 U:https://www.erlang.org/
 L:Apache-2.0
 o:erlang28
 m:Daniel Néri <dne+alpine@mayonnaise.net>
-t:1777039103
-c:a3078c28bd294400e24cbde9b6741d2d62e03360
-D:erlang28=28.5-r0 erlang28-wx=28.5-r0
+t:1780142916
+c:18848d12cc1b57d3b293d3ebf24067c0d86a6b06
+D:erlang28=28.5.0.1-r0 erlang28-wx=28.5.0.1-r0
 p:erlang-et=28
 
-C:Q1IYX+oP4MgWNJVyEurOmL5xtN/8k=
+C:Q1aYb7bzukEQSWNCLD+JM6RR2Yudo=
 P:erlang28-megaco
-V:28.5-r0
+V:28.5.0.1-r0
 A:armhf
-S:5028728
-I:12234734
+S:5028696
+I:12234774
 T:General-purpose programming language and runtime environment, version 28
 U:https://www.erlang.org/
 L:Apache-2.0
 o:erlang28
 m:Daniel Néri <dne+alpine@mayonnaise.net>
-t:1777039103
-c:a3078c28bd294400e24cbde9b6741d2d62e03360
-D:erlang28=28.5-r0 erlang28-debugger=28.5-r0 erlang28-et=28.5-r0
+t:1780142916
+c:18848d12cc1b57d3b293d3ebf24067c0d86a6b06
+D:erlang28=28.5.0.1-r0 erlang28-debugger=28.5.0.1-r0 erlang28-et=28.5.0.1-r0
 p:erlang-megaco=28
 
-C:Q1el1KSkqP9IgzvpnM5HEJf1uHXxc=
+C:Q1YmvoGfAU7sI8AIz94z8no/ktgp4=
 P:erlang28-observer
-V:28.5-r0
+V:28.5.0.1-r0
 A:armhf
-S:1127440
+S:1127422
 I:1336966
 T:General-purpose programming language and runtime environment, version 28
 U:https://www.erlang.org/
 L:Apache-2.0
 o:erlang28
 m:Daniel Néri <dne+alpine@mayonnaise.net>
-t:1777039103
-c:a3078c28bd294400e24cbde9b6741d2d62e03360
-D:erlang28=28.5-r0 erlang28-et=28.5-r0 erlang28-wx=28.5-r0
+t:1780142916
+c:18848d12cc1b57d3b293d3ebf24067c0d86a6b06
+D:erlang28=28.5.0.1-r0 erlang28-et=28.5.0.1-r0 erlang28-wx=28.5.0.1-r0
 p:erlang-observer=28
 
-C:Q1BYerRpI3QrCxK6TsYwgoksZKTlk=
+C:Q1os3RfKkGb1vh+jv28qA9juAFCUU=
 P:erlang28-odbc
-V:28.5-r0
+V:28.5.0.1-r0
 A:armhf
 S:62772
 I:93557
@@ -43808,41 +43808,41 @@ U:https://www.erlang.org/
 L:Apache-2.0
 o:erlang28
 m:Daniel Néri <dne+alpine@mayonnaise.net>
-t:1777039103
-c:a3078c28bd294400e24cbde9b6741d2d62e03360
-D:erlang28=28.5-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libodbc.so.2
+t:1780142916
+c:18848d12cc1b57d3b293d3ebf24067c0d86a6b06
+D:erlang28=28.5.0.1-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libodbc.so.2
 p:erlang-odbc=28
 
-C:Q1bnLmivh+SRrhRuOZaek4TdG6q08=
+C:Q1tzYdGzqDFoaWdNLnIMKo/i18gB4=
 P:erlang28-reltool
-V:28.5-r0
+V:28.5.0.1-r0
 A:armhf
-S:409347
+S:409336
 I:494942
 T:General-purpose programming language and runtime environment, version 28
 U:https://www.erlang.org/
 L:Apache-2.0
 o:erlang28
 m:Daniel Néri <dne+alpine@mayonnaise.net>
-t:1777039103
-c:a3078c28bd294400e24cbde9b6741d2d62e03360
-D:erlang28=28.5-r0 erlang28-wx=28.5-r0
+t:1780142916
+c:18848d12cc1b57d3b293d3ebf24067c0d86a6b06
+D:erlang28=28.5.0.1-r0 erlang28-wx=28.5.0.1-r0
 p:erlang-reltool=28
 
-C:Q17jk/49k43EgNsxSHnQrZy3YwjFA=
+C:Q14jG89fOdYP5jBpCFXGqJmloxEKQ=
 P:erlang28-wx
-V:28.5-r0
+V:28.5.0.1-r0
 A:armhf
-S:7978271
-I:17562212
+S:7334549
+I:16621635
 T:General-purpose programming language and runtime environment, version 28
 U:https://www.erlang.org/
 L:Apache-2.0
 o:erlang28
 m:Daniel Néri <dne+alpine@mayonnaise.net>
-t:1777039103
-c:a3078c28bd294400e24cbde9b6741d2d62e03360
-D:erlang28=28.5-r0 xauth font-terminus so:libGLU.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libstdc++.so.6 so:libwx_baseu-3.2.so.0 so:libwx_gtk3u_aui-3.2.so.0 so:libwx_gtk3u_core-3.2.so.0 so:libwx_gtk3u_gl-3.2.so.0 so:libwx_gtk3u_html-3.2.so.0 so:libwx_gtk3u_stc-3.2.so.0 so:libwx_gtk3u_webview-3.2.so.0 so:libwx_gtk3u_xrc-3.2.so.0
+t:1780142916
+c:18848d12cc1b57d3b293d3ebf24067c0d86a6b06
+D:erlang28=28.5.0.1-r0 xauth font-terminus so:libGLU.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libglib-2.0.so.0 so:libstdc++.so.6 so:libwx_baseu-3.2.so.0 so:libwx_gtk3u_aui-3.2.so.0 so:libwx_gtk3u_core-3.2.so.0 so:libwx_gtk3u_gl-3.2.so.0 so:libwx_gtk3u_html-3.2.so.0 so:libwx_gtk3u_stc-3.2.so.0 so:libwx_gtk3u_webview-3.2.so.0 so:libwx_gtk3u_xrc-3.2.so.0
 p:erlang-wx=28
 
 C:Q1JGP/LU9eMaNY6JGyOZetzxLAlAg=
@@ -44518,137 +44518,137 @@ c:b23f98ea4190d1561aeecfd7db8d974d3a5430d4
 D:perl-image-exiftool=13.55-r0
 p:cmd:exiftool=13.55-r0
 
-C:Q1toPVJKCLEQijBRkDQowdjpzgBBk=
+C:Q118Ls0r6ug3t0zyQjyqdGe9qrtcU=
 P:exim
-V:4.99.3-r0
+V:4.99.4-r0
 A:armhf
-S:681358
+S:681557
 I:1438689
 T:Message Transfer Agent
 U:https://www.exim.org/
 L:GPL-2.0-or-later
 o:exim
-t:1778950094
-c:39e1d81dccdac04ed10af12b20cc48dba5fd75b2
+t:1780142841
+c:bde072364c642dc15c7b50e0734e4b8e40d2fb1e
 D:ca-certificates /bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libpcre2-8.so.0 so:libspf2.so.2 so:libssl.so.3 so:libtdb.so.1
-p:cmd:exim=4.99.3-r0 cmd:mailq=4.99.3-r0 cmd:newaliases=4.99.3-r0 cmd:rmail=4.99.3-r0 cmd:rsmtp=4.99.3-r0 cmd:runq=4.99.3-r0 cmd:sendmail=4.99.3-r0
+p:cmd:exim=4.99.4-r0 cmd:mailq=4.99.4-r0 cmd:newaliases=4.99.4-r0 cmd:rmail=4.99.4-r0 cmd:rsmtp=4.99.4-r0 cmd:runq=4.99.4-r0 cmd:sendmail=4.99.4-r0
 
-C:Q1/KwZcFlvoF1XH203Lcudrx0L6A4=
+C:Q1x5lBiDSQ+04IjG4RJRONhJeBKm0=
 P:exim-cdb
-V:4.99.3-r0
+V:4.99.4-r0
 A:armhf
-S:5373
+S:5376
 I:9392
 T:EXIM extension: cdb
 U:https://www.exim.org/
 L:GPL-2.0-or-later
 o:exim
-t:1778950094
-c:39e1d81dccdac04ed10af12b20cc48dba5fd75b2
-D:exim=4.99.3-r0 so:libc.musl-armhf.so.1
+t:1780142841
+c:bde072364c642dc15c7b50e0734e4b8e40d2fb1e
+D:exim=4.99.4-r0 so:libc.musl-armhf.so.1
 
-C:Q1gq/msekoSAHWnn/Cghup5A7Lijg=
+C:Q1ExrTijluWc74ZkfM8+m9sn90qpk=
 P:exim-dbmdb
-V:4.99.3-r0
+V:4.99.4-r0
 A:armhf
-S:4287
+S:4281
 I:9480
 T:EXIM extension: dbmdb
 U:https://www.exim.org/
 L:GPL-2.0-or-later
 o:exim
-t:1778950094
-c:39e1d81dccdac04ed10af12b20cc48dba5fd75b2
-D:exim=4.99.3-r0 so:libc.musl-armhf.so.1
+t:1780142841
+c:bde072364c642dc15c7b50e0734e4b8e40d2fb1e
+D:exim=4.99.4-r0 so:libc.musl-armhf.so.1
 
-C:Q18bDfnkoYvoLKzMQqho8IPlGt4Q4=
+C:Q1qIkBw6UKxtBnnvcEgGXcMmg08go=
 P:exim-dnsdb
-V:4.99.3-r0
+V:4.99.4-r0
 A:armhf
-S:6519
+S:6515
 I:13540
 T:EXIM extension: dnsdb
 U:https://www.exim.org/
 L:GPL-2.0-or-later
 o:exim
-t:1778950094
-c:39e1d81dccdac04ed10af12b20cc48dba5fd75b2
-D:exim=4.99.3-r0 so:libc.musl-armhf.so.1
+t:1780142841
+c:bde072364c642dc15c7b50e0734e4b8e40d2fb1e
+D:exim=4.99.4-r0 so:libc.musl-armhf.so.1
 
-C:Q1P3SF0gOu2ZBx+8Hi5iz+AvPzKuQ=
+C:Q1S3TmS3IMYwCMsL7pM8FmBKvJW1k=
 P:exim-doc
-V:4.99.3-r0
+V:4.99.4-r0
 A:armhf
-S:29194
+S:29190
 I:27423
 T:Message Transfer Agent (documentation)
 U:https://www.exim.org/
 L:GPL-2.0-or-later
 o:exim
-t:1778950094
-c:39e1d81dccdac04ed10af12b20cc48dba5fd75b2
-i:docs exim=4.99.3-r0
+t:1780142841
+c:bde072364c642dc15c7b50e0734e4b8e40d2fb1e
+i:docs exim=4.99.4-r0
 
-C:Q1pTbVEb8EWsLUEdHgLOr3rEfTpJg=
+C:Q1ucDXexNzpXiRsz0+tCsc7j0bsIE=
 P:exim-mysql
-V:4.99.3-r0
+V:4.99.4-r0
 A:armhf
-S:5919
+S:5917
 I:9500
 T:EXIM extension: mysql
 U:https://www.exim.org/
 L:GPL-2.0-or-later
 o:exim
-t:1778950094
-c:39e1d81dccdac04ed10af12b20cc48dba5fd75b2
-D:exim=4.99.3-r0 so:libc.musl-armhf.so.1 so:libmariadb.so.3
+t:1780142841
+c:bde072364c642dc15c7b50e0734e4b8e40d2fb1e
+D:exim=4.99.4-r0 so:libc.musl-armhf.so.1 so:libmariadb.so.3
 
-C:Q1YxE0FqSdY/5mzOyzv0gclYJgQpM=
+C:Q1FpGMf4pELaub7SP5Kltnye0ZLP8=
 P:exim-openrc
-V:4.99.3-r0
+V:4.99.4-r0
 A:armhf
-S:2064
+S:2065
 I:786
 T:Message Transfer Agent (OpenRC init scripts)
 U:https://www.exim.org/
 L:GPL-2.0-or-later
 o:exim
-t:1778950094
-c:39e1d81dccdac04ed10af12b20cc48dba5fd75b2
-i:openrc exim=4.99.3-r0
+t:1780142841
+c:bde072364c642dc15c7b50e0734e4b8e40d2fb1e
+i:openrc exim=4.99.4-r0
 
-C:Q1MNV3acg+0Lmvyu2Rq/wG/a+YvJI=
+C:Q19t7hMBEOrLDuqv9p4u3VFV57Hio=
 P:exim-postgresql
-V:4.99.3-r0
+V:4.99.4-r0
 A:armhf
-S:5793
+S:5796
 I:9392
 T:EXIM extension: pgsql
 U:https://www.exim.org/
 L:GPL-2.0-or-later
 o:exim
-t:1778950094
-c:39e1d81dccdac04ed10af12b20cc48dba5fd75b2
-D:exim=4.99.3-r0 so:libc.musl-armhf.so.1 so:libpq.so.5
+t:1780142841
+c:bde072364c642dc15c7b50e0734e4b8e40d2fb1e
+D:exim=4.99.4-r0 so:libc.musl-armhf.so.1 so:libpq.so.5
 
-C:Q14oMsIrYCc4oaCY5ysTxh1vooG40=
+C:Q19R6tRTYi6/wjmBXAfOM2iy1GB2E=
 P:exim-scripts
-V:4.99.3-r0
+V:4.99.4-r0
 A:armhf
-S:86495
+S:86500
 I:294054
 T:EXIM scripts
 U:https://www.exim.org/
 L:GPL-2.0-or-later
 o:exim
-t:1778950094
-c:39e1d81dccdac04ed10af12b20cc48dba5fd75b2
-D:exim=4.99.3-r0 perl perl-file-fcntllock
-p:cmd:exicyclog=4.99.3-r0 cmd:exigrep=4.99.3-r0 cmd:exim_checkaccess=4.99.3-r0 cmd:exim_id_update=4.99.3-r0 cmd:exim_msgdate=4.99.3-r0 cmd:eximstats=4.99.3-r0 cmd:exinext=4.99.3-r0 cmd:exipick=4.99.3-r0 cmd:exiqgrep=4.99.3-r0 cmd:exiqsumm=4.99.3-r0 cmd:exiwhat=4.99.3-r0
+t:1780142841
+c:bde072364c642dc15c7b50e0734e4b8e40d2fb1e
+D:exim=4.99.4-r0 perl perl-file-fcntllock
+p:cmd:exicyclog=4.99.4-r0 cmd:exigrep=4.99.4-r0 cmd:exim_checkaccess=4.99.4-r0 cmd:exim_id_update=4.99.4-r0 cmd:exim_msgdate=4.99.4-r0 cmd:eximstats=4.99.4-r0 cmd:exinext=4.99.4-r0 cmd:exipick=4.99.4-r0 cmd:exiqgrep=4.99.4-r0 cmd:exiqsumm=4.99.4-r0 cmd:exiwhat=4.99.4-r0
 
-C:Q1vlyBOlkR/MkKe4yCH6NkW9vajck=
+C:Q1lyXHQj1NxivDkmjGp4x+NDoh7T0=
 P:exim-sqlite
-V:4.99.3-r0
+V:4.99.4-r0
 A:armhf
 S:4483
 I:9392
@@ -44656,24 +44656,24 @@ T:EXIM extension: sqlite
 U:https://www.exim.org/
 L:GPL-2.0-or-later
 o:exim
-t:1778950094
-c:39e1d81dccdac04ed10af12b20cc48dba5fd75b2
-D:exim=4.99.3-r0 so:libc.musl-armhf.so.1 so:libsqlite3.so.0
+t:1780142841
+c:bde072364c642dc15c7b50e0734e4b8e40d2fb1e
+D:exim=4.99.4-r0 so:libc.musl-armhf.so.1 so:libsqlite3.so.0
 
-C:Q1+sgHzXHprnWKmKr46bSCoOFO6dM=
+C:Q1hvHjx6H8kqY7hKRhqkcdD7+UuHI=
 P:exim-utils
-V:4.99.3-r0
+V:4.99.4-r0
 A:armhf
-S:35742
+S:35735
 I:98410
 T:EXIM utils
 U:https://www.exim.org/
 L:GPL-2.0-or-later
 o:exim
-t:1778950094
-c:39e1d81dccdac04ed10af12b20cc48dba5fd75b2
-D:exim=4.99.3-r0 so:libc.musl-armhf.so.1 so:libtdb.so.1
-p:cmd:exim_dbmbuild=4.99.3-r0 cmd:exim_dumpdb=4.99.3-r0 cmd:exim_fixdb=4.99.3-r0 cmd:exim_gencert=4.99.3-r0 cmd:exim_lock=4.99.3-r0 cmd:exim_tidydb=4.99.3-r0
+t:1780142841
+c:bde072364c642dc15c7b50e0734e4b8e40d2fb1e
+D:exim=4.99.4-r0 so:libc.musl-armhf.so.1 so:libtdb.so.1
+p:cmd:exim_dbmbuild=4.99.4-r0 cmd:exim_dumpdb=4.99.4-r0 cmd:exim_fixdb=4.99.4-r0 cmd:exim_gencert=4.99.4-r0 cmd:exim_lock=4.99.4-r0 cmd:exim_tidydb=4.99.4-r0
 
 C:Q1CPBv2kTEfF6in54Sd4cALjRciCE=
 P:exiv2
@@ -59786,6 +59786,37 @@ t:1777031432
 c:94d3fbedc738716e74a7ad87644628ed843fee80
 i:openrc gerbera=2.6.1-r6
 
+C:Q1hYxvgLNIdVKdCcjGqWYcVbOgu1Q=
+P:gesture
+V:0.8-r0
+A:armhf
+S:13290
+I:31334
+T:Handwriting algorithm with implementation for linux touchscreens injecting keys into a tty
+U:https://gitlab.com/unrznbl/gesture
+L:GPL-3.0-only
+o:gesture
+m:Craig Comstock <craig@unreasonablefarm.org>
+t:1780143708
+c:ce06516d0d5b39272c6da518186a8345dd5c31a7
+D:so:libc.musl-armhf.so.1
+p:cmd:gesture2tty=0.8-r0 cmd:gesture=0.8-r0 cmd:injectkeys=0.8-r0
+
+C:Q1tsWl5wHJMu+cJuOO24yeMZQVQM0=
+P:gesture-openrc
+V:0.8-r0
+A:armhf
+S:1694
+I:132
+T:Handwriting algorithm with implementation for linux touchscreens injecting keys into a tty (OpenRC init scripts)
+U:https://gitlab.com/unrznbl/gesture
+L:GPL-3.0-only
+o:gesture
+m:Craig Comstock <craig@unreasonablefarm.org>
+t:1780143708
+c:ce06516d0d5b39272c6da518186a8345dd5c31a7
+i:openrc gesture=0.8-r0
+
 C:Q1Ul6a32vmIWzc35Vfd28Cll5sSMc=
 P:getdns
 V:1.7.3-r0
@@ -63438,97 +63469,97 @@ t:1773645629
 c:0e955239200614a3b06794e020e32c3c16fb903e
 i:gnome-contacts=50.0-r0 lang
 
-C:Q16n+Pw0xtgvNDgT1hsUg1PEXB8ss=
+C:Q1zQfiQzhVNc3L8ZXa+AJBoEBlocs=
 P:gnome-control-center
-V:50.1-r0
+V:50.2-r0
 A:armhf
-S:3306142
-I:5809718
+S:3312350
+I:5830123
 T:GNOME control center
 U:https://gitlab.gnome.org/GNOME/gnome-control-center
 L:GPL-2.0-or-later
 o:gnome-control-center
 m:team/gnome <achill@achill.org>
-t:1776257328
-c:45e18109991b204ce3024b3650736b94c00c7f5d
+t:1780144184
+c:d7d115745130308065ee0f89a553c1b81e71a77d
 D:accountsservice colord cups-pk-helper dbus:org.freedesktop.Secrets openrc-settingsd setxkbmap /bin/sh so:libX11.so.6 so:libaccountsservice.so.0 so:libadwaita-1.so.0 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libcolord-gtk4.so.1 so:libcolord.so.2 so:libcups.so.2 so:libepoxy.so.0 so:libfontconfig.so.1 so:libgcr-4.so.4 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmobile.so.0 so:libgnome-bg-4.so.2 so:libgnome-bluetooth-ui-3.0.so.13 so:libgnome-desktop-4.so.2 so:libgnutls.so.30 so:libgoa-1.0.so.0 so:libgoa-backend-1.0.so.2 so:libgobject-2.0.so.0 so:libgraphene-1.0.so.0 so:libgsound.so.0 so:libgtk-4.so.1 so:libgtop-2.0.so.11 so:libgudev-1.0.so.0 so:libibus-1.0.so.5 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libkrb5.so.3 so:libmalcontent-0.so.0 so:libmm-glib.so.0 so:libnm.so.0 so:libnma-gtk4.so.0 so:libpango-1.0.so.0 so:libpolkit-gobject-1.so.0 so:libpulse-mainloop-glib.so.0 so:libpulse.so.0 so:libpwquality.so.1 so:libsecret-1.so.0 so:libsmbclient.so.0 so:libsoup-3.0.so.0 so:libudisks2.so.0 so:libupower-glib.so.3 so:libwacom.so.9 so:libwayland-client.so.0 so:libxml2.so.2
-p:cmd:gnome-control-center=50.1-r0
+p:cmd:gnome-control-center=50.2-r0
 
-C:Q1atBE0iag2KGa4Zj41STOVeYoK0Y=
+C:Q16Lanw0BBWTm7EIMXMmpC6lR2Ak0=
 P:gnome-control-center-bash-completion
-V:50.1-r0
+V:50.2-r0
 A:armhf
-S:2283
+S:2285
 I:1693
 T:Bash completions for gnome-control-center
 U:https://gitlab.gnome.org/GNOME/gnome-control-center
 L:GPL-2.0-or-later
 o:gnome-control-center
 m:team/gnome <achill@achill.org>
-t:1776257328
-c:45e18109991b204ce3024b3650736b94c00c7f5d
-i:gnome-control-center=50.1-r0 bash-completion
+t:1780144184
+c:d7d115745130308065ee0f89a553c1b81e71a77d
+i:gnome-control-center=50.2-r0 bash-completion
 
-C:Q157bkJ+lA0vyHXZk1mVtdP8vxzTw=
+C:Q1sb4OwBgPBNIf1bMcmpBrQxSZqBw=
 P:gnome-control-center-dbg
-V:50.1-r0
+V:50.2-r0
 A:armhf
-S:3589551
-I:8994816
+S:3589784
+I:8995292
 T:GNOME control center (debug symbols)
 U:https://gitlab.gnome.org/GNOME/gnome-control-center
 L:GPL-2.0-or-later
 o:gnome-control-center
 m:team/gnome <achill@achill.org>
-t:1776257328
-c:45e18109991b204ce3024b3650736b94c00c7f5d
-D:!gnome-control-center<50.1-r0 !gnome-control-center>50.1-r0
+t:1780144184
+c:d7d115745130308065ee0f89a553c1b81e71a77d
+D:!gnome-control-center<50.2-r0 !gnome-control-center>50.2-r0
 
-C:Q1CZsbKr7bWlzf84739A0L26R6r90=
+C:Q1cM5NDedEXSCvW8OlZc6bqUPFqu4=
 P:gnome-control-center-dev
-V:50.1-r0
+V:50.2-r0
 A:armhf
-S:2581
+S:2583
 I:1594
 T:GNOME control center (development files)
 U:https://gitlab.gnome.org/GNOME/gnome-control-center
 L:GPL-2.0-or-later
 o:gnome-control-center
 m:team/gnome <achill@achill.org>
-t:1776257328
-c:45e18109991b204ce3024b3650736b94c00c7f5d
+t:1780144184
+c:d7d115745130308065ee0f89a553c1b81e71a77d
 D:pkgconfig
-p:pc:gnome-keybindings=50.1
+p:pc:gnome-keybindings=50.2
 
-C:Q1iGehaBNjlHPql9Z1YB6vsHa0vhs=
+C:Q1OQ3NObroCqxQl6sqNnP0hgw+MzM=
 P:gnome-control-center-doc
-V:50.1-r0
+V:50.2-r0
 A:armhf
-S:1991
+S:1994
 I:673
 T:GNOME control center (documentation)
 U:https://gitlab.gnome.org/GNOME/gnome-control-center
 L:GPL-2.0-or-later
 o:gnome-control-center
 m:team/gnome <achill@achill.org>
-t:1776257328
-c:45e18109991b204ce3024b3650736b94c00c7f5d
-i:docs gnome-control-center=50.1-r0
+t:1780144184
+c:d7d115745130308065ee0f89a553c1b81e71a77d
+i:docs gnome-control-center=50.2-r0
 
-C:Q1NPSKb8Km4Wdy1NI1uorLciCBPOY=
+C:Q1ywqYlOv3kCBi7rx3XOtB1D4zmtc=
 P:gnome-control-center-lang
-V:50.1-r0
+V:50.2-r0
 A:armhf
-S:6234716
-I:17625923
+S:6307233
+I:17885780
 T:Languages for package gnome-control-center
 U:https://gitlab.gnome.org/GNOME/gnome-control-center
 L:GPL-2.0-or-later
 o:gnome-control-center
 m:team/gnome <achill@achill.org>
-t:1776257328
-c:45e18109991b204ce3024b3650736b94c00c7f5d
-i:gnome-control-center=50.1-r0 lang
+t:1780144184
+c:d7d115745130308065ee0f89a553c1b81e71a77d
+i:gnome-control-center=50.2-r0 lang
 
 C:Q1Ba4MVOS32SXxWeCMLthVcpbxkoY=
 P:gnome-desktop
@@ -86963,37 +86994,37 @@ c:a18256721e9ed33cbf63d8c62471d26e6e548435
 D:python3~3.14
 i:jupyter-notebook-shim=0.2.4-r4 pyc
 
-C:Q1j6wCN+xMHiQF1W3DtPs9H/tS0s0=
+C:Q1tCfKm7KCdvMM6tMA/Q2s7a+c7+0=
 P:jupyter-server
-V:2.18.2-r0
+V:2.19.0-r0
 A:armhf
-S:358873
-I:1714502
+S:359199
+I:1715954
 T:Backend for Jupyter web applications
 U:https://github.com/jupyter-server/jupyter_server
 L:BSD-3-Clause
 o:jupyter-server
 m:Achill Gilgenast <achill@achill.org>
-t:1778831571
-c:e85ca94a3e3dd91dbf00821dfc383d2f74103b2c
+t:1780144185
+c:700feb1509f66045fb89ab30f87984497301a8bd
 D:jupyter-nbconvert jupyter-nbformat jupyter-server-terminals py3-anyio py3-argon2-cffi py3-jinja2 py3-jupyter-events py3-jupyter_client py3-jupyter_core py3-overrides py3-packaging py3-prometheus-client py3-send2trash py3-terminado py3-tornado py3-traitlets py3-websocket-client python3~3.14
-p:cmd:jupyter-server=2.18.2-r0 py3.14:jupyter_server=2.18.2-r0
+p:cmd:jupyter-server=2.19.0-r0 py3.14:jupyter_server=2.19.0-r0
 
-C:Q1/RIbQriICuDXffJvJwU8Nrb8E+o=
+C:Q1vuLJ+5/SiQBkHtZdpfHLkRp98UE=
 P:jupyter-server-pyc
-V:2.18.2-r0
+V:2.19.0-r0
 A:armhf
-S:394730
-I:976262
+S:395121
+I:976894
 T:Precompiled Python bytecode for jupyter-server
 U:https://github.com/jupyter-server/jupyter_server
 L:BSD-3-Clause
 o:jupyter-server
 m:Achill Gilgenast <achill@achill.org>
-t:1778831571
-c:e85ca94a3e3dd91dbf00821dfc383d2f74103b2c
+t:1780144185
+c:700feb1509f66045fb89ab30f87984497301a8bd
 D:python3~3.14
-i:jupyter-server=2.18.2-r0 pyc
+i:jupyter-server=2.19.0-r0 pyc
 
 C:Q1FUiB1PDPXLMgICW5uVuQq4US0MM=
 P:jupyter-server-terminals
@@ -125630,51 +125661,51 @@ t:1779021940
 c:69c4f6d8c618de2753203f2a9fd5106dc40e4a4e
 i:openrc mautrix-gvoice=0.2605.0-r0
 
-C:Q1IWYX/z9+YaHZREDdImQ3t4nP6ms=
+C:Q1gzX02v11fJQ4lyv/7ALxtbmgg/M=
 P:mautrix-meta
-V:0.2605.0-r0
+V:0.2605.1-r0
 A:armhf
-S:10537258
-I:30608434
+S:10537333
+I:30612530
 T:Matrix-Facebook Messenger and Instagram DM puppeting bridge
 U:https://go.mau.fi/mautrix-meta/
 L:AGPL-3.0-or-later
 o:mautrix-meta
 m:Achill Gilgenast <achill@achill.org>
-t:1779021940
-c:a2ea909bf4802fa209db8ddd72f98cb1ce51281f
+t:1780144185
+c:b03e2bc7f80044989d269b34eb2975ae78c5ff53
 D:/bin/sh so:libc.musl-armhf.so.1 so:libolm.so.3 so:libsqlite3.so.0
-p:cmd:mautrix-meta=0.2605.0-r0
+p:cmd:mautrix-meta=0.2605.1-r0
 
-C:Q1GrhLq99sliDZho9Yi8rdk2A6xmw=
+C:Q1OdJsJVeHA+Glar8wacS7zMNDQQE=
 P:mautrix-meta-doc
-V:0.2605.0-r0
+V:0.2605.1-r0
 A:armhf
-S:13511
+S:13521
 I:34523
 T:Matrix-Facebook Messenger and Instagram DM puppeting bridge (documentation)
 U:https://go.mau.fi/mautrix-meta/
 L:AGPL-3.0-or-later
 o:mautrix-meta
 m:Achill Gilgenast <achill@achill.org>
-t:1779021940
-c:a2ea909bf4802fa209db8ddd72f98cb1ce51281f
-i:docs mautrix-meta=0.2605.0-r0
+t:1780144185
+c:b03e2bc7f80044989d269b34eb2975ae78c5ff53
+i:docs mautrix-meta=0.2605.1-r0
 
-C:Q1WhDSMFIaB7dKDiWTGv0x3DRP3is=
+C:Q1fN7dnTyekokiLK1w0LVTHkW+0HA=
 P:mautrix-meta-openrc
-V:0.2605.0-r0
+V:0.2605.1-r0
 A:armhf
-S:2019
+S:2025
 I:692
 T:Matrix-Facebook Messenger and Instagram DM puppeting bridge (OpenRC init scripts)
 U:https://go.mau.fi/mautrix-meta/
 L:AGPL-3.0-or-later
 o:mautrix-meta
 m:Achill Gilgenast <achill@achill.org>
-t:1779021940
-c:a2ea909bf4802fa209db8ddd72f98cb1ce51281f
-i:openrc mautrix-meta=0.2605.0-r0
+t:1780144185
+c:b03e2bc7f80044989d269b34eb2975ae78c5ff53
+i:openrc mautrix-meta=0.2605.1-r0
 
 C:Q1nN5P2ITnfxjwKU9+ymFyxnH5aN0=
 P:mautrix-slack
@@ -129820,47 +129851,47 @@ c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
 D:so:libc.musl-armhf.so.1 so:libgssapi_krb5.so.2
 p:cmd:bsondump=100.14.1-r3 cmd:mongodump=100.14.1-r3 cmd:mongoexport=100.14.1-r3 cmd:mongofiles=100.14.1-r3 cmd:mongoimport=100.14.1-r3 cmd:mongorestore=100.14.1-r3 cmd:mongostat=100.14.1-r3 cmd:mongotop=100.14.1-r3
 
-C:Q15TIYQfrcpRPBGIcYY7R6kP44zKM=
+C:Q16o4WegkMKugHWwLSkX8YTbxS6wc=
 P:mongooseim
-V:6.3.3-r11
+V:6.3.3-r12
 A:armhf
-S:20354226
-I:36485630
+S:20354051
+I:36485606
 T:Robust, scalable and efficient XMPP server aimed at large installations
 U:https://www.erlang-solutions.com/products/mongooseim.html
 L:GPL-2.0-or-later
 o:mongooseim
-t:1776787962
-c:b56841c1ea9a26f1aa1e21dba3b209484258a08d
+t:1780142994
+c:37558eef1b7a41722709118ca5d51915046809c0
 D:bash erlang>100 runuser /bin/sh so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libncursesw.so.6 so:libodbc.so.2 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1
-p:cmd:mongooseimctl=6.3.3-r11
+p:cmd:mongooseimctl=6.3.3-r12
 
-C:Q1+zRX0dzwKuFx5sRto4KnZEjFBws=
+C:Q1Ja4ML3uSHtzC7ktpAd+IXUcvTKA=
 P:mongooseim-dev
-V:6.3.3-r11
+V:6.3.3-r12
 A:armhf
-S:63055
+S:63063
 I:242756
 T:Robust, scalable and efficient XMPP server aimed at large installations (development files)
 U:https://www.erlang-solutions.com/products/mongooseim.html
 L:GPL-2.0-or-later
 o:mongooseim
-t:1776787962
-c:b56841c1ea9a26f1aa1e21dba3b209484258a08d
+t:1780142994
+c:37558eef1b7a41722709118ca5d51915046809c0
 
-C:Q1RBQ8Nj+xFGViC9pCbREhelXYtvc=
+C:Q1+wT79/rDmA/rs66NmJrBxn4wHJU=
 P:mongooseim-openrc
-V:6.3.3-r11
+V:6.3.3-r12
 A:armhf
-S:2048
+S:2045
 I:1051
 T:Robust, scalable and efficient XMPP server aimed at large installations (OpenRC init scripts)
 U:https://www.erlang-solutions.com/products/mongooseim.html
 L:GPL-2.0-or-later
 o:mongooseim
-t:1776787962
-c:b56841c1ea9a26f1aa1e21dba3b209484258a08d
-i:openrc mongooseim=6.3.3-r11
+t:1780142994
+c:37558eef1b7a41722709118ca5d51915046809c0
+i:openrc mongooseim=6.3.3-r12
 
 C:Q1mIko/j53daMZqIA2VjeV0pC6lhk=
 P:monitoring-plugins
@@ -181404,37 +181435,37 @@ c:d4b74b31bdf6d21b3c59580ad21f68362441cd4a
 D:bubblewrap so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libonig.so.5
 p:cmd:pipr=0.0.16-r1
 
-C:Q1JmNqa3BVyJkKxcwtEjRYZAWffmY=
+C:Q15OzG61m9yk2GaaH6gRGYpggFOpI=
 P:pipx
-V:1.12.0-r0
+V:1.13.0-r0
 A:armhf
-S:78287
-I:299903
+S:78888
+I:302113
 T:Install and Run Python Applications in Isolated Environments
 U:https://github.com/pypa/pipx
 L:MIT
 o:pipx
 m:Achill Gilgenast <achill@achill.org>
-t:1778323008
-c:3a716c48bd8edcbef9d0f22d22cda1ac65c4629c
+t:1780144185
+c:16c33169bfc1dc117d2ea985720bd34b900ce633
 D:py3-argcomplete py3-colorama py3-packaging py3-platformdirs py3-userpath python3~3.14
-p:cmd:pipx=1.12.0-r0 py3.14:pipx=1.12.0-r0
+p:cmd:pipx=1.13.0-r0 py3.14:pipx=1.13.0-r0
 
-C:Q1S5KT3y91rFwJLDFQt6m4kiyLMTc=
+C:Q1FSZYe9MqZwa+tQ+gNw/NHu6NX8E=
 P:pipx-pyc
-V:1.12.0-r0
+V:1.13.0-r0
 A:armhf
-S:176698
-I:432501
+S:178535
+I:436639
 T:Precompiled Python bytecode for pipx
 U:https://github.com/pypa/pipx
 L:MIT
 o:pipx
 m:Achill Gilgenast <achill@achill.org>
-t:1778323008
-c:3a716c48bd8edcbef9d0f22d22cda1ac65c4629c
+t:1780144185
+c:16c33169bfc1dc117d2ea985720bd34b900ce633
 D:python3~3.14
-i:pipx=1.12.0-r0 pyc
+i:pipx=1.13.0-r0 pyc
 
 C:Q18k9ctiQR9GUXJvQtM7buztkAgsY=
 P:pixz
@@ -230569,37 +230600,37 @@ c:57d77e335e5c2e627cb52ec86033e5095c54bf2a
 D:python3~3.14
 i:py3-uc-micro-py=2.0.0-r0 pyc
 
-C:Q1DtQwHSLWaNigj5cHymbaXrq+34o=
+C:Q11vaMe/QyXCOSPW0bJn7VVE46PbM=
 P:py3-udev
-V:0.24.1-r4
+V:0.24.4-r0
 A:armhf
-S:37873
-I:165069
+S:48011
+I:193067
 T:Python bindings to libudev
 U:http://pyudev.readthedocs.org
 L:LGPL-2.1-or-later
 o:py3-udev
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1774640354
-c:c2e0c4ae89f94c189aee43f3d4a2f64d195a7282
+t:1780142595
+c:6e637c8e11f7a5771f71fe954fdb1f90c4548be8
 D:so:libudev.so.1 python3 python3~3.14
-p:py-udev=0.24.1-r4 py3.14:pyudev=0.24.1-r4
+p:py-udev=0.24.4-r0 py3.14:pyudev=0.24.4-r0
 
-C:Q1Lnv14T6P4UcgjIXr2I4z+qfSiYU=
+C:Q1iKu0iPw2wtZ7okc5VcsgKZ4mkPs=
 P:py3-udev-pyc
-V:0.24.1-r4
+V:0.24.4-r0
 A:armhf
-S:60926
-I:165055
+S:61044
+I:165524
 T:Precompiled Python bytecode for py3-udev
 U:http://pyudev.readthedocs.org
 L:LGPL-2.1-or-later
 o:py3-udev
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1774640354
-c:c2e0c4ae89f94c189aee43f3d4a2f64d195a7282
+t:1780142595
+c:6e637c8e11f7a5771f71fe954fdb1f90c4548be8
 D:python3~3.14
-i:py3-udev=0.24.1-r4 pyc
+i:py3-udev=0.24.4-r0 pyc
 
 C:Q1HMzJqlmqyBN30hdRopcWArJTKgM=
 P:py3-ufo2ft
@@ -238909,52 +238940,52 @@ t:1669686595
 c:7a36d81a042f86616cadd01e5e14ba91b55b4f4c
 i:radeontop=1.4-r1 lang
 
-C:Q1KgVVCXwkCuVPGgVgv0zLzw2ATEE=
+C:Q1xWYmogBMc7mRETl5razyBG8cTsk=
 P:radicale
-V:3.7.3-r0
+V:3.7.4-r0
 A:armhf
-S:215152
-I:1033516
+S:217085
+I:1042478
 T:Free and open-source CalDAV and CardDAV server
 U:https://radicale.org/
 L:GPL-3.0-or-later
 o:radicale
 m:Achill Gilgenast <achill@achill.org>
-t:1778832184
-c:1bf05bd345fa767a72d3ee3feaed6b950ddea104
+t:1780144185
+c:25683e803e4752a8e370f52828090322945220e0
 D:py3-defusedxml py3-libpass py3-packaging py3-pika py3-requests py3-vobject /bin/sh python3~3.14
-p:cmd:radicale=3.7.3-r0 py3.14:radicale=3.7.3-r0
+p:cmd:radicale=3.7.4-r0 py3.14:radicale=3.7.4-r0
 
-C:Q118LEtHk4I0tqIZGxzZmJJh34FLM=
+C:Q1j5kM36lbN/y/vdqxKB87ZYpXlOc=
 P:radicale-openrc
-V:3.7.3-r0
+V:3.7.4-r0
 A:armhf
-S:1946
+S:1951
 I:677
 T:Free and open-source CalDAV and CardDAV server (OpenRC init scripts)
 U:https://radicale.org/
 L:GPL-3.0-or-later
 o:radicale
 m:Achill Gilgenast <achill@achill.org>
-t:1778832184
-c:1bf05bd345fa767a72d3ee3feaed6b950ddea104
-i:openrc radicale=3.7.3-r0
+t:1780144185
+c:25683e803e4752a8e370f52828090322945220e0
+i:openrc radicale=3.7.4-r0
 
-C:Q1D7f0TyBSzCPr9Ln4NG8iQX9s8yk=
+C:Q1vTC7Vmx6uvGgvnWx05PbeGqqa04=
 P:radicale-pyc
-V:3.7.3-r0
+V:3.7.4-r0
 A:armhf
-S:368984
-I:963006
+S:369454
+I:963713
 T:Precompiled Python bytecode for radicale
 U:https://radicale.org/
 L:GPL-3.0-or-later
 o:radicale
 m:Achill Gilgenast <achill@achill.org>
-t:1778832184
-c:1bf05bd345fa767a72d3ee3feaed6b950ddea104
+t:1780144185
+c:25683e803e4752a8e370f52828090322945220e0
 D:python3~3.14
-i:radicale=3.7.3-r0 pyc
+i:radicale=3.7.4-r0 pyc
 
 C:Q1+53z9YJ0Q1Bw6wzQBVeWMRaLInc=
 P:radio-cli
@@ -254411,6 +254442,52 @@ m:qaqland <qaq@qaq.land>
 t:1724025601
 c:b4072b340921c1b1fe6b896997ff114144f6e646
 i:docs shellharden=4.3.1-r0
+
+C:Q1DUGX4ssphcq+0ar+4JVvgKk1X88=
+P:shelli
+V:0.7-r0
+A:armhf
+S:16838
+I:29660
+T:A shell environment (scripts/config/etc) to make a unix system more usable day-to-day with simple commands
+U:https://git.sr.ht/~unrznbl/shelli
+L:GPL-3.0-only
+o:shelli
+m:Craig Comstock <craig@unreasonablefarm.org>
+t:1780143708
+c:0b10f9e0891121f78c6cd94f6c433f2e2e830289
+D:alsa-utils bash espeak kbd kbd-misc ofono py3-gobject3 python3 so:libc.musl-armhf.so.1
+
+C:Q1v4GcwguqiDCg4reypXO2MrAmdE4=
+P:shelli-openrc
+V:0.7-r0
+A:armhf
+S:2339
+I:1006
+T:A shell environment (scripts/config/etc) to make a unix system more usable day-to-day with simple commands (OpenRC init scripts)
+U:https://git.sr.ht/~unrznbl/shelli
+L:GPL-3.0-only
+o:shelli
+m:Craig Comstock <craig@unreasonablefarm.org>
+t:1780143708
+c:0b10f9e0891121f78c6cd94f6c433f2e2e830289
+i:openrc shelli=0.7-r0
+
+C:Q1Bla1gX9TsCBBidfb6qnIbZWkzJ4=
+P:shelli-opinionated
+V:0.7-r0
+A:armhf
+S:4145
+I:1
+T:Install potentially conflicting generic shelli commands like call, off, etc as symlinks in /usr/bin to /usr/share/shelli/bin/shelli- commands
+U:https://git.sr.ht/~unrznbl/shelli
+L:GPL-3.0-only
+o:shelli
+m:Craig Comstock <craig@unreasonablefarm.org>
+t:1780143708
+c:0b10f9e0891121f78c6cd94f6c433f2e2e830289
+D:alsa-utils bash espeak kbd kbd-misc ofono py3-gobject3 python3 shelli=0.7-r0
+p:cmd:airplane=0.7-r0 cmd:answer=0.7-r0 cmd:audio-discovery=0.7-r0 cmd:audio-hifi=0.7-r0 cmd:audio-update=0.7-r0 cmd:audio-voice=0.7-r0 cmd:battery=0.7-r0 cmd:biggest-files=0.7-r0 cmd:brightness=0.7-r0 cmd:call=0.7-r0 cmd:calld=0.7-r0 cmd:calls=0.7-r0 cmd:confirm=0.7-r0 cmd:contacts=0.7-r0 cmd:dial=0.7-r0 cmd:earpiece=0.7-r0 cmd:hangup=0.7-r0 cmd:headphones=0.7-r0 cmd:largefont=0.7-r0 cmd:messages=0.7-r0 cmd:mute=0.7-r0 cmd:off=0.7-r0 cmd:onkey=0.7-r0 cmd:powerkey=0.7-r0 cmd:ring=0.7-r0 cmd:say=0.7-r0 cmd:screen-on-off=0.7-r0 cmd:search=0.7-r0 cmd:sms=0.7-r0 cmd:smsd=0.7-r0 cmd:speaker=0.7-r0 cmd:status=0.7-r0 cmd:text=0.7-r0 cmd:unmute=0.7-r0 cmd:usb-internet=0.7-r0 cmd:vibrate=0.7-r0
 
 C:Q1V01q4mlpT4bCborOMnfVmuMOsMU=
 P:shellspec

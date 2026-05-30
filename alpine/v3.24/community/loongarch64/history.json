@@ -8116,7 +8116,8 @@
     "aws-lc": {
       "origin": "aws-lc",
       "versions": {
-        "1.73.0-r1": 1778661427
+        "1.73.0-r1": 1778661427,
+        "5.0.0-r0": 1780144184
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -8130,7 +8131,8 @@
     "aws-lc-dev": {
       "origin": "aws-lc",
       "versions": {
-        "1.73.0-r1": 1778661427
+        "1.73.0-r1": 1778661427,
+        "5.0.0-r0": 1780144184
       },
       "dependencies": [
         "!openssl-dev",
@@ -8146,7 +8148,8 @@
     "aws-lc-tools": {
       "origin": "aws-lc",
       "versions": {
-        "1.73.0-r1": 1778661427
+        "1.73.0-r1": 1778661427,
+        "5.0.0-r0": 1780144184
       },
       "dependencies": [
         "so:aws-lc:libcrypto.so",
@@ -8155,9 +8158,9 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:bssl=1.73.0-r1",
-        "cmd:c_rehash=1.73.0-r1",
-        "cmd:openssl=1.73.0-r1"
+        "cmd:bssl=5.0.0-r0",
+        "cmd:c_rehash=5.0.0-r0",
+        "cmd:openssl=5.0.0-r0"
       ]
     },
     "aws-sdk-cpp": {
@@ -45342,7 +45345,8 @@
     "erlang27": {
       "origin": "erlang27",
       "versions": {
-        "27.3.4.11-r0": 1776787962
+        "27.3.4.11-r0": 1776787962,
+        "27.3.4.12-r0": 1780142994
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -45352,25 +45356,26 @@
       ],
       "provides": [
         "erlang=127",
-        "cmd:ct_run=27.3.4.11-r0",
-        "cmd:dialyzer=27.3.4.11-r0",
-        "cmd:epmd=27.3.4.11-r0",
-        "cmd:erl=27.3.4.11-r0",
-        "cmd:erlc=27.3.4.11-r0",
-        "cmd:escript=27.3.4.11-r0",
-        "cmd:run_erl=27.3.4.11-r0",
-        "cmd:to_erl=27.3.4.11-r0",
-        "cmd:typer=27.3.4.11-r0"
+        "cmd:ct_run=27.3.4.12-r0",
+        "cmd:dialyzer=27.3.4.12-r0",
+        "cmd:epmd=27.3.4.12-r0",
+        "cmd:erl=27.3.4.12-r0",
+        "cmd:erlc=27.3.4.12-r0",
+        "cmd:escript=27.3.4.12-r0",
+        "cmd:run_erl=27.3.4.12-r0",
+        "cmd:to_erl=27.3.4.12-r0",
+        "cmd:typer=27.3.4.12-r0"
       ]
     },
     "erlang27-debugger": {
       "origin": "erlang27",
       "versions": {
-        "27.3.4.11-r0": 1776787962
+        "27.3.4.11-r0": 1776787962,
+        "27.3.4.12-r0": 1780142994
       },
       "dependencies": [
-        "erlang27=27.3.4.11-r0",
-        "erlang27-wx=27.3.4.11-r0"
+        "erlang27=27.3.4.12-r0",
+        "erlang27-wx=27.3.4.12-r0"
       ],
       "provides": [
         "erlang-debugger=127"
@@ -45379,10 +45384,11 @@
     "erlang27-dev": {
       "origin": "erlang27",
       "versions": {
-        "27.3.4.11-r0": 1776787962
+        "27.3.4.11-r0": 1776787962,
+        "27.3.4.12-r0": 1780142994
       },
       "dependencies": [
-        "erlang27=27.3.4.11-r0"
+        "erlang27=27.3.4.12-r0"
       ],
       "provides": [
         "erlang-dev=127"
@@ -45391,11 +45397,12 @@
     "erlang27-dialyzer": {
       "origin": "erlang27",
       "versions": {
-        "27.3.4.11-r0": 1776787962
+        "27.3.4.11-r0": 1776787962,
+        "27.3.4.12-r0": 1780142994
       },
       "dependencies": [
-        "erlang27=27.3.4.11-r0",
-        "erlang27-wx=27.3.4.11-r0"
+        "erlang27=27.3.4.12-r0",
+        "erlang27-wx=27.3.4.12-r0"
       ],
       "provides": [
         "erlang-dialyzer=127"
@@ -45404,7 +45411,8 @@
     "erlang27-doc": {
       "origin": "erlang27",
       "versions": {
-        "27.3.4.11-r0": 1776787962
+        "27.3.4.11-r0": 1776787962,
+        "27.3.4.12-r0": 1780142994
       },
       "provides": [
         "erlang-doc=127"
@@ -45413,11 +45421,12 @@
     "erlang27-et": {
       "origin": "erlang27",
       "versions": {
-        "27.3.4.11-r0": 1776787962
+        "27.3.4.11-r0": 1776787962,
+        "27.3.4.12-r0": 1780142994
       },
       "dependencies": [
-        "erlang27=27.3.4.11-r0",
-        "erlang27-wx=27.3.4.11-r0"
+        "erlang27=27.3.4.12-r0",
+        "erlang27-wx=27.3.4.12-r0"
       ],
       "provides": [
         "erlang-et=127"
@@ -45426,12 +45435,13 @@
     "erlang27-megaco": {
       "origin": "erlang27",
       "versions": {
-        "27.3.4.11-r0": 1776787962
+        "27.3.4.11-r0": 1776787962,
+        "27.3.4.12-r0": 1780142994
       },
       "dependencies": [
-        "erlang27=27.3.4.11-r0",
-        "erlang27-debugger=27.3.4.11-r0",
-        "erlang27-et=27.3.4.11-r0"
+        "erlang27=27.3.4.12-r0",
+        "erlang27-debugger=27.3.4.12-r0",
+        "erlang27-et=27.3.4.12-r0"
       ],
       "provides": [
         "erlang-megaco=127"
@@ -45440,12 +45450,13 @@
     "erlang27-observer": {
       "origin": "erlang27",
       "versions": {
-        "27.3.4.11-r0": 1776787962
+        "27.3.4.11-r0": 1776787962,
+        "27.3.4.12-r0": 1780142994
       },
       "dependencies": [
-        "erlang27=27.3.4.11-r0",
-        "erlang27-et=27.3.4.11-r0",
-        "erlang27-wx=27.3.4.11-r0"
+        "erlang27=27.3.4.12-r0",
+        "erlang27-et=27.3.4.12-r0",
+        "erlang27-wx=27.3.4.12-r0"
       ],
       "provides": [
         "erlang-observer=127"
@@ -45454,10 +45465,11 @@
     "erlang27-odbc": {
       "origin": "erlang27",
       "versions": {
-        "27.3.4.11-r0": 1776787962
+        "27.3.4.11-r0": 1776787962,
+        "27.3.4.12-r0": 1780142994
       },
       "dependencies": [
-        "erlang27=27.3.4.11-r0",
+        "erlang27=27.3.4.12-r0",
         "so:libc.musl-loongarch64.so.1",
         "so:libodbc.so.2"
       ],
@@ -45468,11 +45480,12 @@
     "erlang27-reltool": {
       "origin": "erlang27",
       "versions": {
-        "27.3.4.11-r0": 1776787962
+        "27.3.4.11-r0": 1776787962,
+        "27.3.4.12-r0": 1780142994
       },
       "dependencies": [
-        "erlang27=27.3.4.11-r0",
-        "erlang27-wx=27.3.4.11-r0"
+        "erlang27=27.3.4.12-r0",
+        "erlang27-wx=27.3.4.12-r0"
       ],
       "provides": [
         "erlang-reltool=127"
@@ -45481,10 +45494,11 @@
     "erlang27-wx": {
       "origin": "erlang27",
       "versions": {
-        "27.3.4.11-r0": 1776787962
+        "27.3.4.11-r0": 1776787962,
+        "27.3.4.12-r0": 1780142994
       },
       "dependencies": [
-        "erlang27=27.3.4.11-r0",
+        "erlang27=27.3.4.12-r0",
         "xauth",
         "font-terminus",
         "so:libGLU.so.1",
@@ -45508,7 +45522,8 @@
     "erlang28": {
       "origin": "erlang28",
       "versions": {
-        "28.5-r0": 1777039103
+        "28.5-r0": 1777039103,
+        "28.5.0.1-r0": 1780142916
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -45518,25 +45533,26 @@
       ],
       "provides": [
         "erlang=28",
-        "cmd:ct_run=28.5-r0",
-        "cmd:dialyzer=28.5-r0",
-        "cmd:epmd=28.5-r0",
-        "cmd:erl=28.5-r0",
-        "cmd:erlc=28.5-r0",
-        "cmd:escript=28.5-r0",
-        "cmd:run_erl=28.5-r0",
-        "cmd:to_erl=28.5-r0",
-        "cmd:typer=28.5-r0"
+        "cmd:ct_run=28.5.0.1-r0",
+        "cmd:dialyzer=28.5.0.1-r0",
+        "cmd:epmd=28.5.0.1-r0",
+        "cmd:erl=28.5.0.1-r0",
+        "cmd:erlc=28.5.0.1-r0",
+        "cmd:escript=28.5.0.1-r0",
+        "cmd:run_erl=28.5.0.1-r0",
+        "cmd:to_erl=28.5.0.1-r0",
+        "cmd:typer=28.5.0.1-r0"
       ]
     },
     "erlang28-debugger": {
       "origin": "erlang28",
       "versions": {
-        "28.5-r0": 1777039103
+        "28.5-r0": 1777039103,
+        "28.5.0.1-r0": 1780142916
       },
       "dependencies": [
-        "erlang28=28.5-r0",
-        "erlang28-wx=28.5-r0"
+        "erlang28=28.5.0.1-r0",
+        "erlang28-wx=28.5.0.1-r0"
       ],
       "provides": [
         "erlang-debugger=28"
@@ -45545,10 +45561,11 @@
     "erlang28-dev": {
       "origin": "erlang28",
       "versions": {
-        "28.5-r0": 1777039103
+        "28.5-r0": 1777039103,
+        "28.5.0.1-r0": 1780142916
       },
       "dependencies": [
-        "erlang28=28.5-r0"
+        "erlang28=28.5.0.1-r0"
       ],
       "provides": [
         "erlang-dev=28"
@@ -45557,11 +45574,12 @@
     "erlang28-dialyzer": {
       "origin": "erlang28",
       "versions": {
-        "28.5-r0": 1777039103
+        "28.5-r0": 1777039103,
+        "28.5.0.1-r0": 1780142916
       },
       "dependencies": [
-        "erlang28=28.5-r0",
-        "erlang28-wx=28.5-r0"
+        "erlang28=28.5.0.1-r0",
+        "erlang28-wx=28.5.0.1-r0"
       ],
       "provides": [
         "erlang-dialyzer=28"
@@ -45570,7 +45588,8 @@
     "erlang28-doc": {
       "origin": "erlang28",
       "versions": {
-        "28.5-r0": 1777039103
+        "28.5-r0": 1777039103,
+        "28.5.0.1-r0": 1780142916
       },
       "provides": [
         "erlang-doc=28"
@@ -45579,11 +45598,12 @@
     "erlang28-et": {
       "origin": "erlang28",
       "versions": {
-        "28.5-r0": 1777039103
+        "28.5-r0": 1777039103,
+        "28.5.0.1-r0": 1780142916
       },
       "dependencies": [
-        "erlang28=28.5-r0",
-        "erlang28-wx=28.5-r0"
+        "erlang28=28.5.0.1-r0",
+        "erlang28-wx=28.5.0.1-r0"
       ],
       "provides": [
         "erlang-et=28"
@@ -45592,12 +45612,13 @@
     "erlang28-megaco": {
       "origin": "erlang28",
       "versions": {
-        "28.5-r0": 1777039103
+        "28.5-r0": 1777039103,
+        "28.5.0.1-r0": 1780142916
       },
       "dependencies": [
-        "erlang28=28.5-r0",
-        "erlang28-debugger=28.5-r0",
-        "erlang28-et=28.5-r0"
+        "erlang28=28.5.0.1-r0",
+        "erlang28-debugger=28.5.0.1-r0",
+        "erlang28-et=28.5.0.1-r0"
       ],
       "provides": [
         "erlang-megaco=28"
@@ -45606,12 +45627,13 @@
     "erlang28-observer": {
       "origin": "erlang28",
       "versions": {
-        "28.5-r0": 1777039103
+        "28.5-r0": 1777039103,
+        "28.5.0.1-r0": 1780142916
       },
       "dependencies": [
-        "erlang28=28.5-r0",
-        "erlang28-et=28.5-r0",
-        "erlang28-wx=28.5-r0"
+        "erlang28=28.5.0.1-r0",
+        "erlang28-et=28.5.0.1-r0",
+        "erlang28-wx=28.5.0.1-r0"
       ],
       "provides": [
         "erlang-observer=28"
@@ -45620,10 +45642,11 @@
     "erlang28-odbc": {
       "origin": "erlang28",
       "versions": {
-        "28.5-r0": 1777039103
+        "28.5-r0": 1777039103,
+        "28.5.0.1-r0": 1780142916
       },
       "dependencies": [
-        "erlang28=28.5-r0",
+        "erlang28=28.5.0.1-r0",
         "so:libc.musl-loongarch64.so.1",
         "so:libodbc.so.2"
       ],
@@ -45634,11 +45657,12 @@
     "erlang28-reltool": {
       "origin": "erlang28",
       "versions": {
-        "28.5-r0": 1777039103
+        "28.5-r0": 1777039103,
+        "28.5.0.1-r0": 1780142916
       },
       "dependencies": [
-        "erlang28=28.5-r0",
-        "erlang28-wx=28.5-r0"
+        "erlang28=28.5.0.1-r0",
+        "erlang28-wx=28.5.0.1-r0"
       ],
       "provides": [
         "erlang-reltool=28"
@@ -45647,10 +45671,11 @@
     "erlang28-wx": {
       "origin": "erlang28",
       "versions": {
-        "28.5-r0": 1777039103
+        "28.5-r0": 1777039103,
+        "28.5.0.1-r0": 1780142916
       },
       "dependencies": [
-        "erlang28=28.5-r0",
+        "erlang28=28.5.0.1-r0",
         "xauth",
         "font-terminus",
         "so:libGLU.so.1",
@@ -46422,7 +46447,8 @@
     "exim": {
       "origin": "exim",
       "versions": {
-        "4.99.3-r0": 1778950094
+        "4.99.3-r0": 1778950094,
+        "4.99.4-r0": 1780142841
       },
       "dependencies": [
         "ca-certificates",
@@ -46435,58 +46461,63 @@
         "so:libtdb.so.1"
       ],
       "provides": [
-        "cmd:exim=4.99.3-r0",
-        "cmd:mailq=4.99.3-r0",
-        "cmd:newaliases=4.99.3-r0",
-        "cmd:rmail=4.99.3-r0",
-        "cmd:rsmtp=4.99.3-r0",
-        "cmd:runq=4.99.3-r0",
-        "cmd:sendmail=4.99.3-r0"
+        "cmd:exim=4.99.4-r0",
+        "cmd:mailq=4.99.4-r0",
+        "cmd:newaliases=4.99.4-r0",
+        "cmd:rmail=4.99.4-r0",
+        "cmd:rsmtp=4.99.4-r0",
+        "cmd:runq=4.99.4-r0",
+        "cmd:sendmail=4.99.4-r0"
       ]
     },
     "exim-cdb": {
       "origin": "exim",
       "versions": {
-        "4.99.3-r0": 1778950094
+        "4.99.3-r0": 1778950094,
+        "4.99.4-r0": 1780142841
       },
       "dependencies": [
-        "exim=4.99.3-r0",
+        "exim=4.99.4-r0",
         "so:libc.musl-loongarch64.so.1"
       ]
     },
     "exim-dbmdb": {
       "origin": "exim",
       "versions": {
-        "4.99.3-r0": 1778950094
+        "4.99.3-r0": 1778950094,
+        "4.99.4-r0": 1780142841
       },
       "dependencies": [
-        "exim=4.99.3-r0",
+        "exim=4.99.4-r0",
         "so:libc.musl-loongarch64.so.1"
       ]
     },
     "exim-dnsdb": {
       "origin": "exim",
       "versions": {
-        "4.99.3-r0": 1778950094
+        "4.99.3-r0": 1778950094,
+        "4.99.4-r0": 1780142841
       },
       "dependencies": [
-        "exim=4.99.3-r0",
+        "exim=4.99.4-r0",
         "so:libc.musl-loongarch64.so.1"
       ]
     },
     "exim-doc": {
       "origin": "exim",
       "versions": {
-        "4.99.3-r0": 1778950094
+        "4.99.3-r0": 1778950094,
+        "4.99.4-r0": 1780142841
       }
     },
     "exim-mysql": {
       "origin": "exim",
       "versions": {
-        "4.99.3-r0": 1778950094
+        "4.99.3-r0": 1778950094,
+        "4.99.4-r0": 1780142841
       },
       "dependencies": [
-        "exim=4.99.3-r0",
+        "exim=4.99.4-r0",
         "so:libc.musl-loongarch64.so.1",
         "so:libmariadb.so.3"
       ]
@@ -46494,16 +46525,18 @@
     "exim-openrc": {
       "origin": "exim",
       "versions": {
-        "4.99.3-r0": 1778950094
+        "4.99.3-r0": 1778950094,
+        "4.99.4-r0": 1780142841
       }
     },
     "exim-postgresql": {
       "origin": "exim",
       "versions": {
-        "4.99.3-r0": 1778950094
+        "4.99.3-r0": 1778950094,
+        "4.99.4-r0": 1780142841
       },
       "dependencies": [
-        "exim=4.99.3-r0",
+        "exim=4.99.4-r0",
         "so:libc.musl-loongarch64.so.1",
         "so:libpq.so.5"
       ]
@@ -46511,34 +46544,36 @@
     "exim-scripts": {
       "origin": "exim",
       "versions": {
-        "4.99.3-r0": 1778950094
+        "4.99.3-r0": 1778950094,
+        "4.99.4-r0": 1780142841
       },
       "dependencies": [
-        "exim=4.99.3-r0",
+        "exim=4.99.4-r0",
         "perl",
         "perl-file-fcntllock"
       ],
       "provides": [
-        "cmd:exicyclog=4.99.3-r0",
-        "cmd:exigrep=4.99.3-r0",
-        "cmd:exim_checkaccess=4.99.3-r0",
-        "cmd:exim_id_update=4.99.3-r0",
-        "cmd:exim_msgdate=4.99.3-r0",
-        "cmd:eximstats=4.99.3-r0",
-        "cmd:exinext=4.99.3-r0",
-        "cmd:exipick=4.99.3-r0",
-        "cmd:exiqgrep=4.99.3-r0",
-        "cmd:exiqsumm=4.99.3-r0",
-        "cmd:exiwhat=4.99.3-r0"
+        "cmd:exicyclog=4.99.4-r0",
+        "cmd:exigrep=4.99.4-r0",
+        "cmd:exim_checkaccess=4.99.4-r0",
+        "cmd:exim_id_update=4.99.4-r0",
+        "cmd:exim_msgdate=4.99.4-r0",
+        "cmd:eximstats=4.99.4-r0",
+        "cmd:exinext=4.99.4-r0",
+        "cmd:exipick=4.99.4-r0",
+        "cmd:exiqgrep=4.99.4-r0",
+        "cmd:exiqsumm=4.99.4-r0",
+        "cmd:exiwhat=4.99.4-r0"
       ]
     },
     "exim-sqlite": {
       "origin": "exim",
       "versions": {
-        "4.99.3-r0": 1778950094
+        "4.99.3-r0": 1778950094,
+        "4.99.4-r0": 1780142841
       },
       "dependencies": [
-        "exim=4.99.3-r0",
+        "exim=4.99.4-r0",
         "so:libc.musl-loongarch64.so.1",
         "so:libsqlite3.so.0"
       ]
@@ -46546,20 +46581,21 @@
     "exim-utils": {
       "origin": "exim",
       "versions": {
-        "4.99.3-r0": 1778950094
+        "4.99.3-r0": 1778950094,
+        "4.99.4-r0": 1780142841
       },
       "dependencies": [
-        "exim=4.99.3-r0",
+        "exim=4.99.4-r0",
         "so:libc.musl-loongarch64.so.1",
         "so:libtdb.so.1"
       ],
       "provides": [
-        "cmd:exim_dbmbuild=4.99.3-r0",
-        "cmd:exim_dumpdb=4.99.3-r0",
-        "cmd:exim_fixdb=4.99.3-r0",
-        "cmd:exim_gencert=4.99.3-r0",
-        "cmd:exim_lock=4.99.3-r0",
-        "cmd:exim_tidydb=4.99.3-r0"
+        "cmd:exim_dbmbuild=4.99.4-r0",
+        "cmd:exim_dumpdb=4.99.4-r0",
+        "cmd:exim_fixdb=4.99.4-r0",
+        "cmd:exim_gencert=4.99.4-r0",
+        "cmd:exim_lock=4.99.4-r0",
+        "cmd:exim_tidydb=4.99.4-r0"
       ]
     },
     "exiv2": {
@@ -63642,7 +63678,8 @@
     "gnome-control-center": {
       "origin": "gnome-control-center",
       "versions": {
-        "50.1-r0": 1776257328
+        "50.1-r0": 1776257328,
+        "50.2-r0": 1780144184
       },
       "dependencies": [
         "accountsservice",
@@ -63702,47 +63739,52 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:gnome-control-center=50.1-r0"
+        "cmd:gnome-control-center=50.2-r0"
       ]
     },
     "gnome-control-center-bash-completion": {
       "origin": "gnome-control-center",
       "versions": {
-        "50.1-r0": 1776257328
+        "50.1-r0": 1776257328,
+        "50.2-r0": 1780144184
       }
     },
     "gnome-control-center-dbg": {
       "origin": "gnome-control-center",
       "versions": {
-        "50.1-r0": 1776257328
+        "50.1-r0": 1776257328,
+        "50.2-r0": 1780144184
       },
       "dependencies": [
-        "!gnome-control-center<50.1-r0",
-        "!gnome-control-center>50.1-r0"
+        "!gnome-control-center<50.2-r0",
+        "!gnome-control-center>50.2-r0"
       ]
     },
     "gnome-control-center-dev": {
       "origin": "gnome-control-center",
       "versions": {
-        "50.1-r0": 1776257328
+        "50.1-r0": 1776257328,
+        "50.2-r0": 1780144184
       },
       "dependencies": [
         "pkgconfig"
       ],
       "provides": [
-        "pc:gnome-keybindings=50.1"
+        "pc:gnome-keybindings=50.2"
       ]
     },
     "gnome-control-center-doc": {
       "origin": "gnome-control-center",
       "versions": {
-        "50.1-r0": 1776257328
+        "50.1-r0": 1776257328,
+        "50.2-r0": 1780144184
       }
     },
     "gnome-control-center-lang": {
       "origin": "gnome-control-center",
       "versions": {
-        "50.1-r0": 1776257328
+        "50.1-r0": 1776257328,
+        "50.2-r0": 1780144184
       }
     },
     "gnome-desktop": {
@@ -63914,14 +63956,15 @@
     "gnome-extensions-app": {
       "origin": "gnome-shell",
       "versions": {
-        "50.1-r0": 1776257329
+        "50.1-r0": 1776257329,
+        "50.2-r0": 1780144184
       },
       "dependencies": [
         "gnome-shell",
         "libadwaita"
       ],
       "provides": [
-        "cmd:gnome-extensions-app=50.1-r0"
+        "cmd:gnome-extensions-app=50.2-r0"
       ]
     },
     "gnome-feeds": {
@@ -64846,7 +64889,8 @@
     "gnome-shell": {
       "origin": "gnome-shell",
       "versions": {
-        "50.1-r0": 1776257329
+        "50.1-r0": 1776257329,
+        "50.2-r0": 1780144184
       },
       "dependencies": [
         "accountsservice",
@@ -64906,10 +64950,10 @@
         "so:libsoup-3.0.so.0"
       ],
       "provides": [
-        "cmd:gnome-extensions=50.1-r0",
-        "cmd:gnome-shell-extension-tool=50.1-r0",
-        "cmd:gnome-shell-test-tool=50.1-r0",
-        "cmd:gnome-shell=50.1-r0",
+        "cmd:gnome-extensions=50.2-r0",
+        "cmd:gnome-shell-extension-tool=50.2-r0",
+        "cmd:gnome-shell-test-tool=50.2-r0",
+        "cmd:gnome-shell=50.2-r0",
         "so:libgnome-shell-menu.so=0",
         "so:libgvc.so=0",
         "so:libshell-18.so=0",
@@ -64920,17 +64964,19 @@
     "gnome-shell-dbg": {
       "origin": "gnome-shell",
       "versions": {
-        "50.1-r0": 1776257329
+        "50.1-r0": 1776257329,
+        "50.2-r0": 1780144184
       },
       "dependencies": [
-        "!gnome-shell<50.1-r0",
-        "!gnome-shell>50.1-r0"
+        "!gnome-shell<50.2-r0",
+        "!gnome-shell>50.2-r0"
       ]
     },
     "gnome-shell-doc": {
       "origin": "gnome-shell",
       "versions": {
-        "50.1-r0": 1776257329
+        "50.1-r0": 1776257329,
+        "50.2-r0": 1780144184
       }
     },
     "gnome-shell-extensions": {
@@ -64961,13 +65007,15 @@
     "gnome-shell-lang": {
       "origin": "gnome-shell",
       "versions": {
-        "50.1-r0": 1776257329
+        "50.1-r0": 1776257329,
+        "50.2-r0": 1780144184
       }
     },
     "gnome-shell-schemas": {
       "origin": "gnome-shell",
       "versions": {
-        "50.1-r0": 1776257329
+        "50.1-r0": 1776257329,
+        "50.2-r0": 1780144184
       }
     },
     "gnome-shell-session": {
@@ -90798,7 +90846,8 @@
     "jupyter-server": {
       "origin": "jupyter-server",
       "versions": {
-        "2.18.2-r0": 1778831571
+        "2.18.2-r0": 1778831571,
+        "2.19.0-r0": 1780144185
       },
       "dependencies": [
         "jupyter-nbconvert",
@@ -90821,14 +90870,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:jupyter-server=2.18.2-r0",
-        "py3.14:jupyter_server=2.18.2-r0"
+        "cmd:jupyter-server=2.19.0-r0",
+        "py3.14:jupyter_server=2.19.0-r0"
       ]
     },
     "jupyter-server-pyc": {
       "origin": "jupyter-server",
       "versions": {
-        "2.18.2-r0": 1778831571
+        "2.18.2-r0": 1778831571,
+        "2.19.0-r0": 1780144185
       },
       "dependencies": [
         "python3~3.14"
@@ -139413,7 +139463,8 @@
     "mautrix-meta": {
       "origin": "mautrix-meta",
       "versions": {
-        "0.2605.0-r0": 1779021940
+        "0.2605.0-r0": 1779021940,
+        "0.2605.1-r0": 1780144185
       },
       "dependencies": [
         "/bin/sh",
@@ -139422,19 +139473,21 @@
         "so:libsqlite3.so.0"
       ],
       "provides": [
-        "cmd:mautrix-meta=0.2605.0-r0"
+        "cmd:mautrix-meta=0.2605.1-r0"
       ]
     },
     "mautrix-meta-doc": {
       "origin": "mautrix-meta",
       "versions": {
-        "0.2605.0-r0": 1779021940
+        "0.2605.0-r0": 1779021940,
+        "0.2605.1-r0": 1780144185
       }
     },
     "mautrix-meta-openrc": {
       "origin": "mautrix-meta",
       "versions": {
-        "0.2605.0-r0": 1779021940
+        "0.2605.0-r0": 1779021940,
+        "0.2605.1-r0": 1780144185
       }
     },
     "mautrix-slack": {
@@ -143632,7 +143685,8 @@
     "mongooseim": {
       "origin": "mongooseim",
       "versions": {
-        "6.3.3-r11": 1776787962
+        "6.3.3-r11": 1776787962,
+        "6.3.3-r12": 1780142994
       },
       "dependencies": [
         "bash",
@@ -143649,19 +143703,21 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:mongooseimctl=6.3.3-r11"
+        "cmd:mongooseimctl=6.3.3-r12"
       ]
     },
     "mongooseim-dev": {
       "origin": "mongooseim",
       "versions": {
-        "6.3.3-r11": 1776787962
+        "6.3.3-r11": 1776787962,
+        "6.3.3-r12": 1780142994
       }
     },
     "mongooseim-openrc": {
       "origin": "mongooseim",
       "versions": {
-        "6.3.3-r11": 1776787962
+        "6.3.3-r11": 1776787962,
+        "6.3.3-r12": 1780142994
       }
     },
     "monitoring-plugins": {
@@ -182816,7 +182872,8 @@
     "pipx": {
       "origin": "pipx",
       "versions": {
-        "1.12.0-r0": 1778323008
+        "1.12.0-r0": 1778323008,
+        "1.13.0-r0": 1780144185
       },
       "dependencies": [
         "py3-argcomplete",
@@ -182827,14 +182884,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:pipx=1.12.0-r0",
-        "py3.14:pipx=1.12.0-r0"
+        "cmd:pipx=1.13.0-r0",
+        "py3.14:pipx=1.13.0-r0"
       ]
     },
     "pipx-pyc": {
       "origin": "pipx",
       "versions": {
-        "1.12.0-r0": 1778323008
+        "1.12.0-r0": 1778323008,
+        "1.13.0-r0": 1780144185
       },
       "dependencies": [
         "python3~3.14"
@@ -223081,7 +223139,8 @@
     "py3-udev": {
       "origin": "py3-udev",
       "versions": {
-        "0.24.1-r4": 1774640354
+        "0.24.1-r4": 1774640354,
+        "0.24.4-r0": 1780142595
       },
       "dependencies": [
         "so:libudev.so.1",
@@ -223089,14 +223148,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "py-udev=0.24.1-r4",
-        "py3.14:pyudev=0.24.1-r4"
+        "py-udev=0.24.4-r0",
+        "py3.14:pyudev=0.24.4-r0"
       ]
     },
     "py3-udev-pyc": {
       "origin": "py3-udev",
       "versions": {
-        "0.24.1-r4": 1774640354
+        "0.24.1-r4": 1774640354,
+        "0.24.4-r0": 1780142595
       },
       "dependencies": [
         "python3~3.14"
@@ -233809,7 +233869,8 @@
     "radicale": {
       "origin": "radicale",
       "versions": {
-        "3.7.3-r0": 1778832184
+        "3.7.3-r0": 1778832184,
+        "3.7.4-r0": 1780144185
       },
       "dependencies": [
         "py3-defusedxml",
@@ -233822,20 +233883,22 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:radicale=3.7.3-r0",
-        "py3.14:radicale=3.7.3-r0"
+        "cmd:radicale=3.7.4-r0",
+        "py3.14:radicale=3.7.4-r0"
       ]
     },
     "radicale-openrc": {
       "origin": "radicale",
       "versions": {
-        "3.7.3-r0": 1778832184
+        "3.7.3-r0": 1778832184,
+        "3.7.4-r0": 1780144185
       }
     },
     "radicale-pyc": {
       "origin": "radicale",
       "versions": {
-        "3.7.3-r0": 1778832184
+        "3.7.3-r0": 1778832184,
+        "3.7.4-r0": 1780144185
       },
       "dependencies": [
         "python3~3.14"
@@ -283330,6 +283393,104 @@
         "cloud-init=26.1-r2",
         "python3~3.14"
       ]
+    },
+    "gesture": {
+      "origin": "gesture",
+      "versions": {
+        "0.8-r0": 1780143708
+      },
+      "dependencies": [
+        "so:libc.musl-loongarch64.so.1"
+      ],
+      "provides": [
+        "cmd:gesture2tty=0.8-r0",
+        "cmd:gesture=0.8-r0",
+        "cmd:injectkeys=0.8-r0"
+      ]
+    },
+    "gesture-openrc": {
+      "origin": "gesture",
+      "versions": {
+        "0.8-r0": 1780143708
+      }
+    },
+    "shelli": {
+      "origin": "shelli",
+      "versions": {
+        "0.7-r0": 1780143708
+      },
+      "dependencies": [
+        "alsa-utils",
+        "bash",
+        "espeak",
+        "kbd",
+        "kbd-misc",
+        "ofono",
+        "py3-gobject3",
+        "python3",
+        "so:libc.musl-loongarch64.so.1"
+      ]
+    },
+    "shelli-openrc": {
+      "origin": "shelli",
+      "versions": {
+        "0.7-r0": 1780143708
+      }
+    },
+    "shelli-opinionated": {
+      "origin": "shelli",
+      "versions": {
+        "0.7-r0": 1780143708
+      },
+      "dependencies": [
+        "alsa-utils",
+        "bash",
+        "espeak",
+        "kbd",
+        "kbd-misc",
+        "ofono",
+        "py3-gobject3",
+        "python3",
+        "shelli=0.7-r0"
+      ],
+      "provides": [
+        "cmd:airplane=0.7-r0",
+        "cmd:answer=0.7-r0",
+        "cmd:audio-discovery=0.7-r0",
+        "cmd:audio-hifi=0.7-r0",
+        "cmd:audio-update=0.7-r0",
+        "cmd:audio-voice=0.7-r0",
+        "cmd:battery=0.7-r0",
+        "cmd:biggest-files=0.7-r0",
+        "cmd:brightness=0.7-r0",
+        "cmd:call=0.7-r0",
+        "cmd:calld=0.7-r0",
+        "cmd:calls=0.7-r0",
+        "cmd:confirm=0.7-r0",
+        "cmd:contacts=0.7-r0",
+        "cmd:dial=0.7-r0",
+        "cmd:earpiece=0.7-r0",
+        "cmd:hangup=0.7-r0",
+        "cmd:headphones=0.7-r0",
+        "cmd:largefont=0.7-r0",
+        "cmd:messages=0.7-r0",
+        "cmd:mute=0.7-r0",
+        "cmd:off=0.7-r0",
+        "cmd:onkey=0.7-r0",
+        "cmd:powerkey=0.7-r0",
+        "cmd:ring=0.7-r0",
+        "cmd:say=0.7-r0",
+        "cmd:screen-on-off=0.7-r0",
+        "cmd:search=0.7-r0",
+        "cmd:sms=0.7-r0",
+        "cmd:smsd=0.7-r0",
+        "cmd:speaker=0.7-r0",
+        "cmd:status=0.7-r0",
+        "cmd:text=0.7-r0",
+        "cmd:unmute=0.7-r0",
+        "cmd:usb-internet=0.7-r0",
+        "cmd:vibrate=0.7-r0"
+      ]
     }
   },
   "provide": {
@@ -310478,7 +310639,7 @@
       },
       "py-udev": {
         "package": "py3-udev",
-        "version": "0.24.1-r4"
+        "version": "0.24.4-r0"
       },
       "py-ukpostcodeparser": {
         "package": "py3-ukpostcodeparser",
