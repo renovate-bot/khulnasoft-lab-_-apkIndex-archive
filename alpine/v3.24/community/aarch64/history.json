@@ -19493,7 +19493,8 @@
     "bolt": {
       "origin": "bolt",
       "versions": {
-        "0.9.10-r0": 1752215136
+        "0.9.10-r0": 1752215136,
+        "0.9.11-r0": 1780142179
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -19504,13 +19505,14 @@
         "so:libudev.so.1"
       ],
       "provides": [
-        "cmd:boltctl=0.9.10-r0"
+        "cmd:boltctl=0.9.11-r0"
       ]
     },
     "bolt-doc": {
       "origin": "bolt",
       "versions": {
-        "0.9.10-r0": 1752215136
+        "0.9.10-r0": 1752215136,
+        "0.9.11-r0": 1780142179
       }
     },
     "bombadillo": {
@@ -69913,7 +69915,8 @@
     "gnunet": {
       "origin": "gnunet",
       "versions": {
-        "0.26.2-r0": 1766837832
+        "0.26.2-r0": 1766837832,
+        "0.27.0-r0": 1780135046
       },
       "dependencies": [
         "gnutls-utils",
@@ -69939,55 +69942,56 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:gnunet-abd=0.26.2-r0",
-        "cmd:gnunet-arm=0.26.2-r0",
-        "cmd:gnunet-auto-share=0.26.2-r0",
-        "cmd:gnunet-base32=0.26.2-r0",
-        "cmd:gnunet-bugreport=0.26.2-r0",
-        "cmd:gnunet-cadet=0.26.2-r0",
-        "cmd:gnunet-config=0.26.2-r0",
-        "cmd:gnunet-core=0.26.2-r0",
-        "cmd:gnunet-datastore=0.26.2-r0",
-        "cmd:gnunet-dht-get=0.26.2-r0",
-        "cmd:gnunet-dht-hello=0.26.2-r0",
-        "cmd:gnunet-dht-monitor=0.26.2-r0",
-        "cmd:gnunet-dht-put=0.26.2-r0",
-        "cmd:gnunet-did=0.26.2-r0",
-        "cmd:gnunet-directory=0.26.2-r0",
-        "cmd:gnunet-download=0.26.2-r0",
-        "cmd:gnunet-ecc=0.26.2-r0",
-        "cmd:gnunet-fs=0.26.2-r0",
-        "cmd:gnunet-gns-proxy-setup-ca=0.26.2-r0",
-        "cmd:gnunet-gns=0.26.2-r0",
-        "cmd:gnunet-hello=0.26.2-r0",
-        "cmd:gnunet-identity=0.26.2-r0",
-        "cmd:gnunet-messenger=0.26.2-r0",
-        "cmd:gnunet-namecache=0.26.2-r0",
-        "cmd:gnunet-namestore-dbtool=0.26.2-r0",
-        "cmd:gnunet-namestore-zonefile=0.26.2-r0",
-        "cmd:gnunet-namestore=0.26.2-r0",
-        "cmd:gnunet-nat-auto=0.26.2-r0",
-        "cmd:gnunet-nat-server=0.26.2-r0",
-        "cmd:gnunet-nat=0.26.2-r0",
-        "cmd:gnunet-nse=0.26.2-r0",
-        "cmd:gnunet-pils=0.26.2-r0",
-        "cmd:gnunet-publish=0.26.2-r0",
-        "cmd:gnunet-reclaim=0.26.2-r0",
-        "cmd:gnunet-resolver=0.26.2-r0",
-        "cmd:gnunet-revocation=0.26.2-r0",
-        "cmd:gnunet-rps=0.26.2-r0",
-        "cmd:gnunet-scalarproduct=0.26.2-r0",
-        "cmd:gnunet-scrypt=0.26.2-r0",
-        "cmd:gnunet-search=0.26.2-r0",
-        "cmd:gnunet-statistics=0.26.2-r0",
-        "cmd:gnunet-testbed=0.26.2-r0",
-        "cmd:gnunet-testing-netjail-launcher=0.26.2-r0",
-        "cmd:gnunet-transport-certificate-creation=0.26.2-r0",
-        "cmd:gnunet-unindex=0.26.2-r0",
-        "cmd:gnunet-uri=0.26.2-r0",
-        "cmd:gnunet-vpn=0.26.2-r0",
-        "cmd:gnunet-zoneimport=0.26.2-r0",
-        "cmd:setup-gnunet-user=0.26.2-r0",
+        "cmd:gnunet-abd=0.27.0-r0",
+        "cmd:gnunet-arm=0.27.0-r0",
+        "cmd:gnunet-auto-share=0.27.0-r0",
+        "cmd:gnunet-base32=0.27.0-r0",
+        "cmd:gnunet-bugreport=0.27.0-r0",
+        "cmd:gnunet-cadet=0.27.0-r0",
+        "cmd:gnunet-config=0.27.0-r0",
+        "cmd:gnunet-core=0.27.0-r0",
+        "cmd:gnunet-datastore=0.27.0-r0",
+        "cmd:gnunet-dht-get=0.27.0-r0",
+        "cmd:gnunet-dht-hello=0.27.0-r0",
+        "cmd:gnunet-dht-monitor=0.27.0-r0",
+        "cmd:gnunet-dht-put=0.27.0-r0",
+        "cmd:gnunet-did=0.27.0-r0",
+        "cmd:gnunet-directory=0.27.0-r0",
+        "cmd:gnunet-download=0.27.0-r0",
+        "cmd:gnunet-ecc=0.27.0-r0",
+        "cmd:gnunet-fs=0.27.0-r0",
+        "cmd:gnunet-gns-proxy-setup-ca=0.27.0-r0",
+        "cmd:gnunet-gns=0.27.0-r0",
+        "cmd:gnunet-hello=0.27.0-r0",
+        "cmd:gnunet-identity=0.27.0-r0",
+        "cmd:gnunet-messenger=0.27.0-r0",
+        "cmd:gnunet-namecache=0.27.0-r0",
+        "cmd:gnunet-namestore-dbtool=0.27.0-r0",
+        "cmd:gnunet-namestore-zonefile=0.27.0-r0",
+        "cmd:gnunet-namestore=0.27.0-r0",
+        "cmd:gnunet-nat-auto=0.27.0-r0",
+        "cmd:gnunet-nat-server=0.27.0-r0",
+        "cmd:gnunet-nat=0.27.0-r0",
+        "cmd:gnunet-nse=0.27.0-r0",
+        "cmd:gnunet-pils=0.27.0-r0",
+        "cmd:gnunet-publish=0.27.0-r0",
+        "cmd:gnunet-reclaim=0.27.0-r0",
+        "cmd:gnunet-regex=0.27.0-r0",
+        "cmd:gnunet-resolver=0.27.0-r0",
+        "cmd:gnunet-revocation=0.27.0-r0",
+        "cmd:gnunet-rps=0.27.0-r0",
+        "cmd:gnunet-scalarproduct=0.27.0-r0",
+        "cmd:gnunet-scrypt=0.27.0-r0",
+        "cmd:gnunet-search=0.27.0-r0",
+        "cmd:gnunet-statistics=0.27.0-r0",
+        "cmd:gnunet-testbed=0.27.0-r0",
+        "cmd:gnunet-testing-netjail-launcher=0.27.0-r0",
+        "cmd:gnunet-transport-certificate-creation=0.27.0-r0",
+        "cmd:gnunet-unindex=0.27.0-r0",
+        "cmd:gnunet-uri=0.27.0-r0",
+        "cmd:gnunet-vpn=0.27.0-r0",
+        "cmd:gnunet-zoneimport=0.27.0-r0",
+        "cmd:setup-gnunet-user=0.27.0-r0",
         "so:libgnunetabd.so.0=0.0.0",
         "so:libgnunetarm.so.2=2.0.0",
         "so:libgnunetblock.so.0=0.0.0",
@@ -70009,7 +70013,7 @@
         "so:libgnunethello.so.0=0.1.0",
         "so:libgnunetidentity.so.1=1.0.0",
         "so:libgnunetjson.so.3=3.1.0",
-        "so:libgnunetmessenger.so.0=0.0.0",
+        "so:libgnunetmessenger.so.0=0.0.7",
         "so:libgnunetmhd.so.0=0.0.1",
         "so:libgnunetnamecache.so.0=0.0.0",
         "so:libgnunetnamestore.so.0=0.0.1",
@@ -70042,17 +70046,18 @@
         "so:libgnunettransportcommunicator.so.0=0.0.0",
         "so:libgnunettransportcore.so.0=0.0.0",
         "so:libgnunettransportmonitor.so.0=0.0.0",
-        "so:libgnunetutil.so.20=20.0.0",
+        "so:libgnunetutil.so.22=22.0.0",
         "so:libgnunetvpn.so.0=0.0.0"
       ]
     },
     "gnunet-dev": {
       "origin": "gnunet",
       "versions": {
-        "0.26.2-r0": 1766837832
+        "0.26.2-r0": 1766837832,
+        "0.27.0-r0": 1780135046
       },
       "dependencies": [
-        "gnunet=0.26.2-r0",
+        "gnunet=0.27.0-r0",
         "pc:jansson",
         "pc:libcurl>=7.85.0",
         "pc:libgcrypt",
@@ -70064,58 +70069,59 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:gnunetabd=0.26.2",
-        "pc:gnunetarm=0.26.2",
-        "pc:gnunetblock=0.26.2",
-        "pc:gnunetcadet=0.26.2",
-        "pc:gnunetconsensus=0.26.2",
-        "pc:gnunetcore=0.26.2",
-        "pc:gnunetdatacache=0.26.2",
-        "pc:gnunetdatastore=0.26.2",
-        "pc:gnunetdht=0.26.2",
-        "pc:gnunetdid=0.26.2",
-        "pc:gnunetdns=0.26.2",
-        "pc:gnunetfs=0.26.2",
-        "pc:gnunetgns=0.26.2",
-        "pc:gnunetgnsrecord=0.26.2",
-        "pc:gnunethello=0.26.2",
-        "pc:gnunetidentity=0.26.2",
-        "pc:gnunetjson=0.26.2",
-        "pc:gnunetmessenger=0.26.2",
-        "pc:gnunetmhd=0.26.2",
-        "pc:gnunetnamecache=0.26.2",
-        "pc:gnunetnamestore=0.26.2",
-        "pc:gnunetnat=0.26.2",
-        "pc:gnunetnatauto=0.26.2",
-        "pc:gnunetnse=0.26.2",
-        "pc:gnunetpeerstore=0.26.2",
-        "pc:gnunetpils=0.26.2",
-        "pc:gnunetreclaim=0.26.2",
-        "pc:gnunetregex=0.26.2",
-        "pc:gnunetrest=0.26.2",
-        "pc:gnunetrevocation=0.26.2",
-        "pc:gnunetrps=0.26.2",
-        "pc:gnunetscalarproduct=0.26.2",
-        "pc:gnunetsecretsharing=0.26.2",
-        "pc:gnunetset=0.26.2",
-        "pc:gnunetseti=0.26.2",
-        "pc:gnunetsetu=0.26.2",
-        "pc:gnunetsq=0.26.2",
-        "pc:gnunetstatistics=0.26.2",
-        "pc:gnunettestbed=0.26.2",
-        "pc:gnunettesting=0.26.2",
-        "pc:gnunettransportapplication=0.26.2",
-        "pc:gnunettransportcommunicator=0.26.2",
-        "pc:gnunettransportcore=0.26.2",
-        "pc:gnunettransportmonitor=0.26.2",
-        "pc:gnunetutil=0.26.2",
-        "pc:gnunetvpn=0.26.2"
+        "pc:gnunetabd=0.27.0",
+        "pc:gnunetarm=0.27.0",
+        "pc:gnunetblock=0.27.0",
+        "pc:gnunetcadet=0.27.0",
+        "pc:gnunetconsensus=0.27.0",
+        "pc:gnunetcore=0.27.0",
+        "pc:gnunetdatacache=0.27.0",
+        "pc:gnunetdatastore=0.27.0",
+        "pc:gnunetdht=0.27.0",
+        "pc:gnunetdid=0.27.0",
+        "pc:gnunetdns=0.27.0",
+        "pc:gnunetfs=0.27.0",
+        "pc:gnunetgns=0.27.0",
+        "pc:gnunetgnsrecord=0.27.0",
+        "pc:gnunethello=0.27.0",
+        "pc:gnunetidentity=0.27.0",
+        "pc:gnunetjson=0.27.0",
+        "pc:gnunetmessenger=0.27.0",
+        "pc:gnunetmhd=0.27.0",
+        "pc:gnunetnamecache=0.27.0",
+        "pc:gnunetnamestore=0.27.0",
+        "pc:gnunetnat=0.27.0",
+        "pc:gnunetnatauto=0.27.0",
+        "pc:gnunetnse=0.27.0",
+        "pc:gnunetpeerstore=0.27.0",
+        "pc:gnunetpils=0.27.0",
+        "pc:gnunetreclaim=0.27.0",
+        "pc:gnunetregex=0.27.0",
+        "pc:gnunetrest=0.27.0",
+        "pc:gnunetrevocation=0.27.0",
+        "pc:gnunetrps=0.27.0",
+        "pc:gnunetscalarproduct=0.27.0",
+        "pc:gnunetsecretsharing=0.27.0",
+        "pc:gnunetset=0.27.0",
+        "pc:gnunetseti=0.27.0",
+        "pc:gnunetsetu=0.27.0",
+        "pc:gnunetsq=0.27.0",
+        "pc:gnunetstatistics=0.27.0",
+        "pc:gnunettestbed=0.27.0",
+        "pc:gnunettesting=0.27.0",
+        "pc:gnunettransportapplication=0.27.0",
+        "pc:gnunettransportcommunicator=0.27.0",
+        "pc:gnunettransportcore=0.27.0",
+        "pc:gnunettransportmonitor=0.27.0",
+        "pc:gnunetutil=0.27.0",
+        "pc:gnunetvpn=0.27.0"
       ]
     },
     "gnunet-doc": {
       "origin": "gnunet",
       "versions": {
-        "0.26.2-r0": 1766837832
+        "0.26.2-r0": 1766837832,
+        "0.27.0-r0": 1780135046
       }
     },
     "gnunet-gtk": {
@@ -70173,13 +70179,15 @@
     "gnunet-lang": {
       "origin": "gnunet",
       "versions": {
-        "0.26.2-r0": 1766837832
+        "0.26.2-r0": 1766837832,
+        "0.27.0-r0": 1780135046
       }
     },
     "gnunet-openrc": {
       "origin": "gnunet",
       "versions": {
-        "0.26.2-r0": 1766837832
+        "0.26.2-r0": 1766837832,
+        "0.27.0-r0": 1780135046
       }
     },
     "gnuplot": {
@@ -92060,7 +92068,8 @@
     "incus": {
       "origin": "incus",
       "versions": {
-        "7.0.0-r1": 1778661427
+        "7.0.0-r1": 1778661427,
+        "7.0.0-r2": 1780139607
       },
       "dependencies": [
         "acl",
@@ -92089,13 +92098,14 @@
         "so:libudev.so.1"
       ],
       "provides": [
-        "cmd:incusd=7.0.0-r1"
+        "cmd:incusd=7.0.0-r2"
       ]
     },
     "incus-agent": {
       "origin": "incus",
       "versions": {
-        "7.0.0-r1": 1778661427
+        "7.0.0-r1": 1778661427,
+        "7.0.0-r2": 1780139607
       },
       "dependencies": [
         "acl",
@@ -92114,13 +92124,14 @@
         "xz"
       ],
       "provides": [
-        "cmd:incus-agent=7.0.0-r1"
+        "cmd:incus-agent=7.0.0-r2"
       ]
     },
     "incus-agent-openrc": {
       "origin": "incus",
       "versions": {
-        "7.0.0-r1": 1778661427
+        "7.0.0-r1": 1778661427,
+        "7.0.0-r2": 1780139607
       },
       "dependencies": [
         "acl",
@@ -92142,13 +92153,15 @@
     "incus-bash-completion": {
       "origin": "incus",
       "versions": {
-        "7.0.0-r1": 1778661427
+        "7.0.0-r1": 1778661427,
+        "7.0.0-r2": 1780139607
       }
     },
     "incus-client": {
       "origin": "incus",
       "versions": {
-        "7.0.0-r1": 1778661427
+        "7.0.0-r1": 1778661427,
+        "7.0.0-r2": 1780139607
       },
       "dependencies": [
         "acl",
@@ -92169,13 +92182,14 @@
         "so:libintl.so.8"
       ],
       "provides": [
-        "cmd:incus=7.0.0-r1"
+        "cmd:incus=7.0.0-r2"
       ]
     },
     "incus-conversion": {
       "origin": "incus",
       "versions": {
-        "7.0.0-r1": 1778661427
+        "7.0.0-r1": 1778661427,
+        "7.0.0-r2": 1780139607
       },
       "dependencies": [
         "acl",
@@ -92197,8 +92211,8 @@
         "so:liblxc.so.1"
       ],
       "provides": [
-        "cmd:lxc-to-incus=7.0.0-r1",
-        "cmd:lxd-to-incus=7.0.0-r1"
+        "cmd:lxc-to-incus=7.0.0-r2",
+        "cmd:lxd-to-incus=7.0.0-r2"
       ]
     },
     "incus-feature": {
@@ -92478,16 +92492,18 @@
     "incus-openrc": {
       "origin": "incus",
       "versions": {
-        "7.0.0-r1": 1778661427
+        "7.0.0-r1": 1778661427,
+        "7.0.0-r2": 1780139607
       },
       "provides": [
-        "incus-lts-openrc=7.0.0-r1"
+        "incus-lts-openrc=7.0.0-r2"
       ]
     },
     "incus-user": {
       "origin": "incus",
       "versions": {
-        "7.0.0-r1": 1778661427
+        "7.0.0-r1": 1778661427,
+        "7.0.0-r2": 1780139607
       },
       "dependencies": [
         "acl",
@@ -92509,13 +92525,14 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:incus-user=7.0.0-r1"
+        "cmd:incus-user=7.0.0-r2"
       ]
     },
     "incus-user-openrc": {
       "origin": "incus",
       "versions": {
-        "7.0.0-r1": 1778661427
+        "7.0.0-r1": 1778661427,
+        "7.0.0-r2": 1780139607
       },
       "dependencies": [
         "acl",
@@ -92537,7 +92554,8 @@
     "incus-utils": {
       "origin": "incus",
       "versions": {
-        "7.0.0-r1": 1778661427
+        "7.0.0-r1": 1778661427,
+        "7.0.0-r2": 1780139607
       },
       "dependencies": [
         "incus",
@@ -92551,22 +92569,23 @@
         "so:libsqlite3.so.0"
       ],
       "provides": [
-        "cmd:empty-incus.sh=7.0.0-r1",
-        "cmd:fuidshift=7.0.0-r1",
-        "cmd:generate-config=7.0.0-r1",
-        "cmd:generate-database=7.0.0-r1",
-        "cmd:incus-benchmark=7.0.0-r1",
-        "cmd:incus-migrate=7.0.0-r1",
-        "cmd:incus-simplestreams=7.0.0-r1",
-        "cmd:mini-oidc=7.0.0-r1",
-        "cmd:sysinfo=7.0.0-r1",
-        "cmd:tls2jwt=7.0.0-r1"
+        "cmd:empty-incus.sh=7.0.0-r2",
+        "cmd:fuidshift=7.0.0-r2",
+        "cmd:generate-config=7.0.0-r2",
+        "cmd:generate-database=7.0.0-r2",
+        "cmd:incus-benchmark=7.0.0-r2",
+        "cmd:incus-migrate=7.0.0-r2",
+        "cmd:incus-simplestreams=7.0.0-r2",
+        "cmd:mini-oidc=7.0.0-r2",
+        "cmd:sysinfo=7.0.0-r2",
+        "cmd:tls2jwt=7.0.0-r2"
       ]
     },
     "incus-vm": {
       "origin": "incus",
       "versions": {
-        "7.0.0-r1": 1778661427
+        "7.0.0-r1": 1778661427,
+        "7.0.0-r2": 1780139607
       },
       "dependencies": [
         "aavmf",
@@ -323372,7 +323391,7 @@
       },
       "libgnunetmessenger.so.0": {
         "package": "gnunet",
-        "version": "0.0.0"
+        "version": "0.0.7"
       },
       "libgnunetmhd.so.0": {
         "package": "gnunet",
@@ -341657,6 +341676,10 @@
       "libwolfssh.so.18": {
         "package": "wolfssh",
         "version": "18.2.0"
+      },
+      "libgnunetutil.so.22": {
+        "package": "gnunet",
+        "version": "22.0.0"
       }
     },
     "package": {
@@ -342510,7 +342533,7 @@
       },
       "incus-lts-openrc": {
         "package": "incus-openrc",
-        "version": "7.0.0-r1"
+        "version": "7.0.0-r2"
       },
       "nm-wifi-backend": {
         "package": "iwd",

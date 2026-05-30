@@ -16794,7 +16794,8 @@
     "bolt": {
       "origin": "bolt",
       "versions": {
-        "0.9.10-r0": 1752215136
+        "0.9.10-r0": 1752215136,
+        "0.9.11-r0": 1780142179
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -16805,13 +16806,14 @@
         "so:libudev.so.1"
       ],
       "provides": [
-        "cmd:boltctl=0.9.10-r0"
+        "cmd:boltctl=0.9.11-r0"
       ]
     },
     "bolt-doc": {
       "origin": "bolt",
       "versions": {
-        "0.9.10-r0": 1752215136
+        "0.9.10-r0": 1752215136,
+        "0.9.11-r0": 1780142179
       }
     },
     "bombadillo": {
@@ -79023,7 +79025,8 @@
       "origin": "incus",
       "versions": {
         "7.0.0-r0": 1778050413,
-        "7.0.0-r1": 1778661427
+        "7.0.0-r1": 1778661427,
+        "7.0.0-r2": 1780139607
       },
       "dependencies": [
         "acl",
@@ -79052,14 +79055,15 @@
         "so:libudev.so.1"
       ],
       "provides": [
-        "cmd:incusd=7.0.0-r1"
+        "cmd:incusd=7.0.0-r2"
       ]
     },
     "incus-agent": {
       "origin": "incus",
       "versions": {
         "7.0.0-r0": 1778050413,
-        "7.0.0-r1": 1778661427
+        "7.0.0-r1": 1778661427,
+        "7.0.0-r2": 1780139607
       },
       "dependencies": [
         "acl",
@@ -79078,14 +79082,15 @@
         "xz"
       ],
       "provides": [
-        "cmd:incus-agent=7.0.0-r1"
+        "cmd:incus-agent=7.0.0-r2"
       ]
     },
     "incus-agent-openrc": {
       "origin": "incus",
       "versions": {
         "7.0.0-r0": 1778050413,
-        "7.0.0-r1": 1778661427
+        "7.0.0-r1": 1778661427,
+        "7.0.0-r2": 1780139607
       },
       "dependencies": [
         "acl",
@@ -79108,14 +79113,16 @@
       "origin": "incus",
       "versions": {
         "7.0.0-r0": 1778050413,
-        "7.0.0-r1": 1778661427
+        "7.0.0-r1": 1778661427,
+        "7.0.0-r2": 1780139607
       }
     },
     "incus-client": {
       "origin": "incus",
       "versions": {
         "7.0.0-r0": 1778050413,
-        "7.0.0-r1": 1778661427
+        "7.0.0-r1": 1778661427,
+        "7.0.0-r2": 1780139607
       },
       "dependencies": [
         "acl",
@@ -79136,14 +79143,15 @@
         "so:libintl.so.8"
       ],
       "provides": [
-        "cmd:incus=7.0.0-r1"
+        "cmd:incus=7.0.0-r2"
       ]
     },
     "incus-conversion": {
       "origin": "incus",
       "versions": {
         "7.0.0-r0": 1778050413,
-        "7.0.0-r1": 1778661427
+        "7.0.0-r1": 1778661427,
+        "7.0.0-r2": 1780139607
       },
       "dependencies": [
         "acl",
@@ -79165,8 +79173,8 @@
         "so:liblxc.so.1"
       ],
       "provides": [
-        "cmd:lxc-to-incus=7.0.0-r1",
-        "cmd:lxd-to-incus=7.0.0-r1"
+        "cmd:lxc-to-incus=7.0.0-r2",
+        "cmd:lxd-to-incus=7.0.0-r2"
       ]
     },
     "incus-feature": {
@@ -79472,17 +79480,19 @@
       "origin": "incus",
       "versions": {
         "7.0.0-r0": 1778050413,
-        "7.0.0-r1": 1778661427
+        "7.0.0-r1": 1778661427,
+        "7.0.0-r2": 1780139607
       },
       "provides": [
-        "incus-lts-openrc=7.0.0-r1"
+        "incus-lts-openrc=7.0.0-r2"
       ]
     },
     "incus-user": {
       "origin": "incus",
       "versions": {
         "7.0.0-r0": 1778050413,
-        "7.0.0-r1": 1778661427
+        "7.0.0-r1": 1778661427,
+        "7.0.0-r2": 1780139607
       },
       "dependencies": [
         "acl",
@@ -79504,14 +79514,15 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:incus-user=7.0.0-r1"
+        "cmd:incus-user=7.0.0-r2"
       ]
     },
     "incus-user-openrc": {
       "origin": "incus",
       "versions": {
         "7.0.0-r0": 1778050413,
-        "7.0.0-r1": 1778661427
+        "7.0.0-r1": 1778661427,
+        "7.0.0-r2": 1780139607
       },
       "dependencies": [
         "acl",
@@ -79534,7 +79545,8 @@
       "origin": "incus",
       "versions": {
         "7.0.0-r0": 1778050413,
-        "7.0.0-r1": 1778661427
+        "7.0.0-r1": 1778661427,
+        "7.0.0-r2": 1780139607
       },
       "dependencies": [
         "incus",
@@ -79548,23 +79560,24 @@
         "so:libsqlite3.so.0"
       ],
       "provides": [
-        "cmd:empty-incus.sh=7.0.0-r1",
-        "cmd:fuidshift=7.0.0-r1",
-        "cmd:generate-config=7.0.0-r1",
-        "cmd:generate-database=7.0.0-r1",
-        "cmd:incus-benchmark=7.0.0-r1",
-        "cmd:incus-migrate=7.0.0-r1",
-        "cmd:incus-simplestreams=7.0.0-r1",
-        "cmd:mini-oidc=7.0.0-r1",
-        "cmd:sysinfo=7.0.0-r1",
-        "cmd:tls2jwt=7.0.0-r1"
+        "cmd:empty-incus.sh=7.0.0-r2",
+        "cmd:fuidshift=7.0.0-r2",
+        "cmd:generate-config=7.0.0-r2",
+        "cmd:generate-database=7.0.0-r2",
+        "cmd:incus-benchmark=7.0.0-r2",
+        "cmd:incus-migrate=7.0.0-r2",
+        "cmd:incus-simplestreams=7.0.0-r2",
+        "cmd:mini-oidc=7.0.0-r2",
+        "cmd:sysinfo=7.0.0-r2",
+        "cmd:tls2jwt=7.0.0-r2"
       ]
     },
     "incus-vm": {
       "origin": "incus",
       "versions": {
         "7.0.0-r0": 1778050413,
-        "7.0.0-r1": 1778661427
+        "7.0.0-r1": 1778661427,
+        "7.0.0-r2": 1780139607
       },
       "dependencies": [
         "acl",
@@ -303774,7 +303787,7 @@
       },
       "incus-lts-openrc": {
         "package": "incus-openrc",
-        "version": "7.0.0-r1"
+        "version": "7.0.0-r2"
       },
       "nm-wifi-backend": {
         "package": "iwd",
