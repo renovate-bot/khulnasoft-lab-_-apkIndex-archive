@@ -25392,7 +25392,8 @@
     "cloud-init": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
         "blkid",
@@ -25407,32 +25408,34 @@
         "py3-yaml",
         "shadow",
         "tzdata",
-        "cloud-init-datasources=26.1-r1",
+        "cloud-init-datasources=26.1-r2",
         "/bin/sh",
         "python3~3.14"
       ],
       "provides": [
-        "cmd:cloud-id=26.1-r1",
-        "cmd:cloud-init-hotplugd=26.1-r1",
-        "cmd:cloud-init-per=26.1-r1",
-        "cmd:cloud-init=26.1-r1",
-        "cmd:setup-cloud-init=26.1-r1",
-        "py3.14:cloudinit=26.1-r1"
+        "cmd:cloud-id=26.1-r2",
+        "cmd:cloud-init-hotplugd=26.1-r2",
+        "cmd:cloud-init-per=26.1-r2",
+        "cmd:cloud-init=26.1-r2",
+        "cmd:setup-cloud-init=26.1-r2",
+        "py3.14:cloudinit=26.1-r2"
       ]
     },
     "cloud-init-bash-completion": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       }
     },
     "cloud-init-datasource-akamai": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -25442,20 +25445,22 @@
     "cloud-init-datasource-akamai-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-akamai=26.1-r1",
+        "cloud-init-datasource-akamai=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-aliyun": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -25465,20 +25470,22 @@
     "cloud-init-datasource-aliyun-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-aliyun=26.1-r1",
+        "cloud-init-datasource-aliyun=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-altcloud": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -25488,20 +25495,22 @@
     "cloud-init-datasource-altcloud-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-altcloud=26.1-r1",
+        "cloud-init-datasource-altcloud=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-azure": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -25511,20 +25520,22 @@
     "cloud-init-datasource-azure-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-azure=26.1-r1",
+        "cloud-init-datasource-azure=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-bigstep": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -25534,20 +25545,22 @@
     "cloud-init-datasource-bigstep-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-bigstep=26.1-r1",
+        "cloud-init-datasource-bigstep=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-cloudcix": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -25557,20 +25570,22 @@
     "cloud-init-datasource-cloudcix-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-cloudcix=26.1-r1",
+        "cloud-init-datasource-cloudcix=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-cloudsigma": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -25580,20 +25595,22 @@
     "cloud-init-datasource-cloudsigma-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-cloudsigma=26.1-r1",
+        "cloud-init-datasource-cloudsigma=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-cloudstack": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -25603,20 +25620,22 @@
     "cloud-init-datasource-cloudstack-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-cloudstack=26.1-r1",
+        "cloud-init-datasource-cloudstack=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-configdrive": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -25626,20 +25645,22 @@
     "cloud-init-datasource-configdrive-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-configdrive=26.1-r1",
+        "cloud-init-datasource-configdrive=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-digitalocean": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -25649,20 +25670,22 @@
     "cloud-init-datasource-digitalocean-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-digitalocean=26.1-r1",
+        "cloud-init-datasource-digitalocean=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-ec2": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -25672,20 +25695,22 @@
     "cloud-init-datasource-ec2-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-ec2=26.1-r1",
+        "cloud-init-datasource-ec2=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-exoscale": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -25695,20 +25720,22 @@
     "cloud-init-datasource-exoscale-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-exoscale=26.1-r1",
+        "cloud-init-datasource-exoscale=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-gce": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -25718,20 +25745,22 @@
     "cloud-init-datasource-gce-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-gce=26.1-r1",
+        "cloud-init-datasource-gce=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-hetzner": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -25741,20 +25770,22 @@
     "cloud-init-datasource-hetzner-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-hetzner=26.1-r1",
+        "cloud-init-datasource-hetzner=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-ibmcloud": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -25764,20 +25795,22 @@
     "cloud-init-datasource-ibmcloud-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-ibmcloud=26.1-r1",
+        "cloud-init-datasource-ibmcloud=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-lxd": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -25787,20 +25820,22 @@
     "cloud-init-datasource-lxd-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-lxd=26.1-r1",
+        "cloud-init-datasource-lxd=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-maas": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -25810,20 +25845,22 @@
     "cloud-init-datasource-maas-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-maas=26.1-r1",
+        "cloud-init-datasource-maas=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-nocloud": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -25833,20 +25870,22 @@
     "cloud-init-datasource-nocloud-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-nocloud=26.1-r1",
+        "cloud-init-datasource-nocloud=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-nwcs": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -25856,20 +25895,22 @@
     "cloud-init-datasource-nwcs-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-nwcs=26.1-r1",
+        "cloud-init-datasource-nwcs=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-opennebula": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -25879,20 +25920,22 @@
     "cloud-init-datasource-opennebula-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-opennebula=26.1-r1",
+        "cloud-init-datasource-opennebula=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-openstack": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -25902,20 +25945,22 @@
     "cloud-init-datasource-openstack-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-openstack=26.1-r1",
+        "cloud-init-datasource-openstack=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-oracle": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -25925,20 +25970,22 @@
     "cloud-init-datasource-oracle-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-oracle=26.1-r1",
+        "cloud-init-datasource-oracle=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-ovf": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -25948,20 +25995,22 @@
     "cloud-init-datasource-ovf-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-ovf=26.1-r1",
+        "cloud-init-datasource-ovf=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-rbx": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -25971,20 +26020,22 @@
     "cloud-init-datasource-rbx-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-rbx=26.1-r1",
+        "cloud-init-datasource-rbx=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-scaleway": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -25994,20 +26045,22 @@
     "cloud-init-datasource-scaleway-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-scaleway=26.1-r1",
+        "cloud-init-datasource-scaleway=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-smartos": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -26017,20 +26070,22 @@
     "cloud-init-datasource-smartos-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-smartos=26.1-r1",
+        "cloud-init-datasource-smartos=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-upcloud": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -26040,20 +26095,22 @@
     "cloud-init-datasource-upcloud-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-upcloud=26.1-r1",
+        "cloud-init-datasource-upcloud=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-vmware": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -26063,20 +26120,22 @@
     "cloud-init-datasource-vmware-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-vmware=26.1-r1",
+        "cloud-init-datasource-vmware=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-vultr": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -26086,20 +26145,22 @@
     "cloud-init-datasource-vultr-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-vultr=26.1-r1",
+        "cloud-init-datasource-vultr=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasource-wsl": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init=26.1-r1",
+        "cloud-init=26.1-r2",
         "python3~3.14"
       ],
       "provides": [
@@ -26109,49 +26170,51 @@
     "cloud-init-datasource-wsl-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-wsl=26.1-r1",
+        "cloud-init-datasource-wsl=26.1-r2",
         "python3~3.14"
       ]
     },
     "cloud-init-datasources": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
-        "cloud-init-datasource-akamai=26.1-r1",
-        "cloud-init-datasource-aliyun=26.1-r1",
-        "cloud-init-datasource-altcloud=26.1-r1",
-        "cloud-init-datasource-azure=26.1-r1",
-        "cloud-init-datasource-bigstep=26.1-r1",
-        "cloud-init-datasource-cloudcix=26.1-r1",
-        "cloud-init-datasource-cloudsigma=26.1-r1",
-        "cloud-init-datasource-cloudstack=26.1-r1",
-        "cloud-init-datasource-configdrive=26.1-r1",
-        "cloud-init-datasource-digitalocean=26.1-r1",
-        "cloud-init-datasource-ec2=26.1-r1",
-        "cloud-init-datasource-exoscale=26.1-r1",
-        "cloud-init-datasource-gce=26.1-r1",
-        "cloud-init-datasource-hetzner=26.1-r1",
-        "cloud-init-datasource-ibmcloud=26.1-r1",
-        "cloud-init-datasource-lxd=26.1-r1",
-        "cloud-init-datasource-maas=26.1-r1",
-        "cloud-init-datasource-nocloud=26.1-r1",
-        "cloud-init-datasource-nwcs=26.1-r1",
-        "cloud-init-datasource-opennebula=26.1-r1",
-        "cloud-init-datasource-openstack=26.1-r1",
-        "cloud-init-datasource-oracle=26.1-r1",
-        "cloud-init-datasource-ovf=26.1-r1",
-        "cloud-init-datasource-rbx=26.1-r1",
-        "cloud-init-datasource-scaleway=26.1-r1",
-        "cloud-init-datasource-smartos=26.1-r1",
-        "cloud-init-datasource-upcloud=26.1-r1",
-        "cloud-init-datasource-vmware=26.1-r1",
-        "cloud-init-datasource-vultr=26.1-r1",
-        "cloud-init-datasource-wsl=26.1-r1"
+        "cloud-init-datasource-akamai=26.1-r2",
+        "cloud-init-datasource-aliyun=26.1-r2",
+        "cloud-init-datasource-altcloud=26.1-r2",
+        "cloud-init-datasource-azure=26.1-r2",
+        "cloud-init-datasource-bigstep=26.1-r2",
+        "cloud-init-datasource-cloudcix=26.1-r2",
+        "cloud-init-datasource-cloudsigma=26.1-r2",
+        "cloud-init-datasource-cloudstack=26.1-r2",
+        "cloud-init-datasource-configdrive=26.1-r2",
+        "cloud-init-datasource-digitalocean=26.1-r2",
+        "cloud-init-datasource-ec2=26.1-r2",
+        "cloud-init-datasource-exoscale=26.1-r2",
+        "cloud-init-datasource-gce=26.1-r2",
+        "cloud-init-datasource-hetzner=26.1-r2",
+        "cloud-init-datasource-ibmcloud=26.1-r2",
+        "cloud-init-datasource-lxd=26.1-r2",
+        "cloud-init-datasource-maas=26.1-r2",
+        "cloud-init-datasource-nocloud=26.1-r2",
+        "cloud-init-datasource-nwcs=26.1-r2",
+        "cloud-init-datasource-opennebula=26.1-r2",
+        "cloud-init-datasource-openstack=26.1-r2",
+        "cloud-init-datasource-oracle=26.1-r2",
+        "cloud-init-datasource-ovf=26.1-r2",
+        "cloud-init-datasource-rbx=26.1-r2",
+        "cloud-init-datasource-scaleway=26.1-r2",
+        "cloud-init-datasource-smartos=26.1-r2",
+        "cloud-init-datasource-upcloud=26.1-r2",
+        "cloud-init-datasource-vmware=26.1-r2",
+        "cloud-init-datasource-vultr=26.1-r2",
+        "cloud-init-datasource-wsl=26.1-r2"
       ],
       "provides": [
         "cloud-init-datasources-any"
@@ -26160,25 +26223,29 @@
     "cloud-init-doc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       }
     },
     "cloud-init-logrotate": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       }
     },
     "cloud-init-openrc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       }
     },
     "cloud-init-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
         "python3~3.14"
@@ -26187,7 +26254,8 @@
     "cloud-init-udev": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r1": 1774640372
+        "26.1-r1": 1774640372,
+        "26.1-r2": 1780132898
       },
       "dependencies": [
         "blkid",
@@ -26202,7 +26270,7 @@
         "py3-yaml",
         "shadow",
         "tzdata",
-        "cloud-init-datasources=26.1-r1"
+        "cloud-init-datasources=26.1-r2"
       ]
     },
     "cloud-utils": {
@@ -105880,7 +105948,8 @@
     "libjwt": {
       "origin": "libjwt",
       "versions": {
-        "3.3.2-r0": 1777887168
+        "3.3.2-r0": 1777887168,
+        "3.3.3-r0": 1780133464
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -105888,34 +105957,37 @@
         "so:libjansson.so.4"
       ],
       "provides": [
-        "so:libjwt.so.14=14.2.6"
+        "so:libjwt.so.14=14.2.7"
       ]
     },
     "libjwt-dev": {
       "origin": "libjwt",
       "versions": {
-        "3.3.2-r0": 1777887168
+        "3.3.2-r0": 1777887168,
+        "3.3.3-r0": 1780133464
       },
       "dependencies": [
-        "libjwt=3.3.2-r0",
+        "libjwt=3.3.3-r0",
         "pc:jansson",
         "pc:openssl",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libjwt=3.3.2"
+        "pc:libjwt=3.3.3"
       ]
     },
     "libjwt-doc": {
       "origin": "libjwt",
       "versions": {
-        "3.3.2-r0": 1777887168
+        "3.3.2-r0": 1777887168,
+        "3.3.3-r0": 1780133464
       }
     },
     "libjwt-static": {
       "origin": "libjwt",
       "versions": {
-        "3.3.2-r0": 1777887168
+        "3.3.2-r0": 1777887168,
+        "3.3.3-r0": 1780133464
       },
       "dependencies": [
         "libjwt-dev"
@@ -105924,7 +105996,8 @@
     "libjwt-tools": {
       "origin": "libjwt",
       "versions": {
-        "3.3.2-r0": 1777887168
+        "3.3.2-r0": 1777887168,
+        "3.3.3-r0": 1780133464
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -105932,10 +106005,10 @@
         "so:libjansson.so.4"
       ],
       "provides": [
-        "cmd:jwk2key=3.3.2-r0",
-        "cmd:jwt-generate=3.3.2-r0",
-        "cmd:jwt-verify=3.3.2-r0",
-        "cmd:key2jwk=3.3.2-r0"
+        "cmd:jwk2key=3.3.3-r0",
+        "cmd:jwt-generate=3.3.3-r0",
+        "cmd:jwt-verify=3.3.3-r0",
+        "cmd:key2jwk=3.3.3-r0"
       ]
     },
     "libjwt2": {
@@ -130720,14 +130793,15 @@
       "versions": {
         "2.2.19-r1": 1775839666,
         "2.2.19-r2": 1778661427,
-        "2.3.0-r0": 1778973882
+        "2.3.0-r0": 1778973882,
+        "2.3.1-r0": 1780129755
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:miniflux=2.3.0-r0"
+        "cmd:miniflux=2.3.1-r0"
       ]
     },
     "miniflux-doc": {
@@ -130735,7 +130809,8 @@
       "versions": {
         "2.2.19-r1": 1775839666,
         "2.2.19-r2": 1778661427,
-        "2.3.0-r0": 1778973882
+        "2.3.0-r0": 1778973882,
+        "2.3.1-r0": 1780129755
       }
     },
     "miniflux-openrc": {
@@ -130743,7 +130818,8 @@
       "versions": {
         "2.2.19-r1": 1775839666,
         "2.2.19-r2": 1778661427,
-        "2.3.0-r0": 1778973882
+        "2.3.0-r0": 1778973882,
+        "2.3.1-r0": 1780129755
       }
     },
     "minify": {
@@ -206837,7 +206913,8 @@
     "py3-icalendar": {
       "origin": "py3-icalendar",
       "versions": {
-        "6.3.1-r1": 1774640411
+        "6.3.1-r1": 1774640411,
+        "7.1.1-r0": 1780129974
       },
       "dependencies": [
         "py3-dateutil",
@@ -206845,14 +206922,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:icalendar=6.3.1-r1",
-        "py3.14:icalendar=6.3.1-r1"
+        "cmd:icalendar=7.1.1-r0",
+        "py3.14:icalendar=7.1.1-r0"
       ]
     },
     "py3-icalendar-pyc": {
       "origin": "py3-icalendar",
       "versions": {
-        "6.3.1-r1": 1774640411
+        "6.3.1-r1": 1774640411,
+        "7.1.1-r0": 1780129974
       },
       "dependencies": [
         "python3~3.14"
@@ -213806,23 +213884,24 @@
     "py3-optimize-images": {
       "origin": "py3-optimize-images",
       "versions": {
-        "1.5.1-r2": 1774640431
+        "1.5.1-r2": 1774640431,
+        "2.0.0-r0": 1780129004
       },
       "dependencies": [
-        "py3-piexif",
         "py3-pillow",
         "py3-watchdog",
         "python3~3.14"
       ],
       "provides": [
-        "cmd:optimize-images=1.5.1-r2",
-        "py3.14:optimize_images=1.5.1-r2"
+        "cmd:optimize-images=2.0.0-r0",
+        "py3.14:optimize_images=2.0.0-r0"
       ]
     },
     "py3-optimize-images-pyc": {
       "origin": "py3-optimize-images",
       "versions": {
-        "1.5.1-r2": 1774640431
+        "1.5.1-r2": 1774640431,
+        "2.0.0-r0": 1780129004
       },
       "dependencies": [
         "python3~3.14"
@@ -227727,7 +227806,8 @@
         "0.11.11-r0": 1778102165,
         "0.11.12-r0": 1778543718,
         "0.11.14-r0": 1779065623,
-        "0.11.16-r0": 1779797632
+        "0.11.16-r0": 1779797632,
+        "0.11.17-r0": 1780129695
       },
       "dependencies": [
         "python3",
@@ -227736,8 +227816,8 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:uv-build=0.11.16-r0",
-        "py3.14:uv_build=0.11.16-r0"
+        "cmd:uv-build=0.11.17-r0",
+        "py3.14:uv_build=0.11.17-r0"
       ]
     },
     "py3-uv-build-pyc": {
@@ -227746,7 +227826,8 @@
         "0.11.11-r0": 1778102165,
         "0.11.12-r0": 1778543718,
         "0.11.14-r0": 1779065623,
-        "0.11.16-r0": 1779797632
+        "0.11.16-r0": 1779797632,
+        "0.11.17-r0": 1780129695
       },
       "dependencies": [
         "python3~3.14"
@@ -284879,6 +284960,16 @@
         "cmd:mango=0.14.0-r0",
         "cmd:mmsg=0.14.0-r0"
       ]
+    },
+    "cloud-init-distros": {
+      "origin": "cloud-init",
+      "versions": {
+        "26.1-r2": 1780132898
+      },
+      "dependencies": [
+        "cloud-init=26.1-r2",
+        "python3~3.14"
+      ]
     }
   },
   "provide": {
@@ -295229,7 +295320,7 @@
       },
       "libjwt.so.14": {
         "package": "libjwt",
-        "version": "14.2.6"
+        "version": "14.2.7"
       },
       "libjwt.so.2": {
         "package": "libjwt2",
