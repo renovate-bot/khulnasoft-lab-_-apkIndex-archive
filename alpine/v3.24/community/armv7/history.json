@@ -57299,7 +57299,8 @@
     "gjs": {
       "origin": "gjs",
       "versions": {
-        "1.88.0-r0": 1773501323
+        "1.88.0-r0": 1773501323,
+        "1.88.0-r1": 1780214736
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -57317,28 +57318,30 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:gjs-console=1.88.0-r0",
-        "cmd:gjs=1.88.0-r0",
+        "cmd:gjs-console=1.88.0-r1",
+        "cmd:gjs=1.88.0-r1",
         "so:libgjs.so.0=0.0.0"
       ]
     },
     "gjs-dbg": {
       "origin": "gjs",
       "versions": {
-        "1.88.0-r0": 1773501323
+        "1.88.0-r0": 1773501323,
+        "1.88.0-r1": 1780214736
       },
       "dependencies": [
-        "!gjs<1.88.0-r0",
-        "!gjs>1.88.0-r0"
+        "!gjs<1.88.0-r1",
+        "!gjs>1.88.0-r1"
       ]
     },
     "gjs-dev": {
       "origin": "gjs",
       "versions": {
-        "1.88.0-r0": 1773501323
+        "1.88.0-r0": 1773501323,
+        "1.88.0-r1": 1780214736
       },
       "dependencies": [
-        "gjs=1.88.0-r0",
+        "gjs=1.88.0-r1",
         "pc:cairo",
         "pc:cairo-gobject",
         "pc:cairo-xlib",
