@@ -186257,7 +186257,8 @@
     "perl-www-mechanize-cached": {
       "origin": "perl-www-mechanize-cached",
       "versions": {
-        "1.56-r1": 1688403119
+        "1.56-r1": 1688403119,
+        "2.00-r0": 1780224317
       },
       "dependencies": [
         "perl",
@@ -186268,13 +186269,16 @@
         "perl-moox-types-mooselike",
         "perl-namespace-clean",
         "perl-module-runtime",
-        "perl-libwww"
+        "perl-libwww",
+        "perl-file-xdg",
+        "perl-path-tiny"
       ]
     },
     "perl-www-mechanize-cached-doc": {
       "origin": "perl-www-mechanize-cached",
       "versions": {
-        "1.56-r1": 1688403119
+        "1.56-r1": 1688403119,
+        "2.00-r0": 1780224317
       }
     },
     "perl-www-mechanize-doc": {
@@ -295797,6 +295801,23 @@
         "2.12.1-r1": 1775840717,
         "2.13.1-r0": 1776849444,
         "2.13.1-r1": 1778831393
+      }
+    },
+    "perl-file-xdg": {
+      "origin": "perl-file-xdg",
+      "versions": {
+        "1.03-r0": 1780224317
+      },
+      "dependencies": [
+        "perl",
+        "perl-path-tiny",
+        "perl-ref-util"
+      ]
+    },
+    "perl-file-xdg-doc": {
+      "origin": "perl-file-xdg",
+      "versions": {
+        "1.03-r0": 1780224317
       }
     }
   },
