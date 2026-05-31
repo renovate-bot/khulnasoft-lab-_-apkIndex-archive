@@ -71499,11 +71499,12 @@
       "origin": "vim",
       "versions": {
         "9.2.0498-r0": 1779056078,
-        "9.2.0514-r0": 1779497738
+        "9.2.0514-r0": 1779497738,
+        "9.2.0567-r0": 1780201784
       },
       "dependencies": [
-        "vim-common=9.2.0514-r0",
-        "xxd=9.2.0514-r0",
+        "vim-common=9.2.0567-r0",
+        "xxd=9.2.0567-r0",
         "so:libICE.so.6",
         "so:libSM.so.6",
         "so:libX11.so.6",
@@ -71522,20 +71523,20 @@
         "so:libwayland-client.so.0"
       ],
       "provides": [
-        "vim=9.2.0514-r0",
-        "cmd:eview=9.2.0514-r0",
-        "cmd:evim=9.2.0514-r0",
-        "cmd:ex=9.2.0514-r0",
-        "cmd:gview=9.2.0514-r0",
-        "cmd:gvim=9.2.0514-r0",
-        "cmd:gvimdiff=9.2.0514-r0",
-        "cmd:gvimtutor=9.2.0514-r0",
-        "cmd:rgview=9.2.0514-r0",
-        "cmd:rgvim=9.2.0514-r0",
-        "cmd:rview=9.2.0514-r0",
-        "cmd:rvim=9.2.0514-r0",
-        "cmd:view=9.2.0514-r0",
-        "cmd:vim=9.2.0514-r0"
+        "vim=9.2.0567-r0",
+        "cmd:eview=9.2.0567-r0",
+        "cmd:evim=9.2.0567-r0",
+        "cmd:ex=9.2.0567-r0",
+        "cmd:gview=9.2.0567-r0",
+        "cmd:gvim=9.2.0567-r0",
+        "cmd:gvimdiff=9.2.0567-r0",
+        "cmd:gvimtutor=9.2.0567-r0",
+        "cmd:rgview=9.2.0567-r0",
+        "cmd:rgvim=9.2.0567-r0",
+        "cmd:rview=9.2.0567-r0",
+        "cmd:rvim=9.2.0567-r0",
+        "cmd:view=9.2.0567-r0",
+        "cmd:vim=9.2.0567-r0"
       ]
     },
     "gvm-libs": {
@@ -204005,13 +204006,14 @@
       "origin": "ruff",
       "versions": {
         "0.15.12-r0": 1777459771,
-        "0.15.14-r0": 1779974653
+        "0.15.14-r0": 1779974653,
+        "0.15.15-r0": 1780185461
       },
       "dependencies": [
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:ruff=0.15.14-r0"
+        "py3.14:ruff=0.15.15-r0"
       ]
     },
     "py3-ruffus": {
@@ -220405,19 +220407,21 @@
     "rook": {
       "origin": "rook",
       "versions": {
-        "0.4.3-r0": 1756823874
+        "0.4.3-r0": 1756823874,
+        "0.4.4-r0": 1780201267
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:rook=0.4.3-r0"
+        "cmd:rook=0.4.4-r0"
       ]
     },
     "rook-autotype": {
       "origin": "rook",
       "versions": {
-        "0.4.3-r0": 1756823874
+        "0.4.3-r0": 1756823874,
+        "0.4.4-r0": 1780201267
       },
       "dependencies": [
         "ripgrep",
@@ -220428,19 +220432,21 @@
         "rofi"
       ],
       "provides": [
-        "cmd:rook-autotype=0.4.3-r0"
+        "cmd:rook-autotype=0.4.4-r0"
       ]
     },
     "rook-doc": {
       "origin": "rook",
       "versions": {
-        "0.4.3-r0": 1756823874
+        "0.4.3-r0": 1756823874,
+        "0.4.4-r0": 1780201267
       }
     },
     "rook-getattr": {
       "origin": "rook",
       "versions": {
-        "0.4.3-r0": 1756823874
+        "0.4.3-r0": 1756823874,
+        "0.4.4-r0": 1780201267
       },
       "dependencies": [
         "xdotool",
@@ -220450,7 +220456,7 @@
         "util-linux"
       ],
       "provides": [
-        "cmd:rook-getattr=0.4.3-r0"
+        "cmd:rook-getattr=0.4.4-r0"
       ]
     },
     "rootlesskit": {
@@ -222679,7 +222685,8 @@
       "origin": "ruff",
       "versions": {
         "0.15.12-r0": 1777459771,
-        "0.15.14-r0": 1779974653
+        "0.15.14-r0": 1779974653,
+        "0.15.15-r0": 1780185461
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -222687,28 +222694,31 @@
         "so:libjemalloc.so.2"
       ],
       "provides": [
-        "cmd:ruff=0.15.14-r0"
+        "cmd:ruff=0.15.15-r0"
       ]
     },
     "ruff-bash-completion": {
       "origin": "ruff",
       "versions": {
         "0.15.12-r0": 1777459771,
-        "0.15.14-r0": 1779974653
+        "0.15.14-r0": 1779974653,
+        "0.15.15-r0": 1780185461
       }
     },
     "ruff-fish-completion": {
       "origin": "ruff",
       "versions": {
         "0.15.12-r0": 1777459771,
-        "0.15.14-r0": 1779974653
+        "0.15.14-r0": 1779974653,
+        "0.15.15-r0": 1780185461
       }
     },
     "ruff-pyc": {
       "origin": "ruff",
       "versions": {
         "0.15.12-r0": 1777459771,
-        "0.15.14-r0": 1779974653
+        "0.15.14-r0": 1779974653,
+        "0.15.15-r0": 1780185461
       },
       "dependencies": [
         "python3~3.14"
@@ -222718,7 +222728,8 @@
       "origin": "ruff",
       "versions": {
         "0.15.12-r0": 1777459771,
-        "0.15.14-r0": 1779974653
+        "0.15.14-r0": 1779974653,
+        "0.15.15-r0": 1780185461
       }
     },
     "runc": {
@@ -246743,34 +246754,37 @@
       "origin": "vim",
       "versions": {
         "9.2.0498-r0": 1779056078,
-        "9.2.0514-r0": 1779497738
+        "9.2.0514-r0": 1779497738,
+        "9.2.0567-r0": 1780201784
       },
       "dependencies": [
-        "vim-common=9.2.0514-r0",
-        "xxd=9.2.0514-r0",
+        "vim-common=9.2.0567-r0",
+        "xxd=9.2.0567-r0",
         "so:libc.musl-armhf.so.1",
         "so:libncursesw.so.6"
       ],
       "provides": [
-        "cmd:ex=9.2.0514-r0",
-        "cmd:rview=9.2.0514-r0",
-        "cmd:rvim=9.2.0514-r0",
-        "cmd:view=9.2.0514-r0",
-        "cmd:vim=9.2.0514-r0"
+        "cmd:ex=9.2.0567-r0",
+        "cmd:rview=9.2.0567-r0",
+        "cmd:rvim=9.2.0567-r0",
+        "cmd:view=9.2.0567-r0",
+        "cmd:vim=9.2.0567-r0"
       ]
     },
     "vim-common": {
       "origin": "vim",
       "versions": {
         "9.2.0498-r0": 1779056078,
-        "9.2.0514-r0": 1779497738
+        "9.2.0514-r0": 1779497738,
+        "9.2.0567-r0": 1780201784
       }
     },
     "vim-doc": {
       "origin": "vim",
       "versions": {
         "9.2.0498-r0": 1779056078,
-        "9.2.0514-r0": 1779497738
+        "9.2.0514-r0": 1779497738,
+        "9.2.0567-r0": 1780201784
       }
     },
     "vim-editorconfig": {
@@ -246810,13 +246824,14 @@
       "origin": "vim",
       "versions": {
         "9.2.0498-r0": 1779056078,
-        "9.2.0514-r0": 1779497738
+        "9.2.0514-r0": 1779497738,
+        "9.2.0567-r0": 1780201784
       },
       "dependencies": [
-        "vim=9.2.0514-r0"
+        "vim=9.2.0567-r0"
       ],
       "provides": [
-        "cmd:vimtutor=9.2.0514-r0"
+        "cmd:vimtutor=9.2.0567-r0"
       ]
     },
     "vimb": {
@@ -246849,14 +246864,15 @@
       "origin": "vim",
       "versions": {
         "9.2.0498-r0": 1779056078,
-        "9.2.0514-r0": 1779497738
+        "9.2.0514-r0": 1779497738,
+        "9.2.0567-r0": 1780201784
       },
       "dependencies": [
         "diffutils",
-        "vim=9.2.0514-r0"
+        "vim=9.2.0567-r0"
       ],
       "provides": [
-        "cmd:vimdiff=9.2.0514-r0"
+        "cmd:vimdiff=9.2.0567-r0"
       ]
     },
     "vimiv": {
@@ -258762,13 +258778,14 @@
       "origin": "vim",
       "versions": {
         "9.2.0498-r0": 1779056078,
-        "9.2.0514-r0": 1779497738
+        "9.2.0514-r0": 1779497738,
+        "9.2.0567-r0": 1780201784
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:xxd=9.2.0514-r0"
+        "cmd:xxd=9.2.0567-r0"
       ]
     },
     "yabasic": {
@@ -280922,7 +280939,7 @@
       },
       "vim": {
         "package": "gvim",
-        "version": "9.2.0514-r0"
+        "version": "9.2.0567-r0"
       },
       "haproxy-dataplaneapi": {
         "package": "haproxy-dataplaneapi3",
