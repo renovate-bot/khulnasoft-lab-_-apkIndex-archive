@@ -5750,7 +5750,8 @@
     "autorandr": {
       "origin": "autorandr",
       "versions": {
-        "1.15-r1": 1759591882
+        "1.15-r1": 1759591882,
+        "1.15-r2": 1780307616
       },
       "dependencies": [
         "py3-packaging",
@@ -5759,25 +5760,28 @@
         "xrandr"
       ],
       "provides": [
-        "cmd:autorandr=1.15-r1"
+        "cmd:autorandr=1.15-r2"
       ]
     },
     "autorandr-bash-completion": {
       "origin": "autorandr",
       "versions": {
-        "1.15-r1": 1759591882
+        "1.15-r1": 1759591882,
+        "1.15-r2": 1780307616
       }
     },
     "autorandr-doc": {
       "origin": "autorandr",
       "versions": {
-        "1.15-r1": 1759591882
+        "1.15-r1": 1759591882,
+        "1.15-r2": 1780307616
       }
     },
     "autorandr-launcher": {
       "origin": "autorandr",
       "versions": {
-        "1.15-r1": 1759591882
+        "1.15-r1": 1759591882,
+        "1.15-r2": 1780307616
       },
       "dependencies": [
         "py3-packaging",
@@ -5789,13 +5793,14 @@
         "so:libxcb.so.1"
       ],
       "provides": [
-        "cmd:autorandr-launcher=1.15-r1"
+        "cmd:autorandr-launcher=1.15-r2"
       ]
     },
     "autorandr-udev": {
       "origin": "autorandr",
       "versions": {
-        "1.15-r1": 1759591882
+        "1.15-r1": 1759591882,
+        "1.15-r2": 1780307616
       },
       "dependencies": [
         "py3-packaging",
@@ -6405,7 +6410,8 @@
         "2.34.48-r0": 1779165378,
         "2.34.52-r0": 1779530330,
         "2.34.53-r0": 1779707056,
-        "2.34.54-r0": 1779875567
+        "2.34.54-r0": 1779875567,
+        "2.34.57-r0": 1780315792
       },
       "dependencies": [
         "py3-awscrt",
@@ -6424,10 +6430,10 @@
         "python3~3.14"
       ],
       "provides": [
-        "aws-cli-v2=2.34.54-r0",
-        "cmd:aws=2.34.54-r0",
-        "cmd:aws_completer=2.34.54-r0",
-        "py3.14:awscli=2.34.54-r0"
+        "aws-cli-v2=2.34.57-r0",
+        "cmd:aws=2.34.57-r0",
+        "cmd:aws_completer=2.34.57-r0",
+        "py3.14:awscli=2.34.57-r0"
       ]
     },
     "aws-cli-bash-completion": {
@@ -6437,7 +6443,8 @@
         "2.34.48-r0": 1779165378,
         "2.34.52-r0": 1779530330,
         "2.34.53-r0": 1779707056,
-        "2.34.54-r0": 1779875567
+        "2.34.54-r0": 1779875567,
+        "2.34.57-r0": 1780315792
       },
       "dependencies": [
         "py3-awscrt",
@@ -6462,7 +6469,8 @@
         "2.34.48-r0": 1779165378,
         "2.34.52-r0": 1779530330,
         "2.34.53-r0": 1779707056,
-        "2.34.54-r0": 1779875567
+        "2.34.54-r0": 1779875567,
+        "2.34.57-r0": 1780315792
       },
       "dependencies": [
         "python3~3.14"
@@ -6475,7 +6483,8 @@
         "2.34.48-r0": 1779165378,
         "2.34.52-r0": 1779530330,
         "2.34.53-r0": 1779707056,
-        "2.34.54-r0": 1779875567
+        "2.34.54-r0": 1779875567,
+        "2.34.57-r0": 1780315792
       },
       "dependencies": [
         "python3~3.14"
@@ -6488,7 +6497,8 @@
         "2.34.48-r0": 1779165378,
         "2.34.52-r0": 1779530330,
         "2.34.53-r0": 1779707056,
-        "2.34.54-r0": 1779875567
+        "2.34.54-r0": 1779875567,
+        "2.34.57-r0": 1780315792
       },
       "dependencies": [
         "py3-awscrt",
@@ -24697,7 +24707,8 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
         "blkid",
@@ -24712,34 +24723,36 @@
         "py3-yaml",
         "shadow",
         "tzdata",
-        "cloud-init-datasources=26.1-r2",
+        "cloud-init-datasources=26.1-r3",
         "/bin/sh",
         "python3~3.14"
       ],
       "provides": [
-        "cmd:cloud-id=26.1-r2",
-        "cmd:cloud-init-hotplugd=26.1-r2",
-        "cmd:cloud-init-per=26.1-r2",
-        "cmd:cloud-init=26.1-r2",
-        "cmd:setup-cloud-init=26.1-r2",
-        "py3.14:cloudinit=26.1-r2"
+        "cmd:cloud-id=26.1-r3",
+        "cmd:cloud-init-hotplugd=26.1-r3",
+        "cmd:cloud-init-per=26.1-r3",
+        "cmd:cloud-init=26.1-r3",
+        "cmd:setup-cloud-init=26.1-r3",
+        "py3.14:cloudinit=26.1-r3"
       ]
     },
     "cloud-init-bash-completion": {
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       }
     },
     "cloud-init-datasource-akamai": {
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -24750,10 +24763,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-akamai=26.1-r2",
+        "cloud-init-datasource-akamai=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -24761,10 +24775,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -24775,10 +24790,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-aliyun=26.1-r2",
+        "cloud-init-datasource-aliyun=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -24786,10 +24802,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -24800,10 +24817,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-altcloud=26.1-r2",
+        "cloud-init-datasource-altcloud=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -24811,10 +24829,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -24825,10 +24844,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-azure=26.1-r2",
+        "cloud-init-datasource-azure=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -24836,10 +24856,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -24850,10 +24871,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-bigstep=26.1-r2",
+        "cloud-init-datasource-bigstep=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -24861,10 +24883,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -24875,10 +24898,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-cloudcix=26.1-r2",
+        "cloud-init-datasource-cloudcix=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -24886,10 +24910,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -24900,10 +24925,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-cloudsigma=26.1-r2",
+        "cloud-init-datasource-cloudsigma=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -24911,10 +24937,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -24925,10 +24952,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-cloudstack=26.1-r2",
+        "cloud-init-datasource-cloudstack=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -24936,10 +24964,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -24950,10 +24979,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-configdrive=26.1-r2",
+        "cloud-init-datasource-configdrive=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -24961,10 +24991,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -24975,10 +25006,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-digitalocean=26.1-r2",
+        "cloud-init-datasource-digitalocean=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -24986,10 +25018,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -25000,10 +25033,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-ec2=26.1-r2",
+        "cloud-init-datasource-ec2=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -25011,10 +25045,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -25025,10 +25060,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-exoscale=26.1-r2",
+        "cloud-init-datasource-exoscale=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -25036,10 +25072,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -25050,10 +25087,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-gce=26.1-r2",
+        "cloud-init-datasource-gce=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -25061,10 +25099,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -25075,10 +25114,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-hetzner=26.1-r2",
+        "cloud-init-datasource-hetzner=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -25086,10 +25126,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -25100,10 +25141,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-ibmcloud=26.1-r2",
+        "cloud-init-datasource-ibmcloud=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -25111,10 +25153,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -25125,10 +25168,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-lxd=26.1-r2",
+        "cloud-init-datasource-lxd=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -25136,10 +25180,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -25150,10 +25195,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-maas=26.1-r2",
+        "cloud-init-datasource-maas=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -25161,10 +25207,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -25175,10 +25222,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-nocloud=26.1-r2",
+        "cloud-init-datasource-nocloud=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -25186,10 +25234,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -25200,10 +25249,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-nwcs=26.1-r2",
+        "cloud-init-datasource-nwcs=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -25211,10 +25261,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -25225,10 +25276,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-opennebula=26.1-r2",
+        "cloud-init-datasource-opennebula=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -25236,10 +25288,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -25250,10 +25303,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-openstack=26.1-r2",
+        "cloud-init-datasource-openstack=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -25261,10 +25315,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -25275,10 +25330,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-oracle=26.1-r2",
+        "cloud-init-datasource-oracle=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -25286,10 +25342,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -25300,10 +25357,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-ovf=26.1-r2",
+        "cloud-init-datasource-ovf=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -25311,10 +25369,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -25325,10 +25384,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-rbx=26.1-r2",
+        "cloud-init-datasource-rbx=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -25336,10 +25396,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -25350,10 +25411,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-scaleway=26.1-r2",
+        "cloud-init-datasource-scaleway=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -25361,10 +25423,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -25375,10 +25438,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-smartos=26.1-r2",
+        "cloud-init-datasource-smartos=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -25386,10 +25450,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -25400,10 +25465,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-upcloud=26.1-r2",
+        "cloud-init-datasource-upcloud=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -25411,10 +25477,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -25425,10 +25492,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-vmware=26.1-r2",
+        "cloud-init-datasource-vmware=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -25436,10 +25504,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -25450,10 +25519,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-vultr=26.1-r2",
+        "cloud-init-datasource-vultr=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -25461,10 +25531,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ],
       "provides": [
@@ -25475,10 +25546,11 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-wsl=26.1-r2",
+        "cloud-init-datasource-wsl=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -25486,39 +25558,40 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init-datasource-akamai=26.1-r2",
-        "cloud-init-datasource-aliyun=26.1-r2",
-        "cloud-init-datasource-altcloud=26.1-r2",
-        "cloud-init-datasource-azure=26.1-r2",
-        "cloud-init-datasource-bigstep=26.1-r2",
-        "cloud-init-datasource-cloudcix=26.1-r2",
-        "cloud-init-datasource-cloudsigma=26.1-r2",
-        "cloud-init-datasource-cloudstack=26.1-r2",
-        "cloud-init-datasource-configdrive=26.1-r2",
-        "cloud-init-datasource-digitalocean=26.1-r2",
-        "cloud-init-datasource-ec2=26.1-r2",
-        "cloud-init-datasource-exoscale=26.1-r2",
-        "cloud-init-datasource-gce=26.1-r2",
-        "cloud-init-datasource-hetzner=26.1-r2",
-        "cloud-init-datasource-ibmcloud=26.1-r2",
-        "cloud-init-datasource-lxd=26.1-r2",
-        "cloud-init-datasource-maas=26.1-r2",
-        "cloud-init-datasource-nocloud=26.1-r2",
-        "cloud-init-datasource-nwcs=26.1-r2",
-        "cloud-init-datasource-opennebula=26.1-r2",
-        "cloud-init-datasource-openstack=26.1-r2",
-        "cloud-init-datasource-oracle=26.1-r2",
-        "cloud-init-datasource-ovf=26.1-r2",
-        "cloud-init-datasource-rbx=26.1-r2",
-        "cloud-init-datasource-scaleway=26.1-r2",
-        "cloud-init-datasource-smartos=26.1-r2",
-        "cloud-init-datasource-upcloud=26.1-r2",
-        "cloud-init-datasource-vmware=26.1-r2",
-        "cloud-init-datasource-vultr=26.1-r2",
-        "cloud-init-datasource-wsl=26.1-r2"
+        "cloud-init-datasource-akamai=26.1-r3",
+        "cloud-init-datasource-aliyun=26.1-r3",
+        "cloud-init-datasource-altcloud=26.1-r3",
+        "cloud-init-datasource-azure=26.1-r3",
+        "cloud-init-datasource-bigstep=26.1-r3",
+        "cloud-init-datasource-cloudcix=26.1-r3",
+        "cloud-init-datasource-cloudsigma=26.1-r3",
+        "cloud-init-datasource-cloudstack=26.1-r3",
+        "cloud-init-datasource-configdrive=26.1-r3",
+        "cloud-init-datasource-digitalocean=26.1-r3",
+        "cloud-init-datasource-ec2=26.1-r3",
+        "cloud-init-datasource-exoscale=26.1-r3",
+        "cloud-init-datasource-gce=26.1-r3",
+        "cloud-init-datasource-hetzner=26.1-r3",
+        "cloud-init-datasource-ibmcloud=26.1-r3",
+        "cloud-init-datasource-lxd=26.1-r3",
+        "cloud-init-datasource-maas=26.1-r3",
+        "cloud-init-datasource-nocloud=26.1-r3",
+        "cloud-init-datasource-nwcs=26.1-r3",
+        "cloud-init-datasource-opennebula=26.1-r3",
+        "cloud-init-datasource-openstack=26.1-r3",
+        "cloud-init-datasource-oracle=26.1-r3",
+        "cloud-init-datasource-ovf=26.1-r3",
+        "cloud-init-datasource-rbx=26.1-r3",
+        "cloud-init-datasource-scaleway=26.1-r3",
+        "cloud-init-datasource-smartos=26.1-r3",
+        "cloud-init-datasource-upcloud=26.1-r3",
+        "cloud-init-datasource-vmware=26.1-r3",
+        "cloud-init-datasource-vultr=26.1-r3",
+        "cloud-init-datasource-wsl=26.1-r3"
       ],
       "provides": [
         "cloud-init-datasources-any"
@@ -25528,28 +25601,32 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       }
     },
     "cloud-init-logrotate": {
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       }
     },
     "cloud-init-openrc": {
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       }
     },
     "cloud-init-pyc": {
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
         "python3~3.14"
@@ -25559,7 +25636,8 @@
       "origin": "cloud-init",
       "versions": {
         "26.1-r1": 1774640372,
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
         "blkid",
@@ -88951,7 +89029,8 @@
     "libftdi1": {
       "origin": "libftdi1",
       "versions": {
-        "1.5-r4": 1760937299
+        "1.5-r4": 1760937299,
+        "1.5-r5": 1780307244
       },
       "dependencies": [
         "/bin/sh",
@@ -88960,22 +89039,23 @@
         "so:libusb-1.0.so.0"
       ],
       "provides": [
-        "cmd:ftdi_eeprom=1.5-r4",
+        "cmd:ftdi_eeprom=1.5-r5",
         "so:libftdi1.so.2=2.5.0"
       ]
     },
     "libftdi1-dev": {
       "origin": "libftdi1",
       "versions": {
-        "1.5-r4": 1760937299
+        "1.5-r4": 1760937299,
+        "1.5-r5": 1780307244
       },
       "dependencies": [
-        "libftdi1=1.5-r4",
+        "libftdi1=1.5-r5",
         "pc:libusb-1.0",
         "pkgconfig"
       ],
       "provides": [
-        "cmd:libftdi1-config=1.5-r4",
+        "cmd:libftdi1-config=1.5-r5",
         "pc:libftdi1=1.5",
         "pc:libftdipp1=1.5"
       ]
@@ -88983,7 +89063,8 @@
     "libftdi1-static": {
       "origin": "libftdi1",
       "versions": {
-        "1.5-r4": 1760937299
+        "1.5-r4": 1760937299,
+        "1.5-r5": 1780307244
       },
       "dependencies": [
         "libftdi1-dev"
@@ -102652,7 +102733,8 @@
     "libwacom": {
       "origin": "libwacom",
       "versions": {
-        "2.17.0-r0": 1764026283
+        "2.17.0-r0": 1764026283,
+        "2.17.0-r1": 1780307395
       },
       "dependencies": [
         "eudev",
@@ -102664,20 +102746,21 @@
         "so:libgudev-1.0.so.0"
       ],
       "provides": [
-        "cmd:libwacom-list-devices=2.17.0-r0",
-        "cmd:libwacom-list-local-devices=2.17.0-r0",
-        "cmd:libwacom-show-stylus=2.17.0-r0",
-        "cmd:libwacom-update-db=2.17.0-r0",
+        "cmd:libwacom-list-devices=2.17.0-r1",
+        "cmd:libwacom-list-local-devices=2.17.0-r1",
+        "cmd:libwacom-show-stylus=2.17.0-r1",
+        "cmd:libwacom-update-db=2.17.0-r1",
         "so:libwacom.so.9=9.0.0"
       ]
     },
     "libwacom-dev": {
       "origin": "libwacom",
       "versions": {
-        "2.17.0-r0": 1764026283
+        "2.17.0-r0": 1764026283,
+        "2.17.0-r1": 1780307395
       },
       "dependencies": [
-        "libwacom=2.17.0-r0",
+        "libwacom=2.17.0-r1",
         "pc:glib-2.0",
         "pc:gudev-1.0",
         "pc:libevdev",
@@ -102690,13 +102773,15 @@
     "libwacom-doc": {
       "origin": "libwacom",
       "versions": {
-        "2.17.0-r0": 1764026283
+        "2.17.0-r0": 1764026283,
+        "2.17.0-r1": 1780307395
       }
     },
     "libwacom-udev": {
       "origin": "libwacom",
       "versions": {
-        "2.17.0-r0": 1764026283
+        "2.17.0-r0": 1764026283,
+        "2.17.0-r1": 1780307395
       },
       "dependencies": [
         "eudev"
@@ -164494,7 +164579,8 @@
     "phoc": {
       "origin": "phoc",
       "versions": {
-        "0.55.0-r0": 1779021940
+        "0.55.0-r0": 1779021940,
+        "0.55.1-r0": 1780300654
       },
       "dependencies": [
         "phoc-schemas",
@@ -164539,37 +164625,41 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:phoc-outputs-states=0.55.0-r0",
-        "cmd:phoc=0.55.0-r0",
-        "cmd:scale-to-fit=0.55.0-r0"
+        "cmd:phoc-outputs-states=0.55.1-r0",
+        "cmd:phoc=0.55.1-r0",
+        "cmd:scale-to-fit=0.55.1-r0"
       ]
     },
     "phoc-dbg": {
       "origin": "phoc",
       "versions": {
-        "0.55.0-r0": 1779021940
+        "0.55.0-r0": 1779021940,
+        "0.55.1-r0": 1780300654
       },
       "dependencies": [
-        "!phoc<0.55.0-r0",
-        "!phoc>0.55.0-r0"
+        "!phoc<0.55.1-r0",
+        "!phoc>0.55.1-r0"
       ]
     },
     "phoc-doc": {
       "origin": "phoc",
       "versions": {
-        "0.55.0-r0": 1779021940
+        "0.55.0-r0": 1779021940,
+        "0.55.1-r0": 1780300654
       }
     },
     "phoc-lang": {
       "origin": "phoc",
       "versions": {
-        "0.55.0-r0": 1779021940
+        "0.55.0-r0": 1779021940,
+        "0.55.1-r0": 1780300654
       }
     },
     "phoc-schemas": {
       "origin": "phoc",
       "versions": {
-        "0.55.0-r0": 1779021940
+        "0.55.0-r0": 1779021940,
+        "0.55.1-r0": 1780300654
       }
     },
     "phodav": {
@@ -197761,7 +197851,8 @@
     "py3-protobuf": {
       "origin": "py3-protobuf",
       "versions": {
-        "6.33.5-r0": 1778518888
+        "6.33.5-r0": 1778518888,
+        "6.33.5-r1": 1780307450
       },
       "dependencies": [
         "tzdata",
@@ -197769,14 +197860,15 @@
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "py-protobuf=6.33.5-r0",
-        "py3.14:google=6.33.5-r0"
+        "py-protobuf=6.33.5-r1",
+        "py3.14:google=6.33.5-r1"
       ]
     },
     "py3-protobuf-pyc": {
       "origin": "py3-protobuf",
       "versions": {
-        "6.33.5-r0": 1778518888
+        "6.33.5-r0": 1778518888,
+        "6.33.5-r1": 1780307450
       },
       "dependencies": [
         "python3~3.14"
@@ -204675,20 +204767,22 @@
     "py3-setuptools-gettext": {
       "origin": "py3-setuptools-gettext",
       "versions": {
-        "0.1.16-r1": 1774640364
+        "0.1.16-r1": 1774640364,
+        "0.1.18-r0": 1780315484
       },
       "dependencies": [
         "gettext",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:setuptools_gettext=0.1.16-r1"
+        "py3.14:setuptools_gettext=0.1.18-r0"
       ]
     },
     "py3-setuptools-gettext-pyc": {
       "origin": "py3-setuptools-gettext",
       "versions": {
-        "0.1.16-r1": 1774640364
+        "0.1.16-r1": 1774640364,
+        "0.1.18-r0": 1780315484
       },
       "dependencies": [
         "python3~3.14"
@@ -223815,7 +223909,8 @@
     "sane": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "/bin/sh",
@@ -223855,7 +223950,8 @@
     "sane-backend-abaton": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -223865,7 +223961,8 @@
     "sane-backend-agfafocus": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -223875,7 +223972,8 @@
     "sane-backend-apple": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -223885,7 +223983,8 @@
     "sane-backend-artec": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -223895,7 +223994,8 @@
     "sane-backend-artec_eplus48u": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -223907,7 +224007,8 @@
     "sane-backend-as6e": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -223917,7 +224018,8 @@
     "sane-backend-avision": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -223929,7 +224031,8 @@
     "sane-backend-bh": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -223939,7 +224042,8 @@
     "sane-backend-canon": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -223949,7 +224053,8 @@
     "sane-backend-canon630u": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -223961,7 +224066,8 @@
     "sane-backend-canon_dr": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -223973,7 +224079,8 @@
     "sane-backend-canon_pp": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -223984,7 +224091,8 @@
     "sane-backend-cardscan": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -223996,7 +224104,8 @@
     "sane-backend-coolscan": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224008,7 +224117,8 @@
     "sane-backend-coolscan2": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224020,7 +224130,8 @@
     "sane-backend-coolscan3": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224032,7 +224143,8 @@
     "sane-backend-dc210": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224043,7 +224155,8 @@
     "sane-backend-dc240": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224054,7 +224167,8 @@
     "sane-backend-dc25": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224064,7 +224178,8 @@
     "sane-backend-dell1600n_net": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224076,7 +224191,8 @@
     "sane-backend-dmc": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224086,7 +224202,8 @@
     "sane-backend-epjitsu": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224098,7 +224215,8 @@
     "sane-backend-epson": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224110,7 +224228,8 @@
     "sane-backend-epson2": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224122,7 +224241,8 @@
     "sane-backend-epsonds": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224137,7 +224257,8 @@
     "sane-backend-escl": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224158,7 +224279,8 @@
     "sane-backend-fujitsu": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224170,7 +224292,8 @@
     "sane-backend-genesys": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224185,7 +224308,8 @@
     "sane-backend-gphoto2": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224198,7 +224322,8 @@
     "sane-backend-gt68xx": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224210,7 +224335,8 @@
     "sane-backend-hp": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224222,7 +224348,8 @@
     "sane-backend-hp3500": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224234,7 +224361,8 @@
     "sane-backend-hp3900": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224247,7 +224375,8 @@
     "sane-backend-hp4200": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224259,7 +224388,8 @@
     "sane-backend-hp5400": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224271,7 +224401,8 @@
     "sane-backend-hp5590": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224302,7 +224433,8 @@
     "sane-backend-hpljm1005": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224314,7 +224446,8 @@
     "sane-backend-hpsj5s": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224325,7 +224458,8 @@
     "sane-backend-hs2p": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224335,7 +224469,8 @@
     "sane-backend-ibm": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224345,7 +224480,8 @@
     "sane-backend-kodak": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224355,7 +224491,8 @@
     "sane-backend-kodakaio": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224369,7 +224506,8 @@
     "sane-backend-kvs1025": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224381,7 +224519,8 @@
     "sane-backend-kvs20xx": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224393,7 +224532,8 @@
     "sane-backend-kvs40xx": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224405,7 +224545,8 @@
     "sane-backend-leo": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224415,7 +224556,8 @@
     "sane-backend-lexmark": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224427,7 +224569,8 @@
     "sane-backend-ma1509": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224439,7 +224582,8 @@
     "sane-backend-magicolor": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224452,7 +224596,8 @@
     "sane-backend-matsushita": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224462,7 +224607,8 @@
     "sane-backend-microtek": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224472,7 +224618,8 @@
     "sane-backend-microtek2": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224482,7 +224629,8 @@
     "sane-backend-mustek": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224493,7 +224641,8 @@
     "sane-backend-mustek_pp": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224504,7 +224653,8 @@
     "sane-backend-mustek_usb": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224516,7 +224666,8 @@
     "sane-backend-mustek_usb2": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224528,7 +224679,8 @@
     "sane-backend-nec": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224538,7 +224690,8 @@
     "sane-backend-net": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224550,7 +224703,8 @@
     "sane-backend-niash": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224562,7 +224716,8 @@
     "sane-backend-p5": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224572,7 +224727,8 @@
     "sane-backend-pie": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224582,7 +224738,8 @@
     "sane-backend-pieusb": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224594,7 +224751,8 @@
     "sane-backend-pixma": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224607,7 +224765,8 @@
     "sane-backend-plustek": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224619,7 +224778,8 @@
     "sane-backend-plustek_pp": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224630,7 +224790,8 @@
     "sane-backend-ricoh": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224640,7 +224801,8 @@
     "sane-backend-ricoh2": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224652,7 +224814,8 @@
     "sane-backend-rts8891": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224664,7 +224827,8 @@
     "sane-backend-s9036": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224674,7 +224838,8 @@
     "sane-backend-sceptre": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224684,7 +224849,8 @@
     "sane-backend-sharp": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224694,7 +224860,8 @@
     "sane-backend-sm3600": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224706,7 +224873,8 @@
     "sane-backend-sm3840": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224718,7 +224886,8 @@
     "sane-backend-snapscan": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224730,7 +224899,8 @@
     "sane-backend-sp15c": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224740,7 +224910,8 @@
     "sane-backend-st400": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224750,7 +224921,8 @@
     "sane-backend-stv680": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224762,7 +224934,8 @@
     "sane-backend-tamarack": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224772,7 +224945,8 @@
     "sane-backend-teco1": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224782,7 +224956,8 @@
     "sane-backend-teco2": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224792,7 +224967,8 @@
     "sane-backend-teco3": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224802,7 +224978,8 @@
     "sane-backend-test": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224812,7 +224989,8 @@
     "sane-backend-u12": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224824,7 +225002,8 @@
     "sane-backend-umax": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224836,7 +225015,8 @@
     "sane-backend-umax1220u": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224848,20 +225028,22 @@
     "sane-backend-umax_pp": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:umax_pp=1.4.0-r3"
+        "cmd:umax_pp=1.4.0-r4"
       ]
     },
     "sane-backend-v4l": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224872,7 +225054,8 @@
     "sane-backend-xerox_mfp": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane",
@@ -224885,7 +225068,8 @@
     "sane-backends": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "sane-utils",
@@ -224982,27 +225166,30 @@
     "sane-dev": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
-        "sane=1.4.0-r3",
+        "sane=1.4.0-r4",
         "pkgconfig"
       ],
       "provides": [
-        "cmd:sane-config=1.4.0-r3",
+        "cmd:sane-config=1.4.0-r4",
         "pc:sane-backends=1.4.0"
       ]
     },
     "sane-doc": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       }
     },
     "sane-saned": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "/bin/sh",
@@ -225012,19 +225199,21 @@
         "so:libsane.so.1"
       ],
       "provides": [
-        "cmd:saned=1.4.0-r3"
+        "cmd:saned=1.4.0-r4"
       ]
     },
     "sane-udev": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       }
     },
     "sane-utils": {
       "origin": "sane",
       "versions": {
-        "1.4.0-r3": 1775597589
+        "1.4.0-r3": 1775597589,
+        "1.4.0-r4": 1780307556
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -225036,9 +225225,9 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:gamma4scanimage=1.4.0-r3",
-        "cmd:sane-find-scanner=1.4.0-r3",
-        "cmd:scanimage=1.4.0-r3"
+        "cmd:gamma4scanimage=1.4.0-r4",
+        "cmd:sane-find-scanner=1.4.0-r4",
+        "cmd:scanimage=1.4.0-r4"
       ]
     },
     "sanoid": {
@@ -262736,10 +262925,11 @@
     "cloud-init-distros": {
       "origin": "cloud-init",
       "versions": {
-        "26.1-r2": 1780132898
+        "26.1-r2": 1780132898,
+        "26.1-r3": 1780307298
       },
       "dependencies": [
-        "cloud-init=26.1-r2",
+        "cloud-init=26.1-r3",
         "python3~3.14"
       ]
     },
@@ -262840,6 +263030,12 @@
         "cmd:usb-internet=0.7-r0",
         "cmd:vibrate=0.7-r0"
       ]
+    },
+    "libftdi1-udev": {
+      "origin": "libftdi1",
+      "versions": {
+        "1.5-r5": 1780307244
+      }
     }
   },
   "provide": {
@@ -280520,7 +280716,7 @@
       },
       "aws-cli-v2": {
         "package": "aws-cli",
-        "version": "2.34.54-r0"
+        "version": "2.34.57-r0"
       },
       "swww": {
         "package": "awww",
@@ -283116,7 +283312,7 @@
       },
       "py-protobuf": {
         "package": "py3-protobuf",
-        "version": "6.33.5-r0"
+        "version": "6.33.5-r1"
       },
       "py-purl": {
         "package": "py3-purl",
