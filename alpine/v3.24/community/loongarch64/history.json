@@ -19520,32 +19520,36 @@
     "brightnessctl": {
       "origin": "brightnessctl",
       "versions": {
-        "0.5.1-r8": 1761984661
+        "0.5.1-r8": 1761984661,
+        "0.5.1-r9": 1780336273
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-loongarch64.so.1"
       ],
       "provides": [
-        "cmd:brightnessctl=0.5.1-r8"
+        "cmd:brightnessctl=0.5.1-r9"
       ]
     },
     "brightnessctl-doc": {
       "origin": "brightnessctl",
       "versions": {
-        "0.5.1-r8": 1761984661
+        "0.5.1-r8": 1761984661,
+        "0.5.1-r9": 1780336273
       }
     },
     "brightnessctl-openrc": {
       "origin": "brightnessctl",
       "versions": {
-        "0.5.1-r8": 1761984661
+        "0.5.1-r8": 1761984661,
+        "0.5.1-r9": 1780336273
       }
     },
     "brightnessctl-udev": {
       "origin": "brightnessctl",
       "versions": {
-        "0.5.1-r8": 1761984661
+        "0.5.1-r8": 1761984661,
+        "0.5.1-r9": 1780336273
       }
     },
     "brillo": {
@@ -24756,7 +24760,8 @@
     "cfengine": {
       "origin": "cfengine",
       "versions": {
-        "3.27.0-r0": 1768548166
+        "3.27.0-r0": 1768548166,
+        "3.27.1-r0": 1780336055
       },
       "dependencies": [
         "procps",
@@ -24770,32 +24775,34 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:cf-agent=3.27.0-r0",
-        "cmd:cf-check=3.27.0-r0",
-        "cmd:cf-execd=3.27.0-r0",
-        "cmd:cf-key=3.27.0-r0",
-        "cmd:cf-monitord=3.27.0-r0",
-        "cmd:cf-net=3.27.0-r0",
-        "cmd:cf-promises=3.27.0-r0",
-        "cmd:cf-runagent=3.27.0-r0",
-        "cmd:cf-secret=3.27.0-r0",
-        "cmd:cf-serverd=3.27.0-r0",
-        "cmd:cf-support=3.27.0-r0",
-        "cmd:cf-upgrade=3.27.0-r0",
-        "cmd:rpmvercmp=3.27.0-r0",
+        "cmd:cf-agent=3.27.1-r0",
+        "cmd:cf-check=3.27.1-r0",
+        "cmd:cf-execd=3.27.1-r0",
+        "cmd:cf-key=3.27.1-r0",
+        "cmd:cf-monitord=3.27.1-r0",
+        "cmd:cf-net=3.27.1-r0",
+        "cmd:cf-promises=3.27.1-r0",
+        "cmd:cf-runagent=3.27.1-r0",
+        "cmd:cf-secret=3.27.1-r0",
+        "cmd:cf-serverd=3.27.1-r0",
+        "cmd:cf-support=3.27.1-r0",
+        "cmd:cf-upgrade=3.27.1-r0",
+        "cmd:rpmvercmp=3.27.1-r0",
         "so:libpromises.so.3=3.0.6"
       ]
     },
     "cfengine-doc": {
       "origin": "cfengine",
       "versions": {
-        "3.27.0-r0": 1768548166
+        "3.27.0-r0": 1768548166,
+        "3.27.1-r0": 1780336055
       }
     },
     "cfengine-masterfiles": {
       "origin": "cfengine",
       "versions": {
-        "3.27.0-r0": 1768548166
+        "3.27.0-r0": 1768548166,
+        "3.27.1-r0": 1780336055
       },
       "dependencies": [
         "cfengine"
@@ -30509,7 +30516,8 @@
     "conky": {
       "origin": "conky",
       "versions": {
-        "1.23.0-r0": 1779042949
+        "1.23.0-r0": 1779042949,
+        "1.24.0-r0": 1780336406
       },
       "dependencies": [
         "so:libImlib2.so.1",
@@ -30537,13 +30545,14 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:conky=1.23.0-r0"
+        "cmd:conky=1.24.0-r0"
       ]
     },
     "conky-doc": {
       "origin": "conky",
       "versions": {
-        "1.23.0-r0": 1779042949
+        "1.23.0-r0": 1779042949,
+        "1.24.0-r0": 1780336406
       }
     },
     "conmon": {
@@ -42190,7 +42199,8 @@
     "dwm": {
       "origin": "dwm",
       "versions": {
-        "6.7-r0": 1768139123
+        "6.7-r0": 1768139123,
+        "6.8-r0": 1780324759
       },
       "dependencies": [
         "dmenu-virtual",
@@ -42203,13 +42213,14 @@
       ],
       "provides": [
         "dwm-virtual",
-        "cmd:dwm=6.7-r0"
+        "cmd:dwm=6.8-r0"
       ]
     },
     "dwm-doc": {
       "origin": "dwm",
       "versions": {
-        "6.7-r0": 1768139123
+        "6.7-r0": 1768139123,
+        "6.8-r0": 1780324759
       }
     },
     "dynamips": {
@@ -244170,11 +244181,12 @@
     "scrcpy": {
       "origin": "scrcpy",
       "versions": {
-        "3.3.4-r0": 1769002984
+        "3.3.4-r0": 1769002984,
+        "4.0-r0": 1780325472
       },
       "dependencies": [
         "android-tools",
-        "so:libSDL2-2.0.so.0",
+        "so:libSDL3.so.0",
         "so:libavcodec.so.62",
         "so:libavdevice.so.62",
         "so:libavformat.so.62",
@@ -244184,25 +244196,28 @@
         "so:libusb-1.0.so.0"
       ],
       "provides": [
-        "cmd:scrcpy=3.3.4-r0"
+        "cmd:scrcpy=4.0-r0"
       ]
     },
     "scrcpy-bash-completion": {
       "origin": "scrcpy",
       "versions": {
-        "3.3.4-r0": 1769002984
+        "3.3.4-r0": 1769002984,
+        "4.0-r0": 1780325472
       }
     },
     "scrcpy-doc": {
       "origin": "scrcpy",
       "versions": {
-        "3.3.4-r0": 1769002984
+        "3.3.4-r0": 1769002984,
+        "4.0-r0": 1780325472
       }
     },
     "scrcpy-zsh-completion": {
       "origin": "scrcpy",
       "versions": {
-        "3.3.4-r0": 1769002984
+        "3.3.4-r0": 1769002984,
+        "4.0-r0": 1780325472
       }
     },
     "scream": {
@@ -260267,36 +260282,41 @@
       "origin": "tinydm",
       "versions": {
         "1.3.0-r0": 1764023931,
-        "1.3.1-r0": 1779931502
+        "1.3.1-r0": 1779931502,
+        "1.3.1-r1": 1780333020
       },
       "dependencies": [
-        "autologin"
+        "autologin",
+        "setpriv"
       ],
       "provides": [
-        "cmd:tinydm-run-session=1.3.1-r0",
-        "cmd:tinydm-set-session=1.3.1-r0",
-        "cmd:tinydm-unset-session=1.3.1-r0"
+        "cmd:tinydm-run-session=1.3.1-r1",
+        "cmd:tinydm-set-session=1.3.1-r1",
+        "cmd:tinydm-unset-session=1.3.1-r1"
       ]
     },
     "tinydm-openrc": {
       "origin": "tinydm",
       "versions": {
         "1.3.0-r0": 1764023931,
-        "1.3.1-r0": 1779931502
+        "1.3.1-r0": 1779931502,
+        "1.3.1-r1": 1780333020
       }
     },
     "tinydm-systemd": {
       "origin": "tinydm",
       "versions": {
         "1.3.0-r0": 1764023931,
-        "1.3.1-r0": 1779931502
+        "1.3.1-r0": 1779931502,
+        "1.3.1-r1": 1780333020
       }
     },
     "tinydm-x11": {
       "origin": "tinydm",
       "versions": {
         "1.3.0-r0": 1764023931,
-        "1.3.1-r0": 1779931502
+        "1.3.1-r0": 1779931502,
+        "1.3.1-r1": 1780333020
       },
       "dependencies": [
         "xinit"
@@ -270778,7 +270798,8 @@
     "weechat": {
       "origin": "weechat",
       "versions": {
-        "4.9.0-r0": 1774814735
+        "4.9.0-r0": 1774814735,
+        "4.9.1-r0": 1780324916
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -270792,15 +270813,16 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:weechat-curses=4.9.0-r0",
-        "cmd:weechat-headless=4.9.0-r0",
-        "cmd:weechat=4.9.0-r0"
+        "cmd:weechat-curses=4.9.1-r0",
+        "cmd:weechat-headless=4.9.1-r0",
+        "cmd:weechat=4.9.1-r0"
       ]
     },
     "weechat-dev": {
       "origin": "weechat",
       "versions": {
-        "4.9.0-r0": 1774814735
+        "4.9.0-r0": 1774814735,
+        "4.9.1-r0": 1780324916
       },
       "dependencies": [
         "aspell-dev",
@@ -270818,25 +270840,28 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:weechat=4.9.0"
+        "pc:weechat=4.9.1"
       ]
     },
     "weechat-doc": {
       "origin": "weechat",
       "versions": {
-        "4.9.0-r0": 1774814735
+        "4.9.0-r0": 1774814735,
+        "4.9.1-r0": 1780324916
       }
     },
     "weechat-lang": {
       "origin": "weechat",
       "versions": {
-        "4.9.0-r0": 1774814735
+        "4.9.0-r0": 1774814735,
+        "4.9.1-r0": 1780324916
       }
     },
     "weechat-lua": {
       "origin": "weechat",
       "versions": {
-        "4.9.0-r0": 1774814735
+        "4.9.0-r0": 1774814735,
+        "4.9.1-r0": 1780324916
       },
       "dependencies": [
         "weechat",
@@ -270889,7 +270914,8 @@
     "weechat-perl": {
       "origin": "weechat",
       "versions": {
-        "4.9.0-r0": 1774814735
+        "4.9.0-r0": 1774814735,
+        "4.9.1-r0": 1780324916
       },
       "dependencies": [
         "weechat",
@@ -270901,7 +270927,8 @@
     "weechat-python": {
       "origin": "weechat",
       "versions": {
-        "4.9.0-r0": 1774814735
+        "4.9.0-r0": 1774814735,
+        "4.9.1-r0": 1780324916
       },
       "dependencies": [
         "weechat",
@@ -270912,7 +270939,8 @@
     "weechat-spell": {
       "origin": "weechat",
       "versions": {
-        "4.9.0-r0": 1774814735
+        "4.9.0-r0": 1774814735,
+        "4.9.1-r0": 1780324916
       },
       "dependencies": [
         "weechat",
@@ -270920,7 +270948,7 @@
         "so:libc.musl-loongarch64.so.1"
       ],
       "provides": [
-        "weechat-aspell=4.9.0-r0"
+        "weechat-aspell=4.9.1-r0"
       ]
     },
     "weex": {
@@ -311353,7 +311381,7 @@
       },
       "weechat-aspell": {
         "package": "weechat-spell",
-        "version": "4.9.0-r0"
+        "version": "4.9.1-r0"
       },
       "pipewire-session-manager": {
         "package": "wireplumber",
