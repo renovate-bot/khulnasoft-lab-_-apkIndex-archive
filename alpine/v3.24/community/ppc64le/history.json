@@ -50384,7 +50384,8 @@
       "origin": "firefox",
       "versions": {
         "151.0-r0": 1779281098,
-        "151.0.2-r0": 1779865504
+        "151.0.2-r0": 1779865504,
+        "151.0.3-r0": 1780392997
       },
       "dependencies": [
         "ffmpeg-libavcodec",
@@ -50437,7 +50438,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:firefox=151.0.2-r0",
+        "cmd:firefox=151.0.3-r0",
         "so:firefox:libgkcodecs.so=0",
         "so:firefox:liblgpllibs.so=0",
         "so:firefox:libmozavcodec.so=0",
@@ -50453,11 +50454,12 @@
       "origin": "firefox",
       "versions": {
         "151.0-r0": 1779281098,
-        "151.0.2-r0": 1779865504
+        "151.0.2-r0": 1779865504,
+        "151.0.3-r0": 1780392997
       },
       "dependencies": [
-        "!firefox<151.0.2-r0",
-        "!firefox>151.0.2-r0"
+        "!firefox<151.0.3-r0",
+        "!firefox>151.0.3-r0"
       ]
     },
     "firefox-esr": {
@@ -50539,7 +50541,8 @@
       "origin": "firefox",
       "versions": {
         "151.0-r0": 1779281098,
-        "151.0.2-r0": 1779865504
+        "151.0.2-r0": 1779865504,
+        "151.0.3-r0": 1780392997
       },
       "dependencies": [
         "icu-data-full"

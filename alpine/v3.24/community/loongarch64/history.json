@@ -5252,7 +5252,8 @@
     "aquamarine": {
       "origin": "aquamarine",
       "versions": {
-        "0.10.0-r0": 1765709363
+        "0.10.0-r0": 1765709363,
+        "0.12.0-r0": 1780404364
       },
       "dependencies": [
         "so:libEGL.so.1",
@@ -5262,7 +5263,7 @@
         "so:libdrm.so.2",
         "so:libgbm.so.1",
         "so:libgcc_s.so.1",
-        "so:libhyprutils.so.10",
+        "so:libhyprutils.so.12",
         "so:libinput.so.10",
         "so:libseat.so.1",
         "so:libstdc++.so.6",
@@ -5270,26 +5271,28 @@
         "so:libwayland-client.so.0"
       ],
       "provides": [
-        "so:libaquamarine.so.9=0.10.0"
+        "so:libaquamarine.so.11=0.12.0"
       ]
     },
     "aquamarine-dev": {
       "origin": "aquamarine",
       "versions": {
-        "0.10.0-r0": 1765709363
+        "0.10.0-r0": 1765709363,
+        "0.12.0-r0": 1780404364
       },
       "dependencies": [
-        "aquamarine=0.10.0-r0",
+        "aquamarine=0.12.0-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:aquamarine=0.10.0"
+        "pc:aquamarine=0.12.0"
       ]
     },
     "aquamarine-doc": {
       "origin": "aquamarine",
       "versions": {
-        "0.10.0-r0": 1765709363
+        "0.10.0-r0": 1765709363,
+        "0.12.0-r0": 1780404364
       }
     },
     "arachsys-containers": {
@@ -50103,7 +50106,8 @@
       "origin": "firefox",
       "versions": {
         "151.0-r0": 1779281098,
-        "151.0.2-r0": 1779841364
+        "151.0.2-r0": 1779841364,
+        "151.0.3-r0": 1780392997
       },
       "dependencies": [
         "ffmpeg-libavcodec",
@@ -50156,7 +50160,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:firefox=151.0.2-r0",
+        "cmd:firefox=151.0.3-r0",
         "so:firefox:libgkcodecs.so=0",
         "so:firefox:liblgpllibs.so=0",
         "so:firefox:libmozavcodec.so=0",
@@ -50172,11 +50176,12 @@
       "origin": "firefox",
       "versions": {
         "151.0-r0": 1779281098,
-        "151.0.2-r0": 1779841364
+        "151.0.2-r0": 1779841364,
+        "151.0.3-r0": 1780392997
       },
       "dependencies": [
-        "!firefox<151.0.2-r0",
-        "!firefox>151.0.2-r0"
+        "!firefox<151.0.3-r0",
+        "!firefox>151.0.3-r0"
       ]
     },
     "firefox-esr": {
@@ -50258,7 +50263,8 @@
       "origin": "firefox",
       "versions": {
         "151.0-r0": 1779281098,
-        "151.0.2-r0": 1779841364
+        "151.0.2-r0": 1779841364,
+        "151.0.3-r0": 1780392997
       },
       "dependencies": [
         "icu-data-full"
@@ -84769,7 +84775,8 @@
       "origin": "hyprgraphics",
       "versions": {
         "0.4.0-r0": 1765709363,
-        "0.5.1-r0": 1780064996
+        "0.5.1-r0": 1780064996,
+        "0.5.1-r1": 1780405892
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -84778,7 +84785,7 @@
         "so:libglib-2.0.so.0",
         "so:libgobject-2.0.so.0",
         "so:libheif.so.1",
-        "so:libhyprutils.so.10",
+        "so:libhyprutils.so.12",
         "so:libjpeg.so.8",
         "so:libjxl.so.0.11",
         "so:libjxl_threads.so.0.11",
@@ -84798,10 +84805,11 @@
       "origin": "hyprgraphics",
       "versions": {
         "0.4.0-r0": 1765709363,
-        "0.5.1-r0": 1780064996
+        "0.5.1-r0": 1780064996,
+        "0.5.1-r1": 1780405892
       },
       "dependencies": [
-        "hyprgraphics=0.5.1-r0",
+        "hyprgraphics=0.5.1-r1",
         "pkgconfig"
       ],
       "provides": [
@@ -84812,14 +84820,16 @@
       "origin": "hyprgraphics",
       "versions": {
         "0.4.0-r0": 1765709363,
-        "0.5.1-r0": 1780064996
+        "0.5.1-r0": 1780064996,
+        "0.5.1-r1": 1780405892
       }
     },
     "hyprland": {
       "origin": "hyprland",
       "versions": {
         "0.52.2-r1": 1768845073,
-        "0.52.2-r2": 1780064996
+        "0.52.2-r2": 1780064996,
+        "0.52.2-r3": 1780404364
       },
       "dependencies": [
         "so:libEGL.so.1",
@@ -84856,23 +84866,25 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:Hyprland=0.52.2-r2",
-        "cmd:hyprctl=0.52.2-r2",
-        "cmd:hyprland=0.52.2-r2"
+        "cmd:Hyprland=0.52.2-r3",
+        "cmd:hyprctl=0.52.2-r3",
+        "cmd:hyprland=0.52.2-r3"
       ]
     },
     "hyprland-bash-completion": {
       "origin": "hyprland",
       "versions": {
         "0.52.2-r1": 1768845073,
-        "0.52.2-r2": 1780064996
+        "0.52.2-r2": 1780064996,
+        "0.52.2-r3": 1780404364
       }
     },
     "hyprland-dev": {
       "origin": "hyprland",
       "versions": {
         "0.52.2-r1": 1768845073,
-        "0.52.2-r2": 1780064996
+        "0.52.2-r2": 1780064996,
+        "0.52.2-r3": 1780404364
       },
       "dependencies": [
         "pkgconfig"
@@ -84885,14 +84897,16 @@
       "origin": "hyprland",
       "versions": {
         "0.52.2-r1": 1768845073,
-        "0.52.2-r2": 1780064996
+        "0.52.2-r2": 1780064996,
+        "0.52.2-r3": 1780404364
       }
     },
     "hyprland-fish-completion": {
       "origin": "hyprland",
       "versions": {
         "0.52.2-r1": 1768845073,
-        "0.52.2-r2": 1780064996
+        "0.52.2-r2": 1780064996,
+        "0.52.2-r3": 1780404364
       }
     },
     "hyprland-plugins": {
@@ -85114,48 +85128,53 @@
       "origin": "hyprland",
       "versions": {
         "0.52.2-r1": 1768845073,
-        "0.52.2-r2": 1780064996
+        "0.52.2-r2": 1780064996,
+        "0.52.2-r3": 1780404364
       }
     },
     "hyprland-zsh-completion": {
       "origin": "hyprland",
       "versions": {
         "0.52.2-r1": 1768845073,
-        "0.52.2-r2": 1780064996
+        "0.52.2-r2": 1780064996,
+        "0.52.2-r3": 1780404364
       }
     },
     "hyprlang": {
       "origin": "hyprlang",
       "versions": {
-        "0.6.7-r0": 1765709363
+        "0.6.7-r0": 1765709363,
+        "0.6.8-r0": 1780404364
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
         "so:libgcc_s.so.1",
-        "so:libhyprutils.so.10",
+        "so:libhyprutils.so.12",
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libhyprlang.so.2=0.6.7"
+        "so:libhyprlang.so.2=0.6.8"
       ]
     },
     "hyprlang-dev": {
       "origin": "hyprlang",
       "versions": {
-        "0.6.7-r0": 1765709363
+        "0.6.7-r0": 1765709363,
+        "0.6.8-r0": 1780404364
       },
       "dependencies": [
-        "hyprlang=0.6.7-r0",
+        "hyprlang=0.6.8-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:hyprlang=0.6.7"
+        "pc:hyprlang=0.6.8"
       ]
     },
     "hyprlang-doc": {
       "origin": "hyprlang",
       "versions": {
-        "0.6.7-r0": 1765709363
+        "0.6.7-r0": 1765709363,
+        "0.6.8-r0": 1780404364
       }
     },
     "hyprpolkitagent": {
@@ -85192,7 +85211,8 @@
     "hyprutils": {
       "origin": "hyprutils",
       "versions": {
-        "0.11.0-r0": 1765709363
+        "0.11.0-r0": 1765709363,
+        "0.13.1-r0": 1780404364
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -85201,26 +85221,28 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libhyprutils.so.10=0.11.0"
+        "so:libhyprutils.so.12=0.13.1"
       ]
     },
     "hyprutils-dev": {
       "origin": "hyprutils",
       "versions": {
-        "0.11.0-r0": 1765709363
+        "0.11.0-r0": 1765709363,
+        "0.13.1-r0": 1780404364
       },
       "dependencies": [
-        "hyprutils=0.11.0-r0",
+        "hyprutils=0.13.1-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:hyprutils=0.11.0"
+        "pc:hyprutils=0.13.1"
       ]
     },
     "hyprutils-doc": {
       "origin": "hyprutils",
       "versions": {
-        "0.11.0-r0": 1765709363
+        "0.11.0-r0": 1765709363,
+        "0.13.1-r0": 1780404364
       }
     },
     "hyprwayland-scanner": {
@@ -115695,7 +115717,8 @@
     "libinput": {
       "origin": "libinput",
       "versions": {
-        "1.31.2-r0": 1778869674
+        "1.31.2-r0": 1778869674,
+        "1.31.2-r1": 1780410219
       },
       "dependencies": [
         "/bin/sh",
@@ -115705,17 +115728,18 @@
         "so:libudev.so.1"
       ],
       "provides": [
-        "cmd:libinput=1.31.2-r0"
+        "cmd:libinput=1.31.2-r1"
       ]
     },
     "libinput-dev": {
       "origin": "libinput",
       "versions": {
-        "1.31.2-r0": 1778869674
+        "1.31.2-r0": 1778869674,
+        "1.31.2-r1": 1780410219
       },
       "dependencies": [
         "eudev-dev",
-        "libinput-libs=1.31.2-r0",
+        "libinput-libs=1.31.2-r1",
         "pc:libudev",
         "pkgconfig"
       ],
@@ -115726,13 +115750,15 @@
     "libinput-doc": {
       "origin": "libinput",
       "versions": {
-        "1.31.2-r0": 1778869674
+        "1.31.2-r0": 1778869674,
+        "1.31.2-r1": 1780410219
       }
     },
     "libinput-libs": {
       "origin": "libinput",
       "versions": {
-        "1.31.2-r0": 1778869674
+        "1.31.2-r0": 1778869674,
+        "1.31.2-r1": 1780410219
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -115747,10 +115773,11 @@
     "libinput-tools": {
       "origin": "libinput",
       "versions": {
-        "1.31.2-r0": 1778869674
+        "1.31.2-r0": 1778869674,
+        "1.31.2-r1": 1780410219
       },
       "dependencies": [
-        "libinput=1.31.2-r0",
+        "libinput=1.31.2-r1",
         "py3-libevdev",
         "py3-udev",
         "py3-yaml",
@@ -115764,7 +115791,8 @@
     "libinput-udev": {
       "origin": "libinput",
       "versions": {
-        "1.31.2-r0": 1778869674
+        "1.31.2-r0": 1778869674,
+        "1.31.2-r1": 1780410219
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -115775,7 +115803,8 @@
     "libinput-zsh-completion": {
       "origin": "libinput",
       "versions": {
-        "1.31.2-r0": 1778869674
+        "1.31.2-r0": 1778869674,
+        "1.31.2-r1": 1780410219
       }
     },
     "libinputsynth": {
@@ -224156,14 +224185,15 @@
       "origin": "uv",
       "versions": {
         "0.11.16-r0": 1779494324,
-        "0.11.17-r0": 1780349211
+        "0.11.17-r0": 1780349211,
+        "0.11.18-r0": 1780407312
       },
       "dependencies": [
-        "uv=0.11.17-r0",
+        "uv=0.11.18-r0",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:uv=0.11.17-r0"
+        "py3.14:uv=0.11.18-r0"
       ]
     },
     "py3-uv-build": {
@@ -224171,7 +224201,8 @@
       "versions": {
         "0.11.14-r0": 1779065623,
         "0.11.16-r0": 1779797632,
-        "0.11.17-r0": 1780129695
+        "0.11.17-r0": 1780129695,
+        "0.11.18-r0": 1780407312
       },
       "dependencies": [
         "python3",
@@ -224180,8 +224211,8 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:uv-build=0.11.17-r0",
-        "py3.14:uv_build=0.11.17-r0"
+        "cmd:uv-build=0.11.18-r0",
+        "py3.14:uv_build=0.11.18-r0"
       ]
     },
     "py3-uv-build-pyc": {
@@ -224189,7 +224220,8 @@
       "versions": {
         "0.11.14-r0": 1779065623,
         "0.11.16-r0": 1779797632,
-        "0.11.17-r0": 1780129695
+        "0.11.17-r0": 1780129695,
+        "0.11.18-r0": 1780407312
       },
       "dependencies": [
         "python3~3.14"
@@ -224199,7 +224231,8 @@
       "origin": "uv",
       "versions": {
         "0.11.16-r0": 1779494324,
-        "0.11.17-r0": 1780349211
+        "0.11.17-r0": 1780349211,
+        "0.11.18-r0": 1780407312
       },
       "dependencies": [
         "python3~3.14"
@@ -266475,7 +266508,8 @@
       "origin": "uv",
       "versions": {
         "0.11.16-r0": 1779494324,
-        "0.11.17-r0": 1780349211
+        "0.11.17-r0": 1780349211,
+        "0.11.18-r0": 1780407312
       },
       "dependencies": [
         "so:libbz2.so.1",
@@ -266483,29 +266517,32 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:uv=0.11.17-r0",
-        "cmd:uvx=0.11.17-r0"
+        "cmd:uv=0.11.18-r0",
+        "cmd:uvx=0.11.18-r0"
       ]
     },
     "uv-bash-completion": {
       "origin": "uv",
       "versions": {
         "0.11.16-r0": 1779494324,
-        "0.11.17-r0": 1780349211
+        "0.11.17-r0": 1780349211,
+        "0.11.18-r0": 1780407312
       }
     },
     "uv-fish-completion": {
       "origin": "uv",
       "versions": {
         "0.11.16-r0": 1779494324,
-        "0.11.17-r0": 1780349211
+        "0.11.17-r0": 1780349211,
+        "0.11.18-r0": 1780407312
       }
     },
     "uv-zsh-completion": {
       "origin": "uv",
       "versions": {
         "0.11.16-r0": 1779494324,
-        "0.11.17-r0": 1780349211
+        "0.11.17-r0": 1780349211,
+        "0.11.18-r0": 1780407312
       }
     },
     "uvicorn": {
@@ -278669,7 +278706,8 @@
     "xorg-server": {
       "origin": "xorg-server",
       "versions": {
-        "21.1.22-r0": 1776232461
+        "21.1.22-r0": 1776232461,
+        "21.1.23-r0": 1780397926
       },
       "dependencies": [
         "font-cursor-misc",
@@ -278694,38 +278732,41 @@
         "so:libxshmfence.so.1"
       ],
       "provides": [
-        "xf86-video-modesetting=21.1.22-r0",
-        "cmd:X=21.1.22-r0",
-        "cmd:Xorg=21.1.22-r0",
-        "cmd:gtf=21.1.22-r0"
+        "xf86-video-modesetting=21.1.23-r0",
+        "cmd:X=21.1.23-r0",
+        "cmd:Xorg=21.1.23-r0",
+        "cmd:gtf=21.1.23-r0"
       ]
     },
     "xorg-server-common": {
       "origin": "xorg-server",
       "versions": {
-        "21.1.22-r0": 1776232461
+        "21.1.22-r0": 1776232461,
+        "21.1.23-r0": 1780397926
       }
     },
     "xorg-server-dbg": {
       "origin": "xorg-server",
       "versions": {
-        "21.1.22-r0": 1776232461
+        "21.1.22-r0": 1776232461,
+        "21.1.23-r0": 1780397926
       },
       "dependencies": [
-        "!xorg-server-xephyr<21.1.22-r0",
-        "!xorg-server-xephyr>21.1.22-r0",
-        "!xorg-server-xnest<21.1.22-r0",
-        "!xorg-server-xnest>21.1.22-r0",
-        "!xorg-server<21.1.22-r0",
-        "!xorg-server>21.1.22-r0",
-        "!xvfb<21.1.22-r0",
-        "!xvfb>21.1.22-r0"
+        "!xorg-server-xephyr<21.1.23-r0",
+        "!xorg-server-xephyr>21.1.23-r0",
+        "!xorg-server-xnest<21.1.23-r0",
+        "!xorg-server-xnest>21.1.23-r0",
+        "!xorg-server<21.1.23-r0",
+        "!xorg-server>21.1.23-r0",
+        "!xvfb<21.1.23-r0",
+        "!xvfb>21.1.23-r0"
       ]
     },
     "xorg-server-dev": {
       "origin": "xorg-server",
       "versions": {
-        "21.1.22-r0": 1776232461
+        "21.1.22-r0": 1776232461,
+        "21.1.23-r0": 1780397926
       },
       "dependencies": [
         "libepoxy-dev",
@@ -278736,19 +278777,21 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:xorg-server=21.1.22"
+        "pc:xorg-server=21.1.23"
       ]
     },
     "xorg-server-doc": {
       "origin": "xorg-server",
       "versions": {
-        "21.1.22-r0": 1776232461
+        "21.1.22-r0": 1776232461,
+        "21.1.23-r0": 1780397926
       }
     },
     "xorg-server-xephyr": {
       "origin": "xorg-server",
       "versions": {
-        "21.1.22-r0": 1776232461
+        "21.1.22-r0": 1776232461,
+        "21.1.23-r0": 1780397926
       },
       "dependencies": [
         "font-cursor-misc",
@@ -278783,13 +278826,14 @@
         "so:libxshmfence.so.1"
       ],
       "provides": [
-        "cmd:Xephyr=21.1.22-r0"
+        "cmd:Xephyr=21.1.23-r0"
       ]
     },
     "xorg-server-xnest": {
       "origin": "xorg-server",
       "versions": {
-        "21.1.22-r0": 1776232461
+        "21.1.22-r0": 1776232461,
+        "21.1.23-r0": 1780397926
       },
       "dependencies": [
         "font-cursor-misc",
@@ -278808,7 +278852,7 @@
         "so:libpixman-1.so.0"
       ],
       "provides": [
-        "cmd:Xnest=21.1.22-r0"
+        "cmd:Xnest=21.1.23-r0"
       ]
     },
     "xorgxrdp": {
@@ -279640,7 +279684,8 @@
     "xvfb": {
       "origin": "xorg-server",
       "versions": {
-        "21.1.22-r0": 1776232461
+        "21.1.22-r0": 1776232461,
+        "21.1.23-r0": 1780397926
       },
       "dependencies": [
         "font-cursor-misc",
@@ -279658,7 +279703,7 @@
         "so:libpixman-1.so.0"
       ],
       "provides": [
-        "cmd:Xvfb=21.1.22-r0"
+        "cmd:Xvfb=21.1.23-r0"
       ]
     },
     "xvfb-run": {
@@ -279792,7 +279837,8 @@
     "xwayland": {
       "origin": "xwayland",
       "versions": {
-        "24.1.11-r0": 1777295510
+        "24.1.11-r0": 1777295510,
+        "24.1.12-r0": 1780410129
       },
       "dependencies": [
         "xorg-server-common",
@@ -279812,23 +279858,25 @@
         "so:libxshmfence.so.1"
       ],
       "provides": [
-        "cmd:Xwayland=24.1.11-r0"
+        "cmd:Xwayland=24.1.12-r0"
       ]
     },
     "xwayland-dbg": {
       "origin": "xwayland",
       "versions": {
-        "24.1.11-r0": 1777295510
+        "24.1.11-r0": 1777295510,
+        "24.1.12-r0": 1780410129
       },
       "dependencies": [
-        "!xwayland<24.1.11-r0",
-        "!xwayland>24.1.11-r0"
+        "!xwayland<24.1.12-r0",
+        "!xwayland>24.1.12-r0"
       ]
     },
     "xwayland-dev": {
       "origin": "xwayland",
       "versions": {
-        "24.1.11-r0": 1777295510
+        "24.1.11-r0": 1777295510,
+        "24.1.12-r0": 1780410129
       },
       "dependencies": [
         "dbus-dev",
@@ -279849,13 +279897,14 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:xwayland=24.1.11"
+        "pc:xwayland=24.1.12"
       ]
     },
     "xwayland-doc": {
       "origin": "xwayland",
       "versions": {
-        "24.1.11-r0": 1777295510
+        "24.1.11-r0": 1777295510,
+        "24.1.12-r0": 1780410129
       }
     },
     "xwayland-run": {
@@ -294971,7 +295020,7 @@
       },
       "libhyprlang.so.2": {
         "package": "hyprlang",
-        "version": "0.6.7"
+        "version": "0.6.8"
       },
       "libhyprutils.so.10": {
         "package": "hyprutils",
@@ -307884,6 +307933,14 @@
       "libatalk.so.20": {
         "package": "netatalk",
         "version": "20.0.0"
+      },
+      "libaquamarine.so.11": {
+        "package": "aquamarine",
+        "version": "0.12.0"
+      },
+      "libhyprutils.so.12": {
+        "package": "hyprutils",
+        "version": "0.13.1"
       }
     },
     "package": {
@@ -311593,7 +311650,7 @@
       },
       "xf86-video-modesetting": {
         "package": "xorg-server",
-        "version": "21.1.22-r0"
+        "version": "21.1.23-r0"
       },
       "yq": {
         "package": "yq-go",
