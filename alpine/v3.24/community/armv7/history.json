@@ -293603,6 +293603,72 @@
       "versions": {
         "1.5-r5": 1780307244
       }
+    },
+    "thunderbird": {
+      "origin": "thunderbird",
+      "versions": {
+        "151.0.1-r0": 1780353174
+      },
+      "dependencies": [
+        "libotr",
+        "librnp",
+        "so:libX11-xcb.so.1",
+        "so:libX11.so.6",
+        "so:libXcomposite.so.1",
+        "so:libXdamage.so.1",
+        "so:libXext.so.6",
+        "so:libXfixes.so.3",
+        "so:libXrandr.so.2",
+        "so:libasound.so.2",
+        "so:libatk-1.0.so.0",
+        "so:libc.musl-armv7.so.1",
+        "so:libcairo-gobject.so.2",
+        "so:libcairo.so.2",
+        "so:libdbus-1.so.3",
+        "so:libevent-2.1.so.7",
+        "so:libffi.so.8",
+        "so:libfontconfig.so.1",
+        "so:libfreetype.so.6",
+        "so:libgcc_s.so.1",
+        "so:libgdk-3.so.0",
+        "so:libgdk_pixbuf-2.0.so.0",
+        "so:libgio-2.0.so.0",
+        "so:libglib-2.0.so.0",
+        "so:libgobject-2.0.so.0",
+        "so:libgtk-3.so.0",
+        "so:libicui18n.so.78",
+        "so:libicuuc.so.78",
+        "so:libjpeg.so.8",
+        "so:libnspr4.so",
+        "so:libnss3.so",
+        "so:libnssutil3.so",
+        "so:libpango-1.0.so.0",
+        "so:libpixman-1.so.0",
+        "so:libplc4.so",
+        "so:libplds4.so",
+        "so:libpng16.so.16",
+        "so:libsmime3.so",
+        "so:libssl3.so",
+        "so:libstdc++.so.6",
+        "so:libvpx.so.11",
+        "so:libwebp.so.7",
+        "so:libwebpdemux.so.2",
+        "so:libxcb-shm.so.0",
+        "so:libxcb.so.1",
+        "so:libz.so.1"
+      ],
+      "provides": [
+        "cmd:thunderbird=151.0.1-r0",
+        "so:thunderbird:libgkcodecs.so=0",
+        "so:thunderbird:liblgpllibs.so=0",
+        "so:thunderbird:libmozavcodec.so=0",
+        "so:thunderbird:libmozavutil.so=0",
+        "so:thunderbird:libmozgtk.so=0",
+        "so:thunderbird:libmozsandbox.so=0",
+        "so:thunderbird:libmozsqlite3.so=0",
+        "so:thunderbird:libmozwayland.so=0",
+        "so:thunderbird:libxul.so=0"
+      ]
     }
   },
   "provide": {
@@ -315142,6 +315208,42 @@
       "libgnunetutil.so.22": {
         "package": "gnunet",
         "version": "22.0.0"
+      },
+      "thunderbird:libgkcodecs.so": {
+        "package": "thunderbird",
+        "version": "0"
+      },
+      "thunderbird:liblgpllibs.so": {
+        "package": "thunderbird",
+        "version": "0"
+      },
+      "thunderbird:libmozavcodec.so": {
+        "package": "thunderbird",
+        "version": "0"
+      },
+      "thunderbird:libmozavutil.so": {
+        "package": "thunderbird",
+        "version": "0"
+      },
+      "thunderbird:libmozgtk.so": {
+        "package": "thunderbird",
+        "version": "0"
+      },
+      "thunderbird:libmozsandbox.so": {
+        "package": "thunderbird",
+        "version": "0"
+      },
+      "thunderbird:libmozsqlite3.so": {
+        "package": "thunderbird",
+        "version": "0"
+      },
+      "thunderbird:libmozwayland.so": {
+        "package": "thunderbird",
+        "version": "0"
+      },
+      "thunderbird:libxul.so": {
+        "package": "thunderbird",
+        "version": "0"
       }
     },
     "package": {
