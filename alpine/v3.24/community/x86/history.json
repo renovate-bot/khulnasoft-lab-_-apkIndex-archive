@@ -4765,7 +4765,8 @@
     "aquamarine": {
       "origin": "aquamarine",
       "versions": {
-        "0.10.0-r0": 1765709363
+        "0.10.0-r0": 1765709363,
+        "0.12.0-r0": 1780404364
       },
       "dependencies": [
         "so:libEGL.so.1",
@@ -4775,7 +4776,7 @@
         "so:libdrm.so.2",
         "so:libgbm.so.1",
         "so:libgcc_s.so.1",
-        "so:libhyprutils.so.10",
+        "so:libhyprutils.so.12",
         "so:libinput.so.10",
         "so:libseat.so.1",
         "so:libstdc++.so.6",
@@ -4783,26 +4784,28 @@
         "so:libwayland-client.so.0"
       ],
       "provides": [
-        "so:libaquamarine.so.9=0.10.0"
+        "so:libaquamarine.so.11=0.12.0"
       ]
     },
     "aquamarine-dev": {
       "origin": "aquamarine",
       "versions": {
-        "0.10.0-r0": 1765709363
+        "0.10.0-r0": 1765709363,
+        "0.12.0-r0": 1780404364
       },
       "dependencies": [
-        "aquamarine=0.10.0-r0",
+        "aquamarine=0.12.0-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:aquamarine=0.10.0"
+        "pc:aquamarine=0.12.0"
       ]
     },
     "aquamarine-doc": {
       "origin": "aquamarine",
       "versions": {
-        "0.10.0-r0": 1765709363
+        "0.10.0-r0": 1765709363,
+        "0.12.0-r0": 1780404364
       }
     },
     "arachsys-containers": {
@@ -5219,7 +5222,8 @@
       "origin": "arti",
       "versions": {
         "2.2.0-r0": 1774982892,
-        "2.3.0-r0": 1779496586
+        "2.3.0-r0": 1779496586,
+        "2.4.0-r0": 1780389299
       },
       "dependencies": [
         "/bin/sh",
@@ -5232,21 +5236,23 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:arti=2.3.0-r0"
+        "cmd:arti=2.4.0-r0"
       ]
     },
     "arti-doc": {
       "origin": "arti",
       "versions": {
         "2.2.0-r0": 1774982892,
-        "2.3.0-r0": 1779496586
+        "2.3.0-r0": 1779496586,
+        "2.4.0-r0": 1780389299
       }
     },
     "arti-openrc": {
       "origin": "arti",
       "versions": {
         "2.2.0-r0": 1774982892,
-        "2.3.0-r0": 1779496586
+        "2.3.0-r0": 1779496586,
+        "2.4.0-r0": 1780389299
       }
     },
     "artikulate": {
@@ -28892,7 +28898,8 @@
       "origin": "composer",
       "versions": {
         "2.9.7-r1": 1778101278,
-        "2.9.8-r0": 1778680228
+        "2.9.8-r0": 1778680228,
+        "2.10.0-r0": 1780395250
       },
       "dependencies": [
         "php85",
@@ -28905,15 +28912,16 @@
         "p7zip"
       ],
       "provides": [
-        "cmd:composer.phar=2.9.8-r0",
-        "cmd:composer=2.9.8-r0"
+        "cmd:composer.phar=2.10.0-r0",
+        "cmd:composer=2.10.0-r0"
       ]
     },
     "composer-bash-completion": {
       "origin": "composer",
       "versions": {
         "2.9.7-r1": 1778101278,
-        "2.9.8-r0": 1778680228
+        "2.9.8-r0": 1778680228,
+        "2.10.0-r0": 1780395250
       }
     },
     "comrak": {
@@ -53573,21 +53581,23 @@
       "origin": "gdu",
       "versions": {
         "5.35.0-r0": 1777151587,
-        "5.35.0-r1": 1778661427
+        "5.35.0-r1": 1778661427,
+        "5.36.1-r0": 1780429411
       },
       "dependencies": [
         "ncurses",
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:gdu=5.35.0-r1"
+        "cmd:gdu=5.36.1-r0"
       ]
     },
     "gdu-doc": {
       "origin": "gdu",
       "versions": {
         "5.35.0-r0": 1777151587,
-        "5.35.0-r1": 1778661427
+        "5.35.0-r1": 1778661427,
+        "5.36.1-r0": 1780429411
       }
     },
     "geany": {
@@ -76629,13 +76639,14 @@
       "origin": "gyosu",
       "versions": {
         "0.2.1-r0": 1777125588,
-        "0.2.1-r1": 1778661427
+        "0.2.1-r1": 1778661427,
+        "0.2.2-r0": 1780390006
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:gyosu=0.2.1-r1"
+        "cmd:gyosu=0.2.2-r0"
       ]
     },
     "hackrf": {
@@ -79269,7 +79280,8 @@
       "origin": "hyprgraphics",
       "versions": {
         "0.4.0-r0": 1765709363,
-        "0.5.1-r0": 1780064996
+        "0.5.1-r0": 1780064996,
+        "0.5.1-r1": 1780405892
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -79278,7 +79290,7 @@
         "so:libglib-2.0.so.0",
         "so:libgobject-2.0.so.0",
         "so:libheif.so.1",
-        "so:libhyprutils.so.10",
+        "so:libhyprutils.so.12",
         "so:libjpeg.so.8",
         "so:libjxl.so.0.11",
         "so:libjxl_threads.so.0.11",
@@ -79298,10 +79310,11 @@
       "origin": "hyprgraphics",
       "versions": {
         "0.4.0-r0": 1765709363,
-        "0.5.1-r0": 1780064996
+        "0.5.1-r0": 1780064996,
+        "0.5.1-r1": 1780405892
       },
       "dependencies": [
-        "hyprgraphics=0.5.1-r0",
+        "hyprgraphics=0.5.1-r1",
         "pkgconfig"
       ],
       "provides": [
@@ -79312,20 +79325,22 @@
       "origin": "hyprgraphics",
       "versions": {
         "0.4.0-r0": 1765709363,
-        "0.5.1-r0": 1780064996
+        "0.5.1-r0": 1780064996,
+        "0.5.1-r1": 1780405892
       }
     },
     "hyprland": {
       "origin": "hyprland",
       "versions": {
         "0.52.2-r1": 1768845073,
-        "0.52.2-r2": 1780064996
+        "0.52.2-r2": 1780064996,
+        "0.52.2-r3": 1780404364
       },
       "dependencies": [
         "so:libEGL.so.1",
         "so:libGL.so.1",
         "so:libXcursor.so.1",
-        "so:libaquamarine.so.9",
+        "so:libaquamarine.so.11",
         "so:libc.musl-x86.so.1",
         "so:libcairo.so.2",
         "so:libdrm.so.2",
@@ -79336,7 +79351,7 @@
         "so:libhyprcursor.so.0",
         "so:libhyprgraphics.so.4",
         "so:libhyprlang.so.2",
-        "so:libhyprutils.so.10",
+        "so:libhyprutils.so.12",
         "so:libinput.so.10",
         "so:libpango-1.0.so.0",
         "so:libpangocairo-1.0.so.0",
@@ -79356,23 +79371,25 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:Hyprland=0.52.2-r2",
-        "cmd:hyprctl=0.52.2-r2",
-        "cmd:hyprland=0.52.2-r2"
+        "cmd:Hyprland=0.52.2-r3",
+        "cmd:hyprctl=0.52.2-r3",
+        "cmd:hyprland=0.52.2-r3"
       ]
     },
     "hyprland-bash-completion": {
       "origin": "hyprland",
       "versions": {
         "0.52.2-r1": 1768845073,
-        "0.52.2-r2": 1780064996
+        "0.52.2-r2": 1780064996,
+        "0.52.2-r3": 1780404364
       }
     },
     "hyprland-dev": {
       "origin": "hyprland",
       "versions": {
         "0.52.2-r1": 1768845073,
-        "0.52.2-r2": 1780064996
+        "0.52.2-r2": 1780064996,
+        "0.52.2-r3": 1780404364
       },
       "dependencies": [
         "pkgconfig"
@@ -79385,14 +79402,16 @@
       "origin": "hyprland",
       "versions": {
         "0.52.2-r1": 1768845073,
-        "0.52.2-r2": 1780064996
+        "0.52.2-r2": 1780064996,
+        "0.52.2-r3": 1780404364
       }
     },
     "hyprland-fish-completion": {
       "origin": "hyprland",
       "versions": {
         "0.52.2-r1": 1768845073,
-        "0.52.2-r2": 1780064996
+        "0.52.2-r2": 1780064996,
+        "0.52.2-r3": 1780404364
       }
     },
     "hyprland-plugins": {
@@ -79614,48 +79633,53 @@
       "origin": "hyprland",
       "versions": {
         "0.52.2-r1": 1768845073,
-        "0.52.2-r2": 1780064996
+        "0.52.2-r2": 1780064996,
+        "0.52.2-r3": 1780404364
       }
     },
     "hyprland-zsh-completion": {
       "origin": "hyprland",
       "versions": {
         "0.52.2-r1": 1768845073,
-        "0.52.2-r2": 1780064996
+        "0.52.2-r2": 1780064996,
+        "0.52.2-r3": 1780404364
       }
     },
     "hyprlang": {
       "origin": "hyprlang",
       "versions": {
-        "0.6.7-r0": 1765709363
+        "0.6.7-r0": 1765709363,
+        "0.6.8-r0": 1780404364
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
         "so:libgcc_s.so.1",
-        "so:libhyprutils.so.10",
+        "so:libhyprutils.so.12",
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libhyprlang.so.2=0.6.7"
+        "so:libhyprlang.so.2=0.6.8"
       ]
     },
     "hyprlang-dev": {
       "origin": "hyprlang",
       "versions": {
-        "0.6.7-r0": 1765709363
+        "0.6.7-r0": 1765709363,
+        "0.6.8-r0": 1780404364
       },
       "dependencies": [
-        "hyprlang=0.6.7-r0",
+        "hyprlang=0.6.8-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:hyprlang=0.6.7"
+        "pc:hyprlang=0.6.8"
       ]
     },
     "hyprlang-doc": {
       "origin": "hyprlang",
       "versions": {
-        "0.6.7-r0": 1765709363
+        "0.6.7-r0": 1765709363,
+        "0.6.8-r0": 1780404364
       }
     },
     "hyprpolkitagent": {
@@ -79692,7 +79716,8 @@
     "hyprutils": {
       "origin": "hyprutils",
       "versions": {
-        "0.11.0-r0": 1765709363
+        "0.11.0-r0": 1765709363,
+        "0.13.1-r0": 1780404364
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -79701,26 +79726,28 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libhyprutils.so.10=0.11.0"
+        "so:libhyprutils.so.12=0.13.1"
       ]
     },
     "hyprutils-dev": {
       "origin": "hyprutils",
       "versions": {
-        "0.11.0-r0": 1765709363
+        "0.11.0-r0": 1765709363,
+        "0.13.1-r0": 1780404364
       },
       "dependencies": [
-        "hyprutils=0.11.0-r0",
+        "hyprutils=0.13.1-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:hyprutils=0.11.0"
+        "pc:hyprutils=0.13.1"
       ]
     },
     "hyprutils-doc": {
       "origin": "hyprutils",
       "versions": {
-        "0.11.0-r0": 1765709363
+        "0.11.0-r0": 1765709363,
+        "0.13.1-r0": 1780404364
       }
     },
     "hyprwayland-scanner": {
@@ -94265,7 +94292,8 @@
       "origin": "plasma-desktop",
       "versions": {
         "6.6.4-r0": 1775573689,
-        "6.6.5-r0": 1778857556
+        "6.6.5-r0": 1778857556,
+        "6.6.5-r1": 1780428291
       },
       "dependencies": [
         "so:libKF6Codecs.so.6",
@@ -94283,7 +94311,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:knetattach=6.6.5-r0"
+        "cmd:knetattach=6.6.5-r1"
       ]
     },
     "knetwalk": {
@@ -109319,7 +109347,8 @@
       "origin": "libinput",
       "versions": {
         "1.31.1-r0": 1775148343,
-        "1.31.2-r0": 1778869674
+        "1.31.2-r0": 1778869674,
+        "1.31.2-r2": 1780433086
       },
       "dependencies": [
         "/bin/sh",
@@ -109329,18 +109358,19 @@
         "so:libudev.so.1"
       ],
       "provides": [
-        "cmd:libinput=1.31.2-r0"
+        "cmd:libinput=1.31.2-r2"
       ]
     },
     "libinput-dev": {
       "origin": "libinput",
       "versions": {
         "1.31.1-r0": 1775148343,
-        "1.31.2-r0": 1778869674
+        "1.31.2-r0": 1778869674,
+        "1.31.2-r2": 1780433086
       },
       "dependencies": [
         "eudev-dev",
-        "libinput-libs=1.31.2-r0",
+        "libinput-libs=1.31.2-r2",
         "pc:libudev",
         "pkgconfig"
       ],
@@ -109352,14 +109382,16 @@
       "origin": "libinput",
       "versions": {
         "1.31.1-r0": 1775148343,
-        "1.31.2-r0": 1778869674
+        "1.31.2-r0": 1778869674,
+        "1.31.2-r2": 1780433086
       }
     },
     "libinput-libs": {
       "origin": "libinput",
       "versions": {
         "1.31.1-r0": 1775148343,
-        "1.31.2-r0": 1778869674
+        "1.31.2-r0": 1778869674,
+        "1.31.2-r2": 1780433086
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -109375,10 +109407,11 @@
       "origin": "libinput",
       "versions": {
         "1.31.1-r0": 1775148343,
-        "1.31.2-r0": 1778869674
+        "1.31.2-r0": 1778869674,
+        "1.31.2-r2": 1780433086
       },
       "dependencies": [
-        "libinput=1.31.2-r0",
+        "libinput=1.31.2-r2",
         "py3-libevdev",
         "py3-udev",
         "py3-yaml",
@@ -109393,7 +109426,8 @@
       "origin": "libinput",
       "versions": {
         "1.31.1-r0": 1775148343,
-        "1.31.2-r0": 1778869674
+        "1.31.2-r0": 1778869674,
+        "1.31.2-r2": 1780433086
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -109405,7 +109439,8 @@
       "origin": "libinput",
       "versions": {
         "1.31.1-r0": 1775148343,
-        "1.31.2-r0": 1778869674
+        "1.31.2-r0": 1778869674,
+        "1.31.2-r2": 1780433086
       }
     },
     "libinputsynth": {
@@ -115013,7 +115048,8 @@
       "origin": "phosh",
       "versions": {
         "0.54.0-r0": 1775397068,
-        "0.55.0-r0": 1779021941
+        "0.55.0-r0": 1779021941,
+        "0.55.0-r1": 1780427209
       },
       "dependencies": [
         "so:libappstream.so.5",
@@ -115059,7 +115095,8 @@
       "origin": "phosh",
       "versions": {
         "0.54.0-r0": 1775397068,
-        "0.55.0-r0": 1779021941
+        "0.55.0-r0": 1779021941,
+        "0.55.0-r1": 1780427209
       },
       "dependencies": [
         "phosh-schemas",
@@ -115077,7 +115114,7 @@
         "phoc",
         "phosh-keyboard",
         "xwayland",
-        "libphosh=0.55.0-r0",
+        "libphosh=0.55.0-r1",
         "pc:appstream>=1.0.0",
         "pc:fribidi",
         "pc:gcr-3>=3.7.5",
@@ -115847,7 +115884,8 @@
     "libqalculate": {
       "origin": "libqalculate",
       "versions": {
-        "5.8.2-r1": 1768294071
+        "5.8.2-r1": 1768294071,
+        "5.11.0-r0": 1780391174
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -115861,29 +115899,31 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "so:libqalculate.so.23=23.3.9"
+        "so:libqalculate.so.23=23.3.12"
       ]
     },
     "libqalculate-dev": {
       "origin": "libqalculate",
       "versions": {
-        "5.8.2-r1": 1768294071
+        "5.8.2-r1": 1768294071,
+        "5.11.0-r0": 1780391174
       },
       "dependencies": [
-        "libqalculate=5.8.2-r1",
+        "libqalculate=5.11.0-r0",
         "pc:gmp",
         "pc:libxml-2.0>=2.3.8",
         "pc:mpfr",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libqalculate=5.8.2"
+        "pc:libqalculate=5.11.0"
       ]
     },
     "libqalculate-lang": {
       "origin": "libqalculate",
       "versions": {
-        "5.8.2-r1": 1768294071
+        "5.8.2-r1": 1768294071,
+        "5.11.0-r0": 1780391174
       }
     },
     "libqb": {
@@ -120522,7 +120562,8 @@
     "libssc": {
       "origin": "libssc",
       "versions": {
-        "0.4.2-r1": 1774640379
+        "0.4.2-r1": 1774640379,
+        "0.4.3-r0": 1780390604
       },
       "dependencies": [
         "python3~3.14",
@@ -120535,31 +120576,29 @@
         "so:libqrtr-glib.so.0"
       ],
       "provides": [
-        "cmd:ssc-server-tests=0.4.2-r1",
-        "cmd:ssc-server=0.4.2-r1",
-        "cmd:ssccli=0.4.2-r1",
-        "py3.14:qmi=0.4.2-r1",
-        "py3.14:ssc=0.4.2-r1",
+        "cmd:ssccli=0.4.3-r0",
         "so:libssc.so.2=2"
       ]
     },
     "libssc-dbg": {
       "origin": "libssc",
       "versions": {
-        "0.4.2-r1": 1774640379
+        "0.4.2-r1": 1774640379,
+        "0.4.3-r0": 1780390604
       },
       "dependencies": [
-        "!libssc<0.4.2-r1",
-        "!libssc>0.4.2-r1"
+        "!libssc<0.4.3-r0",
+        "!libssc>0.4.3-r0"
       ]
     },
     "libssc-dev": {
       "origin": "libssc",
       "versions": {
-        "0.4.2-r1": 1774640379
+        "0.4.2-r1": 1774640379,
+        "0.4.3-r0": 1780390604
       },
       "dependencies": [
-        "libssc=0.4.2-r1",
+        "libssc=0.4.3-r0",
         "pc:gio-2.0",
         "pc:glib-2.0",
         "pc:gobject-2.0",
@@ -120567,13 +120606,14 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:libssc=0.4.2"
+        "pc:libssc=0.4.3"
       ]
     },
     "libssc-pyc": {
       "origin": "libssc",
       "versions": {
-        "0.4.2-r1": 1774640379
+        "0.4.2-r1": 1774640379,
+        "0.4.3-r0": 1780390604
       },
       "dependencies": [
         "python3~3.14"
@@ -137479,7 +137519,8 @@
     "minipro": {
       "origin": "minipro",
       "versions": {
-        "0.7.4-r1": 1760529016
+        "0.7.4-r1": 1760529016,
+        "0.7.4-r2": 1780390403
       },
       "dependencies": [
         "libusb",
@@ -137488,26 +137529,29 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:dump-alg-minipro.bash=0.7.4-r1",
-        "cmd:minipro=0.7.4-r1"
+        "cmd:dump-alg-minipro.bash=0.7.4-r2",
+        "cmd:minipro=0.7.4-r2"
       ]
     },
     "minipro-bash-completion": {
       "origin": "minipro",
       "versions": {
-        "0.7.4-r1": 1760529016
+        "0.7.4-r1": 1760529016,
+        "0.7.4-r2": 1780390403
       }
     },
     "minipro-doc": {
       "origin": "minipro",
       "versions": {
-        "0.7.4-r1": 1760529016
+        "0.7.4-r1": 1760529016,
+        "0.7.4-r2": 1780390403
       }
     },
     "minipro-udev": {
       "origin": "minipro",
       "versions": {
-        "0.7.4-r1": 1760529016
+        "0.7.4-r1": 1760529016,
+        "0.7.4-r2": 1780390403
       },
       "dependencies": [
         "libusb"
@@ -143456,7 +143500,8 @@
       "origin": "netatalk",
       "versions": {
         "4.4.2-r0": 1776479195,
-        "4.4.3-r0": 1778786014
+        "4.4.3-r0": 1778786014,
+        "4.5.0-r0": 1780391122
       },
       "dependencies": [
         "so:libacl.so.1",
@@ -143467,55 +143512,59 @@
         "so:libgcrypt.so.20",
         "so:libiniparser.so.4",
         "so:libmariadb.so.3",
-        "so:libsqlite3.so.0"
+        "so:libsqlite3.so.0",
+        "so:libtalloc.so.2"
       ],
       "provides": [
-        "cmd:a2boot=4.4.3-r0",
-        "cmd:aecho=4.4.3-r0",
-        "cmd:afpd=4.4.3-r0",
-        "cmd:afppasswd=4.4.3-r0",
-        "cmd:atalkd=4.4.3-r0",
-        "cmd:cnid_dbd=4.4.3-r0",
-        "cmd:cnid_metad=4.4.3-r0",
-        "cmd:dbd=4.4.3-r0",
-        "cmd:fce_listen=4.4.3-r0",
-        "cmd:getzones=4.4.3-r0",
-        "cmd:macipgw=4.4.3-r0",
-        "cmd:nad=4.4.3-r0",
-        "cmd:nbplkup=4.4.3-r0",
-        "cmd:nbprgstr=4.4.3-r0",
-        "cmd:nbpunrgstr=4.4.3-r0",
-        "cmd:netatalk=4.4.3-r0",
-        "cmd:pap=4.4.3-r0",
-        "cmd:papd=4.4.3-r0",
-        "cmd:papstatus=4.4.3-r0",
-        "cmd:rtmpqry=4.4.3-r0",
-        "cmd:timelord=4.4.3-r0",
-        "so:libatalk.so.19=19.0.0"
+        "cmd:a2boot=4.5.0-r0",
+        "cmd:aecho=4.5.0-r0",
+        "cmd:afpd=4.5.0-r0",
+        "cmd:afppasswd=4.5.0-r0",
+        "cmd:atalkd=4.5.0-r0",
+        "cmd:cnid_dbd=4.5.0-r0",
+        "cmd:cnid_metad=4.5.0-r0",
+        "cmd:dbd=4.5.0-r0",
+        "cmd:fce_listen=4.5.0-r0",
+        "cmd:getzones=4.5.0-r0",
+        "cmd:macipgw=4.5.0-r0",
+        "cmd:nad=4.5.0-r0",
+        "cmd:nbplkup=4.5.0-r0",
+        "cmd:nbprgstr=4.5.0-r0",
+        "cmd:nbpunrgstr=4.5.0-r0",
+        "cmd:netatalk=4.5.0-r0",
+        "cmd:pap=4.5.0-r0",
+        "cmd:papd=4.5.0-r0",
+        "cmd:papstatus=4.5.0-r0",
+        "cmd:rtmpqry=4.5.0-r0",
+        "cmd:timelord=4.5.0-r0",
+        "so:libatalk.so.20=20.0.0"
       ]
     },
     "netatalk-dev": {
       "origin": "netatalk",
       "versions": {
         "4.4.2-r0": 1776479195,
-        "4.4.3-r0": 1778786014
+        "4.4.3-r0": 1778786014,
+        "4.5.0-r0": 1780391122
       },
       "dependencies": [
-        "netatalk=4.4.3-r0"
+        "netatalk=4.5.0-r0"
       ]
     },
     "netatalk-doc": {
       "origin": "netatalk",
       "versions": {
         "4.4.2-r0": 1776479195,
-        "4.4.3-r0": 1778786014
+        "4.4.3-r0": 1778786014,
+        "4.5.0-r0": 1780391122
       }
     },
     "netatalk-openrc": {
       "origin": "netatalk",
       "versions": {
         "4.4.2-r0": 1776479195,
-        "4.4.3-r0": 1778786014
+        "4.4.3-r0": 1778786014,
+        "4.5.0-r0": 1780391122
       }
     },
     "netavark": {
@@ -172258,13 +172307,14 @@
       "origin": "opentofu",
       "versions": {
         "1.11.5-r2": 1775839666,
-        "1.11.5-r3": 1778661427
+        "1.11.5-r3": 1778661427,
+        "1.12.1-r0": 1780391440
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:tofu=1.11.5-r3"
+        "cmd:tofu=1.12.1-r0"
       ]
     },
     "opentracker": {
@@ -172635,7 +172685,8 @@
     "openxr": {
       "origin": "openxr",
       "versions": {
-        "1.1.58-r0": 1776513058
+        "1.1.58-r0": 1776513058,
+        "1.1.60-r0": 1780390650
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -172643,16 +172694,17 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libopenxr_loader.so.1=1.1.58"
+        "so:libopenxr_loader.so.1=1.1.60"
       ]
     },
     "openxr-dev": {
       "origin": "openxr",
       "versions": {
-        "1.1.58-r0": 1776513058
+        "1.1.58-r0": 1776513058,
+        "1.1.60-r0": 1780390650
       },
       "dependencies": [
-        "openxr=1.1.58-r0",
+        "openxr=1.1.60-r0",
         "pkgconfig"
       ],
       "provides": [
@@ -172662,7 +172714,8 @@
     "openxr-doc": {
       "origin": "openxr",
       "versions": {
-        "1.1.58-r0": 1776513058
+        "1.1.58-r0": 1776513058,
+        "1.1.60-r0": 1780390650
       }
     },
     "openzwave": {
@@ -178740,7 +178793,8 @@
     "perl-datetime-format-natural": {
       "origin": "perl-datetime-format-natural",
       "versions": {
-        "1.25-r0": 1774382294
+        "1.25-r0": 1774382294,
+        "1.26-r0": 1780391220
       },
       "dependencies": [
         "perl",
@@ -178753,13 +178807,14 @@
         "perl-module-util"
       ],
       "provides": [
-        "cmd:dateparse=1.25-r0"
+        "cmd:dateparse=1.26-r0"
       ]
     },
     "perl-datetime-format-natural-doc": {
       "origin": "perl-datetime-format-natural",
       "versions": {
-        "1.25-r0": 1774382294
+        "1.25-r0": 1774382294,
+        "1.26-r0": 1780391220
       }
     },
     "perl-datetime-format-pg": {
@@ -188587,7 +188642,8 @@
       "origin": "phosh",
       "versions": {
         "0.54.0-r0": 1775397068,
-        "0.55.0-r0": 1779021941
+        "0.55.0-r0": 1779021941,
+        "0.55.0-r1": 1780427209
       },
       "dependencies": [
         "phosh-schemas",
@@ -188650,7 +188706,7 @@
         "so:libwayland-client.so.0"
       ],
       "provides": [
-        "cmd:phosh-session=0.55.0-r0"
+        "cmd:phosh-session=0.55.0-r1"
       ]
     },
     "phosh-antispam": {
@@ -188676,20 +188732,22 @@
       "origin": "phosh",
       "versions": {
         "0.54.0-r0": 1775397068,
-        "0.55.0-r0": 1779021941
+        "0.55.0-r0": 1779021941,
+        "0.55.0-r1": 1780427209
       },
       "dependencies": [
-        "!libphosh<0.55.0-r0",
-        "!libphosh>0.55.0-r0",
-        "!phosh<0.55.0-r0",
-        "!phosh>0.55.0-r0"
+        "!libphosh<0.55.0-r1",
+        "!libphosh>0.55.0-r1",
+        "!phosh<0.55.0-r1",
+        "!phosh>0.55.0-r1"
       ]
     },
     "phosh-dev": {
       "origin": "phosh",
       "versions": {
         "0.54.0-r0": 1775397068,
-        "0.55.0-r0": 1779021941
+        "0.55.0-r0": 1779021941,
+        "0.55.0-r1": 1780427209
       },
       "dependencies": [
         "pc:gsettings-desktop-schemas>=47",
@@ -188704,14 +188762,16 @@
       "origin": "phosh",
       "versions": {
         "0.54.0-r0": 1775397068,
-        "0.55.0-r0": 1779021941
+        "0.55.0-r0": 1779021941,
+        "0.55.0-r1": 1780427209
       }
     },
     "phosh-lang": {
       "origin": "phosh",
       "versions": {
         "0.54.0-r0": 1775397068,
-        "0.55.0-r0": 1779021941
+        "0.55.0-r0": 1779021941,
+        "0.55.0-r1": 1780427209
       }
     },
     "phosh-mobile-settings": {
@@ -188813,7 +188873,8 @@
       "origin": "phosh",
       "versions": {
         "0.54.0-r0": 1775397068,
-        "0.55.0-r0": 1779021941
+        "0.55.0-r0": 1779021941,
+        "0.55.0-r1": 1780427209
       },
       "dependencies": [
         "phosh-schemas",
@@ -188837,14 +188898,16 @@
       "origin": "phosh",
       "versions": {
         "0.54.0-r0": 1775397068,
-        "0.55.0-r0": 1779021941
+        "0.55.0-r0": 1779021941,
+        "0.55.0-r1": 1780427209
       }
     },
     "phosh-systemd": {
       "origin": "phosh",
       "versions": {
         "0.54.0-r0": 1775397068,
-        "0.55.0-r0": 1779021941
+        "0.55.0-r0": 1779021941,
+        "0.55.0-r1": 1780427209
       }
     },
     "phosh-tour": {
@@ -195604,12 +195667,12 @@
       "origin": "plasma-desktop",
       "versions": {
         "6.6.4-r0": 1775573689,
-        "6.6.5-r0": 1778857556
+        "6.6.5-r0": 1778857556,
+        "6.6.5-r1": 1780428291
       },
       "dependencies": [
         "accountsservice",
         "font-noto-emoji",
-        "ibus-emoji",
         "kirigami",
         "kirigami-addons",
         "plasma-workspace",
@@ -195695,13 +195758,13 @@
         "so:libxkbregistry.so.0"
       ],
       "provides": [
-        "cmd:kaccess=6.6.5-r0",
-        "cmd:kapplymousetheme=6.6.5-r0",
-        "cmd:kcm-touchpad-list-devices=6.6.5-r0",
-        "cmd:krunner-plugininstaller=6.6.5-r0",
-        "cmd:plasma-emojier=6.6.5-r0",
-        "cmd:solid-action-desktop-gen=6.6.5-r0",
-        "cmd:tastenbrett=6.6.5-r0",
+        "cmd:kaccess=6.6.5-r1",
+        "cmd:kapplymousetheme=6.6.5-r1",
+        "cmd:kcm-touchpad-list-devices=6.6.5-r1",
+        "cmd:krunner-plugininstaller=6.6.5-r1",
+        "cmd:plasma-emojier=6.6.5-r1",
+        "cmd:solid-action-desktop-gen=6.6.5-r1",
+        "cmd:tastenbrett=6.6.5-r1",
         "so:libkglobalaccelmodel.so.6=6.6.5"
       ]
     },
@@ -195709,27 +195772,30 @@
       "origin": "plasma-desktop",
       "versions": {
         "6.6.4-r0": 1775573689,
-        "6.6.5-r0": 1778857556
+        "6.6.5-r0": 1778857556,
+        "6.6.5-r1": 1780428291
       },
       "dependencies": [
-        "!knetattach<6.6.5-r0",
-        "!knetattach>6.6.5-r0",
-        "!plasma-desktop<6.6.5-r0",
-        "!plasma-desktop>6.6.5-r0"
+        "!knetattach<6.6.5-r1",
+        "!knetattach>6.6.5-r1",
+        "!plasma-desktop<6.6.5-r1",
+        "!plasma-desktop>6.6.5-r1"
       ]
     },
     "plasma-desktop-doc": {
       "origin": "plasma-desktop",
       "versions": {
         "6.6.4-r0": 1775573689,
-        "6.6.5-r0": 1778857556
+        "6.6.5-r0": 1778857556,
+        "6.6.5-r1": 1780428291
       }
     },
     "plasma-desktop-lang": {
       "origin": "plasma-desktop",
       "versions": {
         "6.6.4-r0": 1775573689,
-        "6.6.5-r0": 1778857556
+        "6.6.5-r0": 1778857556,
+        "6.6.5-r1": 1780428291
       }
     },
     "plasma-desktop-meta": {
@@ -195797,7 +195863,8 @@
       "origin": "plasma-desktop",
       "versions": {
         "6.6.4-r0": 1775573689,
-        "6.6.5-r0": 1778857556
+        "6.6.5-r0": 1778857556,
+        "6.6.5-r1": 1780428291
       }
     },
     "plasma-dialer": {
@@ -197789,14 +197856,15 @@
         "10.33.0-r0": 1775053831,
         "11.2.2-r0": 1779657979,
         "11.3.0-r0": 1779797604,
-        "11.4.0-r0": 1780012740
+        "11.4.0-r0": 1780012740,
+        "11.5.0-r0": 1780390952
       },
       "dependencies": [
         "nodejs"
       ],
       "provides": [
-        "cmd:pnpm=11.4.0-r0",
-        "cmd:pnpx=11.4.0-r0"
+        "cmd:pnpm=11.5.0-r0",
+        "cmd:pnpx=11.5.0-r0"
       ]
     },
     "pnpm-bash-completion": {
@@ -197805,7 +197873,8 @@
         "10.33.0-r0": 1775053831,
         "11.2.2-r0": 1779657979,
         "11.3.0-r0": 1779797604,
-        "11.4.0-r0": 1780012740
+        "11.4.0-r0": 1780012740,
+        "11.5.0-r0": 1780390952
       }
     },
     "pnpm-doc": {
@@ -197814,7 +197883,8 @@
         "10.33.0-r0": 1775053831,
         "11.2.2-r0": 1779657979,
         "11.3.0-r0": 1779797604,
-        "11.4.0-r0": 1780012740
+        "11.4.0-r0": 1780012740,
+        "11.5.0-r0": 1780390952
       }
     },
     "pnpm-fish-completion": {
@@ -197823,7 +197893,8 @@
         "10.33.0-r0": 1775053831,
         "11.2.2-r0": 1779657979,
         "11.3.0-r0": 1779797604,
-        "11.4.0-r0": 1780012740
+        "11.4.0-r0": 1780012740,
+        "11.5.0-r0": 1780390952
       }
     },
     "pnpm-zsh-completion": {
@@ -197832,7 +197903,8 @@
         "10.33.0-r0": 1775053831,
         "11.2.2-r0": 1779657979,
         "11.3.0-r0": 1779797604,
-        "11.4.0-r0": 1780012740
+        "11.4.0-r0": 1780012740,
+        "11.5.0-r0": 1780390952
       }
     },
     "poco": {
@@ -236117,14 +236189,15 @@
         "0.11.14-r0": 1778985878,
         "0.11.15-r0": 1779188376,
         "0.11.16-r0": 1779494324,
-        "0.11.17-r0": 1780349211
+        "0.11.17-r0": 1780349211,
+        "0.11.18-r0": 1780407312
       },
       "dependencies": [
-        "uv=0.11.17-r0",
+        "uv=0.11.18-r0",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:uv=0.11.17-r0"
+        "py3.14:uv=0.11.18-r0"
       ]
     },
     "py3-uv-build": {
@@ -236134,7 +236207,8 @@
         "0.11.12-r0": 1778543718,
         "0.11.14-r0": 1779065623,
         "0.11.16-r0": 1779797632,
-        "0.11.17-r0": 1780129695
+        "0.11.17-r0": 1780129695,
+        "0.11.18-r0": 1780407312
       },
       "dependencies": [
         "python3",
@@ -236143,8 +236217,8 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:uv-build=0.11.17-r0",
-        "py3.14:uv_build=0.11.17-r0"
+        "cmd:uv-build=0.11.18-r0",
+        "py3.14:uv_build=0.11.18-r0"
       ]
     },
     "py3-uv-build-pyc": {
@@ -236154,7 +236228,8 @@
         "0.11.12-r0": 1778543718,
         "0.11.14-r0": 1779065623,
         "0.11.16-r0": 1779797632,
-        "0.11.17-r0": 1780129695
+        "0.11.17-r0": 1780129695,
+        "0.11.18-r0": 1780407312
       },
       "dependencies": [
         "python3~3.14"
@@ -236167,7 +236242,8 @@
         "0.11.14-r0": 1778985878,
         "0.11.15-r0": 1779188376,
         "0.11.16-r0": 1779494324,
-        "0.11.17-r0": 1780349211
+        "0.11.17-r0": 1780349211,
+        "0.11.18-r0": 1780407312
       },
       "dependencies": [
         "python3~3.14"
@@ -238535,7 +238611,8 @@
     "qalc": {
       "origin": "libqalculate",
       "versions": {
-        "5.8.2-r1": 1768294071
+        "5.8.2-r1": 1768294071,
+        "5.11.0-r0": 1780391174
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -238546,19 +238623,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:qalc=5.8.2-r1"
+        "cmd:qalc=5.11.0-r0"
       ]
     },
     "qalc-doc": {
       "origin": "libqalculate",
       "versions": {
-        "5.8.2-r1": 1768294071
+        "5.8.2-r1": 1768294071,
+        "5.11.0-r0": 1780391174
       }
     },
     "qalculate-gtk": {
       "origin": "qalculate-gtk",
       "versions": {
-        "5.8.2-r0": 1763570571
+        "5.8.2-r0": 1763570571,
+        "5.11.0-r0": 1780391174
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -238578,25 +238657,28 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:qalculate-gtk=5.8.2-r0"
+        "cmd:qalculate-gtk=5.11.0-r0"
       ]
     },
     "qalculate-gtk-doc": {
       "origin": "qalculate-gtk",
       "versions": {
-        "5.8.2-r0": 1763570571
+        "5.8.2-r0": 1763570571,
+        "5.11.0-r0": 1780391174
       }
     },
     "qalculate-gtk-lang": {
       "origin": "qalculate-gtk",
       "versions": {
-        "5.8.2-r0": 1763570571
+        "5.8.2-r0": 1763570571,
+        "5.11.0-r0": 1780391174
       }
     },
     "qalculate-qt": {
       "origin": "qalculate-qt",
       "versions": {
-        "5.8.2-r0": 1763570571
+        "5.8.2-r0": 1763570571,
+        "5.11.0-r0": 1780391174
       },
       "dependencies": [
         "gnuplot",
@@ -238610,35 +238692,38 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:qalculate-qt=5.8.2-r0"
+        "cmd:qalculate-qt=5.11.0-r0"
       ]
     },
     "qalculate-qt-doc": {
       "origin": "qalculate-qt",
       "versions": {
-        "5.8.2-r0": 1763570571
+        "5.8.2-r0": 1763570571,
+        "5.11.0-r0": 1780391174
       }
     },
     "qbe": {
       "origin": "qbe",
       "versions": {
-        "1.2-r3": 1732710086
+        "1.2-r3": 1732710086,
+        "1.3-r0": 1780425805
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:qbe=1.2-r3"
+        "cmd:qbe=1.3-r0"
       ]
     },
     "qbe-dbg": {
       "origin": "qbe",
       "versions": {
-        "1.2-r3": 1732710086
+        "1.2-r3": 1732710086,
+        "1.3-r0": 1780425805
       },
       "dependencies": [
-        "!qbe<1.2-r3",
-        "!qbe>1.2-r3"
+        "!qbe<1.3-r0",
+        "!qbe>1.3-r0"
       ]
     },
     "qbittorrent": {
@@ -254286,7 +254371,8 @@
     "scribus": {
       "origin": "scribus",
       "versions": {
-        "1.6.6-r0": 1776162622
+        "1.6.6-r0": 1776162622,
+        "1.6.6-r1": 1780392336
       },
       "dependencies": [
         "so:libQt5Core.so.5",
@@ -254328,19 +254414,21 @@
         "so:libzmf-0.0.so.0"
       ],
       "provides": [
-        "cmd:scribus=1.6.6-r0"
+        "cmd:scribus=1.6.6-r1"
       ]
     },
     "scribus-doc": {
       "origin": "scribus",
       "versions": {
-        "1.6.6-r0": 1776162622
+        "1.6.6-r0": 1776162622,
+        "1.6.6-r1": 1780392336
       }
     },
     "scribus-lang": {
       "origin": "scribus",
       "versions": {
-        "1.6.6-r0": 1776162622
+        "1.6.6-r0": 1776162622,
+        "1.6.6-r1": 1780392336
       }
     },
     "scrot": {
@@ -254678,7 +254766,8 @@
       "origin": "plasma-desktop",
       "versions": {
         "6.6.4-r0": 1775573689,
-        "6.6.5-r0": 1778857556
+        "6.6.5-r0": 1778857556,
+        "6.6.5-r1": 1780428291
       },
       "dependencies": [
         "breeze",
@@ -275685,7 +275774,8 @@
         "0.11.14-r0": 1778985878,
         "0.11.15-r0": 1779188376,
         "0.11.16-r0": 1779494324,
-        "0.11.17-r0": 1780349211
+        "0.11.17-r0": 1780349211,
+        "0.11.18-r0": 1780407312
       },
       "dependencies": [
         "so:libbz2.so.1",
@@ -275693,8 +275783,8 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:uv=0.11.17-r0",
-        "cmd:uvx=0.11.17-r0"
+        "cmd:uv=0.11.18-r0",
+        "cmd:uvx=0.11.18-r0"
       ]
     },
     "uv-bash-completion": {
@@ -275704,7 +275794,8 @@
         "0.11.14-r0": 1778985878,
         "0.11.15-r0": 1779188376,
         "0.11.16-r0": 1779494324,
-        "0.11.17-r0": 1780349211
+        "0.11.17-r0": 1780349211,
+        "0.11.18-r0": 1780407312
       }
     },
     "uv-fish-completion": {
@@ -275714,7 +275805,8 @@
         "0.11.14-r0": 1778985878,
         "0.11.15-r0": 1779188376,
         "0.11.16-r0": 1779494324,
-        "0.11.17-r0": 1780349211
+        "0.11.17-r0": 1780349211,
+        "0.11.18-r0": 1780407312
       }
     },
     "uv-zsh-completion": {
@@ -275724,7 +275816,8 @@
         "0.11.14-r0": 1778985878,
         "0.11.15-r0": 1779188376,
         "0.11.16-r0": 1779494324,
-        "0.11.17-r0": 1780349211
+        "0.11.17-r0": 1780349211,
+        "0.11.18-r0": 1780407312
       }
     },
     "uvicorn": {
@@ -284399,14 +284492,15 @@
     "xcaddy": {
       "origin": "xcaddy",
       "versions": {
-        "0.4.5-r0": 1755884322
+        "0.4.5-r0": 1755884322,
+        "0.4.6-r0": 1780391463
       },
       "dependencies": [
         "go",
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:xcaddy=0.4.5-r0"
+        "cmd:xcaddy=0.4.6-r0"
       ]
     },
     "xcalc": {
@@ -285486,37 +285580,40 @@
       "origin": "xe-guest-utilities",
       "versions": {
         "8.4.0-r14": 1775839666,
-        "8.4.0-r15": 1778661427
+        "8.4.0-r15": 1778661427,
+        "8.4.0-r16": 1780390441
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:xe-daemon=8.4.0-r15",
-        "cmd:xe-linux-distribution=8.4.0-r15",
-        "cmd:xenstore-chmod=8.4.0-r15",
-        "cmd:xenstore-exists=8.4.0-r15",
-        "cmd:xenstore-list=8.4.0-r15",
-        "cmd:xenstore-ls=8.4.0-r15",
-        "cmd:xenstore-read=8.4.0-r15",
-        "cmd:xenstore-rm=8.4.0-r15",
-        "cmd:xenstore-watch=8.4.0-r15",
-        "cmd:xenstore-write=8.4.0-r15",
-        "cmd:xenstore=8.4.0-r15"
+        "cmd:xe-daemon=8.4.0-r16",
+        "cmd:xe-linux-distribution=8.4.0-r16",
+        "cmd:xenstore-chmod=8.4.0-r16",
+        "cmd:xenstore-exists=8.4.0-r16",
+        "cmd:xenstore-list=8.4.0-r16",
+        "cmd:xenstore-ls=8.4.0-r16",
+        "cmd:xenstore-read=8.4.0-r16",
+        "cmd:xenstore-rm=8.4.0-r16",
+        "cmd:xenstore-watch=8.4.0-r16",
+        "cmd:xenstore-write=8.4.0-r16",
+        "cmd:xenstore=8.4.0-r16"
       ]
     },
     "xe-guest-utilities-openrc": {
       "origin": "xe-guest-utilities",
       "versions": {
         "8.4.0-r14": 1775839666,
-        "8.4.0-r15": 1778661427
+        "8.4.0-r15": 1778661427,
+        "8.4.0-r16": 1780390441
       }
     },
     "xe-guest-utilities-udev": {
       "origin": "xe-guest-utilities",
       "versions": {
         "8.4.0-r14": 1775839666,
-        "8.4.0-r15": 1778661427
+        "8.4.0-r15": 1778661427,
+        "8.4.0-r16": 1780390441
       }
     },
     "xerces-c": {
@@ -288648,7 +288745,8 @@
     "xorg-server": {
       "origin": "xorg-server",
       "versions": {
-        "21.1.22-r0": 1776232461
+        "21.1.22-r0": 1776232461,
+        "21.1.23-r0": 1780397926
       },
       "dependencies": [
         "font-cursor-misc",
@@ -288673,38 +288771,41 @@
         "so:libxshmfence.so.1"
       ],
       "provides": [
-        "xf86-video-modesetting=21.1.22-r0",
-        "cmd:X=21.1.22-r0",
-        "cmd:Xorg=21.1.22-r0",
-        "cmd:gtf=21.1.22-r0"
+        "xf86-video-modesetting=21.1.23-r0",
+        "cmd:X=21.1.23-r0",
+        "cmd:Xorg=21.1.23-r0",
+        "cmd:gtf=21.1.23-r0"
       ]
     },
     "xorg-server-common": {
       "origin": "xorg-server",
       "versions": {
-        "21.1.22-r0": 1776232461
+        "21.1.22-r0": 1776232461,
+        "21.1.23-r0": 1780397926
       }
     },
     "xorg-server-dbg": {
       "origin": "xorg-server",
       "versions": {
-        "21.1.22-r0": 1776232461
+        "21.1.22-r0": 1776232461,
+        "21.1.23-r0": 1780397926
       },
       "dependencies": [
-        "!xorg-server-xephyr<21.1.22-r0",
-        "!xorg-server-xephyr>21.1.22-r0",
-        "!xorg-server-xnest<21.1.22-r0",
-        "!xorg-server-xnest>21.1.22-r0",
-        "!xorg-server<21.1.22-r0",
-        "!xorg-server>21.1.22-r0",
-        "!xvfb<21.1.22-r0",
-        "!xvfb>21.1.22-r0"
+        "!xorg-server-xephyr<21.1.23-r0",
+        "!xorg-server-xephyr>21.1.23-r0",
+        "!xorg-server-xnest<21.1.23-r0",
+        "!xorg-server-xnest>21.1.23-r0",
+        "!xorg-server<21.1.23-r0",
+        "!xorg-server>21.1.23-r0",
+        "!xvfb<21.1.23-r0",
+        "!xvfb>21.1.23-r0"
       ]
     },
     "xorg-server-dev": {
       "origin": "xorg-server",
       "versions": {
-        "21.1.22-r0": 1776232461
+        "21.1.22-r0": 1776232461,
+        "21.1.23-r0": 1780397926
       },
       "dependencies": [
         "libepoxy-dev",
@@ -288715,19 +288816,21 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:xorg-server=21.1.22"
+        "pc:xorg-server=21.1.23"
       ]
     },
     "xorg-server-doc": {
       "origin": "xorg-server",
       "versions": {
-        "21.1.22-r0": 1776232461
+        "21.1.22-r0": 1776232461,
+        "21.1.23-r0": 1780397926
       }
     },
     "xorg-server-xephyr": {
       "origin": "xorg-server",
       "versions": {
-        "21.1.22-r0": 1776232461
+        "21.1.22-r0": 1776232461,
+        "21.1.23-r0": 1780397926
       },
       "dependencies": [
         "font-cursor-misc",
@@ -288762,13 +288865,14 @@
         "so:libxshmfence.so.1"
       ],
       "provides": [
-        "cmd:Xephyr=21.1.22-r0"
+        "cmd:Xephyr=21.1.23-r0"
       ]
     },
     "xorg-server-xnest": {
       "origin": "xorg-server",
       "versions": {
-        "21.1.22-r0": 1776232461
+        "21.1.22-r0": 1776232461,
+        "21.1.23-r0": 1780397926
       },
       "dependencies": [
         "font-cursor-misc",
@@ -288787,7 +288891,7 @@
         "so:libpixman-1.so.0"
       ],
       "provides": [
-        "cmd:Xnest=21.1.22-r0"
+        "cmd:Xnest=21.1.23-r0"
       ]
     },
     "xorgxrdp": {
@@ -289632,7 +289736,8 @@
     "xvfb": {
       "origin": "xorg-server",
       "versions": {
-        "21.1.22-r0": 1776232461
+        "21.1.22-r0": 1776232461,
+        "21.1.23-r0": 1780397926
       },
       "dependencies": [
         "font-cursor-misc",
@@ -289650,7 +289755,7 @@
         "so:libpixman-1.so.0"
       ],
       "provides": [
-        "cmd:Xvfb=21.1.22-r0"
+        "cmd:Xvfb=21.1.23-r0"
       ]
     },
     "xvfb-run": {
@@ -289784,7 +289889,8 @@
     "xwayland": {
       "origin": "xwayland",
       "versions": {
-        "24.1.11-r0": 1777295510
+        "24.1.11-r0": 1777295510,
+        "24.1.12-r0": 1780410129
       },
       "dependencies": [
         "xorg-server-common",
@@ -289804,23 +289910,25 @@
         "so:libxshmfence.so.1"
       ],
       "provides": [
-        "cmd:Xwayland=24.1.11-r0"
+        "cmd:Xwayland=24.1.12-r0"
       ]
     },
     "xwayland-dbg": {
       "origin": "xwayland",
       "versions": {
-        "24.1.11-r0": 1777295510
+        "24.1.11-r0": 1777295510,
+        "24.1.12-r0": 1780410129
       },
       "dependencies": [
-        "!xwayland<24.1.11-r0",
-        "!xwayland>24.1.11-r0"
+        "!xwayland<24.1.12-r0",
+        "!xwayland>24.1.12-r0"
       ]
     },
     "xwayland-dev": {
       "origin": "xwayland",
       "versions": {
-        "24.1.11-r0": 1777295510
+        "24.1.11-r0": 1777295510,
+        "24.1.12-r0": 1780410129
       },
       "dependencies": [
         "dbus-dev",
@@ -289841,13 +289949,14 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:xwayland=24.1.11"
+        "pc:xwayland=24.1.12"
       ]
     },
     "xwayland-doc": {
       "origin": "xwayland",
       "versions": {
-        "24.1.11-r0": 1777295510
+        "24.1.11-r0": 1777295510,
+        "24.1.12-r0": 1780410129
       }
     },
     "xwayland-run": {
@@ -290340,7 +290449,8 @@
       "origin": "yara",
       "versions": {
         "4.5.5-r1": 1771160091,
-        "4.5.6-r0": 1778638702
+        "4.5.6-r0": 1778638702,
+        "4.5.7-r0": 1780389506
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -290348,8 +290458,8 @@
         "so:libmagic.so.1"
       ],
       "provides": [
-        "cmd:yara=4.5.6-r0",
-        "cmd:yarac=4.5.6-r0",
+        "cmd:yara=4.5.7-r0",
+        "cmd:yarac=4.5.7-r0",
         "so:libyara.so.10=10.0.0"
       ]
     },
@@ -290357,22 +290467,24 @@
       "origin": "yara",
       "versions": {
         "4.5.5-r1": 1771160091,
-        "4.5.6-r0": 1778638702
+        "4.5.6-r0": 1778638702,
+        "4.5.7-r0": 1780389506
       },
       "dependencies": [
-        "yara=4.5.6-r0",
+        "yara=4.5.7-r0",
         "pc:libcrypto",
         "pkgconfig"
       ],
       "provides": [
-        "pc:yara=4.5.6"
+        "pc:yara=4.5.7"
       ]
     },
     "yara-doc": {
       "origin": "yara",
       "versions": {
         "4.5.5-r1": 1771160091,
-        "4.5.6-r0": 1778638702
+        "4.5.6-r0": 1778638702,
+        "4.5.7-r0": 1780389506
       }
     },
     "yarn": {
@@ -294379,7 +294491,8 @@
     "firefox": {
       "origin": "firefox",
       "versions": {
-        "151.0.2-r0": 1780353435
+        "151.0.2-r0": 1780353435,
+        "151.0.3-r0": 1780392997
       },
       "dependencies": [
         "ffmpeg-libavcodec",
@@ -294432,7 +294545,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:firefox=151.0.2-r0",
+        "cmd:firefox=151.0.3-r0",
         "so:firefox:libgkcodecs.so=0",
         "so:firefox:liblgpllibs.so=0",
         "so:firefox:libmozavcodec.so=0",
@@ -294448,7 +294561,8 @@
     "firefox-intl": {
       "origin": "firefox",
       "versions": {
-        "151.0.2-r0": 1780353435
+        "151.0.2-r0": 1780353435,
+        "151.0.3-r0": 1780392997
       },
       "dependencies": [
         "icu-data-full"
@@ -303911,7 +304025,7 @@
       },
       "libhyprlang.so.2": {
         "package": "hyprlang",
-        "version": "0.6.7"
+        "version": "0.6.8"
       },
       "libhyprutils.so.10": {
         "package": "hyprutils",
@@ -307291,7 +307405,7 @@
       },
       "libqalculate.so.23": {
         "package": "libqalculate",
-        "version": "23.3.9"
+        "version": "23.3.12"
       },
       "libqb.so.100": {
         "package": "libqb",
@@ -311199,7 +311313,7 @@
       },
       "libopenxr_loader.so.1": {
         "package": "openxr",
-        "version": "1.1.58"
+        "version": "1.1.60"
       },
       "libopenzwave.so.1.6": {
         "package": "openzwave-libs",
@@ -316140,6 +316254,18 @@
       "firefox:libxul.so": {
         "package": "firefox",
         "version": "0"
+      },
+      "libaquamarine.so.11": {
+        "package": "aquamarine",
+        "version": "0.12.0"
+      },
+      "libhyprutils.so.12": {
+        "package": "hyprutils",
+        "version": "0.13.1"
+      },
+      "libatalk.so.20": {
+        "package": "netatalk",
+        "version": "20.0.0"
       }
     },
     "package": {
@@ -319517,7 +319643,7 @@
       },
       "xf86-video-modesetting": {
         "package": "xorg-server",
-        "version": "21.1.22-r0"
+        "version": "21.1.23-r0"
       },
       "yq": {
         "package": "yq-go",

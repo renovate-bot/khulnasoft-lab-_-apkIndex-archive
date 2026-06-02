@@ -63545,20 +63545,22 @@
     "gdu": {
       "origin": "gdu",
       "versions": {
-        "5.35.0-r1": 1778661427
+        "5.35.0-r1": 1778661427,
+        "5.36.1-r0": 1780429411
       },
       "dependencies": [
         "ncurses",
         "so:libc.musl-x86_64.so.1"
       ],
       "provides": [
-        "cmd:gdu=5.35.0-r1"
+        "cmd:gdu=5.36.1-r0"
       ]
     },
     "gdu-doc": {
       "origin": "gdu",
       "versions": {
-        "5.35.0-r1": 1778661427
+        "5.35.0-r1": 1778661427,
+        "5.36.1-r0": 1780429411
       }
     },
     "geany": {
@@ -107181,7 +107183,8 @@
     "knetattach": {
       "origin": "plasma-desktop",
       "versions": {
-        "6.6.5-r0": 1778857556
+        "6.6.5-r0": 1778857556,
+        "6.6.5-r1": 1780428291
       },
       "dependencies": [
         "so:libKF6Codecs.so.6",
@@ -107199,7 +107202,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:knetattach=6.6.5-r0"
+        "cmd:knetattach=6.6.5-r1"
       ]
     },
     "knetwalk": {
@@ -122914,7 +122917,8 @@
       "origin": "libinput",
       "versions": {
         "1.31.2-r0": 1778869674,
-        "1.31.2-r1": 1780410219
+        "1.31.2-r1": 1780410219,
+        "1.31.2-r2": 1780433086
       },
       "dependencies": [
         "/bin/sh",
@@ -122924,18 +122928,19 @@
         "so:libudev.so.1"
       ],
       "provides": [
-        "cmd:libinput=1.31.2-r1"
+        "cmd:libinput=1.31.2-r2"
       ]
     },
     "libinput-dev": {
       "origin": "libinput",
       "versions": {
         "1.31.2-r0": 1778869674,
-        "1.31.2-r1": 1780410219
+        "1.31.2-r1": 1780410219,
+        "1.31.2-r2": 1780433086
       },
       "dependencies": [
         "eudev-dev",
-        "libinput-libs=1.31.2-r1",
+        "libinput-libs=1.31.2-r2",
         "pc:libudev",
         "pkgconfig"
       ],
@@ -122947,14 +122952,16 @@
       "origin": "libinput",
       "versions": {
         "1.31.2-r0": 1778869674,
-        "1.31.2-r1": 1780410219
+        "1.31.2-r1": 1780410219,
+        "1.31.2-r2": 1780433086
       }
     },
     "libinput-libs": {
       "origin": "libinput",
       "versions": {
         "1.31.2-r0": 1778869674,
-        "1.31.2-r1": 1780410219
+        "1.31.2-r1": 1780410219,
+        "1.31.2-r2": 1780433086
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -122970,10 +122977,11 @@
       "origin": "libinput",
       "versions": {
         "1.31.2-r0": 1778869674,
-        "1.31.2-r1": 1780410219
+        "1.31.2-r1": 1780410219,
+        "1.31.2-r2": 1780433086
       },
       "dependencies": [
-        "libinput=1.31.2-r1",
+        "libinput=1.31.2-r2",
         "py3-libevdev",
         "py3-udev",
         "py3-yaml",
@@ -122988,7 +122996,8 @@
       "origin": "libinput",
       "versions": {
         "1.31.2-r0": 1778869674,
-        "1.31.2-r1": 1780410219
+        "1.31.2-r1": 1780410219,
+        "1.31.2-r2": 1780433086
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -123000,7 +123009,8 @@
       "origin": "libinput",
       "versions": {
         "1.31.2-r0": 1778869674,
-        "1.31.2-r1": 1780410219
+        "1.31.2-r1": 1780410219,
+        "1.31.2-r2": 1780433086
       }
     },
     "libinputsynth": {
@@ -128785,7 +128795,8 @@
     "libphosh": {
       "origin": "phosh",
       "versions": {
-        "0.55.0-r0": 1779021941
+        "0.55.0-r0": 1779021941,
+        "0.55.0-r1": 1780427209
       },
       "dependencies": [
         "so:libappstream.so.5",
@@ -128830,7 +128841,8 @@
     "libphosh-dev": {
       "origin": "phosh",
       "versions": {
-        "0.55.0-r0": 1779021941
+        "0.55.0-r0": 1779021941,
+        "0.55.0-r1": 1780427209
       },
       "dependencies": [
         "phosh-schemas",
@@ -128848,7 +128860,7 @@
         "phoc",
         "phosh-keyboard",
         "xwayland",
-        "libphosh=0.55.0-r0",
+        "libphosh=0.55.0-r1",
         "pc:appstream>=1.0.0",
         "pc:fribidi",
         "pc:gcr-3>=3.7.5",
@@ -205589,7 +205601,8 @@
     "phosh": {
       "origin": "phosh",
       "versions": {
-        "0.55.0-r0": 1779021941
+        "0.55.0-r0": 1779021941,
+        "0.55.0-r1": 1780427209
       },
       "dependencies": [
         "phosh-schemas",
@@ -205652,7 +205665,7 @@
         "so:libwayland-client.so.0"
       ],
       "provides": [
-        "cmd:phosh-session=0.55.0-r0"
+        "cmd:phosh-session=0.55.0-r1"
       ]
     },
     "phosh-antispam": {
@@ -205677,19 +205690,21 @@
     "phosh-dbg": {
       "origin": "phosh",
       "versions": {
-        "0.55.0-r0": 1779021941
+        "0.55.0-r0": 1779021941,
+        "0.55.0-r1": 1780427209
       },
       "dependencies": [
-        "!libphosh<0.55.0-r0",
-        "!libphosh>0.55.0-r0",
-        "!phosh<0.55.0-r0",
-        "!phosh>0.55.0-r0"
+        "!libphosh<0.55.0-r1",
+        "!libphosh>0.55.0-r1",
+        "!phosh<0.55.0-r1",
+        "!phosh>0.55.0-r1"
       ]
     },
     "phosh-dev": {
       "origin": "phosh",
       "versions": {
-        "0.55.0-r0": 1779021941
+        "0.55.0-r0": 1779021941,
+        "0.55.0-r1": 1780427209
       },
       "dependencies": [
         "pc:gsettings-desktop-schemas>=47",
@@ -205703,13 +205718,15 @@
     "phosh-doc": {
       "origin": "phosh",
       "versions": {
-        "0.55.0-r0": 1779021941
+        "0.55.0-r0": 1779021941,
+        "0.55.0-r1": 1780427209
       }
     },
     "phosh-lang": {
       "origin": "phosh",
       "versions": {
-        "0.55.0-r0": 1779021941
+        "0.55.0-r0": 1779021941,
+        "0.55.0-r1": 1780427209
       }
     },
     "phosh-mobile-settings": {
@@ -205805,7 +205822,8 @@
     "phosh-portalsconf": {
       "origin": "phosh",
       "versions": {
-        "0.55.0-r0": 1779021941
+        "0.55.0-r0": 1779021941,
+        "0.55.0-r1": 1780427209
       },
       "dependencies": [
         "phosh-schemas",
@@ -205828,13 +205846,15 @@
     "phosh-schemas": {
       "origin": "phosh",
       "versions": {
-        "0.55.0-r0": 1779021941
+        "0.55.0-r0": 1779021941,
+        "0.55.0-r1": 1780427209
       }
     },
     "phosh-systemd": {
       "origin": "phosh",
       "versions": {
-        "0.55.0-r0": 1779021941
+        "0.55.0-r0": 1779021941,
+        "0.55.0-r1": 1780427209
       }
     },
     "phosh-tour": {
@@ -212740,12 +212760,12 @@
     "plasma-desktop": {
       "origin": "plasma-desktop",
       "versions": {
-        "6.6.5-r0": 1778857556
+        "6.6.5-r0": 1778857556,
+        "6.6.5-r1": 1780428291
       },
       "dependencies": [
         "accountsservice",
         "font-noto-emoji",
-        "ibus-emoji",
         "kirigami",
         "kirigami-addons",
         "plasma-workspace",
@@ -212835,38 +212855,41 @@
         "so:libxkbregistry.so.0"
       ],
       "provides": [
-        "cmd:kaccess=6.6.5-r0",
-        "cmd:kapplymousetheme=6.6.5-r0",
-        "cmd:kcm-touchpad-list-devices=6.6.5-r0",
-        "cmd:krunner-plugininstaller=6.6.5-r0",
-        "cmd:plasma-emojier=6.6.5-r0",
-        "cmd:solid-action-desktop-gen=6.6.5-r0",
-        "cmd:tastenbrett=6.6.5-r0",
+        "cmd:kaccess=6.6.5-r1",
+        "cmd:kapplymousetheme=6.6.5-r1",
+        "cmd:kcm-touchpad-list-devices=6.6.5-r1",
+        "cmd:krunner-plugininstaller=6.6.5-r1",
+        "cmd:plasma-emojier=6.6.5-r1",
+        "cmd:solid-action-desktop-gen=6.6.5-r1",
+        "cmd:tastenbrett=6.6.5-r1",
         "so:libkglobalaccelmodel.so.6=6.6.5"
       ]
     },
     "plasma-desktop-dbg": {
       "origin": "plasma-desktop",
       "versions": {
-        "6.6.5-r0": 1778857556
+        "6.6.5-r0": 1778857556,
+        "6.6.5-r1": 1780428291
       },
       "dependencies": [
-        "!knetattach<6.6.5-r0",
-        "!knetattach>6.6.5-r0",
-        "!plasma-desktop<6.6.5-r0",
-        "!plasma-desktop>6.6.5-r0"
+        "!knetattach<6.6.5-r1",
+        "!knetattach>6.6.5-r1",
+        "!plasma-desktop<6.6.5-r1",
+        "!plasma-desktop>6.6.5-r1"
       ]
     },
     "plasma-desktop-doc": {
       "origin": "plasma-desktop",
       "versions": {
-        "6.6.5-r0": 1778857556
+        "6.6.5-r0": 1778857556,
+        "6.6.5-r1": 1780428291
       }
     },
     "plasma-desktop-lang": {
       "origin": "plasma-desktop",
       "versions": {
-        "6.6.5-r0": 1778857556
+        "6.6.5-r0": 1778857556,
+        "6.6.5-r1": 1780428291
       }
     },
     "plasma-desktop-meta": {
@@ -212931,7 +212954,8 @@
     "plasma-desktop-systemd": {
       "origin": "plasma-desktop",
       "versions": {
-        "6.6.5-r0": 1778857556
+        "6.6.5-r0": 1778857556,
+        "6.6.5-r1": 1780428291
       }
     },
     "plasma-dialer": {
@@ -276577,7 +276601,8 @@
     "sddm-breeze": {
       "origin": "plasma-desktop",
       "versions": {
-        "6.6.5-r0": 1778857556
+        "6.6.5-r0": 1778857556,
+        "6.6.5-r1": 1780428291
       },
       "dependencies": [
         "breeze",
