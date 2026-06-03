@@ -17764,36 +17764,36 @@ t:1757401193
 c:266950a0925da2fbcebb4c8172fb0256ab86ffd8
 i:openrc beanstalkd=1.13-r1
 
-C:Q1QANrCkvaLLdTjDjNZ68VTXl8Sf8=
+C:Q1nInubwI8EhnWQfTq2ZfUC+ZEaGA=
 P:bear
-V:4.1.3-r0
+V:4.1.4-r0
 A:loongarch64
-S:1503956
-I:3111849
+S:1613780
+I:3308665
 T:Tool that generates a compilation database for clang tooling
 U:https://github.com/rizsotto/Bear
 L:GPL-3.0-or-later
 o:bear
 m:Robert Mongold <rtmongold@gmail.com>
-t:1780068351
-c:b0bd6794cf25bd22d74856c972af5dcd7ba9a806
+t:1780443465
+c:4ccdfe5567faa5ce3bedc29b5e4d75cfbc9ac485
 D:so:libc.musl-loongarch64.so.1 so:libgcc_s.so.1
-p:cmd:bear=4.1.3-r0 so:libexec.so=0
+p:cmd:bear=4.1.4-r0 so:libexec.so=0
 
-C:Q1jgiPZSOlgropjVAup37yWfgMrMI=
+C:Q1whftIVh0GTtEJDVCkUlHcm6Y0OA=
 P:bear-doc
-V:4.1.3-r0
+V:4.1.4-r0
 A:loongarch64
-S:21662
-I:43504
+S:21669
+I:43501
 T:Tool that generates a compilation database for clang tooling (documentation)
 U:https://github.com/rizsotto/Bear
 L:GPL-3.0-or-later
 o:bear
 m:Robert Mongold <rtmongold@gmail.com>
-t:1780068351
-c:b0bd6794cf25bd22d74856c972af5dcd7ba9a806
-i:docs bear=4.1.3-r0
+t:1780443465
+c:4ccdfe5567faa5ce3bedc29b5e4d75cfbc9ac485
+i:docs bear=4.1.4-r0
 
 C:Q1kIUCWFoIvTJftaMyfN1zuJp82LQ=
 P:beebzzr
@@ -168511,51 +168511,51 @@ c:c75698b8965f585b3f552a23e6d4a6915db00bac
 D:so:libc.musl-loongarch64.so.1 so:libgcc_s.so.1 so:libmarisa.so.0 so:libstdc++.so.6
 p:so:libopencc.so.1.3=1.3.1
 
-C:Q1oAto3XmeDuCBRFnxvw1f30lsLRg=
+C:Q1V5Z3lU/7UOVlssaVfGFK/im7sV8=
 P:opencl
-V:2025.07.23-r0
+V:2026.05.29-r0
 A:loongarch64
-S:67764
-I:220595
+S:69507
+I:284947
 T:OpenCL ICD Loader
 U:https://khronos.org/opencl
 L:Apache-2.0
 o:opencl
 m:Leon Marz <main@lmarz.org>
-t:1753377538
-c:180d37274601e94e69a5749232ff6f16c4880bcc
+t:1780443636
+c:57f5d0369f516ac095dfb0ef7f3c82ab11bab7dc
 D:so:libc.musl-loongarch64.so.1
-p:opencl-icd-loader=2025.07.23-r0 cmd:clinfo=2025.07.23-r0 so:libOpenCL.so.1=1.0.0
+p:opencl-icd-loader=2026.05.29-r0 cmd:clinfo=2026.05.29-r0 so:libOpenCL.so.1=1.0.0
 
-C:Q1AEx+XDG7mID8IJ9VRbAn1jGVW4U=
+C:Q1rNP9tSYXh4L1SmUgy4PQjTZsvIQ=
 P:opencl-dev
-V:2025.07.23-r0
+V:2026.05.29-r0
 A:loongarch64
-S:70632
-I:326849
+S:70630
+I:326805
 T:OpenCL ICD Loader (development files)
 U:https://khronos.org/opencl
 L:Apache-2.0
 o:opencl
 m:Leon Marz <main@lmarz.org>
-t:1753377538
-c:180d37274601e94e69a5749232ff6f16c4880bcc
-D:opencl-headers opencl=2025.07.23-r0 pkgconfig
+t:1780443636
+c:57f5d0369f516ac095dfb0ef7f3c82ab11bab7dc
+D:opencl-headers opencl=2026.05.29-r0 pkgconfig
 p:pc:OpenCL-CLHPP=3.0 pc:OpenCL-Headers=3.0 pc:OpenCL=3.0
 
-C:Q1eFWHEVKoruF+mjscubqQFbHD1MI=
+C:Q1kZvCNx2IPlyktPDDarmVabbr3kU=
 P:opencl-headers
-V:2025.07.23-r0
+V:2026.05.29-r0
 A:loongarch64
-S:119200
-I:865712
+S:121834
+I:885340
 T:OpenCL development headers
 U:https://khronos.org/opencl
 L:Apache-2.0
 o:opencl
 m:Leon Marz <main@lmarz.org>
-t:1753377538
-c:180d37274601e94e69a5749232ff6f16c4880bcc
+t:1780443636
+c:57f5d0369f516ac095dfb0ef7f3c82ab11bab7dc
 
 C:Q1whVcY0iAzyMU1+XuFRjXBvnCM2k=
 P:opencl-icd-loader
@@ -168604,21 +168604,21 @@ t:1752863736
 c:afadf662e4d76c1a6394e2bb8395b7c1341eca80
 i:docs opencl-icd-loader=2.3.3-r0
 
-C:Q1XqXURYRsgkjMg7/YmQNSsEB56wA=
+C:Q1n1meIP9CuEXlYDYnHNKE4fD83Q8=
 P:opencl-layer-info
-V:2025.07.23-r0
+V:2026.05.29-r0
 A:loongarch64
-S:18978
-I:68440
+S:20629
+I:67248
 T:OpenCL Layer Info tool
 U:https://khronos.org/opencl
 L:Apache-2.0
 o:opencl
 m:Leon Marz <main@lmarz.org>
-t:1753377538
-c:180d37274601e94e69a5749232ff6f16c4880bcc
+t:1780443636
+c:57f5d0369f516ac095dfb0ef7f3c82ab11bab7dc
 D:so:libc.musl-loongarch64.so.1
-p:cmd:cllayerinfo=2025.07.23-r0
+p:cmd:cllayerinfo=2026.05.29-r0
 
 C:Q1lxhCKgW9XrqP9fprsl+lYmV+9ys=
 P:opencolorio
@@ -173999,6 +173999,37 @@ t:1768654950
 c:34ecdac2b99b3520c96e821645115a26dab45af6
 D:ostree=2025.7-r1 mkinitfs
 i:ostree=2025.7-r1 mkinitfs
+
+C:Q1ZmbUM4Anj8P9X02QJ8EFo/6Cxic=
+P:ostui
+V:1.1.1-r0
+A:loongarch64
+S:5099854
+I:13135704
+T:A terminal client for OpenSubsonic servers
+U:https://git.sr.ht/~ser/ostui
+L:GPL-3.0-or-later
+o:ostui
+m:Sean E. Russell <ser@ser1.net>
+t:1780443709
+c:c127fc8daa9f7ac961c80d74cd14c5c46d91eff9
+D:so:libc.musl-loongarch64.so.1 so:libmpv.so.2
+p:cmd:ostui=1.1.1-r0
+
+C:Q1zysWsjUkQrwM2Mb3w+4cIost8oM=
+P:ostui-doc
+V:1.1.1-r0
+A:loongarch64
+S:29485
+I:75602
+T:A terminal client for OpenSubsonic servers (documentation)
+U:https://git.sr.ht/~ser/ostui
+L:GPL-3.0-or-later
+o:ostui
+m:Sean E. Russell <ser@ser1.net>
+t:1780443709
+c:c127fc8daa9f7ac961c80d74cd14c5c46d91eff9
+i:docs ostui=1.1.1-r0
 
 C:Q1SqLaRFSSRpSR0wrxjQMf30Kul7s=
 P:osv-scanner

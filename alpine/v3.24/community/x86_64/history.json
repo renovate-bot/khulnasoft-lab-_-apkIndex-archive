@@ -1366,7 +1366,8 @@
     "adguardhome": {
       "origin": "adguardhome",
       "versions": {
-        "0.107.76-r0": 1779713642
+        "0.107.76-r0": 1779713642,
+        "0.107.77-r0": 1780443524
       },
       "dependencies": [
         "ca-certificates",
@@ -1374,13 +1375,14 @@
         "so:libc.musl-x86_64.so.1"
       ],
       "provides": [
-        "cmd:adguardhome=0.107.76-r0"
+        "cmd:adguardhome=0.107.77-r0"
       ]
     },
     "adguardhome-openrc": {
       "origin": "adguardhome",
       "versions": {
-        "0.107.76-r0": 1779713642
+        "0.107.76-r0": 1779713642,
+        "0.107.77-r0": 1780443524
       }
     },
     "adman": {
@@ -17115,14 +17117,15 @@
       "origin": "bear",
       "versions": {
         "4.0.4-r1": 1773224980,
-        "4.1.3-r0": 1780068351
+        "4.1.3-r0": 1780068351,
+        "4.1.4-r0": 1780443465
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:bear=4.1.3-r0",
+        "cmd:bear=4.1.4-r0",
         "so:libexec.so=0"
       ]
     },
@@ -17130,7 +17133,8 @@
       "origin": "bear",
       "versions": {
         "4.0.4-r1": 1773224980,
-        "4.1.3-r0": 1780068351
+        "4.1.3-r0": 1780068351,
+        "4.1.4-r0": 1780443465
       }
     },
     "beets": {
@@ -66741,7 +66745,8 @@
     "glaze": {
       "origin": "glaze",
       "versions": {
-        "4.4.3-r0": 1744021455
+        "4.4.3-r0": 1744021455,
+        "7.7.0-r0": 1780444061
       }
     },
     "gleam": {
@@ -87137,7 +87142,8 @@
       "origin": "halloy",
       "versions": {
         "2026.1.1-r1": 1771160091,
-        "2026.7-r0": 1780157673
+        "2026.7-r0": 1780157673,
+        "2026.7.1-r0": 1780443831
       },
       "dependencies": [
         "so:libasound.so.2",
@@ -87146,7 +87152,7 @@
         "so:libxcb.so.1"
       ],
       "provides": [
-        "cmd:halloy=2026.7-r0"
+        "cmd:halloy=2026.7.1-r0"
       ]
     },
     "hamlib": {
@@ -90183,13 +90189,14 @@
       "versions": {
         "0.52.2-r1": 1768845073,
         "0.52.2-r2": 1780064996,
-        "0.52.2-r3": 1780404364
+        "0.52.2-r3": 1780404364,
+        "0.54.3-r0": 1780444061
       },
       "dependencies": [
         "so:libEGL.so.1",
-        "so:libGL.so.1",
+        "so:libGLESv2.so.2",
         "so:libXcursor.so.1",
-        "so:libaquamarine.so.9",
+        "so:libaquamarine.so.11",
         "so:libc.musl-x86_64.so.1",
         "so:libcairo.so.2",
         "so:libdrm.so.2",
@@ -90200,8 +90207,10 @@
         "so:libhyprcursor.so.0",
         "so:libhyprgraphics.so.4",
         "so:libhyprlang.so.2",
-        "so:libhyprutils.so.10",
+        "so:libhyprutils.so.12",
+        "so:libhyprwire.so.3",
         "so:libinput.so.10",
+        "so:libmuparser.so.2",
         "so:libpango-1.0.so.0",
         "so:libpangocairo-1.0.so.0",
         "so:libpixman-1.so.0",
@@ -90220,9 +90229,10 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:Hyprland=0.52.2-r3",
-        "cmd:hyprctl=0.52.2-r3",
-        "cmd:hyprland=0.52.2-r3"
+        "cmd:Hyprland=0.54.3-r0",
+        "cmd:hyprctl=0.54.3-r0",
+        "cmd:hyprland=0.54.3-r0",
+        "cmd:start-hyprland=0.54.3-r0"
       ]
     },
     "hyprland-bash-completion": {
@@ -90230,7 +90240,8 @@
       "versions": {
         "0.52.2-r1": 1768845073,
         "0.52.2-r2": 1780064996,
-        "0.52.2-r3": 1780404364
+        "0.52.2-r3": 1780404364,
+        "0.54.3-r0": 1780444061
       }
     },
     "hyprland-dev": {
@@ -90238,13 +90249,32 @@
       "versions": {
         "0.52.2-r1": 1768845073,
         "0.52.2-r2": 1780064996,
-        "0.52.2-r3": 1780404364
+        "0.52.2-r3": 1780404364,
+        "0.54.3-r0": 1780444061
       },
       "dependencies": [
+        "pc:aquamarine>=0.9.3",
+        "pc:cairo",
+        "pc:egl",
+        "pc:hyprcursor>=0.1.7",
+        "pc:hyprgraphics>=0.1.6",
+        "pc:hyprlang>=0.6.7",
+        "pc:hyprutils>=0.11.0",
+        "pc:libdrm",
+        "pc:libinput>=1.28",
+        "pc:wayland-server>=1.22.91",
+        "pc:xcb",
+        "pc:xcb-composite",
+        "pc:xcb-errors",
+        "pc:xcb-icccm",
+        "pc:xcb-render",
+        "pc:xcb-res",
+        "pc:xcb-xfixes",
+        "pc:xkbcommon>=1.11.0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:hyprland=0.52.2"
+        "pc:hyprland=0.54.3"
       ]
     },
     "hyprland-doc": {
@@ -90252,7 +90282,8 @@
       "versions": {
         "0.52.2-r1": 1768845073,
         "0.52.2-r2": 1780064996,
-        "0.52.2-r3": 1780404364
+        "0.52.2-r3": 1780404364,
+        "0.54.3-r0": 1780444061
       }
     },
     "hyprland-fish-completion": {
@@ -90260,24 +90291,24 @@
       "versions": {
         "0.52.2-r1": 1768845073,
         "0.52.2-r2": 1780064996,
-        "0.52.2-r3": 1780404364
+        "0.52.2-r3": 1780404364,
+        "0.54.3-r0": 1780444061
       }
     },
     "hyprland-plugins": {
       "origin": "hyprland-plugins",
       "versions": {
         "0.52.0-r1": 1768845073,
-        "0.52.0-r2": 1780064996
+        "0.52.0-r2": 1780064996,
+        "0.54.0-r0": 1780444061
       },
       "dependencies": [
-        "hyprland~0.52",
+        "hyprland~0.54",
         "hyprland-plugins-borders-plus-plus",
         "hyprland-plugins-csgo-vulkan-fix",
         "hyprland-plugins-hyprbars",
         "hyprland-plugins-hyprexpo",
         "hyprland-plugins-hyprfocus",
-        "hyprland-plugins-hyprscrolling",
-        "hyprland-plugins-hyprtrails",
         "hyprland-plugins-hyprwinwrap",
         "hyprland-plugins-xtra-dispatchers"
       ]
@@ -90286,12 +90317,15 @@
       "origin": "hyprland-plugins",
       "versions": {
         "0.52.0-r1": 1768845073,
-        "0.52.0-r2": 1780064996
+        "0.52.0-r2": 1780064996,
+        "0.54.0-r0": 1780444061
       },
       "dependencies": [
-        "hyprland~0.52",
+        "hyprland~0.54",
         "so:libc.musl-x86_64.so.1",
         "so:libgcc_s.so.1",
+        "so:libhyprlang.so.2",
+        "so:libhyprutils.so.12",
         "so:libstdc++.so.6"
       ],
       "provides": [
@@ -90302,12 +90336,15 @@
       "origin": "hyprland-plugins",
       "versions": {
         "0.52.0-r1": 1768845073,
-        "0.52.0-r2": 1780064996
+        "0.52.0-r2": 1780064996,
+        "0.54.0-r0": 1780444061
       },
       "dependencies": [
-        "hyprland~0.52",
+        "hyprland~0.54",
         "so:libc.musl-x86_64.so.1",
         "so:libgcc_s.so.1",
+        "so:libhyprlang.so.2",
+        "so:libhyprutils.so.12",
         "so:libstdc++.so.6"
       ],
       "provides": [
@@ -90318,21 +90355,25 @@
       "origin": "hyprland-plugins",
       "versions": {
         "0.52.0-r1": 1768845073,
-        "0.52.0-r2": 1780064996
+        "0.52.0-r2": 1780064996,
+        "0.54.0-r0": 1780444061
       }
     },
     "hyprland-plugins-hyprbars": {
       "origin": "hyprland-plugins",
       "versions": {
         "0.52.0-r1": 1768845073,
-        "0.52.0-r2": 1780064996
+        "0.52.0-r2": 1780064996,
+        "0.54.0-r0": 1780444061
       },
       "dependencies": [
-        "hyprland~0.52",
+        "hyprland~0.54",
         "so:libc.musl-x86_64.so.1",
         "so:libcairo.so.2",
         "so:libgcc_s.so.1",
         "so:libgobject-2.0.so.0",
+        "so:libhyprlang.so.2",
+        "so:libhyprutils.so.12",
         "so:libpango-1.0.so.0",
         "so:libpangocairo-1.0.so.0",
         "so:libstdc++.so.6"
@@ -90345,12 +90386,16 @@
       "origin": "hyprland-plugins",
       "versions": {
         "0.52.0-r1": 1768845073,
-        "0.52.0-r2": 1780064996
+        "0.52.0-r2": 1780064996,
+        "0.54.0-r0": 1780444061
       },
       "dependencies": [
-        "hyprland~0.52",
+        "hyprland~0.54",
+        "so:libaquamarine.so.11",
         "so:libc.musl-x86_64.so.1",
         "so:libgcc_s.so.1",
+        "so:libhyprlang.so.2",
+        "so:libhyprutils.so.12",
         "so:libstdc++.so.6"
       ],
       "provides": [
@@ -90361,12 +90406,15 @@
       "origin": "hyprland-plugins",
       "versions": {
         "0.52.0-r1": 1768845073,
-        "0.52.0-r2": 1780064996
+        "0.52.0-r2": 1780064996,
+        "0.54.0-r0": 1780444061
       },
       "dependencies": [
-        "hyprland~0.52",
+        "hyprland~0.54",
         "so:libc.musl-x86_64.so.1",
         "so:libgcc_s.so.1",
+        "so:libhyprlang.so.2",
+        "so:libhyprutils.so.12",
         "so:libstdc++.so.6"
       ],
       "provides": [
@@ -90410,12 +90458,15 @@
       "origin": "hyprland-plugins",
       "versions": {
         "0.52.0-r1": 1768845073,
-        "0.52.0-r2": 1780064996
+        "0.52.0-r2": 1780064996,
+        "0.54.0-r0": 1780444061
       },
       "dependencies": [
-        "hyprland~0.52",
+        "hyprland~0.54",
         "so:libc.musl-x86_64.so.1",
         "so:libgcc_s.so.1",
+        "so:libhyprlang.so.2",
+        "so:libhyprutils.so.12",
         "so:libstdc++.so.6"
       ],
       "provides": [
@@ -90426,12 +90477,14 @@
       "origin": "hyprland-plugins",
       "versions": {
         "0.52.0-r1": 1768845073,
-        "0.52.0-r2": 1780064996
+        "0.52.0-r2": 1780064996,
+        "0.54.0-r0": 1780444061
       },
       "dependencies": [
-        "hyprland~0.52",
+        "hyprland~0.54",
         "so:libc.musl-x86_64.so.1",
         "so:libgcc_s.so.1",
+        "so:libhyprutils.so.12",
         "so:libstdc++.so.6"
       ],
       "provides": [
@@ -90483,7 +90536,8 @@
       "versions": {
         "0.52.2-r1": 1768845073,
         "0.52.2-r2": 1780064996,
-        "0.52.2-r3": 1780404364
+        "0.52.2-r3": 1780404364,
+        "0.54.3-r0": 1780444061
       }
     },
     "hyprland-zsh-completion": {
@@ -90491,7 +90545,8 @@
       "versions": {
         "0.52.2-r1": 1768845073,
         "0.52.2-r2": 1780064996,
-        "0.52.2-r3": 1780404364
+        "0.52.2-r3": 1780404364,
+        "0.54.3-r0": 1780444061
       }
     },
     "hyprlang": {
@@ -90602,7 +90657,8 @@
     "hyprwayland-scanner": {
       "origin": "hyprwayland-scanner",
       "versions": {
-        "0.4.5-r0": 1756143288
+        "0.4.5-r0": 1756143288,
+        "0.4.6-r0": 1780444061
       },
       "dependencies": [
         "pkgconfig",
@@ -90612,14 +90668,15 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:hyprwayland-scanner=0.4.5-r0",
-        "pc:hyprwayland-scanner=0.4.5"
+        "cmd:hyprwayland-scanner=0.4.6-r0",
+        "pc:hyprwayland-scanner=0.4.6"
       ]
     },
     "hyprwayland-scanner-doc": {
       "origin": "hyprwayland-scanner",
       "versions": {
-        "0.4.5-r0": 1756143288
+        "0.4.5-r0": 1756143288,
+        "0.4.6-r0": 1780444061
       }
     },
     "i2c-tools": {
@@ -185647,25 +185704,27 @@
     "opencl": {
       "origin": "opencl",
       "versions": {
-        "2025.07.23-r0": 1753377538
+        "2025.07.23-r0": 1753377538,
+        "2026.05.29-r0": 1780443636
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1"
       ],
       "provides": [
-        "opencl-icd-loader=2025.07.23-r0",
-        "cmd:clinfo=2025.07.23-r0",
+        "opencl-icd-loader=2026.05.29-r0",
+        "cmd:clinfo=2026.05.29-r0",
         "so:libOpenCL.so.1=1.0.0"
       ]
     },
     "opencl-dev": {
       "origin": "opencl",
       "versions": {
-        "2025.07.23-r0": 1753377538
+        "2025.07.23-r0": 1753377538,
+        "2026.05.29-r0": 1780443636
       },
       "dependencies": [
         "opencl-headers",
-        "opencl=2025.07.23-r0",
+        "opencl=2026.05.29-r0",
         "pkgconfig"
       ],
       "provides": [
@@ -185677,7 +185736,8 @@
     "opencl-headers": {
       "origin": "opencl",
       "versions": {
-        "2025.07.23-r0": 1753377538
+        "2025.07.23-r0": 1753377538,
+        "2026.05.29-r0": 1780443636
       }
     },
     "opencl-icd-loader": {
@@ -185715,13 +185775,14 @@
     "opencl-layer-info": {
       "origin": "opencl",
       "versions": {
-        "2025.07.23-r0": 1753377538
+        "2025.07.23-r0": 1753377538,
+        "2026.05.29-r0": 1780443636
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1"
       ],
       "provides": [
-        "cmd:cllayerinfo=2025.07.23-r0"
+        "cmd:cllayerinfo=2026.05.29-r0"
       ]
     },
     "opencolorio": {
@@ -318470,6 +318531,63 @@
       "versions": {
         "1.5-r5": 1780307244
       }
+    },
+    "hyprwire": {
+      "origin": "hyprwire",
+      "versions": {
+        "0.3.1-r0": 1780444061
+      },
+      "dependencies": [
+        "so:libc.musl-x86_64.so.1",
+        "so:libffi.so.8",
+        "so:libgcc_s.so.1",
+        "so:libhyprutils.so.12",
+        "so:libpugixml.so.1",
+        "so:libstdc++.so.6"
+      ],
+      "provides": [
+        "cmd:hyprwire-scanner=0.3.1-r0",
+        "so:libhyprwire.so.3=0.3.1"
+      ]
+    },
+    "hyprwire-dev": {
+      "origin": "hyprwire",
+      "versions": {
+        "0.3.1-r0": 1780444061
+      },
+      "dependencies": [
+        "hyprwire=0.3.1-r0",
+        "pkgconfig"
+      ],
+      "provides": [
+        "pc:hyprwire-scanner=0",
+        "pc:hyprwire=0.3.1"
+      ]
+    },
+    "hyprwire-doc": {
+      "origin": "hyprwire",
+      "versions": {
+        "0.3.1-r0": 1780444061
+      }
+    },
+    "ostui": {
+      "origin": "ostui",
+      "versions": {
+        "1.1.1-r0": 1780443709
+      },
+      "dependencies": [
+        "so:libc.musl-x86_64.so.1",
+        "so:libmpv.so.2"
+      ],
+      "provides": [
+        "cmd:ostui=1.1.1-r0"
+      ]
+    },
+    "ostui-doc": {
+      "origin": "ostui",
+      "versions": {
+        "1.1.1-r0": 1780443709
+      }
     }
   },
   "provide": {
@@ -344225,6 +344343,10 @@
       "libhyprutils.so.12": {
         "package": "hyprutils",
         "version": "0.13.1"
+      },
+      "libhyprwire.so.3": {
+        "package": "hyprwire",
+        "version": "0.3.1"
       }
     },
     "package": {
@@ -345938,7 +346060,7 @@
       },
       "opencl-icd-loader": {
         "package": "opencl",
-        "version": "2025.07.23-r0"
+        "version": "2026.05.29-r0"
       },
       "openjdk17-mandrel": {
         "package": "openjdk-mandrel",

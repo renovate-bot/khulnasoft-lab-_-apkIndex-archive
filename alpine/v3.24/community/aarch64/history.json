@@ -16978,14 +16978,15 @@
       "origin": "bear",
       "versions": {
         "4.0.4-r1": 1773224980,
-        "4.1.3-r0": 1780068351
+        "4.1.3-r0": 1780068351,
+        "4.1.4-r0": 1780443465
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:bear=4.1.3-r0",
+        "cmd:bear=4.1.4-r0",
         "so:libexec.so=0"
       ]
     },
@@ -16993,7 +16994,8 @@
       "origin": "bear",
       "versions": {
         "4.0.4-r1": 1773224980,
-        "4.1.3-r0": 1780068351
+        "4.1.3-r0": 1780068351,
+        "4.1.4-r0": 1780443465
       }
     },
     "beets": {
@@ -86697,7 +86699,8 @@
       "origin": "halloy",
       "versions": {
         "2026.1.1-r1": 1771160091,
-        "2026.7-r0": 1780157673
+        "2026.7-r0": 1780157673,
+        "2026.7.1-r0": 1780443831
       },
       "dependencies": [
         "so:libasound.so.2",
@@ -86706,7 +86709,7 @@
         "so:libxcb.so.1"
       ],
       "provides": [
-        "cmd:halloy=2026.7-r0"
+        "cmd:halloy=2026.7.1-r0"
       ]
     },
     "hamlib": {
@@ -184237,25 +184240,27 @@
     "opencl": {
       "origin": "opencl",
       "versions": {
-        "2025.07.23-r0": 1753377538
+        "2025.07.23-r0": 1753377538,
+        "2026.05.29-r0": 1780443636
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "opencl-icd-loader=2025.07.23-r0",
-        "cmd:clinfo=2025.07.23-r0",
+        "opencl-icd-loader=2026.05.29-r0",
+        "cmd:clinfo=2026.05.29-r0",
         "so:libOpenCL.so.1=1.0.0"
       ]
     },
     "opencl-dev": {
       "origin": "opencl",
       "versions": {
-        "2025.07.23-r0": 1753377538
+        "2025.07.23-r0": 1753377538,
+        "2026.05.29-r0": 1780443636
       },
       "dependencies": [
         "opencl-headers",
-        "opencl=2025.07.23-r0",
+        "opencl=2026.05.29-r0",
         "pkgconfig"
       ],
       "provides": [
@@ -184267,7 +184272,8 @@
     "opencl-headers": {
       "origin": "opencl",
       "versions": {
-        "2025.07.23-r0": 1753377538
+        "2025.07.23-r0": 1753377538,
+        "2026.05.29-r0": 1780443636
       }
     },
     "opencl-icd-loader": {
@@ -184305,13 +184311,14 @@
     "opencl-layer-info": {
       "origin": "opencl",
       "versions": {
-        "2025.07.23-r0": 1753377538
+        "2025.07.23-r0": 1753377538,
+        "2026.05.29-r0": 1780443636
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "cmd:cllayerinfo=2025.07.23-r0"
+        "cmd:cllayerinfo=2026.05.29-r0"
       ]
     },
     "opencolorio": {
@@ -316558,7 +316565,8 @@
     "adguardhome": {
       "origin": "adguardhome",
       "versions": {
-        "0.107.76-r0": 1779713642
+        "0.107.76-r0": 1779713642,
+        "0.107.77-r0": 1780443524
       },
       "dependencies": [
         "ca-certificates",
@@ -316566,13 +316574,14 @@
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "cmd:adguardhome=0.107.76-r0"
+        "cmd:adguardhome=0.107.77-r0"
       ]
     },
     "adguardhome-openrc": {
       "origin": "adguardhome",
       "versions": {
-        "0.107.76-r0": 1779713642
+        "0.107.76-r0": 1779713642,
+        "0.107.77-r0": 1780443524
       }
     },
     "pulumi-language-pcl": {
@@ -316998,6 +317007,25 @@
       "origin": "libftdi1",
       "versions": {
         "1.5-r5": 1780307244
+      }
+    },
+    "ostui": {
+      "origin": "ostui",
+      "versions": {
+        "1.1.1-r0": 1780443709
+      },
+      "dependencies": [
+        "so:libc.musl-aarch64.so.1",
+        "so:libmpv.so.2"
+      ],
+      "provides": [
+        "cmd:ostui=1.1.1-r0"
+      ]
+    },
+    "ostui-doc": {
+      "origin": "ostui",
+      "versions": {
+        "1.1.1-r0": 1780443709
       }
     }
   },
@@ -344211,7 +344239,7 @@
       },
       "opencl-icd-loader": {
         "package": "opencl",
-        "version": "2025.07.23-r0"
+        "version": "2026.05.29-r0"
       },
       "openjdk11-bootstrap": {
         "package": "openjdk11",

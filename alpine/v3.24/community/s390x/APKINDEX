@@ -1555,36 +1555,36 @@ t:1725023017
 c:4785da1733a5c429c2cd4f47214369b6e531f32c
 i:openrc addrwatch=1.0.2-r1
 
-C:Q1Y4pJ98UrfN49l8C88hOWBV/7kfk=
+C:Q1zvOLfkDxIs4RDHLx2SNZcpkmsN8=
 P:adguardhome
-V:0.107.76-r0
+V:0.107.77-r0
 A:s390x
-S:12161920
-I:37847688
+S:12168761
+I:37868392
 T:Network-wide ads & trackers blocking DNS server
 U:https://adguard.com/adguard-home.html
 L:GPL-3.0-only
 o:adguardhome
 m:Fabricio Silva <hi@fabricio.dev>
-t:1779713642
-c:2c7287604b232997acec822780e359cd4ca11452
+t:1780443524
+c:75feb14f54d10e627f9cdbce4c628d97b41646b8
 D:ca-certificates /bin/sh so:libc.musl-s390x.so.1
-p:cmd:adguardhome=0.107.76-r0
+p:cmd:adguardhome=0.107.77-r0
 
-C:Q1JLAbHZM9vlI14gpgCUXs00dYrTY=
+C:Q1w4RPVgmZwZXS0GXYFD10SLDeq2w=
 P:adguardhome-openrc
-V:0.107.76-r0
+V:0.107.77-r0
 A:s390x
-S:2244
+S:2246
 I:1253
 T:Network-wide ads & trackers blocking DNS server (OpenRC init scripts)
 U:https://adguard.com/adguard-home.html
 L:GPL-3.0-only
 o:adguardhome
 m:Fabricio Silva <hi@fabricio.dev>
-t:1779713642
-c:2c7287604b232997acec822780e359cd4ca11452
-i:openrc adguardhome=0.107.76-r0
+t:1780443524
+c:75feb14f54d10e627f9cdbce4c628d97b41646b8
+i:openrc adguardhome=0.107.77-r0
 
 C:Q1JnGHPRMkvhLyKeU9JBjMC2wvV+Q=
 P:adman
@@ -16498,36 +16498,36 @@ t:1757401193
 c:266950a0925da2fbcebb4c8172fb0256ab86ffd8
 i:openrc beanstalkd=1.13-r1
 
-C:Q1hvgHng2dPElGNQWJwLPyce9d51U=
+C:Q13POrGiq6fFA7vpTviXVSC7Bp1kk=
 P:bear
-V:4.1.3-r0
+V:4.1.4-r0
 A:s390x
-S:1587224
-I:3412721
+S:1606539
+I:3483113
 T:Tool that generates a compilation database for clang tooling
 U:https://github.com/rizsotto/Bear
 L:GPL-3.0-or-later
 o:bear
 m:Robert Mongold <rtmongold@gmail.com>
-t:1780068351
-c:b0bd6794cf25bd22d74856c972af5dcd7ba9a806
+t:1780443465
+c:4ccdfe5567faa5ce3bedc29b5e4d75cfbc9ac485
 D:so:libc.musl-s390x.so.1 so:libgcc_s.so.1
-p:cmd:bear=4.1.3-r0 so:libexec.so=0
+p:cmd:bear=4.1.4-r0 so:libexec.so=0
 
-C:Q1jgiPZSOlgropjVAup37yWfgMrMI=
+C:Q1whftIVh0GTtEJDVCkUlHcm6Y0OA=
 P:bear-doc
-V:4.1.3-r0
+V:4.1.4-r0
 A:s390x
-S:21665
-I:43504
+S:21668
+I:43501
 T:Tool that generates a compilation database for clang tooling (documentation)
 U:https://github.com/rizsotto/Bear
 L:GPL-3.0-or-later
 o:bear
 m:Robert Mongold <rtmongold@gmail.com>
-t:1780068351
-c:b0bd6794cf25bd22d74856c972af5dcd7ba9a806
-i:docs bear=4.1.3-r0
+t:1780443465
+c:4ccdfe5567faa5ce3bedc29b5e4d75cfbc9ac485
+i:docs bear=4.1.4-r0
 
 C:Q1EHsvmqPS7Ipe9aakxcx8i/A9yk8=
 P:beebzzr
@@ -78586,21 +78586,21 @@ t:1777207084
 c:c017beb426880b57488b0745d1fe5af87ba31162
 i:udev hackrf=2026.01.3-r1
 
-C:Q1kl8Wbi+2srYZs//HBWD0pEeIF1M=
+C:Q1S0XHEk2zZpIJuQNioPF3vL21lGg=
 P:halloy
-V:2026.7-r0
+V:2026.7.1-r0
 A:s390x
-S:14415157
-I:34869903
+S:14415519
+I:34870192
 T:Rust graphical IRC client supporting IRCv3.2 capabilities
 U:https://github.com/squidowl/halloy
 L:GPL-3.0-or-later
 o:halloy
 m:DWwanghao <wanghao03@loongson.cn>
-t:1780157673
-c:305235b8eb7cbb093b94f717e7a999d75b2b7356
+t:1780443831
+c:27d99c52e2a4188780e63e526fd555b9655e7e78
 D:so:libasound.so.2 so:libc.musl-s390x.so.1 so:libgcc_s.so.1 so:libxcb.so.1
-p:cmd:halloy=2026.7-r0
+p:cmd:halloy=2026.7.1-r0
 
 C:Q1cYYy+ZtkZz8fyF1u4+cMTaaE1dk=
 P:hamlib
@@ -162132,51 +162132,51 @@ c:c75698b8965f585b3f552a23e6d4a6915db00bac
 D:so:libc.musl-s390x.so.1 so:libgcc_s.so.1 so:libmarisa.so.0 so:libstdc++.so.6
 p:so:libopencc.so.1.3=1.3.1
 
-C:Q1nuhDiZHe8I6HHZkKuFhA7MLieZ8=
+C:Q1bW9ulv+/mi9HoprxRRUAWRwuZs4=
 P:opencl
-V:2025.07.23-r0
+V:2026.05.29-r0
 A:s390x
-S:80811
-I:232867
+S:83305
+I:239947
 T:OpenCL ICD Loader
 U:https://khronos.org/opencl
 L:Apache-2.0
 o:opencl
 m:Leon Marz <main@lmarz.org>
-t:1753377538
-c:180d37274601e94e69a5749232ff6f16c4880bcc
+t:1780443636
+c:57f5d0369f516ac095dfb0ef7f3c82ab11bab7dc
 D:so:libc.musl-s390x.so.1
-p:opencl-icd-loader=2025.07.23-r0 cmd:clinfo=2025.07.23-r0 so:libOpenCL.so.1=1.0.0
+p:opencl-icd-loader=2026.05.29-r0 cmd:clinfo=2026.05.29-r0 so:libOpenCL.so.1=1.0.0
 
-C:Q1kejV5sqANfNXRqP67xRsn6M7V04=
+C:Q1qyRBqAh01fJwgjz/gXwT5JVEiDo=
 P:opencl-dev
-V:2025.07.23-r0
+V:2026.05.29-r0
 A:s390x
-S:43931
-I:196273
+S:43937
+I:196285
 T:OpenCL ICD Loader (development files)
 U:https://khronos.org/opencl
 L:Apache-2.0
 o:opencl
 m:Leon Marz <main@lmarz.org>
-t:1753377538
-c:180d37274601e94e69a5749232ff6f16c4880bcc
-D:opencl-headers opencl=2025.07.23-r0 pkgconfig
+t:1780443636
+c:57f5d0369f516ac095dfb0ef7f3c82ab11bab7dc
+D:opencl-headers opencl=2026.05.29-r0 pkgconfig
 p:pc:OpenCL-CLHPP=3.0 pc:OpenCL-Headers=3.0 pc:OpenCL=3.0
 
-C:Q1eFWHEVKoruF+mjscubqQFbHD1MI=
+C:Q1kZvCNx2IPlyktPDDarmVabbr3kU=
 P:opencl-headers
-V:2025.07.23-r0
+V:2026.05.29-r0
 A:s390x
-S:119206
-I:865712
+S:121836
+I:885340
 T:OpenCL development headers
 U:https://khronos.org/opencl
 L:Apache-2.0
 o:opencl
 m:Leon Marz <main@lmarz.org>
-t:1753377538
-c:180d37274601e94e69a5749232ff6f16c4880bcc
+t:1780443636
+c:57f5d0369f516ac095dfb0ef7f3c82ab11bab7dc
 
 C:Q15VGXNkF3XMJz6cJrrGf9vrYyu/g=
 P:opencl-icd-loader
@@ -162225,21 +162225,21 @@ t:1752863736
 c:afadf662e4d76c1a6394e2bb8395b7c1341eca80
 i:docs opencl-icd-loader=2.3.3-r0
 
-C:Q1O023BROYDC+PrOIT53Cd19Vfu3M=
+C:Q1y7/kUyaUaV1qrqgnZ9fcJN5u0Og=
 P:opencl-layer-info
-V:2025.07.23-r0
+V:2026.05.29-r0
 A:s390x
-S:25021
-I:80720
+S:27521
+I:87800
 T:OpenCL Layer Info tool
 U:https://khronos.org/opencl
 L:Apache-2.0
 o:opencl
 m:Leon Marz <main@lmarz.org>
-t:1753377538
-c:180d37274601e94e69a5749232ff6f16c4880bcc
+t:1780443636
+c:57f5d0369f516ac095dfb0ef7f3c82ab11bab7dc
 D:so:libc.musl-s390x.so.1
-p:cmd:cllayerinfo=2025.07.23-r0
+p:cmd:cllayerinfo=2026.05.29-r0
 
 C:Q1wyR/IHmoUGqPUveNnopxwMe6XJY=
 P:opencolorio
@@ -166463,6 +166463,37 @@ t:1774640382
 c:f0177636bdf09384e12ce726989cd9d1f4249e2b
 D:python3~3.14
 i:ostree-push=1.2.0-r1 pyc
+
+C:Q1dFemShnRu9Trm9pkwV43ZwKd9gE=
+P:ostui
+V:1.1.1-r0
+A:s390x
+S:5238781
+I:13553832
+T:A terminal client for OpenSubsonic servers
+U:https://git.sr.ht/~ser/ostui
+L:GPL-3.0-or-later
+o:ostui
+m:Sean E. Russell <ser@ser1.net>
+t:1780443709
+c:c127fc8daa9f7ac961c80d74cd14c5c46d91eff9
+D:so:libc.musl-s390x.so.1 so:libmpv.so.2
+p:cmd:ostui=1.1.1-r0
+
+C:Q1zysWsjUkQrwM2Mb3w+4cIost8oM=
+P:ostui-doc
+V:1.1.1-r0
+A:s390x
+S:29485
+I:75602
+T:A terminal client for OpenSubsonic servers (documentation)
+U:https://git.sr.ht/~ser/ostui
+L:GPL-3.0-or-later
+o:ostui
+m:Sean E. Russell <ser@ser1.net>
+t:1780443709
+c:c127fc8daa9f7ac961c80d74cd14c5c46d91eff9
+i:docs ostui=1.1.1-r0
 
 C:Q1fmVL6HAOtkowH0qBi346/qMPUrs=
 P:osv-scanner

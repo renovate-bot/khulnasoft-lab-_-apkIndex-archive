@@ -53730,36 +53730,36 @@ t:1760318612
 c:8678ae07e6e7d4f60e5aeeec94762799af3f70fd
 i:docs fio=3.41-r0
 
-C:Q1Z6rL8pfBLd94w24i1QGEhDCUMiw=
+C:Q1ezr1EaI+zA+g5ZgYv7K0q6L1Dr0=
 P:firefox
-V:145.0-r0
+V:151.0.3-r0
 A:loongarch64
-S:88318129
-I:254328009
+S:95351837
+I:275319232
 T:Firefox web browser
 U:https://www.firefox.com/
 L:GPL-3.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MPL-2.0
 o:firefox
 m:Patrycja Rosa <alpine@ptrcnull.me>
-t:1763057803
-c:03e7ef8165b379e61ea59dfa229ef15b852bd61e
+t:1780440189
+c:0ff1e5c4d6ca1aa4cd68d2989fcd8cb3205ca085
 D:ffmpeg7-libavcodec so:libEGL.so.1 so:libGL.so.1 pciutils-libs so:libX11-xcb.so.1 so:libX11.so.6 so:libXcomposite.so.1 so:libXdamage.so.1 so:libXext.so.6 so:libXfixes.so.3 so:libXrandr.so.2 so:libasound.so.2 so:libatk-1.0.so.0 so:libc.musl-loongarch64.so.1 so:libcairo-gobject.so.2 so:libcairo.so.2 so:libdbus-1.so.3 so:libevent-2.1.so.7 so:libffi.so.8 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libicui18n.so.76 so:libicuuc.so.76 so:libjpeg.so.8 so:libnspr4.so so:libnss3.so so:libnssutil3.so so:libpango-1.0.so.0 so:libpixman-1.so.0 so:libplc4.so so:libpng16.so.16 so:libscudo.so so:libsmime3.so so:libssl3.so so:libstdc++.so.6 so:libvpx.so.11 so:libwebp.so.7 so:libwebpdemux.so.2 so:libxcb-shm.so.0 so:libxcb.so.1 so:libz.so.1
-p:cmd:firefox=145.0-r0 so:firefox:libgkcodecs.so=0 so:firefox:liblgpllibs.so=0 so:firefox:libmozavcodec.so=0 so:firefox:libmozavutil.so=0 so:firefox:libmozgtk.so=0 so:firefox:libmozinference.so=0 so:firefox:libmozsqlite3.so=0 so:firefox:libmozwayland.so=0 so:firefox:libxul.so=0
+p:cmd:firefox=151.0.3-r0 so:firefox:libgkcodecs.so=0 so:firefox:liblgpllibs.so=0 so:firefox:libmozavcodec.so=0 so:firefox:libmozavutil.so=0 so:firefox:libmozgtk.so=0 so:firefox:libmozinference.so=0 so:firefox:libmozsqlite3.so=0 so:firefox:libmozwayland.so=0 so:firefox:libxul.so=0
 
-C:Q1Bpf+C4B6GiEy44Bn4ucg6V2kRuk=
+C:Q1DtJeBxw4vJ4+69X9uDseskgwbR4=
 P:firefox-dbg
-V:145.0-r0
+V:151.0.3-r0
 A:loongarch64
-S:111991884
-I:586406608
+S:108745319
+I:549655568
 T:Firefox web browser (debug symbols)
 U:https://www.firefox.com/
 L:GPL-3.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MPL-2.0
 o:firefox
 m:Patrycja Rosa <alpine@ptrcnull.me>
-t:1763057803
-c:03e7ef8165b379e61ea59dfa229ef15b852bd61e
-D:!firefox<145.0-r0 !firefox>145.0-r0
+t:1780440189
+c:0ff1e5c4d6ca1aa4cd68d2989fcd8cb3205ca085
+D:!firefox<151.0.3-r0 !firefox>151.0.3-r0
 
 C:Q1nNPscFv1VUBPxFkNLS8smdy8ses=
 P:firefox-esr
@@ -53793,21 +53793,21 @@ c:e5f32deb6ea2b274ef9cad9a7083e5dd7930136c
 D:icu-data-full
 i:firefox-esr=140.11.0-r0 icu
 
-C:Q11P8/9KKF1tYtsGGm5c2pshmmV10=
+C:Q1Kt+DM49xIoSJrcnHWvOiwT79+ks=
 P:firefox-intl
-V:145.0-r0
+V:151.0.3-r0
 A:loongarch64
-S:1327
+S:1324
 I:0
 T:firefox - International ICU data
 U:https://www.firefox.com/
 L:GPL-3.0-only AND LGPL-2.1-only AND LGPL-3.0-only AND MPL-2.0
 o:firefox
 m:Patrycja Rosa <alpine@ptrcnull.me>
-t:1763057803
-c:03e7ef8165b379e61ea59dfa229ef15b852bd61e
+t:1780440189
+c:0ff1e5c4d6ca1aa4cd68d2989fcd8cb3205ca085
 D:icu-data-full
-i:firefox=145.0-r0 icu
+i:firefox=151.0.3-r0 icu
 
 C:Q1aFj5hsulOa7Ecqyh8lA3j8oR33Y=
 P:firewalld
@@ -227177,6 +227177,38 @@ t:1764532977
 c:018724a0854386fd2de82c4e447d8fbdb5e88953
 D:python3~3.12
 i:py3-moto=5.1.17-r0 pyc
+
+C:Q1QWa6kyd80Ofqrt3yBq8f7M3V6Z4=
+P:py3-mozshellutil
+V:1.0.0-r0
+A:loongarch64
+S:5178
+I:9090
+T:Shell command line parsing utilities for Mozilla testing
+U:https://firefox-source-docs.mozilla.org/mozbase/index.html
+L:MPL-2.0
+o:py3-mozshellutil
+m:Hugo Osvaldo Barrera <hugo@whynothugo.nl>
+t:1780440188
+c:b53e708668e5fe3084bd0ad5d7ddd3d02e7f10aa
+D:python3~3.12
+p:py3.12:mozshellutil=1.0.0-r0
+
+C:Q1zBLHvACkp+Awl3h3QKPpzyELbCw=
+P:py3-mozshellutil-pyc
+V:1.0.0-r0
+A:loongarch64
+S:5772
+I:8061
+T:Precompiled Python bytecode for py3-mozshellutil
+U:https://firefox-source-docs.mozilla.org/mozbase/index.html
+L:MPL-2.0
+o:py3-mozshellutil
+m:Hugo Osvaldo Barrera <hugo@whynothugo.nl>
+t:1780440188
+c:b53e708668e5fe3084bd0ad5d7ddd3d02e7f10aa
+D:python3~3.12
+i:py3-mozshellutil=1.0.0-r0 pyc
 
 C:Q1leBUPRDYcx2YC/PUlXEVLN1Fq+4=
 P:py3-mpd2
