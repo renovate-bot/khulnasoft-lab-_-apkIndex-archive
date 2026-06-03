@@ -211091,14 +211091,15 @@
       "origin": "yubikey-manager",
       "versions": {
         "5.8.0-r1": 1774640448,
-        "5.8.0-r2": 1779828471
+        "5.8.0-r2": 1779828471,
+        "5.8.0-r3": 1780465938
       },
       "dependencies": [
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:ykman=5.8.0-r2",
-        "py3.14:yubikit=5.8.0-r2"
+        "py3.14:ykman=5.8.0-r3",
+        "py3.14:yubikit=5.8.0-r3"
       ]
     },
     "py3-yoyo-migrations": {
@@ -228611,7 +228612,8 @@
     "shotwell": {
       "origin": "shotwell",
       "versions": {
-        "0.32.15-r1": 1776009405
+        "0.32.15-r1": 1776009405,
+        "0.32.16-r0": 1780466102
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -228649,22 +228651,24 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:shotwell=0.32.15-r1",
-        "so:libshotwell-authenticator.so.0=0.32.15",
-        "so:libshotwell-plugin-common.so.0=0.32.15",
-        "so:libshotwell-plugin-dev-1.0.so.0=0.32.15"
+        "cmd:shotwell=0.32.16-r0",
+        "so:libshotwell-authenticator.so.0=0.32.16",
+        "so:libshotwell-plugin-common.so.0=0.32.16",
+        "so:libshotwell-plugin-dev-1.0.so.0=0.32.16"
       ]
     },
     "shotwell-doc": {
       "origin": "shotwell",
       "versions": {
-        "0.32.15-r1": 1776009405
+        "0.32.15-r1": 1776009405,
+        "0.32.16-r0": 1780466102
       }
     },
     "shotwell-lang": {
       "origin": "shotwell",
       "versions": {
-        "0.32.15-r1": 1776009405
+        "0.32.15-r1": 1776009405,
+        "0.32.16-r0": 1780466102
       }
     },
     "showmethekey": {
@@ -260723,11 +260727,11 @@
       "origin": "yubikey-manager",
       "versions": {
         "5.8.0-r1": 1774640448,
-        "5.8.0-r2": 1779828471
+        "5.8.0-r2": 1779828471,
+        "5.8.0-r3": 1780465938
       },
       "dependencies": [
         "ccid",
-        "libfido2-udev",
         "pcsc-lite",
         "pcsc-lite-libs",
         "py3-click",
@@ -260739,28 +260743,31 @@
         "python3"
       ],
       "provides": [
-        "cmd:ykman=5.8.0-r2"
+        "cmd:ykman=5.8.0-r3"
       ]
     },
     "yubikey-manager-bash-completion": {
       "origin": "yubikey-manager",
       "versions": {
         "5.8.0-r1": 1774640448,
-        "5.8.0-r2": 1779828471
+        "5.8.0-r2": 1779828471,
+        "5.8.0-r3": 1780465938
       }
     },
     "yubikey-manager-fish-completion": {
       "origin": "yubikey-manager",
       "versions": {
         "5.8.0-r1": 1774640448,
-        "5.8.0-r2": 1779828471
+        "5.8.0-r2": 1779828471,
+        "5.8.0-r3": 1780465938
       }
     },
     "yubikey-manager-pyc": {
       "origin": "yubikey-manager",
       "versions": {
         "5.8.0-r1": 1774640448,
-        "5.8.0-r2": 1779828471
+        "5.8.0-r2": 1779828471,
+        "5.8.0-r3": 1780465938
       },
       "dependencies": [
         "python3~3.14"
@@ -260770,7 +260777,8 @@
       "origin": "yubikey-manager",
       "versions": {
         "5.8.0-r1": 1774640448,
-        "5.8.0-r2": 1779828471
+        "5.8.0-r2": 1779828471,
+        "5.8.0-r3": 1780465938
       }
     },
     "yubikey-touch-detector": {
@@ -263501,6 +263509,15 @@
       "versions": {
         "0.3.1-r0": 1780444061
       }
+    },
+    "yubikey-manager-udev": {
+      "origin": "yubikey-manager",
+      "versions": {
+        "5.8.0-r3": 1780465938
+      },
+      "dependencies": [
+        "libfido2-udev"
+      ]
     }
   },
   "provide": {
@@ -279151,15 +279168,15 @@
       },
       "libshotwell-authenticator.so.0": {
         "package": "shotwell",
-        "version": "0.32.15"
+        "version": "0.32.16"
       },
       "libshotwell-plugin-common.so.0": {
         "package": "shotwell",
-        "version": "0.32.15"
+        "version": "0.32.16"
       },
       "libshotwell-plugin-dev-1.0.so.0": {
         "package": "shotwell",
-        "version": "0.32.15"
+        "version": "0.32.16"
       },
       "libsigar-arm-linux.so": {
         "package": "sigar",

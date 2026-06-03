@@ -95816,21 +95816,21 @@ c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
 D:so:libc.musl-loongarch64.so.1
 p:cmd:joker=1.5.8-r6
 
-C:Q1wJ8qA8izYH8Dv1EEs0ImNqfZJ9E=
+C:Q1C52IIBro3Rk3us958vZ/21JZEio=
 P:jool-modules-lts
-V:6.18.33-r0
+V:6.18.34-r0
 A:loongarch64
-S:11530726
-I:11809880
+S:11530670
+I:11809907
 T:SIIT and NAT64 for Linux (kernel modules for linux-lts)
 U:https://nicmx.github.io/Jool/
 L:GPL-2.0-or-later
 o:jool-modules-lts
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779643356
-c:5437f4870c9d66bff1a2bbbe888b41279b807518
-D:linux-lts=6.18.33-r0
-i:linux-lts=6.18.33-r0 jool-tools
+t:1780465816
+c:35e3919a2ef745bc38a806c62734d88634a1d89b
+D:linux-lts=6.18.34-r0
+i:linux-lts=6.18.34-r0 jool-tools
 
 C:Q12Ctnga8eVF9Xs3ibNNWEvN0HpnU=
 P:jool-tools
@@ -260011,21 +260011,21 @@ c:302e5ac99b04f885d255df90802dc163de4d551c
 D:python3~3.14
 i:py3-yg.lockfile=2.3-r8 pyc
 
-C:Q1BxYioldmZQ1F4ZdEiKAQgZL9NU0=
+C:Q1nWZQ6RY56gDo46ZJRQIWyA9BKRU=
 P:py3-ykman
-V:5.8.0-r2
+V:5.8.0-r3
 A:loongarch64
-S:172971
+S:172959
 I:758537
 T:Python library and command line tool for configuring any YubiKey over all USB interfaces
 U:https://developers.yubico.com/yubikey-manager/
 L:BSD-2-Clause
 o:yubikey-manager
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1779828471
-c:cf8154ccea4e797ceb9a4173335141b90d71b910
+t:1780465938
+c:11374c974a7338ad60c11495d16eb76d91fa04c5
 D:python3~3.14
-p:py3.14:ykman=5.8.0-r2 py3.14:yubikit=5.8.0-r2
+p:py3.14:ykman=5.8.0-r3 py3.14:yubikit=5.8.0-r3
 
 C:Q16OFhr9DTgT2A6rYMQgku+f9KD6s=
 P:py3-yoyo-migrations
@@ -275206,20 +275206,20 @@ t:1758826049
 c:08d6c2c270beb9e283f632a130f0f2d0a0240804
 i:docs rtpengine=12.2.1.4-r2
 
-C:Q1Pyj0dKBp3e60H8dbLOkW68wmvMU=
+C:Q1fCYcizKtOGtZ5+Cu1wZ8R72keg8=
 P:rtpengine-lts
-V:6.18.33-r0
+V:6.18.34-r0
 A:loongarch64
-S:643518
+S:643525
 I:2599424
 T:Kernel module for rtpengine
 U:https://github.com/sipwise/rtpengine
 L:GPL-3.0-only
 o:rtpengine-lts
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1779643356
-c:00b1a4bc5c25f68bdb66088c2645faee14bbdce1
-i:rtpengine linux-lts=6.18.33-r0
+t:1780465816
+c:2755b192602e4be476f2b203c04859f6ea0960a8
+i:rtpengine linux-lts=6.18.34-r0
 
 C:Q1kftuv+/AycUWjPZgFpitAGgaZXU=
 P:rtpengine-openrc
@@ -284094,51 +284094,51 @@ t:1777870832
 c:b2c6a1b2b6b20628156cf0b803016fe9d0d72b64
 i:shotman=0.5.0-r0 zsh
 
-C:Q1FoAtEW2i/25oeW88QResC0tI3Us=
+C:Q1incqUmCxutOv47gsAYC0WVGxl7w=
 P:shotwell
-V:0.32.15-r1
+V:0.32.16-r0
 A:loongarch64
-S:2157863
-I:6295441
+S:2159764
+I:6299163
 T:Digital photo organizer designed for the GNOME desktop environment
 U:https://gitlab.gnome.org/GNOME/shotwell
 L:CC-BY-SA-3.0 AND LGPL-2.1-or-later
 o:shotwell
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776009405
-c:fb0729d7fb3415b7e9a8afbb58a9d1a7ce6758a3
+t:1780466102
+c:30c75b98767839713076b8f52bbb773534ed2b4a
 D:so:libc.musl-loongarch64.so.1 so:libcairo-gobject.so.2 so:libcairo.so.2 so:libexif.so.12 so:libgcr-base-3.so.1 so:libgcr-ui-3.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgee-0.8.so.2 so:libgexiv2-0.16.so.4 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgphoto2.so.6 so:libgphoto2_port.so.12 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgtk-3.so.0 so:libgudev-1.0.so.0 so:libintl.so.8 so:libjson-glib-1.0.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libportal-gtk3.so.1 so:libportal.so.1 so:libraw.so.25 so:libsecret-1.so.0 so:libsoup-3.0.so.0 so:libsqlite3.so.0 so:libwebp.so.7 so:libwebpdemux.so.2 so:libxml2.so.2
-p:cmd:shotwell=0.32.15-r1 so:libshotwell-authenticator.so.0=0.32.15 so:libshotwell-plugin-common.so.0=0.32.15 so:libshotwell-plugin-dev-1.0.so.0=0.32.15
+p:cmd:shotwell=0.32.16-r0 so:libshotwell-authenticator.so.0=0.32.16 so:libshotwell-plugin-common.so.0=0.32.16 so:libshotwell-plugin-dev-1.0.so.0=0.32.16
 
-C:Q1Z32BZVwRgIbe3rjDAf7XWDzmdT0=
+C:Q1TXQBsERxHUc3qzLIOtrGJZb2CLw=
 P:shotwell-doc
-V:0.32.15-r1
+V:0.32.16-r0
 A:loongarch64
-S:518640
-I:1536224
+S:572332
+I:1764074
 T:Digital photo organizer designed for the GNOME desktop environment (documentation)
 U:https://gitlab.gnome.org/GNOME/shotwell
 L:CC-BY-SA-3.0 AND LGPL-2.1-or-later
 o:shotwell
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776009405
-c:fb0729d7fb3415b7e9a8afbb58a9d1a7ce6758a3
-i:docs shotwell=0.32.15-r1
+t:1780466102
+c:30c75b98767839713076b8f52bbb773534ed2b4a
+i:docs shotwell=0.32.16-r0
 
-C:Q1mstqqG+fc+fP4kiODDPKWjebdck=
+C:Q1JFc4ln8x5CcyTI6qRRfFXnjO8Xg=
 P:shotwell-lang
-V:0.32.15-r1
+V:0.32.16-r0
 A:loongarch64
-S:2100924
-I:6758029
+S:2107217
+I:6802568
 T:Languages for package shotwell
 U:https://gitlab.gnome.org/GNOME/shotwell
 L:CC-BY-SA-3.0 AND LGPL-2.1-or-later
 o:shotwell
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776009405
-c:fb0729d7fb3415b7e9a8afbb58a9d1a7ce6758a3
-i:shotwell=0.32.15-r1 lang
+t:1780466102
+c:30c75b98767839713076b8f52bbb773534ed2b4a
+i:shotwell=0.32.16-r0 lang
 
 C:Q1LfWNefHnpeMsJQNDkCITnDK8uog=
 P:showmethekey
@@ -326186,82 +326186,98 @@ t:1769809260
 c:7d1d6bc29133ae5f98bf452bfb300ce4f194358d
 D:yubico-piv-tool-dev
 
-C:Q1sl+Wa+NYyKYMjSqlVwd4rE+GMhc=
+C:Q1dmBGq7Kh+v6aBessj3xlYFR/MjY=
 P:yubikey-manager
-V:5.8.0-r2
+V:5.8.0-r3
 A:loongarch64
-S:1833
+S:1825
 I:218
 T:Python library and command line tool for configuring any YubiKey over all USB interfaces
 U:https://developers.yubico.com/yubikey-manager/
 L:BSD-2-Clause
 o:yubikey-manager
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1779828471
-c:cf8154ccea4e797ceb9a4173335141b90d71b910
-D:ccid libfido2-udev pcsc-lite pcsc-lite-libs py3-click py3-cryptography py3-fido2 py3-keyring py3-pyscard py3-ykman python3
-p:cmd:ykman=5.8.0-r2
+t:1780465938
+c:11374c974a7338ad60c11495d16eb76d91fa04c5
+D:ccid pcsc-lite pcsc-lite-libs py3-click py3-cryptography py3-fido2 py3-keyring py3-pyscard py3-ykman python3
+p:cmd:ykman=5.8.0-r3
 
-C:Q1WCSypnRPR4orp/odyR0zgCoL5uk=
+C:Q1HdBVl+isKAxaoMonjfa3pxAR7AM=
 P:yubikey-manager-bash-completion
-V:5.8.0-r2
+V:5.8.0-r3
 A:loongarch64
-S:1926
+S:1923
 I:666
 T:Bash completions for yubikey-manager
 U:https://developers.yubico.com/yubikey-manager/
 L:BSD-2-Clause
 o:yubikey-manager
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1779828471
-c:cf8154ccea4e797ceb9a4173335141b90d71b910
-i:yubikey-manager=5.8.0-r2 bash-completion
+t:1780465938
+c:11374c974a7338ad60c11495d16eb76d91fa04c5
+i:yubikey-manager=5.8.0-r3 bash-completion
 
-C:Q1FF0RLr+V49KjGpsvTcqAMdoQtBQ=
+C:Q1cDXkppuYQod4E0Em5h2rDa5kNsg=
 P:yubikey-manager-fish-completion
-V:5.8.0-r2
+V:5.8.0-r3
 A:loongarch64
-S:1900
+S:1898
 I:598
 T:Fish completions for yubikey-manager
 U:https://developers.yubico.com/yubikey-manager/
 L:BSD-2-Clause
 o:yubikey-manager
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1779828471
-c:cf8154ccea4e797ceb9a4173335141b90d71b910
-i:yubikey-manager=5.8.0-r2 fish
+t:1780465938
+c:11374c974a7338ad60c11495d16eb76d91fa04c5
+i:yubikey-manager=5.8.0-r3 fish
 
-C:Q1Jon/2w8DGMnCc3tefoie2rVJa0I=
+C:Q1vDJJ6P4/WVv6s29RSx+1YGVb5gg=
 P:yubikey-manager-pyc
-V:5.8.0-r2
+V:5.8.0-r3
 A:loongarch64
-S:410923
+S:410929
 I:1043110
 T:Precompiled Python bytecode for yubikey-manager
 U:https://developers.yubico.com/yubikey-manager/
 L:BSD-2-Clause
 o:yubikey-manager
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1779828471
-c:cf8154ccea4e797ceb9a4173335141b90d71b910
+t:1780465938
+c:11374c974a7338ad60c11495d16eb76d91fa04c5
 D:python3~3.14
-i:yubikey-manager=5.8.0-r2 pyc
+i:yubikey-manager=5.8.0-r3 pyc
 
-C:Q1TAo9jpPzgEAsmMxnxIuSj0Wo0VU=
-P:yubikey-manager-zsh-completion
-V:5.8.0-r2
+C:Q1/Aib0AtRJa/0SB6RNCjrUzw727w=
+P:yubikey-manager-udev
+V:5.8.0-r3
 A:loongarch64
-S:2110
+S:1370
+I:0
+T:Python library and command line tool for configuring any YubiKey over all USB interfaces (udev support)
+U:https://developers.yubico.com/yubikey-manager/
+L:BSD-2-Clause
+o:yubikey-manager
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1780465938
+c:11374c974a7338ad60c11495d16eb76d91fa04c5
+D:libfido2-udev
+i:udev yubikey-manager=5.8.0-r3
+
+C:Q1qRpPeShqshgyjJRDkWb9m1UgbqM=
+P:yubikey-manager-zsh-completion
+V:5.8.0-r3
+A:loongarch64
+S:2112
 I:1158
 T:Zsh completions for yubikey-manager
 U:https://developers.yubico.com/yubikey-manager/
 L:BSD-2-Clause
 o:yubikey-manager
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1779828471
-c:cf8154ccea4e797ceb9a4173335141b90d71b910
-i:yubikey-manager=5.8.0-r2 zsh
+t:1780465938
+c:11374c974a7338ad60c11495d16eb76d91fa04c5
+i:yubikey-manager=5.8.0-r3 zsh
 
 C:Q1WpZxpE4o6i8fUstD7IvH/NxUCk8=
 P:yubikey-touch-detector

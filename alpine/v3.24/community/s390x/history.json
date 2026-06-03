@@ -48922,7 +48922,8 @@
     "freeunit": {
       "origin": "freeunit",
       "versions": {
-        "1.35.4-r0": 1777577924
+        "1.35.4-r0": 1777577924,
+        "1.35.5-r0": 1780461545
       },
       "dependencies": [
         "/bin/sh",
@@ -48930,148 +48931,158 @@
         "so:libc.musl-s390x.so.1",
         "so:libcrypto.so.3",
         "so:libgcc_s.so.1",
-        "so:libnjs.so.0.9.5",
+        "so:libnjs.so.0.9.9",
         "so:libpcre2-8.so.0",
         "so:libssl.so.3",
         "so:libz.so.1",
         "so:libzstd.so.1"
       ],
       "provides": [
-        "unit=1.35.4-r0",
-        "cmd:unitd=1.35.4-r0"
+        "unit=1.35.5-r0",
+        "cmd:unitd=1.35.5-r0"
       ]
     },
     "freeunit-dev": {
       "origin": "freeunit",
       "versions": {
-        "1.35.4-r0": 1777577924
+        "1.35.4-r0": 1777577924,
+        "1.35.5-r0": 1780461545
       },
       "dependencies": [
         "pkgconfig"
       ],
       "provides": [
-        "unit-dev=1.35.4-r0",
-        "pc:unit=1.35.4"
+        "unit-dev=1.35.5-r0",
+        "pc:unit=1.35.5"
       ]
     },
     "freeunit-doc": {
       "origin": "freeunit",
       "versions": {
-        "1.35.4-r0": 1777577924
+        "1.35.4-r0": 1777577924,
+        "1.35.5-r0": 1780461545
       },
       "provides": [
-        "unit-doc=1.35.4-r0"
+        "unit-doc=1.35.5-r0"
       ]
     },
     "freeunit-openrc": {
       "origin": "freeunit",
       "versions": {
-        "1.35.4-r0": 1777577924
+        "1.35.4-r0": 1777577924,
+        "1.35.5-r0": 1780461545
       },
       "dependencies": [
         "curl"
       ],
       "provides": [
-        "unit-openrc=1.35.4-r0"
+        "unit-openrc=1.35.5-r0"
       ]
     },
     "freeunit-perl": {
       "origin": "freeunit",
       "versions": {
-        "1.35.4-r0": 1777577924
+        "1.35.4-r0": 1777577924,
+        "1.35.5-r0": 1780461545
       },
       "dependencies": [
-        "freeunit=1.35.4-r0",
+        "freeunit=1.35.5-r0",
         "so:libc.musl-s390x.so.1",
         "so:libperl.so"
       ],
       "provides": [
-        "unit-perl=1.35.4-r0"
+        "unit-perl=1.35.5-r0"
       ]
     },
     "freeunit-php83": {
       "origin": "freeunit",
       "versions": {
-        "1.35.4-r0": 1777577924
+        "1.35.4-r0": 1777577924,
+        "1.35.5-r0": 1780461545
       },
       "dependencies": [
-        "freeunit=1.35.4-r0",
+        "freeunit=1.35.5-r0",
         "so:libc.musl-s390x.so.1",
         "so:libphp83.so"
       ],
       "provides": [
-        "unit-php83=1.35.4-r0"
+        "unit-php83=1.35.5-r0"
       ]
     },
     "freeunit-php84": {
       "origin": "freeunit",
       "versions": {
-        "1.35.4-r0": 1777577924
+        "1.35.4-r0": 1777577924,
+        "1.35.5-r0": 1780461545
       },
       "dependencies": [
-        "freeunit=1.35.4-r0",
+        "freeunit=1.35.5-r0",
         "php84-embed",
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "unit-php84=1.35.4-r0"
+        "unit-php84=1.35.5-r0"
       ]
     },
     "freeunit-php85": {
       "origin": "freeunit",
       "versions": {
-        "1.35.4-r0": 1777577924
+        "1.35.4-r0": 1777577924,
+        "1.35.5-r0": 1780461545
       },
       "dependencies": [
-        "freeunit=1.35.4-r0",
+        "freeunit=1.35.5-r0",
         "php85-embed",
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "unit-php85=1.35.4-r0"
+        "unit-php85=1.35.5-r0"
       ]
     },
     "freeunit-python3": {
       "origin": "freeunit",
       "versions": {
-        "1.35.4-r0": 1777577924
+        "1.35.4-r0": 1777577924,
+        "1.35.5-r0": 1780461545
       },
       "dependencies": [
-        "freeunit=1.35.4-r0",
+        "freeunit=1.35.5-r0",
         "so:libc.musl-s390x.so.1",
         "so:libpython3.14.so.1.0"
       ],
       "provides": [
-        "unit-python3=1.35.4-r0"
+        "unit-python3=1.35.5-r0"
       ]
     },
     "freeunit-ruby": {
       "origin": "freeunit",
       "versions": {
-        "1.35.4-r0": 1777577924
+        "1.35.4-r0": 1777577924,
+        "1.35.5-r0": 1780461545
       },
       "dependencies": [
-        "freeunit=1.35.4-r0",
+        "freeunit=1.35.5-r0",
         "so:libc.musl-s390x.so.1",
         "so:libruby.so.3.4"
       ],
       "provides": [
-        "unit-ruby=1.35.4-r0"
+        "unit-ruby=1.35.5-r0"
       ]
     },
     "freeunit-tools": {
       "origin": "freeunit",
       "versions": {
-        "1.35.4-r0": 1777577924
+        "1.35.4-r0": 1777577924,
+        "1.35.5-r0": 1780461545
       },
       "dependencies": [
         "bash",
         "curl"
       ],
       "provides": [
-        "unit-tools=1.35.4-r0",
-        "cmd:setup-unit=1.35.4-r0",
-        "cmd:unitc=1.35.4-r0"
+        "unit-tools=1.35.5-r0",
+        "cmd:setup-unit=1.35.5-r0",
+        "cmd:unitc=1.35.5-r0"
       ]
     },
     "freexl": {
@@ -82218,10 +82229,11 @@
         "6.18.31-r1": 1778948610,
         "6.18.32-r0": 1779052224,
         "6.18.32-r1": 1779099374,
-        "6.18.33-r0": 1779643356
+        "6.18.33-r0": 1779643356,
+        "6.18.34-r0": 1780465816
       },
       "dependencies": [
-        "linux-lts=6.18.33-r0"
+        "linux-lts=6.18.34-r0"
       ]
     },
     "jool-tools": {
@@ -229968,14 +229980,15 @@
       "origin": "yubikey-manager",
       "versions": {
         "5.8.0-r1": 1774640448,
-        "5.8.0-r2": 1779828471
+        "5.8.0-r2": 1779828471,
+        "5.8.0-r3": 1780465938
       },
       "dependencies": [
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:ykman=5.8.0-r2",
-        "py3.14:yubikit=5.8.0-r2"
+        "py3.14:ykman=5.8.0-r3",
+        "py3.14:yubikit=5.8.0-r3"
       ]
     },
     "py3-yoyo-migrations": {
@@ -243866,7 +243879,8 @@
         "6.18.31-r1": 1778948610,
         "6.18.32-r0": 1779052224,
         "6.18.32-r1": 1779099374,
-        "6.18.33-r0": 1779643356
+        "6.18.33-r0": 1779643356,
+        "6.18.34-r0": 1780465816
       }
     },
     "rtpengine-openrc": {
@@ -250853,7 +250867,8 @@
     "shotwell": {
       "origin": "shotwell",
       "versions": {
-        "0.32.15-r1": 1776009405
+        "0.32.15-r1": 1776009405,
+        "0.32.16-r0": 1780466102
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -250891,22 +250906,24 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:shotwell=0.32.15-r1",
-        "so:libshotwell-authenticator.so.0=0.32.15",
-        "so:libshotwell-plugin-common.so.0=0.32.15",
-        "so:libshotwell-plugin-dev-1.0.so.0=0.32.15"
+        "cmd:shotwell=0.32.16-r0",
+        "so:libshotwell-authenticator.so.0=0.32.16",
+        "so:libshotwell-plugin-common.so.0=0.32.16",
+        "so:libshotwell-plugin-dev-1.0.so.0=0.32.16"
       ]
     },
     "shotwell-doc": {
       "origin": "shotwell",
       "versions": {
-        "0.32.15-r1": 1776009405
+        "0.32.15-r1": 1776009405,
+        "0.32.16-r0": 1780466102
       }
     },
     "shotwell-lang": {
       "origin": "shotwell",
       "versions": {
-        "0.32.15-r1": 1776009405
+        "0.32.15-r1": 1776009405,
+        "0.32.16-r0": 1780466102
       }
     },
     "showmethekey": {
@@ -282950,11 +282967,11 @@
       "origin": "yubikey-manager",
       "versions": {
         "5.8.0-r1": 1774640448,
-        "5.8.0-r2": 1779828471
+        "5.8.0-r2": 1779828471,
+        "5.8.0-r3": 1780465938
       },
       "dependencies": [
         "ccid",
-        "libfido2-udev",
         "pcsc-lite",
         "pcsc-lite-libs",
         "py3-click",
@@ -282966,28 +282983,31 @@
         "python3"
       ],
       "provides": [
-        "cmd:ykman=5.8.0-r2"
+        "cmd:ykman=5.8.0-r3"
       ]
     },
     "yubikey-manager-bash-completion": {
       "origin": "yubikey-manager",
       "versions": {
         "5.8.0-r1": 1774640448,
-        "5.8.0-r2": 1779828471
+        "5.8.0-r2": 1779828471,
+        "5.8.0-r3": 1780465938
       }
     },
     "yubikey-manager-fish-completion": {
       "origin": "yubikey-manager",
       "versions": {
         "5.8.0-r1": 1774640448,
-        "5.8.0-r2": 1779828471
+        "5.8.0-r2": 1779828471,
+        "5.8.0-r3": 1780465938
       }
     },
     "yubikey-manager-pyc": {
       "origin": "yubikey-manager",
       "versions": {
         "5.8.0-r1": 1774640448,
-        "5.8.0-r2": 1779828471
+        "5.8.0-r2": 1779828471,
+        "5.8.0-r3": 1780465938
       },
       "dependencies": [
         "python3~3.14"
@@ -282997,7 +283017,8 @@
       "origin": "yubikey-manager",
       "versions": {
         "5.8.0-r1": 1774640448,
-        "5.8.0-r2": 1779828471
+        "5.8.0-r2": 1779828471,
+        "5.8.0-r3": 1780465938
       }
     },
     "yubikey-touch-detector": {
@@ -285973,6 +285994,15 @@
       "versions": {
         "0.3.1-r0": 1780444061
       }
+    },
+    "yubikey-manager-udev": {
+      "origin": "yubikey-manager",
+      "versions": {
+        "5.8.0-r3": 1780465938
+      },
+      "dependencies": [
+        "libfido2-udev"
+      ]
     }
   },
   "provide": {
@@ -302655,15 +302685,15 @@
       },
       "libshotwell-authenticator.so.0": {
         "package": "shotwell",
-        "version": "0.32.15"
+        "version": "0.32.16"
       },
       "libshotwell-plugin-common.so.0": {
         "package": "shotwell",
-        "version": "0.32.15"
+        "version": "0.32.16"
       },
       "libshotwell-plugin-dev-1.0.so.0": {
         "package": "shotwell",
-        "version": "0.32.15"
+        "version": "0.32.16"
       },
       "libsierrabreezeenhancedcommon6.so.0": {
         "package": "sierrabreezeenhanced",
@@ -304525,47 +304555,47 @@
       },
       "unit": {
         "package": "freeunit",
-        "version": "1.35.4-r0"
+        "version": "1.35.5-r0"
       },
       "unit-dev": {
         "package": "freeunit-dev",
-        "version": "1.35.4-r0"
+        "version": "1.35.5-r0"
       },
       "unit-doc": {
         "package": "freeunit-doc",
-        "version": "1.35.4-r0"
+        "version": "1.35.5-r0"
       },
       "unit-openrc": {
         "package": "freeunit-openrc",
-        "version": "1.35.4-r0"
+        "version": "1.35.5-r0"
       },
       "unit-perl": {
         "package": "freeunit-perl",
-        "version": "1.35.4-r0"
+        "version": "1.35.5-r0"
       },
       "unit-php83": {
         "package": "freeunit-php83",
-        "version": "1.35.4-r0"
+        "version": "1.35.5-r0"
       },
       "unit-php84": {
         "package": "freeunit-php84",
-        "version": "1.35.4-r0"
+        "version": "1.35.5-r0"
       },
       "unit-php85": {
         "package": "freeunit-php85",
-        "version": "1.35.4-r0"
+        "version": "1.35.5-r0"
       },
       "unit-python3": {
         "package": "freeunit-python3",
-        "version": "1.35.4-r0"
+        "version": "1.35.5-r0"
       },
       "unit-ruby": {
         "package": "freeunit-ruby",
-        "version": "1.35.4-r0"
+        "version": "1.35.5-r0"
       },
       "unit-tools": {
         "package": "freeunit-tools",
-        "version": "1.35.4-r0"
+        "version": "1.35.5-r0"
       },
       "exfat": {
         "package": "fuse-exfat",

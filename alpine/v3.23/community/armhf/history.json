@@ -257273,7 +257273,8 @@
       "versions": {
         "21.1.20-r0": 1761689109,
         "21.1.21-r0": 1764067117,
-        "21.1.22-r0": 1776245014
+        "21.1.22-r0": 1776245014,
+        "21.1.23-r0": 1780474444
       },
       "dependencies": [
         "font-cursor-misc",
@@ -257298,10 +257299,10 @@
         "so:libxshmfence.so.1"
       ],
       "provides": [
-        "xf86-video-modesetting=21.1.22-r0",
-        "cmd:X=21.1.22-r0",
-        "cmd:Xorg=21.1.22-r0",
-        "cmd:gtf=21.1.22-r0"
+        "xf86-video-modesetting=21.1.23-r0",
+        "cmd:X=21.1.23-r0",
+        "cmd:Xorg=21.1.23-r0",
+        "cmd:gtf=21.1.23-r0"
       ]
     },
     "xorg-server-common": {
@@ -257309,7 +257310,8 @@
       "versions": {
         "21.1.20-r0": 1761689109,
         "21.1.21-r0": 1764067117,
-        "21.1.22-r0": 1776245014
+        "21.1.22-r0": 1776245014,
+        "21.1.23-r0": 1780474444
       }
     },
     "xorg-server-dbg": {
@@ -257317,17 +257319,18 @@
       "versions": {
         "21.1.20-r0": 1761689109,
         "21.1.21-r0": 1764067117,
-        "21.1.22-r0": 1776245014
+        "21.1.22-r0": 1776245014,
+        "21.1.23-r0": 1780474444
       },
       "dependencies": [
-        "!xorg-server-xephyr<21.1.22-r0",
-        "!xorg-server-xephyr>21.1.22-r0",
-        "!xorg-server-xnest<21.1.22-r0",
-        "!xorg-server-xnest>21.1.22-r0",
-        "!xorg-server<21.1.22-r0",
-        "!xorg-server>21.1.22-r0",
-        "!xvfb<21.1.22-r0",
-        "!xvfb>21.1.22-r0"
+        "!xorg-server-xephyr<21.1.23-r0",
+        "!xorg-server-xephyr>21.1.23-r0",
+        "!xorg-server-xnest<21.1.23-r0",
+        "!xorg-server-xnest>21.1.23-r0",
+        "!xorg-server<21.1.23-r0",
+        "!xorg-server>21.1.23-r0",
+        "!xvfb<21.1.23-r0",
+        "!xvfb>21.1.23-r0"
       ]
     },
     "xorg-server-dev": {
@@ -257335,7 +257338,8 @@
       "versions": {
         "21.1.20-r0": 1761689109,
         "21.1.21-r0": 1764067117,
-        "21.1.22-r0": 1776245014
+        "21.1.22-r0": 1776245014,
+        "21.1.23-r0": 1780474444
       },
       "dependencies": [
         "libepoxy-dev",
@@ -257346,7 +257350,7 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:xorg-server=21.1.22"
+        "pc:xorg-server=21.1.23"
       ]
     },
     "xorg-server-doc": {
@@ -257354,7 +257358,8 @@
       "versions": {
         "21.1.20-r0": 1761689109,
         "21.1.21-r0": 1764067117,
-        "21.1.22-r0": 1776245014
+        "21.1.22-r0": 1776245014,
+        "21.1.23-r0": 1780474444
       }
     },
     "xorg-server-xephyr": {
@@ -257362,7 +257367,8 @@
       "versions": {
         "21.1.20-r0": 1761689109,
         "21.1.21-r0": 1764067117,
-        "21.1.22-r0": 1776245014
+        "21.1.22-r0": 1776245014,
+        "21.1.23-r0": 1780474444
       },
       "dependencies": [
         "font-cursor-misc",
@@ -257397,7 +257403,7 @@
         "so:libxshmfence.so.1"
       ],
       "provides": [
-        "cmd:Xephyr=21.1.22-r0"
+        "cmd:Xephyr=21.1.23-r0"
       ]
     },
     "xorg-server-xnest": {
@@ -257405,7 +257411,8 @@
       "versions": {
         "21.1.20-r0": 1761689109,
         "21.1.21-r0": 1764067117,
-        "21.1.22-r0": 1776245014
+        "21.1.22-r0": 1776245014,
+        "21.1.23-r0": 1780474444
       },
       "dependencies": [
         "font-cursor-misc",
@@ -257424,7 +257431,7 @@
         "so:libpixman-1.so.0"
       ],
       "provides": [
-        "cmd:Xnest=21.1.22-r0"
+        "cmd:Xnest=21.1.23-r0"
       ]
     },
     "xorgxrdp": {
@@ -258219,7 +258226,8 @@
       "versions": {
         "21.1.20-r0": 1761689109,
         "21.1.21-r0": 1764067117,
-        "21.1.22-r0": 1776245014
+        "21.1.22-r0": 1776245014,
+        "21.1.23-r0": 1780474444
       },
       "dependencies": [
         "font-cursor-misc",
@@ -258237,7 +258245,7 @@
         "so:libpixman-1.so.0"
       ],
       "provides": [
-        "cmd:Xvfb=21.1.22-r0"
+        "cmd:Xvfb=21.1.23-r0"
       ]
     },
     "xvfb-run": {
@@ -258345,7 +258353,8 @@
       "origin": "xwayland",
       "versions": {
         "24.1.9-r0": 1761662494,
-        "24.1.10-r0": 1776244178
+        "24.1.10-r0": 1776244178,
+        "24.1.12-r0": 1780474673
       },
       "dependencies": [
         "xorg-server-common",
@@ -258365,25 +258374,27 @@
         "so:libxshmfence.so.1"
       ],
       "provides": [
-        "cmd:Xwayland=24.1.10-r0"
+        "cmd:Xwayland=24.1.12-r0"
       ]
     },
     "xwayland-dbg": {
       "origin": "xwayland",
       "versions": {
         "24.1.9-r0": 1761662494,
-        "24.1.10-r0": 1776244178
+        "24.1.10-r0": 1776244178,
+        "24.1.12-r0": 1780474673
       },
       "dependencies": [
-        "!xwayland<24.1.10-r0",
-        "!xwayland>24.1.10-r0"
+        "!xwayland<24.1.12-r0",
+        "!xwayland>24.1.12-r0"
       ]
     },
     "xwayland-dev": {
       "origin": "xwayland",
       "versions": {
         "24.1.9-r0": 1761662494,
-        "24.1.10-r0": 1776244178
+        "24.1.10-r0": 1776244178,
+        "24.1.12-r0": 1780474673
       },
       "dependencies": [
         "dbus-dev",
@@ -258404,14 +258415,15 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:xwayland=24.1.10"
+        "pc:xwayland=24.1.12"
       ]
     },
     "xwayland-doc": {
       "origin": "xwayland",
       "versions": {
         "24.1.9-r0": 1761662494,
-        "24.1.10-r0": 1776244178
+        "24.1.10-r0": 1776244178,
+        "24.1.12-r0": 1780474673
       }
     },
     "xwayland-run": {
@@ -284443,7 +284455,7 @@
       },
       "xf86-video-modesetting": {
         "package": "xorg-server",
-        "version": "21.1.22-r0"
+        "version": "21.1.23-r0"
       },
       "yq": {
         "package": "yq-go",

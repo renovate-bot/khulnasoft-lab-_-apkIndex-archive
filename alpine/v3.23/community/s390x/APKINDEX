@@ -85726,21 +85726,21 @@ c:cb528479ce7389730baa832e757b0e00914bba19
 D:so:libc.musl-s390x.so.1
 p:cmd:joker=1.5.8-r6
 
-C:Q1R8+BbBnv/J+EA59ppUN5uGpGDgM=
+C:Q1aFg/3cDqfxSJqZAnxtnMZDqdMLM=
 P:jool-modules-lts
-V:6.18.33-r0
+V:6.18.34-r0
 A:s390x
-S:9122405
-I:9160904
+S:9126035
+I:9164511
 T:SIIT and NAT64 for Linux (kernel modules for linux-lts)
 U:https://nicmx.github.io/Jool/
 L:GPL-2.0-or-later
 o:jool-modules-lts
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1779645995
-c:3b30e258b824b67efdb9d8b0403a26377f176bce
-D:linux-lts=6.18.33-r0
-i:linux-lts=6.18.33-r0 jool-tools
+t:1780469512
+c:b65039978f0fae616460312449209c60a4b4ecd7
+D:linux-lts=6.18.34-r0
+i:linux-lts=6.18.34-r0 jool-tools
 
 C:Q1aBUWVghxCxk6bf9wh1W2xOT1Qqk=
 P:jool-tools
@@ -254845,20 +254845,20 @@ t:1758826049
 c:08d6c2c270beb9e283f632a130f0f2d0a0240804
 i:docs rtpengine=12.2.1.4-r2
 
-C:Q1zX2Fk44kTO/dbTF9WxKQ5X/4uGc=
+C:Q158V+Lbz6bpbns/UPgi0iagUsT6M=
 P:rtpengine-lts
-V:6.18.33-r0
+V:6.18.34-r0
 A:s390x
-S:486001
-I:1625720
+S:485966
+I:1625688
 T:Kernel module for rtpengine
 U:https://github.com/sipwise/rtpengine
 L:GPL-3.0-only
 o:rtpengine-lts
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1779645995
-c:283094990e2c5ad1afa8789f5cc18978c0f1b120
-i:rtpengine linux-lts=6.18.33-r0
+t:1780469512
+c:5f7356fb4c1cd6a013ce94e4f587f99340335df0
+i:rtpengine linux-lts=6.18.34-r0
 
 C:Q157BfueVZ8gHMa2z2spxEqJA1Q/0=
 P:rtpengine-openrc
@@ -298505,113 +298505,113 @@ t:1757332269
 c:1576514125000848a929db2557d91e10ebf561c8
 i:docs xorg-cf-files=1.0.9-r0
 
-C:Q1UvlSD/K5qcvoOHGLW+taYNyo2h4=
+C:Q1WD8sY5YXAEC2bISeSsoMd8c945I=
 P:xorg-server
-V:21.1.22-r0
+V:21.1.23-r0
 A:s390x
-S:1400788
+S:1401206
 I:3337602
 T:X.Org X servers
 U:https://www.x.org/wiki
 L:MIT
 o:xorg-server
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776245014
-c:66056411722a42d3dae0613df0fd51c2221d0b28
+t:1780474444
+c:80de99c9b7c0245f0e7ce1d222245175add0bb42
 D:font-cursor-misc font-misc-misc mesa-egl xkbcomp xkeyboard-config xorg-server-common so:libGL.so.1 so:libXau.so.6 so:libXdmcp.so.6 so:libXfont2.so.2 so:libc.musl-s390x.so.1 so:libdrm.so.2 so:libepoxy.so.0 so:libgbm.so.1 so:libnettle.so.8 so:libpciaccess.so.0 so:libpixman-1.so.0 so:libudev.so.1 so:libxcvt.so.0 so:libxshmfence.so.1
-p:xf86-video-modesetting=21.1.22-r0 cmd:X=21.1.22-r0 cmd:Xorg=21.1.22-r0 cmd:gtf=21.1.22-r0
+p:xf86-video-modesetting=21.1.23-r0 cmd:X=21.1.23-r0 cmd:Xorg=21.1.23-r0 cmd:gtf=21.1.23-r0
 
-C:Q1tmoxLTxy/tkKmYwQTfIhA5wM6ao=
+C:Q1U/GiA3Duc4+A95W609y8lArtiS8=
 P:xorg-server-common
-V:21.1.22-r0
+V:21.1.23-r0
 A:s390x
-S:8482
+S:8479
 I:25699
 T:Xorg server common files
 U:https://www.x.org/wiki
 L:MIT
 o:xorg-server
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776245014
-c:66056411722a42d3dae0613df0fd51c2221d0b28
+t:1780474444
+c:80de99c9b7c0245f0e7ce1d222245175add0bb42
 
-C:Q1yu/qjqPt3ELWL2BOVw6iVhoTdv0=
+C:Q17kMDpxHl3uooXhZ99eSP6icBiIc=
 P:xorg-server-dbg
-V:21.1.22-r0
+V:21.1.23-r0
 A:s390x
-S:19284709
-I:44500760
+S:19286816
+I:44506824
 T:X.Org X servers (debug symbols)
 U:https://www.x.org/wiki
 L:MIT
 o:xorg-server
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776245014
-c:66056411722a42d3dae0613df0fd51c2221d0b28
-D:!xorg-server-xephyr<21.1.22-r0 !xorg-server-xephyr>21.1.22-r0 !xorg-server-xnest<21.1.22-r0 !xorg-server-xnest>21.1.22-r0 !xorg-server<21.1.22-r0 !xorg-server>21.1.22-r0 !xvfb<21.1.22-r0 !xvfb>21.1.22-r0
+t:1780474444
+c:80de99c9b7c0245f0e7ce1d222245175add0bb42
+D:!xorg-server-xephyr<21.1.23-r0 !xorg-server-xephyr>21.1.23-r0 !xorg-server-xnest<21.1.23-r0 !xorg-server-xnest>21.1.23-r0 !xorg-server<21.1.23-r0 !xorg-server>21.1.23-r0 !xvfb<21.1.23-r0 !xvfb>21.1.23-r0
 
-C:Q1hjmqTggch0tMp6T6YTPzvwLykgA=
+C:Q1EUd/JMKcxN+EYYx3U0ayhIRH+do=
 P:xorg-server-dev
-V:21.1.22-r0
+V:21.1.23-r0
 A:s390x
-S:253092
-I:1139744
+S:253237
+I:1139979
 T:X.Org X servers (development files)
 U:https://www.x.org/wiki
 L:MIT
 o:xorg-server
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776245014
-c:66056411722a42d3dae0613df0fd51c2221d0b28
+t:1780474444
+c:80de99c9b7c0245f0e7ce1d222245175add0bb42
 D:libepoxy-dev libpciaccess-dev libxfont2-dev mesa-dev pc:pixman-1>=0.27.2 pkgconfig
-p:pc:xorg-server=21.1.22
+p:pc:xorg-server=21.1.23
 
-C:Q1N0M1j7MICV8uudd6BZC2xieVQMI=
+C:Q1kIjFR71hX5/oMA0v8vwcAe55D8Q=
 P:xorg-server-doc
-V:21.1.22-r0
+V:21.1.23-r0
 A:s390x
-S:56597
-I:53405
+S:56612
+I:53410
 T:X.Org X servers (documentation)
 U:https://www.x.org/wiki
 L:MIT
 o:xorg-server
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776245014
-c:66056411722a42d3dae0613df0fd51c2221d0b28
-i:docs xorg-server=21.1.22-r0
+t:1780474444
+c:80de99c9b7c0245f0e7ce1d222245175add0bb42
+i:docs xorg-server=21.1.23-r0
 
-C:Q1uvccVhLKLqEGyFMSfs7F7seXBNY=
+C:Q1oYOdCYFs/6vRKsWHpW6q1UowRcw=
 P:xorg-server-xephyr
-V:21.1.22-r0
+V:21.1.23-r0
 A:s390x
-S:907562
+S:907789
 I:2086440
 T:kdrive based X Server which targets a window on a host X Server as its framebuffer
 U:https://www.x.org/wiki
 L:MIT
 o:xorg-server
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776245014
-c:66056411722a42d3dae0613df0fd51c2221d0b28
+t:1780474444
+c:80de99c9b7c0245f0e7ce1d222245175add0bb42
 D:font-cursor-misc font-misc-misc mesa-egl xkbcomp xkeyboard-config xorg-server-common so:libGL.so.1 so:libX11-xcb.so.1 so:libX11.so.6 so:libXau.so.6 so:libXdmcp.so.6 so:libXfont2.so.2 so:libc.musl-s390x.so.1 so:libepoxy.so.0 so:libnettle.so.8 so:libpixman-1.so.0 so:libudev.so.1 so:libxcb-icccm.so.4 so:libxcb-image.so.0 so:libxcb-keysyms.so.1 so:libxcb-randr.so.0 so:libxcb-render-util.so.0 so:libxcb-render.so.0 so:libxcb-shape.so.0 so:libxcb-shm.so.0 so:libxcb-util.so.1 so:libxcb-xkb.so.1 so:libxcb-xv.so.0 so:libxcb.so.1 so:libxshmfence.so.1
-p:cmd:Xephyr=21.1.22-r0
+p:cmd:Xephyr=21.1.23-r0
 
-C:Q1LsKpzgPyr08+Hp9AKXi2bn8SPRs=
+C:Q16h9SrblrNNtD/UG38e9H9MdPqWc=
 P:xorg-server-xnest
-V:21.1.22-r0
+V:21.1.23-r0
 A:s390x
-S:581096
+S:581333
 I:1280840
 T:A nested Xorg server
 U:https://www.x.org/wiki
 L:MIT
 o:xorg-server
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776245014
-c:66056411722a42d3dae0613df0fd51c2221d0b28
+t:1780474444
+c:80de99c9b7c0245f0e7ce1d222245175add0bb42
 D:font-cursor-misc font-misc-misc mesa-egl xkbcomp xkeyboard-config xorg-server-common so:libX11.so.6 so:libXau.so.6 so:libXdmcp.so.6 so:libXext.so.6 so:libXfont2.so.2 so:libc.musl-s390x.so.1 so:libnettle.so.8 so:libpixman-1.so.0
-p:cmd:Xnest=21.1.22-r0
+p:cmd:Xnest=21.1.23-r0
 
 C:Q1PsPV+WuDZ5xED8DgGMaP4Cc+KZk=
 P:xorgxrdp
@@ -299416,21 +299416,21 @@ c:08d1ffc551bf57e4526f392d3a14a344a2fecb7c
 D:so:libc.musl-s390x.so.1 so:libxcb-ewmh.so.2 so:libxcb-icccm.so.4 so:libxcb.so.1
 p:cmd:xtitle=0.4.4-r2
 
-C:Q1t7m71JTHPiSmFP/uVS9m9JD8dK8=
+C:Q1tFGqH7FtAvtKAiAj2SQTzvHVv68=
 P:xvfb
-V:21.1.22-r0
+V:21.1.23-r0
 A:s390x
-S:758499
+S:758657
 I:1743360
 T:Virtual Framebuffer 'fake' X server
 U:https://www.x.org/wiki
 L:MIT
 o:xorg-server
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776245014
-c:66056411722a42d3dae0613df0fd51c2221d0b28
+t:1780474444
+c:80de99c9b7c0245f0e7ce1d222245175add0bb42
 D:font-cursor-misc font-misc-misc mesa-egl xkbcomp xkeyboard-config xorg-server-common so:libGL.so.1 so:libXau.so.6 so:libXdmcp.so.6 so:libXfont2.so.2 so:libc.musl-s390x.so.1 so:libnettle.so.8 so:libpixman-1.so.0
-p:cmd:Xvfb=21.1.22-r0
+p:cmd:Xvfb=21.1.23-r0
 
 C:Q1qb+gZgS2UoDZz+o8NQtfbylOjco=
 P:xvfb-run
@@ -299582,67 +299582,67 @@ t:1747245892
 c:83e35188e82a6e6053491d2a92ed81bf1661f1d1
 i:xwallpaper=0.7.5-r1 zsh
 
-C:Q1pQJWvaO2/zVqjjVsQXvrDLGiTz4=
+C:Q1fJsMXnPk8LezTcc8Fdm+9s5xAPA=
 P:xwayland
-V:24.1.10-r0
+V:24.1.12-r0
 A:s390x
-S:905679
+S:905790
 I:2118115
 T:Compact xserver to run under wayland for compatibility
 U:https://www.x.org/wiki
 L:MIT
 o:xwayland
 m:Simon Zeni <simon@bl4ckb0ne.ca>
-t:1776244178
-c:90a4e199270de1ed66c2b27cc026a730c28100b0
+t:1780474673
+c:11ddf1243401a14651639b53200f9a1eef28ae76
 D:xorg-server-common xkbcomp so:libGL.so.1 so:libXau.so.6 so:libXfont2.so.2 so:libc.musl-s390x.so.1 so:libdrm.so.2 so:libepoxy.so.0 so:libgbm.so.1 so:libmd.so.0 so:libpixman-1.so.0 so:libtirpc-nokrb.so.3 so:libwayland-client.so.0 so:libxcvt.so.0 so:libxshmfence.so.1
-p:cmd:Xwayland=24.1.10-r0
+p:cmd:Xwayland=24.1.12-r0
 
-C:Q1wLC6KQaDqh1VA7PAbmLD/O/G/3Y=
+C:Q1cF1aL9+Q6lVgnyJFibHhN0Tf84A=
 P:xwayland-dbg
-V:24.1.10-r0
+V:24.1.12-r0
 A:s390x
-S:4953089
-I:11401296
+S:4954429
+I:11403216
 T:Compact xserver to run under wayland for compatibility (debug symbols)
 U:https://www.x.org/wiki
 L:MIT
 o:xwayland
 m:Simon Zeni <simon@bl4ckb0ne.ca>
-t:1776244178
-c:90a4e199270de1ed66c2b27cc026a730c28100b0
-D:!xwayland<24.1.10-r0 !xwayland>24.1.10-r0
+t:1780474673
+c:11ddf1243401a14651639b53200f9a1eef28ae76
+D:!xwayland<24.1.12-r0 !xwayland>24.1.12-r0
 
-C:Q1K3v/8tyQO7v3guZhwsOiMEWdXYQ=
+C:Q10Amcxort+V38ltjVhqDZe7/JluQ=
 P:xwayland-dev
-V:24.1.10-r0
+V:24.1.12-r0
 A:s390x
-S:2004
+S:2006
 I:541
 T:Compact xserver to run under wayland for compatibility (development files)
 U:https://www.x.org/wiki
 L:MIT
 o:xwayland
 m:Simon Zeni <simon@bl4ckb0ne.ca>
-t:1776244178
-c:90a4e199270de1ed66c2b27cc026a730c28100b0
+t:1780474673
+c:11ddf1243401a14651639b53200f9a1eef28ae76
 D:dbus-dev font-util-dev libdrm-dev libepoxy-dev libtirpc-dev libmd-dev libxcvt-dev libxfont2-dev libxkbfile-dev mesa-dev pixman-dev wayland-dev wayland-protocols xorgproto xtrans pkgconfig
-p:pc:xwayland=24.1.10
+p:pc:xwayland=24.1.12
 
-C:Q1OAsNoO+JtmZLhYupH8VdKWK8kwE=
+C:Q1oSqk1N6P0a7hvNVJT4gZ1Lhg0qo=
 P:xwayland-doc
-V:24.1.10-r0
+V:24.1.12-r0
 A:s390x
-S:4647
-I:2832
+S:4641
+I:2831
 T:Compact xserver to run under wayland for compatibility (documentation)
 U:https://www.x.org/wiki
 L:MIT
 o:xwayland
 m:Simon Zeni <simon@bl4ckb0ne.ca>
-t:1776244178
-c:90a4e199270de1ed66c2b27cc026a730c28100b0
-i:docs xwayland=24.1.10-r0
+t:1780474673
+c:11ddf1243401a14651639b53200f9a1eef28ae76
+i:docs xwayland=24.1.12-r0
 
 C:Q1piHZkmR9XD+7eMOGrngm8jUxKWA=
 P:xwayland-run

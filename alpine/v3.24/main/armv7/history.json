@@ -17579,26 +17579,28 @@
     "gnupg": {
       "origin": "gnupg",
       "versions": {
-        "2.4.9-r0": 1767279174
+        "2.4.9-r0": 1767279174,
+        "2.4.9-r1": 1780466039
       },
       "dependencies": [
-        "gpg=2.4.9-r0",
-        "gpg-agent=2.4.9-r0",
-        "gpg-wks-server=2.4.9-r0",
-        "gpgsm=2.4.9-r0",
-        "gpgv=2.4.9-r0",
-        "gnupg-dirmngr=2.4.9-r0",
-        "gnupg-utils=2.4.9-r0",
-        "gnupg-wks-client=2.4.9-r0"
+        "gpg=2.4.9-r1",
+        "gpg-agent=2.4.9-r1",
+        "gpg-wks-server=2.4.9-r1",
+        "gpgsm=2.4.9-r1",
+        "gpgv=2.4.9-r1",
+        "gnupg-dirmngr=2.4.9-r1",
+        "gnupg-utils=2.4.9-r1",
+        "gnupg-wks-client=2.4.9-r1"
       ]
     },
     "gnupg-dirmngr": {
       "origin": "gnupg",
       "versions": {
-        "2.4.9-r0": 1767279174
+        "2.4.9-r0": 1767279174,
+        "2.4.9-r1": 1780466039
       },
       "dependencies": [
-        "gnupg-gpgconf=2.4.9-r0",
+        "gnupg-gpgconf=2.4.9-r1",
         "so:libassuan.so.9",
         "so:libc.musl-armv7.so.1",
         "so:libgcrypt.so.20",
@@ -17610,21 +17612,23 @@
         "so:libnpth.so.0"
       ],
       "provides": [
-        "dirmngr=2.4.9-r0",
-        "cmd:dirmngr-client=2.4.9-r0",
-        "cmd:dirmngr=2.4.9-r0"
+        "dirmngr=2.4.9-r1",
+        "cmd:dirmngr-client=2.4.9-r1",
+        "cmd:dirmngr=2.4.9-r1"
       ]
     },
     "gnupg-doc": {
       "origin": "gnupg",
       "versions": {
-        "2.4.9-r0": 1767279174
+        "2.4.9-r0": 1767279174,
+        "2.4.9-r1": 1780466039
       }
     },
     "gnupg-gpgconf": {
       "origin": "gnupg",
       "versions": {
-        "2.4.9-r0": 1767279174
+        "2.4.9-r0": 1767279174,
+        "2.4.9-r1": 1780466039
       },
       "dependencies": [
         "pinentry",
@@ -17634,15 +17638,16 @@
         "so:libgpg-error.so.0"
       ],
       "provides": [
-        "gpgconf=2.4.9-r0",
-        "cmd:gpg-connect-agent=2.4.9-r0",
-        "cmd:gpgconf=2.4.9-r0"
+        "gpgconf=2.4.9-r1",
+        "cmd:gpg-connect-agent=2.4.9-r1",
+        "cmd:gpgconf=2.4.9-r1"
       ]
     },
     "gnupg-keyboxd": {
       "origin": "gnupg",
       "versions": {
-        "2.4.9-r0": 1767279174
+        "2.4.9-r0": 1767279174,
+        "2.4.9-r1": 1780466039
       },
       "dependencies": [
         "so:libassuan.so.9",
@@ -17657,16 +17662,18 @@
     "gnupg-lang": {
       "origin": "gnupg",
       "versions": {
-        "2.4.9-r0": 1767279174
+        "2.4.9-r0": 1767279174,
+        "2.4.9-r1": 1780466039
       }
     },
     "gnupg-scdaemon": {
       "origin": "gnupg",
       "versions": {
-        "2.4.9-r0": 1767279174
+        "2.4.9-r0": 1767279174,
+        "2.4.9-r1": 1780466039
       },
       "dependencies": [
-        "gpg-agent=2.4.9-r0",
+        "gpg-agent=2.4.9-r1",
         "/bin/sh",
         "so:libassuan.so.9",
         "so:libc.musl-armv7.so.1",
@@ -17680,7 +17687,8 @@
     "gnupg-utils": {
       "origin": "gnupg",
       "versions": {
-        "2.4.9-r0": 1767279174
+        "2.4.9-r0": 1767279174,
+        "2.4.9-r1": 1780466039
       },
       "dependencies": [
         "so:libassuan.so.9",
@@ -17692,33 +17700,34 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:addgnupghome=2.4.9-r0",
-        "cmd:applygnupgdefaults=2.4.9-r0",
-        "cmd:gpg-card=2.4.9-r0",
-        "cmd:gpg-mail-tube=2.4.9-r0",
-        "cmd:gpgparsemail=2.4.9-r0",
-        "cmd:gpgsplit=2.4.9-r0",
-        "cmd:gpgtar=2.4.9-r0",
-        "cmd:kbxutil=2.4.9-r0",
-        "cmd:watchgnupg=2.4.9-r0"
+        "cmd:addgnupghome=2.4.9-r1",
+        "cmd:applygnupgdefaults=2.4.9-r1",
+        "cmd:gpg-card=2.4.9-r1",
+        "cmd:gpg-mail-tube=2.4.9-r1",
+        "cmd:gpgparsemail=2.4.9-r1",
+        "cmd:gpgsplit=2.4.9-r1",
+        "cmd:gpgtar=2.4.9-r1",
+        "cmd:kbxutil=2.4.9-r1",
+        "cmd:watchgnupg=2.4.9-r1"
       ]
     },
     "gnupg-wks-client": {
       "origin": "gnupg",
       "versions": {
-        "2.4.9-r0": 1767279174
+        "2.4.9-r0": 1767279174,
+        "2.4.9-r1": 1780466039
       },
       "dependencies": [
-        "gpg=2.4.9-r0",
-        "gpg-agent=2.4.9-r0",
-        "gnupg-dirmngr=2.4.9-r0",
+        "gpg=2.4.9-r1",
+        "gpg-agent=2.4.9-r1",
+        "gnupg-dirmngr=2.4.9-r1",
         "so:libassuan.so.9",
         "so:libc.musl-armv7.so.1",
         "so:libgcrypt.so.20",
         "so:libgpg-error.so.0"
       ],
       "provides": [
-        "cmd:gpg-wks-client=2.4.9-r0"
+        "cmd:gpg-wks-client=2.4.9-r1"
       ]
     },
     "gnutls": {
@@ -17931,12 +17940,13 @@
     "gpg": {
       "origin": "gnupg",
       "versions": {
-        "2.4.9-r0": 1767279174
+        "2.4.9-r0": 1767279174,
+        "2.4.9-r1": 1780466039
       },
       "dependencies": [
-        "gnupg-dirmngr=2.4.9-r0",
-        "gnupg-gpgconf=2.4.9-r0",
-        "gnupg-keyboxd=2.4.9-r0",
+        "gnupg-dirmngr=2.4.9-r1",
+        "gnupg-gpgconf=2.4.9-r1",
+        "gnupg-keyboxd=2.4.9-r1",
         "so:libassuan.so.9",
         "so:libbz2.so.1",
         "so:libc.musl-armv7.so.1",
@@ -17947,17 +17957,18 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:gpg2=2.4.9-r0",
-        "cmd:gpg=2.4.9-r0"
+        "cmd:gpg2=2.4.9-r1",
+        "cmd:gpg=2.4.9-r1"
       ]
     },
     "gpg-agent": {
       "origin": "gnupg",
       "versions": {
-        "2.4.9-r0": 1767279174
+        "2.4.9-r0": 1767279174,
+        "2.4.9-r1": 1780466039
       },
       "dependencies": [
-        "gnupg-gpgconf=2.4.9-r0",
+        "gnupg-gpgconf=2.4.9-r1",
         "so:libassuan.so.9",
         "so:libc.musl-armv7.so.1",
         "so:libgcrypt.so.20",
@@ -17965,32 +17976,34 @@
         "so:libnpth.so.0"
       ],
       "provides": [
-        "cmd:gpg-agent=2.4.9-r0"
+        "cmd:gpg-agent=2.4.9-r1"
       ]
     },
     "gpg-wks-server": {
       "origin": "gnupg",
       "versions": {
-        "2.4.9-r0": 1767279174
+        "2.4.9-r0": 1767279174,
+        "2.4.9-r1": 1780466039
       },
       "dependencies": [
-        "gpg=2.4.9-r0",
-        "gpg-agent=2.4.9-r0",
+        "gpg=2.4.9-r1",
+        "gpg-agent=2.4.9-r1",
         "so:libc.musl-armv7.so.1",
         "so:libgcrypt.so.20",
         "so:libgpg-error.so.0"
       ],
       "provides": [
-        "cmd:gpg-wks-server=2.4.9-r0"
+        "cmd:gpg-wks-server=2.4.9-r1"
       ]
     },
     "gpgsm": {
       "origin": "gnupg",
       "versions": {
-        "2.4.9-r0": 1767279174
+        "2.4.9-r0": 1767279174,
+        "2.4.9-r1": 1780466039
       },
       "dependencies": [
-        "gnupg-gpgconf=2.4.9-r0",
+        "gnupg-gpgconf=2.4.9-r1",
         "so:libassuan.so.9",
         "so:libc.musl-armv7.so.1",
         "so:libgcrypt.so.20",
@@ -17999,13 +18012,14 @@
         "so:libnpth.so.0"
       ],
       "provides": [
-        "cmd:gpgsm=2.4.9-r0"
+        "cmd:gpgsm=2.4.9-r1"
       ]
     },
     "gpgv": {
       "origin": "gnupg",
       "versions": {
-        "2.4.9-r0": 1767279174
+        "2.4.9-r0": 1767279174,
+        "2.4.9-r1": 1780466039
       },
       "dependencies": [
         "so:libassuan.so.9",
@@ -18017,8 +18031,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:gpgv2=2.4.9-r0",
-        "cmd:gpgv=2.4.9-r0"
+        "cmd:gpgv2=2.4.9-r1",
+        "cmd:gpgv=2.4.9-r1"
       ]
     },
     "gpm": {
@@ -33103,7 +33117,8 @@
         "6.18.31-r1": 1778948610,
         "6.18.32-r0": 1779052224,
         "6.18.32-r1": 1779099374,
-        "6.18.33-r0": 1779643356
+        "6.18.33-r0": 1779643356,
+        "6.18.34-r0": 1780465816
       },
       "dependencies": [
         "initramfs-generator",
@@ -33123,7 +33138,8 @@
         "6.18.31-r1": 1778948610,
         "6.18.32-r0": 1779052224,
         "6.18.32-r1": 1779099374,
-        "6.18.33-r0": 1779643356
+        "6.18.33-r0": 1779643356,
+        "6.18.34-r0": 1780465816
       },
       "dependencies": [
         "perl",
@@ -33154,7 +33170,8 @@
         "6.18.31-r1": 1778948610,
         "6.18.32-r0": 1779052224,
         "6.18.32-r1": 1779099374,
-        "6.18.33-r0": 1779643356
+        "6.18.33-r0": 1779643356,
+        "6.18.34-r0": 1780465816
       }
     },
     "linux-pam": {
@@ -33438,7 +33455,8 @@
         "6.18.31-r1": 1778948610,
         "6.18.32-r0": 1779052224,
         "6.18.32-r1": 1779099374,
-        "6.18.33-r0": 1779643356
+        "6.18.33-r0": 1779643356,
+        "6.18.34-r0": 1780465816
       },
       "dependencies": [
         "initramfs-generator"
@@ -33457,7 +33475,8 @@
         "6.18.31-r1": 1778948610,
         "6.18.32-r0": 1779052224,
         "6.18.32-r1": 1779099374,
-        "6.18.33-r0": 1779643356
+        "6.18.33-r0": 1779643356,
+        "6.18.34-r0": 1780465816
       },
       "dependencies": [
         "perl",
@@ -73492,10 +73511,11 @@
         "6.18.31-r1": 1778948610,
         "6.18.32-r0": 1779052224,
         "6.18.32-r1": 1779099374,
-        "6.18.33-r0": 1779643356
+        "6.18.33-r0": 1779643356,
+        "6.18.34-r0": 1780465816
       },
       "dependencies": [
-        "linux-lts=6.18.33-r0"
+        "linux-lts=6.18.34-r0"
       ]
     },
     "xtables-addons-rpi": {
@@ -73953,13 +73973,14 @@
         "6.18.32-r0": 1779052224,
         "6.18.32-r1": 1779099374,
         "6.18.33-r0": 1779643356,
-        "6.18.33-r1": 1779944105
+        "6.18.33-r1": 1779944105,
+        "6.18.34-r0": 1780465816
       },
       "dependencies": [
-        "linux-lts=6.18.33-r0"
+        "linux-lts=6.18.34-r0"
       ],
       "provides": [
-        "spl-vanilla=6.18.33-r1"
+        "spl-vanilla=6.18.34-r0"
       ]
     },
     "zfs-lts-dev": {
@@ -73976,14 +73997,15 @@
         "6.18.32-r0": 1779052224,
         "6.18.32-r1": 1779099374,
         "6.18.33-r0": 1779643356,
-        "6.18.33-r1": 1779944105
+        "6.18.33-r1": 1779944105,
+        "6.18.34-r0": 1780465816
       },
       "dependencies": [
         "glib-dev",
         "e2fsprogs-dev",
         "util-linux-dev",
         "libtirpc-dev",
-        "linux-lts-dev=6.18.33-r0"
+        "linux-lts-dev=6.18.34-r0"
       ]
     },
     "zfs-openrc": {
@@ -74563,6 +74585,12 @@
       "versions": {
         "2.03.35-r2": 1780336188
       }
+    },
+    "gnupg-scdaemon-udev": {
+      "origin": "gnupg",
+      "versions": {
+        "2.4.9-r1": 1780466039
+      }
     }
   },
   "provide": {
@@ -74957,11 +74985,11 @@
       },
       "dirmngr": {
         "package": "gnupg-dirmngr",
-        "version": "2.4.9-r0"
+        "version": "2.4.9-r1"
       },
       "gpgconf": {
         "package": "gnupg-gpgconf",
-        "version": "2.4.9-r0"
+        "version": "2.4.9-r1"
       },
       "harfbuzz-bootstrap-dev": {
         "package": "harfbuzz-dev",
@@ -76121,7 +76149,7 @@
       },
       "spl-vanilla": {
         "package": "zfs-lts",
-        "version": "6.18.33-r1"
+        "version": "6.18.34-r0"
       },
       "py-click": {
         "package": "py3-click",
