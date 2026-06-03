@@ -283661,28 +283661,31 @@
     "tinyssh": {
       "origin": "tinyssh",
       "versions": {
-        "20260401-r0": 1779111521
+        "20260401-r0": 1779111521,
+        "20260601-r0": 1780518356
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "cmd:tinysshd-makekey=20260401-r0",
-        "cmd:tinysshd-printkey=20260401-r0",
-        "cmd:tinysshd=20260401-r0",
-        "cmd:tinysshnoneauthd=20260401-r0"
+        "cmd:tinysshd-makekey=20260601-r0",
+        "cmd:tinysshd-printkey=20260601-r0",
+        "cmd:tinysshd=20260601-r0",
+        "cmd:tinysshnoneauthd=20260601-r0"
       ]
     },
     "tinyssh-doc": {
       "origin": "tinyssh",
       "versions": {
-        "20260401-r0": 1779111521
+        "20260401-r0": 1779111521,
+        "20260601-r0": 1780518356
       }
     },
     "tinyssh-openrc": {
       "origin": "tinyssh",
       "versions": {
-        "20260401-r0": 1779111521
+        "20260401-r0": 1779111521,
+        "20260601-r0": 1780518356
       },
       "dependencies": [
         "ucspi-tcp6"
