@@ -55870,155 +55870,166 @@
     "freeunit": {
       "origin": "freeunit",
       "versions": {
-        "1.35.4-r0": 1777577924
+        "1.35.4-r0": 1777577924,
+        "1.35.5-r0": 1780461545
       },
       "dependencies": [
         "/bin/sh",
         "so:libbrotlienc.so.1",
         "so:libc.musl-ppc64le.so.1",
         "so:libcrypto.so.3",
-        "so:libnjs.so.0.9.5",
+        "so:libnjs.so.0.9.9",
         "so:libpcre2-8.so.0",
         "so:libssl.so.3",
         "so:libz.so.1",
         "so:libzstd.so.1"
       ],
       "provides": [
-        "unit=1.35.4-r0",
-        "cmd:unitd=1.35.4-r0"
+        "unit=1.35.5-r0",
+        "cmd:unitd=1.35.5-r0"
       ]
     },
     "freeunit-dev": {
       "origin": "freeunit",
       "versions": {
-        "1.35.4-r0": 1777577924
+        "1.35.4-r0": 1777577924,
+        "1.35.5-r0": 1780461545
       },
       "dependencies": [
         "pkgconfig"
       ],
       "provides": [
-        "unit-dev=1.35.4-r0",
-        "pc:unit=1.35.4"
+        "unit-dev=1.35.5-r0",
+        "pc:unit=1.35.5"
       ]
     },
     "freeunit-doc": {
       "origin": "freeunit",
       "versions": {
-        "1.35.4-r0": 1777577924
+        "1.35.4-r0": 1777577924,
+        "1.35.5-r0": 1780461545
       },
       "provides": [
-        "unit-doc=1.35.4-r0"
+        "unit-doc=1.35.5-r0"
       ]
     },
     "freeunit-openrc": {
       "origin": "freeunit",
       "versions": {
-        "1.35.4-r0": 1777577924
+        "1.35.4-r0": 1777577924,
+        "1.35.5-r0": 1780461545
       },
       "dependencies": [
         "curl"
       ],
       "provides": [
-        "unit-openrc=1.35.4-r0"
+        "unit-openrc=1.35.5-r0"
       ]
     },
     "freeunit-perl": {
       "origin": "freeunit",
       "versions": {
-        "1.35.4-r0": 1777577924
+        "1.35.4-r0": 1777577924,
+        "1.35.5-r0": 1780461545
       },
       "dependencies": [
-        "freeunit=1.35.4-r0",
+        "freeunit=1.35.5-r0",
         "so:libc.musl-ppc64le.so.1",
         "so:libperl.so"
       ],
       "provides": [
-        "unit-perl=1.35.4-r0"
+        "unit-perl=1.35.5-r0"
       ]
     },
     "freeunit-php83": {
       "origin": "freeunit",
       "versions": {
-        "1.35.4-r0": 1777577924
+        "1.35.4-r0": 1777577924,
+        "1.35.5-r0": 1780461545
       },
       "dependencies": [
-        "freeunit=1.35.4-r0",
+        "freeunit=1.35.5-r0",
         "so:libc.musl-ppc64le.so.1",
         "so:libphp83.so"
       ],
       "provides": [
-        "unit-php83=1.35.4-r0"
+        "unit-php83=1.35.5-r0"
       ]
     },
     "freeunit-php84": {
       "origin": "freeunit",
       "versions": {
-        "1.35.4-r0": 1777577924
+        "1.35.4-r0": 1777577924,
+        "1.35.5-r0": 1780461545
       },
       "dependencies": [
-        "freeunit=1.35.4-r0",
+        "freeunit=1.35.5-r0",
         "php84-embed",
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "unit-php84=1.35.4-r0"
+        "unit-php84=1.35.5-r0"
       ]
     },
     "freeunit-php85": {
       "origin": "freeunit",
       "versions": {
-        "1.35.4-r0": 1777577924
+        "1.35.4-r0": 1777577924,
+        "1.35.5-r0": 1780461545
       },
       "dependencies": [
-        "freeunit=1.35.4-r0",
+        "freeunit=1.35.5-r0",
         "php85-embed",
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "unit-php85=1.35.4-r0"
+        "unit-php85=1.35.5-r0"
       ]
     },
     "freeunit-python3": {
       "origin": "freeunit",
       "versions": {
-        "1.35.4-r0": 1777577924
+        "1.35.4-r0": 1777577924,
+        "1.35.5-r0": 1780461545
       },
       "dependencies": [
-        "freeunit=1.35.4-r0",
+        "freeunit=1.35.5-r0",
         "so:libc.musl-ppc64le.so.1",
         "so:libpython3.14.so.1.0"
       ],
       "provides": [
-        "unit-python3=1.35.4-r0"
+        "unit-python3=1.35.5-r0"
       ]
     },
     "freeunit-ruby": {
       "origin": "freeunit",
       "versions": {
-        "1.35.4-r0": 1777577924
+        "1.35.4-r0": 1777577924,
+        "1.35.5-r0": 1780461545
       },
       "dependencies": [
-        "freeunit=1.35.4-r0",
+        "freeunit=1.35.5-r0",
         "so:libc.musl-ppc64le.so.1",
         "so:libruby.so.3.4"
       ],
       "provides": [
-        "unit-ruby=1.35.4-r0"
+        "unit-ruby=1.35.5-r0"
       ]
     },
     "freeunit-tools": {
       "origin": "freeunit",
       "versions": {
-        "1.35.4-r0": 1777577924
+        "1.35.4-r0": 1777577924,
+        "1.35.5-r0": 1780461545
       },
       "dependencies": [
         "bash",
         "curl"
       ],
       "provides": [
-        "unit-tools=1.35.4-r0",
-        "cmd:setup-unit=1.35.4-r0",
-        "cmd:unitc=1.35.4-r0"
+        "unit-tools=1.35.5-r0",
+        "cmd:setup-unit=1.35.5-r0",
+        "cmd:unitc=1.35.5-r0"
       ]
     },
     "freexl": {
@@ -62427,7 +62438,8 @@
     "glaze": {
       "origin": "glaze",
       "versions": {
-        "4.4.3-r0": 1744021455
+        "4.4.3-r0": 1744021455,
+        "7.7.0-r0": 1780444061
       }
     },
     "gleam": {
@@ -85254,11 +85266,12 @@
       "versions": {
         "0.52.2-r1": 1768845073,
         "0.52.2-r2": 1780064996,
-        "0.52.2-r3": 1780404364
+        "0.52.2-r3": 1780404364,
+        "0.54.3-r0": 1780444061
       },
       "dependencies": [
         "so:libEGL.so.1",
-        "so:libGL.so.1",
+        "so:libGLESv2.so.2",
         "so:libXcursor.so.1",
         "so:libaquamarine.so.11",
         "so:libc.musl-ppc64le.so.1",
@@ -85272,7 +85285,9 @@
         "so:libhyprgraphics.so.4",
         "so:libhyprlang.so.2",
         "so:libhyprutils.so.12",
+        "so:libhyprwire.so.3",
         "so:libinput.so.10",
+        "so:libmuparser.so.2",
         "so:libpango-1.0.so.0",
         "so:libpangocairo-1.0.so.0",
         "so:libpixman-1.so.0",
@@ -85291,9 +85306,10 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:Hyprland=0.52.2-r3",
-        "cmd:hyprctl=0.52.2-r3",
-        "cmd:hyprland=0.52.2-r3"
+        "cmd:Hyprland=0.54.3-r0",
+        "cmd:hyprctl=0.54.3-r0",
+        "cmd:hyprland=0.54.3-r0",
+        "cmd:start-hyprland=0.54.3-r0"
       ]
     },
     "hyprland-bash-completion": {
@@ -85301,7 +85317,8 @@
       "versions": {
         "0.52.2-r1": 1768845073,
         "0.52.2-r2": 1780064996,
-        "0.52.2-r3": 1780404364
+        "0.52.2-r3": 1780404364,
+        "0.54.3-r0": 1780444061
       }
     },
     "hyprland-dev": {
@@ -85309,13 +85326,32 @@
       "versions": {
         "0.52.2-r1": 1768845073,
         "0.52.2-r2": 1780064996,
-        "0.52.2-r3": 1780404364
+        "0.52.2-r3": 1780404364,
+        "0.54.3-r0": 1780444061
       },
       "dependencies": [
+        "pc:aquamarine>=0.9.3",
+        "pc:cairo",
+        "pc:egl",
+        "pc:hyprcursor>=0.1.7",
+        "pc:hyprgraphics>=0.1.6",
+        "pc:hyprlang>=0.6.7",
+        "pc:hyprutils>=0.11.0",
+        "pc:libdrm",
+        "pc:libinput>=1.28",
+        "pc:wayland-server>=1.22.91",
+        "pc:xcb",
+        "pc:xcb-composite",
+        "pc:xcb-errors",
+        "pc:xcb-icccm",
+        "pc:xcb-render",
+        "pc:xcb-res",
+        "pc:xcb-xfixes",
+        "pc:xkbcommon>=1.11.0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:hyprland=0.52.2"
+        "pc:hyprland=0.54.3"
       ]
     },
     "hyprland-doc": {
@@ -85323,7 +85359,8 @@
       "versions": {
         "0.52.2-r1": 1768845073,
         "0.52.2-r2": 1780064996,
-        "0.52.2-r3": 1780404364
+        "0.52.2-r3": 1780404364,
+        "0.54.3-r0": 1780444061
       }
     },
     "hyprland-fish-completion": {
@@ -85331,24 +85368,24 @@
       "versions": {
         "0.52.2-r1": 1768845073,
         "0.52.2-r2": 1780064996,
-        "0.52.2-r3": 1780404364
+        "0.52.2-r3": 1780404364,
+        "0.54.3-r0": 1780444061
       }
     },
     "hyprland-plugins": {
       "origin": "hyprland-plugins",
       "versions": {
         "0.52.0-r1": 1768845073,
-        "0.52.0-r2": 1780064996
+        "0.52.0-r2": 1780064996,
+        "0.54.0-r0": 1780444061
       },
       "dependencies": [
-        "hyprland~0.52",
+        "hyprland~0.54",
         "hyprland-plugins-borders-plus-plus",
         "hyprland-plugins-csgo-vulkan-fix",
         "hyprland-plugins-hyprbars",
         "hyprland-plugins-hyprexpo",
         "hyprland-plugins-hyprfocus",
-        "hyprland-plugins-hyprscrolling",
-        "hyprland-plugins-hyprtrails",
         "hyprland-plugins-hyprwinwrap",
         "hyprland-plugins-xtra-dispatchers"
       ]
@@ -85357,12 +85394,15 @@
       "origin": "hyprland-plugins",
       "versions": {
         "0.52.0-r1": 1768845073,
-        "0.52.0-r2": 1780064996
+        "0.52.0-r2": 1780064996,
+        "0.54.0-r0": 1780444061
       },
       "dependencies": [
-        "hyprland~0.52",
+        "hyprland~0.54",
         "so:libc.musl-ppc64le.so.1",
         "so:libgcc_s.so.1",
+        "so:libhyprlang.so.2",
+        "so:libhyprutils.so.12",
         "so:libstdc++.so.6"
       ],
       "provides": [
@@ -85373,12 +85413,15 @@
       "origin": "hyprland-plugins",
       "versions": {
         "0.52.0-r1": 1768845073,
-        "0.52.0-r2": 1780064996
+        "0.52.0-r2": 1780064996,
+        "0.54.0-r0": 1780444061
       },
       "dependencies": [
-        "hyprland~0.52",
+        "hyprland~0.54",
         "so:libc.musl-ppc64le.so.1",
         "so:libgcc_s.so.1",
+        "so:libhyprlang.so.2",
+        "so:libhyprutils.so.12",
         "so:libstdc++.so.6"
       ],
       "provides": [
@@ -85389,21 +85432,25 @@
       "origin": "hyprland-plugins",
       "versions": {
         "0.52.0-r1": 1768845073,
-        "0.52.0-r2": 1780064996
+        "0.52.0-r2": 1780064996,
+        "0.54.0-r0": 1780444061
       }
     },
     "hyprland-plugins-hyprbars": {
       "origin": "hyprland-plugins",
       "versions": {
         "0.52.0-r1": 1768845073,
-        "0.52.0-r2": 1780064996
+        "0.52.0-r2": 1780064996,
+        "0.54.0-r0": 1780444061
       },
       "dependencies": [
-        "hyprland~0.52",
+        "hyprland~0.54",
         "so:libc.musl-ppc64le.so.1",
         "so:libcairo.so.2",
         "so:libgcc_s.so.1",
         "so:libgobject-2.0.so.0",
+        "so:libhyprlang.so.2",
+        "so:libhyprutils.so.12",
         "so:libpango-1.0.so.0",
         "so:libpangocairo-1.0.so.0",
         "so:libstdc++.so.6"
@@ -85416,12 +85463,16 @@
       "origin": "hyprland-plugins",
       "versions": {
         "0.52.0-r1": 1768845073,
-        "0.52.0-r2": 1780064996
+        "0.52.0-r2": 1780064996,
+        "0.54.0-r0": 1780444061
       },
       "dependencies": [
-        "hyprland~0.52",
+        "hyprland~0.54",
+        "so:libaquamarine.so.11",
         "so:libc.musl-ppc64le.so.1",
         "so:libgcc_s.so.1",
+        "so:libhyprlang.so.2",
+        "so:libhyprutils.so.12",
         "so:libstdc++.so.6"
       ],
       "provides": [
@@ -85432,12 +85483,15 @@
       "origin": "hyprland-plugins",
       "versions": {
         "0.52.0-r1": 1768845073,
-        "0.52.0-r2": 1780064996
+        "0.52.0-r2": 1780064996,
+        "0.54.0-r0": 1780444061
       },
       "dependencies": [
-        "hyprland~0.52",
+        "hyprland~0.54",
         "so:libc.musl-ppc64le.so.1",
         "so:libgcc_s.so.1",
+        "so:libhyprlang.so.2",
+        "so:libhyprutils.so.12",
         "so:libstdc++.so.6"
       ],
       "provides": [
@@ -85481,12 +85535,15 @@
       "origin": "hyprland-plugins",
       "versions": {
         "0.52.0-r1": 1768845073,
-        "0.52.0-r2": 1780064996
+        "0.52.0-r2": 1780064996,
+        "0.54.0-r0": 1780444061
       },
       "dependencies": [
-        "hyprland~0.52",
+        "hyprland~0.54",
         "so:libc.musl-ppc64le.so.1",
         "so:libgcc_s.so.1",
+        "so:libhyprlang.so.2",
+        "so:libhyprutils.so.12",
         "so:libstdc++.so.6"
       ],
       "provides": [
@@ -85497,12 +85554,14 @@
       "origin": "hyprland-plugins",
       "versions": {
         "0.52.0-r1": 1768845073,
-        "0.52.0-r2": 1780064996
+        "0.52.0-r2": 1780064996,
+        "0.54.0-r0": 1780444061
       },
       "dependencies": [
-        "hyprland~0.52",
+        "hyprland~0.54",
         "so:libc.musl-ppc64le.so.1",
         "so:libgcc_s.so.1",
+        "so:libhyprutils.so.12",
         "so:libstdc++.so.6"
       ],
       "provides": [
@@ -85554,7 +85613,8 @@
       "versions": {
         "0.52.2-r1": 1768845073,
         "0.52.2-r2": 1780064996,
-        "0.52.2-r3": 1780404364
+        "0.52.2-r3": 1780404364,
+        "0.54.3-r0": 1780444061
       }
     },
     "hyprland-zsh-completion": {
@@ -85562,7 +85622,8 @@
       "versions": {
         "0.52.2-r1": 1768845073,
         "0.52.2-r2": 1780064996,
-        "0.52.2-r3": 1780404364
+        "0.52.2-r3": 1780404364,
+        "0.54.3-r0": 1780444061
       }
     },
     "hyprlang": {
@@ -85673,7 +85734,8 @@
     "hyprwayland-scanner": {
       "origin": "hyprwayland-scanner",
       "versions": {
-        "0.4.5-r0": 1756143288
+        "0.4.5-r0": 1756143288,
+        "0.4.6-r0": 1780444061
       },
       "dependencies": [
         "pkgconfig",
@@ -85683,14 +85745,15 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:hyprwayland-scanner=0.4.5-r0",
-        "pc:hyprwayland-scanner=0.4.5"
+        "cmd:hyprwayland-scanner=0.4.6-r0",
+        "pc:hyprwayland-scanner=0.4.6"
       ]
     },
     "hyprwayland-scanner-doc": {
       "origin": "hyprwayland-scanner",
       "versions": {
-        "0.4.5-r0": 1756143288
+        "0.4.5-r0": 1756143288,
+        "0.4.6-r0": 1780444061
       }
     },
     "i2c-tools": {
@@ -188297,7 +188360,8 @@
     "perl-extutils-builder-compiler": {
       "origin": "perl-extutils-builder-compiler",
       "versions": {
-        "0.036-r0": 1777562895
+        "0.036-r0": 1777562895,
+        "0.037-r0": 1780458958
       },
       "dependencies": [
         "perl",
@@ -188308,7 +188372,8 @@
     "perl-extutils-builder-compiler-doc": {
       "origin": "perl-extutils-builder-compiler",
       "versions": {
-        "0.036-r0": 1777562895
+        "0.036-r0": 1777562895,
+        "0.037-r0": 1780458958
       }
     },
     "perl-extutils-builder-doc": {
@@ -200874,7 +200939,8 @@
     "php85": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -200889,14 +200955,15 @@
         "php85-cli",
         "php-cli",
         "php",
-        "cmd:php85=8.5.6-r2",
-        "cmd:php=8.5.6-r2"
+        "cmd:php85=8.5.7-r0",
+        "cmd:php=8.5.7-r0"
       ]
     },
     "php85-apache2": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -200913,7 +200980,8 @@
     "php85-bcmath": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -200926,7 +200994,8 @@
     "php85-bz2": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -200940,7 +201009,8 @@
     "php85-calendar": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -200953,7 +201023,8 @@
     "php85-cgi": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -200966,14 +201037,15 @@
       ],
       "provides": [
         "php-cgi",
-        "cmd:php-cgi85=8.5.6-r2",
-        "cmd:php-cgi=8.5.6-r2"
+        "cmd:php-cgi85=8.5.7-r0",
+        "cmd:php-cgi=8.5.7-r0"
       ]
     },
     "php85-common": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "provides": [
         "php-common",
@@ -200986,7 +201058,8 @@
     "php85-ctype": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -200999,7 +201072,8 @@
     "php85-curl": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201013,7 +201087,8 @@
     "php85-dba": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201028,155 +201103,159 @@
     "php85-dbg": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
-        "!php85-apache2<8.5.6-r2",
-        "!php85-apache2>8.5.6-r2",
-        "!php85-bcmath<8.5.6-r2",
-        "!php85-bcmath>8.5.6-r2",
-        "!php85-bz2<8.5.6-r2",
-        "!php85-bz2>8.5.6-r2",
-        "!php85-calendar<8.5.6-r2",
-        "!php85-calendar>8.5.6-r2",
-        "!php85-cgi<8.5.6-r2",
-        "!php85-cgi>8.5.6-r2",
-        "!php85-ctype<8.5.6-r2",
-        "!php85-ctype>8.5.6-r2",
-        "!php85-curl<8.5.6-r2",
-        "!php85-curl>8.5.6-r2",
-        "!php85-dba<8.5.6-r2",
-        "!php85-dba>8.5.6-r2",
-        "!php85-dom<8.5.6-r2",
-        "!php85-dom>8.5.6-r2",
-        "!php85-embed<8.5.6-r2",
-        "!php85-embed>8.5.6-r2",
-        "!php85-enchant<8.5.6-r2",
-        "!php85-enchant>8.5.6-r2",
-        "!php85-exif<8.5.6-r2",
-        "!php85-exif>8.5.6-r2",
-        "!php85-ffi<8.5.6-r2",
-        "!php85-ffi>8.5.6-r2",
-        "!php85-fileinfo<8.5.6-r2",
-        "!php85-fileinfo>8.5.6-r2",
-        "!php85-fpm<8.5.6-r2",
-        "!php85-fpm>8.5.6-r2",
-        "!php85-ftp<8.5.6-r2",
-        "!php85-ftp>8.5.6-r2",
-        "!php85-gd<8.5.6-r2",
-        "!php85-gd>8.5.6-r2",
-        "!php85-gettext<8.5.6-r2",
-        "!php85-gettext>8.5.6-r2",
-        "!php85-gmp<8.5.6-r2",
-        "!php85-gmp>8.5.6-r2",
-        "!php85-iconv<8.5.6-r2",
-        "!php85-iconv>8.5.6-r2",
-        "!php85-intl<8.5.6-r2",
-        "!php85-intl>8.5.6-r2",
-        "!php85-ldap<8.5.6-r2",
-        "!php85-ldap>8.5.6-r2",
-        "!php85-litespeed<8.5.6-r2",
-        "!php85-litespeed>8.5.6-r2",
-        "!php85-mbstring<8.5.6-r2",
-        "!php85-mbstring>8.5.6-r2",
-        "!php85-mysqli<8.5.6-r2",
-        "!php85-mysqli>8.5.6-r2",
-        "!php85-mysqlnd<8.5.6-r2",
-        "!php85-mysqlnd>8.5.6-r2",
-        "!php85-odbc<8.5.6-r2",
-        "!php85-odbc>8.5.6-r2",
-        "!php85-openssl<8.5.6-r2",
-        "!php85-openssl>8.5.6-r2",
-        "!php85-pcntl<8.5.6-r2",
-        "!php85-pcntl>8.5.6-r2",
-        "!php85-pdo<8.5.6-r2",
-        "!php85-pdo>8.5.6-r2",
-        "!php85-pdo_dblib<8.5.6-r2",
-        "!php85-pdo_dblib>8.5.6-r2",
-        "!php85-pdo_mysql<8.5.6-r2",
-        "!php85-pdo_mysql>8.5.6-r2",
-        "!php85-pdo_odbc<8.5.6-r2",
-        "!php85-pdo_odbc>8.5.6-r2",
-        "!php85-pdo_pgsql<8.5.6-r2",
-        "!php85-pdo_pgsql>8.5.6-r2",
-        "!php85-pdo_sqlite<8.5.6-r2",
-        "!php85-pdo_sqlite>8.5.6-r2",
-        "!php85-pgsql<8.5.6-r2",
-        "!php85-pgsql>8.5.6-r2",
-        "!php85-phar<8.5.6-r2",
-        "!php85-phar>8.5.6-r2",
-        "!php85-phpdbg<8.5.6-r2",
-        "!php85-phpdbg>8.5.6-r2",
-        "!php85-posix<8.5.6-r2",
-        "!php85-posix>8.5.6-r2",
-        "!php85-session<8.5.6-r2",
-        "!php85-session>8.5.6-r2",
-        "!php85-shmop<8.5.6-r2",
-        "!php85-shmop>8.5.6-r2",
-        "!php85-simplexml<8.5.6-r2",
-        "!php85-simplexml>8.5.6-r2",
-        "!php85-snmp<8.5.6-r2",
-        "!php85-snmp>8.5.6-r2",
-        "!php85-soap<8.5.6-r2",
-        "!php85-soap>8.5.6-r2",
-        "!php85-sockets<8.5.6-r2",
-        "!php85-sockets>8.5.6-r2",
-        "!php85-sodium<8.5.6-r2",
-        "!php85-sodium>8.5.6-r2",
-        "!php85-sqlite3<8.5.6-r2",
-        "!php85-sqlite3>8.5.6-r2",
-        "!php85-sysvmsg<8.5.6-r2",
-        "!php85-sysvmsg>8.5.6-r2",
-        "!php85-sysvsem<8.5.6-r2",
-        "!php85-sysvsem>8.5.6-r2",
-        "!php85-sysvshm<8.5.6-r2",
-        "!php85-sysvshm>8.5.6-r2",
-        "!php85-tidy<8.5.6-r2",
-        "!php85-tidy>8.5.6-r2",
-        "!php85-tokenizer<8.5.6-r2",
-        "!php85-tokenizer>8.5.6-r2",
-        "!php85-xml<8.5.6-r2",
-        "!php85-xml>8.5.6-r2",
-        "!php85-xmlreader<8.5.6-r2",
-        "!php85-xmlreader>8.5.6-r2",
-        "!php85-xmlwriter<8.5.6-r2",
-        "!php85-xmlwriter>8.5.6-r2",
-        "!php85-xsl<8.5.6-r2",
-        "!php85-xsl>8.5.6-r2",
-        "!php85-zip<8.5.6-r2",
-        "!php85-zip>8.5.6-r2",
-        "!php85<8.5.6-r2",
-        "!php85>8.5.6-r2"
+        "!php85-apache2<8.5.7-r0",
+        "!php85-apache2>8.5.7-r0",
+        "!php85-bcmath<8.5.7-r0",
+        "!php85-bcmath>8.5.7-r0",
+        "!php85-bz2<8.5.7-r0",
+        "!php85-bz2>8.5.7-r0",
+        "!php85-calendar<8.5.7-r0",
+        "!php85-calendar>8.5.7-r0",
+        "!php85-cgi<8.5.7-r0",
+        "!php85-cgi>8.5.7-r0",
+        "!php85-ctype<8.5.7-r0",
+        "!php85-ctype>8.5.7-r0",
+        "!php85-curl<8.5.7-r0",
+        "!php85-curl>8.5.7-r0",
+        "!php85-dba<8.5.7-r0",
+        "!php85-dba>8.5.7-r0",
+        "!php85-dom<8.5.7-r0",
+        "!php85-dom>8.5.7-r0",
+        "!php85-embed<8.5.7-r0",
+        "!php85-embed>8.5.7-r0",
+        "!php85-enchant<8.5.7-r0",
+        "!php85-enchant>8.5.7-r0",
+        "!php85-exif<8.5.7-r0",
+        "!php85-exif>8.5.7-r0",
+        "!php85-ffi<8.5.7-r0",
+        "!php85-ffi>8.5.7-r0",
+        "!php85-fileinfo<8.5.7-r0",
+        "!php85-fileinfo>8.5.7-r0",
+        "!php85-fpm<8.5.7-r0",
+        "!php85-fpm>8.5.7-r0",
+        "!php85-ftp<8.5.7-r0",
+        "!php85-ftp>8.5.7-r0",
+        "!php85-gd<8.5.7-r0",
+        "!php85-gd>8.5.7-r0",
+        "!php85-gettext<8.5.7-r0",
+        "!php85-gettext>8.5.7-r0",
+        "!php85-gmp<8.5.7-r0",
+        "!php85-gmp>8.5.7-r0",
+        "!php85-iconv<8.5.7-r0",
+        "!php85-iconv>8.5.7-r0",
+        "!php85-intl<8.5.7-r0",
+        "!php85-intl>8.5.7-r0",
+        "!php85-ldap<8.5.7-r0",
+        "!php85-ldap>8.5.7-r0",
+        "!php85-litespeed<8.5.7-r0",
+        "!php85-litespeed>8.5.7-r0",
+        "!php85-mbstring<8.5.7-r0",
+        "!php85-mbstring>8.5.7-r0",
+        "!php85-mysqli<8.5.7-r0",
+        "!php85-mysqli>8.5.7-r0",
+        "!php85-mysqlnd<8.5.7-r0",
+        "!php85-mysqlnd>8.5.7-r0",
+        "!php85-odbc<8.5.7-r0",
+        "!php85-odbc>8.5.7-r0",
+        "!php85-openssl<8.5.7-r0",
+        "!php85-openssl>8.5.7-r0",
+        "!php85-pcntl<8.5.7-r0",
+        "!php85-pcntl>8.5.7-r0",
+        "!php85-pdo<8.5.7-r0",
+        "!php85-pdo>8.5.7-r0",
+        "!php85-pdo_dblib<8.5.7-r0",
+        "!php85-pdo_dblib>8.5.7-r0",
+        "!php85-pdo_mysql<8.5.7-r0",
+        "!php85-pdo_mysql>8.5.7-r0",
+        "!php85-pdo_odbc<8.5.7-r0",
+        "!php85-pdo_odbc>8.5.7-r0",
+        "!php85-pdo_pgsql<8.5.7-r0",
+        "!php85-pdo_pgsql>8.5.7-r0",
+        "!php85-pdo_sqlite<8.5.7-r0",
+        "!php85-pdo_sqlite>8.5.7-r0",
+        "!php85-pgsql<8.5.7-r0",
+        "!php85-pgsql>8.5.7-r0",
+        "!php85-phar<8.5.7-r0",
+        "!php85-phar>8.5.7-r0",
+        "!php85-phpdbg<8.5.7-r0",
+        "!php85-phpdbg>8.5.7-r0",
+        "!php85-posix<8.5.7-r0",
+        "!php85-posix>8.5.7-r0",
+        "!php85-session<8.5.7-r0",
+        "!php85-session>8.5.7-r0",
+        "!php85-shmop<8.5.7-r0",
+        "!php85-shmop>8.5.7-r0",
+        "!php85-simplexml<8.5.7-r0",
+        "!php85-simplexml>8.5.7-r0",
+        "!php85-snmp<8.5.7-r0",
+        "!php85-snmp>8.5.7-r0",
+        "!php85-soap<8.5.7-r0",
+        "!php85-soap>8.5.7-r0",
+        "!php85-sockets<8.5.7-r0",
+        "!php85-sockets>8.5.7-r0",
+        "!php85-sodium<8.5.7-r0",
+        "!php85-sodium>8.5.7-r0",
+        "!php85-sqlite3<8.5.7-r0",
+        "!php85-sqlite3>8.5.7-r0",
+        "!php85-sysvmsg<8.5.7-r0",
+        "!php85-sysvmsg>8.5.7-r0",
+        "!php85-sysvsem<8.5.7-r0",
+        "!php85-sysvsem>8.5.7-r0",
+        "!php85-sysvshm<8.5.7-r0",
+        "!php85-sysvshm>8.5.7-r0",
+        "!php85-tidy<8.5.7-r0",
+        "!php85-tidy>8.5.7-r0",
+        "!php85-tokenizer<8.5.7-r0",
+        "!php85-tokenizer>8.5.7-r0",
+        "!php85-xml<8.5.7-r0",
+        "!php85-xml>8.5.7-r0",
+        "!php85-xmlreader<8.5.7-r0",
+        "!php85-xmlreader>8.5.7-r0",
+        "!php85-xmlwriter<8.5.7-r0",
+        "!php85-xmlwriter>8.5.7-r0",
+        "!php85-xsl<8.5.7-r0",
+        "!php85-xsl>8.5.7-r0",
+        "!php85-zip<8.5.7-r0",
+        "!php85-zip>8.5.7-r0",
+        "!php85<8.5.7-r0",
+        "!php85>8.5.7-r0"
       ]
     },
     "php85-dev": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
-        "php85=8.5.6-r2",
+        "php85=8.5.7-r0",
         "autoconf",
         "pcre2-dev",
         "re2c"
       ],
       "provides": [
-        "cmd:php-config85=8.5.6-r2",
-        "cmd:php-config=8.5.6-r2",
-        "cmd:phpize85=8.5.6-r2",
-        "cmd:phpize=8.5.6-r2"
+        "cmd:php-config85=8.5.7-r0",
+        "cmd:php-config=8.5.7-r0",
+        "cmd:phpize85=8.5.7-r0",
+        "cmd:phpize=8.5.7-r0"
       ]
     },
     "php85-doc": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       }
     },
     "php85-dom": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201190,7 +201269,8 @@
     "php85-embed": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201208,7 +201288,8 @@
     "php85-enchant": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201222,7 +201303,8 @@
     "php85-exif": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201236,7 +201318,8 @@
     "php85-ffi": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201250,7 +201333,8 @@
     "php85-fileinfo": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201263,7 +201347,8 @@
     "php85-fpm": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201277,13 +201362,14 @@
       ],
       "provides": [
         "php-fpm",
-        "cmd:php-fpm85=8.5.6-r2"
+        "cmd:php-fpm85=8.5.7-r0"
       ]
     },
     "php85-ftp": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201298,7 +201384,8 @@
     "php85-gd": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201318,7 +201405,8 @@
     "php85-gettext": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201332,7 +201420,8 @@
     "php85-gmp": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201346,7 +201435,8 @@
     "php85-iconv": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201359,7 +201449,8 @@
     "php85-intl": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201377,7 +201468,8 @@
     "php85-ldap": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201392,7 +201484,8 @@
     "php85-litespeed": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201405,14 +201498,15 @@
       ],
       "provides": [
         "php-lightspeed",
-        "cmd:lsphp85=8.5.6-r2",
-        "cmd:lsphp=8.5.6-r2"
+        "cmd:lsphp85=8.5.7-r0",
+        "cmd:lsphp=8.5.7-r0"
       ]
     },
     "php85-mbstring": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201426,7 +201520,8 @@
     "php85-mysqli": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201441,7 +201536,8 @@
     "php85-mysqlnd": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201457,7 +201553,8 @@
     "php85-odbc": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201471,7 +201568,8 @@
     "php85-openssl": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201486,7 +201584,8 @@
     "php85-pcntl": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201499,7 +201598,8 @@
     "php85-pdo": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201512,7 +201612,8 @@
     "php85-pdo_dblib": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201527,7 +201628,8 @@
     "php85-pdo_mysql": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201542,7 +201644,8 @@
     "php85-pdo_odbc": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201557,7 +201660,8 @@
     "php85-pdo_pgsql": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201572,7 +201676,8 @@
     "php85-pdo_sqlite": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -201587,7 +201692,8 @@
     "php85-pear": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85",
@@ -201595,12 +201701,12 @@
       ],
       "provides": [
         "php-pear",
-        "cmd:pear85=8.5.6-r2",
-        "cmd:pear=8.5.6-r2",
-        "cmd:peardev85=8.5.6-r2",
-        "cmd:peardev=8.5.6-r2",
-        "cmd:pecl85=8.5.6-r2",
-        "cmd:pecl=8.5.6-r2"
+        "cmd:pear85=8.5.7-r0",
+        "cmd:pear=8.5.7-r0",
+        "cmd:peardev85=8.5.7-r0",
+        "cmd:peardev=8.5.7-r0",
+        "cmd:pecl85=8.5.7-r0",
+        "cmd:pecl=8.5.7-r0"
       ]
     },
     "php85-pecl-amqp": {
@@ -202062,7 +202168,8 @@
     "php85-pgsql": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -202076,7 +202183,8 @@
     "php85-phar": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -202085,16 +202193,17 @@
       ],
       "provides": [
         "php-phar",
-        "cmd:phar.phar=8.5.6-r2",
-        "cmd:phar85.phar=8.5.6-r2",
-        "cmd:phar85=8.5.6-r2",
-        "cmd:phar=8.5.6-r2"
+        "cmd:phar.phar=8.5.7-r0",
+        "cmd:phar85.phar=8.5.7-r0",
+        "cmd:phar85=8.5.7-r0",
+        "cmd:phar=8.5.7-r0"
       ]
     },
     "php85-phpdbg": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -202107,14 +202216,15 @@
       ],
       "provides": [
         "php-phpdbg",
-        "cmd:phpdbg85=8.5.6-r2",
-        "cmd:phpdbg=8.5.6-r2"
+        "cmd:phpdbg85=8.5.7-r0",
+        "cmd:phpdbg=8.5.7-r0"
       ]
     },
     "php85-posix": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -202127,7 +202237,8 @@
     "php85-session": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -202140,7 +202251,8 @@
     "php85-shmop": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -202153,7 +202265,8 @@
     "php85-simplexml": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -202167,7 +202280,8 @@
     "php85-snmp": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -202181,7 +202295,8 @@
     "php85-soap": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -202196,7 +202311,8 @@
     "php85-sockets": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -202209,7 +202325,8 @@
     "php85-sodium": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -202223,7 +202340,8 @@
     "php85-sqlite3": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -202237,7 +202355,8 @@
     "php85-sysvmsg": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -202250,7 +202369,8 @@
     "php85-sysvsem": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -202263,7 +202383,8 @@
     "php85-sysvshm": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -202276,7 +202397,8 @@
     "php85-tidy": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -202290,7 +202412,8 @@
     "php85-tokenizer": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -202303,7 +202426,8 @@
     "php85-xml": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -202317,7 +202441,8 @@
     "php85-xmlreader": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -202332,7 +202457,8 @@
     "php85-xmlwriter": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -202346,7 +202472,8 @@
     "php85-xsl": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -202363,7 +202490,8 @@
     "php85-zip": {
       "origin": "php85",
       "versions": {
-        "8.5.6-r2": 1778199455
+        "8.5.6-r2": 1778199455,
+        "8.5.7-r0": 1780458860
       },
       "dependencies": [
         "php85-common",
@@ -237169,29 +237297,32 @@
       "origin": "py3-python-multipart",
       "versions": {
         "0.0.28-r0": 1778542779,
-        "0.0.29-r0": 1779658151
+        "0.0.29-r0": 1779658151,
+        "0.0.30-r0": 1780458998
       },
       "dependencies": [
         "python3",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:multipart=0.0.29-r0",
-        "py3.14:python_multipart=0.0.29-r0"
+        "py3.14:multipart=0.0.30-r0",
+        "py3.14:python_multipart=0.0.30-r0"
       ]
     },
     "py3-python-multipart-doc": {
       "origin": "py3-python-multipart",
       "versions": {
         "0.0.28-r0": 1778542779,
-        "0.0.29-r0": 1779658151
+        "0.0.29-r0": 1779658151,
+        "0.0.30-r0": 1780458998
       }
     },
     "py3-python-multipart-pyc": {
       "origin": "py3-python-multipart",
       "versions": {
         "0.0.28-r0": 1778542779,
-        "0.0.29-r0": 1779658151
+        "0.0.29-r0": 1779658151,
+        "0.0.30-r0": 1780458998
       },
       "dependencies": [
         "python3~3.14"
@@ -264530,7 +264661,8 @@
     "salt": {
       "origin": "salt",
       "versions": {
-        "3007.13-r2": 1777174768
+        "3007.13-r2": 1777174768,
+        "3007.13-r3": 1780454216
       },
       "dependencies": [
         "procps",
@@ -264553,30 +264685,32 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:salt-cloud=3007.13-r2",
-        "cmd:salt-pip=3007.13-r2",
-        "cmd:salt-ssh=3007.13-r2",
-        "cmd:spm=3007.13-r2",
-        "py3.14:salt=3007.13-r2"
+        "cmd:salt-cloud=3007.13-r3",
+        "cmd:salt-pip=3007.13-r3",
+        "cmd:salt-ssh=3007.13-r3",
+        "cmd:spm=3007.13-r3",
+        "py3.14:salt=3007.13-r3"
       ]
     },
     "salt-api": {
       "origin": "salt",
       "versions": {
-        "3007.13-r2": 1777174768
+        "3007.13-r2": 1777174768,
+        "3007.13-r3": 1780454216
       },
       "dependencies": [
         "salt-master",
         "py3-cherrypy"
       ],
       "provides": [
-        "cmd:salt-api=3007.13-r2"
+        "cmd:salt-api=3007.13-r3"
       ]
     },
     "salt-api-openrc": {
       "origin": "salt",
       "versions": {
-        "3007.13-r2": 1777174768
+        "3007.13-r2": 1777174768,
+        "3007.13-r3": 1780454216
       },
       "dependencies": [
         "openrc"
@@ -264585,7 +264719,8 @@
     "salt-doc": {
       "origin": "salt",
       "versions": {
-        "3007.13-r2": 1777174768
+        "3007.13-r2": 1777174768,
+        "3007.13-r3": 1780454216
       }
     },
     "salt-lts": {
@@ -264741,23 +264876,25 @@
     "salt-master": {
       "origin": "salt",
       "versions": {
-        "3007.13-r2": 1777174768
+        "3007.13-r2": 1777174768,
+        "3007.13-r3": 1780454216
       },
       "dependencies": [
         "salt"
       ],
       "provides": [
-        "cmd:salt-cp=3007.13-r2",
-        "cmd:salt-key=3007.13-r2",
-        "cmd:salt-master=3007.13-r2",
-        "cmd:salt-run=3007.13-r2",
-        "cmd:salt=3007.13-r2"
+        "cmd:salt-cp=3007.13-r3",
+        "cmd:salt-key=3007.13-r3",
+        "cmd:salt-master=3007.13-r3",
+        "cmd:salt-run=3007.13-r3",
+        "cmd:salt=3007.13-r3"
       ]
     },
     "salt-master-openrc": {
       "origin": "salt",
       "versions": {
-        "3007.13-r2": 1777174768
+        "3007.13-r2": 1777174768,
+        "3007.13-r3": 1780454216
       },
       "dependencies": [
         "openrc"
@@ -264766,21 +264903,23 @@
     "salt-minion": {
       "origin": "salt",
       "versions": {
-        "3007.13-r2": 1777174768
+        "3007.13-r2": 1777174768,
+        "3007.13-r3": 1780454216
       },
       "dependencies": [
         "salt"
       ],
       "provides": [
-        "cmd:salt-call=3007.13-r2",
-        "cmd:salt-minion=3007.13-r2",
-        "cmd:salt-proxy=3007.13-r2"
+        "cmd:salt-call=3007.13-r3",
+        "cmd:salt-minion=3007.13-r3",
+        "cmd:salt-proxy=3007.13-r3"
       ]
     },
     "salt-minion-openrc": {
       "origin": "salt",
       "versions": {
-        "3007.13-r2": 1777174768
+        "3007.13-r2": 1777174768,
+        "3007.13-r3": 1780454216
       },
       "dependencies": [
         "openrc"
@@ -264789,7 +264928,8 @@
     "salt-pyc": {
       "origin": "salt",
       "versions": {
-        "3007.13-r2": 1777174768
+        "3007.13-r2": 1777174768,
+        "3007.13-r3": 1780454216
       },
       "dependencies": [
         "python3~3.14"
@@ -264798,19 +264938,21 @@
     "salt-syndic": {
       "origin": "salt",
       "versions": {
-        "3007.13-r2": 1777174768
+        "3007.13-r2": 1777174768,
+        "3007.13-r3": 1780454216
       },
       "dependencies": [
         "salt-master"
       ],
       "provides": [
-        "cmd:salt-syndic=3007.13-r2"
+        "cmd:salt-syndic=3007.13-r3"
       ]
     },
     "salt-syndic-openrc": {
       "origin": "salt",
       "versions": {
-        "3007.13-r2": 1777174768
+        "3007.13-r2": 1777174768,
+        "3007.13-r3": 1780454216
       },
       "dependencies": [
         "openrc"
@@ -307045,6 +307187,44 @@
       "versions": {
         "1.1.1-r0": 1780443709
       }
+    },
+    "hyprwire": {
+      "origin": "hyprwire",
+      "versions": {
+        "0.3.1-r0": 1780444061
+      },
+      "dependencies": [
+        "so:libc.musl-ppc64le.so.1",
+        "so:libffi.so.8",
+        "so:libgcc_s.so.1",
+        "so:libhyprutils.so.12",
+        "so:libpugixml.so.1",
+        "so:libstdc++.so.6"
+      ],
+      "provides": [
+        "cmd:hyprwire-scanner=0.3.1-r0",
+        "so:libhyprwire.so.3=0.3.1"
+      ]
+    },
+    "hyprwire-dev": {
+      "origin": "hyprwire",
+      "versions": {
+        "0.3.1-r0": 1780444061
+      },
+      "dependencies": [
+        "hyprwire=0.3.1-r0",
+        "pkgconfig"
+      ],
+      "provides": [
+        "pc:hyprwire-scanner=0",
+        "pc:hyprwire=0.3.1"
+      ]
+    },
+    "hyprwire-doc": {
+      "origin": "hyprwire",
+      "versions": {
+        "0.3.1-r0": 1780444061
+      }
     }
   },
   "provide": {
@@ -331184,6 +331364,10 @@
       "libhyprutils.so.12": {
         "package": "hyprutils",
         "version": "0.13.1"
+      },
+      "libhyprwire.so.3": {
+        "package": "hyprwire",
+        "version": "0.3.1"
       }
     },
     "package": {
@@ -331565,47 +331749,47 @@
       },
       "unit": {
         "package": "freeunit",
-        "version": "1.35.4-r0"
+        "version": "1.35.5-r0"
       },
       "unit-dev": {
         "package": "freeunit-dev",
-        "version": "1.35.4-r0"
+        "version": "1.35.5-r0"
       },
       "unit-doc": {
         "package": "freeunit-doc",
-        "version": "1.35.4-r0"
+        "version": "1.35.5-r0"
       },
       "unit-openrc": {
         "package": "freeunit-openrc",
-        "version": "1.35.4-r0"
+        "version": "1.35.5-r0"
       },
       "unit-perl": {
         "package": "freeunit-perl",
-        "version": "1.35.4-r0"
+        "version": "1.35.5-r0"
       },
       "unit-php83": {
         "package": "freeunit-php83",
-        "version": "1.35.4-r0"
+        "version": "1.35.5-r0"
       },
       "unit-php84": {
         "package": "freeunit-php84",
-        "version": "1.35.4-r0"
+        "version": "1.35.5-r0"
       },
       "unit-php85": {
         "package": "freeunit-php85",
-        "version": "1.35.4-r0"
+        "version": "1.35.5-r0"
       },
       "unit-python3": {
         "package": "freeunit-python3",
-        "version": "1.35.4-r0"
+        "version": "1.35.5-r0"
       },
       "unit-ruby": {
         "package": "freeunit-ruby",
-        "version": "1.35.4-r0"
+        "version": "1.35.5-r0"
       },
       "unit-tools": {
         "package": "freeunit-tools",
-        "version": "1.35.4-r0"
+        "version": "1.35.5-r0"
       },
       "exfat": {
         "package": "fuse-exfat",

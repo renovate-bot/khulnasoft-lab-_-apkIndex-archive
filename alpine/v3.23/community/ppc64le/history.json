@@ -49575,7 +49575,8 @@
     "firefox": {
       "origin": "firefox",
       "versions": {
-        "145.0-r0": 1763057803
+        "145.0-r0": 1763057803,
+        "151.0.3-r0": 1780440189
       },
       "dependencies": [
         "ffmpeg7-libavcodec",
@@ -49628,7 +49629,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:firefox=145.0-r0",
+        "cmd:firefox=151.0.3-r0",
         "so:firefox:libgkcodecs.so=0",
         "so:firefox:liblgpllibs.so=0",
         "so:firefox:libmozavcodec.so=0",
@@ -49643,11 +49644,12 @@
     "firefox-dbg": {
       "origin": "firefox",
       "versions": {
-        "145.0-r0": 1763057803
+        "145.0-r0": 1763057803,
+        "151.0.3-r0": 1780440189
       },
       "dependencies": [
-        "!firefox<145.0-r0",
-        "!firefox>145.0-r0"
+        "!firefox<151.0.3-r0",
+        "!firefox>151.0.3-r0"
       ]
     },
     "firefox-esr": {
@@ -49732,7 +49734,8 @@
     "firefox-intl": {
       "origin": "firefox",
       "versions": {
-        "145.0-r0": 1763057803
+        "145.0-r0": 1763057803,
+        "151.0.3-r0": 1780440189
       },
       "dependencies": [
         "icu-data-full"
@@ -297902,6 +297905,27 @@
       "versions": {
         "1.03-r0": 1780224317
       }
+    },
+    "py3-mozshellutil": {
+      "origin": "py3-mozshellutil",
+      "versions": {
+        "1.0.0-r0": 1780440188
+      },
+      "dependencies": [
+        "python3~3.12"
+      ],
+      "provides": [
+        "py3.12:mozshellutil=1.0.0-r0"
+      ]
+    },
+    "py3-mozshellutil-pyc": {
+      "origin": "py3-mozshellutil",
+      "versions": {
+        "1.0.0-r0": 1780440188
+      },
+      "dependencies": [
+        "python3~3.12"
+      ]
     }
   },
   "provide": {
