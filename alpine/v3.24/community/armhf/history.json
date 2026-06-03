@@ -40002,7 +40002,8 @@
     "fast_float": {
       "origin": "fast_float",
       "versions": {
-        "8.2.5-r0": 1776445246
+        "8.2.5-r0": 1776445246,
+        "8.2.6-r0": 1780488069
       }
     },
     "fastfetch": {
@@ -40855,7 +40856,8 @@
     "feedbackd": {
       "origin": "feedbackd",
       "versions": {
-        "0.8.9-r1": 1770916777
+        "0.8.9-r1": 1770916777,
+        "0.8.9-r2": 1780488069
       },
       "dependencies": [
         "dbus",
@@ -40871,18 +40873,19 @@
         "so:libjson-glib-1.0.so.0"
       ],
       "provides": [
-        "cmd:fbcli=0.8.9-r1",
-        "cmd:fbd-theme-validate=0.8.9-r1",
+        "cmd:fbcli=0.8.9-r2",
+        "cmd:fbd-theme-validate=0.8.9-r2",
         "so:libfeedback-0.0.so.0=0"
       ]
     },
     "feedbackd-dev": {
       "origin": "feedbackd",
       "versions": {
-        "0.8.9-r1": 1770916777
+        "0.8.9-r1": 1770916777,
+        "0.8.9-r2": 1780488069
       },
       "dependencies": [
-        "feedbackd=0.8.9-r1",
+        "feedbackd=0.8.9-r2",
         "pc:gio-2.0>=2.50.0",
         "pc:gio-unix-2.0>=2.50.0",
         "pc:glib-2.0>=2.50.0",
@@ -40901,19 +40904,22 @@
     "feedbackd-doc": {
       "origin": "feedbackd",
       "versions": {
-        "0.8.9-r1": 1770916777
+        "0.8.9-r1": 1770916777,
+        "0.8.9-r2": 1780488069
       }
     },
     "feedbackd-systemd": {
       "origin": "feedbackd",
       "versions": {
-        "0.8.9-r1": 1770916777
+        "0.8.9-r1": 1770916777,
+        "0.8.9-r2": 1780488069
       }
     },
     "feedbackd-udev": {
       "origin": "feedbackd",
       "versions": {
-        "0.8.9-r1": 1770916777
+        "0.8.9-r1": 1770916777,
+        "0.8.9-r2": 1780488069
       }
     },
     "feh": {
@@ -99566,7 +99572,8 @@
     "librsvg": {
       "origin": "librsvg",
       "versions": {
-        "2.62.2-r0": 1778930288
+        "2.62.2-r0": 1778930288,
+        "2.62.3-r0": 1780488070
       },
       "dependencies": [
         "/bin/sh",
@@ -99583,29 +99590,31 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "so:librsvg-2.so.2=2.62.2"
+        "so:librsvg-2.so.2=2.62.3"
       ]
     },
     "librsvg-dbg": {
       "origin": "librsvg",
       "versions": {
-        "2.62.2-r0": 1778930288
+        "2.62.2-r0": 1778930288,
+        "2.62.3-r0": 1780488070
       },
       "dependencies": [
-        "!librsvg<2.62.2-r0",
-        "!librsvg>2.62.2-r0",
-        "!rsvg-convert<2.62.2-r0",
-        "!rsvg-convert>2.62.2-r0"
+        "!librsvg<2.62.3-r0",
+        "!librsvg>2.62.3-r0",
+        "!rsvg-convert<2.62.3-r0",
+        "!rsvg-convert>2.62.3-r0"
       ]
     },
     "librsvg-dev": {
       "origin": "librsvg",
       "versions": {
-        "2.62.2-r0": 1778930288
+        "2.62.2-r0": 1778930288,
+        "2.62.3-r0": 1780488070
       },
       "dependencies": [
-        "rsvg-convert=2.62.2-r0",
-        "librsvg=2.62.2-r0",
+        "rsvg-convert=2.62.3-r0",
+        "librsvg=2.62.3-r0",
         "pc:cairo-gobject>=1.18.0",
         "pc:cairo-png>=1.18.0",
         "pc:cairo>=1.18.0",
@@ -99622,13 +99631,14 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:librsvg-2.0=2.62.2"
+        "pc:librsvg-2.0=2.62.3"
       ]
     },
     "librsvg-doc": {
       "origin": "librsvg",
       "versions": {
-        "2.62.2-r0": 1778930288
+        "2.62.2-r0": 1778930288,
+        "2.62.3-r0": 1780488070
       }
     },
     "librttopo": {
@@ -105564,32 +105574,35 @@
     "llhttp": {
       "origin": "llhttp",
       "versions": {
-        "9.3.1-r0": 1773003443
+        "9.3.1-r0": 1773003443,
+        "9.4.1-r0": 1780494167
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "so:libllhttp.so.9.3=9.3.1"
+        "so:libllhttp.so.9.4=9.4.1"
       ]
     },
     "llhttp-dev": {
       "origin": "llhttp",
       "versions": {
-        "9.3.1-r0": 1773003443
+        "9.3.1-r0": 1773003443,
+        "9.4.1-r0": 1780494167
       },
       "dependencies": [
-        "llhttp=9.3.1-r0",
+        "llhttp=9.4.1-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libllhttp=9.3.1"
+        "pc:libllhttp=9.4.1"
       ]
     },
     "llhttp-doc": {
       "origin": "llhttp",
       "versions": {
-        "9.3.1-r0": 1773003443
+        "9.3.1-r0": 1773003443,
+        "9.4.1-r0": 1780494167
       }
     },
     "llvm15": {
@@ -119854,7 +119867,8 @@
     "mutter": {
       "origin": "mutter",
       "versions": {
-        "50.1-r0": 1776257329
+        "50.1-r0": 1776257329,
+        "50.2-r0": 1780488070
       },
       "dependencies": [
         "gnome-settings-daemon",
@@ -119869,7 +119883,6 @@
         "so:libXau.so.6",
         "so:libXcomposite.so.1",
         "so:libXcursor.so.1",
-        "so:libXdamage.so.1",
         "so:libXext.so.6",
         "so:libXfixes.so.3",
         "so:libXi.so.6",
@@ -119915,9 +119928,9 @@
         "so:libxkbregistry.so.0"
       ],
       "provides": [
-        "cmd:gdctl=50.1-r0",
-        "cmd:gnome-service-client=50.1-r0",
-        "cmd:mutter=50.1-r0",
+        "cmd:gdctl=50.2-r0",
+        "cmd:gnome-service-client=50.2-r0",
+        "cmd:mutter=50.2-r0",
         "so:libmutter-18.so.0=0.0.0",
         "so:libmutter-clutter-18.so.0=0.0.0",
         "so:libmutter-cogl-18.so.0=0.0.0",
@@ -119927,20 +119940,22 @@
     "mutter-dbg": {
       "origin": "mutter",
       "versions": {
-        "50.1-r0": 1776257329
+        "50.1-r0": 1776257329,
+        "50.2-r0": 1780488070
       },
       "dependencies": [
-        "!mutter<50.1-r0",
-        "!mutter>50.1-r0"
+        "!mutter<50.2-r0",
+        "!mutter>50.2-r0"
       ]
     },
     "mutter-dev": {
       "origin": "mutter",
       "versions": {
-        "50.1-r0": 1776257329
+        "50.1-r0": 1776257329,
+        "50.2-r0": 1780488070
       },
       "dependencies": [
-        "mutter=50.1-r0",
+        "mutter=50.2-r0",
         "pc:atk>=2.5.3",
         "pc:cairo>=1.10.0",
         "pc:colord>=1.4.5",
@@ -119993,34 +120008,38 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:libmutter-18=50.1",
-        "pc:mutter-clutter-18=50.1",
-        "pc:mutter-cogl-18=50.1",
-        "pc:mutter-mtk-18=50.1"
+        "pc:libmutter-18=50.2",
+        "pc:mutter-clutter-18=50.2",
+        "pc:mutter-cogl-18=50.2",
+        "pc:mutter-mtk-18=50.2"
       ]
     },
     "mutter-doc": {
       "origin": "mutter",
       "versions": {
-        "50.1-r0": 1776257329
+        "50.1-r0": 1776257329,
+        "50.2-r0": 1780488070
       }
     },
     "mutter-lang": {
       "origin": "mutter",
       "versions": {
-        "50.1-r0": 1776257329
+        "50.1-r0": 1776257329,
+        "50.2-r0": 1780488070
       }
     },
     "mutter-schemas": {
       "origin": "mutter",
       "versions": {
-        "50.1-r0": 1776257329
+        "50.1-r0": 1776257329,
+        "50.2-r0": 1780488070
       }
     },
     "mutter-udev": {
       "origin": "mutter",
       "versions": {
-        "50.1-r0": 1776257329
+        "50.1-r0": 1776257329,
+        "50.2-r0": 1780488070
       }
     },
     "mwm": {
@@ -221542,7 +221561,8 @@
     "rsvg-convert": {
       "origin": "librsvg",
       "versions": {
-        "2.62.2-r0": 1778930288
+        "2.62.2-r0": 1778930288,
+        "2.62.3-r0": 1780488070
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -221559,13 +221579,14 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:rsvg-convert=2.62.2-r0"
+        "cmd:rsvg-convert=2.62.3-r0"
       ]
     },
     "rsvg-convert-doc": {
       "origin": "librsvg",
       "versions": {
-        "2.62.2-r0": 1778930288
+        "2.62.2-r0": 1778930288,
+        "2.62.3-r0": 1780488070
       }
     },
     "rt4": {
@@ -274828,7 +274849,7 @@
       },
       "librsvg-2.so.2": {
         "package": "librsvg",
-        "version": "2.62.2"
+        "version": "2.62.3"
       },
       "librttopo.so.1": {
         "package": "librttopo",
@@ -281157,6 +281178,10 @@
       "libhyprwire.so.3": {
         "package": "hyprwire",
         "version": "0.3.1"
+      },
+      "libllhttp.so.9.4": {
+        "package": "llhttp",
+        "version": "9.4.1"
       }
     },
     "package": {
