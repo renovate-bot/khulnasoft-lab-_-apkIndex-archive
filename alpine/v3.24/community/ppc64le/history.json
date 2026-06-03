@@ -18757,7 +18757,8 @@
       "origin": "bpftrace",
       "versions": {
         "0.25.1-r0": 1774530358,
-        "0.26.0-r0": 1780045003
+        "0.26.0-r0": 1780045003,
+        "0.26.1-r0": 1780503780
       },
       "dependencies": [
         "so:libLLVM.so.20.1",
@@ -18774,22 +18775,24 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:bpftrace-aotrt=0.26.0-r0",
-        "cmd:bpftrace=0.26.0-r0"
+        "cmd:bpftrace-aotrt=0.26.1-r0",
+        "cmd:bpftrace=0.26.1-r0"
       ]
     },
     "bpftrace-doc": {
       "origin": "bpftrace",
       "versions": {
         "0.25.1-r0": 1774530358,
-        "0.26.0-r0": 1780045003
+        "0.26.0-r0": 1780045003,
+        "0.26.1-r0": 1780503780
       }
     },
     "bpftrace-tools": {
       "origin": "bpftrace",
       "versions": {
         "0.25.1-r0": 1774530358,
-        "0.26.0-r0": 1780045003
+        "0.26.0-r0": 1780045003,
+        "0.26.1-r0": 1780503780
       },
       "dependencies": [
         "bpftrace"
@@ -18799,7 +18802,8 @@
       "origin": "bpftrace",
       "versions": {
         "0.25.1-r0": 1774530358,
-        "0.26.0-r0": 1780045003
+        "0.26.0-r0": 1780045003,
+        "0.26.1-r0": 1780503780
       }
     },
     "brasero": {
@@ -150122,7 +150126,8 @@
     "mympd": {
       "origin": "mympd",
       "versions": {
-        "25.0.2-r0": 1777808851
+        "25.0.2-r0": 1777808851,
+        "25.1.1-r0": 1780503758
       },
       "dependencies": [
         "newt",
@@ -150136,21 +150141,23 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:mympd-config=25.0.2-r0",
-        "cmd:mympd-script=25.0.2-r0",
-        "cmd:mympd=25.0.2-r0"
+        "cmd:mympd-config=25.1.1-r0",
+        "cmd:mympd-script=25.1.1-r0",
+        "cmd:mympd=25.1.1-r0"
       ]
     },
     "mympd-doc": {
       "origin": "mympd",
       "versions": {
-        "25.0.2-r0": 1777808851
+        "25.0.2-r0": 1777808851,
+        "25.1.1-r0": 1780503758
       }
     },
     "mympd-openrc": {
       "origin": "mympd",
       "versions": {
-        "25.0.2-r0": 1777808851
+        "25.0.2-r0": 1777808851,
+        "25.1.1-r0": 1780503758
       }
     },
     "mynewt-newt": {
@@ -188857,7 +188864,8 @@
     "perl-future-io": {
       "origin": "perl-future-io",
       "versions": {
-        "0.19-r1": 1771160091
+        "0.19-r1": 1771160091,
+        "0.23-r0": 1780503818
       },
       "dependencies": [
         "perl",
@@ -188868,7 +188876,8 @@
     "perl-future-io-doc": {
       "origin": "perl-future-io",
       "versions": {
-        "0.19-r1": 1771160091
+        "0.19-r1": 1771160091,
+        "0.23-r0": 1780503818
       }
     },
     "perl-future-mojo": {
@@ -191023,7 +191032,8 @@
     "perl-minion": {
       "origin": "perl-minion",
       "versions": {
-        "11.0-r1": 1771160091
+        "11.0-r1": 1771160091,
+        "12.0-r0": 1780504030
       },
       "dependencies": [
         "perl",
@@ -191034,10 +191044,11 @@
     "perl-minion-backend-pg": {
       "origin": "perl-minion",
       "versions": {
-        "11.0-r1": 1771160091
+        "11.0-r1": 1771160091,
+        "12.0-r0": 1780504030
       },
       "dependencies": [
-        "perl-minion=11.0-r1",
+        "perl-minion=12.0-r0",
         "perl-mojo-pg"
       ]
     },
@@ -191079,7 +191090,8 @@
     "perl-minion-doc": {
       "origin": "perl-minion",
       "versions": {
-        "11.0-r1": 1771160091
+        "11.0-r1": 1771160091,
+        "12.0-r0": 1780504030
       }
     },
     "perl-mixin-event-dispatch": {
@@ -194578,7 +194590,8 @@
     "perl-test-future-io-impl": {
       "origin": "perl-test-future-io-impl",
       "versions": {
-        "0.17-r1": 1771160091
+        "0.17-r1": 1771160091,
+        "0.21-r0": 1780503818
       },
       "dependencies": [
         "perl"
@@ -194587,7 +194600,8 @@
     "perl-test-future-io-impl-doc": {
       "origin": "perl-test-future-io-impl",
       "versions": {
-        "0.17-r1": 1771160091
+        "0.17-r1": 1771160091,
+        "0.21-r0": 1780503818
       }
     },
     "perl-test-hexstring": {
@@ -198863,7 +198877,8 @@
     "php83-pecl-msgpack": {
       "origin": "php83-pecl-msgpack",
       "versions": {
-        "3.0.0-r0": 1727349755
+        "3.0.0-r0": 1727349755,
+        "3.0.1-r0": 1780513864
       },
       "dependencies": [
         "php83-session",
@@ -198871,7 +198886,7 @@
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "php83-msgpack=3.0.0-r0"
+        "php83-msgpack=3.0.1-r0"
       ]
     },
     "php83-pecl-opentelemetry": {
@@ -199093,7 +199108,8 @@
       "origin": "php83-pecl-xlswriter",
       "versions": {
         "1.5.8-r0": 1731288807,
-        "2.0.1-r0": 1779800443
+        "2.0.1-r0": 1779800443,
+        "2.0.2-r0": 1780513908
       },
       "dependencies": [
         "php83-common",
@@ -199450,7 +199466,8 @@
     "php84": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -199465,13 +199482,14 @@
         "php84-cli",
         "php-cli",
         "php",
-        "cmd:php84=8.4.21-r2"
+        "cmd:php84=8.4.22-r0"
       ]
     },
     "php84-apache2": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -199488,7 +199506,8 @@
     "php84-bcmath": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -199501,7 +199520,8 @@
     "php84-bz2": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -199515,7 +199535,8 @@
     "php84-calendar": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -199528,7 +199549,8 @@
     "php84-cgi": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -199541,13 +199563,14 @@
       ],
       "provides": [
         "php-cgi",
-        "cmd:php-cgi84=8.4.21-r2"
+        "cmd:php-cgi84=8.4.22-r0"
       ]
     },
     "php84-common": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "provides": [
         "php-common",
@@ -199560,7 +199583,8 @@
     "php84-ctype": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -199573,7 +199597,8 @@
     "php84-curl": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -199587,7 +199612,8 @@
     "php84-dba": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -199602,155 +199628,159 @@
     "php84-dbg": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
-        "!php84-apache2<8.4.21-r2",
-        "!php84-apache2>8.4.21-r2",
-        "!php84-bcmath<8.4.21-r2",
-        "!php84-bcmath>8.4.21-r2",
-        "!php84-bz2<8.4.21-r2",
-        "!php84-bz2>8.4.21-r2",
-        "!php84-calendar<8.4.21-r2",
-        "!php84-calendar>8.4.21-r2",
-        "!php84-cgi<8.4.21-r2",
-        "!php84-cgi>8.4.21-r2",
-        "!php84-ctype<8.4.21-r2",
-        "!php84-ctype>8.4.21-r2",
-        "!php84-curl<8.4.21-r2",
-        "!php84-curl>8.4.21-r2",
-        "!php84-dba<8.4.21-r2",
-        "!php84-dba>8.4.21-r2",
-        "!php84-dom<8.4.21-r2",
-        "!php84-dom>8.4.21-r2",
-        "!php84-embed<8.4.21-r2",
-        "!php84-embed>8.4.21-r2",
-        "!php84-enchant<8.4.21-r2",
-        "!php84-enchant>8.4.21-r2",
-        "!php84-exif<8.4.21-r2",
-        "!php84-exif>8.4.21-r2",
-        "!php84-ffi<8.4.21-r2",
-        "!php84-ffi>8.4.21-r2",
-        "!php84-fileinfo<8.4.21-r2",
-        "!php84-fileinfo>8.4.21-r2",
-        "!php84-fpm<8.4.21-r2",
-        "!php84-fpm>8.4.21-r2",
-        "!php84-ftp<8.4.21-r2",
-        "!php84-ftp>8.4.21-r2",
-        "!php84-gd<8.4.21-r2",
-        "!php84-gd>8.4.21-r2",
-        "!php84-gettext<8.4.21-r2",
-        "!php84-gettext>8.4.21-r2",
-        "!php84-gmp<8.4.21-r2",
-        "!php84-gmp>8.4.21-r2",
-        "!php84-iconv<8.4.21-r2",
-        "!php84-iconv>8.4.21-r2",
-        "!php84-intl<8.4.21-r2",
-        "!php84-intl>8.4.21-r2",
-        "!php84-ldap<8.4.21-r2",
-        "!php84-ldap>8.4.21-r2",
-        "!php84-litespeed<8.4.21-r2",
-        "!php84-litespeed>8.4.21-r2",
-        "!php84-mbstring<8.4.21-r2",
-        "!php84-mbstring>8.4.21-r2",
-        "!php84-mysqli<8.4.21-r2",
-        "!php84-mysqli>8.4.21-r2",
-        "!php84-mysqlnd<8.4.21-r2",
-        "!php84-mysqlnd>8.4.21-r2",
-        "!php84-odbc<8.4.21-r2",
-        "!php84-odbc>8.4.21-r2",
-        "!php84-opcache<8.4.21-r2",
-        "!php84-opcache>8.4.21-r2",
-        "!php84-openssl<8.4.21-r2",
-        "!php84-openssl>8.4.21-r2",
-        "!php84-pcntl<8.4.21-r2",
-        "!php84-pcntl>8.4.21-r2",
-        "!php84-pdo<8.4.21-r2",
-        "!php84-pdo>8.4.21-r2",
-        "!php84-pdo_dblib<8.4.21-r2",
-        "!php84-pdo_dblib>8.4.21-r2",
-        "!php84-pdo_mysql<8.4.21-r2",
-        "!php84-pdo_mysql>8.4.21-r2",
-        "!php84-pdo_odbc<8.4.21-r2",
-        "!php84-pdo_odbc>8.4.21-r2",
-        "!php84-pdo_pgsql<8.4.21-r2",
-        "!php84-pdo_pgsql>8.4.21-r2",
-        "!php84-pdo_sqlite<8.4.21-r2",
-        "!php84-pdo_sqlite>8.4.21-r2",
-        "!php84-pgsql<8.4.21-r2",
-        "!php84-pgsql>8.4.21-r2",
-        "!php84-phar<8.4.21-r2",
-        "!php84-phar>8.4.21-r2",
-        "!php84-phpdbg<8.4.21-r2",
-        "!php84-phpdbg>8.4.21-r2",
-        "!php84-posix<8.4.21-r2",
-        "!php84-posix>8.4.21-r2",
-        "!php84-session<8.4.21-r2",
-        "!php84-session>8.4.21-r2",
-        "!php84-shmop<8.4.21-r2",
-        "!php84-shmop>8.4.21-r2",
-        "!php84-simplexml<8.4.21-r2",
-        "!php84-simplexml>8.4.21-r2",
-        "!php84-snmp<8.4.21-r2",
-        "!php84-snmp>8.4.21-r2",
-        "!php84-soap<8.4.21-r2",
-        "!php84-soap>8.4.21-r2",
-        "!php84-sockets<8.4.21-r2",
-        "!php84-sockets>8.4.21-r2",
-        "!php84-sodium<8.4.21-r2",
-        "!php84-sodium>8.4.21-r2",
-        "!php84-sqlite3<8.4.21-r2",
-        "!php84-sqlite3>8.4.21-r2",
-        "!php84-sysvmsg<8.4.21-r2",
-        "!php84-sysvmsg>8.4.21-r2",
-        "!php84-sysvsem<8.4.21-r2",
-        "!php84-sysvsem>8.4.21-r2",
-        "!php84-sysvshm<8.4.21-r2",
-        "!php84-sysvshm>8.4.21-r2",
-        "!php84-tidy<8.4.21-r2",
-        "!php84-tidy>8.4.21-r2",
-        "!php84-tokenizer<8.4.21-r2",
-        "!php84-tokenizer>8.4.21-r2",
-        "!php84-xml<8.4.21-r2",
-        "!php84-xml>8.4.21-r2",
-        "!php84-xmlreader<8.4.21-r2",
-        "!php84-xmlreader>8.4.21-r2",
-        "!php84-xmlwriter<8.4.21-r2",
-        "!php84-xmlwriter>8.4.21-r2",
-        "!php84-xsl<8.4.21-r2",
-        "!php84-xsl>8.4.21-r2",
-        "!php84-zip<8.4.21-r2",
-        "!php84-zip>8.4.21-r2",
-        "!php84<8.4.21-r2",
-        "!php84>8.4.21-r2"
+        "!php84-apache2<8.4.22-r0",
+        "!php84-apache2>8.4.22-r0",
+        "!php84-bcmath<8.4.22-r0",
+        "!php84-bcmath>8.4.22-r0",
+        "!php84-bz2<8.4.22-r0",
+        "!php84-bz2>8.4.22-r0",
+        "!php84-calendar<8.4.22-r0",
+        "!php84-calendar>8.4.22-r0",
+        "!php84-cgi<8.4.22-r0",
+        "!php84-cgi>8.4.22-r0",
+        "!php84-ctype<8.4.22-r0",
+        "!php84-ctype>8.4.22-r0",
+        "!php84-curl<8.4.22-r0",
+        "!php84-curl>8.4.22-r0",
+        "!php84-dba<8.4.22-r0",
+        "!php84-dba>8.4.22-r0",
+        "!php84-dom<8.4.22-r0",
+        "!php84-dom>8.4.22-r0",
+        "!php84-embed<8.4.22-r0",
+        "!php84-embed>8.4.22-r0",
+        "!php84-enchant<8.4.22-r0",
+        "!php84-enchant>8.4.22-r0",
+        "!php84-exif<8.4.22-r0",
+        "!php84-exif>8.4.22-r0",
+        "!php84-ffi<8.4.22-r0",
+        "!php84-ffi>8.4.22-r0",
+        "!php84-fileinfo<8.4.22-r0",
+        "!php84-fileinfo>8.4.22-r0",
+        "!php84-fpm<8.4.22-r0",
+        "!php84-fpm>8.4.22-r0",
+        "!php84-ftp<8.4.22-r0",
+        "!php84-ftp>8.4.22-r0",
+        "!php84-gd<8.4.22-r0",
+        "!php84-gd>8.4.22-r0",
+        "!php84-gettext<8.4.22-r0",
+        "!php84-gettext>8.4.22-r0",
+        "!php84-gmp<8.4.22-r0",
+        "!php84-gmp>8.4.22-r0",
+        "!php84-iconv<8.4.22-r0",
+        "!php84-iconv>8.4.22-r0",
+        "!php84-intl<8.4.22-r0",
+        "!php84-intl>8.4.22-r0",
+        "!php84-ldap<8.4.22-r0",
+        "!php84-ldap>8.4.22-r0",
+        "!php84-litespeed<8.4.22-r0",
+        "!php84-litespeed>8.4.22-r0",
+        "!php84-mbstring<8.4.22-r0",
+        "!php84-mbstring>8.4.22-r0",
+        "!php84-mysqli<8.4.22-r0",
+        "!php84-mysqli>8.4.22-r0",
+        "!php84-mysqlnd<8.4.22-r0",
+        "!php84-mysqlnd>8.4.22-r0",
+        "!php84-odbc<8.4.22-r0",
+        "!php84-odbc>8.4.22-r0",
+        "!php84-opcache<8.4.22-r0",
+        "!php84-opcache>8.4.22-r0",
+        "!php84-openssl<8.4.22-r0",
+        "!php84-openssl>8.4.22-r0",
+        "!php84-pcntl<8.4.22-r0",
+        "!php84-pcntl>8.4.22-r0",
+        "!php84-pdo<8.4.22-r0",
+        "!php84-pdo>8.4.22-r0",
+        "!php84-pdo_dblib<8.4.22-r0",
+        "!php84-pdo_dblib>8.4.22-r0",
+        "!php84-pdo_mysql<8.4.22-r0",
+        "!php84-pdo_mysql>8.4.22-r0",
+        "!php84-pdo_odbc<8.4.22-r0",
+        "!php84-pdo_odbc>8.4.22-r0",
+        "!php84-pdo_pgsql<8.4.22-r0",
+        "!php84-pdo_pgsql>8.4.22-r0",
+        "!php84-pdo_sqlite<8.4.22-r0",
+        "!php84-pdo_sqlite>8.4.22-r0",
+        "!php84-pgsql<8.4.22-r0",
+        "!php84-pgsql>8.4.22-r0",
+        "!php84-phar<8.4.22-r0",
+        "!php84-phar>8.4.22-r0",
+        "!php84-phpdbg<8.4.22-r0",
+        "!php84-phpdbg>8.4.22-r0",
+        "!php84-posix<8.4.22-r0",
+        "!php84-posix>8.4.22-r0",
+        "!php84-session<8.4.22-r0",
+        "!php84-session>8.4.22-r0",
+        "!php84-shmop<8.4.22-r0",
+        "!php84-shmop>8.4.22-r0",
+        "!php84-simplexml<8.4.22-r0",
+        "!php84-simplexml>8.4.22-r0",
+        "!php84-snmp<8.4.22-r0",
+        "!php84-snmp>8.4.22-r0",
+        "!php84-soap<8.4.22-r0",
+        "!php84-soap>8.4.22-r0",
+        "!php84-sockets<8.4.22-r0",
+        "!php84-sockets>8.4.22-r0",
+        "!php84-sodium<8.4.22-r0",
+        "!php84-sodium>8.4.22-r0",
+        "!php84-sqlite3<8.4.22-r0",
+        "!php84-sqlite3>8.4.22-r0",
+        "!php84-sysvmsg<8.4.22-r0",
+        "!php84-sysvmsg>8.4.22-r0",
+        "!php84-sysvsem<8.4.22-r0",
+        "!php84-sysvsem>8.4.22-r0",
+        "!php84-sysvshm<8.4.22-r0",
+        "!php84-sysvshm>8.4.22-r0",
+        "!php84-tidy<8.4.22-r0",
+        "!php84-tidy>8.4.22-r0",
+        "!php84-tokenizer<8.4.22-r0",
+        "!php84-tokenizer>8.4.22-r0",
+        "!php84-xml<8.4.22-r0",
+        "!php84-xml>8.4.22-r0",
+        "!php84-xmlreader<8.4.22-r0",
+        "!php84-xmlreader>8.4.22-r0",
+        "!php84-xmlwriter<8.4.22-r0",
+        "!php84-xmlwriter>8.4.22-r0",
+        "!php84-xsl<8.4.22-r0",
+        "!php84-xsl>8.4.22-r0",
+        "!php84-zip<8.4.22-r0",
+        "!php84-zip>8.4.22-r0",
+        "!php84<8.4.22-r0",
+        "!php84>8.4.22-r0"
       ]
     },
     "php84-dev": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
-        "php84=8.4.21-r2",
+        "php84=8.4.22-r0",
         "autoconf",
         "pcre2-dev",
         "re2c"
       ],
       "provides": [
-        "cmd:php-config84=8.4.21-r2",
-        "cmd:phpize84=8.4.21-r2"
+        "cmd:php-config84=8.4.22-r0",
+        "cmd:phpize84=8.4.22-r0"
       ]
     },
     "php84-doc": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       }
     },
     "php84-dom": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -199764,7 +199794,8 @@
     "php84-embed": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -199782,7 +199813,8 @@
     "php84-enchant": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -199796,7 +199828,8 @@
     "php84-exif": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -199810,7 +199843,8 @@
     "php84-ffi": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -199824,7 +199858,8 @@
     "php84-fileinfo": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -199837,7 +199872,8 @@
     "php84-fpm": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -199851,13 +199887,14 @@
       ],
       "provides": [
         "php-fpm",
-        "cmd:php-fpm84=8.4.21-r2"
+        "cmd:php-fpm84=8.4.22-r0"
       ]
     },
     "php84-ftp": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -199872,7 +199909,8 @@
     "php84-gd": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -199892,7 +199930,8 @@
     "php84-gettext": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -199906,7 +199945,8 @@
     "php84-gmp": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -199920,7 +199960,8 @@
     "php84-iconv": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -199933,7 +199974,8 @@
     "php84-intl": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -199951,7 +199993,8 @@
     "php84-ldap": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -199966,7 +200009,8 @@
     "php84-litespeed": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -199979,13 +200023,14 @@
       ],
       "provides": [
         "php-lightspeed",
-        "cmd:lsphp84=8.4.21-r2"
+        "cmd:lsphp84=8.4.22-r0"
       ]
     },
     "php84-mbstring": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -199999,7 +200044,8 @@
     "php84-mysqli": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200014,7 +200060,8 @@
     "php84-mysqlnd": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200030,7 +200077,8 @@
     "php84-odbc": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200044,7 +200092,8 @@
     "php84-opcache": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200057,7 +200106,8 @@
     "php84-openssl": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200072,7 +200122,8 @@
     "php84-pcntl": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200085,7 +200136,8 @@
     "php84-pdo": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200098,7 +200150,8 @@
     "php84-pdo_dblib": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200113,7 +200166,8 @@
     "php84-pdo_mysql": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200128,7 +200182,8 @@
     "php84-pdo_odbc": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200143,7 +200198,8 @@
     "php84-pdo_pgsql": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200158,7 +200214,8 @@
     "php84-pdo_sqlite": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200173,7 +200230,8 @@
     "php84-pear": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84",
@@ -200181,9 +200239,9 @@
       ],
       "provides": [
         "php-pear",
-        "cmd:pear84=8.4.21-r2",
-        "cmd:peardev84=8.4.21-r2",
-        "cmd:pecl84=8.4.21-r2"
+        "cmd:pear84=8.4.22-r0",
+        "cmd:peardev84=8.4.22-r0",
+        "cmd:pecl84=8.4.22-r0"
       ]
     },
     "php84-pecl-amqp": {
@@ -200407,7 +200465,8 @@
     "php84-pecl-msgpack": {
       "origin": "php84-pecl-msgpack",
       "versions": {
-        "3.0.0-r0": 1733274517
+        "3.0.0-r0": 1733274517,
+        "3.0.1-r0": 1780513864
       },
       "dependencies": [
         "php84-session",
@@ -200415,7 +200474,7 @@
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "php84-msgpack=3.0.0-r0"
+        "php84-msgpack=3.0.1-r0"
       ]
     },
     "php84-pecl-opentelemetry": {
@@ -200615,7 +200674,8 @@
       "origin": "php84-pecl-xlswriter",
       "versions": {
         "1.5.8-r0": 1733274517,
-        "2.0.1-r0": 1779800443
+        "2.0.1-r0": 1779800443,
+        "2.0.2-r0": 1780513908
       },
       "dependencies": [
         "php84-common",
@@ -200647,7 +200707,8 @@
     "php84-pgsql": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200661,7 +200722,8 @@
     "php84-phar": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200670,14 +200732,15 @@
       ],
       "provides": [
         "php-phar",
-        "cmd:phar84.phar=8.4.21-r2",
-        "cmd:phar84=8.4.21-r2"
+        "cmd:phar84.phar=8.4.22-r0",
+        "cmd:phar84=8.4.22-r0"
       ]
     },
     "php84-phpdbg": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200690,13 +200753,14 @@
       ],
       "provides": [
         "php-phpdbg",
-        "cmd:phpdbg84=8.4.21-r2"
+        "cmd:phpdbg84=8.4.22-r0"
       ]
     },
     "php84-posix": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200709,7 +200773,8 @@
     "php84-session": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200722,7 +200787,8 @@
     "php84-shmop": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200735,7 +200801,8 @@
     "php84-simplexml": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200749,7 +200816,8 @@
     "php84-snmp": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200763,7 +200831,8 @@
     "php84-soap": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200778,7 +200847,8 @@
     "php84-sockets": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200791,7 +200861,8 @@
     "php84-sodium": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200805,7 +200876,8 @@
     "php84-sqlite3": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200819,7 +200891,8 @@
     "php84-sysvmsg": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200832,7 +200905,8 @@
     "php84-sysvsem": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200845,7 +200919,8 @@
     "php84-sysvshm": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200858,7 +200933,8 @@
     "php84-tidy": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200872,7 +200948,8 @@
     "php84-tokenizer": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200885,7 +200962,8 @@
     "php84-xml": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200899,7 +200977,8 @@
     "php84-xmlreader": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200914,7 +200993,8 @@
     "php84-xmlwriter": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200928,7 +201008,8 @@
     "php84-xsl": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -200945,7 +201026,8 @@
     "php84-zip": {
       "origin": "php84",
       "versions": {
-        "8.4.21-r2": 1778251285
+        "8.4.21-r2": 1778251285,
+        "8.4.22-r0": 1780495499
       },
       "dependencies": [
         "php84-common",
@@ -201950,7 +202032,8 @@
     "php85-pecl-msgpack": {
       "origin": "php85-pecl-msgpack",
       "versions": {
-        "3.0.0-r0": 1761391554
+        "3.0.0-r0": 1761391554,
+        "3.0.1-r0": 1780513864
       },
       "dependencies": [
         "php85-session",
@@ -201958,7 +202041,7 @@
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "php85-msgpack=3.0.0-r0"
+        "php85-msgpack=3.0.1-r0"
       ]
     },
     "php85-pecl-opentelemetry": {
@@ -202156,7 +202239,8 @@
       "origin": "php85-pecl-xlswriter",
       "versions": {
         "1.5.8-r0": 1761391554,
-        "2.0.1-r0": 1779800443
+        "2.0.1-r0": 1779800443,
+        "2.0.2-r0": 1780513908
       },
       "dependencies": [
         "php85-common",
@@ -209364,7 +209448,8 @@
     "proftpd": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "/bin/sh",
@@ -209375,26 +209460,29 @@
         "so:libpcre2-posix.so.3"
       ],
       "provides": [
-        "cmd:auth-otp=1.3.9a-r2",
-        "cmd:proftpd=1.3.9a-r2"
+        "cmd:auth-otp=1.3.9b-r0",
+        "cmd:proftpd=1.3.9b-r0"
       ]
     },
     "proftpd-doc": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       }
     },
     "proftpd-lang": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       }
     },
     "proftpd-mod_auth_otp": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209405,7 +209493,8 @@
     "proftpd-mod_ban": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209415,7 +209504,8 @@
     "proftpd-mod_copy": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209425,7 +209515,8 @@
     "proftpd-mod_ctrls_admin": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209435,7 +209526,8 @@
     "proftpd-mod_deflate": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209446,7 +209538,8 @@
     "proftpd-mod_dynmasq": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209456,7 +209549,8 @@
     "proftpd-mod_exec": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209466,7 +209560,8 @@
     "proftpd-mod_facl": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209476,7 +209571,8 @@
     "proftpd-mod_geoip": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209487,7 +209583,8 @@
     "proftpd-mod_ifsession": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209497,7 +209594,8 @@
     "proftpd-mod_ifversion": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209507,7 +209605,8 @@
     "proftpd-mod_lang": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209518,7 +209617,8 @@
     "proftpd-mod_ldap": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209530,7 +209630,8 @@
     "proftpd-mod_load": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209540,7 +209641,8 @@
     "proftpd-mod_memcache": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209551,7 +209653,8 @@
     "proftpd-mod_quotatab": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209561,7 +209664,8 @@
     "proftpd-mod_quotatab_file": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209572,7 +209676,8 @@
     "proftpd-mod_quotatab_ldap": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209583,7 +209688,8 @@
     "proftpd-mod_quotatab_radius": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209594,7 +209700,8 @@
     "proftpd-mod_quotatab_sql": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209605,7 +209712,8 @@
     "proftpd-mod_radius": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209615,7 +209723,8 @@
     "proftpd-mod_ratio": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209625,7 +209734,8 @@
     "proftpd-mod_readme": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209635,7 +209745,8 @@
     "proftpd-mod_redis": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209645,7 +209756,8 @@
     "proftpd-mod_rewrite": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209655,7 +209767,8 @@
     "proftpd-mod_sftp": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209668,7 +209781,8 @@
     "proftpd-mod_sftp_sql": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209679,7 +209793,8 @@
     "proftpd-mod_shaper": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209689,7 +209804,8 @@
     "proftpd-mod_site_misc": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209699,7 +209815,8 @@
     "proftpd-mod_snmp": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209709,7 +209826,8 @@
     "proftpd-mod_sql": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209719,7 +209837,8 @@
     "proftpd-mod_sql_mysql": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209731,7 +209850,8 @@
     "proftpd-mod_sql_odbc": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209743,7 +209863,8 @@
     "proftpd-mod_sql_passwd": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209756,7 +209877,8 @@
     "proftpd-mod_sql_postgres": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209768,7 +209890,8 @@
     "proftpd-mod_sql_sqlite": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209780,7 +209903,8 @@
     "proftpd-mod_tls": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209792,7 +209916,8 @@
     "proftpd-mod_tls_memcache": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209803,7 +209928,8 @@
     "proftpd-mod_tls_redis": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209814,7 +209940,8 @@
     "proftpd-mod_tls_shmcache": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209825,7 +209952,8 @@
     "proftpd-mod_unique_id": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209835,7 +209963,8 @@
     "proftpd-mod_vroot": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209845,7 +209974,8 @@
     "proftpd-mod_wrap2": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209855,7 +209985,8 @@
     "proftpd-mod_wrap2_file": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209866,7 +209997,8 @@
     "proftpd-mod_wrap2_redis": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209877,7 +210009,8 @@
     "proftpd-mod_wrap2_sql": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209888,13 +210021,15 @@
     "proftpd-openrc": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       }
     },
     "proftpd-utils": {
       "origin": "proftpd",
       "versions": {
-        "1.3.9a-r2": 1777353756
+        "1.3.9a-r2": 1777353756,
+        "1.3.9b-r0": 1780504150
       },
       "dependencies": [
         "proftpd",
@@ -209903,16 +210038,16 @@
         "so:libncursesw.so.6"
       ],
       "provides": [
-        "cmd:ftpasswd=1.3.9a-r2",
-        "cmd:ftpcount=1.3.9a-r2",
-        "cmd:ftpdctl=1.3.9a-r2",
-        "cmd:ftpmail=1.3.9a-r2",
-        "cmd:ftpquota=1.3.9a-r2",
-        "cmd:ftpscrub=1.3.9a-r2",
-        "cmd:ftpshut=1.3.9a-r2",
-        "cmd:ftptop=1.3.9a-r2",
-        "cmd:ftpwho=1.3.9a-r2",
-        "cmd:prxs=1.3.9a-r2"
+        "cmd:ftpasswd=1.3.9b-r0",
+        "cmd:ftpcount=1.3.9b-r0",
+        "cmd:ftpdctl=1.3.9b-r0",
+        "cmd:ftpmail=1.3.9b-r0",
+        "cmd:ftpquota=1.3.9b-r0",
+        "cmd:ftpscrub=1.3.9b-r0",
+        "cmd:ftpshut=1.3.9b-r0",
+        "cmd:ftptop=1.3.9b-r0",
+        "cmd:ftpwho=1.3.9b-r0",
+        "cmd:prxs=1.3.9b-r0"
       ]
     },
     "progress": {
@@ -285373,22 +285508,25 @@
     "transmission": {
       "origin": "transmission",
       "versions": {
-        "4.1.1-r1": 1772399007
+        "4.1.1-r1": 1772399007,
+        "4.1.2-r0": 1780503988
       },
       "dependencies": [
-        "transmission-gtk=4.1.1-r1"
+        "transmission-gtk=4.1.2-r0"
       ]
     },
     "transmission-base": {
       "origin": "transmission",
       "versions": {
-        "4.1.1-r1": 1772399007
+        "4.1.1-r1": 1772399007,
+        "4.1.2-r0": 1780503988
       }
     },
     "transmission-cli": {
       "origin": "transmission",
       "versions": {
-        "4.1.1-r1": 1772399007
+        "4.1.1-r1": 1772399007,
+        "4.1.2-r0": 1780503988
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -285403,13 +285541,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:transmission-cli=4.1.1-r1"
+        "cmd:transmission-cli=4.1.2-r0"
       ]
     },
     "transmission-daemon": {
       "origin": "transmission",
       "versions": {
-        "4.1.1-r1": 1772399007
+        "4.1.1-r1": 1772399007,
+        "4.1.2-r0": 1780503988
       },
       "dependencies": [
         "/bin/sh",
@@ -285425,25 +285564,28 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:transmission-daemon=4.1.1-r1"
+        "cmd:transmission-daemon=4.1.2-r0"
       ]
     },
     "transmission-daemon-openrc": {
       "origin": "transmission",
       "versions": {
-        "4.1.1-r1": 1772399007
+        "4.1.1-r1": 1772399007,
+        "4.1.2-r0": 1780503988
       }
     },
     "transmission-doc": {
       "origin": "transmission",
       "versions": {
-        "4.1.1-r1": 1772399007
+        "4.1.1-r1": 1772399007,
+        "4.1.2-r0": 1780503988
       }
     },
     "transmission-extra": {
       "origin": "transmission",
       "versions": {
-        "4.1.1-r1": 1772399007
+        "4.1.1-r1": 1772399007,
+        "4.1.2-r0": 1780503988
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -285457,18 +285599,19 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:transmission-create=4.1.1-r1",
-        "cmd:transmission-edit=4.1.1-r1",
-        "cmd:transmission-show=4.1.1-r1"
+        "cmd:transmission-create=4.1.2-r0",
+        "cmd:transmission-edit=4.1.2-r0",
+        "cmd:transmission-show=4.1.2-r0"
       ]
     },
     "transmission-gtk": {
       "origin": "transmission",
       "versions": {
-        "4.1.1-r1": 1772399007
+        "4.1.1-r1": 1772399007,
+        "4.1.2-r0": 1780503988
       },
       "dependencies": [
-        "transmission-base=4.1.1-r1",
+        "transmission-base=4.1.2-r0",
         "so:libc.musl-ppc64le.so.1",
         "so:libcrypto.so.3",
         "so:libcurl.so.4",
@@ -285490,28 +285633,31 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:transmission-gtk=4.1.1-r1"
+        "cmd:transmission-gtk=4.1.2-r0"
       ]
     },
     "transmission-lang-gtk": {
       "origin": "transmission",
       "versions": {
-        "4.1.1-r1": 1772399007
+        "4.1.1-r1": 1772399007,
+        "4.1.2-r0": 1780503988
       }
     },
     "transmission-lang-qt": {
       "origin": "transmission",
       "versions": {
-        "4.1.1-r1": 1772399007
+        "4.1.1-r1": 1772399007,
+        "4.1.2-r0": 1780503988
       }
     },
     "transmission-qt": {
       "origin": "transmission",
       "versions": {
-        "4.1.1-r1": 1772399007
+        "4.1.1-r1": 1772399007,
+        "4.1.2-r0": 1780503988
       },
       "dependencies": [
-        "transmission-base=4.1.1-r1",
+        "transmission-base=4.1.2-r0",
         "qt6-qtsvg",
         "so:libQt6Core.so.6",
         "so:libQt6DBus.so.6",
@@ -285530,13 +285676,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:transmission-qt=4.1.1-r1"
+        "cmd:transmission-qt=4.1.2-r0"
       ]
     },
     "transmission-remote": {
       "origin": "transmission",
       "versions": {
-        "4.1.1-r1": 1772399007
+        "4.1.1-r1": 1772399007,
+        "4.1.2-r0": 1780503988
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -285550,7 +285697,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:transmission-remote=4.1.1-r1"
+        "cmd:transmission-remote=4.1.2-r0"
       ]
     },
     "trash-cli": {
@@ -286893,20 +287040,22 @@
     "typos": {
       "origin": "typos",
       "versions": {
-        "1.45.1-r0": 1776529952
+        "1.45.1-r0": 1776529952,
+        "1.47.1-r0": 1780502766
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:typos=1.45.1-r0"
+        "cmd:typos=1.47.1-r0"
       ]
     },
     "typos-doc": {
       "origin": "typos",
       "versions": {
-        "1.45.1-r0": 1776529952
+        "1.45.1-r0": 1776529952,
+        "1.47.1-r0": 1780502766
       }
     },
     "typos-lsp": {
@@ -333253,7 +333402,7 @@
       },
       "php83-msgpack": {
         "package": "php83-pecl-msgpack",
-        "version": "3.0.0-r0"
+        "version": "3.0.1-r0"
       },
       "php7-protobuf": {
         "package": "php85-pecl-protobuf",
@@ -333397,7 +333546,7 @@
       },
       "php84-msgpack": {
         "package": "php84-pecl-msgpack",
-        "version": "3.0.0-r0"
+        "version": "3.0.1-r0"
       },
       "php84-redis": {
         "package": "php84-pecl-redis",
@@ -333445,7 +333594,7 @@
       },
       "php85-msgpack": {
         "package": "php85-pecl-msgpack",
-        "version": "3.0.0-r0"
+        "version": "3.0.1-r0"
       },
       "php85-redis": {
         "package": "php85-pecl-redis",
