@@ -22793,31 +22793,35 @@
     "chezmoi": {
       "origin": "chezmoi",
       "versions": {
-        "2.70.3-r0": 1778913282
+        "2.70.3-r0": 1778913282,
+        "2.70.5-r0": 1780582782
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:chezmoi=2.70.3-r0"
+        "cmd:chezmoi=2.70.5-r0"
       ]
     },
     "chezmoi-bash-completion": {
       "origin": "chezmoi",
       "versions": {
-        "2.70.3-r0": 1778913282
+        "2.70.3-r0": 1778913282,
+        "2.70.5-r0": 1780582782
       }
     },
     "chezmoi-fish-completion": {
       "origin": "chezmoi",
       "versions": {
-        "2.70.3-r0": 1778913282
+        "2.70.3-r0": 1778913282,
+        "2.70.5-r0": 1780582782
       }
     },
     "chezmoi-zsh-completion": {
       "origin": "chezmoi",
       "versions": {
-        "2.70.3-r0": 1778913282
+        "2.70.3-r0": 1778913282,
+        "2.70.5-r0": 1780582782
       }
     },
     "chiaki": {
@@ -30260,7 +30264,8 @@
     "cyme": {
       "origin": "cyme",
       "versions": {
-        "2.3.0-r0": 1776029907
+        "2.3.0-r0": 1776029907,
+        "3.0.0-r0": 1780564207
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -30268,31 +30273,35 @@
         "so:libudev.so.1"
       ],
       "provides": [
-        "cmd:cyme=2.3.0-r0"
+        "cmd:cyme=3.0.0-r0"
       ]
     },
     "cyme-bash-completion": {
       "origin": "cyme",
       "versions": {
-        "2.3.0-r0": 1776029907
+        "2.3.0-r0": 1776029907,
+        "3.0.0-r0": 1780564207
       }
     },
     "cyme-doc": {
       "origin": "cyme",
       "versions": {
-        "2.3.0-r0": 1776029907
+        "2.3.0-r0": 1776029907,
+        "3.0.0-r0": 1780564207
       }
     },
     "cyme-fish-completion": {
       "origin": "cyme",
       "versions": {
-        "2.3.0-r0": 1776029907
+        "2.3.0-r0": 1776029907,
+        "3.0.0-r0": 1780564207
       }
     },
     "cyme-zsh-completion": {
       "origin": "cyme",
       "versions": {
-        "2.3.0-r0": 1776029907
+        "2.3.0-r0": 1776029907,
+        "3.0.0-r0": 1780564207
       }
     },
     "cypher-lint": {
@@ -125123,7 +125132,8 @@
       "origin": "nodejs-current",
       "versions": {
         "25.9.0-r0": 1777974767,
-        "26.2.0-r0": 1779843199
+        "26.2.0-r0": 1779843199,
+        "26.3.0-r0": 1780568716
       },
       "dependencies": [
         "ca-certificates",
@@ -125143,14 +125153,15 @@
       ],
       "provides": [
         "nodejs",
-        "cmd:node=26.2.0-r0"
+        "cmd:node=26.3.0-r0"
       ]
     },
     "nodejs-current-dev": {
       "origin": "nodejs-current",
       "versions": {
         "25.9.0-r0": 1777974767,
-        "26.2.0-r0": 1779843199
+        "26.2.0-r0": 1779843199,
+        "26.3.0-r0": 1780568716
       },
       "dependencies": [
         "libuv-dev"
@@ -125160,7 +125171,8 @@
       "origin": "nodejs-current",
       "versions": {
         "25.9.0-r0": 1777974767,
-        "26.2.0-r0": 1779843199
+        "26.2.0-r0": 1779843199,
+        "26.3.0-r0": 1780568716
       }
     },
     "noip2": {
@@ -175748,20 +175760,22 @@
     "prometheus-smokeping-prober": {
       "origin": "prometheus-smokeping-prober",
       "versions": {
-        "0.10.0-r10": 1778661427
+        "0.10.0-r10": 1778661427,
+        "0.11.0-r0": 1780585339
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:smokeping_prober=0.10.0-r10"
+        "cmd:smokeping_prober=0.11.0-r0"
       ]
     },
     "prometheus-smokeping-prober-openrc": {
       "origin": "prometheus-smokeping-prober",
       "versions": {
-        "0.10.0-r10": 1778661427
+        "0.10.0-r10": 1778661427,
+        "0.11.0-r0": 1780585339
       }
     },
     "prometheus-snmp-exporter": {
@@ -201707,28 +201721,31 @@
       "origin": "py3-pytest-run-parallel",
       "versions": {
         "0.8.2-r1": 1774640367,
-        "0.9.0-r0": 1780062217
+        "0.9.0-r0": 1780062217,
+        "0.9.1-r0": 1780573473
       },
       "dependencies": [
         "py3-pytest",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:pytest_run_parallel=0.9.0-r0"
+        "py3.14:pytest_run_parallel=0.9.1-r0"
       ]
     },
     "py3-pytest-run-parallel-doc": {
       "origin": "py3-pytest-run-parallel",
       "versions": {
         "0.8.2-r1": 1774640367,
-        "0.9.0-r0": 1780062217
+        "0.9.0-r0": 1780062217,
+        "0.9.1-r0": 1780573473
       }
     },
     "py3-pytest-run-parallel-pyc": {
       "origin": "py3-pytest-run-parallel",
       "versions": {
         "0.8.2-r1": 1774640367,
-        "0.9.0-r0": 1780062217
+        "0.9.0-r0": 1780062217,
+        "0.9.1-r0": 1780573473
       },
       "dependencies": [
         "python3~3.14"
