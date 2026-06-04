@@ -30388,7 +30388,8 @@
       "origin": "composer",
       "versions": {
         "2.9.8-r0": 1778680228,
-        "2.10.0-r0": 1780391012
+        "2.10.0-r0": 1780391012,
+        "2.10.1-r0": 1780606291
       },
       "dependencies": [
         "php85",
@@ -30401,15 +30402,16 @@
         "p7zip"
       ],
       "provides": [
-        "cmd:composer.phar=2.10.0-r0",
-        "cmd:composer=2.10.0-r0"
+        "cmd:composer.phar=2.10.1-r0",
+        "cmd:composer=2.10.1-r0"
       ]
     },
     "composer-bash-completion": {
       "origin": "composer",
       "versions": {
         "2.9.8-r0": 1778680228,
-        "2.10.0-r0": 1780391012
+        "2.10.0-r0": 1780391012,
+        "2.10.1-r0": 1780606291
       }
     },
     "comrak": {
@@ -224575,14 +224577,15 @@
       "versions": {
         "0.11.16-r0": 1779494324,
         "0.11.17-r0": 1780349211,
-        "0.11.18-r0": 1780407312
+        "0.11.18-r0": 1780407312,
+        "0.11.19-r0": 1780602535
       },
       "dependencies": [
-        "uv=0.11.18-r0",
+        "uv=0.11.19-r0",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:uv=0.11.18-r0"
+        "py3.14:uv=0.11.19-r0"
       ]
     },
     "py3-uv-build": {
@@ -224623,7 +224626,8 @@
       "versions": {
         "0.11.16-r0": 1779494324,
         "0.11.17-r0": 1780349211,
-        "0.11.18-r0": 1780407312
+        "0.11.18-r0": 1780407312,
+        "0.11.19-r0": 1780602535
       },
       "dependencies": [
         "python3~3.14"
@@ -266938,7 +266942,8 @@
       "versions": {
         "0.11.16-r0": 1779494324,
         "0.11.17-r0": 1780349211,
-        "0.11.18-r0": 1780407312
+        "0.11.18-r0": 1780407312,
+        "0.11.19-r0": 1780602535
       },
       "dependencies": [
         "so:libbz2.so.1",
@@ -266946,8 +266951,8 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:uv=0.11.18-r0",
-        "cmd:uvx=0.11.18-r0"
+        "cmd:uv=0.11.19-r0",
+        "cmd:uvx=0.11.19-r0"
       ]
     },
     "uv-bash-completion": {
@@ -266955,7 +266960,8 @@
       "versions": {
         "0.11.16-r0": 1779494324,
         "0.11.17-r0": 1780349211,
-        "0.11.18-r0": 1780407312
+        "0.11.18-r0": 1780407312,
+        "0.11.19-r0": 1780602535
       }
     },
     "uv-fish-completion": {
@@ -266963,7 +266969,8 @@
       "versions": {
         "0.11.16-r0": 1779494324,
         "0.11.17-r0": 1780349211,
-        "0.11.18-r0": 1780407312
+        "0.11.18-r0": 1780407312,
+        "0.11.19-r0": 1780602535
       }
     },
     "uv-zsh-completion": {
@@ -266971,7 +266978,8 @@
       "versions": {
         "0.11.16-r0": 1779494324,
         "0.11.17-r0": 1780349211,
-        "0.11.18-r0": 1780407312
+        "0.11.18-r0": 1780407312,
+        "0.11.19-r0": 1780602535
       }
     },
     "uvicorn": {
@@ -284610,6 +284618,89 @@
       },
       "dependencies": [
         "libfido2-udev"
+      ]
+    },
+    "kaccounts-integration": {
+      "origin": "kaccounts-integration",
+      "versions": {
+        "26.04.0-r0": 1780599435
+      },
+      "dependencies": [
+        "accounts-qml-module",
+        "signon-ui",
+        "so:libKF6ConfigCore.so.6",
+        "so:libKF6CoreAddons.so.6",
+        "so:libKF6DBusAddons.so.6",
+        "so:libKF6I18n.so.6",
+        "so:libKF6KCMUtilsCore.so.6",
+        "so:libKF6KCMUtilsQuick.so.6",
+        "so:libKF6KIOCore.so.6",
+        "so:libKF6Wallet.so.6",
+        "so:libQt6Core.so.6",
+        "so:libQt6Gui.so.6",
+        "so:libQt6Qml.so.6",
+        "so:libQt6Widgets.so.6",
+        "so:libaccounts-qt6.so.1",
+        "so:libc.musl-loongarch64.so.1",
+        "so:libsignon-qt6.so.1",
+        "so:libstdc++.so.6"
+      ],
+      "provides": [
+        "so:libkaccounts6.so.2=26.04.0"
+      ]
+    },
+    "kaccounts-integration-dev": {
+      "origin": "kaccounts-integration",
+      "versions": {
+        "26.04.0-r0": 1780599435
+      },
+      "dependencies": [
+        "intltool",
+        "kcmutils-dev",
+        "kcoreaddons-dev",
+        "kdbusaddons-dev",
+        "kdeclarative-dev",
+        "ki18n-dev",
+        "libaccounts-qt-dev",
+        "qcoro-dev",
+        "qt6-qtbase-dev",
+        "qt6-qtdeclarative-dev",
+        "signond-dev",
+        "kaccounts-integration=26.04.0-r0"
+      ]
+    },
+    "kaccounts-integration-lang": {
+      "origin": "kaccounts-integration",
+      "versions": {
+        "26.04.0-r0": 1780599435
+      }
+    },
+    "signon-ui": {
+      "origin": "signon-ui",
+      "versions": {
+        "0.18_git20231016-r1": 1780600233
+      },
+      "dependencies": [
+        "so:libQt6Core.so.6",
+        "so:libQt6DBus.so.6",
+        "so:libQt6Gui.so.6",
+        "so:libQt6Network.so.6",
+        "so:libQt6Qml.so.6",
+        "so:libQt6Quick.so.6",
+        "so:libQt6WebEngineQuick.so.6",
+        "so:libQt6Widgets.so.6",
+        "so:libaccounts-qt6.so.1",
+        "so:libc.musl-loongarch64.so.1",
+        "so:libglib-2.0.so.0",
+        "so:libgobject-2.0.so.0",
+        "so:libintl.so.8",
+        "so:libnotify.so.4",
+        "so:libproxy.so.1",
+        "so:libsignon-qt6.so.1",
+        "so:libstdc++.so.6"
+      ],
+      "provides": [
+        "cmd:signon-ui=0.18_git20231016-r1"
       ]
     }
   },
@@ -308450,6 +308541,10 @@
       "libllhttp.so.9.4": {
         "package": "llhttp",
         "version": "9.4.1"
+      },
+      "libkaccounts6.so.2": {
+        "package": "kaccounts-integration",
+        "version": "26.04.0"
       }
     },
     "package": {
