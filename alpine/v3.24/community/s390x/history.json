@@ -5677,15 +5677,16 @@
       "versions": {
         "1.77.1-r0": 1777942781,
         "1.78.0-r0": 1778671658,
-        "1.79.0-r0": 1779286208
+        "1.79.0-r0": 1779286208,
+        "1.80.0-r0": 1780562824
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:autobrr=1.79.0-r0",
-        "cmd:autobrrctl=1.79.0-r0"
+        "cmd:autobrr=1.80.0-r0",
+        "cmd:autobrrctl=1.80.0-r0"
       ]
     },
     "autobrr-doc": {
@@ -5693,7 +5694,8 @@
       "versions": {
         "1.77.1-r0": 1777942781,
         "1.78.0-r0": 1778671658,
-        "1.79.0-r0": 1779286208
+        "1.79.0-r0": 1779286208,
+        "1.80.0-r0": 1780562824
       }
     },
     "autobrr-openrc": {
@@ -5701,7 +5703,8 @@
       "versions": {
         "1.77.1-r0": 1777942781,
         "1.78.0-r0": 1778671658,
-        "1.79.0-r0": 1779286208
+        "1.79.0-r0": 1779286208,
+        "1.80.0-r0": 1780562824
       }
     },
     "autocutsel": {
@@ -25401,7 +25404,8 @@
     "clojure": {
       "origin": "clojure",
       "versions": {
-        "1.12.4-r0": 1765432400
+        "1.12.4-r0": 1765432400,
+        "1.12.5-r0": 1780562915
       },
       "dependencies": [
         "bash",
@@ -25409,14 +25413,15 @@
         "rlwrap"
       ],
       "provides": [
-        "cmd:clj=1.12.4-r0",
-        "cmd:clojure=1.12.4-r0"
+        "cmd:clj=1.12.5-r0",
+        "cmd:clojure=1.12.5-r0"
       ]
     },
     "clojure-doc": {
       "origin": "clojure",
       "versions": {
-        "1.12.4-r0": 1765432400
+        "1.12.4-r0": 1765432400,
+        "1.12.5-r0": 1780562915
       }
     },
     "cloud-init": {
@@ -34309,13 +34314,14 @@
       "versions": {
         "1.158.0-r0": 1778250264,
         "1.158.0-r1": 1778661427,
-        "1.159.0-r0": 1779065666
+        "1.159.0-r0": 1779065666,
+        "1.160.1-r0": 1780563128
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:doctl=1.159.0-r0"
+        "cmd:doctl=1.160.1-r0"
       ]
     },
     "doctl-bash-completion": {
@@ -34323,7 +34329,8 @@
       "versions": {
         "1.158.0-r0": 1778250264,
         "1.158.0-r1": 1778661427,
-        "1.159.0-r0": 1779065666
+        "1.159.0-r0": 1779065666,
+        "1.160.1-r0": 1780563128
       }
     },
     "doctl-fish-completion": {
@@ -34331,7 +34338,8 @@
       "versions": {
         "1.158.0-r0": 1778250264,
         "1.158.0-r1": 1778661427,
-        "1.159.0-r0": 1779065666
+        "1.159.0-r0": 1779065666,
+        "1.160.1-r0": 1780563128
       }
     },
     "doctl-zsh-completion": {
@@ -34339,7 +34347,8 @@
       "versions": {
         "1.158.0-r0": 1778250264,
         "1.158.0-r1": 1778661427,
-        "1.159.0-r0": 1779065666
+        "1.159.0-r0": 1779065666,
+        "1.160.1-r0": 1780563128
       }
     },
     "docuum": {
@@ -118094,7 +118103,8 @@
     "libxfce4windowing": {
       "origin": "libxfce4windowing",
       "versions": {
-        "4.20.4-r0": 1774121393
+        "4.20.4-r0": 1774121393,
+        "4.20.6-r0": 1780559993
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -118121,10 +118131,11 @@
     "libxfce4windowing-dev": {
       "origin": "libxfce4windowing",
       "versions": {
-        "4.20.4-r0": 1774121393
+        "4.20.4-r0": 1774121393,
+        "4.20.6-r0": 1780559993
       },
       "dependencies": [
-        "libxfce4windowing=4.20.4-r0",
+        "libxfce4windowing=4.20.6-r0",
         "pc:gdk-wayland-3.0>=3.24.10",
         "pc:gdk-x11-3.0>=3.24.10",
         "pc:gio-unix-2.0>=2.72.0",
@@ -118132,22 +118143,21 @@
         "pc:libdisplay-info>=0.1.1",
         "pc:libwnck-3.0>=3.14",
         "pc:wayland-client>=1.20",
-        "pc:wayland-protocols>=1.25",
-        "pc:wayland-scanner>=1.20",
         "pc:x11>=1.6.7",
         "pc:xrandr>=1.5.0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libxfce4windowing-0=4.20.4",
-        "pc:libxfce4windowing-x11-0=4.20.4",
-        "pc:libxfce4windowingui-0=4.20.4"
+        "pc:libxfce4windowing-0=4.20.6",
+        "pc:libxfce4windowing-x11-0=4.20.6",
+        "pc:libxfce4windowingui-0=4.20.6"
       ]
     },
     "libxfce4windowing-lang": {
       "origin": "libxfce4windowing",
       "versions": {
-        "4.20.4-r0": 1774121393
+        "4.20.4-r0": 1774121393,
+        "4.20.6-r0": 1780559993
       }
     },
     "libxfont2": {
@@ -197708,7 +197718,8 @@
     "py3-bayesian-optimization": {
       "origin": "py3-bayesian-optimization",
       "versions": {
-        "3.2.0-r1": 1774640434
+        "3.2.0-r1": 1774640434,
+        "3.3.0-r0": 1780563082
       },
       "dependencies": [
         "python3",
@@ -197719,13 +197730,14 @@
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:bayes_opt=3.2.0-r1"
+        "py3.14:bayes_opt=3.3.0-r0"
       ]
     },
     "py3-bayesian-optimization-pyc": {
       "origin": "py3-bayesian-optimization",
       "versions": {
-        "3.2.0-r1": 1774640434
+        "3.2.0-r1": 1774640434,
+        "3.3.0-r0": 1780563082
       },
       "dependencies": [
         "python3~3.14"
@@ -214581,7 +214593,8 @@
     "py3-optuna": {
       "origin": "py3-optuna",
       "versions": {
-        "4.8.0-r1": 1774640431
+        "4.8.0-r1": 1774640431,
+        "4.9.0-r0": 1780563026
       },
       "dependencies": [
         "python3",
@@ -214597,14 +214610,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:optuna=4.8.0-r1",
-        "py3.14:optuna=4.8.0-r1"
+        "cmd:optuna=4.9.0-r0",
+        "py3.14:optuna=4.9.0-r0"
       ]
     },
     "py3-optuna-pyc": {
       "origin": "py3-optuna",
       "versions": {
-        "4.8.0-r1": 1774640431
+        "4.8.0-r1": 1774640431,
+        "4.9.0-r0": 1780563026
       },
       "dependencies": [
         "python3~3.14"
@@ -216316,7 +216330,8 @@
       "origin": "py3-plotnine",
       "versions": {
         "0.15.3-r1": 1774640432,
-        "0.15.4-r0": 1778544067
+        "0.15.4-r0": 1778544067,
+        "0.15.5-r0": 1780562983
       },
       "dependencies": [
         "python3",
@@ -216330,14 +216345,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:plotnine=0.15.4-r0"
+        "py3.14:plotnine=0.15.5-r0"
       ]
     },
     "py3-plotnine-pyc": {
       "origin": "py3-plotnine",
       "versions": {
         "0.15.3-r1": 1774640432,
-        "0.15.4-r0": 1778544067
+        "0.15.4-r0": 1778544067,
+        "0.15.5-r0": 1780562983
       },
       "dependencies": [
         "python3~3.14"
@@ -228491,7 +228507,8 @@
         "0.11.14-r0": 1779065623,
         "0.11.16-r0": 1779797632,
         "0.11.17-r0": 1780129695,
-        "0.11.18-r0": 1780407312
+        "0.11.18-r0": 1780407312,
+        "0.11.19-r0": 1780562940
       },
       "dependencies": [
         "python3",
@@ -228500,8 +228517,8 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:uv-build=0.11.18-r0",
-        "py3.14:uv_build=0.11.18-r0"
+        "cmd:uv-build=0.11.19-r0",
+        "py3.14:uv_build=0.11.19-r0"
       ]
     },
     "py3-uv-build-pyc": {
@@ -228512,7 +228529,8 @@
         "0.11.14-r0": 1779065623,
         "0.11.16-r0": 1779797632,
         "0.11.17-r0": 1780129695,
-        "0.11.18-r0": 1780407312
+        "0.11.18-r0": 1780407312,
+        "0.11.19-r0": 1780562940
       },
       "dependencies": [
         "python3~3.14"

@@ -5662,29 +5662,32 @@
       "origin": "autobrr",
       "versions": {
         "1.78.0-r0": 1778671658,
-        "1.79.0-r0": 1779286208
+        "1.79.0-r0": 1779286208,
+        "1.80.0-r0": 1780562824
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:autobrr=1.79.0-r0",
-        "cmd:autobrrctl=1.79.0-r0"
+        "cmd:autobrr=1.80.0-r0",
+        "cmd:autobrrctl=1.80.0-r0"
       ]
     },
     "autobrr-doc": {
       "origin": "autobrr",
       "versions": {
         "1.78.0-r0": 1778671658,
-        "1.79.0-r0": 1779286208
+        "1.79.0-r0": 1779286208,
+        "1.80.0-r0": 1780562824
       }
     },
     "autobrr-openrc": {
       "origin": "autobrr",
       "versions": {
         "1.78.0-r0": 1778671658,
-        "1.79.0-r0": 1779286208
+        "1.79.0-r0": 1779286208,
+        "1.80.0-r0": 1780562824
       }
     },
     "autocutsel": {
@@ -53262,7 +53265,8 @@
       "origin": "gleam",
       "versions": {
         "1.15.4-r0": 1776254107,
-        "1.16.0-r0": 1780041239
+        "1.16.0-r0": 1780041239,
+        "1.17.0-r0": 1780562846
       },
       "dependencies": [
         "erlang-dev",
@@ -53270,7 +53274,7 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:gleam=1.16.0-r0"
+        "cmd:gleam=1.17.0-r0"
       ]
     },
     "glew": {
@@ -103841,7 +103845,8 @@
     "libxfce4windowing": {
       "origin": "libxfce4windowing",
       "versions": {
-        "4.20.4-r0": 1774121393
+        "4.20.4-r0": 1774121393,
+        "4.20.6-r0": 1780559993
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -103868,10 +103873,11 @@
     "libxfce4windowing-dev": {
       "origin": "libxfce4windowing",
       "versions": {
-        "4.20.4-r0": 1774121393
+        "4.20.4-r0": 1774121393,
+        "4.20.6-r0": 1780559993
       },
       "dependencies": [
-        "libxfce4windowing=4.20.4-r0",
+        "libxfce4windowing=4.20.6-r0",
         "pc:gdk-wayland-3.0>=3.24.10",
         "pc:gdk-x11-3.0>=3.24.10",
         "pc:gio-unix-2.0>=2.72.0",
@@ -103879,22 +103885,21 @@
         "pc:libdisplay-info>=0.1.1",
         "pc:libwnck-3.0>=3.14",
         "pc:wayland-client>=1.20",
-        "pc:wayland-protocols>=1.25",
-        "pc:wayland-scanner>=1.20",
         "pc:x11>=1.6.7",
         "pc:xrandr>=1.5.0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libxfce4windowing-0=4.20.4",
-        "pc:libxfce4windowing-x11-0=4.20.4",
-        "pc:libxfce4windowingui-0=4.20.4"
+        "pc:libxfce4windowing-0=4.20.6",
+        "pc:libxfce4windowing-x11-0=4.20.6",
+        "pc:libxfce4windowingui-0=4.20.6"
       ]
     },
     "libxfce4windowing-lang": {
       "origin": "libxfce4windowing",
       "versions": {
-        "4.20.4-r0": 1774121393
+        "4.20.4-r0": 1774121393,
+        "4.20.6-r0": 1780559993
       }
     },
     "libxfont2": {
