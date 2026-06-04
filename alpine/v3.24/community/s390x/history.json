@@ -2578,19 +2578,20 @@
       "versions": {
         "3.3.4364.0-r0": 1778031971,
         "3.3.4364.0-r1": 1778661427,
-        "3.3.4515.0-r0": 1779797748
+        "3.3.4515.0-r0": 1779797748,
+        "3.3.4624.0-r0": 1780563256
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:amazon-ssm-agent=3.3.4515.0-r0",
-        "cmd:ssm-agent-worker=3.3.4515.0-r0",
-        "cmd:ssm-cli=3.3.4515.0-r0",
-        "cmd:ssm-document-worker=3.3.4515.0-r0",
-        "cmd:ssm-session-logger=3.3.4515.0-r0",
-        "cmd:ssm-session-worker=3.3.4515.0-r0",
-        "cmd:ssm-setup-cli=3.3.4515.0-r0"
+        "cmd:amazon-ssm-agent=3.3.4624.0-r0",
+        "cmd:ssm-agent-worker=3.3.4624.0-r0",
+        "cmd:ssm-cli=3.3.4624.0-r0",
+        "cmd:ssm-document-worker=3.3.4624.0-r0",
+        "cmd:ssm-session-logger=3.3.4624.0-r0",
+        "cmd:ssm-session-worker=3.3.4624.0-r0",
+        "cmd:ssm-setup-cli=3.3.4624.0-r0"
       ]
     },
     "amazon-ssm-agent-openrc": {
@@ -2598,7 +2599,8 @@
       "versions": {
         "3.3.4364.0-r0": 1778031971,
         "3.3.4364.0-r1": 1778661427,
-        "3.3.4515.0-r0": 1779797748
+        "3.3.4515.0-r0": 1779797748,
+        "3.3.4624.0-r0": 1780563256
       }
     },
     "amber-mpris": {
@@ -29559,7 +29561,8 @@
       "origin": "cosmic-app-library",
       "versions": {
         "1.0.12-r0": 1778087058,
-        "1.0.14-r0": 1779941838
+        "1.0.14-r0": 1779941838,
+        "1.0.15-r0": 1780563295
       },
       "dependencies": [
         "cosmic-icons",
@@ -29568,14 +29571,15 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:cosmic-app-library=1.0.14-r0"
+        "cmd:cosmic-app-library=1.0.15-r0"
       ]
     },
     "cosmic-bg": {
       "origin": "cosmic-bg",
       "versions": {
         "1.0.12-r0": 1778087058,
-        "1.0.14-r0": 1779941838
+        "1.0.14-r0": 1779941838,
+        "1.0.15-r0": 1780563295
       },
       "dependencies": [
         "cosmic-icons",
@@ -29583,14 +29587,15 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:cosmic-bg=1.0.14-r0"
+        "cmd:cosmic-bg=1.0.15-r0"
       ]
     },
     "cosmic-edit": {
       "origin": "cosmic-edit",
       "versions": {
         "1.0.12-r0": 1778087058,
-        "1.0.14-r0": 1779941838
+        "1.0.14-r0": 1779941838,
+        "1.0.15-r0": 1780563295
       },
       "dependencies": [
         "cosmic-icons",
@@ -29602,21 +29607,23 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:cosmic-edit=1.0.14-r0"
+        "cmd:cosmic-edit=1.0.15-r0"
       ]
     },
     "cosmic-icons": {
       "origin": "cosmic-icons",
       "versions": {
         "1.0.12-r0": 1778087058,
-        "1.0.14-r0": 1779941838
+        "1.0.14-r0": 1779941838,
+        "1.0.15-r0": 1780563295
       }
     },
     "cosmic-idle": {
       "origin": "cosmic-idle",
       "versions": {
         "1.0.12-r0": 1778087058,
-        "1.0.14-r0": 1779941838
+        "1.0.14-r0": 1779941838,
+        "1.0.15-r0": 1780563295
       },
       "dependencies": [
         "cosmic-icons",
@@ -29624,14 +29631,15 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:cosmic-idle=1.0.14-r0"
+        "cmd:cosmic-idle=1.0.15-r0"
       ]
     },
     "cosmic-initial-setup": {
       "origin": "cosmic-initial-setup",
       "versions": {
         "1.0.12-r0": 1778087058,
-        "1.0.14-r0": 1779941838
+        "1.0.14-r0": 1779941838,
+        "1.0.15-r0": 1780563295
       },
       "dependencies": [
         "cosmic-icons",
@@ -29639,14 +29647,15 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:cosmic-initial-setup=1.0.14-r0"
+        "cmd:cosmic-initial-setup=1.0.15-r0"
       ]
     },
     "cosmic-launcher": {
       "origin": "cosmic-launcher",
       "versions": {
         "1.0.12-r0": 1778087058,
-        "1.0.14-r0": 1779941838
+        "1.0.14-r0": 1779941838,
+        "1.0.15-r0": 1780563295
       },
       "dependencies": [
         "pop-launcher",
@@ -29655,14 +29664,15 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:cosmic-launcher=1.0.14-r0"
+        "cmd:cosmic-launcher=1.0.15-r0"
       ]
     },
     "cosmic-notifications": {
       "origin": "cosmic-notifications",
       "versions": {
         "1.0.12-r0": 1778087058,
-        "1.0.14-r0": 1779941838
+        "1.0.14-r0": 1779941838,
+        "1.0.15-r0": 1780563295
       },
       "dependencies": [
         "cosmic-icons",
@@ -29671,19 +29681,21 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:cosmic-notifications=1.0.14-r0"
+        "cmd:cosmic-notifications=1.0.15-r0"
       ]
     },
     "cosmic-player": {
       "origin": "cosmic-player",
       "versions": {
         "1.0.12-r0": 1778087058,
-        "1.0.14-r0": 1779941838
+        "1.0.14-r0": 1779941838,
+        "1.0.15-r0": 1780563295
       },
       "dependencies": [
         "gst-plugins-good",
         "so:libc.musl-s390x.so.1",
         "so:libgcc_s.so.1",
+        "so:libgio-2.0.so.0",
         "so:libglib-2.0.so.0",
         "so:libgobject-2.0.so.0",
         "so:libgstapp-1.0.so.0",
@@ -29693,14 +29705,15 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:cosmic-player=1.0.14-r0"
+        "cmd:cosmic-player=1.0.15-r0"
       ]
     },
     "cosmic-randr": {
       "origin": "cosmic-randr",
       "versions": {
         "1.0.12-r0": 1778087058,
-        "1.0.14-r0": 1779941838
+        "1.0.14-r0": 1779941838,
+        "1.0.15-r0": 1780563295
       },
       "dependencies": [
         "wayland",
@@ -29708,14 +29721,15 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:cosmic-randr=1.0.14-r0"
+        "cmd:cosmic-randr=1.0.15-r0"
       ]
     },
     "cosmic-settings-daemon": {
       "origin": "cosmic-settings-daemon",
       "versions": {
         "1.0.12-r0": 1778087058,
-        "1.0.14-r0": 1779941838
+        "1.0.14-r0": 1779941838,
+        "1.0.15-r0": 1780563295
       },
       "dependencies": [
         "acpid",
@@ -29729,14 +29743,15 @@
         "so:libudev.so.1"
       ],
       "provides": [
-        "cmd:cosmic-settings-daemon=1.0.14-r0"
+        "cmd:cosmic-settings-daemon=1.0.15-r0"
       ]
     },
     "cosmic-store": {
       "origin": "cosmic-store",
       "versions": {
         "1.0.12-r0": 1778087058,
-        "1.0.14-r0": 1779941838
+        "1.0.14-r0": 1779941838,
+        "1.0.15-r0": 1780563295
       },
       "dependencies": [
         "cosmic-icons",
@@ -29750,14 +29765,15 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:cosmic-store=1.0.14-r0"
+        "cmd:cosmic-store=1.0.15-r0"
       ]
     },
     "cosmic-term": {
       "origin": "cosmic-term",
       "versions": {
         "1.0.12-r0": 1778087058,
-        "1.0.14-r0": 1779941838
+        "1.0.14-r0": 1779941838,
+        "1.0.15-r0": 1780563295
       },
       "dependencies": [
         "cosmic-icons",
@@ -29766,14 +29782,15 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:cosmic-term=1.0.14-r0"
+        "cmd:cosmic-term=1.0.15-r0"
       ]
     },
     "cosmic-workspaces": {
       "origin": "cosmic-workspaces",
       "versions": {
         "1.0.12-r0": 1778087058,
-        "1.0.14-r0": 1779941838
+        "1.0.14-r0": 1779941838,
+        "1.0.15-r0": 1780563295
       },
       "dependencies": [
         "cosmic-icons",
@@ -29783,7 +29800,7 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:cosmic-workspaces=1.0.14-r0"
+        "cmd:cosmic-workspaces=1.0.15-r0"
       ]
     },
     "coturn": {
@@ -140825,7 +140842,8 @@
       "origin": "nodejs-current",
       "versions": {
         "25.9.0-r0": 1777974767,
-        "26.2.0-r0": 1779843199
+        "26.2.0-r0": 1779843199,
+        "26.3.0-r0": 1780568716
       },
       "dependencies": [
         "ca-certificates",
@@ -140845,14 +140863,15 @@
       ],
       "provides": [
         "nodejs",
-        "cmd:node=26.2.0-r0"
+        "cmd:node=26.3.0-r0"
       ]
     },
     "nodejs-current-dev": {
       "origin": "nodejs-current",
       "versions": {
         "25.9.0-r0": 1777974767,
-        "26.2.0-r0": 1779843199
+        "26.2.0-r0": 1779843199,
+        "26.3.0-r0": 1780568716
       },
       "dependencies": [
         "libuv-dev"
@@ -140862,7 +140881,8 @@
       "origin": "nodejs-current",
       "versions": {
         "25.9.0-r0": 1777974767,
-        "26.2.0-r0": 1779843199
+        "26.2.0-r0": 1779843199,
+        "26.3.0-r0": 1780568716
       }
     },
     "noip2": {
@@ -220418,28 +220438,31 @@
       "origin": "py3-pytest-run-parallel",
       "versions": {
         "0.8.2-r1": 1774640367,
-        "0.9.0-r0": 1780062217
+        "0.9.0-r0": 1780062217,
+        "0.9.1-r0": 1780573473
       },
       "dependencies": [
         "py3-pytest",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:pytest_run_parallel=0.9.0-r0"
+        "py3.14:pytest_run_parallel=0.9.1-r0"
       ]
     },
     "py3-pytest-run-parallel-doc": {
       "origin": "py3-pytest-run-parallel",
       "versions": {
         "0.8.2-r1": 1774640367,
-        "0.9.0-r0": 1780062217
+        "0.9.0-r0": 1780062217,
+        "0.9.1-r0": 1780573473
       }
     },
     "py3-pytest-run-parallel-pyc": {
       "origin": "py3-pytest-run-parallel",
       "versions": {
         "0.8.2-r1": 1774640367,
-        "0.9.0-r0": 1780062217
+        "0.9.0-r0": 1780062217,
+        "0.9.1-r0": 1780573473
       },
       "dependencies": [
         "python3~3.14"
