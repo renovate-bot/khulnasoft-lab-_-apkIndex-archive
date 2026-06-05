@@ -51365,7 +51365,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libSFCGAL.so.2",
@@ -51414,7 +51415,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       }
     },
     "gdal-dev": {
@@ -51422,14 +51424,15 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
-        "gdal=3.13.0-r0",
+        "gdal=3.13.0-r1",
         "pkgconfig"
       ],
       "provides": [
-        "cmd:gdal-config=3.13.0-r0",
+        "cmd:gdal-config=3.13.0-r1",
         "pc:gdal=3.13.0"
       ]
     },
@@ -51438,7 +51441,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       }
     },
     "gdal-driver-all": {
@@ -51446,45 +51450,45 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
-        "gdal-driver-all:_gdal_driver_all=3.13.0-r0",
-        "gdal-driver-adbc=3.13.0-r0",
-        "gdal-driver-avif=3.13.0-r0",
-        "gdal-driver-basisu_ktx2=3.13.0-r0",
-        "gdal-driver-exr=3.13.0-r0",
-        "gdal-driver-fits=3.13.0-r0",
-        "gdal-driver-gif=3.13.0-r0",
-        "gdal-driver-hdf5=3.13.0-r0",
-        "gdal-driver-heif=3.13.0-r0",
-        "gdal-driver-jp2openjpeg=3.13.0-r0",
-        "gdal-driver-jpeg=3.13.0-r0",
-        "gdal-driver-jpegxl=3.13.0-r0",
-        "gdal-driver-kea=3.13.0-r0",
-        "gdal-driver-pcidsk=3.13.0-r0",
-        "gdal-driver-pcraster=3.13.0-r0",
-        "gdal-driver-pdf=3.13.0-r0",
-        "gdal-driver-png=3.13.0-r0",
-        "gdal-driver-postgisraster=3.13.0-r0",
-        "gdal-driver-webp=3.13.0-r0",
-        "gdal-driver-wms=3.13.0-r0",
-        "gdal-driver-cad=3.13.0-r0",
-        "gdal-driver-carto=3.13.0-r0",
-        "gdal-driver-elastic=3.13.0-r0",
-        "gdal-driver-gmlas=3.13.0-r0",
-        "gdal-driver-hana=3.13.0-r0",
-        "gdal-driver-libkml=3.13.0-r0",
-        "gdal-driver-mssqlspatial=3.13.0-r0",
-        "gdal-driver-mysql=3.13.0-r0",
-        "gdal-driver-odbc=3.13.0-r0",
-        "gdal-driver-pg=3.13.0-r0",
-        "gdal-driver-plscenes=3.13.0-r0",
-        "gdal-driver-vfk=3.13.0-r0",
-        "gdal-driver-xls=3.13.0-r0",
-        "gdal-driver-xodr=3.13.0-r0",
-        "gdal-driver-arrow=3.13.0-r0",
-        "gdal-driver-parquet=3.13.0-r0"
+        "gdal-driver-adbc=3.13.0-r1",
+        "gdal-driver-avif=3.13.0-r1",
+        "gdal-driver-basisu_ktx2=3.13.0-r1",
+        "gdal-driver-exr=3.13.0-r1",
+        "gdal-driver-fits=3.13.0-r1",
+        "gdal-driver-gif=3.13.0-r1",
+        "gdal-driver-hdf5=3.13.0-r1",
+        "gdal-driver-heif=3.13.0-r1",
+        "gdal-driver-jp2openjpeg=3.13.0-r1",
+        "gdal-driver-jpeg=3.13.0-r1",
+        "gdal-driver-jpegxl=3.13.0-r1",
+        "gdal-driver-kea=3.13.0-r1",
+        "gdal-driver-pcidsk=3.13.0-r1",
+        "gdal-driver-pcraster=3.13.0-r1",
+        "gdal-driver-pdf=3.13.0-r1",
+        "gdal-driver-png=3.13.0-r1",
+        "gdal-driver-postgisraster=3.13.0-r1",
+        "gdal-driver-webp=3.13.0-r1",
+        "gdal-driver-wms=3.13.0-r1",
+        "gdal-driver-cad=3.13.0-r1",
+        "gdal-driver-carto=3.13.0-r1",
+        "gdal-driver-elastic=3.13.0-r1",
+        "gdal-driver-gmlas=3.13.0-r1",
+        "gdal-driver-hana=3.13.0-r1",
+        "gdal-driver-libkml=3.13.0-r1",
+        "gdal-driver-mssqlspatial=3.13.0-r1",
+        "gdal-driver-mysql=3.13.0-r1",
+        "gdal-driver-odbc=3.13.0-r1",
+        "gdal-driver-pg=3.13.0-r1",
+        "gdal-driver-plscenes=3.13.0-r1",
+        "gdal-driver-vfk=3.13.0-r1",
+        "gdal-driver-xls=3.13.0-r1",
+        "gdal-driver-xodr=3.13.0-r1",
+        "gdal-driver-arrow=3.13.0-r1",
+        "gdal-driver-parquet=3.13.0-r1"
       ]
     },
     "gdal-driver-arrow": {
@@ -51492,7 +51496,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libarrow.so.2300",
@@ -51502,7 +51507,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-Arrow=3.13.0-r0"
+        "gdal-driver-Arrow=3.13.0-r1"
       ]
     },
     "gdal-driver-basisu_ktx2": {
@@ -51510,7 +51515,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libbasisu.so.1.16.3",
@@ -51520,7 +51526,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-BASISU_KTX2=3.13.0-r0"
+        "gdal-driver-BASISU_KTX2=3.13.0-r1"
       ]
     },
     "gdal-driver-cad": {
@@ -51528,7 +51534,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -51537,7 +51544,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-CAD=3.13.0-r0"
+        "gdal-driver-CAD=3.13.0-r1"
       ]
     },
     "gdal-driver-carto": {
@@ -51545,7 +51552,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -51555,7 +51563,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-Carto=3.13.0-r0"
+        "gdal-driver-Carto=3.13.0-r1"
       ]
     },
     "gdal-driver-elastic": {
@@ -51563,7 +51571,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -51573,7 +51582,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-Elastic=3.13.0-r0"
+        "gdal-driver-Elastic=3.13.0-r1"
       ]
     },
     "gdal-driver-exr": {
@@ -51581,7 +51590,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libImath-3_2.so.30",
@@ -51592,7 +51602,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-EXR=3.13.0-r0"
+        "gdal-driver-EXR=3.13.0-r1"
       ]
     },
     "gdal-driver-fits": {
@@ -51600,7 +51610,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -51610,7 +51621,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-FITS=3.13.0-r0"
+        "gdal-driver-FITS=3.13.0-r1"
       ]
     },
     "gdal-driver-gif": {
@@ -51618,7 +51629,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -51628,7 +51640,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-GIF=3.13.0-r0"
+        "gdal-driver-GIF=3.13.0-r1"
       ]
     },
     "gdal-driver-gmlas": {
@@ -51636,7 +51648,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -51647,7 +51660,7 @@
         "so:libxerces-c-3.2.so"
       ],
       "provides": [
-        "gdal-driver-GMLAS=3.13.0-r0"
+        "gdal-driver-GMLAS=3.13.0-r1"
       ]
     },
     "gdal-driver-hana": {
@@ -51655,7 +51668,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -51665,7 +51679,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-HANA=3.13.0-r0"
+        "gdal-driver-HANA=3.13.0-r1"
       ]
     },
     "gdal-driver-hdf5": {
@@ -51673,7 +51687,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -51684,7 +51699,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-HDF5=3.13.0-r0"
+        "gdal-driver-HDF5=3.13.0-r1"
       ]
     },
     "gdal-driver-heif": {
@@ -51692,7 +51707,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -51702,7 +51718,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-HEIF=3.13.0-r0"
+        "gdal-driver-HEIF=3.13.0-r1"
       ]
     },
     "gdal-driver-jp2openjpeg": {
@@ -51710,7 +51726,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -51720,7 +51737,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-JP2OpenJPEG=3.13.0-r0"
+        "gdal-driver-JP2OpenJPEG=3.13.0-r1"
       ]
     },
     "gdal-driver-jpeg": {
@@ -51728,7 +51745,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -51738,7 +51756,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-JPEG=3.13.0-r0"
+        "gdal-driver-JPEG=3.13.0-r1"
       ]
     },
     "gdal-driver-jpegxl": {
@@ -51746,7 +51764,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -51757,7 +51776,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-JPEGXL=3.13.0-r0"
+        "gdal-driver-JPEGXL=3.13.0-r1"
       ]
     },
     "gdal-driver-kea": {
@@ -51765,7 +51784,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -51777,7 +51797,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-KEA=3.13.0-r0"
+        "gdal-driver-KEA=3.13.0-r1"
       ]
     },
     "gdal-driver-libkml": {
@@ -51785,7 +51805,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -51797,7 +51818,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-LIBKML=3.13.0-r0"
+        "gdal-driver-LIBKML=3.13.0-r1"
       ]
     },
     "gdal-driver-mssqlspatial": {
@@ -51805,7 +51826,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -51815,7 +51837,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-MSSQLSpatial=3.13.0-r0"
+        "gdal-driver-MSSQLSpatial=3.13.0-r1"
       ]
     },
     "gdal-driver-mysql": {
@@ -51823,7 +51845,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -51833,7 +51856,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-MySQL=3.13.0-r0"
+        "gdal-driver-MySQL=3.13.0-r1"
       ]
     },
     "gdal-driver-odbc": {
@@ -51841,7 +51864,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -51850,7 +51874,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-ODBC=3.13.0-r0"
+        "gdal-driver-ODBC=3.13.0-r1"
       ]
     },
     "gdal-driver-parquet": {
@@ -51858,7 +51882,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libarrow.so.2300",
@@ -51871,7 +51896,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-Parquet=3.13.0-r0"
+        "gdal-driver-Parquet=3.13.0-r1"
       ]
     },
     "gdal-driver-pcidsk": {
@@ -51879,7 +51904,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -51889,7 +51915,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-PCIDSK=3.13.0-r0"
+        "gdal-driver-PCIDSK=3.13.0-r1"
       ]
     },
     "gdal-driver-pcraster": {
@@ -51897,7 +51923,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -51906,7 +51933,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-PCRaster=3.13.0-r0"
+        "gdal-driver-PCRaster=3.13.0-r1"
       ]
     },
     "gdal-driver-pdf": {
@@ -51914,7 +51941,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -51924,7 +51952,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-PDF=3.13.0-r0"
+        "gdal-driver-PDF=3.13.0-r1"
       ]
     },
     "gdal-driver-pg": {
@@ -51932,7 +51960,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -51942,7 +51971,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-PG=3.13.0-r0"
+        "gdal-driver-PG=3.13.0-r1"
       ]
     },
     "gdal-driver-plscenes": {
@@ -51950,7 +51979,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -51960,7 +51990,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-PLSCENES=3.13.0-r0"
+        "gdal-driver-PLSCENES=3.13.0-r1"
       ]
     },
     "gdal-driver-png": {
@@ -51968,7 +51998,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -51978,7 +52009,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-PNG=3.13.0-r0"
+        "gdal-driver-PNG=3.13.0-r1"
       ]
     },
     "gdal-driver-postgisraster": {
@@ -51986,7 +52017,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -51996,7 +52028,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-PostGISRaster=3.13.0-r0"
+        "gdal-driver-PostGISRaster=3.13.0-r1"
       ]
     },
     "gdal-driver-vfk": {
@@ -52004,7 +52036,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -52014,7 +52047,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-VFK=3.13.0-r0"
+        "gdal-driver-VFK=3.13.0-r1"
       ]
     },
     "gdal-driver-webp": {
@@ -52022,7 +52055,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -52032,7 +52066,7 @@
         "so:libwebp.so.7"
       ],
       "provides": [
-        "gdal-driver-WEBP=3.13.0-r0"
+        "gdal-driver-WEBP=3.13.0-r1"
       ]
     },
     "gdal-driver-wms": {
@@ -52040,7 +52074,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -52050,7 +52085,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-WMS=3.13.0-r0"
+        "gdal-driver-WMS=3.13.0-r1"
       ]
     },
     "gdal-driver-xls": {
@@ -52058,7 +52093,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -52068,7 +52104,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-XLS=3.13.0-r0"
+        "gdal-driver-XLS=3.13.0-r1"
       ]
     },
     "gdal-driver-xodr": {
@@ -52076,7 +52112,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libOpenDrive.so.0",
@@ -52087,7 +52124,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-XODR=3.13.0-r0"
+        "gdal-driver-XODR=3.13.0-r1"
       ]
     },
     "gdal-tools": {
@@ -52095,7 +52132,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "py3-gdal",
@@ -52105,71 +52143,71 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:gdal2tiles.py=3.13.0-r0",
-        "cmd:gdal2tiles=3.13.0-r0",
-        "cmd:gdal2xyz.py=3.13.0-r0",
-        "cmd:gdal2xyz=3.13.0-r0",
-        "cmd:gdal=3.13.0-r0",
-        "cmd:gdal_calc.py=3.13.0-r0",
-        "cmd:gdal_calc=3.13.0-r0",
-        "cmd:gdal_contour=3.13.0-r0",
-        "cmd:gdal_create=3.13.0-r0",
-        "cmd:gdal_edit.py=3.13.0-r0",
-        "cmd:gdal_edit=3.13.0-r0",
-        "cmd:gdal_fillnodata.py=3.13.0-r0",
-        "cmd:gdal_fillnodata=3.13.0-r0",
-        "cmd:gdal_footprint=3.13.0-r0",
-        "cmd:gdal_grid=3.13.0-r0",
-        "cmd:gdal_merge.py=3.13.0-r0",
-        "cmd:gdal_merge=3.13.0-r0",
-        "cmd:gdal_pansharpen.py=3.13.0-r0",
-        "cmd:gdal_pansharpen=3.13.0-r0",
-        "cmd:gdal_polygonize.py=3.13.0-r0",
-        "cmd:gdal_polygonize=3.13.0-r0",
-        "cmd:gdal_proximity.py=3.13.0-r0",
-        "cmd:gdal_proximity=3.13.0-r0",
-        "cmd:gdal_rasterize=3.13.0-r0",
-        "cmd:gdal_retile.py=3.13.0-r0",
-        "cmd:gdal_retile=3.13.0-r0",
-        "cmd:gdal_sieve.py=3.13.0-r0",
-        "cmd:gdal_sieve=3.13.0-r0",
-        "cmd:gdal_translate=3.13.0-r0",
-        "cmd:gdal_viewshed=3.13.0-r0",
-        "cmd:gdaladdo=3.13.0-r0",
-        "cmd:gdalattachpct.py=3.13.0-r0",
-        "cmd:gdalattachpct=3.13.0-r0",
-        "cmd:gdalbuildvrt=3.13.0-r0",
-        "cmd:gdalcompare.py=3.13.0-r0",
-        "cmd:gdalcompare=3.13.0-r0",
-        "cmd:gdaldem=3.13.0-r0",
-        "cmd:gdalenhance=3.13.0-r0",
-        "cmd:gdalinfo=3.13.0-r0",
-        "cmd:gdallocationinfo=3.13.0-r0",
-        "cmd:gdalmanage=3.13.0-r0",
-        "cmd:gdalmdiminfo=3.13.0-r0",
-        "cmd:gdalmdimtranslate=3.13.0-r0",
-        "cmd:gdalmove.py=3.13.0-r0",
-        "cmd:gdalmove=3.13.0-r0",
-        "cmd:gdalsrsinfo=3.13.0-r0",
-        "cmd:gdaltindex=3.13.0-r0",
-        "cmd:gdaltransform=3.13.0-r0",
-        "cmd:gdalwarp=3.13.0-r0",
-        "cmd:gnmanalyse=3.13.0-r0",
-        "cmd:gnmmanage=3.13.0-r0",
-        "cmd:nearblack=3.13.0-r0",
-        "cmd:ogr2ogr=3.13.0-r0",
-        "cmd:ogr_layer_algebra.py=3.13.0-r0",
-        "cmd:ogr_layer_algebra=3.13.0-r0",
-        "cmd:ogrinfo=3.13.0-r0",
-        "cmd:ogrlineref=3.13.0-r0",
-        "cmd:ogrmerge.py=3.13.0-r0",
-        "cmd:ogrmerge=3.13.0-r0",
-        "cmd:ogrtindex=3.13.0-r0",
-        "cmd:pct2rgb.py=3.13.0-r0",
-        "cmd:pct2rgb=3.13.0-r0",
-        "cmd:rgb2pct.py=3.13.0-r0",
-        "cmd:rgb2pct=3.13.0-r0",
-        "cmd:sozip=3.13.0-r0"
+        "cmd:gdal2tiles.py=3.13.0-r1",
+        "cmd:gdal2tiles=3.13.0-r1",
+        "cmd:gdal2xyz.py=3.13.0-r1",
+        "cmd:gdal2xyz=3.13.0-r1",
+        "cmd:gdal=3.13.0-r1",
+        "cmd:gdal_calc.py=3.13.0-r1",
+        "cmd:gdal_calc=3.13.0-r1",
+        "cmd:gdal_contour=3.13.0-r1",
+        "cmd:gdal_create=3.13.0-r1",
+        "cmd:gdal_edit.py=3.13.0-r1",
+        "cmd:gdal_edit=3.13.0-r1",
+        "cmd:gdal_fillnodata.py=3.13.0-r1",
+        "cmd:gdal_fillnodata=3.13.0-r1",
+        "cmd:gdal_footprint=3.13.0-r1",
+        "cmd:gdal_grid=3.13.0-r1",
+        "cmd:gdal_merge.py=3.13.0-r1",
+        "cmd:gdal_merge=3.13.0-r1",
+        "cmd:gdal_pansharpen.py=3.13.0-r1",
+        "cmd:gdal_pansharpen=3.13.0-r1",
+        "cmd:gdal_polygonize.py=3.13.0-r1",
+        "cmd:gdal_polygonize=3.13.0-r1",
+        "cmd:gdal_proximity.py=3.13.0-r1",
+        "cmd:gdal_proximity=3.13.0-r1",
+        "cmd:gdal_rasterize=3.13.0-r1",
+        "cmd:gdal_retile.py=3.13.0-r1",
+        "cmd:gdal_retile=3.13.0-r1",
+        "cmd:gdal_sieve.py=3.13.0-r1",
+        "cmd:gdal_sieve=3.13.0-r1",
+        "cmd:gdal_translate=3.13.0-r1",
+        "cmd:gdal_viewshed=3.13.0-r1",
+        "cmd:gdaladdo=3.13.0-r1",
+        "cmd:gdalattachpct.py=3.13.0-r1",
+        "cmd:gdalattachpct=3.13.0-r1",
+        "cmd:gdalbuildvrt=3.13.0-r1",
+        "cmd:gdalcompare.py=3.13.0-r1",
+        "cmd:gdalcompare=3.13.0-r1",
+        "cmd:gdaldem=3.13.0-r1",
+        "cmd:gdalenhance=3.13.0-r1",
+        "cmd:gdalinfo=3.13.0-r1",
+        "cmd:gdallocationinfo=3.13.0-r1",
+        "cmd:gdalmanage=3.13.0-r1",
+        "cmd:gdalmdiminfo=3.13.0-r1",
+        "cmd:gdalmdimtranslate=3.13.0-r1",
+        "cmd:gdalmove.py=3.13.0-r1",
+        "cmd:gdalmove=3.13.0-r1",
+        "cmd:gdalsrsinfo=3.13.0-r1",
+        "cmd:gdaltindex=3.13.0-r1",
+        "cmd:gdaltransform=3.13.0-r1",
+        "cmd:gdalwarp=3.13.0-r1",
+        "cmd:gnmanalyse=3.13.0-r1",
+        "cmd:gnmmanage=3.13.0-r1",
+        "cmd:nearblack=3.13.0-r1",
+        "cmd:ogr2ogr=3.13.0-r1",
+        "cmd:ogr_layer_algebra.py=3.13.0-r1",
+        "cmd:ogr_layer_algebra=3.13.0-r1",
+        "cmd:ogrinfo=3.13.0-r1",
+        "cmd:ogrlineref=3.13.0-r1",
+        "cmd:ogrmerge.py=3.13.0-r1",
+        "cmd:ogrmerge=3.13.0-r1",
+        "cmd:ogrtindex=3.13.0-r1",
+        "cmd:pct2rgb.py=3.13.0-r1",
+        "cmd:pct2rgb=3.13.0-r1",
+        "cmd:rgb2pct.py=3.13.0-r1",
+        "cmd:rgb2pct=3.13.0-r1",
+        "cmd:sozip=3.13.0-r1"
       ]
     },
     "gdb-dashboard": {
@@ -81615,7 +81653,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -105999,7 +106038,8 @@
         "1.31.1-r0": 1775148343,
         "1.31.2-r0": 1778869674,
         "1.31.2-r1": 1780410219,
-        "1.31.2-r2": 1780433086
+        "1.31.2-r2": 1780433086,
+        "1.31.3-r0": 1780666824
       },
       "dependencies": [
         "/bin/sh",
@@ -106009,7 +106049,7 @@
         "so:libudev.so.1"
       ],
       "provides": [
-        "cmd:libinput=1.31.2-r2"
+        "cmd:libinput=1.31.3-r0"
       ]
     },
     "libinput-dev": {
@@ -106018,16 +106058,17 @@
         "1.31.1-r0": 1775148343,
         "1.31.2-r0": 1778869674,
         "1.31.2-r1": 1780410219,
-        "1.31.2-r2": 1780433086
+        "1.31.2-r2": 1780433086,
+        "1.31.3-r0": 1780666824
       },
       "dependencies": [
         "eudev-dev",
-        "libinput-libs=1.31.2-r2",
+        "libinput-libs=1.31.3-r0",
         "pc:libudev",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libinput=1.31.2"
+        "pc:libinput=1.31.3"
       ]
     },
     "libinput-doc": {
@@ -106036,7 +106077,8 @@
         "1.31.1-r0": 1775148343,
         "1.31.2-r0": 1778869674,
         "1.31.2-r1": 1780410219,
-        "1.31.2-r2": 1780433086
+        "1.31.2-r2": 1780433086,
+        "1.31.3-r0": 1780666824
       }
     },
     "libinput-libs": {
@@ -106045,7 +106087,8 @@
         "1.31.1-r0": 1775148343,
         "1.31.2-r0": 1778869674,
         "1.31.2-r1": 1780410219,
-        "1.31.2-r2": 1780433086
+        "1.31.2-r2": 1780433086,
+        "1.31.3-r0": 1780666824
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -106063,10 +106106,11 @@
         "1.31.1-r0": 1775148343,
         "1.31.2-r0": 1778869674,
         "1.31.2-r1": 1780410219,
-        "1.31.2-r2": 1780433086
+        "1.31.2-r2": 1780433086,
+        "1.31.3-r0": 1780666824
       },
       "dependencies": [
-        "libinput=1.31.2-r2",
+        "libinput=1.31.3-r0",
         "py3-libevdev",
         "py3-udev",
         "py3-yaml",
@@ -106083,7 +106127,8 @@
         "1.31.1-r0": 1775148343,
         "1.31.2-r0": 1778869674,
         "1.31.2-r1": 1780410219,
-        "1.31.2-r2": 1780433086
+        "1.31.2-r2": 1780433086,
+        "1.31.3-r0": 1780666824
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -106097,7 +106142,8 @@
         "1.31.1-r0": 1775148343,
         "1.31.2-r0": 1778869674,
         "1.31.2-r1": 1780410219,
-        "1.31.2-r2": 1780433086
+        "1.31.2-r2": 1780433086,
+        "1.31.3-r0": 1780666824
       }
     },
     "libinputsynth": {
@@ -107511,7 +107557,8 @@
     "liblouis": {
       "origin": "liblouis",
       "versions": {
-        "3.37.0-r1": 1774640427
+        "3.37.0-r1": 1774640427,
+        "3.37.0-r2": 1780675105
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
@@ -107523,11 +107570,11 @@
     "liblouis-bin": {
       "origin": "liblouis",
       "versions": {
-        "3.37.0-r1": 1774640427
+        "3.37.0-r1": 1774640427,
+        "3.37.0-r2": 1780675105
       },
       "dependencies": [
         "bash",
-        "cmd:patgen",
         "make",
         "perl",
         "py3-liblouis",
@@ -107535,23 +107582,24 @@
         "so:liblouis.so.20"
       ],
       "provides": [
-        "cmd:lou_allround=3.37.0-r1",
-        "cmd:lou_checkhyphens=3.37.0-r1",
-        "cmd:lou_checktable=3.37.0-r1",
-        "cmd:lou_debug=3.37.0-r1",
-        "cmd:lou_maketable=3.37.0-r1",
-        "cmd:lou_tableinfo=3.37.0-r1",
-        "cmd:lou_trace=3.37.0-r1",
-        "cmd:lou_translate=3.37.0-r1"
+        "cmd:lou_allround=3.37.0-r2",
+        "cmd:lou_checkhyphens=3.37.0-r2",
+        "cmd:lou_checktable=3.37.0-r2",
+        "cmd:lou_debug=3.37.0-r2",
+        "cmd:lou_maketable=3.37.0-r2",
+        "cmd:lou_tableinfo=3.37.0-r2",
+        "cmd:lou_trace=3.37.0-r2",
+        "cmd:lou_translate=3.37.0-r2"
       ]
     },
     "liblouis-dev": {
       "origin": "liblouis",
       "versions": {
-        "3.37.0-r1": 1774640427
+        "3.37.0-r1": 1774640427,
+        "3.37.0-r2": 1780675105
       },
       "dependencies": [
-        "liblouis=3.37.0-r1",
+        "liblouis=3.37.0-r2",
         "pkgconfig"
       ],
       "provides": [
@@ -107561,13 +107609,15 @@
     "liblouis-doc": {
       "origin": "liblouis",
       "versions": {
-        "3.37.0-r1": 1774640427
+        "3.37.0-r1": 1774640427,
+        "3.37.0-r2": 1780675105
       }
     },
     "liblouis-static": {
       "origin": "liblouis",
       "versions": {
-        "3.37.0-r1": 1774640427
+        "3.37.0-r1": 1774640427,
+        "3.37.0-r2": 1780675105
       },
       "dependencies": [
         "liblouis-dev"
@@ -205716,7 +205766,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "py3-numpy",
@@ -205727,8 +205778,8 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "py3.14:osgeo=3.13.0-r0",
-        "py3.14:osgeo_utils=3.13.0-r0"
+        "py3.14:osgeo=3.13.0-r1",
+        "py3.14:osgeo_utils=3.13.0-r1"
       ]
     },
     "py3-gdal-pyc": {
@@ -205736,7 +205787,8 @@
       "versions": {
         "3.12.3-r4": 1776959469,
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "python3~3.14"
@@ -210549,20 +210601,22 @@
     "py3-liblouis": {
       "origin": "liblouis",
       "versions": {
-        "3.37.0-r1": 1774640427
+        "3.37.0-r1": 1774640427,
+        "3.37.0-r2": 1780675105
       },
       "dependencies": [
-        "liblouis=3.37.0-r1",
+        "liblouis=3.37.0-r2",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:louis=3.37.0-r1"
+        "py3.14:louis=3.37.0-r2"
       ]
     },
     "py3-liblouis-pyc": {
       "origin": "liblouis",
       "versions": {
-        "3.37.0-r1": 1774640427
+        "3.37.0-r1": 1774640427,
+        "3.37.0-r2": 1780675105
       },
       "dependencies": [
         "python3~3.14"
@@ -249225,44 +249279,48 @@
     "sdl3": {
       "origin": "sdl3",
       "versions": {
-        "3.4.8-r1": 1778093501
+        "3.4.8-r1": 1778093501,
+        "3.4.10-r0": 1780666261
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "so:libSDL3.so.0=0.4.8"
+        "so:libSDL3.so.0=0.4.10"
       ]
     },
     "sdl3-dbg": {
       "origin": "sdl3",
       "versions": {
-        "3.4.8-r1": 1778093501
+        "3.4.8-r1": 1778093501,
+        "3.4.10-r0": 1780666261
       },
       "dependencies": [
-        "!sdl3<3.4.8-r1",
-        "!sdl3>3.4.8-r1"
+        "!sdl3<3.4.10-r0",
+        "!sdl3>3.4.10-r0"
       ]
     },
     "sdl3-dev": {
       "origin": "sdl3",
       "versions": {
-        "3.4.8-r1": 1778093501
+        "3.4.8-r1": 1778093501,
+        "3.4.10-r0": 1780666261
       },
       "dependencies": [
         "sdl3",
         "mesa-dev",
-        "sdl3=3.4.8-r1",
+        "sdl3=3.4.10-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:sdl3=3.4.8"
+        "pc:sdl3=3.4.10"
       ]
     },
     "sdl3-doc": {
       "origin": "sdl3",
       "versions": {
-        "3.4.8-r1": 1778093501
+        "3.4.8-r1": 1778093501,
+        "3.4.10-r0": 1780666261
       }
     },
     "sdl3_ttf": {
@@ -285179,7 +285237,8 @@
       "origin": "gdal",
       "versions": {
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -285188,14 +285247,15 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-ADBC=3.13.0-r0"
+        "gdal-driver-ADBC=3.13.0-r1"
       ]
     },
     "gdal-driver-avif": {
       "origin": "gdal",
       "versions": {
         "3.12.4-r0": 1778623469,
-        "3.13.0-r0": 1778816972
+        "3.13.0-r0": 1778816972,
+        "3.13.0-r1": 1780673598
       },
       "dependencies": [
         "so:libavif.so.16",
@@ -285205,7 +285265,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "gdal-driver-AVIF=3.13.0-r0"
+        "gdal-driver-AVIF=3.13.0-r1"
       ]
     },
     "perl-mojo-sql": {
@@ -302831,7 +302891,7 @@
       },
       "libSDL3.so.0": {
         "package": "sdl3",
-        "version": "0.4.8"
+        "version": "0.4.10"
       },
       "libSDL3_ttf.so.0": {
         "package": "sdl3_ttf",
@@ -304849,135 +304909,135 @@
       },
       "gdal-driver-Arrow": {
         "package": "gdal-driver-arrow",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-BASISU_KTX2": {
         "package": "gdal-driver-basisu_ktx2",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-CAD": {
         "package": "gdal-driver-cad",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-Carto": {
         "package": "gdal-driver-carto",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-Elastic": {
         "package": "gdal-driver-elastic",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-EXR": {
         "package": "gdal-driver-exr",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-FITS": {
         "package": "gdal-driver-fits",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-GIF": {
         "package": "gdal-driver-gif",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-GMLAS": {
         "package": "gdal-driver-gmlas",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-HANA": {
         "package": "gdal-driver-hana",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-HDF5": {
         "package": "gdal-driver-hdf5",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-HEIF": {
         "package": "gdal-driver-heif",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-JP2OpenJPEG": {
         "package": "gdal-driver-jp2openjpeg",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-JPEG": {
         "package": "gdal-driver-jpeg",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-JPEGXL": {
         "package": "gdal-driver-jpegxl",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-KEA": {
         "package": "gdal-driver-kea",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-LIBKML": {
         "package": "gdal-driver-libkml",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-MSSQLSpatial": {
         "package": "gdal-driver-mssqlspatial",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-MySQL": {
         "package": "gdal-driver-mysql",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-ODBC": {
         "package": "gdal-driver-odbc",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-Parquet": {
         "package": "gdal-driver-parquet",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-PCIDSK": {
         "package": "gdal-driver-pcidsk",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-PCRaster": {
         "package": "gdal-driver-pcraster",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-PDF": {
         "package": "gdal-driver-pdf",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-PG": {
         "package": "gdal-driver-pg",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-PLSCENES": {
         "package": "gdal-driver-plscenes",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-PNG": {
         "package": "gdal-driver-png",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-PostGISRaster": {
         "package": "gdal-driver-postgisraster",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-VFK": {
         "package": "gdal-driver-vfk",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-WEBP": {
         "package": "gdal-driver-webp",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-WMS": {
         "package": "gdal-driver-wms",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-XLS": {
         "package": "gdal-driver-xls",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-XODR": {
         "package": "gdal-driver-xodr",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "glycin-loaders": {
         "package": "glycin",
@@ -307969,11 +308029,11 @@
       },
       "gdal-driver-ADBC": {
         "package": "gdal-driver-adbc",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "gdal-driver-AVIF": {
         "package": "gdal-driver-avif",
-        "version": "3.13.0-r0"
+        "version": "3.13.0-r1"
       },
       "nginx-mod-devel-kit": {
         "package": "openresty-mod-devel-kit",
