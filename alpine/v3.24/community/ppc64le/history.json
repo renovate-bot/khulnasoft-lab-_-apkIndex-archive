@@ -114781,12 +114781,13 @@
     "libgit2": {
       "origin": "libgit2",
       "versions": {
-        "1.9.4-r0": 1779612341
+        "1.9.4-r0": 1779612341,
+        "1.9.4-r1": 1780695414
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
         "so:libcrypto.so.3",
-        "so:libllhttp.so.9.3",
+        "so:libllhttp.so.9.4",
         "so:libpcre2-8.so.0",
         "so:libssh2.so.1",
         "so:libssl.so.3",
@@ -114799,25 +114800,27 @@
     "libgit2-dbg": {
       "origin": "libgit2",
       "versions": {
-        "1.9.4-r0": 1779612341
+        "1.9.4-r0": 1779612341,
+        "1.9.4-r1": 1780695414
       },
       "dependencies": [
-        "!libgit2-tools<1.9.4-r0",
-        "!libgit2-tools>1.9.4-r0",
-        "!libgit2<1.9.4-r0",
-        "!libgit2>1.9.4-r0"
+        "!libgit2-tools<1.9.4-r1",
+        "!libgit2-tools>1.9.4-r1",
+        "!libgit2<1.9.4-r1",
+        "!libgit2>1.9.4-r1"
       ]
     },
     "libgit2-dev": {
       "origin": "libgit2",
       "versions": {
-        "1.9.4-r0": 1779612341
+        "1.9.4-r0": 1779612341,
+        "1.9.4-r1": 1780695414
       },
       "dependencies": [
         "curl-dev",
         "libssh2-dev",
         "llhttp-dev",
-        "libgit2=1.9.4-r0",
+        "libgit2=1.9.4-r1",
         "pc:libpcre2-8",
         "pc:libssh2",
         "pc:openssl",
@@ -114874,7 +114877,8 @@
     "libgit2-static": {
       "origin": "libgit2",
       "versions": {
-        "1.9.4-r0": 1779612341
+        "1.9.4-r0": 1779612341,
+        "1.9.4-r1": 1780695414
       },
       "dependencies": [
         "libgit2-dev"
@@ -114883,25 +114887,27 @@
     "libgit2-tests": {
       "origin": "libgit2",
       "versions": {
-        "1.9.4-r0": 1779612341
+        "1.9.4-r0": 1779612341,
+        "1.9.4-r1": 1780695414
       }
     },
     "libgit2-tools": {
       "origin": "libgit2",
       "versions": {
-        "1.9.4-r0": 1779612341
+        "1.9.4-r0": 1779612341,
+        "1.9.4-r1": 1780695414
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
         "so:libcrypto.so.3",
-        "so:libllhttp.so.9.3",
+        "so:libllhttp.so.9.4",
         "so:libpcre2-8.so.0",
         "so:libssh2.so.1",
         "so:libssl.so.3",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:git2=1.9.4-r0"
+        "cmd:git2=1.9.4-r1"
       ]
     },
     "libglib-testing": {
@@ -223890,22 +223896,24 @@
     "py3-httptools": {
       "origin": "py3-httptools",
       "versions": {
-        "0.6.4-r2": 1774640403
+        "0.6.4-r2": 1774640403,
+        "0.6.4-r3": 1780695414
       },
       "dependencies": [
         "python3~3.14",
         "so:libc.musl-ppc64le.so.1",
         "so:libhttp_parser.so.2.9",
-        "so:libllhttp.so.9.3"
+        "so:libllhttp.so.9.4"
       ],
       "provides": [
-        "py3.14:httptools=0.6.4-r2"
+        "py3.14:httptools=0.6.4-r3"
       ]
     },
     "py3-httptools-pyc": {
       "origin": "py3-httptools",
       "versions": {
-        "0.6.4-r2": 1774640403
+        "0.6.4-r2": 1774640403,
+        "0.6.4-r3": 1780695414
       },
       "dependencies": [
         "python3~3.14"
@@ -307577,6 +307585,74 @@
       "dependencies": [
         "libfido2-udev"
       ]
+    },
+    "81voltd": {
+      "origin": "81voltd",
+      "versions": {
+        "1.2.0-r0": 1780695893
+      },
+      "dependencies": [
+        "so:libc.musl-ppc64le.so.1",
+        "so:libgio-2.0.so.0",
+        "so:libglib-2.0.so.0",
+        "so:libgobject-2.0.so.0",
+        "so:libmm-glib.so.0",
+        "so:libqmi-glib.so.5",
+        "so:libqrtr.so.1"
+      ],
+      "provides": [
+        "cmd:81voltd=1.2.0-r0"
+      ]
+    },
+    "81voltd-doc": {
+      "origin": "81voltd",
+      "versions": {
+        "1.2.0-r0": 1780695893
+      }
+    },
+    "81voltd-openrc": {
+      "origin": "81voltd",
+      "versions": {
+        "1.2.0-r0": 1780695893
+      }
+    },
+    "81voltd-systemd": {
+      "origin": "81voltd",
+      "versions": {
+        "1.2.0-r0": 1780695893
+      }
+    },
+    "q6voiced": {
+      "origin": "q6voiced",
+      "versions": {
+        "0.2.1-r0": 1780695893
+      },
+      "dependencies": [
+        "so:libasound.so.2",
+        "so:libc.musl-ppc64le.so.1",
+        "so:libdbus-1.so.3"
+      ],
+      "provides": [
+        "cmd:q6voiced=0.2.1-r0"
+      ]
+    },
+    "q6voiced-doc": {
+      "origin": "q6voiced",
+      "versions": {
+        "0.2.1-r0": 1780695893
+      }
+    },
+    "q6voiced-openrc": {
+      "origin": "q6voiced",
+      "versions": {
+        "0.2.1-r0": 1780695893
+      }
+    },
+    "q6voiced-systemd": {
+      "origin": "q6voiced",
+      "versions": {
+        "0.2.1-r0": 1780695893
+      }
     }
   },
   "provide": {

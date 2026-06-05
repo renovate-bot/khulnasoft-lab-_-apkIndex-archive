@@ -60,6 +60,67 @@ t:1762698488
 c:40143e75e59e7ed32b36c986926d17834d36acd3
 i:docs 6tunnel=0.14-r0
 
+C:Q1bOyyweQWXT2isrlMpqgmFa7xzCc=
+P:81voltd
+V:1.2.0-r0
+A:ppc64le
+S:14216
+I:68952
+T:Server-side implementation of IMS Data service on QMI/QRTR
+U:https://gitlab.postmarketos.org/modem/81voltd
+L:GPL-2.0-or-later
+o:81voltd
+m:Achill Gilgenast <achill@achill.org>
+t:1780695893
+c:5bbddde572a0900e01e7552fbb50434cf3880d06
+D:so:libc.musl-ppc64le.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libmm-glib.so.0 so:libqmi-glib.so.5 so:libqrtr.so.1
+p:cmd:81voltd=1.2.0-r0
+
+C:Q1KgJ4D+og1BFP3Fm67pX4ZV86MIM=
+P:81voltd-doc
+V:1.2.0-r0
+A:ppc64le
+S:2024
+I:560
+T:Server-side implementation of IMS Data service on QMI/QRTR (documentation)
+U:https://gitlab.postmarketos.org/modem/81voltd
+L:GPL-2.0-or-later
+o:81voltd
+m:Achill Gilgenast <achill@achill.org>
+t:1780695893
+c:5bbddde572a0900e01e7552fbb50434cf3880d06
+i:docs 81voltd=1.2.0-r0
+
+C:Q19bKdeuWrSLBg6Lkl0nWKaRi3FLM=
+P:81voltd-openrc
+V:1.2.0-r0
+A:ppc64le
+S:1511
+I:212
+T:Server-side implementation of IMS Data service on QMI/QRTR (OpenRC init scripts)
+U:https://gitlab.postmarketos.org/modem/81voltd
+L:GPL-2.0-or-later
+o:81voltd
+m:Achill Gilgenast <achill@achill.org>
+t:1780695893
+c:5bbddde572a0900e01e7552fbb50434cf3880d06
+i:openrc 81voltd=1.2.0-r0
+
+C:Q1RGu8akz8ZOoZVoD+r6YOU5WNKvA=
+P:81voltd-systemd
+V:1.2.0-r0
+A:ppc64le
+S:1511
+I:150
+T:Server-side implementation of IMS Data service on QMI/QRTR (systemd files)
+U:https://gitlab.postmarketos.org/modem/81voltd
+L:GPL-2.0-or-later
+o:81voltd
+m:Achill Gilgenast <achill@achill.org>
+t:1780695893
+c:5bbddde572a0900e01e7552fbb50434cf3880d06
+i:systemd 81voltd=1.2.0-r0
+
 C:Q1OioGQxLmeyJlHqlO5cIjBX4CIds=
 P:a2ps
 V:4.15.7-r0
@@ -121810,51 +121871,51 @@ c:1e40ebb81e1bd430682f1e567f49def3e88314d0
 D:libgepub=0.7.1-r1 pc:gio-2.0 pc:glib-2.0 pc:gobject-2.0 pc:libarchive pc:libsoup-3.0 pc:libxml-2.0 pc:webkit2gtk-4.1 pkgconfig
 p:pc:libgepub-0.7=0.7.1
 
-C:Q1fo5d4aFIq4jQIVbPvSjfu+isqDI=
+C:Q162ytopQT6te/qj16RgaYLHyKTLk=
 P:libgit2
-V:1.9.4-r0
+V:1.9.4-r1
 A:ppc64le
-S:518000
+S:517987
 I:1184896
 T:linkable library for Git
 U:https://libgit2.org/
 L:GPL-2.0-only WITH GCC-exception-2.0
 o:libgit2
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1779612341
-c:ae8cf896916aaece37bb1f6e31bdbefedaf37993
-D:so:libc.musl-ppc64le.so.1 so:libcrypto.so.3 so:libllhttp.so.9.3 so:libpcre2-8.so.0 so:libssh2.so.1 so:libssl.so.3 so:libz.so.1
+t:1780695414
+c:071887074b5780539a1ca7b3f7bada626b66c3e5
+D:so:libc.musl-ppc64le.so.1 so:libcrypto.so.3 so:libllhttp.so.9.4 so:libpcre2-8.so.0 so:libssh2.so.1 so:libssl.so.3 so:libz.so.1
 p:so:libgit2.so.1.9=1.9.4
 
-C:Q1nNsgl1KTp00nLGatwaADfHnIQNc=
+C:Q10XKMQDVnDDbc+QYvfW6qci/5b1g=
 P:libgit2-dbg
-V:1.9.4-r0
+V:1.9.4-r1
 A:ppc64le
-S:3391932
+S:3391904
 I:8165424
 T:linkable library for Git (debug symbols)
 U:https://libgit2.org/
 L:GPL-2.0-only WITH GCC-exception-2.0
 o:libgit2
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1779612341
-c:ae8cf896916aaece37bb1f6e31bdbefedaf37993
-D:!libgit2-tools<1.9.4-r0 !libgit2-tools>1.9.4-r0 !libgit2<1.9.4-r0 !libgit2>1.9.4-r0
+t:1780695414
+c:071887074b5780539a1ca7b3f7bada626b66c3e5
+D:!libgit2-tools<1.9.4-r1 !libgit2-tools>1.9.4-r1 !libgit2<1.9.4-r1 !libgit2>1.9.4-r1
 
-C:Q1o3zefO/89c5wb8MDsrtOopygF7E=
+C:Q1WCEo4693vbHL5jiP3aGAu7mPiHU=
 P:libgit2-dev
-V:1.9.4-r0
+V:1.9.4-r1
 A:ppc64le
-S:845850
+S:845838
 I:4668552
 T:linkable library for Git (development files)
 U:https://libgit2.org/
 L:GPL-2.0-only WITH GCC-exception-2.0
 o:libgit2
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1779612341
-c:ae8cf896916aaece37bb1f6e31bdbefedaf37993
-D:curl-dev libssh2-dev llhttp-dev libgit2=1.9.4-r0 pc:libpcre2-8 pc:libssh2 pc:openssl pc:zlib pkgconfig
+t:1780695414
+c:071887074b5780539a1ca7b3f7bada626b66c3e5
+D:curl-dev libssh2-dev llhttp-dev libgit2=1.9.4-r1 pc:libpcre2-8 pc:libssh2 pc:openssl pc:zlib pkgconfig
 p:pc:libgit2=1.9.4
 
 C:Q1sbs9rKm7JVccZYLrGM0jImFAKQ8=
@@ -121905,50 +121966,50 @@ c:efba974dd71b00764f53ece2ce9b058aca208ac2
 D:python3~3.14
 i:libgit2-glib=1.2.1-r2 pyc
 
-C:Q1UjrqcWvItcnRA6ujd0xqpFM1WAY=
+C:Q1q0nC1+DDkqQ9IEoHuMY18jZWL0c=
 P:libgit2-static
-V:1.9.4-r0
+V:1.9.4-r1
 A:ppc64le
-S:3706465
+S:3706463
 I:11496950
 T:linkable library for Git (static library)
 U:https://libgit2.org/
 L:GPL-2.0-only WITH GCC-exception-2.0
 o:libgit2
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1779612341
-c:ae8cf896916aaece37bb1f6e31bdbefedaf37993
+t:1780695414
+c:071887074b5780539a1ca7b3f7bada626b66c3e5
 D:libgit2-dev
 
-C:Q1BqMs6AVqpQ3x4cWZuuGc9QtIxBM=
+C:Q1ZGN4HUnEc3UzaV703aQGtKH/g8k=
 P:libgit2-tests
-V:1.9.4-r0
+V:1.9.4-r1
 A:ppc64le
-S:5482264
+S:5482123
 I:6884609
 T:linkable library for Git (tests)
 U:https://libgit2.org/
 L:GPL-2.0-only WITH GCC-exception-2.0
 o:libgit2
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1779612341
-c:ae8cf896916aaece37bb1f6e31bdbefedaf37993
+t:1780695414
+c:071887074b5780539a1ca7b3f7bada626b66c3e5
 
-C:Q1WtfeChFbvydIHwgldnb+Ffcp8w8=
+C:Q1VgVjCYkcvddiLVGtfMgc84/p6us=
 P:libgit2-tools
-V:1.9.4-r0
+V:1.9.4-r1
 A:ppc64le
-S:351837
+S:351836
 I:791608
 T:linkable library for Git (tools)
 U:https://libgit2.org/
 L:GPL-2.0-only WITH GCC-exception-2.0
 o:libgit2
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1779612341
-c:ae8cf896916aaece37bb1f6e31bdbefedaf37993
-D:so:libc.musl-ppc64le.so.1 so:libcrypto.so.3 so:libllhttp.so.9.3 so:libpcre2-8.so.0 so:libssh2.so.1 so:libssl.so.3 so:libz.so.1
-p:cmd:git2=1.9.4-r0
+t:1780695414
+c:071887074b5780539a1ca7b3f7bada626b66c3e5
+D:so:libc.musl-ppc64le.so.1 so:libcrypto.so.3 so:libllhttp.so.9.4 so:libpcre2-8.so.0 so:libssh2.so.1 so:libssl.so.3 so:libz.so.1
+p:cmd:git2=1.9.4-r1
 
 C:Q1uFQEQU+PW+ep5/ZQIhb3PzF9J5A=
 P:libglib-testing
@@ -236969,37 +237030,37 @@ c:677e7e1b1a1a2abce1703f8053b7bb3bd215f160
 D:python3~3.14
 i:py3-httpretty=1.1.4-r5 pyc
 
-C:Q1oY1Rm+eOExUKq3D5zHMNY9sKzvA=
+C:Q1UCzc+VFnz/lkuxuPcNR7pRul9Tw=
 P:py3-httptools
-V:0.6.4-r2
+V:0.6.4-r3
 A:ppc64le
-S:79736
+S:79722
 I:302449
 T:Fast HTTP parser
 U:https://github.com/MagicStack/httptools
 L:MIT
 o:py3-httptools
 m:Michał Polański <michal@polanski.me>
-t:1774640403
-c:d60fddb7a1617d7e1907c7103b55874576d14d15
-D:python3~3.14 so:libc.musl-ppc64le.so.1 so:libhttp_parser.so.2.9 so:libllhttp.so.9.3
-p:py3.14:httptools=0.6.4-r2
+t:1780695414
+c:071887074b5780539a1ca7b3f7bada626b66c3e5
+D:python3~3.14 so:libc.musl-ppc64le.so.1 so:libhttp_parser.so.2.9 so:libllhttp.so.9.4
+p:py3.14:httptools=0.6.4-r3
 
-C:Q1pr+QtBkNrtai5lxJ1hunTR1HJho=
+C:Q14AO3PD6QE5NEYjsYXu9CE9X8jYQ=
 P:py3-httptools-pyc
-V:0.6.4-r2
+V:0.6.4-r3
 A:ppc64le
-S:2691
+S:2688
 I:2445
 T:Precompiled Python bytecode for py3-httptools
 U:https://github.com/MagicStack/httptools
 L:MIT
 o:py3-httptools
 m:Michał Polański <michal@polanski.me>
-t:1774640403
-c:d60fddb7a1617d7e1907c7103b55874576d14d15
+t:1780695414
+c:071887074b5780539a1ca7b3f7bada626b66c3e5
 D:python3~3.14
-i:py3-httptools=0.6.4-r2 pyc
+i:py3-httptools=0.6.4-r3 pyc
 
 C:Q1SJhQYtKUETy9u6lPdr8paFnSW/k=
 P:py3-httpx
@@ -268273,6 +268334,67 @@ t:1774640376
 c:588750247a26a18e8c2500f3d6fbbdb602e7c4c5
 D:python3~3.14
 i:pythran=0.18.1-r1 pyc
+
+C:Q1ZwgZp4XvdZmr4xztKv2fxpZVnUw=
+P:q6voiced
+V:0.2.1-r0
+A:ppc64le
+S:4878
+I:67472
+T:Userspace QDSP6 voice driver daemon listing on oFono/ModemManager
+U:https://gitlab.postmarketos.org/postmarketOS/q6voiced/
+L:MIT
+o:q6voiced
+m:Achill Gilgenast <achill@achill.org>
+t:1780695893
+c:3f0925f0ad44bcf88ec1a05d3b813b8301cad8f8
+D:so:libasound.so.2 so:libc.musl-ppc64le.so.1 so:libdbus-1.so.3
+p:cmd:q6voiced=0.2.1-r0
+
+C:Q1iLnC+9tFn5cFhXlacVQ5KHWQ57Y=
+P:q6voiced-doc
+V:0.2.1-r0
+A:ppc64le
+S:2048
+I:1079
+T:Userspace QDSP6 voice driver daemon listing on oFono/ModemManager (documentation)
+U:https://gitlab.postmarketos.org/postmarketOS/q6voiced/
+L:MIT
+o:q6voiced
+m:Achill Gilgenast <achill@achill.org>
+t:1780695893
+c:3f0925f0ad44bcf88ec1a05d3b813b8301cad8f8
+i:docs q6voiced=0.2.1-r0
+
+C:Q1GN5/IABbe0oQ5V7r2rt2oRJUrrw=
+P:q6voiced-openrc
+V:0.2.1-r0
+A:ppc64le
+S:1573
+I:366
+T:Userspace QDSP6 voice driver daemon listing on oFono/ModemManager (OpenRC init scripts)
+U:https://gitlab.postmarketos.org/postmarketOS/q6voiced/
+L:MIT
+o:q6voiced
+m:Achill Gilgenast <achill@achill.org>
+t:1780695893
+c:3f0925f0ad44bcf88ec1a05d3b813b8301cad8f8
+i:openrc q6voiced=0.2.1-r0
+
+C:Q10Jm8IOZVuqvgj4ClFcmrU5cIPM0=
+P:q6voiced-systemd
+V:0.2.1-r0
+A:ppc64le
+S:1615
+I:329
+T:Userspace QDSP6 voice driver daemon listing on oFono/ModemManager (systemd files)
+U:https://gitlab.postmarketos.org/postmarketOS/q6voiced/
+L:MIT
+o:q6voiced
+m:Achill Gilgenast <achill@achill.org>
+t:1780695893
+c:3f0925f0ad44bcf88ec1a05d3b813b8301cad8f8
+i:systemd q6voiced=0.2.1-r0
 
 C:Q1s7/UKIJKGdDegDKcQuamGXBmkEg=
 P:qalc
