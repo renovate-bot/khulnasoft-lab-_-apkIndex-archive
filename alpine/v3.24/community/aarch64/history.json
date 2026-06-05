@@ -33969,7 +33969,8 @@
     "cppcheck": {
       "origin": "cppcheck",
       "versions": {
-        "2.20.1-r0": 1775231030
+        "2.20.1-r0": 1775231030,
+        "2.21.0-r0": 1780642424
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -33979,22 +33980,24 @@
         "so:libtinyxml2.so.11"
       ],
       "provides": [
-        "cmd:cppcheck=2.20.1-r0"
+        "cmd:cppcheck=2.21.0-r0"
       ]
     },
     "cppcheck-doc": {
       "origin": "cppcheck",
       "versions": {
-        "2.20.1-r0": 1775231030
+        "2.20.1-r0": 1775231030,
+        "2.21.0-r0": 1780642424
       }
     },
     "cppcheck-gui": {
       "origin": "cppcheck",
       "versions": {
-        "2.20.1-r0": 1775231030
+        "2.20.1-r0": 1775231030,
+        "2.21.0-r0": 1780642424
       },
       "dependencies": [
-        "cppcheck=2.20.1-r0",
+        "cppcheck=2.21.0-r0",
         "so:libQt6Charts.so.6",
         "so:libQt6Core.so.6",
         "so:libQt6Gui.so.6",
@@ -34009,21 +34012,22 @@
         "so:libtinyxml2.so.11"
       ],
       "provides": [
-        "cmd:cppcheck-gui=2.20.1-r0"
+        "cmd:cppcheck-gui=2.21.0-r0"
       ]
     },
     "cppcheck-htmlreport": {
       "origin": "cppcheck",
       "versions": {
-        "2.20.1-r0": 1775231030
+        "2.20.1-r0": 1775231030,
+        "2.21.0-r0": 1780642424
       },
       "dependencies": [
-        "cppcheck=2.20.1-r0",
+        "cppcheck=2.21.0-r0",
         "python3",
         "py3-pygments"
       ],
       "provides": [
-        "cmd:cppcheck-htmlreport=2.20.1-r0"
+        "cmd:cppcheck-htmlreport=2.21.0-r0"
       ]
     },
     "cppcodec": {
