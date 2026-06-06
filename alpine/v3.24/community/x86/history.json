@@ -43352,13 +43352,15 @@
     "fehqlibs": {
       "origin": "fehqlibs",
       "versions": {
-        "28-r0": 1760281942
+        "28-r0": 1760281942,
+        "31-r0": 1780756771
       }
     },
     "fehqlibs-doc": {
       "origin": "fehqlibs",
       "versions": {
-        "28-r0": 1760281942
+        "28-r0": 1760281942,
+        "31-r0": 1780756771
       }
     },
     "fennel": {
@@ -51477,21 +51479,23 @@
       "origin": "fzf",
       "versions": {
         "0.72.0-r0": 1778022722,
-        "0.72.0-r1": 1778661427
+        "0.72.0-r1": 1778661427,
+        "0.73.1-r0": 1780759003
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:fzf=0.72.0-r1"
+        "cmd:fzf=0.73.1-r0"
       ]
     },
     "fzf-bash-plugin": {
       "origin": "fzf",
       "versions": {
         "0.72.0-r0": 1778022722,
-        "0.72.0-r1": 1778661427
+        "0.72.0-r1": 1778661427,
+        "0.73.1-r0": 1780759003
       },
       "dependencies": [
         "perl"
@@ -51501,42 +51505,47 @@
       "origin": "fzf",
       "versions": {
         "0.72.0-r0": 1778022722,
-        "0.72.0-r1": 1778661427
+        "0.72.0-r1": 1778661427,
+        "0.73.1-r0": 1780759003
       }
     },
     "fzf-fish-plugin": {
       "origin": "fzf",
       "versions": {
         "0.72.0-r0": 1778022722,
-        "0.72.0-r1": 1778661427
+        "0.72.0-r1": 1778661427,
+        "0.73.1-r0": 1780759003
       }
     },
     "fzf-neovim": {
       "origin": "fzf",
       "versions": {
         "0.72.0-r0": 1778022722,
-        "0.72.0-r1": 1778661427
+        "0.72.0-r1": 1778661427,
+        "0.73.1-r0": 1780759003
       }
     },
     "fzf-tmux": {
       "origin": "fzf",
       "versions": {
         "0.72.0-r0": 1778022722,
-        "0.72.0-r1": 1778661427
+        "0.72.0-r1": 1778661427,
+        "0.73.1-r0": 1780759003
       },
       "dependencies": [
         "tmux",
         "bash"
       ],
       "provides": [
-        "cmd:fzf-tmux=0.72.0-r1"
+        "cmd:fzf-tmux=0.73.1-r0"
       ]
     },
     "fzf-vim": {
       "origin": "fzf",
       "versions": {
         "0.72.0-r0": 1778022722,
-        "0.72.0-r1": 1778661427
+        "0.72.0-r1": 1778661427,
+        "0.73.1-r0": 1780759003
       },
       "dependencies": [
         "vim",
@@ -51547,7 +51556,8 @@
       "origin": "fzf",
       "versions": {
         "0.72.0-r0": 1778022722,
-        "0.72.0-r1": 1778661427
+        "0.72.0-r1": 1778661427,
+        "0.73.1-r0": 1780759003
       }
     },
     "fzy": {
@@ -71672,16 +71682,17 @@
     "grommunio-gromox": {
       "origin": "grommunio-gromox",
       "versions": {
-        "3.0-r0": 1760941288
+        "3.0-r0": 1760941288,
+        "3.6-r0": 1780756178
       },
       "dependencies": [
         "grommunio-common",
-        "php83",
-        "php83-fpm",
+        "php84",
+        "php84-fpm",
         "postfix",
         "valkey",
         "/bin/sh",
-        "so:libHX.so.32",
+        "so:libHX.so.43",
         "so:libc.musl-x86.so.1",
         "so:libcares.so.2",
         "so:libcrypto.so.3",
@@ -71703,50 +71714,52 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:gromox-abktconv=3.0-r0",
-        "cmd:gromox-abktpull=3.0-r0",
-        "cmd:gromox-compress=3.0-r0",
-        "cmd:gromox-dbop=3.0-r0",
-        "cmd:gromox-dscli=3.0-r0",
-        "cmd:gromox-e2ghelper=3.0-r0",
-        "cmd:gromox-eml2mbox=3.0-r0",
-        "cmd:gromox-eml2mt=3.0-r0",
-        "cmd:gromox-exm2eml=3.0-r0",
-        "cmd:gromox-exm2ical=3.0-r0",
-        "cmd:gromox-exm2mt=3.0-r0",
-        "cmd:gromox-exm2tnef=3.0-r0",
-        "cmd:gromox-exm2vcf=3.0-r0",
-        "cmd:gromox-ical2mt=3.0-r0",
-        "cmd:gromox-kdb2mt=3.0-r0",
-        "cmd:gromox-mailq=3.0-r0",
-        "cmd:gromox-mbck=3.0-r0",
-        "cmd:gromox-mbop=3.0-r0",
-        "cmd:gromox-mbox2mt=3.0-r0",
-        "cmd:gromox-mbsize=3.0-r0",
-        "cmd:gromox-mkmidb=3.0-r0",
-        "cmd:gromox-mkprivate=3.0-r0",
-        "cmd:gromox-mkpublic=3.0-r0",
-        "cmd:gromox-mt2exm=3.0-r0",
-        "cmd:gromox-tnef2mt=3.0-r0",
-        "cmd:gromox-vcf2mt=3.0-r0",
+        "cmd:gromox-abktconv=3.6-r0",
+        "cmd:gromox-abktpull=3.6-r0",
+        "cmd:gromox-compress=3.6-r0",
+        "cmd:gromox-dbop=3.6-r0",
+        "cmd:gromox-dscli=3.6-r0",
+        "cmd:gromox-e2ghelper=3.6-r0",
+        "cmd:gromox-eml2mbox=3.6-r0",
+        "cmd:gromox-eml2mt=3.6-r0",
+        "cmd:gromox-exm2eml=3.6-r0",
+        "cmd:gromox-exm2ical=3.6-r0",
+        "cmd:gromox-exm2mt=3.6-r0",
+        "cmd:gromox-exm2tnef=3.6-r0",
+        "cmd:gromox-exm2vcf=3.6-r0",
+        "cmd:gromox-export=3.6-r0",
+        "cmd:gromox-ical2mt=3.6-r0",
+        "cmd:gromox-import=3.6-r0",
+        "cmd:gromox-kdb2mt=3.6-r0",
+        "cmd:gromox-mailq=3.6-r0",
+        "cmd:gromox-mbck=3.6-r0",
+        "cmd:gromox-mbop=3.6-r0",
+        "cmd:gromox-mbox2mt=3.6-r0",
+        "cmd:gromox-mbsize=3.6-r0",
+        "cmd:gromox-mkmidb=3.6-r0",
+        "cmd:gromox-mkprivate=3.6-r0",
+        "cmd:gromox-mkpublic=3.6-r0",
+        "cmd:gromox-mt2exm=3.6-r0",
+        "cmd:gromox-tnef2mt=3.6-r0",
+        "cmd:gromox-vcf2mt=3.6-r0",
+        "so:libgromox_abtree.so.0=0.0.0",
         "so:libgromox_auth.so.0=0.0.0",
         "so:libgromox_authz.so.0=0.0.0",
         "so:libgromox_common.so.0=0.0.0",
         "so:libgromox_dbop.so.0=0.0.0",
-        "so:libgromox_epoll.so.0=0.0.0",
+        "so:libgromox_emsmdb.so.0=0.0.0",
+        "so:libgromox_ews.so.0=0.0.0",
         "so:libgromox_exrpc.so.0=0.0.0",
         "so:libgromox_mapi.so.0=0.0.0",
-        "so:libgromox_rpc.so.0=0.0.0",
-        "so:libgxh_ews.so.0=0.0.0",
-        "so:libgxh_mh_emsmdb.so.0=0.0.0",
-        "so:libgxh_mh_nsp.so.0=0.0.0",
-        "so:libgxh_oab.so.0=0.0.0",
-        "so:libgxh_oxdisco.so.0=0.0.0",
+        "so:libgromox_mh_emsmdb.so.0=0.0.0",
+        "so:libgromox_mh_nsp.so.0=0.0.0",
+        "so:libgromox_ndr.so.0=0.0.0",
+        "so:libgromox_nsp.so.0=0.0.0",
+        "so:libgromox_oab.so.0=0.0.0",
+        "so:libgromox_oxdisco.so.0=0.0.0",
+        "so:libgromox_rfr.so.0=0.0.0",
         "so:libgxm_alias_resolve.so.0=0.0.0",
         "so:libgxm_exmdb_local.so.0=0.0.0",
-        "so:libgxp_exchange_emsmdb.so.0=0.0.0",
-        "so:libgxp_exchange_nsp.so.0=0.0.0",
-        "so:libgxp_exchange_rfr.so.0=0.0.0",
         "so:libgxs_event_proxy.so.0=0.0.0",
         "so:libgxs_event_stub.so.0=0.0.0",
         "so:libgxs_exmdb_provider.so.0=0.0.0",
@@ -71759,42 +71772,47 @@
     "grommunio-gromox-dbg": {
       "origin": "grommunio-gromox",
       "versions": {
-        "3.0-r0": 1760941288
+        "3.0-r0": 1760941288,
+        "3.6-r0": 1780756178
       },
       "dependencies": [
-        "!grommunio-gromox<3.0-r0",
-        "!grommunio-gromox>3.0-r0"
+        "!grommunio-gromox<3.6-r0",
+        "!grommunio-gromox>3.6-r0"
       ]
     },
     "grommunio-gromox-dev": {
       "origin": "grommunio-gromox",
       "versions": {
-        "3.0-r0": 1760941288
+        "3.0-r0": 1760941288,
+        "3.6-r0": 1780756178
       },
       "dependencies": [
-        "grommunio-gromox=3.0-r0"
+        "grommunio-gromox=3.6-r0"
       ]
     },
     "grommunio-gromox-doc": {
       "origin": "grommunio-gromox",
       "versions": {
-        "3.0-r0": 1760941288
+        "3.0-r0": 1760941288,
+        "3.6-r0": 1780756178
       }
     },
     "grommunio-gromox-openrc": {
       "origin": "grommunio-gromox",
       "versions": {
-        "3.0-r0": 1760941288
+        "3.0-r0": 1760941288,
+        "3.6-r0": 1780756178
       }
     },
     "grommunio-index": {
       "origin": "grommunio-index",
       "versions": {
-        "1.3-r1": 1760941288
+        "1.3-r1": 1760941288,
+        "1.4-r0": 1780756178
       },
       "dependencies": [
         "/bin/sh",
-        "so:libHX.so.32",
+        "so:libHX.so.43",
         "so:libc.musl-x86.so.1",
         "so:libexmdbpp.so.0",
         "so:libgcc_s.so.1",
@@ -71804,13 +71822,14 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:grommunio-index=1.3-r1"
+        "cmd:grommunio-index=1.4-r0"
       ]
     },
     "grommunio-index-doc": {
       "origin": "grommunio-index",
       "versions": {
-        "1.3-r1": 1760941288
+        "1.3-r1": 1760941288,
+        "1.4-r0": 1780756178
       }
     },
     "grommunio-mapi-header-php": {
@@ -104154,10 +104173,11 @@
     "libcryptmount": {
       "origin": "pam_mount",
       "versions": {
-        "2.22-r1": 1777086745
+        "2.22-r1": 1777086745,
+        "2.22-r2": 1780756178
       },
       "dependencies": [
-        "so:libHX.so.32",
+        "so:libHX.so.43",
         "so:libc.musl-x86.so.1",
         "so:libcrypto.so.3",
         "so:libcryptsetup.so.12"
@@ -108925,26 +108945,28 @@
     "libhx": {
       "origin": "libhx",
       "versions": {
-        "4.28-r0": 1760941288
+        "4.28-r0": 1760941288,
+        "5.4-r0": 1780756178
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "so:libHX.so.32=32.9.0"
+        "so:libHX.so.43=43.0.0"
       ]
     },
     "libhx-dev": {
       "origin": "libhx",
       "versions": {
-        "4.28-r0": 1760941288
+        "4.28-r0": 1760941288,
+        "5.4-r0": 1780756178
       },
       "dependencies": [
-        "libhx=4.28-r0",
+        "libhx=5.4-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libHX=4.28"
+        "pc:libHX=5.4"
       ]
     },
     "libido3": {
@@ -174422,10 +174444,11 @@
     "pam_mount": {
       "origin": "pam_mount",
       "versions": {
-        "2.22-r1": 1777086745
+        "2.22-r1": 1777086745,
+        "2.22-r2": 1780756178
       },
       "dependencies": [
-        "so:libHX.so.32",
+        "so:libHX.so.43",
         "so:libc.musl-x86.so.1",
         "so:libcryptmount.so.0",
         "so:libcryptsetup.so.12",
@@ -174435,23 +174458,24 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:mount.crypt=2.22-r1",
-        "cmd:mount.crypt_LUKS=2.22-r1",
-        "cmd:mount.crypto_LUKS=2.22-r1",
-        "cmd:pmt-ehd=2.22-r1",
-        "cmd:pmvarrun=2.22-r1",
-        "cmd:umount.crypt=2.22-r1",
-        "cmd:umount.crypt_LUKS=2.22-r1",
-        "cmd:umount.crypto_LUKS=2.22-r1"
+        "cmd:mount.crypt=2.22-r2",
+        "cmd:mount.crypt_LUKS=2.22-r2",
+        "cmd:mount.crypto_LUKS=2.22-r2",
+        "cmd:pmt-ehd=2.22-r2",
+        "cmd:pmvarrun=2.22-r2",
+        "cmd:umount.crypt=2.22-r2",
+        "cmd:umount.crypt_LUKS=2.22-r2",
+        "cmd:umount.crypto_LUKS=2.22-r2"
       ]
     },
     "pam_mount-dev": {
       "origin": "pam_mount",
       "versions": {
-        "2.22-r1": 1777086745
+        "2.22-r1": 1777086745,
+        "2.22-r2": 1780756178
       },
       "dependencies": [
-        "libcryptmount=2.22-r1",
+        "libcryptmount=2.22-r2",
         "pkgconfig"
       ],
       "provides": [
@@ -174461,7 +174485,8 @@
     "pam_mount-doc": {
       "origin": "pam_mount",
       "versions": {
-        "2.22-r1": 1777086745
+        "2.22-r1": 1777086745,
+        "2.22-r2": 1780756178
       }
     },
     "pamixer": {
@@ -212436,7 +212461,8 @@
     "py3-falcon": {
       "origin": "py3-falcon",
       "versions": {
-        "4.0.2-r2": 1774640402
+        "4.0.2-r2": 1774640402,
+        "4.2.0-r0": 1780759873
       },
       "dependencies": [
         "python3",
@@ -212444,16 +212470,17 @@
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:falcon-bench=4.0.2-r2",
-        "cmd:falcon-inspect-app=4.0.2-r2",
-        "cmd:falcon-print-routes=4.0.2-r2",
-        "py3.14:falcon=4.0.2-r2"
+        "cmd:falcon-bench=4.2.0-r0",
+        "cmd:falcon-inspect-app=4.2.0-r0",
+        "cmd:falcon-print-routes=4.2.0-r0",
+        "py3.14:falcon=4.2.0-r0"
       ]
     },
     "py3-falcon-pyc": {
       "origin": "py3-falcon",
       "versions": {
-        "4.0.2-r2": 1774640402
+        "4.0.2-r2": 1774640402,
+        "4.2.0-r0": 1780759873
       },
       "dependencies": [
         "python3~3.14"
@@ -262559,7 +262586,8 @@
       "origin": "stress-ng",
       "versions": {
         "0.21.00-r0": 1775231363,
-        "0.21.01-r0": 1778781612
+        "0.21.01-r0": 1778781612,
+        "0.21.02-r0": 1780756586
       },
       "dependencies": [
         "so:libJudy.so.1",
@@ -262569,21 +262597,23 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:stress-ng=0.21.01-r0"
+        "cmd:stress-ng=0.21.02-r0"
       ]
     },
     "stress-ng-bash-completion": {
       "origin": "stress-ng",
       "versions": {
         "0.21.00-r0": 1775231363,
-        "0.21.01-r0": 1778781612
+        "0.21.01-r0": 1778781612,
+        "0.21.02-r0": 1780756586
       }
     },
     "stress-ng-doc": {
       "origin": "stress-ng",
       "versions": {
         "0.21.00-r0": 1775231363,
-        "0.21.01-r0": 1778781612
+        "0.21.01-r0": 1778781612,
+        "0.21.02-r0": 1780756586
       }
     },
     "strip-nondeterminism": {
@@ -317103,6 +317133,50 @@
       "libsdb.so.2.4.4": {
         "package": "radare2-libs",
         "version": "2.4.4"
+      },
+      "libgromox_abtree.so.0": {
+        "package": "grommunio-gromox",
+        "version": "0.0.0"
+      },
+      "libgromox_emsmdb.so.0": {
+        "package": "grommunio-gromox",
+        "version": "0.0.0"
+      },
+      "libgromox_ews.so.0": {
+        "package": "grommunio-gromox",
+        "version": "0.0.0"
+      },
+      "libgromox_mh_emsmdb.so.0": {
+        "package": "grommunio-gromox",
+        "version": "0.0.0"
+      },
+      "libgromox_mh_nsp.so.0": {
+        "package": "grommunio-gromox",
+        "version": "0.0.0"
+      },
+      "libgromox_ndr.so.0": {
+        "package": "grommunio-gromox",
+        "version": "0.0.0"
+      },
+      "libgromox_nsp.so.0": {
+        "package": "grommunio-gromox",
+        "version": "0.0.0"
+      },
+      "libgromox_oab.so.0": {
+        "package": "grommunio-gromox",
+        "version": "0.0.0"
+      },
+      "libgromox_oxdisco.so.0": {
+        "package": "grommunio-gromox",
+        "version": "0.0.0"
+      },
+      "libgromox_rfr.so.0": {
+        "package": "grommunio-gromox",
+        "version": "0.0.0"
+      },
+      "libHX.so.43": {
+        "package": "libhx",
+        "version": "43.0.0"
       }
     },
     "package": {
