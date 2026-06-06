@@ -54635,34 +54635,38 @@
     "git-machete": {
       "origin": "git-machete",
       "versions": {
-        "3.39.0-r1": 1774640420
+        "3.39.0-r1": 1774640420,
+        "3.42.0-r0": 1780766666
       },
       "dependencies": [
         "python3",
         "python3~3.14"
       ],
       "provides": [
-        "cmd:git-machete=3.39.0-r1",
-        "py3.14:completion=3.39.0-r1",
-        "py3.14:git_machete=3.39.0-r1"
+        "cmd:git-machete=3.42.0-r0",
+        "py3.14:completion=3.42.0-r0",
+        "py3.14:git_machete=3.42.0-r0"
       ]
     },
     "git-machete-bash-completion": {
       "origin": "git-machete",
       "versions": {
-        "3.39.0-r1": 1774640420
+        "3.39.0-r1": 1774640420,
+        "3.42.0-r0": 1780766666
       }
     },
     "git-machete-fish-completion": {
       "origin": "git-machete",
       "versions": {
-        "3.39.0-r1": 1774640420
+        "3.39.0-r1": 1774640420,
+        "3.42.0-r0": 1780766666
       }
     },
     "git-machete-pyc": {
       "origin": "git-machete",
       "versions": {
-        "3.39.0-r1": 1774640420
+        "3.39.0-r1": 1774640420,
+        "3.42.0-r0": 1780766666
       },
       "dependencies": [
         "python3~3.14"
@@ -54671,7 +54675,8 @@
     "git-machete-zsh-completion": {
       "origin": "git-machete",
       "versions": {
-        "3.39.0-r1": 1774640420
+        "3.39.0-r1": 1774640420,
+        "3.42.0-r0": 1780766666
       }
     },
     "git-review": {
@@ -69413,13 +69418,15 @@
     "grommunio-common": {
       "origin": "grommunio-common",
       "versions": {
-        "1.0-r3": 1760941288
+        "1.0-r3": 1760941288,
+        "29-r0": 1780766218
       }
     },
     "grommunio-common-openrc": {
       "origin": "grommunio-common",
       "versions": {
-        "1.0-r3": 1760941288
+        "1.0-r3": 1760941288,
+        "29-r0": 1780766218
       }
     },
     "grommunio-error-pages": {
@@ -69459,7 +69466,8 @@
     "grommunio-mapi-header-php": {
       "origin": "grommunio-mapi-header-php",
       "versions": {
-        "1.6-r0": 1760941288
+        "1.6-r0": 1760941288,
+        "2.1-r0": 1780761861
       }
     },
     "gron": {
@@ -80337,7 +80345,8 @@
       "origin": "inspircd",
       "versions": {
         "4.9.0-r0": 1769791714,
-        "4.10.1-r0": 1779931235
+        "4.10.1-r0": 1779931235,
+        "4.11.0-r0": 1780767188
       },
       "dependencies": [
         "/bin/sh",
@@ -80358,22 +80367,24 @@
         "so:libyyjson.so.0"
       ],
       "provides": [
-        "cmd:inspircd-testssl=4.10.1-r0",
-        "cmd:inspircd=4.10.1-r0"
+        "cmd:inspircd-testssl=4.11.0-r0",
+        "cmd:inspircd=4.11.0-r0"
       ]
     },
     "inspircd-doc": {
       "origin": "inspircd",
       "versions": {
         "4.9.0-r0": 1769791714,
-        "4.10.1-r0": 1779931235
+        "4.10.1-r0": 1779931235,
+        "4.11.0-r0": 1780767188
       }
     },
     "inspircd-openrc": {
       "origin": "inspircd",
       "versions": {
         "4.9.0-r0": 1769791714,
-        "4.10.1-r0": 1779931235
+        "4.10.1-r0": 1779931235,
+        "4.11.0-r0": 1780767188
       }
     },
     "install-makedepends": {
@@ -82140,7 +82151,8 @@
     "jicofo": {
       "origin": "jicofo",
       "versions": {
-        "1.0.1138-r0": 1753058160
+        "1.0.1138-r0": 1753058160,
+        "1.0.1174-r0": 1780761394
       },
       "dependencies": [
         "openjdk17-jre-headless",
@@ -82152,7 +82164,8 @@
     "jicofo-openrc": {
       "origin": "jicofo",
       "versions": {
-        "1.0.1138-r0": 1753058160
+        "1.0.1138-r0": 1753058160,
+        "1.0.1174-r0": 1780761394
       }
     },
     "jimtcl": {
@@ -82260,7 +82273,8 @@
     "jitsi-meet": {
       "origin": "jitsi-meet",
       "versions": {
-        "1.0.8648-r0": 1755509353
+        "1.0.8648-r0": 1755509353,
+        "1.0.9139-r0": 1780761394
       },
       "dependencies": [
         "nginx"
@@ -82269,13 +82283,15 @@
     "jitsi-meet-doc": {
       "origin": "jitsi-meet",
       "versions": {
-        "1.0.8648-r0": 1755509353
+        "1.0.8648-r0": 1755509353,
+        "1.0.9139-r0": 1780761394
       }
     },
     "jitsi-meet-prosody": {
       "origin": "jitsi-meet",
       "versions": {
-        "1.0.8648-r0": 1755509353
+        "1.0.8648-r0": 1755509353,
+        "1.0.9139-r0": 1780761394
       },
       "dependencies": [
         "jitsi-meet",
@@ -82288,7 +82304,8 @@
     "jitsi-videobridge": {
       "origin": "jitsi-videobridge",
       "versions": {
-        "2.3.236-r0": 1753058160
+        "2.3.236-r0": 1753058160,
+        "2.3.287-r0": 1780761394
       },
       "dependencies": [
         "openjdk17-jre-headless",
@@ -82300,7 +82317,8 @@
     "jitsi-videobridge-openrc": {
       "origin": "jitsi-videobridge",
       "versions": {
-        "2.3.236-r0": 1753058160
+        "2.3.236-r0": 1753058160,
+        "2.3.287-r0": 1780761394
       }
     },
     "jo": {
@@ -252982,19 +253000,21 @@
     "snooze": {
       "origin": "snooze",
       "versions": {
-        "0.5.1-r0": 1759531008
+        "0.5.1-r0": 1759531008,
+        "0.5.1-r1": 1780766956
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:snooze=0.5.1-r0"
+        "cmd:snooze=0.5.1-r1"
       ]
     },
     "snooze-doc": {
       "origin": "snooze",
       "versions": {
-        "0.5.1-r0": 1759531008
+        "0.5.1-r0": 1759531008,
+        "0.5.1-r1": 1780766956
       }
     },
     "snowflake": {
@@ -258103,7 +258123,8 @@
       "origin": "synapse",
       "versions": {
         "1.152.1-r0": 1778220225,
-        "1.153.0-r0": 1779281614
+        "1.153.0-r0": 1779281614,
+        "1.154.0-r0": 1780766819
       },
       "dependencies": [
         "python3",
@@ -258155,33 +258176,35 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:export_signing_key=1.153.0-r0",
-        "cmd:generate_config=1.153.0-r0",
-        "cmd:generate_log_config=1.153.0-r0",
-        "cmd:generate_signing_key=1.153.0-r0",
-        "cmd:hash_password=1.153.0-r0",
-        "cmd:register_new_matrix_user=1.153.0-r0",
-        "cmd:synapse_homeserver=1.153.0-r0",
-        "cmd:synapse_port_db=1.153.0-r0",
-        "cmd:synapse_review_recent_signups=1.153.0-r0",
-        "cmd:synapse_worker=1.153.0-r0",
-        "cmd:synctl=1.153.0-r0",
-        "cmd:update_synapse_database=1.153.0-r0",
-        "py3.14:synapse=1.153.0-r0"
+        "cmd:export_signing_key=1.154.0-r0",
+        "cmd:generate_config=1.154.0-r0",
+        "cmd:generate_log_config=1.154.0-r0",
+        "cmd:generate_signing_key=1.154.0-r0",
+        "cmd:hash_password=1.154.0-r0",
+        "cmd:register_new_matrix_user=1.154.0-r0",
+        "cmd:synapse_homeserver=1.154.0-r0",
+        "cmd:synapse_port_db=1.154.0-r0",
+        "cmd:synapse_review_recent_signups=1.154.0-r0",
+        "cmd:synapse_worker=1.154.0-r0",
+        "cmd:synctl=1.154.0-r0",
+        "cmd:update_synapse_database=1.154.0-r0",
+        "py3.14:synapse=1.154.0-r0"
       ]
     },
     "synapse-openrc": {
       "origin": "synapse",
       "versions": {
         "1.152.1-r0": 1778220225,
-        "1.153.0-r0": 1779281614
+        "1.153.0-r0": 1779281614,
+        "1.154.0-r0": 1780766819
       }
     },
     "synapse-pyc": {
       "origin": "synapse",
       "versions": {
         "1.152.1-r0": 1778220225,
-        "1.153.0-r0": 1779281614
+        "1.153.0-r0": 1779281614,
+        "1.154.0-r0": 1780766819
       },
       "dependencies": [
         "python3~3.14"

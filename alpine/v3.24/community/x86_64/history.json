@@ -66400,34 +66400,38 @@
     "git-machete": {
       "origin": "git-machete",
       "versions": {
-        "3.39.0-r1": 1774640420
+        "3.39.0-r1": 1774640420,
+        "3.42.0-r0": 1780766666
       },
       "dependencies": [
         "python3",
         "python3~3.14"
       ],
       "provides": [
-        "cmd:git-machete=3.39.0-r1",
-        "py3.14:completion=3.39.0-r1",
-        "py3.14:git_machete=3.39.0-r1"
+        "cmd:git-machete=3.42.0-r0",
+        "py3.14:completion=3.42.0-r0",
+        "py3.14:git_machete=3.42.0-r0"
       ]
     },
     "git-machete-bash-completion": {
       "origin": "git-machete",
       "versions": {
-        "3.39.0-r1": 1774640420
+        "3.39.0-r1": 1774640420,
+        "3.42.0-r0": 1780766666
       }
     },
     "git-machete-fish-completion": {
       "origin": "git-machete",
       "versions": {
-        "3.39.0-r1": 1774640420
+        "3.39.0-r1": 1774640420,
+        "3.42.0-r0": 1780766666
       }
     },
     "git-machete-pyc": {
       "origin": "git-machete",
       "versions": {
-        "3.39.0-r1": 1774640420
+        "3.39.0-r1": 1774640420,
+        "3.42.0-r0": 1780766666
       },
       "dependencies": [
         "python3~3.14"
@@ -66436,7 +66440,8 @@
     "git-machete-zsh-completion": {
       "origin": "git-machete",
       "versions": {
-        "3.39.0-r1": 1774640420
+        "3.39.0-r1": 1774640420,
+        "3.42.0-r0": 1780766666
       }
     },
     "git-metafile": {
@@ -81997,7 +82002,8 @@
     "grommunio-admin-api": {
       "origin": "grommunio-admin-api",
       "versions": {
-        "1.17-r0": 1760941288
+        "1.17-r0": 1760941288,
+        "1.18-r0": 1780766267
       },
       "dependencies": [
         "grommunio-admin-common",
@@ -82025,26 +82031,29 @@
         "uwsgi-python3"
       ],
       "provides": [
-        "cmd:grommunio-admin=1.17-r0",
-        "cmd:rcctl=1.17-r0"
+        "cmd:grommunio-admin=1.18-r0",
+        "cmd:rcctl=1.18-r0"
       ]
     },
     "grommunio-admin-api-bash-completion": {
       "origin": "grommunio-admin-api",
       "versions": {
-        "1.17-r0": 1760941288
+        "1.17-r0": 1760941288,
+        "1.18-r0": 1780766267
       }
     },
     "grommunio-admin-api-doc": {
       "origin": "grommunio-admin-api",
       "versions": {
-        "1.17-r0": 1760941288
+        "1.17-r0": 1760941288,
+        "1.18-r0": 1780766267
       }
     },
     "grommunio-admin-api-openrc": {
       "origin": "grommunio-admin-api",
       "versions": {
-        "1.17-r0": 1760941288
+        "1.17-r0": 1760941288,
+        "1.18-r0": 1780766267
       }
     },
     "grommunio-admin-common": {
@@ -82064,7 +82073,8 @@
     "grommunio-admin-web": {
       "origin": "grommunio-admin-web",
       "versions": {
-        "4.0.0-r0": 1760941288
+        "4.0.0-r0": 1760941288,
+        "4.1.0-r0": 1780766405
       },
       "dependencies": [
         "grommunio-admin-api",
@@ -82074,46 +82084,51 @@
     "grommunio-admin-web-doc": {
       "origin": "grommunio-admin-web",
       "versions": {
-        "4.0.0-r0": 1760941288
+        "4.0.0-r0": 1760941288,
+        "4.1.0-r0": 1780766405
       }
     },
     "grommunio-common": {
       "origin": "grommunio-common",
       "versions": {
-        "1.0-r3": 1760941288
+        "1.0-r3": 1760941288,
+        "29-r0": 1780766218
       }
     },
     "grommunio-common-openrc": {
       "origin": "grommunio-common",
       "versions": {
-        "1.0-r3": 1760941288
+        "1.0-r3": 1760941288,
+        "29-r0": 1780766218
       }
     },
     "grommunio-dav": {
       "origin": "grommunio-dav",
       "versions": {
-        "1.5-r0": 1760941288
+        "1.5-r0": 1760941288,
+        "1.6-r0": 1780761525
       },
       "dependencies": [
         "grommunio-gromox",
         "grommunio-mapi-header-php",
-        "php83",
-        "php83-ctype",
-        "php83-curl",
-        "php83-dom",
-        "php83-iconv",
-        "php83-mbstring",
-        "php83-pdo_sqlite",
-        "php83-xml",
-        "php83-xmlreader",
-        "php83-xmlwriter",
+        "php84",
+        "php84-ctype",
+        "php84-curl",
+        "php84-dom",
+        "php84-iconv",
+        "php84-mbstring",
+        "php84-pdo_sqlite",
+        "php84-xml",
+        "php84-xmlreader",
+        "php84-xmlwriter",
         "/bin/sh"
       ]
     },
     "grommunio-dav-doc": {
       "origin": "grommunio-dav",
       "versions": {
-        "1.5-r0": 1760941288
+        "1.5-r0": 1760941288,
+        "1.6-r0": 1780761525
       }
     },
     "grommunio-error-pages": {
@@ -82278,63 +82293,68 @@
     "grommunio-mapi-header-php": {
       "origin": "grommunio-mapi-header-php",
       "versions": {
-        "1.6-r0": 1760941288
+        "1.6-r0": 1760941288,
+        "2.1-r0": 1780761861
       }
     },
     "grommunio-sync": {
       "origin": "grommunio-sync",
       "versions": {
-        "2.2-r0": 1760941288
+        "2.2-r0": 1760941288,
+        "2.4-r0": 1780761672
       },
       "dependencies": [
         "grommunio-gromox",
         "grommunio-mapi-header-php",
-        "php83",
-        "php83-curl",
-        "php83-gettext",
-        "php83-iconv",
-        "php83-intl",
-        "php83-json",
-        "php83-mbstring",
-        "php83-openssl",
-        "php83-pecl-redis",
-        "php83-pdo_sqlite",
-        "php83-posix",
-        "php83-session",
-        "php83-simplexml",
-        "php83-soap",
+        "php84",
+        "php84-curl",
+        "php84-gettext",
+        "php84-iconv",
+        "php84-intl",
+        "php84-json",
+        "php84-mbstring",
+        "php84-openssl",
+        "php84-pecl-redis",
+        "php84-pdo_sqlite",
+        "php84-posix",
+        "php84-session",
+        "php84-simplexml",
+        "php84-soap",
         "/bin/sh"
       ]
     },
     "grommunio-sync-doc": {
       "origin": "grommunio-sync",
       "versions": {
-        "2.2-r0": 1760941288
+        "2.2-r0": 1760941288,
+        "2.4-r0": 1780761672
       }
     },
     "grommunio-web": {
       "origin": "grommunio-web",
       "versions": {
-        "3.14-r0": 1762353509
+        "3.14-r0": 1762353509,
+        "3.17-r0": 1780761756
       },
       "dependencies": [
         "grommunio-gromox",
         "grommunio-mapi-header-php",
-        "php83",
-        "php83-bcmath",
-        "php83-ctype",
-        "php83-curl",
-        "php83-dom",
-        "php83-gd",
-        "php83-gettext",
-        "php83-mbstring",
-        "php83-openssl",
-        "php83-session",
-        "php83-simplexml",
-        "php83-sodium",
-        "php83-sqlite3",
-        "php83-sysvshm",
-        "php83-zip",
+        "mailcap",
+        "php84",
+        "php84-bcmath",
+        "php84-ctype",
+        "php84-curl",
+        "php84-dom",
+        "php84-gd",
+        "php84-gettext",
+        "php84-mbstring",
+        "php84-openssl",
+        "php84-session",
+        "php84-simplexml",
+        "php84-sodium",
+        "php84-sqlite3",
+        "php84-sysvshm",
+        "php84-zip",
         "/bin/sh"
       ]
     },
@@ -94181,7 +94201,8 @@
       "origin": "inspircd",
       "versions": {
         "4.9.0-r0": 1769791714,
-        "4.10.1-r0": 1779931235
+        "4.10.1-r0": 1779931235,
+        "4.11.0-r0": 1780767188
       },
       "dependencies": [
         "/bin/sh",
@@ -94202,22 +94223,24 @@
         "so:libyyjson.so.0"
       ],
       "provides": [
-        "cmd:inspircd-testssl=4.10.1-r0",
-        "cmd:inspircd=4.10.1-r0"
+        "cmd:inspircd-testssl=4.11.0-r0",
+        "cmd:inspircd=4.11.0-r0"
       ]
     },
     "inspircd-doc": {
       "origin": "inspircd",
       "versions": {
         "4.9.0-r0": 1769791714,
-        "4.10.1-r0": 1779931235
+        "4.10.1-r0": 1779931235,
+        "4.11.0-r0": 1780767188
       }
     },
     "inspircd-openrc": {
       "origin": "inspircd",
       "versions": {
         "4.9.0-r0": 1769791714,
-        "4.10.1-r0": 1779931235
+        "4.10.1-r0": 1779931235,
+        "4.11.0-r0": 1780767188
       }
     },
     "install-makedepends": {
@@ -96428,7 +96451,8 @@
     "jicofo": {
       "origin": "jicofo",
       "versions": {
-        "1.0.1138-r0": 1753058160
+        "1.0.1138-r0": 1753058160,
+        "1.0.1174-r0": 1780761394
       },
       "dependencies": [
         "openjdk17-jre-headless",
@@ -96440,13 +96464,15 @@
     "jicofo-openrc": {
       "origin": "jicofo",
       "versions": {
-        "1.0.1138-r0": 1753058160
+        "1.0.1138-r0": 1753058160,
+        "1.0.1174-r0": 1780761394
       }
     },
     "jigasi": {
       "origin": "jigasi",
       "versions": {
-        "1.1_git20250610-r0": 1753058160
+        "1.1_git20250610-r0": 1753058160,
+        "1.1_git20260413-r0": 1780761394
       },
       "dependencies": [
         "openjdk17-jre-headless",
@@ -96456,7 +96482,8 @@
     "jigasi-openrc": {
       "origin": "jigasi",
       "versions": {
-        "1.1_git20250610-r0": 1753058160
+        "1.1_git20250610-r0": 1753058160,
+        "1.1_git20260413-r0": 1780761394
       }
     },
     "jimtcl": {
@@ -96564,7 +96591,8 @@
     "jitsi-meet": {
       "origin": "jitsi-meet",
       "versions": {
-        "1.0.8648-r0": 1755509353
+        "1.0.8648-r0": 1755509353,
+        "1.0.9139-r0": 1780761394
       },
       "dependencies": [
         "nginx"
@@ -96573,13 +96601,15 @@
     "jitsi-meet-doc": {
       "origin": "jitsi-meet",
       "versions": {
-        "1.0.8648-r0": 1755509353
+        "1.0.8648-r0": 1755509353,
+        "1.0.9139-r0": 1780761394
       }
     },
     "jitsi-meet-prosody": {
       "origin": "jitsi-meet",
       "versions": {
-        "1.0.8648-r0": 1755509353
+        "1.0.8648-r0": 1755509353,
+        "1.0.9139-r0": 1780761394
       },
       "dependencies": [
         "jitsi-meet",
@@ -96592,7 +96622,8 @@
     "jitsi-videobridge": {
       "origin": "jitsi-videobridge",
       "versions": {
-        "2.3.236-r0": 1753058160
+        "2.3.236-r0": 1753058160,
+        "2.3.287-r0": 1780761394
       },
       "dependencies": [
         "openjdk17-jre-headless",
@@ -96604,7 +96635,8 @@
     "jitsi-videobridge-openrc": {
       "origin": "jitsi-videobridge",
       "versions": {
-        "2.3.236-r0": 1753058160
+        "2.3.236-r0": 1753058160,
+        "2.3.287-r0": 1780761394
       }
     },
     "jj_tui": {
@@ -281661,19 +281693,21 @@
     "snooze": {
       "origin": "snooze",
       "versions": {
-        "0.5.1-r0": 1759531008
+        "0.5.1-r0": 1759531008,
+        "0.5.1-r1": 1780766956
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1"
       ],
       "provides": [
-        "cmd:snooze=0.5.1-r0"
+        "cmd:snooze=0.5.1-r1"
       ]
     },
     "snooze-doc": {
       "origin": "snooze",
       "versions": {
-        "0.5.1-r0": 1759531008
+        "0.5.1-r0": 1759531008,
+        "0.5.1-r1": 1780766956
       }
     },
     "snowflake": {
@@ -287651,7 +287685,8 @@
     "synapse": {
       "origin": "synapse",
       "versions": {
-        "1.153.0-r0": 1779281614
+        "1.153.0-r0": 1779281614,
+        "1.154.0-r0": 1780766819
       },
       "dependencies": [
         "python3",
@@ -287703,31 +287738,33 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:export_signing_key=1.153.0-r0",
-        "cmd:generate_config=1.153.0-r0",
-        "cmd:generate_log_config=1.153.0-r0",
-        "cmd:generate_signing_key=1.153.0-r0",
-        "cmd:hash_password=1.153.0-r0",
-        "cmd:register_new_matrix_user=1.153.0-r0",
-        "cmd:synapse_homeserver=1.153.0-r0",
-        "cmd:synapse_port_db=1.153.0-r0",
-        "cmd:synapse_review_recent_signups=1.153.0-r0",
-        "cmd:synapse_worker=1.153.0-r0",
-        "cmd:synctl=1.153.0-r0",
-        "cmd:update_synapse_database=1.153.0-r0",
-        "py3.14:synapse=1.153.0-r0"
+        "cmd:export_signing_key=1.154.0-r0",
+        "cmd:generate_config=1.154.0-r0",
+        "cmd:generate_log_config=1.154.0-r0",
+        "cmd:generate_signing_key=1.154.0-r0",
+        "cmd:hash_password=1.154.0-r0",
+        "cmd:register_new_matrix_user=1.154.0-r0",
+        "cmd:synapse_homeserver=1.154.0-r0",
+        "cmd:synapse_port_db=1.154.0-r0",
+        "cmd:synapse_review_recent_signups=1.154.0-r0",
+        "cmd:synapse_worker=1.154.0-r0",
+        "cmd:synctl=1.154.0-r0",
+        "cmd:update_synapse_database=1.154.0-r0",
+        "py3.14:synapse=1.154.0-r0"
       ]
     },
     "synapse-openrc": {
       "origin": "synapse",
       "versions": {
-        "1.153.0-r0": 1779281614
+        "1.153.0-r0": 1779281614,
+        "1.154.0-r0": 1780766819
       }
     },
     "synapse-pyc": {
       "origin": "synapse",
       "versions": {
-        "1.153.0-r0": 1779281614
+        "1.153.0-r0": 1779281614,
+        "1.154.0-r0": 1780766819
       },
       "dependencies": [
         "python3~3.14"
@@ -316894,7 +316931,8 @@
     "zabbix": {
       "origin": "zabbix",
       "versions": {
-        "7.4.10-r0": 1778938767
+        "7.4.10-r0": 1778938767,
+        "7.4.11-r0": 1780760958
       },
       "dependencies": [
         "fping",
@@ -316904,7 +316942,8 @@
     "zabbix-agent": {
       "origin": "zabbix",
       "versions": {
-        "7.4.10-r0": 1778938767
+        "7.4.10-r0": 1778938767,
+        "7.4.11-r0": 1780760958
       },
       "dependencies": [
         "/bin/sh",
@@ -316916,13 +316955,14 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_agentd=7.4.10-r0"
+        "cmd:zabbix_agentd=7.4.11-r0"
       ]
     },
     "zabbix-agent-openrc": {
       "origin": "zabbix",
       "versions": {
-        "7.4.10-r0": 1778938767
+        "7.4.10-r0": 1778938767,
+        "7.4.11-r0": 1780760958
       },
       "dependencies": [
         "openrc"
@@ -316931,7 +316971,8 @@
     "zabbix-agent2": {
       "origin": "zabbix",
       "versions": {
-        "7.4.10-r0": 1778938767
+        "7.4.10-r0": 1778938767,
+        "7.4.11-r0": 1780760958
       },
       "dependencies": [
         "/bin/sh",
@@ -316943,13 +316984,14 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_agent2=7.4.10-r0"
+        "cmd:zabbix_agent2=7.4.11-r0"
       ]
     },
     "zabbix-agent2-openrc": {
       "origin": "zabbix",
       "versions": {
-        "7.4.10-r0": 1778938767
+        "7.4.10-r0": 1778938767,
+        "7.4.11-r0": 1780760958
       },
       "dependencies": [
         "openrc"
@@ -316980,13 +317022,15 @@
     "zabbix-doc": {
       "origin": "zabbix",
       "versions": {
-        "7.4.10-r0": 1778938767
+        "7.4.10-r0": 1778938767,
+        "7.4.11-r0": 1780760958
       }
     },
     "zabbix-mysql": {
       "origin": "zabbix",
       "versions": {
-        "7.4.10-r0": 1778938767
+        "7.4.10-r0": 1778938767,
+        "7.4.11-r0": 1780760958
       },
       "dependencies": [
         "zabbix",
@@ -317010,20 +317054,22 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_proxy=7.4.10-r0",
-        "cmd:zabbix_server=7.4.10-r0"
+        "cmd:zabbix_proxy=7.4.11-r0",
+        "cmd:zabbix_server=7.4.11-r0"
       ]
     },
     "zabbix-openrc": {
       "origin": "zabbix",
       "versions": {
-        "7.4.10-r0": 1778938767
+        "7.4.10-r0": 1778938767,
+        "7.4.11-r0": 1780760958
       }
     },
     "zabbix-pgsql": {
       "origin": "zabbix",
       "versions": {
-        "7.4.10-r0": 1778938767
+        "7.4.10-r0": 1778938767,
+        "7.4.11-r0": 1780760958
       },
       "dependencies": [
         "zabbix",
@@ -317047,20 +317093,22 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_proxy=7.4.10-r0",
-        "cmd:zabbix_server=7.4.10-r0"
+        "cmd:zabbix_proxy=7.4.11-r0",
+        "cmd:zabbix_server=7.4.11-r0"
       ]
     },
     "zabbix-setup": {
       "origin": "zabbix",
       "versions": {
-        "7.4.10-r0": 1778938767
+        "7.4.10-r0": 1778938767,
+        "7.4.11-r0": 1780760958
       }
     },
     "zabbix-sqlite": {
       "origin": "zabbix",
       "versions": {
-        "7.4.10-r0": 1778938767
+        "7.4.10-r0": 1778938767,
+        "7.4.11-r0": 1780760958
       },
       "dependencies": [
         "zabbix",
@@ -317084,13 +317132,14 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_proxy=7.4.10-r0"
+        "cmd:zabbix_proxy=7.4.11-r0"
       ]
     },
     "zabbix-utils": {
       "origin": "zabbix",
       "versions": {
-        "7.4.10-r0": 1778938767
+        "7.4.10-r0": 1778938767,
+        "7.4.11-r0": 1780760958
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -317102,15 +317151,16 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_get=7.4.10-r0",
-        "cmd:zabbix_js=7.4.10-r0",
-        "cmd:zabbix_sender=7.4.10-r0"
+        "cmd:zabbix_get=7.4.11-r0",
+        "cmd:zabbix_js=7.4.11-r0",
+        "cmd:zabbix_sender=7.4.11-r0"
       ]
     },
     "zabbix-webif": {
       "origin": "zabbix",
       "versions": {
-        "7.4.10-r0": 1778938767
+        "7.4.10-r0": 1778938767,
+        "7.4.11-r0": 1780760958
       },
       "dependencies": [
         "php83",
