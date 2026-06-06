@@ -4335,7 +4335,8 @@
     "ansible": {
       "origin": "ansible",
       "versions": {
-        "13.7.0-r0": 1779461648
+        "13.7.0-r0": 1779461648,
+        "14.0.0-r0": 1780742089
       },
       "dependencies": [
         "python3",
@@ -4343,7 +4344,7 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:ansible-community=13.7.0-r0"
+        "cmd:ansible-community=14.0.0-r0"
       ]
     },
     "ansible-core": {
@@ -4436,7 +4437,8 @@
     "ansible-pyc": {
       "origin": "ansible",
       "versions": {
-        "13.7.0-r0": 1779461648
+        "13.7.0-r0": 1779461648,
+        "14.0.0-r0": 1780742089
       },
       "dependencies": [
         "python3~3.14"
@@ -5314,7 +5316,8 @@
     "apptainer": {
       "origin": "apptainer",
       "versions": {
-        "1.5.0-r1": 1778661427
+        "1.5.0-r1": 1778661427,
+        "1.5.1-r0": 1780745390
       },
       "dependencies": [
         "fakeroot",
@@ -5323,30 +5326,33 @@
         "so:libseccomp.so.2"
       ],
       "provides": [
-        "cmd:apptainer=1.5.0-r1",
-        "cmd:run-singularity=1.5.0-r1",
-        "cmd:singularity=1.5.0-r1"
+        "cmd:apptainer=1.5.1-r0",
+        "cmd:run-singularity=1.5.1-r0",
+        "cmd:singularity=1.5.1-r0"
       ]
     },
     "apptainer-bash-completion": {
       "origin": "apptainer",
       "versions": {
-        "1.5.0-r1": 1778661427
+        "1.5.0-r1": 1778661427,
+        "1.5.1-r0": 1780745390
       }
     },
     "apptainer-doc": {
       "origin": "apptainer",
       "versions": {
-        "1.5.0-r1": 1778661427
+        "1.5.0-r1": 1778661427,
+        "1.5.1-r0": 1780745390
       }
     },
     "apptainer-suid": {
       "origin": "apptainer",
       "versions": {
-        "1.5.0-r1": 1778661427
+        "1.5.0-r1": 1778661427,
+        "1.5.1-r0": 1780745390
       },
       "dependencies": [
-        "apptainer=1.5.0-r1",
+        "apptainer=1.5.1-r0",
         "so:libc.musl-aarch64.so.1",
         "so:libseccomp.so.2"
       ]
@@ -19583,7 +19589,8 @@
     "boost-build": {
       "origin": "boost-build",
       "versions": {
-        "1.90.0-r0": 1775253593
+        "1.90.0-r0": 1775253593,
+        "1.91.0-r0": 1780742014
       },
       "dependencies": [
         "boost",
@@ -19593,7 +19600,8 @@
     "boost-build-doc": {
       "origin": "boost-build",
       "versions": {
-        "1.90.0-r0": 1775253593
+        "1.90.0-r0": 1775253593,
+        "1.91.0-r0": 1780742014
       }
     },
     "booster": {
@@ -22881,7 +22889,8 @@
     "cargo-expand": {
       "origin": "cargo-expand",
       "versions": {
-        "1.0.121-r0": 1770900008
+        "1.0.121-r0": 1770900008,
+        "1.0.122-r0": 1780741755
       },
       "dependencies": [
         "cargo",
@@ -22889,19 +22898,21 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:cargo-expand=1.0.121-r0"
+        "cmd:cargo-expand=1.0.122-r0"
       ]
     },
     "cargo-expand-doc": {
       "origin": "cargo-expand",
       "versions": {
-        "1.0.121-r0": 1770900008
+        "1.0.121-r0": 1770900008,
+        "1.0.122-r0": 1780741755
       }
     },
     "cargo-flamegraph": {
       "origin": "cargo-flamegraph",
       "versions": {
-        "0.6.12-r0": 1775705801
+        "0.6.12-r0": 1775705801,
+        "0.6.13-r0": 1780741294
       },
       "dependencies": [
         "perf",
@@ -22909,32 +22920,36 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:cargo-flamegraph=0.6.12-r0",
-        "cmd:flamegraph=0.6.12-r0"
+        "cmd:cargo-flamegraph=0.6.13-r0",
+        "cmd:flamegraph=0.6.13-r0"
       ]
     },
     "cargo-flamegraph-bash-completion": {
       "origin": "cargo-flamegraph",
       "versions": {
-        "0.6.12-r0": 1775705801
+        "0.6.12-r0": 1775705801,
+        "0.6.13-r0": 1780741294
       }
     },
     "cargo-flamegraph-doc": {
       "origin": "cargo-flamegraph",
       "versions": {
-        "0.6.12-r0": 1775705801
+        "0.6.12-r0": 1775705801,
+        "0.6.13-r0": 1780741294
       }
     },
     "cargo-flamegraph-fish-completion": {
       "origin": "cargo-flamegraph",
       "versions": {
-        "0.6.12-r0": 1775705801
+        "0.6.12-r0": 1775705801,
+        "0.6.13-r0": 1780741294
       }
     },
     "cargo-flamegraph-zsh-completion": {
       "origin": "cargo-flamegraph",
       "versions": {
-        "0.6.12-r0": 1775705801
+        "0.6.12-r0": 1775705801,
+        "0.6.13-r0": 1780741294
       }
     },
     "cargo-generate": {
@@ -40233,7 +40248,8 @@
     "dpdk": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40263,6 +40279,7 @@
         "so:librte_dma_odm.so.25=25.0",
         "so:librte_net_mana.so.25=25.0",
         "so:librte_net_r8169.so.25=25.0",
+        "so:librte_net_zxdh.so.25=25.0",
         "so:librte_power_acpi.so.25=25.0",
         "so:librte_power_amd_pstate.so.25=25.0",
         "so:librte_power_cppc.so.25=25.0",
@@ -40276,7 +40293,8 @@
     "dpdk-acl": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40292,7 +40310,8 @@
     "dpdk-argparse": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40307,7 +40326,8 @@
     "dpdk-baseband-acc": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40326,7 +40346,8 @@
     "dpdk-baseband-fpga-5gnr-fec": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40345,7 +40366,8 @@
     "dpdk-baseband-fpga-lte-fec": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40364,7 +40386,8 @@
     "dpdk-baseband-la12xx": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40383,7 +40406,8 @@
     "dpdk-baseband-null": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40403,7 +40427,8 @@
     "dpdk-baseband-turbo-sw": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40423,7 +40448,8 @@
     "dpdk-bbdev": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40440,7 +40466,8 @@
     "dpdk-bitratestats": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40457,7 +40484,8 @@
     "dpdk-bpf": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40476,7 +40504,8 @@
     "dpdk-bus-auxiliary": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40493,7 +40522,8 @@
     "dpdk-bus-cdx": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40510,7 +40540,8 @@
     "dpdk-bus-dpaa": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40528,7 +40559,8 @@
     "dpdk-bus-fslmc": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40545,7 +40577,8 @@
     "dpdk-bus-ifpga": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40563,7 +40596,8 @@
     "dpdk-bus-pci": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40581,7 +40615,8 @@
     "dpdk-bus-platform": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40598,7 +40633,8 @@
     "dpdk-bus-uacce": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40615,7 +40651,8 @@
     "dpdk-bus-vdev": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40632,7 +40669,8 @@
     "dpdk-bus-vmbus": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40648,7 +40686,8 @@
     "dpdk-cfgfile": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40663,7 +40702,8 @@
     "dpdk-cmdline": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40678,7 +40718,8 @@
     "dpdk-common-cnxk": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40695,7 +40736,8 @@
     "dpdk-common-cpt": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40710,7 +40752,8 @@
     "dpdk-common-dpaax": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40726,7 +40769,8 @@
     "dpdk-common-iavf": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40742,7 +40786,8 @@
     "dpdk-common-idpf": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40760,7 +40805,8 @@
     "dpdk-common-ionic": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40774,7 +40820,8 @@
     "dpdk-common-mlx5": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40789,6 +40836,7 @@
         "so:librte_kvargs.so.25",
         "so:librte_log.so.25",
         "so:librte_mempool.so.25",
+        "so:librte_net.so.25",
         "so:librte_pci.so.25"
       ],
       "provides": [
@@ -40798,7 +40846,8 @@
     "dpdk-common-nfp": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40815,7 +40864,8 @@
     "dpdk-common-nitrox": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40832,7 +40882,8 @@
     "dpdk-common-octeontx": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40848,7 +40899,8 @@
     "dpdk-common-qat": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40871,7 +40923,8 @@
     "dpdk-common-sfc-efx": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40889,7 +40942,8 @@
     "dpdk-compress-isal": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40910,7 +40964,8 @@
     "dpdk-compress-mlx5": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40928,7 +40983,8 @@
     "dpdk-compress-nitrox": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40948,7 +41004,8 @@
     "dpdk-compress-octeontx": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40969,7 +41026,8 @@
     "dpdk-compress-zlib": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40990,7 +41048,8 @@
     "dpdk-compressdev": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41008,7 +41067,8 @@
     "dpdk-crypto-bcmfs": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41027,7 +41087,8 @@
     "dpdk-crypto-caam-jr": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41047,7 +41108,8 @@
     "dpdk-crypto-ccp": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41069,7 +41131,8 @@
     "dpdk-crypto-cnxk": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41094,7 +41157,8 @@
     "dpdk-crypto-dpaa-sec": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41117,7 +41181,8 @@
     "dpdk-crypto-dpaa2-sec": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41140,7 +41205,8 @@
     "dpdk-crypto-mlx5": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41158,7 +41224,8 @@
     "dpdk-crypto-nitrox": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41178,7 +41245,8 @@
     "dpdk-crypto-null": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41198,7 +41266,8 @@
     "dpdk-crypto-octeontx": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41219,7 +41288,8 @@
     "dpdk-crypto-openssl": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41240,7 +41310,8 @@
     "dpdk-crypto-scheduler": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41262,7 +41333,8 @@
     "dpdk-crypto-virtio": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41282,7 +41354,8 @@
     "dpdk-cryptodev": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41302,199 +41375,200 @@
     "dpdk-dev": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
-        "dpdk-acl=24.11.2-r4",
-        "dpdk-argparse=24.11.2-r4",
-        "dpdk-baseband-acc=24.11.2-r4",
-        "dpdk-baseband-fpga-5gnr-fec=24.11.2-r4",
-        "dpdk-baseband-fpga-lte-fec=24.11.2-r4",
-        "dpdk-baseband-la12xx=24.11.2-r4",
-        "dpdk-baseband-null=24.11.2-r4",
-        "dpdk-baseband-turbo-sw=24.11.2-r4",
-        "dpdk-bbdev=24.11.2-r4",
-        "dpdk-bitratestats=24.11.2-r4",
-        "dpdk-bpf=24.11.2-r4",
-        "dpdk-bus-auxiliary=24.11.2-r4",
-        "dpdk-bus-cdx=24.11.2-r4",
-        "dpdk-bus-dpaa=24.11.2-r4",
-        "dpdk-bus-fslmc=24.11.2-r4",
-        "dpdk-bus-ifpga=24.11.2-r4",
-        "dpdk-bus-pci=24.11.2-r4",
-        "dpdk-bus-platform=24.11.2-r4",
-        "dpdk-bus-uacce=24.11.2-r4",
-        "dpdk-bus-vdev=24.11.2-r4",
-        "dpdk-bus-vmbus=24.11.2-r4",
-        "dpdk-cfgfile=24.11.2-r4",
-        "dpdk-cmdline=24.11.2-r4",
-        "dpdk-common-cnxk=24.11.2-r4",
-        "dpdk-common-cpt=24.11.2-r4",
-        "dpdk-common-dpaax=24.11.2-r4",
-        "dpdk-common-iavf=24.11.2-r4",
-        "dpdk-common-idpf=24.11.2-r4",
-        "dpdk-common-ionic=24.11.2-r4",
-        "dpdk-common-mlx5=24.11.2-r4",
-        "dpdk-common-nfp=24.11.2-r4",
-        "dpdk-common-nitrox=24.11.2-r4",
-        "dpdk-common-octeontx=24.11.2-r4",
-        "dpdk-common-qat=24.11.2-r4",
-        "dpdk-common-sfc-efx=24.11.2-r4",
-        "dpdk-compress-isal=24.11.2-r4",
-        "dpdk-compress-mlx5=24.11.2-r4",
-        "dpdk-compress-nitrox=24.11.2-r4",
-        "dpdk-compress-octeontx=24.11.2-r4",
-        "dpdk-compress-zlib=24.11.2-r4",
-        "dpdk-compressdev=24.11.2-r4",
-        "dpdk-crypto-bcmfs=24.11.2-r4",
-        "dpdk-crypto-caam-jr=24.11.2-r4",
-        "dpdk-crypto-ccp=24.11.2-r4",
-        "dpdk-crypto-cnxk=24.11.2-r4",
-        "dpdk-crypto-dpaa-sec=24.11.2-r4",
-        "dpdk-crypto-dpaa2-sec=24.11.2-r4",
-        "dpdk-crypto-mlx5=24.11.2-r4",
-        "dpdk-crypto-nitrox=24.11.2-r4",
-        "dpdk-crypto-null=24.11.2-r4",
-        "dpdk-crypto-octeontx=24.11.2-r4",
-        "dpdk-crypto-openssl=24.11.2-r4",
-        "dpdk-crypto-scheduler=24.11.2-r4",
-        "dpdk-crypto-virtio=24.11.2-r4",
-        "dpdk-cryptodev=24.11.2-r4",
-        "dpdk-dispatcher=24.11.2-r4",
-        "dpdk-distributor=24.11.2-r4",
-        "dpdk-dma-cnxk=24.11.2-r4",
-        "dpdk-dma-dpaa2=24.11.2-r4",
-        "dpdk-dma-dpaa=24.11.2-r4",
-        "dpdk-dma-hisilicon=24.11.2-r4",
-        "dpdk-dma-skeleton=24.11.2-r4",
-        "dpdk-dmadev=24.11.2-r4",
-        "dpdk-eal=24.11.2-r4",
-        "dpdk-efd=24.11.2-r4",
-        "dpdk-ethdev=24.11.2-r4",
-        "dpdk-event-cnxk=24.11.2-r4",
-        "dpdk-event-dpaa2=24.11.2-r4",
-        "dpdk-event-dpaa=24.11.2-r4",
-        "dpdk-event-dsw=24.11.2-r4",
-        "dpdk-event-octeontx=24.11.2-r4",
-        "dpdk-event-opdl=24.11.2-r4",
-        "dpdk-event-skeleton=24.11.2-r4",
-        "dpdk-event-sw=24.11.2-r4",
-        "dpdk-eventdev=24.11.2-r4",
-        "dpdk-fib=24.11.2-r4",
-        "dpdk-gpudev=24.11.2-r4",
-        "dpdk-graph=24.11.2-r4",
-        "dpdk-gro=24.11.2-r4",
-        "dpdk-gso=24.11.2-r4",
-        "dpdk-hash=24.11.2-r4",
-        "dpdk-ip-frag=24.11.2-r4",
-        "dpdk-ipsec=24.11.2-r4",
-        "dpdk-jobstats=24.11.2-r4",
-        "dpdk-kvargs=24.11.2-r4",
-        "dpdk-latencystats=24.11.2-r4",
-        "dpdk-log=24.11.2-r4",
-        "dpdk-lpm=24.11.2-r4",
-        "dpdk-mbuf=24.11.2-r4",
-        "dpdk-member=24.11.2-r4",
-        "dpdk-mempool-bucket=24.11.2-r4",
-        "dpdk-mempool-cnxk=24.11.2-r4",
-        "dpdk-mempool-dpaa2=24.11.2-r4",
-        "dpdk-mempool-dpaa=24.11.2-r4",
-        "dpdk-mempool-octeontx=24.11.2-r4",
-        "dpdk-mempool-ring=24.11.2-r4",
-        "dpdk-mempool-stack=24.11.2-r4",
-        "dpdk-mempool=24.11.2-r4",
-        "dpdk-meter=24.11.2-r4",
-        "dpdk-metrics=24.11.2-r4",
-        "dpdk-ml-cnxk=24.11.2-r4",
-        "dpdk-mldev=24.11.2-r4",
-        "dpdk-net-af-packet=24.11.2-r4",
-        "dpdk-net-ark=24.11.2-r4",
-        "dpdk-net-atlantic=24.11.2-r4",
-        "dpdk-net-avp=24.11.2-r4",
-        "dpdk-net-axgbe=24.11.2-r4",
-        "dpdk-net-bnx2x=24.11.2-r4",
-        "dpdk-net-bnxt=24.11.2-r4",
-        "dpdk-net-bond=24.11.2-r4",
-        "dpdk-net-cnxk=24.11.2-r4",
-        "dpdk-net-cpfl=24.11.2-r4",
-        "dpdk-net-cxgbe=24.11.2-r4",
-        "dpdk-net-dpaa2=24.11.2-r4",
-        "dpdk-net-dpaa=24.11.2-r4",
-        "dpdk-net-e1000=24.11.2-r4",
-        "dpdk-net-ena=24.11.2-r4",
-        "dpdk-net-enetc=24.11.2-r4",
-        "dpdk-net-enetfec=24.11.2-r4",
-        "dpdk-net-enic=24.11.2-r4",
-        "dpdk-net-failsafe=24.11.2-r4",
-        "dpdk-net-fm10k=24.11.2-r4",
-        "dpdk-net-gve=24.11.2-r4",
-        "dpdk-net-hinic=24.11.2-r4",
-        "dpdk-net-hns3=24.11.2-r4",
-        "dpdk-net-i40e=24.11.2-r4",
-        "dpdk-net-iavf=24.11.2-r4",
-        "dpdk-net-ice=24.11.2-r4",
-        "dpdk-net-idpf=24.11.2-r4",
-        "dpdk-net-igc=24.11.2-r4",
-        "dpdk-net-ionic=24.11.2-r4",
-        "dpdk-net-ipn3ke=24.11.2-r4",
-        "dpdk-net-ixgbe=24.11.2-r4",
-        "dpdk-net-memif=24.11.2-r4",
-        "dpdk-net-mlx4=24.11.2-r4",
-        "dpdk-net-mlx5=24.11.2-r4",
-        "dpdk-net-netvsc=24.11.2-r4",
-        "dpdk-net-nfp=24.11.2-r4",
-        "dpdk-net-ngbe=24.11.2-r4",
-        "dpdk-net-null=24.11.2-r4",
-        "dpdk-net-octeon-ep=24.11.2-r4",
-        "dpdk-net-octeontx=24.11.2-r4",
-        "dpdk-net-pcap=24.11.2-r4",
-        "dpdk-net-pfe=24.11.2-r4",
-        "dpdk-net-qede=24.11.2-r4",
-        "dpdk-net-ring=24.11.2-r4",
-        "dpdk-net-sfc=24.11.2-r4",
-        "dpdk-net-softnic=24.11.2-r4",
-        "dpdk-net-tap=24.11.2-r4",
-        "dpdk-net-thunderx=24.11.2-r4",
-        "dpdk-net-txgbe=24.11.2-r4",
-        "dpdk-net-vdev-netvsc=24.11.2-r4",
-        "dpdk-net-vhost=24.11.2-r4",
-        "dpdk-net-virtio=24.11.2-r4",
-        "dpdk-net-vmxnet3=24.11.2-r4",
-        "dpdk-net=24.11.2-r4",
-        "dpdk-node=24.11.2-r4",
-        "dpdk-pcapng=24.11.2-r4",
-        "dpdk-pci=24.11.2-r4",
-        "dpdk-pdcp=24.11.2-r4",
-        "dpdk-pdump=24.11.2-r4",
-        "dpdk-pipeline=24.11.2-r4",
-        "dpdk-port=24.11.2-r4",
-        "dpdk-power=24.11.2-r4",
-        "dpdk-raw-cnxk-bphy=24.11.2-r4",
-        "dpdk-raw-cnxk-gpio=24.11.2-r4",
-        "dpdk-raw-dpaa2-cmdif=24.11.2-r4",
-        "dpdk-raw-ifpga=24.11.2-r4",
-        "dpdk-raw-ntb=24.11.2-r4",
-        "dpdk-raw-skeleton=24.11.2-r4",
-        "dpdk-rawdev=24.11.2-r4",
-        "dpdk-rcu=24.11.2-r4",
-        "dpdk-regex-cn9k=24.11.2-r4",
-        "dpdk-regex-mlx5=24.11.2-r4",
-        "dpdk-regexdev=24.11.2-r4",
-        "dpdk-reorder=24.11.2-r4",
-        "dpdk-rib=24.11.2-r4",
-        "dpdk-ring=24.11.2-r4",
-        "dpdk-sched=24.11.2-r4",
-        "dpdk-security=24.11.2-r4",
-        "dpdk-stack=24.11.2-r4",
-        "dpdk-table=24.11.2-r4",
-        "dpdk-telemetry=24.11.2-r4",
-        "dpdk-timer=24.11.2-r4",
-        "dpdk-vdpa-ifc=24.11.2-r4",
-        "dpdk-vdpa-mlx5=24.11.2-r4",
-        "dpdk-vdpa-nfp=24.11.2-r4",
-        "dpdk-vdpa-sfc=24.11.2-r4",
-        "dpdk-vhost=24.11.2-r4",
-        "dpdk=24.11.2-r4",
+        "dpdk-acl=24.11.6-r0",
+        "dpdk-argparse=24.11.6-r0",
+        "dpdk-baseband-acc=24.11.6-r0",
+        "dpdk-baseband-fpga-5gnr-fec=24.11.6-r0",
+        "dpdk-baseband-fpga-lte-fec=24.11.6-r0",
+        "dpdk-baseband-la12xx=24.11.6-r0",
+        "dpdk-baseband-null=24.11.6-r0",
+        "dpdk-baseband-turbo-sw=24.11.6-r0",
+        "dpdk-bbdev=24.11.6-r0",
+        "dpdk-bitratestats=24.11.6-r0",
+        "dpdk-bpf=24.11.6-r0",
+        "dpdk-bus-auxiliary=24.11.6-r0",
+        "dpdk-bus-cdx=24.11.6-r0",
+        "dpdk-bus-dpaa=24.11.6-r0",
+        "dpdk-bus-fslmc=24.11.6-r0",
+        "dpdk-bus-ifpga=24.11.6-r0",
+        "dpdk-bus-pci=24.11.6-r0",
+        "dpdk-bus-platform=24.11.6-r0",
+        "dpdk-bus-uacce=24.11.6-r0",
+        "dpdk-bus-vdev=24.11.6-r0",
+        "dpdk-bus-vmbus=24.11.6-r0",
+        "dpdk-cfgfile=24.11.6-r0",
+        "dpdk-cmdline=24.11.6-r0",
+        "dpdk-common-cnxk=24.11.6-r0",
+        "dpdk-common-cpt=24.11.6-r0",
+        "dpdk-common-dpaax=24.11.6-r0",
+        "dpdk-common-iavf=24.11.6-r0",
+        "dpdk-common-idpf=24.11.6-r0",
+        "dpdk-common-ionic=24.11.6-r0",
+        "dpdk-common-mlx5=24.11.6-r0",
+        "dpdk-common-nfp=24.11.6-r0",
+        "dpdk-common-nitrox=24.11.6-r0",
+        "dpdk-common-octeontx=24.11.6-r0",
+        "dpdk-common-qat=24.11.6-r0",
+        "dpdk-common-sfc-efx=24.11.6-r0",
+        "dpdk-compress-isal=24.11.6-r0",
+        "dpdk-compress-mlx5=24.11.6-r0",
+        "dpdk-compress-nitrox=24.11.6-r0",
+        "dpdk-compress-octeontx=24.11.6-r0",
+        "dpdk-compress-zlib=24.11.6-r0",
+        "dpdk-compressdev=24.11.6-r0",
+        "dpdk-crypto-bcmfs=24.11.6-r0",
+        "dpdk-crypto-caam-jr=24.11.6-r0",
+        "dpdk-crypto-ccp=24.11.6-r0",
+        "dpdk-crypto-cnxk=24.11.6-r0",
+        "dpdk-crypto-dpaa-sec=24.11.6-r0",
+        "dpdk-crypto-dpaa2-sec=24.11.6-r0",
+        "dpdk-crypto-mlx5=24.11.6-r0",
+        "dpdk-crypto-nitrox=24.11.6-r0",
+        "dpdk-crypto-null=24.11.6-r0",
+        "dpdk-crypto-octeontx=24.11.6-r0",
+        "dpdk-crypto-openssl=24.11.6-r0",
+        "dpdk-crypto-scheduler=24.11.6-r0",
+        "dpdk-crypto-virtio=24.11.6-r0",
+        "dpdk-cryptodev=24.11.6-r0",
+        "dpdk-dispatcher=24.11.6-r0",
+        "dpdk-distributor=24.11.6-r0",
+        "dpdk-dma-cnxk=24.11.6-r0",
+        "dpdk-dma-dpaa2=24.11.6-r0",
+        "dpdk-dma-dpaa=24.11.6-r0",
+        "dpdk-dma-hisilicon=24.11.6-r0",
+        "dpdk-dma-skeleton=24.11.6-r0",
+        "dpdk-dmadev=24.11.6-r0",
+        "dpdk-eal=24.11.6-r0",
+        "dpdk-efd=24.11.6-r0",
+        "dpdk-ethdev=24.11.6-r0",
+        "dpdk-event-cnxk=24.11.6-r0",
+        "dpdk-event-dpaa2=24.11.6-r0",
+        "dpdk-event-dpaa=24.11.6-r0",
+        "dpdk-event-dsw=24.11.6-r0",
+        "dpdk-event-octeontx=24.11.6-r0",
+        "dpdk-event-opdl=24.11.6-r0",
+        "dpdk-event-skeleton=24.11.6-r0",
+        "dpdk-event-sw=24.11.6-r0",
+        "dpdk-eventdev=24.11.6-r0",
+        "dpdk-fib=24.11.6-r0",
+        "dpdk-gpudev=24.11.6-r0",
+        "dpdk-graph=24.11.6-r0",
+        "dpdk-gro=24.11.6-r0",
+        "dpdk-gso=24.11.6-r0",
+        "dpdk-hash=24.11.6-r0",
+        "dpdk-ip-frag=24.11.6-r0",
+        "dpdk-ipsec=24.11.6-r0",
+        "dpdk-jobstats=24.11.6-r0",
+        "dpdk-kvargs=24.11.6-r0",
+        "dpdk-latencystats=24.11.6-r0",
+        "dpdk-log=24.11.6-r0",
+        "dpdk-lpm=24.11.6-r0",
+        "dpdk-mbuf=24.11.6-r0",
+        "dpdk-member=24.11.6-r0",
+        "dpdk-mempool-bucket=24.11.6-r0",
+        "dpdk-mempool-cnxk=24.11.6-r0",
+        "dpdk-mempool-dpaa2=24.11.6-r0",
+        "dpdk-mempool-dpaa=24.11.6-r0",
+        "dpdk-mempool-octeontx=24.11.6-r0",
+        "dpdk-mempool-ring=24.11.6-r0",
+        "dpdk-mempool-stack=24.11.6-r0",
+        "dpdk-mempool=24.11.6-r0",
+        "dpdk-meter=24.11.6-r0",
+        "dpdk-metrics=24.11.6-r0",
+        "dpdk-ml-cnxk=24.11.6-r0",
+        "dpdk-mldev=24.11.6-r0",
+        "dpdk-net-af-packet=24.11.6-r0",
+        "dpdk-net-ark=24.11.6-r0",
+        "dpdk-net-atlantic=24.11.6-r0",
+        "dpdk-net-avp=24.11.6-r0",
+        "dpdk-net-axgbe=24.11.6-r0",
+        "dpdk-net-bnx2x=24.11.6-r0",
+        "dpdk-net-bnxt=24.11.6-r0",
+        "dpdk-net-bond=24.11.6-r0",
+        "dpdk-net-cnxk=24.11.6-r0",
+        "dpdk-net-cpfl=24.11.6-r0",
+        "dpdk-net-cxgbe=24.11.6-r0",
+        "dpdk-net-dpaa2=24.11.6-r0",
+        "dpdk-net-dpaa=24.11.6-r0",
+        "dpdk-net-e1000=24.11.6-r0",
+        "dpdk-net-ena=24.11.6-r0",
+        "dpdk-net-enetc=24.11.6-r0",
+        "dpdk-net-enetfec=24.11.6-r0",
+        "dpdk-net-enic=24.11.6-r0",
+        "dpdk-net-failsafe=24.11.6-r0",
+        "dpdk-net-fm10k=24.11.6-r0",
+        "dpdk-net-gve=24.11.6-r0",
+        "dpdk-net-hinic=24.11.6-r0",
+        "dpdk-net-hns3=24.11.6-r0",
+        "dpdk-net-i40e=24.11.6-r0",
+        "dpdk-net-iavf=24.11.6-r0",
+        "dpdk-net-ice=24.11.6-r0",
+        "dpdk-net-idpf=24.11.6-r0",
+        "dpdk-net-igc=24.11.6-r0",
+        "dpdk-net-ionic=24.11.6-r0",
+        "dpdk-net-ipn3ke=24.11.6-r0",
+        "dpdk-net-ixgbe=24.11.6-r0",
+        "dpdk-net-memif=24.11.6-r0",
+        "dpdk-net-mlx4=24.11.6-r0",
+        "dpdk-net-mlx5=24.11.6-r0",
+        "dpdk-net-netvsc=24.11.6-r0",
+        "dpdk-net-nfp=24.11.6-r0",
+        "dpdk-net-ngbe=24.11.6-r0",
+        "dpdk-net-null=24.11.6-r0",
+        "dpdk-net-octeon-ep=24.11.6-r0",
+        "dpdk-net-octeontx=24.11.6-r0",
+        "dpdk-net-pcap=24.11.6-r0",
+        "dpdk-net-pfe=24.11.6-r0",
+        "dpdk-net-qede=24.11.6-r0",
+        "dpdk-net-ring=24.11.6-r0",
+        "dpdk-net-sfc=24.11.6-r0",
+        "dpdk-net-softnic=24.11.6-r0",
+        "dpdk-net-tap=24.11.6-r0",
+        "dpdk-net-thunderx=24.11.6-r0",
+        "dpdk-net-txgbe=24.11.6-r0",
+        "dpdk-net-vdev-netvsc=24.11.6-r0",
+        "dpdk-net-vhost=24.11.6-r0",
+        "dpdk-net-virtio=24.11.6-r0",
+        "dpdk-net-vmxnet3=24.11.6-r0",
+        "dpdk-net=24.11.6-r0",
+        "dpdk-node=24.11.6-r0",
+        "dpdk-pcapng=24.11.6-r0",
+        "dpdk-pci=24.11.6-r0",
+        "dpdk-pdcp=24.11.6-r0",
+        "dpdk-pdump=24.11.6-r0",
+        "dpdk-pipeline=24.11.6-r0",
+        "dpdk-port=24.11.6-r0",
+        "dpdk-power=24.11.6-r0",
+        "dpdk-raw-cnxk-bphy=24.11.6-r0",
+        "dpdk-raw-cnxk-gpio=24.11.6-r0",
+        "dpdk-raw-dpaa2-cmdif=24.11.6-r0",
+        "dpdk-raw-ifpga=24.11.6-r0",
+        "dpdk-raw-ntb=24.11.6-r0",
+        "dpdk-raw-skeleton=24.11.6-r0",
+        "dpdk-rawdev=24.11.6-r0",
+        "dpdk-rcu=24.11.6-r0",
+        "dpdk-regex-cn9k=24.11.6-r0",
+        "dpdk-regex-mlx5=24.11.6-r0",
+        "dpdk-regexdev=24.11.6-r0",
+        "dpdk-reorder=24.11.6-r0",
+        "dpdk-rib=24.11.6-r0",
+        "dpdk-ring=24.11.6-r0",
+        "dpdk-sched=24.11.6-r0",
+        "dpdk-security=24.11.6-r0",
+        "dpdk-stack=24.11.6-r0",
+        "dpdk-table=24.11.6-r0",
+        "dpdk-telemetry=24.11.6-r0",
+        "dpdk-timer=24.11.6-r0",
+        "dpdk-vdpa-ifc=24.11.6-r0",
+        "dpdk-vdpa-mlx5=24.11.6-r0",
+        "dpdk-vdpa-nfp=24.11.6-r0",
+        "dpdk-vdpa-sfc=24.11.6-r0",
+        "dpdk-vhost=24.11.6-r0",
+        "dpdk=24.11.6-r0",
         "pc:jansson",
         "pc:libarchive",
         "pc:libcrypto",
@@ -41508,14 +41582,15 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:libdpdk-libs=24.11.2",
-        "pc:libdpdk=24.11.2"
+        "pc:libdpdk-libs=24.11.6",
+        "pc:libdpdk=24.11.6"
       ]
     },
     "dpdk-dispatcher": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41532,7 +41607,8 @@
     "dpdk-distributor": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41547,7 +41623,8 @@
     "dpdk-dma-cnxk": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41569,7 +41646,8 @@
     "dpdk-dma-dpaa": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41589,7 +41667,8 @@
     "dpdk-dma-dpaa2": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41609,7 +41688,8 @@
     "dpdk-dma-hisilicon": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41628,7 +41708,8 @@
     "dpdk-dma-skeleton": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41648,7 +41729,8 @@
     "dpdk-dmadev": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41665,7 +41747,8 @@
     "dpdk-eal": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libarchive.so.13",
@@ -41683,7 +41766,8 @@
     "dpdk-efd": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41701,7 +41785,8 @@
     "dpdk-ethdev": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41721,7 +41806,8 @@
     "dpdk-event-cnxk": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41750,7 +41836,8 @@
     "dpdk-event-dpaa": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41773,7 +41860,8 @@
     "dpdk-event-dpaa2": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41797,7 +41885,8 @@
     "dpdk-event-dsw": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41816,7 +41905,8 @@
     "dpdk-event-octeontx": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41842,7 +41932,8 @@
     "dpdk-event-opdl": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41863,7 +41954,8 @@
     "dpdk-event-skeleton": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41883,7 +41975,8 @@
     "dpdk-event-sw": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41904,7 +41997,8 @@
     "dpdk-eventdev": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41928,7 +42022,8 @@
     "dpdk-fib": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41946,7 +42041,8 @@
     "dpdk-gpudev": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41962,7 +42058,8 @@
     "dpdk-graph": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41983,7 +42080,8 @@
     "dpdk-gro": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -41998,7 +42096,8 @@
     "dpdk-gso": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42014,7 +42113,8 @@
     "dpdk-hash": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42032,7 +42132,8 @@
     "dpdk-ip-frag": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42050,7 +42151,8 @@
     "dpdk-ipsec": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42070,7 +42172,8 @@
     "dpdk-jobstats": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42084,7 +42187,8 @@
     "dpdk-kvargs": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42098,7 +42202,8 @@
     "dpdk-latencystats": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42117,7 +42222,8 @@
     "dpdk-log": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42131,7 +42237,8 @@
     "dpdk-lpm": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42149,7 +42256,8 @@
     "dpdk-mbuf": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42166,7 +42274,8 @@
     "dpdk-member": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42184,7 +42293,8 @@
     "dpdk-mempool": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42201,7 +42311,8 @@
     "dpdk-mempool-bucket": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42218,7 +42329,8 @@
     "dpdk-mempool-cnxk": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42240,7 +42352,8 @@
     "dpdk-mempool-dpaa": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42259,7 +42372,8 @@
     "dpdk-mempool-dpaa2": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42278,7 +42392,8 @@
     "dpdk-mempool-octeontx": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42297,7 +42412,8 @@
     "dpdk-mempool-ring": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42314,7 +42430,8 @@
     "dpdk-mempool-stack": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42331,7 +42448,8 @@
     "dpdk-meter": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libfdt.so.1",
@@ -42345,7 +42463,8 @@
     "dpdk-metrics": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42364,7 +42483,8 @@
     "dpdk-ml-cnxk": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42386,7 +42506,8 @@
     "dpdk-mldev": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42403,7 +42524,8 @@
     "dpdk-net": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42421,7 +42543,8 @@
     "dpdk-net-af-packet": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42442,7 +42565,8 @@
     "dpdk-net-ark": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42462,7 +42586,8 @@
     "dpdk-net-atlantic": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42481,7 +42606,8 @@
     "dpdk-net-avp": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42500,7 +42626,8 @@
     "dpdk-net-axgbe": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42520,7 +42647,8 @@
     "dpdk-net-bnx2x": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42541,7 +42669,8 @@
     "dpdk-net-bnxt": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42564,7 +42693,8 @@
     "dpdk-net-bond": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42588,7 +42718,8 @@
     "dpdk-net-cnxk": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42613,7 +42744,8 @@
     "dpdk-net-cpfl": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42638,7 +42770,8 @@
     "dpdk-net-cxgbe": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42659,7 +42792,8 @@
     "dpdk-net-dpaa": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42683,7 +42817,8 @@
     "dpdk-net-dpaa2": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42706,7 +42841,8 @@
     "dpdk-net-e1000": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42727,7 +42863,8 @@
     "dpdk-net-ena": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42749,7 +42886,8 @@
     "dpdk-net-enetc": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42771,7 +42909,8 @@
     "dpdk-net-enetfec": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42790,7 +42929,8 @@
     "dpdk-net-enic": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42812,7 +42952,8 @@
     "dpdk-net-failsafe": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42832,7 +42973,8 @@
     "dpdk-net-fm10k": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42853,7 +42995,8 @@
     "dpdk-net-gve": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42873,7 +43016,8 @@
     "dpdk-net-hinic": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42894,7 +43038,8 @@
     "dpdk-net-hns3": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42917,7 +43062,8 @@
     "dpdk-net-i40e": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42939,7 +43085,8 @@
     "dpdk-net-iavf": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42962,7 +43109,8 @@
     "dpdk-net-ice": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42986,7 +43134,8 @@
     "dpdk-net-idpf": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43006,7 +43155,8 @@
     "dpdk-net-igc": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43026,7 +43176,8 @@
     "dpdk-net-ionic": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43048,7 +43199,8 @@
     "dpdk-net-ipn3ke": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43066,7 +43218,8 @@
     "dpdk-net-ixgbe": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43089,7 +43242,8 @@
     "dpdk-net-memif": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43112,7 +43266,8 @@
     "dpdk-net-mlx4": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43135,7 +43290,8 @@
     "dpdk-net-mlx5": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43158,7 +43314,8 @@
     "dpdk-net-netvsc": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43180,7 +43337,8 @@
     "dpdk-net-nfp": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43205,7 +43363,8 @@
     "dpdk-net-ngbe": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43225,7 +43384,8 @@
     "dpdk-net-null": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43246,7 +43406,8 @@
     "dpdk-net-octeon-ep": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43268,7 +43429,8 @@
     "dpdk-net-octeontx": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43292,7 +43454,8 @@
     "dpdk-net-pcap": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43315,7 +43478,8 @@
     "dpdk-net-pfe": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43336,7 +43500,8 @@
     "dpdk-net-qede": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43356,7 +43521,8 @@
     "dpdk-net-ring": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43376,7 +43542,8 @@
     "dpdk-net-sfc": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libatomic.so.1",
@@ -43403,7 +43570,8 @@
     "dpdk-net-softnic": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43426,7 +43594,8 @@
     "dpdk-net-tap": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43449,7 +43618,8 @@
     "dpdk-net-thunderx": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43470,7 +43640,8 @@
     "dpdk-net-txgbe": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43494,7 +43665,8 @@
     "dpdk-net-vdev-netvsc": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43513,7 +43685,8 @@
     "dpdk-net-vhost": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43535,7 +43708,8 @@
     "dpdk-net-virtio": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43557,7 +43731,8 @@
     "dpdk-net-vmxnet3": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43578,7 +43753,8 @@
     "dpdk-node": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43602,7 +43778,8 @@
     "dpdk-pcapng": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43621,7 +43798,8 @@
     "dpdk-pci": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43636,7 +43814,8 @@
     "dpdk-pdcp": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43655,7 +43834,8 @@
     "dpdk-pdump": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43675,7 +43855,8 @@
     "dpdk-pipeline": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43699,7 +43880,8 @@
     "dpdk-port": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43724,7 +43906,8 @@
     "dpdk-power": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43741,7 +43924,8 @@
     "dpdk-raw-cnxk-bphy": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43760,7 +43944,8 @@
     "dpdk-raw-cnxk-gpio": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43779,7 +43964,8 @@
     "dpdk-raw-dpaa2-cmdif": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43798,7 +43984,8 @@
     "dpdk-raw-ifpga": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43822,7 +44009,8 @@
     "dpdk-raw-ntb": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43841,7 +44029,8 @@
     "dpdk-raw-skeleton": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43860,7 +44049,8 @@
     "dpdk-rawdev": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43877,7 +44067,8 @@
     "dpdk-rcu": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43894,7 +44085,8 @@
     "dpdk-regex-cn9k": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43914,7 +44106,8 @@
     "dpdk-regex-mlx5": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43932,7 +44125,8 @@
     "dpdk-regexdev": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43948,7 +44142,8 @@
     "dpdk-reorder": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43966,7 +44161,8 @@
     "dpdk-rib": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43983,7 +44179,8 @@
     "dpdk-ring": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -44000,7 +44197,8 @@
     "dpdk-sched": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -44017,7 +44215,8 @@
     "dpdk-security": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -44037,7 +44236,8 @@
     "dpdk-stack": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -44053,7 +44253,8 @@
     "dpdk-static": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "dpdk-dev"
@@ -44062,7 +44263,8 @@
     "dpdk-table": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -44081,7 +44283,8 @@
     "dpdk-telemetry": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -44096,7 +44299,8 @@
     "dpdk-timer": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -44111,7 +44315,8 @@
     "dpdk-utils": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "python3",
@@ -44139,23 +44344,24 @@
         "so:librte_security.so.25"
       ],
       "provides": [
-        "cmd:dpdk-cmdline-gen.py=24.11.2-r4",
-        "cmd:dpdk-devbind.py=24.11.2-r4",
-        "cmd:dpdk-dumpcap=24.11.2-r4",
-        "cmd:dpdk-graph=24.11.2-r4",
-        "cmd:dpdk-hugepages.py=24.11.2-r4",
-        "cmd:dpdk-pdump=24.11.2-r4",
-        "cmd:dpdk-pmdinfo.py=24.11.2-r4",
-        "cmd:dpdk-proc-info=24.11.2-r4",
-        "cmd:dpdk-rss-flows.py=24.11.2-r4",
-        "cmd:dpdk-telemetry-exporter.py=24.11.2-r4",
-        "cmd:dpdk-telemetry.py=24.11.2-r4"
+        "cmd:dpdk-cmdline-gen.py=24.11.6-r0",
+        "cmd:dpdk-devbind.py=24.11.6-r0",
+        "cmd:dpdk-dumpcap=24.11.6-r0",
+        "cmd:dpdk-graph=24.11.6-r0",
+        "cmd:dpdk-hugepages.py=24.11.6-r0",
+        "cmd:dpdk-pdump=24.11.6-r0",
+        "cmd:dpdk-pmdinfo.py=24.11.6-r0",
+        "cmd:dpdk-proc-info=24.11.6-r0",
+        "cmd:dpdk-rss-flows.py=24.11.6-r0",
+        "cmd:dpdk-telemetry-exporter.py=24.11.6-r0",
+        "cmd:dpdk-telemetry.py=24.11.6-r0"
       ]
     },
     "dpdk-vdpa-ifc": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -44175,7 +44381,8 @@
     "dpdk-vdpa-mlx5": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -44194,7 +44401,8 @@
     "dpdk-vdpa-nfp": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -44214,7 +44422,8 @@
     "dpdk-vdpa-sfc": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -44236,7 +44445,8 @@
     "dpdk-vhost": {
       "origin": "dpdk",
       "versions": {
-        "24.11.2-r4": 1768325405
+        "24.11.2-r4": 1768325405,
+        "24.11.6-r0": 1780742707
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -90611,7 +90821,8 @@
     "iaito": {
       "origin": "iaito",
       "versions": {
-        "6.1.4-r0": 1776155589
+        "6.1.4-r0": 1776155589,
+        "6.1.6-r0": 1780745074
       },
       "dependencies": [
         "radare2",
@@ -90625,33 +90836,34 @@
         "so:libQt6Widgets.so.6",
         "so:libc.musl-aarch64.so.1",
         "so:libgcc_s.so.1",
-        "so:libr_anal.so.6.1.4",
-        "so:libr_arch.so.6.1.4",
-        "so:libr_asm.so.6.1.4",
-        "so:libr_bin.so.6.1.4",
-        "so:libr_bp.so.6.1.4",
-        "so:libr_config.so.6.1.4",
-        "so:libr_cons.so.6.1.4",
-        "so:libr_core.so.6.1.4",
-        "so:libr_debug.so.6.1.4",
-        "so:libr_egg.so.6.1.4",
-        "so:libr_flag.so.6.1.4",
-        "so:libr_fs.so.6.1.4",
-        "so:libr_io.so.6.1.4",
-        "so:libr_reg.so.6.1.4",
-        "so:libr_search.so.6.1.4",
-        "so:libr_syscall.so.6.1.4",
-        "so:libr_util.so.6.1.4",
+        "so:libr_anal.so.6.1.6",
+        "so:libr_arch.so.6.1.6",
+        "so:libr_asm.so.6.1.6",
+        "so:libr_bin.so.6.1.6",
+        "so:libr_bp.so.6.1.6",
+        "so:libr_config.so.6.1.6",
+        "so:libr_cons.so.6.1.6",
+        "so:libr_core.so.6.1.6",
+        "so:libr_debug.so.6.1.6",
+        "so:libr_egg.so.6.1.6",
+        "so:libr_flag.so.6.1.6",
+        "so:libr_fs.so.6.1.6",
+        "so:libr_io.so.6.1.6",
+        "so:libr_reg.so.6.1.6",
+        "so:libr_search.so.6.1.6",
+        "so:libr_syscall.so.6.1.6",
+        "so:libr_util.so.6.1.6",
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:iaito=6.1.4-r0"
+        "cmd:iaito=6.1.6-r0"
       ]
     },
     "iaito-doc": {
       "origin": "iaito",
       "versions": {
-        "6.1.4-r0": 1776155589
+        "6.1.4-r0": 1776155589,
+        "6.1.6-r0": 1780745074
       }
     },
     "iamb": {
@@ -124129,20 +124341,22 @@
       "origin": "liblouis",
       "versions": {
         "3.37.0-r1": 1774640427,
-        "3.37.0-r2": 1780675105
+        "3.37.0-r2": 1780675105,
+        "3.38.0-r0": 1780742171
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "so:liblouis.so.20=20.1.2"
+        "so:liblouis.so.20=20.1.3"
       ]
     },
     "liblouis-bin": {
       "origin": "liblouis",
       "versions": {
         "3.37.0-r1": 1774640427,
-        "3.37.0-r2": 1780675105
+        "3.37.0-r2": 1780675105,
+        "3.38.0-r0": 1780742171
       },
       "dependencies": [
         "bash",
@@ -124154,42 +124368,45 @@
         "so:liblouis.so.20"
       ],
       "provides": [
-        "cmd:lou_allround=3.37.0-r2",
-        "cmd:lou_checkhyphens=3.37.0-r2",
-        "cmd:lou_checktable=3.37.0-r2",
-        "cmd:lou_debug=3.37.0-r2",
-        "cmd:lou_maketable=3.37.0-r2",
-        "cmd:lou_tableinfo=3.37.0-r2",
-        "cmd:lou_trace=3.37.0-r2",
-        "cmd:lou_translate=3.37.0-r2"
+        "cmd:lou_allround=3.38.0-r0",
+        "cmd:lou_checkhyphens=3.38.0-r0",
+        "cmd:lou_checktable=3.38.0-r0",
+        "cmd:lou_debug=3.38.0-r0",
+        "cmd:lou_maketable=3.38.0-r0",
+        "cmd:lou_tableinfo=3.38.0-r0",
+        "cmd:lou_trace=3.38.0-r0",
+        "cmd:lou_translate=3.38.0-r0"
       ]
     },
     "liblouis-dev": {
       "origin": "liblouis",
       "versions": {
         "3.37.0-r1": 1774640427,
-        "3.37.0-r2": 1780675105
+        "3.37.0-r2": 1780675105,
+        "3.38.0-r0": 1780742171
       },
       "dependencies": [
-        "liblouis=3.37.0-r2",
+        "liblouis=3.38.0-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:liblouis=3.37.0"
+        "pc:liblouis=3.38.0"
       ]
     },
     "liblouis-doc": {
       "origin": "liblouis",
       "versions": {
         "3.37.0-r1": 1774640427,
-        "3.37.0-r2": 1780675105
+        "3.37.0-r2": 1780675105,
+        "3.38.0-r0": 1780742171
       }
     },
     "liblouis-static": {
       "origin": "liblouis",
       "versions": {
         "3.37.0-r1": 1774640427,
-        "3.37.0-r2": 1780675105
+        "3.37.0-r2": 1780675105,
+        "3.38.0-r0": 1780742171
       },
       "dependencies": [
         "liblouis-dev"
@@ -162551,7 +162768,8 @@
     "ntfy": {
       "origin": "ntfy",
       "versions": {
-        "2.21.0-r2": 1778661427
+        "2.21.0-r2": 1778661427,
+        "2.23.0-r0": 1780742922
       },
       "dependencies": [
         "/bin/sh",
@@ -162559,7 +162777,7 @@
         "so:libsqlite3.so.0"
       ],
       "provides": [
-        "cmd:ntfy=2.21.0-r2"
+        "cmd:ntfy=2.23.0-r0"
       ]
     },
     "ntfy-alertmanager": {
@@ -162584,7 +162802,8 @@
     "ntfy-openrc": {
       "origin": "ntfy",
       "versions": {
-        "2.21.0-r2": 1778661427
+        "2.21.0-r2": 1778661427,
+        "2.23.0-r0": 1780742922
       }
     },
     "ntpsec": {
@@ -213755,14 +213974,15 @@
         "11.2.2-r0": 1779657979,
         "11.3.0-r0": 1779797604,
         "11.4.0-r0": 1780012740,
-        "11.5.0-r0": 1780390952
+        "11.5.0-r0": 1780390952,
+        "11.5.2-r0": 1780742257
       },
       "dependencies": [
         "nodejs"
       ],
       "provides": [
-        "cmd:pnpm=11.5.0-r0",
-        "cmd:pnpx=11.5.0-r0"
+        "cmd:pnpm=11.5.2-r0",
+        "cmd:pnpx=11.5.2-r0"
       ]
     },
     "pnpm-bash-completion": {
@@ -213772,7 +213992,8 @@
         "11.2.2-r0": 1779657979,
         "11.3.0-r0": 1779797604,
         "11.4.0-r0": 1780012740,
-        "11.5.0-r0": 1780390952
+        "11.5.0-r0": 1780390952,
+        "11.5.2-r0": 1780742257
       }
     },
     "pnpm-doc": {
@@ -213782,7 +214003,8 @@
         "11.2.2-r0": 1779657979,
         "11.3.0-r0": 1779797604,
         "11.4.0-r0": 1780012740,
-        "11.5.0-r0": 1780390952
+        "11.5.0-r0": 1780390952,
+        "11.5.2-r0": 1780742257
       }
     },
     "pnpm-fish-completion": {
@@ -213792,7 +214014,8 @@
         "11.2.2-r0": 1779657979,
         "11.3.0-r0": 1779797604,
         "11.4.0-r0": 1780012740,
-        "11.5.0-r0": 1780390952
+        "11.5.0-r0": 1780390952,
+        "11.5.2-r0": 1780742257
       }
     },
     "pnpm-zsh-completion": {
@@ -213802,7 +214025,8 @@
         "11.2.2-r0": 1779657979,
         "11.3.0-r0": 1779797604,
         "11.4.0-r0": 1780012740,
-        "11.5.0-r0": 1780390952
+        "11.5.0-r0": 1780390952,
+        "11.5.2-r0": 1780742257
       }
     },
     "poco": {
@@ -234511,21 +234735,23 @@
       "origin": "liblouis",
       "versions": {
         "3.37.0-r1": 1774640427,
-        "3.37.0-r2": 1780675105
+        "3.37.0-r2": 1780675105,
+        "3.38.0-r0": 1780742171
       },
       "dependencies": [
-        "liblouis=3.37.0-r2",
+        "liblouis=3.38.0-r0",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:louis=3.37.0-r2"
+        "py3.14:louis=3.38.0-r0"
       ]
     },
     "py3-liblouis-pyc": {
       "origin": "liblouis",
       "versions": {
         "3.37.0-r1": 1774640427,
-        "3.37.0-r2": 1780675105
+        "3.37.0-r2": 1780675105,
+        "3.38.0-r0": 1780742171
       },
       "dependencies": [
         "python3~3.14"
@@ -245100,15 +245326,16 @@
       "versions": {
         "0.0.28-r0": 1778542779,
         "0.0.29-r0": 1779658151,
-        "0.0.30-r0": 1780458998
+        "0.0.30-r0": 1780458998,
+        "0.0.32-r0": 1780741158
       },
       "dependencies": [
         "python3",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:multipart=0.0.30-r0",
-        "py3.14:python_multipart=0.0.30-r0"
+        "py3.14:multipart=0.0.32-r0",
+        "py3.14:python_multipart=0.0.32-r0"
       ]
     },
     "py3-python-multipart-doc": {
@@ -245116,7 +245343,8 @@
       "versions": {
         "0.0.28-r0": 1778542779,
         "0.0.29-r0": 1779658151,
-        "0.0.30-r0": 1780458998
+        "0.0.30-r0": 1780458998,
+        "0.0.32-r0": 1780741158
       }
     },
     "py3-python-multipart-pyc": {
@@ -245124,7 +245352,8 @@
       "versions": {
         "0.0.28-r0": 1778542779,
         "0.0.29-r0": 1779658151,
-        "0.0.30-r0": 1780458998
+        "0.0.30-r0": 1780458998,
+        "0.0.32-r0": 1780741158
       },
       "dependencies": [
         "python3~3.14"
@@ -262894,55 +263123,58 @@
     "radare2": {
       "origin": "radare2",
       "versions": {
-        "6.1.4-r0": 1776155589
+        "6.1.4-r0": 1776155589,
+        "6.1.6-r0": 1780745074
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
-        "so:libr_cons.so.6.1.4",
-        "so:libr_main.so.6.1.4",
-        "so:libr_util.so.6.1.4",
-        "so:libsdb.so.2.4.2"
+        "so:libr_cons.so.6.1.6",
+        "so:libr_main.so.6.1.6",
+        "so:libr_util.so.6.1.6",
+        "so:libsdb.so.2.4.4"
       ],
       "provides": [
-        "cmd:r2=6.1.4-r0",
-        "cmd:r2agent=6.1.4-r0",
-        "cmd:r2pm=6.1.4-r0",
-        "cmd:r2r=6.1.4-r0",
-        "cmd:r2sdb=6.1.4-r0",
-        "cmd:rabin2=6.1.4-r0",
-        "cmd:radare2=6.1.4-r0",
-        "cmd:radiff2=6.1.4-r0",
-        "cmd:rafind2=6.1.4-r0",
-        "cmd:rafs2=6.1.4-r0",
-        "cmd:ragg2=6.1.4-r0",
-        "cmd:rahash2=6.1.4-r0",
-        "cmd:rapatch2=6.1.4-r0",
-        "cmd:rarun2=6.1.4-r0",
-        "cmd:rasign2=6.1.4-r0",
-        "cmd:rasm2=6.1.4-r0",
-        "cmd:ravc2=6.1.4-r0",
-        "cmd:rax2=6.1.4-r0"
+        "cmd:r2=6.1.6-r0",
+        "cmd:r2agent=6.1.6-r0",
+        "cmd:r2pm=6.1.6-r0",
+        "cmd:r2r=6.1.6-r0",
+        "cmd:r2sdb=6.1.6-r0",
+        "cmd:rabin2=6.1.6-r0",
+        "cmd:radare2=6.1.6-r0",
+        "cmd:radiff2=6.1.6-r0",
+        "cmd:rafind2=6.1.6-r0",
+        "cmd:rafs2=6.1.6-r0",
+        "cmd:ragg2=6.1.6-r0",
+        "cmd:rahash2=6.1.6-r0",
+        "cmd:rapatch2=6.1.6-r0",
+        "cmd:rarun2=6.1.6-r0",
+        "cmd:rasign2=6.1.6-r0",
+        "cmd:rasm2=6.1.6-r0",
+        "cmd:ravc2=6.1.6-r0",
+        "cmd:rax2=6.1.6-r0"
       ]
     },
     "radare2-dbg": {
       "origin": "radare2",
       "versions": {
-        "6.1.4-r0": 1776155589
+        "6.1.4-r0": 1776155589,
+        "6.1.6-r0": 1780745074
       },
       "dependencies": [
-        "!radare2-libs<6.1.4-r0",
-        "!radare2-libs>6.1.4-r0",
-        "!radare2<6.1.4-r0",
-        "!radare2>6.1.4-r0"
+        "!radare2-libs<6.1.6-r0",
+        "!radare2-libs>6.1.6-r0",
+        "!radare2<6.1.6-r0",
+        "!radare2>6.1.6-r0"
       ]
     },
     "radare2-dev": {
       "origin": "radare2",
       "versions": {
-        "6.1.4-r0": 1776155589
+        "6.1.4-r0": 1776155589,
+        "6.1.6-r0": 1780745074
       },
       "dependencies": [
-        "radare2-libs=6.1.4-r0",
+        "radare2-libs=6.1.6-r0",
         "pc:capstone>=4.0.0",
         "pc:liblz4",
         "pc:libxxhash",
@@ -262952,42 +263184,44 @@
       ],
       "provides": [
         "pc:libr=0.1",
-        "pc:r_anal=6.1.4",
-        "pc:r_arch=6.1.4",
-        "pc:r_asm=6.1.4",
-        "pc:r_bin=6.1.4",
-        "pc:r_bp=6.1.4",
-        "pc:r_config=6.1.4",
-        "pc:r_cons=6.1.4",
-        "pc:r_core=6.1.4",
-        "pc:r_debug=6.1.4",
-        "pc:r_egg=6.1.4",
-        "pc:r_esil=6.1.4",
-        "pc:r_flag=6.1.4",
-        "pc:r_fs=6.1.4",
-        "pc:r_io=6.1.4",
-        "pc:r_lang=6.1.4",
-        "pc:r_magic=6.1.4",
-        "pc:r_main=6.1.4",
-        "pc:r_muta=6.1.4",
-        "pc:r_reg=6.1.4",
-        "pc:r_search=6.1.4",
-        "pc:r_socket=6.1.4",
-        "pc:r_syscall=6.1.4",
-        "pc:r_util=6.1.4",
-        "pc:sdb=2.4.2"
+        "pc:r_anal=6.1.6",
+        "pc:r_arch=6.1.6",
+        "pc:r_asm=6.1.6",
+        "pc:r_bin=6.1.6",
+        "pc:r_bp=6.1.6",
+        "pc:r_config=6.1.6",
+        "pc:r_cons=6.1.6",
+        "pc:r_core=6.1.6",
+        "pc:r_debug=6.1.6",
+        "pc:r_egg=6.1.6",
+        "pc:r_esil=6.1.6",
+        "pc:r_flag=6.1.6",
+        "pc:r_fs=6.1.6",
+        "pc:r_io=6.1.6",
+        "pc:r_lang=6.1.6",
+        "pc:r_magic=6.1.6",
+        "pc:r_main=6.1.6",
+        "pc:r_muta=6.1.6",
+        "pc:r_reg=6.1.6",
+        "pc:r_search=6.1.6",
+        "pc:r_socket=6.1.6",
+        "pc:r_syscall=6.1.6",
+        "pc:r_util=6.1.6",
+        "pc:sdb=2.4.4"
       ]
     },
     "radare2-doc": {
       "origin": "radare2",
       "versions": {
-        "6.1.4-r0": 1776155589
+        "6.1.4-r0": 1776155589,
+        "6.1.6-r0": 1780745074
       }
     },
     "radare2-libs": {
       "origin": "radare2",
       "versions": {
-        "6.1.4-r0": 1776155589
+        "6.1.4-r0": 1776155589,
+        "6.1.6-r0": 1780745074
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -262999,36 +263233,37 @@
         "so:libzip.so.5"
       ],
       "provides": [
-        "so:libr_anal.so.6.1.4=6.1.4",
-        "so:libr_arch.so.6.1.4=6.1.4",
-        "so:libr_asm.so.6.1.4=6.1.4",
-        "so:libr_bin.so.6.1.4=6.1.4",
-        "so:libr_bp.so.6.1.4=6.1.4",
-        "so:libr_config.so.6.1.4=6.1.4",
-        "so:libr_cons.so.6.1.4=6.1.4",
-        "so:libr_core.so.6.1.4=6.1.4",
-        "so:libr_debug.so.6.1.4=6.1.4",
-        "so:libr_egg.so.6.1.4=6.1.4",
-        "so:libr_esil.so.6.1.4=6.1.4",
-        "so:libr_flag.so.6.1.4=6.1.4",
-        "so:libr_fs.so.6.1.4=6.1.4",
-        "so:libr_io.so.6.1.4=6.1.4",
-        "so:libr_lang.so.6.1.4=6.1.4",
-        "so:libr_magic.so.6.1.4=6.1.4",
-        "so:libr_main.so.6.1.4=6.1.4",
-        "so:libr_muta.so.6.1.4=6.1.4",
-        "so:libr_reg.so.6.1.4=6.1.4",
-        "so:libr_search.so.6.1.4=6.1.4",
-        "so:libr_socket.so.6.1.4=6.1.4",
-        "so:libr_syscall.so.6.1.4=6.1.4",
-        "so:libr_util.so.6.1.4=6.1.4",
-        "so:libsdb.so.2.4.2=2.4.2"
+        "so:libr_anal.so.6.1.6=6.1.6",
+        "so:libr_arch.so.6.1.6=6.1.6",
+        "so:libr_asm.so.6.1.6=6.1.6",
+        "so:libr_bin.so.6.1.6=6.1.6",
+        "so:libr_bp.so.6.1.6=6.1.6",
+        "so:libr_config.so.6.1.6=6.1.6",
+        "so:libr_cons.so.6.1.6=6.1.6",
+        "so:libr_core.so.6.1.6=6.1.6",
+        "so:libr_debug.so.6.1.6=6.1.6",
+        "so:libr_egg.so.6.1.6=6.1.6",
+        "so:libr_esil.so.6.1.6=6.1.6",
+        "so:libr_flag.so.6.1.6=6.1.6",
+        "so:libr_fs.so.6.1.6=6.1.6",
+        "so:libr_io.so.6.1.6=6.1.6",
+        "so:libr_lang.so.6.1.6=6.1.6",
+        "so:libr_magic.so.6.1.6=6.1.6",
+        "so:libr_main.so.6.1.6=6.1.6",
+        "so:libr_muta.so.6.1.6=6.1.6",
+        "so:libr_reg.so.6.1.6=6.1.6",
+        "so:libr_search.so.6.1.6=6.1.6",
+        "so:libr_socket.so.6.1.6=6.1.6",
+        "so:libr_syscall.so.6.1.6=6.1.6",
+        "so:libr_util.so.6.1.6=6.1.6",
+        "so:libsdb.so.2.4.4=2.4.4"
       ]
     },
     "radare2-zsh-completion": {
       "origin": "radare2",
       "versions": {
-        "6.1.4-r0": 1776155589
+        "6.1.4-r0": 1776155589,
+        "6.1.6-r0": 1780745074
       }
     },
     "radcli": {
@@ -265672,13 +265907,14 @@
     "rcon-cli": {
       "origin": "rcon-cli",
       "versions": {
-        "1.7.4-r2": 1778661427
+        "1.7.4-r2": 1778661427,
+        "1.7.5-r0": 1780741810
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "cmd:rcon-cli=1.7.4-r2"
+        "cmd:rcon-cli=1.7.5-r0"
       ]
     },
     "rcon-doc": {
@@ -278837,7 +279073,8 @@
     "singularity": {
       "origin": "singularity",
       "versions": {
-        "4.4.1-r2": 1778661427
+        "4.4.1-r2": 1778661427,
+        "4.4.2-r0": 1780745332
       },
       "dependencies": [
         "squashfs-tools",
@@ -278848,20 +279085,22 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:run-singularity=4.4.1-r2",
-        "cmd:singularity=4.4.1-r2"
+        "cmd:run-singularity=4.4.2-r0",
+        "cmd:singularity=4.4.2-r0"
       ]
     },
     "singularity-bash-completion": {
       "origin": "singularity",
       "versions": {
-        "4.4.1-r2": 1778661427
+        "4.4.1-r2": 1778661427,
+        "4.4.2-r0": 1780745332
       }
     },
     "singularity-doc": {
       "origin": "singularity",
       "versions": {
-        "4.4.1-r2": 1778661427
+        "4.4.1-r2": 1778661427,
+        "4.4.2-r0": 1780745332
       }
     },
     "sioyek": {
@@ -291048,7 +291287,8 @@
     "thin-provisioning-tools": {
       "origin": "thin-provisioning-tools",
       "versions": {
-        "1.3.1-r0": 1775258326
+        "1.3.1-r0": 1775258326,
+        "1.3.2-r0": 1780741073
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -291056,35 +291296,36 @@
         "so:libudev.so.1"
       ],
       "provides": [
-        "cmd:cache_check=1.3.1-r0",
-        "cmd:cache_dump=1.3.1-r0",
-        "cmd:cache_metadata_size=1.3.1-r0",
-        "cmd:cache_repair=1.3.1-r0",
-        "cmd:cache_restore=1.3.1-r0",
-        "cmd:cache_writeback=1.3.1-r0",
-        "cmd:era_check=1.3.1-r0",
-        "cmd:era_dump=1.3.1-r0",
-        "cmd:era_invalidate=1.3.1-r0",
-        "cmd:era_restore=1.3.1-r0",
-        "cmd:pdata_tools=1.3.1-r0",
-        "cmd:thin_check=1.3.1-r0",
-        "cmd:thin_delta=1.3.1-r0",
-        "cmd:thin_dump=1.3.1-r0",
-        "cmd:thin_ls=1.3.1-r0",
-        "cmd:thin_metadata_pack=1.3.1-r0",
-        "cmd:thin_metadata_size=1.3.1-r0",
-        "cmd:thin_metadata_unpack=1.3.1-r0",
-        "cmd:thin_migrate=1.3.1-r0",
-        "cmd:thin_repair=1.3.1-r0",
-        "cmd:thin_restore=1.3.1-r0",
-        "cmd:thin_rmap=1.3.1-r0",
-        "cmd:thin_trim=1.3.1-r0"
+        "cmd:cache_check=1.3.2-r0",
+        "cmd:cache_dump=1.3.2-r0",
+        "cmd:cache_metadata_size=1.3.2-r0",
+        "cmd:cache_repair=1.3.2-r0",
+        "cmd:cache_restore=1.3.2-r0",
+        "cmd:cache_writeback=1.3.2-r0",
+        "cmd:era_check=1.3.2-r0",
+        "cmd:era_dump=1.3.2-r0",
+        "cmd:era_invalidate=1.3.2-r0",
+        "cmd:era_restore=1.3.2-r0",
+        "cmd:pdata_tools=1.3.2-r0",
+        "cmd:thin_check=1.3.2-r0",
+        "cmd:thin_delta=1.3.2-r0",
+        "cmd:thin_dump=1.3.2-r0",
+        "cmd:thin_ls=1.3.2-r0",
+        "cmd:thin_metadata_pack=1.3.2-r0",
+        "cmd:thin_metadata_size=1.3.2-r0",
+        "cmd:thin_metadata_unpack=1.3.2-r0",
+        "cmd:thin_migrate=1.3.2-r0",
+        "cmd:thin_repair=1.3.2-r0",
+        "cmd:thin_restore=1.3.2-r0",
+        "cmd:thin_rmap=1.3.2-r0",
+        "cmd:thin_trim=1.3.2-r0"
       ]
     },
     "thin-provisioning-tools-doc": {
       "origin": "thin-provisioning-tools",
       "versions": {
-        "1.3.1-r0": 1775258326
+        "1.3.1-r0": 1775258326,
+        "1.3.2-r0": 1780741073
       }
     },
     "thonny": {
@@ -295420,7 +295661,8 @@
     "tree-sitter-ssh-client-config": {
       "origin": "tree-sitter-ssh-client-config",
       "versions": {
-        "2026.4.23-r0": 1777010211
+        "2026.4.23-r0": 1777010211,
+        "2026.6.4-r0": 1780741607
       }
     },
     "tree-sitter-static": {
@@ -296405,20 +296647,22 @@
     "typos-lsp": {
       "origin": "typos-lsp",
       "versions": {
-        "0.1.52-r0": 1776528403
+        "0.1.52-r0": 1776528403,
+        "0.1.53-r0": 1780741519
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:typos-lsp=0.1.52-r0"
+        "cmd:typos-lsp=0.1.53-r0"
       ]
     },
     "typos-lsp-doc": {
       "origin": "typos-lsp",
       "versions": {
-        "0.1.52-r0": 1776528403
+        "0.1.52-r0": 1776528403,
+        "0.1.53-r0": 1780741519
       }
     },
     "typst": {
@@ -298735,7 +298979,8 @@
       "origin": "utfcpp",
       "versions": {
         "4.0.9-r0": 1768143529,
-        "4.1.0-r0": 1779667572
+        "4.1.0-r0": 1779667572,
+        "4.1.1-r0": 1780742613
       }
     },
     "uthash": {
@@ -311472,7 +311717,8 @@
     "xmake": {
       "origin": "xmake",
       "versions": {
-        "3.0.8-r0": 1778877149
+        "3.0.8-r0": 1778877149,
+        "3.0.9-r0": 1780741416
       },
       "dependencies": [
         "bash",
@@ -311485,32 +311731,36 @@
         "so:libtbox.so.1"
       ],
       "provides": [
-        "cmd:xmake=3.0.8-r0",
-        "cmd:xrepo=3.0.8-r0"
+        "cmd:xmake=3.0.9-r0",
+        "cmd:xrepo=3.0.9-r0"
       ]
     },
     "xmake-bash-completion": {
       "origin": "xmake",
       "versions": {
-        "3.0.8-r0": 1778877149
+        "3.0.8-r0": 1778877149,
+        "3.0.9-r0": 1780741416
       }
     },
     "xmake-doc": {
       "origin": "xmake",
       "versions": {
-        "3.0.8-r0": 1778877149
+        "3.0.8-r0": 1778877149,
+        "3.0.9-r0": 1780741416
       }
     },
     "xmake-fish-completion": {
       "origin": "xmake",
       "versions": {
-        "3.0.8-r0": 1778877149
+        "3.0.8-r0": 1778877149,
+        "3.0.9-r0": 1780741416
       }
     },
     "xmake-zsh-completion": {
       "origin": "xmake",
       "versions": {
-        "3.0.8-r0": 1778877149
+        "3.0.8-r0": 1778877149,
+        "3.0.9-r0": 1780741416
       }
     },
     "xmessage": {
@@ -312636,14 +312886,15 @@
     "xremap-wlr": {
       "origin": "xremap-wlr",
       "versions": {
-        "0.15.7-r0": 1778863564
+        "0.15.7-r0": 1778863564,
+        "0.15.8-r0": 1780744154
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:xremap=0.15.7-r0"
+        "cmd:xremap=0.15.8-r0"
       ]
     },
     "xscreensaver": {
@@ -317447,7 +317698,8 @@
     "mangowm": {
       "origin": "mangowm",
       "versions": {
-        "0.14.0-r0": 1780098763
+        "0.14.0-r0": 1780098763,
+        "0.14.1-r0": 1780747291
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -317463,9 +317715,9 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "mangowc=0.14.0-r0",
-        "cmd:mango=0.14.0-r0",
-        "cmd:mmsg=0.14.0-r0"
+        "mangowc=0.14.1-r0",
+        "cmd:mango=0.14.1-r0",
+        "cmd:mmsg=0.14.1-r0"
       ]
     },
     "cloud-init-distros": {
@@ -317586,20 +317838,22 @@
     "ostui": {
       "origin": "ostui",
       "versions": {
-        "1.1.1-r0": 1780443709
+        "1.1.1-r0": 1780443709,
+        "1.3.2-r0": 1780741461
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
         "so:libmpv.so.2"
       ],
       "provides": [
-        "cmd:ostui=1.1.1-r0"
+        "cmd:ostui=1.3.2-r0"
       ]
     },
     "ostui-doc": {
       "origin": "ostui",
       "versions": {
-        "1.1.1-r0": 1780443709
+        "1.1.1-r0": 1780443709,
+        "1.3.2-r0": 1780741461
       }
     },
     "hyprwire": {
@@ -317728,6 +317982,12 @@
       "origin": "q6voiced",
       "versions": {
         "0.2.1-r0": 1780695893
+      }
+    },
+    "mangowm-doc": {
+      "origin": "mangowm",
+      "versions": {
+        "0.14.1-r0": 1780747291
       }
     }
   },
@@ -332347,7 +332607,7 @@
       },
       "liblouis.so.20": {
         "package": "liblouis",
-        "version": "20.1.2"
+        "version": "20.1.3"
       },
       "liblsp-r3d-glx-lib-1.0.28.so": {
         "package": "liblsp-r3d-glx-lib",
@@ -343244,6 +343504,106 @@
       "libllhttp.so.9.4": {
         "package": "llhttp",
         "version": "9.4.1"
+      },
+      "librte_net_zxdh.so.25": {
+        "package": "dpdk",
+        "version": "25.0"
+      },
+      "libr_anal.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_arch.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_asm.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_bin.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_bp.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_config.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_cons.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_core.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_debug.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_egg.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_esil.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_flag.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_fs.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_io.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_lang.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_magic.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_main.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_muta.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_reg.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_search.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_socket.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_syscall.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_util.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libsdb.so.2.4.4": {
+        "package": "radare2-libs",
+        "version": "2.4.4"
       }
     },
     "package": {
@@ -347113,7 +347473,7 @@
       },
       "mangowc": {
         "package": "mangowm",
-        "version": "0.14.0-r0"
+        "version": "0.14.1-r0"
       }
     }
   }

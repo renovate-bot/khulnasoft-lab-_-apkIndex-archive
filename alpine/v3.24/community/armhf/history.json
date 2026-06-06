@@ -3062,7 +3062,8 @@
       "origin": "ansible",
       "versions": {
         "13.6.0-r0": 1776845167,
-        "13.7.0-r0": 1779461648
+        "13.7.0-r0": 1779461648,
+        "14.0.0-r0": 1780742089
       },
       "dependencies": [
         "python3",
@@ -3070,7 +3071,7 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:ansible-community=13.7.0-r0"
+        "cmd:ansible-community=14.0.0-r0"
       ]
     },
     "ansible-core": {
@@ -3164,7 +3165,8 @@
       "origin": "ansible",
       "versions": {
         "13.6.0-r0": 1776845167,
-        "13.7.0-r0": 1779461648
+        "13.7.0-r0": 1779461648,
+        "14.0.0-r0": 1780742089
       },
       "dependencies": [
         "python3~3.14"
@@ -3980,7 +3982,8 @@
     "apptainer": {
       "origin": "apptainer",
       "versions": {
-        "1.5.0-r1": 1778661427
+        "1.5.0-r1": 1778661427,
+        "1.5.1-r0": 1780745390
       },
       "dependencies": [
         "fakeroot",
@@ -3989,30 +3992,33 @@
         "so:libseccomp.so.2"
       ],
       "provides": [
-        "cmd:apptainer=1.5.0-r1",
-        "cmd:run-singularity=1.5.0-r1",
-        "cmd:singularity=1.5.0-r1"
+        "cmd:apptainer=1.5.1-r0",
+        "cmd:run-singularity=1.5.1-r0",
+        "cmd:singularity=1.5.1-r0"
       ]
     },
     "apptainer-bash-completion": {
       "origin": "apptainer",
       "versions": {
-        "1.5.0-r1": 1778661427
+        "1.5.0-r1": 1778661427,
+        "1.5.1-r0": 1780745390
       }
     },
     "apptainer-doc": {
       "origin": "apptainer",
       "versions": {
-        "1.5.0-r1": 1778661427
+        "1.5.0-r1": 1778661427,
+        "1.5.1-r0": 1780745390
       }
     },
     "apptainer-suid": {
       "origin": "apptainer",
       "versions": {
-        "1.5.0-r1": 1778661427
+        "1.5.0-r1": 1778661427,
+        "1.5.1-r0": 1780745390
       },
       "dependencies": [
-        "apptainer=1.5.0-r1",
+        "apptainer=1.5.1-r0",
         "so:libc.musl-armhf.so.1",
         "so:libseccomp.so.2"
       ]
@@ -17432,7 +17438,8 @@
     "boost-build": {
       "origin": "boost-build",
       "versions": {
-        "1.90.0-r0": 1775253593
+        "1.90.0-r0": 1775253593,
+        "1.91.0-r0": 1780742014
       },
       "dependencies": [
         "boost",
@@ -17442,7 +17449,8 @@
     "boost-build-doc": {
       "origin": "boost-build",
       "versions": {
-        "1.90.0-r0": 1775253593
+        "1.90.0-r0": 1775253593,
+        "1.91.0-r0": 1780742014
       }
     },
     "booster": {
@@ -20203,7 +20211,8 @@
     "cargo-expand": {
       "origin": "cargo-expand",
       "versions": {
-        "1.0.121-r0": 1770900008
+        "1.0.121-r0": 1770900008,
+        "1.0.122-r0": 1780741755
       },
       "dependencies": [
         "cargo",
@@ -20211,19 +20220,21 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:cargo-expand=1.0.121-r0"
+        "cmd:cargo-expand=1.0.122-r0"
       ]
     },
     "cargo-expand-doc": {
       "origin": "cargo-expand",
       "versions": {
-        "1.0.121-r0": 1770900008
+        "1.0.121-r0": 1770900008,
+        "1.0.122-r0": 1780741755
       }
     },
     "cargo-flamegraph": {
       "origin": "cargo-flamegraph",
       "versions": {
-        "0.6.12-r0": 1775705801
+        "0.6.12-r0": 1775705801,
+        "0.6.13-r0": 1780741294
       },
       "dependencies": [
         "perf",
@@ -20231,32 +20242,36 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:cargo-flamegraph=0.6.12-r0",
-        "cmd:flamegraph=0.6.12-r0"
+        "cmd:cargo-flamegraph=0.6.13-r0",
+        "cmd:flamegraph=0.6.13-r0"
       ]
     },
     "cargo-flamegraph-bash-completion": {
       "origin": "cargo-flamegraph",
       "versions": {
-        "0.6.12-r0": 1775705801
+        "0.6.12-r0": 1775705801,
+        "0.6.13-r0": 1780741294
       }
     },
     "cargo-flamegraph-doc": {
       "origin": "cargo-flamegraph",
       "versions": {
-        "0.6.12-r0": 1775705801
+        "0.6.12-r0": 1775705801,
+        "0.6.13-r0": 1780741294
       }
     },
     "cargo-flamegraph-fish-completion": {
       "origin": "cargo-flamegraph",
       "versions": {
-        "0.6.12-r0": 1775705801
+        "0.6.12-r0": 1775705801,
+        "0.6.13-r0": 1780741294
       }
     },
     "cargo-flamegraph-zsh-completion": {
       "origin": "cargo-flamegraph",
       "versions": {
-        "0.6.12-r0": 1775705801
+        "0.6.12-r0": 1775705801,
+        "0.6.13-r0": 1780741294
       }
     },
     "cargo-generate": {
@@ -75528,7 +75543,8 @@
     "iaito": {
       "origin": "iaito",
       "versions": {
-        "6.1.4-r0": 1776155589
+        "6.1.4-r0": 1776155589,
+        "6.1.6-r0": 1780745074
       },
       "dependencies": [
         "radare2",
@@ -75542,33 +75558,34 @@
         "so:libQt6Widgets.so.6",
         "so:libc.musl-armhf.so.1",
         "so:libgcc_s.so.1",
-        "so:libr_anal.so.6.1.4",
-        "so:libr_arch.so.6.1.4",
-        "so:libr_asm.so.6.1.4",
-        "so:libr_bin.so.6.1.4",
-        "so:libr_bp.so.6.1.4",
-        "so:libr_config.so.6.1.4",
-        "so:libr_cons.so.6.1.4",
-        "so:libr_core.so.6.1.4",
-        "so:libr_debug.so.6.1.4",
-        "so:libr_egg.so.6.1.4",
-        "so:libr_flag.so.6.1.4",
-        "so:libr_fs.so.6.1.4",
-        "so:libr_io.so.6.1.4",
-        "so:libr_reg.so.6.1.4",
-        "so:libr_search.so.6.1.4",
-        "so:libr_syscall.so.6.1.4",
-        "so:libr_util.so.6.1.4",
+        "so:libr_anal.so.6.1.6",
+        "so:libr_arch.so.6.1.6",
+        "so:libr_asm.so.6.1.6",
+        "so:libr_bin.so.6.1.6",
+        "so:libr_bp.so.6.1.6",
+        "so:libr_config.so.6.1.6",
+        "so:libr_cons.so.6.1.6",
+        "so:libr_core.so.6.1.6",
+        "so:libr_debug.so.6.1.6",
+        "so:libr_egg.so.6.1.6",
+        "so:libr_flag.so.6.1.6",
+        "so:libr_fs.so.6.1.6",
+        "so:libr_io.so.6.1.6",
+        "so:libr_reg.so.6.1.6",
+        "so:libr_search.so.6.1.6",
+        "so:libr_syscall.so.6.1.6",
+        "so:libr_util.so.6.1.6",
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:iaito=6.1.4-r0"
+        "cmd:iaito=6.1.6-r0"
       ]
     },
     "iaito-doc": {
       "origin": "iaito",
       "versions": {
-        "6.1.4-r0": 1776155589
+        "6.1.4-r0": 1776155589,
+        "6.1.6-r0": 1780745074
       }
     },
     "ibmswtpm2": {
@@ -93251,20 +93268,22 @@
       "origin": "liblouis",
       "versions": {
         "3.37.0-r1": 1774640427,
-        "3.37.0-r2": 1780675105
+        "3.37.0-r2": 1780675105,
+        "3.38.0-r0": 1780742171
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "so:liblouis.so.20=20.1.2"
+        "so:liblouis.so.20=20.1.3"
       ]
     },
     "liblouis-bin": {
       "origin": "liblouis",
       "versions": {
         "3.37.0-r1": 1774640427,
-        "3.37.0-r2": 1780675105
+        "3.37.0-r2": 1780675105,
+        "3.38.0-r0": 1780742171
       },
       "dependencies": [
         "bash",
@@ -93276,42 +93295,45 @@
         "so:liblouis.so.20"
       ],
       "provides": [
-        "cmd:lou_allround=3.37.0-r2",
-        "cmd:lou_checkhyphens=3.37.0-r2",
-        "cmd:lou_checktable=3.37.0-r2",
-        "cmd:lou_debug=3.37.0-r2",
-        "cmd:lou_maketable=3.37.0-r2",
-        "cmd:lou_tableinfo=3.37.0-r2",
-        "cmd:lou_trace=3.37.0-r2",
-        "cmd:lou_translate=3.37.0-r2"
+        "cmd:lou_allround=3.38.0-r0",
+        "cmd:lou_checkhyphens=3.38.0-r0",
+        "cmd:lou_checktable=3.38.0-r0",
+        "cmd:lou_debug=3.38.0-r0",
+        "cmd:lou_maketable=3.38.0-r0",
+        "cmd:lou_tableinfo=3.38.0-r0",
+        "cmd:lou_trace=3.38.0-r0",
+        "cmd:lou_translate=3.38.0-r0"
       ]
     },
     "liblouis-dev": {
       "origin": "liblouis",
       "versions": {
         "3.37.0-r1": 1774640427,
-        "3.37.0-r2": 1780675105
+        "3.37.0-r2": 1780675105,
+        "3.38.0-r0": 1780742171
       },
       "dependencies": [
-        "liblouis=3.37.0-r2",
+        "liblouis=3.38.0-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:liblouis=3.37.0"
+        "pc:liblouis=3.38.0"
       ]
     },
     "liblouis-doc": {
       "origin": "liblouis",
       "versions": {
         "3.37.0-r1": 1774640427,
-        "3.37.0-r2": 1780675105
+        "3.37.0-r2": 1780675105,
+        "3.38.0-r0": 1780742171
       }
     },
     "liblouis-static": {
       "origin": "liblouis",
       "versions": {
         "3.37.0-r1": 1774640427,
-        "3.37.0-r2": 1780675105
+        "3.37.0-r2": 1780675105,
+        "3.38.0-r0": 1780742171
       },
       "dependencies": [
         "liblouis-dev"
@@ -125985,7 +126007,8 @@
     "ntfy": {
       "origin": "ntfy",
       "versions": {
-        "2.21.0-r2": 1778661427
+        "2.21.0-r2": 1778661427,
+        "2.23.0-r0": 1780742922
       },
       "dependencies": [
         "/bin/sh",
@@ -125993,7 +126016,7 @@
         "so:libsqlite3.so.0"
       ],
       "provides": [
-        "cmd:ntfy=2.21.0-r2"
+        "cmd:ntfy=2.23.0-r0"
       ]
     },
     "ntfy-alertmanager": {
@@ -126018,7 +126041,8 @@
     "ntfy-openrc": {
       "origin": "ntfy",
       "versions": {
-        "2.21.0-r2": 1778661427
+        "2.21.0-r2": 1778661427,
+        "2.23.0-r0": 1780742922
       }
     },
     "ntpsec": {
@@ -172302,14 +172326,15 @@
         "11.2.2-r0": 1779657979,
         "11.3.0-r0": 1779797604,
         "11.4.0-r0": 1780012740,
-        "11.5.0-r0": 1780390952
+        "11.5.0-r0": 1780390952,
+        "11.5.2-r0": 1780742257
       },
       "dependencies": [
         "nodejs"
       ],
       "provides": [
-        "cmd:pnpm=11.5.0-r0",
-        "cmd:pnpx=11.5.0-r0"
+        "cmd:pnpm=11.5.2-r0",
+        "cmd:pnpx=11.5.2-r0"
       ]
     },
     "pnpm-bash-completion": {
@@ -172319,7 +172344,8 @@
         "11.2.2-r0": 1779657979,
         "11.3.0-r0": 1779797604,
         "11.4.0-r0": 1780012740,
-        "11.5.0-r0": 1780390952
+        "11.5.0-r0": 1780390952,
+        "11.5.2-r0": 1780742257
       }
     },
     "pnpm-doc": {
@@ -172329,7 +172355,8 @@
         "11.2.2-r0": 1779657979,
         "11.3.0-r0": 1779797604,
         "11.4.0-r0": 1780012740,
-        "11.5.0-r0": 1780390952
+        "11.5.0-r0": 1780390952,
+        "11.5.2-r0": 1780742257
       }
     },
     "pnpm-fish-completion": {
@@ -172339,7 +172366,8 @@
         "11.2.2-r0": 1779657979,
         "11.3.0-r0": 1779797604,
         "11.4.0-r0": 1780012740,
-        "11.5.0-r0": 1780390952
+        "11.5.0-r0": 1780390952,
+        "11.5.2-r0": 1780742257
       }
     },
     "pnpm-zsh-completion": {
@@ -172349,7 +172377,8 @@
         "11.2.2-r0": 1779657979,
         "11.3.0-r0": 1779797604,
         "11.4.0-r0": 1780012740,
-        "11.5.0-r0": 1780390952
+        "11.5.0-r0": 1780390952,
+        "11.5.2-r0": 1780742257
       }
     },
     "poco": {
@@ -191943,21 +191972,23 @@
       "origin": "liblouis",
       "versions": {
         "3.37.0-r1": 1774640427,
-        "3.37.0-r2": 1780675105
+        "3.37.0-r2": 1780675105,
+        "3.38.0-r0": 1780742171
       },
       "dependencies": [
-        "liblouis=3.37.0-r2",
+        "liblouis=3.38.0-r0",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:louis=3.37.0-r2"
+        "py3.14:louis=3.38.0-r0"
       ]
     },
     "py3-liblouis-pyc": {
       "origin": "liblouis",
       "versions": {
         "3.37.0-r1": 1774640427,
-        "3.37.0-r2": 1780675105
+        "3.37.0-r2": 1780675105,
+        "3.38.0-r0": 1780742171
       },
       "dependencies": [
         "python3~3.14"
@@ -202282,15 +202313,16 @@
       "versions": {
         "0.0.28-r0": 1778542779,
         "0.0.29-r0": 1779658151,
-        "0.0.30-r0": 1780458998
+        "0.0.30-r0": 1780458998,
+        "0.0.32-r0": 1780741158
       },
       "dependencies": [
         "python3",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:multipart=0.0.30-r0",
-        "py3.14:python_multipart=0.0.30-r0"
+        "py3.14:multipart=0.0.32-r0",
+        "py3.14:python_multipart=0.0.32-r0"
       ]
     },
     "py3-python-multipart-doc": {
@@ -202298,7 +202330,8 @@
       "versions": {
         "0.0.28-r0": 1778542779,
         "0.0.29-r0": 1779658151,
-        "0.0.30-r0": 1780458998
+        "0.0.30-r0": 1780458998,
+        "0.0.32-r0": 1780741158
       }
     },
     "py3-python-multipart-pyc": {
@@ -202306,7 +202339,8 @@
       "versions": {
         "0.0.28-r0": 1778542779,
         "0.0.29-r0": 1779658151,
-        "0.0.30-r0": 1780458998
+        "0.0.30-r0": 1780458998,
+        "0.0.32-r0": 1780741158
       },
       "dependencies": [
         "python3~3.14"
@@ -216326,55 +216360,58 @@
     "radare2": {
       "origin": "radare2",
       "versions": {
-        "6.1.4-r0": 1776155589
+        "6.1.4-r0": 1776155589,
+        "6.1.6-r0": 1780745074
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
-        "so:libr_cons.so.6.1.4",
-        "so:libr_main.so.6.1.4",
-        "so:libr_util.so.6.1.4",
-        "so:libsdb.so.2.4.2"
+        "so:libr_cons.so.6.1.6",
+        "so:libr_main.so.6.1.6",
+        "so:libr_util.so.6.1.6",
+        "so:libsdb.so.2.4.4"
       ],
       "provides": [
-        "cmd:r2=6.1.4-r0",
-        "cmd:r2agent=6.1.4-r0",
-        "cmd:r2pm=6.1.4-r0",
-        "cmd:r2r=6.1.4-r0",
-        "cmd:r2sdb=6.1.4-r0",
-        "cmd:rabin2=6.1.4-r0",
-        "cmd:radare2=6.1.4-r0",
-        "cmd:radiff2=6.1.4-r0",
-        "cmd:rafind2=6.1.4-r0",
-        "cmd:rafs2=6.1.4-r0",
-        "cmd:ragg2=6.1.4-r0",
-        "cmd:rahash2=6.1.4-r0",
-        "cmd:rapatch2=6.1.4-r0",
-        "cmd:rarun2=6.1.4-r0",
-        "cmd:rasign2=6.1.4-r0",
-        "cmd:rasm2=6.1.4-r0",
-        "cmd:ravc2=6.1.4-r0",
-        "cmd:rax2=6.1.4-r0"
+        "cmd:r2=6.1.6-r0",
+        "cmd:r2agent=6.1.6-r0",
+        "cmd:r2pm=6.1.6-r0",
+        "cmd:r2r=6.1.6-r0",
+        "cmd:r2sdb=6.1.6-r0",
+        "cmd:rabin2=6.1.6-r0",
+        "cmd:radare2=6.1.6-r0",
+        "cmd:radiff2=6.1.6-r0",
+        "cmd:rafind2=6.1.6-r0",
+        "cmd:rafs2=6.1.6-r0",
+        "cmd:ragg2=6.1.6-r0",
+        "cmd:rahash2=6.1.6-r0",
+        "cmd:rapatch2=6.1.6-r0",
+        "cmd:rarun2=6.1.6-r0",
+        "cmd:rasign2=6.1.6-r0",
+        "cmd:rasm2=6.1.6-r0",
+        "cmd:ravc2=6.1.6-r0",
+        "cmd:rax2=6.1.6-r0"
       ]
     },
     "radare2-dbg": {
       "origin": "radare2",
       "versions": {
-        "6.1.4-r0": 1776155589
+        "6.1.4-r0": 1776155589,
+        "6.1.6-r0": 1780745074
       },
       "dependencies": [
-        "!radare2-libs<6.1.4-r0",
-        "!radare2-libs>6.1.4-r0",
-        "!radare2<6.1.4-r0",
-        "!radare2>6.1.4-r0"
+        "!radare2-libs<6.1.6-r0",
+        "!radare2-libs>6.1.6-r0",
+        "!radare2<6.1.6-r0",
+        "!radare2>6.1.6-r0"
       ]
     },
     "radare2-dev": {
       "origin": "radare2",
       "versions": {
-        "6.1.4-r0": 1776155589
+        "6.1.4-r0": 1776155589,
+        "6.1.6-r0": 1780745074
       },
       "dependencies": [
-        "radare2-libs=6.1.4-r0",
+        "radare2-libs=6.1.6-r0",
         "pc:capstone>=4.0.0",
         "pc:liblz4",
         "pc:libxxhash",
@@ -216384,42 +216421,44 @@
       ],
       "provides": [
         "pc:libr=0.1",
-        "pc:r_anal=6.1.4",
-        "pc:r_arch=6.1.4",
-        "pc:r_asm=6.1.4",
-        "pc:r_bin=6.1.4",
-        "pc:r_bp=6.1.4",
-        "pc:r_config=6.1.4",
-        "pc:r_cons=6.1.4",
-        "pc:r_core=6.1.4",
-        "pc:r_debug=6.1.4",
-        "pc:r_egg=6.1.4",
-        "pc:r_esil=6.1.4",
-        "pc:r_flag=6.1.4",
-        "pc:r_fs=6.1.4",
-        "pc:r_io=6.1.4",
-        "pc:r_lang=6.1.4",
-        "pc:r_magic=6.1.4",
-        "pc:r_main=6.1.4",
-        "pc:r_muta=6.1.4",
-        "pc:r_reg=6.1.4",
-        "pc:r_search=6.1.4",
-        "pc:r_socket=6.1.4",
-        "pc:r_syscall=6.1.4",
-        "pc:r_util=6.1.4",
-        "pc:sdb=2.4.2"
+        "pc:r_anal=6.1.6",
+        "pc:r_arch=6.1.6",
+        "pc:r_asm=6.1.6",
+        "pc:r_bin=6.1.6",
+        "pc:r_bp=6.1.6",
+        "pc:r_config=6.1.6",
+        "pc:r_cons=6.1.6",
+        "pc:r_core=6.1.6",
+        "pc:r_debug=6.1.6",
+        "pc:r_egg=6.1.6",
+        "pc:r_esil=6.1.6",
+        "pc:r_flag=6.1.6",
+        "pc:r_fs=6.1.6",
+        "pc:r_io=6.1.6",
+        "pc:r_lang=6.1.6",
+        "pc:r_magic=6.1.6",
+        "pc:r_main=6.1.6",
+        "pc:r_muta=6.1.6",
+        "pc:r_reg=6.1.6",
+        "pc:r_search=6.1.6",
+        "pc:r_socket=6.1.6",
+        "pc:r_syscall=6.1.6",
+        "pc:r_util=6.1.6",
+        "pc:sdb=2.4.4"
       ]
     },
     "radare2-doc": {
       "origin": "radare2",
       "versions": {
-        "6.1.4-r0": 1776155589
+        "6.1.4-r0": 1776155589,
+        "6.1.6-r0": 1780745074
       }
     },
     "radare2-libs": {
       "origin": "radare2",
       "versions": {
-        "6.1.4-r0": 1776155589
+        "6.1.4-r0": 1776155589,
+        "6.1.6-r0": 1780745074
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -216431,36 +216470,37 @@
         "so:libzip.so.5"
       ],
       "provides": [
-        "so:libr_anal.so.6.1.4=6.1.4",
-        "so:libr_arch.so.6.1.4=6.1.4",
-        "so:libr_asm.so.6.1.4=6.1.4",
-        "so:libr_bin.so.6.1.4=6.1.4",
-        "so:libr_bp.so.6.1.4=6.1.4",
-        "so:libr_config.so.6.1.4=6.1.4",
-        "so:libr_cons.so.6.1.4=6.1.4",
-        "so:libr_core.so.6.1.4=6.1.4",
-        "so:libr_debug.so.6.1.4=6.1.4",
-        "so:libr_egg.so.6.1.4=6.1.4",
-        "so:libr_esil.so.6.1.4=6.1.4",
-        "so:libr_flag.so.6.1.4=6.1.4",
-        "so:libr_fs.so.6.1.4=6.1.4",
-        "so:libr_io.so.6.1.4=6.1.4",
-        "so:libr_lang.so.6.1.4=6.1.4",
-        "so:libr_magic.so.6.1.4=6.1.4",
-        "so:libr_main.so.6.1.4=6.1.4",
-        "so:libr_muta.so.6.1.4=6.1.4",
-        "so:libr_reg.so.6.1.4=6.1.4",
-        "so:libr_search.so.6.1.4=6.1.4",
-        "so:libr_socket.so.6.1.4=6.1.4",
-        "so:libr_syscall.so.6.1.4=6.1.4",
-        "so:libr_util.so.6.1.4=6.1.4",
-        "so:libsdb.so.2.4.2=2.4.2"
+        "so:libr_anal.so.6.1.6=6.1.6",
+        "so:libr_arch.so.6.1.6=6.1.6",
+        "so:libr_asm.so.6.1.6=6.1.6",
+        "so:libr_bin.so.6.1.6=6.1.6",
+        "so:libr_bp.so.6.1.6=6.1.6",
+        "so:libr_config.so.6.1.6=6.1.6",
+        "so:libr_cons.so.6.1.6=6.1.6",
+        "so:libr_core.so.6.1.6=6.1.6",
+        "so:libr_debug.so.6.1.6=6.1.6",
+        "so:libr_egg.so.6.1.6=6.1.6",
+        "so:libr_esil.so.6.1.6=6.1.6",
+        "so:libr_flag.so.6.1.6=6.1.6",
+        "so:libr_fs.so.6.1.6=6.1.6",
+        "so:libr_io.so.6.1.6=6.1.6",
+        "so:libr_lang.so.6.1.6=6.1.6",
+        "so:libr_magic.so.6.1.6=6.1.6",
+        "so:libr_main.so.6.1.6=6.1.6",
+        "so:libr_muta.so.6.1.6=6.1.6",
+        "so:libr_reg.so.6.1.6=6.1.6",
+        "so:libr_search.so.6.1.6=6.1.6",
+        "so:libr_socket.so.6.1.6=6.1.6",
+        "so:libr_syscall.so.6.1.6=6.1.6",
+        "so:libr_util.so.6.1.6=6.1.6",
+        "so:libsdb.so.2.4.4=2.4.4"
       ]
     },
     "radare2-zsh-completion": {
       "origin": "radare2",
       "versions": {
-        "6.1.4-r0": 1776155589
+        "6.1.4-r0": 1776155589,
+        "6.1.6-r0": 1780745074
       }
     },
     "radcli": {
@@ -218596,13 +218636,14 @@
     "rcon-cli": {
       "origin": "rcon-cli",
       "versions": {
-        "1.7.4-r2": 1778661427
+        "1.7.4-r2": 1778661427,
+        "1.7.5-r0": 1780741810
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:rcon-cli=1.7.4-r2"
+        "cmd:rcon-cli=1.7.5-r0"
       ]
     },
     "rcon-doc": {
@@ -229543,7 +229584,8 @@
     "singularity": {
       "origin": "singularity",
       "versions": {
-        "4.4.1-r2": 1778661427
+        "4.4.1-r2": 1778661427,
+        "4.4.2-r0": 1780745332
       },
       "dependencies": [
         "squashfs-tools",
@@ -229554,20 +229596,22 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:run-singularity=4.4.1-r2",
-        "cmd:singularity=4.4.1-r2"
+        "cmd:run-singularity=4.4.2-r0",
+        "cmd:singularity=4.4.2-r0"
       ]
     },
     "singularity-bash-completion": {
       "origin": "singularity",
       "versions": {
-        "4.4.1-r2": 1778661427
+        "4.4.1-r2": 1778661427,
+        "4.4.2-r0": 1780745332
       }
     },
     "singularity-doc": {
       "origin": "singularity",
       "versions": {
-        "4.4.1-r2": 1778661427
+        "4.4.1-r2": 1778661427,
+        "4.4.2-r0": 1780745332
       }
     },
     "skate": {
@@ -239505,7 +239549,8 @@
     "thin-provisioning-tools": {
       "origin": "thin-provisioning-tools",
       "versions": {
-        "1.3.1-r0": 1775258326
+        "1.3.1-r0": 1775258326,
+        "1.3.2-r0": 1780741073
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -239513,35 +239558,36 @@
         "so:libudev.so.1"
       ],
       "provides": [
-        "cmd:cache_check=1.3.1-r0",
-        "cmd:cache_dump=1.3.1-r0",
-        "cmd:cache_metadata_size=1.3.1-r0",
-        "cmd:cache_repair=1.3.1-r0",
-        "cmd:cache_restore=1.3.1-r0",
-        "cmd:cache_writeback=1.3.1-r0",
-        "cmd:era_check=1.3.1-r0",
-        "cmd:era_dump=1.3.1-r0",
-        "cmd:era_invalidate=1.3.1-r0",
-        "cmd:era_restore=1.3.1-r0",
-        "cmd:pdata_tools=1.3.1-r0",
-        "cmd:thin_check=1.3.1-r0",
-        "cmd:thin_delta=1.3.1-r0",
-        "cmd:thin_dump=1.3.1-r0",
-        "cmd:thin_ls=1.3.1-r0",
-        "cmd:thin_metadata_pack=1.3.1-r0",
-        "cmd:thin_metadata_size=1.3.1-r0",
-        "cmd:thin_metadata_unpack=1.3.1-r0",
-        "cmd:thin_migrate=1.3.1-r0",
-        "cmd:thin_repair=1.3.1-r0",
-        "cmd:thin_restore=1.3.1-r0",
-        "cmd:thin_rmap=1.3.1-r0",
-        "cmd:thin_trim=1.3.1-r0"
+        "cmd:cache_check=1.3.2-r0",
+        "cmd:cache_dump=1.3.2-r0",
+        "cmd:cache_metadata_size=1.3.2-r0",
+        "cmd:cache_repair=1.3.2-r0",
+        "cmd:cache_restore=1.3.2-r0",
+        "cmd:cache_writeback=1.3.2-r0",
+        "cmd:era_check=1.3.2-r0",
+        "cmd:era_dump=1.3.2-r0",
+        "cmd:era_invalidate=1.3.2-r0",
+        "cmd:era_restore=1.3.2-r0",
+        "cmd:pdata_tools=1.3.2-r0",
+        "cmd:thin_check=1.3.2-r0",
+        "cmd:thin_delta=1.3.2-r0",
+        "cmd:thin_dump=1.3.2-r0",
+        "cmd:thin_ls=1.3.2-r0",
+        "cmd:thin_metadata_pack=1.3.2-r0",
+        "cmd:thin_metadata_size=1.3.2-r0",
+        "cmd:thin_metadata_unpack=1.3.2-r0",
+        "cmd:thin_migrate=1.3.2-r0",
+        "cmd:thin_repair=1.3.2-r0",
+        "cmd:thin_restore=1.3.2-r0",
+        "cmd:thin_rmap=1.3.2-r0",
+        "cmd:thin_trim=1.3.2-r0"
       ]
     },
     "thin-provisioning-tools-doc": {
       "origin": "thin-provisioning-tools",
       "versions": {
-        "1.3.1-r0": 1775258326
+        "1.3.1-r0": 1775258326,
+        "1.3.2-r0": 1780741073
       }
     },
     "thonny": {
@@ -243168,7 +243214,8 @@
     "tree-sitter-ssh-client-config": {
       "origin": "tree-sitter-ssh-client-config",
       "versions": {
-        "2026.4.23-r0": 1777010211
+        "2026.4.23-r0": 1777010211,
+        "2026.6.4-r0": 1780741607
       }
     },
     "tree-sitter-static": {
@@ -244146,20 +244193,22 @@
     "typos-lsp": {
       "origin": "typos-lsp",
       "versions": {
-        "0.1.52-r0": 1776528403
+        "0.1.52-r0": 1776528403,
+        "0.1.53-r0": 1780741519
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:typos-lsp=0.1.52-r0"
+        "cmd:typos-lsp=0.1.53-r0"
       ]
     },
     "typos-lsp-doc": {
       "origin": "typos-lsp",
       "versions": {
-        "0.1.52-r0": 1776528403
+        "0.1.52-r0": 1776528403,
+        "0.1.53-r0": 1780741519
       }
     },
     "tz": {
@@ -246170,7 +246219,8 @@
       "origin": "utfcpp",
       "versions": {
         "4.0.9-r0": 1768143529,
-        "4.1.0-r0": 1779667572
+        "4.1.0-r0": 1779667572,
+        "4.1.1-r0": 1780742613
       }
     },
     "uthash": {
@@ -258073,7 +258123,8 @@
     "xmake": {
       "origin": "xmake",
       "versions": {
-        "3.0.8-r0": 1778877149
+        "3.0.8-r0": 1778877149,
+        "3.0.9-r0": 1780741416
       },
       "dependencies": [
         "bash",
@@ -258087,32 +258138,36 @@
         "so:libtbox.so.1"
       ],
       "provides": [
-        "cmd:xmake=3.0.8-r0",
-        "cmd:xrepo=3.0.8-r0"
+        "cmd:xmake=3.0.9-r0",
+        "cmd:xrepo=3.0.9-r0"
       ]
     },
     "xmake-bash-completion": {
       "origin": "xmake",
       "versions": {
-        "3.0.8-r0": 1778877149
+        "3.0.8-r0": 1778877149,
+        "3.0.9-r0": 1780741416
       }
     },
     "xmake-doc": {
       "origin": "xmake",
       "versions": {
-        "3.0.8-r0": 1778877149
+        "3.0.8-r0": 1778877149,
+        "3.0.9-r0": 1780741416
       }
     },
     "xmake-fish-completion": {
       "origin": "xmake",
       "versions": {
-        "3.0.8-r0": 1778877149
+        "3.0.8-r0": 1778877149,
+        "3.0.9-r0": 1780741416
       }
     },
     "xmake-zsh-completion": {
       "origin": "xmake",
       "versions": {
-        "3.0.8-r0": 1778877149
+        "3.0.8-r0": 1778877149,
+        "3.0.9-r0": 1780741416
       }
     },
     "xmessage": {
@@ -259155,14 +259210,15 @@
     "xremap-wlr": {
       "origin": "xremap-wlr",
       "versions": {
-        "0.15.7-r0": 1778863564
+        "0.15.7-r0": 1778863564,
+        "0.15.8-r0": 1780744154
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:xremap=0.15.7-r0"
+        "cmd:xremap=0.15.8-r0"
       ]
     },
     "xscreensaver": {
@@ -263713,7 +263769,8 @@
     "mangowm": {
       "origin": "mangowm",
       "versions": {
-        "0.14.0-r0": 1780098763
+        "0.14.0-r0": 1780098763,
+        "0.14.1-r0": 1780747291
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -263729,9 +263786,9 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "mangowc=0.14.0-r0",
-        "cmd:mango=0.14.0-r0",
-        "cmd:mmsg=0.14.0-r0"
+        "mangowc=0.14.1-r0",
+        "cmd:mango=0.14.1-r0",
+        "cmd:mmsg=0.14.1-r0"
       ]
     },
     "cloud-init-distros": {
@@ -263852,20 +263909,22 @@
     "ostui": {
       "origin": "ostui",
       "versions": {
-        "1.1.1-r0": 1780443709
+        "1.1.1-r0": 1780443709,
+        "1.3.2-r0": 1780741461
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
         "so:libmpv.so.2"
       ],
       "provides": [
-        "cmd:ostui=1.1.1-r0"
+        "cmd:ostui=1.3.2-r0"
       ]
     },
     "ostui-doc": {
       "origin": "ostui",
       "versions": {
-        "1.1.1-r0": 1780443709
+        "1.1.1-r0": 1780443709,
+        "1.3.2-r0": 1780741461
       }
     },
     "hyprwire": {
@@ -263994,6 +264053,12 @@
       "origin": "q6voiced",
       "versions": {
         "0.2.1-r0": 1780695893
+      }
+    },
+    "mangowm-doc": {
+      "origin": "mangowm",
+      "versions": {
+        "0.14.1-r0": 1780747291
       }
     }
   },
@@ -274389,7 +274454,7 @@
       },
       "liblouis.so.20": {
         "package": "liblouis",
-        "version": "20.1.2"
+        "version": "20.1.3"
       },
       "liblsp-r3d-glx-lib-1.0.28.so": {
         "package": "liblsp-r3d-glx-lib",
@@ -281638,6 +281703,102 @@
       "libllhttp.so.9.4": {
         "package": "llhttp",
         "version": "9.4.1"
+      },
+      "libr_anal.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_arch.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_asm.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_bin.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_bp.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_config.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_cons.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_core.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_debug.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_egg.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_esil.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_flag.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_fs.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_io.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_lang.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_magic.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_main.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_muta.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_reg.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_search.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_socket.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_syscall.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libr_util.so.6.1.6": {
+        "package": "radare2-libs",
+        "version": "6.1.6"
+      },
+      "libsdb.so.2.4.4": {
+        "package": "radare2-libs",
+        "version": "2.4.4"
       }
     },
     "package": {
@@ -285015,7 +285176,7 @@
       },
       "mangowc": {
         "package": "mangowm",
-        "version": "0.14.0-r0"
+        "version": "0.14.1-r0"
       }
     }
   }
