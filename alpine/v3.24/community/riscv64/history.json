@@ -129,7 +129,8 @@
     "aaaaxy": {
       "origin": "aaaaxy",
       "versions": {
-        "1.7.12-r3": 1778661427
+        "1.7.12-r3": 1778661427,
+        "1.7.77-r0": 1780740289
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -137,7 +138,7 @@
         "so:libc.musl-riscv64.so.1"
       ],
       "provides": [
-        "cmd:aaaaxy=1.7.12-r3"
+        "cmd:aaaaxy=1.7.77-r0"
       ]
     },
     "aardvark-dns": {
@@ -117987,45 +117988,49 @@
     "libqb": {
       "origin": "libqb",
       "versions": {
-        "2.0.9-r0": 1772704294
+        "2.0.9-r0": 1772704294,
+        "2.0.10-r0": 1780739998
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1"
       ],
       "provides": [
-        "so:libqb.so.100=100.3.2"
+        "so:libqb.so.100=100.3.3"
       ]
     },
     "libqb-dev": {
       "origin": "libqb",
       "versions": {
-        "2.0.9-r0": 1772704294
+        "2.0.9-r0": 1772704294,
+        "2.0.10-r0": 1780739998
       },
       "dependencies": [
-        "libqb=2.0.9-r0",
+        "libqb=2.0.10-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libqb=2.0.9"
+        "pc:libqb=2.0.10"
       ]
     },
     "libqb-doc": {
       "origin": "libqb",
       "versions": {
-        "2.0.9-r0": 1772704294
+        "2.0.9-r0": 1772704294,
+        "2.0.10-r0": 1780739998
       }
     },
     "libqb-tools": {
       "origin": "libqb",
       "versions": {
-        "2.0.9-r0": 1772704294
+        "2.0.9-r0": 1772704294,
+        "2.0.10-r0": 1780739998
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1",
         "so:libqb.so.100"
       ],
       "provides": [
-        "cmd:qb-blackbox=2.0.9-r0"
+        "cmd:qb-blackbox=2.0.10-r0"
       ]
     },
     "libqb3": {
@@ -178203,7 +178208,8 @@
     "podman-compose": {
       "origin": "podman-compose",
       "versions": {
-        "1.5.0-r1": 1774829579
+        "1.5.0-r1": 1774829579,
+        "1.6.0-r0": 1780736434
       },
       "dependencies": [
         "podman",
@@ -178212,26 +178218,29 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:podman-compose=1.5.0-r1",
-        "py3.14:podman_compose=1.5.0-r1"
+        "cmd:podman-compose=1.6.0-r0",
+        "py3.14:podman_compose=1.6.0-r0"
       ]
     },
     "podman-compose-bash-completion": {
       "origin": "podman-compose",
       "versions": {
-        "1.5.0-r1": 1774829579
+        "1.5.0-r1": 1774829579,
+        "1.6.0-r0": 1780736434
       }
     },
     "podman-compose-doc": {
       "origin": "podman-compose",
       "versions": {
-        "1.5.0-r1": 1774829579
+        "1.5.0-r1": 1774829579,
+        "1.6.0-r0": 1780736434
       }
     },
     "podman-compose-pyc": {
       "origin": "podman-compose",
       "versions": {
-        "1.5.0-r1": 1774829579
+        "1.5.0-r1": 1774829579,
+        "1.6.0-r0": 1780736434
       },
       "dependencies": [
         "python3~3.14"
@@ -210532,7 +210541,8 @@
     "py3-rfl": {
       "origin": "py3-rfl",
       "versions": {
-        "1.6.0-r2": 1774640439
+        "1.6.0-r2": 1774640439,
+        "1.8.0-r0": 1780731695
       },
       "dependencies": [
         "py3-rfl-core",
@@ -210546,7 +210556,8 @@
     "py3-rfl-authentication": {
       "origin": "py3-rfl",
       "versions": {
-        "1.6.0-r2": 1774640439
+        "1.6.0-r2": 1774640439,
+        "1.8.0-r0": 1780731695
       },
       "dependencies": [
         "py3-rfl-core",
@@ -210558,7 +210569,8 @@
     "py3-rfl-authentication-pyc": {
       "origin": "py3-rfl",
       "versions": {
-        "1.6.0-r2": 1774640439
+        "1.6.0-r2": 1774640439,
+        "1.8.0-r0": 1780731695
       },
       "dependencies": [
         "python3",
@@ -210568,7 +210580,8 @@
     "py3-rfl-build": {
       "origin": "py3-rfl",
       "versions": {
-        "1.6.0-r2": 1774640439
+        "1.6.0-r2": 1774640439,
+        "1.8.0-r0": 1780731695
       },
       "dependencies": [
         "py3-rfl-core",
@@ -210576,14 +210589,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:rfl-install-setup-generator=1.6.0-r2",
-        "cmd:rfl-project-version=1.6.0-r2"
+        "cmd:rfl-install-setup-generator=1.8.0-r0",
+        "cmd:rfl-project-version=1.8.0-r0"
       ]
     },
     "py3-rfl-build-pyc": {
       "origin": "py3-rfl",
       "versions": {
-        "1.6.0-r2": 1774640439
+        "1.6.0-r2": 1774640439,
+        "1.8.0-r0": 1780731695
       },
       "dependencies": [
         "python3",
@@ -210593,7 +210607,8 @@
     "py3-rfl-core": {
       "origin": "py3-rfl",
       "versions": {
-        "1.6.0-r2": 1774640439
+        "1.6.0-r2": 1774640439,
+        "1.8.0-r0": 1780731695
       },
       "dependencies": [
         "python3",
@@ -210603,7 +210618,8 @@
     "py3-rfl-core-pyc": {
       "origin": "py3-rfl",
       "versions": {
-        "1.6.0-r2": 1774640439
+        "1.6.0-r2": 1774640439,
+        "1.8.0-r0": 1780731695
       },
       "dependencies": [
         "python3",
@@ -210613,7 +210629,8 @@
     "py3-rfl-log": {
       "origin": "py3-rfl",
       "versions": {
-        "1.6.0-r2": 1774640439
+        "1.6.0-r2": 1774640439,
+        "1.8.0-r0": 1780731695
       },
       "dependencies": [
         "py3-rfl-core",
@@ -210623,7 +210640,8 @@
     "py3-rfl-log-pyc": {
       "origin": "py3-rfl",
       "versions": {
-        "1.6.0-r2": 1774640439
+        "1.6.0-r2": 1774640439,
+        "1.8.0-r0": 1780731695
       },
       "dependencies": [
         "python3",
@@ -210633,7 +210651,8 @@
     "py3-rfl-permissions": {
       "origin": "py3-rfl",
       "versions": {
-        "1.6.0-r2": 1774640439
+        "1.6.0-r2": 1774640439,
+        "1.8.0-r0": 1780731695
       },
       "dependencies": [
         "py3-rfl-core",
@@ -210645,7 +210664,8 @@
     "py3-rfl-permissions-pyc": {
       "origin": "py3-rfl",
       "versions": {
-        "1.6.0-r2": 1774640439
+        "1.6.0-r2": 1774640439,
+        "1.8.0-r0": 1780731695
       },
       "dependencies": [
         "python3",
@@ -210655,7 +210675,8 @@
     "py3-rfl-settings": {
       "origin": "py3-rfl",
       "versions": {
-        "1.6.0-r2": 1774640439
+        "1.6.0-r2": 1774640439,
+        "1.8.0-r0": 1780731695
       },
       "dependencies": [
         "py3-rfl-core",
@@ -210666,7 +210687,8 @@
     "py3-rfl-settings-pyc": {
       "origin": "py3-rfl",
       "versions": {
-        "1.6.0-r2": 1774640439
+        "1.6.0-r2": 1774640439,
+        "1.8.0-r0": 1780731695
       },
       "dependencies": [
         "python3",
@@ -210676,7 +210698,8 @@
     "py3-rfl-web": {
       "origin": "py3-rfl",
       "versions": {
-        "1.6.0-r2": 1774640439
+        "1.6.0-r2": 1774640439,
+        "1.8.0-r0": 1780731695
       },
       "dependencies": [
         "py3-rfl-core",
@@ -210688,7 +210711,8 @@
     "py3-rfl-web-pyc": {
       "origin": "py3-rfl",
       "versions": {
-        "1.6.0-r2": 1774640439
+        "1.6.0-r2": 1774640439,
+        "1.8.0-r0": 1780731695
       },
       "dependencies": [
         "python3",
@@ -274872,6 +274896,95 @@
       "versions": {
         "1.9.0-r1": 1771160091
       }
+    },
+    "py3-racksdb": {
+      "origin": "racksdb",
+      "versions": {
+        "0.7.0-r0": 1780733826
+      },
+      "dependencies": [
+        "python3",
+        "pango",
+        "py3-clustershell",
+        "py3-cairo",
+        "py3-gobject3",
+        "py3-pyaml",
+        "py3-rfl-log",
+        "python3~3.14"
+      ],
+      "provides": [
+        "py3.14:racksdb=0.7.0-r0"
+      ]
+    },
+    "py3-racksdb-pyc": {
+      "origin": "racksdb",
+      "versions": {
+        "0.7.0-r0": 1780733826
+      },
+      "dependencies": [
+        "python3~3.14"
+      ]
+    },
+    "py3-racksdb-web": {
+      "origin": "racksdb",
+      "versions": {
+        "0.7.0-r0": 1780733826
+      },
+      "dependencies": [
+        "py3-flask",
+        "py3-requests-toolbelt",
+        "py3-racksdb=0.7.0-r0",
+        "python3~3.14"
+      ]
+    },
+    "py3-racksdb-web-pyc": {
+      "origin": "racksdb",
+      "versions": {
+        "0.7.0-r0": 1780733826
+      },
+      "dependencies": [
+        "py3-racksdb=0.7.0-r0",
+        "python3~3.14"
+      ]
+    },
+    "racksdb": {
+      "origin": "racksdb",
+      "versions": {
+        "0.7.0-r0": 1780733826
+      },
+      "dependencies": [
+        "py3-racksdb=0.7.0-r0"
+      ],
+      "provides": [
+        "cmd:racksdb=0.7.0-r0"
+      ]
+    },
+    "racksdb-doc": {
+      "origin": "racksdb",
+      "versions": {
+        "0.7.0-r0": 1780733826
+      }
+    },
+    "racksdb-web": {
+      "origin": "racksdb",
+      "versions": {
+        "0.7.0-r0": 1780733826
+      },
+      "dependencies": [
+        "py3-racksdb-web=0.7.0-r0"
+      ],
+      "provides": [
+        "cmd:racksdb-web=0.7.0-r0"
+      ]
+    },
+    "racksdb-web-doc": {
+      "origin": "racksdb",
+      "versions": {
+        "0.7.0-r0": 1780733826
+      },
+      "dependencies": [
+        "py3-racksdb=0.7.0-r0"
+      ]
     }
   },
   "provide": {
@@ -288598,7 +288711,7 @@
       },
       "libqb.so.100": {
         "package": "libqb",
-        "version": "100.3.2"
+        "version": "100.3.3"
       },
       "libQB3.so.1.3": {
         "package": "libqb3",
