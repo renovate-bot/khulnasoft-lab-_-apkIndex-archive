@@ -119648,7 +119648,8 @@
     "librime": {
       "origin": "librime",
       "versions": {
-        "1.16.1-r5": 1776769087
+        "1.16.1-r5": 1776769087,
+        "1.17.0-r0": 1780721134
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1",
@@ -119661,27 +119662,29 @@
         "so:libyaml-cpp.so.0.9"
       ],
       "provides": [
-        "so:librime.so.1=1.16.1"
+        "so:librime.so.1=1.17.0"
       ]
     },
     "librime-dev": {
       "origin": "librime",
       "versions": {
-        "1.16.1-r5": 1776769087
+        "1.16.1-r5": 1776769087,
+        "1.17.0-r0": 1780721134
       },
       "dependencies": [
-        "librime-tools=1.16.1-r5",
-        "librime=1.16.1-r5",
+        "librime-tools=1.17.0-r0",
+        "librime=1.17.0-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:rime=1.16.1"
+        "pc:rime=1.17.0"
       ]
     },
     "librime-nolog": {
       "origin": "librime",
       "versions": {
-        "1.16.1-r5": 1776769087
+        "1.16.1-r5": 1776769087,
+        "1.17.0-r0": 1780721134
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1",
@@ -119693,16 +119696,17 @@
         "so:libyaml-cpp.so.0.9"
       ],
       "provides": [
-        "so:librime.so.1=1.16.1"
+        "so:librime.so.1=1.17.0"
       ]
     },
     "librime-plugin-charcode": {
       "origin": "librime",
       "versions": {
-        "1.16.1-r5": 1776769087
+        "1.16.1-r5": 1776769087,
+        "1.17.0-r0": 1780721134
       },
       "dependencies": [
-        "librime=1.16.1-r5",
+        "librime=1.17.0-r0",
         "so:libboost_locale.so.1.84.0",
         "so:libc.musl-riscv64.so.1",
         "so:libgcc_s.so.1",
@@ -119714,10 +119718,11 @@
     "librime-plugin-lua": {
       "origin": "librime",
       "versions": {
-        "1.16.1-r5": 1776769087
+        "1.16.1-r5": 1776769087,
+        "1.17.0-r0": 1780721134
       },
       "dependencies": [
-        "librime=1.16.1-r5",
+        "librime=1.17.0-r0",
         "so:libc.musl-riscv64.so.1",
         "so:libgcc_s.so.1",
         "so:libglog.so.2",
@@ -119730,10 +119735,11 @@
     "librime-plugin-octagram": {
       "origin": "librime",
       "versions": {
-        "1.16.1-r5": 1776769087
+        "1.16.1-r5": 1776769087,
+        "1.17.0-r0": 1780721134
       },
       "dependencies": [
-        "librime=1.16.1-r5",
+        "librime=1.17.0-r0",
         "so:libc.musl-riscv64.so.1",
         "so:libgcc_s.so.1",
         "so:libglog.so.2",
@@ -119744,10 +119750,11 @@
     "librime-plugin-predict": {
       "origin": "librime",
       "versions": {
-        "1.16.1-r5": 1776769087
+        "1.16.1-r5": 1776769087,
+        "1.17.0-r0": 1780721134
       },
       "dependencies": [
-        "librime=1.16.1-r5",
+        "librime=1.17.0-r0",
         "so:libc.musl-riscv64.so.1",
         "so:libgcc_s.so.1",
         "so:libglog.so.2",
@@ -119759,10 +119766,11 @@
     "librime-plugin-proto": {
       "origin": "librime",
       "versions": {
-        "1.16.1-r5": 1776769087
+        "1.16.1-r5": 1776769087,
+        "1.17.0-r0": 1780721134
       },
       "dependencies": [
-        "librime=1.16.1-r5",
+        "librime=1.17.0-r0",
         "so:libc.musl-riscv64.so.1",
         "so:libcapnp.so.1.4.0",
         "so:libgcc_s.so.1",
@@ -119773,20 +119781,22 @@
     "librime-plugins": {
       "origin": "librime",
       "versions": {
-        "1.16.1-r5": 1776769087
+        "1.16.1-r5": 1776769087,
+        "1.17.0-r0": 1780721134
       },
       "dependencies": [
-        "librime-plugin-charcode=1.16.1-r5",
-        "librime-plugin-lua=1.16.1-r5",
-        "librime-plugin-octagram=1.16.1-r5",
-        "librime-plugin-predict=1.16.1-r5",
-        "librime-plugin-proto=1.16.1-r5"
+        "librime-plugin-charcode=1.17.0-r0",
+        "librime-plugin-lua=1.17.0-r0",
+        "librime-plugin-octagram=1.17.0-r0",
+        "librime-plugin-predict=1.17.0-r0",
+        "librime-plugin-proto=1.17.0-r0"
       ]
     },
     "librime-tools": {
       "origin": "librime",
       "versions": {
-        "1.16.1-r5": 1776769087
+        "1.16.1-r5": 1776769087,
+        "1.17.0-r0": 1780721134
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1",
@@ -119796,10 +119806,10 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:rime_deployer=1.16.1-r5",
-        "cmd:rime_dict_manager=1.16.1-r5",
-        "cmd:rime_patch=1.16.1-r5",
-        "cmd:rime_table_decompiler=1.16.1-r5"
+        "cmd:rime_deployer=1.17.0-r0",
+        "cmd:rime_dict_manager=1.17.0-r0",
+        "cmd:rime_patch=1.17.0-r0",
+        "cmd:rime_table_decompiler=1.17.0-r0"
       ]
     },
     "librist": {
@@ -274842,6 +274852,26 @@
       "dependencies": [
         "libfido2-udev"
       ]
+    },
+    "dived": {
+      "origin": "dived",
+      "versions": {
+        "1.9.0-r1": 1771160091
+      },
+      "dependencies": [
+        "so:libc.musl-riscv64.so.1",
+        "so:libcap.so.2"
+      ],
+      "provides": [
+        "cmd:dive=1.9.0-r1",
+        "cmd:dived=1.9.0-r1"
+      ]
+    },
+    "dived-doc": {
+      "origin": "dived",
+      "versions": {
+        "1.9.0-r1": 1771160091
+      }
     }
   },
   "provide": {
@@ -288748,7 +288778,7 @@
       },
       "librime.so.1": {
         "package": "librime-nolog",
-        "version": "1.16.1"
+        "version": "1.17.0"
       },
       "librist.so.4": {
         "package": "librist",
