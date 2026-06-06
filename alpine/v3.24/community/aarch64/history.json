@@ -34268,13 +34268,14 @@
     "crane": {
       "origin": "crane",
       "versions": {
-        "0.21.5-r0": 1778915424
+        "0.21.5-r0": 1778915424,
+        "0.21.6-r0": 1780772297
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "cmd:crane=0.21.5-r0"
+        "cmd:crane=0.21.6-r0"
       ]
     },
     "crc32c": {
@@ -51693,21 +51694,24 @@
       "origin": "fbida",
       "versions": {
         "2.14-r6": 1759754511,
-        "2.14-r7": 1780043171
+        "2.14-r7": 1780043171,
+        "2.15-r0": 1780769949
       }
     },
     "fbida-doc": {
       "origin": "fbida",
       "versions": {
         "2.14-r6": 1759754511,
-        "2.14-r7": 1780043171
+        "2.14-r7": 1780043171,
+        "2.15-r0": 1780769949
       }
     },
     "fbida-exiftran": {
       "origin": "fbida",
       "versions": {
         "2.14-r6": 1759754511,
-        "2.14-r7": 1780043171
+        "2.14-r7": 1780043171,
+        "2.15-r0": 1780769949
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -51716,51 +51720,55 @@
         "so:libpixman-1.so.0"
       ],
       "provides": [
-        "cmd:exiftran=2.14-r7"
+        "cmd:exiftran=2.15-r0"
       ]
     },
     "fbida-fbgs": {
       "origin": "fbida",
       "versions": {
         "2.14-r6": 1759754511,
-        "2.14-r7": 1780043171
+        "2.14-r7": 1780043171,
+        "2.15-r0": 1780769949
       },
       "dependencies": [
         "fbida-fbi",
         "ghostscript"
       ],
       "provides": [
-        "cmd:fbgs=2.14-r7"
+        "cmd:fbgs=2.15-r0"
       ]
     },
     "fbida-fbi": {
       "origin": "fbida",
       "versions": {
         "2.14-r6": 1759754511,
-        "2.14-r7": 1780043171
+        "2.14-r7": 1780043171,
+        "2.15-r0": 1780769949
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
+        "so:libcairo.so.2",
         "so:libdrm.so.2",
         "so:libexif.so.12",
-        "so:libfontconfig.so.1",
-        "so:libfreetype.so.6",
         "so:libgif.so.7",
+        "so:libinput.so.10",
         "so:libjpeg.so.8",
         "so:libpixman-1.so.0",
         "so:libpng16.so.16",
         "so:libtiff.so.6",
-        "so:libwebp.so.7"
+        "so:libudev.so.1",
+        "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:fbi=2.14-r7"
+        "cmd:fbi=2.15-r0"
       ]
     },
     "fbida-ida": {
       "origin": "fbida",
       "versions": {
         "2.14-r6": 1759754511,
-        "2.14-r7": 1780043171
+        "2.14-r7": 1780043171,
+        "2.15-r0": 1780769949
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -51774,11 +51782,10 @@
         "so:libjpeg.so.8",
         "so:libpixman-1.so.0",
         "so:libpng16.so.16",
-        "so:libtiff.so.6",
-        "so:libwebp.so.7"
+        "so:libtiff.so.6"
       ],
       "provides": [
-        "cmd:ida=2.14-r7"
+        "cmd:ida=2.15-r0"
       ]
     },
     "fbvnc": {
@@ -54000,40 +54007,44 @@
     "firecracker": {
       "origin": "firecracker",
       "versions": {
-        "1.15.1-r0": 1776043457
+        "1.15.1-r0": 1776043457,
+        "1.16.0-r0": 1780772594
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:firecracker=1.15.1-r0",
-        "cmd:jailer=1.15.1-r0"
+        "cmd:firecracker=1.16.0-r0",
+        "cmd:jailer=1.16.0-r0"
       ]
     },
     "firecracker-doc": {
       "origin": "firecracker",
       "versions": {
-        "1.15.1-r0": 1776043457
+        "1.15.1-r0": 1776043457,
+        "1.16.0-r0": 1780772594
       }
     },
     "firecracker-rebase-snap": {
       "origin": "firecracker",
       "versions": {
-        "1.15.1-r0": 1776043457
+        "1.15.1-r0": 1776043457,
+        "1.16.0-r0": 1780772594
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:rebase-snap=1.15.1-r0"
+        "cmd:rebase-snap=1.16.0-r0"
       ]
     },
     "firecracker-seccompiler": {
       "origin": "firecracker",
       "versions": {
-        "1.15.1-r0": 1776043457
+        "1.15.1-r0": 1776043457,
+        "1.16.0-r0": 1780772594
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -54041,7 +54052,7 @@
         "so:libseccomp.so.2"
       ],
       "provides": [
-        "cmd:seccompiler-bin=1.15.1-r0"
+        "cmd:seccompiler-bin=1.16.0-r0"
       ]
     },
     "firefox": {
@@ -160895,42 +160906,46 @@
     "nextvi": {
       "origin": "nextvi",
       "versions": {
-        "5.2-r0": 1778746409
+        "5.2-r0": 1778746409,
+        "5.3-r0": 1780772732
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "cmd:nextvi=5.2-r0"
+        "cmd:nextvi=5.3-r0"
       ]
     },
     "nextvi-doc": {
       "origin": "nextvi",
       "versions": {
-        "5.2-r0": 1778746409
+        "5.2-r0": 1778746409,
+        "5.3-r0": 1780772732
       }
     },
     "nextvi-vi": {
       "origin": "nextvi",
       "versions": {
-        "5.2-r0": 1778746409
+        "5.2-r0": 1778746409,
+        "5.3-r0": 1780772732
       },
       "dependencies": [
-        "nextvi=5.2-r0",
-        "nextvi=5.2-r0"
+        "nextvi=5.3-r0",
+        "nextvi=5.3-r0"
       ],
       "provides": [
-        "cmd:vi=5.2-r0"
+        "cmd:vi=5.3-r0"
       ]
     },
     "nextvi-vi-doc": {
       "origin": "nextvi",
       "versions": {
-        "5.2-r0": 1778746409
+        "5.2-r0": 1778746409,
+        "5.3-r0": 1780772732
       },
       "dependencies": [
-        "nextvi-doc=5.2-r0",
-        "nextvi-doc=5.2-r0"
+        "nextvi-doc=5.3-r0",
+        "nextvi-doc=5.3-r0"
       ]
     },
     "nfpm": {
@@ -190032,7 +190047,8 @@
     "pandoc-cli": {
       "origin": "pandoc-cli",
       "versions": {
-        "3.9.0.2-r0": 1775053538
+        "3.9.0.2-r0": 1775053538,
+        "3.10-r0": 1780771783
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -190041,15 +190057,16 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "pandoc=3.9.0.2-r0",
-        "cmd:pandoc-server=3.9.0.2-r0",
-        "cmd:pandoc=3.9.0.2-r0"
+        "pandoc=3.10-r0",
+        "cmd:pandoc-server=3.10-r0",
+        "cmd:pandoc=3.10-r0"
       ]
     },
     "pandoc-cli-doc": {
       "origin": "pandoc-cli",
       "versions": {
-        "3.9.0.2-r0": 1775053538
+        "3.9.0.2-r0": 1775053538,
+        "3.10-r0": 1780771783
       }
     },
     "pangomm": {
@@ -272800,7 +272817,8 @@
       "origin": "rust-analyzer",
       "versions": {
         "2026.05.18-r0": 1779108183,
-        "2026.05.25-r0": 1779706291
+        "2026.05.25-r0": 1779706291,
+        "2026.06.01-r0": 1780771216
       },
       "dependencies": [
         "rust-src",
@@ -272809,7 +272827,7 @@
         "so:libmimalloc-secure.so.2"
       ],
       "provides": [
-        "cmd:rust-analyzer=2026.05.25-r0"
+        "cmd:rust-analyzer=2026.06.01-r0"
       ]
     },
     "rustlings": {
@@ -293315,7 +293333,8 @@
     "tmuxinator": {
       "origin": "tmuxinator",
       "versions": {
-        "3.3.7-r0": 1765048253
+        "3.3.7-r0": 1765048253,
+        "3.4.0-r0": 1780770367
       },
       "dependencies": [
         "tmux",
@@ -293324,25 +293343,28 @@
         "ruby-thor"
       ],
       "provides": [
-        "cmd:tmuxinator=3.3.7-r0"
+        "cmd:tmuxinator=3.4.0-r0"
       ]
     },
     "tmuxinator-bash-completion": {
       "origin": "tmuxinator",
       "versions": {
-        "3.3.7-r0": 1765048253
+        "3.3.7-r0": 1765048253,
+        "3.4.0-r0": 1780770367
       }
     },
     "tmuxinator-fish-completion": {
       "origin": "tmuxinator",
       "versions": {
-        "3.3.7-r0": 1765048253
+        "3.3.7-r0": 1765048253,
+        "3.4.0-r0": 1780770367
       }
     },
     "tmuxinator-zsh-completion": {
       "origin": "tmuxinator",
       "versions": {
-        "3.3.7-r0": 1765048253
+        "3.3.7-r0": 1765048253,
+        "3.4.0-r0": 1780770367
       }
     },
     "todo.txt-cli": {
@@ -317784,7 +317806,8 @@
       "origin": "mangowm",
       "versions": {
         "0.14.0-r0": 1780098763,
-        "0.14.1-r0": 1780747291
+        "0.14.1-r0": 1780747291,
+        "0.14.2-r0": 1780771969
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -317800,9 +317823,9 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "mangowc=0.14.1-r0",
-        "cmd:mango=0.14.1-r0",
-        "cmd:mmsg=0.14.1-r0"
+        "mangowc=0.14.2-r0",
+        "cmd:mango=0.14.2-r0",
+        "cmd:mmsg=0.14.2-r0"
       ]
     },
     "cloud-init-distros": {
@@ -318072,7 +318095,8 @@
     "mangowm-doc": {
       "origin": "mangowm",
       "versions": {
-        "0.14.1-r0": 1780747291
+        "0.14.1-r0": 1780747291,
+        "0.14.2-r0": 1780771969
       }
     }
   },
@@ -345498,7 +345522,7 @@
       },
       "pandoc": {
         "package": "pandoc-cli",
-        "version": "3.9.0.2-r0"
+        "version": "3.10-r0"
       },
       "py3-pass-git-helper": {
         "package": "pass-git-helper",
@@ -347602,7 +347626,7 @@
       },
       "mangowc": {
         "package": "mangowm",
-        "version": "0.14.1-r0"
+        "version": "0.14.2-r0"
       }
     }
   }

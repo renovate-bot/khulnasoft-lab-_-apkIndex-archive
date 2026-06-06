@@ -33924,21 +33924,21 @@ t:1776725727
 c:00d656a1bbb216b72e46267942a327294d7b958c
 i:openrc crab-hole=0.2.0-r0
 
-C:Q12C8pYcVYHU60SuRMlhJU8kyjvPU=
+C:Q1Jrr75OgCA4kykB8XbkgpTKlFnOA=
 P:crane
-V:0.21.5-r0
+V:0.21.6-r0
 A:s390x
-S:4906794
-I:13539848
+S:4824333
+I:13293000
 T:tool for interacting with remote images and registries
 U:https://github.com/google/go-containerregistry/tree/main/cmd/crane
 L:Apache-2.0
 o:crane
 m:Kevin Daudt <kdaudt@alpinelinux.org>
-t:1778915424
-c:68a34bf21cea06f6d6286646661649214598f002
+t:1780772297
+c:7f91b4083bed921db615c3b28c55ba638de7b6d3
 D:so:libc.musl-s390x.so.1
-p:cmd:crane=0.21.5-r0
+p:cmd:crane=0.21.6-r0
 
 C:Q1kevLMif2XUpZTm+ICZ9263Akz1k=
 P:crc32c
@@ -47851,36 +47851,38 @@ t:1681263464
 c:dcf926d126ee921df71282780cae6c160fe30783
 i:docs fbgrab=1.5-r2
 
-C:Q15Epy1pwpx3JiHreE8vSjY0PHReM=
+C:Q1Wuv/0YCjMk1JB7dGqtdCfxjXoZ8=
 P:fbida
-V:2.14-r7
+V:2.15-r0
 A:s390x
-S:1267
+S:1298
 I:0
 T:Few applications to display and elementary edit images
 U:https://www.kraxel.org/blog/linux/fbida/
 L:GPL-2.0-only
 o:fbida
-t:1780043171
-c:b505cbf6221ea4fc76be57a85a3411e579f397cd
+m:Robert Mongold <rtmongold@gmail.com>
+t:1780769949
+c:c130bb0fbdb54161bea4fe80079e743afc583c04
 
-C:Q1xYo9VM4JtzSovUQoqBBBDr00mD0=
+C:Q1ROOpNYwEY+UNXGiEBvHDTUi73qM=
 P:fbida-doc
-V:2.14-r7
+V:2.15-r0
 A:s390x
-S:10438
+S:10463
 I:8395
 T:Few applications to display and elementary edit images (documentation)
 U:https://www.kraxel.org/blog/linux/fbida/
 L:GPL-2.0-only
 o:fbida
-t:1780043171
-c:b505cbf6221ea4fc76be57a85a3411e579f397cd
-i:docs fbida=2.14-r7
+m:Robert Mongold <rtmongold@gmail.com>
+t:1780769949
+c:c130bb0fbdb54161bea4fe80079e743afc583c04
+i:docs fbida=2.15-r0
 
-C:Q171n0b7TZCPihS3aovx/jNfAj+dY=
+C:Q1XvYmjz1y7LFMHS2mJYiIhv5XCdk=
 P:fbida-exiftran
-V:2.14-r7
+V:2.15-r0
 A:s390x
 S:23337
 I:51760
@@ -47888,55 +47890,59 @@ T:exiftran tool from fbida
 U:https://www.kraxel.org/blog/linux/fbida/
 L:GPL-2.0-only
 o:fbida
-t:1780043171
-c:b505cbf6221ea4fc76be57a85a3411e579f397cd
+m:Robert Mongold <rtmongold@gmail.com>
+t:1780769949
+c:c130bb0fbdb54161bea4fe80079e743afc583c04
 D:so:libc.musl-s390x.so.1 so:libexif.so.12 so:libjpeg.so.8 so:libpixman-1.so.0
-p:cmd:exiftran=2.14-r7
+p:cmd:exiftran=2.15-r0
 
-C:Q1q8Iif6gn44f0Oq2EUUyHZg8PBxM=
+C:Q1zJxvqtOKjYzJyt4rQ/DZnK4yu7w=
 P:fbida-fbgs
-V:2.14-r7
+V:2.15-r0
 A:s390x
-S:2887
+S:2910
 I:3098
 T:fbgs tool from fbida
 U:https://www.kraxel.org/blog/linux/fbida/
 L:GPL-2.0-only
 o:fbida
-t:1780043171
-c:b505cbf6221ea4fc76be57a85a3411e579f397cd
+m:Robert Mongold <rtmongold@gmail.com>
+t:1780769949
+c:c130bb0fbdb54161bea4fe80079e743afc583c04
 D:fbida-fbi ghostscript
-p:cmd:fbgs=2.14-r7
+p:cmd:fbgs=2.15-r0
 
-C:Q1VyfU3NVmE73nb2wb2vwmERzS7sk=
+C:Q16jiCiDqRrgzQJwwY+v66dSDAn4E=
 P:fbida-fbi
-V:2.14-r7
+V:2.15-r0
 A:s390x
-S:56901
-I:133800
+S:55388
+I:129232
 T:fbi tool from fbida
 U:https://www.kraxel.org/blog/linux/fbida/
 L:GPL-2.0-only
 o:fbida
-t:1780043171
-c:b505cbf6221ea4fc76be57a85a3411e579f397cd
-D:so:libc.musl-s390x.so.1 so:libdrm.so.2 so:libexif.so.12 so:libfontconfig.so.1 so:libfreetype.so.6 so:libgif.so.7 so:libjpeg.so.8 so:libpixman-1.so.0 so:libpng16.so.16 so:libtiff.so.6 so:libwebp.so.7
-p:cmd:fbi=2.14-r7
+m:Robert Mongold <rtmongold@gmail.com>
+t:1780769949
+c:c130bb0fbdb54161bea4fe80079e743afc583c04
+D:so:libc.musl-s390x.so.1 so:libcairo.so.2 so:libdrm.so.2 so:libexif.so.12 so:libgif.so.7 so:libinput.so.10 so:libjpeg.so.8 so:libpixman-1.so.0 so:libpng16.so.16 so:libtiff.so.6 so:libudev.so.1 so:libxkbcommon.so.0
+p:cmd:fbi=2.15-r0
 
-C:Q1a6/OZdLmkidw1YgUj0jZmnhN5R8=
+C:Q10UcqG8IUVIU8V78mza0Ih3/zAlk=
 P:fbida-ida
-V:2.14-r7
+V:2.15-r0
 A:s390x
-S:131074
-I:308354
+S:128288
+I:303625
 T:ida tool from fbida
 U:https://www.kraxel.org/blog/linux/fbida/
 L:GPL-2.0-only
 o:fbida
-t:1780043171
-c:b505cbf6221ea4fc76be57a85a3411e579f397cd
-D:so:libX11.so.6 so:libXext.so.6 so:libXm.so.5 so:libXpm.so.4 so:libXt.so.6 so:libc.musl-s390x.so.1 so:libexif.so.12 so:libgif.so.7 so:libjpeg.so.8 so:libpixman-1.so.0 so:libpng16.so.16 so:libtiff.so.6 so:libwebp.so.7
-p:cmd:ida=2.14-r7
+m:Robert Mongold <rtmongold@gmail.com>
+t:1780769949
+c:c130bb0fbdb54161bea4fe80079e743afc583c04
+D:so:libX11.so.6 so:libXext.so.6 so:libXm.so.5 so:libXpm.so.4 so:libXt.so.6 so:libc.musl-s390x.so.1 so:libexif.so.12 so:libgif.so.7 so:libjpeg.so.8 so:libpixman-1.so.0 so:libpng16.so.16 so:libtiff.so.6
+p:cmd:ida=2.15-r0
 
 C:Q1rU0LI4+ezkkGphVCJpOOGgDUWFw=
 P:fbkeyboard
@@ -138524,25 +138530,25 @@ c:0be0ecde15b18b65778909ef22051aaf247a6b21
 D:so:libc.musl-s390x.so.1 so:libgcc_s.so.1
 p:cmd:mandown=1.1.0-r0
 
-C:Q1wGk1C8Vc3HFhL30n9tUcbn4huoI=
+C:Q1G9F+1PVl4nkn+f37vdApmZAhhzk=
 P:mangowm
-V:0.14.1-r0
+V:0.14.2-r0
 A:s390x
-S:160082
+S:160105
 I:407844
 T:Lightweight, high-performance Wayland compositor built on dwl
 U:https://mangowm.github.io/
 L:GPL-3.0-or-later
 o:mangowm
 m:omni <omni+alpine@hack.org>
-t:1780747291
-c:3ab4b051fb2aa51ef562997f057b49dfa8860a91
+t:1780771969
+c:9292ccb097c47a4b555f4919bee844b0843ab140
 D:so:libc.musl-s390x.so.1 so:libcjson.so.1 so:libinput.so.10 so:libpcre2-8.so.0 so:libpixman-1.so.0 so:libscenefx-0.4.so so:libwayland-client.so.0 so:libwayland-server.so.0 so:libwlroots-0.19.so so:libxcb-icccm.so.4 so:libxkbcommon.so.0
-p:mangowc=0.14.1-r0 cmd:mango=0.14.1-r0 cmd:mmsg=0.14.1-r0
+p:mangowc=0.14.2-r0 cmd:mango=0.14.2-r0 cmd:mmsg=0.14.2-r0
 
-C:Q1dJH3PgXSSsw7AXmrcCcPTR9EWfk=
+C:Q1GA3393Ex7JYiQk7sqvBFR/qc944=
 P:mangowm-doc
-V:0.14.1-r0
+V:0.14.2-r0
 A:s390x
 S:37168
 I:98536
@@ -138551,9 +138557,9 @@ U:https://mangowm.github.io/
 L:GPL-3.0-or-later
 o:mangowm
 m:omni <omni+alpine@hack.org>
-t:1780747291
-c:3ab4b051fb2aa51ef562997f057b49dfa8860a91
-i:docs mangowm=0.14.1-r0
+t:1780771969
+c:9292ccb097c47a4b555f4919bee844b0843ab140
+i:docs mangowm=0.14.2-r0
 
 C:Q1xrIVdNnqT8vHnjj7rxaejbhDYZE=
 P:manuals
@@ -152040,56 +152046,56 @@ c:18e16dd685840537d41cd32404acdcd0d81cabe1
 D:nextcloud33
 p:nextcloud-webhook_listeners=33.0.3-r1
 
-C:Q1Yy44qZ90DyM2FkryvzCXlt5FBo4=
+C:Q1AJyad1dWp+7yofp9AV2+TKSb4So=
 P:nextvi
-V:5.2-r0
+V:5.3-r0
 A:s390x
-S:101659
-I:233152
+S:102038
+I:233464
 T:A small vi/ex terminal text editor (neatvi rewrite)
 U:https://github.com/kyx0r/nextvi/
 L:ISC
 o:nextvi
 m:omni <omni+alpine@hack.org>
-t:1778746409
-c:be51bf617994dd230859d291b70854631a6c8aef
+t:1780772732
+c:7fabe8afc2b62ede93db49a873e7b800d4811836
 D:so:libc.musl-s390x.so.1
-p:cmd:nextvi=5.2-r0
+p:cmd:nextvi=5.3-r0
 
-C:Q1uno7JFKdtD62pdLcB2iALxDsjGk=
+C:Q17zyDPPjABcXq7APAuuFKQ29RMHI=
 P:nextvi-doc
-V:5.2-r0
+V:5.3-r0
 A:s390x
-S:17954
-I:16138
+S:18149
+I:16343
 T:A small vi/ex terminal text editor (neatvi rewrite) (documentation)
 U:https://github.com/kyx0r/nextvi/
 L:ISC
 o:nextvi
 m:omni <omni+alpine@hack.org>
-t:1778746409
-c:be51bf617994dd230859d291b70854631a6c8aef
-i:docs nextvi=5.2-r0
+t:1780772732
+c:7fabe8afc2b62ede93db49a873e7b800d4811836
+i:docs nextvi=5.3-r0
 
-C:Q1o0pVS5wUHlvnsfZotGWo2NVP0OY=
+C:Q1hhG2T2oDCQoPQW4J2DJvt3U5ZSQ=
 P:nextvi-vi
-V:5.2-r0
+V:5.3-r0
 A:s390x
-S:1541
+S:1535
 I:1
 T:nextvi vi provider
 U:https://github.com/kyx0r/nextvi/
 L:ISC
 o:nextvi
 m:omni <omni+alpine@hack.org>
-t:1778746409
-c:be51bf617994dd230859d291b70854631a6c8aef
-D:nextvi=5.2-r0 nextvi=5.2-r0
-p:cmd:vi=5.2-r0
+t:1780772732
+c:7fabe8afc2b62ede93db49a873e7b800d4811836
+D:nextvi=5.3-r0 nextvi=5.3-r0
+p:cmd:vi=5.3-r0
 
-C:Q12G/7BUkztIpfmJiMMvMBJIu7vGM=
+C:Q1XUj7H4I9WdS3dhQT9iUQ/oFLELA=
 P:nextvi-vi-doc
-V:5.2-r0
+V:5.3-r0
 A:s390x
 S:1621
 I:1
@@ -152098,10 +152104,10 @@ U:https://github.com/kyx0r/nextvi/
 L:ISC
 o:nextvi
 m:omni <omni+alpine@hack.org>
-t:1778746409
-c:be51bf617994dd230859d291b70854631a6c8aef
-D:nextvi-doc=5.2-r0 nextvi-doc=5.2-r0
-i:docs nextvi-vi=5.2-r0
+t:1780772732
+c:7fabe8afc2b62ede93db49a873e7b800d4811836
+D:nextvi-doc=5.3-r0 nextvi-doc=5.3-r0
+i:docs nextvi-vi=5.3-r0
 
 C:Q1RfxaHv1f7zdER6Vtkr1x3ZfHXvo=
 P:nfpm
@@ -267538,21 +267544,21 @@ c:6d3f459f1e2a47230cb5fb845d196b48fbbe1ae5
 D:vim bash /bin/sh
 p:cmd:runVimTests=1.30-r2
 
-C:Q1TfW8yzY65ja9ZapXNyEIzbPYpiY=
+C:Q1HNxu4lg+2zNisYsDcNcuv6dMAWc=
 P:rust-analyzer
-V:2026.05.25-r0
+V:2026.06.01-r0
 A:s390x
-S:10201888
-I:25205088
+S:10185677
+I:25184616
 T:Rust compiler front-end for IDEs
 U:https://github.com/rust-lang/rust-analyzer
 L:MIT OR Apache-2.0
 o:rust-analyzer
 m:team/rust <alpine@ptrcnull.me>
-t:1779706291
-c:1882ce7f3c13c2bc54bba2344e6077ca64b1a81a
+t:1780771216
+c:d92567495ea731622b731041b1c23fce72d57914
 D:rust-src so:libc.musl-s390x.so.1 so:libgcc_s.so.1 so:libmimalloc-secure.so.2
-p:cmd:rust-analyzer=2026.05.25-r0
+p:cmd:rust-analyzer=2026.06.01-r0
 
 C:Q1QY7YK0Ynze6UwWd6Bk72UsPxfm0=
 P:rustlings
@@ -290638,66 +290644,66 @@ m:mio <miyopan@e.email>
 t:1771160091
 c:a9e2a2dc46f377eb25884f7fea9834492de7f518
 
-C:Q1xeIH1MUcNOosb++E59dbhUK9qrY=
+C:Q1lZBGzFPMboilFUxTobno5Ph0OZA=
 P:tmuxinator
-V:3.3.7-r0
+V:3.4.0-r0
 A:s390x
-S:18909
-I:57243
+S:19440
+I:60054
 T:manage complex tmux sessions easily
 U:https://github.com/tmuxinator/tmuxinator
 L:MIT
 o:tmuxinator
 m:Kevin Daudt <kdaudt@alpinelinux.org>
-t:1765048253
-c:1511dc079def8de1a1e4890facd627b2487c1660
+t:1780770367
+c:5bc8c9846879deeecb3d70f22699929475b07359
 D:tmux ruby ruby-erubi ruby-thor
-p:cmd:tmuxinator=3.3.7-r0
+p:cmd:tmuxinator=3.4.0-r0
 
-C:Q1TNfQMP5DGAenrHayzqpznLDhc9o=
+C:Q1AEgqJVu/Re7h5LPQyS+wXbGHpFE=
 P:tmuxinator-bash-completion
-V:3.3.7-r0
+V:3.4.0-r0
 A:s390x
-S:1879
+S:1875
 I:668
 T:Bash completions for tmuxinator
 U:https://github.com/tmuxinator/tmuxinator
 L:MIT
 o:tmuxinator
 m:Kevin Daudt <kdaudt@alpinelinux.org>
-t:1765048253
-c:1511dc079def8de1a1e4890facd627b2487c1660
-i:tmuxinator=3.3.7-r0 bash-completion
+t:1780770367
+c:5bc8c9846879deeecb3d70f22699929475b07359
+i:tmuxinator=3.4.0-r0 bash-completion
 
-C:Q1jGLSbARiZMjsvYVamr7qSCy7RuM=
+C:Q15eeuc+5kz6xoOWWzdCALo5PnYsE=
 P:tmuxinator-fish-completion
-V:3.3.7-r0
+V:3.4.0-r0
 A:s390x
-S:1857
-I:1135
+S:1866
+I:1270
 T:Fish completions for tmuxinator
 U:https://github.com/tmuxinator/tmuxinator
 L:MIT
 o:tmuxinator
 m:Kevin Daudt <kdaudt@alpinelinux.org>
-t:1765048253
-c:1511dc079def8de1a1e4890facd627b2487c1660
-i:tmuxinator=3.3.7-r0 fish
+t:1780770367
+c:5bc8c9846879deeecb3d70f22699929475b07359
+i:tmuxinator=3.4.0-r0 fish
 
-C:Q1JxlC9fb6sTCXsAh1Y+H+FM2i19s=
+C:Q1NS9raigSrJAn7Jsw47LCT7yl9sQ=
 P:tmuxinator-zsh-completion
-V:3.3.7-r0
+V:3.4.0-r0
 A:s390x
-S:1998
-I:703
+S:1996
+I:708
 T:Zsh completions for tmuxinator
 U:https://github.com/tmuxinator/tmuxinator
 L:MIT
 o:tmuxinator
 m:Kevin Daudt <kdaudt@alpinelinux.org>
-t:1765048253
-c:1511dc079def8de1a1e4890facd627b2487c1660
-i:tmuxinator=3.3.7-r0 zsh
+t:1780770367
+c:5bc8c9846879deeecb3d70f22699929475b07359
+i:tmuxinator=3.4.0-r0 zsh
 
 C:Q1lLw8pdDkTSVkYbI0q9FU43v2U2I=
 P:todo.txt-cli
