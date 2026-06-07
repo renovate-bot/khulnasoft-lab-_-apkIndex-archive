@@ -18479,7 +18479,8 @@
     "bubblejail": {
       "origin": "bubblejail",
       "versions": {
-        "0.10.2-r0": 1775299166
+        "0.10.2-r0": 1775299166,
+        "0.10.3-r0": 1780822682
       },
       "dependencies": [
         "bubblewrap",
@@ -18492,46 +18493,51 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:bubblejail=0.10.2-r0",
-        "py3.14:bubblejail=0.10.2-r0"
+        "cmd:bubblejail=0.10.3-r0",
+        "py3.14:bubblejail=0.10.3-r0"
       ]
     },
     "bubblejail-bash-completion": {
       "origin": "bubblejail",
       "versions": {
-        "0.10.2-r0": 1775299166
+        "0.10.2-r0": 1775299166,
+        "0.10.3-r0": 1780822682
       }
     },
     "bubblejail-config": {
       "origin": "bubblejail",
       "versions": {
-        "0.10.2-r0": 1775299166
+        "0.10.2-r0": 1775299166,
+        "0.10.3-r0": 1780822682
       },
       "dependencies": [
-        "bubblejail=0.10.2-r0",
+        "bubblejail=0.10.3-r0",
         "py3-qt6",
         "python3~3.14"
       ],
       "provides": [
-        "cmd:bubblejail-config=0.10.2-r0"
+        "cmd:bubblejail-config=0.10.3-r0"
       ]
     },
     "bubblejail-doc": {
       "origin": "bubblejail",
       "versions": {
-        "0.10.2-r0": 1775299166
+        "0.10.2-r0": 1775299166,
+        "0.10.3-r0": 1780822682
       }
     },
     "bubblejail-fish-completion": {
       "origin": "bubblejail",
       "versions": {
-        "0.10.2-r0": 1775299166
+        "0.10.2-r0": 1775299166,
+        "0.10.3-r0": 1780822682
       }
     },
     "bubblejail-pyc": {
       "origin": "bubblejail",
       "versions": {
-        "0.10.2-r0": 1775299166
+        "0.10.2-r0": 1775299166,
+        "0.10.3-r0": 1780822682
       },
       "dependencies": [
         "python3~3.14"
@@ -105643,7 +105649,8 @@
     "livi": {
       "origin": "livi",
       "versions": {
-        "0.4.0-r0": 1770850967
+        "0.4.0-r0": 1770850967,
+        "0.5.0-r0": 1780830494
       },
       "dependencies": [
         "so:libadwaita-1.so.0",
@@ -105658,16 +105665,18 @@
         "so:libgstreamer-1.0.so.0",
         "so:libgstvideo-1.0.so.0",
         "so:libgtk-4.so.1",
-        "so:libintl.so.8"
+        "so:libintl.so.8",
+        "so:libwayland-client.so.0"
       ],
       "provides": [
-        "cmd:livi=0.4.0-r0"
+        "cmd:livi=0.5.0-r0"
       ]
     },
     "livi-lang": {
       "origin": "livi",
       "versions": {
-        "0.4.0-r0": 1770850967
+        "0.4.0-r0": 1770850967,
+        "0.5.0-r0": 1780830494
       }
     },
     "lld18": {
@@ -148705,7 +148714,8 @@
       "versions": {
         "1.29.2.3-r0": 1775351621,
         "1.29.2.3-r1": 1779376172,
-        "1.29.2.5-r0": 1779824531
+        "1.29.2.5-r0": 1779824531,
+        "1.31.1.1-r0": 1780824963
       },
       "dependencies": [
         "/bin/sh",
@@ -148724,7 +148734,7 @@
       ],
       "provides": [
         "nginx",
-        "cmd:nginx=1.29.2.5-r0"
+        "cmd:nginx=1.31.1.1-r0"
       ]
     },
     "openresty-dbg": {
@@ -148732,11 +148742,12 @@
       "versions": {
         "1.29.2.3-r0": 1775351621,
         "1.29.2.3-r1": 1779376172,
-        "1.29.2.5-r0": 1779824531
+        "1.29.2.5-r0": 1779824531,
+        "1.31.1.1-r0": 1780824963
       },
       "dependencies": [
-        "!openresty<1.29.2.5-r0",
-        "!openresty>1.29.2.5-r0"
+        "!openresty<1.31.1.1-r0",
+        "!openresty>1.31.1.1-r0"
       ]
     },
     "openresty-doc": {
@@ -148744,7 +148755,8 @@
       "versions": {
         "1.29.2.3-r0": 1775351621,
         "1.29.2.3-r1": 1779376172,
-        "1.29.2.5-r0": 1779824531
+        "1.29.2.5-r0": 1779824531,
+        "1.31.1.1-r0": 1780824963
       }
     },
     "openresty-mod-http-echo": {
@@ -148752,7 +148764,8 @@
       "versions": {
         "1.29.2.3-r0": 1775351621,
         "1.29.2.3-r1": 1779376172,
-        "1.29.2.5-r0": 1779824531
+        "1.29.2.5-r0": 1779824531,
+        "1.31.1.1-r0": 1780824963
       },
       "dependencies": [
         "cmd:nginx",
@@ -148765,7 +148778,8 @@
       "versions": {
         "1.29.2.3-r0": 1775351621,
         "1.29.2.3-r1": 1779376172,
-        "1.29.2.5-r0": 1779824531
+        "1.29.2.5-r0": 1779824531,
+        "1.31.1.1-r0": 1780824963
       },
       "dependencies": [
         "cmd:nginx",
@@ -148778,7 +148792,8 @@
       "versions": {
         "1.29.2.3-r0": 1775351621,
         "1.29.2.3-r1": 1779376172,
-        "1.29.2.5-r0": 1779824531
+        "1.29.2.5-r0": 1779824531,
+        "1.31.1.1-r0": 1780824963
       },
       "dependencies": [
         "cmd:nginx",
@@ -148793,7 +148808,8 @@
       "versions": {
         "1.29.2.3-r0": 1775351621,
         "1.29.2.3-r1": 1779376172,
-        "1.29.2.5-r0": 1779824531
+        "1.29.2.5-r0": 1779824531,
+        "1.31.1.1-r0": 1780824963
       },
       "dependencies": [
         "cmd:nginx",
@@ -148807,7 +148823,8 @@
       "versions": {
         "1.29.2.3-r0": 1775351621,
         "1.29.2.3-r1": 1779376172,
-        "1.29.2.5-r0": 1779824531
+        "1.29.2.5-r0": 1779824531,
+        "1.31.1.1-r0": 1780824963
       },
       "dependencies": [
         "cmd:nginx",
@@ -148820,7 +148837,8 @@
       "versions": {
         "1.29.2.3-r0": 1775351621,
         "1.29.2.3-r1": 1779376172,
-        "1.29.2.5-r0": 1779824531
+        "1.29.2.5-r0": 1779824531,
+        "1.31.1.1-r0": 1780824963
       },
       "dependencies": [
         "cmd:nginx",
@@ -148834,7 +148852,8 @@
       "versions": {
         "1.29.2.3-r0": 1775351621,
         "1.29.2.3-r1": 1779376172,
-        "1.29.2.5-r0": 1779824531
+        "1.29.2.5-r0": 1779824531,
+        "1.31.1.1-r0": 1780824963
       }
     },
     "openrgb": {
@@ -211590,7 +211609,8 @@
     "py3-ytmusicapi": {
       "origin": "py3-ytmusicapi",
       "versions": {
-        "1.12.0-r0": 1777616076
+        "1.12.0-r0": 1777616076,
+        "1.12.1-r0": 1780824528
       },
       "dependencies": [
         "py3-setuptools",
@@ -211598,14 +211618,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:ytmusicapi=1.12.0-r0",
-        "py3.14:ytmusicapi=1.12.0-r0"
+        "cmd:ytmusicapi=1.12.1-r0",
+        "py3.14:ytmusicapi=1.12.1-r0"
       ]
     },
     "py3-ytmusicapi-pyc": {
       "origin": "py3-ytmusicapi",
       "versions": {
-        "1.12.0-r0": 1777616076
+        "1.12.0-r0": 1777616076,
+        "1.12.1-r0": 1780824528
       },
       "dependencies": [
         "python3~3.14"
@@ -212425,24 +212446,26 @@
       "origin": "qbe",
       "versions": {
         "1.2-r3": 1732710086,
-        "1.3-r0": 1780425805
+        "1.3-r0": 1780425805,
+        "1.2-r4": 1780824431
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:qbe=1.3-r0"
+        "cmd:qbe=1.2-r4"
       ]
     },
     "qbe-dbg": {
       "origin": "qbe",
       "versions": {
         "1.2-r3": 1732710086,
-        "1.3-r0": 1780425805
+        "1.3-r0": 1780425805,
+        "1.2-r4": 1780824431
       },
       "dependencies": [
-        "!qbe<1.3-r0",
-        "!qbe>1.3-r0"
+        "!qbe<1.2-r4",
+        "!qbe>1.2-r4"
       ]
     },
     "qbittorrent": {
@@ -217552,7 +217575,8 @@
       "origin": "raku-sparrow6",
       "versions": {
         "0.0.91-r0": 1778993844,
-        "0.0.93-r0": 1780012024
+        "0.0.93-r0": 1780012024,
+        "0.0.93-r1": 1780824370
       },
       "dependencies": [
         "bash",
@@ -217565,14 +217589,15 @@
         "raku-yamlish"
       ],
       "provides": [
-        "cmd:s6=0.0.93-r0"
+        "cmd:s6=0.0.93-r1"
       ]
     },
     "raku-sparrow6-doc": {
       "origin": "raku-sparrow6",
       "versions": {
         "0.0.91-r0": 1778993844,
-        "0.0.93-r0": 1780012024
+        "0.0.93-r0": 1780012024,
+        "0.0.93-r1": 1780824370
       }
     },
     "raku-system-query": {
@@ -263268,7 +263293,8 @@
       "origin": "openresty",
       "versions": {
         "1.29.2.3-r1": 1779376172,
-        "1.29.2.5-r0": 1779824531
+        "1.29.2.5-r0": 1779824531,
+        "1.31.1.1-r0": 1780824963
       },
       "dependencies": [
         "cmd:nginx",
@@ -263276,7 +263302,7 @@
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "nginx-mod-devel-kit=1.29.2.5-r0"
+        "nginx-mod-devel-kit=1.31.1.1-r0"
       ]
     },
     "openvdb": {
@@ -264213,6 +264239,24 @@
       "origin": "neocmakelsp",
       "versions": {
         "0.10.3-r0": 1780806175
+      }
+    },
+    "reap": {
+      "origin": "reap",
+      "versions": {
+        "0.2-r0": 1780830375
+      },
+      "dependencies": [
+        "so:libc.musl-armhf.so.1"
+      ],
+      "provides": [
+        "cmd:reap=0.2-r0"
+      ]
+    },
+    "reap-doc": {
+      "origin": "reap",
+      "versions": {
+        "0.2-r0": 1780830375
       }
     }
   },
@@ -285366,7 +285410,7 @@
       },
       "nginx-mod-devel-kit": {
         "package": "openresty-mod-devel-kit",
-        "version": "1.29.2.5-r0"
+        "version": "1.31.1.1-r0"
       },
       "py-libacl": {
         "package": "py3-libacl",
