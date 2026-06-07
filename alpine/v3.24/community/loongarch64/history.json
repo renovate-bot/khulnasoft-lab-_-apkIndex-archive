@@ -89159,7 +89159,8 @@
     "ipython": {
       "origin": "ipython",
       "versions": {
-        "9.12.0-r0": 1776899263
+        "9.12.0-r0": 1776899263,
+        "9.14.0-r0": 1780804830
       },
       "dependencies": [
         "py3-backcall",
@@ -89175,21 +89176,23 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:ipython3=9.12.0-r0",
-        "cmd:ipython=9.12.0-r0",
-        "py3.14:IPython=9.12.0-r0"
+        "cmd:ipython3=9.14.0-r0",
+        "cmd:ipython=9.14.0-r0",
+        "py3.14:IPython=9.14.0-r0"
       ]
     },
     "ipython-doc": {
       "origin": "ipython",
       "versions": {
-        "9.12.0-r0": 1776899263
+        "9.12.0-r0": 1776899263,
+        "9.14.0-r0": 1780804830
       }
     },
     "ipython-pyc": {
       "origin": "ipython",
       "versions": {
-        "9.12.0-r0": 1776899263
+        "9.12.0-r0": 1776899263,
+        "9.14.0-r0": 1780804830
       },
       "dependencies": [
         "python3~3.14"
@@ -92491,31 +92494,35 @@
     "kapp": {
       "origin": "kapp",
       "versions": {
-        "0.65.1-r3": 1778661427
+        "0.65.1-r3": 1778661427,
+        "0.66.0-r0": 1780804904
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1"
       ],
       "provides": [
-        "cmd:kapp=0.65.1-r3"
+        "cmd:kapp=0.66.0-r0"
       ]
     },
     "kapp-bash-completion": {
       "origin": "kapp",
       "versions": {
-        "0.65.1-r3": 1778661427
+        "0.65.1-r3": 1778661427,
+        "0.66.0-r0": 1780804904
       }
     },
     "kapp-fish-completion": {
       "origin": "kapp",
       "versions": {
-        "0.65.1-r3": 1778661427
+        "0.65.1-r3": 1778661427,
+        "0.66.0-r0": 1780804904
       }
     },
     "kapp-zsh-completion": {
       "origin": "kapp",
       "versions": {
-        "0.65.1-r3": 1778661427
+        "0.65.1-r3": 1778661427,
+        "0.66.0-r0": 1780804904
       }
     },
     "kapptemplate": {
@@ -148889,7 +148896,8 @@
     "netbird": {
       "origin": "netbird",
       "versions": {
-        "0.71.2-r0": 1779323460
+        "0.71.2-r0": 1779323460,
+        "0.72.2-r0": 1780808880
       },
       "dependencies": [
         "openresolv",
@@ -148897,94 +148905,105 @@
         "so:libc.musl-loongarch64.so.1"
       ],
       "provides": [
-        "cmd:netbird=0.71.2-r0"
+        "cmd:netbird=0.72.2-r0"
       ]
     },
     "netbird-bash-completion": {
       "origin": "netbird",
       "versions": {
-        "0.71.2-r0": 1779323460
+        "0.71.2-r0": 1779323460,
+        "0.72.2-r0": 1780808880
       }
     },
     "netbird-doc": {
       "origin": "netbird",
       "versions": {
-        "0.71.2-r0": 1779323460
+        "0.71.2-r0": 1779323460,
+        "0.72.2-r0": 1780808880
       }
     },
     "netbird-fish-completion": {
       "origin": "netbird",
       "versions": {
-        "0.71.2-r0": 1779323460
+        "0.71.2-r0": 1779323460,
+        "0.72.2-r0": 1780808880
       }
     },
     "netbird-mgmt": {
       "origin": "netbird",
       "versions": {
-        "0.71.2-r0": 1779323460
+        "0.71.2-r0": 1779323460,
+        "0.72.2-r0": 1780808880
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-loongarch64.so.1"
       ],
       "provides": [
-        "cmd:netbird-mgmt=0.71.2-r0"
+        "cmd:netbird-mgmt=0.72.2-r0"
       ]
     },
     "netbird-mgmt-openrc": {
       "origin": "netbird",
       "versions": {
-        "0.71.2-r0": 1779323460
+        "0.71.2-r0": 1779323460,
+        "0.72.2-r0": 1780808880
       }
     },
     "netbird-openrc": {
       "origin": "netbird",
       "versions": {
-        "0.71.2-r0": 1779323460
+        "0.71.2-r0": 1779323460,
+        "0.72.2-r0": 1780808880
       }
     },
     "netbird-relay": {
       "origin": "netbird",
       "versions": {
-        "0.71.2-r0": 1779323460
+        "0.71.2-r0": 1779323460,
+        "0.72.2-r0": 1780808880
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-loongarch64.so.1"
       ],
       "provides": [
-        "cmd:netbird-relay=0.71.2-r0"
+        "cmd:netbird-relay=0.72.2-r0"
       ]
     },
     "netbird-relay-openrc": {
       "origin": "netbird",
       "versions": {
-        "0.71.2-r0": 1779323460
+        "0.71.2-r0": 1779323460,
+        "0.72.2-r0": 1780808880
       }
     },
     "netbird-signal": {
       "origin": "netbird",
       "versions": {
-        "0.71.2-r0": 1779323460
+        "0.71.2-r0": 1779323460,
+        "0.72.2-r0": 1780808880
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-loongarch64.so.1"
       ],
       "provides": [
-        "cmd:netbird-signal=0.71.2-r0"
+        "cmd:netbird-signal=0.72.2-r0"
       ]
     },
     "netbird-signal-openrc": {
       "origin": "netbird",
       "versions": {
-        "0.71.2-r0": 1779323460
+        "0.71.2-r0": 1779323460,
+        "0.72.2-r0": 1780808880
       }
     },
     "netbird-ui": {
       "origin": "netbird",
       "versions": {
-        "0.71.2-r0": 1779323460
+        "0.71.2-r0": 1779323460,
+        "0.72.2-r0": 1780808880
       },
       "dependencies": [
         "openresolv",
@@ -148993,13 +149012,14 @@
         "so:libwayland-client.so.0"
       ],
       "provides": [
-        "cmd:netbird-ui=0.71.2-r0"
+        "cmd:netbird-ui=0.72.2-r0"
       ]
     },
     "netbird-zsh-completion": {
       "origin": "netbird",
       "versions": {
-        "0.71.2-r0": 1779323460
+        "0.71.2-r0": 1779323460,
+        "0.72.2-r0": 1780808880
       }
     },
     "netcdf": {
@@ -285258,6 +285278,43 @@
       "versions": {
         "0.14.1-r0": 1780747291,
         "0.14.2-r0": 1780771969
+      }
+    },
+    "neocmakelsp": {
+      "origin": "neocmakelsp",
+      "versions": {
+        "0.10.3-r0": 1780806175
+      },
+      "dependencies": [
+        "so:libc.musl-loongarch64.so.1",
+        "so:libgcc_s.so.1"
+      ],
+      "provides": [
+        "cmd:neocmakelsp=0.10.3-r0"
+      ]
+    },
+    "neocmakelsp-bash-completion": {
+      "origin": "neocmakelsp",
+      "versions": {
+        "0.10.3-r0": 1780806175
+      }
+    },
+    "neocmakelsp-doc": {
+      "origin": "neocmakelsp",
+      "versions": {
+        "0.10.3-r0": 1780806175
+      }
+    },
+    "neocmakelsp-fish-completion": {
+      "origin": "neocmakelsp",
+      "versions": {
+        "0.10.3-r0": 1780806175
+      }
+    },
+    "neocmakelsp-zsh-completion": {
+      "origin": "neocmakelsp",
+      "versions": {
+        "0.10.3-r0": 1780806175
       }
     }
   },
