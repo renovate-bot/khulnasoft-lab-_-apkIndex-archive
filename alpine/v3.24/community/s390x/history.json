@@ -286825,6 +286825,258 @@
         "proftpd-mod_tls",
         "so:libc.musl-s390x.so.1"
       ]
+    },
+    "gssdp": {
+      "origin": "gssdp",
+      "versions": {
+        "1.6.5-r0": 1780869144
+      },
+      "dependencies": [
+        "so:libc.musl-s390x.so.1",
+        "so:libgio-2.0.so.0",
+        "so:libglib-2.0.so.0",
+        "so:libgobject-2.0.so.0",
+        "so:libgtk-4.so.1",
+        "so:libintl.so.8",
+        "so:libsoup-3.0.so.0"
+      ],
+      "provides": [
+        "cmd:gssdp-device-sniffer=1.6.5-r0",
+        "so:libgssdp-1.6.so.0=0.106.5"
+      ]
+    },
+    "gssdp-dev": {
+      "origin": "gssdp",
+      "versions": {
+        "1.6.5-r0": 1780869144
+      },
+      "dependencies": [
+        "gssdp=1.6.5-r0",
+        "pc:gio-2.0>=2.70",
+        "pc:glib-2.0>=2.70",
+        "pc:gobject-2.0>=2.70",
+        "pc:libsoup-3.0>=2.99.0",
+        "pkgconfig"
+      ],
+      "provides": [
+        "pc:gssdp-1.6=1.6.5"
+      ]
+    },
+    "gupnp": {
+      "origin": "gupnp",
+      "versions": {
+        "1.6.9-r1": 1780869366
+      },
+      "dependencies": [
+        "gsettings-desktop-schemas",
+        "so:libc.musl-s390x.so.1",
+        "so:libgio-2.0.so.0",
+        "so:libglib-2.0.so.0",
+        "so:libgmodule-2.0.so.0",
+        "so:libgobject-2.0.so.0",
+        "so:libgssdp-1.6.so.0",
+        "so:libsoup-3.0.so.0",
+        "so:libxml2.so.2"
+      ],
+      "provides": [
+        "cmd:gupnp-binding-tool-1.6=1.6.9-r1",
+        "so:libgupnp-1.6.so.0=0.106.9"
+      ]
+    },
+    "gupnp-av": {
+      "origin": "gupnp-av",
+      "versions": {
+        "0.14.5-r0": 1780869145
+      },
+      "dependencies": [
+        "so:libc.musl-s390x.so.1",
+        "so:libglib-2.0.so.0",
+        "so:libgobject-2.0.so.0",
+        "so:libxml2.so.2"
+      ],
+      "provides": [
+        "so:libgupnp-av-1.0.so.3=3.14.5"
+      ]
+    },
+    "gupnp-av-dev": {
+      "origin": "gupnp-av",
+      "versions": {
+        "0.14.5-r0": 1780869145
+      },
+      "dependencies": [
+        "gupnp-av=0.14.5-r0",
+        "pc:gio-2.0",
+        "pc:glib-2.0>=2.58",
+        "pc:gobject-2.0>=2.58",
+        "pc:libxml-2.0",
+        "pkgconfig"
+      ],
+      "provides": [
+        "pc:gupnp-av-1.0=0.14.5"
+      ]
+    },
+    "gupnp-dev": {
+      "origin": "gupnp",
+      "versions": {
+        "1.6.9-r1": 1780869366
+      },
+      "dependencies": [
+        "gupnp=1.6.9-r1",
+        "pc:gio-2.0>=2.70",
+        "pc:glib-2.0>=2.70",
+        "pc:gmodule-2.0>=2.70",
+        "pc:gobject-2.0>=2.70",
+        "pc:gssdp-1.6>=1.6.2",
+        "pc:libsoup-3.0>=2.99.0",
+        "pc:libxml-2.0",
+        "pkgconfig"
+      ],
+      "provides": [
+        "pc:gupnp-1.6=1.6.9"
+      ]
+    },
+    "gupnp-dlna": {
+      "origin": "gupnp-dlna",
+      "versions": {
+        "0.12.0-r1": 1780869145
+      },
+      "dependencies": [
+        "so:libc.musl-s390x.so.1",
+        "so:libglib-2.0.so.0",
+        "so:libgmodule-2.0.so.0",
+        "so:libgobject-2.0.so.0",
+        "so:libgstpbutils-1.0.so.0",
+        "so:libgstreamer-1.0.so.0",
+        "so:libxml2.so.2"
+      ],
+      "provides": [
+        "cmd:gupnp-dlna-info-2.0=0.12.0-r1",
+        "cmd:gupnp-dlna-ls-profiles-2.0=0.12.0-r1",
+        "so:libgupnp-dlna-2.0.so.4=4.0.0",
+        "so:libgupnp-dlna-gst-2.0.so.4=4.0.0"
+      ]
+    },
+    "gupnp-dlna-dev": {
+      "origin": "gupnp-dlna",
+      "versions": {
+        "0.12.0-r1": 1780869145
+      },
+      "dependencies": [
+        "gupnp-dlna=0.12.0-r1",
+        "pc:gio-2.0",
+        "pc:glib-2.0",
+        "pc:gmodule-2.0",
+        "pc:gobject-2.0",
+        "pc:gstreamer-1.0",
+        "pc:gstreamer-pbutils-1.0",
+        "pc:libxml-2.0",
+        "pkgconfig"
+      ],
+      "provides": [
+        "pc:gupnp-dlna-2.0=0.12.0",
+        "pc:gupnp-dlna-gst-2.0=0.12.0",
+        "pc:gupnp-dlna-metadata-2.0=0.12.0"
+      ]
+    },
+    "gupnp-doc": {
+      "origin": "gupnp",
+      "versions": {
+        "1.6.9-r1": 1780869366
+      }
+    },
+    "rygel": {
+      "origin": "rygel",
+      "versions": {
+        "45.2-r0": 1780869145
+      },
+      "dependencies": [
+        "so:libX11.so.6",
+        "so:libc.musl-s390x.so.1",
+        "so:libgdk_pixbuf-2.0.so.0",
+        "so:libgee-0.8.so.2",
+        "so:libges-1.0.so.0",
+        "so:libgio-2.0.so.0",
+        "so:libglib-2.0.so.0",
+        "so:libgmodule-2.0.so.0",
+        "so:libgobject-2.0.so.0",
+        "so:libgssdp-1.6.so.0",
+        "so:libgstaudio-1.0.so.0",
+        "so:libgstbase-1.0.so.0",
+        "so:libgstpbutils-1.0.so.0",
+        "so:libgstreamer-1.0.so.0",
+        "so:libgsttag-1.0.so.0",
+        "so:libgtk-4.so.1",
+        "so:libgupnp-1.6.so.0",
+        "so:libgupnp-av-1.0.so.3",
+        "so:libgupnp-dlna-2.0.so.4",
+        "so:libgupnp-dlna-gst-2.0.so.4",
+        "so:libintl.so.8",
+        "so:libmediaart-2.0.so.0",
+        "so:libsoup-3.0.so.0",
+        "so:libsqlite3.so.0",
+        "so:libxml2.so.2"
+      ],
+      "provides": [
+        "cmd:rygel-preferences=45.2-r0",
+        "cmd:rygel=45.2-r0",
+        "so:librygel-core-2.8.so.0=0.45.4",
+        "so:librygel-db-2.8.so.0=0.45.4",
+        "so:librygel-renderer-2.8.so.0=0.45.4",
+        "so:librygel-renderer-gst-2.8.so.0=0.45.4",
+        "so:librygel-ruih-2.8.so.0=0.45.4",
+        "so:librygel-server-2.8.so.0=0.45.4"
+      ]
+    },
+    "rygel-dev": {
+      "origin": "rygel",
+      "versions": {
+        "45.2-r0": 1780869145
+      },
+      "dependencies": [
+        "rygel=45.2-r0",
+        "pc:gee-0.8",
+        "pc:gmodule-2.0",
+        "pc:gstreamer-1.0",
+        "pc:gupnp-av-1.0",
+        "pkgconfig"
+      ],
+      "provides": [
+        "pc:rygel-core-2.8=45.2",
+        "pc:rygel-renderer-2.8=45.2",
+        "pc:rygel-renderer-gst-2.8=45.2",
+        "pc:rygel-ruih-2.8=45.2",
+        "pc:rygel-server-2.8=45.2"
+      ]
+    },
+    "rygel-doc": {
+      "origin": "rygel",
+      "versions": {
+        "45.2-r0": 1780869145
+      }
+    },
+    "rygel-lang": {
+      "origin": "rygel",
+      "versions": {
+        "45.2-r0": 1780869145
+      }
+    },
+    "rygel-systemd": {
+      "origin": "rygel",
+      "versions": {
+        "45.2-r0": 1780869145
+      }
+    },
+    "update-sysfs": {
+      "origin": "update-sysfs",
+      "versions": {
+        "2.1.1_p7-r0": 1780869144
+      },
+      "dependencies": [
+        "perl"
+      ],
+      "provides": [
+        "cmd:update-sysfs=2.1.1_p7-r0"
+      ]
     }
   },
   "provide": {
@@ -305128,6 +305380,50 @@
       "libHX.so.43": {
         "package": "libhx",
         "version": "43.0.0"
+      },
+      "libgssdp-1.6.so.0": {
+        "package": "gssdp",
+        "version": "0.106.5"
+      },
+      "libgupnp-1.6.so.0": {
+        "package": "gupnp",
+        "version": "0.106.9"
+      },
+      "libgupnp-av-1.0.so.3": {
+        "package": "gupnp-av",
+        "version": "3.14.5"
+      },
+      "libgupnp-dlna-2.0.so.4": {
+        "package": "gupnp-dlna",
+        "version": "4.0.0"
+      },
+      "libgupnp-dlna-gst-2.0.so.4": {
+        "package": "gupnp-dlna",
+        "version": "4.0.0"
+      },
+      "librygel-core-2.8.so.0": {
+        "package": "rygel",
+        "version": "0.45.4"
+      },
+      "librygel-db-2.8.so.0": {
+        "package": "rygel",
+        "version": "0.45.4"
+      },
+      "librygel-renderer-2.8.so.0": {
+        "package": "rygel",
+        "version": "0.45.4"
+      },
+      "librygel-renderer-gst-2.8.so.0": {
+        "package": "rygel",
+        "version": "0.45.4"
+      },
+      "librygel-ruih-2.8.so.0": {
+        "package": "rygel",
+        "version": "0.45.4"
+      },
+      "librygel-server-2.8.so.0": {
+        "package": "rygel",
+        "version": "0.45.4"
       }
     },
     "package": {

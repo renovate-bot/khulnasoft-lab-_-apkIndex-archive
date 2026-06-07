@@ -86509,6 +86509,38 @@ t:1773733911
 c:935853677e04ccfbc3bb870b715efb8851a9b8ea
 i:gspell=1.14.3-r0 lang
 
+C:Q1mPpduupz86jAgu+aLOM/q5yYUjA=
+P:gssdp
+V:1.6.5-r0
+A:x86_64
+S:46660
+I:135332
+T:GObject-based API for handling resource discovery and announcement over SSDP
+U:https://gitlab.gnome.org/GNOME/gssdp
+L:LGPL-2.1-or-later
+o:gssdp
+m:Achill Gilgenast <achill@achill.org>
+t:1780869144
+c:e2fd9cb33ee2ca205e7c6659457e45c280a61dde
+D:so:libc.musl-x86_64.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libintl.so.8 so:libsoup-3.0.so.0
+p:cmd:gssdp-device-sniffer=1.6.5-r0 so:libgssdp-1.6.so.0=0.106.5
+
+C:Q1wbb1koUpRIVlRiFi/wKyibu7vxQ=
+P:gssdp-dev
+V:1.6.5-r0
+A:x86_64
+S:16152
+I:115322
+T:GObject-based API for handling resource discovery and announcement over SSDP (development files)
+U:https://gitlab.gnome.org/GNOME/gssdp
+L:LGPL-2.1-or-later
+o:gssdp
+m:Achill Gilgenast <achill@achill.org>
+t:1780869144
+c:e2fd9cb33ee2ca205e7c6659457e45c280a61dde
+D:gssdp=1.6.5-r0 pc:gio-2.0>=2.70 pc:glib-2.0>=2.70 pc:gobject-2.0>=2.70 pc:libsoup-3.0>=2.99.0 pkgconfig
+p:pc:gssdp-1.6=1.6.5
+
 C:Q1aYzp3kSjuW3D4NQpEC+9CSK2vEc=
 P:gst-audio-thumbnailer
 V:1.0.0-r0
@@ -89475,6 +89507,117 @@ m:Haelwenn (lanodan) Monnier <contact+alpine@hacktivis.me>
 t:1756235113
 c:8526211596cee82b369ea4ec403d1319bf819005
 D:gumbo-parser-dev
+
+C:Q1GtFBVFIhuWzNOc1tLaL9ognRHvw=
+P:gupnp
+V:1.6.9-r1
+A:x86_64
+S:90217
+I:257194
+T:GObject-based UPNP framework
+U:https://gitlab.gnome.org/GNOME/gupnp
+L:LGPL-2.1-or-later
+o:gupnp
+m:Achill Gilgenast <achill@achill.org>
+t:1780869366
+c:176120516592a246752c88f259137c0aa78a46a2
+D:gsettings-desktop-schemas so:libc.musl-x86_64.so.1 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgssdp-1.6.so.0 so:libsoup-3.0.so.0 so:libxml2.so.2
+p:cmd:gupnp-binding-tool-1.6=1.6.9-r1 so:libgupnp-1.6.so.0=0.106.9
+
+C:Q1+qQD7YLpB4gNC4CUYYi8K9gmQoo=
+P:gupnp-av
+V:0.14.5-r0
+A:x86_64
+S:80593
+I:285303
+T:Small utility library that aims to ease the handling and implementation of UPnP A/V profiles
+U:https://gitlab.gnome.org/GNOME/gupnp-av
+L:LGPL-2.1-or-later
+o:gupnp-av
+m:Achill Gilgenast <achill@achill.org>
+t:1780869145
+c:6de9336ee488bc954e9ee3f62d7a696d1d061778
+D:so:libc.musl-x86_64.so.1 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libxml2.so.2
+p:so:libgupnp-av-1.0.so.3=3.14.5
+
+C:Q1ziuUw0sDPbTF+B26ty9YpSpnhrk=
+P:gupnp-av-dev
+V:0.14.5-r0
+A:x86_64
+S:42583
+I:460585
+T:Small utility library that aims to ease the handling and implementation of UPnP A/V profiles (development files)
+U:https://gitlab.gnome.org/GNOME/gupnp-av
+L:LGPL-2.1-or-later
+o:gupnp-av
+m:Achill Gilgenast <achill@achill.org>
+t:1780869145
+c:6de9336ee488bc954e9ee3f62d7a696d1d061778
+D:gupnp-av=0.14.5-r0 pc:gio-2.0 pc:glib-2.0>=2.58 pc:gobject-2.0>=2.58 pc:libxml-2.0 pkgconfig
+p:pc:gupnp-av-1.0=0.14.5
+
+C:Q13bz/Ko6SE7QeOM27RW358e8x3Ng=
+P:gupnp-dev
+V:1.6.9-r1
+A:x86_64
+S:51600
+I:449352
+T:GObject-based UPNP framework (development files)
+U:https://gitlab.gnome.org/GNOME/gupnp
+L:LGPL-2.1-or-later
+o:gupnp
+m:Achill Gilgenast <achill@achill.org>
+t:1780869366
+c:176120516592a246752c88f259137c0aa78a46a2
+D:gupnp=1.6.9-r1 pc:gio-2.0>=2.70 pc:glib-2.0>=2.70 pc:gmodule-2.0>=2.70 pc:gobject-2.0>=2.70 pc:gssdp-1.6>=1.6.2 pc:libsoup-3.0>=2.99.0 pc:libxml-2.0 pkgconfig
+p:pc:gupnp-1.6=1.6.9
+
+C:Q1vtuy/txXuEFdz8fjy0ykvslJowk=
+P:gupnp-dlna
+V:0.12.0-r1
+A:x86_64
+S:66053
+I:293874
+T:Small utility library that aims to ease the DLNA-related tasks
+U:https://gitlab.gnome.org/GNOME/gupnp-dlna
+L:LGPL-2.1-or-later
+o:gupnp-dlna
+m:Achill Gilgenast <achill@achill.org>
+t:1780869145
+c:af1c9bcd5a497cf5ccd9fb308480aaa29bd27c33
+D:so:libc.musl-x86_64.so.1 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libxml2.so.2
+p:cmd:gupnp-dlna-info-2.0=0.12.0-r1 cmd:gupnp-dlna-ls-profiles-2.0=0.12.0-r1 so:libgupnp-dlna-2.0.so.4=4.0.0 so:libgupnp-dlna-gst-2.0.so.4=4.0.0
+
+C:Q1Q05kFAOTG9oRjW3EJKqKJYvwHGk=
+P:gupnp-dlna-dev
+V:0.12.0-r1
+A:x86_64
+S:24933
+I:275513
+T:Small utility library that aims to ease the DLNA-related tasks (development files)
+U:https://gitlab.gnome.org/GNOME/gupnp-dlna
+L:LGPL-2.1-or-later
+o:gupnp-dlna
+m:Achill Gilgenast <achill@achill.org>
+t:1780869145
+c:af1c9bcd5a497cf5ccd9fb308480aaa29bd27c33
+D:gupnp-dlna=0.12.0-r1 pc:gio-2.0 pc:glib-2.0 pc:gmodule-2.0 pc:gobject-2.0 pc:gstreamer-1.0 pc:gstreamer-pbutils-1.0 pc:libxml-2.0 pkgconfig
+p:pc:gupnp-dlna-2.0=0.12.0 pc:gupnp-dlna-gst-2.0=0.12.0 pc:gupnp-dlna-metadata-2.0=0.12.0
+
+C:Q1ewcEc85rLJFHk1vCjr4+2JknKNM=
+P:gupnp-doc
+V:1.6.9-r1
+A:x86_64
+S:3895
+I:2085
+T:GObject-based UPNP framework (documentation)
+U:https://gitlab.gnome.org/GNOME/gupnp
+L:LGPL-2.1-or-later
+o:gupnp
+m:Achill Gilgenast <achill@achill.org>
+t:1780869366
+c:176120516592a246752c88f259137c0aa78a46a2
+i:docs gupnp=1.6.9-r1
 
 C:Q1OU8Jf8fcSJjD15u2yGPmW728CGk=
 P:gutenprint
@@ -295276,6 +295419,83 @@ m:Antoine Martin (ayakael) <dev@ayakael.net>
 t:1763512084
 c:a5606f7c9b6f71e1b708eddeb0cbab1c83b2849b
 
+C:Q1FX63XYp4Xdt2DhGcfrt8kCjoaRc=
+P:rygel
+V:45.2-r0
+A:x86_64
+S:785248
+I:2259427
+T:UPnP AV MediaServer and MediaRenderer
+U:https://gnome.pages.gitlab.gnome.org/rygel/
+L:LGPL-2.1-or-later
+o:rygel
+m:Achill Gilgenast <achill@achill.org>
+t:1780869145
+c:383c2623239394e55dfc04885121452f91f54391
+D:so:libX11.so.6 so:libc.musl-x86_64.so.1 so:libgdk_pixbuf-2.0.so.0 so:libgee-0.8.so.2 so:libges-1.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgmodule-2.0.so.0 so:libgobject-2.0.so.0 so:libgssdp-1.6.so.0 so:libgstaudio-1.0.so.0 so:libgstbase-1.0.so.0 so:libgstpbutils-1.0.so.0 so:libgstreamer-1.0.so.0 so:libgsttag-1.0.so.0 so:libgtk-4.so.1 so:libgupnp-1.6.so.0 so:libgupnp-av-1.0.so.3 so:libgupnp-dlna-2.0.so.4 so:libgupnp-dlna-gst-2.0.so.4 so:libintl.so.8 so:libmediaart-2.0.so.0 so:libsoup-3.0.so.0 so:libsqlite3.so.0 so:libxml2.so.2
+p:cmd:rygel-preferences=45.2-r0 cmd:rygel=45.2-r0 so:librygel-core-2.8.so.0=0.45.4 so:librygel-db-2.8.so.0=0.45.4 so:librygel-renderer-2.8.so.0=0.45.4 so:librygel-renderer-gst-2.8.so.0=0.45.4 so:librygel-ruih-2.8.so.0=0.45.4 so:librygel-server-2.8.so.0=0.45.4
+
+C:Q1g6vW2dbZug74y+tl8vm4+rpPjK8=
+P:rygel-dev
+V:45.2-r0
+A:x86_64
+S:43681
+I:343206
+T:UPnP AV MediaServer and MediaRenderer (development files)
+U:https://gnome.pages.gitlab.gnome.org/rygel/
+L:LGPL-2.1-or-later
+o:rygel
+m:Achill Gilgenast <achill@achill.org>
+t:1780869145
+c:383c2623239394e55dfc04885121452f91f54391
+D:rygel=45.2-r0 pc:gee-0.8 pc:gmodule-2.0 pc:gstreamer-1.0 pc:gupnp-av-1.0 pkgconfig
+p:pc:rygel-core-2.8=45.2 pc:rygel-renderer-2.8=45.2 pc:rygel-renderer-gst-2.8=45.2 pc:rygel-ruih-2.8=45.2 pc:rygel-server-2.8=45.2
+
+C:Q14uN1SlCzFrGni6sZ5nk9b5bdX2Q=
+P:rygel-doc
+V:45.2-r0
+A:x86_64
+S:9899
+I:7998
+T:UPnP AV MediaServer and MediaRenderer (documentation)
+U:https://gnome.pages.gitlab.gnome.org/rygel/
+L:LGPL-2.1-or-later
+o:rygel
+m:Achill Gilgenast <achill@achill.org>
+t:1780869145
+c:383c2623239394e55dfc04885121452f91f54391
+i:docs rygel=45.2-r0
+
+C:Q105EMGtMwvVJcHwoElA7DSyfqe6c=
+P:rygel-lang
+V:45.2-r0
+A:x86_64
+S:626253
+I:1918443
+T:Languages for package rygel
+U:https://gnome.pages.gitlab.gnome.org/rygel/
+L:LGPL-2.1-or-later
+o:rygel
+m:Achill Gilgenast <achill@achill.org>
+t:1780869145
+c:383c2623239394e55dfc04885121452f91f54391
+i:rygel=45.2-r0 lang
+
+C:Q1OpeP/uh5xAsI0JmbNR1GQFtEdn4=
+P:rygel-systemd
+V:45.2-r0
+A:x86_64
+S:1784
+I:167
+T:UPnP AV MediaServer and MediaRenderer (systemd files)
+U:https://gnome.pages.gitlab.gnome.org/rygel/
+L:LGPL-2.1-or-later
+o:rygel
+m:Achill Gilgenast <achill@achill.org>
+t:1780869145
+c:383c2623239394e55dfc04885121452f91f54391
+i:systemd rygel=45.2-r0
+
 C:Q1JwY9lRdisynD/1iIf7JsCNb0FYk=
 P:ryzenadj
 V:0.16.0-r0
@@ -327198,6 +327418,22 @@ m:Clayton Craft <clayton@craftyguy.net>
 t:1779657170
 c:f7200769f13918f41b54223b7033f493249ec2a8
 i:systemd unudhcpd=0.3.0-r0
+
+C:Q1E4PNCdzAtlLxuVI6DmyVmWGQmdM=
+P:update-sysfs
+V:2.1.1_p7-r0
+A:x86_64
+S:3197
+I:4329
+T:Update the sysfs attribute values and modify their file mode or owner, usually during the system boot
+U:https://git.hadrons.org/cgit/debian/pkgs/sysfsutils.git/tree/debian/local/update-sysfs.pod
+L:GPL-2.0-or-later
+o:update-sysfs
+m:Stefan Hansson <newbyte@postmarketos.org>
+t:1780869144
+c:4f589ef24e59de3752bd87e6b030c995ea2b5628
+D:perl
+p:cmd:update-sysfs=2.1.1_p7-r0
 
 C:Q1cUrbly6bqePQbNA2JpeQ8UFfzUA=
 P:upmpdcli

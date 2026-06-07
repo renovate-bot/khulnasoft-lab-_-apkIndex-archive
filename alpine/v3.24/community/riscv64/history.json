@@ -5618,7 +5618,8 @@
     "asymptote": {
       "origin": "asymptote",
       "versions": {
-        "3.11-r0": 1779045581
+        "3.11-r0": 1779045581,
+        "3.12-r0": 1780831700
       },
       "dependencies": [
         "dvisvgm",
@@ -5641,7 +5642,7 @@
         "so:libcurl.so.4",
         "so:libfftw3.so.3",
         "so:libgcc_s.so.1",
-        "so:libglut.so.3",
+        "so:libglfw.so.3",
         "so:libgsl.so.28",
         "so:libgslcblas.so.0",
         "so:libncursesw.so.6",
@@ -5652,14 +5653,15 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:asy=3.11-r0",
-        "cmd:xasy=3.11-r0"
+        "cmd:asy=3.12-r0",
+        "cmd:xasy=3.12-r0"
       ]
     },
     "asymptote-doc": {
       "origin": "asymptote",
       "versions": {
-        "3.11-r0": 1779045581
+        "3.11-r0": 1779045581,
+        "3.12-r0": 1780831700
       }
     },
     "at": {
@@ -19224,7 +19226,8 @@
     "bubblejail": {
       "origin": "bubblejail",
       "versions": {
-        "0.10.2-r0": 1775299166
+        "0.10.2-r0": 1775299166,
+        "0.10.3-r0": 1780822682
       },
       "dependencies": [
         "bubblewrap",
@@ -19237,46 +19240,51 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:bubblejail=0.10.2-r0",
-        "py3.14:bubblejail=0.10.2-r0"
+        "cmd:bubblejail=0.10.3-r0",
+        "py3.14:bubblejail=0.10.3-r0"
       ]
     },
     "bubblejail-bash-completion": {
       "origin": "bubblejail",
       "versions": {
-        "0.10.2-r0": 1775299166
+        "0.10.2-r0": 1775299166,
+        "0.10.3-r0": 1780822682
       }
     },
     "bubblejail-config": {
       "origin": "bubblejail",
       "versions": {
-        "0.10.2-r0": 1775299166
+        "0.10.2-r0": 1775299166,
+        "0.10.3-r0": 1780822682
       },
       "dependencies": [
-        "bubblejail=0.10.2-r0",
+        "bubblejail=0.10.3-r0",
         "py3-qt6",
         "python3~3.14"
       ],
       "provides": [
-        "cmd:bubblejail-config=0.10.2-r0"
+        "cmd:bubblejail-config=0.10.3-r0"
       ]
     },
     "bubblejail-doc": {
       "origin": "bubblejail",
       "versions": {
-        "0.10.2-r0": 1775299166
+        "0.10.2-r0": 1775299166,
+        "0.10.3-r0": 1780822682
       }
     },
     "bubblejail-fish-completion": {
       "origin": "bubblejail",
       "versions": {
-        "0.10.2-r0": 1775299166
+        "0.10.2-r0": 1775299166,
+        "0.10.3-r0": 1780822682
       }
     },
     "bubblejail-pyc": {
       "origin": "bubblejail",
       "versions": {
-        "0.10.2-r0": 1775299166
+        "0.10.2-r0": 1775299166,
+        "0.10.3-r0": 1780822682
       },
       "dependencies": [
         "python3~3.14"
@@ -30766,13 +30774,14 @@
     "crane": {
       "origin": "crane",
       "versions": {
-        "0.21.5-r0": 1778915424
+        "0.21.5-r0": 1778915424,
+        "0.21.6-r0": 1780772297
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1"
       ],
       "provides": [
-        "cmd:crane=0.21.5-r0"
+        "cmd:crane=0.21.6-r0"
       ]
     },
     "crc32c": {
@@ -31884,7 +31893,8 @@
     "darkreader": {
       "origin": "darkreader",
       "versions": {
-        "4.9.125-r0": 1780080762
+        "4.9.125-r0": 1780080762,
+        "4.9.127-r0": 1780760350
       }
     },
     "darkstat": {
@@ -34655,11 +34665,12 @@
     "docker": {
       "origin": "docker",
       "versions": {
-        "29.5.2-r0": 1779325011
+        "29.5.2-r0": 1779325011,
+        "29.5.3-r0": 1780841676
       },
       "dependencies": [
-        "docker-engine=29.5.2-r0",
-        "docker-cli=29.5.2-r0",
+        "docker-engine=29.5.3-r0",
+        "docker-cli=29.5.3-r0",
         "docker-cli-buildx"
       ]
     },
@@ -34690,20 +34701,22 @@
     "docker-bash-completion": {
       "origin": "docker",
       "versions": {
-        "29.5.2-r0": 1779325011
+        "29.5.2-r0": 1779325011,
+        "29.5.3-r0": 1780841676
       }
     },
     "docker-cli": {
       "origin": "docker",
       "versions": {
-        "29.5.2-r0": 1779325011
+        "29.5.2-r0": 1779325011,
+        "29.5.3-r0": 1780841676
       },
       "dependencies": [
         "ca-certificates",
         "so:libc.musl-riscv64.so.1"
       ],
       "provides": [
-        "cmd:docker=29.5.2-r0"
+        "cmd:docker=29.5.3-r0"
       ]
     },
     "docker-cli-buildx": {
@@ -34732,13 +34745,15 @@
     "docker-doc": {
       "origin": "docker",
       "versions": {
-        "29.5.2-r0": 1779325011
+        "29.5.2-r0": 1779325011,
+        "29.5.3-r0": 1780841676
       }
     },
     "docker-engine": {
       "origin": "docker",
       "versions": {
-        "29.5.2-r0": 1779325011
+        "29.5.2-r0": 1779325011,
+        "29.5.3-r0": 1780841676
       },
       "dependencies": [
         "ca-certificates",
@@ -34750,21 +34765,23 @@
         "so:libnftables.so.1"
       ],
       "provides": [
-        "cmd:docker-init=29.5.2-r0",
-        "cmd:docker-proxy=29.5.2-r0",
-        "cmd:dockerd=29.5.2-r0"
+        "cmd:docker-init=29.5.3-r0",
+        "cmd:docker-proxy=29.5.3-r0",
+        "cmd:dockerd=29.5.3-r0"
       ]
     },
     "docker-fish-completion": {
       "origin": "docker",
       "versions": {
-        "29.5.2-r0": 1779325011
+        "29.5.2-r0": 1779325011,
+        "29.5.3-r0": 1780841676
       }
     },
     "docker-openrc": {
       "origin": "docker",
       "versions": {
-        "29.5.2-r0": 1779325011
+        "29.5.2-r0": 1779325011,
+        "29.5.3-r0": 1780841676
       },
       "dependencies": [
         "log_proxy"
@@ -34794,7 +34811,8 @@
     "docker-rootless-extras": {
       "origin": "docker",
       "versions": {
-        "29.5.2-r0": 1779325011
+        "29.5.2-r0": 1779325011,
+        "29.5.3-r0": 1780841676
       },
       "dependencies": [
         "docker",
@@ -34803,13 +34821,14 @@
         "fuse-overlayfs"
       ],
       "provides": [
-        "cmd:dockerd-rootless=29.5.2-r0"
+        "cmd:dockerd-rootless=29.5.3-r0"
       ]
     },
     "docker-rootless-extras-openrc": {
       "origin": "docker",
       "versions": {
-        "29.5.2-r0": 1779325011
+        "29.5.2-r0": 1779325011,
+        "29.5.3-r0": 1780841676
       },
       "dependencies": [
         "docker-rootless-extras"
@@ -34818,13 +34837,15 @@
     "docker-systemd": {
       "origin": "docker",
       "versions": {
-        "29.5.2-r0": 1779325011
+        "29.5.2-r0": 1779325011,
+        "29.5.3-r0": 1780841676
       }
     },
     "docker-zsh-completion": {
       "origin": "docker",
       "versions": {
-        "29.5.2-r0": 1779325011
+        "29.5.2-r0": 1779325011,
+        "29.5.3-r0": 1780841676
       }
     },
     "dockviz": {
@@ -46076,19 +46097,22 @@
     "fbida": {
       "origin": "fbida",
       "versions": {
-        "2.14-r7": 1780043171
+        "2.14-r7": 1780043171,
+        "2.15-r0": 1780769949
       }
     },
     "fbida-doc": {
       "origin": "fbida",
       "versions": {
-        "2.14-r7": 1780043171
+        "2.14-r7": 1780043171,
+        "2.15-r0": 1780769949
       }
     },
     "fbida-exiftran": {
       "origin": "fbida",
       "versions": {
-        "2.14-r7": 1780043171
+        "2.14-r7": 1780043171,
+        "2.15-r0": 1780769949
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1",
@@ -46097,48 +46121,52 @@
         "so:libpixman-1.so.0"
       ],
       "provides": [
-        "cmd:exiftran=2.14-r7"
+        "cmd:exiftran=2.15-r0"
       ]
     },
     "fbida-fbgs": {
       "origin": "fbida",
       "versions": {
-        "2.14-r7": 1780043171
+        "2.14-r7": 1780043171,
+        "2.15-r0": 1780769949
       },
       "dependencies": [
         "fbida-fbi",
         "ghostscript"
       ],
       "provides": [
-        "cmd:fbgs=2.14-r7"
+        "cmd:fbgs=2.15-r0"
       ]
     },
     "fbida-fbi": {
       "origin": "fbida",
       "versions": {
-        "2.14-r7": 1780043171
+        "2.14-r7": 1780043171,
+        "2.15-r0": 1780769949
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1",
+        "so:libcairo.so.2",
         "so:libdrm.so.2",
         "so:libexif.so.12",
-        "so:libfontconfig.so.1",
-        "so:libfreetype.so.6",
         "so:libgif.so.7",
+        "so:libinput.so.10",
         "so:libjpeg.so.8",
         "so:libpixman-1.so.0",
         "so:libpng16.so.16",
         "so:libtiff.so.6",
-        "so:libwebp.so.7"
+        "so:libudev.so.1",
+        "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:fbi=2.14-r7"
+        "cmd:fbi=2.15-r0"
       ]
     },
     "fbida-ida": {
       "origin": "fbida",
       "versions": {
-        "2.14-r7": 1780043171
+        "2.14-r7": 1780043171,
+        "2.15-r0": 1780769949
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -46152,11 +46180,10 @@
         "so:libjpeg.so.8",
         "so:libpixman-1.so.0",
         "so:libpng16.so.16",
-        "so:libtiff.so.6",
-        "so:libwebp.so.7"
+        "so:libtiff.so.6"
       ],
       "provides": [
-        "cmd:ida=2.14-r7"
+        "cmd:ida=2.15-r0"
       ]
     },
     "fbkeyboard": {
@@ -59121,34 +59148,38 @@
     "git-machete": {
       "origin": "git-machete",
       "versions": {
-        "3.39.0-r1": 1774640420
+        "3.39.0-r1": 1774640420,
+        "3.42.0-r0": 1780766666
       },
       "dependencies": [
         "python3",
         "python3~3.14"
       ],
       "provides": [
-        "cmd:git-machete=3.39.0-r1",
-        "py3.14:completion=3.39.0-r1",
-        "py3.14:git_machete=3.39.0-r1"
+        "cmd:git-machete=3.42.0-r0",
+        "py3.14:completion=3.42.0-r0",
+        "py3.14:git_machete=3.42.0-r0"
       ]
     },
     "git-machete-bash-completion": {
       "origin": "git-machete",
       "versions": {
-        "3.39.0-r1": 1774640420
+        "3.39.0-r1": 1774640420,
+        "3.42.0-r0": 1780766666
       }
     },
     "git-machete-fish-completion": {
       "origin": "git-machete",
       "versions": {
-        "3.39.0-r1": 1774640420
+        "3.39.0-r1": 1774640420,
+        "3.42.0-r0": 1780766666
       }
     },
     "git-machete-pyc": {
       "origin": "git-machete",
       "versions": {
-        "3.39.0-r1": 1774640420
+        "3.39.0-r1": 1774640420,
+        "3.42.0-r0": 1780766666
       },
       "dependencies": [
         "python3~3.14"
@@ -59157,7 +59188,8 @@
     "git-machete-zsh-completion": {
       "origin": "git-machete",
       "versions": {
-        "3.39.0-r1": 1774640420
+        "3.39.0-r1": 1774640420,
+        "3.42.0-r0": 1780766666
       }
     },
     "git-metafile": {
@@ -74495,7 +74527,8 @@
     "grommunio-admin-api": {
       "origin": "grommunio-admin-api",
       "versions": {
-        "1.17-r0": 1760941288
+        "1.17-r0": 1760941288,
+        "1.18-r0": 1780766267
       },
       "dependencies": [
         "grommunio-admin-common",
@@ -74523,26 +74556,29 @@
         "uwsgi-python3"
       ],
       "provides": [
-        "cmd:grommunio-admin=1.17-r0",
-        "cmd:rcctl=1.17-r0"
+        "cmd:grommunio-admin=1.18-r0",
+        "cmd:rcctl=1.18-r0"
       ]
     },
     "grommunio-admin-api-bash-completion": {
       "origin": "grommunio-admin-api",
       "versions": {
-        "1.17-r0": 1760941288
+        "1.17-r0": 1760941288,
+        "1.18-r0": 1780766267
       }
     },
     "grommunio-admin-api-doc": {
       "origin": "grommunio-admin-api",
       "versions": {
-        "1.17-r0": 1760941288
+        "1.17-r0": 1760941288,
+        "1.18-r0": 1780766267
       }
     },
     "grommunio-admin-api-openrc": {
       "origin": "grommunio-admin-api",
       "versions": {
-        "1.17-r0": 1760941288
+        "1.17-r0": 1760941288,
+        "1.18-r0": 1780766267
       }
     },
     "grommunio-admin-common": {
@@ -74562,7 +74598,8 @@
     "grommunio-admin-web": {
       "origin": "grommunio-admin-web",
       "versions": {
-        "4.0.0-r0": 1778532843
+        "4.0.0-r0": 1778532843,
+        "4.1.0-r0": 1780766405
       },
       "dependencies": [
         "grommunio-admin-api",
@@ -74572,46 +74609,51 @@
     "grommunio-admin-web-doc": {
       "origin": "grommunio-admin-web",
       "versions": {
-        "4.0.0-r0": 1778532843
+        "4.0.0-r0": 1778532843,
+        "4.1.0-r0": 1780766405
       }
     },
     "grommunio-common": {
       "origin": "grommunio-common",
       "versions": {
-        "1.0-r3": 1760941288
+        "1.0-r3": 1760941288,
+        "29-r0": 1780766218
       }
     },
     "grommunio-common-openrc": {
       "origin": "grommunio-common",
       "versions": {
-        "1.0-r3": 1760941288
+        "1.0-r3": 1760941288,
+        "29-r0": 1780766218
       }
     },
     "grommunio-dav": {
       "origin": "grommunio-dav",
       "versions": {
-        "1.5-r0": 1760941288
+        "1.5-r0": 1760941288,
+        "1.6-r0": 1780761525
       },
       "dependencies": [
         "grommunio-gromox",
         "grommunio-mapi-header-php",
-        "php83",
-        "php83-ctype",
-        "php83-curl",
-        "php83-dom",
-        "php83-iconv",
-        "php83-mbstring",
-        "php83-pdo_sqlite",
-        "php83-xml",
-        "php83-xmlreader",
-        "php83-xmlwriter",
+        "php84",
+        "php84-ctype",
+        "php84-curl",
+        "php84-dom",
+        "php84-iconv",
+        "php84-mbstring",
+        "php84-pdo_sqlite",
+        "php84-xml",
+        "php84-xmlreader",
+        "php84-xmlwriter",
         "/bin/sh"
       ]
     },
     "grommunio-dav-doc": {
       "origin": "grommunio-dav",
       "versions": {
-        "1.5-r0": 1760941288
+        "1.5-r0": 1760941288,
+        "1.6-r0": 1780761525
       }
     },
     "grommunio-error-pages": {
@@ -74776,63 +74818,68 @@
     "grommunio-mapi-header-php": {
       "origin": "grommunio-mapi-header-php",
       "versions": {
-        "1.6-r0": 1760941288
+        "1.6-r0": 1760941288,
+        "2.1-r0": 1780761861
       }
     },
     "grommunio-sync": {
       "origin": "grommunio-sync",
       "versions": {
-        "2.2-r0": 1760941288
+        "2.2-r0": 1760941288,
+        "2.4-r0": 1780761672
       },
       "dependencies": [
         "grommunio-gromox",
         "grommunio-mapi-header-php",
-        "php83",
-        "php83-curl",
-        "php83-gettext",
-        "php83-iconv",
-        "php83-intl",
-        "php83-json",
-        "php83-mbstring",
-        "php83-openssl",
-        "php83-pecl-redis",
-        "php83-pdo_sqlite",
-        "php83-posix",
-        "php83-session",
-        "php83-simplexml",
-        "php83-soap",
+        "php84",
+        "php84-curl",
+        "php84-gettext",
+        "php84-iconv",
+        "php84-intl",
+        "php84-json",
+        "php84-mbstring",
+        "php84-openssl",
+        "php84-pecl-redis",
+        "php84-pdo_sqlite",
+        "php84-posix",
+        "php84-session",
+        "php84-simplexml",
+        "php84-soap",
         "/bin/sh"
       ]
     },
     "grommunio-sync-doc": {
       "origin": "grommunio-sync",
       "versions": {
-        "2.2-r0": 1760941288
+        "2.2-r0": 1760941288,
+        "2.4-r0": 1780761672
       }
     },
     "grommunio-web": {
       "origin": "grommunio-web",
       "versions": {
-        "3.14-r0": 1762353509
+        "3.14-r0": 1762353509,
+        "3.17-r0": 1780761756
       },
       "dependencies": [
         "grommunio-gromox",
         "grommunio-mapi-header-php",
-        "php83",
-        "php83-bcmath",
-        "php83-ctype",
-        "php83-curl",
-        "php83-dom",
-        "php83-gd",
-        "php83-gettext",
-        "php83-mbstring",
-        "php83-openssl",
-        "php83-session",
-        "php83-simplexml",
-        "php83-sodium",
-        "php83-sqlite3",
-        "php83-sysvshm",
-        "php83-zip",
+        "mailcap",
+        "php84",
+        "php84-bcmath",
+        "php84-ctype",
+        "php84-curl",
+        "php84-dom",
+        "php84-gd",
+        "php84-gettext",
+        "php84-mbstring",
+        "php84-openssl",
+        "php84-session",
+        "php84-simplexml",
+        "php84-sodium",
+        "php84-sqlite3",
+        "php84-sysvshm",
+        "php84-zip",
         "/bin/sh"
       ]
     },
@@ -85838,7 +85885,8 @@
     "inspircd": {
       "origin": "inspircd",
       "versions": {
-        "4.10.1-r0": 1779931235
+        "4.10.1-r0": 1779931235,
+        "4.11.0-r0": 1780767188
       },
       "dependencies": [
         "/bin/sh",
@@ -85859,20 +85907,22 @@
         "so:libyyjson.so.0"
       ],
       "provides": [
-        "cmd:inspircd-testssl=4.10.1-r0",
-        "cmd:inspircd=4.10.1-r0"
+        "cmd:inspircd-testssl=4.11.0-r0",
+        "cmd:inspircd=4.11.0-r0"
       ]
     },
     "inspircd-doc": {
       "origin": "inspircd",
       "versions": {
-        "4.10.1-r0": 1779931235
+        "4.10.1-r0": 1779931235,
+        "4.11.0-r0": 1780767188
       }
     },
     "inspircd-openrc": {
       "origin": "inspircd",
       "versions": {
-        "4.10.1-r0": 1779931235
+        "4.10.1-r0": 1779931235,
+        "4.11.0-r0": 1780767188
       }
     },
     "install-makedepends": {
@@ -86395,7 +86445,8 @@
     "ipython": {
       "origin": "ipython",
       "versions": {
-        "9.12.0-r0": 1776899263
+        "9.12.0-r0": 1776899263,
+        "9.14.1-r0": 1780812548
       },
       "dependencies": [
         "py3-backcall",
@@ -86411,21 +86462,23 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:ipython3=9.12.0-r0",
-        "cmd:ipython=9.12.0-r0",
-        "py3.14:IPython=9.12.0-r0"
+        "cmd:ipython3=9.14.1-r0",
+        "cmd:ipython=9.14.1-r0",
+        "py3.14:IPython=9.14.1-r0"
       ]
     },
     "ipython-doc": {
       "origin": "ipython",
       "versions": {
-        "9.12.0-r0": 1776899263
+        "9.12.0-r0": 1776899263,
+        "9.14.1-r0": 1780812548
       }
     },
     "ipython-pyc": {
       "origin": "ipython",
       "versions": {
-        "9.12.0-r0": 1776899263
+        "9.12.0-r0": 1776899263,
+        "9.14.1-r0": 1780812548
       },
       "dependencies": [
         "python3~3.14"
@@ -88302,7 +88355,8 @@
     "jujutsu": {
       "origin": "jujutsu",
       "versions": {
-        "0.40.0-r0": 1775786390
+        "0.40.0-r0": 1775786390,
+        "0.42.0-r0": 1780825161
       },
       "dependencies": [
         "git",
@@ -88310,31 +88364,35 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:jj=0.40.0-r0"
+        "cmd:jj=0.42.0-r0"
       ]
     },
     "jujutsu-bash-completion": {
       "origin": "jujutsu",
       "versions": {
-        "0.40.0-r0": 1775786390
+        "0.40.0-r0": 1775786390,
+        "0.42.0-r0": 1780825161
       }
     },
     "jujutsu-doc": {
       "origin": "jujutsu",
       "versions": {
-        "0.40.0-r0": 1775786390
+        "0.40.0-r0": 1775786390,
+        "0.42.0-r0": 1780825161
       }
     },
     "jujutsu-fish-completion": {
       "origin": "jujutsu",
       "versions": {
-        "0.40.0-r0": 1775786390
+        "0.40.0-r0": 1775786390,
+        "0.42.0-r0": 1780825161
       }
     },
     "jujutsu-zsh-completion": {
       "origin": "jujutsu",
       "versions": {
-        "0.40.0-r0": 1775786390
+        "0.40.0-r0": 1775786390,
+        "0.42.0-r0": 1780825161
       }
     },
     "juk": {
@@ -89341,31 +89399,35 @@
     "kapp": {
       "origin": "kapp",
       "versions": {
-        "0.65.1-r3": 1778661427
+        "0.65.1-r3": 1778661427,
+        "0.66.0-r0": 1780804904
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1"
       ],
       "provides": [
-        "cmd:kapp=0.65.1-r3"
+        "cmd:kapp=0.66.0-r0"
       ]
     },
     "kapp-bash-completion": {
       "origin": "kapp",
       "versions": {
-        "0.65.1-r3": 1778661427
+        "0.65.1-r3": 1778661427,
+        "0.66.0-r0": 1780804904
       }
     },
     "kapp-fish-completion": {
       "origin": "kapp",
       "versions": {
-        "0.65.1-r3": 1778661427
+        "0.65.1-r3": 1778661427,
+        "0.66.0-r0": 1780804904
       }
     },
     "kapp-zsh-completion": {
       "origin": "kapp",
       "versions": {
-        "0.65.1-r3": 1778661427
+        "0.65.1-r3": 1778661427,
+        "0.66.0-r0": 1780804904
       }
     },
     "kapptemplate": {
@@ -102894,7 +102956,8 @@
     "lagrange": {
       "origin": "lagrange",
       "versions": {
-        "1.20.5-r0": 1778079696
+        "1.20.5-r0": 1778079696,
+        "1.20.6-r0": 1780837048
       },
       "dependencies": [
         "so:libSDL2-2.0.so.0",
@@ -102912,24 +102975,26 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:clagrange=1.20.5-r0",
-        "cmd:lagrange=1.20.5-r0"
+        "cmd:clagrange=1.20.6-r0",
+        "cmd:lagrange=1.20.6-r0"
       ]
     },
     "lagrange-dbg": {
       "origin": "lagrange",
       "versions": {
-        "1.20.5-r0": 1778079696
+        "1.20.5-r0": 1778079696,
+        "1.20.6-r0": 1780837048
       },
       "dependencies": [
-        "!lagrange<1.20.5-r0",
-        "!lagrange>1.20.5-r0"
+        "!lagrange<1.20.6-r0",
+        "!lagrange>1.20.6-r0"
       ]
     },
     "lagrange-doc": {
       "origin": "lagrange",
       "versions": {
-        "1.20.5-r0": 1778079696
+        "1.20.5-r0": 1778079696,
+        "1.20.6-r0": 1780837048
       }
     },
     "laminar": {
@@ -126085,7 +126150,8 @@
     "livi": {
       "origin": "livi",
       "versions": {
-        "0.4.0-r0": 1770850967
+        "0.4.0-r0": 1770850967,
+        "0.5.0-r0": 1780830494
       },
       "dependencies": [
         "so:libadwaita-1.so.0",
@@ -126100,16 +126166,18 @@
         "so:libgstreamer-1.0.so.0",
         "so:libgstvideo-1.0.so.0",
         "so:libgtk-4.so.1",
-        "so:libintl.so.8"
+        "so:libintl.so.8",
+        "so:libwayland-client.so.0"
       ],
       "provides": [
-        "cmd:livi=0.4.0-r0"
+        "cmd:livi=0.5.0-r0"
       ]
     },
     "livi-lang": {
       "origin": "livi",
       "versions": {
-        "0.4.0-r0": 1770850967
+        "0.4.0-r0": 1770850967,
+        "0.5.0-r0": 1780830494
       }
     },
     "lld18": {
@@ -133278,7 +133346,8 @@
       "origin": "mangowm",
       "versions": {
         "0.14.0-r0": 1780098763,
-        "0.14.1-r0": 1780747291
+        "0.14.1-r0": 1780747291,
+        "0.14.2-r0": 1780771969
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1",
@@ -133294,15 +133363,16 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "mangowc=0.14.1-r0",
-        "cmd:mango=0.14.1-r0",
-        "cmd:mmsg=0.14.1-r0"
+        "mangowc=0.14.2-r0",
+        "cmd:mango=0.14.2-r0",
+        "cmd:mmsg=0.14.2-r0"
       ]
     },
     "manticore": {
       "origin": "manticore",
       "versions": {
-        "7.4.6-r3": 1778101278
+        "7.4.6-r3": 1778101278,
+        "17.5.1-r0": 1780760400
       },
       "dependencies": [
         "/bin/sh",
@@ -133316,13 +133386,14 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:searchd=7.4.6-r3"
+        "cmd:searchd=17.5.1-r0"
       ]
     },
     "manticore-converter": {
       "origin": "manticore",
       "versions": {
-        "7.4.6-r3": 1778101278
+        "7.4.6-r3": 1778101278,
+        "17.5.1-r0": 1780760400
       },
       "dependencies": [
         "so:libboost_context.so.1.84.0",
@@ -133334,31 +133405,35 @@
         "so:libstemmer.so.2"
       ],
       "provides": [
-        "cmd:index_converter=7.4.6-r3"
+        "cmd:index_converter=17.5.1-r0"
       ]
     },
     "manticore-dev": {
       "origin": "manticore",
       "versions": {
-        "7.4.6-r3": 1778101278
+        "7.4.6-r3": 1778101278,
+        "17.5.1-r0": 1780760400
       }
     },
     "manticore-doc": {
       "origin": "manticore",
       "versions": {
-        "7.4.6-r3": 1778101278
+        "7.4.6-r3": 1778101278,
+        "17.5.1-r0": 1780760400
       }
     },
     "manticore-openrc": {
       "origin": "manticore",
       "versions": {
-        "7.4.6-r3": 1778101278
+        "7.4.6-r3": 1778101278,
+        "17.5.1-r0": 1780760400
       }
     },
     "manticore-tools": {
       "origin": "manticore",
       "versions": {
-        "7.4.6-r3": 1778101278
+        "7.4.6-r3": 1778101278,
+        "17.5.1-r0": 1780760400
       },
       "dependencies": [
         "so:libboost_context.so.1.84.0",
@@ -133371,10 +133446,10 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:indexer=7.4.6-r3",
-        "cmd:indextool=7.4.6-r3",
-        "cmd:spelldump=7.4.6-r3",
-        "cmd:wordbreaker=7.4.6-r3"
+        "cmd:indexer=17.5.1-r0",
+        "cmd:indextool=17.5.1-r0",
+        "cmd:spelldump=17.5.1-r0",
+        "cmd:wordbreaker=17.5.1-r0"
       ]
     },
     "manuals": {
@@ -140833,7 +140908,8 @@
     "mu": {
       "origin": "mu",
       "versions": {
-        "1.14.1-r0": 1777564384
+        "1.14.1-r0": 1777564384,
+        "1.14.1-r1": 1780845205
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1",
@@ -140844,25 +140920,27 @@
         "so:libgobject-2.0.so.0",
         "so:libreadline.so.8",
         "so:libstdc++.so.6",
-        "so:libxapian.so.30"
+        "so:libxapian.so.45"
       ],
       "provides": [
-        "cmd:mu=1.14.1-r0"
+        "cmd:mu=1.14.1-r1"
       ]
     },
     "mu-doc": {
       "origin": "mu",
       "versions": {
-        "1.14.1-r0": 1777564384
+        "1.14.1-r0": 1777564384,
+        "1.14.1-r1": 1780845205
       }
     },
     "mu4e": {
       "origin": "mu",
       "versions": {
-        "1.14.1-r0": 1777564384
+        "1.14.1-r0": 1777564384,
+        "1.14.1-r1": 1780845205
       },
       "dependencies": [
-        "mu=1.14.1-r0",
+        "mu=1.14.1-r1",
         "cmd:emacs"
       ]
     },
@@ -143357,7 +143435,8 @@
     "netbird": {
       "origin": "netbird",
       "versions": {
-        "0.71.2-r0": 1779323460
+        "0.71.2-r0": 1779323460,
+        "0.72.2-r0": 1780808880
       },
       "dependencies": [
         "openresolv",
@@ -143365,94 +143444,105 @@
         "so:libc.musl-riscv64.so.1"
       ],
       "provides": [
-        "cmd:netbird=0.71.2-r0"
+        "cmd:netbird=0.72.2-r0"
       ]
     },
     "netbird-bash-completion": {
       "origin": "netbird",
       "versions": {
-        "0.71.2-r0": 1779323460
+        "0.71.2-r0": 1779323460,
+        "0.72.2-r0": 1780808880
       }
     },
     "netbird-doc": {
       "origin": "netbird",
       "versions": {
-        "0.71.2-r0": 1779323460
+        "0.71.2-r0": 1779323460,
+        "0.72.2-r0": 1780808880
       }
     },
     "netbird-fish-completion": {
       "origin": "netbird",
       "versions": {
-        "0.71.2-r0": 1779323460
+        "0.71.2-r0": 1779323460,
+        "0.72.2-r0": 1780808880
       }
     },
     "netbird-mgmt": {
       "origin": "netbird",
       "versions": {
-        "0.71.2-r0": 1779323460
+        "0.71.2-r0": 1779323460,
+        "0.72.2-r0": 1780808880
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-riscv64.so.1"
       ],
       "provides": [
-        "cmd:netbird-mgmt=0.71.2-r0"
+        "cmd:netbird-mgmt=0.72.2-r0"
       ]
     },
     "netbird-mgmt-openrc": {
       "origin": "netbird",
       "versions": {
-        "0.71.2-r0": 1779323460
+        "0.71.2-r0": 1779323460,
+        "0.72.2-r0": 1780808880
       }
     },
     "netbird-openrc": {
       "origin": "netbird",
       "versions": {
-        "0.71.2-r0": 1779323460
+        "0.71.2-r0": 1779323460,
+        "0.72.2-r0": 1780808880
       }
     },
     "netbird-relay": {
       "origin": "netbird",
       "versions": {
-        "0.71.2-r0": 1779323460
+        "0.71.2-r0": 1779323460,
+        "0.72.2-r0": 1780808880
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-riscv64.so.1"
       ],
       "provides": [
-        "cmd:netbird-relay=0.71.2-r0"
+        "cmd:netbird-relay=0.72.2-r0"
       ]
     },
     "netbird-relay-openrc": {
       "origin": "netbird",
       "versions": {
-        "0.71.2-r0": 1779323460
+        "0.71.2-r0": 1779323460,
+        "0.72.2-r0": 1780808880
       }
     },
     "netbird-signal": {
       "origin": "netbird",
       "versions": {
-        "0.71.2-r0": 1779323460
+        "0.71.2-r0": 1779323460,
+        "0.72.2-r0": 1780808880
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-riscv64.so.1"
       ],
       "provides": [
-        "cmd:netbird-signal=0.71.2-r0"
+        "cmd:netbird-signal=0.72.2-r0"
       ]
     },
     "netbird-signal-openrc": {
       "origin": "netbird",
       "versions": {
-        "0.71.2-r0": 1779323460
+        "0.71.2-r0": 1779323460,
+        "0.72.2-r0": 1780808880
       }
     },
     "netbird-ui": {
       "origin": "netbird",
       "versions": {
-        "0.71.2-r0": 1779323460
+        "0.71.2-r0": 1779323460,
+        "0.72.2-r0": 1780808880
       },
       "dependencies": [
         "openresolv",
@@ -143461,13 +143551,14 @@
         "so:libwayland-client.so.0"
       ],
       "provides": [
-        "cmd:netbird-ui=0.71.2-r0"
+        "cmd:netbird-ui=0.72.2-r0"
       ]
     },
     "netbird-zsh-completion": {
       "origin": "netbird",
       "versions": {
-        "0.71.2-r0": 1779323460
+        "0.71.2-r0": 1779323460,
+        "0.72.2-r0": 1780808880
       }
     },
     "netcdf": {
@@ -145895,42 +145986,46 @@
     "nextvi": {
       "origin": "nextvi",
       "versions": {
-        "5.2-r0": 1778746409
+        "5.2-r0": 1778746409,
+        "5.3-r0": 1780772732
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1"
       ],
       "provides": [
-        "cmd:nextvi=5.2-r0"
+        "cmd:nextvi=5.3-r0"
       ]
     },
     "nextvi-doc": {
       "origin": "nextvi",
       "versions": {
-        "5.2-r0": 1778746409
+        "5.2-r0": 1778746409,
+        "5.3-r0": 1780772732
       }
     },
     "nextvi-vi": {
       "origin": "nextvi",
       "versions": {
-        "5.2-r0": 1778746409
+        "5.2-r0": 1778746409,
+        "5.3-r0": 1780772732
       },
       "dependencies": [
-        "nextvi=5.2-r0",
-        "nextvi=5.2-r0"
+        "nextvi=5.3-r0",
+        "nextvi=5.3-r0"
       ],
       "provides": [
-        "cmd:vi=5.2-r0"
+        "cmd:vi=5.3-r0"
       ]
     },
     "nextvi-vi-doc": {
       "origin": "nextvi",
       "versions": {
-        "5.2-r0": 1778746409
+        "5.2-r0": 1778746409,
+        "5.3-r0": 1780772732
       },
       "dependencies": [
-        "nextvi-doc=5.2-r0",
-        "nextvi-doc=5.2-r0"
+        "nextvi-doc=5.3-r0",
+        "nextvi-doc=5.3-r0"
       ]
     },
     "nfpm": {
@@ -161499,7 +161594,8 @@
     "perl-http-xsheaders": {
       "origin": "perl-http-xsheaders",
       "versions": {
-        "0.500000-r1": 1771160091
+        "0.500000-r1": 1771160091,
+        "1.000001-r0": 1780814348
       },
       "dependencies": [
         "perl",
@@ -161511,7 +161607,8 @@
     "perl-http-xsheaders-doc": {
       "origin": "perl-http-xsheaders",
       "versions": {
-        "0.500000-r1": 1771160091
+        "0.500000-r1": 1771160091,
+        "1.000001-r0": 1780814348
       }
     },
     "perl-ima-dbi": {
@@ -163631,7 +163728,8 @@
     "perl-net-dns-sec": {
       "origin": "perl-net-dns-sec",
       "versions": {
-        "1.26-r1": 1751254741
+        "1.26-r1": 1751254741,
+        "1.27-r0": 1780836112
       },
       "dependencies": [
         "perl",
@@ -163643,7 +163741,8 @@
     "perl-net-dns-sec-doc": {
       "origin": "perl-net-dns-sec",
       "versions": {
-        "1.26-r1": 1751254741
+        "1.26-r1": 1751254741,
+        "1.27-r0": 1780836112
       }
     },
     "perl-net-domain-tld": {
@@ -168778,7 +168877,8 @@
     "pgcli": {
       "origin": "pgcli",
       "versions": {
-        "4.4.0-r2": 1774640382
+        "4.4.0-r2": 1774640382,
+        "4.5.0-r0": 1780833082
       },
       "dependencies": [
         "python3",
@@ -168801,14 +168901,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:pgcli=4.4.0-r2",
-        "py3.14:pgcli=4.4.0-r2"
+        "cmd:pgcli=4.5.0-r0",
+        "py3.14:pgcli=4.5.0-r0"
       ]
     },
     "pgcli-pyc": {
       "origin": "pgcli",
       "versions": {
-        "4.4.0-r2": 1774640382
+        "4.4.0-r2": 1774640382,
+        "4.5.0-r0": 1780833082
       },
       "dependencies": [
         "python3~3.14"
@@ -181102,7 +181203,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "/bin/sh",
@@ -181113,29 +181215,32 @@
         "so:libpcre2-posix.so.3"
       ],
       "provides": [
-        "cmd:auth-otp=1.3.9b-r0",
-        "cmd:proftpd=1.3.9b-r0"
+        "cmd:auth-otp=1.3.9b-r1",
+        "cmd:proftpd=1.3.9b-r1"
       ]
     },
     "proftpd-doc": {
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       }
     },
     "proftpd-lang": {
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       }
     },
     "proftpd-mod_auth_otp": {
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181147,7 +181252,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181158,7 +181264,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181169,7 +181276,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181180,7 +181288,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181192,7 +181301,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181203,7 +181313,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181214,7 +181325,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181225,7 +181337,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181237,7 +181350,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181248,7 +181362,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181259,7 +181374,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181271,7 +181387,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181284,7 +181401,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181295,7 +181413,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181307,7 +181426,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181318,7 +181438,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181330,7 +181451,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181342,7 +181464,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181354,7 +181477,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181366,7 +181490,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181377,7 +181502,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181388,7 +181514,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181399,7 +181526,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181410,7 +181538,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181421,7 +181550,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181435,7 +181565,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181447,7 +181578,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181458,7 +181590,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181469,7 +181602,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181480,7 +181614,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181491,7 +181626,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181504,7 +181640,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181517,7 +181654,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181531,7 +181669,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181544,7 +181683,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181557,7 +181697,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181570,7 +181711,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181582,7 +181724,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181594,7 +181737,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181606,7 +181750,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181617,7 +181762,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181628,7 +181774,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181639,7 +181786,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181651,7 +181799,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181663,7 +181812,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181675,14 +181825,16 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       }
     },
     "proftpd-utils": {
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -181691,16 +181843,16 @@
         "so:libncursesw.so.6"
       ],
       "provides": [
-        "cmd:ftpasswd=1.3.9b-r0",
-        "cmd:ftpcount=1.3.9b-r0",
-        "cmd:ftpdctl=1.3.9b-r0",
-        "cmd:ftpmail=1.3.9b-r0",
-        "cmd:ftpquota=1.3.9b-r0",
-        "cmd:ftpscrub=1.3.9b-r0",
-        "cmd:ftpshut=1.3.9b-r0",
-        "cmd:ftptop=1.3.9b-r0",
-        "cmd:ftpwho=1.3.9b-r0",
-        "cmd:prxs=1.3.9b-r0"
+        "cmd:ftpasswd=1.3.9b-r1",
+        "cmd:ftpcount=1.3.9b-r1",
+        "cmd:ftpdctl=1.3.9b-r1",
+        "cmd:ftpmail=1.3.9b-r1",
+        "cmd:ftpquota=1.3.9b-r1",
+        "cmd:ftpscrub=1.3.9b-r1",
+        "cmd:ftpshut=1.3.9b-r1",
+        "cmd:ftptop=1.3.9b-r1",
+        "cmd:ftpwho=1.3.9b-r1",
+        "cmd:prxs=1.3.9b-r1"
       ]
     },
     "progress": {
@@ -204897,36 +205049,39 @@
     "py3-psycopg": {
       "origin": "py3-psycopg",
       "versions": {
-        "3.3.3-r1": 1774640382
+        "3.3.3-r1": 1774640382,
+        "3.3.4-r0": 1780832903
       },
       "dependencies": [
         "py3-typing-extensions",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:psycopg=3.3.3-r1",
-        "py3.14:psycopg_pool=3.3.3-r1"
+        "py3.14:psycopg=3.3.4-r0",
+        "py3.14:psycopg_pool=3.3.4-r0"
       ]
     },
     "py3-psycopg-c": {
       "origin": "py3-psycopg",
       "versions": {
-        "3.3.3-r1": 1774640382
+        "3.3.3-r1": 1774640382,
+        "3.3.4-r0": 1780832903
       },
       "dependencies": [
-        "py3-psycopg=3.3.3-r1",
+        "py3-psycopg=3.3.4-r0",
         "python3~3.14",
         "so:libc.musl-riscv64.so.1",
         "so:libpq.so.5"
       ],
       "provides": [
-        "py3.14:psycopg_c=3.3.3-r1"
+        "py3.14:psycopg_c=3.3.4-r0"
       ]
     },
     "py3-psycopg-c-pyc": {
       "origin": "py3-psycopg",
       "versions": {
-        "3.3.3-r1": 1774640382
+        "3.3.3-r1": 1774640382,
+        "3.3.4-r0": 1780832903
       },
       "dependencies": [
         "py3-typing-extensions",
@@ -204958,7 +205113,8 @@
     "py3-psycopg-pyc": {
       "origin": "py3-psycopg",
       "versions": {
-        "3.3.3-r1": 1774640382
+        "3.3.3-r1": 1774640382,
+        "3.3.4-r0": 1780832903
       },
       "dependencies": [
         "python3~3.14"
@@ -218107,7 +218263,8 @@
     "py3-ytmusicapi": {
       "origin": "py3-ytmusicapi",
       "versions": {
-        "1.12.0-r0": 1777616076
+        "1.12.0-r0": 1777616076,
+        "1.12.1-r0": 1780824528
       },
       "dependencies": [
         "py3-setuptools",
@@ -218115,14 +218272,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:ytmusicapi=1.12.0-r0",
-        "py3.14:ytmusicapi=1.12.0-r0"
+        "cmd:ytmusicapi=1.12.1-r0",
+        "py3.14:ytmusicapi=1.12.1-r0"
       ]
     },
     "py3-ytmusicapi-pyc": {
       "origin": "py3-ytmusicapi",
       "versions": {
-        "1.12.0-r0": 1777616076
+        "1.12.0-r0": 1777616076,
+        "1.12.1-r0": 1780824528
       },
       "dependencies": [
         "python3~3.14"
@@ -227363,7 +227521,8 @@
     "raku-sparrow6": {
       "origin": "raku-sparrow6",
       "versions": {
-        "0.0.93-r0": 1780012024
+        "0.0.93-r0": 1780012024,
+        "0.0.93-r1": 1780824370
       },
       "dependencies": [
         "bash",
@@ -227376,13 +227535,14 @@
         "raku-yamlish"
       ],
       "provides": [
-        "cmd:s6=0.0.93-r0"
+        "cmd:s6=0.0.93-r1"
       ]
     },
     "raku-sparrow6-doc": {
       "origin": "raku-sparrow6",
       "versions": {
-        "0.0.93-r0": 1780012024
+        "0.0.93-r0": 1780012024,
+        "0.0.93-r1": 1780824370
       }
     },
     "raku-system-query": {
@@ -240661,19 +240821,21 @@
     "snooze": {
       "origin": "snooze",
       "versions": {
-        "0.5.1-r0": 1759531008
+        "0.5.1-r0": 1759531008,
+        "0.5.1-r1": 1780766956
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1"
       ],
       "provides": [
-        "cmd:snooze=0.5.1-r0"
+        "cmd:snooze=0.5.1-r1"
       ]
     },
     "snooze-doc": {
       "origin": "snooze",
       "versions": {
-        "0.5.1-r0": 1759531008
+        "0.5.1-r0": 1759531008,
+        "0.5.1-r1": 1780766956
       }
     },
     "snowflake": {
@@ -246232,7 +246394,8 @@
     "synapse": {
       "origin": "synapse",
       "versions": {
-        "1.153.0-r0": 1779281614
+        "1.153.0-r0": 1779281614,
+        "1.154.0-r0": 1780766819
       },
       "dependencies": [
         "python3",
@@ -246284,31 +246447,33 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:export_signing_key=1.153.0-r0",
-        "cmd:generate_config=1.153.0-r0",
-        "cmd:generate_log_config=1.153.0-r0",
-        "cmd:generate_signing_key=1.153.0-r0",
-        "cmd:hash_password=1.153.0-r0",
-        "cmd:register_new_matrix_user=1.153.0-r0",
-        "cmd:synapse_homeserver=1.153.0-r0",
-        "cmd:synapse_port_db=1.153.0-r0",
-        "cmd:synapse_review_recent_signups=1.153.0-r0",
-        "cmd:synapse_worker=1.153.0-r0",
-        "cmd:synctl=1.153.0-r0",
-        "cmd:update_synapse_database=1.153.0-r0",
-        "py3.14:synapse=1.153.0-r0"
+        "cmd:export_signing_key=1.154.0-r0",
+        "cmd:generate_config=1.154.0-r0",
+        "cmd:generate_log_config=1.154.0-r0",
+        "cmd:generate_signing_key=1.154.0-r0",
+        "cmd:hash_password=1.154.0-r0",
+        "cmd:register_new_matrix_user=1.154.0-r0",
+        "cmd:synapse_homeserver=1.154.0-r0",
+        "cmd:synapse_port_db=1.154.0-r0",
+        "cmd:synapse_review_recent_signups=1.154.0-r0",
+        "cmd:synapse_worker=1.154.0-r0",
+        "cmd:synctl=1.154.0-r0",
+        "cmd:update_synapse_database=1.154.0-r0",
+        "py3.14:synapse=1.154.0-r0"
       ]
     },
     "synapse-openrc": {
       "origin": "synapse",
       "versions": {
-        "1.153.0-r0": 1779281614
+        "1.153.0-r0": 1779281614,
+        "1.154.0-r0": 1780766819
       }
     },
     "synapse-pyc": {
       "origin": "synapse",
       "versions": {
-        "1.153.0-r0": 1779281614
+        "1.153.0-r0": 1779281614,
+        "1.154.0-r0": 1780766819
       },
       "dependencies": [
         "python3~3.14"
@@ -252865,7 +253030,8 @@
     "tmuxinator": {
       "origin": "tmuxinator",
       "versions": {
-        "3.3.7-r0": 1765048253
+        "3.3.7-r0": 1765048253,
+        "3.4.0-r0": 1780770367
       },
       "dependencies": [
         "tmux",
@@ -252874,25 +253040,28 @@
         "ruby-thor"
       ],
       "provides": [
-        "cmd:tmuxinator=3.3.7-r0"
+        "cmd:tmuxinator=3.4.0-r0"
       ]
     },
     "tmuxinator-bash-completion": {
       "origin": "tmuxinator",
       "versions": {
-        "3.3.7-r0": 1765048253
+        "3.3.7-r0": 1765048253,
+        "3.4.0-r0": 1780770367
       }
     },
     "tmuxinator-fish-completion": {
       "origin": "tmuxinator",
       "versions": {
-        "3.3.7-r0": 1765048253
+        "3.3.7-r0": 1765048253,
+        "3.4.0-r0": 1780770367
       }
     },
     "tmuxinator-zsh-completion": {
       "origin": "tmuxinator",
       "versions": {
-        "3.3.7-r0": 1765048253
+        "3.3.7-r0": 1765048253,
+        "3.4.0-r0": 1780770367
       }
     },
     "todo.txt-cli": {
@@ -262562,7 +262731,8 @@
     "weechat": {
       "origin": "weechat",
       "versions": {
-        "4.9.1-r0": 1780324916
+        "4.9.1-r0": 1780324916,
+        "4.9.2-r0": 1780845405
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1",
@@ -262576,15 +262746,16 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:weechat-curses=4.9.1-r0",
-        "cmd:weechat-headless=4.9.1-r0",
-        "cmd:weechat=4.9.1-r0"
+        "cmd:weechat-curses=4.9.2-r0",
+        "cmd:weechat-headless=4.9.2-r0",
+        "cmd:weechat=4.9.2-r0"
       ]
     },
     "weechat-dev": {
       "origin": "weechat",
       "versions": {
-        "4.9.1-r0": 1780324916
+        "4.9.1-r0": 1780324916,
+        "4.9.2-r0": 1780845405
       },
       "dependencies": [
         "aspell-dev",
@@ -262602,25 +262773,28 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:weechat=4.9.1"
+        "pc:weechat=4.9.2"
       ]
     },
     "weechat-doc": {
       "origin": "weechat",
       "versions": {
-        "4.9.1-r0": 1780324916
+        "4.9.1-r0": 1780324916,
+        "4.9.2-r0": 1780845405
       }
     },
     "weechat-lang": {
       "origin": "weechat",
       "versions": {
-        "4.9.1-r0": 1780324916
+        "4.9.1-r0": 1780324916,
+        "4.9.2-r0": 1780845405
       }
     },
     "weechat-lua": {
       "origin": "weechat",
       "versions": {
-        "4.9.1-r0": 1780324916
+        "4.9.1-r0": 1780324916,
+        "4.9.2-r0": 1780845405
       },
       "dependencies": [
         "weechat",
@@ -262673,7 +262847,8 @@
     "weechat-perl": {
       "origin": "weechat",
       "versions": {
-        "4.9.1-r0": 1780324916
+        "4.9.1-r0": 1780324916,
+        "4.9.2-r0": 1780845405
       },
       "dependencies": [
         "weechat",
@@ -262685,7 +262860,8 @@
     "weechat-python": {
       "origin": "weechat",
       "versions": {
-        "4.9.1-r0": 1780324916
+        "4.9.1-r0": 1780324916,
+        "4.9.2-r0": 1780845405
       },
       "dependencies": [
         "weechat",
@@ -262696,7 +262872,8 @@
     "weechat-spell": {
       "origin": "weechat",
       "versions": {
-        "4.9.1-r0": 1780324916
+        "4.9.1-r0": 1780324916,
+        "4.9.2-r0": 1780845405
       },
       "dependencies": [
         "weechat",
@@ -262704,7 +262881,7 @@
         "so:libc.musl-riscv64.so.1"
       ],
       "provides": [
-        "weechat-aspell=4.9.1-r0"
+        "weechat-aspell=4.9.2-r0"
       ]
     },
     "weex": {
@@ -272621,32 +272798,36 @@
     "yq-go": {
       "origin": "yq-go",
       "versions": {
-        "4.53.2-r1": 1778661427
+        "4.53.2-r1": 1778661427,
+        "4.53.3-r0": 1780812597
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1"
       ],
       "provides": [
-        "yq=4.53.2-r1",
-        "cmd:yq=4.53.2-r1"
+        "yq=4.53.3-r0",
+        "cmd:yq=4.53.3-r0"
       ]
     },
     "yq-go-bash-completion": {
       "origin": "yq-go",
       "versions": {
-        "4.53.2-r1": 1778661427
+        "4.53.2-r1": 1778661427,
+        "4.53.3-r0": 1780812597
       }
     },
     "yq-go-fish-completion": {
       "origin": "yq-go",
       "versions": {
-        "4.53.2-r1": 1778661427
+        "4.53.2-r1": 1778661427,
+        "4.53.3-r0": 1780812597
       }
     },
     "yq-go-zsh-completion": {
       "origin": "yq-go",
       "versions": {
-        "4.53.2-r1": 1778661427
+        "4.53.2-r1": 1778661427,
+        "4.53.3-r0": 1780812597
       }
     },
     "yq-python": {
@@ -273188,7 +273369,8 @@
     "zabbix": {
       "origin": "zabbix",
       "versions": {
-        "7.4.10-r0": 1778938767
+        "7.4.10-r0": 1778938767,
+        "7.4.11-r0": 1780760958
       },
       "dependencies": [
         "fping",
@@ -273198,7 +273380,8 @@
     "zabbix-agent": {
       "origin": "zabbix",
       "versions": {
-        "7.4.10-r0": 1778938767
+        "7.4.10-r0": 1778938767,
+        "7.4.11-r0": 1780760958
       },
       "dependencies": [
         "/bin/sh",
@@ -273210,13 +273393,14 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_agentd=7.4.10-r0"
+        "cmd:zabbix_agentd=7.4.11-r0"
       ]
     },
     "zabbix-agent-openrc": {
       "origin": "zabbix",
       "versions": {
-        "7.4.10-r0": 1778938767
+        "7.4.10-r0": 1778938767,
+        "7.4.11-r0": 1780760958
       },
       "dependencies": [
         "openrc"
@@ -273225,7 +273409,8 @@
     "zabbix-agent2": {
       "origin": "zabbix",
       "versions": {
-        "7.4.10-r0": 1778938767
+        "7.4.10-r0": 1778938767,
+        "7.4.11-r0": 1780760958
       },
       "dependencies": [
         "/bin/sh",
@@ -273237,13 +273422,14 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_agent2=7.4.10-r0"
+        "cmd:zabbix_agent2=7.4.11-r0"
       ]
     },
     "zabbix-agent2-openrc": {
       "origin": "zabbix",
       "versions": {
-        "7.4.10-r0": 1778938767
+        "7.4.10-r0": 1778938767,
+        "7.4.11-r0": 1780760958
       },
       "dependencies": [
         "openrc"
@@ -273274,13 +273460,15 @@
     "zabbix-doc": {
       "origin": "zabbix",
       "versions": {
-        "7.4.10-r0": 1778938767
+        "7.4.10-r0": 1778938767,
+        "7.4.11-r0": 1780760958
       }
     },
     "zabbix-mysql": {
       "origin": "zabbix",
       "versions": {
-        "7.4.10-r0": 1778938767
+        "7.4.10-r0": 1778938767,
+        "7.4.11-r0": 1780760958
       },
       "dependencies": [
         "zabbix",
@@ -273304,20 +273492,22 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_proxy=7.4.10-r0",
-        "cmd:zabbix_server=7.4.10-r0"
+        "cmd:zabbix_proxy=7.4.11-r0",
+        "cmd:zabbix_server=7.4.11-r0"
       ]
     },
     "zabbix-openrc": {
       "origin": "zabbix",
       "versions": {
-        "7.4.10-r0": 1778938767
+        "7.4.10-r0": 1778938767,
+        "7.4.11-r0": 1780760958
       }
     },
     "zabbix-pgsql": {
       "origin": "zabbix",
       "versions": {
-        "7.4.10-r0": 1778938767
+        "7.4.10-r0": 1778938767,
+        "7.4.11-r0": 1780760958
       },
       "dependencies": [
         "zabbix",
@@ -273341,20 +273531,22 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_proxy=7.4.10-r0",
-        "cmd:zabbix_server=7.4.10-r0"
+        "cmd:zabbix_proxy=7.4.11-r0",
+        "cmd:zabbix_server=7.4.11-r0"
       ]
     },
     "zabbix-setup": {
       "origin": "zabbix",
       "versions": {
-        "7.4.10-r0": 1778938767
+        "7.4.10-r0": 1778938767,
+        "7.4.11-r0": 1780760958
       }
     },
     "zabbix-sqlite": {
       "origin": "zabbix",
       "versions": {
-        "7.4.10-r0": 1778938767
+        "7.4.10-r0": 1778938767,
+        "7.4.11-r0": 1780760958
       },
       "dependencies": [
         "zabbix",
@@ -273378,13 +273570,14 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_proxy=7.4.10-r0"
+        "cmd:zabbix_proxy=7.4.11-r0"
       ]
     },
     "zabbix-utils": {
       "origin": "zabbix",
       "versions": {
-        "7.4.10-r0": 1778938767
+        "7.4.10-r0": 1778938767,
+        "7.4.11-r0": 1780760958
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1",
@@ -273396,15 +273589,16 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_get=7.4.10-r0",
-        "cmd:zabbix_js=7.4.10-r0",
-        "cmd:zabbix_sender=7.4.10-r0"
+        "cmd:zabbix_get=7.4.11-r0",
+        "cmd:zabbix_js=7.4.11-r0",
+        "cmd:zabbix_sender=7.4.11-r0"
       ]
     },
     "zabbix-webif": {
       "origin": "zabbix",
       "versions": {
-        "7.4.10-r0": 1778938767
+        "7.4.10-r0": 1778938767,
+        "7.4.11-r0": 1780760958
       },
       "dependencies": [
         "php83",
@@ -275129,23 +275323,25 @@
     "qbe": {
       "origin": "qbe",
       "versions": {
-        "1.3-r0": 1780425805
+        "1.3-r0": 1780425805,
+        "1.2-r4": 1780824431
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1"
       ],
       "provides": [
-        "cmd:qbe=1.3-r0"
+        "cmd:qbe=1.2-r4"
       ]
     },
     "qbe-dbg": {
       "origin": "qbe",
       "versions": {
-        "1.3-r0": 1780425805
+        "1.3-r0": 1780425805,
+        "1.2-r4": 1780824431
       },
       "dependencies": [
-        "!qbe<1.3-r0",
-        "!qbe>1.3-r0"
+        "!qbe<1.2-r4",
+        "!qbe>1.2-r4"
       ]
     },
     "yubikey-manager-udev": {
@@ -275269,8 +275465,378 @@
     "mangowm-doc": {
       "origin": "mangowm",
       "versions": {
-        "0.14.1-r0": 1780747291
+        "0.14.1-r0": 1780747291,
+        "0.14.2-r0": 1780771969
       }
+    },
+    "gssdp": {
+      "origin": "gssdp",
+      "versions": {
+        "1.6.5-r0": 1780869144
+      },
+      "dependencies": [
+        "so:libc.musl-riscv64.so.1",
+        "so:libgio-2.0.so.0",
+        "so:libglib-2.0.so.0",
+        "so:libgobject-2.0.so.0",
+        "so:libgtk-4.so.1",
+        "so:libintl.so.8",
+        "so:libsoup-3.0.so.0"
+      ],
+      "provides": [
+        "cmd:gssdp-device-sniffer=1.6.5-r0",
+        "so:libgssdp-1.6.so.0=0.106.5"
+      ]
+    },
+    "gssdp-dev": {
+      "origin": "gssdp",
+      "versions": {
+        "1.6.5-r0": 1780869144
+      },
+      "dependencies": [
+        "gssdp=1.6.5-r0",
+        "pc:gio-2.0>=2.70",
+        "pc:glib-2.0>=2.70",
+        "pc:gobject-2.0>=2.70",
+        "pc:libsoup-3.0>=2.99.0",
+        "pkgconfig"
+      ],
+      "provides": [
+        "pc:gssdp-1.6=1.6.5"
+      ]
+    },
+    "gupnp": {
+      "origin": "gupnp",
+      "versions": {
+        "1.6.9-r1": 1780869366
+      },
+      "dependencies": [
+        "gsettings-desktop-schemas",
+        "so:libc.musl-riscv64.so.1",
+        "so:libgio-2.0.so.0",
+        "so:libglib-2.0.so.0",
+        "so:libgmodule-2.0.so.0",
+        "so:libgobject-2.0.so.0",
+        "so:libgssdp-1.6.so.0",
+        "so:libsoup-3.0.so.0",
+        "so:libxml2.so.2"
+      ],
+      "provides": [
+        "cmd:gupnp-binding-tool-1.6=1.6.9-r1",
+        "so:libgupnp-1.6.so.0=0.106.9"
+      ]
+    },
+    "gupnp-av": {
+      "origin": "gupnp-av",
+      "versions": {
+        "0.14.5-r0": 1780869145
+      },
+      "dependencies": [
+        "so:libc.musl-riscv64.so.1",
+        "so:libglib-2.0.so.0",
+        "so:libgobject-2.0.so.0",
+        "so:libxml2.so.2"
+      ],
+      "provides": [
+        "so:libgupnp-av-1.0.so.3=3.14.5"
+      ]
+    },
+    "gupnp-av-dev": {
+      "origin": "gupnp-av",
+      "versions": {
+        "0.14.5-r0": 1780869145
+      },
+      "dependencies": [
+        "gupnp-av=0.14.5-r0",
+        "pc:gio-2.0",
+        "pc:glib-2.0>=2.58",
+        "pc:gobject-2.0>=2.58",
+        "pc:libxml-2.0",
+        "pkgconfig"
+      ],
+      "provides": [
+        "pc:gupnp-av-1.0=0.14.5"
+      ]
+    },
+    "gupnp-dev": {
+      "origin": "gupnp",
+      "versions": {
+        "1.6.9-r1": 1780869366
+      },
+      "dependencies": [
+        "gupnp=1.6.9-r1",
+        "pc:gio-2.0>=2.70",
+        "pc:glib-2.0>=2.70",
+        "pc:gmodule-2.0>=2.70",
+        "pc:gobject-2.0>=2.70",
+        "pc:gssdp-1.6>=1.6.2",
+        "pc:libsoup-3.0>=2.99.0",
+        "pc:libxml-2.0",
+        "pkgconfig"
+      ],
+      "provides": [
+        "pc:gupnp-1.6=1.6.9"
+      ]
+    },
+    "gupnp-dlna": {
+      "origin": "gupnp-dlna",
+      "versions": {
+        "0.12.0-r1": 1780869145
+      },
+      "dependencies": [
+        "so:libc.musl-riscv64.so.1",
+        "so:libglib-2.0.so.0",
+        "so:libgmodule-2.0.so.0",
+        "so:libgobject-2.0.so.0",
+        "so:libgstpbutils-1.0.so.0",
+        "so:libgstreamer-1.0.so.0",
+        "so:libxml2.so.2"
+      ],
+      "provides": [
+        "cmd:gupnp-dlna-info-2.0=0.12.0-r1",
+        "cmd:gupnp-dlna-ls-profiles-2.0=0.12.0-r1",
+        "so:libgupnp-dlna-2.0.so.4=4.0.0",
+        "so:libgupnp-dlna-gst-2.0.so.4=4.0.0"
+      ]
+    },
+    "gupnp-dlna-dev": {
+      "origin": "gupnp-dlna",
+      "versions": {
+        "0.12.0-r1": 1780869145
+      },
+      "dependencies": [
+        "gupnp-dlna=0.12.0-r1",
+        "pc:gio-2.0",
+        "pc:glib-2.0",
+        "pc:gmodule-2.0",
+        "pc:gobject-2.0",
+        "pc:gstreamer-1.0",
+        "pc:gstreamer-pbutils-1.0",
+        "pc:libxml-2.0",
+        "pkgconfig"
+      ],
+      "provides": [
+        "pc:gupnp-dlna-2.0=0.12.0",
+        "pc:gupnp-dlna-gst-2.0=0.12.0",
+        "pc:gupnp-dlna-metadata-2.0=0.12.0"
+      ]
+    },
+    "gupnp-doc": {
+      "origin": "gupnp",
+      "versions": {
+        "1.6.9-r1": 1780869366
+      }
+    },
+    "neocmakelsp": {
+      "origin": "neocmakelsp",
+      "versions": {
+        "0.10.3-r0": 1780806175
+      },
+      "dependencies": [
+        "so:libc.musl-riscv64.so.1",
+        "so:libgcc_s.so.1"
+      ],
+      "provides": [
+        "cmd:neocmakelsp=0.10.3-r0"
+      ]
+    },
+    "neocmakelsp-bash-completion": {
+      "origin": "neocmakelsp",
+      "versions": {
+        "0.10.3-r0": 1780806175
+      }
+    },
+    "neocmakelsp-doc": {
+      "origin": "neocmakelsp",
+      "versions": {
+        "0.10.3-r0": 1780806175
+      }
+    },
+    "neocmakelsp-fish-completion": {
+      "origin": "neocmakelsp",
+      "versions": {
+        "0.10.3-r0": 1780806175
+      }
+    },
+    "neocmakelsp-zsh-completion": {
+      "origin": "neocmakelsp",
+      "versions": {
+        "0.10.3-r0": 1780806175
+      }
+    },
+    "proftpd-mod_digest": {
+      "origin": "proftpd",
+      "versions": {
+        "1.3.9b-r1": 1780847361
+      },
+      "dependencies": [
+        "proftpd",
+        "so:libc.musl-riscv64.so.1",
+        "so:libcrypto.so.3"
+      ]
+    },
+    "proftpd-mod_dnsbl": {
+      "origin": "proftpd",
+      "versions": {
+        "1.3.9b-r1": 1780847361
+      },
+      "dependencies": [
+        "proftpd",
+        "so:libc.musl-riscv64.so.1"
+      ]
+    },
+    "proftpd-mod_log_forensic": {
+      "origin": "proftpd",
+      "versions": {
+        "1.3.9b-r1": 1780847361
+      },
+      "dependencies": [
+        "proftpd",
+        "so:libc.musl-riscv64.so.1"
+      ]
+    },
+    "proftpd-mod_qos": {
+      "origin": "proftpd",
+      "versions": {
+        "1.3.9b-r1": 1780847361
+      },
+      "dependencies": [
+        "proftpd",
+        "so:libc.musl-riscv64.so.1"
+      ]
+    },
+    "proftpd-mod_statcache": {
+      "origin": "proftpd",
+      "versions": {
+        "1.3.9b-r1": 1780847361
+      },
+      "dependencies": [
+        "proftpd",
+        "so:libc.musl-riscv64.so.1"
+      ]
+    },
+    "proftpd-mod_tls_fscache": {
+      "origin": "proftpd",
+      "versions": {
+        "1.3.9b-r1": 1780847361
+      },
+      "dependencies": [
+        "proftpd",
+        "proftpd-mod_tls",
+        "so:libc.musl-riscv64.so.1"
+      ]
+    },
+    "reap": {
+      "origin": "reap",
+      "versions": {
+        "0.2-r0": 1780830375
+      },
+      "dependencies": [
+        "so:libc.musl-riscv64.so.1"
+      ],
+      "provides": [
+        "cmd:reap=0.2-r0"
+      ]
+    },
+    "reap-doc": {
+      "origin": "reap",
+      "versions": {
+        "0.2-r0": 1780830375
+      }
+    },
+    "rygel": {
+      "origin": "rygel",
+      "versions": {
+        "45.2-r0": 1780869145
+      },
+      "dependencies": [
+        "so:libX11.so.6",
+        "so:libc.musl-riscv64.so.1",
+        "so:libgdk_pixbuf-2.0.so.0",
+        "so:libgee-0.8.so.2",
+        "so:libges-1.0.so.0",
+        "so:libgio-2.0.so.0",
+        "so:libglib-2.0.so.0",
+        "so:libgmodule-2.0.so.0",
+        "so:libgobject-2.0.so.0",
+        "so:libgssdp-1.6.so.0",
+        "so:libgstaudio-1.0.so.0",
+        "so:libgstbase-1.0.so.0",
+        "so:libgstpbutils-1.0.so.0",
+        "so:libgstreamer-1.0.so.0",
+        "so:libgsttag-1.0.so.0",
+        "so:libgtk-4.so.1",
+        "so:libgupnp-1.6.so.0",
+        "so:libgupnp-av-1.0.so.3",
+        "so:libgupnp-dlna-2.0.so.4",
+        "so:libgupnp-dlna-gst-2.0.so.4",
+        "so:libintl.so.8",
+        "so:libmediaart-2.0.so.0",
+        "so:libsoup-3.0.so.0",
+        "so:libsqlite3.so.0",
+        "so:libxml2.so.2"
+      ],
+      "provides": [
+        "cmd:rygel-preferences=45.2-r0",
+        "cmd:rygel=45.2-r0",
+        "so:librygel-core-2.8.so.0=0.45.4",
+        "so:librygel-db-2.8.so.0=0.45.4",
+        "so:librygel-renderer-2.8.so.0=0.45.4",
+        "so:librygel-renderer-gst-2.8.so.0=0.45.4",
+        "so:librygel-ruih-2.8.so.0=0.45.4",
+        "so:librygel-server-2.8.so.0=0.45.4"
+      ]
+    },
+    "rygel-dev": {
+      "origin": "rygel",
+      "versions": {
+        "45.2-r0": 1780869145
+      },
+      "dependencies": [
+        "rygel=45.2-r0",
+        "pc:gee-0.8",
+        "pc:gmodule-2.0",
+        "pc:gstreamer-1.0",
+        "pc:gupnp-av-1.0",
+        "pkgconfig"
+      ],
+      "provides": [
+        "pc:rygel-core-2.8=45.2",
+        "pc:rygel-renderer-2.8=45.2",
+        "pc:rygel-renderer-gst-2.8=45.2",
+        "pc:rygel-ruih-2.8=45.2",
+        "pc:rygel-server-2.8=45.2"
+      ]
+    },
+    "rygel-doc": {
+      "origin": "rygel",
+      "versions": {
+        "45.2-r0": 1780869145
+      }
+    },
+    "rygel-lang": {
+      "origin": "rygel",
+      "versions": {
+        "45.2-r0": 1780869145
+      }
+    },
+    "rygel-systemd": {
+      "origin": "rygel",
+      "versions": {
+        "45.2-r0": 1780869145
+      }
+    },
+    "update-sysfs": {
+      "origin": "update-sysfs",
+      "versions": {
+        "2.1.1_p7-r0": 1780869144
+      },
+      "dependencies": [
+        "perl"
+      ],
+      "provides": [
+        "cmd:update-sysfs=2.1.1_p7-r0"
+      ]
     }
   },
   "provide": {
@@ -297082,6 +297648,50 @@
       "libHX.so.43": {
         "package": "libhx",
         "version": "43.0.0"
+      },
+      "libgssdp-1.6.so.0": {
+        "package": "gssdp",
+        "version": "0.106.5"
+      },
+      "libgupnp-1.6.so.0": {
+        "package": "gupnp",
+        "version": "0.106.9"
+      },
+      "libgupnp-av-1.0.so.3": {
+        "package": "gupnp-av",
+        "version": "3.14.5"
+      },
+      "libgupnp-dlna-2.0.so.4": {
+        "package": "gupnp-dlna",
+        "version": "4.0.0"
+      },
+      "libgupnp-dlna-gst-2.0.so.4": {
+        "package": "gupnp-dlna",
+        "version": "4.0.0"
+      },
+      "librygel-core-2.8.so.0": {
+        "package": "rygel",
+        "version": "0.45.4"
+      },
+      "librygel-db-2.8.so.0": {
+        "package": "rygel",
+        "version": "0.45.4"
+      },
+      "librygel-renderer-2.8.so.0": {
+        "package": "rygel",
+        "version": "0.45.4"
+      },
+      "librygel-renderer-gst-2.8.so.0": {
+        "package": "rygel",
+        "version": "0.45.4"
+      },
+      "librygel-ruih-2.8.so.0": {
+        "package": "rygel",
+        "version": "0.45.4"
+      },
+      "librygel-server-2.8.so.0": {
+        "package": "rygel",
+        "version": "0.45.4"
       }
     },
     "package": {
@@ -297979,7 +298589,7 @@
       },
       "mangowc": {
         "package": "mangowm",
-        "version": "0.14.1-r0"
+        "version": "0.14.2-r0"
       },
       "maplibre-gl-native": {
         "package": "maplibre-native-qt",
@@ -300511,7 +301121,7 @@
       },
       "weechat-aspell": {
         "package": "weechat-spell",
-        "version": "4.9.1-r0"
+        "version": "4.9.2-r0"
       },
       "pipewire-session-manager": {
         "package": "wireplumber",
@@ -300551,7 +301161,7 @@
       },
       "yq": {
         "package": "yq-go",
-        "version": "4.53.2-r1"
+        "version": "4.53.3-r0"
       },
       "youtube-dl": {
         "package": "yt-dlp-core",
