@@ -181095,35 +181095,35 @@ t:1771160091
 c:a9e2a2dc46f377eb25884f7fea9834492de7f518
 i:docs perl-net-dbus=1.2.0-r1
 
-C:Q1Hlv5KIh+zoJxd/Q+BH7pPEeXTaA=
+C:Q15Vnc5UG1ycbTVPFN+a6fsBzNSRA=
 P:perl-net-dns-sec
-V:1.26-r1
+V:1.27-r0
 A:s390x
-S:19722
-I:62181
+S:19989
+I:66231
 T:DNSSEC extensions to Net::DNS
 U:https://metacpan.org/pod/Net::DNS::SEC
 L:MIT
 o:perl-net-dns-sec
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1751254741
-c:73f15dd15737412cabd93c4b988bdef74464a283
+t:1780836112
+c:e334a24ce4980035ecf628fc3505921e1985979e
 D:perl perl-net-dns so:libc.musl-s390x.so.1 so:libcrypto.so.3
 
-C:Q1xjfC4TykOxI7c1NcdF0sueVZ2iQ=
+C:Q1PhAoPbluiyXZxo3qNScntUSc2T4=
 P:perl-net-dns-sec-doc
-V:1.26-r1
+V:1.27-r0
 A:s390x
-S:20769
-I:18460
+S:20869
+I:18466
 T:DNSSEC extensions to Net::DNS (documentation)
 U:https://metacpan.org/pod/Net::DNS::SEC
 L:MIT
 o:perl-net-dns-sec
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1751254741
-c:73f15dd15737412cabd93c4b988bdef74464a283
-i:docs perl-net-dns-sec=1.26-r1
+t:1780836112
+c:e334a24ce4980035ecf628fc3505921e1985979e
+i:docs perl-net-dns-sec=1.27-r0
 
 C:Q1rkfu9CkBlkNrjKRMHVXcJJJrYhM=
 P:perl-net-domain-tld
@@ -189590,37 +189590,37 @@ t:1778768559
 c:eb976278fcfbcae47f3335ccfbe06c16cdbebf63
 i:openrc pgbouncer=1.25.2-r0
 
-C:Q1kgaphELnlJU8ZCoF+/8BcJKR0ek=
+C:Q1nYANaR5IyxBuk6ukhjR3X8MrCVo=
 P:pgcli
-V:4.4.0-r2
+V:4.5.0-r0
 A:s390x
-S:82544
-I:283888
+S:83542
+I:288812
 T:Postgres CLI with autocompletion and syntax highlighting
 U:https://www.pgcli.com
 L:BSD-3-Clause
 o:pgcli
 m:omni <omni+alpine@hack.org>
-t:1774640382
-c:0b3f807a70a62888e105ff2826d5f940cd1104ab
+t:1780833082
+c:db3576e1103286c211b2945a28c5cb9753eddd05
 D:python3 py3-cli_helpers>1.0.0 py3-click py3-configobj py3-humanize py3-gpep517 py3-pendulum py3-pgspecial py3-prompt_toolkit>2.0.0 py3-psycopg-c py3-pygments py3-setproctitle py3-setuptools py3-sqlparse<0.6.0 py3-tzlocal py3-wcwidth py3-wheel python3~3.14
-p:cmd:pgcli=4.4.0-r2 py3.14:pgcli=4.4.0-r2
+p:cmd:pgcli=4.5.0-r0 py3.14:pgcli=4.5.0-r0
 
-C:Q1nZ6bTFTmxhrpBZnh5efMsK0xbCk=
+C:Q1h0Ed5HOdBvhJ4bAWaT0C1IBtVS8=
 P:pgcli-pyc
-V:4.4.0-r2
+V:4.5.0-r0
 A:s390x
-S:135274
-I:312349
+S:137149
+I:318061
 T:Precompiled Python bytecode for pgcli
 U:https://www.pgcli.com
 L:BSD-3-Clause
 o:pgcli
 m:omni <omni+alpine@hack.org>
-t:1774640382
-c:0b3f807a70a62888e105ff2826d5f940cd1104ab
+t:1780833082
+c:db3576e1103286c211b2945a28c5cb9753eddd05
 D:python3~3.14
-i:pgcli=4.4.0-r2 pyc
+i:pgcli=4.5.0-r0 pyc
 
 C:Q1lTqNvsMv7M42lL6HylM1sEX7u+M=
 P:pgexportdoc
@@ -233787,53 +233787,53 @@ c:37a9135d893926e327145aa5f7d75275b27c9796
 D:python3~3.14
 i:py3-protobuf=6.33.5-r1 pyc
 
-C:Q1soFFoJtO35xQZyTaLgT/mvArFBE=
+C:Q17OmVafSv8sOiBv7pw0GR8bUf6x8=
 P:py3-psycopg
-V:3.3.3-r1
+V:3.3.4-r0
 A:s390x
-S:204270
-I:859309
+S:204471
+I:860049
 T:PostgreSQL adapter for python
 U:https://www.psycopg.org/
 L:LGPL-2.0-or-later
 o:py3-psycopg
 m:omni <omni+alpine@hack.org>
-t:1774640382
-c:eba241334ab6d11a551b61b3d7bc7f0a8f3c0c9d
+t:1780832903
+c:5d0a06704b69da185d76d52490113cf63d5441d9
 D:py3-typing-extensions python3~3.14
-p:py3.14:psycopg=3.3.3-r1 py3.14:psycopg_pool=3.3.3-r1
+p:py3.14:psycopg=3.3.4-r0 py3.14:psycopg_pool=3.3.4-r0
 
-C:Q12aVY7bRbPq3Tje1Qm6G67jzK0lA=
+C:Q1aptiIRKOEjBVONw+Ep27eiEw39o=
 P:py3-psycopg-c
-V:3.3.3-r1
+V:3.3.4-r0
 A:s390x
-S:936959
-I:7561894
+S:936882
+I:7561909
 T:PostgreSQL adapter for python - C optimisation distribution
 U:https://www.psycopg.org/
 L:LGPL-2.0-or-later
 o:py3-psycopg
 m:omni <omni+alpine@hack.org>
-t:1774640382
-c:eba241334ab6d11a551b61b3d7bc7f0a8f3c0c9d
-D:py3-psycopg=3.3.3-r1 python3~3.14 so:libc.musl-s390x.so.1 so:libpq.so.5
-p:py3.14:psycopg_c=3.3.3-r1
+t:1780832903
+c:5d0a06704b69da185d76d52490113cf63d5441d9
+D:py3-psycopg=3.3.4-r0 python3~3.14 so:libc.musl-s390x.so.1 so:libpq.so.5
+p:py3.14:psycopg_c=3.3.4-r0
 
-C:Q1UZ+/MW7ENQr+TsvQcD5QUTNr7IE=
+C:Q1fHd0yM0VVhPubjNCPBCahyFcS74=
 P:py3-psycopg-c-pyc
-V:3.3.3-r1
+V:3.3.4-r0
 A:s390x
-S:3058
+S:3059
 I:2016
 T:Precompiled Python bytecode for py3-psycopg-c
 U:https://www.psycopg.org/
 L:LGPL-2.0-or-later
 o:py3-psycopg
 m:omni <omni+alpine@hack.org>
-t:1774640382
-c:eba241334ab6d11a551b61b3d7bc7f0a8f3c0c9d
+t:1780832903
+c:5d0a06704b69da185d76d52490113cf63d5441d9
 D:py3-typing-extensions python3~3.14
-i:py3-psycopg-c=3.3.3-r1 pyc
+i:py3-psycopg-c=3.3.4-r0 pyc
 
 C:Q1aI/K4pFI1dXi/lzFygCmGoibqNA=
 P:py3-psycopg-pool
@@ -233867,21 +233867,21 @@ c:1add838227470c2abe7a36d5dd3574d34a2f6639
 D:python3~3.14
 i:py3-psycopg-pool=3.3.0-r1 pyc
 
-C:Q1Eq7+1rn2vE7UaNLyeGe2QYs7vRU=
+C:Q1PjsOmxOGtKcBKTaYtiLTyaP3fdQ=
 P:py3-psycopg-pyc
-V:3.3.3-r1
+V:3.3.4-r0
 A:s390x
-S:492106
-I:1420346
+S:492355
+I:1420575
 T:Precompiled Python bytecode for py3-psycopg
 U:https://www.psycopg.org/
 L:LGPL-2.0-or-later
 o:py3-psycopg
 m:omni <omni+alpine@hack.org>
-t:1774640382
-c:eba241334ab6d11a551b61b3d7bc7f0a8f3c0c9d
+t:1780832903
+c:5d0a06704b69da185d76d52490113cf63d5441d9
 D:python3~3.14
-i:py3-psycopg=3.3.3-r1 pyc
+i:py3-psycopg=3.3.4-r0 pyc
 
 C:Q1VN+MRa3a6rhANH3lJBmHOUJEn8g=
 P:py3-psycopg2

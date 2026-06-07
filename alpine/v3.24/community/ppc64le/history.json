@@ -5902,7 +5902,8 @@
     "asymptote": {
       "origin": "asymptote",
       "versions": {
-        "3.11-r0": 1779045581
+        "3.11-r0": 1779045581,
+        "3.12-r0": 1780831700
       },
       "dependencies": [
         "dvisvgm",
@@ -5925,7 +5926,7 @@
         "so:libcurl.so.4",
         "so:libfftw3.so.3",
         "so:libgcc_s.so.1",
-        "so:libglut.so.3",
+        "so:libglfw.so.3",
         "so:libgsl.so.28",
         "so:libgslcblas.so.0",
         "so:libncursesw.so.6",
@@ -5936,14 +5937,15 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:asy=3.11-r0",
-        "cmd:xasy=3.11-r0"
+        "cmd:asy=3.12-r0",
+        "cmd:xasy=3.12-r0"
       ]
     },
     "asymptote-doc": {
       "origin": "asymptote",
       "versions": {
-        "3.11-r0": 1779045581
+        "3.11-r0": 1779045581,
+        "3.12-r0": 1780831700
       }
     },
     "at": {
@@ -192307,7 +192309,8 @@
     "perl-net-dns-sec": {
       "origin": "perl-net-dns-sec",
       "versions": {
-        "1.26-r1": 1751254741
+        "1.26-r1": 1751254741,
+        "1.27-r0": 1780836112
       },
       "dependencies": [
         "perl",
@@ -192319,7 +192322,8 @@
     "perl-net-dns-sec-doc": {
       "origin": "perl-net-dns-sec",
       "versions": {
-        "1.26-r1": 1751254741
+        "1.26-r1": 1751254741,
+        "1.27-r0": 1780836112
       }
     },
     "perl-net-domain-tld": {
@@ -197527,7 +197531,8 @@
     "pgcli": {
       "origin": "pgcli",
       "versions": {
-        "4.4.0-r2": 1774640382
+        "4.4.0-r2": 1774640382,
+        "4.5.0-r0": 1780833082
       },
       "dependencies": [
         "python3",
@@ -197550,14 +197555,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:pgcli=4.4.0-r2",
-        "py3.14:pgcli=4.4.0-r2"
+        "cmd:pgcli=4.5.0-r0",
+        "py3.14:pgcli=4.5.0-r0"
       ]
     },
     "pgcli-pyc": {
       "origin": "pgcli",
       "versions": {
-        "4.4.0-r2": 1774640382
+        "4.4.0-r2": 1774640382,
+        "4.5.0-r0": 1780833082
       },
       "dependencies": [
         "python3~3.14"
@@ -234021,36 +234027,39 @@
     "py3-psycopg": {
       "origin": "py3-psycopg",
       "versions": {
-        "3.3.3-r1": 1774640382
+        "3.3.3-r1": 1774640382,
+        "3.3.4-r0": 1780832903
       },
       "dependencies": [
         "py3-typing-extensions",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:psycopg=3.3.3-r1",
-        "py3.14:psycopg_pool=3.3.3-r1"
+        "py3.14:psycopg=3.3.4-r0",
+        "py3.14:psycopg_pool=3.3.4-r0"
       ]
     },
     "py3-psycopg-c": {
       "origin": "py3-psycopg",
       "versions": {
-        "3.3.3-r1": 1774640382
+        "3.3.3-r1": 1774640382,
+        "3.3.4-r0": 1780832903
       },
       "dependencies": [
-        "py3-psycopg=3.3.3-r1",
+        "py3-psycopg=3.3.4-r0",
         "python3~3.14",
         "so:libc.musl-ppc64le.so.1",
         "so:libpq.so.5"
       ],
       "provides": [
-        "py3.14:psycopg_c=3.3.3-r1"
+        "py3.14:psycopg_c=3.3.4-r0"
       ]
     },
     "py3-psycopg-c-pyc": {
       "origin": "py3-psycopg",
       "versions": {
-        "3.3.3-r1": 1774640382
+        "3.3.3-r1": 1774640382,
+        "3.3.4-r0": 1780832903
       },
       "dependencies": [
         "py3-typing-extensions",
@@ -234082,7 +234091,8 @@
     "py3-psycopg-pyc": {
       "origin": "py3-psycopg",
       "versions": {
-        "3.3.3-r1": 1774640382
+        "3.3.3-r1": 1774640382,
+        "3.3.4-r0": 1780832903
       },
       "dependencies": [
         "python3~3.14"
