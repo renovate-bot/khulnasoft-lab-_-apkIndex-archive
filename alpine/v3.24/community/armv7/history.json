@@ -5625,7 +5625,8 @@
     "asymptote": {
       "origin": "asymptote",
       "versions": {
-        "3.11-r0": 1779045581
+        "3.11-r0": 1779045581,
+        "3.12-r0": 1780831700
       },
       "dependencies": [
         "dvisvgm",
@@ -5648,7 +5649,7 @@
         "so:libcurl.so.4",
         "so:libfftw3.so.3",
         "so:libgcc_s.so.1",
-        "so:libglut.so.3",
+        "so:libglfw.so.3",
         "so:libgsl.so.28",
         "so:libgslcblas.so.0",
         "so:libncursesw.so.6",
@@ -5659,14 +5660,15 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:asy=3.11-r0",
-        "cmd:xasy=3.11-r0"
+        "cmd:asy=3.12-r0",
+        "cmd:xasy=3.12-r0"
       ]
     },
     "asymptote-doc": {
       "origin": "asymptote",
       "versions": {
-        "3.11-r0": 1779045581
+        "3.11-r0": 1779045581,
+        "3.12-r0": 1780831700
       }
     },
     "at": {
@@ -35482,11 +35484,12 @@
       "origin": "docker",
       "versions": {
         "29.5.1-r0": 1779156966,
-        "29.5.2-r0": 1779325011
+        "29.5.2-r0": 1779325011,
+        "29.5.3-r0": 1780841676
       },
       "dependencies": [
-        "docker-engine=29.5.2-r0",
-        "docker-cli=29.5.2-r0",
+        "docker-engine=29.5.3-r0",
+        "docker-cli=29.5.3-r0",
         "docker-cli-buildx"
       ]
     },
@@ -35518,21 +35521,23 @@
       "origin": "docker",
       "versions": {
         "29.5.1-r0": 1779156966,
-        "29.5.2-r0": 1779325011
+        "29.5.2-r0": 1779325011,
+        "29.5.3-r0": 1780841676
       }
     },
     "docker-cli": {
       "origin": "docker",
       "versions": {
         "29.5.1-r0": 1779156966,
-        "29.5.2-r0": 1779325011
+        "29.5.2-r0": 1779325011,
+        "29.5.3-r0": 1780841676
       },
       "dependencies": [
         "ca-certificates",
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:docker=29.5.2-r0"
+        "cmd:docker=29.5.3-r0"
       ]
     },
     "docker-cli-buildx": {
@@ -35564,14 +35569,16 @@
       "origin": "docker",
       "versions": {
         "29.5.1-r0": 1779156966,
-        "29.5.2-r0": 1779325011
+        "29.5.2-r0": 1779325011,
+        "29.5.3-r0": 1780841676
       }
     },
     "docker-engine": {
       "origin": "docker",
       "versions": {
         "29.5.1-r0": 1779156966,
-        "29.5.2-r0": 1779325011
+        "29.5.2-r0": 1779325011,
+        "29.5.3-r0": 1780841676
       },
       "dependencies": [
         "ca-certificates",
@@ -35583,23 +35590,25 @@
         "so:libnftables.so.1"
       ],
       "provides": [
-        "cmd:docker-init=29.5.2-r0",
-        "cmd:docker-proxy=29.5.2-r0",
-        "cmd:dockerd=29.5.2-r0"
+        "cmd:docker-init=29.5.3-r0",
+        "cmd:docker-proxy=29.5.3-r0",
+        "cmd:dockerd=29.5.3-r0"
       ]
     },
     "docker-fish-completion": {
       "origin": "docker",
       "versions": {
         "29.5.1-r0": 1779156966,
-        "29.5.2-r0": 1779325011
+        "29.5.2-r0": 1779325011,
+        "29.5.3-r0": 1780841676
       }
     },
     "docker-openrc": {
       "origin": "docker",
       "versions": {
         "29.5.1-r0": 1779156966,
-        "29.5.2-r0": 1779325011
+        "29.5.2-r0": 1779325011,
+        "29.5.3-r0": 1780841676
       },
       "dependencies": [
         "log_proxy"
@@ -35630,7 +35639,8 @@
       "origin": "docker",
       "versions": {
         "29.5.1-r0": 1779156966,
-        "29.5.2-r0": 1779325011
+        "29.5.2-r0": 1779325011,
+        "29.5.3-r0": 1780841676
       },
       "dependencies": [
         "docker",
@@ -35639,14 +35649,15 @@
         "fuse-overlayfs"
       ],
       "provides": [
-        "cmd:dockerd-rootless=29.5.2-r0"
+        "cmd:dockerd-rootless=29.5.3-r0"
       ]
     },
     "docker-rootless-extras-openrc": {
       "origin": "docker",
       "versions": {
         "29.5.1-r0": 1779156966,
-        "29.5.2-r0": 1779325011
+        "29.5.2-r0": 1779325011,
+        "29.5.3-r0": 1780841676
       },
       "dependencies": [
         "docker-rootless-extras"
@@ -35656,14 +35667,16 @@
       "origin": "docker",
       "versions": {
         "29.5.1-r0": 1779156966,
-        "29.5.2-r0": 1779325011
+        "29.5.2-r0": 1779325011,
+        "29.5.3-r0": 1780841676
       }
     },
     "docker-zsh-completion": {
       "origin": "docker",
       "versions": {
         "29.5.1-r0": 1779156966,
-        "29.5.2-r0": 1779325011
+        "29.5.2-r0": 1779325011,
+        "29.5.3-r0": 1780841676
       }
     },
     "dockviz": {
@@ -101537,7 +101550,8 @@
     "lagrange": {
       "origin": "lagrange",
       "versions": {
-        "1.20.5-r0": 1778079696
+        "1.20.5-r0": 1778079696,
+        "1.20.6-r0": 1780837048
       },
       "dependencies": [
         "so:libSDL2-2.0.so.0",
@@ -101555,24 +101569,26 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:clagrange=1.20.5-r0",
-        "cmd:lagrange=1.20.5-r0"
+        "cmd:clagrange=1.20.6-r0",
+        "cmd:lagrange=1.20.6-r0"
       ]
     },
     "lagrange-dbg": {
       "origin": "lagrange",
       "versions": {
-        "1.20.5-r0": 1778079696
+        "1.20.5-r0": 1778079696,
+        "1.20.6-r0": 1780837048
       },
       "dependencies": [
-        "!lagrange<1.20.5-r0",
-        "!lagrange>1.20.5-r0"
+        "!lagrange<1.20.6-r0",
+        "!lagrange>1.20.6-r0"
       ]
     },
     "lagrange-doc": {
       "origin": "lagrange",
       "versions": {
-        "1.20.5-r0": 1778079696
+        "1.20.5-r0": 1778079696,
+        "1.20.6-r0": 1780837048
       }
     },
     "lapack": {
@@ -126209,7 +126225,8 @@
     "livi": {
       "origin": "livi",
       "versions": {
-        "0.4.0-r0": 1770850967
+        "0.4.0-r0": 1770850967,
+        "0.5.0-r0": 1780830494
       },
       "dependencies": [
         "so:libadwaita-1.so.0",
@@ -126224,16 +126241,18 @@
         "so:libgstreamer-1.0.so.0",
         "so:libgstvideo-1.0.so.0",
         "so:libgtk-4.so.1",
-        "so:libintl.so.8"
+        "so:libintl.so.8",
+        "so:libwayland-client.so.0"
       ],
       "provides": [
-        "cmd:livi=0.4.0-r0"
+        "cmd:livi=0.5.0-r0"
       ]
     },
     "livi-lang": {
       "origin": "livi",
       "versions": {
-        "0.4.0-r0": 1770850967
+        "0.4.0-r0": 1770850967,
+        "0.5.0-r0": 1780830494
       }
     },
     "lld18": {
@@ -141474,7 +141493,8 @@
     "mu": {
       "origin": "mu",
       "versions": {
-        "1.14.1-r0": 1777564384
+        "1.14.1-r0": 1777564384,
+        "1.14.1-r1": 1780845205
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -141485,25 +141505,27 @@
         "so:libgobject-2.0.so.0",
         "so:libreadline.so.8",
         "so:libstdc++.so.6",
-        "so:libxapian.so.30"
+        "so:libxapian.so.45"
       ],
       "provides": [
-        "cmd:mu=1.14.1-r0"
+        "cmd:mu=1.14.1-r1"
       ]
     },
     "mu-doc": {
       "origin": "mu",
       "versions": {
-        "1.14.1-r0": 1777564384
+        "1.14.1-r0": 1777564384,
+        "1.14.1-r1": 1780845205
       }
     },
     "mu4e": {
       "origin": "mu",
       "versions": {
-        "1.14.1-r0": 1777564384
+        "1.14.1-r0": 1777564384,
+        "1.14.1-r1": 1780845205
       },
       "dependencies": [
-        "mu=1.14.1-r0",
+        "mu=1.14.1-r1",
         "cmd:emacs"
       ]
     },
@@ -171613,7 +171635,8 @@
       "versions": {
         "1.29.2.3-r0": 1775351621,
         "1.29.2.3-r1": 1779376172,
-        "1.29.2.5-r0": 1779824531
+        "1.29.2.5-r0": 1779824531,
+        "1.31.1.1-r0": 1780824963
       },
       "dependencies": [
         "/bin/sh",
@@ -171632,7 +171655,7 @@
       ],
       "provides": [
         "nginx",
-        "cmd:nginx=1.29.2.5-r0"
+        "cmd:nginx=1.31.1.1-r0"
       ]
     },
     "openresty-dbg": {
@@ -171640,11 +171663,12 @@
       "versions": {
         "1.29.2.3-r0": 1775351621,
         "1.29.2.3-r1": 1779376172,
-        "1.29.2.5-r0": 1779824531
+        "1.29.2.5-r0": 1779824531,
+        "1.31.1.1-r0": 1780824963
       },
       "dependencies": [
-        "!openresty<1.29.2.5-r0",
-        "!openresty>1.29.2.5-r0"
+        "!openresty<1.31.1.1-r0",
+        "!openresty>1.31.1.1-r0"
       ]
     },
     "openresty-doc": {
@@ -171652,7 +171676,8 @@
       "versions": {
         "1.29.2.3-r0": 1775351621,
         "1.29.2.3-r1": 1779376172,
-        "1.29.2.5-r0": 1779824531
+        "1.29.2.5-r0": 1779824531,
+        "1.31.1.1-r0": 1780824963
       }
     },
     "openresty-mod-http-echo": {
@@ -171660,7 +171685,8 @@
       "versions": {
         "1.29.2.3-r0": 1775351621,
         "1.29.2.3-r1": 1779376172,
-        "1.29.2.5-r0": 1779824531
+        "1.29.2.5-r0": 1779824531,
+        "1.31.1.1-r0": 1780824963
       },
       "dependencies": [
         "cmd:nginx",
@@ -171673,7 +171699,8 @@
       "versions": {
         "1.29.2.3-r0": 1775351621,
         "1.29.2.3-r1": 1779376172,
-        "1.29.2.5-r0": 1779824531
+        "1.29.2.5-r0": 1779824531,
+        "1.31.1.1-r0": 1780824963
       },
       "dependencies": [
         "cmd:nginx",
@@ -171686,7 +171713,8 @@
       "versions": {
         "1.29.2.3-r0": 1775351621,
         "1.29.2.3-r1": 1779376172,
-        "1.29.2.5-r0": 1779824531
+        "1.29.2.5-r0": 1779824531,
+        "1.31.1.1-r0": 1780824963
       },
       "dependencies": [
         "cmd:nginx",
@@ -171701,7 +171729,8 @@
       "versions": {
         "1.29.2.3-r0": 1775351621,
         "1.29.2.3-r1": 1779376172,
-        "1.29.2.5-r0": 1779824531
+        "1.29.2.5-r0": 1779824531,
+        "1.31.1.1-r0": 1780824963
       },
       "dependencies": [
         "cmd:nginx",
@@ -171715,7 +171744,8 @@
       "versions": {
         "1.29.2.3-r0": 1775351621,
         "1.29.2.3-r1": 1779376172,
-        "1.29.2.5-r0": 1779824531
+        "1.29.2.5-r0": 1779824531,
+        "1.31.1.1-r0": 1780824963
       },
       "dependencies": [
         "cmd:nginx",
@@ -171728,7 +171758,8 @@
       "versions": {
         "1.29.2.3-r0": 1775351621,
         "1.29.2.3-r1": 1779376172,
-        "1.29.2.5-r0": 1779824531
+        "1.29.2.5-r0": 1779824531,
+        "1.31.1.1-r0": 1780824963
       },
       "dependencies": [
         "cmd:nginx",
@@ -171742,7 +171773,8 @@
       "versions": {
         "1.29.2.3-r0": 1775351621,
         "1.29.2.3-r1": 1779376172,
-        "1.29.2.5-r0": 1779824531
+        "1.29.2.5-r0": 1779824531,
+        "1.31.1.1-r0": 1780824963
       }
     },
     "openrgb": {
@@ -183111,7 +183143,8 @@
     "perl-net-dns-sec": {
       "origin": "perl-net-dns-sec",
       "versions": {
-        "1.26-r1": 1751254741
+        "1.26-r1": 1751254741,
+        "1.27-r0": 1780836112
       },
       "dependencies": [
         "perl",
@@ -183123,7 +183156,8 @@
     "perl-net-dns-sec-doc": {
       "origin": "perl-net-dns-sec",
       "versions": {
-        "1.26-r1": 1751254741
+        "1.26-r1": 1751254741,
+        "1.27-r0": 1780836112
       }
     },
     "perl-net-domain-tld": {
@@ -188265,7 +188299,8 @@
     "pgcli": {
       "origin": "pgcli",
       "versions": {
-        "4.4.0-r2": 1774640382
+        "4.4.0-r2": 1774640382,
+        "4.5.0-r0": 1780833082
       },
       "dependencies": [
         "python3",
@@ -188288,14 +188323,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:pgcli=4.4.0-r2",
-        "py3.14:pgcli=4.4.0-r2"
+        "cmd:pgcli=4.5.0-r0",
+        "py3.14:pgcli=4.5.0-r0"
       ]
     },
     "pgcli-pyc": {
       "origin": "pgcli",
       "versions": {
-        "4.4.0-r2": 1774640382
+        "4.4.0-r2": 1774640382,
+        "4.5.0-r0": 1780833082
       },
       "dependencies": [
         "python3~3.14"
@@ -200913,7 +200949,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "/bin/sh",
@@ -200924,29 +200961,32 @@
         "so:libpcre2-posix.so.3"
       ],
       "provides": [
-        "cmd:auth-otp=1.3.9b-r0",
-        "cmd:proftpd=1.3.9b-r0"
+        "cmd:auth-otp=1.3.9b-r1",
+        "cmd:proftpd=1.3.9b-r1"
       ]
     },
     "proftpd-doc": {
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       }
     },
     "proftpd-lang": {
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       }
     },
     "proftpd-mod_auth_otp": {
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -200958,7 +200998,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -200969,7 +201010,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -200980,7 +201022,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -200991,7 +201034,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201003,7 +201047,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201014,7 +201059,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201025,7 +201071,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201036,7 +201083,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201048,7 +201096,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201059,7 +201108,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201070,7 +201120,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201082,7 +201133,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201095,7 +201147,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201106,7 +201159,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201118,7 +201172,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201129,7 +201184,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201141,7 +201197,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201153,7 +201210,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201165,7 +201223,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201177,7 +201236,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201188,7 +201248,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201199,7 +201260,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201210,7 +201272,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201221,7 +201284,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201232,7 +201296,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201246,7 +201311,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201258,7 +201324,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201269,7 +201336,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201280,7 +201348,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201291,7 +201360,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201302,7 +201372,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201315,7 +201386,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201328,7 +201400,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201342,7 +201415,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201355,7 +201429,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201368,7 +201443,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201381,7 +201457,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201393,7 +201470,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201405,7 +201483,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201417,7 +201496,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201428,7 +201508,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201439,7 +201520,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201450,7 +201532,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201462,7 +201545,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201474,7 +201558,8 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201486,14 +201571,16 @@
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       }
     },
     "proftpd-utils": {
       "origin": "proftpd",
       "versions": {
         "1.3.9a-r2": 1777353756,
-        "1.3.9b-r0": 1780504150
+        "1.3.9b-r0": 1780504150,
+        "1.3.9b-r1": 1780847361
       },
       "dependencies": [
         "proftpd",
@@ -201502,16 +201589,16 @@
         "so:libncursesw.so.6"
       ],
       "provides": [
-        "cmd:ftpasswd=1.3.9b-r0",
-        "cmd:ftpcount=1.3.9b-r0",
-        "cmd:ftpdctl=1.3.9b-r0",
-        "cmd:ftpmail=1.3.9b-r0",
-        "cmd:ftpquota=1.3.9b-r0",
-        "cmd:ftpscrub=1.3.9b-r0",
-        "cmd:ftpshut=1.3.9b-r0",
-        "cmd:ftptop=1.3.9b-r0",
-        "cmd:ftpwho=1.3.9b-r0",
-        "cmd:prxs=1.3.9b-r0"
+        "cmd:ftpasswd=1.3.9b-r1",
+        "cmd:ftpcount=1.3.9b-r1",
+        "cmd:ftpdctl=1.3.9b-r1",
+        "cmd:ftpmail=1.3.9b-r1",
+        "cmd:ftpquota=1.3.9b-r1",
+        "cmd:ftpscrub=1.3.9b-r1",
+        "cmd:ftpshut=1.3.9b-r1",
+        "cmd:ftptop=1.3.9b-r1",
+        "cmd:ftpwho=1.3.9b-r1",
+        "cmd:prxs=1.3.9b-r1"
       ]
     },
     "progress": {
@@ -224878,36 +224965,39 @@
     "py3-psycopg": {
       "origin": "py3-psycopg",
       "versions": {
-        "3.3.3-r1": 1774640382
+        "3.3.3-r1": 1774640382,
+        "3.3.4-r0": 1780832903
       },
       "dependencies": [
         "py3-typing-extensions",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:psycopg=3.3.3-r1",
-        "py3.14:psycopg_pool=3.3.3-r1"
+        "py3.14:psycopg=3.3.4-r0",
+        "py3.14:psycopg_pool=3.3.4-r0"
       ]
     },
     "py3-psycopg-c": {
       "origin": "py3-psycopg",
       "versions": {
-        "3.3.3-r1": 1774640382
+        "3.3.3-r1": 1774640382,
+        "3.3.4-r0": 1780832903
       },
       "dependencies": [
-        "py3-psycopg=3.3.3-r1",
+        "py3-psycopg=3.3.4-r0",
         "python3~3.14",
         "so:libc.musl-armv7.so.1",
         "so:libpq.so.5"
       ],
       "provides": [
-        "py3.14:psycopg_c=3.3.3-r1"
+        "py3.14:psycopg_c=3.3.4-r0"
       ]
     },
     "py3-psycopg-c-pyc": {
       "origin": "py3-psycopg",
       "versions": {
-        "3.3.3-r1": 1774640382
+        "3.3.3-r1": 1774640382,
+        "3.3.4-r0": 1780832903
       },
       "dependencies": [
         "py3-typing-extensions",
@@ -224939,7 +225029,8 @@
     "py3-psycopg-pyc": {
       "origin": "py3-psycopg",
       "versions": {
-        "3.3.3-r1": 1774640382
+        "3.3.3-r1": 1774640382,
+        "3.3.4-r0": 1780832903
       },
       "dependencies": [
         "python3~3.14"
@@ -281304,7 +281395,8 @@
       "origin": "weechat",
       "versions": {
         "4.9.0-r0": 1774814735,
-        "4.9.1-r0": 1780324916
+        "4.9.1-r0": 1780324916,
+        "4.9.2-r0": 1780845405
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -281318,16 +281410,17 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:weechat-curses=4.9.1-r0",
-        "cmd:weechat-headless=4.9.1-r0",
-        "cmd:weechat=4.9.1-r0"
+        "cmd:weechat-curses=4.9.2-r0",
+        "cmd:weechat-headless=4.9.2-r0",
+        "cmd:weechat=4.9.2-r0"
       ]
     },
     "weechat-dev": {
       "origin": "weechat",
       "versions": {
         "4.9.0-r0": 1774814735,
-        "4.9.1-r0": 1780324916
+        "4.9.1-r0": 1780324916,
+        "4.9.2-r0": 1780845405
       },
       "dependencies": [
         "aspell-dev",
@@ -281345,28 +281438,31 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:weechat=4.9.1"
+        "pc:weechat=4.9.2"
       ]
     },
     "weechat-doc": {
       "origin": "weechat",
       "versions": {
         "4.9.0-r0": 1774814735,
-        "4.9.1-r0": 1780324916
+        "4.9.1-r0": 1780324916,
+        "4.9.2-r0": 1780845405
       }
     },
     "weechat-lang": {
       "origin": "weechat",
       "versions": {
         "4.9.0-r0": 1774814735,
-        "4.9.1-r0": 1780324916
+        "4.9.1-r0": 1780324916,
+        "4.9.2-r0": 1780845405
       }
     },
     "weechat-lua": {
       "origin": "weechat",
       "versions": {
         "4.9.0-r0": 1774814735,
-        "4.9.1-r0": 1780324916
+        "4.9.1-r0": 1780324916,
+        "4.9.2-r0": 1780845405
       },
       "dependencies": [
         "weechat",
@@ -281420,7 +281516,8 @@
       "origin": "weechat",
       "versions": {
         "4.9.0-r0": 1774814735,
-        "4.9.1-r0": 1780324916
+        "4.9.1-r0": 1780324916,
+        "4.9.2-r0": 1780845405
       },
       "dependencies": [
         "weechat",
@@ -281433,7 +281530,8 @@
       "origin": "weechat",
       "versions": {
         "4.9.0-r0": 1774814735,
-        "4.9.1-r0": 1780324916
+        "4.9.1-r0": 1780324916,
+        "4.9.2-r0": 1780845405
       },
       "dependencies": [
         "weechat",
@@ -281445,7 +281543,8 @@
       "origin": "weechat",
       "versions": {
         "4.9.0-r0": 1774814735,
-        "4.9.1-r0": 1780324916
+        "4.9.1-r0": 1780324916,
+        "4.9.2-r0": 1780845405
       },
       "dependencies": [
         "weechat",
@@ -281453,7 +281552,7 @@
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "weechat-aspell=4.9.1-r0"
+        "weechat-aspell=4.9.2-r0"
       ]
     },
     "weex": {
@@ -293846,7 +293945,8 @@
       "origin": "openresty",
       "versions": {
         "1.29.2.3-r1": 1779376172,
-        "1.29.2.5-r0": 1779824531
+        "1.29.2.5-r0": 1779824531,
+        "1.31.1.1-r0": 1780824963
       },
       "dependencies": [
         "cmd:nginx",
@@ -293854,7 +293954,7 @@
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "nginx-mod-devel-kit=1.29.2.5-r0"
+        "nginx-mod-devel-kit=1.31.1.1-r0"
       ]
     },
     "openvdb": {
@@ -294857,6 +294957,86 @@
       "origin": "neocmakelsp",
       "versions": {
         "0.10.3-r0": 1780806175
+      }
+    },
+    "proftpd-mod_digest": {
+      "origin": "proftpd",
+      "versions": {
+        "1.3.9b-r1": 1780847361
+      },
+      "dependencies": [
+        "proftpd",
+        "so:libc.musl-armv7.so.1",
+        "so:libcrypto.so.3"
+      ]
+    },
+    "proftpd-mod_dnsbl": {
+      "origin": "proftpd",
+      "versions": {
+        "1.3.9b-r1": 1780847361
+      },
+      "dependencies": [
+        "proftpd",
+        "so:libc.musl-armv7.so.1"
+      ]
+    },
+    "proftpd-mod_log_forensic": {
+      "origin": "proftpd",
+      "versions": {
+        "1.3.9b-r1": 1780847361
+      },
+      "dependencies": [
+        "proftpd",
+        "so:libc.musl-armv7.so.1"
+      ]
+    },
+    "proftpd-mod_qos": {
+      "origin": "proftpd",
+      "versions": {
+        "1.3.9b-r1": 1780847361
+      },
+      "dependencies": [
+        "proftpd",
+        "so:libc.musl-armv7.so.1"
+      ]
+    },
+    "proftpd-mod_statcache": {
+      "origin": "proftpd",
+      "versions": {
+        "1.3.9b-r1": 1780847361
+      },
+      "dependencies": [
+        "proftpd",
+        "so:libc.musl-armv7.so.1"
+      ]
+    },
+    "proftpd-mod_tls_fscache": {
+      "origin": "proftpd",
+      "versions": {
+        "1.3.9b-r1": 1780847361
+      },
+      "dependencies": [
+        "proftpd",
+        "proftpd-mod_tls",
+        "so:libc.musl-armv7.so.1"
+      ]
+    },
+    "reap": {
+      "origin": "reap",
+      "versions": {
+        "0.2-r0": 1780830375
+      },
+      "dependencies": [
+        "so:libc.musl-armv7.so.1"
+      ],
+      "provides": [
+        "cmd:reap=0.2-r0"
+      ]
+    },
+    "reap-doc": {
+      "origin": "reap",
+      "versions": {
+        "0.2-r0": 1780830375
       }
     }
   },
@@ -320122,7 +320302,7 @@
       },
       "weechat-aspell": {
         "package": "weechat-spell",
-        "version": "4.9.1-r0"
+        "version": "4.9.2-r0"
       },
       "pipewire-session-manager": {
         "package": "wireplumber",
@@ -320182,7 +320362,7 @@
       },
       "nginx-mod-devel-kit": {
         "package": "openresty-mod-devel-kit",
-        "version": "1.29.2.5-r0"
+        "version": "1.31.1.1-r0"
       },
       "py-libacl": {
         "package": "py3-libacl",
