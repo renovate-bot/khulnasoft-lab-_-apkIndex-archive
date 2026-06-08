@@ -85943,7 +85943,8 @@
       "origin": "inspircd",
       "versions": {
         "4.10.1-r0": 1779931235,
-        "4.11.0-r0": 1780767188
+        "4.11.0-r0": 1780767188,
+        "4.11.0-r1": 1780953153
       },
       "dependencies": [
         "/bin/sh",
@@ -85964,22 +85965,24 @@
         "so:libyyjson.so.0"
       ],
       "provides": [
-        "cmd:inspircd-testssl=4.11.0-r0",
-        "cmd:inspircd=4.11.0-r0"
+        "cmd:inspircd-testssl=4.11.0-r1",
+        "cmd:inspircd=4.11.0-r1"
       ]
     },
     "inspircd-doc": {
       "origin": "inspircd",
       "versions": {
         "4.10.1-r0": 1779931235,
-        "4.11.0-r0": 1780767188
+        "4.11.0-r0": 1780767188,
+        "4.11.0-r1": 1780953153
       }
     },
     "inspircd-openrc": {
       "origin": "inspircd",
       "versions": {
         "4.10.1-r0": 1779931235,
-        "4.11.0-r0": 1780767188
+        "4.11.0-r0": 1780767188,
+        "4.11.0-r1": 1780953153
       }
     },
     "install-makedepends": {
@@ -275993,6 +275996,31 @@
       "provides": [
         "cmd:update-sysfs=2.1.1_p7-r0"
       ]
+    },
+    "nwipe": {
+      "origin": "nwipe",
+      "versions": {
+        "0.41-r0": 1780950640
+      },
+      "dependencies": [
+        "hdparm",
+        "smartmontools",
+        "dmidecode",
+        "so:libc.musl-riscv64.so.1",
+        "so:libconfig.so.15",
+        "so:libncursesw.so.6",
+        "so:libpanelw.so.6",
+        "so:libparted.so.2"
+      ],
+      "provides": [
+        "cmd:nwipe=0.41-r0"
+      ]
+    },
+    "nwipe-doc": {
+      "origin": "nwipe",
+      "versions": {
+        "0.41-r0": 1780950640
+      }
     }
   },
   "provide": {

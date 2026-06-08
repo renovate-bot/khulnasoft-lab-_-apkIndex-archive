@@ -3159,7 +3159,8 @@
       "origin": "alloy",
       "versions": {
         "1.16.1-r1": 1778661427,
-        "1.16.2-r0": 1780937531
+        "1.16.2-r0": 1780937531,
+        "1.16.3-r0": 1780953736
       },
       "dependencies": [
         "/bin/sh",
@@ -3167,14 +3168,15 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:alloy=1.16.2-r0"
+        "cmd:alloy=1.16.3-r0"
       ]
     },
     "alloy-openrc": {
       "origin": "alloy",
       "versions": {
         "1.16.1-r1": 1778661427,
-        "1.16.2-r0": 1780937531
+        "1.16.2-r0": 1780937531,
+        "1.16.3-r0": 1780953736
       }
     },
     "alpine": {
@@ -94301,7 +94303,8 @@
       "versions": {
         "4.9.0-r0": 1769791714,
         "4.10.1-r0": 1779931235,
-        "4.11.0-r0": 1780767188
+        "4.11.0-r0": 1780767188,
+        "4.11.0-r1": 1780953153
       },
       "dependencies": [
         "/bin/sh",
@@ -94322,8 +94325,8 @@
         "so:libyyjson.so.0"
       ],
       "provides": [
-        "cmd:inspircd-testssl=4.11.0-r0",
-        "cmd:inspircd=4.11.0-r0"
+        "cmd:inspircd-testssl=4.11.0-r1",
+        "cmd:inspircd=4.11.0-r1"
       ]
     },
     "inspircd-doc": {
@@ -94331,7 +94334,8 @@
       "versions": {
         "4.9.0-r0": 1769791714,
         "4.10.1-r0": 1779931235,
-        "4.11.0-r0": 1780767188
+        "4.11.0-r0": 1780767188,
+        "4.11.0-r1": 1780953153
       }
     },
     "inspircd-openrc": {
@@ -94339,7 +94343,8 @@
       "versions": {
         "4.9.0-r0": 1769791714,
         "4.10.1-r0": 1779931235,
-        "4.11.0-r0": 1780767188
+        "4.11.0-r0": 1780767188,
+        "4.11.0-r1": 1780953153
       }
     },
     "install-makedepends": {
@@ -320223,6 +320228,31 @@
       "provides": [
         "cmd:update-sysfs=2.1.1_p7-r0"
       ]
+    },
+    "nwipe": {
+      "origin": "nwipe",
+      "versions": {
+        "0.41-r0": 1780950640
+      },
+      "dependencies": [
+        "hdparm",
+        "smartmontools",
+        "dmidecode",
+        "so:libc.musl-x86_64.so.1",
+        "so:libconfig.so.15",
+        "so:libncursesw.so.6",
+        "so:libpanelw.so.6",
+        "so:libparted.so.2"
+      ],
+      "provides": [
+        "cmd:nwipe=0.41-r0"
+      ]
+    },
+    "nwipe-doc": {
+      "origin": "nwipe",
+      "versions": {
+        "0.41-r0": 1780950640
+      }
     }
   },
   "provide": {

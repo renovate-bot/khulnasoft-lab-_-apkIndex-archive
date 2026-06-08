@@ -92153,51 +92153,51 @@ t:1760945879
 c:1a276890beb858a0622cd1410932b69f697b602a
 i:docs innoextract=1.9-r10
 
-C:Q1x11psdsD41SbnLIR7W32HxmfJt8=
+C:Q1s8b+KJvVTiLZQx86bYHTyHkdX+Y=
 P:inspircd
-V:4.11.0-r0
+V:4.11.0-r1
 A:riscv64
-S:3311640
+S:3311710
 I:9153192
 T:internet relay chat daemon (ircd)
 U:https://www.inspircd.org/
 L:GPL-2.0-or-later
 o:inspircd
-m:Sadie Powell <sadie@sadiepowell.dev>
-t:1780767188
-c:b38085b0200f4a697b15626532a98f2e275ec2ae
+m:Ferass El Hafidi <funderscore@postmarketos.org>
+t:1780953153
+c:a0982d62db2e0ea0df745b1b92e4c39fa8742827
 D:/bin/sh so:libargon2.so.1 so:libc.musl-riscv64.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libgnutls.so.30 so:liblber.so.2 so:libldap.so.2 so:libmariadb.so.3 so:libpcre2-8.so.0 so:libpq.so.5 so:libre2.so.11 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libyyjson.so.0
-p:cmd:inspircd-testssl=4.11.0-r0 cmd:inspircd=4.11.0-r0
+p:cmd:inspircd-testssl=4.11.0-r1 cmd:inspircd=4.11.0-r1
 
-C:Q1RIYpey+kPjExbJPKfBgBaEQ8qbo=
+C:Q1yJv1vVDRx+u/Tmz/klYScwjT07A=
 P:inspircd-doc
-V:4.11.0-r0
+V:4.11.0-r1
 A:riscv64
-S:3355
+S:3369
 I:1768
 T:internet relay chat daemon (ircd) (documentation)
 U:https://www.inspircd.org/
 L:GPL-2.0-or-later
 o:inspircd
-m:Sadie Powell <sadie@sadiepowell.dev>
-t:1780767188
-c:b38085b0200f4a697b15626532a98f2e275ec2ae
-i:docs inspircd=4.11.0-r0
+m:Ferass El Hafidi <funderscore@postmarketos.org>
+t:1780953153
+c:a0982d62db2e0ea0df745b1b92e4c39fa8742827
+i:docs inspircd=4.11.0-r1
 
-C:Q16dEc8S8ZV3U7ERuJgCmCqyeKFh4=
+C:Q1D1/IbGa+lzbbC2Do53+bt16PGWI=
 P:inspircd-openrc
-V:4.11.0-r0
+V:4.11.0-r1
 A:riscv64
-S:1598
+S:1608
 I:324
 T:internet relay chat daemon (ircd) (OpenRC init scripts)
 U:https://www.inspircd.org/
 L:GPL-2.0-or-later
 o:inspircd
-m:Sadie Powell <sadie@sadiepowell.dev>
-t:1780767188
-c:b38085b0200f4a697b15626532a98f2e275ec2ae
-i:openrc inspircd=4.11.0-r0
+m:Ferass El Hafidi <funderscore@postmarketos.org>
+t:1780953153
+c:a0982d62db2e0ea0df745b1b92e4c39fa8742827
+i:openrc inspircd=4.11.0-r1
 
 C:Q1LJZyMUO1uQah7cmo7szuOxwiSXc=
 P:install-makedepends
@@ -162717,6 +162717,37 @@ m:Antoine Martin (ayakael) <dev@ayakael.net>
 t:1778661427
 c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
 i:docs nwg-menu=0.1.9-r9
+
+C:Q1IGKub7I1DU/cBjPiTfOGGCeWO2k=
+P:nwipe
+V:0.41-r0
+A:riscv64
+S:311500
+I:487664
+T:nwipe is a program that will securely erase the entire contents of hard disks
+U:https://github.com/martijnvanbrummelen/nwipe
+L:GPL-2.0-only
+o:nwipe
+m:Chad Dougherty <crd477@icloud.com>
+t:1780950640
+c:1e116294cc1926bd670a9baa762f9657fdc5fa95
+D:hdparm smartmontools dmidecode so:libc.musl-riscv64.so.1 so:libconfig.so.15 so:libncursesw.so.6 so:libpanelw.so.6 so:libparted.so.2
+p:cmd:nwipe=0.41-r0
+
+C:Q1Qrj0UbSArrct+qzZ44fxaB0vHKM=
+P:nwipe-doc
+V:0.41-r0
+A:riscv64
+S:4842
+I:3286
+T:nwipe is a program that will securely erase the entire contents of hard disks (documentation)
+U:https://github.com/martijnvanbrummelen/nwipe
+L:GPL-2.0-only
+o:nwipe
+m:Chad Dougherty <crd477@icloud.com>
+t:1780950640
+c:1e116294cc1926bd670a9baa762f9657fdc5fa95
+i:docs nwipe=0.41-r0
 
 C:Q1vIYZKIjH/vn7M3l9Do1SXm/bvwg=
 P:nx-libs
