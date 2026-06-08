@@ -2660,20 +2660,22 @@
     "ack": {
       "origin": "ack",
       "versions": {
-        "3.9.0-r1": 1769144791
+        "3.9.0-r1": 1769144791,
+        "3.10.0-r0": 1780938958
       },
       "dependencies": [
         "perl",
         "perl-file-next"
       ],
       "provides": [
-        "cmd:ack=3.9.0-r1"
+        "cmd:ack=3.10.0-r0"
       ]
     },
     "ack-doc": {
       "origin": "ack",
       "versions": {
-        "3.9.0-r1": 1769144791
+        "3.9.0-r1": 1769144791,
+        "3.10.0-r0": 1780938958
       }
     },
     "acl": {
@@ -3017,7 +3019,8 @@
       "versions": {
         "3.21.0-r0": 1764763110,
         "3.22.0_rc1-r0": 1780808299,
-        "3.22.0_rc2-r0": 1780904805
+        "3.22.0_rc2-r0": 1780904805,
+        "3.22.0_rc3-r0": 1780946945
       },
       "dependencies": [
         "openrc>=0.24.1-r6",
@@ -3025,38 +3028,38 @@
         "so:libc.musl-x86_64.so.1"
       ],
       "provides": [
-        "cmd:copy-modloop=3.22.0_rc2-r0",
-        "cmd:genfstab=3.22.0_rc2-r0",
-        "cmd:lbu=3.22.0_rc2-r0",
-        "cmd:lbu_commit=3.22.0_rc2-r0",
-        "cmd:lbu_exclude=3.22.0_rc2-r0",
-        "cmd:lbu_include=3.22.0_rc2-r0",
-        "cmd:lbu_status=3.22.0_rc2-r0",
-        "cmd:setup-acf=3.22.0_rc2-r0",
-        "cmd:setup-alpine=3.22.0_rc2-r0",
-        "cmd:setup-apkcache=3.22.0_rc2-r0",
-        "cmd:setup-apkrepos=3.22.0_rc2-r0",
-        "cmd:setup-bootable=3.22.0_rc2-r0",
-        "cmd:setup-desktop=3.22.0_rc2-r0",
-        "cmd:setup-devd=3.22.0_rc2-r0",
-        "cmd:setup-disk=3.22.0_rc2-r0",
-        "cmd:setup-dns=3.22.0_rc2-r0",
-        "cmd:setup-hostname=3.22.0_rc2-r0",
-        "cmd:setup-interfaces=3.22.0_rc2-r0",
-        "cmd:setup-keymap=3.22.0_rc2-r0",
-        "cmd:setup-lbu=3.22.0_rc2-r0",
-        "cmd:setup-mta=3.22.0_rc2-r0",
-        "cmd:setup-ntp=3.22.0_rc2-r0",
-        "cmd:setup-proxy=3.22.0_rc2-r0",
-        "cmd:setup-sshd=3.22.0_rc2-r0",
-        "cmd:setup-timezone=3.22.0_rc2-r0",
-        "cmd:setup-user=3.22.0_rc2-r0",
-        "cmd:setup-wayland-base=3.22.0_rc2-r0",
-        "cmd:setup-xen-dom0=3.22.0_rc2-r0",
-        "cmd:setup-xorg-base=3.22.0_rc2-r0",
-        "cmd:uniso=3.22.0_rc2-r0",
-        "cmd:update-conf=3.22.0_rc2-r0",
-        "cmd:update-kernel=3.22.0_rc2-r0"
+        "cmd:copy-modloop=3.22.0_rc3-r0",
+        "cmd:genfstab=3.22.0_rc3-r0",
+        "cmd:lbu=3.22.0_rc3-r0",
+        "cmd:lbu_commit=3.22.0_rc3-r0",
+        "cmd:lbu_exclude=3.22.0_rc3-r0",
+        "cmd:lbu_include=3.22.0_rc3-r0",
+        "cmd:lbu_status=3.22.0_rc3-r0",
+        "cmd:setup-acf=3.22.0_rc3-r0",
+        "cmd:setup-alpine=3.22.0_rc3-r0",
+        "cmd:setup-apkcache=3.22.0_rc3-r0",
+        "cmd:setup-apkrepos=3.22.0_rc3-r0",
+        "cmd:setup-bootable=3.22.0_rc3-r0",
+        "cmd:setup-desktop=3.22.0_rc3-r0",
+        "cmd:setup-devd=3.22.0_rc3-r0",
+        "cmd:setup-disk=3.22.0_rc3-r0",
+        "cmd:setup-dns=3.22.0_rc3-r0",
+        "cmd:setup-hostname=3.22.0_rc3-r0",
+        "cmd:setup-interfaces=3.22.0_rc3-r0",
+        "cmd:setup-keymap=3.22.0_rc3-r0",
+        "cmd:setup-lbu=3.22.0_rc3-r0",
+        "cmd:setup-mta=3.22.0_rc3-r0",
+        "cmd:setup-ntp=3.22.0_rc3-r0",
+        "cmd:setup-proxy=3.22.0_rc3-r0",
+        "cmd:setup-sshd=3.22.0_rc3-r0",
+        "cmd:setup-timezone=3.22.0_rc3-r0",
+        "cmd:setup-user=3.22.0_rc3-r0",
+        "cmd:setup-wayland-base=3.22.0_rc3-r0",
+        "cmd:setup-xen-dom0=3.22.0_rc3-r0",
+        "cmd:setup-xorg-base=3.22.0_rc3-r0",
+        "cmd:uniso=3.22.0_rc3-r0",
+        "cmd:update-conf=3.22.0_rc3-r0",
+        "cmd:update-kernel=3.22.0_rc3-r0"
       ]
     },
     "alpine-git-mirror-syncd": {
@@ -49945,22 +49948,24 @@
     "perl-dbi": {
       "origin": "perl-dbi",
       "versions": {
-        "1.647-r1": 1751254738
+        "1.647-r1": 1751254738,
+        "1.648-r0": 1780939387
       },
       "dependencies": [
         "perl",
         "so:libc.musl-x86_64.so.1"
       ],
       "provides": [
-        "cmd:dbilogstrip=1.647-r1",
-        "cmd:dbiprof=1.647-r1",
-        "cmd:dbiproxy=1.647-r1"
+        "cmd:dbilogstrip=1.648-r0",
+        "cmd:dbiprof=1.648-r0",
+        "cmd:dbiproxy=1.648-r0"
       ]
     },
     "perl-dbi-doc": {
       "origin": "perl-dbi",
       "versions": {
-        "1.647-r1": 1751254738
+        "1.647-r1": 1751254738,
+        "1.648-r0": 1780939387
       }
     },
     "perl-dbix-dbschema": {
@@ -69500,7 +69505,8 @@
       "versions": {
         "3.2.3-r0": 1765124974,
         "3.3.0-r0": 1779566273,
-        "3.3.1-r0": 1780855114
+        "3.3.1-r0": 1780855114,
+        "3.3.1-r1": 1780945974
       },
       "dependencies": [
         "e2fsprogs-extra",
@@ -69511,9 +69517,9 @@
         "/bin/sh"
       ],
       "provides": [
-        "tiny-cloud-allclouds=3.3.1-r0",
-        "cmd:imds=3.3.1-r0",
-        "cmd:tiny-cloud=3.3.1-r0"
+        "tiny-cloud-allclouds=3.3.1-r1",
+        "cmd:imds=3.3.1-r1",
+        "cmd:tiny-cloud=3.3.1-r1"
       ]
     },
     "tiny-cloud-aws": {
@@ -69521,10 +69527,11 @@
       "versions": {
         "3.2.3-r0": 1765124974,
         "3.3.0-r0": 1779566273,
-        "3.3.1-r0": 1780855114
+        "3.3.1-r0": 1780855114,
+        "3.3.1-r1": 1780945974
       },
       "dependencies": [
-        "tiny-cloud=3.3.1-r0",
+        "tiny-cloud=3.3.1-r1",
         "/bin/sh"
       ],
       "provides": [
@@ -69536,10 +69543,11 @@
       "versions": {
         "3.2.3-r0": 1765124974,
         "3.3.0-r0": 1779566273,
-        "3.3.1-r0": 1780855114
+        "3.3.1-r0": 1780855114,
+        "3.3.1-r1": 1780945974
       },
       "dependencies": [
-        "tiny-cloud=3.3.1-r0",
+        "tiny-cloud=3.3.1-r1",
         "/bin/sh"
       ]
     },
@@ -69548,10 +69556,11 @@
       "versions": {
         "3.2.3-r0": 1765124974,
         "3.3.0-r0": 1779566273,
-        "3.3.1-r0": 1780855114
+        "3.3.1-r0": 1780855114,
+        "3.3.1-r1": 1780945974
       },
       "dependencies": [
-        "tiny-cloud=3.3.1-r0",
+        "tiny-cloud=3.3.1-r1",
         "/bin/sh"
       ]
     },
@@ -69560,10 +69569,11 @@
       "versions": {
         "3.2.3-r0": 1765124974,
         "3.3.0-r0": 1779566273,
-        "3.3.1-r0": 1780855114
+        "3.3.1-r0": 1780855114,
+        "3.3.1-r1": 1780945974
       },
       "dependencies": [
-        "tiny-cloud=3.3.1-r0",
+        "tiny-cloud=3.3.1-r1",
         "/bin/sh"
       ]
     },
@@ -69572,10 +69582,11 @@
       "versions": {
         "3.2.3-r0": 1765124974,
         "3.3.0-r0": 1779566273,
-        "3.3.1-r0": 1780855114
+        "3.3.1-r0": 1780855114,
+        "3.3.1-r1": 1780945974
       },
       "dependencies": [
-        "tiny-cloud=3.3.1-r0",
+        "tiny-cloud=3.3.1-r1",
         "/bin/sh"
       ]
     },
@@ -69584,10 +69595,11 @@
       "versions": {
         "3.2.3-r0": 1765124974,
         "3.3.0-r0": 1779566273,
-        "3.3.1-r0": 1780855114
+        "3.3.1-r0": 1780855114,
+        "3.3.1-r1": 1780945974
       },
       "dependencies": [
-        "tiny-cloud=3.3.1-r0",
+        "tiny-cloud=3.3.1-r1",
         "/bin/sh"
       ]
     },
@@ -69596,14 +69608,15 @@
       "versions": {
         "3.2.3-r0": 1765124974,
         "3.3.0-r0": 1779566273,
-        "3.3.1-r0": 1780855114
+        "3.3.1-r0": 1780855114,
+        "3.3.1-r1": 1780945974
       },
       "dependencies": [
-        "tiny-cloud=3.3.1-r0",
+        "tiny-cloud=3.3.1-r1",
         "/bin/sh"
       ],
       "provides": [
-        "tiny-cloud-alpine=3.3.1-r0"
+        "tiny-cloud-alpine=3.3.1-r1"
       ]
     },
     "tiny-cloud-oci": {
@@ -69611,10 +69624,11 @@
       "versions": {
         "3.2.3-r0": 1765124974,
         "3.3.0-r0": 1779566273,
-        "3.3.1-r0": 1780855114
+        "3.3.1-r0": 1780855114,
+        "3.3.1-r1": 1780945974
       },
       "dependencies": [
-        "tiny-cloud=3.3.1-r0",
+        "tiny-cloud=3.3.1-r1",
         "/bin/sh"
       ]
     },
@@ -69623,7 +69637,8 @@
       "versions": {
         "3.2.3-r0": 1765124974,
         "3.3.0-r0": 1779566273,
-        "3.3.1-r0": 1780855114
+        "3.3.1-r0": 1780855114,
+        "3.3.1-r1": 1780945974
       },
       "dependencies": [
         "/bin/sh"
@@ -69634,10 +69649,11 @@
       "versions": {
         "3.2.3-r0": 1765124974,
         "3.3.0-r0": 1779566273,
-        "3.3.1-r0": 1780855114
+        "3.3.1-r0": 1780855114,
+        "3.3.1-r1": 1780945974
       },
       "dependencies": [
-        "tiny-cloud=3.3.1-r0",
+        "tiny-cloud=3.3.1-r1",
         "/bin/sh"
       ]
     },
@@ -74766,7 +74782,8 @@
       "origin": "tiny-cloud",
       "versions": {
         "3.3.0-r0": 1779566273,
-        "3.3.1-r0": 1780855114
+        "3.3.1-r0": 1780855114,
+        "3.3.1-r1": 1780945974
       }
     },
     "linux-firmware-lontium": {
@@ -74809,7 +74826,8 @@
       "origin": "alpine-conf",
       "versions": {
         "3.22.0_rc1-r0": 1780808299,
-        "3.22.0_rc2-r0": 1780904805
+        "3.22.0_rc2-r0": 1780904805,
+        "3.22.0_rc3-r0": 1780946945
       }
     }
   },
@@ -76197,7 +76215,7 @@
       },
       "tiny-cloud-allclouds": {
         "package": "tiny-cloud",
-        "version": "3.3.1-r0"
+        "version": "3.3.1-r1"
       },
       "tiny-ec2-bootstrap": {
         "package": "tiny-cloud-aws",
@@ -76205,7 +76223,7 @@
       },
       "tiny-cloud-alpine": {
         "package": "tiny-cloud-nocloud",
-        "version": "3.3.1-r0"
+        "version": "3.3.1-r1"
       },
       "uboot-tools": {
         "package": "u-boot-tools",

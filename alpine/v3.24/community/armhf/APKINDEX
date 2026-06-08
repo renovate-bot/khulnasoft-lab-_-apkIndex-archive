@@ -83220,100 +83220,100 @@ t:1733985423
 c:4238bab31b26ca3060d1e7e67fd46354327f9cf0
 i:openrc incron=0.5.12-r0
 
-C:Q1uP7ivurtmePFPPh95q1bt4kWnw0=
+C:Q17pj5R3ofp0pmeruzMqRDu3YF9DE=
 P:incus
-V:7.0.0-r2
+V:7.0.0-r3
 A:armhf
-S:21709164
+S:21709165
 I:64240636
 T:Powerful system container and virtual machine manager
 U:https://github.com/lxc/incus
 L:Apache-2.0
 o:incus
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1780139607
-c:21fbbc27f91d12c881a51ba647b4184c70ab9976
-D:acl attr ca-certificates dbus dnsmasq lxc iproute2 iptables netcat-openbsd rsync squashfs-tools shadow-subids tar xz /bin/sh so:libacl.so.1 so:libc.musl-armhf.so.1 so:libcap.so.2 so:libcowsql.so.0 so:libgcc_s.so.1 so:libintl.so.8 so:liblxc.so.1 so:libsqlite3.so.0 so:libudev.so.1
-p:cmd:incusd=7.0.0-r2
+t:1780944737
+c:fc9b1ecbdaad78efe95de601f24064bc770f9de0
+D:acl attr ca-certificates dbus dnsmasq lxc>=6.0.0 iproute2 netcat-openbsd nftables rsync squashfs-tools shadow-subids tar xz /bin/sh so:libacl.so.1 so:libc.musl-armhf.so.1 so:libcap.so.2 so:libcowsql.so.0 so:libgcc_s.so.1 so:libintl.so.8 so:liblxc.so.1 so:libsqlite3.so.0 so:libudev.so.1
+p:cmd:incusd=7.0.0-r3
 
-C:Q1kZoLtknowU2qjYT/ruoaQ+ZBy8E=
+C:Q1naZz17gurH8JfJxiBkHivS2oc/Y=
 P:incus-agent
-V:7.0.0-r2
+V:7.0.0-r3
 A:armhf
-S:6836973
+S:6836978
 I:18169444
 T:Incus agent
 U:https://github.com/lxc/incus
 L:Apache-2.0
 o:incus
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1780139607
-c:21fbbc27f91d12c881a51ba647b4184c70ab9976
-D:acl attr ca-certificates dbus dnsmasq lxc iproute2 iptables netcat-openbsd rsync squashfs-tools shadow-subids tar xz
-p:cmd:incus-agent=7.0.0-r2
+t:1780944737
+c:fc9b1ecbdaad78efe95de601f24064bc770f9de0
+D:acl attr ca-certificates dbus dnsmasq lxc>=6.0.0 iproute2 netcat-openbsd nftables rsync squashfs-tools shadow-subids tar xz
+p:cmd:incus-agent=7.0.0-r3
 
-C:Q1Aen+Liq6xHqXz3nvCbLGT52YJYM=
+C:Q1YG7EN1IpD9yuAh8pNfdSwXTe2GI=
 P:incus-agent-openrc
-V:7.0.0-r2
+V:7.0.0-r3
 A:armhf
-S:1853
+S:1850
 I:299
 T:Incus agent OpenRC scripts
 U:https://github.com/lxc/incus
 L:Apache-2.0
 o:incus
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1780139607
-c:21fbbc27f91d12c881a51ba647b4184c70ab9976
-D:acl attr ca-certificates dbus dnsmasq lxc iproute2 iptables netcat-openbsd rsync squashfs-tools shadow-subids tar xz
-i:openrc incus-agent=7.0.0-r2
+t:1780944737
+c:fc9b1ecbdaad78efe95de601f24064bc770f9de0
+D:acl attr ca-certificates dbus dnsmasq lxc>=6.0.0 iproute2 netcat-openbsd nftables rsync squashfs-tools shadow-subids tar xz
+i:openrc incus-agent=7.0.0-r3
 
-C:Q1grh6EnBaTISbO1DvVg5ppKkKEOU=
+C:Q1Uc+8KeyY5QUTZJcKJLsJN86WzFA=
 P:incus-bash-completion
-V:7.0.0-r2
+V:7.0.0-r3
 A:armhf
-S:6219
+S:6214
 I:16093
 T:Bash completions for incus
 U:https://github.com/lxc/incus
 L:Apache-2.0
 o:incus
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1780139607
-c:21fbbc27f91d12c881a51ba647b4184c70ab9976
-i:incus=7.0.0-r2 bash-completion
+t:1780944737
+c:fc9b1ecbdaad78efe95de601f24064bc770f9de0
+i:incus=7.0.0-r3 bash-completion
 
-C:Q1drY1wbciFktWCGaKkvMVtGs6pSI=
+C:Q1Zwns9dIHhEjubyyy78ktjDdLLX0=
 P:incus-client
-V:7.0.0-r2
+V:7.0.0-r3
 A:armhf
-S:9279732
+S:9279741
 I:24948356
 T:Incus CLI client
 U:https://github.com/lxc/incus
 L:Apache-2.0
 o:incus
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1780139607
-c:21fbbc27f91d12c881a51ba647b4184c70ab9976
-D:acl attr ca-certificates dbus dnsmasq lxc iproute2 iptables netcat-openbsd rsync squashfs-tools shadow-subids tar xz so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libintl.so.8
-p:cmd:incus=7.0.0-r2
+t:1780944737
+c:fc9b1ecbdaad78efe95de601f24064bc770f9de0
+D:acl attr ca-certificates dbus dnsmasq lxc>=6.0.0 iproute2 netcat-openbsd nftables rsync squashfs-tools shadow-subids tar xz so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libintl.so.8
+p:cmd:incus=7.0.0-r3
 
-C:Q1x7PzQGAQg+I6vfKwaB/pjiZVRNM=
+C:Q18kBVLPTKqpVVLEpacU5MNI50cJs=
 P:incus-conversion
-V:7.0.0-r2
+V:7.0.0-r3
 A:armhf
-S:13025708
+S:13025715
 I:34599040
 T:Tools to convert a prior lxc/lxd instance to incus
 U:https://github.com/lxc/incus
 L:Apache-2.0
 o:incus
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1780139607
-c:21fbbc27f91d12c881a51ba647b4184c70ab9976
-D:acl attr ca-certificates dbus dnsmasq lxc iproute2 iptables netcat-openbsd rsync squashfs-tools shadow-subids tar xz so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libintl.so.8 so:liblxc.so.1
-p:cmd:lxc-to-incus=7.0.0-r2 cmd:lxd-to-incus=7.0.0-r2
+t:1780944737
+c:fc9b1ecbdaad78efe95de601f24064bc770f9de0
+D:acl attr ca-certificates dbus dnsmasq lxc>=6.0.0 iproute2 netcat-openbsd nftables rsync squashfs-tools shadow-subids tar xz so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libintl.so.8 so:liblxc.so.1
+p:cmd:lxc-to-incus=7.0.0-r3 cmd:lxd-to-incus=7.0.0-r3
 
 C:Q13XfNLcXynQEGpVogihtNfgtUxjk=
 P:incus-feature
@@ -83504,9 +83504,9 @@ t:1778661427
 c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
 D:acl attr ca-certificates dbus dnsmasq lxc iproute2 iptables netcat-openbsd rsync squashfs-tools shadow-subids tar xz qemu-system-x86_64 qemu-chardev-spice qemu-hw-usb-redirect qemu-hw-display-virtio-vga qemu-img qemu-ui-spice-core incus-feature-agent incus-feature-utils sgdisk util-linux-misc virtiofsd
 
-C:Q1kFV6nuArKj7WrFnmV/c1LbnkTFA=
+C:Q1kvOUrPfdB9nmy9Z6SqNK+3yw90w=
 P:incus-openrc
-V:7.0.0-r2
+V:7.0.0-r3
 A:armhf
 S:2630
 I:2030
@@ -83515,73 +83515,73 @@ U:https://github.com/lxc/incus
 L:Apache-2.0
 o:incus
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1780139607
-c:21fbbc27f91d12c881a51ba647b4184c70ab9976
-p:incus-lts-openrc=7.0.0-r2
-i:openrc incus=7.0.0-r2
+t:1780944737
+c:fc9b1ecbdaad78efe95de601f24064bc770f9de0
+p:incus-lts-openrc=7.0.0-r3
+i:openrc incus=7.0.0-r3
 
-C:Q1MOg7a/ImQ35XfZ0jNftI6L+yJrg=
+C:Q1k6ahsI/wyxfz3ew6yaUtbmmLBfQ=
 P:incus-user
-V:7.0.0-r2
+V:7.0.0-r3
 A:armhf
-S:6100259
+S:6100261
 I:16137604
 T:Incus user project daemon
 U:https://github.com/lxc/incus
 L:Apache-2.0
 o:incus
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1780139607
-c:21fbbc27f91d12c881a51ba647b4184c70ab9976
-D:acl attr ca-certificates dbus dnsmasq lxc iproute2 iptables netcat-openbsd rsync squashfs-tools shadow-subids tar xz so:libacl.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
-p:cmd:incus-user=7.0.0-r2
+t:1780944737
+c:fc9b1ecbdaad78efe95de601f24064bc770f9de0
+D:acl attr ca-certificates dbus dnsmasq lxc>=6.0.0 iproute2 netcat-openbsd nftables rsync squashfs-tools shadow-subids tar xz so:libacl.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1
+p:cmd:incus-user=7.0.0-r3
 
-C:Q1mzD0Blyc8ZF6OkN30P/89mBkJw8=
+C:Q1tAn3Wk4UKIF71DFlzv3x2iXNwUg=
 P:incus-user-openrc
-V:7.0.0-r2
+V:7.0.0-r3
 A:armhf
-S:1884
+S:1882
 I:342
 T:Incus user project daemon OpenRC scripts
 U:https://github.com/lxc/incus
 L:Apache-2.0
 o:incus
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1780139607
-c:21fbbc27f91d12c881a51ba647b4184c70ab9976
-D:acl attr ca-certificates dbus dnsmasq lxc iproute2 iptables netcat-openbsd rsync squashfs-tools shadow-subids tar xz
-i:openrc incus-user=7.0.0-r2
+t:1780944737
+c:fc9b1ecbdaad78efe95de601f24064bc770f9de0
+D:acl attr ca-certificates dbus dnsmasq lxc>=6.0.0 iproute2 netcat-openbsd nftables rsync squashfs-tools shadow-subids tar xz
+i:openrc incus-user=7.0.0-r3
 
-C:Q1ScKZGHqvQvBVoENaBpuRkVAjuHQ=
+C:Q1djIMqz88xdevjXpsDNkQCqiJ5j8=
 P:incus-utils
-V:7.0.0-r2
+V:7.0.0-r3
 A:armhf
-S:37399621
+S:37399618
 I:97408153
 T:Incus utilities and scripts
 U:https://github.com/lxc/incus
 L:Apache-2.0
 o:incus
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1780139607
-c:21fbbc27f91d12c881a51ba647b4184c70ab9976
+t:1780944737
+c:fc9b1ecbdaad78efe95de601f24064bc770f9de0
 D:incus py3-lxc jq losetup so:libacl.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libintl.so.8 so:libsqlite3.so.0
-p:cmd:empty-incus.sh=7.0.0-r2 cmd:fuidshift=7.0.0-r2 cmd:generate-config=7.0.0-r2 cmd:generate-database=7.0.0-r2 cmd:incus-benchmark=7.0.0-r2 cmd:incus-migrate=7.0.0-r2 cmd:incus-simplestreams=7.0.0-r2 cmd:mini-oidc=7.0.0-r2 cmd:sysinfo=7.0.0-r2 cmd:tls2jwt=7.0.0-r2
+p:cmd:empty-incus.sh=7.0.0-r3 cmd:fuidshift=7.0.0-r3 cmd:generate-config=7.0.0-r3 cmd:generate-database=7.0.0-r3 cmd:incus-benchmark=7.0.0-r3 cmd:incus-migrate=7.0.0-r3 cmd:incus-simplestreams=7.0.0-r3 cmd:mini-oidc=7.0.0-r3 cmd:sysinfo=7.0.0-r3 cmd:tls2jwt=7.0.0-r3
 
-C:Q1+cU1l2iUo+aEkXveoB7wNPXadbE=
+C:Q1+Fx67eGMhUdqFavIHnfxmP26BcA=
 P:incus-vm
-V:7.0.0-r2
+V:7.0.0-r3
 A:armhf
-S:1459
+S:1473
 I:0
 T:Install packages required to run VMs under Incus
 U:https://github.com/lxc/incus
 L:Apache-2.0
 o:incus
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1780139607
-c:21fbbc27f91d12c881a51ba647b4184c70ab9976
-D:acl attr ca-certificates dbus dnsmasq lxc iproute2 iptables netcat-openbsd rsync squashfs-tools shadow-subids tar xz qemu-system-x86_64 qemu-chardev-spice qemu-hw-usb-redirect qemu-hw-display-virtio-vga qemu-img qemu-ui-spice-core incus-agent incus-utils sgdisk util-linux-misc virtiofsd
+t:1780944737
+c:fc9b1ecbdaad78efe95de601f24064bc770f9de0
+D:acl attr ca-certificates dbus dnsmasq lxc>=6.0.0 iproute2 netcat-openbsd nftables rsync squashfs-tools shadow-subids tar xz qemu-system-x86_64>=8.2 qemu-chardev-spice qemu-hw-usb-redirect qemu-hw-display-virtio-vga qemu-img qemu-ui-spice-core incus-agent incus-utils sgdisk util-linux-misc virtiofsd
 
 C:Q1868eWVDrBpN4ss+8TsoBcqtkM7c=
 P:indi-3rdparty
@@ -138094,77 +138094,82 @@ c:b66df9ab4d2b6270897cb184e2b43c179480dccc
 D:pkgconfig
 p:pc:nlohmann_json=3.11.3
 
-C:Q1NzQC+7OgWmQL38ykfGopsA08SEE=
+C:Q1kK8PEp5Q7cuWB2GpEbbT496cfe0=
 P:nlopt
-V:2.10.1-r1
+V:2.11.0-r0
 A:armhf
-S:176594
-I:378392
+S:177281
+I:382488
 T:Library for nonlinear optimization
 U:https://github.com/stevengj/nlopt
 L:LGPL-2.1-or-later
 o:nlopt
-t:1774640380
-c:0987537a65cf6b106c8eed6f1953435481ff25a6
+m:Wen Heping <wenhepingalpine@sohu.com>
+t:1780948760
+c:156296cc5e16ea195bd12a819d5aa0d95c68f5c1
 D:so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:so:libnlopt.so.1=1.0.0
+p:so:libnlopt.so.1=1.1.0
 
-C:Q1lcZyyZpHcOhSZBq8saRn3SrrEOw=
+C:Q1ErN+5/JuDHxFPSodRF26Zho9nX0=
 P:nlopt-dev
-V:2.10.1-r1
+V:2.11.0-r0
 A:armhf
-S:12231
-I:46414
+S:12247
+I:46365
 T:Library for nonlinear optimization (development files)
 U:https://github.com/stevengj/nlopt
 L:LGPL-2.1-or-later
 o:nlopt
-t:1774640380
-c:0987537a65cf6b106c8eed6f1953435481ff25a6
-D:nlopt=2.10.1-r1 pkgconfig
-p:pc:nlopt=2.10.1
+m:Wen Heping <wenhepingalpine@sohu.com>
+t:1780948760
+c:156296cc5e16ea195bd12a819d5aa0d95c68f5c1
+D:nlopt=2.11.0-r0 pkgconfig
+p:pc:nlopt=2.11.0
 
-C:Q1RYGd10OXgCkIWrNK+/8LWhe7GVU=
+C:Q1YjhCF0VnNEhvtz42sO7fV4PD6Jg=
 P:nlopt-doc
-V:2.10.1-r1
+V:2.11.0-r0
 A:armhf
-S:23320
+S:23358
 I:21339
 T:Library for nonlinear optimization (documentation)
 U:https://github.com/stevengj/nlopt
 L:LGPL-2.1-or-later
 o:nlopt
-t:1774640380
-c:0987537a65cf6b106c8eed6f1953435481ff25a6
-i:docs nlopt=2.10.1-r1
+m:Wen Heping <wenhepingalpine@sohu.com>
+t:1780948760
+c:156296cc5e16ea195bd12a819d5aa0d95c68f5c1
+i:docs nlopt=2.11.0-r0
 
-C:Q1PrIsz3VCdrQT7Sw0zCDJw6s/g1E=
+C:Q1XKC/2TTlCIMTcDw3efTCpwFQcrM=
 P:nlopt-guile
-V:2.10.1-r1
+V:2.11.0-r0
 A:armhf
-S:43169
+S:43195
 I:123025
 T:Library for nonlinear optimization (Guile bindings)
 U:https://github.com/stevengj/nlopt
 L:LGPL-2.1-or-later
 o:nlopt
-t:1774640380
-c:0987537a65cf6b106c8eed6f1953435481ff25a6
-D:nlopt=2.10.1-r1 guile so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libguile-3.0.so.1 so:libnlopt.so.1 so:libstdc++.so.6
+m:Wen Heping <wenhepingalpine@sohu.com>
+t:1780948760
+c:156296cc5e16ea195bd12a819d5aa0d95c68f5c1
+D:nlopt=2.11.0-r0 guile so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libguile-3.0.so.1 so:libnlopt.so.1 so:libstdc++.so.6
 
-C:Q1zfFYjbewhm//epA/IBSeW3FIr+c=
+C:Q11l8L+5NeOTPvVLgypYXpS/P7eno=
 P:nlopt-octave
-V:2.10.1-r1
+V:2.11.0-r0
 A:armhf
-S:25554
+S:25587
 I:58913
 T:Library for nonlinear optimization (Octave bindings)
 U:https://github.com/stevengj/nlopt
 L:LGPL-2.1-or-later
 o:nlopt
-t:1774640380
-c:0987537a65cf6b106c8eed6f1953435481ff25a6
-D:nlopt=2.10.1-r1 octave so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libnlopt.so.1 so:liboctave.so.13 so:liboctinterp.so.15 so:libstdc++.so.6
+m:Wen Heping <wenhepingalpine@sohu.com>
+t:1780948760
+c:156296cc5e16ea195bd12a819d5aa0d95c68f5c1
+D:nlopt=2.11.0-r0 octave so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libnlopt.so.1 so:liboctave.so.13 so:liboctinterp.so.15 so:libstdc++.so.6
 
 C:Q1Gn45J3+jjFiwjtHDBPoe+4ALEIg=
 P:nmail
@@ -200595,37 +200600,37 @@ c:79c60be28745080376942a8275fb967fb2208bfe
 D:python3~3.14
 i:py3-faker=40.14.1-r0 pyc
 
-C:Q1pdnd42fHTWLP0QvX1Us0T56xDjc=
+C:Q1yBygV2xZywnwic7XXvpjvYRRnsY=
 P:py3-fakeredis
-V:2.35.1-r0
+V:2.36.0-r0
 A:armhf
-S:109810
-I:499204
+S:117630
+I:536211
 T:Fake implementation of redis API for testing purposes
 U:https://pypi.org/project/fakeredis/
 L:BSD-3-Clause
 o:py3-fakeredis
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1778048853
-c:1194c34eff14637c3226bd11f2736ef92f26e742
+t:1780939475
+c:46dcb43af159e28ec56608b5ad4cbb185bcfbe6a
 D:py3-packaging py3-redis py3-sortedcontainers python3~3.14
-p:py3.14:fakeredis=2.35.1-r0
+p:py3.14:fakeredis=2.36.0-r0
 
-C:Q1LH62p0inUwLWnF2KR9+++fDP48I=
+C:Q1FDls6R3DIU1vLT4rKSCS0YzCr1g=
 P:py3-fakeredis-pyc
-V:2.35.1-r0
+V:2.36.0-r0
 A:armhf
-S:309066
-I:833313
+S:334049
+I:898698
 T:Precompiled Python bytecode for py3-fakeredis
 U:https://pypi.org/project/fakeredis/
 L:BSD-3-Clause
 o:py3-fakeredis
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1778048853
-c:1194c34eff14637c3226bd11f2736ef92f26e742
+t:1780939475
+c:46dcb43af159e28ec56608b5ad4cbb185bcfbe6a
 D:python3~3.14
-i:py3-fakeredis=2.35.1-r0 pyc
+i:py3-fakeredis=2.36.0-r0 pyc
 
 C:Q14pIjkg+VViAefWFzWiUTARMePf0=
 P:py3-falcon
@@ -206615,37 +206620,37 @@ c:a15bde8b857fc085cbce6e2b06491b90355b2297
 D:python3~3.14
 i:py3-josepy=2.2.0-r0 pyc
 
-C:Q1UPgGki3aw2eADj8cTJ9E2IEmdfM=
+C:Q1HNsSz+lxi38DkNBBgZUKFE92FQ0=
 P:py3-joserfc
-V:1.7.0-r0
+V:1.7.1-r0
 A:armhf
-S:57669
-I:218476
+S:57710
+I:218635
 T:Implementations of JOSE RFCs in Python
 U:https://jose.authlib.org
 L:BSD-3-Clause
 o:py3-joserfc
 m:Guy Godfroy <guy.godfroy@gugod.fr>
-t:1780927653
-c:1aeb89a67f505baa1d1bea0edbe77ba0377e180b
+t:1780945860
+c:2a6d4c0337217722bf10a66fdcb4193a45b01749
 D:py3-cryptography py3-pycryptodome python3~3.14
-p:py3.14:joserfc=1.7.0-r0
+p:py3.14:joserfc=1.7.1-r0
 
-C:Q1mFVYSMuu6VSWg0kEDseJStGe9EU=
+C:Q1YkzVvhJSq3zFtp6W2ehpeRAhnAQ=
 P:py3-joserfc-pyc
-V:1.7.0-r0
+V:1.7.1-r0
 A:armhf
-S:138480
-I:365565
+S:138580
+I:365680
 T:Precompiled Python bytecode for py3-joserfc
 U:https://jose.authlib.org
 L:BSD-3-Clause
 o:py3-joserfc
 m:Guy Godfroy <guy.godfroy@gugod.fr>
-t:1780927653
-c:1aeb89a67f505baa1d1bea0edbe77ba0377e180b
+t:1780945860
+c:2a6d4c0337217722bf10a66fdcb4193a45b01749
 D:python3~3.14
-i:py3-joserfc=1.7.0-r0 pyc
+i:py3-joserfc=1.7.1-r0 pyc
 
 C:Q1StYEcZpEiALJPlZ/xUxt8h6+KZg=
 P:py3-json-database
@@ -271307,64 +271312,68 @@ t:1755773656
 c:608d9bd4f1164cdefab20cb9d617efce2ace654d
 i:openrc touchegg=2.0.18-r0
 
-C:Q1vNPwSVNeAhJhTLFT9yjhkdOhnew=
+C:Q12fZ/2z8QAvko7TlD1JhqGXRiD2Y=
 P:toxcore
-V:0.2.21-r3
+V:0.2.23-r0
 A:armhf
-S:14696
-I:39312
+S:17359
+I:43460
 T:Tox communication project - C core
 U:https://tox.chat/
 L:GPL-3.0-or-later
 o:toxcore
-t:1771160091
-c:a9e2a2dc46f377eb25884f7fea9834492de7f518
+m:Robert Mongold <rtmongold@gmail.com>
+t:1780940572
+c:c48f2edd7c018047a6f23a86e530cf1fcec2c969
 D:so:libc.musl-armhf.so.1 so:libconfig.so.15 so:libtoxcore.so.2
-p:cmd:DHT_bootstrap=0.2.21-r3 cmd:tox-bootstrapd=0.2.21-r3
+p:cmd:DHT_bootstrap=0.2.23-r0 cmd:tox-bootstrapd=0.2.23-r0
 
-C:Q1HKKn74Suzre6fLbEk/RMsKR8iH4=
+C:Q1OOaLpBcuiaDvQtB+d4ROKLaztcs=
 P:toxcore-bash-completion
-V:0.2.21-r3
+V:0.2.23-r0
 A:armhf
-S:1902
+S:1933
 I:692
 T:Bash completions for toxcore
 U:https://tox.chat/
 L:GPL-3.0-or-later
 o:toxcore
-t:1771160091
-c:a9e2a2dc46f377eb25884f7fea9834492de7f518
-i:toxcore=0.2.21-r3 bash-completion
+m:Robert Mongold <rtmongold@gmail.com>
+t:1780940572
+c:c48f2edd7c018047a6f23a86e530cf1fcec2c969
+i:toxcore=0.2.23-r0 bash-completion
 
-C:Q1qwJ+kg6B2XUYdG5I4iRk+IgYfac=
+C:Q1UfVGGZbnu+8NWkWbmo80SX9MqQo=
 P:toxcore-dev
-V:0.2.21-r3
+V:0.2.23-r0
 A:armhf
-S:45430
-I:224671
+S:46312
+I:229272
 T:Tox communication project - C core (development files)
 U:https://tox.chat/
 L:GPL-3.0-or-later
 o:toxcore
-t:1771160091
-c:a9e2a2dc46f377eb25884f7fea9834492de7f518
-D:toxcore-libs=0.2.21-r3 pc:libsodium pc:opus pc:vpx pkgconfig
-p:pc:toxcore=0.2.21
+m:Robert Mongold <rtmongold@gmail.com>
+t:1780940572
+c:c48f2edd7c018047a6f23a86e530cf1fcec2c969
+D:toxcore-libs=0.2.23-r0 pc:libsodium pc:opus pc:vpx pkgconfig
+p:pc:toxcore=0.2.23
 
-C:Q1l0UBpYp65zSFaus5d/yEF2ye7i4=
+C:Q1421p0A+Zeg8FE05fVYNdpi0/ie8=
 P:toxcore-libs
-V:0.2.21-r3
+V:0.2.23-r0
 A:armhf
-S:266055
-I:627936
+S:276615
+I:656632
 T:Tox communication project - C core (libraries)
 U:https://tox.chat/
 L:GPL-3.0-or-later
 o:toxcore
-t:1771160091
-c:a9e2a2dc46f377eb25884f7fea9834492de7f518
+m:Robert Mongold <rtmongold@gmail.com>
+t:1780940572
+c:c48f2edd7c018047a6f23a86e530cf1fcec2c969
 D:so:libc.musl-armhf.so.1 so:libopus.so.0 so:libsodium.so.26 so:libvpx.so.11
-p:so:libtoxcore.so.2=2.21.0
+p:so:libtoxcore.so.2=2.23.0
 
 C:Q1CCcsePdaNPfI+2WT/Pu6sfvrkqU=
 P:toxic
@@ -291297,66 +291306,66 @@ m:Nathan Angelacos <nangel@alpinelinux.org>
 t:1770089749
 c:1e5e6025afb64ecacd1516643376c11801f101b8
 
-C:Q1wBrU9psCOkRs3PC9AlpznSjtR1c=
+C:Q1YNT+YSRxYuqbxqaAETVP7aGGl8A=
 P:xournalpp
-V:1.3.4-r0
+V:1.3.5-r0
 A:armhf
-S:1440906
-I:4725737
+S:1445767
+I:4739720
 T:Handwriting notetaking software with PDF annotation support
 U:https://github.com/xournalpp/xournalpp
 L:GPL-2.0-or-later
 o:xournalpp
 m:mio <miyopan@e.email>
-t:1774815776
-c:9353bdffdc43a689c32ec35fcc368760da640c8c
+t:1780937768
+c:135666a60eca51afd70d8efca70d683e951eb2bb
 D:adwaita-icon-theme so:libX11.so.6 so:libXi.so.6 so:libc.musl-armhf.so.1 so:libcairo.so.2 so:libgcc_s.so.1 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libgtksourceview-4.so.0 so:libintl.so.8 so:liblua-5.4.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpoppler-glib.so.8 so:libportaudio.so.2 so:libportaudiocpp.so.0 so:libqpdf.so.30 so:librsvg-2.so.2 so:libsndfile.so.1 so:libstdc++.so.6 so:libxml2.so.2 so:libz.so.1 so:libzip.so.5
-p:cmd:xournalpp-thumbnailer=1.3.4-r0 cmd:xournalpp-wrapper=1.3.4-r0 cmd:xournalpp=1.3.4-r0
+p:cmd:xournalpp-thumbnailer=1.3.5-r0 cmd:xournalpp-wrapper=1.3.5-r0 cmd:xournalpp=1.3.5-r0
 
-C:Q1Ml791pAR8zPzOREKiDwC7obpbME=
+C:Q1LFEt3SnlbvreJHYc/GSuRstDzbs=
 P:xournalpp-dbg
-V:1.3.4-r0
+V:1.3.5-r0
 A:armhf
-S:23962201
-I:60868784
+S:23986524
+I:60967924
 T:Handwriting notetaking software with PDF annotation support (debug symbols)
 U:https://github.com/xournalpp/xournalpp
 L:GPL-2.0-or-later
 o:xournalpp
 m:mio <miyopan@e.email>
-t:1774815776
-c:9353bdffdc43a689c32ec35fcc368760da640c8c
-D:!xournalpp<1.3.4-r0 !xournalpp>1.3.4-r0
+t:1780937768
+c:135666a60eca51afd70d8efca70d683e951eb2bb
+D:!xournalpp<1.3.5-r0 !xournalpp>1.3.5-r0
 
-C:Q1V++JEqGaTqp3Am98BmvFSd98BMU=
+C:Q1uia4i087pq332PegkHc/yVadJwA=
 P:xournalpp-doc
-V:1.3.4-r0
+V:1.3.5-r0
 A:armhf
-S:10301
-I:19227
+S:10312
+I:19226
 T:Handwriting notetaking software with PDF annotation support (documentation)
 U:https://github.com/xournalpp/xournalpp
 L:GPL-2.0-or-later
 o:xournalpp
 m:mio <miyopan@e.email>
-t:1774815776
-c:9353bdffdc43a689c32ec35fcc368760da640c8c
-i:docs xournalpp=1.3.4-r0
+t:1780937768
+c:135666a60eca51afd70d8efca70d683e951eb2bb
+i:docs xournalpp=1.3.5-r0
 
-C:Q1VkqcZEWaXVoC4eDDXfG+6IAYbm4=
+C:Q1aFRJz4Hj54UFGGWJdNccRYKazdQ=
 P:xournalpp-lang
-V:1.3.4-r0
+V:1.3.5-r0
 A:armhf
-S:928740
-I:2438956
+S:948719
+I:2502700
 T:Languages for package xournalpp
 U:https://github.com/xournalpp/xournalpp
 L:GPL-2.0-or-later
 o:xournalpp
 m:mio <miyopan@e.email>
-t:1774815776
-c:9353bdffdc43a689c32ec35fcc368760da640c8c
-i:xournalpp=1.3.4-r0 lang
+t:1780937768
+c:135666a60eca51afd70d8efca70d683e951eb2bb
+i:xournalpp=1.3.5-r0 lang
 
 C:Q1AGKnKlLnZOO2Ff8TAlpTHmxn/KE=
 P:xpad

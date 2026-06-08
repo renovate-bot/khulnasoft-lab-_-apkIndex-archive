@@ -93486,7 +93486,8 @@
       "origin": "incus",
       "versions": {
         "7.0.0-r1": 1778661427,
-        "7.0.0-r2": 1780139607
+        "7.0.0-r2": 1780139607,
+        "7.0.0-r3": 1780944737
       },
       "dependencies": [
         "acl",
@@ -93494,10 +93495,10 @@
         "ca-certificates",
         "dbus",
         "dnsmasq",
-        "lxc",
+        "lxc>=6.0.0",
         "iproute2",
-        "iptables",
         "netcat-openbsd",
+        "nftables",
         "rsync",
         "squashfs-tools",
         "shadow-subids",
@@ -93515,14 +93516,15 @@
         "so:libudev.so.1"
       ],
       "provides": [
-        "cmd:incusd=7.0.0-r2"
+        "cmd:incusd=7.0.0-r3"
       ]
     },
     "incus-agent": {
       "origin": "incus",
       "versions": {
         "7.0.0-r1": 1778661427,
-        "7.0.0-r2": 1780139607
+        "7.0.0-r2": 1780139607,
+        "7.0.0-r3": 1780944737
       },
       "dependencies": [
         "acl",
@@ -93530,10 +93532,10 @@
         "ca-certificates",
         "dbus",
         "dnsmasq",
-        "lxc",
+        "lxc>=6.0.0",
         "iproute2",
-        "iptables",
         "netcat-openbsd",
+        "nftables",
         "rsync",
         "squashfs-tools",
         "shadow-subids",
@@ -93541,14 +93543,15 @@
         "xz"
       ],
       "provides": [
-        "cmd:incus-agent=7.0.0-r2"
+        "cmd:incus-agent=7.0.0-r3"
       ]
     },
     "incus-agent-openrc": {
       "origin": "incus",
       "versions": {
         "7.0.0-r1": 1778661427,
-        "7.0.0-r2": 1780139607
+        "7.0.0-r2": 1780139607,
+        "7.0.0-r3": 1780944737
       },
       "dependencies": [
         "acl",
@@ -93556,10 +93559,10 @@
         "ca-certificates",
         "dbus",
         "dnsmasq",
-        "lxc",
+        "lxc>=6.0.0",
         "iproute2",
-        "iptables",
         "netcat-openbsd",
+        "nftables",
         "rsync",
         "squashfs-tools",
         "shadow-subids",
@@ -93571,14 +93574,16 @@
       "origin": "incus",
       "versions": {
         "7.0.0-r1": 1778661427,
-        "7.0.0-r2": 1780139607
+        "7.0.0-r2": 1780139607,
+        "7.0.0-r3": 1780944737
       }
     },
     "incus-client": {
       "origin": "incus",
       "versions": {
         "7.0.0-r1": 1778661427,
-        "7.0.0-r2": 1780139607
+        "7.0.0-r2": 1780139607,
+        "7.0.0-r3": 1780944737
       },
       "dependencies": [
         "acl",
@@ -93586,10 +93591,10 @@
         "ca-certificates",
         "dbus",
         "dnsmasq",
-        "lxc",
+        "lxc>=6.0.0",
         "iproute2",
-        "iptables",
         "netcat-openbsd",
+        "nftables",
         "rsync",
         "squashfs-tools",
         "shadow-subids",
@@ -93599,14 +93604,15 @@
         "so:libintl.so.8"
       ],
       "provides": [
-        "cmd:incus=7.0.0-r2"
+        "cmd:incus=7.0.0-r3"
       ]
     },
     "incus-conversion": {
       "origin": "incus",
       "versions": {
         "7.0.0-r1": 1778661427,
-        "7.0.0-r2": 1780139607
+        "7.0.0-r2": 1780139607,
+        "7.0.0-r3": 1780944737
       },
       "dependencies": [
         "acl",
@@ -93614,10 +93620,10 @@
         "ca-certificates",
         "dbus",
         "dnsmasq",
-        "lxc",
+        "lxc>=6.0.0",
         "iproute2",
-        "iptables",
         "netcat-openbsd",
+        "nftables",
         "rsync",
         "squashfs-tools",
         "shadow-subids",
@@ -93628,8 +93634,8 @@
         "so:liblxc.so.1"
       ],
       "provides": [
-        "cmd:lxc-to-incus=7.0.0-r2",
-        "cmd:lxd-to-incus=7.0.0-r2"
+        "cmd:lxc-to-incus=7.0.0-r3",
+        "cmd:lxd-to-incus=7.0.0-r3"
       ]
     },
     "incus-feature": {
@@ -93910,17 +93916,19 @@
       "origin": "incus",
       "versions": {
         "7.0.0-r1": 1778661427,
-        "7.0.0-r2": 1780139607
+        "7.0.0-r2": 1780139607,
+        "7.0.0-r3": 1780944737
       },
       "provides": [
-        "incus-lts-openrc=7.0.0-r2"
+        "incus-lts-openrc=7.0.0-r3"
       ]
     },
     "incus-user": {
       "origin": "incus",
       "versions": {
         "7.0.0-r1": 1778661427,
-        "7.0.0-r2": 1780139607
+        "7.0.0-r2": 1780139607,
+        "7.0.0-r3": 1780944737
       },
       "dependencies": [
         "acl",
@@ -93928,10 +93936,10 @@
         "ca-certificates",
         "dbus",
         "dnsmasq",
-        "lxc",
+        "lxc>=6.0.0",
         "iproute2",
-        "iptables",
         "netcat-openbsd",
+        "nftables",
         "rsync",
         "squashfs-tools",
         "shadow-subids",
@@ -93942,14 +93950,15 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:incus-user=7.0.0-r2"
+        "cmd:incus-user=7.0.0-r3"
       ]
     },
     "incus-user-openrc": {
       "origin": "incus",
       "versions": {
         "7.0.0-r1": 1778661427,
-        "7.0.0-r2": 1780139607
+        "7.0.0-r2": 1780139607,
+        "7.0.0-r3": 1780944737
       },
       "dependencies": [
         "acl",
@@ -93957,10 +93966,10 @@
         "ca-certificates",
         "dbus",
         "dnsmasq",
-        "lxc",
+        "lxc>=6.0.0",
         "iproute2",
-        "iptables",
         "netcat-openbsd",
+        "nftables",
         "rsync",
         "squashfs-tools",
         "shadow-subids",
@@ -93972,7 +93981,8 @@
       "origin": "incus",
       "versions": {
         "7.0.0-r1": 1778661427,
-        "7.0.0-r2": 1780139607
+        "7.0.0-r2": 1780139607,
+        "7.0.0-r3": 1780944737
       },
       "dependencies": [
         "incus",
@@ -93986,27 +93996,28 @@
         "so:libsqlite3.so.0"
       ],
       "provides": [
-        "cmd:empty-incus.sh=7.0.0-r2",
-        "cmd:fuidshift=7.0.0-r2",
-        "cmd:generate-config=7.0.0-r2",
-        "cmd:generate-database=7.0.0-r2",
-        "cmd:incus-benchmark=7.0.0-r2",
-        "cmd:incus-migrate=7.0.0-r2",
-        "cmd:incus-simplestreams=7.0.0-r2",
-        "cmd:mini-oidc=7.0.0-r2",
-        "cmd:sysinfo=7.0.0-r2",
-        "cmd:tls2jwt=7.0.0-r2"
+        "cmd:empty-incus.sh=7.0.0-r3",
+        "cmd:fuidshift=7.0.0-r3",
+        "cmd:generate-config=7.0.0-r3",
+        "cmd:generate-database=7.0.0-r3",
+        "cmd:incus-benchmark=7.0.0-r3",
+        "cmd:incus-migrate=7.0.0-r3",
+        "cmd:incus-simplestreams=7.0.0-r3",
+        "cmd:mini-oidc=7.0.0-r3",
+        "cmd:sysinfo=7.0.0-r3",
+        "cmd:tls2jwt=7.0.0-r3"
       ]
     },
     "incus-vm": {
       "origin": "incus",
       "versions": {
         "7.0.0-r1": 1778661427,
-        "7.0.0-r2": 1780139607
+        "7.0.0-r2": 1780139607,
+        "7.0.0-r3": 1780944737
       },
       "dependencies": [
         "ovmf",
-        "qemu-system-x86_64",
+        "qemu-system-x86_64>=8.2",
         "qemu-chardev-spice",
         "qemu-hw-usb-redirect",
         "qemu-hw-display-virtio-vga",
@@ -152905,23 +152916,25 @@
     "mimir": {
       "origin": "mimir",
       "versions": {
-        "3.0.6-r0": 1778973646
+        "3.0.6-r0": 1778973646,
+        "3.1.0-r0": 1780946017
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-x86_64.so.1"
       ],
       "provides": [
-        "cmd:metaconvert=3.0.6-r0",
-        "cmd:mimir=3.0.6-r0",
-        "cmd:mimirtool=3.0.6-r0",
-        "cmd:query-tee=3.0.6-r0"
+        "cmd:metaconvert=3.1.0-r0",
+        "cmd:mimir=3.1.0-r0",
+        "cmd:mimirtool=3.1.0-r0",
+        "cmd:query-tee=3.1.0-r0"
       ]
     },
     "mimir-openrc": {
       "origin": "mimir",
       "versions": {
-        "3.0.6-r0": 1778973646
+        "3.0.6-r0": 1778973646,
+        "3.1.0-r0": 1780946017
       }
     },
     "minetest-monitoring": {
@@ -163261,7 +163274,8 @@
     "nlopt": {
       "origin": "nlopt",
       "versions": {
-        "2.10.1-r1": 1774640380
+        "2.10.1-r1": 1774640380,
+        "2.11.0-r0": 1780948760
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -163269,35 +163283,38 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libnlopt.so.1=1.0.0"
+        "so:libnlopt.so.1=1.1.0"
       ]
     },
     "nlopt-dev": {
       "origin": "nlopt",
       "versions": {
-        "2.10.1-r1": 1774640380
+        "2.10.1-r1": 1774640380,
+        "2.11.0-r0": 1780948760
       },
       "dependencies": [
-        "nlopt=2.10.1-r1",
+        "nlopt=2.11.0-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:nlopt=2.10.1"
+        "pc:nlopt=2.11.0"
       ]
     },
     "nlopt-doc": {
       "origin": "nlopt",
       "versions": {
-        "2.10.1-r1": 1774640380
+        "2.10.1-r1": 1774640380,
+        "2.11.0-r0": 1780948760
       }
     },
     "nlopt-guile": {
       "origin": "nlopt",
       "versions": {
-        "2.10.1-r1": 1774640380
+        "2.10.1-r1": 1774640380,
+        "2.11.0-r0": 1780948760
       },
       "dependencies": [
-        "nlopt=2.10.1-r1",
+        "nlopt=2.11.0-r0",
         "guile",
         "so:libc.musl-x86_64.so.1",
         "so:libgcc_s.so.1",
@@ -163309,10 +163326,11 @@
     "nlopt-octave": {
       "origin": "nlopt",
       "versions": {
-        "2.10.1-r1": 1774640380
+        "2.10.1-r1": 1774640380,
+        "2.11.0-r0": 1780948760
       },
       "dependencies": [
-        "nlopt=2.10.1-r1",
+        "nlopt=2.11.0-r0",
         "octave",
         "so:libc.musl-x86_64.so.1",
         "so:libgcc_s.so.1",
@@ -230358,7 +230376,8 @@
     "py3-fakeredis": {
       "origin": "py3-fakeredis",
       "versions": {
-        "2.35.1-r0": 1778048853
+        "2.35.1-r0": 1778048853,
+        "2.36.0-r0": 1780939475
       },
       "dependencies": [
         "py3-packaging",
@@ -230367,13 +230386,14 @@
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:fakeredis=2.35.1-r0"
+        "py3.14:fakeredis=2.36.0-r0"
       ]
     },
     "py3-fakeredis-pyc": {
       "origin": "py3-fakeredis",
       "versions": {
-        "2.35.1-r0": 1778048853
+        "2.35.1-r0": 1778048853,
+        "2.36.0-r0": 1780939475
       },
       "dependencies": [
         "python3~3.14"
@@ -235020,7 +235040,8 @@
       "origin": "py3-joserfc",
       "versions": {
         "1.6.7-r0": 1779657355,
-        "1.7.0-r0": 1780927653
+        "1.7.0-r0": 1780927653,
+        "1.7.1-r0": 1780945860
       },
       "dependencies": [
         "py3-cryptography",
@@ -235028,14 +235049,15 @@
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:joserfc=1.7.0-r0"
+        "py3.14:joserfc=1.7.1-r0"
       ]
     },
     "py3-joserfc-pyc": {
       "origin": "py3-joserfc",
       "versions": {
         "1.6.7-r0": 1779657355,
-        "1.7.0-r0": 1780927653
+        "1.7.0-r0": 1780927653,
+        "1.7.1-r0": 1780945860
       },
       "dependencies": [
         "python3~3.14"
@@ -295644,7 +295666,8 @@
     "toxcore": {
       "origin": "toxcore",
       "versions": {
-        "0.2.21-r3": 1771160091
+        "0.2.21-r3": 1771160091,
+        "0.2.23-r0": 1780940572
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -295652,36 +295675,39 @@
         "so:libtoxcore.so.2"
       ],
       "provides": [
-        "cmd:DHT_bootstrap=0.2.21-r3",
-        "cmd:tox-bootstrapd=0.2.21-r3"
+        "cmd:DHT_bootstrap=0.2.23-r0",
+        "cmd:tox-bootstrapd=0.2.23-r0"
       ]
     },
     "toxcore-bash-completion": {
       "origin": "toxcore",
       "versions": {
-        "0.2.21-r3": 1771160091
+        "0.2.21-r3": 1771160091,
+        "0.2.23-r0": 1780940572
       }
     },
     "toxcore-dev": {
       "origin": "toxcore",
       "versions": {
-        "0.2.21-r3": 1771160091
+        "0.2.21-r3": 1771160091,
+        "0.2.23-r0": 1780940572
       },
       "dependencies": [
-        "toxcore-libs=0.2.21-r3",
+        "toxcore-libs=0.2.23-r0",
         "pc:libsodium",
         "pc:opus",
         "pc:vpx",
         "pkgconfig"
       ],
       "provides": [
-        "pc:toxcore=0.2.21"
+        "pc:toxcore=0.2.23"
       ]
     },
     "toxcore-libs": {
       "origin": "toxcore",
       "versions": {
-        "0.2.21-r3": 1771160091
+        "0.2.21-r3": 1771160091,
+        "0.2.23-r0": 1780940572
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -295690,7 +295716,7 @@
         "so:libvpx.so.11"
       ],
       "provides": [
-        "so:libtoxcore.so.2=2.21.0"
+        "so:libtoxcore.so.2=2.23.0"
       ]
     },
     "toxic": {
@@ -314466,7 +314492,8 @@
     "xournalpp": {
       "origin": "xournalpp",
       "versions": {
-        "1.3.4-r0": 1774815776
+        "1.3.4-r0": 1774815776,
+        "1.3.5-r0": 1780937768
       },
       "dependencies": [
         "adwaita-icon-theme",
@@ -314498,31 +314525,34 @@
         "so:libzip.so.5"
       ],
       "provides": [
-        "cmd:xournalpp-thumbnailer=1.3.4-r0",
-        "cmd:xournalpp-wrapper=1.3.4-r0",
-        "cmd:xournalpp=1.3.4-r0"
+        "cmd:xournalpp-thumbnailer=1.3.5-r0",
+        "cmd:xournalpp-wrapper=1.3.5-r0",
+        "cmd:xournalpp=1.3.5-r0"
       ]
     },
     "xournalpp-dbg": {
       "origin": "xournalpp",
       "versions": {
-        "1.3.4-r0": 1774815776
+        "1.3.4-r0": 1774815776,
+        "1.3.5-r0": 1780937768
       },
       "dependencies": [
-        "!xournalpp<1.3.4-r0",
-        "!xournalpp>1.3.4-r0"
+        "!xournalpp<1.3.5-r0",
+        "!xournalpp>1.3.5-r0"
       ]
     },
     "xournalpp-doc": {
       "origin": "xournalpp",
       "versions": {
-        "1.3.4-r0": 1774815776
+        "1.3.4-r0": 1774815776,
+        "1.3.5-r0": 1780937768
       }
     },
     "xournalpp-lang": {
       "origin": "xournalpp",
       "versions": {
-        "1.3.4-r0": 1774815776
+        "1.3.4-r0": 1774815776,
+        "1.3.5-r0": 1780937768
       }
     },
     "xpad": {
@@ -338943,7 +338973,7 @@
       },
       "libnlopt.so.1": {
         "package": "nlopt",
-        "version": "1.0.0"
+        "version": "1.1.0"
       },
       "libnng.so.1": {
         "package": "nng",
@@ -344239,7 +344269,7 @@
       },
       "libtoxcore.so.2": {
         "package": "toxcore-libs",
-        "version": "2.21.0"
+        "version": "2.23.0"
       },
       "libtss2-tcti-i2c-helper.so.0": {
         "package": "tpm2-tss",
@@ -346997,7 +347027,7 @@
       },
       "incus-lts-openrc": {
         "package": "incus-openrc",
-        "version": "7.0.0-r2"
+        "version": "7.0.0-r3"
       },
       "ipfixprobe-dpdk": {
         "package": "ipfixprobe-input-dpdk",
