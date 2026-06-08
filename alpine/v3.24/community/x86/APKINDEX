@@ -1490,35 +1490,35 @@ m:Jakub Jirutka <jakub@jirutka.cz>
 t:1736842223
 c:200e28c1f4fa561b003f872ecf636a66b6c4fd58
 
-C:Q1I/1fuZLsNDZp4OItmTxqMKVR/HA=
+C:Q1Czh/JS7Jr8JvluGzYbbN+P2SRTY=
 P:acsccid
-V:1.1.13-r0
+V:1.1.13-r1
 A:x86
-S:62084
+S:62076
 I:140321
 T:PCSC driver for ACS CCID smart card reader
 U:https://github.com/acshk/acsccid
 L:LGPL-2.1-or-later
 o:acsccid
 m:André Klitzing <aklitzing@gmail.com>
-t:1764716835
-c:c8c20e16dbae16af8831f76bfe1293459f643e62
+t:1780922724
+c:7f979cdc87c5dc59a94b35fb2dec9e4de5576b25
 D:pcsc-lite so:libc.musl-x86.so.1 so:libusb-1.0.so.0
 
-C:Q1suT3mOOVWFiaTQag01s8he1rPzc=
+C:Q1YVA7SKj+g/K0AAqBMYSAutkcWOo=
 P:acsccid-udev
-V:1.1.13-r0
+V:1.1.13-r1
 A:x86
-S:2255
+S:2256
 I:1865
 T:PCSC driver for ACS CCID smart card reader (udev rules)
 U:https://github.com/acshk/acsccid
 L:LGPL-2.1-or-later
 o:acsccid
 m:André Klitzing <aklitzing@gmail.com>
-t:1764716835
-c:c8c20e16dbae16af8831f76bfe1293459f643e62
-i:acsccid=1.1.13-r0 udev
+t:1780922724
+c:7f979cdc87c5dc59a94b35fb2dec9e4de5576b25
+i:udev acsccid=1.1.13-r1
 
 C:Q1IS+6R/DkIH+FnvUt8lSj8xqhlhs=
 P:act
@@ -4994,52 +4994,52 @@ t:1778661427
 c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
 i:openrc apollo=0.3.1-r10
 
-C:Q1E5827F/iRinZZelVu6wk9oy2nfI=
+C:Q1GeVNnKBfxgLyEKNRCza6So4Ez9I=
 P:apprise
-V:1.10.0-r0
+V:1.11.0-r0
 A:x86
-S:1265623
-I:4406586
+S:1333635
+I:4684975
 T:Push Notifications that work with just about every platform
 U:https://github.com/caronc/apprise
 L:BSD-2-Clause
 o:apprise
 m:Guy Godfroy <guy.godfroy@gugod.fr>
-t:1779066361
-c:fe26e8acc858dee437691cd2c9d80c8c28b30981
+t:1780927465
+c:e0b68bc2db59001f42c3cede4c969b1a5aa80d82
 D:py3-certifi py3-requests py3-requests-oauthlib py3-click py3-markdown py3-yaml py3-tzdata glib python3~3.14
-p:cmd:apprise=1.10.0-r0 py3.14:apprise=1.10.0-r0
+p:cmd:apprise=1.11.0-r0 py3.14:apprise=1.11.0-r0
 
-C:Q1EUhDPeACyJ1CgboCZyCA8j9mPnY=
+C:Q1i0I/SZR1MV7v4LwP0GT5LSXtnOs=
 P:apprise-doc
-V:1.10.0-r0
+V:1.11.0-r0
 A:x86
-S:6553
-I:4729
+S:6943
+I:5123
 T:Push Notifications that work with just about every platform (documentation)
 U:https://github.com/caronc/apprise
 L:BSD-2-Clause
 o:apprise
 m:Guy Godfroy <guy.godfroy@gugod.fr>
-t:1779066361
-c:fe26e8acc858dee437691cd2c9d80c8c28b30981
-i:docs apprise=1.10.0-r0
+t:1780927465
+c:e0b68bc2db59001f42c3cede4c969b1a5aa80d82
+i:docs apprise=1.11.0-r0
 
-C:Q10mim/nliHFmn8G0As1eE6pWkrCY=
+C:Q1aeIIjy6N+wzDCLMkUY/nzlCLn9c=
 P:apprise-pyc
-V:1.10.0-r0
+V:1.11.0-r0
 A:x86
-S:1169159
-I:3121926
+S:1249846
+I:3324270
 T:Precompiled Python bytecode for apprise
 U:https://github.com/caronc/apprise
 L:BSD-2-Clause
 o:apprise
 m:Guy Godfroy <guy.godfroy@gugod.fr>
-t:1779066361
-c:fe26e8acc858dee437691cd2c9d80c8c28b30981
+t:1780927465
+c:e0b68bc2db59001f42c3cede4c969b1a5aa80d82
 D:python3~3.14
-i:apprise=1.10.0-r0 pyc
+i:apprise=1.11.0-r0 pyc
 
 C:Q1zyQEocbH4rPEedb9R/8XyaRnnrw=
 P:appstream
@@ -23702,21 +23702,21 @@ D:cargo so:libc.musl-x86.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
 p:cmd:cargo-sqlx=0.8.6-r0
 i:sqlx=0.8.6-r0 cargo
 
-C:Q13Q+otl9KRPRHChJpCLo0hNVHUtU=
+C:Q1YWZMD/6LbWh4hXohpWcY6T7CUDk=
 P:cargo-tarpaulin
-V:0.35.2-r0
+V:0.35.4-r0
 A:x86
-S:2659420
-I:5559564
+S:2674630
+I:5592328
 T:Code coverage tool for Rust projects
 U:https://github.com/xd009642/tarpaulin
 L:Apache-2.0 OR MIT
 o:cargo-tarpaulin
 m:Leon White <badfunkstripe@gmail.com>
-t:1771622143
-c:7ad8db717c441c7729b0faabd6755a487d14c53b
+t:1780925095
+c:4acce618b755daf5dc087a03a7d9b8e21341325e
 D:cargo so:libc.musl-x86.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
-p:cmd:cargo-tarpaulin=0.35.2-r0
+p:cmd:cargo-tarpaulin=0.35.4-r0
 
 C:Q1ce44UdVomtYrAGtvDlRSVOb5dao=
 P:cargo-watch
@@ -64115,21 +64115,21 @@ t:1780766666
 c:e3dfef5c2e77cae37e25976c2d04f7ff3d2eaa67
 i:git-machete=3.42.0-r0 zsh
 
-C:Q1H9D7CLnZ9FW+cBJGvnVf9hyzsPo=
+C:Q123pz1cdVMn/i/b//En5lA8xxs5k=
 P:git-metafile
-V:0.2.3-r1
+V:0.2.3-r2
 A:x86
-S:230942
-I:433925
+S:230897
+I:433940
 T:Store and restore files metadata in a git repository
 U:https://github.com/jirutka/git-metafile
 L:MIT
 o:git-metafile
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1765112254
-c:06fa729e4b5889aaec9f36b05863ff7ea4ceda4d
+t:1780933530
+c:f3bfe342dd5b4ca8448d49f524143e254977dce1
 D:git so:libc.musl-x86.so.1 so:libgcc_s.so.1
-p:cmd:git-etc-init=0.2.3-r1 cmd:git-metafile=0.2.3-r1
+p:cmd:git-etc-init=0.2.3-r2 cmd:git-metafile=0.2.3-r2
 
 C:Q1Oy8kJznTitwPAZyPqxh3yduX4qo=
 P:git-review
@@ -80289,22 +80289,22 @@ t:1773567302
 c:af6f93920f6c04cae607afba64be5c578c553997
 i:systemd gvfs=1.60.0-r0
 
-C:Q1pHHervZG6K0qCfCgBNjn4JqOfG4=
+C:Q1mxd3pyGoAg+kqqx65//W55pIz9E=
 P:gvim
-V:9.2.0567-r0
+V:9.2.0602-r0
 A:x86
-S:1907978
+S:1909202
 I:3663540
 T:Improved vi-style text editor (GTK3 GUI)
 U:https://www.vim.org/
 L:Vim
 o:vim
 m:mio <miyopan@e.email>
-t:1780201784
-c:535cacb891d9041e02843568d6e69f7c27db9cbc
+t:1780934985
+c:37862ce3d9c928fe335bb93d1e14388292390083
 k:1
-D:vim-common=9.2.0567-r0 xxd=9.2.0567-r0 so:libICE.so.6 so:libSM.so.6 so:libX11.so.6 so:libXt.so.6 so:libc.musl-x86.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libncursesw.so.6 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libwayland-client.so.0
-p:vim=9.2.0567-r0 cmd:eview=9.2.0567-r0 cmd:evim=9.2.0567-r0 cmd:ex=9.2.0567-r0 cmd:gview=9.2.0567-r0 cmd:gvim=9.2.0567-r0 cmd:gvimdiff=9.2.0567-r0 cmd:gvimtutor=9.2.0567-r0 cmd:rgview=9.2.0567-r0 cmd:rgvim=9.2.0567-r0 cmd:rview=9.2.0567-r0 cmd:rvim=9.2.0567-r0 cmd:view=9.2.0567-r0 cmd:vim=9.2.0567-r0
+D:vim-common=9.2.0602-r0 xxd=9.2.0602-r0 so:libICE.so.6 so:libSM.so.6 so:libX11.so.6 so:libXt.so.6 so:libc.musl-x86.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libncursesw.so.6 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libwayland-client.so.0
+p:vim=9.2.0602-r0 cmd:eview=9.2.0602-r0 cmd:evim=9.2.0602-r0 cmd:ex=9.2.0602-r0 cmd:gview=9.2.0602-r0 cmd:gvim=9.2.0602-r0 cmd:gvimdiff=9.2.0602-r0 cmd:gvimtutor=9.2.0602-r0 cmd:rgview=9.2.0602-r0 cmd:rgvim=9.2.0602-r0 cmd:rview=9.2.0602-r0 cmd:rvim=9.2.0602-r0 cmd:view=9.2.0602-r0 cmd:vim=9.2.0602-r0
 
 C:Q1NAuXPkHaPNHXweGKjIORoWKDlsk=
 P:gvm-libs
@@ -86058,52 +86058,52 @@ t:1698274176
 c:bd78439b2f66d88e17d1622fd4cfd83dea590a57
 i:docs iec16022=0.3.1-r0
 
-C:Q174kuOwh5TQZ23FpWK/rNOBxhqDg=
+C:Q1yBt4CUn2g3nswC8i+lMSKzEdNzA=
 P:ifstate
-V:2.3.0-r0
+V:2.4.0-r0
 A:x86
-S:100900
-I:553097
+S:104272
+I:577758
 T:Manage host interface settings in a declarative manner
 U:https://ifstate.net/
 L:GPL-3.0-or-later
 o:ifstate
 m:Thomas Liske <thomas@fiasko-nw.net>
-t:1778543650
-c:6e26d7f94374026ea02d67f6e3dd11a2328d6636
+t:1780927752
+c:e2598c42768865e1f6aecc7c3058991fe3600aa3
 D:iproute2 python3 py3-jsonschema py3-pyroute2 py3-setproctitle py3-yaml /bin/sh python3~3.14
-p:cmd:ifstatecli=2.3.0-r0 py3.14:ifstate=2.3.0-r0 py3.14:libifstate=2.3.0-r0
+p:cmd:ifstatecli=2.4.0-r0 py3.14:ifstate=2.4.0-r0 py3.14:libifstate=2.4.0-r0
 
-C:Q1abBczPalGhNJfDGh3pRQ0Xa+qpM=
+C:Q1ymSnGw9881zrPKQnfPBLsueO70M=
 P:ifstate-openrc
-V:2.3.0-r0
+V:2.4.0-r0
 A:x86
-S:1790
-I:328
+S:1803
+I:425
 T:Manage host interface settings in a declarative manner (OpenRC init scripts)
 U:https://ifstate.net/
 L:GPL-3.0-or-later
 o:ifstate
 m:Thomas Liske <thomas@fiasko-nw.net>
-t:1778543650
-c:6e26d7f94374026ea02d67f6e3dd11a2328d6636
-i:openrc ifstate=2.3.0-r0
+t:1780927752
+c:e2598c42768865e1f6aecc7c3058991fe3600aa3
+i:openrc ifstate=2.4.0-r0
 
-C:Q1U1zRBUm19fnxYLSXuOqBp5wv014=
+C:Q1J9y6DeEltOlq46IcDk81I4fByhM=
 P:ifstate-pyc
-V:2.3.0-r0
+V:2.4.0-r0
 A:x86
-S:163788
-I:373766
+S:165666
+I:378883
 T:Precompiled Python bytecode for ifstate
 U:https://ifstate.net/
 L:GPL-3.0-or-later
 o:ifstate
 m:Thomas Liske <thomas@fiasko-nw.net>
-t:1778543650
-c:6e26d7f94374026ea02d67f6e3dd11a2328d6636
+t:1780927752
+c:e2598c42768865e1f6aecc7c3058991fe3600aa3
 D:python3~3.14
-i:ifstate=2.3.0-r0 pyc
+i:ifstate=2.4.0-r0 pyc
 
 C:Q1yFQRuwUVR7V6jBGOpg4s3BiXRWE=
 P:ifupdown-ng-waitif
@@ -181000,36 +181000,36 @@ t:1773607463
 c:a6478e68a4b9a0009a1671323f52488ae02df137
 i:docs perl-datetime-format-iso8601=0.19-r0
 
-C:Q1ZOyHhgUdXXKfCSqTw0usvYy4Z84=
+C:Q1YX/u5oWM+WwYssfDO83oKJkdajM=
 P:perl-datetime-format-natural
-V:1.26-r0
+V:1.27-r0
 A:x86
-S:37425
-I:248440
+S:37405
+I:248434
 T:Parse informal natural language date/time strings
 U:https://metacpan.org/release/DateTime-Format-Natural/
 L:GPL-1.0-or-later OR Artistic-1.0-Perl
 o:perl-datetime-format-natural
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1780391220
-c:7d9e756a247adb7249e3a4457b44608bbb2252ec
+t:1780927697
+c:fd327ff2276d376810e93f8294a9f14948f5850b
 D:perl perl-datetime-timezone perl-clone perl-params-validate perl-datetime perl-boolean perl-datetime-hires perl-module-util
-p:cmd:dateparse=1.26-r0
+p:cmd:dateparse=1.27-r0
 
-C:Q1WTe/PAKO9GhfSvm6X6SD1PD3Iw0=
+C:Q1w3fGRRjRBWUynczIkFHu2rgPDWM=
 P:perl-datetime-format-natural-doc
-V:1.26-r0
+V:1.27-r0
 A:x86
-S:27939
-I:25313
+S:27890
+I:25322
 T:Parse informal natural language date/time strings (documentation)
 U:https://metacpan.org/release/DateTime-Format-Natural/
 L:GPL-1.0-or-later OR Artistic-1.0-Perl
 o:perl-datetime-format-natural
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1780391220
-c:7d9e756a247adb7249e3a4457b44608bbb2252ec
-i:docs perl-datetime-format-natural=1.26-r0
+t:1780927697
+c:fd327ff2276d376810e93f8294a9f14948f5850b
+i:docs perl-datetime-format-natural=1.27-r0
 
 C:Q1ZUtZzDK13RInOth0X/64EvDUTgc=
 P:perl-datetime-format-pg
@@ -203626,66 +203626,66 @@ t:1777900518
 c:32bf34cfb9bff508b6aa725e134e6d9b53db8015
 i:pimcommon=26.04.0-r0 lang
 
-C:Q1Hkgqk9eOWvtnkxoKne/pLP2AHi4=
+C:Q1G+D/wDPKsDROUItp8tLNh+jxCWU=
 P:pimsync
-V:0.5.9-r0
+V:0.5.10-r0
 A:x86
-S:1328117
-I:2772728
+S:1391048
+I:2907896
 T:Synchronise calendars and contacts using CalDAV, CardDAV and others
 U:https://pimsync.whynothugo.nl/
 L:EUPL-1.2
 o:pimsync
 m:Hugo Osvaldo Barrera <hugo@whynothugo.nl>
-t:1778515159
-c:15f5571b131ff02edd3080547270511563647c95
+t:1780922681
+c:209563518b4fc6848fe1c34aac73e85c7e252656
 D:so:libc.musl-x86.so.1 so:libgcc_s.so.1 so:libsqlite3.so.0
-p:cmd:pimsync=0.5.9-r0
+p:cmd:pimsync=0.5.10-r0
 
-C:Q1RqIB3w4NvPc45/ln6G7dOXvJc9Q=
+C:Q1nl9uFOhgtIvD+cjW0S6gvPYOop8=
 P:pimsync-doc
-V:0.5.9-r0
+V:0.5.10-r0
 A:x86
-S:21056
-I:26788
+S:21120
+I:26854
 T:Synchronise calendars and contacts using CalDAV, CardDAV and others (documentation)
 U:https://pimsync.whynothugo.nl/
 L:EUPL-1.2
 o:pimsync
 m:Hugo Osvaldo Barrera <hugo@whynothugo.nl>
-t:1778515159
-c:15f5571b131ff02edd3080547270511563647c95
-i:docs pimsync=0.5.9-r0
+t:1780922681
+c:209563518b4fc6848fe1c34aac73e85c7e252656
+i:docs pimsync=0.5.10-r0
 
-C:Q1NDxDozdecqXHn6hg6fa1KXVokQk=
+C:Q1n/UOAcf4r+km3bgDVwBuradIzWE=
 P:pimsync-openrc
-V:0.5.9-r0
+V:0.5.10-r0
 A:x86
-S:1772
+S:1765
 I:187
 T:Synchronise calendars and contacts using CalDAV, CardDAV and others (OpenRC init scripts)
 U:https://pimsync.whynothugo.nl/
 L:EUPL-1.2
 o:pimsync
 m:Hugo Osvaldo Barrera <hugo@whynothugo.nl>
-t:1778515159
-c:15f5571b131ff02edd3080547270511563647c95
-i:openrc pimsync=0.5.9-r0
+t:1780922681
+c:209563518b4fc6848fe1c34aac73e85c7e252656
+i:openrc pimsync=0.5.10-r0
 
-C:Q1zQqMn0SrDHT5VxTKjjeEUcKyl5I=
+C:Q1NbdDVQHhRR7fmswpAtuiLwov090=
 P:pimsync-zsh-completion
-V:0.5.9-r0
+V:0.5.10-r0
 A:x86
-S:2505
+S:2504
 I:2964
 T:Zsh completions for pimsync
 U:https://pimsync.whynothugo.nl/
 L:EUPL-1.2
 o:pimsync
 m:Hugo Osvaldo Barrera <hugo@whynothugo.nl>
-t:1778515159
-c:15f5571b131ff02edd3080547270511563647c95
-i:pimsync=0.5.9-r0 zsh
+t:1780922681
+c:209563518b4fc6848fe1c34aac73e85c7e252656
+i:pimsync=0.5.10-r0 zsh
 
 C:Q1TTmsdUOCsxUkxEIIDOoQcZpqzIw=
 P:pinentry-gnome
@@ -208875,51 +208875,51 @@ t:1776009405
 c:76bcd8697bfda20cf57c436e03b55ed0c4e0350c
 i:postprocessd=0.3.0-r7 megapixels
 
-C:Q13LSprMXry0Mw7+BiyWpYKltlPDs=
+C:Q1Dd4zIgeoo1Upf7leMeIJlXdnCQg=
 P:postsrsd
-V:2.0.11-r0
+V:2.0.12-r0
 A:x86
-S:32372
-I:71509
+S:32628
+I:75605
 T:Postfix Sender Rewriting Scheme daemon
 U:https://github.com/roehling/postsrsd
 L:GPL-3.0-only AND BSD-3-Clause AND FSFUL
 o:postsrsd
 m:Kevin Daudt <kdaudt@alpinelinux.org>
-t:1744622859
-c:a35e58a7165eee9cf30053e456045dd987abb30a
+t:1780927896
+c:52925e60e978e3a97c085700d7d7afac750f579f
 D:/bin/sh so:libc.musl-x86.so.1 so:libconfuse.so.2 so:libsqlite3.so.0
-p:cmd:postsrsd=2.0.11-r0
+p:cmd:postsrsd=2.0.12-r0
 
-C:Q1pdn6xlje/82LirXp857xBSmWgUw=
+C:Q1/Sdp0cwFg1q6bbyLqRJPKsjP4sA=
 P:postsrsd-doc
-V:2.0.11-r0
+V:2.0.12-r0
 A:x86
-S:4437
+S:4434
 I:7069
 T:Postfix Sender Rewriting Scheme daemon (documentation)
 U:https://github.com/roehling/postsrsd
 L:GPL-3.0-only AND BSD-3-Clause AND FSFUL
 o:postsrsd
 m:Kevin Daudt <kdaudt@alpinelinux.org>
-t:1744622859
-c:a35e58a7165eee9cf30053e456045dd987abb30a
-i:docs postsrsd=2.0.11-r0
+t:1780927896
+c:52925e60e978e3a97c085700d7d7afac750f579f
+i:docs postsrsd=2.0.12-r0
 
-C:Q1tgNT00h/c3moEObQaaAUxjtortM=
+C:Q17zOX9SH2o0pQO7+C+cMQ/R8bN4o=
 P:postsrsd-openrc
-V:2.0.11-r0
+V:2.0.12-r0
 A:x86
-S:1884
+S:1876
 I:537
 T:Postfix Sender Rewriting Scheme daemon (OpenRC init scripts)
 U:https://github.com/roehling/postsrsd
 L:GPL-3.0-only AND BSD-3-Clause AND FSFUL
 o:postsrsd
 m:Kevin Daudt <kdaudt@alpinelinux.org>
-t:1744622859
-c:a35e58a7165eee9cf30053e456045dd987abb30a
-i:openrc postsrsd=2.0.11-r0
+t:1780927896
+c:52925e60e978e3a97c085700d7d7afac750f579f
+i:openrc postsrsd=2.0.12-r0
 
 C:Q1mzJzKM5mj+TtH0Q+hv4GMS1ozoc=
 P:potrace
@@ -230776,37 +230776,37 @@ c:a15bde8b857fc085cbce6e2b06491b90355b2297
 D:python3~3.14
 i:py3-josepy=2.2.0-r0 pyc
 
-C:Q1DNWQMy6HZF7ii0WXZcDG3APySpE=
+C:Q15ue+EAnLMFM4tG9w4l7MI/rly9s=
 P:py3-joserfc
-V:1.6.7-r0
+V:1.7.0-r0
 A:x86
-S:57435
-I:218958
+S:57693
+I:218476
 T:Implementations of JOSE RFCs in Python
 U:https://jose.authlib.org
 L:BSD-3-Clause
 o:py3-joserfc
 m:Guy Godfroy <guy.godfroy@gugod.fr>
-t:1779657355
-c:7af8b443811d416d456831a2c2a0201243929149
+t:1780927653
+c:1aeb89a67f505baa1d1bea0edbe77ba0377e180b
 D:py3-cryptography py3-pycryptodome python3~3.14
-p:py3.14:joserfc=1.6.7-r0
+p:py3.14:joserfc=1.7.0-r0
 
-C:Q1t/VqA/uYCw/CmtDTjy2eejVs5PA=
+C:Q1Ku5SaofeocRAVU4Z/g3N91qtzxQ=
 P:py3-joserfc-pyc
-V:1.6.7-r0
+V:1.7.0-r0
 A:x86
-S:132428
-I:346322
+S:138503
+I:365565
 T:Precompiled Python bytecode for py3-joserfc
 U:https://jose.authlib.org
 L:BSD-3-Clause
 o:py3-joserfc
 m:Guy Godfroy <guy.godfroy@gugod.fr>
-t:1779657355
-c:7af8b443811d416d456831a2c2a0201243929149
+t:1780927653
+c:1aeb89a67f505baa1d1bea0edbe77ba0377e180b
 D:python3~3.14
-i:py3-joserfc=1.6.7-r0 pyc
+i:py3-joserfc=1.7.0-r0 pyc
 
 C:Q1AakZYSe2EP3vWTjsoOHwNpgNFm8=
 P:py3-json-database
@@ -270859,48 +270859,51 @@ t:1777667671
 c:991c2df00f4a60f19fc75b7f07df5001128c7bb0
 i:docs rover=1.0.1-r4
 
-C:Q1dq78db3klr+Z0Sc5WqmPncKk0h4=
+C:Q132N+7ZHXsrK8uobDEnb2xOulYxA=
 P:roxterm
-V:3.17.2-r1
+V:3.18.2-r0
 A:x86
-S:183831
-I:1110428
+S:184607
+I:1121861
 T:Highly configurable terminal emulator
 U:https://github.com/realh/roxterm
 L:GPL-2.0-or-later
 o:roxterm
-t:1771160091
-c:a9e2a2dc46f377eb25884f7fea9834492de7f518
+m:Leon White <badfunkstripe@gmail.com>
+t:1780927200
+c:205528490d707d455c4f24cfde0f39c41e880cf1
 D:so:libc.musl-x86.so.1 so:libcairo.so.2 so:libdbus-1.so.3 so:libdbus-glib-1.so.2 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libvte-2.91.so.0
-p:cmd:roxterm-config=3.17.2-r1 cmd:roxterm=3.17.2-r1
+p:cmd:roxterm-config=3.18.2-r0 cmd:roxterm=3.18.2-r0
 
-C:Q1mu7ZQ31djK76KQeZSO5vYNyWEzA=
+C:Q1QOFp6NyvO9GpK763BSRHBV0gKk0=
 P:roxterm-doc
-V:3.17.2-r1
+V:3.18.2-r0
 A:x86
-S:362626
-I:508765
+S:371517
+I:514851
 T:Highly configurable terminal emulator (documentation)
 U:https://github.com/realh/roxterm
 L:GPL-2.0-or-later
 o:roxterm
-t:1771160091
-c:a9e2a2dc46f377eb25884f7fea9834492de7f518
-i:docs roxterm=3.17.2-r1
+m:Leon White <badfunkstripe@gmail.com>
+t:1780927200
+c:205528490d707d455c4f24cfde0f39c41e880cf1
+i:docs roxterm=3.18.2-r0
 
-C:Q12NUawh0Tr2KFL47/AiLIa5muNz4=
+C:Q1/ugs491O48Z9khdeHhum9/WtZQU=
 P:roxterm-lang
-V:3.17.2-r1
+V:3.18.2-r0
 A:x86
-S:66639
-I:180620
+S:154527
+I:424688
 T:Languages for package roxterm
 U:https://github.com/realh/roxterm
 L:GPL-2.0-or-later
 o:roxterm
-t:1771160091
-c:a9e2a2dc46f377eb25884f7fea9834492de7f518
-i:roxterm=3.17.2-r1 lang
+m:Leon White <badfunkstripe@gmail.com>
+t:1780927200
+c:205528490d707d455c4f24cfde0f39c41e880cf1
+i:roxterm=3.18.2-r0 lang
 
 C:Q1jjxKhCaM7G6b314LBkigz/u0iMk=
 P:rpki-client
@@ -303879,51 +303882,51 @@ t:1759402743
 c:fbb26d9a7eb03d11a2f0de9df685b5591a340e31
 i:usbguard=1.1.4-r1 zsh
 
-C:Q19g5JfxmUEGU6bDkZw82wuu0T5+Q=
+C:Q1xHEVHFZKXlIXv5XxMu5YaFpGuPQ=
 P:usbmuxd
-V:1.1.1_git20250201-r10
+V:1.1.1_git20250201-r11
 A:x86
-S:36810
+S:36831
 I:75296
 T:Socket Daemon to multiplex connections from iOS
 U:https://libimobiledevice.org
 L:GPL-2.0-or-later
 o:usbmuxd
 m:Krassy Boykinov <kboykinov@teamcentrixx.com>
-t:1769803041
-c:ff2fbcd0d90c2fa4ae723bfd181ddb9dd8c069fa
+t:1780922795
+c:18a0d7e5c31158ab2e283bac7d84e29d28760a5a
 D:/bin/sh so:libc.musl-x86.so.1 so:libimobiledevice-1.0.so.6 so:libimobiledevice-glue-1.0.so.0 so:libplist-2.0.so.4 so:libusb-1.0.so.0
-p:cmd:usbmuxd=1.1.1_git20250201-r10
+p:cmd:usbmuxd=1.1.1_git20250201-r11
 
-C:Q1pGPRtQRfjRc5LLAN8fmGWoa6O+w=
+C:Q19S71pw3BhAjdySxmVusRJIOQwKw=
 P:usbmuxd-doc
-V:1.1.1_git20250201-r10
+V:1.1.1_git20250201-r11
 A:x86
-S:3074
+S:3071
 I:1306
 T:Socket Daemon to multiplex connections from iOS (documentation)
 U:https://libimobiledevice.org
 L:GPL-2.0-or-later
 o:usbmuxd
 m:Krassy Boykinov <kboykinov@teamcentrixx.com>
-t:1769803041
-c:ff2fbcd0d90c2fa4ae723bfd181ddb9dd8c069fa
-i:docs usbmuxd=1.1.1_git20250201-r10
+t:1780922795
+c:18a0d7e5c31158ab2e283bac7d84e29d28760a5a
+i:docs usbmuxd=1.1.1_git20250201-r11
 
-C:Q1unmRULgZtv6jKMW3884lGYg3t+0=
+C:Q1a3c7GfNB3aitfL3CqfxjXIA7lng=
 P:usbmuxd-udev
-V:1.1.1_git20250201-r10
+V:1.1.1_git20250201-r11
 A:x86
-S:2131
+S:2147
 I:1304
-T:Socket Daemon to multiplex connections from iOS
+T:Socket Daemon to multiplex connections from iOS (udev rules)
 U:https://libimobiledevice.org
 L:GPL-2.0-or-later
 o:usbmuxd
 m:Krassy Boykinov <kboykinov@teamcentrixx.com>
-t:1769803041
-c:ff2fbcd0d90c2fa4ae723bfd181ddb9dd8c069fa
-i:eudev usbmuxd=1.1.1_git20250201-r10
+t:1780922795
+c:18a0d7e5c31158ab2e283bac7d84e29d28760a5a
+i:udev usbmuxd=1.1.1_git20250201-r11
 
 C:Q1tqlp6PLE1gZGxbbV9MyNhJSmRK8=
 P:usbredir
@@ -305972,51 +305975,51 @@ t:1775926185
 c:f42eaf6b8d614289a6a02ab6368dd6211f93e457
 i:docs vile=9.8z_p2-r0
 
-C:Q13Vvi43/3Efe9TfbUPD2Le0wkrA4=
+C:Q1jsdeMCSs8o0b8ALbdieB2fVHIuE=
 P:vim
-V:9.2.0567-r0
+V:9.2.0602-r0
 A:x86
-S:1767736
+S:1768709
 I:3394820
 T:Improved vi-style text editor
 U:https://www.vim.org/
 L:Vim
 o:vim
 m:mio <miyopan@e.email>
-t:1780201784
-c:535cacb891d9041e02843568d6e69f7c27db9cbc
+t:1780934985
+c:37862ce3d9c928fe335bb93d1e14388292390083
 k:10
-D:vim-common=9.2.0567-r0 xxd=9.2.0567-r0 so:libc.musl-x86.so.1 so:libncursesw.so.6
-p:cmd:ex=9.2.0567-r0 cmd:rview=9.2.0567-r0 cmd:rvim=9.2.0567-r0 cmd:view=9.2.0567-r0 cmd:vim=9.2.0567-r0
+D:vim-common=9.2.0602-r0 xxd=9.2.0602-r0 so:libc.musl-x86.so.1 so:libncursesw.so.6
+p:cmd:ex=9.2.0602-r0 cmd:rview=9.2.0602-r0 cmd:rvim=9.2.0602-r0 cmd:view=9.2.0602-r0 cmd:vim=9.2.0602-r0
 
-C:Q1A5UuLnnvtGBwqdMxoOXmE/uckm8=
+C:Q1OMZuSH/5YfVWuylLdkqOCwKiCYU=
 P:vim-common
-V:9.2.0567-r0
+V:9.2.0602-r0
 A:x86
-S:8392866
-I:27568625
+S:8396354
+I:27579579
 T:Improved vi-style text editor (common files)
 U:https://www.vim.org/
 L:Vim
 o:vim
 m:mio <miyopan@e.email>
-t:1780201784
-c:535cacb891d9041e02843568d6e69f7c27db9cbc
+t:1780934985
+c:37862ce3d9c928fe335bb93d1e14388292390083
 
-C:Q1vzux+VbYYpwv9nB2HjVheHzg2+A=
+C:Q15jvfykYQX85aMMGqHTKK8hATsEs=
 P:vim-doc
-V:9.2.0567-r0
+V:9.2.0602-r0
 A:x86
-S:22343
-I:26078
+S:22444
+I:26164
 T:Improved vi-style text editor (documentation)
 U:https://www.vim.org/
 L:Vim
 o:vim
 m:mio <miyopan@e.email>
-t:1780201784
-c:535cacb891d9041e02843568d6e69f7c27db9cbc
-i:docs vim=9.2.0567-r0
+t:1780934985
+c:37862ce3d9c928fe335bb93d1e14388292390083
+i:docs vim=9.2.0602-r0
 
 C:Q1TeHcmWbG2vf8V8sFNAky9Fm2inU=
 P:vim-editorconfig
@@ -306076,21 +306079,21 @@ t:1755762870
 c:542ab6493c7d2e9be59770adefab5c0b01c00590
 D:vim
 
-C:Q1CohyYZh3X9LotmIOoNNEDaI8DPs=
+C:Q1FGo/vPpfgveQWAJXm8qUAIBoCjY=
 P:vim-tutor
-V:9.2.0567-r0
+V:9.2.0602-r0
 A:x86
-S:507178
+S:507258
 I:1693351
 T:Improved vi-style text editor (interactive tutorial)
 U:https://www.vim.org/
 L:Vim
 o:vim
 m:mio <miyopan@e.email>
-t:1780201784
-c:535cacb891d9041e02843568d6e69f7c27db9cbc
-D:vim=9.2.0567-r0
-p:cmd:vimtutor=9.2.0567-r0
+t:1780934985
+c:37862ce3d9c928fe335bb93d1e14388292390083
+D:vim=9.2.0602-r0
+p:cmd:vimtutor=9.2.0602-r0
 
 C:Q1k80wYSH++7YSilDV2USwvJgc7Rg=
 P:vimb
@@ -306121,21 +306124,21 @@ t:1704775968
 c:be0ad7999e2931e281426b5c7742b4f96ecc8c0f
 i:docs vimb=3.7.0-r0
 
-C:Q1oG0rvyy0qFRQAN1C0x3Qijd4Rqo=
+C:Q1X6V7S8DS3sEBjB88FvBGJbxB9GY=
 P:vimdiff
-V:9.2.0567-r0
+V:9.2.0602-r0
 A:x86
-S:1579
+S:1578
 I:1
 T:Improved vi-style text editor (diff view mode)
 U:https://www.vim.org/
 L:Vim
 o:vim
 m:mio <miyopan@e.email>
-t:1780201784
-c:535cacb891d9041e02843568d6e69f7c27db9cbc
-D:diffutils vim=9.2.0567-r0
-p:cmd:vimdiff=9.2.0567-r0
+t:1780934985
+c:37862ce3d9c928fe335bb93d1e14388292390083
+D:diffutils vim=9.2.0602-r0
+p:cmd:vimdiff=9.2.0602-r0
 
 C:Q1FlAeLIDT9/VtUuavciLZYtS2ncg=
 P:vimiv
@@ -320708,21 +320711,21 @@ t:1681061028
 c:55a9d95d44c8c4830342df61685d7f3f97a5b4e6
 i:docs xwininfo=1.1.6-r0
 
-C:Q1wY7o+/Te+1C1pO7YsOJAMUltTnA=
+C:Q1IdO+d0dEFNVH9UxsMncaMFeIaOI=
 P:xxd
-V:9.2.0567-r0
+V:9.2.0602-r0
 A:x86
-S:9955
+S:9980
 I:17820
 T:Tool to make (or reverse) a hex dump
 U:https://www.vim.org/
 L:Vim
 o:vim
 m:mio <miyopan@e.email>
-t:1780201784
-c:535cacb891d9041e02843568d6e69f7c27db9cbc
+t:1780934985
+c:37862ce3d9c928fe335bb93d1e14388292390083
 D:so:libc.musl-x86.so.1
-p:cmd:xxd=9.2.0567-r0
+p:cmd:xxd=9.2.0602-r0
 
 C:Q1sHli1hDNwCT6W3M89dOudn98lrI=
 P:yabasic
@@ -324045,36 +324048,36 @@ t:1779712578
 c:baa837f208b877330d6b0dc7fb6aebc40e67d0ef
 i:docs zizmor=1.25.2-r0
 
-C:Q1M0WxKN8JRK2THUNi9cFx6+7ODms=
+C:Q1YtMgw9I63eq+OtJJvENS5c1VKP8=
 P:zk
-V:0.15.4-r1
+V:0.15.5-r0
 A:x86
-S:5459724
-I:12896596
+S:5461783
+I:12900692
 T:Plain text note-taking application with CLI interface
 U:https://github.com/zk-org/zk
 L:GPL-3.0-only
 o:zk
 m:Sören Tempel <soeren+alpine@soeren-tempel.net>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1780927401
+c:ee8a545fb691d025486c03c9eab7a1c811ca8e8b
 D:fzf so:libc.musl-x86.so.1
-p:cmd:zk=0.15.4-r1
+p:cmd:zk=0.15.5-r0
 
-C:Q1Z7JAM9jpky/SOOJ0hsEGKkRU7do=
+C:Q1LqucPtQ2PXPvJ9kuzyW6AguSSQA=
 P:zk-doc
-V:0.15.4-r1
+V:0.15.5-r0
 A:x86
-S:450147
-I:1062341
+S:450259
+I:1062663
 T:Plain text note-taking application with CLI interface (documentation)
 U:https://github.com/zk-org/zk
 L:GPL-3.0-only
 o:zk
 m:Sören Tempel <soeren+alpine@soeren-tempel.net>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:docs zk=0.15.4-r1
+t:1780927401
+c:ee8a545fb691d025486c03c9eab7a1c811ca8e8b
+i:docs zk=0.15.5-r0
 
 C:Q1mqg8pEHGU6p7WG8SgzToiDp+MBc=
 P:zlevis

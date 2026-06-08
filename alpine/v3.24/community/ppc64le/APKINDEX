@@ -1553,35 +1553,35 @@ m:Jakub Jirutka <jakub@jirutka.cz>
 t:1736842223
 c:200e28c1f4fa561b003f872ecf636a66b6c4fd58
 
-C:Q1UetPK+YOuScU3+TLMUzHG8qmSlc=
+C:Q19M8dj8wLy7QLy0gpnqxW1NVUWwQ=
 P:acsccid
-V:1.1.13-r0
+V:1.1.13-r1
 A:ppc64le
-S:63075
+S:63067
 I:149249
 T:PCSC driver for ACS CCID smart card reader
 U:https://github.com/acshk/acsccid
 L:LGPL-2.1-or-later
 o:acsccid
 m:André Klitzing <aklitzing@gmail.com>
-t:1764716835
-c:c8c20e16dbae16af8831f76bfe1293459f643e62
+t:1780922724
+c:7f979cdc87c5dc59a94b35fb2dec9e4de5576b25
 D:pcsc-lite so:libc.musl-ppc64le.so.1 so:libusb-1.0.so.0
 
-C:Q1TOqGeccfvHX7qIysXsevlbDAhpY=
+C:Q1SbQdOXK7asX7RNXJoXEvnRdvJok=
 P:acsccid-udev
-V:1.1.13-r0
+V:1.1.13-r1
 A:ppc64le
-S:1992
+S:1989
 I:1865
 T:PCSC driver for ACS CCID smart card reader (udev rules)
 U:https://github.com/acshk/acsccid
 L:LGPL-2.1-or-later
 o:acsccid
 m:André Klitzing <aklitzing@gmail.com>
-t:1764716835
-c:c8c20e16dbae16af8831f76bfe1293459f643e62
-i:acsccid=1.1.13-r0 udev
+t:1780922724
+c:7f979cdc87c5dc59a94b35fb2dec9e4de5576b25
+i:udev acsccid=1.1.13-r1
 
 C:Q1Xq1pT9IgbC3mPymKMgu4/YReoO0=
 P:act
@@ -5144,52 +5144,52 @@ t:1778661427
 c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
 i:openrc apollo=0.3.1-r10
 
-C:Q1eQSop10vDhT5PQ/QJRbiwPbrsoY=
+C:Q1P11zZeKVEPUnd/RlbVd0d8tP24A=
 P:apprise
-V:1.10.0-r0
+V:1.11.0-r0
 A:ppc64le
-S:1265352
-I:4406586
+S:1333365
+I:4684975
 T:Push Notifications that work with just about every platform
 U:https://github.com/caronc/apprise
 L:BSD-2-Clause
 o:apprise
 m:Guy Godfroy <guy.godfroy@gugod.fr>
-t:1779066361
-c:fe26e8acc858dee437691cd2c9d80c8c28b30981
+t:1780927465
+c:e0b68bc2db59001f42c3cede4c969b1a5aa80d82
 D:py3-certifi py3-requests py3-requests-oauthlib py3-click py3-markdown py3-yaml py3-tzdata glib python3~3.14
-p:cmd:apprise=1.10.0-r0 py3.14:apprise=1.10.0-r0
+p:cmd:apprise=1.11.0-r0 py3.14:apprise=1.11.0-r0
 
-C:Q1kBVSEAF6rtBzYoYGDGaofOQd1Pw=
+C:Q1WRWrR8HDcfIubBD6LDtuvRSEGyE=
 P:apprise-doc
-V:1.10.0-r0
+V:1.11.0-r0
 A:ppc64le
-S:6284
-I:4729
+S:6673
+I:5123
 T:Push Notifications that work with just about every platform (documentation)
 U:https://github.com/caronc/apprise
 L:BSD-2-Clause
 o:apprise
 m:Guy Godfroy <guy.godfroy@gugod.fr>
-t:1779066361
-c:fe26e8acc858dee437691cd2c9d80c8c28b30981
-i:docs apprise=1.10.0-r0
+t:1780927465
+c:e0b68bc2db59001f42c3cede4c969b1a5aa80d82
+i:docs apprise=1.11.0-r0
 
-C:Q1+DUE+s2LYBnfIfuMD7tGlEpOz/I=
+C:Q1UILtyYKv17Ukh2QMjTWPBGy4INY=
 P:apprise-pyc
-V:1.10.0-r0
+V:1.11.0-r0
 A:ppc64le
-S:1168890
-I:3121926
+S:1249578
+I:3324270
 T:Precompiled Python bytecode for apprise
 U:https://github.com/caronc/apprise
 L:BSD-2-Clause
 o:apprise
 m:Guy Godfroy <guy.godfroy@gugod.fr>
-t:1779066361
-c:fe26e8acc858dee437691cd2c9d80c8c28b30981
+t:1780927465
+c:e0b68bc2db59001f42c3cede4c969b1a5aa80d82
 D:python3~3.14
-i:apprise=1.10.0-r0 pyc
+i:apprise=1.11.0-r0 pyc
 
 C:Q136+jBkefRTYCqebJL7dbaBlEn4U=
 P:appstream
@@ -24456,21 +24456,21 @@ D:cargo so:libc.musl-ppc64le.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.s
 p:cmd:cargo-sqlx=0.8.6-r0
 i:sqlx=0.8.6-r0 cargo
 
-C:Q1I1DGC1pp265joQt79fpviSEa2+Q=
+C:Q14FTXnega19rbSp9CNZC4Zvsu6YU=
 P:cargo-tarpaulin
-V:0.35.2-r0
+V:0.35.4-r0
 A:ppc64le
-S:2681410
-I:6055584
+S:2674615
+I:6055616
 T:Code coverage tool for Rust projects
 U:https://github.com/xd009642/tarpaulin
 L:Apache-2.0 OR MIT
 o:cargo-tarpaulin
 m:Leon White <badfunkstripe@gmail.com>
-t:1771622143
-c:7ad8db717c441c7729b0faabd6755a487d14c53b
+t:1780925095
+c:4acce618b755daf5dc087a03a7d9b8e21341325e
 D:cargo so:libc.musl-ppc64le.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
-p:cmd:cargo-tarpaulin=0.35.2-r0
+p:cmd:cargo-tarpaulin=0.35.4-r0
 
 C:Q1NfcgTM0xMRnyvuSLoIarlPB/9js=
 P:cargo-watch
@@ -69430,21 +69430,21 @@ t:1780766666
 c:e3dfef5c2e77cae37e25976c2d04f7ff3d2eaa67
 i:git-machete=3.42.0-r0 zsh
 
-C:Q1a2AdjPomHMFrzj1g55wbKBvN6qQ=
+C:Q1vmEePY6hIJ82Uljz+ly/nN2a+gM=
 P:git-metafile
-V:0.2.3-r1
+V:0.2.3-r2
 A:ppc64le
-S:226700
-I:464333
+S:226620
+I:464348
 T:Store and restore files metadata in a git repository
 U:https://github.com/jirutka/git-metafile
 L:MIT
 o:git-metafile
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1765112254
-c:06fa729e4b5889aaec9f36b05863ff7ea4ceda4d
+t:1780933530
+c:f3bfe342dd5b4ca8448d49f524143e254977dce1
 D:git so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1
-p:cmd:git-etc-init=0.2.3-r1 cmd:git-metafile=0.2.3-r1
+p:cmd:git-etc-init=0.2.3-r2 cmd:git-metafile=0.2.3-r2
 
 C:Q1Z8WlxyZQEb74ovzP3qERq1t0Li0=
 P:git-review
@@ -85860,22 +85860,22 @@ t:1773567302
 c:af6f93920f6c04cae607afba64be5c578c553997
 i:systemd gvfs=1.60.0-r0
 
-C:Q1q59qgwbE9XUNQPJ2cSMaVoG0FeQ=
+C:Q1lCcnTpSIL8lIFgveiv61qb/zTjs=
 P:gvim
-V:9.2.0567-r0
+V:9.2.0602-r0
 A:ppc64le
-S:2038188
+S:2039155
 I:4420668
 T:Improved vi-style text editor (GTK3 GUI)
 U:https://www.vim.org/
 L:Vim
 o:vim
 m:mio <miyopan@e.email>
-t:1780201784
-c:535cacb891d9041e02843568d6e69f7c27db9cbc
+t:1780934985
+c:37862ce3d9c928fe335bb93d1e14388292390083
 k:1
-D:vim-common=9.2.0567-r0 xxd=9.2.0567-r0 so:libICE.so.6 so:libSM.so.6 so:libX11.so.6 so:libXt.so.6 so:libc.musl-ppc64le.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libncursesw.so.6 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libwayland-client.so.0
-p:vim=9.2.0567-r0 cmd:eview=9.2.0567-r0 cmd:evim=9.2.0567-r0 cmd:ex=9.2.0567-r0 cmd:gview=9.2.0567-r0 cmd:gvim=9.2.0567-r0 cmd:gvimdiff=9.2.0567-r0 cmd:gvimtutor=9.2.0567-r0 cmd:rgview=9.2.0567-r0 cmd:rgvim=9.2.0567-r0 cmd:rview=9.2.0567-r0 cmd:rvim=9.2.0567-r0 cmd:view=9.2.0567-r0 cmd:vim=9.2.0567-r0
+D:vim-common=9.2.0602-r0 xxd=9.2.0602-r0 so:libICE.so.6 so:libSM.so.6 so:libX11.so.6 so:libXt.so.6 so:libc.musl-ppc64le.so.1 so:libcairo.so.2 so:libgdk-3.so.0 so:libgdk_pixbuf-2.0.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libncursesw.so.6 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libwayland-client.so.0
+p:vim=9.2.0602-r0 cmd:eview=9.2.0602-r0 cmd:evim=9.2.0602-r0 cmd:ex=9.2.0602-r0 cmd:gview=9.2.0602-r0 cmd:gvim=9.2.0602-r0 cmd:gvimdiff=9.2.0602-r0 cmd:gvimtutor=9.2.0602-r0 cmd:rgview=9.2.0602-r0 cmd:rgvim=9.2.0602-r0 cmd:rview=9.2.0602-r0 cmd:rvim=9.2.0602-r0 cmd:view=9.2.0602-r0 cmd:vim=9.2.0602-r0
 
 C:Q1Blj2/v6PvzL+rI0ACS9P3em9UwY=
 P:gvm-libs
@@ -91767,52 +91767,52 @@ t:1698274176
 c:bd78439b2f66d88e17d1622fd4cfd83dea590a57
 i:docs iec16022=0.3.1-r0
 
-C:Q1VpwnSMembMtc69loaFRkJS3p/kE=
+C:Q1D/WRzfNo4SvWzh2lQENojH3R8mY=
 P:ifstate
-V:2.3.0-r0
+V:2.4.0-r0
 A:ppc64le
-S:100631
-I:553097
+S:104006
+I:577758
 T:Manage host interface settings in a declarative manner
 U:https://ifstate.net/
 L:GPL-3.0-or-later
 o:ifstate
 m:Thomas Liske <thomas@fiasko-nw.net>
-t:1778543650
-c:6e26d7f94374026ea02d67f6e3dd11a2328d6636
+t:1780927752
+c:e2598c42768865e1f6aecc7c3058991fe3600aa3
 D:iproute2 python3 py3-jsonschema py3-pyroute2 py3-setproctitle py3-yaml /bin/sh python3~3.14
-p:cmd:ifstatecli=2.3.0-r0 py3.14:ifstate=2.3.0-r0 py3.14:libifstate=2.3.0-r0
+p:cmd:ifstatecli=2.4.0-r0 py3.14:ifstate=2.4.0-r0 py3.14:libifstate=2.4.0-r0
 
-C:Q1EpLR1BUL5CdfWST2PTYoVFWYL8g=
+C:Q1qacWoucH6HOyhjSr9gLqRfBacyU=
 P:ifstate-openrc
-V:2.3.0-r0
+V:2.4.0-r0
 A:ppc64le
-S:1525
-I:328
+S:1534
+I:425
 T:Manage host interface settings in a declarative manner (OpenRC init scripts)
 U:https://ifstate.net/
 L:GPL-3.0-or-later
 o:ifstate
 m:Thomas Liske <thomas@fiasko-nw.net>
-t:1778543650
-c:6e26d7f94374026ea02d67f6e3dd11a2328d6636
-i:openrc ifstate=2.3.0-r0
+t:1780927752
+c:e2598c42768865e1f6aecc7c3058991fe3600aa3
+i:openrc ifstate=2.4.0-r0
 
-C:Q1bIgJcCXOm5uZS5C587ToxRM4iS0=
+C:Q1Tq5UFYeLn74ku2ljQRn3Lj+IYsE=
 P:ifstate-pyc
-V:2.3.0-r0
+V:2.4.0-r0
 A:ppc64le
-S:163521
-I:373766
+S:165399
+I:378883
 T:Precompiled Python bytecode for ifstate
 U:https://ifstate.net/
 L:GPL-3.0-or-later
 o:ifstate
 m:Thomas Liske <thomas@fiasko-nw.net>
-t:1778543650
-c:6e26d7f94374026ea02d67f6e3dd11a2328d6636
+t:1780927752
+c:e2598c42768865e1f6aecc7c3058991fe3600aa3
 D:python3~3.14
-i:ifstate=2.3.0-r0 pyc
+i:ifstate=2.4.0-r0 pyc
 
 C:Q10odmfg3Ag45yctAdEIuN0C+ZJTI=
 P:ifupdown-ng-waitif
@@ -189396,36 +189396,36 @@ t:1773607463
 c:a6478e68a4b9a0009a1671323f52488ae02df137
 i:docs perl-datetime-format-iso8601=0.19-r0
 
-C:Q1csMVT8EaMWhEV54mxUcDKmnDNmQ=
+C:Q1S0sgRFHUrUukXhP/bsoAgUs5FOk=
 P:perl-datetime-format-natural
-V:1.26-r0
+V:1.27-r0
 A:ppc64le
-S:37156
-I:248440
+S:37139
+I:248434
 T:Parse informal natural language date/time strings
 U:https://metacpan.org/release/DateTime-Format-Natural/
 L:GPL-1.0-or-later OR Artistic-1.0-Perl
 o:perl-datetime-format-natural
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1780391220
-c:7d9e756a247adb7249e3a4457b44608bbb2252ec
+t:1780927697
+c:fd327ff2276d376810e93f8294a9f14948f5850b
 D:perl perl-datetime-timezone perl-clone perl-params-validate perl-datetime perl-boolean perl-datetime-hires perl-module-util
-p:cmd:dateparse=1.26-r0
+p:cmd:dateparse=1.27-r0
 
-C:Q1l8eJh8qZ08Fwa5F6atT2KB4d1cc=
+C:Q15VFLyBaIIcWEzamzaLzBuwPlH64=
 P:perl-datetime-format-natural-doc
-V:1.26-r0
+V:1.27-r0
 A:ppc64le
-S:27673
-I:25313
+S:27625
+I:25322
 T:Parse informal natural language date/time strings (documentation)
 U:https://metacpan.org/release/DateTime-Format-Natural/
 L:GPL-1.0-or-later OR Artistic-1.0-Perl
 o:perl-datetime-format-natural
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1780391220
-c:7d9e756a247adb7249e3a4457b44608bbb2252ec
-i:docs perl-datetime-format-natural=1.26-r0
+t:1780927697
+c:fd327ff2276d376810e93f8294a9f14948f5850b
+i:docs perl-datetime-format-natural=1.27-r0
 
 C:Q1OxJROA+roPt5t9p5SX+rt3C9YVQ=
 P:perl-datetime-format-pg
@@ -212013,66 +212013,66 @@ t:1777900518
 c:32bf34cfb9bff508b6aa725e134e6d9b53db8015
 i:pimcommon=26.04.0-r0 lang
 
-C:Q1XLbp6/DPULNbIMC8M/+EVRatAZ4=
+C:Q1MFpSVnu2cbSVTwtTxarJzbd0gWE=
 P:pimsync
-V:0.5.9-r0
+V:0.5.10-r0
 A:ppc64le
-S:1397713
-I:3217576
+S:1452196
+I:3348648
 T:Synchronise calendars and contacts using CalDAV, CardDAV and others
 U:https://pimsync.whynothugo.nl/
 L:EUPL-1.2
 o:pimsync
 m:Hugo Osvaldo Barrera <hugo@whynothugo.nl>
-t:1778515159
-c:15f5571b131ff02edd3080547270511563647c95
+t:1780922681
+c:209563518b4fc6848fe1c34aac73e85c7e252656
 D:so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libsqlite3.so.0
-p:cmd:pimsync=0.5.9-r0
+p:cmd:pimsync=0.5.10-r0
 
-C:Q1hU98NeLiwVLRJY1rMEO6JJO86Mw=
+C:Q1ZYplr/o7kjM2Z6BabLOG9QZS8Ao=
 P:pimsync-doc
-V:0.5.9-r0
+V:0.5.10-r0
 A:ppc64le
-S:20789
-I:26788
+S:20850
+I:26854
 T:Synchronise calendars and contacts using CalDAV, CardDAV and others (documentation)
 U:https://pimsync.whynothugo.nl/
 L:EUPL-1.2
 o:pimsync
 m:Hugo Osvaldo Barrera <hugo@whynothugo.nl>
-t:1778515159
-c:15f5571b131ff02edd3080547270511563647c95
-i:docs pimsync=0.5.9-r0
+t:1780922681
+c:209563518b4fc6848fe1c34aac73e85c7e252656
+i:docs pimsync=0.5.10-r0
 
-C:Q1zWBwLi7Ew5SkfvqetA953zoZ8cU=
+C:Q1gZpq5Vz/UWzxmDEo6Oke6+eVdxU=
 P:pimsync-openrc
-V:0.5.9-r0
+V:0.5.10-r0
 A:ppc64le
-S:1499
+S:1498
 I:187
 T:Synchronise calendars and contacts using CalDAV, CardDAV and others (OpenRC init scripts)
 U:https://pimsync.whynothugo.nl/
 L:EUPL-1.2
 o:pimsync
 m:Hugo Osvaldo Barrera <hugo@whynothugo.nl>
-t:1778515159
-c:15f5571b131ff02edd3080547270511563647c95
-i:openrc pimsync=0.5.9-r0
+t:1780922681
+c:209563518b4fc6848fe1c34aac73e85c7e252656
+i:openrc pimsync=0.5.10-r0
 
-C:Q1009vHkUwP88VeYREv18omFweTfA=
+C:Q1QzXACkFTLEmVPj+n/IwI66Enp58=
 P:pimsync-zsh-completion
-V:0.5.9-r0
+V:0.5.10-r0
 A:ppc64le
-S:2239
+S:2237
 I:2964
 T:Zsh completions for pimsync
 U:https://pimsync.whynothugo.nl/
 L:EUPL-1.2
 o:pimsync
 m:Hugo Osvaldo Barrera <hugo@whynothugo.nl>
-t:1778515159
-c:15f5571b131ff02edd3080547270511563647c95
-i:pimsync=0.5.9-r0 zsh
+t:1780922681
+c:209563518b4fc6848fe1c34aac73e85c7e252656
+i:pimsync=0.5.10-r0 zsh
 
 C:Q19WCtaSqWcKCaKHphmhaPkNkZPpE=
 P:pinentry-gnome
@@ -217308,51 +217308,51 @@ t:1776009405
 c:76bcd8697bfda20cf57c436e03b55ed0c4e0350c
 i:postprocessd=0.3.0-r7 megapixels
 
-C:Q1m/HTDBxCfM0VxmBBMsx8XmNqMIc=
+C:Q1EopxKseacwDuSi7x9rNJwHD3mbU=
 P:postsrsd
-V:2.0.11-r0
+V:2.0.12-r0
 A:ppc64le
-S:35045
+S:35286
 I:142917
 T:Postfix Sender Rewriting Scheme daemon
 U:https://github.com/roehling/postsrsd
 L:GPL-3.0-only AND BSD-3-Clause AND FSFUL
 o:postsrsd
 m:Kevin Daudt <kdaudt@alpinelinux.org>
-t:1744622859
-c:a35e58a7165eee9cf30053e456045dd987abb30a
+t:1780927896
+c:52925e60e978e3a97c085700d7d7afac750f579f
 D:/bin/sh so:libc.musl-ppc64le.so.1 so:libconfuse.so.2 so:libsqlite3.so.0
-p:cmd:postsrsd=2.0.11-r0
+p:cmd:postsrsd=2.0.12-r0
 
-C:Q1JWKRdLRsuPtGgtKbQwaLCxJ5kn4=
+C:Q1iWix8w9cdNNYP7wkDYPBYcyIZN4=
 P:postsrsd-doc
-V:2.0.11-r0
+V:2.0.12-r0
 A:ppc64le
-S:4169
+S:4166
 I:7069
 T:Postfix Sender Rewriting Scheme daemon (documentation)
 U:https://github.com/roehling/postsrsd
 L:GPL-3.0-only AND BSD-3-Clause AND FSFUL
 o:postsrsd
 m:Kevin Daudt <kdaudt@alpinelinux.org>
-t:1744622859
-c:a35e58a7165eee9cf30053e456045dd987abb30a
-i:docs postsrsd=2.0.11-r0
+t:1780927896
+c:52925e60e978e3a97c085700d7d7afac750f579f
+i:docs postsrsd=2.0.12-r0
 
-C:Q1jhcYeg6shSGvpK6y0Vj6SvsyHcc=
+C:Q1CucPkDQ0vmMwyvWGauEYRWBX6Zs=
 P:postsrsd-openrc
-V:2.0.11-r0
+V:2.0.12-r0
 A:ppc64le
-S:1618
+S:1610
 I:537
 T:Postfix Sender Rewriting Scheme daemon (OpenRC init scripts)
 U:https://github.com/roehling/postsrsd
 L:GPL-3.0-only AND BSD-3-Clause AND FSFUL
 o:postsrsd
 m:Kevin Daudt <kdaudt@alpinelinux.org>
-t:1744622859
-c:a35e58a7165eee9cf30053e456045dd987abb30a
-i:openrc postsrsd=2.0.11-r0
+t:1780927896
+c:52925e60e978e3a97c085700d7d7afac750f579f
+i:openrc postsrsd=2.0.12-r0
 
 C:Q1zwT+Z2eY/Cd+1zB8qwNmYeHCb4g=
 P:potrace
@@ -239417,37 +239417,37 @@ c:a15bde8b857fc085cbce6e2b06491b90355b2297
 D:python3~3.14
 i:py3-josepy=2.2.0-r0 pyc
 
-C:Q1vAj4j1I1eXFhkNU7vH1Mg1mGChI=
+C:Q1uPKLiStE5j5BxjxPH02/yOwyOYU=
 P:py3-joserfc
-V:1.6.7-r0
+V:1.7.0-r0
 A:ppc64le
-S:57168
-I:218958
+S:57427
+I:218476
 T:Implementations of JOSE RFCs in Python
 U:https://jose.authlib.org
 L:BSD-3-Clause
 o:py3-joserfc
 m:Guy Godfroy <guy.godfroy@gugod.fr>
-t:1779657355
-c:7af8b443811d416d456831a2c2a0201243929149
+t:1780927653
+c:1aeb89a67f505baa1d1bea0edbe77ba0377e180b
 D:py3-cryptography py3-pycryptodome python3~3.14
-p:py3.14:joserfc=1.6.7-r0
+p:py3.14:joserfc=1.7.0-r0
 
-C:Q1h7UgZDD0g7GnK4bCjMmmtUCzVxw=
+C:Q19z8e0D8yS6qe2GSzyYLk9WA/4c4=
 P:py3-joserfc-pyc
-V:1.6.7-r0
+V:1.7.0-r0
 A:ppc64le
-S:132159
-I:346322
+S:138234
+I:365565
 T:Precompiled Python bytecode for py3-joserfc
 U:https://jose.authlib.org
 L:BSD-3-Clause
 o:py3-joserfc
 m:Guy Godfroy <guy.godfroy@gugod.fr>
-t:1779657355
-c:7af8b443811d416d456831a2c2a0201243929149
+t:1780927653
+c:1aeb89a67f505baa1d1bea0edbe77ba0377e180b
 D:python3~3.14
-i:py3-joserfc=1.6.7-r0 pyc
+i:py3-joserfc=1.7.0-r0 pyc
 
 C:Q12Y/+/EhKonXqfb+mV/Hroi3f4zo=
 P:py3-json-database
@@ -282206,48 +282206,51 @@ t:1777667671
 c:991c2df00f4a60f19fc75b7f07df5001128c7bb0
 i:docs rover=1.0.1-r4
 
-C:Q18Ftpx9Lw+PHEjkqCZmXWIWsdB7c=
+C:Q1twD2QpXkwYos9gyZsP45zam3Zzw=
 P:roxterm
-V:3.17.2-r1
+V:3.18.2-r0
 A:ppc64le
-S:189983
-I:1207204
+S:190720
+I:1210445
 T:Highly configurable terminal emulator
 U:https://github.com/realh/roxterm
 L:GPL-2.0-or-later
 o:roxterm
-t:1771160091
-c:a9e2a2dc46f377eb25884f7fea9834492de7f518
+m:Leon White <badfunkstripe@gmail.com>
+t:1780927200
+c:205528490d707d455c4f24cfde0f39c41e880cf1
 D:so:libc.musl-ppc64le.so.1 so:libcairo.so.2 so:libdbus-1.so.3 so:libdbus-glib-1.so.2 so:libgdk-3.so.0 so:libgio-2.0.so.0 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libgtk-3.so.0 so:libintl.so.8 so:libpango-1.0.so.0 so:libvte-2.91.so.0
-p:cmd:roxterm-config=3.17.2-r1 cmd:roxterm=3.17.2-r1
+p:cmd:roxterm-config=3.18.2-r0 cmd:roxterm=3.18.2-r0
 
-C:Q1BWSatRzfk94v3Vta/89pr/Xr4oQ=
+C:Q1YAagJtPY3Mg/xtFyiIXQkhAbqpc=
 P:roxterm-doc
-V:3.17.2-r1
+V:3.18.2-r0
 A:ppc64le
-S:362357
-I:508765
+S:371252
+I:514851
 T:Highly configurable terminal emulator (documentation)
 U:https://github.com/realh/roxterm
 L:GPL-2.0-or-later
 o:roxterm
-t:1771160091
-c:a9e2a2dc46f377eb25884f7fea9834492de7f518
-i:docs roxterm=3.17.2-r1
+m:Leon White <badfunkstripe@gmail.com>
+t:1780927200
+c:205528490d707d455c4f24cfde0f39c41e880cf1
+i:docs roxterm=3.18.2-r0
 
-C:Q15lMsz4HQRkO88CreRslVhPP2eQE=
+C:Q1m6F0zPsT6JPcwbDzUuhKNum2ejg=
 P:roxterm-lang
-V:3.17.2-r1
+V:3.18.2-r0
 A:ppc64le
-S:66370
-I:180620
+S:154261
+I:424688
 T:Languages for package roxterm
 U:https://github.com/realh/roxterm
 L:GPL-2.0-or-later
 o:roxterm
-t:1771160091
-c:a9e2a2dc46f377eb25884f7fea9834492de7f518
-i:roxterm=3.17.2-r1 lang
+m:Leon White <badfunkstripe@gmail.com>
+t:1780927200
+c:205528490d707d455c4f24cfde0f39c41e880cf1
+i:roxterm=3.18.2-r0 lang
 
 C:Q1cI06esoTJJ45jQUN/zUDPlgHZbo=
 P:rpki-client
@@ -303853,99 +303856,99 @@ t:1773733911
 c:0700dd9731065e5d425db52a0d44c3d721c94de8
 i:template-glib=3.40.0-r0 lang
 
-C:Q13svfZnqhgUFBb95lCFNddqXLiLY=
+C:Q1NF0an0eQB3x2xfxNcPEkMXk4SNQ=
 P:tempo
-V:2.10.5-r0
+V:3.0.0-r0
 A:ppc64le
-S:32349455
-I:117504704
+S:32940995
+I:117842474
 T:High volume distributed tracing backend
 U:https://github.com/grafana/tempo
 L:AGPL-3.0-or-later
 o:tempo
 m:Guy Godfroy <guy.godfroy@gugod.fr>
-t:1779657263
-c:52c1b79eb5f440668c75b654dda70d598ba4c8fd
+t:1780927534
+c:21c40eae38f7ea26e54e74357571e5a6fbbd4f30
 D:/bin/sh so:libc.musl-ppc64le.so.1
-p:cmd:tempo=2.10.5-r0
+p:cmd:tempo=3.0.0-r0
 
-C:Q1/NKdSmJWR3sSRtMhiUCtzYXG6ns=
+C:Q1uGy/pPzTCFZL8az4NEIyaeowjY4=
 P:tempo-cli
-V:2.10.5-r0
+V:3.0.0-r0
 A:ppc64le
-S:23173729
-I:81114008
+S:24443875
+I:85142712
 T:Tempo command line tool
 U:https://github.com/grafana/tempo
 L:AGPL-3.0-or-later
 o:tempo
 m:Guy Godfroy <guy.godfroy@gugod.fr>
-t:1779657263
-c:52c1b79eb5f440668c75b654dda70d598ba4c8fd
+t:1780927534
+c:21c40eae38f7ea26e54e74357571e5a6fbbd4f30
 D:so:libc.musl-ppc64le.so.1
-p:cmd:tempo-cli=2.10.5-r0
+p:cmd:tempo-cli=3.0.0-r0
 
-C:Q1Ru2UseQViD5XnOl0Am0x+o7JoBo=
+C:Q1IOJvqUqjlpJ/U1lfxgabbpROkp8=
 P:tempo-openrc
-V:2.10.5-r0
+V:3.0.0-r0
 A:ppc64le
-S:1643
+S:1631
 I:377
 T:High volume distributed tracing backend (OpenRC init scripts)
 U:https://github.com/grafana/tempo
 L:AGPL-3.0-or-later
 o:tempo
 m:Guy Godfroy <guy.godfroy@gugod.fr>
-t:1779657263
-c:52c1b79eb5f440668c75b654dda70d598ba4c8fd
-i:openrc tempo=2.10.5-r0
+t:1780927534
+c:21c40eae38f7ea26e54e74357571e5a6fbbd4f30
+i:openrc tempo=3.0.0-r0
 
-C:Q1uhkaUSidr7AenCoagNyixqOlZvA=
+C:Q1OajCzutMCt3/CU0GP0YqlBRjBwc=
 P:tempo-query
-V:2.10.5-r0
+V:3.0.0-r0
 A:ppc64le
-S:6929439
-I:21967656
+S:6755755
+I:21169928
 T:Tempo query tool
 U:https://github.com/grafana/tempo
 L:AGPL-3.0-or-later
 o:tempo
 m:Guy Godfroy <guy.godfroy@gugod.fr>
-t:1779657263
-c:52c1b79eb5f440668c75b654dda70d598ba4c8fd
+t:1780927534
+c:21c40eae38f7ea26e54e74357571e5a6fbbd4f30
 D:so:libc.musl-ppc64le.so.1
-p:cmd:tempo-query=2.10.5-r0
+p:cmd:tempo-query=3.0.0-r0
 
-C:Q1j2NKJtYRIbdq6p4Do1Y0GbuduWY=
+C:Q16NM40MgpOgDFuly1wY37OoQ39/Y=
 P:tempo-vulture
-V:2.10.5-r0
+V:3.0.0-r0
 A:ppc64le
-S:18439704
-I:65863416
+S:19713513
+I:69551672
 T:Tempo performance monitor
 U:https://github.com/grafana/tempo
 L:AGPL-3.0-or-later
 o:tempo
 m:Guy Godfroy <guy.godfroy@gugod.fr>
-t:1779657263
-c:52c1b79eb5f440668c75b654dda70d598ba4c8fd
+t:1780927534
+c:21c40eae38f7ea26e54e74357571e5a6fbbd4f30
 D:so:libc.musl-ppc64le.so.1
-p:cmd:tempo-vulture=2.10.5-r0
+p:cmd:tempo-vulture=3.0.0-r0
 
-C:Q1KwUmeLP/0n/bxHwWmSIUjirHF3w=
+C:Q15Zv30BmXnEwvPqyFisy7ZmA/zMs=
 P:tempo-vulture-openrc
-V:2.10.5-r0
+V:3.0.0-r0
 A:ppc64le
-S:1750
+S:1745
 I:603
 T:Tempo performance monitor (Open RC init scripts)
 U:https://github.com/grafana/tempo
 L:AGPL-3.0-or-later
 o:tempo
 m:Guy Godfroy <guy.godfroy@gugod.fr>
-t:1779657263
-c:52c1b79eb5f440668c75b654dda70d598ba4c8fd
-i:openrc tempo-vulture=2.10.5-r0
+t:1780927534
+c:21c40eae38f7ea26e54e74357571e5a6fbbd4f30
+i:openrc tempo-vulture=3.0.0-r0
 
 C:Q1QQsCbp4mFeRSSxz9P725xrjI6Bc=
 P:tepl
@@ -316573,51 +316576,51 @@ t:1759402743
 c:fbb26d9a7eb03d11a2f0de9df685b5591a340e31
 i:usbguard=1.1.4-r1 zsh
 
-C:Q15naZPPTE0b/eydR47O/c570zCsc=
+C:Q1QHp2L7mOY/cNpg5hcFIWo645dgI=
 P:usbmuxd
-V:1.1.1_git20250201-r10
+V:1.1.1_git20250201-r11
 A:ppc64le
-S:36943
+S:36946
 I:133464
 T:Socket Daemon to multiplex connections from iOS
 U:https://libimobiledevice.org
 L:GPL-2.0-or-later
 o:usbmuxd
 m:Krassy Boykinov <kboykinov@teamcentrixx.com>
-t:1769803041
-c:ff2fbcd0d90c2fa4ae723bfd181ddb9dd8c069fa
+t:1780922795
+c:18a0d7e5c31158ab2e283bac7d84e29d28760a5a
 D:/bin/sh so:libc.musl-ppc64le.so.1 so:libimobiledevice-1.0.so.6 so:libimobiledevice-glue-1.0.so.0 so:libplist-2.0.so.4 so:libusb-1.0.so.0
-p:cmd:usbmuxd=1.1.1_git20250201-r10
+p:cmd:usbmuxd=1.1.1_git20250201-r11
 
-C:Q1vzl7lC9JASw6YnpUm3xYDvGmQ78=
+C:Q1OX6EmBFkrvc0DCTrRgVCtwAtVJI=
 P:usbmuxd-doc
-V:1.1.1_git20250201-r10
+V:1.1.1_git20250201-r11
 A:ppc64le
-S:2804
+S:2803
 I:1306
 T:Socket Daemon to multiplex connections from iOS (documentation)
 U:https://libimobiledevice.org
 L:GPL-2.0-or-later
 o:usbmuxd
 m:Krassy Boykinov <kboykinov@teamcentrixx.com>
-t:1769803041
-c:ff2fbcd0d90c2fa4ae723bfd181ddb9dd8c069fa
-i:docs usbmuxd=1.1.1_git20250201-r10
+t:1780922795
+c:18a0d7e5c31158ab2e283bac7d84e29d28760a5a
+i:docs usbmuxd=1.1.1_git20250201-r11
 
-C:Q1HM0GtCW7t/DXIIWQBSkYgHUyyzM=
+C:Q1xgZ8b/CXVknMEbuBib6QP2vFLvw=
 P:usbmuxd-udev
-V:1.1.1_git20250201-r10
+V:1.1.1_git20250201-r11
 A:ppc64le
-S:1866
+S:1878
 I:1304
-T:Socket Daemon to multiplex connections from iOS
+T:Socket Daemon to multiplex connections from iOS (udev rules)
 U:https://libimobiledevice.org
 L:GPL-2.0-or-later
 o:usbmuxd
 m:Krassy Boykinov <kboykinov@teamcentrixx.com>
-t:1769803041
-c:ff2fbcd0d90c2fa4ae723bfd181ddb9dd8c069fa
-i:eudev usbmuxd=1.1.1_git20250201-r10
+t:1780922795
+c:18a0d7e5c31158ab2e283bac7d84e29d28760a5a
+i:udev usbmuxd=1.1.1_git20250201-r11
 
 C:Q1/FDBmqFHoD39ns6s61qhyNC81QQ=
 P:usbredir
@@ -318712,51 +318715,51 @@ t:1775926185
 c:f42eaf6b8d614289a6a02ab6368dd6211f93e457
 i:docs vile=9.8z_p2-r0
 
-C:Q1jjRrKTYEJ+m1IeTjPDnCtpaonUs=
+C:Q1b8WerV4PTXOqxQvUZBAZYncUIJo=
 P:vim
-V:9.2.0567-r0
+V:9.2.0602-r0
 A:ppc64le
-S:1890180
-I:4077944
+S:1891880
+I:4143480
 T:Improved vi-style text editor
 U:https://www.vim.org/
 L:Vim
 o:vim
 m:mio <miyopan@e.email>
-t:1780201784
-c:535cacb891d9041e02843568d6e69f7c27db9cbc
+t:1780934985
+c:37862ce3d9c928fe335bb93d1e14388292390083
 k:10
-D:vim-common=9.2.0567-r0 xxd=9.2.0567-r0 so:libc.musl-ppc64le.so.1 so:libncursesw.so.6
-p:cmd:ex=9.2.0567-r0 cmd:rview=9.2.0567-r0 cmd:rvim=9.2.0567-r0 cmd:view=9.2.0567-r0 cmd:vim=9.2.0567-r0
+D:vim-common=9.2.0602-r0 xxd=9.2.0602-r0 so:libc.musl-ppc64le.so.1 so:libncursesw.so.6
+p:cmd:ex=9.2.0602-r0 cmd:rview=9.2.0602-r0 cmd:rvim=9.2.0602-r0 cmd:view=9.2.0602-r0 cmd:vim=9.2.0602-r0
 
-C:Q1t2XOt2sQrzW7UuMY6AwITVmvgWk=
+C:Q10YlxREWrHPvGUVNUipx7H3ctv9g=
 P:vim-common
-V:9.2.0567-r0
+V:9.2.0602-r0
 A:ppc64le
-S:8392601
-I:27568625
+S:8396090
+I:27579579
 T:Improved vi-style text editor (common files)
 U:https://www.vim.org/
 L:Vim
 o:vim
 m:mio <miyopan@e.email>
-t:1780201784
-c:535cacb891d9041e02843568d6e69f7c27db9cbc
+t:1780934985
+c:37862ce3d9c928fe335bb93d1e14388292390083
 
-C:Q1zNsNDKMTgKCeI7cUoAbi8QUwvmw=
+C:Q1P1W/C4lV6fIxwrpzAL8gFMKpqOY=
 P:vim-doc
-V:9.2.0567-r0
+V:9.2.0602-r0
 A:ppc64le
-S:22077
-I:26078
+S:22178
+I:26164
 T:Improved vi-style text editor (documentation)
 U:https://www.vim.org/
 L:Vim
 o:vim
 m:mio <miyopan@e.email>
-t:1780201784
-c:535cacb891d9041e02843568d6e69f7c27db9cbc
-i:docs vim=9.2.0567-r0
+t:1780934985
+c:37862ce3d9c928fe335bb93d1e14388292390083
+i:docs vim=9.2.0602-r0
 
 C:Q1iBxjrBSSHh08Op+pgxyJ272zufQ=
 P:vim-editorconfig
@@ -318816,21 +318819,21 @@ t:1755762870
 c:542ab6493c7d2e9be59770adefab5c0b01c00590
 D:vim
 
-C:Q1hiCFUVGXmvENV2t6sbKwrJeRMq4=
+C:Q1hKkFdtvGXPXfSIOq6B2qxvEbV2E=
 P:vim-tutor
-V:9.2.0567-r0
+V:9.2.0602-r0
 A:ppc64le
-S:506909
+S:506992
 I:1693351
 T:Improved vi-style text editor (interactive tutorial)
 U:https://www.vim.org/
 L:Vim
 o:vim
 m:mio <miyopan@e.email>
-t:1780201784
-c:535cacb891d9041e02843568d6e69f7c27db9cbc
-D:vim=9.2.0567-r0
-p:cmd:vimtutor=9.2.0567-r0
+t:1780934985
+c:37862ce3d9c928fe335bb93d1e14388292390083
+D:vim=9.2.0602-r0
+p:cmd:vimtutor=9.2.0602-r0
 
 C:Q1Jr1SOUCu4Frv6mbcohS3j9i9LYg=
 P:vimb
@@ -318861,21 +318864,21 @@ t:1704775968
 c:be0ad7999e2931e281426b5c7742b4f96ecc8c0f
 i:docs vimb=3.7.0-r0
 
-C:Q1arT1BfDh6Cu7uTzMQUHDhdLw8e0=
+C:Q1rJtlR6VmJxazEAYCOIra22eVyUw=
 P:vimdiff
-V:9.2.0567-r0
+V:9.2.0602-r0
 A:ppc64le
-S:1313
+S:1311
 I:1
 T:Improved vi-style text editor (diff view mode)
 U:https://www.vim.org/
 L:Vim
 o:vim
 m:mio <miyopan@e.email>
-t:1780201784
-c:535cacb891d9041e02843568d6e69f7c27db9cbc
-D:diffutils vim=9.2.0567-r0
-p:cmd:vimdiff=9.2.0567-r0
+t:1780934985
+c:37862ce3d9c928fe335bb93d1e14388292390083
+D:diffutils vim=9.2.0602-r0
+p:cmd:vimdiff=9.2.0602-r0
 
 C:Q1W7erc7eeS56WpLPxedR0/nY5Aqk=
 P:vimiv
@@ -332628,21 +332631,21 @@ t:1681061028
 c:55a9d95d44c8c4830342df61685d7f3f97a5b4e6
 i:docs xwininfo=1.1.6-r0
 
-C:Q15FVdm7p4wjX6Prjxlg4Te2QfDn0=
+C:Q1GkHJS31PxKP63SSxGYNXb6Alxew=
 P:xxd
-V:9.2.0567-r0
+V:9.2.0602-r0
 A:ppc64le
-S:11141
+S:11171
 I:67408
 T:Tool to make (or reverse) a hex dump
 U:https://www.vim.org/
 L:Vim
 o:vim
 m:mio <miyopan@e.email>
-t:1780201784
-c:535cacb891d9041e02843568d6e69f7c27db9cbc
+t:1780934985
+c:37862ce3d9c928fe335bb93d1e14388292390083
 D:so:libc.musl-ppc64le.so.1
-p:cmd:xxd=9.2.0567-r0
+p:cmd:xxd=9.2.0602-r0
 
 C:Q1pC2+Fj+pm8PmUGr2aR8YCcjK55k=
 P:yabasic
@@ -336028,36 +336031,36 @@ t:1779712578
 c:baa837f208b877330d6b0dc7fb6aebc40e67d0ef
 i:docs zizmor=1.25.2-r0
 
-C:Q1qzZQj3A4M73AAsnjvFxm0PN6s/k=
+C:Q1C/Tp3DN/PjCLM/TYJmDUEUwv45g=
 P:zk
-V:0.15.4-r1
+V:0.15.5-r0
 A:ppc64le
-S:5152334
-I:14055304
+S:5152241
+I:14055336
 T:Plain text note-taking application with CLI interface
 U:https://github.com/zk-org/zk
 L:GPL-3.0-only
 o:zk
 m:Sören Tempel <soeren+alpine@soeren-tempel.net>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1780927401
+c:ee8a545fb691d025486c03c9eab7a1c811ca8e8b
 D:fzf so:libc.musl-ppc64le.so.1
-p:cmd:zk=0.15.4-r1
+p:cmd:zk=0.15.5-r0
 
-C:Q1kZ71dkYcfQ/LwQkZD7IjfdJKz1Y=
+C:Q1lBVx1NXh7zHw7hcm6FYcBYdhSmw=
 P:zk-doc
-V:0.15.4-r1
+V:0.15.5-r0
 A:ppc64le
-S:449881
-I:1062341
+S:449993
+I:1062663
 T:Plain text note-taking application with CLI interface (documentation)
 U:https://github.com/zk-org/zk
 L:GPL-3.0-only
 o:zk
 m:Sören Tempel <soeren+alpine@soeren-tempel.net>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:docs zk=0.15.4-r1
+t:1780927401
+c:ee8a545fb691d025486c03c9eab7a1c811ca8e8b
+i:docs zk=0.15.5-r0
 
 C:Q1vWs8SkWLXYdixZgvd7wFc48xLjs=
 P:zlevis

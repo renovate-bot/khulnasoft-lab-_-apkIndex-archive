@@ -1248,7 +1248,8 @@
     "acsccid": {
       "origin": "acsccid",
       "versions": {
-        "1.1.13-r0": 1764716835
+        "1.1.13-r0": 1764716835,
+        "1.1.13-r1": 1780922724
       },
       "dependencies": [
         "pcsc-lite",
@@ -1259,7 +1260,8 @@
     "acsccid-udev": {
       "origin": "acsccid",
       "versions": {
-        "1.1.13-r0": 1764716835
+        "1.1.13-r0": 1764716835,
+        "1.1.13-r1": 1780922724
       }
     },
     "act": {
@@ -3633,7 +3635,8 @@
       "origin": "apprise",
       "versions": {
         "1.9.8-r1": 1776051940,
-        "1.10.0-r0": 1779066361
+        "1.10.0-r0": 1779066361,
+        "1.11.0-r0": 1780927465
       },
       "dependencies": [
         "py3-certifi",
@@ -3647,22 +3650,24 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:apprise=1.10.0-r0",
-        "py3.14:apprise=1.10.0-r0"
+        "cmd:apprise=1.11.0-r0",
+        "py3.14:apprise=1.11.0-r0"
       ]
     },
     "apprise-doc": {
       "origin": "apprise",
       "versions": {
         "1.9.8-r1": 1776051940,
-        "1.10.0-r0": 1779066361
+        "1.10.0-r0": 1779066361,
+        "1.11.0-r0": 1780927465
       }
     },
     "apprise-pyc": {
       "origin": "apprise",
       "versions": {
         "1.9.8-r1": 1776051940,
-        "1.10.0-r0": 1779066361
+        "1.10.0-r0": 1779066361,
+        "1.11.0-r0": 1780927465
       },
       "dependencies": [
         "python3~3.14"
@@ -20084,7 +20089,8 @@
     "cargo-tarpaulin": {
       "origin": "cargo-tarpaulin",
       "versions": {
-        "0.35.2-r0": 1771622143
+        "0.35.2-r0": 1771622143,
+        "0.35.4-r0": 1780925095
       },
       "dependencies": [
         "cargo",
@@ -20094,7 +20100,7 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:cargo-tarpaulin=0.35.2-r0"
+        "cmd:cargo-tarpaulin=0.35.4-r0"
       ]
     },
     "cargo2junit": {
@@ -73765,11 +73771,12 @@
         "9.2.0481-r0": 1778807952,
         "9.2.0498-r0": 1779056078,
         "9.2.0514-r0": 1779497738,
-        "9.2.0567-r0": 1780201784
+        "9.2.0567-r0": 1780201784,
+        "9.2.0602-r0": 1780934985
       },
       "dependencies": [
-        "vim-common=9.2.0567-r0",
-        "xxd=9.2.0567-r0",
+        "vim-common=9.2.0602-r0",
+        "xxd=9.2.0602-r0",
         "so:libICE.so.6",
         "so:libSM.so.6",
         "so:libX11.so.6",
@@ -73788,20 +73795,20 @@
         "so:libwayland-client.so.0"
       ],
       "provides": [
-        "vim=9.2.0567-r0",
-        "cmd:eview=9.2.0567-r0",
-        "cmd:evim=9.2.0567-r0",
-        "cmd:ex=9.2.0567-r0",
-        "cmd:gview=9.2.0567-r0",
-        "cmd:gvim=9.2.0567-r0",
-        "cmd:gvimdiff=9.2.0567-r0",
-        "cmd:gvimtutor=9.2.0567-r0",
-        "cmd:rgview=9.2.0567-r0",
-        "cmd:rgvim=9.2.0567-r0",
-        "cmd:rview=9.2.0567-r0",
-        "cmd:rvim=9.2.0567-r0",
-        "cmd:view=9.2.0567-r0",
-        "cmd:vim=9.2.0567-r0"
+        "vim=9.2.0602-r0",
+        "cmd:eview=9.2.0602-r0",
+        "cmd:evim=9.2.0602-r0",
+        "cmd:ex=9.2.0602-r0",
+        "cmd:gview=9.2.0602-r0",
+        "cmd:gvim=9.2.0602-r0",
+        "cmd:gvimdiff=9.2.0602-r0",
+        "cmd:gvimtutor=9.2.0602-r0",
+        "cmd:rgview=9.2.0602-r0",
+        "cmd:rgvim=9.2.0602-r0",
+        "cmd:rview=9.2.0602-r0",
+        "cmd:rvim=9.2.0602-r0",
+        "cmd:view=9.2.0602-r0",
+        "cmd:vim=9.2.0602-r0"
       ]
     },
     "gvm-libs": {
@@ -78484,7 +78491,8 @@
       "origin": "ifstate",
       "versions": {
         "2.2.6-r0": 1777207313,
-        "2.3.0-r0": 1778543650
+        "2.3.0-r0": 1778543650,
+        "2.4.0-r0": 1780927752
       },
       "dependencies": [
         "iproute2",
@@ -78497,23 +78505,25 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:ifstatecli=2.3.0-r0",
-        "py3.14:ifstate=2.3.0-r0",
-        "py3.14:libifstate=2.3.0-r0"
+        "cmd:ifstatecli=2.4.0-r0",
+        "py3.14:ifstate=2.4.0-r0",
+        "py3.14:libifstate=2.4.0-r0"
       ]
     },
     "ifstate-openrc": {
       "origin": "ifstate",
       "versions": {
         "2.2.6-r0": 1777207313,
-        "2.3.0-r0": 1778543650
+        "2.3.0-r0": 1778543650,
+        "2.4.0-r0": 1780927752
       }
     },
     "ifstate-pyc": {
       "origin": "ifstate",
       "versions": {
         "2.2.6-r0": 1777207313,
-        "2.3.0-r0": 1778543650
+        "2.3.0-r0": 1778543650,
+        "2.4.0-r0": 1780927752
       },
       "dependencies": [
         "python3~3.14"
@@ -171868,7 +171878,8 @@
       "origin": "perl-datetime-format-natural",
       "versions": {
         "1.25-r0": 1774382294,
-        "1.26-r0": 1780391220
+        "1.26-r0": 1780391220,
+        "1.27-r0": 1780927697
       },
       "dependencies": [
         "perl",
@@ -171881,14 +171892,15 @@
         "perl-module-util"
       ],
       "provides": [
-        "cmd:dateparse=1.26-r0"
+        "cmd:dateparse=1.27-r0"
       ]
     },
     "perl-datetime-format-natural-doc": {
       "origin": "perl-datetime-format-natural",
       "versions": {
         "1.25-r0": 1774382294,
-        "1.26-r0": 1780391220
+        "1.26-r0": 1780391220,
+        "1.27-r0": 1780927697
       }
     },
     "perl-datetime-format-pg": {
@@ -187533,7 +187545,8 @@
       "versions": {
         "0.5.7-r1": 1775438490,
         "0.5.8-r0": 1778287012,
-        "0.5.9-r0": 1778515159
+        "0.5.9-r0": 1778515159,
+        "0.5.10-r0": 1780922681
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -187541,7 +187554,7 @@
         "so:libsqlite3.so.0"
       ],
       "provides": [
-        "cmd:pimsync=0.5.9-r0"
+        "cmd:pimsync=0.5.10-r0"
       ]
     },
     "pimsync-doc": {
@@ -187549,7 +187562,8 @@
       "versions": {
         "0.5.7-r1": 1775438490,
         "0.5.8-r0": 1778287012,
-        "0.5.9-r0": 1778515159
+        "0.5.9-r0": 1778515159,
+        "0.5.10-r0": 1780922681
       }
     },
     "pimsync-openrc": {
@@ -187557,7 +187571,8 @@
       "versions": {
         "0.5.7-r1": 1775438490,
         "0.5.8-r0": 1778287012,
-        "0.5.9-r0": 1778515159
+        "0.5.9-r0": 1778515159,
+        "0.5.10-r0": 1780922681
       }
     },
     "pimsync-zsh-completion": {
@@ -187565,7 +187580,8 @@
       "versions": {
         "0.5.7-r1": 1775438490,
         "0.5.8-r0": 1778287012,
-        "0.5.9-r0": 1778515159
+        "0.5.9-r0": 1778515159,
+        "0.5.10-r0": 1780922681
       }
     },
     "pinentry-gnome": {
@@ -192840,7 +192856,8 @@
     "postsrsd": {
       "origin": "postsrsd",
       "versions": {
-        "2.0.11-r0": 1744622859
+        "2.0.11-r0": 1744622859,
+        "2.0.12-r0": 1780927896
       },
       "dependencies": [
         "/bin/sh",
@@ -192849,19 +192866,21 @@
         "so:libsqlite3.so.0"
       ],
       "provides": [
-        "cmd:postsrsd=2.0.11-r0"
+        "cmd:postsrsd=2.0.12-r0"
       ]
     },
     "postsrsd-doc": {
       "origin": "postsrsd",
       "versions": {
-        "2.0.11-r0": 1744622859
+        "2.0.11-r0": 1744622859,
+        "2.0.12-r0": 1780927896
       }
     },
     "postsrsd-openrc": {
       "origin": "postsrsd",
       "versions": {
-        "2.0.11-r0": 1744622859
+        "2.0.11-r0": 1744622859,
+        "2.0.12-r0": 1780927896
       }
     },
     "potrace": {
@@ -243632,7 +243651,8 @@
     "roxterm": {
       "origin": "roxterm",
       "versions": {
-        "3.17.2-r1": 1771160091
+        "3.17.2-r1": 1771160091,
+        "3.18.2-r0": 1780927200
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -243649,20 +243669,22 @@
         "so:libvte-2.91.so.0"
       ],
       "provides": [
-        "cmd:roxterm-config=3.17.2-r1",
-        "cmd:roxterm=3.17.2-r1"
+        "cmd:roxterm-config=3.18.2-r0",
+        "cmd:roxterm=3.18.2-r0"
       ]
     },
     "roxterm-doc": {
       "origin": "roxterm",
       "versions": {
-        "3.17.2-r1": 1771160091
+        "3.17.2-r1": 1771160091,
+        "3.18.2-r0": 1780927200
       }
     },
     "roxterm-lang": {
       "origin": "roxterm",
       "versions": {
-        "3.17.2-r1": 1771160091
+        "3.17.2-r1": 1771160091,
+        "3.18.2-r0": 1780927200
       }
     },
     "rpki-client": {
@@ -268840,7 +268862,8 @@
     "usbmuxd": {
       "origin": "usbmuxd",
       "versions": {
-        "1.1.1_git20250201-r10": 1769803041
+        "1.1.1_git20250201-r10": 1769803041,
+        "1.1.1_git20250201-r11": 1780922795
       },
       "dependencies": [
         "/bin/sh",
@@ -268851,19 +268874,21 @@
         "so:libusb-1.0.so.0"
       ],
       "provides": [
-        "cmd:usbmuxd=1.1.1_git20250201-r10"
+        "cmd:usbmuxd=1.1.1_git20250201-r11"
       ]
     },
     "usbmuxd-doc": {
       "origin": "usbmuxd",
       "versions": {
-        "1.1.1_git20250201-r10": 1769803041
+        "1.1.1_git20250201-r10": 1769803041,
+        "1.1.1_git20250201-r11": 1780922795
       }
     },
     "usbmuxd-udev": {
       "origin": "usbmuxd",
       "versions": {
-        "1.1.1_git20250201-r10": 1769803041
+        "1.1.1_git20250201-r10": 1769803041,
+        "1.1.1_git20250201-r11": 1780922795
       }
     },
     "usbredir": {
@@ -270554,20 +270579,21 @@
         "9.2.0481-r0": 1778807952,
         "9.2.0498-r0": 1779056078,
         "9.2.0514-r0": 1779497738,
-        "9.2.0567-r0": 1780201784
+        "9.2.0567-r0": 1780201784,
+        "9.2.0602-r0": 1780934985
       },
       "dependencies": [
-        "vim-common=9.2.0567-r0",
-        "xxd=9.2.0567-r0",
+        "vim-common=9.2.0602-r0",
+        "xxd=9.2.0602-r0",
         "so:libc.musl-s390x.so.1",
         "so:libncursesw.so.6"
       ],
       "provides": [
-        "cmd:ex=9.2.0567-r0",
-        "cmd:rview=9.2.0567-r0",
-        "cmd:rvim=9.2.0567-r0",
-        "cmd:view=9.2.0567-r0",
-        "cmd:vim=9.2.0567-r0"
+        "cmd:ex=9.2.0602-r0",
+        "cmd:rview=9.2.0602-r0",
+        "cmd:rvim=9.2.0602-r0",
+        "cmd:view=9.2.0602-r0",
+        "cmd:vim=9.2.0602-r0"
       ]
     },
     "vim-common": {
@@ -270577,7 +270603,8 @@
         "9.2.0481-r0": 1778807952,
         "9.2.0498-r0": 1779056078,
         "9.2.0514-r0": 1779497738,
-        "9.2.0567-r0": 1780201784
+        "9.2.0567-r0": 1780201784,
+        "9.2.0602-r0": 1780934985
       }
     },
     "vim-doc": {
@@ -270587,7 +270614,8 @@
         "9.2.0481-r0": 1778807952,
         "9.2.0498-r0": 1779056078,
         "9.2.0514-r0": 1779497738,
-        "9.2.0567-r0": 1780201784
+        "9.2.0567-r0": 1780201784,
+        "9.2.0602-r0": 1780934985
       }
     },
     "vim-editorconfig": {
@@ -270630,13 +270658,14 @@
         "9.2.0481-r0": 1778807952,
         "9.2.0498-r0": 1779056078,
         "9.2.0514-r0": 1779497738,
-        "9.2.0567-r0": 1780201784
+        "9.2.0567-r0": 1780201784,
+        "9.2.0602-r0": 1780934985
       },
       "dependencies": [
-        "vim=9.2.0567-r0"
+        "vim=9.2.0602-r0"
       ],
       "provides": [
-        "cmd:vimtutor=9.2.0567-r0"
+        "cmd:vimtutor=9.2.0602-r0"
       ]
     },
     "vimb": {
@@ -270672,14 +270701,15 @@
         "9.2.0481-r0": 1778807952,
         "9.2.0498-r0": 1779056078,
         "9.2.0514-r0": 1779497738,
-        "9.2.0567-r0": 1780201784
+        "9.2.0567-r0": 1780201784,
+        "9.2.0602-r0": 1780934985
       },
       "dependencies": [
         "diffutils",
-        "vim=9.2.0567-r0"
+        "vim=9.2.0602-r0"
       ],
       "provides": [
-        "cmd:vimdiff=9.2.0567-r0"
+        "cmd:vimdiff=9.2.0602-r0"
       ]
     },
     "vimiv": {
@@ -282287,13 +282317,14 @@
         "9.2.0481-r0": 1778807952,
         "9.2.0498-r0": 1779056078,
         "9.2.0514-r0": 1779497738,
-        "9.2.0567-r0": 1780201784
+        "9.2.0567-r0": 1780201784,
+        "9.2.0602-r0": 1780934985
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:xxd=9.2.0567-r0"
+        "cmd:xxd=9.2.0602-r0"
       ]
     },
     "yabasic": {
@@ -284936,21 +284967,23 @@
       "origin": "zk",
       "versions": {
         "0.15.4-r0": 1777904331,
-        "0.15.4-r1": 1778661427
+        "0.15.4-r1": 1778661427,
+        "0.15.5-r0": 1780927401
       },
       "dependencies": [
         "fzf",
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:zk=0.15.4-r1"
+        "cmd:zk=0.15.5-r0"
       ]
     },
     "zk-doc": {
       "origin": "zk",
       "versions": {
         "0.15.4-r0": 1777904331,
-        "0.15.4-r1": 1778661427
+        "0.15.4-r1": 1778661427,
+        "0.15.5-r0": 1780927401
       }
     },
     "zlevis": {
@@ -286108,7 +286141,8 @@
     "py3-joserfc": {
       "origin": "py3-joserfc",
       "versions": {
-        "1.6.7-r0": 1779657355
+        "1.6.7-r0": 1779657355,
+        "1.7.0-r0": 1780927653
       },
       "dependencies": [
         "py3-cryptography",
@@ -286116,13 +286150,14 @@
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:joserfc=1.6.7-r0"
+        "py3.14:joserfc=1.7.0-r0"
       ]
     },
     "py3-joserfc-pyc": {
       "origin": "py3-joserfc",
       "versions": {
-        "1.6.7-r0": 1779657355
+        "1.6.7-r0": 1779657355,
+        "1.7.0-r0": 1780927653
       },
       "dependencies": [
         "python3~3.14"
@@ -286131,62 +286166,68 @@
     "tempo": {
       "origin": "tempo",
       "versions": {
-        "2.10.5-r0": 1779657263
+        "2.10.5-r0": 1779657263,
+        "3.0.0-r0": 1780927534
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:tempo=2.10.5-r0"
+        "cmd:tempo=3.0.0-r0"
       ]
     },
     "tempo-cli": {
       "origin": "tempo",
       "versions": {
-        "2.10.5-r0": 1779657263
+        "2.10.5-r0": 1779657263,
+        "3.0.0-r0": 1780927534
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:tempo-cli=2.10.5-r0"
+        "cmd:tempo-cli=3.0.0-r0"
       ]
     },
     "tempo-openrc": {
       "origin": "tempo",
       "versions": {
-        "2.10.5-r0": 1779657263
+        "2.10.5-r0": 1779657263,
+        "3.0.0-r0": 1780927534
       }
     },
     "tempo-query": {
       "origin": "tempo",
       "versions": {
-        "2.10.5-r0": 1779657263
+        "2.10.5-r0": 1779657263,
+        "3.0.0-r0": 1780927534
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:tempo-query=2.10.5-r0"
+        "cmd:tempo-query=3.0.0-r0"
       ]
     },
     "tempo-vulture": {
       "origin": "tempo",
       "versions": {
-        "2.10.5-r0": 1779657263
+        "2.10.5-r0": 1779657263,
+        "3.0.0-r0": 1780927534
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:tempo-vulture=2.10.5-r0"
+        "cmd:tempo-vulture=3.0.0-r0"
       ]
     },
     "tempo-vulture-openrc": {
       "origin": "tempo",
       "versions": {
-        "2.10.5-r0": 1779657263
+        "2.10.5-r0": 1779657263,
+        "3.0.0-r0": 1780927534
       }
     },
     "unudhcpd-openrc": {
@@ -306094,7 +306135,7 @@
       },
       "vim": {
         "package": "gvim",
-        "version": "9.2.0567-r0"
+        "version": "9.2.0602-r0"
       },
       "haproxy-dataplaneapi": {
         "package": "haproxy-dataplaneapi3",
