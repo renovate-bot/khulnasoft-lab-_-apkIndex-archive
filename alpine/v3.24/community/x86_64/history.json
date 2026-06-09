@@ -21415,7 +21415,8 @@
     "c-dvar": {
       "origin": "c-dvar",
       "versions": {
-        "1.1.0-r0": 1746823694
+        "1.1.0-r0": 1746823694,
+        "1.2.0-r0": 1781027237
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -21428,16 +21429,17 @@
     "c-dvar-dev": {
       "origin": "c-dvar",
       "versions": {
-        "1.1.0-r0": 1746823694
+        "1.1.0-r0": 1746823694,
+        "1.2.0-r0": 1781027237
       },
       "dependencies": [
-        "c-dvar=1.1.0-r0",
+        "c-dvar=1.2.0-r0",
         "pc:libcstdaux-1>=1.5.0",
         "pc:libcutf8-1",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libcdvar-1=1.1.0"
+        "pc:libcdvar-1=1.2.0"
       ]
     },
     "c-ini": {
@@ -21543,19 +21545,21 @@
     "c-stdaux": {
       "origin": "c-stdaux",
       "versions": {
-        "1.5.0-r0": 1746823694
+        "1.5.0-r0": 1746823694,
+        "1.6.0-r0": 1781027237
       }
     },
     "c-stdaux-dev": {
       "origin": "c-stdaux",
       "versions": {
-        "1.5.0-r0": 1746823694
+        "1.5.0-r0": 1746823694,
+        "1.6.0-r0": 1781027237
       },
       "dependencies": [
         "pkgconfig"
       ],
       "provides": [
-        "pc:libcstdaux-1=1.5.0"
+        "pc:libcstdaux-1=1.6.0"
       ]
     },
     "c-utf8": {
@@ -37487,7 +37491,8 @@
     "diff-pdf": {
       "origin": "diff-pdf",
       "versions": {
-        "0.5.2-r0": 1745880348
+        "0.5.2-r0": 1745880348,
+        "0.5.3-r0": 1781027238
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -37501,7 +37506,7 @@
         "so:libwx_gtk3u_core-3.2.so.0"
       ],
       "provides": [
-        "cmd:diff-pdf=0.5.2-r0"
+        "cmd:diff-pdf=0.5.3-r0"
       ]
     },
     "diffoscope": {
@@ -90206,43 +90211,47 @@
     "hwinfo": {
       "origin": "hwinfo",
       "versions": {
-        "25.0-r0": 1764600135
+        "25.0-r0": 1764600135,
+        "25.4-r0": 1781027238
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
         "so:libhd.so.25"
       ],
       "provides": [
-        "cmd:check_hd=25.0-r0",
-        "cmd:convert_hd=25.0-r0",
-        "cmd:getsysinfo=25.0-r0",
-        "cmd:hwinfo=25.0-r0",
-        "cmd:mk_isdnhwdb=25.0-r0"
+        "cmd:check_hd=25.4-r0",
+        "cmd:convert_hd=25.4-r0",
+        "cmd:getsysinfo=25.4-r0",
+        "cmd:hwinfo=25.4-r0",
+        "cmd:mk_isdnhwdb=25.4-r0"
       ]
     },
     "hwinfo-dev": {
       "origin": "hwinfo",
       "versions": {
-        "25.0-r0": 1764600135
+        "25.0-r0": 1764600135,
+        "25.4-r0": 1781027238
       },
       "dependencies": [
-        "hwinfo-libs=25.0-r0",
+        "hwinfo-libs=25.4-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:hwinfo=25.0"
+        "pc:hwinfo=25.4"
       ]
     },
     "hwinfo-doc": {
       "origin": "hwinfo",
       "versions": {
-        "25.0-r0": 1764600135
+        "25.0-r0": 1764600135,
+        "25.4-r0": 1781027238
       }
     },
     "hwinfo-libs": {
       "origin": "hwinfo",
       "versions": {
-        "25.0-r0": 1764600135
+        "25.0-r0": 1764600135,
+        "25.4-r0": 1781027238
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -90250,7 +90259,7 @@
         "so:libx86emu.so.3"
       ],
       "provides": [
-        "so:libhd.so.25=25.0"
+        "so:libhd.so.25=25.4"
       ]
     },
     "hy": {
@@ -208017,7 +208026,8 @@
     "php83-pecl-xdebug": {
       "origin": "php83-pecl-xdebug",
       "versions": {
-        "3.5.1-r0": 1770134531
+        "3.5.1-r0": 1770134531,
+        "3.5.3-r0": 1781029488
       },
       "dependencies": [
         "php83-common",
@@ -208025,7 +208035,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "php83-xdebug=3.5.1-r0"
+        "php83-xdebug=3.5.3-r0"
       ]
     },
     "php83-pecl-xhprof": {
@@ -209619,7 +209629,8 @@
     "php84-pecl-xdebug": {
       "origin": "php84-pecl-xdebug",
       "versions": {
-        "3.5.1-r0": 1770134545
+        "3.5.1-r0": 1770134545,
+        "3.5.3-r0": 1781029488
       },
       "dependencies": [
         "php84-common",
@@ -209627,7 +209638,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "php84-xdebug=3.5.1-r0"
+        "php84-xdebug=3.5.3-r0"
       ]
     },
     "php84-pecl-xhprof": {
@@ -211219,7 +211230,8 @@
     "php85-pecl-xdebug": {
       "origin": "php85-pecl-xdebug",
       "versions": {
-        "3.5.1-r0": 1770134558
+        "3.5.1-r0": 1770134558,
+        "3.5.3-r0": 1781029488
       },
       "dependencies": [
         "php85-common",
@@ -211227,7 +211239,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "php85-xdebug=3.5.1-r0"
+        "php85-xdebug=3.5.3-r0"
       ]
     },
     "php85-pecl-xhprof": {
@@ -217384,10 +217396,11 @@
     "postgresql-pg_graphql": {
       "origin": "postgresql-pg_graphql",
       "versions": {
-        "1.5.12-r0": 1777882980
+        "1.5.12-r0": 1777882980,
+        "1.6.1-r0": 1781027237
       },
       "dependencies": [
-        "postgresql17",
+        "postgresql18",
         "so:libc.musl-x86_64.so.1",
         "so:libgcc_s.so.1"
       ]
@@ -273227,7 +273240,8 @@
     "ruby-http_parser.rb": {
       "origin": "ruby-http_parser.rb",
       "versions": {
-        "0.8.0-r4": 1745356767
+        "0.8.0-r4": 1745356767,
+        "0.8.1-r0": 1781027237
       },
       "dependencies": [
         "ruby",
@@ -273328,14 +273342,15 @@
     "ruby-kramdown": {
       "origin": "ruby-kramdown",
       "versions": {
-        "2.5.1-r2": 1745356770
+        "2.5.1-r2": 1745356770,
+        "2.5.2-r0": 1781027238
       },
       "dependencies": [
         "ruby",
         "ruby-rexml"
       ],
       "provides": [
-        "cmd:kramdown=2.5.1-r2"
+        "cmd:kramdown=2.5.2-r0"
       ]
     },
     "ruby-kramdown-parser-gfm": {
@@ -273443,7 +273458,8 @@
     "ruby-mini_portile2": {
       "origin": "ruby-mini_portile2",
       "versions": {
-        "2.8.8-r0": 1745356769
+        "2.8.8-r0": 1745356769,
+        "2.8.9-r0": 1781027238
       },
       "dependencies": [
         "ruby"
@@ -273480,7 +273496,8 @@
     "ruby-mustache": {
       "origin": "ruby-mustache",
       "versions": {
-        "1.1.1-r8": 1745356767
+        "1.1.1-r8": 1745356767,
+        "1.1.2-r0": 1781027238
       },
       "dependencies": [
         "ruby"
@@ -273634,7 +273651,8 @@
     "ruby-pkg-config": {
       "origin": "ruby-pkg-config",
       "versions": {
-        "1.6.1-r0": 1745619531
+        "1.6.1-r0": 1745619531,
+        "1.6.5-r0": 1781027237
       },
       "dependencies": [
         "ruby"
@@ -318291,7 +318309,8 @@
     "zigbee2mqtt": {
       "origin": "zigbee2mqtt",
       "versions": {
-        "2.9.2-r0": 1775142251
+        "2.9.2-r0": 1775142251,
+        "2.11.0-r0": 1781027237
       },
       "dependencies": [
         "nodejs",
@@ -318301,22 +318320,24 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:zigbee2mqtt=2.9.2-r0"
+        "cmd:zigbee2mqtt=2.11.0-r0"
       ]
     },
     "zigbee2mqtt-dbg": {
       "origin": "zigbee2mqtt",
       "versions": {
-        "2.9.2-r0": 1775142251
+        "2.9.2-r0": 1775142251,
+        "2.11.0-r0": 1781027237
       },
       "dependencies": [
-        "zigbee2mqtt=2.9.2-r0"
+        "zigbee2mqtt=2.11.0-r0"
       ]
     },
     "zigbee2mqtt-openrc": {
       "origin": "zigbee2mqtt",
       "versions": {
-        "2.9.2-r0": 1775142251
+        "2.9.2-r0": 1775142251,
+        "2.11.0-r0": 1781027237
       }
     },
     "zim": {
@@ -331760,7 +331781,7 @@
       },
       "libhd.so.25": {
         "package": "hwinfo-libs",
-        "version": "25.0"
+        "version": "25.4"
       },
       "libhydrogen-core-1.2.6.so": {
         "package": "hydrogen",
@@ -348382,7 +348403,7 @@
       },
       "php83-xdebug": {
         "package": "php83-pecl-xdebug",
-        "version": "3.5.1-r0"
+        "version": "3.5.3-r0"
       },
       "php83-xhprof": {
         "package": "php83-pecl-xhprof",
@@ -348522,7 +348543,7 @@
       },
       "php84-xdebug": {
         "package": "php84-pecl-xdebug",
-        "version": "3.5.1-r0"
+        "version": "3.5.3-r0"
       },
       "php84-xhprof": {
         "package": "php84-pecl-xhprof",
@@ -348570,7 +348591,7 @@
       },
       "php85-xdebug": {
         "package": "php85-pecl-xdebug",
-        "version": "3.5.1-r0"
+        "version": "3.5.3-r0"
       },
       "php85-xhprof": {
         "package": "php85-pecl-xhprof",
