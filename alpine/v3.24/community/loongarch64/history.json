@@ -62451,32 +62451,35 @@
     "gitlab-runner": {
       "origin": "gitlab-runner",
       "versions": {
-        "18.11.2-r1": 1778661427
+        "18.11.2-r1": 1778661427,
+        "19.0.1-r0": 1780999457
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-loongarch64.so.1"
       ],
       "provides": [
-        "cmd:gitlab-runner=18.11.2-r1"
+        "cmd:gitlab-runner=19.0.1-r0"
       ]
     },
     "gitlab-runner-helper": {
       "origin": "gitlab-runner",
       "versions": {
-        "18.11.2-r1": 1778661427
+        "18.11.2-r1": 1778661427,
+        "19.0.1-r0": 1780999457
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1"
       ],
       "provides": [
-        "cmd:gitlab-runner-helper=18.11.2-r1"
+        "cmd:gitlab-runner-helper=19.0.1-r0"
       ]
     },
     "gitlab-runner-openrc": {
       "origin": "gitlab-runner",
       "versions": {
-        "18.11.2-r1": 1778661427
+        "18.11.2-r1": 1778661427,
+        "19.0.1-r0": 1780999457
       }
     },
     "gitlint": {
@@ -130944,40 +130947,42 @@
     "llama-server": {
       "origin": "llama.cpp",
       "versions": {
-        "0.0.9006-r0": 1777872529
+        "0.0.9006-r0": 1777872529,
+        "0.0.9564-r0": 1781006729
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
         "so:libgcc_s.so.1",
         "so:libstdc++.so.6",
-        "so:llama.cpp:libggml-base.so.0",
-        "so:llama.cpp:libllama-common.so.0",
-        "so:llama.cpp:libllama.so.0",
-        "so:llama.cpp:libmtmd.so.0"
+        "so:llama.cpp:libllama-server-impl.so"
       ],
       "provides": [
-        "cmd:llama-server=0.0.9006-r0"
+        "cmd:llama-server=0.0.9564-r0"
       ]
     },
     "llama-server-openrc": {
       "origin": "llama.cpp",
       "versions": {
-        "0.0.9006-r0": 1777872529
+        "0.0.9006-r0": 1777872529,
+        "0.0.9564-r0": 1781006729
       },
       "dependencies": [
-        "llama-server=0.0.9006-r0",
+        "llama-server=0.0.9564-r0",
         "openrc"
       ]
     },
     "llama.cpp": {
       "origin": "llama.cpp",
       "versions": {
-        "0.0.9006-r0": 1777872529
+        "0.0.9006-r0": 1777872529,
+        "0.0.9564-r0": 1781006729
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-loongarch64.so.1",
+        "so:libcrypto.so.3",
         "so:libgcc_s.so.1",
+        "so:libssl.so.3",
         "so:libstdc++.so.6",
         "so:llama.cpp:libggml-base.so.0",
         "so:llama.cpp:libggml.so.0",
@@ -130986,33 +130991,44 @@
         "so:llama.cpp:libmtmd.so.0"
       ],
       "provides": [
-        "cmd:export-graph-ops=0.0.9006-r0",
-        "cmd:llama-bench=0.0.9006-r0",
-        "cmd:llama-cli=0.0.9006-r0",
-        "cmd:llama-debug-template-parser=0.0.9006-r0",
-        "cmd:llama-results=0.0.9006-r0",
-        "cmd:llama-simple-chat=0.0.9006-r0",
-        "cmd:llama-template-analysis=0.0.9006-r0",
-        "cmd:llama-tts=0.0.9006-r0"
+        "cmd:export-graph-ops=0.0.9564-r0",
+        "cmd:llama-bench=0.0.9564-r0",
+        "cmd:llama-cli=0.0.9564-r0",
+        "cmd:llama-debug-template-parser=0.0.9564-r0",
+        "cmd:llama-results=0.0.9564-r0",
+        "cmd:llama-simple-chat=0.0.9564-r0",
+        "cmd:llama-template-analysis=0.0.9564-r0",
+        "cmd:llama-tts=0.0.9564-r0",
+        "cmd:llama=0.0.9564-r0",
+        "so:llama.cpp:libllama-batched-bench-impl.so=0",
+        "so:llama.cpp:libllama-bench-impl.so=0",
+        "so:llama.cpp:libllama-cli-impl.so=0",
+        "so:llama.cpp:libllama-completion-impl.so=0",
+        "so:llama.cpp:libllama-fit-params-impl.so=0",
+        "so:llama.cpp:libllama-perplexity-impl.so=0",
+        "so:llama.cpp:libllama-quantize-impl.so=0",
+        "so:llama.cpp:libllama-server-impl.so=0"
       ]
     },
     "llama.cpp-dev": {
       "origin": "llama.cpp",
       "versions": {
-        "0.0.9006-r0": 1777872529
+        "0.0.9006-r0": 1777872529,
+        "0.0.9564-r0": 1781006729
       },
       "dependencies": [
-        "llama.cpp-libs=0.0.9006-r0",
+        "llama.cpp-libs=0.0.9564-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:llama=0.0.9006"
+        "pc:llama=0.0.9564"
       ]
     },
     "llama.cpp-extras": {
       "origin": "llama.cpp",
       "versions": {
-        "0.0.9006-r0": 1777872529
+        "0.0.9006-r0": 1777872529,
+        "0.0.9564-r0": 1781006729
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -131020,49 +131036,54 @@
         "so:libstdc++.so.6",
         "so:llama.cpp:libggml-base.so.0",
         "so:llama.cpp:libggml.so.0",
+        "so:llama.cpp:libllama-batched-bench-impl.so",
         "so:llama.cpp:libllama-common.so.0",
+        "so:llama.cpp:libllama-completion-impl.so",
+        "so:llama.cpp:libllama-fit-params-impl.so",
+        "so:llama.cpp:libllama-perplexity-impl.so",
+        "so:llama.cpp:libllama-quantize-impl.so",
         "so:llama.cpp:libllama.so.0",
         "so:llama.cpp:libmtmd.so.0"
       ],
       "provides": [
-        "cmd:llama-batched-bench=0.0.9006-r0",
-        "cmd:llama-batched=0.0.9006-r0",
-        "cmd:llama-completion=0.0.9006-r0",
-        "cmd:llama-debug=0.0.9006-r0",
-        "cmd:llama-diffusion-cli=0.0.9006-r0",
-        "cmd:llama-embedding=0.0.9006-r0",
-        "cmd:llama-eval-callback=0.0.9006-r0",
-        "cmd:llama-finetune=0.0.9006-r0",
-        "cmd:llama-fit-params=0.0.9006-r0",
-        "cmd:llama-gen-docs=0.0.9006-r0",
-        "cmd:llama-gguf-hash=0.0.9006-r0",
-        "cmd:llama-gguf-split=0.0.9006-r0",
-        "cmd:llama-gguf=0.0.9006-r0",
-        "cmd:llama-idle=0.0.9006-r0",
-        "cmd:llama-imatrix=0.0.9006-r0",
-        "cmd:llama-lookahead=0.0.9006-r0",
-        "cmd:llama-lookup-create=0.0.9006-r0",
-        "cmd:llama-lookup-merge=0.0.9006-r0",
-        "cmd:llama-lookup-stats=0.0.9006-r0",
-        "cmd:llama-lookup=0.0.9006-r0",
-        "cmd:llama-mtmd-cli=0.0.9006-r0",
-        "cmd:llama-parallel=0.0.9006-r0",
-        "cmd:llama-passkey=0.0.9006-r0",
-        "cmd:llama-perplexity=0.0.9006-r0",
-        "cmd:llama-quantize=0.0.9006-r0",
-        "cmd:llama-retrieval=0.0.9006-r0",
-        "cmd:llama-save-load-state=0.0.9006-r0",
-        "cmd:llama-simple=0.0.9006-r0",
-        "cmd:llama-speculative-simple=0.0.9006-r0",
-        "cmd:llama-speculative=0.0.9006-r0",
-        "cmd:llama-tokenize=0.0.9006-r0",
-        "cmd:rpc-server=0.0.9006-r0"
+        "cmd:llama-batched-bench=0.0.9564-r0",
+        "cmd:llama-batched=0.0.9564-r0",
+        "cmd:llama-completion=0.0.9564-r0",
+        "cmd:llama-debug=0.0.9564-r0",
+        "cmd:llama-diffusion-cli=0.0.9564-r0",
+        "cmd:llama-embedding=0.0.9564-r0",
+        "cmd:llama-eval-callback=0.0.9564-r0",
+        "cmd:llama-finetune=0.0.9564-r0",
+        "cmd:llama-fit-params=0.0.9564-r0",
+        "cmd:llama-gen-docs=0.0.9564-r0",
+        "cmd:llama-gguf-hash=0.0.9564-r0",
+        "cmd:llama-gguf-split=0.0.9564-r0",
+        "cmd:llama-gguf=0.0.9564-r0",
+        "cmd:llama-idle=0.0.9564-r0",
+        "cmd:llama-imatrix=0.0.9564-r0",
+        "cmd:llama-lookahead=0.0.9564-r0",
+        "cmd:llama-lookup-create=0.0.9564-r0",
+        "cmd:llama-lookup-merge=0.0.9564-r0",
+        "cmd:llama-lookup-stats=0.0.9564-r0",
+        "cmd:llama-lookup=0.0.9564-r0",
+        "cmd:llama-mtmd-cli=0.0.9564-r0",
+        "cmd:llama-parallel=0.0.9564-r0",
+        "cmd:llama-passkey=0.0.9564-r0",
+        "cmd:llama-perplexity=0.0.9564-r0",
+        "cmd:llama-quantize=0.0.9564-r0",
+        "cmd:llama-retrieval=0.0.9564-r0",
+        "cmd:llama-simple=0.0.9564-r0",
+        "cmd:llama-speculative-simple=0.0.9564-r0",
+        "cmd:llama-speculative=0.0.9564-r0",
+        "cmd:llama-tokenize=0.0.9564-r0",
+        "cmd:rpc-server=0.0.9564-r0"
       ]
     },
     "llama.cpp-libs": {
       "origin": "llama.cpp",
       "versions": {
-        "0.0.9006-r0": 1777872529
+        "0.0.9006-r0": 1777872529,
+        "0.0.9564-r0": 1781006729
       },
       "dependencies": [
         "openblas",
@@ -131074,20 +131095,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:llama.cpp:libggml-base.so.0=0.10.2",
+        "so:llama.cpp:libggml-base.so.0=0.14.0",
         "so:llama.cpp:libggml-blas.so=0",
         "so:llama.cpp:libggml-cpu.so=0",
         "so:llama.cpp:libggml-rpc.so=0",
-        "so:llama.cpp:libggml.so.0=0.10.2",
-        "so:llama.cpp:libllama-common.so.0=0.0.9006",
-        "so:llama.cpp:libllama.so.0=0.0.9006",
-        "so:llama.cpp:libmtmd.so.0=0.0.9006"
+        "so:llama.cpp:libggml.so.0=0.14.0",
+        "so:llama.cpp:libllama-common.so.0=0.0.9564",
+        "so:llama.cpp:libllama.so.0=0.0.9564",
+        "so:llama.cpp:libmtmd.so.0=0.0.9564"
       ]
     },
     "llama.cpp-vulkan": {
       "origin": "llama.cpp",
       "versions": {
-        "0.0.9006-r0": 1777872529
+        "0.0.9006-r0": 1777872529,
+        "0.0.9564-r0": 1781006729
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -242639,7 +242661,8 @@
       "versions": {
         "2026.05.18-r0": 1779108183,
         "2026.05.25-r0": 1779706291,
-        "2026.06.01-r0": 1780771216
+        "2026.06.01-r0": 1780771216,
+        "2026.06.08-r0": 1781004699
       },
       "dependencies": [
         "rust-src",
@@ -242648,7 +242671,7 @@
         "so:libmimalloc-secure.so.2"
       ],
       "provides": [
-        "cmd:rust-analyzer=2026.06.01-r0"
+        "cmd:rust-analyzer=2026.06.08-r0"
       ]
     },
     "rustlings": {
@@ -256323,7 +256346,8 @@
     "tailscale": {
       "origin": "tailscale",
       "versions": {
-        "1.96.5-r1": 1778661427
+        "1.96.5-r1": 1778661427,
+        "1.98.5-r0": 1781000815
       },
       "dependencies": [
         "cmd:resolvconf",
@@ -256331,44 +256355,50 @@
         "so:libc.musl-loongarch64.so.1"
       ],
       "provides": [
-        "cmd:tailscale=1.96.5-r1",
-        "cmd:tailscaled=1.96.5-r1"
+        "cmd:tailscale=1.98.5-r0",
+        "cmd:tailscaled=1.98.5-r0"
       ]
     },
     "tailscale-bash-completion": {
       "origin": "tailscale",
       "versions": {
-        "1.96.5-r1": 1778661427
+        "1.96.5-r1": 1778661427,
+        "1.98.5-r0": 1781000815
       }
     },
     "tailscale-doc": {
       "origin": "tailscale",
       "versions": {
-        "1.96.5-r1": 1778661427
+        "1.96.5-r1": 1778661427,
+        "1.98.5-r0": 1781000815
       }
     },
     "tailscale-fish-completion": {
       "origin": "tailscale",
       "versions": {
-        "1.96.5-r1": 1778661427
+        "1.96.5-r1": 1778661427,
+        "1.98.5-r0": 1781000815
       }
     },
     "tailscale-openrc": {
       "origin": "tailscale",
       "versions": {
-        "1.96.5-r1": 1778661427
+        "1.96.5-r1": 1778661427,
+        "1.98.5-r0": 1781000815
       }
     },
     "tailscale-systemd": {
       "origin": "tailscale",
       "versions": {
-        "1.96.5-r1": 1778661427
+        "1.96.5-r1": 1778661427,
+        "1.98.5-r0": 1781000815
       }
     },
     "tailscale-zsh-completion": {
       "origin": "tailscale",
       "versions": {
-        "1.96.5-r1": 1778661427
+        "1.96.5-r1": 1778661427,
+        "1.98.5-r0": 1781000815
       }
     },
     "tango-icon-theme": {
@@ -284657,67 +284687,73 @@
       "origin": "tempo",
       "versions": {
         "2.10.5-r0": 1779657263,
-        "3.0.0-r0": 1780927534
+        "3.0.0-r0": 1780927534,
+        "3.0.1-r0": 1781004255
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-loongarch64.so.1"
       ],
       "provides": [
-        "cmd:tempo=3.0.0-r0"
+        "cmd:tempo=3.0.1-r0"
       ]
     },
     "tempo-cli": {
       "origin": "tempo",
       "versions": {
         "2.10.5-r0": 1779657263,
-        "3.0.0-r0": 1780927534
+        "3.0.0-r0": 1780927534,
+        "3.0.1-r0": 1781004255
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1"
       ],
       "provides": [
-        "cmd:tempo-cli=3.0.0-r0"
+        "cmd:tempo-cli=3.0.1-r0"
       ]
     },
     "tempo-openrc": {
       "origin": "tempo",
       "versions": {
         "2.10.5-r0": 1779657263,
-        "3.0.0-r0": 1780927534
+        "3.0.0-r0": 1780927534,
+        "3.0.1-r0": 1781004255
       }
     },
     "tempo-query": {
       "origin": "tempo",
       "versions": {
         "2.10.5-r0": 1779657263,
-        "3.0.0-r0": 1780927534
+        "3.0.0-r0": 1780927534,
+        "3.0.1-r0": 1781004255
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1"
       ],
       "provides": [
-        "cmd:tempo-query=3.0.0-r0"
+        "cmd:tempo-query=3.0.1-r0"
       ]
     },
     "tempo-vulture": {
       "origin": "tempo",
       "versions": {
         "2.10.5-r0": 1779657263,
-        "3.0.0-r0": 1780927534
+        "3.0.0-r0": 1780927534,
+        "3.0.1-r0": 1781004255
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1"
       ],
       "provides": [
-        "cmd:tempo-vulture=3.0.0-r0"
+        "cmd:tempo-vulture=3.0.1-r0"
       ]
     },
     "tempo-vulture-openrc": {
       "origin": "tempo",
       "versions": {
         "2.10.5-r0": 1779657263,
-        "3.0.0-r0": 1780927534
+        "3.0.0-r0": 1780927534,
+        "3.0.1-r0": 1781004255
       }
     },
     "unudhcpd-openrc": {
@@ -301581,7 +301617,7 @@
       },
       "llama.cpp:libggml-base.so.0": {
         "package": "llama.cpp-libs",
-        "version": "0.10.2"
+        "version": "0.14.0"
       },
       "llama.cpp:libggml-blas.so": {
         "package": "llama.cpp-libs",
@@ -301597,19 +301633,19 @@
       },
       "llama.cpp:libggml.so.0": {
         "package": "llama.cpp-libs",
-        "version": "0.10.2"
+        "version": "0.14.0"
       },
       "llama.cpp:libllama-common.so.0": {
         "package": "llama.cpp-libs",
-        "version": "0.0.9006"
+        "version": "0.0.9564"
       },
       "llama.cpp:libllama.so.0": {
         "package": "llama.cpp-libs",
-        "version": "0.0.9006"
+        "version": "0.0.9564"
       },
       "llama.cpp:libmtmd.so.0": {
         "package": "llama.cpp-libs",
-        "version": "0.0.9006"
+        "version": "0.0.9564"
       },
       "llama.cpp:libggml-vulkan.so": {
         "package": "llama.cpp-vulkan",
@@ -310010,6 +310046,38 @@
       "libbge.so.0": {
         "package": "bazaar",
         "version": "0.8.3"
+      },
+      "llama.cpp:libllama-batched-bench-impl.so": {
+        "package": "llama.cpp",
+        "version": "0"
+      },
+      "llama.cpp:libllama-bench-impl.so": {
+        "package": "llama.cpp",
+        "version": "0"
+      },
+      "llama.cpp:libllama-cli-impl.so": {
+        "package": "llama.cpp",
+        "version": "0"
+      },
+      "llama.cpp:libllama-completion-impl.so": {
+        "package": "llama.cpp",
+        "version": "0"
+      },
+      "llama.cpp:libllama-fit-params-impl.so": {
+        "package": "llama.cpp",
+        "version": "0"
+      },
+      "llama.cpp:libllama-perplexity-impl.so": {
+        "package": "llama.cpp",
+        "version": "0"
+      },
+      "llama.cpp:libllama-quantize-impl.so": {
+        "package": "llama.cpp",
+        "version": "0"
+      },
+      "llama.cpp:libllama-server-impl.so": {
+        "package": "llama.cpp",
+        "version": "0"
       }
     },
     "package": {

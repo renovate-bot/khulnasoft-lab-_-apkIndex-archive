@@ -57663,32 +57663,35 @@
     "gitlab-runner": {
       "origin": "gitlab-runner",
       "versions": {
-        "18.11.2-r1": 1778661427
+        "18.11.2-r1": 1778661427,
+        "19.0.1-r0": 1780999457
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:gitlab-runner=18.11.2-r1"
+        "cmd:gitlab-runner=19.0.1-r0"
       ]
     },
     "gitlab-runner-helper": {
       "origin": "gitlab-runner",
       "versions": {
-        "18.11.2-r1": 1778661427
+        "18.11.2-r1": 1778661427,
+        "19.0.1-r0": 1780999457
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:gitlab-runner-helper=18.11.2-r1"
+        "cmd:gitlab-runner-helper=19.0.1-r0"
       ]
     },
     "gitlab-runner-openrc": {
       "origin": "gitlab-runner",
       "versions": {
-        "18.11.2-r1": 1778661427
+        "18.11.2-r1": 1778661427,
+        "19.0.1-r0": 1780999457
       }
     },
     "gitlint": {
@@ -85665,7 +85668,8 @@
     "jellyfin": {
       "origin": "jellyfin",
       "versions": {
-        "10.11.8-r0": 1775472163
+        "10.11.8-r0": 1775472163,
+        "10.11.11-r0": 1780998424
       },
       "dependencies": [
         "aspnetcore9-runtime",
@@ -85678,7 +85682,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:jellyfin=10.11.8-r0"
+        "cmd:jellyfin=10.11.11-r0"
       ]
     },
     "jellyfin-ffmpeg": {
@@ -85753,7 +85757,8 @@
     "jellyfin-openrc": {
       "origin": "jellyfin",
       "versions": {
-        "10.11.8-r0": 1775472163
+        "10.11.8-r0": 1775472163,
+        "10.11.11-r0": 1780998424
       }
     },
     "jetty-runner": {
@@ -252115,7 +252120,8 @@
       "versions": {
         "2026.05.18-r0": 1779108183,
         "2026.05.25-r0": 1779706291,
-        "2026.06.01-r0": 1780771216
+        "2026.06.01-r0": 1780771216,
+        "2026.06.08-r0": 1781004699
       },
       "dependencies": [
         "rust-src",
@@ -252124,7 +252130,7 @@
         "so:libmimalloc-secure.so.2"
       ],
       "provides": [
-        "cmd:rust-analyzer=2026.06.01-r0"
+        "cmd:rust-analyzer=2026.06.08-r0"
       ]
     },
     "rustlings": {
@@ -265828,7 +265834,8 @@
     "tailscale": {
       "origin": "tailscale",
       "versions": {
-        "1.96.5-r1": 1778661427
+        "1.96.5-r1": 1778661427,
+        "1.98.5-r0": 1781000815
       },
       "dependencies": [
         "cmd:resolvconf",
@@ -265836,44 +265843,50 @@
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:tailscale=1.96.5-r1",
-        "cmd:tailscaled=1.96.5-r1"
+        "cmd:tailscale=1.98.5-r0",
+        "cmd:tailscaled=1.98.5-r0"
       ]
     },
     "tailscale-bash-completion": {
       "origin": "tailscale",
       "versions": {
-        "1.96.5-r1": 1778661427
+        "1.96.5-r1": 1778661427,
+        "1.98.5-r0": 1781000815
       }
     },
     "tailscale-doc": {
       "origin": "tailscale",
       "versions": {
-        "1.96.5-r1": 1778661427
+        "1.96.5-r1": 1778661427,
+        "1.98.5-r0": 1781000815
       }
     },
     "tailscale-fish-completion": {
       "origin": "tailscale",
       "versions": {
-        "1.96.5-r1": 1778661427
+        "1.96.5-r1": 1778661427,
+        "1.98.5-r0": 1781000815
       }
     },
     "tailscale-openrc": {
       "origin": "tailscale",
       "versions": {
-        "1.96.5-r1": 1778661427
+        "1.96.5-r1": 1778661427,
+        "1.98.5-r0": 1781000815
       }
     },
     "tailscale-systemd": {
       "origin": "tailscale",
       "versions": {
-        "1.96.5-r1": 1778661427
+        "1.96.5-r1": 1778661427,
+        "1.98.5-r0": 1781000815
       }
     },
     "tailscale-zsh-completion": {
       "origin": "tailscale",
       "versions": {
-        "1.96.5-r1": 1778661427
+        "1.96.5-r1": 1778661427,
+        "1.98.5-r0": 1781000815
       }
     },
     "tangara-companion": {
@@ -276150,7 +276163,8 @@
     "upx": {
       "origin": "upx",
       "versions": {
-        "5.1.1-r0": 1773175332
+        "5.1.1-r0": 1773175332,
+        "5.2.0-r0": 1781004106
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -276158,13 +276172,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:upx=5.1.1-r0"
+        "cmd:upx=5.2.0-r0"
       ]
     },
     "upx-doc": {
       "origin": "upx",
       "versions": {
-        "5.1.1-r0": 1773175332
+        "5.1.1-r0": 1773175332,
+        "5.2.0-r0": 1781004106
       }
     },
     "urfkill": {

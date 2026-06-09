@@ -69832,52 +69832,52 @@ t:1778661427
 c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
 i:docs gitlab-release-cli=0.24.0-r10
 
-C:Q1aKU2z1sy7jsb5Lx4f4IHgaFsCys=
+C:Q1s0cQvogtthmBzsEaHHH5o/OzHQU=
 P:gitlab-runner
-V:18.11.2-r1
+V:19.0.1-r0
 A:loongarch64
-S:31074741
-I:114480532
+S:31567956
+I:116003188
 T:GitLab runner for CI/CD jobs
 U:https://docs.gitlab.com/runner/
 L:MIT
 o:gitlab-runner
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1780999457
+c:285486af53f45f93d0b4e48aeaa154d089f83602
 D:/bin/sh so:libc.musl-loongarch64.so.1
-p:cmd:gitlab-runner=18.11.2-r1
+p:cmd:gitlab-runner=19.0.1-r0
 
-C:Q1MHTWR74Bdv/m3ITkMgupeOPbYUs=
+C:Q1AC5FN3FiOcRUw8013UOylNJMiRY=
 P:gitlab-runner-helper
-V:18.11.2-r1
+V:19.0.1-r0
 A:loongarch64
-S:15578191
-I:50608464
+S:15857958
+I:51406576
 T:GitLab runner for CI/CD jobs (helper)
 U:https://docs.gitlab.com/runner/
 L:MIT
 o:gitlab-runner
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1780999457
+c:285486af53f45f93d0b4e48aeaa154d089f83602
 D:so:libc.musl-loongarch64.so.1
-p:cmd:gitlab-runner-helper=18.11.2-r1
+p:cmd:gitlab-runner-helper=19.0.1-r0
 
-C:Q1JJtD6acqaMj65Z8mWwZoSd77yS0=
+C:Q1iAJWrCx3BL3Q+jPt19tU9kqSqdY=
 P:gitlab-runner-openrc
-V:18.11.2-r1
+V:19.0.1-r0
 A:loongarch64
-S:3011
+S:3008
 I:2844
 T:GitLab runner for CI/CD jobs (OpenRC init scripts)
 U:https://docs.gitlab.com/runner/
 L:MIT
 o:gitlab-runner
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:openrc gitlab-runner=18.11.2-r1
+t:1780999457
+c:285486af53f45f93d0b4e48aeaa154d089f83602
+i:openrc gitlab-runner=19.0.1-r0
 
 C:Q1JhQh5T2XhMa4wLj3X/Rwo0KCZGk=
 P:gitlint
@@ -139550,118 +139550,118 @@ t:1780830494
 c:1d9e475c80b465c8497761898f34436034aa17cc
 i:livi=0.5.0-r0 lang
 
-C:Q157ufisUQIWYmjmVEL0tEj+QxmIA=
+C:Q1JSCEQE019g/NI4BLVxmJ+1mdK10=
 P:llama-server
-V:0.0.9006-r0
+V:0.0.9564-r0
 A:loongarch64
-S:2885838
-I:9051664
+S:7230
+I:67520
 T:llama.cpp server
 U:https://github.com/ggml-org/llama.cpp
 L:MIT
 o:llama.cpp
 m:Hugo Osvaldo Barrera <hugo@whynothugo.nl>
-t:1777872529
-c:a36270a0145ca7c911b50944793667f2d3e41319
-D:so:libc.musl-loongarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:llama.cpp:libggml-base.so.0 so:llama.cpp:libllama-common.so.0 so:llama.cpp:libllama.so.0 so:llama.cpp:libmtmd.so.0
-p:cmd:llama-server=0.0.9006-r0
+t:1781006729
+c:53390bedffeef221c4fe4e8a80a7306379b086f9
+D:so:libc.musl-loongarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:llama.cpp:libllama-server-impl.so
+p:cmd:llama-server=0.0.9564-r0
 
-C:Q1WwunHUjpKDu/WAN+E6qde+lfNxk=
+C:Q1RvZSoHzYwuSdjD7UimxVngSRGF4=
 P:llama-server-openrc
-V:0.0.9006-r0
+V:0.0.9564-r0
 A:loongarch64
-S:2044
+S:2042
 I:714
 T:llama.cpp server (OpenRC init scripts)
 U:https://github.com/ggml-org/llama.cpp
 L:MIT
 o:llama.cpp
 m:Hugo Osvaldo Barrera <hugo@whynothugo.nl>
-t:1777872529
-c:a36270a0145ca7c911b50944793667f2d3e41319
-D:llama-server=0.0.9006-r0 openrc
-i:llama-server=0.0.9006-r0 openrc
+t:1781006729
+c:53390bedffeef221c4fe4e8a80a7306379b086f9
+D:llama-server=0.0.9564-r0 openrc
+i:llama-server=0.0.9564-r0 openrc
 
-C:Q1clJZKK9XFnzU/KV6+CpmyRgOqOM=
+C:Q1MP7B3KjeLtdOVIUKRA5kT/SRBQg=
 P:llama.cpp
-V:0.0.9006-r0
+V:0.0.9564-r0
 A:loongarch64
-S:1157511
-I:2969374
+S:2620848
+I:6985662
 T:LLM inference in C/C++ (with Vulkan GPU acceleration)
 U:https://github.com/ggml-org/llama.cpp
 L:MIT
 o:llama.cpp
 m:Hugo Osvaldo Barrera <hugo@whynothugo.nl>
-t:1777872529
-c:a36270a0145ca7c911b50944793667f2d3e41319
-D:/bin/sh so:libc.musl-loongarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:llama.cpp:libggml-base.so.0 so:llama.cpp:libggml.so.0 so:llama.cpp:libllama-common.so.0 so:llama.cpp:libllama.so.0 so:llama.cpp:libmtmd.so.0
-p:cmd:export-graph-ops=0.0.9006-r0 cmd:llama-bench=0.0.9006-r0 cmd:llama-cli=0.0.9006-r0 cmd:llama-debug-template-parser=0.0.9006-r0 cmd:llama-results=0.0.9006-r0 cmd:llama-simple-chat=0.0.9006-r0 cmd:llama-template-analysis=0.0.9006-r0 cmd:llama-tts=0.0.9006-r0
+t:1781006729
+c:53390bedffeef221c4fe4e8a80a7306379b086f9
+D:/bin/sh so:libc.musl-loongarch64.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3 so:libstdc++.so.6 so:llama.cpp:libggml-base.so.0 so:llama.cpp:libggml.so.0 so:llama.cpp:libllama-common.so.0 so:llama.cpp:libllama.so.0 so:llama.cpp:libmtmd.so.0
+p:cmd:export-graph-ops=0.0.9564-r0 cmd:llama-bench=0.0.9564-r0 cmd:llama-cli=0.0.9564-r0 cmd:llama-debug-template-parser=0.0.9564-r0 cmd:llama-results=0.0.9564-r0 cmd:llama-simple-chat=0.0.9564-r0 cmd:llama-template-analysis=0.0.9564-r0 cmd:llama-tts=0.0.9564-r0 cmd:llama=0.0.9564-r0 so:llama.cpp:libllama-batched-bench-impl.so=0 so:llama.cpp:libllama-bench-impl.so=0 so:llama.cpp:libllama-cli-impl.so=0 so:llama.cpp:libllama-completion-impl.so=0 so:llama.cpp:libllama-fit-params-impl.so=0 so:llama.cpp:libllama-perplexity-impl.so=0 so:llama.cpp:libllama-quantize-impl.so=0 so:llama.cpp:libllama-server-impl.so=0
 
-C:Q1YvgeCGu543WF0M4SwPVut1ilPOw=
+C:Q1O9L18D3tijE518A8KGG4U2Mlu8A=
 P:llama.cpp-dev
-V:0.0.9006-r0
+V:0.0.9564-r0
 A:loongarch64
-S:6494
-I:20575
+S:6549
+I:21145
 T:LLM inference in C/C++ (with Vulkan GPU acceleration) (development files)
 U:https://github.com/ggml-org/llama.cpp
 L:MIT
 o:llama.cpp
 m:Hugo Osvaldo Barrera <hugo@whynothugo.nl>
-t:1777872529
-c:a36270a0145ca7c911b50944793667f2d3e41319
-D:llama.cpp-libs=0.0.9006-r0 pkgconfig
-p:pc:llama=0.0.9006
+t:1781006729
+c:53390bedffeef221c4fe4e8a80a7306379b086f9
+D:llama.cpp-libs=0.0.9564-r0 pkgconfig
+p:pc:llama=0.0.9564
 
-C:Q1NTxNL9ABQNbYlxjiBshfeq+pn78=
+C:Q1cdu+BFKvp/ncd78lWSLZOVj1ujA=
 P:llama.cpp-extras
-V:0.0.9006-r0
+V:0.0.9564-r0
 A:loongarch64
-S:913125
-I:3016360
+S:736551
+I:2750512
 T:llama.cpp additional binaries
 U:https://github.com/ggml-org/llama.cpp
 L:MIT
 o:llama.cpp
 m:Hugo Osvaldo Barrera <hugo@whynothugo.nl>
-t:1777872529
-c:a36270a0145ca7c911b50944793667f2d3e41319
-D:so:libc.musl-loongarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:llama.cpp:libggml-base.so.0 so:llama.cpp:libggml.so.0 so:llama.cpp:libllama-common.so.0 so:llama.cpp:libllama.so.0 so:llama.cpp:libmtmd.so.0
-p:cmd:llama-batched-bench=0.0.9006-r0 cmd:llama-batched=0.0.9006-r0 cmd:llama-completion=0.0.9006-r0 cmd:llama-debug=0.0.9006-r0 cmd:llama-diffusion-cli=0.0.9006-r0 cmd:llama-embedding=0.0.9006-r0 cmd:llama-eval-callback=0.0.9006-r0 cmd:llama-finetune=0.0.9006-r0 cmd:llama-fit-params=0.0.9006-r0 cmd:llama-gen-docs=0.0.9006-r0 cmd:llama-gguf-hash=0.0.9006-r0 cmd:llama-gguf-split=0.0.9006-r0 cmd:llama-gguf=0.0.9006-r0 cmd:llama-idle=0.0.9006-r0 cmd:llama-imatrix=0.0.9006-r0 cmd:llama-lookahead=0.0.9006-r0 cmd:llama-lookup-create=0.0.9006-r0 cmd:llama-lookup-merge=0.0.9006-r0 cmd:llama-lookup-stats=0.0.9006-r0 cmd:llama-lookup=0.0.9006-r0 cmd:llama-mtmd-cli=0.0.9006-r0 cmd:llama-parallel=0.0.9006-r0 cmd:llama-passkey=0.0.9006-r0 cmd:llama-perplexity=0.0.9006-r0 cmd:llama-quantize=0.0.9006-r0 cmd:llama-retrieval=0.0.9006-r0 cmd:llama-save-load-state=0.0.9006-r0 cmd:llama-simple=0.0.9006-r0 cmd:llama-speculative-simple=0.0.9006-r0 cmd:llama-speculative=0.0.9006-r0 cmd:llama-tokenize=0.0.9006-r0 cmd:rpc-server=0.0.9006-r0
+t:1781006729
+c:53390bedffeef221c4fe4e8a80a7306379b086f9
+D:so:libc.musl-loongarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:llama.cpp:libggml-base.so.0 so:llama.cpp:libggml.so.0 so:llama.cpp:libllama-batched-bench-impl.so so:llama.cpp:libllama-common.so.0 so:llama.cpp:libllama-completion-impl.so so:llama.cpp:libllama-fit-params-impl.so so:llama.cpp:libllama-perplexity-impl.so so:llama.cpp:libllama-quantize-impl.so so:llama.cpp:libllama.so.0 so:llama.cpp:libmtmd.so.0
+p:cmd:llama-batched-bench=0.0.9564-r0 cmd:llama-batched=0.0.9564-r0 cmd:llama-completion=0.0.9564-r0 cmd:llama-debug=0.0.9564-r0 cmd:llama-diffusion-cli=0.0.9564-r0 cmd:llama-embedding=0.0.9564-r0 cmd:llama-eval-callback=0.0.9564-r0 cmd:llama-finetune=0.0.9564-r0 cmd:llama-fit-params=0.0.9564-r0 cmd:llama-gen-docs=0.0.9564-r0 cmd:llama-gguf-hash=0.0.9564-r0 cmd:llama-gguf-split=0.0.9564-r0 cmd:llama-gguf=0.0.9564-r0 cmd:llama-idle=0.0.9564-r0 cmd:llama-imatrix=0.0.9564-r0 cmd:llama-lookahead=0.0.9564-r0 cmd:llama-lookup-create=0.0.9564-r0 cmd:llama-lookup-merge=0.0.9564-r0 cmd:llama-lookup-stats=0.0.9564-r0 cmd:llama-lookup=0.0.9564-r0 cmd:llama-mtmd-cli=0.0.9564-r0 cmd:llama-parallel=0.0.9564-r0 cmd:llama-passkey=0.0.9564-r0 cmd:llama-perplexity=0.0.9564-r0 cmd:llama-quantize=0.0.9564-r0 cmd:llama-retrieval=0.0.9564-r0 cmd:llama-simple=0.0.9564-r0 cmd:llama-speculative-simple=0.0.9564-r0 cmd:llama-speculative=0.0.9564-r0 cmd:llama-tokenize=0.0.9564-r0 cmd:rpc-server=0.0.9564-r0
 
-C:Q15t50sRZl86ykCELKzn+7OO5xSq4=
+C:Q1AOnj2ni+CeDHE9lh7wu32Ayj2rk=
 P:llama.cpp-libs
-V:0.0.9006-r0
+V:0.0.9564-r0
 A:loongarch64
-S:4156373
-I:10704560
+S:4449406
+I:11425424
 T:LLM inference in C/C++ (with Vulkan GPU acceleration) (shared libraries)
 U:https://github.com/ggml-org/llama.cpp
 L:MIT
 o:llama.cpp
 m:Hugo Osvaldo Barrera <hugo@whynothugo.nl>
-t:1777872529
-c:a36270a0145ca7c911b50944793667f2d3e41319
+t:1781006729
+c:53390bedffeef221c4fe4e8a80a7306379b086f9
 D:openblas so:libc.musl-loongarch64.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libgomp.so.1 so:libssl.so.3 so:libstdc++.so.6
-p:so:llama.cpp:libggml-base.so.0=0.10.2 so:llama.cpp:libggml-blas.so=0 so:llama.cpp:libggml-cpu.so=0 so:llama.cpp:libggml-rpc.so=0 so:llama.cpp:libggml.so.0=0.10.2 so:llama.cpp:libllama-common.so.0=0.0.9006 so:llama.cpp:libllama.so.0=0.0.9006 so:llama.cpp:libmtmd.so.0=0.0.9006
+p:so:llama.cpp:libggml-base.so.0=0.14.0 so:llama.cpp:libggml-blas.so=0 so:llama.cpp:libggml-cpu.so=0 so:llama.cpp:libggml-rpc.so=0 so:llama.cpp:libggml.so.0=0.14.0 so:llama.cpp:libllama-common.so.0=0.0.9564 so:llama.cpp:libllama.so.0=0.0.9564 so:llama.cpp:libmtmd.so.0=0.0.9564
 
-C:Q1jG1voRsmTU8CFXV+itm1v+z8hSc=
+C:Q1b/6QNylHatm+cIJ6y4YfyKNAvf8=
 P:llama.cpp-vulkan
-V:0.0.9006-r0
+V:0.0.9564-r0
 A:loongarch64
-S:17853975
-I:60691320
+S:17110683
+I:58463080
 T:LLM inference in C/C++ (with Vulkan GPU acceleration)
 U:https://github.com/ggml-org/llama.cpp
 L:MIT
 o:llama.cpp
 m:Hugo Osvaldo Barrera <hugo@whynothugo.nl>
-t:1777872529
-c:a36270a0145ca7c911b50944793667f2d3e41319
+t:1781006729
+c:53390bedffeef221c4fe4e8a80a7306379b086f9
 D:so:libc.musl-loongarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libvulkan.so.1 so:llama.cpp:libggml-base.so.0
 p:so:llama.cpp:libggml-vulkan.so=0
-i:llama.cpp-libs=0.0.9006-r0 vulkan-loader
+i:llama.cpp-libs=0.0.9564-r0 vulkan-loader
 
 C:Q1eMqKNh2FMhj9DTc9WHbwK+uejoc=
 P:lld18
@@ -277803,21 +277803,21 @@ c:e4453ce4fcefdd6d94741d0f640203e4a8e212e7
 D:so:libKF6Archive.so.6 so:libKF6Codecs.so.6 so:libKF6ColorScheme.so.6 so:libKF6ConfigCore.so.6 so:libKF6ConfigGui.so.6 so:libKF6ConfigWidgets.so.6 so:libKF6CoreAddons.so.6 so:libKF6Crash.so.6 so:libKF6DBusAddons.so.6 so:libKF6I18n.so.6 so:libKF6IconThemes.so.6 so:libKF6IdleTime.so.6 so:libKF6ItemViews.so.6 so:libKF6KIOCore.so.6 so:libKF6KIOGui.so.6 so:libKF6KIOWidgets.so.6 so:libKF6Notifications.so.6 so:libKF6NotifyConfig.so.6 so:libKF6Prison.so.6 so:libKF6Purpose.so.6 so:libKF6PurposeWidgets.so.6 so:libKF6Service.so.6 so:libKF6SonnetUi.so.6 so:libKF6StatusNotifierItem.so.6 so:libKF6SyntaxHighlighting.so.6 so:libKF6TextAddonsWidgets.so.1 so:libKF6TextAutoCorrectionCore.so.1 so:libKF6TextAutoCorrectionWidgets.so.1 so:libKF6TextAutoGenerateText.so.1 so:libKF6TextCustomEditor.so.1 so:libKF6TextEditTextToSpeech.so.1 so:libKF6TextEmoticonsCore.so.1 so:libKF6TextEmoticonsWidgets.so.1 so:libKF6TextTranslator.so.1 so:libKF6TextUtils.so.1 so:libKF6TextWidgets.so.6 so:libKF6UserFeedbackCore.so.6 so:libKF6UserFeedbackWidgets.so.6 so:libKF6WidgetsAddons.so.6 so:libKF6WindowSystem.so.6 so:libKF6XmlGui.so.6 so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Gui.so.6 so:libQt6Multimedia.so.6 so:libQt6MultimediaWidgets.so.6 so:libQt6Network.so.6 so:libQt6NetworkAuth.so.6 so:libQt6Sql.so.6 so:libQt6WebSockets.so.6 so:libQt6Widgets.so.6 so:libc.musl-loongarch64.so.1 so:libqt6keychain.so.1 so:libstdc++.so.6
 p:cmd:ruqola=2.7.2-r0 so:librocketchatrestapi-qt.so.0=2.7.2 so:libruqolacore.so.0=2.7.2 so:libruqolawidgets.so.0=2.7.2
 
-C:Q1LhRMKRf99co8/UTrYKrJFpE+whI=
+C:Q1APIPqkfVYHPceuKX6WGGz+qWHj4=
 P:rust-analyzer
-V:2026.06.01-r0
+V:2026.06.08-r0
 A:loongarch64
-S:9708797
-I:22460784
+S:9647092
+I:22264016
 T:Rust compiler front-end for IDEs
 U:https://github.com/rust-lang/rust-analyzer
 L:MIT OR Apache-2.0
 o:rust-analyzer
 m:team/rust <alpine@ptrcnull.me>
-t:1780771216
-c:d92567495ea731622b731041b1c23fce72d57914
+t:1781004699
+c:ac83673e7b0943399ee74032be6f6fca0494c801
 D:rust-src so:libc.musl-loongarch64.so.1 so:libgcc_s.so.1 so:libmimalloc-secure.so.2
-p:cmd:rust-analyzer=2026.06.01-r0
+p:cmd:rust-analyzer=2026.06.08-r0
 
 C:Q1l37Y7rXc8hWNHipkfsKlMGYLfD4=
 P:rustlings
@@ -295024,25 +295024,25 @@ t:1756594710
 c:1d3309e8b216ba0ad47070eac7ebf97876d2252e
 i:docs tagutil=3.1-r3
 
-C:Q12cUTvo3QHghmL3cmzi+7M/o8PZM=
+C:Q1a4t/Vi5qUh7i+U3NmEWtt1u0pBY=
 P:tailscale
-V:1.96.5-r1
+V:1.98.5-r0
 A:loongarch64
-S:13388511
-I:40026910
+S:13632306
+I:40684414
 T:The easiest, most secure way to use WireGuard and 2FA
 U:https://tailscale.com/
 L:BSD-3-Clause
 o:tailscale
 m:Robert Günzler <r@gnzler.io>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1781000815
+c:6fe879a2eb6d38aa176f58055cb3f5f8b82cf76b
 D:cmd:resolvconf /bin/sh so:libc.musl-loongarch64.so.1
-p:cmd:tailscale=1.96.5-r1 cmd:tailscaled=1.96.5-r1
+p:cmd:tailscale=1.98.5-r0 cmd:tailscaled=1.98.5-r0
 
-C:Q1LGsvCy0utaAb8XztrWjkiAg+j6k=
+C:Q176rn3tXy47FZ+6Ts+JTVBskwufk=
 P:tailscale-bash-completion
-V:1.96.5-r1
+V:1.98.5-r0
 A:loongarch64
 S:5271
 I:10060
@@ -295051,84 +295051,84 @@ U:https://tailscale.com/
 L:BSD-3-Clause
 o:tailscale
 m:Robert Günzler <r@gnzler.io>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:tailscale=1.96.5-r1 bash-completion
+t:1781000815
+c:6fe879a2eb6d38aa176f58055cb3f5f8b82cf76b
+i:tailscale=1.98.5-r0 bash-completion
 
-C:Q1BrjDLMty6ivepss6oJh//DlsDII=
+C:Q17fuHLwxEe465mKt/e/P6OT3/DG8=
 P:tailscale-doc
-V:1.96.5-r1
+V:1.98.5-r0
 A:loongarch64
-S:2989
+S:2987
 I:2977
 T:The easiest, most secure way to use WireGuard and 2FA (documentation)
 U:https://tailscale.com/
 L:BSD-3-Clause
 o:tailscale
 m:Robert Günzler <r@gnzler.io>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:docs tailscale=1.96.5-r1
+t:1781000815
+c:6fe879a2eb6d38aa176f58055cb3f5f8b82cf76b
+i:docs tailscale=1.98.5-r0
 
-C:Q1GFahjMqCq4KJ/pGjOpaMEnDlmxU=
+C:Q1pthmUmd462sX9dzAXtBpZxNe3Co=
 P:tailscale-fish-completion
-V:1.96.5-r1
+V:1.98.5-r0
 A:loongarch64
-S:4719
+S:4717
 I:10510
 T:Fish completions for tailscale
 U:https://tailscale.com/
 L:BSD-3-Clause
 o:tailscale
 m:Robert Günzler <r@gnzler.io>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:tailscale=1.96.5-r1 fish
+t:1781000815
+c:6fe879a2eb6d38aa176f58055cb3f5f8b82cf76b
+i:tailscale=1.98.5-r0 fish
 
-C:Q1L7UIE7EA14qgRNIcTwGiabufLGA=
+C:Q1ii/bs/X7M9i92BAH1Cv37225+oU=
 P:tailscale-openrc
-V:1.96.5-r1
+V:1.98.5-r0
 A:loongarch64
-S:3264
+S:3267
 I:3101
 T:The easiest, most secure way to use WireGuard and 2FA (OpenRC init scripts)
 U:https://tailscale.com/
 L:BSD-3-Clause
 o:tailscale
 m:Robert Günzler <r@gnzler.io>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:openrc tailscale=1.96.5-r1
+t:1781000815
+c:6fe879a2eb6d38aa176f58055cb3f5f8b82cf76b
+i:openrc tailscale=1.98.5-r0
 
-C:Q1Zh2E7WtOKhSKOKpqDBnx8FutSIM=
+C:Q1SCDeoFvbdTqHcTsSZVqwHRGtJc8=
 P:tailscale-systemd
-V:1.96.5-r1
+V:1.98.5-r0
 A:loongarch64
-S:2375
+S:2373
 I:1007
 T:The easiest, most secure way to use WireGuard and 2FA (systemd files)
 U:https://tailscale.com/
 L:BSD-3-Clause
 o:tailscale
 m:Robert Günzler <r@gnzler.io>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:systemd tailscale=1.96.5-r1
+t:1781000815
+c:6fe879a2eb6d38aa176f58055cb3f5f8b82cf76b
+i:systemd tailscale=1.98.5-r0
 
-C:Q1vft3PBflipPiXihMH6qzqEACiCM=
+C:Q1Kz3h3QXBSWwHfrH8ROXmMjpl21o=
 P:tailscale-zsh-completion
-V:1.96.5-r1
+V:1.98.5-r0
 A:loongarch64
-S:4188
+S:4190
 I:7347
 T:Zsh completions for tailscale
 U:https://tailscale.com/
 L:BSD-3-Clause
 o:tailscale
 m:Robert Günzler <r@gnzler.io>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:tailscale=1.96.5-r1 zsh
+t:1781000815
+c:6fe879a2eb6d38aa176f58055cb3f5f8b82cf76b
+i:tailscale=1.98.5-r0 zsh
 
 C:Q1ejetA8seiJZC/NJVFHqK5wmpgSI=
 P:tango-icon-theme
@@ -296331,99 +296331,99 @@ t:1773733911
 c:0700dd9731065e5d425db52a0d44c3d721c94de8
 i:template-glib=3.40.0-r0 lang
 
-C:Q1mt8a9C0i9p6b9pXeY/ecEVtcqmc=
+C:Q1oeqwDVCRKsCkDFJZSDwVg7ms/+I=
 P:tempo
-V:3.0.0-r0
+V:3.0.1-r0
 A:loongarch64
-S:33921061
+S:33921044
 I:116400514
 T:High volume distributed tracing backend
 U:https://github.com/grafana/tempo
 L:AGPL-3.0-or-later
 o:tempo
 m:Guy Godfroy <guy.godfroy@gugod.fr>
-t:1780927534
-c:21c40eae38f7ea26e54e74357571e5a6fbbd4f30
+t:1781004255
+c:56a93a7b715994fcbef1bd50351fc02b37ddaef5
 D:/bin/sh so:libc.musl-loongarch64.so.1
-p:cmd:tempo=3.0.0-r0
+p:cmd:tempo=3.0.1-r0
 
-C:Q1nisFHf76v5V+IDtMK0XX2ruwBDA=
+C:Q1yuM1ERVdIa6fqRFYCgYOG09qr4A=
 P:tempo-cli
-V:3.0.0-r0
+V:3.0.1-r0
 A:loongarch64
-S:25105733
+S:25105729
 I:84028400
 T:Tempo command line tool
 U:https://github.com/grafana/tempo
 L:AGPL-3.0-or-later
 o:tempo
 m:Guy Godfroy <guy.godfroy@gugod.fr>
-t:1780927534
-c:21c40eae38f7ea26e54e74357571e5a6fbbd4f30
+t:1781004255
+c:56a93a7b715994fcbef1bd50351fc02b37ddaef5
 D:so:libc.musl-loongarch64.so.1
-p:cmd:tempo-cli=3.0.0-r0
+p:cmd:tempo-cli=3.0.1-r0
 
-C:Q1z4crjV69bEF5IhdOWVELdFnV4Jw=
+C:Q1qT7Uc3cDn9h14j9585wHi6xy6ls=
 P:tempo-openrc
-V:3.0.0-r0
+V:3.0.1-r0
 A:loongarch64
-S:1902
+S:1905
 I:377
 T:High volume distributed tracing backend (OpenRC init scripts)
 U:https://github.com/grafana/tempo
 L:AGPL-3.0-or-later
 o:tempo
 m:Guy Godfroy <guy.godfroy@gugod.fr>
-t:1780927534
-c:21c40eae38f7ea26e54e74357571e5a6fbbd4f30
-i:openrc tempo=3.0.0-r0
+t:1781004255
+c:56a93a7b715994fcbef1bd50351fc02b37ddaef5
+i:openrc tempo=3.0.1-r0
 
-C:Q1VXNvvVoijfOCHxDI/EplYxCoxbg=
+C:Q1t/O5HNfVQ0psHSxGWCuKCqzR0o8=
 P:tempo-query
-V:3.0.0-r0
+V:3.0.1-r0
 A:loongarch64
-S:6937338
+S:6937334
 I:20842080
 T:Tempo query tool
 U:https://github.com/grafana/tempo
 L:AGPL-3.0-or-later
 o:tempo
 m:Guy Godfroy <guy.godfroy@gugod.fr>
-t:1780927534
-c:21c40eae38f7ea26e54e74357571e5a6fbbd4f30
+t:1781004255
+c:56a93a7b715994fcbef1bd50351fc02b37ddaef5
 D:so:libc.musl-loongarch64.so.1
-p:cmd:tempo-query=3.0.0-r0
+p:cmd:tempo-query=3.0.1-r0
 
-C:Q1UFxA+rMTOwVTWku4WOEYwd874SQ=
+C:Q1f/tOgZLxn//zAueMhOcwcf6JrTA=
 P:tempo-vulture
-V:3.0.0-r0
+V:3.0.1-r0
 A:loongarch64
-S:20173464
+S:20173453
 I:68502896
 T:Tempo performance monitor
 U:https://github.com/grafana/tempo
 L:AGPL-3.0-or-later
 o:tempo
 m:Guy Godfroy <guy.godfroy@gugod.fr>
-t:1780927534
-c:21c40eae38f7ea26e54e74357571e5a6fbbd4f30
+t:1781004255
+c:56a93a7b715994fcbef1bd50351fc02b37ddaef5
 D:so:libc.musl-loongarch64.so.1
-p:cmd:tempo-vulture=3.0.0-r0
+p:cmd:tempo-vulture=3.0.1-r0
 
-C:Q1oJW+gKAIXNTLHnp2WQmzdeXXqlY=
+C:Q1Lry0H7x3wZxZEx6qLuqBXV8nI+M=
 P:tempo-vulture-openrc
-V:3.0.0-r0
+V:3.0.1-r0
 A:loongarch64
-S:2014
+S:2009
 I:603
 T:Tempo performance monitor (Open RC init scripts)
 U:https://github.com/grafana/tempo
 L:AGPL-3.0-or-later
 o:tempo
 m:Guy Godfroy <guy.godfroy@gugod.fr>
-t:1780927534
-c:21c40eae38f7ea26e54e74357571e5a6fbbd4f30
-i:openrc tempo-vulture=3.0.0-r0
+t:1781004255
+c:56a93a7b715994fcbef1bd50351fc02b37ddaef5
+i:openrc tempo-vulture=3.0.1-r0
 
 C:Q1cIIPOi0xKONfXOJfVctN69Xt08k=
 P:tepl
