@@ -22041,76 +22041,97 @@ t:1778661427
 c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
 i:openrc buildkit=0.29.0-r1
 
-C:Q1unkdsZ/W8g+0BDVqCU0E/9Nr+vU=
+C:Q1lPHkzVO41h4peoi/FUlX4CfKAwU=
 P:buku
-V:5.0-r0
+V:5.1-r0
 A:ppc64le
-S:54751
-I:232157
+S:212348
+I:829370
 T:Cmdline bookmark management utility
 U:https://github.com/jarun/Buku
 L:GPL-3.0-or-later
 o:buku
-t:1761332497
-c:c3b5b63a5e8d4436ebb7e90a03bdba371e1efd9b
-D:python3 py3-urllib3 py3-cryptography py3-html5lib py3-beautifulsoup4 py3-certifi
-p:cmd:buku=5.0-r0
+m:Robert Mongold <rtmongold@gmail.com>
+t:1780992376
+c:36296cdd59982890aa3d30036c6639d41d6e6ba5
+D:python3 py3-urllib3 py3-cryptography py3-html5lib py3-beautifulsoup4 py3-certifi python3~3.14
+p:cmd:buku=5.1-r0 cmd:bukuserver=5.1-r0 py3.14:buku=5.1-r0 py3.14:bukuserver=5.1-r0
 
-C:Q1X4H23FsG41JX7nPBlViIEuPnMe4=
+C:Q153U3agIxnACwGfHZCZYj99RKJbc=
 P:buku-bash-completion
-V:5.0-r0
+V:5.1-r0
 A:ppc64le
-S:2037
+S:2061
 I:1851
 T:Bash completions for buku
 U:https://github.com/jarun/Buku
 L:GPL-3.0-or-later
 o:buku
-t:1761332497
-c:c3b5b63a5e8d4436ebb7e90a03bdba371e1efd9b
-i:buku=5.0-r0 bash-completion
+m:Robert Mongold <rtmongold@gmail.com>
+t:1780992376
+c:36296cdd59982890aa3d30036c6639d41d6e6ba5
+i:buku=5.1-r0 bash-completion
 
-C:Q1k9cz+qV0bKcDf6o6a84Ip8taaX8=
+C:Q1JQ/mJK5eAm+sJbi2GRbSwzhxfGY=
 P:buku-doc
-V:5.0-r0
+V:5.1-r0
 A:ppc64le
-S:12666
-I:11186
+S:13068
+I:11565
 T:Cmdline bookmark management utility (documentation)
 U:https://github.com/jarun/Buku
 L:GPL-3.0-or-later
 o:buku
-t:1761332497
-c:c3b5b63a5e8d4436ebb7e90a03bdba371e1efd9b
-i:docs buku=5.0-r0
+m:Robert Mongold <rtmongold@gmail.com>
+t:1780992376
+c:36296cdd59982890aa3d30036c6639d41d6e6ba5
+i:docs buku=5.1-r0
 
-C:Q1R9kCpr0GzAWqggpBnv9C1InrY00=
+C:Q1YJCasTj8+6PMCFINTjxzjb/RZHQ=
 P:buku-fish-completion
-V:5.0-r0
+V:5.1-r0
 A:ppc64le
-S:2466
+S:2489
 I:3979
 T:Fish completions for buku
 U:https://github.com/jarun/Buku
 L:GPL-3.0-or-later
 o:buku
-t:1761332497
-c:c3b5b63a5e8d4436ebb7e90a03bdba371e1efd9b
-i:buku=5.0-r0 fish
+m:Robert Mongold <rtmongold@gmail.com>
+t:1780992376
+c:36296cdd59982890aa3d30036c6639d41d6e6ba5
+i:buku=5.1-r0 fish
 
-C:Q1j5IDX6nmXgDc4J9cHT9hBSB7FZU=
-P:buku-zsh-completion
-V:5.0-r0
+C:Q1gAS/KjKnYU5ztAVasYR8IvV61GM=
+P:buku-pyc
+V:5.1-r0
 A:ppc64le
-S:2737
+S:183262
+I:438314
+T:Precompiled Python bytecode for buku
+U:https://github.com/jarun/Buku
+L:GPL-3.0-or-later
+o:buku
+m:Robert Mongold <rtmongold@gmail.com>
+t:1780992376
+c:36296cdd59982890aa3d30036c6639d41d6e6ba5
+D:python3~3.14
+i:buku=5.1-r0 pyc
+
+C:Q1PMA5lIk4ArRF045r05vlUZ8NvW4=
+P:buku-zsh-completion
+V:5.1-r0
+A:ppc64le
+S:2767
 I:3219
 T:Zsh completions for buku
 U:https://github.com/jarun/Buku
 L:GPL-3.0-or-later
 o:buku
-t:1761332497
-c:c3b5b63a5e8d4436ebb7e90a03bdba371e1efd9b
-i:buku=5.0-r0 zsh
+m:Robert Mongold <rtmongold@gmail.com>
+t:1780992376
+c:36296cdd59982890aa3d30036c6639d41d6e6ba5
+i:buku=5.1-r0 zsh
 
 C:Q10rhBsZHjz6tHgOWMApqclMgNitU=
 P:bullet
@@ -214243,36 +214264,36 @@ t:1778857556
 c:c813d8b2e7a434ba72e705ac80a234f625d8b569
 i:plasma5support=6.6.5-r0 lang
 
-C:Q1yvaKqpRyBClsQmOA21Lt1Tkva/8=
+C:Q1fxXcrXsxkAw44W4NaS02N2vqvbM=
 P:plasmatube
-V:26.04.0-r0
+V:26.04.0-r1
 A:ppc64le
-S:757203
+S:757415
 I:2734175
 T:Kirigami YouTube video player based on Invidious
 U:https://invent.kde.org/plasma-mobile/plasmatube
 L:GPL-3.0-or-later AND CC0-1.0
 o:plasmatube
 m:team/kde <bribbers@disroot.org>
-t:1777900518
-c:32bf34cfb9bff508b6aa725e134e6d9b53db8015
-D:gst-libav gst-plugins-good gst-plugins-good-qt kcoreaddons kdeclarative kirigami kirigami-addons kitemmodels purpose qt6-qtimageformats yt-dlp so:libKF6ConfigCore.so.6 so:libKF6ConfigGui.so.6 so:libKF6CoreAddons.so.6 so:libKF6DBusAddons.so.6 so:libKF6I18n.so.6 so:libKF6WindowSystem.so.6 so:libMpvQt.so.2 so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6Qml.so.6 so:libQt6Quick.so.6 so:libQt6QuickControls2.so.6 so:libQt6Widgets.so.6 so:libc.musl-ppc64le.so.1 so:libqt6keychain.so.1 so:libstdc++.so.6
-p:cmd:plasmatube=26.04.0-r0
+t:1780992822
+c:e1ec07115e695fa018e41e8df35b4c1d03e1a959
+D:gst-libav gst-plugins-good gst-plugins-good-qt kcoreaddons kdeclarative kirigami kirigami-addons kitemmodels purpose qt6-qtimageformats yt-dlp so:libKF6ConfigCore.so.6 so:libKF6ConfigGui.so.6 so:libKF6CoreAddons.so.6 so:libKF6DBusAddons.so.6 so:libKF6I18n.so.6 so:libKF6WindowSystem.so.6 so:libMpvQt.so.3 so:libQt6Core.so.6 so:libQt6DBus.so.6 so:libQt6Gui.so.6 so:libQt6Network.so.6 so:libQt6Qml.so.6 so:libQt6Quick.so.6 so:libQt6QuickControls2.so.6 so:libQt6Widgets.so.6 so:libc.musl-ppc64le.so.1 so:libqt6keychain.so.1 so:libstdc++.so.6
+p:cmd:plasmatube=26.04.0-r1
 
-C:Q15QhBmRxJC/0l/5mW+bLgHtLlupo=
+C:Q1zxyMow2FvVWGaFNnawssn7GF5UA=
 P:plasmatube-lang
-V:26.04.0-r0
+V:26.04.0-r1
 A:ppc64le
-S:134823
+S:134822
 I:542110
 T:Languages for package plasmatube
 U:https://invent.kde.org/plasma-mobile/plasmatube
 L:GPL-3.0-or-later AND CC0-1.0
 o:plasmatube
 m:team/kde <bribbers@disroot.org>
-t:1777900518
-c:32bf34cfb9bff508b6aa725e134e6d9b53db8015
-i:plasmatube=26.04.0-r0 lang
+t:1780992822
+c:e1ec07115e695fa018e41e8df35b4c1d03e1a959
+i:plasmatube=26.04.0-r1 lang
 
 C:Q1K1senNRlvkjB4iaoVNpYNS6kkRE=
 P:plattenalbum
@@ -290621,36 +290642,36 @@ t:1774850277
 c:915db448caac16239b89facf519800b582d80a43
 D:sems so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libssl.so.3 so:libstdc++.so.6
 
-C:Q16PkvBDSQ5iYYBmQw7bRNhUArDgQ=
+C:Q1T2Ow/um8s8r07LjL8oEu9rIX0kM=
 P:senpai
-V:0.4.1-r11
+V:0.5.0-r0
 A:ppc64le
-S:3520770
-I:9986613
+S:3592187
+I:10184748
 T:Your everyday IRC student
 U:https://sr.ht/~delthas/senpai
 L:ISC
 o:senpai
 m:Simon Zeni <simon@bl4ckb0ne.ca>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1780992927
+c:2d124aa5561b94a7df97982ea14fdc6fde4ac9bc
 D:so:libc.musl-ppc64le.so.1
-p:cmd:senpai=0.4.1-r11
+p:cmd:senpai=0.5.0-r0
 
-C:Q1t+5eYOgVUwHRTUZkqDCREPg0rnA=
+C:Q1//HfTjH4vl9Wza/wpWc1AVKfjA4=
 P:senpai-doc
-V:0.4.1-r11
+V:0.5.0-r0
 A:ppc64le
-S:9076
-I:7468
+S:10529
+I:8874
 T:Your everyday IRC student (documentation)
 U:https://sr.ht/~delthas/senpai
 L:ISC
 o:senpai
 m:Simon Zeni <simon@bl4ckb0ne.ca>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:docs senpai=0.4.1-r11
+t:1780992927
+c:2d124aa5561b94a7df97982ea14fdc6fde4ac9bc
+i:docs senpai=0.5.0-r0
 
 C:Q1JtpwIHGZ0Hur8tya/O0WRlNxAH0=
 P:sensorfw

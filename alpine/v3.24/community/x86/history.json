@@ -19663,7 +19663,8 @@
     "buku": {
       "origin": "buku",
       "versions": {
-        "5.0-r0": 1761332497
+        "5.0-r0": 1761332497,
+        "5.1-r0": 1780992376
       },
       "dependencies": [
         "python3",
@@ -19671,34 +19672,42 @@
         "py3-cryptography",
         "py3-html5lib",
         "py3-beautifulsoup4",
-        "py3-certifi"
+        "py3-certifi",
+        "python3~3.14"
       ],
       "provides": [
-        "cmd:buku=5.0-r0"
+        "cmd:buku=5.1-r0",
+        "cmd:bukuserver=5.1-r0",
+        "py3.14:buku=5.1-r0",
+        "py3.14:bukuserver=5.1-r0"
       ]
     },
     "buku-bash-completion": {
       "origin": "buku",
       "versions": {
-        "5.0-r0": 1761332497
+        "5.0-r0": 1761332497,
+        "5.1-r0": 1780992376
       }
     },
     "buku-doc": {
       "origin": "buku",
       "versions": {
-        "5.0-r0": 1761332497
+        "5.0-r0": 1761332497,
+        "5.1-r0": 1780992376
       }
     },
     "buku-fish-completion": {
       "origin": "buku",
       "versions": {
-        "5.0-r0": 1761332497
+        "5.0-r0": 1761332497,
+        "5.1-r0": 1780992376
       }
     },
     "buku-zsh-completion": {
       "origin": "buku",
       "versions": {
-        "5.0-r0": 1761332497
+        "5.0-r0": 1761332497,
+        "5.1-r0": 1780992376
       }
     },
     "bullet": {
@@ -197814,7 +197823,8 @@
     "plasmatube": {
       "origin": "plasmatube",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.0-r1": 1780992822
       },
       "dependencies": [
         "gst-libav",
@@ -197834,7 +197844,7 @@
         "so:libKF6DBusAddons.so.6",
         "so:libKF6I18n.so.6",
         "so:libKF6WindowSystem.so.6",
-        "so:libMpvQt.so.2",
+        "so:libMpvQt.so.3",
         "so:libQt6Core.so.6",
         "so:libQt6DBus.so.6",
         "so:libQt6Gui.so.6",
@@ -197849,13 +197859,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:plasmatube=26.04.0-r0"
+        "cmd:plasmatube=26.04.0-r1"
       ]
     },
     "plasmatube-lang": {
       "origin": "plasmatube",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.0-r1": 1780992822
       }
     },
     "plattenalbum": {
@@ -256596,20 +256607,22 @@
       "origin": "senpai",
       "versions": {
         "0.4.1-r10": 1775839666,
-        "0.4.1-r11": 1778661427
+        "0.4.1-r11": 1778661427,
+        "0.5.0-r0": 1780992927
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:senpai=0.4.1-r11"
+        "cmd:senpai=0.5.0-r0"
       ]
     },
     "senpai-doc": {
       "origin": "senpai",
       "versions": {
         "0.4.1-r10": 1775839666,
-        "0.4.1-r11": 1778661427
+        "0.4.1-r11": 1778661427,
+        "0.5.0-r0": 1780992927
       }
     },
     "sensorfw": {
@@ -296070,6 +296083,15 @@
       "versions": {
         "0.41-r0": 1780950640
       }
+    },
+    "buku-pyc": {
+      "origin": "buku",
+      "versions": {
+        "5.1-r0": 1780992376
+      },
+      "dependencies": [
+        "python3~3.14"
+      ]
     }
   },
   "provide": {

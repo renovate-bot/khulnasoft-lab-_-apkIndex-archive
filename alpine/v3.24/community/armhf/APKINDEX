@@ -20362,76 +20362,97 @@ t:1778661427
 c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
 i:openrc buildkit=0.29.0-r1
 
-C:Q1hVAzP4Oxzz3bto9bm/5ifRCdb1A=
+C:Q1WAo3PrCGPXWEFTx8vOeHCgRX53w=
 P:buku
-V:5.0-r0
+V:5.1-r0
 A:armhf
-S:54991
-I:232157
+S:212593
+I:829370
 T:Cmdline bookmark management utility
 U:https://github.com/jarun/Buku
 L:GPL-3.0-or-later
 o:buku
-t:1761332497
-c:c3b5b63a5e8d4436ebb7e90a03bdba371e1efd9b
-D:python3 py3-urllib3 py3-cryptography py3-html5lib py3-beautifulsoup4 py3-certifi
-p:cmd:buku=5.0-r0
+m:Robert Mongold <rtmongold@gmail.com>
+t:1780992376
+c:36296cdd59982890aa3d30036c6639d41d6e6ba5
+D:python3 py3-urllib3 py3-cryptography py3-html5lib py3-beautifulsoup4 py3-certifi python3~3.14
+p:cmd:buku=5.1-r0 cmd:bukuserver=5.1-r0 py3.14:buku=5.1-r0 py3.14:bukuserver=5.1-r0
 
-C:Q1Z7YrUC5FkY/STQZWMvY9AKqLc0E=
+C:Q1n95HpwmsKSnr3fciQus3XyvDAxw=
 P:buku-bash-completion
-V:5.0-r0
+V:5.1-r0
 A:armhf
-S:2277
+S:2302
 I:1851
 T:Bash completions for buku
 U:https://github.com/jarun/Buku
 L:GPL-3.0-or-later
 o:buku
-t:1761332497
-c:c3b5b63a5e8d4436ebb7e90a03bdba371e1efd9b
-i:buku=5.0-r0 bash-completion
+m:Robert Mongold <rtmongold@gmail.com>
+t:1780992376
+c:36296cdd59982890aa3d30036c6639d41d6e6ba5
+i:buku=5.1-r0 bash-completion
 
-C:Q1zPFd31XfI6UCP00004ILhvtfB3w=
+C:Q1M1qi19CjfvkY4XTWjld3yc3Orn8=
 P:buku-doc
-V:5.0-r0
+V:5.1-r0
 A:armhf
-S:12907
-I:11186
+S:13310
+I:11565
 T:Cmdline bookmark management utility (documentation)
 U:https://github.com/jarun/Buku
 L:GPL-3.0-or-later
 o:buku
-t:1761332497
-c:c3b5b63a5e8d4436ebb7e90a03bdba371e1efd9b
-i:docs buku=5.0-r0
+m:Robert Mongold <rtmongold@gmail.com>
+t:1780992376
+c:36296cdd59982890aa3d30036c6639d41d6e6ba5
+i:docs buku=5.1-r0
 
-C:Q1rh/93TDLIhLMFg4oK80MayqPn/A=
+C:Q1+4ShrwD9P4XYud5nk9/LNOyz0uU=
 P:buku-fish-completion
-V:5.0-r0
+V:5.1-r0
 A:armhf
-S:2705
+S:2731
 I:3979
 T:Fish completions for buku
 U:https://github.com/jarun/Buku
 L:GPL-3.0-or-later
 o:buku
-t:1761332497
-c:c3b5b63a5e8d4436ebb7e90a03bdba371e1efd9b
-i:buku=5.0-r0 fish
+m:Robert Mongold <rtmongold@gmail.com>
+t:1780992376
+c:36296cdd59982890aa3d30036c6639d41d6e6ba5
+i:buku=5.1-r0 fish
 
-C:Q1Vo67rVAvExAM25EQwMFxeZ+CL8U=
-P:buku-zsh-completion
-V:5.0-r0
+C:Q1Bx5aDX+Ul1y9gR93il0aJ1K0YBg=
+P:buku-pyc
+V:5.1-r0
 A:armhf
-S:2984
+S:183504
+I:438314
+T:Precompiled Python bytecode for buku
+U:https://github.com/jarun/Buku
+L:GPL-3.0-or-later
+o:buku
+m:Robert Mongold <rtmongold@gmail.com>
+t:1780992376
+c:36296cdd59982890aa3d30036c6639d41d6e6ba5
+D:python3~3.14
+i:buku=5.1-r0 pyc
+
+C:Q1d/6atx1jw+6YvA3qq46HDtXto7w=
+P:buku-zsh-completion
+V:5.1-r0
+A:armhf
+S:3010
 I:3219
 T:Zsh completions for buku
 U:https://github.com/jarun/Buku
 L:GPL-3.0-or-later
 o:buku
-t:1761332497
-c:c3b5b63a5e8d4436ebb7e90a03bdba371e1efd9b
-i:buku=5.0-r0 zsh
+m:Robert Mongold <rtmongold@gmail.com>
+t:1780992376
+c:36296cdd59982890aa3d30036c6639d41d6e6ba5
+i:buku=5.1-r0 zsh
 
 C:Q19Me8UTU/y48wmAxvSqmo58sEKHk=
 P:bullet
@@ -253830,36 +253851,36 @@ t:1774850277
 c:915db448caac16239b89facf519800b582d80a43
 D:sems so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libssl.so.3 so:libstdc++.so.6
 
-C:Q1c68Yh9vbxbC4xQTVunbhDitfowA=
+C:Q1flKO+j/AedkG837JxRV+0ILf5/c=
 P:senpai
-V:0.4.1-r11
+V:0.5.0-r0
 A:armhf
-S:3632328
-I:9209017
+S:3708410
+I:9406840
 T:Your everyday IRC student
 U:https://sr.ht/~delthas/senpai
 L:ISC
 o:senpai
 m:Simon Zeni <simon@bl4ckb0ne.ca>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1780992927
+c:2d124aa5561b94a7df97982ea14fdc6fde4ac9bc
 D:so:libc.musl-armhf.so.1
-p:cmd:senpai=0.4.1-r11
+p:cmd:senpai=0.5.0-r0
 
-C:Q1Q030J7pCzI3PVKPEw+QJyQv76Pk=
+C:Q1iZdChOUjSZxBXrf2sd2wvSaAdwY=
 P:senpai-doc
-V:0.4.1-r11
+V:0.5.0-r0
 A:armhf
-S:9319
-I:7468
+S:10769
+I:8874
 T:Your everyday IRC student (documentation)
 U:https://sr.ht/~delthas/senpai
 L:ISC
 o:senpai
 m:Simon Zeni <simon@bl4ckb0ne.ca>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:docs senpai=0.4.1-r11
+t:1780992927
+c:2d124aa5561b94a7df97982ea14fdc6fde4ac9bc
+i:docs senpai=0.5.0-r0
 
 C:Q18NiiSp3/jHPhzdD/V4F+yv2I69w=
 P:sensorfw
