@@ -3133,19 +3133,19 @@ t:1736086843
 c:09badd6ed4be45d130c9deb7ab4c6bfefe167772
 i:docs akms=0.3.0-r0
 
-C:Q1cK0OplyUUI8MAbaoTdokMfzWrNs=
+C:Q1YwOdp7pcm25OMjdj/XfZ+AypeQE=
 P:alpine-base
-V:3.24.0_rc2-r0
+V:3.24.0-r0
 A:armhf
-S:1313
+S:1308
 I:0
 T:Meta package for minimal alpine base
 U:https://alpinelinux.org
 L:MIT
 o:alpine-base
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1780951703
-c:a4c40d909a0251474c07b9af685baeee6ad819e7
+t:1781012520
+c:d0f20bc945eabe7bac39a6ee168be84046f27875
 D:alpine-baselayout alpine-conf alpine-release apk-tools busybox busybox-mdev-openrc busybox-openrc busybox-suid musl-utils openrc
 
 C:Q17hOhjufinXWHIBdAPVnASE2s2WM=
@@ -3284,19 +3284,19 @@ c:1310f88b4b04e39a8d1faa21c747f087cf0d322f
 D:tar
 p:cmd:alpine-make-rootfs=0.8.1-r0
 
-C:Q1QxtWz5T8IzIwMNAJRiaX0CZr9+o=
+C:Q1jUutZhB/gBS+Erxn5XgH+d1Ve6w=
 P:alpine-release
-V:3.24.0_rc2-r0
+V:3.24.0-r0
 A:armhf
-S:2084
-I:351
+S:2075
+I:343
 T:Alpine release data
 U:https://alpinelinux.org
 L:MIT
 o:alpine-base
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1780951703
-c:a4c40d909a0251474c07b9af685baeee6ad819e7
+t:1781012520
+c:d0f20bc945eabe7bac39a6ee168be84046f27875
 D:alpine-keys
 
 C:Q1QqKWDTFQB63NR/4Ug/5FoKwOmlA=
@@ -39136,34 +39136,34 @@ t:1766838002
 c:b30bac94ff81d73cc5038f795cf60d82c2497a93
 i:systemd linux-pam=1.7.1-r2
 
-C:Q1uYxrCFddGp1qsaSMVberTpJ15+A=
+C:Q1s7DxcqTfB5pMB0L0WTsQ55dlsdI=
 P:linux-rpi
-V:6.12.85-r0
+V:6.18.35-r0
 A:armhf
-S:27553631
-I:33730649
+S:27895736
+I:34320672
 T:Linux kernel with Raspberry Pi patches
 U:https://github.com/raspberrypi/linux
 L:GPL-2.0-only
 o:linux-rpi
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1777547509
-c:182d526f02189e4596f564a4c9bc411d33c0558b
+t:1781010969
+c:8aeb604960954ba25672fa5a976aaa295ba9c857
 D:initramfs-generator linux-firmware-brcm
 
-C:Q1echjBjgiHzPxKOJZY2NKmiHneso=
+C:Q1Gq76xl7/l9EknU2YUhiLNS5Geek=
 P:linux-rpi-dev
-V:6.12.85-r0
+V:6.18.35-r0
 A:armhf
-S:20259082
-I:78841895
+S:21249109
+I:83218349
 T:Headers and script for third party modules for rpi kernel
 U:https://github.com/raspberrypi/linux
 L:GPL-2.0-only
 o:linux-rpi
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1777547509
-c:182d526f02189e4596f564a4c9bc411d33c0558b
+t:1781010969
+c:8aeb604960954ba25672fa5a976aaa295ba9c857
 D:perl gmp-dev elfutils-dev bash mpc1-dev mpfr-dev so:libc.musl-armhf.so.1
 
 C:Q1w4sG/kWmbJYNR7jKyLcGw0EDxX8=
@@ -90622,21 +90622,21 @@ t:1764743457
 c:842d3d4458f4488903b6a2dbfdad27001ea48d2b
 i:docs xtables-addons=3.30-r0
 
-C:Q1+mCUaO/QFw3xse/ojNC4Ry8qyOA=
+C:Q1vMbfHCo0y2WvDMWAyO5H2vqcXIw=
 P:xtables-addons-rpi
-V:6.12.85-r0
+V:6.18.35-r0
 A:armhf
-S:85486
-I:82144
+S:83975
+I:80716
 T:Iptables extensions kernel modules
 U:https://inai.de/projects/xtables-addons/
 L:GPL-2.0-or-later
 o:xtables-addons-rpi
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1777547509
-c:f57fc53d26191c079cb9ea6fbb10ef0a55f59383
-D:linux-rpi=6.12.85-r0
-i:linux-rpi=6.12.85-r0 xtables-addons
+t:1781010969
+c:7ab53462e0ef8df56d2b63d167b6408ca0a6e4de
+D:linux-rpi=6.18.35-r0
+i:linux-rpi=6.18.35-r0 xtables-addons
 
 C:Q1tnCQn8mpckontsutw7dSFtNNJ0A=
 P:xtrans
