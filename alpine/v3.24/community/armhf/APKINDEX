@@ -112297,6 +112297,54 @@ t:1732312200
 c:8cd6f2bc8f9abeb4b3d2a74a41f77f44f978a3a8
 D:so:libX11.so.6 so:libc.musl-armhf.so.1 so:libvdpau.so.1
 
+C:Q11dDVOEJJI4aKR8+KwZ5CKkH6fXc=
+P:libvalkey
+V:0.5.0-r0
+A:armhf
+S:58768
+I:124972
+T:Valkey client library in C
+U:https://github.com/valkey-io/libvalkey
+L:BSD-3-Clause
+o:libvalkey
+m:Jakub Jirutka <jakub@jirutka.cz>
+t:1781038588
+c:801a33eb0b3e33c319ef093759982ee43b47d44a
+D:so:libc.musl-armhf.so.1
+p:so:libvalkey.so.0=0.5.0
+
+C:Q1nKm161xTjPxuvp05XPQOk+VRWZE=
+P:libvalkey-dev
+V:0.5.0-r0
+A:armhf
+S:322598
+I:794056
+T:Valkey client library in C (development files)
+U:https://github.com/valkey-io/libvalkey
+L:BSD-3-Clause
+o:libvalkey
+m:Jakub Jirutka <jakub@jirutka.cz>
+t:1781038588
+c:801a33eb0b3e33c319ef093759982ee43b47d44a
+D:libvalkey-tls=0.5.0-r0 libvalkey=0.5.0-r0 pkgconfig
+p:pc:valkey=0 pc:valkey_tls=0
+
+C:Q1Dk5CMr62w0bKdnknfZltfM50MWs=
+P:libvalkey-tls
+V:0.5.0-r0
+A:armhf
+S:6154
+I:13580
+T:Valkey client library in C (TLS support)
+U:https://github.com/valkey-io/libvalkey
+L:BSD-3-Clause
+o:libvalkey
+m:Jakub Jirutka <jakub@jirutka.cz>
+t:1781038588
+c:801a33eb0b3e33c319ef093759982ee43b47d44a
+D:so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libssl.so.3 so:libvalkey.so.0
+p:so:libvalkey_tls.so.0=0.5.0
+
 C:Q1yb8GtMomAC842+Huz9xnFoduM8o=
 P:libvarlink
 V:24.0.1-r0

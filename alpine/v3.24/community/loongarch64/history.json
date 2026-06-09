@@ -90169,17 +90169,19 @@
     "java-jna": {
       "origin": "java-jna",
       "versions": {
-        "5.15.0-r0": 1731764150
+        "5.15.0-r0": 1731764150,
+        "5.15.0-r1": 1781038298
       },
       "dependencies": [
         "java-jre-headless",
-        "java-jna-native=5.15.0-r0"
+        "java-jna-native=5.15.0-r1"
       ]
     },
     "java-jna-native": {
       "origin": "java-jna",
       "versions": {
-        "5.15.0-r0": 1731764150
+        "5.15.0-r0": 1731764150,
+        "5.15.0-r1": 1781038298
       },
       "dependencies": [
         "java-jre-headless",
@@ -206622,7 +206624,8 @@
     "py3-ldap": {
       "origin": "py3-ldap",
       "versions": {
-        "3.4.5-r1": 1774640397
+        "3.4.5-r1": 1774640397,
+        "3.4.7-r0": 1781038306
       },
       "dependencies": [
         "py3-asn1",
@@ -206633,17 +206636,18 @@
         "so:libldap.so.2"
       ],
       "provides": [
-        "py3-pyldap=3.4.5-r1",
-        "py3.14:ldap=3.4.5-r1",
-        "py3.14:ldapurl=3.4.5-r1",
-        "py3.14:ldif=3.4.5-r1",
-        "py3.14:slapdtest=3.4.5-r1"
+        "py3-pyldap=3.4.7-r0",
+        "py3.14:ldap=3.4.7-r0",
+        "py3.14:ldapurl=3.4.7-r0",
+        "py3.14:ldif=3.4.7-r0",
+        "py3.14:slapdtest=3.4.7-r0"
       ]
     },
     "py3-ldap-pyc": {
       "origin": "py3-ldap",
       "versions": {
-        "3.4.5-r1": 1774640397
+        "3.4.5-r1": 1774640397,
+        "3.4.7-r0": 1781038306
       },
       "dependencies": [
         "python3~3.14"
@@ -286067,6 +286071,48 @@
       "dependencies": [
         "python3~3.14"
       ]
+    },
+    "libvalkey": {
+      "origin": "libvalkey",
+      "versions": {
+        "0.5.0-r0": 1781038588
+      },
+      "dependencies": [
+        "so:libc.musl-loongarch64.so.1"
+      ],
+      "provides": [
+        "so:libvalkey.so.0=0.5.0"
+      ]
+    },
+    "libvalkey-dev": {
+      "origin": "libvalkey",
+      "versions": {
+        "0.5.0-r0": 1781038588
+      },
+      "dependencies": [
+        "libvalkey-tls=0.5.0-r0",
+        "libvalkey=0.5.0-r0",
+        "pkgconfig"
+      ],
+      "provides": [
+        "pc:valkey=0",
+        "pc:valkey_tls=0"
+      ]
+    },
+    "libvalkey-tls": {
+      "origin": "libvalkey",
+      "versions": {
+        "0.5.0-r0": 1781038588
+      },
+      "dependencies": [
+        "so:libc.musl-loongarch64.so.1",
+        "so:libcrypto.so.3",
+        "so:libssl.so.3",
+        "so:libvalkey.so.0"
+      ],
+      "provides": [
+        "so:libvalkey_tls.so.0=0.5.0"
+      ]
     }
   },
   "provide": {
@@ -310134,6 +310180,14 @@
       "libtorrent.so.42": {
         "package": "libtorrent",
         "version": "42.0.0"
+      },
+      "libvalkey.so.0": {
+        "package": "libvalkey",
+        "version": "0.5.0"
+      },
+      "libvalkey_tls.so.0": {
+        "package": "libvalkey-tls",
+        "version": "0.5.0"
       }
     },
     "package": {
@@ -312939,7 +312993,7 @@
       },
       "py3-pyldap": {
         "package": "py3-ldap",
-        "version": "3.4.5-r1"
+        "version": "3.4.7-r0"
       },
       "py-ldap3": {
         "package": "py3-ldap3",

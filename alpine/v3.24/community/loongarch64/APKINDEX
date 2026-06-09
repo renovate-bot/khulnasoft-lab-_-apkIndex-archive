@@ -95194,34 +95194,34 @@ c:d178ab4982ad3b90af04854c42b4d1ef633969c7
 D:so:libc.musl-loongarch64.so.1
 p:so:libjffi-1.2.so=0
 
-C:Q1myN/4akoUwIs6z2rRJ02t3W6Aeg=
+C:Q1hNyT0dXDN4FhHAjCa4PUdi++w4Y=
 P:java-jna
-V:5.15.0-r0
+V:5.15.0-r1
 A:loongarch64
-S:189052
-I:200003
+S:1364096
+I:1576749
 T:JNA provides Java programs easy access to native shared libraries.
 U:https://github.com/java-native-access/jna
 L:Apache-2.0 LGPL-2.1
 o:java-jna
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1731764150
-c:e16ccb13e5f87c6461aae2907b5308ad6225802e
-D:java-jre-headless java-jna-native=5.15.0-r0
+t:1781038298
+c:4122889df1532b90072f17867e24312379555b7a
+D:java-jre-headless java-jna-native=5.15.0-r1
 
-C:Q1+A7yOlIJ3wDhgGufC/13VNQGXEY=
+C:Q1bQYYmBGXRRob3Qh2LNq7wVXiJVg=
 P:java-jna-native
-V:5.15.0-r0
+V:5.15.0-r1
 A:loongarch64
-S:35094
+S:35095
 I:133320
 T:JNA provides Java programs easy access to native shared libraries.
 U:https://github.com/java-native-access/jna
 L:Apache-2.0 LGPL-2.1
 o:java-jna
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1731764150
-c:e16ccb13e5f87c6461aae2907b5308ad6225802e
+t:1781038298
+c:4122889df1532b90072f17867e24312379555b7a
 D:java-jre-headless so:libc.musl-loongarch64.so.1 so:libffi.so.8
 p:so:/home/buildozer/aports/community/java-jna/src/jna-5.15.0/build/native-linux-loongarch64/libjnidispatch.so=5.1.0
 
@@ -136185,6 +136185,54 @@ o:libva-vdpau-driver
 t:1732312200
 c:8cd6f2bc8f9abeb4b3d2a74a41f77f44f978a3a8
 D:so:libX11.so.6 so:libc.musl-loongarch64.so.1 so:libvdpau.so.1
+
+C:Q1xjfjSQ8MzqW6KmBVfK1AEB5ZZP8=
+P:libvalkey
+V:0.5.0-r0
+A:loongarch64
+S:65881
+I:212888
+T:Valkey client library in C
+U:https://github.com/valkey-io/libvalkey
+L:BSD-3-Clause
+o:libvalkey
+m:Jakub Jirutka <jakub@jirutka.cz>
+t:1781038588
+c:801a33eb0b3e33c319ef093759982ee43b47d44a
+D:so:libc.musl-loongarch64.so.1
+p:so:libvalkey.so.0=0.5.0
+
+C:Q1wCPrkbhiRJ61s6mNwozlOH+SFK8=
+P:libvalkey-dev
+V:0.5.0-r0
+A:loongarch64
+S:809380
+I:4544520
+T:Valkey client library in C (development files)
+U:https://github.com/valkey-io/libvalkey
+L:BSD-3-Clause
+o:libvalkey
+m:Jakub Jirutka <jakub@jirutka.cz>
+t:1781038588
+c:801a33eb0b3e33c319ef093759982ee43b47d44a
+D:libvalkey-tls=0.5.0-r0 libvalkey=0.5.0-r0 pkgconfig
+p:pc:valkey=0 pc:valkey_tls=0
+
+C:Q15cBrAzgr1fxIKKLIQjY4PS3UDDg=
+P:libvalkey-tls
+V:0.5.0-r0
+A:loongarch64
+S:6921
+I:67408
+T:Valkey client library in C (TLS support)
+U:https://github.com/valkey-io/libvalkey
+L:BSD-3-Clause
+o:libvalkey
+m:Jakub Jirutka <jakub@jirutka.cz>
+t:1781038588
+c:801a33eb0b3e33c319ef093759982ee43b47d44a
+D:so:libc.musl-loongarch64.so.1 so:libcrypto.so.3 so:libssl.so.3 so:libvalkey.so.0
+p:so:libvalkey_tls.so.0=0.5.0
 
 C:Q17ppNM6QBdySZ9greFF/hdzeAnyc=
 P:libvarlink
@@ -233910,37 +233958,37 @@ c:2bcd82da0f8a7c06765fa7ca48afafbdfdfddfe5
 D:python3~3.14
 i:py3-lazy=1.6-r2 pyc
 
-C:Q1OqjvdbH9dnaLKzIE3foyJs1u1wk=
+C:Q1KY7YFYg30reFK4m1GITMs51eRno=
 P:py3-ldap
-V:3.4.5-r1
+V:3.4.7-r0
 A:loongarch64
-S:105870
-I:345870
+S:108910
+I:348797
 T:Python modules for implementing LDAP clients
 U:https://github.com/python-ldap/python-ldap
 L:Python-2.0 AND MIT
 o:py3-ldap
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1774640397
-c:2816b407c47efd2ddbd72e50806b39912aa75deb
+t:1781038306
+c:4b3d00d85e2616b79599a4e61eeb68170c5e41c1
 D:py3-asn1 py3-asn1-modules python3~3.14 so:libc.musl-loongarch64.so.1 so:liblber.so.2 so:libldap.so.2
-p:py3-pyldap=3.4.5-r1 py3.14:ldap=3.4.5-r1 py3.14:ldapurl=3.4.5-r1 py3.14:ldif=3.4.5-r1 py3.14:slapdtest=3.4.5-r1
+p:py3-pyldap=3.4.7-r0 py3.14:ldap=3.4.7-r0 py3.14:ldapurl=3.4.7-r0 py3.14:ldif=3.4.7-r0 py3.14:slapdtest=3.4.7-r0
 
-C:Q1QPn9/jn2urlmpVn+OadOHCGcmeA=
+C:Q1743d5Rxt9N0DYzGq/7J/wE9oqD8=
 P:py3-ldap-pyc
-V:3.4.5-r1
+V:3.4.7-r0
 A:loongarch64
-S:177691
-I:708714
+S:138409
+I:353169
 T:Precompiled Python bytecode for py3-ldap
 U:https://github.com/python-ldap/python-ldap
 L:Python-2.0 AND MIT
 o:py3-ldap
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1774640397
-c:2816b407c47efd2ddbd72e50806b39912aa75deb
+t:1781038306
+c:4b3d00d85e2616b79599a4e61eeb68170c5e41c1
 D:python3~3.14
-i:py3-ldap=3.4.5-r1 pyc
+i:py3-ldap=3.4.7-r0 pyc
 
 C:Q1eynstCoyTfSROrrTOMG4vM9U0L4=
 P:py3-ldap3
