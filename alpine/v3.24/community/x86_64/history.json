@@ -32815,14 +32815,15 @@
     "convfmt": {
       "origin": "convfmt",
       "versions": {
-        "1.2.1-r0": 1769045077
+        "1.2.1-r0": 1769045077,
+        "2.1.0-r0": 1781036007
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:convfmt=1.2.1-r0"
+        "cmd:convfmt=2.1.0-r0"
       ]
     },
     "cool-retro-term": {
@@ -88531,7 +88532,8 @@
     "heif-thumbnailer": {
       "origin": "libheif",
       "versions": {
-        "1.21.2-r3": 1776928018
+        "1.21.2-r3": 1776928018,
+        "1.23.0-r0": 1781036064
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -88541,7 +88543,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:heif-thumbnailer=1.21.2-r3"
+        "cmd:heif-thumbnailer=1.23.0-r0"
       ]
     },
     "heimdall": {
@@ -96062,17 +96064,19 @@
     "java-jna": {
       "origin": "java-jna",
       "versions": {
-        "5.15.0-r0": 1731764150
+        "5.15.0-r0": 1731764150,
+        "5.15.0-r1": 1781038298
       },
       "dependencies": [
         "java-jre-headless",
-        "java-jna-native=5.15.0-r0"
+        "java-jna-native=5.15.0-r1"
       ]
     },
     "java-jna-native": {
       "origin": "java-jna",
       "versions": {
-        "5.15.0-r0": 1731764150
+        "5.15.0-r0": 1731764150,
+        "5.15.0-r1": 1781038298
       },
       "dependencies": [
         "java-jre-headless",
@@ -122632,7 +122636,8 @@
     "libheif": {
       "origin": "libheif",
       "versions": {
-        "1.21.2-r3": 1776928018
+        "1.21.2-r3": 1776928018,
+        "1.23.0-r0": 1781036064
       },
       "dependencies": [
         "libheif-dav1d",
@@ -122644,16 +122649,17 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libheif.so.1=1.21.2"
+        "so:libheif.so.1=1.23.0"
       ]
     },
     "libheif-aom": {
       "origin": "libheif",
       "versions": {
-        "1.21.2-r3": 1776928018
+        "1.21.2-r3": 1776928018,
+        "1.23.0-r0": 1781036064
       },
       "dependencies": [
-        "libheif=1.21.2-r3",
+        "libheif=1.23.0-r0",
         "so:libaom.so.3",
         "so:libc.musl-x86_64.so.1",
         "so:libgcc_s.so.1",
@@ -122661,17 +122667,18 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "libheif-aomdec=1.21.2-r3",
-        "libheif-aomenc=1.21.2-r3"
+        "libheif-aomdec=1.23.0-r0",
+        "libheif-aomenc=1.23.0-r0"
       ]
     },
     "libheif-dav1d": {
       "origin": "libheif",
       "versions": {
-        "1.21.2-r3": 1776928018
+        "1.21.2-r3": 1776928018,
+        "1.23.0-r0": 1781036064
       },
       "dependencies": [
-        "libheif=1.21.2-r3",
+        "libheif=1.23.0-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libdav1d.so.7",
         "so:libgcc_s.so.1",
@@ -122682,30 +122689,33 @@
     "libheif-dev": {
       "origin": "libheif",
       "versions": {
-        "1.21.2-r3": 1776928018
+        "1.21.2-r3": 1776928018,
+        "1.23.0-r0": 1781036064
       },
       "dependencies": [
-        "libheif=1.21.2-r3",
+        "libheif=1.23.0-r0",
         "pc:libsharpyuv",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libheif=1.21.2"
+        "pc:libheif=1.23.0"
       ]
     },
     "libheif-doc": {
       "origin": "libheif",
       "versions": {
-        "1.21.2-r3": 1776928018
+        "1.21.2-r3": 1776928018,
+        "1.23.0-r0": 1781036064
       }
     },
     "libheif-ffmpeg": {
       "origin": "libheif",
       "versions": {
-        "1.21.2-r3": 1776928018
+        "1.21.2-r3": 1776928018,
+        "1.23.0-r0": 1781036064
       },
       "dependencies": [
-        "libheif=1.21.2-r3",
+        "libheif=1.23.0-r0",
         "so:libavcodec.so.62",
         "so:libavutil.so.60",
         "so:libc.musl-x86_64.so.1",
@@ -122714,33 +122724,35 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "libheif-ffmpegdec=1.21.2-r3"
+        "libheif-ffmpegdec=1.23.0-r0"
       ]
     },
     "libheif-jpeg": {
       "origin": "libheif",
       "versions": {
-        "1.21.2-r3": 1776928018
+        "1.21.2-r3": 1776928018,
+        "1.23.0-r0": 1781036064
       },
       "dependencies": [
-        "libheif=1.21.2-r3",
+        "libheif=1.23.0-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libheif.so.1",
         "so:libjpeg.so.8",
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "libheif-jpegdec=1.21.2-r3",
-        "libheif-jpegenc=1.21.2-r3"
+        "libheif-jpegdec=1.23.0-r0",
+        "libheif-jpegenc=1.23.0-r0"
       ]
     },
     "libheif-libde265": {
       "origin": "libheif",
       "versions": {
-        "1.21.2-r3": 1776928018
+        "1.21.2-r3": 1776928018,
+        "1.23.0-r0": 1781036064
       },
       "dependencies": [
-        "libheif=1.21.2-r3",
+        "libheif=1.23.0-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libde265.so.0",
         "so:libgcc_s.so.1",
@@ -122751,10 +122763,11 @@
     "libheif-openh264": {
       "origin": "libheif",
       "versions": {
-        "1.21.2-r3": 1776928018
+        "1.21.2-r3": 1776928018,
+        "1.23.0-r0": 1781036064
       },
       "dependencies": [
-        "libheif=1.21.2-r3",
+        "libheif=1.23.0-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libgcc_s.so.1",
         "so:libheif.so.1",
@@ -122762,16 +122775,17 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "libheif-openh264dec=1.21.2-r3"
+        "libheif-openh264dec=1.23.0-r0"
       ]
     },
     "libheif-openjpeg": {
       "origin": "libheif",
       "versions": {
-        "1.21.2-r3": 1776928018
+        "1.21.2-r3": 1776928018,
+        "1.23.0-r0": 1781036064
       },
       "dependencies": [
-        "libheif=1.21.2-r3",
+        "libheif=1.23.0-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libgcc_s.so.1",
         "so:libheif.so.1",
@@ -122779,14 +122793,15 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "libheif-j2kdec=1.21.2-r3",
-        "libheif-j2kenc=1.21.2-r3"
+        "libheif-j2kdec=1.23.0-r0",
+        "libheif-j2kenc=1.23.0-r0"
       ]
     },
     "libheif-plugins-all": {
       "origin": "libheif",
       "versions": {
-        "1.21.2-r3": 1776928018
+        "1.21.2-r3": 1776928018,
+        "1.23.0-r0": 1781036064
       },
       "dependencies": [
         "libheif-aom",
@@ -122805,10 +122820,11 @@
     "libheif-rav1e": {
       "origin": "libheif",
       "versions": {
-        "1.21.2-r3": 1776928018
+        "1.21.2-r3": 1776928018,
+        "1.23.0-r0": 1781036064
       },
       "dependencies": [
-        "libheif=1.21.2-r3",
+        "libheif=1.23.0-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libgcc_s.so.1",
         "so:libheif.so.1",
@@ -122819,10 +122835,11 @@
     "libheif-svtenc": {
       "origin": "libheif",
       "versions": {
-        "1.21.2-r3": 1776928018
+        "1.21.2-r3": 1776928018,
+        "1.23.0-r0": 1781036064
       },
       "dependencies": [
-        "libheif=1.21.2-r3",
+        "libheif=1.23.0-r0",
         "so:libSvtAv1Enc.so.4",
         "so:libc.musl-x86_64.so.1",
         "so:libgcc_s.so.1",
@@ -122833,31 +122850,35 @@
     "libheif-tools": {
       "origin": "libheif",
       "versions": {
-        "1.21.2-r3": 1776928018
+        "1.21.2-r3": 1776928018,
+        "1.23.0-r0": 1781036064
       },
       "dependencies": [
-        "heif-thumbnailer=1.21.2-r3",
+        "heif-thumbnailer=1.23.0-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libgcc_s.so.1",
         "so:libheif.so.1",
         "so:libjpeg.so.8",
         "so:libpng16.so.16",
-        "so:libstdc++.so.6"
+        "so:libstdc++.so.6",
+        "so:libwebp.so.7",
+        "so:libwebpmux.so.3"
       ],
       "provides": [
-        "cmd:heif-convert=1.21.2-r3",
-        "cmd:heif-dec=1.21.2-r3",
-        "cmd:heif-enc=1.21.2-r3",
-        "cmd:heif-info=1.21.2-r3"
+        "cmd:heif-convert=1.23.0-r0",
+        "cmd:heif-dec=1.23.0-r0",
+        "cmd:heif-enc=1.23.0-r0",
+        "cmd:heif-info=1.23.0-r0"
       ]
     },
     "libheif-x264": {
       "origin": "libheif",
       "versions": {
-        "1.21.2-r3": 1776928018
+        "1.21.2-r3": 1776928018,
+        "1.23.0-r0": 1781036064
       },
       "dependencies": [
-        "libheif=1.21.2-r3",
+        "libheif=1.23.0-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libgcc_s.so.1",
         "so:libheif.so.1",
@@ -122868,10 +122889,11 @@
     "libheif-x265": {
       "origin": "libheif",
       "versions": {
-        "1.21.2-r3": 1776928018
+        "1.21.2-r3": 1776928018,
+        "1.23.0-r0": 1781036064
       },
       "dependencies": [
-        "libheif=1.21.2-r3",
+        "libheif=1.23.0-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libgcc_s.so.1",
         "so:libheif.so.1",
@@ -135889,7 +135911,8 @@
     "libtorrent": {
       "origin": "libtorrent",
       "versions": {
-        "0.16.5-r0": 1766437011
+        "0.16.5-r0": 1766437011,
+        "0.16.12-r0": 1781036017
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -135900,22 +135923,23 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libtorrent.so.35=35.0.0"
+        "so:libtorrent.so.42=42.0.0"
       ]
     },
     "libtorrent-dev": {
       "origin": "libtorrent",
       "versions": {
-        "0.16.5-r0": 1766437011
+        "0.16.5-r0": 1766437011,
+        "0.16.12-r0": 1781036017
       },
       "dependencies": [
-        "libtorrent=0.16.5-r0",
+        "libtorrent=0.16.12-r0",
         "pc:libcrypto",
         "pc:zlib",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libtorrent=0.16.5"
+        "pc:libtorrent=0.16.12"
       ]
     },
     "libtorrent-rasterbar": {
@@ -232305,14 +232329,13 @@
     "py3-google-auth": {
       "origin": "py3-google-auth",
       "versions": {
-        "2.48.0-r0": 1774640363
+        "2.48.0-r0": 1774640363,
+        "2.48.0-r1": 1781036000
       },
       "dependencies": [
         "py3-asn1-modules",
-        "py3-cachetools",
         "py3-cryptography",
         "py3-rsa",
-        "py3-six",
         "python3",
         "python3~3.14"
       ]
@@ -232343,7 +232366,8 @@
     "py3-google-auth-pyc": {
       "origin": "py3-google-auth",
       "versions": {
-        "2.48.0-r0": 1774640363
+        "2.48.0-r0": 1774640363,
+        "2.48.0-r1": 1781036000
       },
       "dependencies": [
         "python3~3.14"
@@ -236330,7 +236354,8 @@
     "py3-ldap": {
       "origin": "py3-ldap",
       "versions": {
-        "3.4.5-r1": 1774640397
+        "3.4.5-r1": 1774640397,
+        "3.4.7-r0": 1781038306
       },
       "dependencies": [
         "py3-asn1",
@@ -236341,17 +236366,18 @@
         "so:libldap.so.2"
       ],
       "provides": [
-        "py3-pyldap=3.4.5-r1",
-        "py3.14:ldap=3.4.5-r1",
-        "py3.14:ldapurl=3.4.5-r1",
-        "py3.14:ldif=3.4.5-r1",
-        "py3.14:slapdtest=3.4.5-r1"
+        "py3-pyldap=3.4.7-r0",
+        "py3.14:ldap=3.4.7-r0",
+        "py3.14:ldapurl=3.4.7-r0",
+        "py3.14:ldif=3.4.7-r0",
+        "py3.14:slapdtest=3.4.7-r0"
       ]
     },
     "py3-ldap-pyc": {
       "origin": "py3-ldap",
       "versions": {
-        "3.4.5-r1": 1774640397
+        "3.4.5-r1": 1774640397,
+        "3.4.7-r0": 1781038306
       },
       "dependencies": [
         "python3~3.14"
@@ -264959,7 +264985,8 @@
     "racket": {
       "origin": "racket",
       "versions": {
-        "9.1-r0": 1772321329
+        "9.1-r0": 1772321329,
+        "9.2-r0": 1781035991
       },
       "dependencies": [
         "ca-certificates",
@@ -264971,30 +264998,33 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:racket=9.1-r0",
-        "cmd:raco=9.1-r0"
+        "cmd:racket=9.2-r0",
+        "cmd:raco=9.2-r0"
       ]
     },
     "racket-dbg": {
       "origin": "racket",
       "versions": {
-        "9.1-r0": 1772321329
+        "9.1-r0": 1772321329,
+        "9.2-r0": 1781035991
       },
       "dependencies": [
-        "!racket<9.1-r0",
-        "!racket>9.1-r0"
+        "!racket<9.2-r0",
+        "!racket>9.2-r0"
       ]
     },
     "racket-dev": {
       "origin": "racket",
       "versions": {
-        "9.1-r0": 1772321329
+        "9.1-r0": 1772321329,
+        "9.2-r0": 1781035991
       }
     },
     "racket-doc": {
       "origin": "racket",
       "versions": {
-        "9.1-r0": 1772321329
+        "9.1-r0": 1772321329,
+        "9.2-r0": 1781035991
       }
     },
     "racksdb": {
@@ -272767,7 +272797,8 @@
     "rtorrent": {
       "origin": "rtorrent",
       "versions": {
-        "0.16.5-r0": 1766437011
+        "0.16.5-r0": 1766437011,
+        "0.16.12-r0": 1781036017
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -272775,16 +272806,18 @@
         "so:liblua-5.4.so.0",
         "so:libncursesw.so.6",
         "so:libstdc++.so.6",
-        "so:libtorrent.so.35"
+        "so:libtorrent.so.42",
+        "so:libz.so.1"
       ],
       "provides": [
-        "cmd:rtorrent=0.16.5-r0"
+        "cmd:rtorrent=0.16.12-r0"
       ]
     },
     "rtorrent-doc": {
       "origin": "rtorrent",
       "versions": {
-        "0.16.5-r0": 1766437011
+        "0.16.5-r0": 1766437011,
+        "0.16.12-r0": 1781036017
       }
     },
     "rtpengine": {
@@ -334797,7 +334830,7 @@
       },
       "libheif.so.1": {
         "package": "libheif",
-        "version": "1.21.2"
+        "version": "1.23.0"
       },
       "libhwy.so.1": {
         "package": "libhwy",
@@ -346330,6 +346363,10 @@
       "llama.cpp:libllama-server-impl.so": {
         "package": "llama.cpp",
         "version": "0"
+      },
+      "libtorrent.so.42": {
+        "package": "libtorrent",
+        "version": "42.0.0"
       }
     },
     "package": {
@@ -347251,35 +347288,35 @@
       },
       "libheif-aomdec": {
         "package": "libheif-aom",
-        "version": "1.21.2-r3"
+        "version": "1.23.0-r0"
       },
       "libheif-aomenc": {
         "package": "libheif-aom",
-        "version": "1.21.2-r3"
+        "version": "1.23.0-r0"
       },
       "libheif-ffmpegdec": {
         "package": "libheif-ffmpeg",
-        "version": "1.21.2-r3"
+        "version": "1.23.0-r0"
       },
       "libheif-jpegdec": {
         "package": "libheif-jpeg",
-        "version": "1.21.2-r3"
+        "version": "1.23.0-r0"
       },
       "libheif-jpegenc": {
         "package": "libheif-jpeg",
-        "version": "1.21.2-r3"
+        "version": "1.23.0-r0"
       },
       "libheif-openh264dec": {
         "package": "libheif-openh264",
-        "version": "1.21.2-r3"
+        "version": "1.23.0-r0"
       },
       "libheif-j2kdec": {
         "package": "libheif-openjpeg",
-        "version": "1.21.2-r3"
+        "version": "1.23.0-r0"
       },
       "libheif-j2kenc": {
         "package": "libheif-openjpeg",
-        "version": "1.21.2-r3"
+        "version": "1.23.0-r0"
       },
       "kiwix-lib": {
         "package": "libkiwix",
@@ -349251,7 +349288,7 @@
       },
       "py3-pyldap": {
         "package": "py3-ldap",
-        "version": "3.4.5-r1"
+        "version": "3.4.7-r0"
       },
       "py-ldap3": {
         "package": "py3-ldap3",
