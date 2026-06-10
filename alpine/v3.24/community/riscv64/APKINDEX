@@ -33808,21 +33808,21 @@ t:1757026733
 c:2b9df01bba02bb91b4f30c349de313ed271236af
 i:docs containers-common=0.64.2-r0
 
-C:Q1C0ofLRh59BXS9DPCodYcnW1rH6Y=
+C:Q1+yWJ4bnNGOefJdTBaCEtYyAIauo=
 P:convfmt
-V:1.2.1-r0
+V:2.1.0-r0
 A:riscv64
-S:1182527
-I:2537728
+S:1289628
+I:2758832
 T:CLI tool which can convert between JSON, YAML, TOML etc.
 U:https://github.com/oriontvv/convfmt
 L:Apache-2.0
 o:convfmt
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1769045077
-c:b47ef3aee7618ff37efb4dccff070645cc55ba2a
+t:1781036007
+c:3daf4b2074fca4a450c698d7f561d03f2efdb14e
 D:so:libc.musl-riscv64.so.1 so:libgcc_s.so.1
-p:cmd:convfmt=1.2.1-r0
+p:cmd:convfmt=2.1.0-r0
 
 C:Q1Ubo/fn9mWE8FdLxp3EWZSiY5ZAE=
 P:cool-retro-term
@@ -85682,21 +85682,21 @@ c:6742f5a0c5bc38102ffc9827339711138a759809
 D:ffmpeg gst-plugins-bad gst-plugins-base gst-plugins-good yt-dlp so:libadwaita-1.so.0 so:libc.musl-riscv64.so.1 so:libcairo.so.2 so:libcairomm-1.16.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgcc_s.so.1 so:libgio-2.0.so.0 so:libgiomm-2.68.so.1 so:libglib-2.0.so.0 so:libglibmm-2.68.so.1 so:libgobject-2.0.so.0 so:libgtk-4.so.1 so:libgtkmm-4.0.so.0 so:libjsoncpp.so.26 so:libmicrohttpd.so.12 so:libpangomm-2.48.so.1 so:libsecret-1.so.0 so:libsigc-3.0.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libxml2.so.2
 p:cmd:headlines=0.7.2-r10
 
-C:Q1Qx9K8P8pRr1x8nAJBMrnFFXiroQ=
+C:Q1dddUPTeB0uOackPOGmUjGPIY37w=
 P:heif-thumbnailer
-V:1.21.2-r3
+V:1.23.0-r0
 A:riscv64
-S:10837
-I:22576
+S:11287
+I:26672
 T:ISO/IEC 23008-12:2017 HEIF file format decoder and encoder (thumbnailer)
 U:https://www.libde265.org/
 L:LGPL-3.0-or-later
 o:libheif
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1776928018
-c:133598dd20f3da02ed2ccaf87a74aa401684f9ed
+t:1781036064
+c:67776d4983526735866f12662cff4f1531f54d3f
 D:so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:libpng16.so.16 so:libstdc++.so.6
-p:cmd:heif-thumbnailer=1.21.2-r3
+p:cmd:heif-thumbnailer=1.23.0-r0
 
 C:Q19yM3ePuuj6gEo+nPk7MiigK+SkA=
 P:heimdall
@@ -94096,6 +94096,37 @@ t:1768307489
 c:9e8244520e4732d6d8e63abca291c1d02802eed5
 D:/bin/sh
 p:cmd:java=1.0-r2
+
+C:Q1OJscNtbIFniKE7c8olaiIKxhAYQ=
+P:java-jna
+V:5.15.0-r1
+A:riscv64
+S:1363437
+I:1576741
+T:JNA provides Java programs easy access to native shared libraries.
+U:https://github.com/java-native-access/jna
+L:Apache-2.0 LGPL-2.1
+o:java-jna
+m:Jakub Jirutka <jakub@jirutka.cz>
+t:1781038298
+c:4122889df1532b90072f17867e24312379555b7a
+D:java-jre-headless java-jna-native=5.15.0-r1
+
+C:Q1Z0i7vk5yXqCoCj8j3xV24FNVJ6E=
+P:java-jna-native
+V:5.15.0-r1
+A:riscv64
+S:34583
+I:80200
+T:JNA provides Java programs easy access to native shared libraries.
+U:https://github.com/java-native-access/jna
+L:Apache-2.0 LGPL-2.1
+o:java-jna
+m:Jakub Jirutka <jakub@jirutka.cz>
+t:1781038298
+c:4122889df1532b90072f17867e24312379555b7a
+D:java-jre-headless so:libc.musl-riscv64.so.1 so:libffi.so.8
+p:so:/home/buildozer/aports/community/java-jna/src/jna-5.15.0/build/native-linux-riscv64/libjnidispatch.so=5.1.0
 
 C:Q1XRm2rhJXofNsgXcy/E+r8Icn8F8=
 P:java-postgresql-jdbc
@@ -119800,262 +119831,262 @@ c:074efcd0bd16d16f122db94d1f260b6b5b04b99a
 D:so:libc.musl-riscv64.so.1
 p:so:libhdhomerun.so=0
 
-C:Q1wfjvX0u2X6K3yHf+WpGnqNtiauI=
+C:Q1z5tW9H7cOzJ0dc9wmL27Nby+Uy8=
 P:libheif
-V:1.21.2-r3
+V:1.23.0-r0
 A:riscv64
-S:598948
-I:1227039
+S:694527
+I:1399103
 T:ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
 U:https://www.libde265.org/
 L:LGPL-3.0-or-later
 o:libheif
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1776928018
-c:133598dd20f3da02ed2ccaf87a74aa401684f9ed
+t:1781036064
+c:67776d4983526735866f12662cff4f1531f54d3f
 D:libheif-dav1d libheif-libde265 /bin/sh so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libsharpyuv.so.0 so:libstdc++.so.6
-p:so:libheif.so.1=1.21.2
+p:so:libheif.so.1=1.23.0
 
-C:Q1lxEkrUIbbrHPDVrupOAPXvJ2c9I=
+C:Q1u31sdoSBXBGxy69DfD4veSpm88o=
 P:libheif-aom
-V:1.21.2-r3
+V:1.23.0-r0
 A:riscv64
-S:22192
-I:45048
+S:22933
+I:49144
 T:libheif AVIF/AV1 encoder and decoder plugins using libaom
 U:https://www.libde265.org/
 L:LGPL-3.0-or-later
 o:libheif
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1776928018
-c:133598dd20f3da02ed2ccaf87a74aa401684f9ed
-D:libheif=1.21.2-r3 so:libaom.so.3 so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:libstdc++.so.6
-p:libheif-aomdec=1.21.2-r3 libheif-aomenc=1.21.2-r3
-i:libheif=1.21.2-r3 aom-libs
+t:1781036064
+c:67776d4983526735866f12662cff4f1531f54d3f
+D:libheif=1.23.0-r0 so:libaom.so.3 so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:libstdc++.so.6
+p:libheif-aomdec=1.23.0-r0 libheif-aomenc=1.23.0-r0
+i:libheif=1.23.0-r0 aom-libs
 
-C:Q1PoHrhqFCmILvN2M3oCNitnr5xvw=
+C:Q1Bfmdj/7yAb4bUU2Tth0ifJNHSSQ=
 P:libheif-dav1d
-V:1.21.2-r3
+V:1.23.0-r0
 A:riscv64
-S:8096
+S:8193
 I:14336
 T:libheif AVIF/AV1 decoder plugin using dav1d
 U:https://www.libde265.org/
 L:LGPL-3.0-or-later
 o:libheif
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1776928018
-c:133598dd20f3da02ed2ccaf87a74aa401684f9ed
-D:libheif=1.21.2-r3 so:libc.musl-riscv64.so.1 so:libdav1d.so.7 so:libgcc_s.so.1 so:libheif.so.1 so:libstdc++.so.6
+t:1781036064
+c:67776d4983526735866f12662cff4f1531f54d3f
+D:libheif=1.23.0-r0 so:libc.musl-riscv64.so.1 so:libdav1d.so.7 so:libgcc_s.so.1 so:libheif.so.1 so:libstdc++.so.6
 
-C:Q1apa/Xje9gIeVxauyeSTaw61L1vI=
+C:Q1H60YNAIs3L5QNSCDhriMusix3Yo=
 P:libheif-dev
-V:1.21.2-r3
+V:1.23.0-r0
 A:riscv64
-S:58804
-I:284857
+S:71158
+I:335903
 T:ISO/IEC 23008-12:2017 HEIF file format decoder and encoder (development files)
 U:https://www.libde265.org/
 L:LGPL-3.0-or-later
 o:libheif
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1776928018
-c:133598dd20f3da02ed2ccaf87a74aa401684f9ed
-D:libheif=1.21.2-r3 pc:libsharpyuv pkgconfig
-p:pc:libheif=1.21.2
+t:1781036064
+c:67776d4983526735866f12662cff4f1531f54d3f
+D:libheif=1.23.0-r0 pc:libsharpyuv pkgconfig
+p:pc:libheif=1.23.0
 
-C:Q1itB/nzaymNYZjHNo4aXHn8sotis=
+C:Q1VupczznUcJHCQ/j0vAieaopaZa8=
 P:libheif-doc
-V:1.21.2-r3
+V:1.23.0-r0
 A:riscv64
-S:4421
+S:4412
 I:2670
 T:ISO/IEC 23008-12:2017 HEIF file format decoder and encoder (documentation)
 U:https://www.libde265.org/
 L:LGPL-3.0-or-later
 o:libheif
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1776928018
-c:133598dd20f3da02ed2ccaf87a74aa401684f9ed
-i:docs libheif=1.21.2-r3
+t:1781036064
+c:67776d4983526735866f12662cff4f1531f54d3f
+i:docs libheif=1.23.0-r0
 
-C:Q1gWyyY0OtBQ4J8DkWHTw7LLsx/0U=
+C:Q1aRGSbEhs+ElrclobOg6BEx2lsAs=
 P:libheif-ffmpeg
-V:1.21.2-r3
+V:1.23.0-r0
 A:riscv64
-S:10719
+S:10760
 I:22528
 T:libheif HEVC (H.265) and AVC (H.264) decoder plugin using FFmpeg
 U:https://www.libde265.org/
 L:LGPL-3.0-or-later
 o:libheif
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1776928018
-c:133598dd20f3da02ed2ccaf87a74aa401684f9ed
-D:libheif=1.21.2-r3 so:libavcodec.so.62 so:libavutil.so.60 so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:libstdc++.so.6
-p:libheif-ffmpegdec=1.21.2-r3
-i:libheif=1.21.2-r3 ffmpeg-libavcodec
+t:1781036064
+c:67776d4983526735866f12662cff4f1531f54d3f
+D:libheif=1.23.0-r0 so:libavcodec.so.62 so:libavutil.so.60 so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:libstdc++.so.6
+p:libheif-ffmpegdec=1.23.0-r0
+i:libheif=1.23.0-r0 ffmpeg-libavcodec
 
-C:Q1m1VfvPJMD89AAf0ScorWl+Aj7KM=
+C:Q1+vQXeqW6jyXIwCfhiHaICAlYE7k=
 P:libheif-jpeg
-V:1.21.2-r3
+V:1.23.0-r0
 A:riscv64
-S:10075
+S:10307
 I:28464
 T:libheif JPEG decoder and encoder plugins for JPEG-in-HEIF images
 U:https://www.libde265.org/
 L:LGPL-3.0-or-later
 o:libheif
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1776928018
-c:133598dd20f3da02ed2ccaf87a74aa401684f9ed
-D:libheif=1.21.2-r3 so:libc.musl-riscv64.so.1 so:libheif.so.1 so:libjpeg.so.8 so:libstdc++.so.6
-p:libheif-jpegdec=1.21.2-r3 libheif-jpegenc=1.21.2-r3
-i:libheif=1.21.2-r3 libjpeg-turbo
+t:1781036064
+c:67776d4983526735866f12662cff4f1531f54d3f
+D:libheif=1.23.0-r0 so:libc.musl-riscv64.so.1 so:libheif.so.1 so:libjpeg.so.8 so:libstdc++.so.6
+p:libheif-jpegdec=1.23.0-r0 libheif-jpegenc=1.23.0-r0
+i:libheif=1.23.0-r0 libjpeg-turbo
 
-C:Q1PlMoPSmpRKeaZtQcHB3R8qejXB8=
+C:Q1lsuQN3+5bkEZ2/MixMK1QP5laMo=
 P:libheif-libde265
-V:1.21.2-r3
+V:1.23.0-r0
 A:riscv64
-S:6824
+S:6825
 I:14328
 T:libheif HEIC/HEVC (H.265) decoder plugin using libde265
 U:https://www.libde265.org/
 L:LGPL-3.0-or-later
 o:libheif
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1776928018
-c:133598dd20f3da02ed2ccaf87a74aa401684f9ed
-D:libheif=1.21.2-r3 so:libc.musl-riscv64.so.1 so:libde265.so.0 so:libgcc_s.so.1 so:libheif.so.1 so:libstdc++.so.6
+t:1781036064
+c:67776d4983526735866f12662cff4f1531f54d3f
+D:libheif=1.23.0-r0 so:libc.musl-riscv64.so.1 so:libde265.so.0 so:libgcc_s.so.1 so:libheif.so.1 so:libstdc++.so.6
 
-C:Q1WHfLeRiCTcPZCArTOuKoZUbUQn8=
+C:Q1t/XNKCLILggs76QFjWaHRxu4Ka4=
 P:libheif-openh264
-V:1.21.2-r3
+V:1.23.0-r0
 A:riscv64
-S:9045
+S:9084
 I:18432
 T:libheif AVC (H.264) decoder plugin using OpenH264
 U:https://www.libde265.org/
 L:LGPL-3.0-or-later
 o:libheif
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1776928018
-c:133598dd20f3da02ed2ccaf87a74aa401684f9ed
-D:libheif=1.21.2-r3 so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:libopenh264.so.8 so:libstdc++.so.6
-p:libheif-openh264dec=1.21.2-r3
-i:libheif=1.21.2-r3 openh264
+t:1781036064
+c:67776d4983526735866f12662cff4f1531f54d3f
+D:libheif=1.23.0-r0 so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:libopenh264.so.8 so:libstdc++.so.6
+p:libheif-openh264dec=1.23.0-r0
+i:libheif=1.23.0-r0 openh264
 
-C:Q1TPwiqq6gBV6OeuJ2ykF6wFhBxPA=
+C:Q1NOAgdo4QBSYo/5ESWMT+KTwgF34=
 P:libheif-openjpeg
-V:1.21.2-r3
+V:1.23.0-r0
 A:riscv64
-S:12248
-I:28656
+S:13350
+I:32760
 T:libheif JPEG 2000 encoder and decoder plugins using OpenJPEG
 U:https://www.libde265.org/
 L:LGPL-3.0-or-later
 o:libheif
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1776928018
-c:133598dd20f3da02ed2ccaf87a74aa401684f9ed
-D:libheif=1.21.2-r3 so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:libopenjp2.so.7 so:libstdc++.so.6
-p:libheif-j2kdec=1.21.2-r3 libheif-j2kenc=1.21.2-r3
-i:libheif=1.21.2-r3 openjpeg
+t:1781036064
+c:67776d4983526735866f12662cff4f1531f54d3f
+D:libheif=1.23.0-r0 so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:libopenjp2.so.7 so:libstdc++.so.6
+p:libheif-j2kdec=1.23.0-r0 libheif-j2kenc=1.23.0-r0
+i:libheif=1.23.0-r0 openjpeg
 
-C:Q1/R9AdpPlwV618LzDftj1pZ0VYSI=
+C:Q1Funz/umeC01WozVhPXO52ueLm80=
 P:libheif-plugins-all
-V:1.21.2-r3
+V:1.23.0-r0
 A:riscv64
-S:1079
+S:1072
 I:0
 T:Meta-package with all libheif plugins
 U:https://www.libde265.org/
 L:LGPL-3.0-or-later
 o:libheif
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1776928018
-c:133598dd20f3da02ed2ccaf87a74aa401684f9ed
+t:1781036064
+c:67776d4983526735866f12662cff4f1531f54d3f
 D:libheif-aom libheif-dav1d libheif-ffmpeg libheif-jpeg libheif-libde265 libheif-openh264 libheif-openjpeg libheif-rav1e libheif-x264 libheif-x265 libheif-svtenc
 
-C:Q13wzcs3/Ibu/ZwDxJT47G1y49j/M=
+C:Q1sXi+lh+EXVLQJPb3zki7RJMtddc=
 P:libheif-rav1e
-V:1.21.2-r3
+V:1.23.0-r0
 A:riscv64
-S:12417
+S:12430
 I:26656
 T:libheif AVIF/AV1 encoder plugin using rav1e
 U:https://www.libde265.org/
 L:LGPL-3.0-or-later
 o:libheif
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1776928018
-c:133598dd20f3da02ed2ccaf87a74aa401684f9ed
-D:libheif=1.21.2-r3 so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:librav1e.so.0.8 so:libstdc++.so.6
-i:libheif=1.21.2-r3 rav1e-libs
+t:1781036064
+c:67776d4983526735866f12662cff4f1531f54d3f
+D:libheif=1.23.0-r0 so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:librav1e.so.0.8 so:libstdc++.so.6
+i:libheif=1.23.0-r0 rav1e-libs
 
-C:Q1yz2etqdDDaL9PWZoiLRQN+or3p4=
+C:Q1PRfYl372Lx9q0HE/Zh7GlYpv/TM=
 P:libheif-svtenc
-V:1.21.2-r3
+V:1.23.0-r0
 A:riscv64
-S:11947
+S:11993
 I:22592
 T:libheif AVIF/AV1 encoder plugin using SVT-AV1
 U:https://www.libde265.org/
 L:LGPL-3.0-or-later
 o:libheif
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1776928018
-c:133598dd20f3da02ed2ccaf87a74aa401684f9ed
-D:libheif=1.21.2-r3 so:libSvtAv1Enc.so.4 so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:libstdc++.so.6
-i:libheif=1.21.2-r3 libSvtAv1Enc
+t:1781036064
+c:67776d4983526735866f12662cff4f1531f54d3f
+D:libheif=1.23.0-r0 so:libSvtAv1Enc.so.4 so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:libstdc++.so.6
+i:libheif=1.23.0-r0 libSvtAv1Enc
 
-C:Q102iVNwu00SASpuv1Gd4f7OG4nOY=
+C:Q12xxmyFxs5qrmsyStAb3PQ/B7uVw=
 P:libheif-tools
-V:1.21.2-r3
+V:1.23.0-r0
 A:riscv64
-S:161807
-I:334096
+S:174832
+I:363304
 T:ISO/IEC 23008-12:2017 HEIF file format decoder and encoder (tools)
 U:https://www.libde265.org/
 L:LGPL-3.0-or-later
 o:libheif
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1776928018
-c:133598dd20f3da02ed2ccaf87a74aa401684f9ed
-D:heif-thumbnailer=1.21.2-r3 so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:libjpeg.so.8 so:libpng16.so.16 so:libstdc++.so.6
-p:cmd:heif-convert=1.21.2-r3 cmd:heif-dec=1.21.2-r3 cmd:heif-enc=1.21.2-r3 cmd:heif-info=1.21.2-r3
+t:1781036064
+c:67776d4983526735866f12662cff4f1531f54d3f
+D:heif-thumbnailer=1.23.0-r0 so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:libjpeg.so.8 so:libpng16.so.16 so:libstdc++.so.6 so:libwebp.so.7 so:libwebpmux.so.3
+p:cmd:heif-convert=1.23.0-r0 cmd:heif-dec=1.23.0-r0 cmd:heif-enc=1.23.0-r0 cmd:heif-info=1.23.0-r0
 
-C:Q1kKxYZLb7cNej9VPopRPYzep6vm4=
+C:Q1G7/fOZQ8wfGF9Y7yUiYHWBG4EIE=
 P:libheif-x264
-V:1.21.2-r3
+V:1.23.0-r0
 A:riscv64
-S:17823
+S:17817
 I:30720
 T:libheif AVC (H.264) encoder plugin using x264
 U:https://www.libde265.org/
 L:LGPL-3.0-or-later
 o:libheif
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1776928018
-c:133598dd20f3da02ed2ccaf87a74aa401684f9ed
-D:libheif=1.21.2-r3 so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:libstdc++.so.6 so:libx264.so.164
-i:libheif=1.21.2-r3 x264-libs
+t:1781036064
+c:67776d4983526735866f12662cff4f1531f54d3f
+D:libheif=1.23.0-r0 so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:libstdc++.so.6 so:libx264.so.164
+i:libheif=1.23.0-r0 x264-libs
 
-C:Q10gwhIOc4OUlyQ9zkxmzhj+Nt8EY=
+C:Q1P+rJXu05CMFMYg4u/ta6v0+hb+Q=
 P:libheif-x265
-V:1.21.2-r3
+V:1.23.0-r0
 A:riscv64
-S:18883
+S:18873
 I:34816
 T:libheif HEIC/HEVC (H.265) encoder plugin using x265
 U:https://www.libde265.org/
 L:LGPL-3.0-or-later
 o:libheif
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1776928018
-c:133598dd20f3da02ed2ccaf87a74aa401684f9ed
-D:libheif=1.21.2-r3 so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:libstdc++.so.6 so:libx265.so.215
-i:libheif=1.21.2-r3 x265-libs
+t:1781036064
+c:67776d4983526735866f12662cff4f1531f54d3f
+D:libheif=1.23.0-r0 so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libheif.so.1 so:libstdc++.so.6 so:libx265.so.215
+i:libheif=1.23.0-r0 x265-libs
 
 C:Q1IBr2MwWZc+DBrke+NBg+XsoWfBg=
 P:libhwy
@@ -132153,37 +132184,37 @@ c:a9e2a2dc46f377eb25884f7fea9834492de7f518
 D:libtommath=1.3.0-r1 pkgconfig
 p:pc:libtommath=1.3.0
 
-C:Q1HDWPx2YOZPNKLaKlsPe0lzRyKLA=
+C:Q15/qjRwECZMZIuyHoX3NEs7iyTqA=
 P:libtorrent
-V:0.16.5-r0
+V:0.16.12-r0
 A:riscv64
-S:425962
-I:944464
+S:486617
+I:1079640
 T:BitTorrent library written in C++
 U:https://rakshasa.github.io/rtorrent
 L:GPL-2.0-or-later
 o:libtorrent
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1766437011
-c:319f9333592039c765a7c6ce09a177a8dd396e6c
+t:1781036017
+c:c77c41e689a039596cabaed199d3c2e07d9d6938
 D:so:libc.musl-riscv64.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1
-p:so:libtorrent.so.35=35.0.0
+p:so:libtorrent.so.42=42.0.0
 
-C:Q1wu2dl12UhgunPPy9TS3scOkfb7w=
+C:Q1FWd2KQEdL9VPu02Hj8UAF1E1kqg=
 P:libtorrent-dev
-V:0.16.5-r0
+V:0.16.12-r0
 A:riscv64
-S:63671
-I:280958
+S:67073
+I:298114
 T:BitTorrent library written in C++ (development files)
 U:https://rakshasa.github.io/rtorrent
 L:GPL-2.0-or-later
 o:libtorrent
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1766437011
-c:319f9333592039c765a7c6ce09a177a8dd396e6c
-D:libtorrent=0.16.5-r0 pc:libcrypto pc:zlib pkgconfig
-p:pc:libtorrent=0.16.5
+t:1781036017
+c:c77c41e689a039596cabaed199d3c2e07d9d6938
+D:libtorrent=0.16.12-r0 pc:libcrypto pc:zlib pkgconfig
+p:pc:libtorrent=0.16.12
 
 C:Q1oJrDTrIg9hWU2yG4MWffkxBTDA8=
 P:libtorrent-rasterbar
@@ -133257,6 +133288,54 @@ o:libva-vdpau-driver
 t:1732312200
 c:8cd6f2bc8f9abeb4b3d2a74a41f77f44f978a3a8
 D:so:libX11.so.6 so:libc.musl-riscv64.so.1 so:libvdpau.so.1
+
+C:Q1s5Dr1Z0Mqr8LLVAAh/TcnMET7g4=
+P:libvalkey
+V:0.5.0-r0
+A:riscv64
+S:66519
+I:139208
+T:Valkey client library in C
+U:https://github.com/valkey-io/libvalkey
+L:BSD-3-Clause
+o:libvalkey
+m:Jakub Jirutka <jakub@jirutka.cz>
+t:1781038588
+c:801a33eb0b3e33c319ef093759982ee43b47d44a
+D:so:libc.musl-riscv64.so.1
+p:so:libvalkey.so.0=0.5.0
+
+C:Q1i8f1y/ijHrpKnae7PHmfty55W9Q=
+P:libvalkey-dev
+V:0.5.0-r0
+A:riscv64
+S:945846
+I:4635552
+T:Valkey client library in C (development files)
+U:https://github.com/valkey-io/libvalkey
+L:BSD-3-Clause
+o:libvalkey
+m:Jakub Jirutka <jakub@jirutka.cz>
+t:1781038588
+c:801a33eb0b3e33c319ef093759982ee43b47d44a
+D:libvalkey-tls=0.5.0-r0 libvalkey=0.5.0-r0 pkgconfig
+p:pc:valkey=0 pc:valkey_tls=0
+
+C:Q1TEHYwNTzaMIs6aBiXI8n+ZsPsJ8=
+P:libvalkey-tls
+V:0.5.0-r0
+A:riscv64
+S:6257
+I:14216
+T:Valkey client library in C (TLS support)
+U:https://github.com/valkey-io/libvalkey
+L:BSD-3-Clause
+o:libvalkey
+m:Jakub Jirutka <jakub@jirutka.cz>
+t:1781038588
+c:801a33eb0b3e33c319ef093759982ee43b47d44a
+D:so:libc.musl-riscv64.so.1 so:libcrypto.so.3 so:libssl.so.3 so:libvalkey.so.0
+p:so:libvalkey_tls.so.0=0.5.0
 
 C:Q1LdOd91yUPdbw9dFP34cYhU2XRME=
 P:libvarlink
@@ -222813,20 +222892,20 @@ c:7b43566c20209a2872a8b682b4d622841dda6867
 D:python3~3.14
 i:py3-google-api-python-client=2.169.0-r2 pyc
 
-C:Q1h71zDgTrulq2jZIa3z8ndVxR7Qg=
+C:Q1UyTThoNooKCdECaHQP3uyJxZaeA=
 P:py3-google-auth
-V:2.48.0-r0
+V:2.48.0-r1
 A:riscv64
-S:174001
+S:173981
 I:813605
 T:Google authentication library for Python.
 U:https://google-auth.readthedocs.io/en/latest/
 L:Apache-2.0
 o:py3-google-auth
 m:Keith Maxwell <keith.maxwell@gmail.com>
-t:1774640363
-c:75998d6fda20233fe49f8aa5764391451d4a82ea
-D:py3-asn1-modules py3-cachetools py3-cryptography py3-rsa py3-six python3 python3~3.14
+t:1781036000
+c:cdde9783e692524e497dc3b5ce8a9d27d3efa02a
+D:py3-asn1-modules py3-cryptography py3-rsa python3 python3~3.14
 
 C:Q1w9qKM1uCii2+ek3t+owfd4bapOI=
 P:py3-google-auth-httplib2
@@ -222860,21 +222939,21 @@ c:b036a3c78a3042c4f601f21f0344aa87e1ffcce8
 D:python3~3.14
 i:py3-google-auth-httplib2=0.2.0-r2 pyc
 
-C:Q1Pub0Gli4b/qzpJK0CbDjsTPNr2Y=
+C:Q1MINo4KJ7UFwElqfSUuxQuGDFUNA=
 P:py3-google-auth-pyc
-V:2.48.0-r0
+V:2.48.0-r1
 A:riscv64
-S:298424
+S:298400
 I:845726
 T:Precompiled Python bytecode for py3-google-auth
 U:https://google-auth.readthedocs.io/en/latest/
 L:Apache-2.0
 o:py3-google-auth
 m:Keith Maxwell <keith.maxwell@gmail.com>
-t:1774640363
-c:75998d6fda20233fe49f8aa5764391451d4a82ea
+t:1781036000
+c:cdde9783e692524e497dc3b5ce8a9d27d3efa02a
 D:python3~3.14
-i:py3-google-auth=2.48.0-r0 pyc
+i:py3-google-auth=2.48.0-r1 pyc
 
 C:Q1LAdwrMdl/n37r4X9BwlLSnb5Ecg=
 P:py3-googleapis-common-protos
@@ -227984,37 +228063,37 @@ c:2bcd82da0f8a7c06765fa7ca48afafbdfdfddfe5
 D:python3~3.14
 i:py3-lazy=1.6-r2 pyc
 
-C:Q1SwI+wzoy7tPWDHLNYHXZVZBleT8=
+C:Q11eu7uzBz6GyBcBPRLF417mWlNTE=
 P:py3-ldap
-V:3.4.5-r1
+V:3.4.7-r0
 A:riscv64
-S:105277
-I:341854
+S:108342
+I:344773
 T:Python modules for implementing LDAP clients
 U:https://github.com/python-ldap/python-ldap
 L:Python-2.0 AND MIT
 o:py3-ldap
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1774640397
-c:2816b407c47efd2ddbd72e50806b39912aa75deb
+t:1781038306
+c:4b3d00d85e2616b79599a4e61eeb68170c5e41c1
 D:py3-asn1 py3-asn1-modules python3~3.14 so:libc.musl-riscv64.so.1 so:liblber.so.2 so:libldap.so.2
-p:py3-pyldap=3.4.5-r1 py3.14:ldap=3.4.5-r1 py3.14:ldapurl=3.4.5-r1 py3.14:ldif=3.4.5-r1 py3.14:slapdtest=3.4.5-r1
+p:py3-pyldap=3.4.7-r0 py3.14:ldap=3.4.7-r0 py3.14:ldapurl=3.4.7-r0 py3.14:ldif=3.4.7-r0 py3.14:slapdtest=3.4.7-r0
 
-C:Q1Fn6oCX7iWW4db7/ayur4OyHiHrk=
+C:Q1743d5Rxt9N0DYzGq/7J/wE9oqD8=
 P:py3-ldap-pyc
-V:3.4.5-r1
+V:3.4.7-r0
 A:riscv64
-S:177379
-I:708558
+S:138143
+I:353169
 T:Precompiled Python bytecode for py3-ldap
 U:https://github.com/python-ldap/python-ldap
 L:Python-2.0 AND MIT
 o:py3-ldap
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1774640397
-c:2816b407c47efd2ddbd72e50806b39912aa75deb
+t:1781038306
+c:4b3d00d85e2616b79599a4e61eeb68170c5e41c1
 D:python3~3.14
-i:py3-ldap=3.4.5-r1 pyc
+i:py3-ldap=3.4.7-r0 pyc
 
 C:Q1eynstCoyTfSROrrTOMG4vM9U0L4=
 P:py3-ldap3
@@ -261935,66 +262014,66 @@ t:1779492114
 c:5f22d77db3c972cd730c4fef20600921b884c6f9
 i:openrc rabbitmq-server=4.3.1-r0
 
-C:Q1lqwPG6hCMjK3Yyl/KLfqbPJEOSk=
+C:Q1/kRnKb+iEEGfe8iP/cqD7dkUvcw=
 P:racket
-V:9.1-r0
+V:9.2-r0
 A:riscv64
-S:9585875
-I:28655640
+S:9711820
+I:29092162
 T:Racket BC - general purpose programming language in the Lisp-Scheme family
 U:https://racket-lang.org/
 L:(Apache-2.0 OR MIT) AND LGPL-3.0-or-later
 o:racket
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1772321329
-c:ac7c935b58415e62501ec67170e22fb60cd557f1
+t:1781035991
+c:1c515d0cf02444cd7fb1ba9bb17e764ac53937c9
 D:ca-certificates libcrypto3 libssl3 so:libc.musl-riscv64.so.1 so:libffi.so.8 so:libncursesw.so.6
-p:cmd:racket=9.1-r0 cmd:raco=9.1-r0 so:libracket3m-9.1.so=0
+p:cmd:racket=9.2-r0 cmd:raco=9.2-r0 so:libracket3m-9.2.so=0
 
-C:Q1RbzNuk70ivtcVdRUuYlYk5IRe3k=
+C:Q1cDyqEHB00icJk3+0DqgEh50keAM=
 P:racket-dbg
-V:9.1-r0
+V:9.2-r0
 A:riscv64
-S:9856575
-I:27036824
+S:9908348
+I:27187784
 T:Racket BC - general purpose programming language in the Lisp-Scheme family (debug symbols)
 U:https://racket-lang.org/
 L:(Apache-2.0 OR MIT) AND LGPL-3.0-or-later
 o:racket
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1772321329
-c:ac7c935b58415e62501ec67170e22fb60cd557f1
-D:!racket<9.1-r0 !racket>9.1-r0
+t:1781035991
+c:1c515d0cf02444cd7fb1ba9bb17e764ac53937c9
+D:!racket<9.2-r0 !racket>9.2-r0
 
-C:Q1vxmYx7mkMk+yRfqUU7qUVFJn9q8=
+C:Q1UGBSawq88zqkU8KlcHKKh50z0ck=
 P:racket-dev
-V:9.1-r0
+V:9.2-r0
 A:riscv64
-S:83757
-I:426544
+S:83795
+I:426737
 T:Racket BC - general purpose programming language in the Lisp-Scheme family (development files)
 U:https://racket-lang.org/
 L:(Apache-2.0 OR MIT) AND LGPL-3.0-or-later
 o:racket
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1772321329
-c:ac7c935b58415e62501ec67170e22fb60cd557f1
-D:racket=9.1-r0
+t:1781035991
+c:1c515d0cf02444cd7fb1ba9bb17e764ac53937c9
+D:racket=9.2-r0
 
-C:Q1Z25j8EF9XGrP+JERBv9DgST0fiI=
+C:Q1Oj6vgcykqjVYjHKMXakKVNi4fbo=
 P:racket-doc
-V:9.1-r0
+V:9.2-r0
 A:riscv64
-S:2675
+S:2672
 I:1009
 T:Racket BC - general purpose programming language in the Lisp-Scheme family (documentation)
 U:https://racket-lang.org/
 L:(Apache-2.0 OR MIT) AND LGPL-3.0-or-later
 o:racket
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1772321329
-c:ac7c935b58415e62501ec67170e22fb60cd557f1
-i:docs racket=9.1-r0
+t:1781035991
+c:1c515d0cf02444cd7fb1ba9bb17e764ac53937c9
+i:docs racket=9.2-r0
 
 C:Q1z7gSw4m2E/oNhJZgZ0OPuBorwtE=
 P:racksdb
@@ -269583,36 +269662,36 @@ t:1765628369
 c:7f6e0df384c5aafecfe9b7064715d4be731deb79
 i:docs rtl_433=25.12-r0
 
-C:Q1k80Rp47q3+OLv0l7XukVwO+l8Ps=
+C:Q1YJpCJJpyz4nsD1rwJUXazCMZtGI=
 P:rtorrent
-V:0.16.5-r0
+V:0.16.12-r0
 A:riscv64
-S:472463
-I:1113643
+S:509302
+I:1199691
 T:Ncurses BitTorrent client based on libTorrent
 U:https://rakshasa.github.io/rtorrent/
 L:GPL-2.0-or-later
 o:rtorrent
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1766437011
-c:319f9333592039c765a7c6ce09a177a8dd396e6c
-D:so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:liblua-5.4.so.0 so:libncursesw.so.6 so:libstdc++.so.6 so:libtorrent.so.35
-p:cmd:rtorrent=0.16.5-r0
+t:1781036017
+c:c77c41e689a039596cabaed199d3c2e07d9d6938
+D:so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:liblua-5.4.so.0 so:libncursesw.so.6 so:libstdc++.so.6 so:libtorrent.so.42 so:libz.so.1
+p:cmd:rtorrent=0.16.12-r0
 
-C:Q1inbmEd5xHZdnogzZzmCvbprNsBo=
+C:Q1KslfQXD8scP7n9pgd8vuy5HPOj8=
 P:rtorrent-doc
-V:0.16.5-r0
+V:0.16.12-r0
 A:riscv64
-S:3310
+S:3313
 I:4547
 T:Ncurses BitTorrent client based on libTorrent (documentation)
 U:https://rakshasa.github.io/rtorrent/
 L:GPL-2.0-or-later
 o:rtorrent
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1766437011
-c:319f9333592039c765a7c6ce09a177a8dd396e6c
-i:docs rtorrent=0.16.5-r0
+t:1781036017
+c:c77c41e689a039596cabaed199d3c2e07d9d6938
+i:docs rtorrent=0.16.12-r0
 
 C:Q116IX7xASTSOLkqfZmQq5d1CBqoI=
 P:rtpengine
