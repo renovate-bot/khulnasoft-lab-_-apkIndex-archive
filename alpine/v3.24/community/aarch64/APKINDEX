@@ -96303,52 +96303,52 @@ t:1698274176
 c:bd78439b2f66d88e17d1622fd4cfd83dea590a57
 i:docs iec16022=0.3.1-r0
 
-C:Q17ajSg49eJJyZ9UOT0qKbr3Ebwhc=
+C:Q1CK22pfNz9RP4agJqYH0SW+e+3eM=
 P:ifstate
-V:2.4.0-r0
+V:2.4.1-r0
 A:aarch64
-S:104245
-I:577758
+S:104871
+I:586719
 T:Manage host interface settings in a declarative manner
 U:https://ifstate.net/
 L:GPL-3.0-or-later
 o:ifstate
 m:Thomas Liske <thomas@fiasko-nw.net>
-t:1780927752
-c:e2598c42768865e1f6aecc7c3058991fe3600aa3
+t:1781195222
+c:19b7db58a39a16da9ead5d5d242c9aef319579fd
 D:iproute2 python3 py3-jsonschema py3-pyroute2 py3-setproctitle py3-yaml /bin/sh python3~3.14
-p:cmd:ifstatecli=2.4.0-r0 py3.14:ifstate=2.4.0-r0 py3.14:libifstate=2.4.0-r0
+p:cmd:ifstatecli=2.4.1-r0 py3.14:ifstate=2.4.1-r0 py3.14:libifstate=2.4.1-r0
 
-C:Q1EUmH1p2x9cVaOqvVTOoh1/KfruU=
+C:Q1Nu6zzu19MFCG+wDNGStrjlZ6Uuc=
 P:ifstate-openrc
-V:2.4.0-r0
+V:2.4.1-r0
 A:aarch64
-S:1774
-I:425
+S:1787
+I:439
 T:Manage host interface settings in a declarative manner (OpenRC init scripts)
 U:https://ifstate.net/
 L:GPL-3.0-or-later
 o:ifstate
 m:Thomas Liske <thomas@fiasko-nw.net>
-t:1780927752
-c:e2598c42768865e1f6aecc7c3058991fe3600aa3
-i:openrc ifstate=2.4.0-r0
+t:1781195222
+c:19b7db58a39a16da9ead5d5d242c9aef319579fd
+i:openrc ifstate=2.4.1-r0
 
-C:Q13cpmojpuBB15TzvTLT9AiXnhXsk=
+C:Q1WUYXG38/eHXZxYV250vloIXz2KU=
 P:ifstate-pyc
-V:2.4.0-r0
+V:2.4.1-r0
 A:aarch64
-S:165641
-I:378883
+S:166366
+I:380738
 T:Precompiled Python bytecode for ifstate
 U:https://ifstate.net/
 L:GPL-3.0-or-later
 o:ifstate
 m:Thomas Liske <thomas@fiasko-nw.net>
-t:1780927752
-c:e2598c42768865e1f6aecc7c3058991fe3600aa3
+t:1781195222
+c:19b7db58a39a16da9ead5d5d242c9aef319579fd
 D:python3~3.14
-i:ifstate=2.4.0-r0 pyc
+i:ifstate=2.4.1-r0 pyc
 
 C:Q11QNddstgWG4idFk3ls7QVU2bct0=
 P:ifupdown-ng-waitif
@@ -100579,19 +100579,19 @@ t:1774640373
 c:26002fa2945b1549f4aa83bc56fa662530d8b3c6
 D:so:libc.musl-aarch64.so.1 so:libgcc_s.so.1 so:libkmlbase.so.1 so:libkmldom.so.1 so:libkmlengine.so.1 so:libstdc++.so.6
 
-C:Q1Ia732RD8zt13aiQTuwoNxhZl8TI=
+C:Q1i0aHyFnyDtPjnHRvclQQj36Q4x4=
 P:java-libsignal-client
-V:0.94.1-r0
+V:0.94.4-r0
 A:aarch64
-S:4311821
-I:9156104
+S:4460236
+I:9513618
 T:libsignal-client contains platform-agnostic APIs useful for Signal client apps
 U:https://github.com/signalapp/libsignal
 L:AGPL-3.0-or-later
 o:java-libsignal-client
 m:Simon Frankenberger <simon-alpine@fraho.eu>
-t:1779632970
-c:29da99a67e2ec057cf500644d56ee318930c861f
+t:1781199136
+c:3659966ec13eebd1ece572d9ba736418ba743cbc
 D:java-jre-headless /bin/sh so:libc.musl-aarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 p:so:libsignal_jni.so=0
 
@@ -301584,21 +301584,21 @@ t:1764066841
 c:3d9303accbad75611bf45e28036a0029a202e308
 i:systemd siglo=0.9.9-r2
 
-C:Q1bE1yIkjbPxNqQ4TXDoox5DRqCik=
+C:Q1AcsuNeSO/RDu0jXnNNkzAokYis8=
 P:signal-cli
-V:0.14.4.1-r0
+V:0.14.5-r0
 A:aarch64
-S:41601700
-I:45320815
+S:42476173
+I:46230009
 T:commandline interface for libsignal-service-java
 U:https://github.com/AsamK/signal-cli
 L:GPL-3.0-or-later
 o:signal-cli
 m:Simon Frankenberger <simon-alpine@fraho.eu>
-t:1779632970
-c:a2f43858c630281916332b6fa598288fce7b44e3
+t:1781199136
+c:0878970a32ce01b51f0dcdcbbd473005110ed772
 D:java-libsignal-client
-p:cmd:signal-cli=0.14.4.1-r0
+p:cmd:signal-cli=0.14.5-r0
 
 C:Q1zKYnY+oq2AF5x1FGR7+J9Oi1Nws=
 P:signal-estimator
@@ -345207,82 +345207,82 @@ c:aeeb654e6ec06589f1456c4811b8ef6c5e96b8ad
 D:python3~3.14
 i:yq-python=3.2.3-r1 pyc
 
-C:Q1dGBPk9ENpF2yEp5FEsJ5IhCcPqY=
+C:Q1LNgm2xsjncrqUh8IRmIArzGuhUg=
 P:yt-dlp
-V:2026.03.17-r2
+V:2026.06.09-r0
 A:aarch64
-S:1357
+S:1354
 I:0
 T:Command-line program to download videos from YouTube
 U:https://github.com/yt-dlp/yt-dlp
 L:Unlicense
 o:yt-dlp
 m:lauren n. liberda <lauren@selfisekai.rocks>
-t:1778952746
-c:5a811e5523235a176b5ed1fdc5168274f69bbd7d
-D:attr ca-certificates ffmpeg py3-brotli py3-mutagen py3-pycryptodomex py3-secretstorage py3-websockets yt-dlp-ejs yt-dlp-core=2026.03.17-r2
+t:1781180236
+c:2dab2edc7a4436dea0ac58730724837416dfd75a
+D:attr ca-certificates ffmpeg py3-brotli py3-mutagen py3-pycryptodomex py3-secretstorage py3-websockets yt-dlp-ejs yt-dlp-core=2026.06.09-r0
 
-C:Q1IFIieF/SiyNiRb6jO9EyYFGSFD4=
+C:Q1ruc6FauKJHKpiEtizRBsx4QSlwE=
 P:yt-dlp-bash-completion
-V:2026.03.17-r2
+V:2026.06.09-r0
 A:aarch64
-S:3594
+S:3595
 I:6009
 T:Bash completions for yt-dlp
 U:https://github.com/yt-dlp/yt-dlp
 L:Unlicense
 o:yt-dlp
 m:lauren n. liberda <lauren@selfisekai.rocks>
-t:1778952746
-c:5a811e5523235a176b5ed1fdc5168274f69bbd7d
-i:yt-dlp=2026.03.17-r2 bash-completion
+t:1781180236
+c:2dab2edc7a4436dea0ac58730724837416dfd75a
+i:yt-dlp=2026.06.09-r0 bash-completion
 
-C:Q1YiPJgcdIk93bzREhE+hp7sB98vY=
+C:Q1nyAjJ2uNAhdFEVdInaRyEluS0Lw=
 P:yt-dlp-core
-V:2026.03.17-r2
+V:2026.06.09-r0
 A:aarch64
-S:2682804
-I:10654622
+S:2570638
+I:10209200
 T:Command-line program to download videos from YouTube
 U:https://github.com/yt-dlp/yt-dlp
 L:Unlicense
 o:yt-dlp
 m:lauren n. liberda <lauren@selfisekai.rocks>
-t:1778952746
-c:5a811e5523235a176b5ed1fdc5168274f69bbd7d
+t:1781180236
+c:2dab2edc7a4436dea0ac58730724837416dfd75a
 D:python3 python3~3.14
-p:youtube-dl=2026.03.17-r2 cmd:youtube-dl=2026.03.17-r2 cmd:yt-dlp=2026.03.17-r2 py3.14:yt_dlp=2026.03.17-r2
+p:youtube-dl=2026.06.09-r0 cmd:youtube-dl=2026.06.09-r0 cmd:yt-dlp=2026.06.09-r0 py3.14:yt_dlp=2026.06.09-r0
 
-C:Q1v/D/WC4YVt9E2VDmK47PEWImeds=
+C:Q189q5jzVjig0MbpDJ2wKWwRd/Ync=
 P:yt-dlp-core-pyc
-V:2026.03.17-r2
+V:2026.06.09-r0
 A:aarch64
-S:5189222
-I:11790953
+S:4963313
+I:11265162
 T:Precompiled Python bytecode for yt-dlp-core
 U:https://github.com/yt-dlp/yt-dlp
 L:Unlicense
 o:yt-dlp
 m:lauren n. liberda <lauren@selfisekai.rocks>
-t:1778952746
-c:5a811e5523235a176b5ed1fdc5168274f69bbd7d
+t:1781180236
+c:2dab2edc7a4436dea0ac58730724837416dfd75a
 D:python3~3.14
-i:yt-dlp-core=2026.03.17-r2 pyc
+i:yt-dlp-core=2026.06.09-r0 pyc
 
-C:Q1t50sVofAkJ+/SiS9WoKfp4/IWk8=
+C:Q13Ngw8pL3jWrD0SUI9aKlJnTW57M=
 P:yt-dlp-doc
-V:2026.03.17-r2
+V:2026.06.09-r0
 A:aarch64
-S:99084
-I:214669
+S:99810
+I:216061
 T:Command-line program to download videos from YouTube (documentation)
 U:https://github.com/yt-dlp/yt-dlp
 L:Unlicense
 o:yt-dlp
 m:lauren n. liberda <lauren@selfisekai.rocks>
-t:1778952746
-c:5a811e5523235a176b5ed1fdc5168274f69bbd7d
-i:docs yt-dlp=2026.03.17-r2
+t:1781180236
+c:2dab2edc7a4436dea0ac58730724837416dfd75a
+i:docs yt-dlp=2026.06.09-r0
 
 C:Q1wTaKjaza7dCURN7GZIyoy/gMSWE=
 P:yt-dlp-ejs
@@ -345367,35 +345367,35 @@ k:20
 D:quickjs /bin/sh
 p:yt-dlp-ejs-rt=0.8.0-r1
 
-C:Q1HQfvay5GnOMeYPYGTGh9mZnqQYo=
+C:Q1+cFmusdxj15NHeuS5+d+qGlGRjU=
 P:yt-dlp-fish-completion
-V:2026.03.17-r2
+V:2026.06.09-r0
 A:aarch64
-S:14316
-I:51638
+S:14387
+I:51750
 T:Fish completions for yt-dlp
 U:https://github.com/yt-dlp/yt-dlp
 L:Unlicense
 o:yt-dlp
 m:lauren n. liberda <lauren@selfisekai.rocks>
-t:1778952746
-c:5a811e5523235a176b5ed1fdc5168274f69bbd7d
-i:yt-dlp=2026.03.17-r2 fish
+t:1781180236
+c:2dab2edc7a4436dea0ac58730724837416dfd75a
+i:yt-dlp=2026.06.09-r0 fish
 
-C:Q1u71fnXQiGuJXERddXbwVAEaA31U=
+C:Q1tve4vw0Z0TX/aEyRJRSB5K101M0=
 P:yt-dlp-zsh-completion
-V:2026.03.17-r2
+V:2026.06.09-r0
 A:aarch64
-S:3587
+S:3583
 I:6005
 T:Zsh completions for yt-dlp
 U:https://github.com/yt-dlp/yt-dlp
 L:Unlicense
 o:yt-dlp
 m:lauren n. liberda <lauren@selfisekai.rocks>
-t:1778952746
-c:5a811e5523235a176b5ed1fdc5168274f69bbd7d
-i:yt-dlp=2026.03.17-r2 zsh
+t:1781180236
+c:2dab2edc7a4436dea0ac58730724837416dfd75a
+i:yt-dlp=2026.06.09-r0 zsh
 
 C:Q1g+lZXFliQT2U83Lk8btF0X84VCM=
 P:ytdl-sub

@@ -76413,7 +76413,8 @@
       "origin": "ifstate",
       "versions": {
         "2.3.0-r0": 1778543650,
-        "2.4.0-r0": 1780927752
+        "2.4.0-r0": 1780927752,
+        "2.4.1-r0": 1781195222
       },
       "dependencies": [
         "iproute2",
@@ -76426,23 +76427,25 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:ifstatecli=2.4.0-r0",
-        "py3.14:ifstate=2.4.0-r0",
-        "py3.14:libifstate=2.4.0-r0"
+        "cmd:ifstatecli=2.4.1-r0",
+        "py3.14:ifstate=2.4.1-r0",
+        "py3.14:libifstate=2.4.1-r0"
       ]
     },
     "ifstate-openrc": {
       "origin": "ifstate",
       "versions": {
         "2.3.0-r0": 1778543650,
-        "2.4.0-r0": 1780927752
+        "2.4.0-r0": 1780927752,
+        "2.4.1-r0": 1781195222
       }
     },
     "ifstate-pyc": {
       "origin": "ifstate",
       "versions": {
         "2.3.0-r0": 1778543650,
-        "2.4.0-r0": 1780927752
+        "2.4.0-r0": 1780927752,
+        "2.4.1-r0": 1781195222
       },
       "dependencies": [
         "python3~3.14"
@@ -261231,7 +261234,8 @@
     "yt-dlp": {
       "origin": "yt-dlp",
       "versions": {
-        "2026.03.17-r2": 1778952746
+        "2026.03.17-r2": 1778952746,
+        "2026.06.09-r0": 1781180236
       },
       "dependencies": [
         "attr",
@@ -261243,35 +261247,38 @@
         "py3-secretstorage",
         "py3-websockets",
         "yt-dlp-ejs",
-        "yt-dlp-core=2026.03.17-r2"
+        "yt-dlp-core=2026.06.09-r0"
       ]
     },
     "yt-dlp-bash-completion": {
       "origin": "yt-dlp",
       "versions": {
-        "2026.03.17-r2": 1778952746
+        "2026.03.17-r2": 1778952746,
+        "2026.06.09-r0": 1781180236
       }
     },
     "yt-dlp-core": {
       "origin": "yt-dlp",
       "versions": {
-        "2026.03.17-r2": 1778952746
+        "2026.03.17-r2": 1778952746,
+        "2026.06.09-r0": 1781180236
       },
       "dependencies": [
         "python3",
         "python3~3.14"
       ],
       "provides": [
-        "youtube-dl=2026.03.17-r2",
-        "cmd:youtube-dl=2026.03.17-r2",
-        "cmd:yt-dlp=2026.03.17-r2",
-        "py3.14:yt_dlp=2026.03.17-r2"
+        "youtube-dl=2026.06.09-r0",
+        "cmd:youtube-dl=2026.06.09-r0",
+        "cmd:yt-dlp=2026.06.09-r0",
+        "py3.14:yt_dlp=2026.06.09-r0"
       ]
     },
     "yt-dlp-core-pyc": {
       "origin": "yt-dlp",
       "versions": {
-        "2026.03.17-r2": 1778952746
+        "2026.03.17-r2": 1778952746,
+        "2026.06.09-r0": 1781180236
       },
       "dependencies": [
         "python3~3.14"
@@ -261280,7 +261287,8 @@
     "yt-dlp-doc": {
       "origin": "yt-dlp",
       "versions": {
-        "2026.03.17-r2": 1778952746
+        "2026.03.17-r2": 1778952746,
+        "2026.06.09-r0": 1781180236
       }
     },
     "yt-dlp-ejs": {
@@ -261333,13 +261341,15 @@
     "yt-dlp-fish-completion": {
       "origin": "yt-dlp",
       "versions": {
-        "2026.03.17-r2": 1778952746
+        "2026.03.17-r2": 1778952746,
+        "2026.06.09-r0": 1781180236
       }
     },
     "yt-dlp-zsh-completion": {
       "origin": "yt-dlp",
       "versions": {
-        "2026.03.17-r2": 1778952746
+        "2026.03.17-r2": 1778952746,
+        "2026.06.09-r0": 1781180236
       }
     },
     "ytdl-sub": {
@@ -286144,7 +286154,7 @@
       },
       "youtube-dl": {
         "package": "yt-dlp-core",
-        "version": "2026.03.17-r2"
+        "version": "2026.06.09-r0"
       },
       "yt-dlp-ejs-rt": {
         "package": "yt-dlp-ejs-rt-quickjs",
