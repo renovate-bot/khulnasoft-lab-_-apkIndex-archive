@@ -20803,7 +20803,8 @@
     "caddy": {
       "origin": "caddy",
       "versions": {
-        "2.11.2-r2": 1778661427
+        "2.11.2-r2": 1778661427,
+        "2.11.4-r0": 1781263688
       },
       "dependencies": [
         "ca-certificates",
@@ -20811,13 +20812,14 @@
         "so:libc.musl-loongarch64.so.1"
       ],
       "provides": [
-        "cmd:caddy=2.11.2-r2"
+        "cmd:caddy=2.11.4-r0"
       ]
     },
     "caddy-openrc": {
       "origin": "caddy",
       "versions": {
-        "2.11.2-r2": 1778661427
+        "2.11.2-r2": 1778661427,
+        "2.11.4-r0": 1781263688
       }
     },
     "cage": {
@@ -151875,7 +151877,8 @@
     "nginx-mod-http-acme": {
       "origin": "nginx-mod-http-acme",
       "versions": {
-        "0.4.1-r0": 1778778637
+        "0.4.1-r0": 1778778637,
+        "0.4.1-r1": 1781263337
       },
       "dependencies": [
         "nginx~1.30",
@@ -234160,7 +234163,8 @@
     "qt6-qtwebengine": {
       "origin": "qt6-qtwebengine",
       "versions": {
-        "6.11.1-r1": 1779541867
+        "6.11.1-r1": 1779541867,
+        "6.11.1-r2": 1781260816
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -234225,17 +234229,19 @@
     "qt6-qtwebengine-dbg": {
       "origin": "qt6-qtwebengine",
       "versions": {
-        "6.11.1-r1": 1779541867
+        "6.11.1-r1": 1779541867,
+        "6.11.1-r2": 1781260816
       },
       "dependencies": [
-        "!qt6-qtwebengine<6.11.1-r1",
-        "!qt6-qtwebengine>6.11.1-r1"
+        "!qt6-qtwebengine<6.11.1-r2",
+        "!qt6-qtwebengine>6.11.1-r2"
       ]
     },
     "qt6-qtwebengine-dev": {
       "origin": "qt6-qtwebengine",
       "versions": {
-        "6.11.1-r1": 1779541867
+        "6.11.1-r1": 1779541867,
+        "6.11.1-r2": 1781260816
       },
       "dependencies": [
         "alsa-lib-dev",
@@ -234261,7 +234267,7 @@
         "qt6-qttools-dev",
         "qt6-qtwebchannel-dev",
         "snappy-dev",
-        "qt6-qtwebengine=6.11.1-r1",
+        "qt6-qtwebengine=6.11.1-r2",
         "pc:Qt6Core",
         "pc:Qt6Gui",
         "pc:Qt6Network",
