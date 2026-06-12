@@ -6401,13 +6401,14 @@
         "9.0.13-r0": 1771643037,
         "9.0.14-r0": 1773339195,
         "9.0.15-r0": 1776299704,
-        "9.0.16-r0": 1778770994
+        "9.0.16-r0": 1778770994,
+        "9.0.17-r0": 1781224168
       },
       "dependencies": [
         "dotnet9-runtime"
       ],
       "provides": [
-        "aspnetcore-runtime-9.0=9.0.16-r0"
+        "aspnetcore-runtime-9.0=9.0.17-r0"
       ]
     },
     "aspnetcore9-runtime-dbg": {
@@ -6419,13 +6420,14 @@
         "9.0.13-r0": 1771643037,
         "9.0.14-r0": 1773339195,
         "9.0.15-r0": 1776299704,
-        "9.0.16-r0": 1778770994
+        "9.0.16-r0": 1778770994,
+        "9.0.17-r0": 1781224168
       },
       "dependencies": [
         "aspnetcore9-runtime"
       ],
       "provides": [
-        "aspnetcore-runtime-dbg-9.0=9.0.16-r0"
+        "aspnetcore-runtime-dbg-9.0=9.0.17-r0"
       ]
     },
     "aspnetcore9-targeting-pack": {
@@ -6437,7 +6439,8 @@
         "9.0.13-r0": 1771643037,
         "9.0.14-r0": 1773339195,
         "9.0.15-r0": 1776299704,
-        "9.0.16-r0": 1778770994
+        "9.0.16-r0": 1778770994,
+        "9.0.17-r0": 1781224168
       },
       "dependencies": [
         "dotnet9-hostfxr",
@@ -6445,7 +6448,7 @@
         "icu-libs"
       ],
       "provides": [
-        "aspnetcore-targeting-pack-9.0=9.0.16-r0"
+        "aspnetcore-targeting-pack-9.0=9.0.17-r0"
       ]
     },
     "assimp": {
@@ -18556,7 +18559,8 @@
       "versions": {
         "2.17.2-r0": 1758635023,
         "2.17.3-r0": 1766425785,
-        "2.17.4-r0": 1775421664
+        "2.17.4-r0": 1775421664,
+        "2.17.5-r0": 1781228923
       },
       "dependencies": [
         "/bin/sh",
@@ -18566,9 +18570,9 @@
         "so:libssh.so.4"
       ],
       "provides": [
-        "cmd:bird=2.17.4-r0",
-        "cmd:birdc=2.17.4-r0",
-        "cmd:birdcl=2.17.4-r0"
+        "cmd:bird=2.17.5-r0",
+        "cmd:birdc=2.17.5-r0",
+        "cmd:birdcl=2.17.5-r0"
       ]
     },
     "bird2-dbg": {
@@ -18576,11 +18580,12 @@
       "versions": {
         "2.17.2-r0": 1758635023,
         "2.17.3-r0": 1766425785,
-        "2.17.4-r0": 1775421664
+        "2.17.4-r0": 1775421664,
+        "2.17.5-r0": 1781228923
       },
       "dependencies": [
-        "!bird2<2.17.4-r0",
-        "!bird2>2.17.4-r0"
+        "!bird2<2.17.5-r0",
+        "!bird2>2.17.5-r0"
       ]
     },
     "bird2-openrc": {
@@ -18588,7 +18593,8 @@
       "versions": {
         "2.17.2-r0": 1758635023,
         "2.17.3-r0": 1766425785,
-        "2.17.4-r0": 1775421664
+        "2.17.4-r0": 1775421664,
+        "2.17.5-r0": 1781228923
       }
     },
     "bird_exporter": {
@@ -40216,7 +40222,8 @@
         "8.0.127-r0": 1778770922,
         "9.0.117-r0": 1778770994,
         "10.0.108-r0": 1778771373,
-        "10.0.109-r0": 1781224001
+        "10.0.109-r0": 1781224001,
+        "9.0.118-r0": 1781224168
       },
       "dependencies": [
         "dotnet-host"
@@ -40250,7 +40257,8 @@
         "8.0.127-r0": 1778770922,
         "9.0.117-r0": 1778770994,
         "10.0.108-r0": 1778771373,
-        "10.0.109-r0": 1781224001
+        "10.0.109-r0": 1781224001,
+        "9.0.118-r0": 1781224168
       }
     },
     "dotnet-host": {
@@ -40279,7 +40287,8 @@
         "8.0.27-r0": 1778770922,
         "9.0.16-r0": 1778770994,
         "10.0.8-r0": 1778771373,
-        "10.0.9-r0": 1781224001
+        "10.0.9-r0": 1781224001,
+        "9.0.17-r0": 1781224168
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -40319,7 +40328,8 @@
         "8.0.127-r0": 1778770922,
         "9.0.117-r0": 1778770994,
         "10.0.108-r0": 1778771373,
-        "10.0.109-r0": 1781224001
+        "10.0.109-r0": 1781224001,
+        "9.0.118-r0": 1781224168
       },
       "dependencies": [
         "dotnet-host"
@@ -40996,7 +41006,8 @@
         "9.0.13-r0": 1771643037,
         "9.0.14-r0": 1773339195,
         "9.0.15-r0": 1776299704,
-        "9.0.16-r0": 1778770994
+        "9.0.16-r0": 1778770994,
+        "9.0.17-r0": 1781224168
       },
       "dependencies": [
         "dotnet9-hostfxr",
@@ -41012,7 +41023,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "dotnet-apphost-pack-9.0=9.0.16-r0",
+        "dotnet-apphost-pack-9.0=9.0.17-r0",
         "so:dotnet9:libnethost.so=0"
       ]
     },
@@ -41025,7 +41036,8 @@
         "9.0.13-r0": 1771643037,
         "9.0.14-r0": 1773339195,
         "9.0.15-r0": 1776299704,
-        "9.0.16-r0": 1778770994
+        "9.0.16-r0": 1778770994,
+        "9.0.17-r0": 1781224168
       },
       "dependencies": [
         "dotnet-host",
@@ -41034,7 +41046,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "dotnet-hostfxr-9.0=9.0.16-r0",
+        "dotnet-hostfxr-9.0=9.0.17-r0",
         "so:dotnet9:libhostfxr.so=0"
       ]
     },
@@ -41047,7 +41059,8 @@
         "9.0.13-r0": 1771643037,
         "9.0.14-r0": 1773339195,
         "9.0.15-r0": 1776299704,
-        "9.0.16-r0": 1778770994
+        "9.0.16-r0": 1778770994,
+        "9.0.17-r0": 1781224168
       },
       "dependencies": [
         "dotnet9-hostfxr",
@@ -41064,7 +41077,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "dotnet9=9.0.16-r0",
+        "dotnet9=9.0.17-r0",
         "so:dotnet9:libSystem.Globalization.Native.so=0",
         "so:dotnet9:libSystem.IO.Compression.Native.so=0",
         "so:dotnet9:libSystem.Native.so=0",
@@ -41089,7 +41102,8 @@
         "9.0.13-r0": 1771643037,
         "9.0.14-r0": 1773339195,
         "9.0.15-r0": 1776299704,
-        "9.0.16-r0": 1778770994
+        "9.0.16-r0": 1778770994,
+        "9.0.17-r0": 1781224168
       },
       "provides": [
         "dotnet9-bootstrap-artifacts"
@@ -41104,7 +41118,8 @@
         "9.0.13-r0": 1771643037,
         "9.0.14-r0": 1773339195,
         "9.0.15-r0": 1776299704,
-        "9.0.16-r0": 1778770994
+        "9.0.16-r0": 1778770994,
+        "9.0.17-r0": 1781224168
       },
       "dependencies": [
         "so:libbrotlidec.so.1",
@@ -41151,13 +41166,14 @@
         "9.0.13-r0": 1771643037,
         "9.0.14-r0": 1773339195,
         "9.0.15-r0": 1776299704,
-        "9.0.16-r0": 1778770994
+        "9.0.16-r0": 1778770994,
+        "9.0.17-r0": 1781224168
       },
       "dependencies": [
         "dotnet9-runtime"
       ],
       "provides": [
-        "dotnet-runtime-dbg-9.0=9.0.16-r0"
+        "dotnet-runtime-dbg-9.0=9.0.17-r0"
       ]
     },
     "dotnet9-sdk": {
@@ -41169,7 +41185,8 @@
         "9.0.114-r0": 1771643037,
         "9.0.115-r0": 1773339195,
         "9.0.116-r0": 1776299704,
-        "9.0.117-r0": 1778770994
+        "9.0.117-r0": 1778770994,
+        "9.0.118-r0": 1781224168
       },
       "dependencies": [
         "aspnetcore9-runtime",
@@ -41184,8 +41201,8 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "dotnet-sdk-9.0=9.0.117-r0",
-        "dotnet9-dev=9.0.117-r0"
+        "dotnet-sdk-9.0=9.0.118-r0",
+        "dotnet9-dev=9.0.118-r0"
       ]
     },
     "dotnet9-sdk-aot": {
@@ -41197,7 +41214,8 @@
         "9.0.114-r0": 1771643037,
         "9.0.115-r0": 1773339195,
         "9.0.116-r0": 1776299704,
-        "9.0.117-r0": 1778770994
+        "9.0.117-r0": 1778770994,
+        "9.0.118-r0": 1781224168
       },
       "dependencies": [
         "dotnet9-sdk",
@@ -41215,7 +41233,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "dotnet-sdk-aot-9.0=9.0.117-r0",
+        "dotnet-sdk-aot-9.0=9.0.118-r0",
         "so:libclrjit_universal_arm64_arm64.so=0",
         "so:libclrjit_universal_arm_arm64.so=0",
         "so:libclrjit_unix_x64_arm64.so=0",
@@ -41233,13 +41251,14 @@
         "9.0.114-r0": 1771643037,
         "9.0.115-r0": 1773339195,
         "9.0.116-r0": 1776299704,
-        "9.0.117-r0": 1778770994
+        "9.0.117-r0": 1778770994,
+        "9.0.118-r0": 1781224168
       },
       "dependencies": [
         "dotnet9-sdk"
       ],
       "provides": [
-        "dotnet-sdk-dbg-9.0=9.0.117-r0"
+        "dotnet-sdk-dbg-9.0=9.0.118-r0"
       ]
     },
     "dotnet9-stage0": {
@@ -41295,7 +41314,8 @@
         "9.0.13-r0": 1771643037,
         "9.0.14-r0": 1773339195,
         "9.0.15-r0": 1776299704,
-        "9.0.16-r0": 1778770994
+        "9.0.16-r0": 1778770994,
+        "9.0.17-r0": 1781224168
       },
       "dependencies": [
         "dotnet9-hostfxr",
@@ -41303,7 +41323,7 @@
         "icu-libs"
       ],
       "provides": [
-        "dotnet-targeting-pack-9.0=9.0.16-r0"
+        "dotnet-targeting-pack-9.0=9.0.17-r0"
       ]
     },
     "dotnet9-templates": {
@@ -41315,13 +41335,14 @@
         "9.0.114-r0": 1771643037,
         "9.0.115-r0": 1773339195,
         "9.0.116-r0": 1776299704,
-        "9.0.117-r0": 1778770994
+        "9.0.117-r0": 1778770994,
+        "9.0.118-r0": 1781224168
       },
       "dependencies": [
         "dotnet-host"
       ],
       "provides": [
-        "dotnet-templates-9.0=9.0.117-r0"
+        "dotnet-templates-9.0=9.0.118-r0"
       ]
     },
     "dotool": {
@@ -164060,13 +164081,14 @@
         "8.0.126-r0": 1776299737,
         "9.0.116-r0": 1776299704,
         "8.0.127-r0": 1778770922,
-        "9.0.117-r0": 1778770994
+        "9.0.117-r0": 1778770994,
+        "9.0.118-r0": 1781224168
       },
       "dependencies": [
         "dotnet-host"
       ],
       "provides": [
-        "netstandard-targeting-pack-2.1=9.0.117-r0"
+        "netstandard-targeting-pack-2.1=9.0.118-r0"
       ]
     },
     "netsurf": {
@@ -346141,15 +346163,15 @@
       },
       "aspnetcore-runtime-9.0": {
         "package": "aspnetcore9-runtime",
-        "version": "9.0.16-r0"
+        "version": "9.0.17-r0"
       },
       "aspnetcore-runtime-dbg-9.0": {
         "package": "aspnetcore9-runtime-dbg",
-        "version": "9.0.16-r0"
+        "version": "9.0.17-r0"
       },
       "aspnetcore-targeting-pack-9.0": {
         "package": "aspnetcore9-targeting-pack",
-        "version": "9.0.16-r0"
+        "version": "9.0.17-r0"
       },
       "asterisk-dongle": {
         "package": "asterisk-chan-dongle",
@@ -346441,15 +346463,15 @@
       },
       "dotnet-apphost-pack-9.0": {
         "package": "dotnet9-apphost-pack",
-        "version": "9.0.16-r0"
+        "version": "9.0.17-r0"
       },
       "dotnet-hostfxr-9.0": {
         "package": "dotnet9-hostfxr",
-        "version": "9.0.16-r0"
+        "version": "9.0.17-r0"
       },
       "dotnet9": {
         "package": "dotnet9-runtime",
-        "version": "9.0.16-r0"
+        "version": "9.0.17-r0"
       },
       "dotnet9-bootstrap-artifacts": {
         "package": "dotnet9-stage0-artifacts",
@@ -346461,31 +346483,31 @@
       },
       "dotnet-runtime-dbg-9.0": {
         "package": "dotnet9-runtime-dbg",
-        "version": "9.0.16-r0"
+        "version": "9.0.17-r0"
       },
       "dotnet-sdk-9.0": {
         "package": "dotnet9-sdk",
-        "version": "9.0.117-r0"
+        "version": "9.0.118-r0"
       },
       "dotnet9-dev": {
         "package": "dotnet9-sdk",
-        "version": "9.0.117-r0"
+        "version": "9.0.118-r0"
       },
       "dotnet-sdk-aot-9.0": {
         "package": "dotnet9-sdk-aot",
-        "version": "9.0.117-r0"
+        "version": "9.0.118-r0"
       },
       "dotnet-sdk-dbg-9.0": {
         "package": "dotnet9-sdk-dbg",
-        "version": "9.0.117-r0"
+        "version": "9.0.118-r0"
       },
       "dotnet-targeting-pack-9.0": {
         "package": "dotnet9-targeting-pack",
-        "version": "9.0.16-r0"
+        "version": "9.0.17-r0"
       },
       "dotnet-templates-9.0": {
         "package": "dotnet9-templates",
-        "version": "9.0.117-r0"
+        "version": "9.0.118-r0"
       },
       "jbuilder": {
         "package": "dune",
@@ -347153,7 +347175,7 @@
       },
       "netstandard-targeting-pack-2.1": {
         "package": "netstandard21-targeting-pack",
-        "version": "9.0.117-r0"
+        "version": "9.0.118-r0"
       },
       "networkmanager-openvpn": {
         "package": "networkmanager-openvpn-gui",
