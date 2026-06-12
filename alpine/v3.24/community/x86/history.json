@@ -2170,7 +2170,8 @@
     "akonadi-search": {
       "origin": "akonadi-search",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.0-r1": 1781221773
       },
       "dependencies": [
         "so:libKF6CalendarCore.so.6",
@@ -2196,11 +2197,11 @@
         "so:libc.musl-x86.so.1",
         "so:libgcc_s.so.1",
         "so:libstdc++.so.6",
-        "so:libxapian.so.30"
+        "so:libxapian.so.45"
       ],
       "provides": [
-        "cmd:akonadi_html_to_text=26.04.0-r0",
-        "cmd:akonadi_indexing_agent=26.04.0-r0",
+        "cmd:akonadi_html_to_text=26.04.0-r1",
+        "cmd:akonadi_indexing_agent=26.04.0-r1",
         "so:libKPim6AkonadiSearchCore.so.6=6.7.0",
         "so:libKPim6AkonadiSearchDebug.so.6=6.7.0",
         "so:libKPim6AkonadiSearchPIM.so.6=6.7.0",
@@ -2210,7 +2211,8 @@
     "akonadi-search-dev": {
       "origin": "akonadi-search",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.0-r1": 1781221773
       },
       "dependencies": [
         "akonadi-dev",
@@ -2229,13 +2231,14 @@
         "ktextaddons-dev",
         "qt6-qtbase-dev",
         "xapian-core-dev",
-        "akonadi-search=26.04.0-r0"
+        "akonadi-search=26.04.0-r1"
       ]
     },
     "akonadi-search-lang": {
       "origin": "akonadi-search",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.0-r1": 1781221773
       }
     },
     "alacritty": {
@@ -16853,7 +16856,8 @@
     "bird": {
       "origin": "bird",
       "versions": {
-        "3.2.1-r0": 1775421603
+        "3.2.1-r0": 1775421603,
+        "3.2.2-r0": 1781229077
       },
       "dependencies": [
         "!bird2",
@@ -16864,19 +16868,20 @@
         "so:libssh.so.4"
       ],
       "provides": [
-        "cmd:bird=3.2.1-r0",
-        "cmd:birdc=3.2.1-r0",
-        "cmd:birdcl=3.2.1-r0"
+        "cmd:bird=3.2.2-r0",
+        "cmd:birdc=3.2.2-r0",
+        "cmd:birdcl=3.2.2-r0"
       ]
     },
     "bird-dbg": {
       "origin": "bird",
       "versions": {
-        "3.2.1-r0": 1775421603
+        "3.2.1-r0": 1775421603,
+        "3.2.2-r0": 1781229077
       },
       "dependencies": [
-        "!bird<3.2.1-r0",
-        "!bird>3.2.1-r0"
+        "!bird<3.2.2-r0",
+        "!bird>3.2.2-r0"
       ]
     },
     "bird-lg-go": {
@@ -16924,14 +16929,16 @@
     "bird-openrc": {
       "origin": "bird",
       "versions": {
-        "3.2.1-r0": 1775421603
+        "3.2.1-r0": 1775421603,
+        "3.2.2-r0": 1781229077
       }
     },
     "bird2": {
       "origin": "bird2",
       "versions": {
         "2.18.1-r0": 1775522824,
-        "2.19.0-r0": 1779726264
+        "2.19.0-r0": 1779726264,
+        "2.19.1-r0": 1781228913
       },
       "dependencies": [
         "/bin/sh",
@@ -16941,27 +16948,29 @@
         "so:libssh.so.4"
       ],
       "provides": [
-        "cmd:bird=2.19.0-r0",
-        "cmd:birdc=2.19.0-r0",
-        "cmd:birdcl=2.19.0-r0"
+        "cmd:bird=2.19.1-r0",
+        "cmd:birdc=2.19.1-r0",
+        "cmd:birdcl=2.19.1-r0"
       ]
     },
     "bird2-dbg": {
       "origin": "bird2",
       "versions": {
         "2.18.1-r0": 1775522824,
-        "2.19.0-r0": 1779726264
+        "2.19.0-r0": 1779726264,
+        "2.19.1-r0": 1781228913
       },
       "dependencies": [
-        "!bird2<2.19.0-r0",
-        "!bird2>2.19.0-r0"
+        "!bird2<2.19.1-r0",
+        "!bird2>2.19.1-r0"
       ]
     },
     "bird2-openrc": {
       "origin": "bird2",
       "versions": {
         "2.18.1-r0": 1775522824,
-        "2.19.0-r0": 1779726264
+        "2.19.0-r0": 1779726264,
+        "2.19.1-r0": 1781228913
       }
     },
     "bird_exporter": {
@@ -147598,7 +147607,8 @@
     "nmail": {
       "origin": "nmail",
       "versions": {
-        "5.11.4-r0": 1777623611
+        "5.11.4-r0": 1777623611,
+        "5.12.6-r0": 1781226177
       },
       "dependencies": [
         "bash",
@@ -147615,30 +147625,32 @@
         "so:libssl.so.3",
         "so:libstdc++.so.6",
         "so:libuuid.so.1",
-        "so:libxapian.so.30"
+        "so:libxapian.so.45"
       ],
       "provides": [
-        "cmd:html2nmail=5.11.4-r0",
-        "cmd:nmail=5.11.4-r0"
+        "cmd:html2nmail=5.12.6-r0",
+        "cmd:nmail=5.12.6-r0"
       ]
     },
     "nmail-doc": {
       "origin": "nmail",
       "versions": {
-        "5.11.4-r0": 1777623611
+        "5.11.4-r0": 1777623611,
+        "5.12.6-r0": 1781226177
       }
     },
     "nmail-oauth": {
       "origin": "nmail",
       "versions": {
-        "5.11.4-r0": 1777623611
+        "5.11.4-r0": 1777623611,
+        "5.12.6-r0": 1781226177
       },
       "dependencies": [
-        "nmail=5.11.4-r0",
+        "nmail=5.12.6-r0",
         "py3-requests"
       ],
       "provides": [
-        "cmd:oauth2nmail=5.11.4-r0"
+        "cmd:oauth2nmail=5.12.6-r0"
       ]
     },
     "nmh": {
