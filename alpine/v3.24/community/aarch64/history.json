@@ -80641,30 +80641,33 @@
     "grafana": {
       "origin": "grafana",
       "versions": {
-        "12.4.3-r1": 1778661427
+        "12.4.3-r1": 1778661427,
+        "12.4.4-r0": 1781351701
       },
       "dependencies": [
-        "grafana-frontend~12.4.3",
+        "grafana-frontend~12.4.4",
         "/bin/sh",
         "so:libc.musl-aarch64.so.1",
         "so:libsqlite3.so.0"
       ],
       "provides": [
-        "cmd:grafana-cli=12.4.3-r1",
-        "cmd:grafana-server=12.4.3-r1",
-        "cmd:grafana=12.4.3-r1"
+        "cmd:grafana-cli=12.4.4-r0",
+        "cmd:grafana-server=12.4.4-r0",
+        "cmd:grafana=12.4.4-r0"
       ]
     },
     "grafana-frontend": {
       "origin": "grafana-frontend",
       "versions": {
-        "12.4.3-r0": 1777539530
+        "12.4.3-r0": 1777539530,
+        "12.4.4-r0": 1781351695
       }
     },
     "grafana-openrc": {
       "origin": "grafana",
       "versions": {
-        "12.4.3-r1": 1778661427
+        "12.4.3-r1": 1778661427,
+        "12.4.4-r0": 1781351701
       }
     },
     "granatier": {

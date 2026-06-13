@@ -78542,50 +78542,50 @@ c:adbfc3ba893dd6d561f06f8a9fa361d48ed357be
 D:openjdk21
 p:cmd:gradle=8.14.4-r0
 
-C:Q1sxe/SMZrf8TnMpeA8YZOYsqXkMI=
+C:Q1Zez0oZFpA1E7tuCP1qCE/C+WwW0=
 P:grafana
-V:12.4.3-r1
+V:12.4.4-r0
 A:riscv64
-S:100578447
-I:339279747
+S:101199068
+I:341699459
 T:Open source, feature rich metrics dashboard and graph editor
 U:https://grafana.com/
 L:AGPL-3.0-only
 o:grafana
 m:Konstantin Kulikov <k.kulikov2@gmail.com>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-D:grafana-frontend~12.4.3 /bin/sh so:libc.musl-riscv64.so.1 so:libsqlite3.so.0
-p:cmd:grafana-cli=12.4.3-r1 cmd:grafana-server=12.4.3-r1 cmd:grafana=12.4.3-r1
+t:1781351701
+c:3839805d318b8a83b15f137b8db2f28561daaed1
+D:grafana-frontend~12.4.4 /bin/sh so:libc.musl-riscv64.so.1 so:libsqlite3.so.0
+p:cmd:grafana-cli=12.4.4-r0 cmd:grafana-server=12.4.4-r0 cmd:grafana=12.4.4-r0
 
-C:Q17NdZeQWNLXasd/kMXBqBySoIQLc=
+C:Q1P4g1ArNliClbE60y97wFfBtyl3M=
 P:grafana-frontend
-V:12.4.3-r0
+V:12.4.4-r0
 A:riscv64
-S:84624507
-I:313375025
+S:84633706
+I:313400551
 T:Open source, feature rich metrics dashboard and graph editor (frontend files)
 U:https://grafana.com/
 L:AGPL-3.0-only
 o:grafana-frontend
 m:Konstantin Kulikov <k.kulikov2@gmail.com>
-t:1777539530
-c:09b2b40700415fd9a5450c8481a915ad16e25381
+t:1781351695
+c:6e58c09bfae37c1e726aba53aa4919f8e67f70ee
 
-C:Q1BS5qNEIZIFc/i1KJXzVl74CdYtk=
+C:Q1ZFhNpaJ9zVi4s9eIEzgNxwpdteA=
 P:grafana-openrc
-V:12.4.3-r1
+V:12.4.4-r0
 A:riscv64
-S:1806
+S:1798
 I:842
 T:Open source, feature rich metrics dashboard and graph editor (OpenRC init scripts)
 U:https://grafana.com/
 L:AGPL-3.0-only
 o:grafana
 m:Konstantin Kulikov <k.kulikov2@gmail.com>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:openrc grafana=12.4.3-r1
+t:1781351701
+c:3839805d318b8a83b15f137b8db2f28561daaed1
+i:openrc grafana=12.4.4-r0
 
 C:Q1SmidahK3SBOB4VoOQ7YpET00AS0=
 P:granatier
@@ -279751,81 +279751,81 @@ t:1730446194
 c:01b201232fa6b8f684b63d207f99db1b07076d64
 i:skladnik=0.5.2-r0 lang
 
-C:Q18hIxQl+C8dyxdZTpQo+KnsL4hy4=
+C:Q1o6MYjvmEwCQGh7H/FJJNj03OvLA=
 P:skopeo
-V:1.20.0-r10
+V:1.20.1-r0
 A:riscv64
-S:9539154
-I:25924416
+S:9556068
+I:25949024
 T:Work with remote images registries - retrieving information, images, signing content
 U:https://github.com/containers/skopeo
 L:Apache-2.0
 o:skopeo
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1781348848
+c:da4a9246e8f56a227a4c2c8618c5691816ce271a
 D:containers-common so:libc.musl-riscv64.so.1 so:libgpgme.so.45 so:libsqlite3.so.0
-p:cmd:skopeo=1.20.0-r10
+p:cmd:skopeo=1.20.1-r0
 
-C:Q1ew4LFEMtCeqF4Ukoh2L/WzxXv4A=
+C:Q1WBeQuTsbUd7Jmts2vAAtld6lMgo=
 P:skopeo-bash-completion
-V:1.20.0-r10
+V:1.20.1-r0
 A:riscv64
-S:5974
+S:5965
 I:16153
 T:Bash completions for skopeo
 U:https://github.com/containers/skopeo
 L:Apache-2.0
 o:skopeo
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:skopeo=1.20.0-r10 bash-completion
+t:1781348848
+c:da4a9246e8f56a227a4c2c8618c5691816ce271a
+i:skopeo=1.20.1-r0 bash-completion
 
-C:Q1+CdNtJswTFBBGzv0ssEM2KUqAzM=
+C:Q1qnQv5AbqTBy0opxWosKePFC3V5Y=
 P:skopeo-doc
-V:1.20.0-r10
+V:1.20.1-r0
 A:riscv64
-S:24095
+S:24093
 I:21553
 T:Work with remote images registries - retrieving information, images, signing content (documentation)
 U:https://github.com/containers/skopeo
 L:Apache-2.0
 o:skopeo
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:docs skopeo=1.20.0-r10
+t:1781348848
+c:da4a9246e8f56a227a4c2c8618c5691816ce271a
+i:docs skopeo=1.20.1-r0
 
-C:Q1TTxnIK/ivAL28XYCv4MIJPyZapU=
+C:Q1EdyGqNzL2SZ9yfrAfOWvUPXxAmM=
 P:skopeo-fish-completion
-V:1.20.0-r10
+V:1.20.1-r0
 A:riscv64
-S:4158
+S:4149
 I:9693
 T:Fish completions for skopeo
 U:https://github.com/containers/skopeo
 L:Apache-2.0
 o:skopeo
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:skopeo=1.20.0-r10 fish
+t:1781348848
+c:da4a9246e8f56a227a4c2c8618c5691816ce271a
+i:skopeo=1.20.1-r0 fish
 
-C:Q1FEez1FnjA8fDT7j1Ht61IZJpiYY=
+C:Q1Moqvp8s3ZgHiNUELITf/6H60AAQ=
 P:skopeo-zsh-completion
-V:1.20.0-r10
+V:1.20.1-r0
 A:riscv64
-S:3868
+S:3861
 I:7748
 T:Zsh completions for skopeo
 U:https://github.com/containers/skopeo
 L:Apache-2.0
 o:skopeo
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:skopeo=1.20.0-r10 zsh
+t:1781348848
+c:da4a9246e8f56a227a4c2c8618c5691816ce271a
+i:skopeo=1.20.1-r0 zsh
 
 C:Q1LjqF5pAg9aJQqrdhau/XfXe1Ano=
 P:skribilo
