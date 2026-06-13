@@ -2979,7 +2979,8 @@
         "3.24.0_alpha20260127-r0": 1769551287,
         "3.24.0_rc1-r0": 1780904877,
         "3.24.0_rc2-r0": 1780951703,
-        "3.24.0-r0": 1781012520
+        "3.24.0-r0": 1781012520,
+        "3.24.1-r0": 1781363875
       },
       "dependencies": [
         "alpine-baselayout",
@@ -3112,7 +3113,8 @@
         "3.24.0_alpha20260127-r0": 1769551287,
         "3.24.0_rc1-r0": 1780904877,
         "3.24.0_rc2-r0": 1780951703,
-        "3.24.0-r0": 1781012520
+        "3.24.0-r0": 1781012520,
+        "3.24.1-r0": 1781363875
       },
       "dependencies": [
         "alpine-keys"
@@ -8227,7 +8229,8 @@
     "ca-certificates": {
       "origin": "ca-certificates",
       "versions": {
-        "20260413-r0": 1776182162
+        "20260413-r0": 1776182162,
+        "20260611-r0": 1781362042
       },
       "dependencies": [
         "/bin/sh",
@@ -8235,23 +8238,25 @@
         "so:libcrypto.so.3"
       ],
       "provides": [
-        "cmd:c_rehash=20260413-r0",
-        "cmd:update-ca-certificates=20260413-r0"
+        "cmd:c_rehash=20260611-r0",
+        "cmd:update-ca-certificates=20260611-r0"
       ]
     },
     "ca-certificates-bundle": {
       "origin": "ca-certificates",
       "versions": {
-        "20260413-r0": 1776182162
+        "20260413-r0": 1776182162,
+        "20260611-r0": 1781362042
       },
       "provides": [
-        "ca-certificates-cacert=20260413-r0"
+        "ca-certificates-cacert=20260611-r0"
       ]
     },
     "ca-certificates-doc": {
       "origin": "ca-certificates",
       "versions": {
-        "20260413-r0": 1776182162
+        "20260413-r0": 1776182162,
+        "20260611-r0": 1781362042
       }
     },
     "cairo": {
@@ -75163,7 +75168,7 @@
       },
       "ca-certificates-cacert": {
         "package": "ca-certificates-bundle",
-        "version": "20260413-r0"
+        "version": "20260611-r0"
       },
       "cargo-bootstrap": {
         "package": "cargo",
