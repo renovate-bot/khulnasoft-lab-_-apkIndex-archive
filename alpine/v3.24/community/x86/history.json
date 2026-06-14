@@ -1931,7 +1931,8 @@
     "akonadi": {
       "origin": "akonadi",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "mariadb",
@@ -1964,31 +1965,32 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:akonadi-db-migrator=26.04.0-r0",
-        "cmd:akonadi2xml=26.04.0-r0",
-        "cmd:akonadi_agent_launcher=26.04.0-r0",
-        "cmd:akonadi_agent_server=26.04.0-r0",
-        "cmd:akonadi_control=26.04.0-r0",
-        "cmd:akonadi_knut_resource=26.04.0-r0",
-        "cmd:akonadi_rds=26.04.0-r0",
-        "cmd:akonadiagentconfigdialog=26.04.0-r0",
-        "cmd:akonadictl=26.04.0-r0",
-        "cmd:akonadiselftest=26.04.0-r0",
-        "cmd:akonadiserver=26.04.0-r0",
-        "cmd:akonaditest=26.04.0-r0",
-        "cmd:asapcat=26.04.0-r0",
-        "so:libKPim6AkonadiAgentBase.so.6=6.7.0",
-        "so:libKPim6AkonadiAgentWidgetBase.so.6=6.7.0",
-        "so:libKPim6AkonadiCore.so.6=6.7.0",
-        "so:libKPim6AkonadiPrivate.so.6=6.7.0",
-        "so:libKPim6AkonadiWidgets.so.6=6.7.0",
-        "so:libKPim6AkonadiXml.so.6=6.7.0"
+        "cmd:akonadi-db-migrator=26.04.2-r0",
+        "cmd:akonadi2xml=26.04.2-r0",
+        "cmd:akonadi_agent_launcher=26.04.2-r0",
+        "cmd:akonadi_agent_server=26.04.2-r0",
+        "cmd:akonadi_control=26.04.2-r0",
+        "cmd:akonadi_knut_resource=26.04.2-r0",
+        "cmd:akonadi_rds=26.04.2-r0",
+        "cmd:akonadiagentconfigdialog=26.04.2-r0",
+        "cmd:akonadictl=26.04.2-r0",
+        "cmd:akonadiselftest=26.04.2-r0",
+        "cmd:akonadiserver=26.04.2-r0",
+        "cmd:akonaditest=26.04.2-r0",
+        "cmd:asapcat=26.04.2-r0",
+        "so:libKPim6AkonadiAgentBase.so.6=6.7.2",
+        "so:libKPim6AkonadiAgentWidgetBase.so.6=6.7.2",
+        "so:libKPim6AkonadiCore.so.6=6.7.2",
+        "so:libKPim6AkonadiPrivate.so.6=6.7.2",
+        "so:libKPim6AkonadiWidgets.so.6=6.7.2",
+        "so:libKPim6AkonadiXml.so.6=6.7.2"
       ]
     },
     "akonadi-contacts": {
       "origin": "akonadi-contacts",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Codecs.so.6",
@@ -2022,14 +2024,15 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKPim6AkonadiContactCore.so.6=6.7.0",
-        "so:libKPim6AkonadiContactWidgets.so.6=6.7.0"
+        "so:libKPim6AkonadiContactCore.so.6=6.7.2",
+        "so:libKPim6AkonadiContactWidgets.so.6=6.7.2"
       ]
     },
     "akonadi-contacts-dev": {
       "origin": "akonadi-contacts",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "akonadi-dev",
@@ -2054,29 +2057,32 @@
         "libkleo-dev",
         "prison-dev",
         "qt6-qtbase-dev",
-        "akonadi-contacts=26.04.0-r0"
+        "akonadi-contacts=26.04.2-r0"
       ]
     },
     "akonadi-contacts-lang": {
       "origin": "akonadi-contacts",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "akonadi-dbg": {
       "origin": "akonadi",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
-        "!akonadi<26.04.0-r0",
-        "!akonadi>26.04.0-r0"
+        "!akonadi<26.04.2-r0",
+        "!akonadi>26.04.2-r0"
       ]
     },
     "akonadi-dev": {
       "origin": "akonadi",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "boost-dev",
@@ -2099,19 +2105,21 @@
         "qt6-qtdeclarative-dev",
         "shared-mime-info",
         "sqlite-dev",
-        "akonadi=26.04.0-r0"
+        "akonadi=26.04.2-r0"
       ]
     },
     "akonadi-lang": {
       "origin": "akonadi",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "akonadi-mime": {
       "origin": "akonadi-mime",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -2135,14 +2143,15 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:akonadi_benchmarker=26.04.0-r0",
-        "so:libKPim6AkonadiMime.so.6=6.7.0"
+        "cmd:akonadi_benchmarker=26.04.2-r0",
+        "so:libKPim6AkonadiMime.so.6=6.7.2"
       ]
     },
     "akonadi-mime-dev": {
       "origin": "akonadi-mime",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "akonadi-dev",
@@ -2158,20 +2167,22 @@
         "qt6-qtbase-dev",
         "qt6-qtdeclarative-dev",
         "shared-mime-info",
-        "akonadi-mime=26.04.0-r0"
+        "akonadi-mime=26.04.2-r0"
       ]
     },
     "akonadi-mime-lang": {
       "origin": "akonadi-mime",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "akonadi-search": {
       "origin": "akonadi-search",
       "versions": {
         "26.04.0-r0": 1777900518,
-        "26.04.0-r1": 1781221773
+        "26.04.0-r1": 1781221773,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6CalendarCore.so.6",
@@ -2200,19 +2211,20 @@
         "so:libxapian.so.45"
       ],
       "provides": [
-        "cmd:akonadi_html_to_text=26.04.0-r1",
-        "cmd:akonadi_indexing_agent=26.04.0-r1",
-        "so:libKPim6AkonadiSearchCore.so.6=6.7.0",
-        "so:libKPim6AkonadiSearchDebug.so.6=6.7.0",
-        "so:libKPim6AkonadiSearchPIM.so.6=6.7.0",
-        "so:libKPim6AkonadiSearchXapian.so.6=6.7.0"
+        "cmd:akonadi_html_to_text=26.04.2-r0",
+        "cmd:akonadi_indexing_agent=26.04.2-r0",
+        "so:libKPim6AkonadiSearchCore.so.6=6.7.2",
+        "so:libKPim6AkonadiSearchDebug.so.6=6.7.2",
+        "so:libKPim6AkonadiSearchPIM.so.6=6.7.2",
+        "so:libKPim6AkonadiSearchXapian.so.6=6.7.2"
       ]
     },
     "akonadi-search-dev": {
       "origin": "akonadi-search",
       "versions": {
         "26.04.0-r0": 1777900518,
-        "26.04.0-r1": 1781221773
+        "26.04.0-r1": 1781221773,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "akonadi-dev",
@@ -2231,14 +2243,15 @@
         "ktextaddons-dev",
         "qt6-qtbase-dev",
         "xapian-core-dev",
-        "akonadi-search=26.04.0-r1"
+        "akonadi-search=26.04.2-r0"
       ]
     },
     "akonadi-search-lang": {
       "origin": "akonadi-search",
       "versions": {
         "26.04.0-r0": 1777900518,
-        "26.04.0-r1": 1781221773
+        "26.04.0-r1": 1781221773,
+        "26.04.2-r0": 1781443792
       }
     },
     "alacritty": {
@@ -2533,7 +2546,8 @@
     "alligator": {
       "origin": "alligator",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kirigami-addons",
@@ -2559,7 +2573,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:alligator=26.04.0-r0"
+        "cmd:alligator=26.04.2-r0"
       ]
     },
     "alpine": {
@@ -3184,7 +3198,8 @@
     "analitza": {
       "origin": "analitza",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -3211,7 +3226,8 @@
     "analitza-dev": {
       "origin": "analitza",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "eigen-dev",
@@ -3221,13 +3237,14 @@
         "qt6-qtdeclarative-private-dev",
         "qt6-qtsvg-dev",
         "qt6-qttools-dev",
-        "analitza=26.04.0-r0"
+        "analitza=26.04.2-r0"
       ]
     },
     "analitza-lang": {
       "origin": "analitza",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "android-tools": {
@@ -5068,7 +5085,8 @@
     "ark": {
       "origin": "ark",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "7zip-virtual",
@@ -5110,20 +5128,22 @@
         "so:libzip.so.5"
       ],
       "provides": [
-        "cmd:ark=26.04.0-r0",
-        "so:libkerfuffle.so.26=26.04.0"
+        "cmd:ark=26.04.2-r0",
+        "so:libkerfuffle.so.26=26.04.2"
       ]
     },
     "ark-doc": {
       "origin": "ark",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "ark-lang": {
       "origin": "ark",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "armadillo": {
@@ -5277,7 +5297,8 @@
     "artikulate": {
       "origin": "artikulate",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kirigami",
@@ -5300,8 +5321,8 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:artikulate=26.04.0-r0",
-        "cmd:artikulate_editor=26.04.0-r0",
+        "cmd:artikulate=26.04.2-r0",
+        "cmd:artikulate_editor=26.04.2-r0",
         "so:libartikulatecore.so.0=0",
         "so:libartikulatelearnerprofile.so.0=0"
       ]
@@ -5309,13 +5330,15 @@
     "artikulate-doc": {
       "origin": "artikulate",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "artikulate-lang": {
       "origin": "artikulate",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "asciinema": {
@@ -6414,7 +6437,8 @@
     "audiocd-kio": {
       "origin": "audiocd-kio",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libFLAC.so.12",
@@ -6441,19 +6465,21 @@
         "so:libvorbisenc.so.2"
       ],
       "provides": [
-        "so:libaudiocdplugins.so.5=5.1.26040"
+        "so:libaudiocdplugins.so.5=5.1.26042"
       ]
     },
     "audiocd-kio-doc": {
       "origin": "audiocd-kio",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "audiocd-kio-lang": {
       "origin": "audiocd-kio",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "audiofile": {
@@ -6515,7 +6541,8 @@
     "audiotube": {
       "origin": "audiotube",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "gst-plugins-bad",
@@ -6552,13 +6579,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:audiotube=26.04.0-r0"
+        "cmd:audiotube=26.04.2-r0"
       ]
     },
     "audiotube-lang": {
       "origin": "audiotube",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "aurorae": {
@@ -15801,7 +15829,8 @@
     "baloo-widgets": {
       "origin": "baloo-widgets",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Baloo.so.6",
@@ -15821,14 +15850,15 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:baloo_filemetadata_temp_extractor=26.04.0-r0",
-        "so:libKF6BalooWidgets.so.6=26.04.0"
+        "cmd:baloo_filemetadata_temp_extractor=26.04.2-r0",
+        "so:libKF6BalooWidgets.so.6=26.04.2"
       ]
     },
     "baloo-widgets-dev": {
       "origin": "baloo-widgets",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "baloo-dev",
@@ -15837,13 +15867,14 @@
         "ki18n-dev",
         "kio-dev",
         "qt6-qtbase-dev",
-        "baloo-widgets=26.04.0-r0"
+        "baloo-widgets=26.04.2-r0"
       ]
     },
     "baloo-widgets-lang": {
       "origin": "baloo-widgets",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "bam": {
@@ -17501,7 +17532,8 @@
     "blinken": {
       "origin": "blinken",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -17522,19 +17554,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:blinken=26.04.0-r0"
+        "cmd:blinken=26.04.2-r0"
       ]
     },
     "blinken-doc": {
       "origin": "blinken",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "blinken-lang": {
       "origin": "blinken",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "blinkstick": {
@@ -18609,7 +18643,8 @@
     "bovo": {
       "origin": "bovo",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKDEGames6.so.6",
@@ -18633,19 +18668,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:bovo=26.04.0-r0"
+        "cmd:bovo=26.04.2-r0"
       ]
     },
     "bovo-doc": {
       "origin": "bovo",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "bovo-lang": {
       "origin": "bovo",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "bower": {
@@ -20719,7 +20756,8 @@
     "calindori": {
       "origin": "calindori",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kirigami",
@@ -20741,14 +20779,15 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:calindac=26.04.0-r0",
-        "cmd:calindori=26.04.0-r0"
+        "cmd:calindac=26.04.2-r0",
+        "cmd:calindori=26.04.2-r0"
       ]
     },
     "calindori-lang": {
       "origin": "calindori",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "callaudiocli": {
@@ -21124,10 +21163,11 @@
     "carddecks": {
       "origin": "libkdegames",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
-        "libkdegames=26.04.0-r0"
+        "libkdegames=26.04.2-r0"
       ]
     },
     "cargo-audit": {
@@ -35416,11 +35456,14 @@
     "dolphin": {
       "origin": "dolphin",
       "versions": {
-        "26.04.0-r0": 1777150610
+        "26.04.0-r0": 1777150610,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "udisks2",
         "kio-extras",
+        "so:libKF6Baloo.so.6",
+        "so:libKF6BalooWidgets.so.6",
         "so:libKF6Bookmarks.so.6",
         "so:libKF6BookmarksWidgets.so.6",
         "so:libKF6Codecs.so.6",
@@ -35457,6 +35500,8 @@
         "so:libQt6Core.so.6",
         "so:libQt6DBus.so.6",
         "so:libQt6Gui.so.6",
+        "so:libQt6Multimedia.so.6",
+        "so:libQt6MultimediaWidgets.so.6",
         "so:libQt6Widgets.so.6",
         "so:libQt6Xml.so.6",
         "so:libc.musl-x86.so.1",
@@ -35464,16 +35509,17 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:dolphin=26.04.0-r0",
-        "cmd:servicemenuinstaller=26.04.0-r0",
-        "so:libdolphinprivate.so.6=26.04.0",
-        "so:libdolphinvcs.so.6=26.04.0"
+        "cmd:dolphin=26.04.2-r0",
+        "cmd:servicemenuinstaller=26.04.2-r0",
+        "so:libdolphinprivate.so.6=26.04.2",
+        "so:libdolphinvcs.so.6=26.04.2"
       ]
     },
     "dolphin-dev": {
       "origin": "dolphin",
       "versions": {
-        "26.04.0-r0": 1777150610
+        "26.04.0-r0": 1777150610,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "baloo-dev",
@@ -35501,25 +35547,28 @@
         "plasma-activities-dev",
         "qt6-qtbase-dev",
         "solid-dev",
-        "dolphin=26.04.0-r0"
+        "dolphin=26.04.2-r0"
       ]
     },
     "dolphin-doc": {
       "origin": "dolphin",
       "versions": {
-        "26.04.0-r0": 1777150610
+        "26.04.0-r0": 1777150610,
+        "26.04.2-r0": 1781443792
       }
     },
     "dolphin-lang": {
       "origin": "dolphin",
       "versions": {
-        "26.04.0-r0": 1777150610
+        "26.04.0-r0": 1777150610,
+        "26.04.2-r0": 1781443792
       }
     },
     "dolphin-plugins": {
       "origin": "dolphin-plugins",
       "versions": {
-        "26.04.0-r0": 1777150641
+        "26.04.0-r0": 1777150641,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Completion.so.6",
@@ -35550,19 +35599,22 @@
     "dolphin-plugins-lang": {
       "origin": "dolphin-plugins",
       "versions": {
-        "26.04.0-r0": 1777150641
+        "26.04.0-r0": 1777150641,
+        "26.04.2-r0": 1781443792
       }
     },
     "dolphin-systemd": {
       "origin": "dolphin",
       "versions": {
-        "26.04.0-r0": 1777150610
+        "26.04.0-r0": 1777150610,
+        "26.04.2-r0": 1781443792
       }
     },
     "dolphin-zsh-completion": {
       "origin": "dolphin",
       "versions": {
-        "26.04.0-r0": 1777150610
+        "26.04.0-r0": 1777150610,
+        "26.04.2-r0": 1781443792
       }
     },
     "domoticz": {
@@ -35953,7 +36005,8 @@
     "dragon": {
       "origin": "dragon",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "phonon-backend-vlc",
@@ -35975,7 +36028,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:dragon=26.04.0-r0"
+        "cmd:dragon=26.04.2-r0"
       ]
     },
     "dragon-drop": {
@@ -36005,7 +36058,8 @@
     "dragon-lang": {
       "origin": "dragon",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "drawing": {
@@ -38079,7 +38133,8 @@
     "elisa": {
       "origin": "elisa",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kirigami",
@@ -38119,14 +38174,15 @@
         "so:libvlc.so.5"
       ],
       "provides": [
-        "cmd:elisa=26.04.0-r0",
+        "cmd:elisa=26.04.2-r0",
         "so:libelisaLib.so.0=0.1"
       ]
     },
     "elisa-lang": {
       "origin": "elisa",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "elixir": {
@@ -44507,7 +44563,8 @@
     "ffmpegthumbs": {
       "origin": "ffmpegthumbs",
       "versions": {
-        "26.04.0-r0": 1777150136
+        "26.04.0-r0": 1777150136,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -44725,7 +44782,8 @@
     "filelight": {
       "origin": "filelight",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -44749,29 +44807,32 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:filelight=26.04.0-r0"
+        "cmd:filelight=26.04.2-r0"
       ]
     },
     "filelight-dbg": {
       "origin": "filelight",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
-        "!filelight<26.04.0-r0",
-        "!filelight>26.04.0-r0"
+        "!filelight<26.04.2-r0",
+        "!filelight>26.04.2-r0"
       ]
     },
     "filelight-doc": {
       "origin": "filelight",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "filelight-lang": {
       "origin": "filelight",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "filezilla": {
@@ -49367,7 +49428,8 @@
     "francis": {
       "origin": "francis",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -49386,13 +49448,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:francis=26.04.0-r0"
+        "cmd:francis=26.04.2-r0"
       ]
     },
     "francis-lang": {
       "origin": "francis",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "freac": {
@@ -70606,7 +70669,8 @@
     "granatier": {
       "origin": "granatier",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKDEGames6.so.6",
@@ -70628,19 +70692,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:granatier=26.04.0-r0"
+        "cmd:granatier=26.04.2-r0"
       ]
     },
     "granatier-doc": {
       "origin": "granatier",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "granatier-lang": {
       "origin": "granatier",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "granite": {
@@ -70798,7 +70864,8 @@
     "grantleetheme": {
       "origin": "grantleetheme",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ColorScheme.so.6",
@@ -70818,13 +70885,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKPim6GrantleeTheme.so.6=6.7.0"
+        "so:libKPim6GrantleeTheme.so.6=6.7.2"
       ]
     },
     "grantleetheme-dev": {
       "origin": "grantleetheme",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "grantlee-dev",
@@ -70832,19 +70900,21 @@
         "knewstuff-dev",
         "ktexttemplate-dev",
         "qt6-qtbase-dev",
-        "grantleetheme=26.04.0-r0"
+        "grantleetheme=26.04.2-r0"
       ]
     },
     "grantleetheme-doc": {
       "origin": "grantleetheme",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "grantleetheme-lang": {
       "origin": "grantleetheme",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "graphicsmagick": {
@@ -76774,7 +76844,8 @@
     "gwenview": {
       "origin": "gwenview",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kimageformats",
@@ -76832,21 +76903,23 @@
         "so:libwayland-client.so.0"
       ],
       "provides": [
-        "cmd:gwenview=26.04.0-r0",
-        "cmd:gwenview_importer=26.04.0-r0",
+        "cmd:gwenview=26.04.2-r0",
+        "cmd:gwenview_importer=26.04.2-r0",
         "so:libgwenviewlib.so.5=4.97.0"
       ]
     },
     "gwenview-doc": {
       "origin": "gwenview",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "gwenview-lang": {
       "origin": "gwenview",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "gwsocket": {
@@ -84047,7 +84120,8 @@
     "isoimagewriter": {
       "origin": "isoimagewriter",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Archive.so.6",
@@ -84068,13 +84142,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:isoimagewriter=26.04.0-r0"
+        "cmd:isoimagewriter=26.04.2-r0"
       ]
     },
     "isoimagewriter-lang": {
       "origin": "isoimagewriter",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "isync": {
@@ -84121,7 +84196,8 @@
     "itinerary": {
       "origin": "itinerary",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kirigami",
@@ -84170,13 +84246,14 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:itinerary=26.04.0-r0"
+        "cmd:itinerary=26.04.2-r0"
       ]
     },
     "itinerary-lang": {
       "origin": "itinerary",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "iverilog": {
@@ -85551,7 +85628,8 @@
     "juk": {
       "origin": "juk",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "phonon-backend-vlc",
@@ -85587,19 +85665,21 @@
         "so:libtag.so.2"
       ],
       "provides": [
-        "cmd:juk=26.04.0-r0"
+        "cmd:juk=26.04.2-r0"
       ]
     },
     "juk-doc": {
       "origin": "juk",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "juk-lang": {
       "origin": "juk",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "junit": {
@@ -85946,7 +86026,8 @@
     "k3b": {
       "origin": "k3b",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "cdrdao",
@@ -86001,7 +86082,7 @@
         "so:libvorbisfile.so.3"
       ],
       "provides": [
-        "cmd:k3b=26.04.0-r0",
+        "cmd:k3b=26.04.2-r0",
         "so:libk3bdevice.so.8=8.0.0",
         "so:libk3blib.so.8=8.0.0"
       ]
@@ -86009,13 +86090,15 @@
     "k3b-doc": {
       "origin": "k3b",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "k3b-lang": {
       "origin": "k3b",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "k9s": {
@@ -86146,33 +86229,37 @@
     "kajongg": {
       "origin": "kajongg",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "python3",
         "py3-twisted"
       ],
       "provides": [
-        "cmd:kajongg=26.04.0-r0",
-        "cmd:kajonggserver=26.04.0-r0"
+        "cmd:kajongg=26.04.2-r0",
+        "cmd:kajonggserver=26.04.2-r0"
       ]
     },
     "kajongg-doc": {
       "origin": "kajongg",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kajongg-lang": {
       "origin": "kajongg",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kajongg-pyc": {
       "origin": "kajongg",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kakoune": {
@@ -86216,7 +86303,8 @@
     "kalgebra": {
       "origin": "kalgebra",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libAnalitza.so.9",
@@ -86234,26 +86322,29 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:calgebra=26.04.0-r0",
-        "cmd:kalgebramobile=26.04.0-r0"
+        "cmd:calgebra=26.04.2-r0",
+        "cmd:kalgebramobile=26.04.2-r0"
       ]
     },
     "kalgebra-doc": {
       "origin": "kalgebra",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kalgebra-lang": {
       "origin": "kalgebra",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kalk": {
       "origin": "kalk",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -86272,13 +86363,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kalk=26.04.0-r0"
+        "cmd:kalk=26.04.2-r0"
       ]
     },
     "kalk-lang": {
       "origin": "kalk",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kalker": {
@@ -86298,7 +86390,8 @@
     "kalzium": {
       "origin": "kalzium",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Completion.so.6",
@@ -86327,35 +86420,39 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kalzium=26.04.0-r0",
+        "cmd:kalzium=26.04.2-r0",
         "so:libscience.so.5=5.0.0"
       ]
     },
     "kalzium-dev": {
       "origin": "kalzium",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
-        "kalzium=26.04.0-r0"
+        "kalzium=26.04.2-r0"
       ]
     },
     "kalzium-doc": {
       "origin": "kalzium",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kalzium-lang": {
       "origin": "kalzium",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kamera": {
       "origin": "kamera",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -86378,19 +86475,22 @@
     "kamera-doc": {
       "origin": "kamera",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kamera-lang": {
       "origin": "kamera",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kamoso": {
       "origin": "kamoso",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "gst-plugins-bad",
@@ -86422,25 +86522,28 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kamoso=26.04.0-r0"
+        "cmd:kamoso=26.04.2-r0"
       ]
     },
     "kamoso-doc": {
       "origin": "kamoso",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kamoso-lang": {
       "origin": "kamoso",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kanagram": {
       "origin": "kanagram",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKEduVocDocument.so.5",
@@ -86463,19 +86566,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kanagram=26.04.0-r0"
+        "cmd:kanagram=26.04.2-r0"
       ]
     },
     "kanagram-doc": {
       "origin": "kanagram",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kanagram-lang": {
       "origin": "kanagram",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kanshi": {
@@ -86547,7 +86652,8 @@
     "kapman": {
       "origin": "kapman",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKDEGames6.so.6",
@@ -86570,19 +86676,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kapman=26.04.0-r0"
+        "cmd:kapman=26.04.2-r0"
       ]
     },
     "kapman-doc": {
       "origin": "kapman",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kapman-lang": {
       "origin": "kapman",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kapp": {
@@ -86626,7 +86734,8 @@
     "kapptemplate": {
       "origin": "kapptemplate",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Archive.so.6",
@@ -86646,19 +86755,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kapptemplate=26.04.0-r0"
+        "cmd:kapptemplate=26.04.2-r0"
       ]
     },
     "kapptemplate-doc": {
       "origin": "kapptemplate",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kapptemplate-lang": {
       "origin": "kapptemplate",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "karchive": {
@@ -86780,7 +86891,8 @@
     "kasts": {
       "origin": "kasts",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "gst-plugins-good",
@@ -86823,20 +86935,22 @@
         "so:libvlc.so.5"
       ],
       "provides": [
-        "cmd:kasts=26.04.0-r0",
+        "cmd:kasts=26.04.2-r0",
         "so:libKMediaSession.so=0"
       ]
     },
     "kasts-lang": {
       "origin": "kasts",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kate": {
       "origin": "kate",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kate-common",
@@ -86850,18 +86964,19 @@
         "so:libQt6Network.so.6",
         "so:libQt6Widgets.so.6",
         "so:libc.musl-x86.so.1",
-        "so:libkateprivate.so.26.04.0",
+        "so:libkateprivate.so.26.04.2",
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:exec_inspect.sh=26.04.0-r0",
-        "cmd:kate=26.04.0-r0"
+        "cmd:exec_inspect.sh=26.04.2-r0",
+        "cmd:kate=26.04.2-r0"
       ]
     },
     "kate-common": {
       "origin": "kate",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Archive.so.6",
@@ -86907,19 +87022,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libkateprivate.so.26.04.0=26.04.0"
+        "so:libkateprivate.so.26.04.2=26.04.2"
       ]
     },
     "kate-doc": {
       "origin": "kate",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kate-lang": {
       "origin": "kate",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kati": {
@@ -86940,7 +87057,8 @@
     "katomic": {
       "origin": "katomic",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKDEGames6.so.6",
@@ -86963,19 +87081,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:katomic=26.04.0-r0"
+        "cmd:katomic=26.04.2-r0"
       ]
     },
     "katomic-doc": {
       "origin": "katomic",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "katomic-lang": {
       "origin": "katomic",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kauth": {
@@ -87073,7 +87193,8 @@
     "kbackup": {
       "origin": "kbackup",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Archive.so.6",
@@ -87101,19 +87222,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kbackup=26.04.0-r0"
+        "cmd:kbackup=26.04.2-r0"
       ]
     },
     "kbackup-doc": {
       "origin": "kbackup",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kbackup-lang": {
       "origin": "kbackup",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kbdd": {
@@ -87141,7 +87264,8 @@
     "kblackbox": {
       "origin": "kblackbox",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKDEGames6.so.6",
@@ -87167,25 +87291,28 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kblackbox=26.04.0-r0"
+        "cmd:kblackbox=26.04.2-r0"
       ]
     },
     "kblackbox-doc": {
       "origin": "kblackbox",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kblackbox-lang": {
       "origin": "kblackbox",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kblocks": {
       "origin": "kblocks",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKDEGames6.so.6",
@@ -87210,19 +87337,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kblocks=26.04.0-r0"
+        "cmd:kblocks=26.04.2-r0"
       ]
     },
     "kblocks-doc": {
       "origin": "kblocks",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kblocks-lang": {
       "origin": "kblocks",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kbookmarks": {
@@ -87334,7 +87463,8 @@
     "kbounce": {
       "origin": "kbounce",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKDEGames6.so.6",
@@ -87359,25 +87489,28 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kbounce=26.04.0-r0"
+        "cmd:kbounce=26.04.2-r0"
       ]
     },
     "kbounce-doc": {
       "origin": "kbounce",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kbounce-lang": {
       "origin": "kbounce",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kbreakout": {
       "origin": "kbreakout",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKDEGames6.so.6",
@@ -87403,25 +87536,28 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kbreakout=26.04.0-r0"
+        "cmd:kbreakout=26.04.2-r0"
       ]
     },
     "kbreakout-doc": {
       "origin": "kbreakout",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kbreakout-lang": {
       "origin": "kbreakout",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kbruch": {
       "origin": "kbruch",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -87440,19 +87576,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kbruch=26.04.0-r0"
+        "cmd:kbruch=26.04.2-r0"
       ]
     },
     "kbruch-doc": {
       "origin": "kbruch",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kbruch-lang": {
       "origin": "kbruch",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kbuild": {
@@ -87504,7 +87642,8 @@
     "kcachegrind": {
       "origin": "kcachegrind",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Archive.so.6",
@@ -87526,30 +87665,33 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:dprof2calltree=26.04.0-r0",
-        "cmd:hotshot2calltree=26.04.0-r0",
-        "cmd:kcachegrind=26.04.0-r0",
-        "cmd:memprof2calltree=26.04.0-r0",
-        "cmd:op2calltree=26.04.0-r0",
-        "cmd:pprof2calltree=26.04.0-r0"
+        "cmd:dprof2calltree=26.04.2-r0",
+        "cmd:hotshot2calltree=26.04.2-r0",
+        "cmd:kcachegrind=26.04.2-r0",
+        "cmd:memprof2calltree=26.04.2-r0",
+        "cmd:op2calltree=26.04.2-r0",
+        "cmd:pprof2calltree=26.04.2-r0"
       ]
     },
     "kcachegrind-doc": {
       "origin": "kcachegrind",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kcachegrind-lang": {
       "origin": "kcachegrind",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kcalc": {
       "origin": "kcalc",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ColorScheme.so.6",
@@ -87575,19 +87717,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kcalc=26.04.0-r0"
+        "cmd:kcalc=26.04.2-r0"
       ]
     },
     "kcalc-doc": {
       "origin": "kcalc",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kcalc-lang": {
       "origin": "kcalc",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kcalendarcore": {
@@ -87639,7 +87783,8 @@
     "kcalutils": {
       "origin": "kcalutils",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6CalendarCore.so.6",
@@ -87658,13 +87803,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKPim6CalendarUtils.so.6=6.7.0"
+        "so:libKPim6CalendarUtils.so.6=6.7.2"
       ]
     },
     "kcalutils-dev": {
       "origin": "kcalutils",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "grantlee-dev",
@@ -87678,13 +87824,14 @@
         "kidentitymanagement-dev",
         "ktexttemplate-dev",
         "kwidgetsaddons-dev",
-        "kcalutils=26.04.0-r0"
+        "kcalutils=26.04.2-r0"
       ]
     },
     "kcalutils-lang": {
       "origin": "kcalutils",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kcgi": {
@@ -87740,7 +87887,8 @@
     "kcharselect": {
       "origin": "kcharselect",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Bookmarks.so.6",
@@ -87762,19 +87910,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kcharselect=26.04.0-r0"
+        "cmd:kcharselect=26.04.2-r0"
       ]
     },
     "kcharselect-doc": {
       "origin": "kcharselect",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kcharselect-lang": {
       "origin": "kcharselect",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kcmutils": {
@@ -87984,7 +88134,8 @@
     "kcolorchooser": {
       "origin": "kcolorchooser",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6CoreAddons.so.6",
@@ -87997,13 +88148,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kcolorchooser=26.04.0-r0"
+        "cmd:kcolorchooser=26.04.2-r0"
       ]
     },
     "kcolorchooser-lang": {
       "origin": "kcolorchooser",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kcolorpicker": {
@@ -88591,7 +88743,8 @@
     "kcron": {
       "origin": "kcron",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6AuthCore.so.6",
@@ -88611,13 +88764,15 @@
     "kcron-doc": {
       "origin": "kcron",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kcron-lang": {
       "origin": "kcron",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kdav": {
@@ -88879,7 +89034,8 @@
     "kde-applications": {
       "origin": "kde-applications",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kde-applications-accessibility",
@@ -88899,7 +89055,8 @@
     "kde-applications-accessibility": {
       "origin": "kde-applications",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kmag",
@@ -88910,7 +89067,8 @@
     "kde-applications-admin": {
       "origin": "kde-applications",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kcron"
@@ -88919,7 +89077,8 @@
     "kde-applications-base": {
       "origin": "kde-applications",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "ark",
@@ -88943,7 +89102,8 @@
     "kde-applications-edu": {
       "origin": "kde-applications",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "artikulate",
@@ -88972,13 +89132,15 @@
     "kde-applications-games": {
       "origin": "kde-applications",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kde-applications-graphics": {
       "origin": "kde-applications",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "gwenview",
@@ -88992,7 +89154,8 @@
     "kde-applications-multimedia": {
       "origin": "kde-applications",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "audiocd-kio",
@@ -89007,7 +89170,8 @@
     "kde-applications-network": {
       "origin": "kde-applications",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kget",
@@ -89018,7 +89182,8 @@
     "kde-applications-pim": {
       "origin": "kde-applications",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "akregator",
@@ -89036,7 +89201,8 @@
     "kde-applications-sdk": {
       "origin": "kde-applications",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "dolphin-plugins",
@@ -89056,7 +89222,8 @@
     "kde-applications-utils": {
       "origin": "kde-applications",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "ark",
@@ -89077,7 +89244,8 @@
     "kde-applications-webdev": {
       "origin": "kde-applications",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kimagemapeditor"
@@ -89170,84 +89338,87 @@
     "kde-dev-scripts": {
       "origin": "kde-dev-scripts",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "provides": [
-        "cmd:adddebug=26.04.0-r0",
-        "cmd:addmocincludes=26.04.0-r0",
-        "cmd:build-progress.sh=26.04.0-r0",
-        "cmd:c++-copy-class-and-file=26.04.0-r0",
-        "cmd:c++-rename-class-and-file=26.04.0-r0",
-        "cmd:cheatmake=26.04.0-r0",
-        "cmd:clean-forward-declaration.sh=26.04.0-r0",
-        "cmd:clean-includes.sh=26.04.0-r0",
-        "cmd:colorsvn=26.04.0-r0",
-        "cmd:create_cvsignore=26.04.0-r0",
-        "cmd:create_makefile=26.04.0-r0",
-        "cmd:create_makefiles=26.04.0-r0",
-        "cmd:create_svnignore=26.04.0-r0",
-        "cmd:cvs-clean=26.04.0-r0",
-        "cmd:cvsaddcurrentdir=26.04.0-r0",
-        "cmd:cvsbackport=26.04.0-r0",
-        "cmd:cvsblame=26.04.0-r0",
-        "cmd:cvscheck=26.04.0-r0",
-        "cmd:cvsforwardport=26.04.0-r0",
-        "cmd:cvslastchange=26.04.0-r0",
-        "cmd:cvslastlog=26.04.0-r0",
-        "cmd:cvsrevertlast=26.04.0-r0",
-        "cmd:cvsversion=26.04.0-r0",
-        "cmd:cxxmetric=26.04.0-r0",
-        "cmd:draw_lib_dependencies=26.04.0-r0",
-        "cmd:extend_dmalloc=26.04.0-r0",
-        "cmd:extractattr=26.04.0-r0",
-        "cmd:extractrc=26.04.0-r0",
-        "cmd:findmissingcrystal=26.04.0-r0",
-        "cmd:fix-include.sh=26.04.0-r0",
-        "cmd:fixkdeincludes=26.04.0-r0",
-        "cmd:fixuifiles=26.04.0-r0",
-        "cmd:grantlee_strings_extractor.py=26.04.0-r0",
-        "cmd:includemocs=26.04.0-r0",
-        "cmd:kde-systemsettings-tree.py=26.04.0-r0",
-        "cmd:kde_generate_export_header=26.04.0-r0",
-        "cmd:kdedoc=26.04.0-r0",
-        "cmd:kdekillall=26.04.0-r0",
-        "cmd:kdelnk2desktop.py=26.04.0-r0",
-        "cmd:kdemangen.pl=26.04.0-r0",
-        "cmd:krazy-licensecheck=26.04.0-r0",
-        "cmd:makeobj=26.04.0-r0",
-        "cmd:noncvslist=26.04.0-r0",
-        "cmd:nonsvnlist=26.04.0-r0",
-        "cmd:optimizegraphics=26.04.0-r0",
-        "cmd:package_crystalsvg=26.04.0-r0",
-        "cmd:png2mng.pl=26.04.0-r0",
-        "cmd:port_new_gitlab_ci_template.sh=26.04.0-r0",
-        "cmd:pruneemptydirs=26.04.0-r0",
-        "cmd:reviewboard-am=26.04.0-r0",
-        "cmd:svn-clean=26.04.0-r0",
-        "cmd:svnbackport=26.04.0-r0",
-        "cmd:svnchangesince=26.04.0-r0",
-        "cmd:svnforwardport=26.04.0-r0",
-        "cmd:svngettags=26.04.0-r0",
-        "cmd:svnintegrate=26.04.0-r0",
-        "cmd:svnlastchange=26.04.0-r0",
-        "cmd:svnlastlog=26.04.0-r0",
-        "cmd:svnrevertlast=26.04.0-r0",
-        "cmd:svnversions=26.04.0-r0",
-        "cmd:uncrustify-kf5=26.04.0-r0",
-        "cmd:wcgrep=26.04.0-r0",
-        "cmd:zonetab2pot.py=26.04.0-r0"
+        "cmd:adddebug=26.04.2-r0",
+        "cmd:addmocincludes=26.04.2-r0",
+        "cmd:build-progress.sh=26.04.2-r0",
+        "cmd:c++-copy-class-and-file=26.04.2-r0",
+        "cmd:c++-rename-class-and-file=26.04.2-r0",
+        "cmd:cheatmake=26.04.2-r0",
+        "cmd:clean-forward-declaration.sh=26.04.2-r0",
+        "cmd:clean-includes.sh=26.04.2-r0",
+        "cmd:colorsvn=26.04.2-r0",
+        "cmd:create_cvsignore=26.04.2-r0",
+        "cmd:create_makefile=26.04.2-r0",
+        "cmd:create_makefiles=26.04.2-r0",
+        "cmd:create_svnignore=26.04.2-r0",
+        "cmd:cvs-clean=26.04.2-r0",
+        "cmd:cvsaddcurrentdir=26.04.2-r0",
+        "cmd:cvsbackport=26.04.2-r0",
+        "cmd:cvsblame=26.04.2-r0",
+        "cmd:cvscheck=26.04.2-r0",
+        "cmd:cvsforwardport=26.04.2-r0",
+        "cmd:cvslastchange=26.04.2-r0",
+        "cmd:cvslastlog=26.04.2-r0",
+        "cmd:cvsrevertlast=26.04.2-r0",
+        "cmd:cvsversion=26.04.2-r0",
+        "cmd:cxxmetric=26.04.2-r0",
+        "cmd:draw_lib_dependencies=26.04.2-r0",
+        "cmd:extend_dmalloc=26.04.2-r0",
+        "cmd:extractattr=26.04.2-r0",
+        "cmd:extractrc=26.04.2-r0",
+        "cmd:findmissingcrystal=26.04.2-r0",
+        "cmd:fix-include.sh=26.04.2-r0",
+        "cmd:fixkdeincludes=26.04.2-r0",
+        "cmd:fixuifiles=26.04.2-r0",
+        "cmd:grantlee_strings_extractor.py=26.04.2-r0",
+        "cmd:includemocs=26.04.2-r0",
+        "cmd:kde-systemsettings-tree.py=26.04.2-r0",
+        "cmd:kde_generate_export_header=26.04.2-r0",
+        "cmd:kdedoc=26.04.2-r0",
+        "cmd:kdekillall=26.04.2-r0",
+        "cmd:kdelnk2desktop.py=26.04.2-r0",
+        "cmd:kdemangen.pl=26.04.2-r0",
+        "cmd:krazy-licensecheck=26.04.2-r0",
+        "cmd:makeobj=26.04.2-r0",
+        "cmd:noncvslist=26.04.2-r0",
+        "cmd:nonsvnlist=26.04.2-r0",
+        "cmd:optimizegraphics=26.04.2-r0",
+        "cmd:package_crystalsvg=26.04.2-r0",
+        "cmd:png2mng.pl=26.04.2-r0",
+        "cmd:port_new_gitlab_ci_template.sh=26.04.2-r0",
+        "cmd:pruneemptydirs=26.04.2-r0",
+        "cmd:reviewboard-am=26.04.2-r0",
+        "cmd:svn-clean=26.04.2-r0",
+        "cmd:svnbackport=26.04.2-r0",
+        "cmd:svnchangesince=26.04.2-r0",
+        "cmd:svnforwardport=26.04.2-r0",
+        "cmd:svngettags=26.04.2-r0",
+        "cmd:svnintegrate=26.04.2-r0",
+        "cmd:svnlastchange=26.04.2-r0",
+        "cmd:svnlastlog=26.04.2-r0",
+        "cmd:svnrevertlast=26.04.2-r0",
+        "cmd:svnversions=26.04.2-r0",
+        "cmd:uncrustify-kf5=26.04.2-r0",
+        "cmd:wcgrep=26.04.2-r0",
+        "cmd:zonetab2pot.py=26.04.2-r0"
       ]
     },
     "kde-dev-scripts-doc": {
       "origin": "kde-dev-scripts",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kde-dev-utils": {
       "origin": "kde-dev-utils",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -89266,14 +89437,15 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kpartloader=26.04.0-r0",
-        "cmd:kuiviewer=26.04.0-r0"
+        "cmd:kpartloader=26.04.2-r0",
+        "cmd:kuiviewer=26.04.2-r0"
       ]
     },
     "kde-dev-utils-lang": {
       "origin": "kde-dev-utils",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kde-gtk-config": {
@@ -89310,7 +89482,8 @@
     "kde-inotify-survey": {
       "origin": "kde-inotify-survey",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6AuthCore.so.6",
@@ -89324,7 +89497,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kde-inotify-survey=26.04.0-r0"
+        "cmd:kde-inotify-survey=26.04.2-r0"
       ]
     },
     "kde-qdoc-common": {
@@ -89341,7 +89514,8 @@
     "kdebugsettings": {
       "origin": "kdebugsettings",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Completion.so.6",
@@ -89363,15 +89537,16 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kdebugsettings=26.04.0-r0",
-        "so:libkdebugsettings.so.6=26.04.0",
-        "so:libkdebugsettingscore.so.6=26.04.0"
+        "cmd:kdebugsettings=26.04.2-r0",
+        "so:libkdebugsettings.so.6=26.04.2",
+        "so:libkdebugsettingscore.so.6=26.04.2"
       ]
     },
     "kdebugsettings-lang": {
       "origin": "kdebugsettings",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kdeclarative": {
@@ -89506,7 +89681,8 @@
     "kdeconnect": {
       "origin": "kdeconnect",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kirigami",
@@ -89555,31 +89731,34 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:kdeconnect-app=26.04.0-r0",
-        "cmd:kdeconnect-cli=26.04.0-r0",
-        "cmd:kdeconnect-handler=26.04.0-r0",
-        "cmd:kdeconnect-indicator=26.04.0-r0",
-        "cmd:kdeconnect-sms=26.04.0-r0",
-        "cmd:kdeconnectd=26.04.0-r0",
-        "so:libkdeconnectcore.so.26=26.04.0"
+        "cmd:kdeconnect-app=26.04.2-r0",
+        "cmd:kdeconnect-cli=26.04.2-r0",
+        "cmd:kdeconnect-handler=26.04.2-r0",
+        "cmd:kdeconnect-indicator=26.04.2-r0",
+        "cmd:kdeconnect-sms=26.04.2-r0",
+        "cmd:kdeconnectd=26.04.2-r0",
+        "so:libkdeconnectcore.so.26=26.04.2"
       ]
     },
     "kdeconnect-lang": {
       "origin": "kdeconnect",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kdeconnect-nftrules": {
       "origin": "kdeconnect",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kdeconnect-zsh-completion": {
       "origin": "kdeconnect",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kdecoration": {
@@ -89675,13 +89854,15 @@
     "kdeedu-data": {
       "origin": "kdeedu-data",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kdegraphics-mobipocket": {
       "origin": "kdegraphics-mobipocket",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -89696,18 +89877,20 @@
     "kdegraphics-mobipocket-dev": {
       "origin": "kdegraphics-mobipocket",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "qt6-qtbase-dev",
         "kio-dev",
-        "kdegraphics-mobipocket=26.04.0-r0"
+        "kdegraphics-mobipocket=26.04.2-r0"
       ]
     },
     "kdegraphics-thumbnailers": {
       "origin": "kdegraphics-thumbnailers",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKDcrawQt6.so.5",
@@ -89725,7 +89908,8 @@
     "kdenetwork-filesharing": {
       "origin": "kdenetwork-filesharing",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "samba",
@@ -89752,13 +89936,15 @@
     "kdenetwork-filesharing-lang": {
       "origin": "kdenetwork-filesharing",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kdenlive": {
       "origin": "kdenlive",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "ffmpeg",
@@ -89825,20 +90011,22 @@
         "so:libswresample.so.6"
       ],
       "provides": [
-        "cmd:kdenlive=26.04.0-r0",
-        "cmd:kdenlive_render=26.04.0-r0"
+        "cmd:kdenlive=26.04.2-r0",
+        "cmd:kdenlive_render=26.04.2-r0"
       ]
     },
     "kdenlive-doc": {
       "origin": "kdenlive",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kdenlive-lang": {
       "origin": "kdenlive",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kdeplasma-addons": {
@@ -89935,7 +90123,8 @@
     "kdesdk-kio": {
       "origin": "kdesdk-kio",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6CoreAddons.so.6",
@@ -89949,13 +90138,15 @@
     "kdesdk-kio-lang": {
       "origin": "kdesdk-kio",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kdesdk-thumbnailers": {
       "origin": "kdesdk-thumbnailers",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6CoreAddons.so.6",
@@ -90018,7 +90209,8 @@
     "kdf": {
       "origin": "kdf",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Completion.so.6",
@@ -90045,21 +90237,23 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kdf=26.04.0-r0",
-        "cmd:kwikdisk=26.04.0-r0",
-        "so:libkdfprivate.so.26=26.04.0"
+        "cmd:kdf=26.04.2-r0",
+        "cmd:kwikdisk=26.04.2-r0",
+        "so:libkdfprivate.so.26=26.04.2"
       ]
     },
     "kdf-doc": {
       "origin": "kdf",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kdf-lang": {
       "origin": "kdf",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kdiagram": {
@@ -90107,7 +90301,8 @@
     "kdialog": {
       "origin": "kdialog",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -90129,20 +90324,22 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kdialog=26.04.0-r0",
-        "cmd:kdialog_progress_helper=26.04.0-r0"
+        "cmd:kdialog=26.04.2-r0",
+        "cmd:kdialog_progress_helper=26.04.2-r0"
       ]
     },
     "kdialog-lang": {
       "origin": "kdialog",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kdiamond": {
       "origin": "kdiamond",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKDEGames6.so.6",
@@ -90165,19 +90362,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kdiamond=26.04.0-r0"
+        "cmd:kdiamond=26.04.2-r0"
       ]
     },
     "kdiamond-doc": {
       "origin": "kdiamond",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kdiamond-lang": {
       "origin": "kdiamond",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kdiff3": {
@@ -90488,7 +90687,8 @@
     "keditbookmarks": {
       "origin": "keditbookmarks",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Bookmarks.so.6",
@@ -90517,21 +90717,23 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kbookmarkmerger=26.04.0-r0",
-        "cmd:keditbookmarks=26.04.0-r0",
+        "cmd:kbookmarkmerger=26.04.2-r0",
+        "cmd:keditbookmarks=26.04.2-r0",
         "so:libkbookmarkmodel_private.so.6=5.97.0"
       ]
     },
     "keditbookmarks-doc": {
       "origin": "keditbookmarks",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "keditbookmarks-lang": {
       "origin": "keditbookmarks",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "keepalived": {
@@ -90893,7 +91095,8 @@
     "keysmith": {
       "origin": "keysmith",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kirigami",
@@ -90918,13 +91121,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:keysmith=26.04.0-r0"
+        "cmd:keysmith=26.04.2-r0"
       ]
     },
     "keysmith-lang": {
       "origin": "keysmith",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kfilemetadata": {
@@ -90991,7 +91195,8 @@
     "kfind": {
       "origin": "kfind",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Archive.so.6",
@@ -91015,25 +91220,28 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kfind=26.04.0-r0"
+        "cmd:kfind=26.04.2-r0"
       ]
     },
     "kfind-doc": {
       "origin": "kfind",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kfind-lang": {
       "origin": "kfind",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kfourinline": {
       "origin": "kfourinline",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKDEGames6.so.6",
@@ -91057,20 +91265,22 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kfourinline=26.04.0-r0",
-        "cmd:kfourinlineproc=26.04.0-r0"
+        "cmd:kfourinline=26.04.2-r0",
+        "cmd:kfourinlineproc=26.04.2-r0"
       ]
     },
     "kfourinline-doc": {
       "origin": "kfourinline",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kfourinline-lang": {
       "origin": "kfourinline",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kgamma": {
@@ -91115,7 +91325,8 @@
     "kgeography": {
       "origin": "kgeography",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -91135,25 +91346,28 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kgeography=26.04.0-r0"
+        "cmd:kgeography=26.04.2-r0"
       ]
     },
     "kgeography-doc": {
       "origin": "kgeography",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kgeography-lang": {
       "origin": "kgeography",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kget": {
       "origin": "kget",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ColorScheme.so.6",
@@ -91193,20 +91407,22 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kget=26.04.0-r0",
+        "cmd:kget=26.04.2-r0",
         "so:libkgetcore.so.6=6.0.0"
       ]
     },
     "kget-doc": {
       "origin": "kget",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kget-lang": {
       "origin": "kget",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kglobalaccel": {
@@ -91379,7 +91595,8 @@
     "kgoldrunner": {
       "origin": "kgoldrunner",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKDEGames6.so.6",
@@ -91400,25 +91617,28 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kgoldrunner=26.04.0-r0"
+        "cmd:kgoldrunner=26.04.2-r0"
       ]
     },
     "kgoldrunner-doc": {
       "origin": "kgoldrunner",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kgoldrunner-lang": {
       "origin": "kgoldrunner",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kgpg": {
       "origin": "kgpg",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Archive.so.6",
@@ -91454,25 +91674,28 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kgpg=26.04.0-r0"
+        "cmd:kgpg=26.04.2-r0"
       ]
     },
     "kgpg-doc": {
       "origin": "kgpg",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kgpg-lang": {
       "origin": "kgpg",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kgraphviewer": {
       "origin": "kgraphviewer",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -91496,29 +91719,32 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kgraphviewer=26.04.0-r0",
-        "so:libkgraphviewer.so.0=2.5.26040"
+        "cmd:kgraphviewer=26.04.2-r0",
+        "so:libkgraphviewer.so.0=2.5.26042"
       ]
     },
     "kgraphviewer-dev": {
       "origin": "kgraphviewer",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
-        "kgraphviewer=26.04.0-r0"
+        "kgraphviewer=26.04.2-r0"
       ]
     },
     "kgraphviewer-doc": {
       "origin": "kgraphviewer",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kgraphviewer-lang": {
       "origin": "kgraphviewer",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kguiaddons": {
@@ -91697,7 +91923,8 @@
     "khangman": {
       "origin": "khangman",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKEduVocDocument.so.5",
@@ -91716,19 +91943,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:khangman=26.04.0-r0"
+        "cmd:khangman=26.04.2-r0"
       ]
     },
     "khangman-doc": {
       "origin": "khangman",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "khangman-lang": {
       "origin": "khangman",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "khard": {
@@ -91766,7 +91995,8 @@
     "khealthcertificate": {
       "origin": "khealthcertificate",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Archive.so.6",
@@ -91781,13 +92011,14 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libKHealthCertificate.so.1=26.04.0"
+        "so:libKHealthCertificate.so.1=26.04.2"
       ]
     },
     "khealthcertificate-dev": {
       "origin": "khealthcertificate",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "karchive-dev",
@@ -91797,7 +92028,7 @@
         "qt6-qtbase-dev",
         "qt6-qtdeclarative-dev",
         "zlib-dev",
-        "khealthcertificate=26.04.0-r0"
+        "khealthcertificate=26.04.2-r0"
       ]
     },
     "kholidays": {
@@ -92263,7 +92494,8 @@
     "kidentitymanagement": {
       "origin": "kidentitymanagement",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Codecs.so.6",
@@ -92288,15 +92520,16 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKPim6IdentityManagementCore.so.6=6.7.0",
-        "so:libKPim6IdentityManagementQuick.so.6=6.7.0",
-        "so:libKPim6IdentityManagementWidgets.so.6=6.7.0"
+        "so:libKPim6IdentityManagementCore.so.6=6.7.2",
+        "so:libKPim6IdentityManagementQuick.so.6=6.7.2",
+        "so:libKPim6IdentityManagementWidgets.so.6=6.7.2"
       ]
     },
     "kidentitymanagement-dev": {
       "origin": "kidentitymanagement",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kcodecs-dev",
@@ -92310,13 +92543,14 @@
         "kxmlgui-dev",
         "qt6-qtbase-dev",
         "qt6-qtdeclarative-dev",
-        "kidentitymanagement=26.04.0-r0"
+        "kidentitymanagement=26.04.2-r0"
       ]
     },
     "kidentitymanagement-lang": {
       "origin": "kidentitymanagement",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kidletime": {
@@ -92362,7 +92596,8 @@
     "kig": {
       "origin": "kig",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Archive.so.6",
@@ -92388,26 +92623,29 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kig=26.04.0-r0",
-        "cmd:pykig.py=26.04.0-r0"
+        "cmd:kig=26.04.2-r0",
+        "cmd:pykig.py=26.04.2-r0"
       ]
     },
     "kig-doc": {
       "origin": "kig",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kig-lang": {
       "origin": "kig",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kigo": {
       "origin": "kigo",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKDEGames6.so.6",
@@ -92432,25 +92670,28 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kigo=26.04.0-r0"
+        "cmd:kigo=26.04.2-r0"
       ]
     },
     "kigo-doc": {
       "origin": "kigo",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kigo-lang": {
       "origin": "kigo",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "killbots": {
       "origin": "killbots",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKDEGames6.so.6",
@@ -92472,19 +92713,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:killbots=26.04.0-r0"
+        "cmd:killbots=26.04.2-r0"
       ]
     },
     "killbots-doc": {
       "origin": "killbots",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "killbots-lang": {
       "origin": "killbots",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kiln": {
@@ -92565,7 +92808,8 @@
     "kimap": {
       "origin": "kimap",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6CoreAddons.so.6",
@@ -92580,13 +92824,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKPim6IMAP.so.6=6.7.0"
+        "so:libKPim6IMAP.so.6=6.7.2"
       ]
     },
     "kimap-dev": {
       "origin": "kimap",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "cyrus-sasl-dev",
@@ -92595,7 +92840,7 @@
         "kio-dev",
         "kmime-dev",
         "qt6-qtbase-dev",
-        "kimap=26.04.0-r0"
+        "kimap=26.04.2-r0"
       ]
     },
     "kind": {
@@ -92742,7 +92987,8 @@
     "kio-admin": {
       "origin": "kio-admin",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6CoreAddons.so.6",
@@ -92762,7 +93008,8 @@
     "kio-admin-lang": {
       "origin": "kio-admin",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kio-dbg": {
@@ -92811,7 +93058,8 @@
     "kio-extras": {
       "origin": "kio-extras",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKDSoapWSDiscoveryClient.so.0",
@@ -92862,13 +93110,15 @@
     "kio-extras-doc": {
       "origin": "kio-extras",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kio-extras-lang": {
       "origin": "kio-extras",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kio-fuse": {
@@ -92926,7 +93176,8 @@
     "kio-zeroconf": {
       "origin": "kio-zeroconf",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6CoreAddons.so.6",
@@ -92943,7 +93194,8 @@
     "kio-zeroconf-lang": {
       "origin": "kio-zeroconf",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kio5": {
@@ -93172,7 +93424,8 @@
     "kirigami-gallery": {
       "origin": "kirigami-gallery",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kirigami",
@@ -93186,13 +93439,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kirigami2gallery=26.04.0-r0"
+        "cmd:kirigami2gallery=26.04.2-r0"
       ]
     },
     "kirigami-gallery-lang": {
       "origin": "kirigami-gallery",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kirigami-lang": {
@@ -93301,7 +93555,8 @@
     "kiriki": {
       "origin": "kiriki",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKDEGames6.so.6",
@@ -93323,19 +93578,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kiriki=26.04.0-r0"
+        "cmd:kiriki=26.04.2-r0"
       ]
     },
     "kiriki-doc": {
       "origin": "kiriki",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kiriki-lang": {
       "origin": "kiriki",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kissfft": {
@@ -93533,7 +93790,8 @@
     "kiten": {
       "origin": "kiten",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Archive.so.6",
@@ -93556,31 +93814,34 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kiten=26.04.0-r0",
-        "cmd:kitenkanjibrowser=26.04.0-r0",
-        "cmd:kitenradselect=26.04.0-r0",
+        "cmd:kiten=26.04.2-r0",
+        "cmd:kitenkanjibrowser=26.04.2-r0",
+        "cmd:kitenradselect=26.04.2-r0",
         "so:libkiten.so.6=6.0.0"
       ]
     },
     "kiten-dev": {
       "origin": "kiten",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
-        "kiten=26.04.0-r0"
+        "kiten=26.04.2-r0"
       ]
     },
     "kiten-doc": {
       "origin": "kiten",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kiten-lang": {
       "origin": "kiten",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kitinerary": {
@@ -93588,7 +93849,8 @@
       "versions": {
         "26.04.0-r1": 1778323874,
         "26.04.0-r2": 1779530332,
-        "26.04.0-r3": 1780907289
+        "26.04.0-r3": 1780907289,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Archive.so.6",
@@ -93614,7 +93876,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libKPim6Itinerary.so.6=6.7.0"
+        "so:libKPim6Itinerary.so.6=6.7.2"
       ]
     },
     "kitinerary-dev": {
@@ -93622,7 +93884,8 @@
       "versions": {
         "26.04.0-r1": 1778323874,
         "26.04.0-r2": 1779530332,
-        "26.04.0-r3": 1780907289
+        "26.04.0-r3": 1780907289,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kcalendarcore-dev",
@@ -93631,7 +93894,7 @@
         "kpkpass-dev",
         "libphonenumber-dev",
         "zxing-cpp-dev",
-        "kitinerary=26.04.0-r3"
+        "kitinerary=26.04.2-r0"
       ]
     },
     "kitinerary-lang": {
@@ -93639,7 +93902,8 @@
       "versions": {
         "26.04.0-r1": 1778323874,
         "26.04.0-r2": 1779530332,
-        "26.04.0-r3": 1780907289
+        "26.04.0-r3": 1780907289,
+        "26.04.2-r0": 1781443792
       }
     },
     "kitty": {
@@ -93857,7 +94121,8 @@
     "kjumpingcube": {
       "origin": "kjumpingcube",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKDEGames6.so.6",
@@ -93880,19 +94145,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kjumpingcube=26.04.0-r0"
+        "cmd:kjumpingcube=26.04.2-r0"
       ]
     },
     "kjumpingcube-doc": {
       "origin": "kjumpingcube",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kjumpingcube-lang": {
       "origin": "kjumpingcube",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kkc-package-data": {
@@ -93915,7 +94182,8 @@
     "kldap": {
       "origin": "kldap",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -93935,14 +94203,15 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKPim6LdapCore.so.6=6.7.0",
-        "so:libKPim6LdapWidgets.so.6=6.7.0"
+        "so:libKPim6LdapCore.so.6=6.7.2",
+        "so:libKPim6LdapWidgets.so.6=6.7.2"
       ]
     },
     "kldap-dev": {
       "origin": "kldap",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kcompletion-dev",
@@ -93952,25 +94221,28 @@
         "kwidgetsaddons-dev",
         "openldap-dev",
         "qtkeychain-dev",
-        "kldap=26.04.0-r0"
+        "kldap=26.04.2-r0"
       ]
     },
     "kldap-doc": {
       "origin": "kldap",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kldap-lang": {
       "origin": "kldap",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kleopatra": {
       "origin": "kleopatra",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "gnupg",
@@ -94009,26 +94281,29 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kleopatra=26.04.0-r0",
-        "cmd:kwatchgnupg=26.04.0-r0"
+        "cmd:kleopatra=26.04.2-r0",
+        "cmd:kwatchgnupg=26.04.2-r0"
       ]
     },
     "kleopatra-doc": {
       "origin": "kleopatra",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kleopatra-lang": {
       "origin": "kleopatra",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "klettres": {
       "origin": "klettres",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -94051,19 +94326,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:klettres=26.04.0-r0"
+        "cmd:klettres=26.04.2-r0"
       ]
     },
     "klettres-doc": {
       "origin": "klettres",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "klettres-lang": {
       "origin": "klettres",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "klibc": {
@@ -94187,7 +94464,8 @@
     "klickety": {
       "origin": "klickety",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKDEGames6.so.6",
@@ -94209,25 +94487,28 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:klickety=26.04.0-r0"
+        "cmd:klickety=26.04.2-r0"
       ]
     },
     "klickety-doc": {
       "origin": "klickety",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "klickety-lang": {
       "origin": "klickety",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "klines": {
       "origin": "klines",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKDEGames6.so.6",
@@ -94248,25 +94529,28 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:klines=26.04.0-r0"
+        "cmd:klines=26.04.2-r0"
       ]
     },
     "klines-doc": {
       "origin": "klines",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "klines-lang": {
       "origin": "klines",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kmag": {
       "origin": "kmag",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -94286,25 +94570,28 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kmag=26.04.0-r0"
+        "cmd:kmag=26.04.2-r0"
       ]
     },
     "kmag-doc": {
       "origin": "kmag",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kmag-lang": {
       "origin": "kmag",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kmbox": {
       "origin": "kmbox",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKPim6Mime.so.6",
@@ -94313,17 +94600,18 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKPim6Mbox.so.6=6.7.0"
+        "so:libKPim6Mbox.so.6=6.7.2"
       ]
     },
     "kmbox-dev": {
       "origin": "kmbox",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kmime-dev",
-        "kmbox=26.04.0-r0"
+        "kmbox=26.04.2-r0"
       ]
     },
     "kmenuedit": {
@@ -94381,7 +94669,8 @@
     "kmime": {
       "origin": "kmime",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Codecs.so.6",
@@ -94391,37 +94680,41 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKPim6Mime.so.6=6.7.0"
+        "so:libKPim6Mime.so.6=6.7.2"
       ]
     },
     "kmime-dev": {
       "origin": "kmime",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kcodecs-dev",
         "ki18n-dev",
         "qt6-qtbase-dev",
-        "kmime=26.04.0-r0"
+        "kmime=26.04.2-r0"
       ]
     },
     "kmime-doc": {
       "origin": "kmime",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kmime-lang": {
       "origin": "kmime",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kmix": {
       "origin": "kmix",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -94450,22 +94743,24 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kmix=26.04.0-r0",
-        "cmd:kmixctrl=26.04.0-r0",
-        "cmd:kmixremote=26.04.0-r0",
-        "so:libkmixcore.so.6=26.04.0"
+        "cmd:kmix=26.04.2-r0",
+        "cmd:kmixctrl=26.04.2-r0",
+        "cmd:kmixremote=26.04.2-r0",
+        "so:libkmixcore.so.6=26.04.2"
       ]
     },
     "kmix-doc": {
       "origin": "kmix",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kmix-lang": {
       "origin": "kmix",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kmon": {
@@ -94510,7 +94805,8 @@
     "kmousetool": {
       "origin": "kmousetool",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -94530,25 +94826,28 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kmousetool=26.04.0-r0"
+        "cmd:kmousetool=26.04.2-r0"
       ]
     },
     "kmousetool-doc": {
       "origin": "kmousetool",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kmousetool-lang": {
       "origin": "kmousetool",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kmouth": {
       "origin": "kmouth",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Completion.so.6",
@@ -94571,25 +94870,28 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kmouth=26.04.0-r0"
+        "cmd:kmouth=26.04.2-r0"
       ]
     },
     "kmouth-doc": {
       "origin": "kmouth",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kmouth-lang": {
       "origin": "kmouth",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kmplot": {
       "origin": "kmplot",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Completion.so.6",
@@ -94618,19 +94920,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kmplot=26.04.0-r0"
+        "cmd:kmplot=26.04.2-r0"
       ]
     },
     "kmplot-doc": {
       "origin": "kmplot",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kmplot-lang": {
       "origin": "kmplot",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kmscube": {
@@ -94654,7 +94958,8 @@
     "knavalbattle": {
       "origin": "knavalbattle",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKDEGames6.so.6",
@@ -94678,13 +94983,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:knavalbattle=26.04.0-r0"
+        "cmd:knavalbattle=26.04.2-r0"
       ]
     },
     "knavalbattle-doc": {
       "origin": "knavalbattle",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "knetattach": {
@@ -94716,7 +95022,8 @@
     "knetwalk": {
       "origin": "knetwalk",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKDEGames6.so.6",
@@ -94740,19 +95047,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:knetwalk=26.04.0-r0"
+        "cmd:knetwalk=26.04.2-r0"
       ]
     },
     "knetwalk-doc": {
       "origin": "knetwalk",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "knetwalk-lang": {
       "origin": "knetwalk",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "knewstuff": {
@@ -94912,7 +95221,8 @@
     "knights": {
       "origin": "knights",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKDEGames6.so.6",
@@ -94939,19 +95249,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:knights=26.04.0-r0"
+        "cmd:knights=26.04.2-r0"
       ]
     },
     "knights-doc": {
       "origin": "knights",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "knights-lang": {
       "origin": "knights",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "knighttime": {
@@ -95632,7 +95944,8 @@
     "koko": {
       "origin": "koko",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kdeclarative",
@@ -95675,19 +95988,21 @@
         "so:libxcb.so.1"
       ],
       "provides": [
-        "cmd:koko=26.04.0-r0"
+        "cmd:koko=26.04.2-r0"
       ]
     },
     "koko-lang": {
       "origin": "koko",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kolf": {
       "origin": "kolf",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKDEGames6.so.6",
@@ -95711,25 +96026,28 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kolf=26.04.0-r0"
+        "cmd:kolf=26.04.2-r0"
       ]
     },
     "kolf-doc": {
       "origin": "kolf",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kolf-lang": {
       "origin": "kolf",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kollision": {
       "origin": "kollision",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKDEGames6.so.6",
@@ -95751,25 +96069,28 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kollision=26.04.0-r0"
+        "cmd:kollision=26.04.2-r0"
       ]
     },
     "kollision-doc": {
       "origin": "kollision",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kollision-lang": {
       "origin": "kollision",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kolourpaint": {
       "origin": "kolourpaint",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -95794,20 +96115,22 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kolourpaint=26.04.0-r0",
+        "cmd:kolourpaint=26.04.2-r0",
         "so:libkolourpaint_lgpl.so.5=5"
       ]
     },
     "kolourpaint-doc": {
       "origin": "kolourpaint",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kolourpaint-lang": {
       "origin": "kolourpaint",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kommit": {
@@ -95867,7 +96190,8 @@
     "kompare": {
       "origin": "kompare",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Codecs.so.6",
@@ -95892,7 +96216,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kompare=26.04.0-r0",
+        "cmd:kompare=26.04.2-r0",
         "so:libkomparedialogpages.so.6=6",
         "so:libkompareinterface.so.6=6"
       ]
@@ -95900,19 +96224,22 @@
     "kompare-doc": {
       "origin": "kompare",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kompare-lang": {
       "origin": "kompare",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kongress": {
       "origin": "kongress",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kcontacts",
@@ -95939,20 +96266,22 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kongress=26.04.0-r0",
-        "cmd:kongressac=26.04.0-r0"
+        "cmd:kongress=26.04.2-r0",
+        "cmd:kongressac=26.04.2-r0"
       ]
     },
     "kongress-lang": {
       "origin": "kongress",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "konsole": {
       "origin": "konsole",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "ncurses-terminfo-base",
@@ -95998,28 +96327,31 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:konsole=26.04.0-r0",
-        "cmd:konsoleprofile=26.04.0-r0",
-        "so:libkonsoleapp.so.26.04.0=26.04.0",
-        "so:libkonsoleprivate.so.26.04.0=26.04.0"
+        "cmd:konsole=26.04.2-r0",
+        "cmd:konsoleprofile=26.04.2-r0",
+        "so:libkonsoleapp.so.26.04.2=26.04.2",
+        "so:libkonsoleprivate.so.26.04.2=26.04.2"
       ]
     },
     "konsole-doc": {
       "origin": "konsole",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "konsole-lang": {
       "origin": "konsole",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kontactinterface": {
       "origin": "kontactinterface",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6CoreAddons.so.6",
@@ -96036,13 +96368,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKPim6KontactInterface.so.6=6.7.0"
+        "so:libKPim6KontactInterface.so.6=6.7.2"
       ]
     },
     "kontactinterface-dev": {
       "origin": "kontactinterface",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kcoreaddons-dev",
@@ -96051,13 +96384,14 @@
         "kparts-dev",
         "kwindowsystem-dev",
         "kxmlgui-dev",
-        "kontactinterface=26.04.0-r0"
+        "kontactinterface=26.04.2-r0"
       ]
     },
     "kontactinterface-lang": {
       "origin": "kontactinterface",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kontainer": {
@@ -96093,7 +96427,8 @@
     "kontrast": {
       "origin": "kontrast",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kirigami",
@@ -96113,19 +96448,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kontrast=26.04.0-r0"
+        "cmd:kontrast=26.04.2-r0"
       ]
     },
     "kontrast-lang": {
       "origin": "kontrast",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "konversation": {
       "origin": "konversation",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Archive.so.6",
@@ -96172,19 +96509,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:konversation=26.04.0-r0"
+        "cmd:konversation=26.04.2-r0"
       ]
     },
     "konversation-doc": {
       "origin": "konversation",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "konversation-lang": {
       "origin": "konversation",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kooha": {
@@ -96237,7 +96576,8 @@
     "kopeninghours": {
       "origin": "kopeninghours",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Holidays.so.6",
@@ -96248,38 +96588,42 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKOpeningHours.so.1=26.04.0"
+        "so:libKOpeningHours.so.1=26.04.2"
       ]
     },
     "kopeninghours-dev": {
       "origin": "kopeninghours",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kholidays-dev",
         "ki18n-dev",
         "qt6-qtbase-dev",
         "qt6-qtdeclarative-dev",
-        "kopeninghours=26.04.0-r0"
+        "kopeninghours=26.04.2-r0"
       ]
     },
     "kopeninghours-doc": {
       "origin": "kopeninghours",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kopeninghours-lang": {
       "origin": "kopeninghours",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kosmindoormap": {
       "origin": "kosmindoormap",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libDetour.so.1",
@@ -96300,15 +96644,16 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKOSM.so.1=26.04.0",
-        "so:libKOSMIndoorMap.so.1=26.04.0",
-        "so:libKOSMIndoorRouting.so.1=26.04.0"
+        "so:libKOSM.so.1=26.04.2",
+        "so:libKOSMIndoorMap.so.1=26.04.2",
+        "so:libKOSMIndoorRouting.so.1=26.04.2"
       ]
     },
     "kosmindoormap-dev": {
       "origin": "kosmindoormap",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kcoreaddons-dev",
@@ -96322,13 +96667,14 @@
         "qt6-qtdeclarative-dev",
         "recastnavigation-dev",
         "zlib-dev",
-        "kosmindoormap=26.04.0-r0"
+        "kosmindoormap=26.04.2-r0"
       ]
     },
     "kosmindoormap-lang": {
       "origin": "kosmindoormap",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kpackage": {
@@ -96545,7 +96891,8 @@
     "kpat": {
       "origin": "kpat",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "carddecks",
@@ -96574,20 +96921,22 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kpat=26.04.0-r0",
+        "cmd:kpat=26.04.2-r0",
         "so:libkcardgame.so=0"
       ]
     },
     "kpat-doc": {
       "origin": "kpat",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kpat-lang": {
       "origin": "kpat",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kpeople": {
@@ -96653,7 +97002,8 @@
     "kpimtextedit": {
       "origin": "kpimtextedit",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Codecs.so.6",
@@ -96675,13 +97025,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKPim6TextEdit.so.6=6.7.0"
+        "so:libKPim6TextEdit.so.6=6.7.2"
       ]
     },
     "kpimtextedit-dev": {
       "origin": "kpimtextedit",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "grantlee-dev",
@@ -96699,13 +97050,14 @@
         "qt6-qtspeech-dev",
         "sonnet-dev",
         "syntax-highlighting-dev",
-        "kpimtextedit=26.04.0-r0"
+        "kpimtextedit=26.04.2-r0"
       ]
     },
     "kpimtextedit-lang": {
       "origin": "kpimtextedit",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kpipewire": {
@@ -96777,7 +97129,8 @@
     "kpkpass": {
       "origin": "kpkpass",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Archive.so.6",
@@ -96788,19 +97141,20 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKPim6PkPass.so.6=6.7.0"
+        "so:libKPim6PkPass.so.6=6.7.2"
       ]
     },
     "kpkpass-dev": {
       "origin": "kpkpass",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "karchive-dev",
         "qt6-qtbase-dev",
         "qt6-qtdeclarative-dev",
-        "kpkpass=26.04.0-r0"
+        "kpkpass=26.04.2-r0"
       ]
     },
     "kplotting": {
@@ -96841,7 +97195,8 @@
     "kpmcore": {
       "origin": "kpmcore",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "device-mapper-udev",
@@ -96861,22 +97216,24 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libkpmcore.so.13=26.04.0"
+        "so:libkpmcore.so.13=26.04.2"
       ]
     },
     "kpmcore-dev": {
       "origin": "kpmcore",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
-        "kpmcore=26.04.0-r0"
+        "kpmcore=26.04.2-r0"
       ]
     },
     "kpmcore-lang": {
       "origin": "kpmcore",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kpty": {
@@ -96927,7 +97284,8 @@
     "kpublictransport": {
       "origin": "kpublictransport",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kirigami",
@@ -96946,14 +97304,15 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libKPublicTransport.so.1=26.04.0",
-        "so:libKPublicTransportOnboard.so.1=26.04.0"
+        "so:libKPublicTransport.so.1=26.04.2",
+        "so:libKPublicTransportOnboard.so.1=26.04.2"
       ]
     },
     "kpublictransport-dev": {
       "origin": "kpublictransport",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "ki18n-dev",
@@ -96966,13 +97325,14 @@
         "qt6-qtdeclarative-private-dev",
         "qt6-qtlocation-dev",
         "zlib-dev",
-        "kpublictransport=26.04.0-r0"
+        "kpublictransport=26.04.2-r0"
       ]
     },
     "kpublictransport-lang": {
       "origin": "kpublictransport",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kquickcharts": {
@@ -97068,7 +97428,8 @@
     "krdc": {
       "origin": "krdc",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "freerdp",
@@ -97105,20 +97466,22 @@
         "so:libwinpr3.so.3"
       ],
       "provides": [
-        "cmd:krdc=26.04.0-r0",
-        "so:libkrdccore.so.5=26.04.0"
+        "cmd:krdc=26.04.2-r0",
+        "so:libkrdccore.so.5=26.04.2"
       ]
     },
     "krdc-doc": {
       "origin": "krdc",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "krdc-lang": {
       "origin": "krdc",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "krdp": {
@@ -97178,7 +97541,8 @@
     "krecorder": {
       "origin": "krecorder",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kirigami-addons",
@@ -97196,13 +97560,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:krecorder=26.04.0-r0"
+        "cmd:krecorder=26.04.2-r0"
       ]
     },
     "krecorder-lang": {
       "origin": "krecorder",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "krename": {
@@ -97249,7 +97614,8 @@
     "krfb": {
       "origin": "krfb",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -97286,21 +97652,23 @@
         "so:libxcb.so.1"
       ],
       "provides": [
-        "cmd:krfb-virtualmonitor=26.04.0-r0",
-        "cmd:krfb=26.04.0-r0",
+        "cmd:krfb-virtualmonitor=26.04.2-r0",
+        "cmd:krfb=26.04.2-r0",
         "so:libkrfbprivate.so.5.0=5"
       ]
     },
     "krfb-doc": {
       "origin": "krfb",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "krfb-lang": {
       "origin": "krfb",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kristall": {
@@ -97525,7 +97893,8 @@
     "kruler": {
       "origin": "kruler",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -97546,13 +97915,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kruler=26.04.0-r0"
+        "cmd:kruler=26.04.2-r0"
       ]
     },
     "kruler-lang": {
       "origin": "kruler",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "krunner": {
@@ -97671,7 +98041,8 @@
     "ksanecore": {
       "origin": "ksanecore",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6I18n.so.6",
@@ -97682,25 +98053,27 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKSaneCore6.so.1=26.04.0"
+        "so:libKSaneCore6.so.1=26.04.2"
       ]
     },
     "ksanecore-dev": {
       "origin": "ksanecore",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "ki18n-dev",
         "qt6-qtbase-dev",
         "sane-dev",
-        "ksanecore=26.04.0-r0"
+        "ksanecore=26.04.2-r0"
       ]
     },
     "ksanecore-lang": {
       "origin": "ksanecore",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kscreen": {
@@ -97944,7 +98317,8 @@
     "ksirk": {
       "origin": "ksirk",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKDEGames6.so.6",
@@ -97973,20 +98347,22 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:ksirk=26.04.0-r0",
-        "cmd:ksirkskineditor=26.04.0-r0"
+        "cmd:ksirk=26.04.2-r0",
+        "cmd:ksirkskineditor=26.04.2-r0"
       ]
     },
     "ksirk-doc": {
       "origin": "ksirk",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "ksirk-lang": {
       "origin": "ksirk",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "ksmbd-tools": {
@@ -98022,7 +98398,8 @@
     "ksmtp": {
       "origin": "ksmtp",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6CoreAddons.so.6",
@@ -98035,13 +98412,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKPim6SMTP.so.6=6.7.0"
+        "so:libKPim6SMTP.so.6=6.7.2"
       ]
     },
     "ksmtp-dev": {
       "origin": "ksmtp",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "cyrus-sasl-dev",
@@ -98049,19 +98427,21 @@
         "ki18n-dev",
         "kio-dev",
         "qt6-qtbase-dev",
-        "ksmtp=26.04.0-r0"
+        "ksmtp=26.04.2-r0"
       ]
     },
     "ksmtp-doc": {
       "origin": "ksmtp",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "ksmtp-lang": {
       "origin": "ksmtp",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "ksshaskpass": {
@@ -98214,7 +98594,8 @@
     "ksystemlog": {
       "origin": "ksystemlog",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Archive.so.6",
@@ -98240,19 +98621,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:ksystemlog=26.04.0-r0"
+        "cmd:ksystemlog=26.04.2-r0"
       ]
     },
     "ksystemlog-doc": {
       "origin": "ksystemlog",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "ksystemlog-lang": {
       "origin": "ksystemlog",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "ksystemstats": {
@@ -98303,7 +98686,8 @@
     "kteatime": {
       "origin": "kteatime",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -98324,13 +98708,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kteatime=26.04.0-r0"
+        "cmd:kteatime=26.04.2-r0"
       ]
     },
     "kteatime-lang": {
       "origin": "kteatime",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "ktechlab": {
@@ -98694,7 +99079,8 @@
     "ktimer": {
       "origin": "ktimer",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -98713,19 +99099,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:ktimer=26.04.0-r0"
+        "cmd:ktimer=26.04.2-r0"
       ]
     },
     "ktimer-doc": {
       "origin": "ktimer",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "ktimer-lang": {
       "origin": "ktimer",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "ktimetracker": {
@@ -98778,7 +99166,8 @@
     "ktnef": {
       "origin": "ktnef",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6CalendarCore.so.6",
@@ -98791,13 +99180,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKPim6Tnef.so.6=6.7.0"
+        "so:libKPim6Tnef.so.6=6.7.2"
       ]
     },
     "ktnef-dev": {
       "origin": "ktnef",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kcalendarcore-dev",
@@ -98805,13 +99195,14 @@
         "kcontacts-dev",
         "ki18n-dev",
         "qt6-qtbase-dev",
-        "ktnef=26.04.0-r0"
+        "ktnef=26.04.2-r0"
       ]
     },
     "ktnef-lang": {
       "origin": "ktnef",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "ktoblzcheck": {
@@ -98857,7 +99248,8 @@
     "ktouch": {
       "origin": "ktouch",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ColorScheme.so.6",
@@ -98890,25 +99282,28 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:ktouch=26.04.0-r0"
+        "cmd:ktouch=26.04.2-r0"
       ]
     },
     "ktouch-doc": {
       "origin": "ktouch",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "ktouch-lang": {
       "origin": "ktouch",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "ktrip": {
       "origin": "ktrip",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kde-icons",
@@ -98932,13 +99327,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:ktrip=26.04.0-r0"
+        "cmd:ktrip=26.04.2-r0"
       ]
     },
     "kturtle": {
       "origin": "kturtle",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -98962,19 +99358,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kturtle=26.04.0-r0"
+        "cmd:kturtle=26.04.2-r0"
       ]
     },
     "kturtle-doc": {
       "origin": "kturtle",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kturtle-lang": {
       "origin": "kturtle",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kube-apiserver": {
@@ -99323,7 +99721,8 @@
     "kunifiedpush": {
       "origin": "kunifiedpush",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6CoreAddons.so.6",
@@ -99345,13 +99744,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kunifiedpush-distributor=26.04.0-r0"
+        "cmd:kunifiedpush-distributor=26.04.2-r0"
       ]
     },
     "kunifiedpush-dev": {
       "origin": "kunifiedpush",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kcmutils-dev",
@@ -99361,19 +99761,21 @@
         "kservice-dev",
         "qt6-qtbase-dev",
         "qt6-qtwebsockets-dev",
-        "kunifiedpush-libs=26.04.0-r0"
+        "kunifiedpush-libs=26.04.2-r0"
       ]
     },
     "kunifiedpush-lang": {
       "origin": "kunifiedpush",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kunifiedpush-libs": {
       "origin": "kunifiedpush",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -99383,13 +99785,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKUnifiedPush.so.1=26.04.0"
+        "so:libKUnifiedPush.so.1=26.04.2"
       ]
     },
     "kunifiedpush-systemd": {
       "origin": "kunifiedpush",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kunitconversion": {
@@ -99862,7 +100265,8 @@
     "kwalletmanager": {
       "origin": "kwalletmanager",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Archive.so.6",
@@ -99894,25 +100298,28 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kwalletmanager5=26.04.0-r0"
+        "cmd:kwalletmanager5=26.04.2-r0"
       ]
     },
     "kwalletmanager-doc": {
       "origin": "kwalletmanager",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kwalletmanager-lang": {
       "origin": "kwalletmanager",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kwave": {
       "origin": "kwave",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libFLAC++.so.10",
@@ -99950,25 +100357,28 @@
         "so:libvorbisenc.so.2"
       ],
       "provides": [
-        "cmd:kwave=26.04.0-r0"
+        "cmd:kwave=26.04.2-r0"
       ]
     },
     "kwave-doc": {
       "origin": "kwave",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kwave-lang": {
       "origin": "kwave",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kwave-libs": {
       "origin": "kwave",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -99986,8 +100396,8 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libkwave.so.26=26.04.0",
-        "so:libkwavegui.so.26=26.04.0"
+        "so:libkwave.so.26=26.04.2",
+        "so:libkwavegui.so.26=26.04.2"
       ]
     },
     "kwayland": {
@@ -100046,7 +100456,8 @@
     "kweather": {
       "origin": "kweather",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kirigami-addons",
@@ -100073,13 +100484,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kweather=26.04.0-r0"
+        "cmd:kweather=26.04.2-r0"
       ]
     },
     "kweather-lang": {
       "origin": "kweather",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kweathercore": {
@@ -100493,7 +100905,8 @@
     "kwordquiz": {
       "origin": "kwordquiz",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKEduVocDocument.so.5",
@@ -100516,25 +100929,28 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:kwordquiz=26.04.0-r0"
+        "cmd:kwordquiz=26.04.2-r0"
       ]
     },
     "kwordquiz-doc": {
       "origin": "kwordquiz",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kwordquiz-lang": {
       "origin": "kwordquiz",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "kwrite": {
       "origin": "kate",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kate-common",
@@ -100545,16 +100961,17 @@
         "so:libQt6Gui.so.6",
         "so:libQt6Widgets.so.6",
         "so:libc.musl-x86.so.1",
-        "so:libkateprivate.so.26.04.0"
+        "so:libkateprivate.so.26.04.2"
       ],
       "provides": [
-        "cmd:kwrite=26.04.0-r0"
+        "cmd:kwrite=26.04.2-r0"
       ]
     },
     "kwrite-doc": {
       "origin": "kate",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kate-common"
@@ -100563,7 +100980,8 @@
     "kwrite-lang": {
       "origin": "kate",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kate-common"
@@ -108129,7 +108547,8 @@
     "libgravatar": {
       "origin": "libgravatar",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -108145,13 +108564,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKPim6Gravatar.so.6=6.7.0"
+        "so:libKPim6Gravatar.so.6=6.7.2"
       ]
     },
     "libgravatar-dev": {
       "origin": "libgravatar",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kconfig-dev",
@@ -108161,13 +108581,14 @@
         "kwidgetsaddons-dev",
         "pimcommon-dev",
         "qt6-qtbase-dev",
-        "libgravatar=26.04.0-r0"
+        "libgravatar=26.04.2-r0"
       ]
     },
     "libgravatar-lang": {
       "origin": "libgravatar",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "libgrpc": {
@@ -110348,7 +110769,8 @@
     "libkcddb": {
       "origin": "libkcddb",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -110377,28 +110799,32 @@
     "libkcddb-dev": {
       "origin": "libkcddb",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
-        "libkcddb=26.04.0-r0"
+        "libkcddb=26.04.2-r0"
       ]
     },
     "libkcddb-doc": {
       "origin": "libkcddb",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "libkcddb-lang": {
       "origin": "libkcddb",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "libkdcraw": {
       "origin": "libkdcraw",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -110415,18 +110841,20 @@
     "libkdcraw-dev": {
       "origin": "libkdcraw",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "libraw-dev",
         "qt6-qtbase-dev",
-        "libkdcraw=26.04.0-r0"
+        "libkdcraw=26.04.2-r0"
       ]
     },
     "libkdegames": {
       "origin": "libkdegames",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Archive.so.6",
@@ -110456,14 +110884,15 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKDEGames6.so.6=6.0.260400",
-        "so:libKDEGames6Private.so.6=6.0.260400"
+        "so:libKDEGames6.so.6=6.0.260402",
+        "so:libKDEGames6Private.so.6=6.0.260402"
       ]
     },
     "libkdegames-dev": {
       "origin": "libkdegames",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "karchive-dev",
@@ -110493,19 +110922,21 @@
         "qt6-qtbase-dev",
         "qt6-qtdeclarative-dev",
         "qt6-qtsvg-dev",
-        "libkdegames=26.04.0-r0"
+        "libkdegames=26.04.2-r0"
       ]
     },
     "libkdegames-lang": {
       "origin": "libkdegames",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "libkdepim": {
       "origin": "libkdepim",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6I18n.so.6",
@@ -110517,13 +110948,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKPim6Libkdepim.so.6=6.7.0"
+        "so:libKPim6Libkdepim.so.6=6.7.2"
       ]
     },
     "libkdepim-dev": {
       "origin": "libkdepim",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "akonadi-contacts-dev",
@@ -110544,19 +110976,21 @@
         "kwallet-dev",
         "kwidgetsaddons-dev",
         "qt6-qtbase-dev",
-        "libkdepim=26.04.0-r0"
+        "libkdepim=26.04.2-r0"
       ]
     },
     "libkdepim-lang": {
       "origin": "libkdepim",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "libkeduvocdocument": {
       "origin": "libkeduvocdocument",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Archive.so.6",
@@ -110575,22 +111009,25 @@
     "libkeduvocdocument-dev": {
       "origin": "libkeduvocdocument",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
-        "libkeduvocdocument=26.04.0-r0"
+        "libkeduvocdocument=26.04.2-r0"
       ]
     },
     "libkeduvocdocument-lang": {
       "origin": "libkeduvocdocument",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "libkexiv2": {
       "origin": "libkexiv2",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -110607,12 +111044,13 @@
     "libkexiv2-dev": {
       "origin": "libkexiv2",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "exiv2-dev",
         "qt6-qtbase-dev",
-        "libkexiv2=26.04.0-r0"
+        "libkexiv2=26.04.2-r0"
       ]
     },
     "libkeyfinder": {
@@ -110747,7 +111185,8 @@
     "libkleo": {
       "origin": "libkleo",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "gnupg",
@@ -110770,22 +111209,24 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKPim6Libkleo.so.6=6.7.0"
+        "so:libKPim6Libkleo.so.6=6.7.2"
       ]
     },
     "libkleo-dev": {
       "origin": "libkleo",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
-        "libkleo=26.04.0-r0"
+        "libkleo=26.04.2-r0"
       ]
     },
     "libkleo-lang": {
       "origin": "libkleo",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "libklibc": {
@@ -110800,7 +111241,8 @@
     "libkmahjongg": {
       "origin": "libkmahjongg",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -110816,22 +111258,24 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKMahjongg6.so.6=6.0.260400"
+        "so:libKMahjongg6.so.6=6.0.260402"
       ]
     },
     "libkmahjongg-dev": {
       "origin": "libkmahjongg",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
-        "libkmahjongg=26.04.0-r0"
+        "libkmahjongg=26.04.2-r0"
       ]
     },
     "libkmahjongg-lang": {
       "origin": "libkmahjongg",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "libkml": {
@@ -110876,7 +111320,8 @@
     "libkomparediff2": {
       "origin": "libkomparediff2",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -110897,22 +111342,25 @@
     "libkomparediff2-dev": {
       "origin": "libkomparediff2",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
-        "libkomparediff2=26.04.0-r0"
+        "libkomparediff2=26.04.2-r0"
       ]
     },
     "libkomparediff2-lang": {
       "origin": "libkomparediff2",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "libksane": {
       "origin": "libksane",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6I18n.so.6",
@@ -110928,13 +111376,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKSaneWidgets6.so.6=26.04.0"
+        "so:libKSaneWidgets6.so.6=26.04.2"
       ]
     },
     "libksane-dev": {
       "origin": "libksane",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "ki18n-dev",
@@ -110943,13 +111392,14 @@
         "kwallet-dev",
         "kwidgetsaddons-dev",
         "qt6-qtbase-dev",
-        "libksane=26.04.0-r0"
+        "libksane=26.04.2-r0"
       ]
     },
     "libksane-lang": {
       "origin": "libksane",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "libkscreen": {
@@ -111101,7 +111551,8 @@
     "libktorrent": {
       "origin": "libktorrent",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Archive.so.6",
@@ -111119,13 +111570,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKTorrent6.so.6=26.04.0"
+        "so:libKTorrent6.so.6=26.04.2"
       ]
     },
     "libktorrent-dev": {
       "origin": "libktorrent",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "boost-dev",
@@ -111137,13 +111589,14 @@
         "qca-dev",
         "qt6-qtbase-dev",
         "solid-dev",
-        "libktorrent=26.04.0-r0"
+        "libktorrent=26.04.2-r0"
       ]
     },
     "libktorrent-lang": {
       "origin": "libktorrent",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "liblangtag": {
@@ -126943,7 +127396,8 @@
     "lokalize": {
       "origin": "lokalize",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ColorScheme.so.6",
@@ -126980,19 +127434,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:lokalize=26.04.0-r0"
+        "cmd:lokalize=26.04.2-r0"
       ]
     },
     "lokalize-doc": {
       "origin": "lokalize",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "lokalize-lang": {
       "origin": "lokalize",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "loksh": {
@@ -132616,7 +133072,8 @@
     "mailimporter": {
       "origin": "mailimporter",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Archive.so.6",
@@ -132636,14 +133093,15 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKPim6MailImporter.so.6=6.7.0",
-        "so:libKPim6MailImporterAkonadi.so.6=6.7.0"
+        "so:libKPim6MailImporter.so.6=6.7.2",
+        "so:libKPim6MailImporterAkonadi.so.6=6.7.2"
       ]
     },
     "mailimporter-dev": {
       "origin": "mailimporter",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "akonadi-dev",
@@ -132656,13 +133114,14 @@
         "libkdepim-dev",
         "pimcommon-dev",
         "qt6-qtbase-dev",
-        "mailimporter=26.04.0-r0"
+        "mailimporter=26.04.2-r0"
       ]
     },
     "mailimporter-lang": {
       "origin": "mailimporter",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "mailmunge": {
@@ -137542,7 +138001,8 @@
     "mimetreeparser": {
       "origin": "mimetreeparser",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6CalendarCore.so.6",
@@ -137566,23 +138026,25 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKPim6MimeTreeParserCore.so.6=6.7.0",
-        "so:libKPim6MimeTreeParserWidgets.so.6=6.7.0"
+        "so:libKPim6MimeTreeParserCore.so.6=6.7.2",
+        "so:libKPim6MimeTreeParserWidgets.so.6=6.7.2"
       ]
     },
     "mimetreeparser-dev": {
       "origin": "mimetreeparser",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
-        "mimetreeparser=26.04.0-r0"
+        "mimetreeparser=26.04.2-r0"
       ]
     },
     "mimetreeparser-lang": {
       "origin": "mimetreeparser",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "mimic1": {
@@ -138288,7 +138750,8 @@
     "minuet": {
       "origin": "minuet",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kirigami",
@@ -138305,29 +138768,32 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:minuet=26.04.0-r0",
+        "cmd:minuet=26.04.2-r0",
         "so:libminuetinterfaces.so.0.3.0=0.3.0"
       ]
     },
     "minuet-dev": {
       "origin": "minuet",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
-        "minuet=26.04.0-r0"
+        "minuet=26.04.2-r0"
       ]
     },
     "minuet-doc": {
       "origin": "minuet",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "minuet-lang": {
       "origin": "minuet",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "mise": {
@@ -168960,7 +169426,8 @@
     "okular": {
       "origin": "okular",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "okular-common",
@@ -168985,13 +169452,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:okular=26.04.0-r0"
+        "cmd:okular=26.04.2-r0"
       ]
     },
     "okular-common": {
       "origin": "okular",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKExiv2Qt6.so.0",
@@ -169046,7 +169514,8 @@
     "okular-common-qml": {
       "origin": "okular",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kirigami",
@@ -169071,7 +169540,8 @@
     "okular-dev": {
       "origin": "okular",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "discount-dev",
@@ -169106,25 +169576,28 @@
         "qt6-qtsvg-dev",
         "threadweaver-dev",
         "zlib-dev",
-        "okular-common=26.04.0-r0"
+        "okular-common=26.04.2-r0"
       ]
     },
     "okular-doc": {
       "origin": "okular",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "okular-lang": {
       "origin": "okular",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "okular-mobile": {
       "origin": "okular",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "okular-common",
@@ -169140,7 +169613,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:okularkirigami=26.04.0-r0"
+        "cmd:okularkirigami=26.04.2-r0"
       ]
     },
     "olab": {
@@ -175306,7 +175779,8 @@
     "partitionmanager": {
       "origin": "partitionmanager",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ColorScheme.so.6",
@@ -175332,19 +175806,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:partitionmanager=26.04.0-r0"
+        "cmd:partitionmanager=26.04.2-r0"
       ]
     },
     "partitionmanager-doc": {
       "origin": "partitionmanager",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "partitionmanager-lang": {
       "origin": "partitionmanager",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "pass": {
@@ -195119,7 +195595,8 @@
     "pimcommon": {
       "origin": "pimcommon",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Codecs.so.6",
@@ -195160,14 +195637,15 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libKPim6PimCommon.so.6=6.7.0",
-        "so:libKPim6PimCommonAkonadi.so.6=6.7.0"
+        "so:libKPim6PimCommon.so.6=6.7.2",
+        "so:libKPim6PimCommonAkonadi.so.6=6.7.2"
       ]
     },
     "pimcommon-dev": {
       "origin": "pimcommon",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "akonadi-contacts-dev",
@@ -195197,13 +195675,14 @@
         "libkdepim-dev",
         "purpose-dev",
         "qt6-qtbase-dev",
-        "pimcommon=26.04.0-r0"
+        "pimcommon=26.04.2-r0"
       ]
     },
     "pimcommon-lang": {
       "origin": "pimcommon",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "pimsync": {
@@ -197255,7 +197734,8 @@
     "plasma-settings": {
       "origin": "plasma-settings",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kded",
@@ -197282,13 +197762,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:plasma-settings=26.04.0-r0"
+        "cmd:plasma-settings=26.04.2-r0"
       ]
     },
     "plasma-settings-lang": {
       "origin": "plasma-settings",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "plasma-setup": {
@@ -197930,7 +198411,8 @@
       "origin": "plasmatube",
       "versions": {
         "26.04.0-r0": 1777900518,
-        "26.04.0-r1": 1780992822
+        "26.04.0-r1": 1780992822,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "gst-libav",
@@ -197965,14 +198447,15 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:plasmatube=26.04.0-r1"
+        "cmd:plasmatube=26.04.2-r0"
       ]
     },
     "plasmatube-lang": {
       "origin": "plasmatube",
       "versions": {
         "26.04.0-r0": 1777900518,
-        "26.04.0-r1": 1780992822
+        "26.04.0-r1": 1780992822,
+        "26.04.2-r0": 1781443792
       }
     },
     "plattenalbum": {
@@ -201001,7 +201484,8 @@
     "poxml": {
       "origin": "poxml",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -201010,16 +201494,17 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:po2xml=26.04.0-r0",
-        "cmd:split2po=26.04.0-r0",
-        "cmd:swappo=26.04.0-r0",
-        "cmd:xml2pot=26.04.0-r0"
+        "cmd:po2xml=26.04.2-r0",
+        "cmd:split2po=26.04.2-r0",
+        "cmd:swappo=26.04.2-r0",
+        "cmd:xml2pot=26.04.2-r0"
       ]
     },
     "poxml-doc": {
       "origin": "poxml",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "pps-tools": {
@@ -240278,7 +240763,8 @@
     "qmlkonsole": {
       "origin": "qmlkonsole",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kirigami-addons",
@@ -240300,13 +240786,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:qmlkonsole=26.04.0-r0"
+        "cmd:qmlkonsole=26.04.2-r0"
       ]
     },
     "qmlkonsole-lang": {
       "origin": "qmlkonsole",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "qmlrunner": {
@@ -249440,7 +249927,8 @@
     "rocs": {
       "origin": "rocs",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Archive.so.6",
@@ -249470,29 +249958,32 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:rocs=26.04.0-r0",
+        "cmd:rocs=26.04.2-r0",
         "so:librocsgraphtheory.so.0=0"
       ]
     },
     "rocs-dev": {
       "origin": "rocs",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
-        "rocs=26.04.0-r0"
+        "rocs=26.04.2-r0"
       ]
     },
     "rocs-doc": {
       "origin": "rocs",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "rocs-lang": {
       "origin": "rocs",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "roffit": {
@@ -258632,7 +259123,8 @@
     "skanlite": {
       "origin": "skanlite",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6ConfigCore.so.6",
@@ -258653,19 +259145,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:skanlite=26.04.0-r0"
+        "cmd:skanlite=26.04.2-r0"
       ]
     },
     "skanlite-doc": {
       "origin": "skanlite",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "skanlite-lang": {
       "origin": "skanlite",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "skate": {
@@ -262538,7 +263032,8 @@
     "step": {
       "origin": "step",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Completion.so.6",
@@ -262564,7 +263059,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:step=26.04.0-r0"
+        "cmd:step=26.04.2-r0"
       ]
     },
     "step-certificates": {
@@ -262627,7 +263122,8 @@
     "step-doc": {
       "origin": "step",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "step-kms-plugin": {
@@ -262648,7 +263144,8 @@
     "step-lang": {
       "origin": "step",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "stevia": {
@@ -264464,7 +264961,8 @@
     "sweeper": {
       "origin": "sweeper",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Bookmarks.so.6",
@@ -264486,13 +264984,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:sweeper=26.04.0-r0"
+        "cmd:sweeper=26.04.2-r0"
       ]
     },
     "sweeper-lang": {
       "origin": "sweeper",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "swipeguess": {
@@ -267127,7 +267626,8 @@
     "telly-skout": {
       "origin": "telly-skout",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "kirigami",
@@ -267148,7 +267648,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:telly-skout=26.04.0-r0"
+        "cmd:telly-skout=26.04.2-r0"
       ]
     },
     "template-glib": {
@@ -275382,7 +275882,8 @@
     "umbrello": {
       "origin": "umbrello",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "so:libKF6Archive.so.6",
@@ -275411,21 +275912,23 @@
         "so:libxslt.so.1"
       ],
       "provides": [
-        "cmd:po2xmi6=26.04.0-r0",
-        "cmd:umbrello6=26.04.0-r0",
-        "cmd:xmi2pot6=26.04.0-r0"
+        "cmd:po2xmi6=26.04.2-r0",
+        "cmd:umbrello6=26.04.2-r0",
+        "cmd:xmi2pot6=26.04.2-r0"
       ]
     },
     "umbrello-doc": {
       "origin": "umbrello",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "umbrello-lang": {
       "origin": "umbrello",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "umoci": {
@@ -291356,7 +291859,8 @@
     "yakuake": {
       "origin": "yakuake",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       },
       "dependencies": [
         "konsole",
@@ -291395,13 +291899,14 @@
         "so:libxcb.so.1"
       ],
       "provides": [
-        "cmd:yakuake=26.04.0-r0"
+        "cmd:yakuake=26.04.2-r0"
       ]
     },
     "yakuake-lang": {
       "origin": "yakuake",
       "versions": {
-        "26.04.0-r0": 1777900518
+        "26.04.0-r0": 1777900518,
+        "26.04.2-r0": 1781443792
       }
     },
     "yambar": {
@@ -296473,55 +296978,55 @@
       },
       "libKPim6AkonadiAgentBase.so.6": {
         "package": "akonadi",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKPim6AkonadiAgentWidgetBase.so.6": {
         "package": "akonadi",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKPim6AkonadiCore.so.6": {
         "package": "akonadi",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKPim6AkonadiPrivate.so.6": {
         "package": "akonadi",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKPim6AkonadiWidgets.so.6": {
         "package": "akonadi",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKPim6AkonadiXml.so.6": {
         "package": "akonadi",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKPim6AkonadiContactCore.so.6": {
         "package": "akonadi-contacts",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKPim6AkonadiContactWidgets.so.6": {
         "package": "akonadi-contacts",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKPim6AkonadiMime.so.6": {
         "package": "akonadi-mime",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKPim6AkonadiSearchCore.so.6": {
         "package": "akonadi-search",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKPim6AkonadiSearchDebug.so.6": {
         "package": "akonadi-search",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKPim6AkonadiSearchPIM.so.6": {
         "package": "akonadi-search",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKPim6AkonadiSearchXapian.so.6": {
         "package": "akonadi-search",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libAlembic.so.1.8": {
         "package": "alembic-libs",
@@ -296673,7 +297178,7 @@
       },
       "libkerfuffle.so.26": {
         "package": "ark",
-        "version": "26.04.0"
+        "version": "26.04.2"
       },
       "libarmadillo.so.15": {
         "package": "armadillo",
@@ -297077,7 +297582,7 @@
       },
       "libaudiocdplugins.so.5": {
         "package": "audiocd-kio",
-        "version": "5.1.26040"
+        "version": "5.1.26042"
       },
       "libaudiofile.so.1": {
         "package": "audiofile-libs",
@@ -298881,7 +299386,7 @@
       },
       "libKF6BalooWidgets.so.6": {
         "package": "baloo-widgets",
-        "version": "26.04.0"
+        "version": "26.04.2"
       },
       "libbasisu.so.1.16.3": {
         "package": "basisu-libs",
@@ -299857,11 +300362,11 @@
       },
       "libdolphinprivate.so.6": {
         "package": "dolphin",
-        "version": "26.04.0"
+        "version": "26.04.2"
       },
       "libdolphinvcs.so.6": {
         "package": "dolphin",
-        "version": "26.04.0"
+        "version": "26.04.2"
       },
       "libdouble-conversion.so.3": {
         "package": "double-conversion",
@@ -303829,7 +304334,7 @@
       },
       "libKPim6GrantleeTheme.so.6": {
         "package": "grantleetheme",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libGraphicsMagick.so.3": {
         "package": "graphicsmagick",
@@ -305969,7 +306474,7 @@
       },
       "libKPim6CalendarUtils.so.6": {
         "package": "kcalutils",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libkcgi.so.1.1": {
         "package": "kcgi",
@@ -306109,11 +306614,11 @@
       },
       "libkdebugsettings.so.6": {
         "package": "kdebugsettings",
-        "version": "26.04.0"
+        "version": "26.04.2"
       },
       "libkdebugsettingscore.so.6": {
         "package": "kdebugsettings",
-        "version": "26.04.0"
+        "version": "26.04.2"
       },
       "libKF6CalendarEvents.so.6": {
         "package": "kdeclarative",
@@ -306137,7 +306642,7 @@
       },
       "libkdeconnectcore.so.26": {
         "package": "kdeconnect",
-        "version": "26.04.0"
+        "version": "26.04.2"
       },
       "libkdecorations3.so.6": {
         "package": "kdecoration",
@@ -306169,7 +306674,7 @@
       },
       "libkdfprivate.so.26": {
         "package": "kdf",
-        "version": "26.04.0"
+        "version": "26.04.2"
       },
       "libKChart6.so.3": {
         "package": "kdiagram",
@@ -306245,7 +306750,7 @@
       },
       "libkgraphviewer.so.0": {
         "package": "kgraphviewer",
-        "version": "2.5.26040"
+        "version": "2.5.26042"
       },
       "libKF6GuiAddons.so.6": {
         "package": "kguiaddons",
@@ -306257,7 +306762,7 @@
       },
       "libKHealthCertificate.so.1": {
         "package": "khealthcertificate",
-        "version": "26.04.0"
+        "version": "26.04.2"
       },
       "libKF6Holidays.so.6": {
         "package": "kholidays",
@@ -306321,15 +306826,15 @@
       },
       "libKPim6IdentityManagementCore.so.6": {
         "package": "kidentitymanagement",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKPim6IdentityManagementQuick.so.6": {
         "package": "kidentitymanagement",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKPim6IdentityManagementWidgets.so.6": {
         "package": "kidentitymanagement",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKF6IdleTime.so.6": {
         "package": "kidletime",
@@ -306341,7 +306846,7 @@
       },
       "libKPim6IMAP.so.6": {
         "package": "kimap",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKInfoCenterInternal.so": {
         "package": "kinfocenter",
@@ -306477,7 +306982,7 @@
       },
       "libKPim6Itinerary.so.6": {
         "package": "kitinerary",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKF6JobWidgets.so.6": {
         "package": "kjobwidgets",
@@ -306489,23 +306994,23 @@
       },
       "libKPim6LdapCore.so.6": {
         "package": "kldap",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKPim6LdapWidgets.so.6": {
         "package": "kldap",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKPim6Mbox.so.6": {
         "package": "kmbox",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKPim6Mime.so.6": {
         "package": "kmime",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libkmixcore.so.6": {
         "package": "kmix",
-        "version": "26.04.0"
+        "version": "26.04.2"
       },
       "libKF6NewStuffCore.so.6": {
         "package": "knewstuff",
@@ -306593,23 +307098,23 @@
       },
       "libKPim6KontactInterface.so.6": {
         "package": "kontactinterface",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKOpeningHours.so.1": {
         "package": "kopeninghours",
-        "version": "26.04.0"
+        "version": "26.04.2"
       },
       "libKOSM.so.1": {
         "package": "kosmindoormap",
-        "version": "26.04.0"
+        "version": "26.04.2"
       },
       "libKOSMIndoorMap.so.1": {
         "package": "kosmindoormap",
-        "version": "26.04.0"
+        "version": "26.04.2"
       },
       "libKOSMIndoorRouting.so.1": {
         "package": "kosmindoormap",
-        "version": "26.04.0"
+        "version": "26.04.2"
       },
       "libKF6Package.so.6": {
         "package": "kpackage",
@@ -306645,7 +307150,7 @@
       },
       "libKPim6TextEdit.so.6": {
         "package": "kpimtextedit",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKPipeWire.so.6": {
         "package": "kpipewire",
@@ -306661,7 +307166,7 @@
       },
       "libKPim6PkPass.so.6": {
         "package": "kpkpass",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKF6Plotting.so.6": {
         "package": "kplotting",
@@ -306669,7 +307174,7 @@
       },
       "libkpmcore.so.13": {
         "package": "kpmcore",
-        "version": "26.04.0"
+        "version": "26.04.2"
       },
       "libKF6Pty.so.6": {
         "package": "kpty",
@@ -306677,11 +307182,11 @@
       },
       "libKPublicTransport.so.1": {
         "package": "kpublictransport",
-        "version": "26.04.0"
+        "version": "26.04.2"
       },
       "libKPublicTransportOnboard.so.1": {
         "package": "kpublictransport",
-        "version": "26.04.0"
+        "version": "26.04.2"
       },
       "libQuickCharts.so.1": {
         "package": "kquickcharts",
@@ -306697,7 +307202,7 @@
       },
       "libkrdccore.so.5": {
         "package": "krdc",
-        "version": "26.04.0"
+        "version": "26.04.2"
       },
       "libKRdp.so.6": {
         "package": "krdp",
@@ -306833,7 +307338,7 @@
       },
       "libKSaneCore6.so.1": {
         "package": "ksanecore",
-        "version": "26.04.0"
+        "version": "26.04.2"
       },
       "libKScreenLocker.so.6": {
         "package": "kscreenlocker",
@@ -306849,7 +307354,7 @@
       },
       "libKPim6SMTP.so.6": {
         "package": "ksmtp",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKF6StatusNotifierItem.so.6": {
         "package": "kstatusnotifieritem",
@@ -306949,7 +307454,7 @@
       },
       "libKPim6Tnef.so.6": {
         "package": "ktnef",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libktoblzcheck.so.1": {
         "package": "ktoblzcheck",
@@ -306957,7 +307462,7 @@
       },
       "libKUnifiedPush.so.1": {
         "package": "kunifiedpush-libs",
-        "version": "26.04.0"
+        "version": "26.04.2"
       },
       "libKF6UnitConversion.so.6": {
         "package": "kunitconversion",
@@ -306997,11 +307502,11 @@
       },
       "libkwave.so.26": {
         "package": "kwave-libs",
-        "version": "26.04.0"
+        "version": "26.04.2"
       },
       "libkwavegui.so.26": {
         "package": "kwave-libs",
-        "version": "26.04.0"
+        "version": "26.04.2"
       },
       "libKWaylandClient.so.6": {
         "package": "kwayland",
@@ -308017,7 +308522,7 @@
       },
       "libKPim6Gravatar.so.6": {
         "package": "libgravatar",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libgrpc.so.52": {
         "package": "libgrpc",
@@ -308233,15 +308738,15 @@
       },
       "libKDEGames6.so.6": {
         "package": "libkdegames",
-        "version": "6.0.260400"
+        "version": "6.0.260402"
       },
       "libKDEGames6Private.so.6": {
         "package": "libkdegames",
-        "version": "6.0.260400"
+        "version": "6.0.260402"
       },
       "libKPim6Libkdepim.so.6": {
         "package": "libkdepim",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKEduVocDocument.so.5": {
         "package": "libkeduvocdocument",
@@ -308265,11 +308770,11 @@
       },
       "libKPim6Libkleo.so.6": {
         "package": "libkleo",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKMahjongg6.so.6": {
         "package": "libkmahjongg",
-        "version": "6.0.260400"
+        "version": "6.0.260402"
       },
       "libkmlbase.so.1": {
         "package": "libkml",
@@ -308301,7 +308806,7 @@
       },
       "libKSaneWidgets6.so.6": {
         "package": "libksane",
-        "version": "26.04.0"
+        "version": "26.04.2"
       },
       "libKF6Screen.so.8": {
         "package": "libkscreen",
@@ -308333,7 +308838,7 @@
       },
       "libKTorrent6.so.6": {
         "package": "libktorrent",
-        "version": "26.04.0"
+        "version": "26.04.2"
       },
       "liblangtag.so.1": {
         "package": "liblangtag",
@@ -311249,11 +311754,11 @@
       },
       "libKPim6MailImporter.so.6": {
         "package": "mailimporter",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKPim6MailImporterAkonadi.so.6": {
         "package": "mailimporter",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libmailutils.so.9": {
         "package": "mailutils-libs",
@@ -311477,11 +311982,11 @@
       },
       "libKPim6MimeTreeParserCore.so.6": {
         "package": "mimetreeparser",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKPim6MimeTreeParserWidgets.so.6": {
         "package": "mimetreeparser",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libttsmimic.so.0": {
         "package": "mimic1",
@@ -313253,11 +313758,11 @@
       },
       "libKPim6PimCommon.so.6": {
         "package": "pimcommon",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libKPim6PimCommonAkonadi.so.6": {
         "package": "pimcommon",
-        "version": "6.7.0"
+        "version": "6.7.2"
       },
       "libpw-v4l2.so": {
         "package": "pipewire",
@@ -318210,6 +318715,18 @@
       "libvalkey_tls.so.0": {
         "package": "libvalkey-tls",
         "version": "0.5.0"
+      },
+      "libkateprivate.so.26.04.2": {
+        "package": "kate-common",
+        "version": "26.04.2"
+      },
+      "libkonsoleapp.so.26.04.2": {
+        "package": "konsole",
+        "version": "26.04.2"
+      },
+      "libkonsoleprivate.so.26.04.2": {
+        "package": "konsole",
+        "version": "26.04.2"
       }
     },
     "package": {
