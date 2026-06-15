@@ -124294,7 +124294,8 @@
     "libvpx": {
       "origin": "libvpx",
       "versions": {
-        "1.15.2-r0": 1758708614
+        "1.15.2-r0": 1758708614,
+        "1.15.2-r1": 1781489024
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -124307,10 +124308,11 @@
     "libvpx-dev": {
       "origin": "libvpx",
       "versions": {
-        "1.15.2-r0": 1758708614
+        "1.15.2-r0": 1758708614,
+        "1.15.2-r1": 1781489024
       },
       "dependencies": [
-        "libvpx=1.15.2-r0",
+        "libvpx=1.15.2-r1",
         "pkgconfig"
       ],
       "provides": [
@@ -124320,7 +124322,8 @@
     "libvpx-utils": {
       "origin": "libvpx",
       "versions": {
-        "1.15.2-r0": 1758708614
+        "1.15.2-r0": 1758708614,
+        "1.15.2-r1": 1781489024
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -124329,8 +124332,8 @@
         "so:libvpx.so.11"
       ],
       "provides": [
-        "cmd:vpxdec=1.15.2-r0",
-        "cmd:vpxenc=1.15.2-r0"
+        "cmd:vpxdec=1.15.2-r1",
+        "cmd:vpxenc=1.15.2-r1"
       ]
     },
     "libvterm": {
