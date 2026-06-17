@@ -129697,33 +129697,33 @@ c:542c1d4b2bdebb381b6017b5045e1c430525fee6
 D:pkgconfig
 p:pc:mobile-broadband-provider-info=20240407
 
-C:Q1itMv+i8vkrTCpSePE87Um+BW204=
+C:Q1okSdcI/AqIk55y2mqKkWq3zBkPM=
 P:mobile-config-firefox
-V:5.3.0-r0
+V:5.4.0-r0
 A:armhf
-S:23700
-I:85783
+S:26707
+I:97191
 T:Firefox tweaks for mobile and privacy
 U:https://gitlab.postmarketos.org/postmarketOS/mobile-config-firefox
 L:GPL-3.0-or-later
 o:mobile-config-firefox
 m:Oliver Smith <ollieparanoid@postmarketos.org>
-t:1780342328
-c:4ffb77ff3981c51581c0c8ec77ee0ad21ea56eb3
+t:1781723059
+c:0468d41701c4b115a08949d5717e0a3131c5e6f6
 
-C:Q1BDu4n+ryEoRekdO5hmhMUtSb7dE=
+C:Q1mZevniogAS3MFOwtCG5JkKXiQY4=
 P:mobile-config-firefox-librewolf
-V:5.3.0-r0
+V:5.4.0-r0
 A:armhf
-S:3864
+S:3865
 I:4727
 T:Firefox tweaks for mobile and privacy
 U:https://gitlab.postmarketos.org/postmarketOS/mobile-config-firefox
 L:GPL-3.0-or-later
 o:mobile-config-firefox
 m:Oliver Smith <ollieparanoid@postmarketos.org>
-t:1780342328
-c:4ffb77ff3981c51581c0c8ec77ee0ad21ea56eb3
+t:1781723059
+c:0468d41701c4b115a08949d5717e0a3131c5e6f6
 D:librewolf
 
 C:Q15/1srKRESZk8byIhMBt2uXarHsk=
@@ -248485,38 +248485,38 @@ t:1780185461
 c:ec81517c44ee5cc086a144d07faf1dd1bd4fecd2
 i:ruff=0.15.15-r0 zsh
 
-C:Q1crQkdmTpSjBLo+qIEBw05tGoXcg=
+C:Q1YW/xCCE4nhEfRlq4oOh4cJbQf6M=
 P:runc
-V:1.4.2-r2
+V:1.4.3-r0
 A:armhf
-S:3850628
-I:10365892
+S:3852478
+I:10374084
 T:CLI tool for spawning and running containers according to the OCI specification
 U:https://www.opencontainers.org
 L:Apache-2.0
 o:runc
 m:Jake Buchholz Göktürk <tomalok@gmail.com>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1781722028
+c:9930dadbddd6e319404c720d43845fc425edcacc
 k:90
 D:so:libc.musl-armhf.so.1 so:libseccomp.so.2
-p:oci-runtime cmd:runc=1.4.2-r2
+p:oci-runtime cmd:runc=1.4.3-r0
 
-C:Q1Hd0RKMXy/vHeexD/1rHlvjgF09U=
+C:Q17N2se6TndDHDHH/z/sLGWDp+zbM=
 P:runc-doc
-V:1.4.2-r2
+V:1.4.3-r0
 A:armhf
-S:15439
+S:15431
 I:12439
 T:CLI tool for spawning and running containers according to the OCI specification (documentation)
 U:https://www.opencontainers.org
 L:Apache-2.0
 o:runc
 m:Jake Buchholz Göktürk <tomalok@gmail.com>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1781722028
+c:9930dadbddd6e319404c720d43845fc425edcacc
 k:90
-i:docs runc=1.4.2-r2
+i:docs runc=1.4.3-r0
 
 C:Q1CiwDg2wELwsXbBhXc4MNcV9ufXE=
 P:runit
@@ -257584,9 +257584,9 @@ t:1780766956
 c:fd07727c4e2d26b592d7d1fad881b4a0e90853bd
 i:docs snooze=0.5.1-r1
 
-C:Q1wTF8nVJSAPHQX+BJFkgLOC4dCYs=
+C:Q1mhDGHXI9shRcE6lEXKGCgubI5lE=
 P:snowflake
-V:2.13.1-r1
+V:2.14.0-r0
 A:armhf
 S:1291
 I:0
@@ -257595,101 +257595,101 @@ U:https://snowflake.torproject.org/
 L:BSD-3-Clause
 o:snowflake
 m:omni <omni+alpine@hack.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-D:snowflake-client=2.13.1-r1 snowflake-proxy=2.13.1-r1
+t:1781700355
+c:235dedaef2cb681fb3e3efb4646e14e6237000fa
+D:snowflake-client=2.14.0-r0 snowflake-proxy=2.14.0-r0
 
-C:Q1hqfFynFHNyLelfQlqBZ/KnwMMP8=
+C:Q1Zr4XpvUYotJu/1auVDgW60AlvQg=
 P:snowflake-client
-V:2.13.1-r1
+V:2.14.0-r0
 A:armhf
-S:6260499
-I:16415340
+S:6267076
+I:16439932
 T:Pluggable Transport for Tor using WebRTC - client
 U:https://snowflake.torproject.org/
 L:BSD-3-Clause
 o:snowflake
 m:omni <omni+alpine@hack.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1781700355
+c:235dedaef2cb681fb3e3efb4646e14e6237000fa
 D:so:libc.musl-armhf.so.1
-p:cmd:snowflake-client=2.13.1-r1
+p:cmd:snowflake-client=2.14.0-r0
 
-C:Q1cV7JLoPi2KCkXPx1H27XksqIHtM=
+C:Q1zndZ/mYf0GsfbdpGGcGUrIswTRA=
 P:snowflake-client-doc
-V:2.13.1-r1
+V:2.14.0-r0
 A:armhf
-S:2298
+S:2290
 I:591
 T:Pluggable Transport for Tor using WebRTC - client (man page)
 U:https://snowflake.torproject.org/
 L:BSD-3-Clause
 o:snowflake
 m:omni <omni+alpine@hack.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:docs snowflake-client=2.13.1-r1
+t:1781700355
+c:235dedaef2cb681fb3e3efb4646e14e6237000fa
+i:docs snowflake-client=2.14.0-r0
 
-C:Q1itYsr9YO2EI4kjm1ts7zcMY6+8M=
+C:Q1oKkSU8+qu/8FiOIZ4DPa9bW3Wxo=
 P:snowflake-doc
-V:2.13.1-r1
+V:2.14.0-r0
 A:armhf
-S:12083
-I:31322
+S:12283
+I:31964
 T:Pluggable Transport for Tor using WebRTC (documentation)
 U:https://snowflake.torproject.org/
 L:BSD-3-Clause
 o:snowflake
 m:omni <omni+alpine@hack.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:docs snowflake=2.13.1-r1
+t:1781700355
+c:235dedaef2cb681fb3e3efb4646e14e6237000fa
+i:docs snowflake=2.14.0-r0
 
-C:Q1R9lF6kJjfsQ9DOQb9HvnhfsB8oo=
+C:Q1f3EIEEAJEPV8DrlcHRLgzbz6oh4=
 P:snowflake-proxy
-V:2.13.1-r1
+V:2.14.0-r0
 A:armhf
-S:6094977
-I:16256684
+S:6111433
+I:16301900
 T:Pluggable Transport for Tor using WebRTC - proxy
 U:https://snowflake.torproject.org/
 L:BSD-3-Clause
 o:snowflake
 m:omni <omni+alpine@hack.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1781700355
+c:235dedaef2cb681fb3e3efb4646e14e6237000fa
 D:/bin/sh so:libc.musl-armhf.so.1
-p:cmd:snowflake-proxy=2.13.1-r1
+p:cmd:snowflake-proxy=2.14.0-r0
 
-C:Q1kxwxbg90hooffO5cpQ6lBnd9P2I=
+C:Q14Au1o7glOi9fRxwwQi4DWtIIYd0=
 P:snowflake-proxy-doc
-V:2.13.1-r1
+V:2.14.0-r0
 A:armhf
-S:2224
+S:2220
 I:522
 T:Pluggable Transport for Tor using WebRTC - proxy (man page)
 U:https://snowflake.torproject.org/
 L:BSD-3-Clause
 o:snowflake
 m:omni <omni+alpine@hack.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:docs snowflake-proxy=2.13.1-r1
+t:1781700355
+c:235dedaef2cb681fb3e3efb4646e14e6237000fa
+i:docs snowflake-proxy=2.14.0-r0
 
-C:Q1vhL1nsbP2IY4MlCaFYpOmtUHW0E=
+C:Q1ZdjByuqEjDKxuO6BYprFRIwCkXg=
 P:snowflake-proxy-openrc
-V:2.13.1-r1
+V:2.14.0-r0
 A:armhf
-S:1892
+S:1889
 I:403
 T:Pluggable Transport for Tor using WebRTC - proxy (OpenRC init scripts)
 U:https://snowflake.torproject.org/
 L:BSD-3-Clause
 o:snowflake
 m:omni <omni+alpine@hack.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:openrc snowflake-proxy=2.13.1-r1
+t:1781700355
+c:235dedaef2cb681fb3e3efb4646e14e6237000fa
+i:openrc snowflake-proxy=2.14.0-r0
 
 C:Q13Wmlh3HqN2ojtRJ6Uq6637AAUaE=
 P:soapy-sdr
