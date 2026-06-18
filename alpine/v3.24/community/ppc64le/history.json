@@ -20324,7 +20324,8 @@
     "cacti": {
       "origin": "cacti",
       "versions": {
-        "1.2.30-r0": 1754235564
+        "1.2.30-r0": 1754235564,
+        "1.2.31-r0": 1781779250
       },
       "dependencies": [
         "bash",
@@ -20339,13 +20340,15 @@
     "cacti-doc": {
       "origin": "cacti",
       "versions": {
-        "1.2.30-r0": 1754235564
+        "1.2.30-r0": 1754235564,
+        "1.2.31-r0": 1781779250
       }
     },
     "cacti-lang": {
       "origin": "cacti",
       "versions": {
-        "1.2.30-r0": 1754235564
+        "1.2.30-r0": 1754235564,
+        "1.2.31-r0": 1781779250
       },
       "dependencies": [
         "bash",
@@ -20359,7 +20362,8 @@
     "cacti-php": {
       "origin": "cacti",
       "versions": {
-        "1.2.30-r0": 1754235564
+        "1.2.30-r0": 1754235564,
+        "1.2.31-r0": 1781779250
       },
       "dependencies": [
         "php83",
@@ -20379,13 +20383,14 @@
         "php83-fpm"
       ],
       "provides": [
-        "cacti-php81=1.2.30-r0"
+        "cacti-php81=1.2.31-r0"
       ]
     },
     "cacti-setup": {
       "origin": "cacti",
       "versions": {
-        "1.2.30-r0": 1754235564
+        "1.2.30-r0": 1754235564,
+        "1.2.31-r0": 1781779250
       },
       "dependencies": [
         "cacti",
@@ -256593,32 +256598,35 @@
     "rabbitmq-server": {
       "origin": "rabbitmq-server",
       "versions": {
-        "4.3.1-r0": 1779492114
+        "4.3.1-r0": 1779492114,
+        "4.3.2-r0": 1781779036
       },
       "dependencies": [
         "erlang27",
         "/bin/sh"
       ],
       "provides": [
-        "cmd:rabbitmq-diagnostics=4.3.1-r0",
-        "cmd:rabbitmq-plugins=4.3.1-r0",
-        "cmd:rabbitmq-queues=4.3.1-r0",
-        "cmd:rabbitmq-server=4.3.1-r0",
-        "cmd:rabbitmq-streams=4.3.1-r0",
-        "cmd:rabbitmq-upgrade=4.3.1-r0",
-        "cmd:rabbitmqctl=4.3.1-r0"
+        "cmd:rabbitmq-diagnostics=4.3.2-r0",
+        "cmd:rabbitmq-plugins=4.3.2-r0",
+        "cmd:rabbitmq-queues=4.3.2-r0",
+        "cmd:rabbitmq-server=4.3.2-r0",
+        "cmd:rabbitmq-streams=4.3.2-r0",
+        "cmd:rabbitmq-upgrade=4.3.2-r0",
+        "cmd:rabbitmqctl=4.3.2-r0"
       ]
     },
     "rabbitmq-server-doc": {
       "origin": "rabbitmq-server",
       "versions": {
-        "4.3.1-r0": 1779492114
+        "4.3.1-r0": 1779492114,
+        "4.3.2-r0": 1781779036
       }
     },
     "rabbitmq-server-openrc": {
       "origin": "rabbitmq-server",
       "versions": {
-        "4.3.1-r0": 1779492114
+        "4.3.1-r0": 1779492114,
+        "4.3.2-r0": 1781779036
       }
     },
     "racket": {
@@ -334192,7 +334200,7 @@
       },
       "cacti-php81": {
         "package": "cacti-php",
-        "version": "1.2.30-r0"
+        "version": "1.2.31-r0"
       },
       "py3-celery": {
         "package": "celery",
