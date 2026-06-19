@@ -130711,7 +130711,8 @@
       "origin": "liferea",
       "versions": {
         "1.16.9-r0": 1777745421,
-        "1.16.10-r0": 1779741122
+        "1.16.10-r0": 1779741122,
+        "1.16.12-r0": 1781867414
       },
       "dependencies": [
         "py3-gobject3",
@@ -130737,22 +130738,24 @@
         "so:libxslt.so.1"
       ],
       "provides": [
-        "cmd:liferea-add-feed=1.16.10-r0",
-        "cmd:liferea=1.16.10-r0"
+        "cmd:liferea-add-feed=1.16.12-r0",
+        "cmd:liferea=1.16.12-r0"
       ]
     },
     "liferea-doc": {
       "origin": "liferea",
       "versions": {
         "1.16.9-r0": 1777745421,
-        "1.16.10-r0": 1779741122
+        "1.16.10-r0": 1779741122,
+        "1.16.12-r0": 1781867414
       }
     },
     "liferea-lang": {
       "origin": "liferea",
       "versions": {
         "1.16.9-r0": 1777745421,
-        "1.16.10-r0": 1779741122
+        "1.16.10-r0": 1779741122,
+        "1.16.12-r0": 1781867414
       }
     },
     "lightdm": {
@@ -186237,7 +186240,8 @@
     "plasma-workspace": {
       "origin": "plasma-workspace",
       "versions": {
-        "6.6.5-r0": 1778857556
+        "6.6.5-r0": 1778857556,
+        "6.6.5-r1": 1781868229
       },
       "dependencies": [
         "accountsservice",
@@ -186366,49 +186370,51 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:gmenudbusmenuproxy=6.6.5-r0",
-        "cmd:kcminit=6.6.5-r0",
-        "cmd:kcminit_startup=6.6.5-r0",
-        "cmd:kcolorschemeeditor=6.6.5-r0",
-        "cmd:kfontinst=6.6.5-r0",
-        "cmd:kfontview=6.6.5-r0",
-        "cmd:krunner=6.6.5-r0",
-        "cmd:ksmserver=6.6.5-r0",
-        "cmd:ksplashqml=6.6.5-r0",
-        "cmd:lookandfeeltool=6.6.5-r0",
-        "cmd:plasma-apply-colorscheme=6.6.5-r0",
-        "cmd:plasma-apply-cursortheme=6.6.5-r0",
-        "cmd:plasma-apply-desktoptheme=6.6.5-r0",
-        "cmd:plasma-apply-lookandfeel=6.6.5-r0",
-        "cmd:plasma-apply-wallpaperimage=6.6.5-r0",
-        "cmd:plasma-interactiveconsole=6.6.5-r0",
-        "cmd:plasma-localegen-helper=6.6.5-r0",
-        "cmd:plasma-shutdown=6.6.5-r0",
-        "cmd:plasma_session=6.6.5-r0",
-        "cmd:plasma_waitforname=6.6.5-r0",
-        "cmd:plasmashell=6.6.5-r0",
-        "cmd:plasmawindowed=6.6.5-r0",
-        "cmd:startplasma-wayland=6.6.5-r0",
-        "cmd:xembedsniproxy=6.6.5-r0",
+        "cmd:gmenudbusmenuproxy=6.6.5-r1",
+        "cmd:kcminit=6.6.5-r1",
+        "cmd:kcminit_startup=6.6.5-r1",
+        "cmd:kcolorschemeeditor=6.6.5-r1",
+        "cmd:kfontinst=6.6.5-r1",
+        "cmd:kfontview=6.6.5-r1",
+        "cmd:krunner=6.6.5-r1",
+        "cmd:ksmserver=6.6.5-r1",
+        "cmd:ksplashqml=6.6.5-r1",
+        "cmd:lookandfeeltool=6.6.5-r1",
+        "cmd:plasma-apply-colorscheme=6.6.5-r1",
+        "cmd:plasma-apply-cursortheme=6.6.5-r1",
+        "cmd:plasma-apply-desktoptheme=6.6.5-r1",
+        "cmd:plasma-apply-lookandfeel=6.6.5-r1",
+        "cmd:plasma-apply-wallpaperimage=6.6.5-r1",
+        "cmd:plasma-interactiveconsole=6.6.5-r1",
+        "cmd:plasma-localegen-helper=6.6.5-r1",
+        "cmd:plasma-shutdown=6.6.5-r1",
+        "cmd:plasma_session=6.6.5-r1",
+        "cmd:plasma_waitforname=6.6.5-r1",
+        "cmd:plasmashell=6.6.5-r1",
+        "cmd:plasmawindowed=6.6.5-r1",
+        "cmd:startplasma-wayland=6.6.5-r1",
+        "cmd:xembedsniproxy=6.6.5-r1",
         "so:libkrdb.so=0"
       ]
     },
     "plasma-workspace-dbg": {
       "origin": "plasma-workspace",
       "versions": {
-        "6.6.5-r0": 1778857556
+        "6.6.5-r0": 1778857556,
+        "6.6.5-r1": 1781868229
       },
       "dependencies": [
-        "!plasma-workspace-libs<6.6.5-r0",
-        "!plasma-workspace-libs>6.6.5-r0",
-        "!plasma-workspace<6.6.5-r0",
-        "!plasma-workspace>6.6.5-r0"
+        "!plasma-workspace-libs<6.6.5-r1",
+        "!plasma-workspace-libs>6.6.5-r1",
+        "!plasma-workspace<6.6.5-r1",
+        "!plasma-workspace>6.6.5-r1"
       ]
     },
     "plasma-workspace-dev": {
       "origin": "plasma-workspace",
       "versions": {
-        "6.6.5-r0": 1778857556
+        "6.6.5-r0": 1778857556,
+        "6.6.5-r1": 1781868229
       },
       "dependencies": [
         "baloo-dev",
@@ -186471,25 +186477,28 @@
         "wayland-dev",
         "wayland-protocols",
         "zlib-dev",
-        "plasma-workspace-libs=6.6.5-r0"
+        "plasma-workspace-libs=6.6.5-r1"
       ]
     },
     "plasma-workspace-doc": {
       "origin": "plasma-workspace",
       "versions": {
-        "6.6.5-r0": 1778857556
+        "6.6.5-r0": 1778857556,
+        "6.6.5-r1": 1781868229
       }
     },
     "plasma-workspace-lang": {
       "origin": "plasma-workspace",
       "versions": {
-        "6.6.5-r0": 1778857556
+        "6.6.5-r0": 1778857556,
+        "6.6.5-r1": 1781868229
       }
     },
     "plasma-workspace-libs": {
       "origin": "plasma-workspace",
       "versions": {
-        "6.6.5-r0": 1778857556
+        "6.6.5-r0": 1778857556,
+        "6.6.5-r1": 1781868229
       },
       "dependencies": [
         "so:libKF6ColorScheme.so.6",
@@ -186559,7 +186568,8 @@
     "plasma-workspace-systemd": {
       "origin": "plasma-workspace",
       "versions": {
-        "6.6.5-r0": 1778857556
+        "6.6.5-r0": 1778857556,
+        "6.6.5-r1": 1781868229
       }
     },
     "plasma-workspace-wallpapers": {
@@ -186571,7 +186581,8 @@
     "plasma-workspace-zsh-completion": {
       "origin": "plasma-workspace",
       "versions": {
-        "6.6.5-r0": 1778857556
+        "6.6.5-r0": 1778857556,
+        "6.6.5-r1": 1781868229
       }
     },
     "plasma5support": {
