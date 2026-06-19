@@ -87595,7 +87595,8 @@
     "jc": {
       "origin": "jc",
       "versions": {
-        "1.25.6-r1": 1774640422
+        "1.25.6-r1": 1774640422,
+        "1.25.7-r0": 1781824535
       },
       "dependencies": [
         "py3-pygments",
@@ -87604,26 +87605,29 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:jc=1.25.6-r1",
-        "py3.14:jc=1.25.6-r1"
+        "cmd:jc=1.25.7-r0",
+        "py3.14:jc=1.25.7-r0"
       ]
     },
     "jc-bash-completion": {
       "origin": "jc",
       "versions": {
-        "1.25.6-r1": 1774640422
+        "1.25.6-r1": 1774640422,
+        "1.25.7-r0": 1781824535
       }
     },
     "jc-doc": {
       "origin": "jc",
       "versions": {
-        "1.25.6-r1": 1774640422
+        "1.25.6-r1": 1774640422,
+        "1.25.7-r0": 1781824535
       }
     },
     "jc-pyc": {
       "origin": "jc",
       "versions": {
-        "1.25.6-r1": 1774640422
+        "1.25.6-r1": 1774640422,
+        "1.25.7-r0": 1781824535
       },
       "dependencies": [
         "python3~3.14"
@@ -87632,7 +87636,8 @@
     "jc-zsh-completion": {
       "origin": "jc",
       "versions": {
-        "1.25.6-r1": 1774640422
+        "1.25.6-r1": 1774640422,
+        "1.25.7-r0": 1781824535
       }
     },
     "jchroot": {
@@ -133182,7 +133187,8 @@
     "maddy": {
       "origin": "maddy",
       "versions": {
-        "0.9.3-r1": 1778661427
+        "0.9.3-r1": 1778661427,
+        "0.9.5-r0": 1781811425
       },
       "dependencies": [
         "/bin/sh",
@@ -133190,25 +133196,28 @@
         "so:libsqlite3.so.0"
       ],
       "provides": [
-        "cmd:maddy=0.9.3-r1"
+        "cmd:maddy=0.9.5-r0"
       ]
     },
     "maddy-doc": {
       "origin": "maddy",
       "versions": {
-        "0.9.3-r1": 1778661427
+        "0.9.3-r1": 1778661427,
+        "0.9.5-r0": 1781811425
       }
     },
     "maddy-openrc": {
       "origin": "maddy",
       "versions": {
-        "0.9.3-r1": 1778661427
+        "0.9.3-r1": 1778661427,
+        "0.9.5-r0": 1781811425
       }
     },
     "maddy-vim": {
       "origin": "maddy",
       "versions": {
-        "0.9.3-r1": 1778661427
+        "0.9.3-r1": 1778661427,
+        "0.9.5-r0": 1781811425
       }
     },
     "mado": {
@@ -208402,7 +208411,8 @@
     "py3-pyside6": {
       "origin": "pyside6",
       "versions": {
-        "6.11.0-r0": 1776293762
+        "6.11.0-r0": 1776293762,
+        "6.11.1-r0": 1781823416
       },
       "dependencies": [
         "python3~3.14",
@@ -208461,9 +208471,9 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "py3.14:PySide6=6.11.0-r0",
+        "py3.14:PySide6=6.11.1-r0",
         "so:libpyside6.abi3.so.6.11=6.11",
-        "so:libpyside6qml.abi3.so.6.11=6.11.0"
+        "so:libpyside6qml.abi3.so.6.11=6.11.1"
       ]
     },
     "py3-pysocks": {
@@ -213088,7 +213098,8 @@
     "py3-shiboken6": {
       "origin": "pyside6",
       "versions": {
-        "6.11.0-r0": 1776293762
+        "6.11.0-r0": 1776293762,
+        "6.11.1-r0": 1781823416
       },
       "dependencies": [
         "python3~3.14",
@@ -213100,11 +213111,11 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:shiboken6=6.11.0-r0",
-        "cmd:shiboken_tool.py=6.11.0-r0",
-        "py3.14:shiboken6=6.11.0-r0",
-        "py3.14:shiboken6_generator=6.11.0-r0",
-        "so:libshiboken6.abi3.so.6.11=6.11.0"
+        "cmd:shiboken6=6.11.1-r0",
+        "cmd:shiboken_tool.py=6.11.1-r0",
+        "py3.14:shiboken6=6.11.1-r0",
+        "py3.14:shiboken6_generator=6.11.1-r0",
+        "so:libshiboken6.abi3.so.6.11=6.11.1"
       ]
     },
     "py3-shlib": {
@@ -219753,7 +219764,8 @@
     "pyside6": {
       "origin": "pyside6",
       "versions": {
-        "6.11.0-r0": 1776293762
+        "6.11.0-r0": 1776293762,
+        "6.11.1-r0": 1781823416
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -219766,15 +219778,16 @@
     "pyside6-dev": {
       "origin": "pyside6",
       "versions": {
-        "6.11.0-r0": 1776293762
+        "6.11.0-r0": 1776293762,
+        "6.11.1-r0": 1781823416
       },
       "dependencies": [
         "py3-pyside6",
         "pkgconfig"
       ],
       "provides": [
-        "pc:pyside6=6.11.0",
-        "pc:shiboken6=6.11.0"
+        "pc:pyside6=6.11.1",
+        "pc:shiboken6=6.11.1"
       ]
     },
     "pystring": {
@@ -294827,11 +294840,11 @@
       },
       "libpyside6qml.abi3.so.6.11": {
         "package": "py3-pyside6",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libshiboken6.abi3.so.6.11": {
         "package": "py3-shiboken6",
-        "version": "6.11.0"
+        "version": "6.11.1"
       },
       "libpystring.so.1": {
         "package": "pystring",
