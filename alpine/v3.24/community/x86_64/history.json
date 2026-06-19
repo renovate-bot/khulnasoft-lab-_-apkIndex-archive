@@ -139885,7 +139885,8 @@
     "liferea": {
       "origin": "liferea",
       "versions": {
-        "1.16.10-r0": 1779741122
+        "1.16.10-r0": 1779741122,
+        "1.16.12-r0": 1781867414
       },
       "dependencies": [
         "py3-gobject3",
@@ -139911,20 +139912,22 @@
         "so:libxslt.so.1"
       ],
       "provides": [
-        "cmd:liferea-add-feed=1.16.10-r0",
-        "cmd:liferea=1.16.10-r0"
+        "cmd:liferea-add-feed=1.16.12-r0",
+        "cmd:liferea=1.16.12-r0"
       ]
     },
     "liferea-doc": {
       "origin": "liferea",
       "versions": {
-        "1.16.10-r0": 1779741122
+        "1.16.10-r0": 1779741122,
+        "1.16.12-r0": 1781867414
       }
     },
     "liferea-lang": {
       "origin": "liferea",
       "versions": {
-        "1.16.10-r0": 1779741122
+        "1.16.10-r0": 1779741122,
+        "1.16.12-r0": 1781867414
       }
     },
     "lightdm": {
@@ -264788,7 +264791,8 @@
       "origin": "qt6-qtwebengine",
       "versions": {
         "6.11.1-r1": 1779541867,
-        "6.11.1-r2": 1781260816
+        "6.11.1-r2": 1781260816,
+        "6.11.1-r3": 1781863841
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -264854,18 +264858,20 @@
       "origin": "qt6-qtwebengine",
       "versions": {
         "6.11.1-r1": 1779541867,
-        "6.11.1-r2": 1781260816
+        "6.11.1-r2": 1781260816,
+        "6.11.1-r3": 1781863841
       },
       "dependencies": [
-        "!qt6-qtwebengine<6.11.1-r2",
-        "!qt6-qtwebengine>6.11.1-r2"
+        "!qt6-qtwebengine<6.11.1-r3",
+        "!qt6-qtwebengine>6.11.1-r3"
       ]
     },
     "qt6-qtwebengine-dev": {
       "origin": "qt6-qtwebengine",
       "versions": {
         "6.11.1-r1": 1779541867,
-        "6.11.1-r2": 1781260816
+        "6.11.1-r2": 1781260816,
+        "6.11.1-r3": 1781863841
       },
       "dependencies": [
         "alsa-lib-dev",
@@ -264891,7 +264897,7 @@
         "qt6-qttools-dev",
         "qt6-qtwebchannel-dev",
         "snappy-dev",
-        "qt6-qtwebengine=6.11.1-r2",
+        "qt6-qtwebengine=6.11.1-r3",
         "pc:Qt6Core",
         "pc:Qt6Gui",
         "pc:Qt6Network",

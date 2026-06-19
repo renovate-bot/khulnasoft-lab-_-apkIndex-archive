@@ -234909,7 +234909,8 @@
       "origin": "qt6-qtwebengine",
       "versions": {
         "6.11.1-r1": 1779541867,
-        "6.11.1-r2": 1781260816
+        "6.11.1-r2": 1781260816,
+        "6.11.1-r3": 1781863841
       },
       "dependencies": [
         "so:libQt6Core.so.6",
@@ -234975,18 +234976,20 @@
       "origin": "qt6-qtwebengine",
       "versions": {
         "6.11.1-r1": 1779541867,
-        "6.11.1-r2": 1781260816
+        "6.11.1-r2": 1781260816,
+        "6.11.1-r3": 1781863841
       },
       "dependencies": [
-        "!qt6-qtwebengine<6.11.1-r2",
-        "!qt6-qtwebengine>6.11.1-r2"
+        "!qt6-qtwebengine<6.11.1-r3",
+        "!qt6-qtwebengine>6.11.1-r3"
       ]
     },
     "qt6-qtwebengine-dev": {
       "origin": "qt6-qtwebengine",
       "versions": {
         "6.11.1-r1": 1779541867,
-        "6.11.1-r2": 1781260816
+        "6.11.1-r2": 1781260816,
+        "6.11.1-r3": 1781863841
       },
       "dependencies": [
         "alsa-lib-dev",
@@ -235012,7 +235015,7 @@
         "qt6-qttools-dev",
         "qt6-qtwebchannel-dev",
         "snappy-dev",
-        "qt6-qtwebengine=6.11.1-r2",
+        "qt6-qtwebengine=6.11.1-r3",
         "pc:Qt6Core",
         "pc:Qt6Gui",
         "pc:Qt6Network",
