@@ -32633,40 +32633,44 @@
     "containerd": {
       "origin": "containerd",
       "versions": {
-        "2.3.1-r0": 1779323991
+        "2.3.1-r0": 1779323991,
+        "2.3.2-r0": 1781965416
       },
       "dependencies": [
         "runc",
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "cmd:containerd-shim-runc-v2=2.3.1-r0",
-        "cmd:containerd=2.3.1-r0"
+        "cmd:containerd-shim-runc-v2=2.3.2-r0",
+        "cmd:containerd=2.3.2-r0"
       ]
     },
     "containerd-ctr": {
       "origin": "containerd",
       "versions": {
-        "2.3.1-r0": 1779323991
+        "2.3.1-r0": 1779323991,
+        "2.3.2-r0": 1781965416
       },
       "dependencies": [
         "runc",
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "cmd:ctr=2.3.1-r0"
+        "cmd:ctr=2.3.2-r0"
       ]
     },
     "containerd-doc": {
       "origin": "containerd",
       "versions": {
-        "2.3.1-r0": 1779323991
+        "2.3.1-r0": 1779323991,
+        "2.3.2-r0": 1781965416
       }
     },
     "containerd-openrc": {
       "origin": "containerd",
       "versions": {
-        "2.3.1-r0": 1779323991
+        "2.3.1-r0": 1779323991,
+        "2.3.2-r0": 1781965416
       },
       "dependencies": [
         "log_proxy"
@@ -32675,20 +32679,22 @@
     "containerd-stress": {
       "origin": "containerd",
       "versions": {
-        "2.3.1-r0": 1779323991
+        "2.3.1-r0": 1779323991,
+        "2.3.2-r0": 1781965416
       },
       "dependencies": [
         "runc",
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "cmd:containerd-stress=2.3.1-r0"
+        "cmd:containerd-stress=2.3.2-r0"
       ]
     },
     "containerd-systemd": {
       "origin": "containerd",
       "versions": {
-        "2.3.1-r0": 1779323991
+        "2.3.1-r0": 1779323991,
+        "2.3.2-r0": 1781965416
       }
     },
     "containers-common": {
