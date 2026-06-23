@@ -152000,39 +152000,43 @@
     "openexr": {
       "origin": "openexr",
       "versions": {
-        "3.3.2-r0": 1732226157
+        "3.3.2-r0": 1732226157,
+        "3.3.11-r0": 1782235448
       }
     },
     "openexr-dev": {
       "origin": "openexr",
       "versions": {
-        "3.3.2-r0": 1732226157
+        "3.3.2-r0": 1732226157,
+        "3.3.11-r0": 1782235448
       },
       "dependencies": [
         "libdeflate-static",
-        "openexr-libiex=3.3.2-r0",
-        "openexr-libilmthread=3.3.2-r0",
-        "openexr-libopenexr=3.3.2-r0",
-        "openexr-libopenexrcore=3.3.2-r0",
-        "openexr-libopenexrutil=3.3.2-r0",
+        "openexr-libiex=3.3.11-r0",
+        "openexr-libilmthread=3.3.11-r0",
+        "openexr-libopenexr=3.3.11-r0",
+        "openexr-libopenexrcore=3.3.11-r0",
+        "openexr-libopenexrutil=3.3.11-r0",
         "pc:Imath",
         "pc:libdeflate>=1.23",
         "pkgconfig"
       ],
       "provides": [
-        "pc:OpenEXR=3.3.2"
+        "pc:OpenEXR=3.3.11"
       ]
     },
     "openexr-doc": {
       "origin": "openexr",
       "versions": {
-        "3.3.2-r0": 1732226157
+        "3.3.2-r0": 1732226157,
+        "3.3.11-r0": 1782235448
       }
     },
     "openexr-libiex": {
       "origin": "openexr",
       "versions": {
-        "3.3.2-r0": 1732226157
+        "3.3.2-r0": 1732226157,
+        "3.3.11-r0": 1782235448
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -152040,13 +152044,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libIex-3_3.so.32=32.3.3.2"
+        "so:libIex-3_3.so.32=32.3.3.11"
       ]
     },
     "openexr-libilmthread": {
       "origin": "openexr",
       "versions": {
-        "3.3.2-r0": 1732226157
+        "3.3.2-r0": 1732226157,
+        "3.3.11-r0": 1782235448
       },
       "dependencies": [
         "so:libIex-3_3.so.32",
@@ -152055,13 +152060,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libIlmThread-3_3.so.32=32.3.3.2"
+        "so:libIlmThread-3_3.so.32=32.3.3.11"
       ]
     },
     "openexr-libopenexr": {
       "origin": "openexr",
       "versions": {
-        "3.3.2-r0": 1732226157
+        "3.3.2-r0": 1732226157,
+        "3.3.11-r0": 1782235448
       },
       "dependencies": [
         "so:libIex-3_3.so.32",
@@ -152073,26 +152079,28 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libOpenEXR-3_3.so.32=32.3.3.2"
+        "so:libOpenEXR-3_3.so.32=32.3.3.11"
       ]
     },
     "openexr-libopenexrcore": {
       "origin": "openexr",
       "versions": {
-        "3.3.2-r0": 1732226157
+        "3.3.2-r0": 1732226157,
+        "3.3.11-r0": 1782235448
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
         "so:libdeflate.so.0"
       ],
       "provides": [
-        "so:libOpenEXRCore-3_3.so.32=32.3.3.2"
+        "so:libOpenEXRCore-3_3.so.32=32.3.3.11"
       ]
     },
     "openexr-libopenexrutil": {
       "origin": "openexr",
       "versions": {
-        "3.3.2-r0": 1732226157
+        "3.3.2-r0": 1732226157,
+        "3.3.11-r0": 1782235448
       },
       "dependencies": [
         "so:libIex-3_3.so.32",
@@ -152103,13 +152111,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libOpenEXRUtil-3_3.so.32=32.3.3.2"
+        "so:libOpenEXRUtil-3_3.so.32=32.3.3.11"
       ]
     },
     "openexr-tools": {
       "origin": "openexr",
       "versions": {
-        "3.3.2-r0": 1732226157
+        "3.3.2-r0": 1732226157,
+        "3.3.11-r0": 1782235448
       },
       "dependencies": [
         "so:libIex-3_3.so.32",
@@ -152122,17 +152131,17 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:exr2aces=3.3.2-r0",
-        "cmd:exrenvmap=3.3.2-r0",
-        "cmd:exrheader=3.3.2-r0",
-        "cmd:exrinfo=3.3.2-r0",
-        "cmd:exrmakepreview=3.3.2-r0",
-        "cmd:exrmaketiled=3.3.2-r0",
-        "cmd:exrmanifest=3.3.2-r0",
-        "cmd:exrmetrics=3.3.2-r0",
-        "cmd:exrmultipart=3.3.2-r0",
-        "cmd:exrmultiview=3.3.2-r0",
-        "cmd:exrstdattr=3.3.2-r0"
+        "cmd:exr2aces=3.3.11-r0",
+        "cmd:exrenvmap=3.3.11-r0",
+        "cmd:exrheader=3.3.11-r0",
+        "cmd:exrinfo=3.3.11-r0",
+        "cmd:exrmakepreview=3.3.11-r0",
+        "cmd:exrmaketiled=3.3.11-r0",
+        "cmd:exrmanifest=3.3.11-r0",
+        "cmd:exrmetrics=3.3.11-r0",
+        "cmd:exrmultipart=3.3.11-r0",
+        "cmd:exrmultiview=3.3.11-r0",
+        "cmd:exrstdattr=3.3.11-r0"
       ]
     },
     "openfst": {
@@ -292936,23 +292945,23 @@
       },
       "libIex-3_3.so.32": {
         "package": "openexr-libiex",
-        "version": "32.3.3.2"
+        "version": "32.3.3.11"
       },
       "libIlmThread-3_3.so.32": {
         "package": "openexr-libilmthread",
-        "version": "32.3.3.2"
+        "version": "32.3.3.11"
       },
       "libOpenEXR-3_3.so.32": {
         "package": "openexr-libopenexr",
-        "version": "32.3.3.2"
+        "version": "32.3.3.11"
       },
       "libOpenEXRCore-3_3.so.32": {
         "package": "openexr-libopenexrcore",
-        "version": "32.3.3.2"
+        "version": "32.3.3.11"
       },
       "libOpenEXRUtil-3_3.so.32": {
         "package": "openexr-libopenexrutil",
-        "version": "32.3.3.2"
+        "version": "32.3.3.11"
       },
       "libopenh264.so.8": {
         "package": "openh264",
