@@ -36011,7 +36011,8 @@
     "duplicity": {
       "origin": "duplicity",
       "versions": {
-        "3.0.7-r0": 1775527283
+        "3.0.7-r0": 1775527283,
+        "3.0.7-r1": 1782370376
       },
       "dependencies": [
         "python3",
@@ -36020,31 +36021,35 @@
         "gpg-agent",
         "ncftp",
         "py3-fasteners",
+        "py3-pexpect",
         "python3~3.14",
         "so:libc.musl-s390x.so.1",
         "so:librsync.so.2"
       ],
       "provides": [
-        "cmd:duplicity=3.0.7-r0",
-        "py3.14:duplicity=3.0.7-r0"
+        "cmd:duplicity=3.0.7-r1",
+        "py3.14:duplicity=3.0.7-r1"
       ]
     },
     "duplicity-doc": {
       "origin": "duplicity",
       "versions": {
-        "3.0.7-r0": 1775527283
+        "3.0.7-r0": 1775527283,
+        "3.0.7-r1": 1782370376
       }
     },
     "duplicity-lang": {
       "origin": "duplicity",
       "versions": {
-        "3.0.7-r0": 1775527283
+        "3.0.7-r0": 1775527283,
+        "3.0.7-r1": 1782370376
       }
     },
     "duplicity-pyc": {
       "origin": "duplicity",
       "versions": {
-        "3.0.7-r0": 1775527283
+        "3.0.7-r0": 1775527283,
+        "3.0.7-r1": 1782370376
       },
       "dependencies": [
         "python3~3.14"
