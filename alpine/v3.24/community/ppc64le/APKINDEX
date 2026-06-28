@@ -25250,20 +25250,20 @@ c:b4f8d2f1a3a57b47b0cf99271afa7316e3ec189a
 D:python3~3.14
 i:cepces=0.3.9-r2 pyc
 
-C:Q1Tnjr7MEBDbWtghnHG7qBp73AifI=
+C:Q1EZ/1TIAq8bnrEWMrDKa5//Icohc=
 P:ceph-dev
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:1103
+S:1102
 I:0
 T:Ceph is a distributed object store and file system, version 19
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-D:ceph19-dev=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+D:ceph19-dev=19.2.4-r0
 
 C:Q1N/1aJdd8JcFUbbkvd3WiL84rGoY=
 P:ceph18
@@ -25670,435 +25670,435 @@ c:773fc25d7c79ca36ed929814850be50d60443eba
 D:ceph18-common=18.2.7-r7 ceph18-osd-tools=18.2.7-r7 lvm2 py3-ceph18-common=18.2.7-r7 python3~3.14
 p:cmd:ceph-volume=18.2.7-r7 py3.14:ceph_volume=18.2.7-r7
 
-C:Q1tcmf+QBVmADPzW+24+0O1WCu1Ss=
+C:Q1aSTNnbB+q9L1f4FV0vPsSMM/FPQ=
 P:ceph19
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:7369348
-I:24833184
+S:7378433
+I:24964304
 T:Ceph is a distributed object store and file system, version 19
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-D:ceph19-mds=19.2.3-r7 ceph19-mgr=19.2.3-r7 ceph19-mon=19.2.3-r7 ceph19-osd=19.2.3-r7 python3~3.14 so:ceph19:libceph-common.so.2 so:ceph19:librados.so.2 so:libarrow.so.2300 so:libboost_context.so.1.84.0 so:libboost_filesystem.so.1.84.0 so:libboost_thread.so.1.84.0 so:libc.musl-ppc64le.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libexpat.so.1 so:libgcc_s.so.1 so:libicuuc.so.78 so:libldap.so.2 so:liblua-5.4.so.0 so:libparquet.so.2300 so:librdkafka.so.1 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6
-p:ceph=19.2.3-r7 cmd:ceph-exporter=19.2.3-r7 cmd:ceph-immutable-object-cache=19.2.3-r7 cmd:ceph-node-proxy=19.2.3-r7 py3.14:ceph_node_proxy=19.2.3-r7 so:ceph19:librgw.so.2=2.0.0
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+D:ceph19-mds=19.2.4-r0 ceph19-mgr=19.2.4-r0 ceph19-mon=19.2.4-r0 ceph19-osd=19.2.4-r0 python3~3.14 so:ceph19:libceph-common.so.2 so:ceph19:librados.so.2 so:libarrow.so.2300 so:libboost_context.so.1.84.0 so:libboost_filesystem.so.1.84.0 so:libboost_thread.so.1.84.0 so:libc.musl-ppc64le.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libexpat.so.1 so:libgcc_s.so.1 so:libicuuc.so.78 so:libldap.so.2 so:liblua-5.4.so.0 so:libparquet.so.2300 so:librdkafka.so.1 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6
+p:ceph=19.2.4-r0 cmd:ceph-exporter=19.2.4-r0 cmd:ceph-immutable-object-cache=19.2.4-r0 cmd:ceph-node-proxy=19.2.4-r0 py3.14:ceph_node_proxy=19.2.4-r0 so:ceph19:librgw.so.2=2.0.0
 
-C:Q17PrWt9jZfkHVdQDM1OxaAD7a0XY=
+C:Q1I8SbARKn3L1e/BHi00x23aZaBjE=
 P:ceph19-base
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:4131512
+S:4130329
 I:15940071
 T:Base is the package that includes all the files shared amongst ceph servers
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-D:cryptsetup e2fsprogs logrotate parted psmisc xfsprogs ceph19-user=19.2.3-r7 ceph19-common=19.2.3-r7 librbd19=19.2.3-r7 librados19=19.2.3-r7 libcephfs19=19.2.3-r7 so:ceph19:libceph-common.so.2 so:libaio.so.1 so:libc.musl-ppc64le.so.1 so:libcap.so.2 so:libcrypto.so.3 so:libgcc_s.so.1 so:liblua-5.4.so.0 so:liblz4.so.1 so:liboath.so.0 so:librocksdb.so.7 so:libsnappy.so.1 so:libstdc++.so.6 so:liburing.so.2 so:libxxhash.so.0 so:libz.so.1 so:libzstd.so.1
-p:ceph-base=19.2.3-r7 cmd:ceph-crash=19.2.3-r7 cmd:ceph-create-keys=19.2.3-r7 cmd:ceph-kvstore-tool=19.2.3-r7 cmd:ceph-run=19.2.3-r7 cmd:crushtool=19.2.3-r7 cmd:monmaptool=19.2.3-r7 cmd:osdmaptool=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+D:cryptsetup e2fsprogs logrotate parted psmisc xfsprogs ceph19-user=19.2.4-r0 ceph19-common=19.2.4-r0 librbd19=19.2.4-r0 librados19=19.2.4-r0 libcephfs19=19.2.4-r0 so:ceph19:libceph-common.so.2 so:libaio.so.1 so:libc.musl-ppc64le.so.1 so:libcap.so.2 so:libcrypto.so.3 so:libgcc_s.so.1 so:liblua-5.4.so.0 so:liblz4.so.1 so:liboath.so.0 so:librocksdb.so.7 so:libsnappy.so.1 so:libstdc++.so.6 so:liburing.so.2 so:libxxhash.so.0 so:libz.so.1 so:libzstd.so.1
+p:ceph-base=19.2.4-r0 cmd:ceph-crash=19.2.4-r0 cmd:ceph-create-keys=19.2.4-r0 cmd:ceph-kvstore-tool=19.2.4-r0 cmd:ceph-run=19.2.4-r0 cmd:crushtool=19.2.4-r0 cmd:monmaptool=19.2.4-r0 cmd:osdmaptool=19.2.4-r0
 
-C:Q15ZVJKZJUP7wI+tQzLlfkN2DmBpM=
+C:Q1Ld9JKR1TvxSgypKdbN8fl7gMAbQ=
 P:ceph19-bash-completion
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:3590
+S:3582
 I:7257
 T:Bash completions for Ceph
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-p:ceph-bash-completion=19.2.3-r7
-i:ceph=19.2.3-r7 bash-completion
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+p:ceph-bash-completion=19.2.4-r0
+i:ceph=19.2.4-r0 bash-completion
 
-C:Q1FUbd394KJASF3sX9trIH++rYUdY=
+C:Q1EYvhlH08a5YESfjcdcrJkkzhi7M=
 P:ceph19-cephadm
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:1083090
-I:1097153
-T:cephadm tool 19.2.3
+S:1083367
+I:1097439
+T:cephadm tool 19.2.4
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
 D:lvm2
-p:ceph-cephadm=19.2.3-r7 cmd:cephadm=19.2.3-r7
+p:ceph-cephadm=19.2.4-r0 cmd:cephadm=19.2.4-r0
 
-C:Q1l06ylQJFcADxYNokllJ+Km7q7Jo=
+C:Q1C46TcHKJ4c3ACSEX1PYr7UoZL8M=
 P:ceph19-common
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:1638755
+S:1638749
 I:5126753
 T:Common utilities to mount and interact with a ceph storage cluster.
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-D:py3-cephfs19=19.2.3-r7 py3-prettytable py3-rados19=19.2.3-r7 py3-rbd19=19.2.3-r7 python3~3.14 so:ceph19:libceph-common.so.2 so:ceph19:librados.so.2 so:ceph19:libradosstriper.so.1 so:ceph19:librbd.so.1 so:libblkid.so.1 so:libboost_program_options.so.1.84.0 so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libkeyutils.so.1 so:libncursesw.so.6 so:libstdc++.so.6 so:libudev.so.1
-p:ceph-common=19.2.3-r7 cmd:ceph-authtool=19.2.3-r7 cmd:ceph-conf=19.2.3-r7 cmd:ceph-rbdnamer=19.2.3-r7 cmd:ceph=19.2.3-r7 cmd:rados=19.2.3-r7 cmd:rbd=19.2.3-r7 cmd:rbdmap=19.2.3-r7 py3.14:ceph_argparse=19.2.3-r7 py3.14:ceph_daemon=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+D:py3-cephfs19=19.2.4-r0 py3-prettytable py3-rados19=19.2.4-r0 py3-rbd19=19.2.4-r0 python3~3.14 so:ceph19:libceph-common.so.2 so:ceph19:librados.so.2 so:ceph19:libradosstriper.so.1 so:ceph19:librbd.so.1 so:libblkid.so.1 so:libboost_program_options.so.1.84.0 so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libkeyutils.so.1 so:libncursesw.so.6 so:libstdc++.so.6 so:libudev.so.1
+p:ceph-common=19.2.4-r0 cmd:ceph-authtool=19.2.4-r0 cmd:ceph-conf=19.2.4-r0 cmd:ceph-rbdnamer=19.2.4-r0 cmd:ceph=19.2.4-r0 cmd:rados=19.2.4-r0 cmd:rbd=19.2.4-r0 cmd:rbdmap=19.2.4-r0 py3.14:ceph_argparse=19.2.4-r0 py3.14:ceph_daemon=19.2.4-r0
 
-C:Q1LBbQMI5N6AWaXY/Ro4DXyMRxvWA=
+C:Q1mSQEwfIhCUTb6ayuPHuhyW3CG5w=
 P:ceph19-dev
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:122281
-I:645242
+S:122356
+I:645392
 T:Ceph is a distributed object store and file system, version 19 (development files)
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-D:ceph19=19.2.3-r7 libcephfs19=19.2.3-r7 librados19=19.2.3-r7 libradosstriper19=19.2.3-r7 librbd19=19.2.3-r7 so:ceph19:librados.so.2 so:libboost_program_options.so.1.84.0 so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:cmd:librados-config=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+D:ceph19=19.2.4-r0 libcephfs19=19.2.4-r0 librados19=19.2.4-r0 libradosstriper19=19.2.4-r0 librbd19=19.2.4-r0 so:ceph19:librados.so.2 so:libboost_program_options.so.1.84.0 so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+p:cmd:librados-config=19.2.4-r0
 
-C:Q1bQFxw8AF8KBhlM/RwDplNbIZjHY=
+C:Q1PfnCR9XWffAeFVhBqjz951+Pqu4=
 P:ceph19-doc
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:129670
-I:130141
+S:129656
+I:130131
 T:Ceph is a distributed object store and file system, version 19 (documentation)
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-i:docs ceph19=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+i:docs ceph19=19.2.4-r0
 
-C:Q1Na7eu3MfTCJG/5oGFtkDW5Duqgo=
+C:Q12KWWRofifu27stgv4cs8trvqtQ4=
 P:ceph19-fuse
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:870583
+S:869034
 I:2497468
 T:FUSE based client for Ceph distributed network file system.
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
 D:so:ceph19:libceph-common.so.2 so:libboost_locale.so.1.84.0 so:libc.musl-ppc64le.so.1 so:libfuse.so.2 so:libgcc_s.so.1 so:libstdc++.so.6
-p:ceph-fuse=19.2.3-r7 cmd:ceph-fuse=19.2.3-r7 cmd:mount.fuse.ceph=19.2.3-r7
+p:ceph-fuse=19.2.4-r0 cmd:ceph-fuse=19.2.4-r0 cmd:mount.fuse.ceph=19.2.4-r0
 
-C:Q1mdSpH0jgAT5Dzi89aygNLIzQEAE=
+C:Q1FRgYXVhsGlv4ens/8x8YXOUN3XY=
 P:ceph19-mds
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:2472498
-I:6827656
+S:2470353
+I:6827664
 T:Metadata server daemon for the Ceph distributed file system.
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-D:ceph19-base=19.2.3-r7 so:ceph19:libceph-common.so.2 so:libboost_url.so.1.84.0 so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:liblua-5.4.so.0 so:libstdc++.so.6
-p:ceph-mds=19.2.3-r7 cmd:ceph-mds=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+D:ceph19-base=19.2.4-r0 so:ceph19:libceph-common.so.2 so:libboost_url.so.1.84.0 so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:liblua-5.4.so.0 so:libstdc++.so.6
+p:ceph-mds=19.2.4-r0 cmd:ceph-mds=19.2.4-r0
 
-C:Q1XcC3XXhG/eviaR1KntuLXy0C7zA=
+C:Q13LoEO0PRJN5kZvBEtFd3gcyFRGY=
 P:ceph19-mgr
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:1310704
-I:4273734
+S:1311976
+I:4276419
 T:Ceph Manager Daemon
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-D:ceph19-base=19.2.3-r7 ceph19-mgr-modules-core=19.2.3-r7 so:ceph19:libceph-common.so.2 so:ceph19:libcephsqlite.so so:libboost_python314.so.1.84.0 so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libpython3.14.so.1.0 so:libsqlite3.so.0 so:libstdc++.so.6
-p:ceph-mgr=19.2.3-r7 cmd:ceph-mgr=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+D:ceph19-base=19.2.4-r0 ceph19-mgr-modules-core=19.2.4-r0 so:ceph19:libceph-common.so.2 so:ceph19:libcephsqlite.so so:libboost_python314.so.1.84.0 so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libpython3.14.so.1.0 so:libsqlite3.so.0 so:libstdc++.so.6
+p:ceph-mgr=19.2.4-r0 cmd:ceph-mgr=19.2.4-r0
 
-C:Q1AozDbkaaJD5sYr/WAZ7cQu0Lqps=
+C:Q1nawadTqWdG/bLchplxDefQYYJOA=
 P:ceph19-mgr-dashboard
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:2566525
-I:8720770
+S:2569914
+I:8729919
 T:Dashboard module for ceph-mgr
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-D:ceph19-common=19.2.3-r7 ceph19-mgr=19.2.3-r7 py3-bcrypt-ceph py3-cherrypy py3-more-itertools py3-openssl py3-prettytable py3-requests py3-routes py3-yaml
-p:ceph-mgr-dashboard=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+D:ceph19-common=19.2.4-r0 ceph19-mgr=19.2.4-r0 py3-bcrypt-ceph py3-cherrypy py3-more-itertools py3-openssl py3-prettytable py3-requests py3-routes py3-yaml
+p:ceph-mgr-dashboard=19.2.4-r0
 
-C:Q1KPR5O/dY1LcpeGWfCqbCUnlvo04=
+C:Q1vVBcoxNYvshxYr1ZRxnyfzZULX4=
 P:ceph19-mgr-diskprediction-local
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:13031996
+S:13032129
 I:68744640
 T:diskprediction-local module for ceph-mgr
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-D:ceph19-mgr=19.2.3-r7 py3-numpy py3-scikit-learn py3-scipy
-p:ceph-mgr-diskprediction-local=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+D:ceph19-mgr=19.2.4-r0 py3-numpy py3-scikit-learn py3-scipy
+p:ceph-mgr-diskprediction-local=19.2.4-r0
 
-C:Q1DI+jYvWNg8dbVgES6cKcTLYT1mU=
+C:Q1pURNLxp5GaAzJ8Dn8aE3n4ndWaA=
 P:ceph19-mgr-k8events
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:17774
+S:17776
 I:61412
 T:kubernetes events module for ceph-mgr
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-D:ceph19-mgr=19.2.3-r7 py3-kubernetes py3-yaml
-p:ceph-mgr-k8events=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+D:ceph19-mgr=19.2.4-r0 py3-kubernetes py3-yaml
+p:ceph-mgr-k8events=19.2.4-r0
 
-C:Q1mZ5/eW0ZhoOzlPwf9PlDGIxDsbE=
+C:Q1/l7nCHLaaXnACBq5MWgUY2deZRo=
 P:ceph19-mgr-modules-core
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:299843
-I:1556270
+S:301412
+I:1565135
 T:ceph manager modules which are always enabled
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
 D:py3-bcrypt-ceph py3-cherrypy py3-dateutil py3-natsort py3-openssl py3-pecan py3-requests py3-werkzeug
-p:ceph-mgr-modules-core=19.2.3-r7
+p:ceph-mgr-modules-core=19.2.4-r0
 
-C:Q1TF1pGpoFeeEJhx3My3PJ/IoLTCo=
+C:Q1Jh1FPiPG+bxRbkBUjyFAZyX8MFs=
 P:ceph19-mgr-rook
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:70107
+S:70118
 I:576710
 T:rook module for ceph-mgr
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-D:ceph19-mgr=19.2.3-r7 py3-jsonpatch py3-kubernetes
-p:ceph-mgr-rook=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+D:ceph19-mgr=19.2.4-r0 py3-jsonpatch py3-kubernetes
+p:ceph-mgr-rook=19.2.4-r0
 
-C:Q1BXr5QQzVwjWO5JSpfrPViAQ9A54=
+C:Q1kt1NC7x+VVOV8R9LXinnCocs5ts=
 P:ceph19-mon
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:1141
+S:1138
 I:0
 T:Cluster monitor daemon virtual package for the Ceph distributed file system.
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-D:ceph19-base=19.2.3-r7 ceph19-mon-daemon=19.2.3-r7 ceph19-mon-tools=19.2.3-r7
-p:ceph-mon=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+D:ceph19-base=19.2.4-r0 ceph19-mon-daemon=19.2.4-r0 ceph19-mon-tools=19.2.4-r0
+p:ceph-mon=19.2.4-r0
 
-C:Q1lNQSsf8A5sFwAtO6au1svogyzU8=
+C:Q1HglYhrtA9oqMAK1iWYLhp/lfnsg=
 P:ceph19-mon-daemon
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:1683580
-I:4791880
+S:1696848
+I:4791888
 T:Cluster monitor daemon for the Ceph distributed file system.
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-D:ceph19-user=19.2.3-r7 so:ceph19:libceph-common.so.2 so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:librocksdb.so.7 so:libstdc++.so.6
-p:ceph-mon-daemon=19.2.3-r7 cmd:ceph-mon=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+D:ceph19-user=19.2.4-r0 so:ceph19:libceph-common.so.2 so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:librocksdb.so.7 so:libstdc++.so.6
+p:ceph-mon-daemon=19.2.4-r0 cmd:ceph-mon=19.2.4-r0
 
-C:Q1qpUEKu+fv0puSdgDJHJQSzNfNGk=
+C:Q1fx4+9RWVyZSa4Llb2YuSBhFaVto=
 P:ceph19-mon-tools
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:327709
+S:327963
 I:985936
 T:Cluster monitor tools for the Ceph distributed file system.
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
 D:so:ceph19:libceph-common.so.2 so:libboost_program_options.so.1.84.0 so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:librocksdb.so.7 so:libstdc++.so.6
-p:ceph-mon-tools=19.2.3-r7 cmd:ceph-monstore-tool=19.2.3-r7
+p:ceph-mon-tools=19.2.4-r0 cmd:ceph-monstore-tool=19.2.4-r0
 
-C:Q12KLF4PJfvnW5+U+MjnzFL2AoD5Q=
+C:Q1pmBmUd1N06GjdoVEb3FwBdY4tKY=
 P:ceph19-mount
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:84847
+S:84845
 I:264976
 T:CephFS mount tools
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-D:librados19=19.2.3-r7 so:ceph19:libceph-common.so.2 so:libc.musl-ppc64le.so.1 so:libcap-ng.so.0 so:libgcc_s.so.1 so:libkeyutils.so.1 so:libstdc++.so.6
-p:ceph-mount=19.2.3-r7 cmd:mount.ceph=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+D:librados19=19.2.4-r0 so:ceph19:libceph-common.so.2 so:libc.musl-ppc64le.so.1 so:libcap-ng.so.0 so:libgcc_s.so.1 so:libkeyutils.so.1 so:libstdc++.so.6
+p:ceph-mount=19.2.4-r0 cmd:mount.ceph=19.2.4-r0
 
-C:Q17EfYHydWgdluG+onDEebJyn2wW8=
+C:Q1D1MahotkswvRkY7Z/h+KfoAGXgM=
 P:ceph19-openrc
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:3133
+S:3135
 I:3917
 T:Ceph is a distributed object store and file system, version 19 (OpenRC init scripts)
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-i:openrc ceph19=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+i:openrc ceph19=19.2.4-r0
 
-C:Q15isG2uG1DfFZ8S6GD514uzU2zPE=
+C:Q1zmB60ZxB+IDXU6SAPVHMZ43qVgQ=
 P:ceph19-osd
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:1145
+S:1142
 I:0
 T:Object storage daemon virtual package for the Ceph distributed file system.
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-D:ceph19-osd-daemon=19.2.3-r7 ceph19-osd-tools=19.2.3-r7 ceph19-volume=19.2.3-r7
-p:ceph-osd=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+D:ceph19-osd-daemon=19.2.4-r0 ceph19-osd-tools=19.2.4-r0 ceph19-volume=19.2.4-r0
+p:ceph-osd=19.2.4-r0
 
-C:Q1+4xgfOL4vMR2uOtF+ePQ4tQ51aE=
+C:Q1zFLbagU5uK6TcnA5ja84JW+5k5U=
 P:ceph19-osd-daemon
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:6256410
-I:17599414
+S:6277235
+I:17664950
 T:Object storage daemon for the Ceph distributed file system.
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-D:fuse snappy lz4-libs ceph19-user=19.2.3-r7 so:libaio.so.1 so:libblkid.so.1 so:libboost_iostreams.so.1.84.0 so:libboost_thread.so.1.84.0 so:libc.musl-ppc64le.so.1 so:libcap.so.2 so:libcrypto.so.3 so:libfuse.so.2 so:libgcc_s.so.1 so:librocksdb.so.7 so:libstdc++.so.6 so:libudev.so.1 so:liburing.so.2 so:libxxhash.so.0
-p:ceph-osd-daemon=19.2.3-r7 cmd:ceph-osd=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+D:fuse snappy lz4-libs ceph19-user=19.2.4-r0 so:libaio.so.1 so:libblkid.so.1 so:libboost_iostreams.so.1.84.0 so:libboost_thread.so.1.84.0 so:libc.musl-ppc64le.so.1 so:libcap.so.2 so:libcrypto.so.3 so:libfuse.so.2 so:libgcc_s.so.1 so:librocksdb.so.7 so:libstdc++.so.6 so:libudev.so.1 so:liburing.so.2 so:libxxhash.so.0
+p:ceph-osd-daemon=19.2.4-r0 cmd:ceph-osd=19.2.4-r0
 
-C:Q1amjfcH4YkOFYOwSzfYVKbe1iqCE=
+C:Q1VeYGIdTHPoAX7Yc3QisCBsxI/mg=
 P:ceph19-osd-tools
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:5319376
+S:5325225
 I:15031006
 T:Object storage daemon tools for the Ceph distributed file system.
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-D:ceph19-base=19.2.3-r7 lz4-libs so:ceph19:libceph-common.so.2 so:libaio.so.1 so:libboost_program_options.so.1.84.0 so:libc.musl-ppc64le.so.1 so:libcap.so.2 so:libcrypto.so.3 so:libfuse.so.2 so:libgcc_s.so.1 so:librocksdb.so.7 so:libstdc++.so.6 so:liburing.so.2 so:libxxhash.so.0
-p:ceph-osd-tools=19.2.3-r7 cmd:ceph-bluestore-tool=19.2.3-r7 cmd:ceph-clsinfo=19.2.3-r7 cmd:ceph-erasure-code-tool=19.2.3-r7 cmd:ceph-objectstore-tool=19.2.3-r7 cmd:ceph-osdomap-tool=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+D:ceph19-base=19.2.4-r0 lz4-libs so:ceph19:libceph-common.so.2 so:libaio.so.1 so:libboost_program_options.so.1.84.0 so:libc.musl-ppc64le.so.1 so:libcap.so.2 so:libcrypto.so.3 so:libfuse.so.2 so:libgcc_s.so.1 so:librocksdb.so.7 so:libstdc++.so.6 so:liburing.so.2 so:libxxhash.so.0
+p:ceph-osd-tools=19.2.4-r0 cmd:ceph-bluestore-tool=19.2.4-r0 cmd:ceph-clsinfo=19.2.4-r0 cmd:ceph-erasure-code-tool=19.2.4-r0 cmd:ceph-objectstore-tool=19.2.4-r0 cmd:ceph-osdomap-tool=19.2.4-r0
 
-C:Q1obv1NphKMoAOpPqbZN7bTpx5AyI=
+C:Q16LWb5wsAkQ3pv0OVSYAfRsvZgcs=
 P:ceph19-radosgw
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:18405441
-I:54952401
+S:18439012
+I:55083569
 T:Rados REST gateway which implements Amazon's S3 and OpenStack's Swift APIs.
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-D:ceph19-common=19.2.3-r7 oath-toolkit-liboath so:ceph19:libceph-common.so.2 so:ceph19:librados.so.2 so:libarrow.so.2300 so:libboost_context.so.1.84.0 so:libboost_filesystem.so.1.84.0 so:libboost_thread.so.1.84.0 so:libc.musl-ppc64le.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libexpat.so.1 so:libgcc_s.so.1 so:libicuuc.so.78 so:libldap.so.2 so:liblua-5.4.so.0 so:liboath.so.0 so:libparquet.so.2300 so:librdkafka.so.1 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6
-p:ceph-radosgw=19.2.3-r7 cmd:radosgw-admin=19.2.3-r7 cmd:radosgw-es=19.2.3-r7 cmd:radosgw-object-expirer=19.2.3-r7 cmd:radosgw-token=19.2.3-r7 cmd:radosgw=19.2.3-r7 cmd:rgw-gap-list-comparator=19.2.3-r7 cmd:rgw-gap-list=19.2.3-r7 cmd:rgw-orphan-list=19.2.3-r7 cmd:rgw-policy-check=19.2.3-r7 cmd:rgw-restore-bucket-index=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+D:ceph19-common=19.2.4-r0 oath-toolkit-liboath so:ceph19:libceph-common.so.2 so:ceph19:librados.so.2 so:libarrow.so.2300 so:libboost_context.so.1.84.0 so:libboost_filesystem.so.1.84.0 so:libboost_thread.so.1.84.0 so:libc.musl-ppc64le.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libexpat.so.1 so:libgcc_s.so.1 so:libicuuc.so.78 so:libldap.so.2 so:liblua-5.4.so.0 so:liboath.so.0 so:libparquet.so.2300 so:librdkafka.so.1 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6
+p:ceph-radosgw=19.2.4-r0 cmd:radosgw-admin=19.2.4-r0 cmd:radosgw-es=19.2.4-r0 cmd:radosgw-object-expirer=19.2.4-r0 cmd:radosgw-token=19.2.4-r0 cmd:radosgw=19.2.4-r0 cmd:rgw-gap-list-comparator=19.2.4-r0 cmd:rgw-gap-list=19.2.4-r0 cmd:rgw-orphan-list=19.2.4-r0 cmd:rgw-policy-check=19.2.4-r0 cmd:rgw-restore-bucket-index=19.2.4-r0
 
-C:Q1yShK5GIMGaAJr0ugG2NWkTaw2wE=
+C:Q15RB1qXAq7HmF4o7BZYjDUxRoB/U=
 P:ceph19-user
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:1250
+S:1243
 I:1
 T:Minimal package to create a user for other ceph packages.
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
 D:/bin/sh
-p:ceph-user=19.2.3-r7
+p:ceph-user=19.2.4-r0
 
-C:Q1Z194S9pWuJM1vkyO0CNqsLGF9LI=
+C:Q1DzbgFpXb6dl+70ewIGOlQPRLgSM=
 P:ceph19-utils
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:18008151
-I:54707313
+S:18007973
+I:54707369
 T:Ceph utils and recovery tools
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-D:ceph19-common=19.2.3-r7 so:ceph19:libceph-common.so.2 so:ceph19:libcephfs.so.2 so:ceph19:librados.so.2 so:ceph19:librbd.so.1 so:libarrow.so.2300 so:libboost_context.so.1.84.0 so:libboost_filesystem.so.1.84.0 so:libboost_locale.so.1.84.0 so:libboost_thread.so.1.84.0 so:libboost_url.so.1.84.0 so:libc.musl-ppc64le.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libexpat.so.1 so:libgcc_s.so.1 so:libicuuc.so.78 so:libldap.so.2 so:liblua-5.4.so.0 so:libparquet.so.2300 so:librdkafka.so.1 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libxxhash.so.0
-p:ceph-utils=19.2.3-r7 cmd:ceph-dencoder=19.2.3-r7 cmd:ceph-diff-sorted=19.2.3-r7 cmd:ceph-post-file=19.2.3-r7 cmd:ceph-syn=19.2.3-r7 cmd:cephfs-data-scan=19.2.3-r7 cmd:cephfs-journal-tool=19.2.3-r7 cmd:cephfs-table-tool=19.2.3-r7 cmd:crushdiff=19.2.3-r7 cmd:rbd-replay-many=19.2.3-r7 cmd:rbd-replay=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+D:ceph19-common=19.2.4-r0 so:ceph19:libceph-common.so.2 so:ceph19:libcephfs.so.2 so:ceph19:librados.so.2 so:ceph19:librbd.so.1 so:libarrow.so.2300 so:libboost_context.so.1.84.0 so:libboost_filesystem.so.1.84.0 so:libboost_locale.so.1.84.0 so:libboost_thread.so.1.84.0 so:libboost_url.so.1.84.0 so:libc.musl-ppc64le.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libexpat.so.1 so:libgcc_s.so.1 so:libicuuc.so.78 so:libldap.so.2 so:liblua-5.4.so.0 so:libparquet.so.2300 so:librdkafka.so.1 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libxxhash.so.0
+p:ceph-utils=19.2.4-r0 cmd:ceph-dencoder=19.2.4-r0 cmd:ceph-diff-sorted=19.2.4-r0 cmd:ceph-post-file=19.2.4-r0 cmd:ceph-syn=19.2.4-r0 cmd:cephfs-data-scan=19.2.4-r0 cmd:cephfs-journal-tool=19.2.4-r0 cmd:cephfs-table-tool=19.2.4-r0 cmd:crushdiff=19.2.4-r0 cmd:rbd-replay-many=19.2.4-r0 cmd:rbd-replay=19.2.4-r0
 
-C:Q117OM5BwuV4D8Ab43T/qz3KSib8o=
+C:Q1JkXAN2QwsUdr/mineymTgRCw3cc=
 P:ceph19-volume
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:490726
-I:1663891
+S:493178
+I:1673964
 T:ceph-volume tool for the Ceph distributed file system.
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-D:ceph19-common=19.2.3-r7 ceph19-osd-tools=19.2.3-r7 lvm2 py3-ceph19-common=19.2.3-r7 python3~3.14
-p:ceph-volume=19.2.3-r7 cmd:ceph-volume=19.2.3-r7 py3.14:ceph_volume=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+D:ceph19-common=19.2.4-r0 ceph19-osd-tools=19.2.4-r0 lvm2 py3-ceph19-common=19.2.4-r0 python3~3.14
+p:ceph-volume=19.2.4-r0 cmd:ceph-volume=19.2.4-r0 py3.14:ceph_volume=19.2.4-r0
 
 C:Q1ygRhXjWvaA1SCwTQkzR5WYXyiXY=
 P:cephfs18-mirror
@@ -26148,53 +26148,53 @@ c:773fc25d7c79ca36ed929814850be50d60443eba
 D:py3-rados18=18.2.7-r7 python3~3.14
 p:cmd:cephfs-top=18.2.7-r7
 
-C:Q1admoMbKhlwYGzkrHQATtU3zYekM=
+C:Q1xwSLkPqkjrCRercmG0XfWciC6+U=
 P:cephfs19-mirror
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:224693
+S:224758
 I:724464
 T:daemon for mirroring CephFS directory snapshots between Ceph clusters
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
 D:so:ceph19:libceph-common.so.2 so:ceph19:libcephfs.so.2 so:ceph19:librados.so.2 so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:cephfs-mirror=19.2.3-r7 cmd:cephfs-mirror=19.2.3-r7
+p:cephfs-mirror=19.2.4-r0 cmd:cephfs-mirror=19.2.4-r0
 
-C:Q1wjr5LhLgXjk66fXObUpVsd1Xb/M=
+C:Q1am/No66+gH22tRBapNYPoHWRbdE=
 P:cephfs19-shell
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:17535
-I:72924
+S:17577
+I:73580
 T:interactive shell for the Ceph distributed file system
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-D:py3-rados19=19.2.3-r7 python3~3.14
-p:cephfs-shell=19.2.3-r7 cmd:cephfs-shell=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+D:py3-rados19=19.2.4-r0 python3~3.14
+p:cephfs-shell=19.2.4-r0 cmd:cephfs-shell=19.2.4-r0
 
-C:Q1vlIjk1Uq9hTGw0FyRHuMREkPpmQ=
+C:Q1Eema5/cpujnqk3cFkKsIkFvM3CI=
 P:cephfs19-top
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:11919
-I:55647
+S:11922
+I:55886
 T:top like utility to display various filesystem metrics in realtime
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-D:py3-rados19=19.2.3-r7 python3~3.14
-p:cephfs-top=19.2.3-r7 cmd:cephfs-top=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+D:py3-rados19=19.2.4-r0 python3~3.14
+p:cephfs-top=19.2.4-r0 cmd:cephfs-top=19.2.4-r0
 
 C:Q11xpqcozOT/bVj+DBL5FpDwWOt4k=
 P:cereal
@@ -117792,21 +117792,21 @@ c:773fc25d7c79ca36ed929814850be50d60443eba
 D:so:ceph18:libceph-common.so.2 so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 p:so:ceph18:libcephfs.so.2=2.0.0
 
-C:Q1gpEN97EG5U+OhfUvalLoZMbWroA=
+C:Q1Z9c1g2m/C5tuKyoyPKKVlwrN5iU=
 P:libcephfs19
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:716362
+S:715112
 I:1969536
 T:Ceph distributed file system client library
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
 D:so:ceph19:libceph-common.so.2 so:libboost_locale.so.1.84.0 so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:libcephfs=19.2.3-r7 so:ceph19:libcephfs.so.2=2.0.0
+p:libcephfs=19.2.4-r0 so:ceph19:libcephfs.so.2=2.0.0
 
 C:Q1Vbny9MtFfhdtX54+hgjspVohPic=
 P:libcephsqlite18
@@ -117824,21 +117824,21 @@ c:773fc25d7c79ca36ed929814850be50d60443eba
 D:so:ceph18:libceph-common.so.2 so:ceph18:librados.so.2 so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 p:so:ceph18:libcephsqlite.so=0
 
-C:Q1h2qDOWdz5zhqr/vv4kbBuScXcOs=
+C:Q1Aod678WKUcQUIzas8hFMZdZjRXI=
 P:libcephsqlite19
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:115049
+S:115042
 I:331048
 T:SQLite Virtual File System (VFS) on top of RADOS
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
 D:so:ceph19:libceph-common.so.2 so:ceph19:librados.so.2 so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:libcephsqlite=19.2.3-r7 so:ceph19:libcephsqlite.so=0
+p:libcephsqlite=19.2.4-r0 so:ceph19:libcephsqlite.so=0
 
 C:Q1yrG+1mpECMdSIqds65K7uClIEzo=
 P:libcerf
@@ -132207,21 +132207,21 @@ c:773fc25d7c79ca36ed929814850be50d60443eba
 D:so:libblkid.so.1 so:libboost_iostreams.so.1.84.0 so:libboost_thread.so.1.84.0 so:libc.musl-ppc64le.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libstdc++.so.6 so:libudev.so.1
 p:so:ceph18:libceph-common.so.2=2 so:ceph18:librados.so.2=2.0.0
 
-C:Q1+ho0d+sNfGsi345F0xUxBGBx++w=
+C:Q11mSk5ETrKnf7aw/3Mao30Uj8uSE=
 P:librados19
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:3681410
+S:3693736
 I:11563032
 T:RADOS distributed object store client library
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
 D:so:libblkid.so.1 so:libboost_iostreams.so.1.84.0 so:libboost_thread.so.1.84.0 so:libc.musl-ppc64le.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libstdc++.so.6 so:libudev.so.1
-p:librados=19.2.3-r7 so:ceph19:libceph-common.so.2=2 so:ceph19:librados.so.2=2.0.0
+p:librados=19.2.4-r0 so:ceph19:libceph-common.so.2=2 so:ceph19:librados.so.2=2.0.0
 
 C:Q1s/vcDzMhiF+qRRomfJ50p1mnwW4=
 P:libradosstriper18
@@ -132239,21 +132239,21 @@ c:773fc25d7c79ca36ed929814850be50d60443eba
 D:so:ceph18:libceph-common.so.2 so:ceph18:librados.so.2 so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 p:so:ceph18:libradosstriper.so.1=1.0.0
 
-C:Q1m0GjcbZDa4n+RYOvWrEfkpLAxiY=
+C:Q1MO0e72vbXjbw+4Hhhq4KuAYd+Cw=
 P:libradosstriper19
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:485844
+S:485850
 I:1707040
 T:RADOS striping library
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
 D:so:ceph19:libceph-common.so.2 so:ceph19:librados.so.2 so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:libradosstriper=19.2.3-r7 so:ceph19:libradosstriper.so.1=1.0.0
+p:libradosstriper=19.2.4-r0 so:ceph19:libradosstriper.so.1=1.0.0
 
 C:Q1PxEiUJ8ranaNLcuA4u93hvoqTLw=
 P:libraqm
@@ -132429,21 +132429,21 @@ c:773fc25d7c79ca36ed929814850be50d60443eba
 D:so:ceph18:libceph-common.so.2 so:ceph18:librados.so.2 so:libc.musl-ppc64le.so.1 so:libcrypto.so.3 so:libcryptsetup.so.12 so:libgcc_s.so.1 so:libssl.so.3 so:libstdc++.so.6
 p:so:ceph18:librbd.so.1=1.18.0
 
-C:Q1xSmMLkG6JIHhRb9oIEuMZbUdP9s=
+C:Q1eBk9bY9ekQMQgTJ90PULo5r03WA=
 P:librbd19
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:2328056
-I:7176736
+S:2329667
+I:7176800
 T:RADOS block device client library
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
 D:so:ceph19:libceph-common.so.2 so:ceph19:librados.so.2 so:libc.musl-ppc64le.so.1 so:libcrypto.so.3 so:libcryptsetup.so.12 so:libgcc_s.so.1 so:libnbd.so.0 so:libssl.so.3 so:libstdc++.so.6
-p:librbd=19.2.3-r7 so:ceph19:librbd.so.1=1.19.0
+p:librbd=19.2.4-r0 so:ceph19:librbd.so.1=1.19.0
 
 C:Q1Nf8c+oiifXPOGgWVIby4k3MJigE=
 P:librda
@@ -226089,21 +226089,21 @@ c:773fc25d7c79ca36ed929814850be50d60443eba
 D:py3-setuptools py3-yaml python3~3.14
 p:py3.14:ceph=18.2.7-r7
 
-C:Q1D/k3gfSS4aJ1ivXLJ3gdyvGaBIg=
+C:Q1IimCLLUNJ/EsTIj0OW77X5yKN2k=
 P:py3-ceph19-common
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:224811
-I:748226
+S:224976
+I:749006
 T:Python dependencies for ceph19 distributed file system
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
 D:py3-setuptools py3-yaml python3~3.14
-p:py3-ceph-common=19.2.3-r7 py3.14:ceph=19.2.3-r7
+p:py3-ceph-common=19.2.4-r0 py3.14:ceph=19.2.4-r0
 
 C:Q1eKU8T7xIh07cyp9nOfVN0NAb0WY=
 P:py3-cephfs18
@@ -226120,21 +226120,21 @@ t:1774640371
 c:773fc25d7c79ca36ed929814850be50d60443eba
 D:py3-rados18=18.2.7-r7 python3~3.14 so:ceph18:libcephfs.so.2 so:libc.musl-ppc64le.so.1
 
-C:Q1odsbyZgvBl7VJNSS/qRL2UcBr7E=
+C:Q1GYfD2RyRBE7FHkGxoOa++rTwtZ0=
 P:py3-cephfs19
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:223636
+S:223632
 I:670905
 T:Python libraries for Ceph distributed file system
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-D:py3-rados19=19.2.3-r7 python3~3.14 so:ceph19:libcephfs.so.2 so:libc.musl-ppc64le.so.1
-p:py3-cephfs=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+D:py3-rados19=19.2.4-r0 python3~3.14 so:ceph19:libcephfs.so.2 so:libc.musl-ppc64le.so.1
+p:py3-cephfs=19.2.4-r0
 
 C:Q1nmzmaZBDAK3rIiGEX5FK/sJbJ9I=
 P:py3-cerberus
@@ -256486,21 +256486,21 @@ t:1774640371
 c:773fc25d7c79ca36ed929814850be50d60443eba
 D:py3-ceph18-common=18.2.7-r7 python3~3.14 so:ceph18:librados.so.2 so:libc.musl-ppc64le.so.1
 
-C:Q1InNzaa4LeAiGl6g6hGc+mPbeaOA=
+C:Q18TC3HKbwGyOPoWCKO0hLu6RZ+/U=
 P:py3-rados19
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:382919
+S:382914
 I:1210624
 T:Python libraries for the RADOS object store
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-D:py3-ceph19-common=19.2.3-r7 python3~3.14 so:ceph19:librados.so.2 so:libc.musl-ppc64le.so.1
-p:py3-rados=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+D:py3-ceph19-common=19.2.4-r0 python3~3.14 so:ceph19:librados.so.2 so:libc.musl-ppc64le.so.1
+p:py3-rados=19.2.4-r0
 
 C:Q1HMNbZIYiUhNP0khaPjl/Au71dtc=
 P:py3-random2
@@ -256820,21 +256820,21 @@ t:1774640371
 c:773fc25d7c79ca36ed929814850be50d60443eba
 D:py3-rados18=18.2.7-r7 python3~3.14 so:ceph18:librbd.so.1 so:libc.musl-ppc64le.so.1
 
-C:Q1BDwhy7tsVqh6hB/RaESICt9ygDE=
+C:Q1bvJiL5Mxg0O7leTDTVnsxeODHlg=
 P:py3-rbd19
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:410506
+S:410531
 I:1415773
 T:Python libraries for the RADOS block device
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-D:py3-rados19=19.2.3-r7 python3~3.14 so:ceph19:librbd.so.1 so:libc.musl-ppc64le.so.1
-p:py3-rbd=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+D:py3-rados19=19.2.4-r0 python3~3.14 so:ceph19:librbd.so.1 so:libc.musl-ppc64le.so.1
+p:py3-rbd=19.2.4-r0
 
 C:Q1VXFfXeXsoNYNL3dhp2LEBOpU32E=
 P:py3-rdflib
@@ -278431,21 +278431,21 @@ c:773fc25d7c79ca36ed929814850be50d60443eba
 D:so:ceph18:libceph-common.so.2 so:ceph18:librados.so.2 so:ceph18:librbd.so.1 so:libc.musl-ppc64le.so.1 so:libfuse.so.2 so:libgcc_s.so.1 so:libstdc++.so.6
 p:cmd:rbd-fuse=18.2.7-r7
 
-C:Q1u3HtYSmMtpisj9EyL4W/GfRL8QA=
+C:Q1MiqixIqIXEk+9jUa94NGfrn1jko=
 P:rbd-fuse19
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:76690
+S:76710
 I:264952
 T:FUSE based client to map Ceph rbd images to files.
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
 D:so:ceph19:libceph-common.so.2 so:ceph19:librados.so.2 so:ceph19:librbd.so.1 so:libc.musl-ppc64le.so.1 so:libfuse.so.2 so:libgcc_s.so.1 so:libstdc++.so.6
-p:rbd-fuse=19.2.3-r7 cmd:rbd-fuse=19.2.3-r7
+p:rbd-fuse=19.2.4-r0 cmd:rbd-fuse=19.2.4-r0
 
 C:Q1MyNY49VA9N7rbWISvVy+HpmLvQs=
 P:rbd-mirror18
@@ -278463,21 +278463,21 @@ c:773fc25d7c79ca36ed929814850be50d60443eba
 D:ceph18-common=18.2.7-r7 so:ceph18:libceph-common.so.2 so:ceph18:librados.so.2 so:libc.musl-ppc64le.so.1 so:libcrypto.so.3 so:libcryptsetup.so.12 so:libgcc_s.so.1 so:libssl.so.3 so:libstdc++.so.6
 p:cmd:rbd-mirror=18.2.7-r7
 
-C:Q1sDEKiY2ZTOnwAYxyUzVQhhS8H8s=
+C:Q1PbtGDA3viD3OaGtMpIWbUIyFjc0=
 P:rbd-mirror19
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:4528631
-I:19108264
+S:4531465
+I:19173864
 T:Daemon for mirroring RBD images between Ceph clusters.
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
-D:ceph19-common=19.2.3-r7 so:ceph19:libceph-common.so.2 so:ceph19:librados.so.2 so:libc.musl-ppc64le.so.1 so:libcrypto.so.3 so:libcryptsetup.so.12 so:libgcc_s.so.1 so:libnbd.so.0 so:libssl.so.3 so:libstdc++.so.6
-p:rbd-mirror=19.2.3-r7 cmd:rbd-mirror=19.2.3-r7
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
+D:ceph19-common=19.2.4-r0 so:ceph19:libceph-common.so.2 so:ceph19:librados.so.2 so:libc.musl-ppc64le.so.1 so:libcrypto.so.3 so:libcryptsetup.so.12 so:libgcc_s.so.1 so:libnbd.so.0 so:libssl.so.3 so:libstdc++.so.6
+p:rbd-mirror=19.2.4-r0 cmd:rbd-mirror=19.2.4-r0
 
 C:Q1xmbQzJ0Rm2V7nWJzGiL5rGXbLN0=
 P:rbd-nbd18
@@ -278495,21 +278495,21 @@ c:773fc25d7c79ca36ed929814850be50d60443eba
 D:so:ceph18:libceph-common.so.2 so:ceph18:librados.so.2 so:ceph18:librbd.so.1 so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libnl-3.so.200 so:libnl-genl-3.so.200 so:libstdc++.so.6
 p:cmd:rbd-nbd=18.2.7-r7
 
-C:Q1D/ork2x3GiKaHLOHyLbyjz6oEvY=
+C:Q1KaNNC5B4MVLZIe/yQ0OnfKVmr+w=
 P:rbd-nbd19
-V:19.2.3-r7
+V:19.2.4-r0
 A:ppc64le
-S:163304
+S:163391
 I:529224
 T:NBD based client to map Ceph rbd images to local device.
 U:https://ceph.io/en/
 L:LGPL-2.1-only AND BSD-3-Clause AND CC-BY-SA-3.0 AND BSL-1.0 AND Apache-2.0 AND MIT AND CC0-1.0
 o:ceph19
 m:Duncan Bellamy <dunk@denkimushi.com>
-t:1774799088
-c:d491f3dd67543aa27508cd947f9ad7fc986fd89b
+t:1782678414
+c:7d2c4d47a460dafdff643c0198fd683b9f3551b0
 D:so:ceph19:libceph-common.so.2 so:ceph19:librados.so.2 so:ceph19:librbd.so.1 so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libnl-3.so.200 so:libnl-genl-3.so.200 so:libstdc++.so.6
-p:rbd-nbd=19.2.3-r7 cmd:rbd-nbd=19.2.3-r7
+p:rbd-nbd=19.2.4-r0 cmd:rbd-nbd=19.2.4-r0
 
 C:Q1zfFFU+JU6pZLWbwh0qpjaEpYfgA=
 P:rbspy
@@ -298329,51 +298329,51 @@ t:1778661427
 c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
 i:openrc step-certificates=0.30.2-r2
 
-C:Q1TELA8/EiLRc5C084KR6c9EWaCkw=
+C:Q1yZOtT/q/SSkbNySX1AgymCM2EpY=
 P:step-cli
-V:0.30.2-r2
+V:0.30.6-r0
 A:ppc64le
-S:13347921
-I:43787880
+S:13447166
+I:44111240
 T:Zero trust swiss army knife that integrates with step-ca for automated certificate management
 U:https://github.com/smallstep/cli
 L:Apache-2.0
 o:step-cli
 m:Wolfgang Fischer <wdev@posteo.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
+t:1782656767
+c:911c4e34b99ac4ed120f5a8760249d2128099040
 D:so:libc.musl-ppc64le.so.1
-p:cmd:step=0.30.2-r2
+p:cmd:step=0.30.6-r0
 
-C:Q1ajJvTEpsobtokiSS763TW2CYiyI=
+C:Q1IbGeChokp8vFy67cwtGMY5Q4OlM=
 P:step-cli-bash-completion
-V:0.30.2-r2
+V:0.30.6-r0
 A:ppc64le
-S:1598
+S:1595
 I:446
 T:Bash completions for step-cli
 U:https://github.com/smallstep/cli
 L:Apache-2.0
 o:step-cli
 m:Wolfgang Fischer <wdev@posteo.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:step-cli=0.30.2-r2 bash-completion
+t:1782656767
+c:911c4e34b99ac4ed120f5a8760249d2128099040
+i:step-cli=0.30.6-r0 bash-completion
 
-C:Q1t6KJAgneOWYrsPYA0EyAD9mc1Ec=
+C:Q1SqpHRZz6rpvg7RNu/srDMuTStt0=
 P:step-cli-zsh-completion
-V:0.30.2-r2
+V:0.30.6-r0
 A:ppc64le
-S:1603
+S:1599
 I:454
 T:Zsh completions for step-cli
 U:https://github.com/smallstep/cli
 L:Apache-2.0
 o:step-cli
 m:Wolfgang Fischer <wdev@posteo.org>
-t:1778661427
-c:27c48bceb6e14cff00893d8e657a37fbd4b7fb86
-i:step-cli=0.30.2-r2 zsh
+t:1782656767
+c:911c4e34b99ac4ed120f5a8760249d2128099040
+i:step-cli=0.30.6-r0 zsh
 
 C:Q1NNheH6njIC7molR9kQGCjutU/kU=
 P:step-doc
