@@ -49699,7 +49699,8 @@
     "ffmpeg": {
       "origin": "ffmpeg",
       "versions": {
-        "8.1.1-r0": 1777884945
+        "8.1.1-r0": 1777884945,
+        "8.1.2-r0": 1782616783
       },
       "dependencies": [
         "so:libavcodec.so.62",
@@ -49713,72 +49714,76 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:ffmpeg=8.1.1-r0",
-        "cmd:ffprobe=8.1.1-r0",
-        "cmd:qt-faststart=8.1.1-r0"
+        "cmd:ffmpeg=8.1.2-r0",
+        "cmd:ffprobe=8.1.2-r0",
+        "cmd:qt-faststart=8.1.2-r0"
       ]
     },
     "ffmpeg-dbg": {
       "origin": "ffmpeg",
       "versions": {
-        "8.1.1-r0": 1777884945
+        "8.1.1-r0": 1777884945,
+        "8.1.2-r0": 1782616783
       },
       "dependencies": [
-        "!ffmpeg-libavcodec<8.1.1-r0",
-        "!ffmpeg-libavcodec>8.1.1-r0",
-        "!ffmpeg-libavdevice<8.1.1-r0",
-        "!ffmpeg-libavdevice>8.1.1-r0",
-        "!ffmpeg-libavfilter<8.1.1-r0",
-        "!ffmpeg-libavfilter>8.1.1-r0",
-        "!ffmpeg-libavformat<8.1.1-r0",
-        "!ffmpeg-libavformat>8.1.1-r0",
-        "!ffmpeg-libavutil<8.1.1-r0",
-        "!ffmpeg-libavutil>8.1.1-r0",
-        "!ffmpeg-libswresample<8.1.1-r0",
-        "!ffmpeg-libswresample>8.1.1-r0",
-        "!ffmpeg-libswscale<8.1.1-r0",
-        "!ffmpeg-libswscale>8.1.1-r0",
-        "!ffmpeg<8.1.1-r0",
-        "!ffmpeg>8.1.1-r0",
-        "!ffplay<8.1.1-r0",
-        "!ffplay>8.1.1-r0"
+        "!ffmpeg-libavcodec<8.1.2-r0",
+        "!ffmpeg-libavcodec>8.1.2-r0",
+        "!ffmpeg-libavdevice<8.1.2-r0",
+        "!ffmpeg-libavdevice>8.1.2-r0",
+        "!ffmpeg-libavfilter<8.1.2-r0",
+        "!ffmpeg-libavfilter>8.1.2-r0",
+        "!ffmpeg-libavformat<8.1.2-r0",
+        "!ffmpeg-libavformat>8.1.2-r0",
+        "!ffmpeg-libavutil<8.1.2-r0",
+        "!ffmpeg-libavutil>8.1.2-r0",
+        "!ffmpeg-libswresample<8.1.2-r0",
+        "!ffmpeg-libswresample>8.1.2-r0",
+        "!ffmpeg-libswscale<8.1.2-r0",
+        "!ffmpeg-libswscale>8.1.2-r0",
+        "!ffmpeg<8.1.2-r0",
+        "!ffmpeg>8.1.2-r0",
+        "!ffplay<8.1.2-r0",
+        "!ffplay>8.1.2-r0"
       ]
     },
     "ffmpeg-dev": {
       "origin": "ffmpeg",
       "versions": {
-        "8.1.1-r0": 1777884945
+        "8.1.1-r0": 1777884945,
+        "8.1.2-r0": 1782616783
       },
       "dependencies": [
-        "ffmpeg-libavcodec=8.1.1-r0",
-        "ffmpeg-libavdevice=8.1.1-r0",
-        "ffmpeg-libavfilter=8.1.1-r0",
-        "ffmpeg-libavformat=8.1.1-r0",
-        "ffmpeg-libavutil=8.1.1-r0",
-        "ffmpeg-libswresample=8.1.1-r0",
-        "ffmpeg-libswscale=8.1.1-r0",
+        "ffmpeg-libavcodec=8.1.2-r0",
+        "ffmpeg-libavdevice=8.1.2-r0",
+        "ffmpeg-libavfilter=8.1.2-r0",
+        "ffmpeg-libavformat=8.1.2-r0",
+        "ffmpeg-libavutil=8.1.2-r0",
+        "ffmpeg-libswresample=8.1.2-r0",
+        "ffmpeg-libswscale=8.1.2-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libavcodec=62.28.101",
-        "pc:libavdevice=62.3.101",
-        "pc:libavfilter=11.14.101",
-        "pc:libavformat=62.12.101",
-        "pc:libavutil=60.26.101",
-        "pc:libswresample=6.3.101",
-        "pc:libswscale=9.5.101"
+        "pc:libavcodec=62.28.102",
+        "pc:libavdevice=62.3.102",
+        "pc:libavfilter=11.14.102",
+        "pc:libavformat=62.12.102",
+        "pc:libavutil=60.26.102",
+        "pc:libswresample=6.3.102",
+        "pc:libswscale=9.5.102"
       ]
     },
     "ffmpeg-doc": {
       "origin": "ffmpeg",
       "versions": {
-        "8.1.1-r0": 1777884945
+        "8.1.1-r0": 1777884945,
+        "8.1.2-r0": 1782616783
       }
     },
     "ffmpeg-libavcodec": {
       "origin": "ffmpeg",
       "versions": {
-        "8.1.1-r0": 1777884945
+        "8.1.1-r0": 1777884945,
+        "8.1.2-r0": 1782616783
       },
       "dependencies": [
         "so:libSvtAv1Enc.so.4",
@@ -49806,13 +49811,14 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libavcodec.so.62=62.28.101"
+        "so:libavcodec.so.62=62.28.102"
       ]
     },
     "ffmpeg-libavdevice": {
       "origin": "ffmpeg",
       "versions": {
-        "8.1.1-r0": 1777884945
+        "8.1.1-r0": 1777884945,
+        "8.1.2-r0": 1782616783
       },
       "dependencies": [
         "so:libasound.so.2",
@@ -49830,13 +49836,14 @@
         "so:libxcb.so.1"
       ],
       "provides": [
-        "so:libavdevice.so.62=62.3.101"
+        "so:libavdevice.so.62=62.3.102"
       ]
     },
     "ffmpeg-libavfilter": {
       "origin": "ffmpeg",
       "versions": {
-        "8.1.1-r0": 1777884945
+        "8.1.1-r0": 1777884945,
+        "8.1.2-r0": 1782616783
       },
       "dependencies": [
         "so:libass.so.9",
@@ -49860,13 +49867,14 @@
         "so:libzmq.so.5"
       ],
       "provides": [
-        "so:libavfilter.so.11=11.14.101"
+        "so:libavfilter.so.11=11.14.102"
       ]
     },
     "ffmpeg-libavformat": {
       "origin": "ffmpeg",
       "versions": {
-        "8.1.1-r0": 1777884945
+        "8.1.1-r0": 1777884945,
+        "8.1.2-r0": 1782616783
       },
       "dependencies": [
         "so:libavcodec.so.62",
@@ -49887,13 +49895,14 @@
         "so:libzmq.so.5"
       ],
       "provides": [
-        "so:libavformat.so.62=62.12.101"
+        "so:libavformat.so.62=62.12.102"
       ]
     },
     "ffmpeg-libavutil": {
       "origin": "ffmpeg",
       "versions": {
-        "8.1.1-r0": 1777884945
+        "8.1.1-r0": 1777884945,
+        "8.1.2-r0": 1782616783
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -49907,28 +49916,30 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libavutil.so.60=60.26.101"
+        "so:libavutil.so.60=60.26.102"
       ]
     },
     "ffmpeg-libs": {
       "origin": "ffmpeg",
       "versions": {
-        "8.1.1-r0": 1777884945
+        "8.1.1-r0": 1777884945,
+        "8.1.2-r0": 1782616783
       },
       "dependencies": [
-        "ffmpeg-libavcodec=8.1.1-r0",
-        "ffmpeg-libavdevice=8.1.1-r0",
-        "ffmpeg-libavfilter=8.1.1-r0",
-        "ffmpeg-libavformat=8.1.1-r0",
-        "ffmpeg-libavutil=8.1.1-r0",
-        "ffmpeg-libswresample=8.1.1-r0",
-        "ffmpeg-libswscale=8.1.1-r0"
+        "ffmpeg-libavcodec=8.1.2-r0",
+        "ffmpeg-libavdevice=8.1.2-r0",
+        "ffmpeg-libavfilter=8.1.2-r0",
+        "ffmpeg-libavformat=8.1.2-r0",
+        "ffmpeg-libavutil=8.1.2-r0",
+        "ffmpeg-libswresample=8.1.2-r0",
+        "ffmpeg-libswscale=8.1.2-r0"
       ]
     },
     "ffmpeg-libswresample": {
       "origin": "ffmpeg",
       "versions": {
-        "8.1.1-r0": 1777884945
+        "8.1.1-r0": 1777884945,
+        "8.1.2-r0": 1782616783
       },
       "dependencies": [
         "so:libavutil.so.60",
@@ -49936,13 +49947,14 @@
         "so:libsoxr.so.0"
       ],
       "provides": [
-        "so:libswresample.so.6=6.3.101"
+        "so:libswresample.so.6=6.3.102"
       ]
     },
     "ffmpeg-libswscale": {
       "origin": "ffmpeg",
       "versions": {
-        "8.1.1-r0": 1777884945
+        "8.1.1-r0": 1777884945,
+        "8.1.2-r0": 1782616783
       },
       "dependencies": [
         "so:libavutil.so.60",
@@ -49951,7 +49963,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libswscale.so.9=9.5.101"
+        "so:libswscale.so.9=9.5.102"
       ]
     },
     "ffmpeg6": {
@@ -50572,7 +50584,8 @@
     "ffplay": {
       "origin": "ffmpeg",
       "versions": {
-        "8.1.1-r0": 1777884945
+        "8.1.1-r0": 1777884945,
+        "8.1.2-r0": 1782616783
       },
       "dependencies": [
         "so:libSDL2-2.0.so.0",
@@ -50587,7 +50600,7 @@
         "so:libswscale.so.9"
       ],
       "provides": [
-        "cmd:ffplay=8.1.1-r0"
+        "cmd:ffplay=8.1.2-r0"
       ]
     },
     "ffuf": {
@@ -315064,31 +315077,31 @@
       },
       "libavcodec.so.62": {
         "package": "ffmpeg-libavcodec",
-        "version": "62.28.101"
+        "version": "62.28.102"
       },
       "libavdevice.so.62": {
         "package": "ffmpeg-libavdevice",
-        "version": "62.3.101"
+        "version": "62.3.102"
       },
       "libavfilter.so.11": {
         "package": "ffmpeg-libavfilter",
-        "version": "11.14.101"
+        "version": "11.14.102"
       },
       "libavformat.so.62": {
         "package": "ffmpeg-libavformat",
-        "version": "62.12.101"
+        "version": "62.12.102"
       },
       "libavutil.so.60": {
         "package": "ffmpeg-libavutil",
-        "version": "60.26.101"
+        "version": "60.26.102"
       },
       "libswresample.so.6": {
         "package": "ffmpeg-libswresample",
-        "version": "6.3.101"
+        "version": "6.3.102"
       },
       "libswscale.so.9": {
         "package": "ffmpeg-libswscale",
-        "version": "9.5.101"
+        "version": "9.5.102"
       },
       "libavcodec.so.60": {
         "package": "ffmpeg6-libavcodec",
