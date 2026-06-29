@@ -50126,7 +50126,8 @@
       "origin": "freerdp",
       "versions": {
         "3.25.0-r0": 1777564725,
-        "3.26.0-r0": 1778817244
+        "3.26.0-r0": 1778817244,
+        "3.27.1-r0": 1782738809
       },
       "dependencies": [
         "so:libSDL3.so.0",
@@ -50154,50 +50155,53 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "freerdp-plugins=3.26.0-r0",
-        "cmd:freerdp-proxy3=3.26.0-r0",
-        "cmd:freerdp-shadow-cli3=3.26.0-r0",
-        "cmd:sdl-freerdp3=3.26.0-r0",
-        "cmd:sfreerdp-server3=3.26.0-r0",
-        "cmd:sfreerdp3=3.26.0-r0",
-        "cmd:winpr-hash3=3.26.0-r0",
-        "cmd:winpr-makecert3=3.26.0-r0",
-        "cmd:wlfreerdp3=3.26.0-r0",
-        "cmd:xfreerdp3=3.26.0-r0"
+        "freerdp-plugins=3.27.1-r0",
+        "cmd:freerdp-proxy3=3.27.1-r0",
+        "cmd:freerdp-shadow-cli3=3.27.1-r0",
+        "cmd:sdl-freerdp3=3.27.1-r0",
+        "cmd:sfreerdp-server3=3.27.1-r0",
+        "cmd:sfreerdp3=3.27.1-r0",
+        "cmd:winpr-hash3=3.27.1-r0",
+        "cmd:winpr-makecert3=3.27.1-r0",
+        "cmd:wlfreerdp3=3.27.1-r0",
+        "cmd:xfreerdp3=3.27.1-r0"
       ]
     },
     "freerdp-dev": {
       "origin": "freerdp",
       "versions": {
         "3.25.0-r0": 1777564725,
-        "3.26.0-r0": 1778817244
+        "3.26.0-r0": 1778817244,
+        "3.27.1-r0": 1782738809
       },
       "dependencies": [
-        "freerdp-libs=3.26.0-r0",
+        "freerdp-libs=3.27.1-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:freerdp-client3=3.26.0",
-        "pc:freerdp-server-proxy3=3.26.0",
-        "pc:freerdp-server3=3.26.0",
-        "pc:freerdp-shadow3=3.26.0",
-        "pc:freerdp3=3.26.0",
-        "pc:winpr-tools3=3.26.0",
-        "pc:winpr3=3.26.0"
+        "pc:freerdp-client3=3.27.1",
+        "pc:freerdp-server-proxy3=3.27.1",
+        "pc:freerdp-server3=3.27.1",
+        "pc:freerdp-shadow3=3.27.1",
+        "pc:freerdp3=3.27.1",
+        "pc:winpr-tools3=3.27.1",
+        "pc:winpr3=3.27.1"
       ]
     },
     "freerdp-doc": {
       "origin": "freerdp",
       "versions": {
         "3.25.0-r0": 1777564725,
-        "3.26.0-r0": 1778817244
+        "3.26.0-r0": 1778817244,
+        "3.27.1-r0": 1782738809
       }
     },
     "freerdp-libs": {
       "origin": "freerdp",
       "versions": {
         "3.25.0-r0": 1777564725,
-        "3.26.0-r0": 1778817244
+        "3.26.0-r0": 1778817244,
+        "3.27.1-r0": 1782738809
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -50229,14 +50233,14 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libfreerdp-client3.so.3=3.26.0",
-        "so:libfreerdp-server-proxy3.so.3=3.26.0",
-        "so:libfreerdp-server3.so.3=3.26.0",
-        "so:libfreerdp-shadow-subsystem3.so.3=3.26.0",
-        "so:libfreerdp-shadow3.so.3=3.26.0",
-        "so:libfreerdp3.so.3=3.26.0",
-        "so:libwinpr-tools3.so.3=3.26.0",
-        "so:libwinpr3.so.3=3.26.0"
+        "so:libfreerdp-client3.so.3=3.27.1",
+        "so:libfreerdp-server-proxy3.so.3=3.27.1",
+        "so:libfreerdp-server3.so.3=3.27.1",
+        "so:libfreerdp-shadow-subsystem3.so.3=3.27.1",
+        "so:libfreerdp-shadow3.so.3=3.27.1",
+        "so:libfreerdp3.so.3=3.27.1",
+        "so:libwinpr-tools3.so.3=3.27.1",
+        "so:libwinpr3.so.3=3.27.1"
       ]
     },
     "freerdp2": {
@@ -85280,10 +85284,11 @@
         "6.18.33-r0": 1779643356,
         "6.18.34-r0": 1780465816,
         "6.18.35-r0": 1781008487,
-        "6.18.36-r0": 1782233118
+        "6.18.36-r0": 1782233118,
+        "6.18.37-r0": 1782730345
       },
       "dependencies": [
-        "linux-lts=6.18.36-r0"
+        "linux-lts=6.18.37-r0"
       ]
     },
     "jool-modules-virt": {
@@ -85297,10 +85302,11 @@
         "6.18.33-r0": 1779643356,
         "6.18.34-r0": 1780465816,
         "6.18.35-r0": 1781008487,
-        "6.18.36-r0": 1782233118
+        "6.18.36-r0": 1782233118,
+        "6.18.37-r0": 1782730345
       },
       "dependencies": [
-        "linux-virt=6.18.36-r0"
+        "linux-virt=6.18.37-r0"
       ]
     },
     "jool-tools": {
@@ -251453,7 +251459,8 @@
         "6.18.33-r0": 1779643356,
         "6.18.34-r0": 1780465816,
         "6.18.35-r0": 1781008487,
-        "6.18.36-r0": 1782233118
+        "6.18.36-r0": 1782233118,
+        "6.18.37-r0": 1782730345
       }
     },
     "rtpengine-openrc": {
@@ -251497,10 +251504,11 @@
         "6.18.33-r0": 1779643356,
         "6.18.34-r0": 1780465816,
         "6.18.35-r0": 1781008487,
-        "6.18.36-r0": 1782233118
+        "6.18.36-r0": 1782233118,
+        "6.18.37-r0": 1782730345
       },
       "dependencies": [
-        "linux-virt=6.18.36-r0"
+        "linux-virt=6.18.37-r0"
       ]
     },
     "rtrlib": {
@@ -272343,7 +272351,8 @@
       "versions": {
         "0.4.9.8-r0": 1778192843,
         "0.4.9.9-r0": 1780363103,
-        "0.4.9.10-r0": 1782297437
+        "0.4.9.10-r0": 1782297437,
+        "0.4.9.11-r0": 1782739162
       },
       "dependencies": [
         "/bin/sh",
@@ -272358,11 +272367,11 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:tor-gencert=0.4.9.10-r0",
-        "cmd:tor-print-ed-signing-cert=0.4.9.10-r0",
-        "cmd:tor-resolve=0.4.9.10-r0",
-        "cmd:tor=0.4.9.10-r0",
-        "cmd:torify=0.4.9.10-r0"
+        "cmd:tor-gencert=0.4.9.11-r0",
+        "cmd:tor-print-ed-signing-cert=0.4.9.11-r0",
+        "cmd:tor-resolve=0.4.9.11-r0",
+        "cmd:tor=0.4.9.11-r0",
+        "cmd:torify=0.4.9.11-r0"
       ]
     },
     "tor-doc": {
@@ -272370,7 +272379,8 @@
       "versions": {
         "0.4.9.8-r0": 1778192843,
         "0.4.9.9-r0": 1780363103,
-        "0.4.9.10-r0": 1782297437
+        "0.4.9.10-r0": 1782297437,
+        "0.4.9.11-r0": 1782739162
       }
     },
     "tor-openrc": {
@@ -272378,7 +272388,8 @@
       "versions": {
         "0.4.9.8-r0": 1778192843,
         "0.4.9.9-r0": 1780363103,
-        "0.4.9.10-r0": 1782297437
+        "0.4.9.10-r0": 1782297437,
+        "0.4.9.11-r0": 1782739162
       }
     },
     "torsocks": {
@@ -279532,10 +279543,11 @@
         "6.18.33-r0": 1779643356,
         "6.18.34-r0": 1780465816,
         "6.18.35-r0": 1781008487,
-        "6.18.36-r0": 1782233118
+        "6.18.36-r0": 1782233118,
+        "6.18.37-r0": 1782730346
       },
       "dependencies": [
-        "linux-lts=6.18.36-r0"
+        "linux-lts=6.18.37-r0"
       ]
     },
     "virtio_vmmci-virt": {
@@ -279549,10 +279561,11 @@
         "6.18.33-r0": 1779643356,
         "6.18.34-r0": 1780465816,
         "6.18.35-r0": 1781008487,
-        "6.18.36-r0": 1782233118
+        "6.18.36-r0": 1782233118,
+        "6.18.37-r0": 1782730346
       },
       "dependencies": [
-        "linux-virt=6.18.36-r0"
+        "linux-virt=6.18.37-r0"
       ]
     },
     "virtualbox-guest-additions": {
@@ -279899,10 +279912,11 @@
         "6.18.33-r0": 1779643356,
         "6.18.34-r0": 1780465816,
         "6.18.35-r0": 1781008487,
-        "6.18.36-r0": 1782233118
+        "6.18.36-r0": 1782233118,
+        "6.18.37-r0": 1782730346
       },
       "dependencies": [
-        "linux-lts=6.18.36-r0"
+        "linux-lts=6.18.37-r0"
       ]
     },
     "vmm_clock-virt": {
@@ -279916,10 +279930,11 @@
         "6.18.33-r0": 1779643356,
         "6.18.34-r0": 1780465816,
         "6.18.35-r0": 1781008487,
-        "6.18.36-r0": 1782233118
+        "6.18.36-r0": 1782233118,
+        "6.18.37-r0": 1782730346
       },
       "dependencies": [
-        "linux-virt=6.18.36-r0"
+        "linux-virt=6.18.37-r0"
       ]
     },
     "vnstat": {
@@ -301481,35 +301496,35 @@
       },
       "libfreerdp-client3.so.3": {
         "package": "freerdp-libs",
-        "version": "3.26.0"
+        "version": "3.27.1"
       },
       "libfreerdp-server-proxy3.so.3": {
         "package": "freerdp-libs",
-        "version": "3.26.0"
+        "version": "3.27.1"
       },
       "libfreerdp-server3.so.3": {
         "package": "freerdp-libs",
-        "version": "3.26.0"
+        "version": "3.27.1"
       },
       "libfreerdp-shadow-subsystem3.so.3": {
         "package": "freerdp-libs",
-        "version": "3.26.0"
+        "version": "3.27.1"
       },
       "libfreerdp-shadow3.so.3": {
         "package": "freerdp-libs",
-        "version": "3.26.0"
+        "version": "3.27.1"
       },
       "libfreerdp3.so.3": {
         "package": "freerdp-libs",
-        "version": "3.26.0"
+        "version": "3.27.1"
       },
       "libwinpr-tools3.so.3": {
         "package": "freerdp-libs",
-        "version": "3.26.0"
+        "version": "3.27.1"
       },
       "libwinpr3.so.3": {
         "package": "freerdp-libs",
-        "version": "3.26.0"
+        "version": "3.27.1"
       },
       "libainput-client.so": {
         "package": "freerdp2-libs",
