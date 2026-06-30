@@ -4274,7 +4274,8 @@
     "archlinux-keyring": {
       "origin": "archlinux-keyring",
       "versions": {
-        "20260420-r0": 1776861447
+        "20260420-r0": 1776861447,
+        "20260612-r0": 1782819482
       }
     },
     "arcticons-icon-theme": {
@@ -39117,7 +39118,8 @@
     "eog": {
       "origin": "eog",
       "versions": {
-        "50.1-r0": 1776005328
+        "50.1-r0": 1776005328,
+        "50.2-r0": 1782819482
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -39146,14 +39148,15 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:eog=50.1-r0",
+        "cmd:eog=50.2-r0",
         "so:libeog.so=0"
       ]
     },
     "eog-dev": {
       "origin": "eog",
       "versions": {
-        "50.1-r0": 1776005328
+        "50.1-r0": 1776005328,
+        "50.2-r0": 1782819482
       },
       "dependencies": [
         "exempi-dev",
@@ -39170,19 +39173,21 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:eog=50.1"
+        "pc:eog=50.2"
       ]
     },
     "eog-doc": {
       "origin": "eog",
       "versions": {
-        "50.1-r0": 1776005328
+        "50.1-r0": 1776005328,
+        "50.2-r0": 1782819482
       }
     },
     "eog-lang": {
       "origin": "eog",
       "versions": {
-        "50.1-r0": 1776005328
+        "50.1-r0": 1776005328,
+        "50.2-r0": 1782819482
       }
     },
     "eom": {
@@ -47906,7 +47911,8 @@
       "origin": "forgejo-lts",
       "versions": {
         "11.0.13-r0": 1777471633,
-        "11.0.14-r0": 1778692755
+        "11.0.14-r0": 1778692755,
+        "11.0.15-r0": 1782819353
       },
       "dependencies": [
         "git",
@@ -47916,21 +47922,23 @@
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:forgejo=11.0.14-r0"
+        "cmd:forgejo=11.0.15-r0"
       ]
     },
     "forgejo-lts-openrc": {
       "origin": "forgejo-lts",
       "versions": {
         "11.0.13-r0": 1777471633,
-        "11.0.14-r0": 1778692755
+        "11.0.14-r0": 1778692755,
+        "11.0.15-r0": 1782819353
       }
     },
     "forgejo-lts-systemd": {
       "origin": "forgejo-lts",
       "versions": {
         "11.0.13-r0": 1777471633,
-        "11.0.14-r0": 1778692755
+        "11.0.14-r0": 1778692755,
+        "11.0.15-r0": 1782819353
       }
     },
     "forgejo-openrc": {
@@ -52486,7 +52494,8 @@
     "gdk-pixbuf": {
       "origin": "gdk-pixbuf",
       "versions": {
-        "2.44.6-r0": 1775378632
+        "2.44.6-r0": 1775378632,
+        "2.44.7-r0": 1782819482
       },
       "dependencies": [
         "shared-mime-info",
@@ -52500,29 +52509,31 @@
         "so:libintl.so.8"
       ],
       "provides": [
-        "cmd:gdk-pixbuf-csource=2.44.6-r0",
-        "cmd:gdk-pixbuf-pixdata=2.44.6-r0",
-        "cmd:gdk-pixbuf-query-loaders=2.44.6-r0",
-        "so:libgdk_pixbuf-2.0.so.0=0.4400.6"
+        "cmd:gdk-pixbuf-csource=2.44.7-r0",
+        "cmd:gdk-pixbuf-pixdata=2.44.7-r0",
+        "cmd:gdk-pixbuf-query-loaders=2.44.7-r0",
+        "so:libgdk_pixbuf-2.0.so.0=0.4400.7"
       ]
     },
     "gdk-pixbuf-dbg": {
       "origin": "gdk-pixbuf",
       "versions": {
-        "2.44.6-r0": 1775378632
+        "2.44.6-r0": 1775378632,
+        "2.44.7-r0": 1782819482
       },
       "dependencies": [
-        "!gdk-pixbuf<2.44.6-r0",
-        "!gdk-pixbuf>2.44.6-r0"
+        "!gdk-pixbuf<2.44.7-r0",
+        "!gdk-pixbuf>2.44.7-r0"
       ]
     },
     "gdk-pixbuf-dev": {
       "origin": "gdk-pixbuf",
       "versions": {
-        "2.44.6-r0": 1775378632
+        "2.44.6-r0": 1775378632,
+        "2.44.7-r0": 1782819482
       },
       "dependencies": [
-        "gdk-pixbuf=2.44.6-r0",
+        "gdk-pixbuf=2.44.7-r0",
         "pc:gio-2.0>=2.56.0",
         "pc:glib-2.0>=2.56.0",
         "pc:glycin-2>=2.0.1",
@@ -52532,25 +52543,28 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:gdk-pixbuf-2.0=2.44.6"
+        "pc:gdk-pixbuf-2.0=2.44.7"
       ]
     },
     "gdk-pixbuf-doc": {
       "origin": "gdk-pixbuf",
       "versions": {
-        "2.44.6-r0": 1775378632
+        "2.44.6-r0": 1775378632,
+        "2.44.7-r0": 1782819482
       }
     },
     "gdk-pixbuf-lang": {
       "origin": "gdk-pixbuf",
       "versions": {
-        "2.44.6-r0": 1775378632
+        "2.44.6-r0": 1775378632,
+        "2.44.7-r0": 1782819482
       }
     },
     "gdk-pixbuf-loaders": {
       "origin": "gdk-pixbuf",
       "versions": {
-        "2.44.6-r0": 1775378632
+        "2.44.6-r0": 1775378632,
+        "2.44.7-r0": 1782819482
       },
       "dependencies": [
         "shared-mime-info"
@@ -53981,7 +53995,8 @@
     "gexiv2-0.16": {
       "origin": "gexiv2-0.16",
       "versions": {
-        "0.16.0-r1": 1774836649
+        "0.16.0-r1": 1774836649,
+        "0.16.1-r0": 1782819482
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -53993,16 +54008,17 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libgexiv2-0.16.so.4=4.16.0"
+        "so:libgexiv2-0.16.so.4=4.16.1"
       ]
     },
     "gexiv2-0.16-dev": {
       "origin": "gexiv2-0.16",
       "versions": {
-        "0.16.0-r1": 1774836649
+        "0.16.0-r1": 1774836649,
+        "0.16.1-r0": 1782819482
       },
       "dependencies": [
-        "gexiv2-0.16=0.16.0-r1",
+        "gexiv2-0.16=0.16.1-r0",
         "pc:exiv2>=0.28",
         "pc:gio-2.0>=2.46.0",
         "pc:glib-2.0",
@@ -54010,13 +54026,14 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:gexiv2-0.16=0.16.0"
+        "pc:gexiv2-0.16=0.16.1"
       ]
     },
     "gexiv2-0.16-doc": {
       "origin": "gexiv2-0.16",
       "versions": {
-        "0.16.0-r1": 1774836649
+        "0.16.0-r1": 1774836649,
+        "0.16.1-r0": 1782819482
       }
     },
     "gexiv2-dev": {
@@ -55322,7 +55339,8 @@
       "origin": "gjs",
       "versions": {
         "1.88.0-r0": 1773501323,
-        "1.88.0-r1": 1780214736
+        "1.88.0-r1": 1780214736,
+        "1.88.1-r0": 1782819482
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -55339,8 +55357,8 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:gjs-console=1.88.0-r1",
-        "cmd:gjs=1.88.0-r1",
+        "cmd:gjs-console=1.88.1-r0",
+        "cmd:gjs=1.88.1-r0",
         "so:libgjs.so.0=0.0.0"
       ]
     },
@@ -55348,21 +55366,23 @@
       "origin": "gjs",
       "versions": {
         "1.88.0-r0": 1773501323,
-        "1.88.0-r1": 1780214736
+        "1.88.0-r1": 1780214736,
+        "1.88.1-r0": 1782819482
       },
       "dependencies": [
-        "!gjs<1.88.0-r1",
-        "!gjs>1.88.0-r1"
+        "!gjs<1.88.1-r0",
+        "!gjs>1.88.1-r0"
       ]
     },
     "gjs-dev": {
       "origin": "gjs",
       "versions": {
         "1.88.0-r0": 1773501323,
-        "1.88.0-r1": 1780214736
+        "1.88.0-r1": 1780214736,
+        "1.88.1-r0": 1782819482
       },
       "dependencies": [
-        "gjs=1.88.0-r1",
+        "gjs=1.88.1-r0",
         "pc:cairo",
         "pc:cairo-gobject",
         "pc:cairo-xlib",
@@ -55376,7 +55396,7 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:gjs-1.0=1.88.0"
+        "pc:gjs-1.0=1.88.1"
       ]
     },
     "gkraken": {
@@ -55877,16 +55897,18 @@
     "glycin": {
       "origin": "glycin",
       "versions": {
-        "2.1.0-r0": 1773416120
+        "2.1.0-r0": 1773416120,
+        "2.1.5-r0": 1782819483
       },
       "provides": [
-        "glycin-loaders=2.1.0-r0"
+        "glycin-loaders=2.1.5-r0"
       ]
     },
     "glycin-heif": {
       "origin": "glycin",
       "versions": {
-        "2.1.0-r0": 1773416120
+        "2.1.0-r0": 1773416120,
+        "2.1.5-r0": 1782819483
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -55898,7 +55920,8 @@
     "glycin-image-rs": {
       "origin": "glycin",
       "versions": {
-        "2.1.0-r0": 1773416120
+        "2.1.0-r0": 1773416120,
+        "2.1.5-r0": 1782819483
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -55909,7 +55932,8 @@
     "glycin-jxl": {
       "origin": "glycin",
       "versions": {
-        "2.1.0-r0": 1773416120
+        "2.1.0-r0": 1773416120,
+        "2.1.5-r0": 1782819483
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -55922,7 +55946,8 @@
     "glycin-loaders-all": {
       "origin": "glycin",
       "versions": {
-        "2.1.0-r0": 1773416120
+        "2.1.0-r0": 1773416120,
+        "2.1.5-r0": 1782819483
       },
       "dependencies": [
         "glycin-heif",
@@ -55934,7 +55959,8 @@
     "glycin-svg": {
       "origin": "glycin",
       "versions": {
-        "2.1.0-r0": 1773416120
+        "2.1.0-r0": 1773416120,
+        "2.1.5-r0": 1782819483
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -55951,7 +55977,8 @@
     "glycin-thumbnailer": {
       "origin": "glycin",
       "versions": {
-        "2.1.0-r0": 1773416120
+        "2.1.0-r0": 1773416120,
+        "2.1.5-r0": 1782819483
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -55962,7 +55989,7 @@
         "so:libgobject-2.0.so.0"
       ],
       "provides": [
-        "cmd:glycin-thumbnailer=2.1.0-r0"
+        "cmd:glycin-thumbnailer=2.1.5-r0"
       ]
     },
     "gmime": {
@@ -56100,7 +56127,8 @@
       "origin": "gmobile",
       "versions": {
         "0.7.0-r0": 1774727688,
-        "0.7.1-r0": 1778412757
+        "0.7.1-r0": 1778412757,
+        "0.7.2-r0": 1782819483
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -56117,37 +56145,40 @@
       "origin": "gmobile",
       "versions": {
         "0.7.0-r0": 1774727688,
-        "0.7.1-r0": 1778412757
+        "0.7.1-r0": 1778412757,
+        "0.7.2-r0": 1782819483
       },
       "dependencies": [
-        "!gmobile-examples<0.7.1-r0",
-        "!gmobile-examples>0.7.1-r0",
-        "!gmobile<0.7.1-r0",
-        "!gmobile>0.7.1-r0"
+        "!gmobile-examples<0.7.2-r0",
+        "!gmobile-examples>0.7.2-r0",
+        "!gmobile<0.7.2-r0",
+        "!gmobile>0.7.2-r0"
       ]
     },
     "gmobile-dev": {
       "origin": "gmobile",
       "versions": {
         "0.7.0-r0": 1774727688,
-        "0.7.1-r0": 1778412757
+        "0.7.1-r0": 1778412757,
+        "0.7.2-r0": 1782819483
       },
       "dependencies": [
-        "gmobile=0.7.1-r0",
+        "gmobile=0.7.2-r0",
         "pc:gio-2.0>=2.78",
         "pc:glib-2.0>=2.78",
         "pc:json-glib-1.0>=1.6.2",
         "pkgconfig"
       ],
       "provides": [
-        "pc:gmobile=0.7.1"
+        "pc:gmobile=0.7.2"
       ]
     },
     "gmobile-examples": {
       "origin": "gmobile",
       "versions": {
         "0.7.0-r0": 1774727688,
-        "0.7.1-r0": 1778412757
+        "0.7.1-r0": 1778412757,
+        "0.7.2-r0": 1782819483
       },
       "dependencies": [
         "phoc",
@@ -56159,16 +56190,17 @@
         "so:libgobject-2.0.so.0"
       ],
       "provides": [
-        "cmd:gm-display-panel-preview=0.7.1-r0",
-        "cmd:gm-display-panel-run-phosh=0.7.1-r0",
-        "cmd:gm-timeout=0.7.1-r0"
+        "cmd:gm-display-panel-preview=0.7.2-r0",
+        "cmd:gm-display-panel-run-phosh=0.7.2-r0",
+        "cmd:gm-timeout=0.7.2-r0"
       ]
     },
     "gmobile-udev": {
       "origin": "gmobile",
       "versions": {
         "0.7.0-r0": 1774727688,
-        "0.7.1-r0": 1778412757
+        "0.7.1-r0": 1778412757,
+        "0.7.2-r0": 1782819483
       }
     },
     "gn": {
@@ -56941,7 +56973,8 @@
       "origin": "gnome-control-center",
       "versions": {
         "50.1-r0": 1776257328,
-        "50.2-r0": 1780144184
+        "50.2-r0": 1780144184,
+        "50.3-r0": 1782819483
       },
       "dependencies": [
         "accountsservice",
@@ -56999,52 +57032,57 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:gnome-control-center=50.2-r0"
+        "cmd:gnome-control-center=50.3-r0"
       ]
     },
     "gnome-control-center-bash-completion": {
       "origin": "gnome-control-center",
       "versions": {
         "50.1-r0": 1776257328,
-        "50.2-r0": 1780144184
+        "50.2-r0": 1780144184,
+        "50.3-r0": 1782819483
       }
     },
     "gnome-control-center-dbg": {
       "origin": "gnome-control-center",
       "versions": {
         "50.1-r0": 1776257328,
-        "50.2-r0": 1780144184
+        "50.2-r0": 1780144184,
+        "50.3-r0": 1782819483
       },
       "dependencies": [
-        "!gnome-control-center<50.2-r0",
-        "!gnome-control-center>50.2-r0"
+        "!gnome-control-center<50.3-r0",
+        "!gnome-control-center>50.3-r0"
       ]
     },
     "gnome-control-center-dev": {
       "origin": "gnome-control-center",
       "versions": {
         "50.1-r0": 1776257328,
-        "50.2-r0": 1780144184
+        "50.2-r0": 1780144184,
+        "50.3-r0": 1782819483
       },
       "dependencies": [
         "pkgconfig"
       ],
       "provides": [
-        "pc:gnome-keybindings=50.2"
+        "pc:gnome-keybindings=50.3"
       ]
     },
     "gnome-control-center-doc": {
       "origin": "gnome-control-center",
       "versions": {
         "50.1-r0": 1776257328,
-        "50.2-r0": 1780144184
+        "50.2-r0": 1780144184,
+        "50.3-r0": 1782819483
       }
     },
     "gnome-control-center-lang": {
       "origin": "gnome-control-center",
       "versions": {
         "50.1-r0": 1776257328,
-        "50.2-r0": 1780144184
+        "50.2-r0": 1780144184,
+        "50.3-r0": 1782819483
       }
     },
     "gnome-desktop": {
@@ -57203,14 +57241,15 @@
       "origin": "gnome-shell",
       "versions": {
         "50.1-r0": 1776257329,
-        "50.2-r0": 1780144184
+        "50.2-r0": 1780144184,
+        "50.3-r0": 1782819483
       },
       "dependencies": [
         "gnome-shell",
         "libadwaita"
       ],
       "provides": [
-        "cmd:gnome-extensions-app=50.2-r0"
+        "cmd:gnome-extensions-app=50.3-r0"
       ]
     },
     "gnome-feeds": {
@@ -57476,7 +57515,8 @@
     "gnome-maps": {
       "origin": "gnome-maps",
       "versions": {
-        "50.1-r0": 1776257328
+        "50.1-r0": 1776257328,
+        "50.2-r0": 1782819483
       },
       "dependencies": [
         "geoclue",
@@ -57499,13 +57539,14 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:gnome-maps=50.1-r0"
+        "cmd:gnome-maps=50.2-r0"
       ]
     },
     "gnome-maps-lang": {
       "origin": "gnome-maps",
       "versions": {
-        "50.1-r0": 1776257328
+        "50.1-r0": 1776257328,
+        "50.2-r0": 1782819483
       }
     },
     "gnome-menus": {
@@ -58076,7 +58117,8 @@
       "origin": "gnome-shell",
       "versions": {
         "50.1-r0": 1776257329,
-        "50.2-r0": 1780144184
+        "50.2-r0": 1780144184,
+        "50.3-r0": 1782819483
       },
       "dependencies": [
         "accountsservice",
@@ -58136,10 +58178,10 @@
         "so:libsoup-3.0.so.0"
       ],
       "provides": [
-        "cmd:gnome-extensions=50.2-r0",
-        "cmd:gnome-shell-extension-tool=50.2-r0",
-        "cmd:gnome-shell-test-tool=50.2-r0",
-        "cmd:gnome-shell=50.2-r0",
+        "cmd:gnome-extensions=50.3-r0",
+        "cmd:gnome-shell-extension-tool=50.3-r0",
+        "cmd:gnome-shell-test-tool=50.3-r0",
+        "cmd:gnome-shell=50.3-r0",
         "so:libgnome-shell-menu.so=0",
         "so:libgvc.so=0",
         "so:libshell-18.so=0",
@@ -58151,18 +58193,20 @@
       "origin": "gnome-shell",
       "versions": {
         "50.1-r0": 1776257329,
-        "50.2-r0": 1780144184
+        "50.2-r0": 1780144184,
+        "50.3-r0": 1782819483
       },
       "dependencies": [
-        "!gnome-shell<50.2-r0",
-        "!gnome-shell>50.2-r0"
+        "!gnome-shell<50.3-r0",
+        "!gnome-shell>50.3-r0"
       ]
     },
     "gnome-shell-doc": {
       "origin": "gnome-shell",
       "versions": {
         "50.1-r0": 1776257329,
-        "50.2-r0": 1780144184
+        "50.2-r0": 1780144184,
+        "50.3-r0": 1782819483
       }
     },
     "gnome-shell-extensions": {
@@ -58194,14 +58238,16 @@
       "origin": "gnome-shell",
       "versions": {
         "50.1-r0": 1776257329,
-        "50.2-r0": 1780144184
+        "50.2-r0": 1780144184,
+        "50.3-r0": 1782819483
       }
     },
     "gnome-shell-schemas": {
       "origin": "gnome-shell",
       "versions": {
         "50.1-r0": 1776257329,
-        "50.2-r0": 1780144184
+        "50.2-r0": 1780144184,
+        "50.3-r0": 1782819483
       }
     },
     "gnome-shell-session": {
@@ -58257,7 +58303,8 @@
       "origin": "gnome-software",
       "versions": {
         "50.1-r0": 1776161606,
-        "50.2-r0": 1779530331
+        "50.2-r0": 1779530331,
+        "50.3-r0": 1782819483
       },
       "dependencies": [
         "gnome-app-list",
@@ -58280,41 +58327,44 @@
         "so:libxmlb.so.2"
       ],
       "provides": [
-        "cmd:gnome-software=50.2-r0"
+        "cmd:gnome-software=50.3-r0"
       ]
     },
     "gnome-software-bash-completion": {
       "origin": "gnome-software",
       "versions": {
         "50.1-r0": 1776161606,
-        "50.2-r0": 1779530331
+        "50.2-r0": 1779530331,
+        "50.3-r0": 1782819483
       }
     },
     "gnome-software-dbg": {
       "origin": "gnome-software",
       "versions": {
         "50.1-r0": 1776161606,
-        "50.2-r0": 1779530331
+        "50.2-r0": 1779530331,
+        "50.3-r0": 1782819483
       },
       "dependencies": [
-        "!gnome-software-lib<50.2-r0",
-        "!gnome-software-lib>50.2-r0",
-        "!gnome-software-plugin-flatpak<50.2-r0",
-        "!gnome-software-plugin-flatpak>50.2-r0",
-        "!gnome-software-plugin-sysupdate<50.2-r0",
-        "!gnome-software-plugin-sysupdate>50.2-r0",
-        "!gnome-software<50.2-r0",
-        "!gnome-software>50.2-r0"
+        "!gnome-software-lib<50.3-r0",
+        "!gnome-software-lib>50.3-r0",
+        "!gnome-software-plugin-flatpak<50.3-r0",
+        "!gnome-software-plugin-flatpak>50.3-r0",
+        "!gnome-software-plugin-sysupdate<50.3-r0",
+        "!gnome-software-plugin-sysupdate>50.3-r0",
+        "!gnome-software<50.3-r0",
+        "!gnome-software>50.3-r0"
       ]
     },
     "gnome-software-dev": {
       "origin": "gnome-software",
       "versions": {
         "50.1-r0": 1776161606,
-        "50.2-r0": 1779530331
+        "50.2-r0": 1779530331,
+        "50.3-r0": 1782819483
       },
       "dependencies": [
-        "gnome-software-lib=50.2-r0",
+        "gnome-software-lib=50.3-r0",
         "pc:appstream>=0.16.4",
         "pc:gio-unix-2.0>=2.56.0",
         "pc:glib-2.0>=2.76.0",
@@ -58327,28 +58377,31 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:gnome-software=50.2"
+        "pc:gnome-software=50.3"
       ]
     },
     "gnome-software-doc": {
       "origin": "gnome-software",
       "versions": {
         "50.1-r0": 1776161606,
-        "50.2-r0": 1779530331
+        "50.2-r0": 1779530331,
+        "50.3-r0": 1782819483
       }
     },
     "gnome-software-lang": {
       "origin": "gnome-software",
       "versions": {
         "50.1-r0": 1776161606,
-        "50.2-r0": 1779530331
+        "50.2-r0": 1779530331,
+        "50.3-r0": 1782819483
       }
     },
     "gnome-software-lib": {
       "origin": "gnome-software",
       "versions": {
         "50.1-r0": 1776161606,
-        "50.2-r0": 1779530331
+        "50.2-r0": 1779530331,
+        "50.3-r0": 1782819483
       },
       "dependencies": [
         "so:libappstream.so.5",
@@ -58401,7 +58454,8 @@
       "origin": "gnome-software",
       "versions": {
         "50.1-r0": 1776161606,
-        "50.2-r0": 1779530331
+        "50.2-r0": 1779530331,
+        "50.3-r0": 1782819483
       },
       "dependencies": [
         "so:libappstream.so.5",
@@ -58420,7 +58474,8 @@
       "origin": "gnome-software",
       "versions": {
         "50.1-r0": 1776161606,
-        "50.2-r0": 1779530331
+        "50.2-r0": 1779530331,
+        "50.3-r0": 1782819483
       },
       "dependencies": [
         "so:libappstream.so.5",
@@ -58437,7 +58492,8 @@
       "origin": "gnome-software",
       "versions": {
         "50.1-r0": 1776161606,
-        "50.2-r0": 1779530331
+        "50.2-r0": 1779530331,
+        "50.3-r0": 1782819483
       }
     },
     "gnome-sound-recorder": {
@@ -58466,7 +58522,8 @@
       "origin": "gnome-sudoku",
       "versions": {
         "50.0-r0": 1773423132,
-        "50.1-r0": 1779707056
+        "50.1-r0": 1779707056,
+        "50.2.1-r0": 1782819483
       },
       "dependencies": [
         "so:libadwaita-1.so.0",
@@ -58485,21 +58542,23 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:gnome-sudoku=50.1-r0"
+        "cmd:gnome-sudoku=50.2.1-r0"
       ]
     },
     "gnome-sudoku-doc": {
       "origin": "gnome-sudoku",
       "versions": {
         "50.0-r0": 1773423132,
-        "50.1-r0": 1779707056
+        "50.1-r0": 1779707056,
+        "50.2.1-r0": 1782819483
       }
     },
     "gnome-sudoku-lang": {
       "origin": "gnome-sudoku",
       "versions": {
         "50.0-r0": 1773423132,
-        "50.1-r0": 1779707056
+        "50.1-r0": 1779707056,
+        "50.2.1-r0": 1782819483
       }
     },
     "gnome-system-monitor": {
@@ -70133,7 +70192,8 @@
     "gspell": {
       "origin": "gspell",
       "versions": {
-        "1.14.3-r0": 1773733911
+        "1.14.3-r0": 1773733911,
+        "1.14.4-r0": 1782819483
       },
       "dependencies": [
         "iso-codes",
@@ -70148,27 +70208,29 @@
         "so:libpango-1.0.so.0"
       ],
       "provides": [
-        "cmd:gspell-app1=1.14.3-r0",
+        "cmd:gspell-app1=1.14.4-r0",
         "so:libgspell-1.so.3=3"
       ]
     },
     "gspell-dbg": {
       "origin": "gspell",
       "versions": {
-        "1.14.3-r0": 1773733911
+        "1.14.3-r0": 1773733911,
+        "1.14.4-r0": 1782819483
       },
       "dependencies": [
-        "!gspell<1.14.3-r0",
-        "!gspell>1.14.3-r0"
+        "!gspell<1.14.4-r0",
+        "!gspell>1.14.4-r0"
       ]
     },
     "gspell-dev": {
       "origin": "gspell",
       "versions": {
-        "1.14.3-r0": 1773733911
+        "1.14.3-r0": 1773733911,
+        "1.14.4-r0": 1782819483
       },
       "dependencies": [
-        "gspell=1.14.3-r0",
+        "gspell=1.14.4-r0",
         "pc:enchant-2>=2.2",
         "pc:gio-2.0>=2.44",
         "pc:gtk+-3.0>=3.20",
@@ -70176,13 +70238,14 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:gspell-1=1.14.3"
+        "pc:gspell-1=1.14.4"
       ]
     },
     "gspell-lang": {
       "origin": "gspell",
       "versions": {
-        "1.14.3-r0": 1773733911
+        "1.14.3-r0": 1773733911,
+        "1.14.4-r0": 1782819483
       }
     },
     "gst-audio-thumbnailer": {
@@ -73635,7 +73698,8 @@
     "gvfs": {
       "origin": "gvfs",
       "versions": {
-        "1.60.0-r0": 1773567302
+        "1.60.0-r0": 1773567302,
+        "1.60.1-r0": 1782819484
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -73664,7 +73728,8 @@
     "gvfs-afc": {
       "origin": "gvfs",
       "versions": {
-        "1.60.0-r0": 1773567302
+        "1.60.0-r0": 1773567302,
+        "1.60.1-r0": 1782819484
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -73683,7 +73748,8 @@
     "gvfs-afp": {
       "origin": "gvfs",
       "versions": {
-        "1.60.0-r0": 1773567302
+        "1.60.0-r0": 1773567302,
+        "1.60.1-r0": 1782819484
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -73701,7 +73767,8 @@
     "gvfs-archive": {
       "origin": "gvfs",
       "versions": {
-        "1.60.0-r0": 1773567302
+        "1.60.0-r0": 1773567302,
+        "1.60.1-r0": 1782819484
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -73719,7 +73786,8 @@
     "gvfs-avahi": {
       "origin": "gvfs",
       "versions": {
-        "1.60.0-r0": 1773567302
+        "1.60.0-r0": 1773567302,
+        "1.60.1-r0": 1782819484
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -73739,7 +73807,8 @@
     "gvfs-cdda": {
       "origin": "gvfs",
       "versions": {
-        "1.60.0-r0": 1773567302
+        "1.60.0-r0": 1773567302,
+        "1.60.1-r0": 1782819484
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -73760,7 +73829,8 @@
     "gvfs-dav": {
       "origin": "gvfs",
       "versions": {
-        "1.60.0-r0": 1773567302
+        "1.60.0-r0": 1773567302,
+        "1.60.1-r0": 1782819484
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -73782,41 +73852,43 @@
     "gvfs-dbg": {
       "origin": "gvfs",
       "versions": {
-        "1.60.0-r0": 1773567302
+        "1.60.0-r0": 1773567302,
+        "1.60.1-r0": 1782819484
       },
       "dependencies": [
-        "!gvfs-afc<1.60.0-r0",
-        "!gvfs-afc>1.60.0-r0",
-        "!gvfs-afp<1.60.0-r0",
-        "!gvfs-afp>1.60.0-r0",
-        "!gvfs-archive<1.60.0-r0",
-        "!gvfs-archive>1.60.0-r0",
-        "!gvfs-avahi<1.60.0-r0",
-        "!gvfs-avahi>1.60.0-r0",
-        "!gvfs-cdda<1.60.0-r0",
-        "!gvfs-cdda>1.60.0-r0",
-        "!gvfs-dav<1.60.0-r0",
-        "!gvfs-dav>1.60.0-r0",
-        "!gvfs-fuse<1.60.0-r0",
-        "!gvfs-fuse>1.60.0-r0",
-        "!gvfs-goa<1.60.0-r0",
-        "!gvfs-goa>1.60.0-r0",
-        "!gvfs-gphoto2<1.60.0-r0",
-        "!gvfs-gphoto2>1.60.0-r0",
-        "!gvfs-mtp<1.60.0-r0",
-        "!gvfs-mtp>1.60.0-r0",
-        "!gvfs-nfs<1.60.0-r0",
-        "!gvfs-nfs>1.60.0-r0",
-        "!gvfs-smb<1.60.0-r0",
-        "!gvfs-smb>1.60.0-r0",
-        "!gvfs<1.60.0-r0",
-        "!gvfs>1.60.0-r0"
+        "!gvfs-afc<1.60.1-r0",
+        "!gvfs-afc>1.60.1-r0",
+        "!gvfs-afp<1.60.1-r0",
+        "!gvfs-afp>1.60.1-r0",
+        "!gvfs-archive<1.60.1-r0",
+        "!gvfs-archive>1.60.1-r0",
+        "!gvfs-avahi<1.60.1-r0",
+        "!gvfs-avahi>1.60.1-r0",
+        "!gvfs-cdda<1.60.1-r0",
+        "!gvfs-cdda>1.60.1-r0",
+        "!gvfs-dav<1.60.1-r0",
+        "!gvfs-dav>1.60.1-r0",
+        "!gvfs-fuse<1.60.1-r0",
+        "!gvfs-fuse>1.60.1-r0",
+        "!gvfs-goa<1.60.1-r0",
+        "!gvfs-goa>1.60.1-r0",
+        "!gvfs-gphoto2<1.60.1-r0",
+        "!gvfs-gphoto2>1.60.1-r0",
+        "!gvfs-mtp<1.60.1-r0",
+        "!gvfs-mtp>1.60.1-r0",
+        "!gvfs-nfs<1.60.1-r0",
+        "!gvfs-nfs>1.60.1-r0",
+        "!gvfs-smb<1.60.1-r0",
+        "!gvfs-smb>1.60.1-r0",
+        "!gvfs<1.60.1-r0",
+        "!gvfs>1.60.1-r0"
       ]
     },
     "gvfs-full": {
       "origin": "gvfs",
       "versions": {
-        "1.60.0-r0": 1773567302
+        "1.60.0-r0": 1773567302,
+        "1.60.1-r0": 1782819484
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -73826,7 +73898,8 @@
     "gvfs-fuse": {
       "origin": "gvfs",
       "versions": {
-        "1.60.0-r0": 1773567302
+        "1.60.0-r0": 1773567302,
+        "1.60.1-r0": 1782819484
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -73842,7 +73915,8 @@
     "gvfs-goa": {
       "origin": "gvfs",
       "versions": {
-        "1.60.0-r0": 1773567302
+        "1.60.0-r0": 1773567302,
+        "1.60.1-r0": 1782819484
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -73858,7 +73932,8 @@
     "gvfs-gphoto2": {
       "origin": "gvfs",
       "versions": {
-        "1.60.0-r0": 1773567302
+        "1.60.0-r0": 1773567302,
+        "1.60.1-r0": 1782819484
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -73878,13 +73953,15 @@
     "gvfs-lang": {
       "origin": "gvfs",
       "versions": {
-        "1.60.0-r0": 1773567302
+        "1.60.0-r0": 1773567302,
+        "1.60.1-r0": 1782819484
       }
     },
     "gvfs-mtp": {
       "origin": "gvfs",
       "versions": {
-        "1.60.0-r0": 1773567302
+        "1.60.0-r0": 1773567302,
+        "1.60.1-r0": 1782819484
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -73904,7 +73981,8 @@
     "gvfs-nfs": {
       "origin": "gvfs",
       "versions": {
-        "1.60.0-r0": 1773567302
+        "1.60.0-r0": 1773567302,
+        "1.60.1-r0": 1782819484
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -73922,13 +74000,15 @@
     "gvfs-openrc": {
       "origin": "gvfs",
       "versions": {
-        "1.60.0-r0": 1773567302
+        "1.60.0-r0": 1773567302,
+        "1.60.1-r0": 1782819484
       }
     },
     "gvfs-smb": {
       "origin": "gvfs",
       "versions": {
-        "1.60.0-r0": 1773567302
+        "1.60.0-r0": 1773567302,
+        "1.60.1-r0": 1782819484
       },
       "dependencies": [
         "gsettings-desktop-schemas",
@@ -73946,7 +74026,8 @@
     "gvfs-systemd": {
       "origin": "gvfs",
       "versions": {
-        "1.60.0-r0": 1773567302
+        "1.60.0-r0": 1773567302,
+        "1.60.1-r0": 1782819484
       }
     },
     "gvim": {
@@ -99210,7 +99291,8 @@
       "origin": "libadwaita",
       "versions": {
         "1.9.0-r0": 1773422695,
-        "1.9.1-r0": 1779707056
+        "1.9.1-r0": 1779707056,
+        "1.9.2-r0": 1782819484
       },
       "dependencies": [
         "adwaita-fonts",
@@ -99233,20 +99315,22 @@
       "origin": "libadwaita",
       "versions": {
         "1.9.0-r0": 1773422695,
-        "1.9.1-r0": 1779707056
+        "1.9.1-r0": 1779707056,
+        "1.9.2-r0": 1782819484
       },
       "dependencies": [
-        "!libadwaita-demo<1.9.1-r0",
-        "!libadwaita-demo>1.9.1-r0",
-        "!libadwaita<1.9.1-r0",
-        "!libadwaita>1.9.1-r0"
+        "!libadwaita-demo<1.9.2-r0",
+        "!libadwaita-demo>1.9.2-r0",
+        "!libadwaita<1.9.2-r0",
+        "!libadwaita>1.9.2-r0"
       ]
     },
     "libadwaita-demo": {
       "origin": "libadwaita",
       "versions": {
         "1.9.0-r0": 1773422695,
-        "1.9.1-r0": 1779707056
+        "1.9.1-r0": 1779707056,
+        "1.9.2-r0": 1782819484
       },
       "dependencies": [
         "adwaita-fonts",
@@ -99259,17 +99343,18 @@
         "so:libintl.so.8"
       ],
       "provides": [
-        "cmd:adwaita-1-demo=1.9.1-r0"
+        "cmd:adwaita-1-demo=1.9.2-r0"
       ]
     },
     "libadwaita-dev": {
       "origin": "libadwaita",
       "versions": {
         "1.9.0-r0": 1773422695,
-        "1.9.1-r0": 1779707056
+        "1.9.1-r0": 1779707056,
+        "1.9.2-r0": 1782819484
       },
       "dependencies": [
-        "libadwaita=1.9.1-r0",
+        "libadwaita=1.9.2-r0",
         "pc:appstream",
         "pc:fribidi",
         "pc:gio-2.0>=2.84.0",
@@ -99278,14 +99363,15 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:libadwaita-1=1.9.1"
+        "pc:libadwaita-1=1.9.2"
       ]
     },
     "libadwaita-lang": {
       "origin": "libadwaita",
       "versions": {
         "1.9.0-r0": 1773422695,
-        "1.9.1-r0": 1779707056
+        "1.9.1-r0": 1779707056,
+        "1.9.2-r0": 1782819484
       }
     },
     "libaec": {
@@ -104606,7 +104692,8 @@
     "libglycin": {
       "origin": "libglycin",
       "versions": {
-        "2.1.0-r0": 1773416120
+        "2.1.0-r0": 1773416120,
+        "2.1.5-r0": 1782819484
       },
       "dependencies": [
         "bubblewrap",
@@ -104627,20 +104714,22 @@
     "libglycin-dbg": {
       "origin": "libglycin",
       "versions": {
-        "2.1.0-r0": 1773416120
+        "2.1.0-r0": 1773416120,
+        "2.1.5-r0": 1782819484
       },
       "dependencies": [
-        "!libglycin<2.1.0-r0",
-        "!libglycin>2.1.0-r0"
+        "!libglycin<2.1.5-r0",
+        "!libglycin>2.1.5-r0"
       ]
     },
     "libglycin-dev": {
       "origin": "libglycin",
       "versions": {
-        "2.1.0-r0": 1773416120
+        "2.1.0-r0": 1773416120,
+        "2.1.5-r0": 1782819484
       },
       "dependencies": [
-        "libglycin=2.1.0-r0",
+        "libglycin=2.1.5-r0",
         "pc:fontconfig>=2.13.0",
         "pc:gio-2.0>=2.60",
         "pc:lcms2>=2.14",
@@ -104648,14 +104737,15 @@
         "pkgconfig"
       ],
       "provides": [
-        "glycin-loaders-dev=2.1.0-r0",
+        "glycin-loaders-dev=2.1.5-r0",
         "pc:glycin-2=2.1.0"
       ]
     },
     "libglycin-gtk4": {
       "origin": "libglycin-gtk4",
       "versions": {
-        "2.1.0-r0": 1773416120
+        "2.1.0-r0": 1773416120,
+        "2.1.5-r0": 1782819484
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -104676,10 +104766,11 @@
     "libglycin-gtk4-dev": {
       "origin": "libglycin-gtk4",
       "versions": {
-        "2.1.0-r0": 1773416120
+        "2.1.0-r0": 1773416120,
+        "2.1.5-r0": 1782819484
       },
       "dependencies": [
-        "libglycin-gtk4=2.1.0-r0",
+        "libglycin-gtk4=2.1.5-r0",
         "pc:fontconfig>=2.13.0",
         "pc:gio-2.0>=2.60",
         "pc:glycin-2",
@@ -109284,7 +109375,8 @@
     "libmm-glib": {
       "origin": "modemmanager",
       "versions": {
-        "1.25.95_git20260422-r0": 1777043007
+        "1.25.95_git20260422-r0": 1777043007,
+        "1.25.95_git20260527-r1": 1782820636
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -115069,7 +115161,8 @@
     "libshumate": {
       "origin": "libshumate",
       "versions": {
-        "1.6.1-r0": 1776257329
+        "1.6.1-r0": 1776257329,
+        "1.6.2-r0": 1782819484
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -115094,10 +115187,11 @@
     "libshumate-dev": {
       "origin": "libshumate",
       "versions": {
-        "1.6.1-r0": 1776257329
+        "1.6.1-r0": 1776257329,
+        "1.6.2-r0": 1782819484
       },
       "dependencies": [
-        "libshumate=1.6.1-r0",
+        "libshumate=1.6.2-r0",
         "pc:cairo>=1.4",
         "pc:gio-2.0>=2.74.0",
         "pc:glib-2.0>=2.74.0",
@@ -115110,13 +115204,14 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:shumate-1.0=1.6.1"
+        "pc:shumate-1.0=1.6.2"
       ]
     },
     "libshumate-lang": {
       "origin": "libshumate",
       "versions": {
-        "1.6.1-r0": 1776257329
+        "1.6.1-r0": 1776257329,
+        "1.6.2-r0": 1782819484
       }
     },
     "libsigc++": {
@@ -133467,11 +133562,12 @@
     "modemmanager": {
       "origin": "modemmanager",
       "versions": {
-        "1.25.95_git20260422-r0": 1777043007
+        "1.25.95_git20260422-r0": 1777043007,
+        "1.25.95_git20260527-r1": 1782820636
       },
       "dependencies": [
         "dbus",
-        "libmm-glib=1.25.95_git20260422-r0",
+        "libmm-glib=1.25.95_git20260527-r1",
         "mobile-broadband-provider-info",
         "polkit",
         "so:libc.musl-s390x.so.1",
@@ -133488,35 +133584,38 @@
         "so:libqrtr-glib.so.0"
       ],
       "provides": [
-        "cmd:ModemManager=1.25.95_git20260422-r0",
-        "cmd:mmcli=1.25.95_git20260422-r0"
+        "cmd:ModemManager=1.25.95_git20260527-r1",
+        "cmd:mmcli=1.25.95_git20260527-r1"
       ]
     },
     "modemmanager-bash-completion": {
       "origin": "modemmanager",
       "versions": {
-        "1.25.95_git20260422-r0": 1777043007
+        "1.25.95_git20260422-r0": 1777043007,
+        "1.25.95_git20260527-r1": 1782820636
       }
     },
     "modemmanager-dbg": {
       "origin": "modemmanager",
       "versions": {
-        "1.25.95_git20260422-r0": 1777043007
+        "1.25.95_git20260422-r0": 1777043007,
+        "1.25.95_git20260527-r1": 1782820636
       },
       "dependencies": [
-        "!libmm-glib<1.25.95_git20260422-r0",
-        "!libmm-glib>1.25.95_git20260422-r0",
-        "!modemmanager<1.25.95_git20260422-r0",
-        "!modemmanager>1.25.95_git20260422-r0"
+        "!libmm-glib<1.25.95_git20260527-r1",
+        "!libmm-glib>1.25.95_git20260527-r1",
+        "!modemmanager<1.25.95_git20260527-r1",
+        "!modemmanager>1.25.95_git20260527-r1"
       ]
     },
     "modemmanager-dev": {
       "origin": "modemmanager",
       "versions": {
-        "1.25.95_git20260422-r0": 1777043007
+        "1.25.95_git20260422-r0": 1777043007,
+        "1.25.95_git20260527-r1": 1782820636
       },
       "dependencies": [
-        "libmm-glib=1.25.95_git20260422-r0",
+        "libmm-glib=1.25.95_git20260527-r1",
         "pc:gio-2.0",
         "pc:gio-unix-2.0",
         "pc:glib-2.0>=2.56",
@@ -133531,19 +133630,22 @@
     "modemmanager-doc": {
       "origin": "modemmanager",
       "versions": {
-        "1.25.95_git20260422-r0": 1777043007
+        "1.25.95_git20260422-r0": 1777043007,
+        "1.25.95_git20260527-r1": 1782820636
       }
     },
     "modemmanager-lang": {
       "origin": "modemmanager",
       "versions": {
-        "1.25.95_git20260422-r0": 1777043007
+        "1.25.95_git20260422-r0": 1777043007,
+        "1.25.95_git20260527-r1": 1782820636
       }
     },
     "modemmanager-openrc": {
       "origin": "modemmanager",
       "versions": {
-        "1.25.95_git20260422-r0": 1777043007
+        "1.25.95_git20260422-r0": 1777043007,
+        "1.25.95_git20260527-r1": 1782820636
       }
     },
     "modemmanager-qt": {
@@ -133585,13 +133687,15 @@
     "modemmanager-systemd": {
       "origin": "modemmanager",
       "versions": {
-        "1.25.95_git20260422-r0": 1777043007
+        "1.25.95_git20260422-r0": 1777043007,
+        "1.25.95_git20260527-r1": 1782820636
       }
     },
     "modemmanager-udev": {
       "origin": "modemmanager",
       "versions": {
-        "1.25.95_git20260422-r0": 1777043007
+        "1.25.95_git20260422-r0": 1777043007,
+        "1.25.95_git20260527-r1": 1782820636
       }
     },
     "moderncli": {
@@ -138265,7 +138369,8 @@
         "0.70.5-r1": 1778661427,
         "0.71.2-r0": 1779323460,
         "0.72.2-r0": 1780808880,
-        "0.72.4-r0": 1781316672
+        "0.72.4-r0": 1781316672,
+        "0.73.2-r0": 1782786154
       },
       "dependencies": [
         "openresolv",
@@ -138273,7 +138378,7 @@
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:netbird=0.72.4-r0"
+        "cmd:netbird=0.73.2-r0"
       ]
     },
     "netbird-bash-completion": {
@@ -138283,7 +138388,8 @@
         "0.70.5-r1": 1778661427,
         "0.71.2-r0": 1779323460,
         "0.72.2-r0": 1780808880,
-        "0.72.4-r0": 1781316672
+        "0.72.4-r0": 1781316672,
+        "0.73.2-r0": 1782786154
       }
     },
     "netbird-doc": {
@@ -138293,7 +138399,8 @@
         "0.70.5-r1": 1778661427,
         "0.71.2-r0": 1779323460,
         "0.72.2-r0": 1780808880,
-        "0.72.4-r0": 1781316672
+        "0.72.4-r0": 1781316672,
+        "0.73.2-r0": 1782786154
       }
     },
     "netbird-fish-completion": {
@@ -138303,7 +138410,8 @@
         "0.70.5-r1": 1778661427,
         "0.71.2-r0": 1779323460,
         "0.72.2-r0": 1780808880,
-        "0.72.4-r0": 1781316672
+        "0.72.4-r0": 1781316672,
+        "0.73.2-r0": 1782786154
       }
     },
     "netbird-mgmt": {
@@ -138313,14 +138421,15 @@
         "0.70.5-r1": 1778661427,
         "0.71.2-r0": 1779323460,
         "0.72.2-r0": 1780808880,
-        "0.72.4-r0": 1781316672
+        "0.72.4-r0": 1781316672,
+        "0.73.2-r0": 1782786154
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:netbird-mgmt=0.72.4-r0"
+        "cmd:netbird-mgmt=0.73.2-r0"
       ]
     },
     "netbird-mgmt-openrc": {
@@ -138330,7 +138439,8 @@
         "0.70.5-r1": 1778661427,
         "0.71.2-r0": 1779323460,
         "0.72.2-r0": 1780808880,
-        "0.72.4-r0": 1781316672
+        "0.72.4-r0": 1781316672,
+        "0.73.2-r0": 1782786154
       }
     },
     "netbird-openrc": {
@@ -138340,7 +138450,8 @@
         "0.70.5-r1": 1778661427,
         "0.71.2-r0": 1779323460,
         "0.72.2-r0": 1780808880,
-        "0.72.4-r0": 1781316672
+        "0.72.4-r0": 1781316672,
+        "0.73.2-r0": 1782786154
       }
     },
     "netbird-relay": {
@@ -138350,14 +138461,15 @@
         "0.70.5-r1": 1778661427,
         "0.71.2-r0": 1779323460,
         "0.72.2-r0": 1780808880,
-        "0.72.4-r0": 1781316672
+        "0.72.4-r0": 1781316672,
+        "0.73.2-r0": 1782786154
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:netbird-relay=0.72.4-r0"
+        "cmd:netbird-relay=0.73.2-r0"
       ]
     },
     "netbird-relay-openrc": {
@@ -138367,7 +138479,8 @@
         "0.70.5-r1": 1778661427,
         "0.71.2-r0": 1779323460,
         "0.72.2-r0": 1780808880,
-        "0.72.4-r0": 1781316672
+        "0.72.4-r0": 1781316672,
+        "0.73.2-r0": 1782786154
       }
     },
     "netbird-signal": {
@@ -138377,14 +138490,15 @@
         "0.70.5-r1": 1778661427,
         "0.71.2-r0": 1779323460,
         "0.72.2-r0": 1780808880,
-        "0.72.4-r0": 1781316672
+        "0.72.4-r0": 1781316672,
+        "0.73.2-r0": 1782786154
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:netbird-signal=0.72.4-r0"
+        "cmd:netbird-signal=0.73.2-r0"
       ]
     },
     "netbird-signal-openrc": {
@@ -138394,7 +138508,8 @@
         "0.70.5-r1": 1778661427,
         "0.71.2-r0": 1779323460,
         "0.72.2-r0": 1780808880,
-        "0.72.4-r0": 1781316672
+        "0.72.4-r0": 1781316672,
+        "0.73.2-r0": 1782786154
       }
     },
     "netbird-ui": {
@@ -138404,7 +138519,8 @@
         "0.70.5-r1": 1778661427,
         "0.71.2-r0": 1779323460,
         "0.72.2-r0": 1780808880,
-        "0.72.4-r0": 1781316672
+        "0.72.4-r0": 1781316672,
+        "0.73.2-r0": 1782786154
       },
       "dependencies": [
         "openresolv",
@@ -138413,7 +138529,7 @@
         "so:libwayland-client.so.0"
       ],
       "provides": [
-        "cmd:netbird-ui=0.72.4-r0"
+        "cmd:netbird-ui=0.73.2-r0"
       ]
     },
     "netbird-zsh-completion": {
@@ -138423,7 +138539,8 @@
         "0.70.5-r1": 1778661427,
         "0.71.2-r0": 1779323460,
         "0.72.2-r0": 1780808880,
-        "0.72.4-r0": 1781316672
+        "0.72.4-r0": 1781316672,
+        "0.73.2-r0": 1782786154
       }
     },
     "netdata": {
@@ -207139,7 +207256,8 @@
     "py3-gexiv2-0.16": {
       "origin": "gexiv2-0.16",
       "versions": {
-        "0.16.0-r1": 1774836649
+        "0.16.0-r1": 1774836649,
+        "0.16.1-r0": 1782819482
       },
       "dependencies": [
         "python3~3.14"
@@ -207148,7 +207266,8 @@
     "py3-gexiv2-0.16-pyc": {
       "origin": "gexiv2-0.16",
       "versions": {
-        "0.16.0-r1": 1774836649
+        "0.16.0-r1": 1774836649,
+        "0.16.1-r0": 1782819482
       },
       "dependencies": [
         "python3~3.14"
@@ -239826,7 +239945,8 @@
         "3.7.1-r0": 1776161606,
         "3.7.2-r0": 1778311871,
         "3.7.3-r0": 1778832184,
-        "3.7.4-r0": 1780144185
+        "3.7.4-r0": 1780144185,
+        "3.7.5-r0": 1782819484
       },
       "dependencies": [
         "py3-defusedxml",
@@ -239839,8 +239959,8 @@
         "python3~3.14"
       ],
       "provides": [
-        "cmd:radicale=3.7.4-r0",
-        "py3.14:radicale=3.7.4-r0"
+        "cmd:radicale=3.7.5-r0",
+        "py3.14:radicale=3.7.5-r0"
       ]
     },
     "radicale-openrc": {
@@ -239849,7 +239969,8 @@
         "3.7.1-r0": 1776161606,
         "3.7.2-r0": 1778311871,
         "3.7.3-r0": 1778832184,
-        "3.7.4-r0": 1780144185
+        "3.7.4-r0": 1780144185,
+        "3.7.5-r0": 1782819484
       }
     },
     "radicale-pyc": {
@@ -239858,7 +239979,8 @@
         "3.7.1-r0": 1776161606,
         "3.7.2-r0": 1778311871,
         "3.7.3-r0": 1778832184,
-        "3.7.4-r0": 1780144185
+        "3.7.4-r0": 1780144185,
+        "3.7.5-r0": 1782819484
       },
       "dependencies": [
         "python3~3.14"
@@ -243702,7 +243824,8 @@
     "rmtfs": {
       "origin": "rmtfs",
       "versions": {
-        "1.2-r0": 1775843520
+        "1.2-r0": 1775843520,
+        "1.3-r0": 1782819484
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -243710,31 +243833,35 @@
         "so:libudev.so.1"
       ],
       "provides": [
-        "cmd:rmtfs=1.2-r0"
+        "cmd:rmtfs=1.3-r0"
       ]
     },
     "rmtfs-doc": {
       "origin": "rmtfs",
       "versions": {
-        "1.2-r0": 1775843520
+        "1.2-r0": 1775843520,
+        "1.3-r0": 1782819484
       }
     },
     "rmtfs-openrc": {
       "origin": "rmtfs",
       "versions": {
-        "1.2-r0": 1775843520
+        "1.2-r0": 1775843520,
+        "1.3-r0": 1782819484
       }
     },
     "rmtfs-systemd": {
       "origin": "rmtfs",
       "versions": {
-        "1.2-r0": 1775843520
+        "1.2-r0": 1775843520,
+        "1.3-r0": 1782819484
       }
     },
     "rmtfs-udev": {
       "origin": "rmtfs",
       "versions": {
-        "1.2-r0": 1775843520
+        "1.2-r0": 1775843520,
+        "1.3-r0": 1782819484
       }
     },
     "rnc2rng": {
@@ -287912,7 +288039,8 @@
     "gssdp": {
       "origin": "gssdp",
       "versions": {
-        "1.6.5-r0": 1780869144
+        "1.6.5-r0": 1780869144,
+        "1.6.6-r0": 1782819483
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -287924,17 +288052,18 @@
         "so:libsoup-3.0.so.0"
       ],
       "provides": [
-        "cmd:gssdp-device-sniffer=1.6.5-r0",
-        "so:libgssdp-1.6.so.0=0.106.5"
+        "cmd:gssdp-device-sniffer=1.6.6-r0",
+        "so:libgssdp-1.6.so.0=0.106.6"
       ]
     },
     "gssdp-dev": {
       "origin": "gssdp",
       "versions": {
-        "1.6.5-r0": 1780869144
+        "1.6.5-r0": 1780869144,
+        "1.6.6-r0": 1782819483
       },
       "dependencies": [
-        "gssdp=1.6.5-r0",
+        "gssdp=1.6.6-r0",
         "pc:gio-2.0>=2.70",
         "pc:glib-2.0>=2.70",
         "pc:gobject-2.0>=2.70",
@@ -287942,7 +288071,7 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:gssdp-1.6=1.6.5"
+        "pc:gssdp-1.6=1.6.6"
       ]
     },
     "gupnp": {
@@ -292325,7 +292454,7 @@
       },
       "libgdk_pixbuf-2.0.so.0": {
         "package": "gdk-pixbuf",
-        "version": "0.4400.6"
+        "version": "0.4400.7"
       },
       "libgdm.so.1": {
         "package": "gdm",
@@ -292385,7 +292514,7 @@
       },
       "libgexiv2-0.16.so.4": {
         "package": "gexiv2-0.16",
-        "version": "4.16.0"
+        "version": "4.16.1"
       },
       "libgf2x-fft.so.3": {
         "package": "gf2x",
@@ -306545,7 +306674,7 @@
       },
       "libgssdp-1.6.so.0": {
         "package": "gssdp",
-        "version": "0.106.5"
+        "version": "0.106.6"
       },
       "libgupnp-1.6.so.0": {
         "package": "gupnp",
@@ -307183,7 +307312,7 @@
       },
       "glycin-loaders": {
         "package": "glycin",
-        "version": "2.1.0-r0"
+        "version": "2.1.5-r0"
       },
       "chrome-gnome-shell": {
         "package": "gnome-browser-connector",
@@ -307323,7 +307452,7 @@
       },
       "glycin-loaders-dev": {
         "package": "libglycin-dev",
-        "version": "2.1.0-r0"
+        "version": "2.1.5-r0"
       },
       "libheif-aomdec": {
         "package": "libheif-aom",
