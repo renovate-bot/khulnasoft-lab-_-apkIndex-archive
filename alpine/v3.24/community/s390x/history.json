@@ -136486,7 +136486,8 @@
       "origin": "mutter",
       "versions": {
         "50.1-r0": 1776257329,
-        "50.2-r0": 1780488070
+        "50.2-r0": 1780488070,
+        "50.2-r1": 1782844888
       },
       "dependencies": [
         "gnome-settings-daemon",
@@ -136546,9 +136547,9 @@
         "so:libxkbregistry.so.0"
       ],
       "provides": [
-        "cmd:gdctl=50.2-r0",
-        "cmd:gnome-service-client=50.2-r0",
-        "cmd:mutter=50.2-r0",
+        "cmd:gdctl=50.2-r1",
+        "cmd:gnome-service-client=50.2-r1",
+        "cmd:mutter=50.2-r1",
         "so:libmutter-18.so.0=0.0.0",
         "so:libmutter-clutter-18.so.0=0.0.0",
         "so:libmutter-cogl-18.so.0=0.0.0",
@@ -136559,21 +136560,23 @@
       "origin": "mutter",
       "versions": {
         "50.1-r0": 1776257329,
-        "50.2-r0": 1780488070
+        "50.2-r0": 1780488070,
+        "50.2-r1": 1782844888
       },
       "dependencies": [
-        "!mutter<50.2-r0",
-        "!mutter>50.2-r0"
+        "!mutter<50.2-r1",
+        "!mutter>50.2-r1"
       ]
     },
     "mutter-dev": {
       "origin": "mutter",
       "versions": {
         "50.1-r0": 1776257329,
-        "50.2-r0": 1780488070
+        "50.2-r0": 1780488070,
+        "50.2-r1": 1782844888
       },
       "dependencies": [
-        "mutter=50.2-r0",
+        "mutter=50.2-r1",
         "pc:atk>=2.5.3",
         "pc:cairo>=1.10.0",
         "pc:colord>=1.4.5",
@@ -136636,28 +136639,32 @@
       "origin": "mutter",
       "versions": {
         "50.1-r0": 1776257329,
-        "50.2-r0": 1780488070
+        "50.2-r0": 1780488070,
+        "50.2-r1": 1782844888
       }
     },
     "mutter-lang": {
       "origin": "mutter",
       "versions": {
         "50.1-r0": 1776257329,
-        "50.2-r0": 1780488070
+        "50.2-r0": 1780488070,
+        "50.2-r1": 1782844888
       }
     },
     "mutter-schemas": {
       "origin": "mutter",
       "versions": {
         "50.1-r0": 1776257329,
-        "50.2-r0": 1780488070
+        "50.2-r0": 1780488070,
+        "50.2-r1": 1782844888
       }
     },
     "mutter-udev": {
       "origin": "mutter",
       "versions": {
         "50.1-r0": 1776257329,
-        "50.2-r0": 1780488070
+        "50.2-r0": 1780488070,
+        "50.2-r1": 1782844888
       }
     },
     "mwm": {
