@@ -83672,7 +83672,8 @@
     "hyprland": {
       "origin": "hyprland",
       "versions": {
-        "0.51.1-r0": 1758629649
+        "0.51.1-r0": 1758629649,
+        "0.51.1-r1": 1782817631
       },
       "dependencies": [
         "so:libEGL.so.1",
@@ -83709,21 +83710,23 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "cmd:Hyprland=0.51.1-r0",
-        "cmd:hyprctl=0.51.1-r0",
-        "cmd:hyprland=0.51.1-r0"
+        "cmd:Hyprland=0.51.1-r1",
+        "cmd:hyprctl=0.51.1-r1",
+        "cmd:hyprland=0.51.1-r1"
       ]
     },
     "hyprland-bash-completion": {
       "origin": "hyprland",
       "versions": {
-        "0.51.1-r0": 1758629649
+        "0.51.1-r0": 1758629649,
+        "0.51.1-r1": 1782817631
       }
     },
     "hyprland-dev": {
       "origin": "hyprland",
       "versions": {
-        "0.51.1-r0": 1758629649
+        "0.51.1-r0": 1758629649,
+        "0.51.1-r1": 1782817631
       },
       "dependencies": [
         "pkgconfig"
@@ -83735,19 +83738,22 @@
     "hyprland-doc": {
       "origin": "hyprland",
       "versions": {
-        "0.51.1-r0": 1758629649
+        "0.51.1-r0": 1758629649,
+        "0.51.1-r1": 1782817631
       }
     },
     "hyprland-fish-completion": {
       "origin": "hyprland",
       "versions": {
-        "0.51.1-r0": 1758629649
+        "0.51.1-r0": 1758629649,
+        "0.51.1-r1": 1782817631
       }
     },
     "hyprland-plugin-manager": {
       "origin": "hyprland",
       "versions": {
-        "0.51.1-r0": 1758629649
+        "0.51.1-r0": 1758629649,
+        "0.51.1-r1": 1782817631
       },
       "dependencies": [
         "aquamarine-dev",
@@ -83786,6 +83792,9 @@
         "xwayland-dev",
         "glaze",
         "git",
+        "g++",
+        "gcc",
+        "/bin/sh",
         "so:libc.musl-armv7.so.1",
         "so:libgcc_s.so.1",
         "so:libhyprutils.so.7",
@@ -83793,13 +83802,14 @@
         "so:libtomlplusplus.so.3"
       ],
       "provides": [
-        "cmd:hyprpm=0.51.1-r0"
+        "cmd:hyprpm=0.51.1-r1"
       ]
     },
     "hyprland-plugins": {
       "origin": "hyprland-plugins",
       "versions": {
-        "0.51.0-r0": 1758629649
+        "0.51.0-r0": 1758629649,
+        "0.51.0-r1": 1782817631
       },
       "dependencies": [
         "hyprland~0.51",
@@ -83817,7 +83827,8 @@
     "hyprland-plugins-borders-plus-plus": {
       "origin": "hyprland-plugins",
       "versions": {
-        "0.51.0-r0": 1758629649
+        "0.51.0-r0": 1758629649,
+        "0.51.0-r1": 1782817631
       },
       "dependencies": [
         "hyprland~0.51",
@@ -83832,7 +83843,8 @@
     "hyprland-plugins-csgo-vulkan-fix": {
       "origin": "hyprland-plugins",
       "versions": {
-        "0.51.0-r0": 1758629649
+        "0.51.0-r0": 1758629649,
+        "0.51.0-r1": 1782817631
       },
       "dependencies": [
         "hyprland~0.51",
@@ -83847,13 +83859,15 @@
     "hyprland-plugins-doc": {
       "origin": "hyprland-plugins",
       "versions": {
-        "0.51.0-r0": 1758629649
+        "0.51.0-r0": 1758629649,
+        "0.51.0-r1": 1782817631
       }
     },
     "hyprland-plugins-hyprbars": {
       "origin": "hyprland-plugins",
       "versions": {
-        "0.51.0-r0": 1758629649
+        "0.51.0-r0": 1758629649,
+        "0.51.0-r1": 1782817631
       },
       "dependencies": [
         "hyprland~0.51",
@@ -83872,7 +83886,8 @@
     "hyprland-plugins-hyprexpo": {
       "origin": "hyprland-plugins",
       "versions": {
-        "0.51.0-r0": 1758629649
+        "0.51.0-r0": 1758629649,
+        "0.51.0-r1": 1782817631
       },
       "dependencies": [
         "hyprland~0.51",
@@ -83887,7 +83902,8 @@
     "hyprland-plugins-hyprfocus": {
       "origin": "hyprland-plugins",
       "versions": {
-        "0.51.0-r0": 1758629649
+        "0.51.0-r0": 1758629649,
+        "0.51.0-r1": 1782817631
       },
       "dependencies": [
         "hyprland~0.51",
@@ -83902,7 +83918,8 @@
     "hyprland-plugins-hyprscrolling": {
       "origin": "hyprland-plugins",
       "versions": {
-        "0.51.0-r0": 1758629649
+        "0.51.0-r0": 1758629649,
+        "0.51.0-r1": 1782817631
       },
       "dependencies": [
         "hyprland~0.51",
@@ -83917,7 +83934,8 @@
     "hyprland-plugins-hyprtrails": {
       "origin": "hyprland-plugins",
       "versions": {
-        "0.51.0-r0": 1758629649
+        "0.51.0-r0": 1758629649,
+        "0.51.0-r1": 1782817631
       },
       "dependencies": [
         "hyprland~0.51",
@@ -83933,7 +83951,8 @@
     "hyprland-plugins-hyprwinwrap": {
       "origin": "hyprland-plugins",
       "versions": {
-        "0.51.0-r0": 1758629649
+        "0.51.0-r0": 1758629649,
+        "0.51.0-r1": 1782817631
       },
       "dependencies": [
         "hyprland~0.51",
@@ -83948,7 +83967,8 @@
     "hyprland-plugins-xtra-dispatchers": {
       "origin": "hyprland-plugins",
       "versions": {
-        "0.51.0-r0": 1758629649
+        "0.51.0-r0": 1758629649,
+        "0.51.0-r1": 1782817631
       },
       "dependencies": [
         "hyprland~0.51",
@@ -84032,13 +84052,15 @@
     "hyprland-wallpapers": {
       "origin": "hyprland",
       "versions": {
-        "0.51.1-r0": 1758629649
+        "0.51.1-r0": 1758629649,
+        "0.51.1-r1": 1782817631
       }
     },
     "hyprland-zsh-completion": {
       "origin": "hyprland",
       "versions": {
-        "0.51.1-r0": 1758629649
+        "0.51.1-r0": 1758629649,
+        "0.51.1-r1": 1782817631
       }
     },
     "hyprlang": {
