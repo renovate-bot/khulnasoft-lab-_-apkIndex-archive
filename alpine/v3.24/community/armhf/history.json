@@ -262602,7 +262602,8 @@
       "origin": "zabbix",
       "versions": {
         "7.4.10-r0": 1778938767,
-        "7.4.11-r0": 1780760958
+        "7.4.11-r0": 1780760958,
+        "7.4.12-r0": 1783784605
       },
       "dependencies": [
         "fping",
@@ -262613,7 +262614,8 @@
       "origin": "zabbix",
       "versions": {
         "7.4.10-r0": 1778938767,
-        "7.4.11-r0": 1780760958
+        "7.4.11-r0": 1780760958,
+        "7.4.12-r0": 1783784605
       },
       "dependencies": [
         "/bin/sh",
@@ -262625,14 +262627,15 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_agentd=7.4.11-r0"
+        "cmd:zabbix_agentd=7.4.12-r0"
       ]
     },
     "zabbix-agent-openrc": {
       "origin": "zabbix",
       "versions": {
         "7.4.10-r0": 1778938767,
-        "7.4.11-r0": 1780760958
+        "7.4.11-r0": 1780760958,
+        "7.4.12-r0": 1783784605
       },
       "dependencies": [
         "openrc"
@@ -262642,7 +262645,8 @@
       "origin": "zabbix",
       "versions": {
         "7.4.10-r0": 1778938767,
-        "7.4.11-r0": 1780760958
+        "7.4.11-r0": 1780760958,
+        "7.4.12-r0": 1783784605
       },
       "dependencies": [
         "/bin/sh",
@@ -262654,14 +262658,15 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_agent2=7.4.11-r0"
+        "cmd:zabbix_agent2=7.4.12-r0"
       ]
     },
     "zabbix-agent2-openrc": {
       "origin": "zabbix",
       "versions": {
         "7.4.10-r0": 1778938767,
-        "7.4.11-r0": 1780760958
+        "7.4.11-r0": 1780760958,
+        "7.4.12-r0": 1783784605
       },
       "dependencies": [
         "openrc"
@@ -262693,14 +262698,16 @@
       "origin": "zabbix",
       "versions": {
         "7.4.10-r0": 1778938767,
-        "7.4.11-r0": 1780760958
+        "7.4.11-r0": 1780760958,
+        "7.4.12-r0": 1783784605
       }
     },
     "zabbix-mysql": {
       "origin": "zabbix",
       "versions": {
         "7.4.10-r0": 1778938767,
-        "7.4.11-r0": 1780760958
+        "7.4.11-r0": 1780760958,
+        "7.4.12-r0": 1783784605
       },
       "dependencies": [
         "zabbix",
@@ -262724,22 +262731,24 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_proxy=7.4.11-r0",
-        "cmd:zabbix_server=7.4.11-r0"
+        "cmd:zabbix_proxy=7.4.12-r0",
+        "cmd:zabbix_server=7.4.12-r0"
       ]
     },
     "zabbix-openrc": {
       "origin": "zabbix",
       "versions": {
         "7.4.10-r0": 1778938767,
-        "7.4.11-r0": 1780760958
+        "7.4.11-r0": 1780760958,
+        "7.4.12-r0": 1783784605
       }
     },
     "zabbix-pgsql": {
       "origin": "zabbix",
       "versions": {
         "7.4.10-r0": 1778938767,
-        "7.4.11-r0": 1780760958
+        "7.4.11-r0": 1780760958,
+        "7.4.12-r0": 1783784605
       },
       "dependencies": [
         "zabbix",
@@ -262763,22 +262772,24 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_proxy=7.4.11-r0",
-        "cmd:zabbix_server=7.4.11-r0"
+        "cmd:zabbix_proxy=7.4.12-r0",
+        "cmd:zabbix_server=7.4.12-r0"
       ]
     },
     "zabbix-setup": {
       "origin": "zabbix",
       "versions": {
         "7.4.10-r0": 1778938767,
-        "7.4.11-r0": 1780760958
+        "7.4.11-r0": 1780760958,
+        "7.4.12-r0": 1783784605
       }
     },
     "zabbix-sqlite": {
       "origin": "zabbix",
       "versions": {
         "7.4.10-r0": 1778938767,
-        "7.4.11-r0": 1780760958
+        "7.4.11-r0": 1780760958,
+        "7.4.12-r0": 1783784605
       },
       "dependencies": [
         "zabbix",
@@ -262802,14 +262813,15 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_proxy=7.4.11-r0"
+        "cmd:zabbix_proxy=7.4.12-r0"
       ]
     },
     "zabbix-utils": {
       "origin": "zabbix",
       "versions": {
         "7.4.10-r0": 1778938767,
-        "7.4.11-r0": 1780760958
+        "7.4.11-r0": 1780760958,
+        "7.4.12-r0": 1783784605
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -262821,16 +262833,17 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_get=7.4.11-r0",
-        "cmd:zabbix_js=7.4.11-r0",
-        "cmd:zabbix_sender=7.4.11-r0"
+        "cmd:zabbix_get=7.4.12-r0",
+        "cmd:zabbix_js=7.4.12-r0",
+        "cmd:zabbix_sender=7.4.12-r0"
       ]
     },
     "zabbix-webif": {
       "origin": "zabbix",
       "versions": {
         "7.4.10-r0": 1778938767,
-        "7.4.11-r0": 1780760958
+        "7.4.11-r0": 1780760958,
+        "7.4.12-r0": 1783784605
       },
       "dependencies": [
         "php83",
