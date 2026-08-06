@@ -34064,7 +34064,8 @@
       "origin": "dnsdist",
       "versions": {
         "2.0.4-r0": 1776931478,
-        "2.0.6-r0": 1779982662
+        "2.0.6-r0": 1779982662,
+        "2.0.8-r0": 1786055738
       },
       "dependencies": [
         "dnsdist-common",
@@ -34084,14 +34085,15 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:dnsdist=2.0.6-r0"
+        "cmd:dnsdist=2.0.8-r0"
       ]
     },
     "dnsdist-common": {
       "origin": "dnsdist",
       "versions": {
         "2.0.4-r0": 1776931478,
-        "2.0.6-r0": 1779982662
+        "2.0.6-r0": 1779982662,
+        "2.0.8-r0": 1786055738
       },
       "dependencies": [
         "/bin/sh"
@@ -34101,7 +34103,8 @@
       "origin": "dnsdist",
       "versions": {
         "2.0.4-r0": 1776931478,
-        "2.0.6-r0": 1779982662
+        "2.0.6-r0": 1779982662,
+        "2.0.8-r0": 1786055738
       },
       "dependencies": [
         "dnsdist-common"
@@ -34111,14 +34114,16 @@
       "origin": "dnsdist",
       "versions": {
         "2.0.4-r0": 1776931478,
-        "2.0.6-r0": 1779982662
+        "2.0.6-r0": 1779982662,
+        "2.0.8-r0": 1786055738
       }
     },
     "dnsdist-luajit": {
       "origin": "dnsdist",
       "versions": {
         "2.0.4-r0": 1776931478,
-        "2.0.6-r0": 1779982662
+        "2.0.6-r0": 1779982662,
+        "2.0.8-r0": 1786055738
       },
       "dependencies": [
         "dnsdist-common",
@@ -34138,8 +34143,8 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "dnsdist=2.0.6-r0",
-        "cmd:dnsdist=2.0.6-r0"
+        "dnsdist=2.0.8-r0",
+        "cmd:dnsdist=2.0.8-r0"
       ]
     },
     "dnsenum": {
@@ -308561,7 +308566,7 @@
       },
       "dnsdist": {
         "package": "dnsdist-luajit",
-        "version": "2.0.6-r0"
+        "version": "2.0.8-r0"
       },
       "docker-compose": {
         "package": "docker-cli-compose",
