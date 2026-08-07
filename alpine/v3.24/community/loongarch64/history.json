@@ -123364,7 +123364,8 @@
       "origin": "phosh",
       "versions": {
         "0.55.0-r0": 1779021941,
-        "0.55.0-r1": 1780427209
+        "0.55.0-r1": 1780427209,
+        "0.55.0-r2": 1786122275
       },
       "dependencies": [
         "so:libappstream.so.5",
@@ -123410,7 +123411,8 @@
       "origin": "phosh",
       "versions": {
         "0.55.0-r0": 1779021941,
-        "0.55.0-r1": 1780427209
+        "0.55.0-r1": 1780427209,
+        "0.55.0-r2": 1786122275
       },
       "dependencies": [
         "phosh-schemas",
@@ -123427,8 +123429,9 @@
         "gsettings-desktop-schemas",
         "phoc",
         "phosh-keyboard",
+        "polkit-elogind",
         "xwayland",
-        "libphosh=0.55.0-r1",
+        "libphosh=0.55.0-r2",
         "pc:appstream>=1.0.0",
         "pc:fribidi",
         "pc:gcr-3>=3.7.5",
@@ -178958,7 +178961,8 @@
       "origin": "phosh",
       "versions": {
         "0.55.0-r0": 1779021941,
-        "0.55.0-r1": 1780427209
+        "0.55.0-r1": 1780427209,
+        "0.55.0-r2": 1786122275
       },
       "dependencies": [
         "phosh-schemas",
@@ -178975,6 +178979,7 @@
         "gsettings-desktop-schemas",
         "phoc",
         "phosh-keyboard",
+        "polkit-elogind",
         "xwayland",
         "/bin/sh",
         "so:libadwaita-1.so.0",
@@ -179021,7 +179026,7 @@
         "so:libwayland-client.so.0"
       ],
       "provides": [
-        "cmd:phosh-session=0.55.0-r1"
+        "cmd:phosh-session=0.55.0-r2"
       ]
     },
     "phosh-antispam": {
@@ -179047,20 +179052,22 @@
       "origin": "phosh",
       "versions": {
         "0.55.0-r0": 1779021941,
-        "0.55.0-r1": 1780427209
+        "0.55.0-r1": 1780427209,
+        "0.55.0-r2": 1786122275
       },
       "dependencies": [
-        "!libphosh<0.55.0-r1",
-        "!libphosh>0.55.0-r1",
-        "!phosh<0.55.0-r1",
-        "!phosh>0.55.0-r1"
+        "!libphosh<0.55.0-r2",
+        "!libphosh>0.55.0-r2",
+        "!phosh<0.55.0-r2",
+        "!phosh>0.55.0-r2"
       ]
     },
     "phosh-dev": {
       "origin": "phosh",
       "versions": {
         "0.55.0-r0": 1779021941,
-        "0.55.0-r1": 1780427209
+        "0.55.0-r1": 1780427209,
+        "0.55.0-r2": 1786122275
       },
       "dependencies": [
         "pc:gsettings-desktop-schemas>=47",
@@ -179075,14 +179082,16 @@
       "origin": "phosh",
       "versions": {
         "0.55.0-r0": 1779021941,
-        "0.55.0-r1": 1780427209
+        "0.55.0-r1": 1780427209,
+        "0.55.0-r2": 1786122275
       }
     },
     "phosh-lang": {
       "origin": "phosh",
       "versions": {
         "0.55.0-r0": 1779021941,
-        "0.55.0-r1": 1780427209
+        "0.55.0-r1": 1780427209,
+        "0.55.0-r2": 1786122275
       }
     },
     "phosh-mobile-settings": {
@@ -179179,7 +179188,8 @@
       "origin": "phosh",
       "versions": {
         "0.55.0-r0": 1779021941,
-        "0.55.0-r1": 1780427209
+        "0.55.0-r1": 1780427209,
+        "0.55.0-r2": 1786122275
       },
       "dependencies": [
         "phosh-schemas",
@@ -179196,6 +179206,7 @@
         "gsettings-desktop-schemas",
         "phoc",
         "phosh-keyboard",
+        "polkit-elogind",
         "xwayland"
       ]
     },
@@ -179203,14 +179214,16 @@
       "origin": "phosh",
       "versions": {
         "0.55.0-r0": 1779021941,
-        "0.55.0-r1": 1780427209
+        "0.55.0-r1": 1780427209,
+        "0.55.0-r2": 1786122275
       }
     },
     "phosh-systemd": {
       "origin": "phosh",
       "versions": {
         "0.55.0-r0": 1779021941,
-        "0.55.0-r1": 1780427209
+        "0.55.0-r1": 1780427209,
+        "0.55.0-r2": 1786122275
       }
     },
     "phosh-tour": {
