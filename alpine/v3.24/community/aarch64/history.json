@@ -193885,7 +193885,8 @@
       "origin": "pdns-recursor",
       "versions": {
         "5.4.1-r0": 1777381370,
-        "5.4.4-r0": 1785277706
+        "5.4.4-r0": 1785277706,
+        "5.4.5-r0": 1786058014
       },
       "dependencies": [
         "pdns-recursor-common",
@@ -193902,15 +193903,16 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:pdns_recursor=5.4.4-r0",
-        "cmd:rec_control=5.4.4-r0"
+        "cmd:pdns_recursor=5.4.5-r0",
+        "cmd:rec_control=5.4.5-r0"
       ]
     },
     "pdns-recursor-common": {
       "origin": "pdns-recursor",
       "versions": {
         "5.4.1-r0": 1777381370,
-        "5.4.4-r0": 1785277706
+        "5.4.4-r0": 1785277706,
+        "5.4.5-r0": 1786058014
       },
       "dependencies": [
         "/bin/sh"
@@ -193920,14 +193922,16 @@
       "origin": "pdns-recursor",
       "versions": {
         "5.4.1-r0": 1777381370,
-        "5.4.4-r0": 1785277706
+        "5.4.4-r0": 1785277706,
+        "5.4.5-r0": 1786058014
       }
     },
     "pdns-recursor-luajit": {
       "origin": "pdns-recursor",
       "versions": {
         "5.4.1-r0": 1777381370,
-        "5.4.4-r0": 1785277706
+        "5.4.4-r0": 1785277706,
+        "5.4.5-r0": 1786058014
       },
       "dependencies": [
         "pdns-recursor-common",
@@ -193944,16 +193948,17 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "pdns-recursor=5.4.4-r0",
-        "cmd:pdns_recursor=5.4.4-r0",
-        "cmd:rec_control=5.4.4-r0"
+        "pdns-recursor=5.4.5-r0",
+        "cmd:pdns_recursor=5.4.5-r0",
+        "cmd:rec_control=5.4.5-r0"
       ]
     },
     "pdns-recursor-openrc": {
       "origin": "pdns-recursor",
       "versions": {
         "5.4.1-r0": 1777381370,
-        "5.4.4-r0": 1785277706
+        "5.4.4-r0": 1785277706,
+        "5.4.5-r0": 1786058014
       }
     },
     "pdns-tools": {
@@ -349543,7 +349548,7 @@
       },
       "pdns-recursor": {
         "package": "pdns-recursor-luajit",
-        "version": "5.4.4-r0"
+        "version": "5.4.5-r0"
       },
       "perl-radiusperl": {
         "package": "perl-authen-radius",
