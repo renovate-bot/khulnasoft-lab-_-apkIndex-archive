@@ -8263,66 +8263,81 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1732229823
 c:e8b63361359a2b585a1f3b31f51b77be173bc412
 
-C:Q1GNs7kpul5f7jGG8oTFFLvi9yZHc=
+C:Q1uIePEOHz4netUxficN4y6L6F3HM=
 P:bubblewrap
-V:0.11.0-r0
+V:0.12.0-r0
 A:ppc64le
-S:29710
-I:133152
+S:31464
+I:133144
 T:Unprivileged sandboxing tool
 U:https://github.com/containers/bubblewrap
-L:LGPL-2.0-or-later
+L:LGPL-2.1-or-later
 o:bubblewrap
-m:Timo Teräs <timo.teras@iki.fi>
-t:1731586528
-c:d2895f756d2858b4430f5de80c2ecc8aae38bd26
+m:omni <omni+alpine@hack.org>
+t:1788264420
+c:f15ff6bad4f17c4d73c8e659dc8d5cd46a70c6cd
 D:so:libc.musl-ppc64le.so.1 so:libcap.so.2
-p:cmd:bwrap=0.11.0-r0
+p:cmd:bwrap=0.12.0-r0
 
-C:Q1OCvZRhZuNTYv+CtCA+Reua/OQis=
+C:Q1kQlibWWM1cKuVbBcIZFhJu947c4=
 P:bubblewrap-bash-completion
-V:0.11.0-r0
+V:0.12.0-r0
 A:ppc64le
-S:1872
+S:1863
 I:1218
 T:Bash completions for bubblewrap
 U:https://github.com/containers/bubblewrap
-L:LGPL-2.0-or-later
+L:LGPL-2.1-or-later
 o:bubblewrap
-m:Timo Teräs <timo.teras@iki.fi>
-t:1731586528
-c:d2895f756d2858b4430f5de80c2ecc8aae38bd26
-i:bubblewrap=0.11.0-r0 bash-completion
+m:omni <omni+alpine@hack.org>
+t:1788264420
+c:f15ff6bad4f17c4d73c8e659dc8d5cd46a70c6cd
+i:bubblewrap=0.12.0-r0 bash-completion
 
-C:Q1pARUotFMe0Hdd2kDZgoj0clj89I=
+C:Q1MiQfdB0sB17933FRUT/YJmDZ3H0=
 P:bubblewrap-doc
-V:0.11.0-r0
+V:0.12.0-r0
 A:ppc64le
-S:7784
-I:6308
+S:8075
+I:6611
 T:Unprivileged sandboxing tool (documentation)
 U:https://github.com/containers/bubblewrap
-L:LGPL-2.0-or-later
+L:LGPL-2.1-or-later
 o:bubblewrap
-m:Timo Teräs <timo.teras@iki.fi>
-t:1731586528
-c:d2895f756d2858b4430f5de80c2ecc8aae38bd26
-i:docs bubblewrap=0.11.0-r0
+m:omni <omni+alpine@hack.org>
+t:1788264420
+c:f15ff6bad4f17c4d73c8e659dc8d5cd46a70c6cd
+i:docs bubblewrap=0.12.0-r0
 
-C:Q1v8XR23QjTq/eBWtNbOj1ijJjIYE=
-P:bubblewrap-zsh-completion
-V:0.11.0-r0
+C:Q1psw82ARAc43MXcPxe2JQ9jjnp2E=
+P:bubblewrap-static
+V:0.12.0-r0
 A:ppc64le
-S:3557
+S:78991
+I:198584
+T:Unprivileged sandboxing tool (static binary)
+U:https://github.com/containers/bubblewrap
+L:LGPL-2.1-or-later
+o:bubblewrap
+m:omni <omni+alpine@hack.org>
+t:1788264420
+c:f15ff6bad4f17c4d73c8e659dc8d5cd46a70c6cd
+p:cmd:bwrap.static=0.12.0-r0
+
+C:Q1IoIJjW0aDoYAZZ/hxMDQaWLTfeA=
+P:bubblewrap-zsh-completion
+V:0.12.0-r0
+A:ppc64le
+S:3549
 I:7396
 T:Zsh completions for bubblewrap
 U:https://github.com/containers/bubblewrap
-L:LGPL-2.0-or-later
+L:LGPL-2.1-or-later
 o:bubblewrap
-m:Timo Teräs <timo.teras@iki.fi>
-t:1731586528
-c:d2895f756d2858b4430f5de80c2ecc8aae38bd26
-i:bubblewrap=0.11.0-r0 zsh
+m:omni <omni+alpine@hack.org>
+t:1788264420
+c:f15ff6bad4f17c4d73c8e659dc8d5cd46a70c6cd
+i:bubblewrap=0.12.0-r0 zsh
 
 C:Q1AizuLAaj4FI0nWCLgOxE0MLP11E=
 P:build-base
@@ -14887,66 +14902,66 @@ m:Laurent Bercot <ska-devel@skarnet.org>
 t:1728551983
 c:3cbf1cf6a95750becc4ff503a3732ab484915191
 
-C:Q14Tnxvcf1Bv/ktVVcJ5kCp4OpY6A=
+C:Q1Eu45np7huK8mFHDYcZ0KbhB8i9Y=
 P:expat
-V:2.8.3-r0
+V:2.8.4-r0
 A:ppc64le
-S:14079
+S:14081
 I:67416
 T:XML Parser library written in C
 U:https://libexpat.github.io/
 L:MIT
 o:expat
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1787129737
-c:ee362f68d68bb00f25de369319d7bd3c3d0d5df1
+t:1788211582
+c:d46a3884017c3c180ea5fa36585135b4da608fcb
 D:so:libc.musl-ppc64le.so.1 so:libexpat.so.1
-p:cmd:xmlwf=2.8.3-r0
+p:cmd:xmlwf=2.8.4-r0
 
-C:Q1dERK1WHtX9wHwaT3D+EgdVn6bJc=
+C:Q1+xDL4RP6png3PTK2mYBES7iqIJA=
 P:expat-dev
-V:2.8.3-r0
+V:2.8.4-r0
 A:ppc64le
-S:21274
+S:21278
 I:67330
 T:XML Parser library written in C (development files)
 U:https://libexpat.github.io/
 L:MIT
 o:expat
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1787129737
-c:ee362f68d68bb00f25de369319d7bd3c3d0d5df1
-D:expat=2.8.3-r0 libexpat=2.8.3-r0 pkgconfig
-p:pc:expat=2.8.3
+t:1788211582
+c:d46a3884017c3c180ea5fa36585135b4da608fcb
+D:expat=2.8.4-r0 libexpat=2.8.4-r0 pkgconfig
+p:pc:expat=2.8.4
 
-C:Q1k/0WGlv1g4bVnNeONd7uQ37qOqE=
+C:Q15A+gI9UgQUbfFQ088xbF9HHooH8=
 P:expat-doc
-V:2.8.3-r0
+V:2.8.4-r0
 A:ppc64le
-S:40189
-I:113592
+S:40851
+I:116758
 T:XML Parser library written in C (documentation)
 U:https://libexpat.github.io/
 L:MIT
 o:expat
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1787129737
-c:ee362f68d68bb00f25de369319d7bd3c3d0d5df1
-i:docs expat=2.8.3-r0
+t:1788211582
+c:d46a3884017c3c180ea5fa36585135b4da608fcb
+i:docs expat=2.8.4-r0
 
-C:Q1T7pNwnrmmiSG3/EKecwM+Zay7WM=
+C:Q1qUNj6v913VQrVDlA4rScLLHOY6M=
 P:expat-static
-V:2.8.3-r0
+V:2.8.4-r0
 A:ppc64le
-S:78136
-I:266280
+S:78622
+I:267896
 T:XML Parser library written in C (static library)
 U:https://libexpat.github.io/
 L:MIT
 o:expat
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1787129737
-c:ee362f68d68bb00f25de369319d7bd3c3d0d5df1
+t:1788211582
+c:d46a3884017c3c180ea5fa36585135b4da608fcb
 
 C:Q1f6NyL6lRrNYHh/xJCLhcpo8LWx4=
 P:expect
@@ -28772,21 +28787,21 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1782941655
 c:3b77c5d07fa02a524a16b63c4215150eb6163546
 
-C:Q1LHEYu+yj6xzveuQ1Zq3M6CjSJN0=
+C:Q1ABKqERhpLClD1hQlEZqoH7ZWaVc=
 P:libexpat
-V:2.8.3-r0
+V:2.8.4-r0
 A:ppc64le
-S:62945
+S:63323
 I:198488
 T:XML Parser library written in C (libraries)
 U:https://libexpat.github.io/
 L:MIT
 o:expat
 m:Carlo Landmeter <clandmeter@alpinelinux.org>
-t:1787129737
-c:ee362f68d68bb00f25de369319d7bd3c3d0d5df1
+t:1788211582
+c:d46a3884017c3c180ea5fa36585135b4da608fcb
 D:so:libc.musl-ppc64le.so.1
-p:so:libexpat.so.1=1.12.3
+p:so:libexpat.so.1=1.12.4
 
 C:Q1woXyaeNgzN5pbimQtoVBcB+p/ec=
 P:libfastjson
