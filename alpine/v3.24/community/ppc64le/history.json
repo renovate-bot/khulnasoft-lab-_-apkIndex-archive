@@ -56958,7 +56958,8 @@
       "versions": {
         "1.35.4-r0": 1777577924,
         "1.35.5-r0": 1780461545,
-        "1.36.0-r0": 1784382179
+        "1.36.0-r0": 1784382179,
+        "1.36.1-r0": 1788701236
       },
       "dependencies": [
         "/bin/sh",
@@ -56972,8 +56973,8 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "unit=1.36.0-r0",
-        "cmd:unitd=1.36.0-r0"
+        "unit=1.36.1-r0",
+        "cmd:unitd=1.36.1-r0"
       ]
     },
     "freeunit-dev": {
@@ -56981,14 +56982,15 @@
       "versions": {
         "1.35.4-r0": 1777577924,
         "1.35.5-r0": 1780461545,
-        "1.36.0-r0": 1784382179
+        "1.36.0-r0": 1784382179,
+        "1.36.1-r0": 1788701236
       },
       "dependencies": [
         "pkgconfig"
       ],
       "provides": [
-        "unit-dev=1.36.0-r0",
-        "pc:unit=1.36.0"
+        "unit-dev=1.36.1-r0",
+        "pc:unit=1.36.1"
       ]
     },
     "freeunit-doc": {
@@ -56996,10 +56998,11 @@
       "versions": {
         "1.35.4-r0": 1777577924,
         "1.35.5-r0": 1780461545,
-        "1.36.0-r0": 1784382179
+        "1.36.0-r0": 1784382179,
+        "1.36.1-r0": 1788701236
       },
       "provides": [
-        "unit-doc=1.36.0-r0"
+        "unit-doc=1.36.1-r0"
       ]
     },
     "freeunit-openrc": {
@@ -57007,13 +57010,14 @@
       "versions": {
         "1.35.4-r0": 1777577924,
         "1.35.5-r0": 1780461545,
-        "1.36.0-r0": 1784382179
+        "1.36.0-r0": 1784382179,
+        "1.36.1-r0": 1788701236
       },
       "dependencies": [
         "curl"
       ],
       "provides": [
-        "unit-openrc=1.36.0-r0"
+        "unit-openrc=1.36.1-r0"
       ]
     },
     "freeunit-perl": {
@@ -57021,15 +57025,16 @@
       "versions": {
         "1.35.4-r0": 1777577924,
         "1.35.5-r0": 1780461545,
-        "1.36.0-r0": 1784382179
+        "1.36.0-r0": 1784382179,
+        "1.36.1-r0": 1788701236
       },
       "dependencies": [
-        "freeunit=1.36.0-r0",
+        "freeunit=1.36.1-r0",
         "so:libc.musl-ppc64le.so.1",
         "so:libperl.so"
       ],
       "provides": [
-        "unit-perl=1.36.0-r0"
+        "unit-perl=1.36.1-r0"
       ]
     },
     "freeunit-php83": {
@@ -57037,15 +57042,16 @@
       "versions": {
         "1.35.4-r0": 1777577924,
         "1.35.5-r0": 1780461545,
-        "1.36.0-r0": 1784382179
+        "1.36.0-r0": 1784382179,
+        "1.36.1-r0": 1788701236
       },
       "dependencies": [
-        "freeunit=1.36.0-r0",
+        "freeunit=1.36.1-r0",
         "so:libc.musl-ppc64le.so.1",
         "so:libphp83.so"
       ],
       "provides": [
-        "unit-php83=1.36.0-r0"
+        "unit-php83=1.36.1-r0"
       ]
     },
     "freeunit-php84": {
@@ -57053,15 +57059,16 @@
       "versions": {
         "1.35.4-r0": 1777577924,
         "1.35.5-r0": 1780461545,
-        "1.36.0-r0": 1784382179
+        "1.36.0-r0": 1784382179,
+        "1.36.1-r0": 1788701236
       },
       "dependencies": [
-        "freeunit=1.36.0-r0",
+        "freeunit=1.36.1-r0",
         "php84-embed",
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "unit-php84=1.36.0-r0"
+        "unit-php84=1.36.1-r0"
       ]
     },
     "freeunit-php85": {
@@ -57069,15 +57076,16 @@
       "versions": {
         "1.35.4-r0": 1777577924,
         "1.35.5-r0": 1780461545,
-        "1.36.0-r0": 1784382179
+        "1.36.0-r0": 1784382179,
+        "1.36.1-r0": 1788701236
       },
       "dependencies": [
-        "freeunit=1.36.0-r0",
+        "freeunit=1.36.1-r0",
         "php85-embed",
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "unit-php85=1.36.0-r0"
+        "unit-php85=1.36.1-r0"
       ]
     },
     "freeunit-python3": {
@@ -57085,15 +57093,16 @@
       "versions": {
         "1.35.4-r0": 1777577924,
         "1.35.5-r0": 1780461545,
-        "1.36.0-r0": 1784382179
+        "1.36.0-r0": 1784382179,
+        "1.36.1-r0": 1788701236
       },
       "dependencies": [
-        "freeunit=1.36.0-r0",
+        "freeunit=1.36.1-r0",
         "so:libc.musl-ppc64le.so.1",
         "so:libpython3.14.so.1.0"
       ],
       "provides": [
-        "unit-python3=1.36.0-r0"
+        "unit-python3=1.36.1-r0"
       ]
     },
     "freeunit-ruby": {
@@ -57101,15 +57110,16 @@
       "versions": {
         "1.35.4-r0": 1777577924,
         "1.35.5-r0": 1780461545,
-        "1.36.0-r0": 1784382179
+        "1.36.0-r0": 1784382179,
+        "1.36.1-r0": 1788701236
       },
       "dependencies": [
-        "freeunit=1.36.0-r0",
+        "freeunit=1.36.1-r0",
         "so:libc.musl-ppc64le.so.1",
         "so:libruby.so.3.4"
       ],
       "provides": [
-        "unit-ruby=1.36.0-r0"
+        "unit-ruby=1.36.1-r0"
       ]
     },
     "freeunit-tools": {
@@ -57117,16 +57127,17 @@
       "versions": {
         "1.35.4-r0": 1777577924,
         "1.35.5-r0": 1780461545,
-        "1.36.0-r0": 1784382179
+        "1.36.0-r0": 1784382179,
+        "1.36.1-r0": 1788701236
       },
       "dependencies": [
         "bash",
         "curl"
       ],
       "provides": [
-        "unit-tools=1.36.0-r0",
-        "cmd:setup-unit=1.36.0-r0",
-        "cmd:unitc=1.36.0-r0"
+        "unit-tools=1.36.1-r0",
+        "cmd:setup-unit=1.36.1-r0",
+        "cmd:unitc=1.36.1-r0"
       ]
     },
     "freexl": {
@@ -261383,7 +261394,8 @@
     "rapidfuzz": {
       "origin": "rapidfuzz",
       "versions": {
-        "3.3.3-r0": 1757611993
+        "3.3.3-r0": 1757611993,
+        "3.3.4-r0": 1788702468
       }
     },
     "rapidjson": {
@@ -338022,47 +338034,47 @@
       },
       "unit": {
         "package": "freeunit",
-        "version": "1.36.0-r0"
+        "version": "1.36.1-r0"
       },
       "unit-dev": {
         "package": "freeunit-dev",
-        "version": "1.36.0-r0"
+        "version": "1.36.1-r0"
       },
       "unit-doc": {
         "package": "freeunit-doc",
-        "version": "1.36.0-r0"
+        "version": "1.36.1-r0"
       },
       "unit-openrc": {
         "package": "freeunit-openrc",
-        "version": "1.36.0-r0"
+        "version": "1.36.1-r0"
       },
       "unit-perl": {
         "package": "freeunit-perl",
-        "version": "1.36.0-r0"
+        "version": "1.36.1-r0"
       },
       "unit-php83": {
         "package": "freeunit-php83",
-        "version": "1.36.0-r0"
+        "version": "1.36.1-r0"
       },
       "unit-php84": {
         "package": "freeunit-php84",
-        "version": "1.36.0-r0"
+        "version": "1.36.1-r0"
       },
       "unit-php85": {
         "package": "freeunit-php85",
-        "version": "1.36.0-r0"
+        "version": "1.36.1-r0"
       },
       "unit-python3": {
         "package": "freeunit-python3",
-        "version": "1.36.0-r0"
+        "version": "1.36.1-r0"
       },
       "unit-ruby": {
         "package": "freeunit-ruby",
-        "version": "1.36.0-r0"
+        "version": "1.36.1-r0"
       },
       "unit-tools": {
         "package": "freeunit-tools",
-        "version": "1.36.0-r0"
+        "version": "1.36.1-r0"
       },
       "exfat": {
         "package": "fuse-exfat",
