@@ -19165,23 +19165,23 @@ c:fc95c59998285564fbcb0bfb2443898c62e10171
 D:so:libc.musl-x86.so.1 so:libevent-2.1.so.7 so:libfstrm.so.0
 p:cmd:fstrm_capture=0.6.1-r4 cmd:fstrm_dump=0.6.1-r4 cmd:fstrm_replay=0.6.1-r4
 
-C:Q1kvn2iwFHvaodV+uVKLMvhl2AKmg=
+C:Q1lgDJymE30x7MjF7AXOcc+wdUtEQ=
 P:fuse-common
-V:3.18.2-r0
+V:3.18.3-r0
 A:x86
-S:1651
+S:1645
 I:216
 T:Common files for fuse2 and fuse3
 U:https://github.com/libfuse/libfuse
 L:GPL-2.0-only AND LGPL-2.1-only
 o:fuse3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1774016109
-c:19abb11201b27c75a38af1815dcd6f0caf4ee686
+t:1788991255
+c:0adb5f52202c5e2d5029f50a27a972479b3d98b5
 
-C:Q1Zynte74KShNAB+va3oBQ2LyRdFE=
+C:Q1p+VaGLct+ZsE3aHLsPfVTwqYJJs=
 P:fuse-openrc
-V:3.18.2-r0
+V:3.18.3-r0
 A:x86
 S:1977
 I:757
@@ -19190,9 +19190,9 @@ U:https://github.com/libfuse/libfuse
 L:GPL-2.0-only AND LGPL-2.1-only
 o:fuse3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1774016109
-c:19abb11201b27c75a38af1815dcd6f0caf4ee686
-i:openrc fuse-common=3.18.2-r0
+t:1788991255
+c:0adb5f52202c5e2d5029f50a27a972479b3d98b5
+i:openrc fuse-common=3.18.3-r0
 
 C:Q1Nh31gBDF1ZLXs+3GYO026OGGpYk=
 P:fuse2fs
@@ -19225,98 +19225,98 @@ t:1773905192
 c:8683a6972cb245fbbdb535dad6435a9930bb9374
 i:fuse2fs=1.47.4-r0 docs
 
-C:Q1heHZJRNTAWf/R74S5Gx06FBlJoY=
+C:Q1Akf17MoOwaNH91h1YkUmpsBvBD8=
 P:fuse3
-V:3.18.2-r0
+V:3.18.3-r0
 A:x86
-S:19269
-I:43780
+S:19989
+I:47880
 T:Reference implementation of the Linux FUSE (Filesystem in Userspace) interface
 U:https://github.com/libfuse/libfuse
 L:GPL-2.0-only AND LGPL-2.1-only
 o:fuse3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1774016109
-c:19abb11201b27c75a38af1815dcd6f0caf4ee686
+t:1788991255
+c:0adb5f52202c5e2d5029f50a27a972479b3d98b5
 D:fuse-common so:libc.musl-x86.so.1 so:libfuse3.so.4
-p:cmd:fusermount3=3.18.2-r0 cmd:mount.fuse3=3.18.2-r0
+p:cmd:fusermount3=3.18.3-r0 cmd:mount.fuse3=3.18.3-r0
 
-C:Q1Xidw7GpEoF8QzigBygUM5t+st3U=
+C:Q1K52XuhBRHsIvraITssnqYAsGwrk=
 P:fuse3-dev
-V:3.18.2-r0
+V:3.18.3-r0
 A:x86
-S:49340
-I:178728
+S:49673
+I:179734
 T:Reference implementation of the Linux FUSE (Filesystem in Userspace) interface (development files)
 U:https://github.com/libfuse/libfuse
 L:GPL-2.0-only AND LGPL-2.1-only
 o:fuse3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1774016109
-c:19abb11201b27c75a38af1815dcd6f0caf4ee686
-D:fuse3-libs=3.18.2-r0 pkgconfig
-p:pc:fuse3=3.18.2
+t:1788991255
+c:0adb5f52202c5e2d5029f50a27a972479b3d98b5
+D:fuse3-libs=3.18.3-r0 pkgconfig
+p:pc:fuse3=3.18.3
 
-C:Q1CC5Yjps5D7rZaR+lgBDN0f/0q/0=
+C:Q1qN8FBOM+S/7sM1LndpSNvSNbu6c=
 P:fuse3-doc
-V:3.18.2-r0
+V:3.18.3-r0
 A:x86
-S:7472
-I:5537
+S:7458
+I:5525
 T:Reference implementation of the Linux FUSE (Filesystem in Userspace) interface (documentation)
 U:https://github.com/libfuse/libfuse
 L:GPL-2.0-only AND LGPL-2.1-only
 o:fuse3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1774016109
-c:19abb11201b27c75a38af1815dcd6f0caf4ee686
-i:docs fuse3=3.18.2-r0
+t:1788991255
+c:0adb5f52202c5e2d5029f50a27a972479b3d98b5
+i:docs fuse3=3.18.3-r0
 
-C:Q1B3P9NXDxkXAPBdF6wD+abKY9zKA=
+C:Q1OSvAfYtDxT/A/W2iF/A/xGRsySM=
 P:fuse3-libs
-V:3.18.2-r0
+V:3.18.3-r0
 A:x86
-S:80236
+S:80534
 I:239096
 T:Reference implementation of the Linux FUSE (Filesystem in Userspace) interface (libraries)
 U:https://github.com/libfuse/libfuse
 L:GPL-2.0-only AND LGPL-2.1-only
 o:fuse3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1774016109
-c:19abb11201b27c75a38af1815dcd6f0caf4ee686
+t:1788991255
+c:0adb5f52202c5e2d5029f50a27a972479b3d98b5
 D:so:libc.musl-x86.so.1
-p:so:libfuse3.so.4=3.18.2
+p:so:libfuse3.so.4=3.18.3
 
-C:Q1bzzpZqXfSwJ5MXih23XJFsl7CEc=
+C:Q1QQuYBdTwjxMBEoVEOOWT89BRn1U=
 P:fuse3-static
-V:3.18.2-r0
+V:3.18.3-r0
 A:x86
-S:95984
-I:315300
+S:96370
+I:315840
 T:Reference implementation of the Linux FUSE (Filesystem in Userspace) interface (static library)
 U:https://github.com/libfuse/libfuse
 L:GPL-2.0-only AND LGPL-2.1-only
 o:fuse3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1774016109
-c:19abb11201b27c75a38af1815dcd6f0caf4ee686
+t:1788991255
+c:0adb5f52202c5e2d5029f50a27a972479b3d98b5
 D:fuse3-dev
 
-C:Q14IJN1IMH+3Ibhmw+jTBfZ+10MPk=
+C:Q1eoN1MNvKlreHykH2AmqVndM1Lgw=
 P:fuse3-udev
-V:3.18.2-r0
+V:3.18.3-r0
 A:x86
-S:1702
+S:1699
 I:28
 T:Reference implementation of the Linux FUSE (Filesystem in Userspace) interface (udev rules)
 U:https://github.com/libfuse/libfuse
 L:GPL-2.0-only AND LGPL-2.1-only
 o:fuse3
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1774016109
-c:19abb11201b27c75a38af1815dcd6f0caf4ee686
-i:udev fuse3=3.18.2-r0
+t:1788991255
+c:0adb5f52202c5e2d5029f50a27a972479b3d98b5
+i:udev fuse3=3.18.3-r0
 
 C:Q1fnLyYdo5fasQ/2xU12rQtVR1P/M=
 P:g++
@@ -91122,82 +91122,82 @@ t:1772466579
 c:3b2e469e223a5cb31932b1eae30c266e26b30148
 D:xxhash-dev
 
-C:Q1ZpBel3grpccoj/8QFeq44Q1WRcI=
+C:Q1cFX5NsYpVRX63+aBHo5l/9e1hLk=
 P:xz
-V:5.8.3-r0
+V:5.8.4-r0
 A:x86
-S:72830
-I:184415
+S:73093
+I:184477
 T:Library and CLI tools for XZ and LZMA compressed files
 U:https://tukaani.org/xz/
 L:GPL-2.0-or-later AND 0BSD AND Public-Domain AND LGPL-2.1-or-later
 o:xz
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1777121610
-c:ce9944f1daadb681dd6f0f81a06e9cce97127377
+t:1788989067
+c:0c088d609f9fe69eedd6b4c7f4b99cdad847c20a
 D:so:libc.musl-x86.so.1 so:liblzma.so.5
-p:cmd:lzcat=5.8.3-r0 cmd:lzcmp=5.8.3-r0 cmd:lzdiff=5.8.3-r0 cmd:lzegrep=5.8.3-r0 cmd:lzfgrep=5.8.3-r0 cmd:lzgrep=5.8.3-r0 cmd:lzless=5.8.3-r0 cmd:lzma=5.8.3-r0 cmd:lzmadec=5.8.3-r0 cmd:lzmainfo=5.8.3-r0 cmd:lzmore=5.8.3-r0 cmd:unlzma=5.8.3-r0 cmd:unxz=5.8.3-r0 cmd:xz=5.8.3-r0 cmd:xzcat=5.8.3-r0 cmd:xzcmp=5.8.3-r0 cmd:xzdec=5.8.3-r0 cmd:xzdiff=5.8.3-r0 cmd:xzegrep=5.8.3-r0 cmd:xzfgrep=5.8.3-r0 cmd:xzgrep=5.8.3-r0 cmd:xzless=5.8.3-r0 cmd:xzmore=5.8.3-r0
+p:cmd:lzcat=5.8.4-r0 cmd:lzcmp=5.8.4-r0 cmd:lzdiff=5.8.4-r0 cmd:lzegrep=5.8.4-r0 cmd:lzfgrep=5.8.4-r0 cmd:lzgrep=5.8.4-r0 cmd:lzless=5.8.4-r0 cmd:lzma=5.8.4-r0 cmd:lzmadec=5.8.4-r0 cmd:lzmainfo=5.8.4-r0 cmd:lzmore=5.8.4-r0 cmd:unlzma=5.8.4-r0 cmd:unxz=5.8.4-r0 cmd:xz=5.8.4-r0 cmd:xzcat=5.8.4-r0 cmd:xzcmp=5.8.4-r0 cmd:xzdec=5.8.4-r0 cmd:xzdiff=5.8.4-r0 cmd:xzegrep=5.8.4-r0 cmd:xzfgrep=5.8.4-r0 cmd:xzgrep=5.8.4-r0 cmd:xzless=5.8.4-r0 cmd:xzmore=5.8.4-r0
 
-C:Q1nP3+8Yti0cJVjvWfFKVuTqZWfLk=
+C:Q1e1fxVR/20MhRXY1daVrz9OLjXR0=
 P:xz-dev
-V:5.8.3-r0
+V:5.8.4-r0
 A:x86
-S:56189
-I:229926
+S:56201
+I:229955
 T:Library and CLI tools for XZ and LZMA compressed files (development files)
 U:https://tukaani.org/xz/
 L:GPL-2.0-or-later AND 0BSD AND Public-Domain AND LGPL-2.1-or-later
 o:xz
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1777121610
-c:ce9944f1daadb681dd6f0f81a06e9cce97127377
-D:xz=5.8.3-r0 xz-libs=5.8.3-r0 pkgconfig
-p:pc:liblzma=5.8.3
+t:1788989067
+c:0c088d609f9fe69eedd6b4c7f4b99cdad847c20a
+D:xz=5.8.4-r0 xz-libs=5.8.4-r0 pkgconfig
+p:pc:liblzma=5.8.4
 
-C:Q13auljkro72uv/+NczjZYezXnc8s=
+C:Q1bbGDBA8fG6GyFF30E6hevSfay+I=
 P:xz-doc
-V:5.8.3-r0
+V:5.8.4-r0
 A:x86
-S:32564
-I:29212
+S:32548
+I:29195
 T:Library and CLI tools for XZ and LZMA compressed files (documentation)
 U:https://tukaani.org/xz/
 L:GPL-2.0-or-later AND 0BSD AND Public-Domain AND LGPL-2.1-or-later
 o:xz
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1777121610
-c:ce9944f1daadb681dd6f0f81a06e9cce97127377
-i:docs xz=5.8.3-r0
+t:1788989067
+c:0c088d609f9fe69eedd6b4c7f4b99cdad847c20a
+i:docs xz=5.8.4-r0
 
-C:Q1is52Pt5z3/ZwRX7NpE9ZejgUhO4=
+C:Q19hQ3vl5ALwopoXjyh4HPG4ajoEg=
 P:xz-libs
-V:5.8.3-r0
+V:5.8.4-r0
 A:x86
-S:133283
+S:134098
 I:259536
 T:Library and CLI tools for XZ and LZMA compressed files (libraries)
 U:https://tukaani.org/xz/
 L:GPL-2.0-or-later AND 0BSD AND Public-Domain AND LGPL-2.1-or-later
 o:xz
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1777121610
-c:ce9944f1daadb681dd6f0f81a06e9cce97127377
+t:1788989067
+c:0c088d609f9fe69eedd6b4c7f4b99cdad847c20a
 D:so:libc.musl-x86.so.1
-p:so:liblzma.so.5=5.8.3
+p:so:liblzma.so.5=5.8.4
 
-C:Q1fSL2bObbJCq8uBryLec0MD2X5C0=
+C:Q1xH+OhytTNn4GsIXk7fD/IbWVvfE=
 P:xz-static
-V:5.8.3-r0
+V:5.8.4-r0
 A:x86
-S:164786
-I:417584
+S:165699
+I:419504
 T:Library and CLI tools for XZ and LZMA compressed files (static library)
 U:https://tukaani.org/xz/
 L:GPL-2.0-or-later AND 0BSD AND Public-Domain AND LGPL-2.1-or-later
 o:xz
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1777121610
-c:ce9944f1daadb681dd6f0f81a06e9cce97127377
+t:1788989067
+c:0c088d609f9fe69eedd6b4c7f4b99cdad847c20a
 D:xz-dev
 
 C:Q1apcKaMmzqSwzQtmGHtq+t9IRhxM=
