@@ -6414,13 +6414,14 @@
       "versions": {
         "10.0.8-r0": 1778744951,
         "10.0.9-r0": 1781222074,
-        "10.0.10-r0": 1784581796
+        "10.0.10-r0": 1784581796,
+        "10.0.12-r0": 1789071338
       },
       "dependencies": [
         "dotnet10-runtime"
       ],
       "provides": [
-        "aspnetcore-runtime-10.0=10.0.10-r0"
+        "aspnetcore-runtime-10.0=10.0.12-r0"
       ]
     },
     "aspnetcore10-runtime-dbg": {
@@ -6428,13 +6429,14 @@
       "versions": {
         "10.0.8-r0": 1778744951,
         "10.0.9-r0": 1781222074,
-        "10.0.10-r0": 1784581796
+        "10.0.10-r0": 1784581796,
+        "10.0.12-r0": 1789071338
       },
       "dependencies": [
         "aspnetcore10-runtime"
       ],
       "provides": [
-        "aspnetcore-runtime-dbg-10.0=10.0.10-r0"
+        "aspnetcore-runtime-dbg-10.0=10.0.12-r0"
       ]
     },
     "aspnetcore10-targeting-pack": {
@@ -6442,7 +6444,8 @@
       "versions": {
         "10.0.8-r0": 1778744951,
         "10.0.9-r0": 1781222074,
-        "10.0.10-r0": 1784581796
+        "10.0.10-r0": 1784581796,
+        "10.0.12-r0": 1789071338
       },
       "dependencies": [
         "dotnet10-hostfxr",
@@ -6450,7 +6453,7 @@
         "icu-libs"
       ],
       "provides": [
-        "aspnetcore-targeting-pack-10.0=10.0.10-r0"
+        "aspnetcore-targeting-pack-10.0=10.0.12-r0"
       ]
     },
     "aspnetcore8-runtime": {
@@ -40400,7 +40403,8 @@
         "10.0.302-r0": 1784581796,
         "10.0.302-r1": 1786482482,
         "8.0.131-r0": 1789067182,
-        "9.0.121-r0": 1789063354
+        "9.0.121-r0": 1789063354,
+        "10.0.303-r0": 1789071338
       },
       "dependencies": [
         "dotnet-host"
@@ -40419,7 +40423,8 @@
         "10.0.302-r0": 1784581796,
         "10.0.302-r1": 1786482482,
         "8.0.131-r0": 1789067182,
-        "9.0.121-r0": 1789063354
+        "9.0.121-r0": 1789063354,
+        "10.0.303-r0": 1789071338
       }
     },
     "dotnet-host": {
@@ -40434,7 +40439,8 @@
         "8.0.29-r0": 1784563993,
         "10.0.10-r0": 1784581796,
         "8.0.31-r0": 1789067182,
-        "9.0.20-r0": 1789063354
+        "9.0.20-r0": 1789063354,
+        "10.0.12-r0": 1789071338
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -40442,8 +40448,8 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:dnx=10.0.10-r0",
-        "cmd:dotnet=10.0.10-r0"
+        "cmd:dnx=10.0.12-r0",
+        "cmd:dotnet=10.0.12-r0"
       ]
     },
     "dotnet-zsh-completion": {
@@ -40459,7 +40465,8 @@
         "10.0.302-r0": 1784581796,
         "10.0.302-r1": 1786482482,
         "8.0.131-r0": 1789067182,
-        "9.0.121-r0": 1789063354
+        "9.0.121-r0": 1789063354,
+        "10.0.303-r0": 1789071338
       },
       "dependencies": [
         "dotnet-host"
@@ -40470,7 +40477,8 @@
       "versions": {
         "10.0.8-r0": 1778744951,
         "10.0.9-r0": 1781222074,
-        "10.0.10-r0": 1784581796
+        "10.0.10-r0": 1784581796,
+        "10.0.12-r0": 1789071338
       },
       "dependencies": [
         "dotnet10-hostfxr",
@@ -40486,7 +40494,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "dotnet-apphost-pack-10.0=10.0.10-r0",
+        "dotnet-apphost-pack-10.0=10.0.12-r0",
         "so:dotnet10:libnethost.so=0"
       ]
     },
@@ -40495,7 +40503,8 @@
       "versions": {
         "10.0.8-r0": 1778744951,
         "10.0.9-r0": 1781222074,
-        "10.0.10-r0": 1784581796
+        "10.0.10-r0": 1784581796,
+        "10.0.12-r0": 1789071338
       },
       "dependencies": [
         "dotnet-host",
@@ -40504,7 +40513,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "dotnet-hostfxr-10.0=10.0.10-r0",
+        "dotnet-hostfxr-10.0=10.0.12-r0",
         "so:dotnet10:libhostfxr.so=0"
       ]
     },
@@ -40513,7 +40522,8 @@
       "versions": {
         "10.0.8-r0": 1778744951,
         "10.0.9-r0": 1781222074,
-        "10.0.10-r0": 1784581796
+        "10.0.10-r0": 1784581796,
+        "10.0.12-r0": 1789071338
       },
       "dependencies": [
         "dotnet10-hostfxr",
@@ -40530,7 +40540,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "dotnet10=10.0.10-r0",
+        "dotnet10=10.0.12-r0",
         "so:dotnet10:libSystem.Globalization.Native.so=0",
         "so:dotnet10:libSystem.IO.Compression.Native.so=0",
         "so:dotnet10:libSystem.Native.so=0",
@@ -40551,7 +40561,8 @@
       "versions": {
         "10.0.8-r0": 1778744951,
         "10.0.9-r0": 1781222074,
-        "10.0.10-r0": 1784581796
+        "10.0.10-r0": 1784581796,
+        "10.0.12-r0": 1789071338
       },
       "provides": [
         "dotnet10-bootstrap-artifacts"
@@ -40562,7 +40573,8 @@
       "versions": {
         "10.0.8-r0": 1778744951,
         "10.0.9-r0": 1781222074,
-        "10.0.10-r0": 1784581796
+        "10.0.10-r0": 1784581796,
+        "10.0.12-r0": 1789071338
       },
       "dependencies": [
         "so:libbrotlidec.so.1",
@@ -40605,13 +40617,14 @@
       "versions": {
         "10.0.8-r0": 1778744951,
         "10.0.9-r0": 1781222074,
-        "10.0.10-r0": 1784581796
+        "10.0.10-r0": 1784581796,
+        "10.0.12-r0": 1789071338
       },
       "dependencies": [
         "dotnet10-runtime"
       ],
       "provides": [
-        "dotnet-runtime-dbg-10.0=10.0.10-r0"
+        "dotnet-runtime-dbg-10.0=10.0.12-r0"
       ]
     },
     "dotnet10-sdk": {
@@ -40620,7 +40633,8 @@
         "10.0.204-r0": 1778744951,
         "10.0.301-r0": 1781222074,
         "10.0.302-r0": 1784581796,
-        "10.0.302-r1": 1786482482
+        "10.0.302-r1": 1786482482,
+        "10.0.303-r0": 1789071338
       },
       "dependencies": [
         "aspnetcore10-runtime",
@@ -40639,8 +40653,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "dotnet-sdk-10.0=10.0.302-r1",
-        "dotnet10-dev=10.0.302-r1"
+        "dotnet-sdk-10.0=10.0.303-r0",
+        "dotnet10-dev=10.0.303-r0"
       ]
     },
     "dotnet10-sdk-aot": {
@@ -40649,7 +40663,8 @@
         "10.0.204-r0": 1778744951,
         "10.0.301-r0": 1781222074,
         "10.0.302-r0": 1784581796,
-        "10.0.302-r1": 1786482482
+        "10.0.302-r1": 1786482482,
+        "10.0.303-r0": 1789071338
       },
       "dependencies": [
         "dotnet10-sdk",
@@ -40667,7 +40682,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "dotnet-sdk-aot-10.0=10.0.302-r1"
+        "dotnet-sdk-aot-10.0=10.0.303-r0"
       ]
     },
     "dotnet10-sdk-dbg": {
@@ -40676,13 +40691,14 @@
         "10.0.204-r0": 1778744951,
         "10.0.301-r0": 1781222074,
         "10.0.302-r0": 1784581796,
-        "10.0.302-r1": 1786482482
+        "10.0.302-r1": 1786482482,
+        "10.0.303-r0": 1789071338
       },
       "dependencies": [
         "dotnet10-sdk"
       ],
       "provides": [
-        "dotnet-sdk-dbg-10.0=10.0.302-r1"
+        "dotnet-sdk-dbg-10.0=10.0.303-r0"
       ]
     },
     "dotnet10-stage0": {
@@ -40734,7 +40750,8 @@
       "versions": {
         "10.0.8-r0": 1778744951,
         "10.0.9-r0": 1781222074,
-        "10.0.10-r0": 1784581796
+        "10.0.10-r0": 1784581796,
+        "10.0.12-r0": 1789071338
       },
       "dependencies": [
         "dotnet10-hostfxr",
@@ -40742,7 +40759,7 @@
         "icu-libs"
       ],
       "provides": [
-        "dotnet-targeting-pack-10.0=10.0.10-r0"
+        "dotnet-targeting-pack-10.0=10.0.12-r0"
       ]
     },
     "dotnet10-templates": {
@@ -40751,13 +40768,14 @@
         "10.0.204-r0": 1778744951,
         "10.0.301-r0": 1781222074,
         "10.0.302-r0": 1784581796,
-        "10.0.302-r1": 1786482482
+        "10.0.302-r1": 1786482482,
+        "10.0.303-r0": 1789071338
       },
       "dependencies": [
         "dotnet-host"
       ],
       "provides": [
-        "dotnet-templates-10.0=10.0.302-r1"
+        "dotnet-templates-10.0=10.0.303-r0"
       ]
     },
     "dotnet8-apphost-pack": {
@@ -351390,15 +351408,15 @@
       },
       "aspnetcore-runtime-10.0": {
         "package": "aspnetcore10-runtime",
-        "version": "10.0.10-r0"
+        "version": "10.0.12-r0"
       },
       "aspnetcore-runtime-dbg-10.0": {
         "package": "aspnetcore10-runtime-dbg",
-        "version": "10.0.10-r0"
+        "version": "10.0.12-r0"
       },
       "aspnetcore-targeting-pack-10.0": {
         "package": "aspnetcore10-targeting-pack",
-        "version": "10.0.10-r0"
+        "version": "10.0.12-r0"
       },
       "aspnetcore-runtime-8.0": {
         "package": "aspnetcore8-runtime",
@@ -351626,15 +351644,15 @@
       },
       "dotnet-apphost-pack-10.0": {
         "package": "dotnet10-apphost-pack",
-        "version": "10.0.10-r0"
+        "version": "10.0.12-r0"
       },
       "dotnet-hostfxr-10.0": {
         "package": "dotnet10-hostfxr",
-        "version": "10.0.10-r0"
+        "version": "10.0.12-r0"
       },
       "dotnet10": {
         "package": "dotnet10-runtime",
-        "version": "10.0.10-r0"
+        "version": "10.0.12-r0"
       },
       "dotnet10-bootstrap-artifacts": {
         "package": "dotnet10-stage0-artifacts",
@@ -351646,31 +351664,31 @@
       },
       "dotnet-runtime-dbg-10.0": {
         "package": "dotnet10-runtime-dbg",
-        "version": "10.0.10-r0"
+        "version": "10.0.12-r0"
       },
       "dotnet-sdk-10.0": {
         "package": "dotnet10-sdk",
-        "version": "10.0.302-r1"
+        "version": "10.0.303-r0"
       },
       "dotnet10-dev": {
         "package": "dotnet10-sdk",
-        "version": "10.0.302-r1"
+        "version": "10.0.303-r0"
       },
       "dotnet-sdk-aot-10.0": {
         "package": "dotnet10-sdk-aot",
-        "version": "10.0.302-r1"
+        "version": "10.0.303-r0"
       },
       "dotnet-sdk-dbg-10.0": {
         "package": "dotnet10-sdk-dbg",
-        "version": "10.0.302-r1"
+        "version": "10.0.303-r0"
       },
       "dotnet-targeting-pack-10.0": {
         "package": "dotnet10-targeting-pack",
-        "version": "10.0.10-r0"
+        "version": "10.0.12-r0"
       },
       "dotnet-templates-10.0": {
         "package": "dotnet10-templates",
-        "version": "10.0.302-r1"
+        "version": "10.0.303-r0"
       },
       "dotnet-apphost-pack-8.0": {
         "package": "dotnet8-apphost-pack",
