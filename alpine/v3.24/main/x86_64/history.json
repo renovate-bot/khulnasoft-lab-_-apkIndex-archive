@@ -25642,7 +25642,8 @@
       "versions": {
         "3.5.6-r0": 1775657325,
         "3.5.7-r0": 1781079962,
-        "3.5.8-r0": 1787691537
+        "3.5.8-r0": 1787691537,
+        "3.5.9-r0": 1790752173
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1"
@@ -29667,10 +29668,11 @@
       "versions": {
         "3.5.6-r0": 1775657325,
         "3.5.7-r0": 1781079962,
-        "3.5.8-r0": 1787691537
+        "3.5.8-r0": 1787691537,
+        "3.5.9-r0": 1790752173
       },
       "dependencies": [
-        "libcrypto3=3.5.8-r0",
+        "libcrypto3=3.5.9-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libcrypto.so.3"
       ],
@@ -48506,18 +48508,19 @@
       "versions": {
         "3.5.6-r0": 1775657325,
         "3.5.7-r0": 1781079962,
-        "3.5.8-r0": 1787691537
+        "3.5.8-r0": 1787691537,
+        "3.5.9-r0": 1790752173
       },
       "dependencies": [
-        "libssl3=3.5.8-r0",
-        "libcrypto3=3.5.8-r0",
+        "libssl3=3.5.9-r0",
+        "libcrypto3=3.5.9-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libcrypto.so.3",
         "so:libssl.so.3"
       ],
       "provides": [
-        "openssl3=3.5.8-r0",
-        "cmd:openssl=3.5.8-r0"
+        "openssl3=3.5.9-r0",
+        "cmd:openssl=3.5.9-r0"
       ]
     },
     "openssl-dbg": {
@@ -48525,17 +48528,18 @@
       "versions": {
         "3.5.6-r0": 1775657325,
         "3.5.7-r0": 1781079962,
-        "3.5.8-r0": 1787691537
+        "3.5.8-r0": 1787691537,
+        "3.5.9-r0": 1790752173
       },
       "dependencies": [
-        "!libcrypto3<3.5.8-r0",
-        "!libcrypto3>3.5.8-r0",
-        "!libssl3<3.5.8-r0",
-        "!libssl3>3.5.8-r0",
-        "!openssl-fips<3.5.8-r0",
-        "!openssl-fips>3.5.8-r0",
-        "!openssl<3.5.8-r0",
-        "!openssl>3.5.8-r0"
+        "!libcrypto3<3.5.9-r0",
+        "!libcrypto3>3.5.9-r0",
+        "!libssl3<3.5.9-r0",
+        "!libssl3>3.5.9-r0",
+        "!openssl-fips<3.5.9-r0",
+        "!openssl-fips>3.5.9-r0",
+        "!openssl<3.5.9-r0",
+        "!openssl>3.5.9-r0"
       ]
     },
     "openssl-dev": {
@@ -48543,18 +48547,19 @@
       "versions": {
         "3.5.6-r0": 1775657325,
         "3.5.7-r0": 1781079962,
-        "3.5.8-r0": 1787691537
+        "3.5.8-r0": 1787691537,
+        "3.5.9-r0": 1790752173
       },
       "dependencies": [
-        "libcrypto3=3.5.8-r0",
-        "libssl3=3.5.8-r0",
+        "libcrypto3=3.5.9-r0",
+        "libssl3=3.5.9-r0",
         "pkgconfig"
       ],
       "provides": [
-        "openssl3-dev=3.5.8-r0",
-        "pc:libcrypto=3.5.8",
-        "pc:libssl=3.5.8",
-        "pc:openssl=3.5.8"
+        "openssl3-dev=3.5.9-r0",
+        "pc:libcrypto=3.5.9",
+        "pc:libssl=3.5.9",
+        "pc:openssl=3.5.9"
       ]
     },
     "openssl-doc": {
@@ -48562,7 +48567,8 @@
       "versions": {
         "3.5.6-r0": 1775657325,
         "3.5.7-r0": 1781079962,
-        "3.5.8-r0": 1787691537
+        "3.5.8-r0": 1787691537,
+        "3.5.9-r0": 1790752173
       }
     },
     "openssl-fips": {
@@ -48570,11 +48576,12 @@
       "versions": {
         "3.5.6-r0": 1775657325,
         "3.5.7-r0": 1781079962,
-        "3.5.8-r0": 1787691537
+        "3.5.8-r0": 1787691537,
+        "3.5.9-r0": 1790752173
       },
       "dependencies": [
-        "libssl3=3.5.8-r0",
-        "libcrypto3=3.5.8-r0",
+        "libssl3=3.5.9-r0",
+        "libcrypto3=3.5.9-r0",
         "/bin/sh",
         "so:libc.musl-x86_64.so.1"
       ]
@@ -48584,7 +48591,8 @@
       "versions": {
         "3.5.6-r0": 1775657325,
         "3.5.7-r0": 1781079962,
-        "3.5.8-r0": 1787691537
+        "3.5.8-r0": 1787691537,
+        "3.5.9-r0": 1790752173
       },
       "dependencies": [
         "openssl-dev"
@@ -48595,10 +48603,11 @@
       "versions": {
         "3.5.6-r0": 1775657325,
         "3.5.7-r0": 1781079962,
-        "3.5.8-r0": 1787691537
+        "3.5.8-r0": 1787691537,
+        "3.5.9-r0": 1790752173
       },
       "dependencies": [
-        "openssl=3.5.8-r0",
+        "openssl=3.5.9-r0",
         "perl"
       ]
     },
@@ -77334,11 +77343,11 @@
       },
       "openssl3": {
         "package": "openssl",
-        "version": "3.5.8-r0"
+        "version": "3.5.9-r0"
       },
       "openssl3-dev": {
         "package": "openssl-dev",
-        "version": "3.5.8-r0"
+        "version": "3.5.9-r0"
       },
       "perl-scalar-list-utils": {
         "package": "perl",
