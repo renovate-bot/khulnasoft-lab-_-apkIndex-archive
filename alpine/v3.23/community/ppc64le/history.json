@@ -107532,7 +107532,8 @@
       "origin": "lagrange",
       "versions": {
         "1.19.4-r0": 1764280216,
-        "1.21.1-r0": 1788658730
+        "1.21.1-r0": 1788658730,
+        "1.21.2-r0": 1790811779
       },
       "dependencies": [
         "so:libSDL2-2.0.so.0",
@@ -107550,26 +107551,28 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:clagrange=1.21.1-r0",
-        "cmd:lagrange=1.21.1-r0"
+        "cmd:clagrange=1.21.2-r0",
+        "cmd:lagrange=1.21.2-r0"
       ]
     },
     "lagrange-dbg": {
       "origin": "lagrange",
       "versions": {
         "1.19.4-r0": 1764280216,
-        "1.21.1-r0": 1788658730
+        "1.21.1-r0": 1788658730,
+        "1.21.2-r0": 1790811779
       },
       "dependencies": [
-        "!lagrange<1.21.1-r0",
-        "!lagrange>1.21.1-r0"
+        "!lagrange<1.21.2-r0",
+        "!lagrange>1.21.2-r0"
       ]
     },
     "lagrange-doc": {
       "origin": "lagrange",
       "versions": {
         "1.19.4-r0": 1764280216,
-        "1.21.1-r0": 1788658730
+        "1.21.1-r0": 1788658730,
+        "1.21.2-r0": 1790811779
       }
     },
     "lapack": {
@@ -275551,7 +275554,8 @@
     "tmux-rime": {
       "origin": "tmux-rime",
       "versions": {
-        "0.0.5-r0": 1760930411
+        "0.0.5-r0": 1760930411,
+        "0.0.6-r0": 1790813059
       },
       "dependencies": [
         "tmux",
@@ -275560,13 +275564,14 @@
         "so:librime.so.1"
       ],
       "provides": [
-        "cmd:tmux-rime=0.0.5-r0"
+        "cmd:tmux-rime=0.0.6-r0"
       ]
     },
     "tmux-rime-dev": {
       "origin": "tmux-rime",
       "versions": {
-        "0.0.5-r0": 1760930411
+        "0.0.5-r0": 1760930411,
+        "0.0.6-r0": 1790813059
       }
     },
     "tmuxinator": {
