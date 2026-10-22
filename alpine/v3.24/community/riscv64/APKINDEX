@@ -160043,20 +160043,20 @@ t:1712006756
 c:d3ac5cbcf744a2f2584e79818e5934eccd215900
 i:openrc nftlb=1.0.9-r0
 
-C:Q1jW6SA9gUBw8yv5bKOq4i2qEOapI=
+C:Q1N2fu/NX7CnnST2nUTcZRq6B2BHg=
 P:nginx-mod-http-acme
-V:0.4.1-r4
+V:0.4.1-r5
 A:riscv64
-S:429550
+S:429551
 I:793647
 T:NGINX module implementing automatic certificate management (ACMEv2) protocol
 U:https://github.com/nginx/nginx-acme
 L:Apache-2.0
 o:nginx-mod-http-acme
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1785098410
-c:cad6df99415699ad0a0f58056d3d8b9fc07917ca
-D:nginx~1.30.4 so:libc.musl-riscv64.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
+t:1792666732
+c:f24c07e962ba5de8a96b47ff956fef93cb54c304
+D:nginx~1.30.6 so:libc.musl-riscv64.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libssl.so.3
 
 C:Q1Bhh0+UW8/uma8txCGkJpFAenqSY=
 P:ngspice
@@ -271864,66 +271864,66 @@ c:fdde268d531c68a6502c7d173731ca91e5f9aaca
 D:rustls-ffi=0.15.3-r2 pkgconfig
 p:pc:rustls=0.15.3
 
-C:Q1TQAZrvD6SMASLFKjWG6mIu6KH5w=
+C:Q1gfzWVX5XxOzaLAM4kMkOhydNEic=
 P:rustup
-V:1.29.0-r0
+V:1.29.2-r0
 A:riscv64
-S:2512606
-I:5703864
+S:2534736
+I:5466864
 T:Rust toolchain installer
 U:https://rustup.rs/
 L:Apache-2.0
 o:rustup
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775552057
-c:9fc7718906568cf0f33408333c5533c24d12dda9
+t:1792669434
+c:220a7ab3ba8de1c79bffebd42c2f86a9baff6b2f
 D:so:libc.musl-riscv64.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libgcc_s.so.1 so:libssl.so.3 so:libzstd.so.1
-p:cmd:rustup-init=1.29.0-r0
+p:cmd:rustup-init=1.29.2-r0
 
-C:Q17YaXyAoo1SJBoxoWWso1c/OzLuI=
+C:Q1q+49LJRPOIzkXfmiQmhuLaNS14U=
 P:rustup-bash-completion
-V:1.29.0-r0
+V:1.29.2-r0
 A:riscv64
-S:4533
-I:72835
+S:4518
+I:78593
 T:Bash completions for rustup
 U:https://rustup.rs/
 L:Apache-2.0
 o:rustup
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775552057
-c:9fc7718906568cf0f33408333c5533c24d12dda9
-i:rustup=1.29.0-r0 bash-completion
+t:1792669434
+c:220a7ab3ba8de1c79bffebd42c2f86a9baff6b2f
+i:rustup=1.29.2-r0 bash-completion
 
-C:Q1B/Yzq5/zuZNHZXKCf5ukkh07vM8=
+C:Q1R0JIFY9WOiZ3S2xSo/4Ix7Herl0=
 P:rustup-fish-completion
-V:1.29.0-r0
+V:1.29.2-r0
 A:riscv64
-S:4813
-I:39539
+S:4920
+I:40079
 T:Fish completions for rustup
 U:https://rustup.rs/
 L:Apache-2.0
 o:rustup
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775552057
-c:9fc7718906568cf0f33408333c5533c24d12dda9
-i:rustup=1.29.0-r0 fish
+t:1792669434
+c:220a7ab3ba8de1c79bffebd42c2f86a9baff6b2f
+i:rustup=1.29.2-r0 fish
 
-C:Q12lRaHPFUMuyPTat+pMgM2rPdAVc=
+C:Q1oLgQKzfW+WL+D/vUiPsHZrK53qQ=
 P:rustup-zsh-completion
-V:1.29.0-r0
+V:1.29.2-r0
 A:riscv64
-S:6556
-I:57174
+S:6660
+I:62164
 T:Zsh completions for rustup
 U:https://rustup.rs/
 L:Apache-2.0
 o:rustup
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1775552057
-c:9fc7718906568cf0f33408333c5533c24d12dda9
-i:rustup=1.29.0-r0 zsh
+t:1792669434
+c:220a7ab3ba8de1c79bffebd42c2f86a9baff6b2f
+i:rustup=1.29.2-r0 zsh
 
 C:Q1mUhClDNZlu6lbkNnR1B4Nc2lNao=
 P:rustypaste
@@ -289063,81 +289063,81 @@ t:1761091090
 c:0e59472724e858b92853355c1308861abaa5fb2d
 i:task=2.6.2-r2 zsh
 
-C:Q12sWtehf7h77Kc3w5x/LOhqvuve0=
+C:Q1P03nXmMcl/lXWB2qF03v5wot9dk=
 P:task3
-V:3.4.2-r0
+V:3.4.2-r1
 A:riscv64
-S:4649498
-I:8853480
+S:4632789
+I:8816616
 T:Command-line to-do list manager
 U:https://taskwarrior.org
 L:MIT
 o:task3
 m:mio <miyopan@e.email>
-t:1761264741
-c:fa273e8f6e2e0a9cf432e71923381efabb34df6b
+t:1792680417
+c:2f7cf36f2ec208bb95d5ba56ae115dc3abc74591
 D:/bin/sh so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libuuid.so.1
-p:cmd:task=3.4.2-r0
+p:cmd:task=3.4.2-r1
 
-C:Q1ab/dT8EZH3VfmJelIYnhm4RAXJc=
+C:Q1JJo4Bc36si7Eigb/YM3p63YInB4=
 P:task3-bash-completion
-V:3.4.2-r0
+V:3.4.2-r1
 A:riscv64
-S:3348
+S:3350
 I:6614
 T:Bash completions for task3
 U:https://taskwarrior.org
 L:MIT
 o:task3
 m:mio <miyopan@e.email>
-t:1761264741
-c:fa273e8f6e2e0a9cf432e71923381efabb34df6b
-i:task3=3.4.2-r0 bash-completion
+t:1792680417
+c:2f7cf36f2ec208bb95d5ba56ae115dc3abc74591
+i:task3=3.4.2-r1 bash-completion
 
-C:Q12h9ZhYAtEEF+aUCZBwwILWNpzRw=
+C:Q1KVSTBr2yxyK0ZG28vz7/kTY4yPo=
 P:task3-doc
-V:3.4.2-r0
+V:3.4.2-r1
 A:riscv64
-S:250692
+S:250686
 I:555178
 T:Command-line to-do list manager (documentation)
 U:https://taskwarrior.org
 L:MIT
 o:task3
 m:mio <miyopan@e.email>
-t:1761264741
-c:fa273e8f6e2e0a9cf432e71923381efabb34df6b
-i:docs task3=3.4.2-r0
+t:1792680417
+c:2f7cf36f2ec208bb95d5ba56ae115dc3abc74591
+i:docs task3=3.4.2-r1
 
-C:Q18NCtuzGoqa+CQ4uLNFdJWqHWOhA=
+C:Q1lSLjN5/Wu/JGdcYvqFDs1zQ0k9s=
 P:task3-fish-completion
-V:3.4.2-r0
+V:3.4.2-r1
 A:riscv64
-S:5917
+S:5914
 I:16387
 T:Fish completions for task3
 U:https://taskwarrior.org
 L:MIT
 o:task3
 m:mio <miyopan@e.email>
-t:1761264741
-c:fa273e8f6e2e0a9cf432e71923381efabb34df6b
-i:task3=3.4.2-r0 fish
+t:1792680417
+c:2f7cf36f2ec208bb95d5ba56ae115dc3abc74591
+i:task3=3.4.2-r1 fish
 
-C:Q1e2oU82DtwZY1oj8ggh2VM14VV2U=
+C:Q13RaVCk/yuwPCFXQliI+k8mPPGOo=
 P:task3-zsh-completion
-V:3.4.2-r0
+V:3.4.2-r1
 A:riscv64
-S:4614
+S:4605
 I:8477
 T:Zsh completions for task3
 U:https://taskwarrior.org
 L:MIT
 o:task3
 m:mio <miyopan@e.email>
-t:1761264741
-c:fa273e8f6e2e0a9cf432e71923381efabb34df6b
-i:task3=3.4.2-r0 zsh
+t:1792680417
+c:2f7cf36f2ec208bb95d5ba56ae115dc3abc74591
+i:task3=3.4.2-r1 zsh
 
 C:Q199OYuMujrwoufR3IU2ScmpDJ71E=
 P:tasksh
@@ -306590,21 +306590,21 @@ m:Jakub Jirutka <jakub@jirutka.cz>
 t:1764157554
 c:ed53d6e1915c9e6913e1f877b1be20d4e01f1d9f
 
-C:Q1+z3dap1Kj2pgPec9f7G6kp7ukrE=
+C:Q1v1O7odOUAfdzyXOm0diiCiZWx5M=
 P:wasm-pack
-V:0.15.0-r0
+V:0.15.0-r1
 A:riscv64
-S:1358327
+S:1358563
 I:2524944
 T:rust to wasm build tool
 U:https://github.com/wasm-bindgen/wasm-pack
 L:Apache-2.0
 o:wasm-pack
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1779826426
-c:592008a3391898d4005e64ae3ceaa5fd5fecd97c
+t:1792664373
+c:f496314c0e06e5ad74d84dcf418f268a1aefcb6d
 D:cargo rustc-dev rust-wasm so:libc.musl-riscv64.so.1 so:libgcc_s.so.1
-p:cmd:wasm-pack=0.15.0-r0
+p:cmd:wasm-pack=0.15.0-r1
 
 C:Q14E9P7K11BFDsb3c5DXdTFVaiP8E=
 P:wasm-tools

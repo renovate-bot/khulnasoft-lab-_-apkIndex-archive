@@ -15753,7 +15753,8 @@
     "freeswitch": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.12-r5": 1774640351
+        "1.10.12-r5": 1774640351,
+        "1.10.12-r6": 1792669498
       },
       "dependencies": [
         "/bin/sh",
@@ -15786,52 +15787,54 @@
         "so:libuuid.so.1"
       ],
       "provides": [
-        "cmd:freeswitch=1.10.12-r5",
-        "cmd:fs_cli=1.10.12-r5",
-        "cmd:fs_encode=1.10.12-r5",
-        "cmd:fs_ivrd=1.10.12-r5",
-        "cmd:fs_tts=1.10.12-r5",
-        "cmd:fsxs=1.10.12-r5",
-        "cmd:gentls_cert=1.10.12-r5",
-        "cmd:switch_eavesdrop=1.10.12-r5",
-        "cmd:tone2wav=1.10.12-r5",
-        "py3.14:freeswitch=1.10.12-r5",
+        "cmd:freeswitch=1.10.12-r6",
+        "cmd:fs_cli=1.10.12-r6",
+        "cmd:fs_encode=1.10.12-r6",
+        "cmd:fs_ivrd=1.10.12-r6",
+        "cmd:fs_tts=1.10.12-r6",
+        "cmd:fsxs=1.10.12-r6",
+        "cmd:gentls_cert=1.10.12-r6",
+        "cmd:switch_eavesdrop=1.10.12-r6",
+        "cmd:tone2wav=1.10.12-r6",
+        "py3.14:freeswitch=1.10.12-r6",
         "so:libfreeswitch.so.1=1.0.0"
       ]
     },
     "freeswitch-dbg": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.12-r5": 1774640351
+        "1.10.12-r5": 1774640351,
+        "1.10.12-r6": 1792669498
       },
       "dependencies": [
-        "!freeswitch-flite<1.10.12-r5",
-        "!freeswitch-flite>1.10.12-r5",
-        "!freeswitch-mariadb<1.10.12-r5",
-        "!freeswitch-mariadb>1.10.12-r5",
-        "!freeswitch-perl<1.10.12-r5",
-        "!freeswitch-perl>1.10.12-r5",
-        "!freeswitch-perlesl<1.10.12-r5",
-        "!freeswitch-perlesl>1.10.12-r5",
-        "!freeswitch-pgsql<1.10.12-r5",
-        "!freeswitch-pgsql>1.10.12-r5",
-        "!freeswitch-python3<1.10.12-r5",
-        "!freeswitch-python3>1.10.12-r5",
-        "!freeswitch-sangoma<1.10.12-r5",
-        "!freeswitch-sangoma>1.10.12-r5",
-        "!freeswitch-snmp<1.10.12-r5",
-        "!freeswitch-snmp>1.10.12-r5",
-        "!freeswitch<1.10.12-r5",
-        "!freeswitch>1.10.12-r5"
+        "!freeswitch-flite<1.10.12-r6",
+        "!freeswitch-flite>1.10.12-r6",
+        "!freeswitch-mariadb<1.10.12-r6",
+        "!freeswitch-mariadb>1.10.12-r6",
+        "!freeswitch-perl<1.10.12-r6",
+        "!freeswitch-perl>1.10.12-r6",
+        "!freeswitch-perlesl<1.10.12-r6",
+        "!freeswitch-perlesl>1.10.12-r6",
+        "!freeswitch-pgsql<1.10.12-r6",
+        "!freeswitch-pgsql>1.10.12-r6",
+        "!freeswitch-python3<1.10.12-r6",
+        "!freeswitch-python3>1.10.12-r6",
+        "!freeswitch-sangoma<1.10.12-r6",
+        "!freeswitch-sangoma>1.10.12-r6",
+        "!freeswitch-snmp<1.10.12-r6",
+        "!freeswitch-snmp>1.10.12-r6",
+        "!freeswitch<1.10.12-r6",
+        "!freeswitch>1.10.12-r6"
       ]
     },
     "freeswitch-dev": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.12-r5": 1774640351
+        "1.10.12-r5": 1774640351,
+        "1.10.12-r6": 1792669498
       },
       "dependencies": [
-        "freeswitch=1.10.12-r5",
+        "freeswitch=1.10.12-r6",
         "pkgconfig"
       ],
       "provides": [
@@ -15841,7 +15844,8 @@
     "freeswitch-flite": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.12-r5": 1774640351
+        "1.10.12-r5": 1774640351,
+        "1.10.12-r6": 1792669498
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -15857,7 +15861,8 @@
     "freeswitch-mariadb": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.12-r5": 1774640351
+        "1.10.12-r5": 1774640351,
+        "1.10.12-r6": 1792669498
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -15870,13 +15875,15 @@
     "freeswitch-openrc": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.12-r5": 1774640351
+        "1.10.12-r5": 1774640351,
+        "1.10.12-r6": 1792669498
       }
     },
     "freeswitch-perl": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.12-r5": 1774640351
+        "1.10.12-r5": 1774640351,
+        "1.10.12-r6": 1792669498
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -15889,7 +15896,8 @@
     "freeswitch-perlesl": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.12-r5": 1774640351
+        "1.10.12-r5": 1774640351,
+        "1.10.12-r6": 1792669498
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -15901,7 +15909,8 @@
     "freeswitch-pgsql": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.12-r5": 1774640351
+        "1.10.12-r5": 1774640351,
+        "1.10.12-r6": 1792669498
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -15912,7 +15921,8 @@
     "freeswitch-python3": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.12-r5": 1774640351
+        "1.10.12-r5": 1774640351,
+        "1.10.12-r6": 1792669498
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -15925,7 +15935,8 @@
     "freeswitch-sample-config": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.12-r5": 1774640351
+        "1.10.12-r5": 1774640351,
+        "1.10.12-r6": 1792669498
       },
       "dependencies": [
         "freeswitch-timezones"
@@ -15934,7 +15945,8 @@
     "freeswitch-sangoma": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.12-r5": 1774640351
+        "1.10.12-r5": 1774640351,
+        "1.10.12-r6": 1792669498
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -15945,7 +15957,8 @@
     "freeswitch-snmp": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.12-r5": 1774640351
+        "1.10.12-r5": 1774640351,
+        "1.10.12-r6": 1792669498
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
@@ -16020,7 +16033,8 @@
     "freeswitch-timezones": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.12-r5": 1774640351
+        "1.10.12-r5": 1774640351,
+        "1.10.12-r6": 1792669498
       }
     },
     "freetdm": {
@@ -44014,15 +44028,16 @@
       "versions": {
         "9.0-r0": 1775704082,
         "9.1-r0": 1782486948,
-        "9.2-r0": 1785511458
+        "9.2-r0": 1785511458,
+        "9.3-r0": 1792678752
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1",
         "so:libncursesw.so.6"
       ],
       "provides": [
-        "cmd:nano=9.2-r0",
-        "cmd:rnano=9.2-r0"
+        "cmd:nano=9.3-r0",
+        "cmd:rnano=9.3-r0"
       ]
     },
     "nano-doc": {
@@ -44030,7 +44045,8 @@
       "versions": {
         "9.0-r0": 1775704082,
         "9.1-r0": 1782486948,
-        "9.2-r0": 1785511458
+        "9.2-r0": 1785511458,
+        "9.3-r0": 1792678752
       }
     },
     "nano-syntax": {
@@ -44038,10 +44054,11 @@
       "versions": {
         "9.0-r0": 1775704082,
         "9.1-r0": 1782486948,
-        "9.2-r0": 1785511458
+        "9.2-r0": 1785511458,
+        "9.3-r0": 1792678752
       },
       "dependencies": [
-        "nano=9.2-r0"
+        "nano=9.3-r0"
       ]
     },
     "nasm": {

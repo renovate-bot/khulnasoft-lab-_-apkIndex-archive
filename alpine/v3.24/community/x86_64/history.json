@@ -157108,7 +157108,8 @@
     "mise": {
       "origin": "mise",
       "versions": {
-        "2025.12.13-r1": 1779619131
+        "2025.12.13-r1": 1779619131,
+        "2025.12.13-r2": 1792679083
       },
       "dependencies": [
         "so:libbz2.so.1",
@@ -157120,14 +157121,15 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "rtx=2025.12.13-r1",
-        "cmd:mise=2025.12.13-r1"
+        "rtx=2025.12.13-r2",
+        "cmd:mise=2025.12.13-r2"
       ]
     },
     "mise-doc": {
       "origin": "mise",
       "versions": {
-        "2025.12.13-r1": 1779619131
+        "2025.12.13-r1": 1779619131,
+        "2025.12.13-r2": 1792679083
       }
     },
     "mitmproxy": {
@@ -280731,7 +280733,8 @@
     "rustup": {
       "origin": "rustup",
       "versions": {
-        "1.29.0-r0": 1775552057
+        "1.29.0-r0": 1775552057,
+        "1.29.2-r0": 1792669434
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -280742,25 +280745,28 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:rustup-init=1.29.0-r0"
+        "cmd:rustup-init=1.29.2-r0"
       ]
     },
     "rustup-bash-completion": {
       "origin": "rustup",
       "versions": {
-        "1.29.0-r0": 1775552057
+        "1.29.0-r0": 1775552057,
+        "1.29.2-r0": 1792669434
       }
     },
     "rustup-fish-completion": {
       "origin": "rustup",
       "versions": {
-        "1.29.0-r0": 1775552057
+        "1.29.0-r0": 1775552057,
+        "1.29.2-r0": 1792669434
       }
     },
     "rustup-zsh-completion": {
       "origin": "rustup",
       "versions": {
-        "1.29.0-r0": 1775552057
+        "1.29.0-r0": 1775552057,
+        "1.29.2-r0": 1792669434
       }
     },
     "rustypaste": {
@@ -295783,7 +295789,8 @@
     "task3": {
       "origin": "task3",
       "versions": {
-        "3.4.2-r0": 1761264741
+        "3.4.2-r0": 1761264741,
+        "3.4.2-r1": 1792680417
       },
       "dependencies": [
         "/bin/sh",
@@ -295793,31 +295800,35 @@
         "so:libuuid.so.1"
       ],
       "provides": [
-        "cmd:task=3.4.2-r0"
+        "cmd:task=3.4.2-r1"
       ]
     },
     "task3-bash-completion": {
       "origin": "task3",
       "versions": {
-        "3.4.2-r0": 1761264741
+        "3.4.2-r0": 1761264741,
+        "3.4.2-r1": 1792680417
       }
     },
     "task3-doc": {
       "origin": "task3",
       "versions": {
-        "3.4.2-r0": 1761264741
+        "3.4.2-r0": 1761264741,
+        "3.4.2-r1": 1792680417
       }
     },
     "task3-fish-completion": {
       "origin": "task3",
       "versions": {
-        "3.4.2-r0": 1761264741
+        "3.4.2-r0": 1761264741,
+        "3.4.2-r1": 1792680417
       }
     },
     "task3-zsh-completion": {
       "origin": "task3",
       "versions": {
-        "3.4.2-r0": 1761264741
+        "3.4.2-r0": 1761264741,
+        "3.4.2-r1": 1792680417
       }
     },
     "tasksh": {
@@ -355499,7 +355510,7 @@
       },
       "rtx": {
         "package": "mise",
-        "version": "2025.12.13-r1"
+        "version": "2025.12.13-r2"
       },
       "mmsd": {
         "package": "mmsd-tng",

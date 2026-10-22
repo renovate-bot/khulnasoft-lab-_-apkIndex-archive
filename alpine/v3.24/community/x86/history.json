@@ -140975,7 +140975,8 @@
       "origin": "mise",
       "versions": {
         "2025.12.13-r0": 1769724317,
-        "2025.12.13-r1": 1779619131
+        "2025.12.13-r1": 1779619131,
+        "2025.12.13-r2": 1792679083
       },
       "dependencies": [
         "so:libbz2.so.1",
@@ -140987,15 +140988,16 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "rtx=2025.12.13-r1",
-        "cmd:mise=2025.12.13-r1"
+        "rtx=2025.12.13-r2",
+        "cmd:mise=2025.12.13-r2"
       ]
     },
     "mise-doc": {
       "origin": "mise",
       "versions": {
         "2025.12.13-r0": 1769724317,
-        "2025.12.13-r1": 1779619131
+        "2025.12.13-r1": 1779619131,
+        "2025.12.13-r2": 1792679083
       }
     },
     "mitmproxy": {
@@ -150061,10 +150063,11 @@
         "0.4.1-r1": 1781263337,
         "0.4.1-r2": 1782135925,
         "0.4.1-r3": 1784554861,
-        "0.4.1-r4": 1785098410
+        "0.4.1-r4": 1785098410,
+        "0.4.1-r5": 1792666732
       },
       "dependencies": [
-        "nginx~1.30.4",
+        "nginx~1.30.6",
         "so:libc.musl-x86.so.1",
         "so:libcrypto.so.3",
         "so:libgcc_s.so.1",
@@ -257620,7 +257623,8 @@
     "rustup": {
       "origin": "rustup",
       "versions": {
-        "1.29.0-r0": 1775552057
+        "1.29.0-r0": 1775552057,
+        "1.29.2-r0": 1792669434
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -257631,25 +257635,28 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:rustup-init=1.29.0-r0"
+        "cmd:rustup-init=1.29.2-r0"
       ]
     },
     "rustup-bash-completion": {
       "origin": "rustup",
       "versions": {
-        "1.29.0-r0": 1775552057
+        "1.29.0-r0": 1775552057,
+        "1.29.2-r0": 1792669434
       }
     },
     "rustup-fish-completion": {
       "origin": "rustup",
       "versions": {
-        "1.29.0-r0": 1775552057
+        "1.29.0-r0": 1775552057,
+        "1.29.2-r0": 1792669434
       }
     },
     "rustup-zsh-completion": {
       "origin": "rustup",
       "versions": {
-        "1.29.0-r0": 1775552057
+        "1.29.0-r0": 1775552057,
+        "1.29.2-r0": 1792669434
       }
     },
     "rustypaste": {
@@ -271879,7 +271886,8 @@
     "task3": {
       "origin": "task3",
       "versions": {
-        "3.4.2-r0": 1761264741
+        "3.4.2-r0": 1761264741,
+        "3.4.2-r1": 1792680417
       },
       "dependencies": [
         "/bin/sh",
@@ -271889,31 +271897,35 @@
         "so:libuuid.so.1"
       ],
       "provides": [
-        "cmd:task=3.4.2-r0"
+        "cmd:task=3.4.2-r1"
       ]
     },
     "task3-bash-completion": {
       "origin": "task3",
       "versions": {
-        "3.4.2-r0": 1761264741
+        "3.4.2-r0": 1761264741,
+        "3.4.2-r1": 1792680417
       }
     },
     "task3-doc": {
       "origin": "task3",
       "versions": {
-        "3.4.2-r0": 1761264741
+        "3.4.2-r0": 1761264741,
+        "3.4.2-r1": 1792680417
       }
     },
     "task3-fish-completion": {
       "origin": "task3",
       "versions": {
-        "3.4.2-r0": 1761264741
+        "3.4.2-r0": 1761264741,
+        "3.4.2-r1": 1792680417
       }
     },
     "task3-zsh-completion": {
       "origin": "task3",
       "versions": {
-        "3.4.2-r0": 1761264741
+        "3.4.2-r0": 1761264741,
+        "3.4.2-r1": 1792680417
       }
     },
     "tasksh": {
@@ -286167,7 +286179,8 @@
       "origin": "wasm-pack",
       "versions": {
         "0.14.0-r2": 1778075880,
-        "0.15.0-r0": 1779826426
+        "0.15.0-r0": 1779826426,
+        "0.15.0-r1": 1792664373
       },
       "dependencies": [
         "cargo",
@@ -286178,7 +286191,7 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:wasm-pack=0.15.0-r0"
+        "cmd:wasm-pack=0.15.0-r1"
       ]
     },
     "wasm-tools": {
@@ -325238,7 +325251,7 @@
       },
       "rtx": {
         "package": "mise",
-        "version": "2025.12.13-r1"
+        "version": "2025.12.13-r2"
       },
       "mmsd": {
         "package": "mmsd-tng",

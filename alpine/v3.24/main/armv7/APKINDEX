@@ -18335,101 +18335,101 @@ c:6c9b01e0bdbc8c20d0cd701bf1e9a33013b2c67f
 D:freeradius-lib=3.0.27-r3 so:libc.musl-armv7.so.1 so:libcrypto.so.3 so:libfreeradius-radius.so so:libfreeradius-server.so so:libgdbm.so.6 so:libpcap.so.1 so:libtalloc.so.2
 p:freeradius-radclient=3.0.27-r3 freeradius3-radclient=3.0.27-r3 cmd:rad_counter=3.0.27-r3 cmd:radclient=3.0.27-r3 cmd:radcrypt=3.0.27-r3 cmd:radlast=3.0.27-r3 cmd:radsniff=3.0.27-r3 cmd:radsqlrelay=3.0.27-r3 cmd:radtest=3.0.27-r3 cmd:radwho=3.0.27-r3 cmd:radzap=3.0.27-r3 cmd:rlm_ippool_tool=3.0.27-r3 cmd:rlm_sqlippool_tool=3.0.27-r3 cmd:smbencrypt=3.0.27-r3
 
-C:Q1wcyZsyUR/xDAsGFqQ8H/INdkiN4=
+C:Q1b0jknUpTpvqgUa1cKn4bz9DbVe8=
 P:freeswitch
-V:1.10.12-r5
+V:1.10.12-r6
 A:armv7
-S:10343064
+S:10343321
 I:21160604
 T:A communications platform written in C from the ground up
 U:https://www.freeswitch.org/
 L:MPL-1.1
 o:freeswitch
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1774640351
-c:01646424190f854afba326a58a1436d80d6f6685
+t:1792669498
+c:4f5be284ba89eb2c6f0c9376668ec1f8d7265d26
 D:/bin/sh python3~3.14 so:libc.musl-armv7.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libedit.so.0 so:libgcc_s.so.1 so:libks2.so.2 so:libldns.so.3 so:liblua-5.3.so.0 so:libmp3lame.so.0 so:libmpg123.so.0 so:libncursesw.so.6 so:libodbc.so.2 so:libopus.so.0 so:libpcre.so.1 so:libportaudio.so.2 so:libpq.so.5 so:libshout.so.3 so:libsndfile.so.1 so:libsofia-sip-ua.so.0 so:libspandsp.so.3 so:libspeex.so.1 so:libspeexdsp.so.1 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libuuid.so.1
-p:cmd:freeswitch=1.10.12-r5 cmd:fs_cli=1.10.12-r5 cmd:fs_encode=1.10.12-r5 cmd:fs_ivrd=1.10.12-r5 cmd:fs_tts=1.10.12-r5 cmd:fsxs=1.10.12-r5 cmd:gentls_cert=1.10.12-r5 cmd:switch_eavesdrop=1.10.12-r5 cmd:tone2wav=1.10.12-r5 py3.14:freeswitch=1.10.12-r5 so:libfreeswitch.so.1=1.0.0
+p:cmd:freeswitch=1.10.12-r6 cmd:fs_cli=1.10.12-r6 cmd:fs_encode=1.10.12-r6 cmd:fs_ivrd=1.10.12-r6 cmd:fs_tts=1.10.12-r6 cmd:fsxs=1.10.12-r6 cmd:gentls_cert=1.10.12-r6 cmd:switch_eavesdrop=1.10.12-r6 cmd:tone2wav=1.10.12-r6 py3.14:freeswitch=1.10.12-r6 so:libfreeswitch.so.1=1.0.0
 
-C:Q1PTThEmFiG+WIzJaMbp0+3nHld3Q=
+C:Q1O7kHAUfKe+aUDXAMsQUjcBehhG4=
 P:freeswitch-dbg
-V:1.10.12-r5
+V:1.10.12-r6
 A:armv7
-S:10293579
-I:23373000
+S:10294834
+I:23374636
 T:A communications platform written in C from the ground up (debug symbols)
 U:https://www.freeswitch.org/
 L:MPL-1.1
 o:freeswitch
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1774640351
-c:01646424190f854afba326a58a1436d80d6f6685
-D:!freeswitch-flite<1.10.12-r5 !freeswitch-flite>1.10.12-r5 !freeswitch-mariadb<1.10.12-r5 !freeswitch-mariadb>1.10.12-r5 !freeswitch-perl<1.10.12-r5 !freeswitch-perl>1.10.12-r5 !freeswitch-perlesl<1.10.12-r5 !freeswitch-perlesl>1.10.12-r5 !freeswitch-pgsql<1.10.12-r5 !freeswitch-pgsql>1.10.12-r5 !freeswitch-python3<1.10.12-r5 !freeswitch-python3>1.10.12-r5 !freeswitch-sangoma<1.10.12-r5 !freeswitch-sangoma>1.10.12-r5 !freeswitch-snmp<1.10.12-r5 !freeswitch-snmp>1.10.12-r5 !freeswitch<1.10.12-r5 !freeswitch>1.10.12-r5
+t:1792669498
+c:4f5be284ba89eb2c6f0c9376668ec1f8d7265d26
+D:!freeswitch-flite<1.10.12-r6 !freeswitch-flite>1.10.12-r6 !freeswitch-mariadb<1.10.12-r6 !freeswitch-mariadb>1.10.12-r6 !freeswitch-perl<1.10.12-r6 !freeswitch-perl>1.10.12-r6 !freeswitch-perlesl<1.10.12-r6 !freeswitch-perlesl>1.10.12-r6 !freeswitch-pgsql<1.10.12-r6 !freeswitch-pgsql>1.10.12-r6 !freeswitch-python3<1.10.12-r6 !freeswitch-python3>1.10.12-r6 !freeswitch-sangoma<1.10.12-r6 !freeswitch-sangoma>1.10.12-r6 !freeswitch-snmp<1.10.12-r6 !freeswitch-snmp>1.10.12-r6 !freeswitch<1.10.12-r6 !freeswitch>1.10.12-r6
 
-C:Q1u2bK2BMY60Sv/wSsCQxFr2UoXZA=
+C:Q13U+KB9mQgRlPJ4sBOWsP317wuR8=
 P:freeswitch-dev
-V:1.10.12-r5
+V:1.10.12-r6
 A:armv7
-S:214053
-I:980014
+S:214118
+I:980431
 T:A communications platform written in C from the ground up (development files)
 U:https://www.freeswitch.org/
 L:MPL-1.1
 o:freeswitch
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1774640351
-c:01646424190f854afba326a58a1436d80d6f6685
-D:freeswitch=1.10.12-r5 pkgconfig
+t:1792669498
+c:4f5be284ba89eb2c6f0c9376668ec1f8d7265d26
+D:freeswitch=1.10.12-r6 pkgconfig
 p:pc:freeswitch=1.10.12
 
-C:Q1rIsdzOMpepEP/0NqvkcISHqliGI=
+C:Q1whtV3jyCgc1Y5nq3ZBgjKzZKR+w=
 P:freeswitch-flite
-V:1.10.12-r5
+V:1.10.12-r6
 A:armv7
-S:4077
+S:4071
 I:9360
 T:Freeswitch Text To Speech Module
 U:https://www.freeswitch.org/
 L:MPL-1.1
 o:freeswitch
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1774640351
-c:01646424190f854afba326a58a1436d80d6f6685
+t:1792669498
+c:4f5be284ba89eb2c6f0c9376668ec1f8d7265d26
 D:so:libc.musl-armv7.so.1 so:libflite.so.1 so:libflite_cmu_us_awb.so.1 so:libflite_cmu_us_kal.so.1 so:libflite_cmu_us_kal16.so.1 so:libflite_cmu_us_rms.so.1 so:libflite_cmu_us_slt.so.1 so:libfreeswitch.so.1
 
-C:Q1anByYYJDu9cr69AYCukmOdF7YM0=
+C:Q177CXoBQgPjBzN93ekeRX9bzmog4=
 P:freeswitch-mariadb
-V:1.10.12-r5
+V:1.10.12-r6
 A:armv7
-S:51111
+S:51109
 I:133024
 T:Freeswitch MariaDB Module
 U:https://www.freeswitch.org/
 L:MPL-1.1
 o:freeswitch
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1774640351
-c:01646424190f854afba326a58a1436d80d6f6685
+t:1792669498
+c:4f5be284ba89eb2c6f0c9376668ec1f8d7265d26
 D:so:libc.musl-armv7.so.1 so:libfreeswitch.so.1 so:libgcc_s.so.1 so:libmariadb.so.3 so:libstdc++.so.6
 
-C:Q1E6OVe9ut/thlOwY2vEjaK/k8Cgs=
+C:Q1Hp4Uo3ob1xU7VTqosvGwuD4iP3Q=
 P:freeswitch-openrc
-V:1.10.12-r5
+V:1.10.12-r6
 A:armv7
-S:2463
+S:2466
 I:1480
 T:A communications platform written in C from the ground up (OpenRC init scripts)
 U:https://www.freeswitch.org/
 L:MPL-1.1
 o:freeswitch
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1774640351
-c:01646424190f854afba326a58a1436d80d6f6685
-i:openrc freeswitch=1.10.12-r5
+t:1792669498
+c:4f5be284ba89eb2c6f0c9376668ec1f8d7265d26
+i:openrc freeswitch=1.10.12-r6
 
-C:Q1mJ4zXCgrLjTB3exUd4zRUsal32M=
+C:Q1baHBmPDFi/oTbZfsQfvdS6lOSrE=
 P:freeswitch-perl
-V:1.10.12-r5
+V:1.10.12-r6
 A:armv7
 S:68564
 I:179536
@@ -18438,98 +18438,98 @@ U:https://www.freeswitch.org/
 L:MPL-1.1
 o:freeswitch
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1774640351
-c:01646424190f854afba326a58a1436d80d6f6685
+t:1792669498
+c:4f5be284ba89eb2c6f0c9376668ec1f8d7265d26
 D:so:libc.musl-armv7.so.1 so:libfreeswitch.so.1 so:libgcc_s.so.1 so:libperl.so so:libstdc++.so.6
 
-C:Q1SePU3GOMDtS3OGPLRYqnw2uifiE=
+C:Q1xdf+MdqpYeGfO3T5YO/limSqf+0=
 P:freeswitch-perlesl
-V:1.10.12-r5
+V:1.10.12-r6
 A:armv7
-S:45400
+S:45408
 I:93353
 T:Freeswitch Perl ESL module
 U:https://www.freeswitch.org/
 L:MPL-1.1
 o:freeswitch
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1774640351
-c:01646424190f854afba326a58a1436d80d6f6685
+t:1792669498
+c:4f5be284ba89eb2c6f0c9376668ec1f8d7265d26
 D:so:libc.musl-armv7.so.1 so:libgcc_s.so.1 so:libperl.so so:libstdc++.so.6
 
-C:Q1Y562PD36+Q2wnUu+FzC86RAQNAY=
+C:Q1jJruSB363KJV8I4FKtsWr913xdE=
 P:freeswitch-pgsql
-V:1.10.12-r5
+V:1.10.12-r6
 A:armv7
-S:7650
+S:7649
 I:13896
 T:Freeswitch PostgreSQL Module
 U:https://www.freeswitch.org/
 L:MPL-1.1
 o:freeswitch
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1774640351
-c:01646424190f854afba326a58a1436d80d6f6685
+t:1792669498
+c:4f5be284ba89eb2c6f0c9376668ec1f8d7265d26
 D:so:libc.musl-armv7.so.1 so:libfreeswitch.so.1 so:libpq.so.5
 
-C:Q1kbrHYLNR4o89SL7inqGtqm6YTPc=
+C:Q1/zTMuDtqL+QoT1iJqMvm2HjkjLA=
 P:freeswitch-python3
-V:1.10.12-r5
+V:1.10.12-r6
 A:armv7
-S:46986
+S:46988
 I:125476
 T:Freeswitch Python3 module
 U:https://www.freeswitch.org/
 L:MPL-1.1
 o:freeswitch
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1774640351
-c:01646424190f854afba326a58a1436d80d6f6685
+t:1792669498
+c:4f5be284ba89eb2c6f0c9376668ec1f8d7265d26
 D:so:libc.musl-armv7.so.1 so:libfreeswitch.so.1 so:libgcc_s.so.1 so:libpython3.14.so.1.0 so:libstdc++.so.6
 
-C:Q13Rlu4+jb1jlrHwOBWXM7ibUaaa8=
+C:Q1j9cYwm1TxINmRjg0SXAaeVskszk=
 P:freeswitch-sample-config
-V:1.10.12-r5
+V:1.10.12-r6
 A:armv7
-S:130750
+S:130755
 I:749512
 T:Freeswitch sample configuration
 U:https://www.freeswitch.org/
 L:MPL-1.1
 o:freeswitch
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1774640351
-c:01646424190f854afba326a58a1436d80d6f6685
+t:1792669498
+c:4f5be284ba89eb2c6f0c9376668ec1f8d7265d26
 D:freeswitch-timezones
 
-C:Q14ymBWGX04a8yGq2BbjzeY8ZKcvs=
+C:Q1iwbKxKKspcUsfLjZwNexkfB/A4g=
 P:freeswitch-sangoma
-V:1.10.12-r5
+V:1.10.12-r6
 A:armv7
-S:14568
+S:14566
 I:27608
 T:Freeswitch Sangoma Media Transcode Codec Module
 U:https://www.freeswitch.org/
 L:MPL-1.1
 o:freeswitch
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1774640351
-c:01646424190f854afba326a58a1436d80d6f6685
+t:1792669498
+c:4f5be284ba89eb2c6f0c9376668ec1f8d7265d26
 D:so:libc.musl-armv7.so.1 so:libfreeswitch.so.1 so:libsngtc_node.so
 
-C:Q1Hf3otnVZXSNTMw759H+g4Huhp1Q=
+C:Q1ImHcDRhZ1DJEz91yoXcxbWxOTfA=
 P:freeswitch-snmp
-V:1.10.12-r5
+V:1.10.12-r6
 A:armv7
-S:7318
+S:7311
 I:13616
 T:Freeswitch SNMP module
 U:https://www.freeswitch.org/
 L:MPL-1.1
 o:freeswitch
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1774640351
-c:01646424190f854afba326a58a1436d80d6f6685
+t:1792669498
+c:4f5be284ba89eb2c6f0c9376668ec1f8d7265d26
 D:so:libc.musl-armv7.so.1 so:libfreeswitch.so.1 so:libnetsnmp.so.45 so:libnetsnmpagent.so.45
 
 C:Q16XJi86D0C7ZjW0o75TQAhO8jeIQ=
@@ -18673,19 +18673,19 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1720102284
 c:2d1f9f414de2521837a7a9c7068217b76e3452ca
 
-C:Q1+XR616BdtbqQ0YhUsNNRSmoPFoU=
+C:Q19rwL5+HXGrv71mNvRpafcvigQhQ=
 P:freeswitch-timezones
-V:1.10.12-r5
+V:1.10.12-r6
 A:armv7
-S:6826
+S:6824
 I:35865
 T:Freeswitch timezone configuration
 U:https://www.freeswitch.org/
 L:MPL-1.1
 o:freeswitch
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1774640351
-c:01646424190f854afba326a58a1436d80d6f6685
+t:1792669498
+c:4f5be284ba89eb2c6f0c9376668ec1f8d7265d26
 
 C:Q1s0ZLc1QeVyByN29UtkZOppigjn4=
 P:freetdm
@@ -51925,51 +51925,51 @@ t:1788229202
 c:d70c963d8464e305b1623ce721e3c94251cbf4d9
 D:perl
 
-C:Q11ShecGFdZYucwYpArZsiEw93OM0=
+C:Q1zD1BUaYfa5pOch/p2T9zarV9urs=
 P:nano
-V:9.2-r0
+V:9.3-r0
 A:armv7
-S:147262
+S:146952
 I:232066
 T:Enhanced clone of the Pico text editor
 U:https://www.nano-editor.org/
 L:GPL-3.0-or-later
 o:nano
 m:mio <miyopan@e.email>
-t:1785511458
-c:b5f2e963e379391b2f083dd67135c3eb0057e3a5
+t:1792678752
+c:8f82aba1fb0e7f7aacc75a166d4032ef03cba691
 D:so:libc.musl-armv7.so.1 so:libncursesw.so.6
-p:cmd:nano=9.2-r0 cmd:rnano=9.2-r0
+p:cmd:nano=9.3-r0 cmd:rnano=9.3-r0
 
-C:Q1C/G1IgJs0LifgBiLNBwEthyYfYw=
+C:Q1i1qLFyQQLDqTqInrBLdiqZLQB00=
 P:nano-doc
-V:9.2-r0
+V:9.3-r0
 A:armv7
-S:87716
-I:251490
+S:88081
+I:252378
 T:Enhanced clone of the Pico text editor (documentation)
 U:https://www.nano-editor.org/
 L:GPL-3.0-or-later
 o:nano
 m:mio <miyopan@e.email>
-t:1785511458
-c:b5f2e963e379391b2f083dd67135c3eb0057e3a5
-i:docs nano=9.2-r0
+t:1792678752
+c:8f82aba1fb0e7f7aacc75a166d4032ef03cba691
+i:docs nano=9.3-r0
 
-C:Q1fevJlaop2eqZwPTg0mGbwP3AApc=
+C:Q1OZ+e98P1dMM721nqnJJ9gROZb7Q=
 P:nano-syntax
-V:9.2-r0
+V:9.3-r0
 A:armv7
-S:26427
-I:55047
+S:26442
+I:55073
 T:Syntax highlighting definitions for nano
 U:https://www.nano-editor.org/
 L:GPL-3.0-or-later
 o:nano
 m:mio <miyopan@e.email>
-t:1785511458
-c:b5f2e963e379391b2f083dd67135c3eb0057e3a5
-D:nano=9.2-r0
+t:1792678752
+c:8f82aba1fb0e7f7aacc75a166d4032ef03cba691
+D:nano=9.3-r0
 
 C:Q1Mmnz6zrrni+/B8FG7GlDxOxwHoE=
 P:nasm

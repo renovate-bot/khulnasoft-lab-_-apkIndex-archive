@@ -202612,22 +202612,26 @@
     "postfix-stats": {
       "origin": "postfix-stats",
       "versions": {
-        "1.6-r1": 1720158357
+        "1.6-r1": 1720158357,
+        "1.6-r2": 1792670697
       },
       "dependencies": [
         "perl",
+        "perl-file-tail",
+        "perl-db_file",
         "so:libc.musl-armv7.so.1",
         "so:libdb-5.3.so"
       ],
       "provides": [
-        "cmd:postfix-stats-get=1.6-r1",
-        "cmd:update-mailstats.pl=1.6-r1"
+        "cmd:postfix-stats-get=1.6-r2",
+        "cmd:update-mailstats.pl=1.6-r2"
       ]
     },
     "postfix-stats-doc": {
       "origin": "postfix-stats",
       "versions": {
-        "1.6-r1": 1720158357
+        "1.6-r1": 1720158357,
+        "1.6-r2": 1792670697
       }
     },
     "postfixadmin": {
