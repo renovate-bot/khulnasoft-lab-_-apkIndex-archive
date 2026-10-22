@@ -276860,19 +276860,22 @@
       "origin": "wasm-bindgen",
       "versions": {
         "0.2.118-r0": 1776626443,
-        "0.2.122-r0": 1779643291
+        "0.2.122-r0": 1779643291,
+        "0.2.122-r1": 1792645440
       },
       "dependencies": [
         "cargo",
         "nodejs",
         "rust-wasm",
         "so:libc.musl-loongarch64.so.1",
-        "so:libgcc_s.so.1"
+        "so:libcrypto.so.3",
+        "so:libgcc_s.so.1",
+        "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:wasm-bindgen-test-runner=0.2.122-r0",
-        "cmd:wasm-bindgen=0.2.122-r0",
-        "cmd:wasm2es6js=0.2.122-r0"
+        "cmd:wasm-bindgen-test-runner=0.2.122-r1",
+        "cmd:wasm-bindgen=0.2.122-r1",
+        "cmd:wasm2es6js=0.2.122-r1"
       ]
     },
     "wasm-pack": {
