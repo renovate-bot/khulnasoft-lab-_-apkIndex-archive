@@ -277065,7 +277065,8 @@
     "tomcat-native": {
       "origin": "tomcat-native",
       "versions": {
-        "2.0.14-r0": 1773779671
+        "2.0.14-r0": 1773779671,
+        "2.0.16-r0": 1792757885
       },
       "dependencies": [
         "so:libapr-1.so.0",
@@ -277074,13 +277075,14 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "so:libtcnative-2.so.0=0.0.14"
+        "so:libtcnative-2.so.0=0.0.16"
       ]
     },
     "tomcat-native-dev": {
       "origin": "tomcat-native",
       "versions": {
-        "2.0.14-r0": 1773779671
+        "2.0.14-r0": 1773779671,
+        "2.0.16-r0": 1792757885
       }
     },
     "toml11": {
@@ -322478,7 +322480,7 @@
       },
       "libtcnative-2.so.0": {
         "package": "tomcat-native",
-        "version": "0.0.14"
+        "version": "0.0.16"
       },
       "libtomlplusplus.so.3": {
         "package": "tomlplusplus",

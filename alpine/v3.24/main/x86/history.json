@@ -2878,36 +2878,39 @@
     "ada": {
       "origin": "ada",
       "versions": {
-        "3.3.0-r0": 1763728678
+        "3.3.0-r0": 1763728678,
+        "4.0.0-r0": 1792741887
       },
       "dependencies": [
-        "so:libada.so.3",
+        "so:libada.so.4",
         "so:libc.musl-x86.so.1",
         "so:libfmt.so.11",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:adaparse=3.3.0-r0"
+        "cmd:adaparse=4.0.0-r0"
       ]
     },
     "ada-dev": {
       "origin": "ada",
       "versions": {
-        "3.3.0-r0": 1763728678
+        "3.3.0-r0": 1763728678,
+        "4.0.0-r0": 1792741887
       },
       "dependencies": [
-        "ada=3.3.0-r0",
-        "ada-libs=3.3.0-r0",
+        "ada=4.0.0-r0",
+        "ada-libs=4.0.0-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:ada=3.3.0"
+        "pc:ada=4.0.0"
       ]
     },
     "ada-libs": {
       "origin": "ada",
       "versions": {
-        "3.3.0-r0": 1763728678
+        "3.3.0-r0": 1763728678,
+        "4.0.0-r0": 1792741887
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -2915,13 +2918,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libada.so.3=3.3.0"
+        "so:libada.so.4=4.0.0"
       ]
     },
     "ada-static": {
       "origin": "ada",
       "versions": {
-        "3.3.0-r0": 1763728678
+        "3.3.0-r0": 1763728678,
+        "4.0.0-r0": 1792741887
       },
       "dependencies": [
         "ada-dev"
@@ -46451,12 +46455,13 @@
         "24.15.0-r0": 1778411693,
         "24.16.0-r0": 1780134788,
         "24.17.0-r0": 1782154583,
-        "24.18.1-r0": 1785401044
+        "24.18.1-r0": 1785401044,
+        "24.22.1-r0": 1792756298
       },
       "dependencies": [
         "ca-certificates",
         "/bin/sh",
-        "so:libada.so.3",
+        "so:libada.so.4",
         "so:libbrotlidec.so.1",
         "so:libbrotlienc.so.1",
         "so:libc.musl-x86.so.1",
@@ -46475,8 +46480,8 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "nodejs-lts=24.18.1-r0",
-        "cmd:node=24.18.1-r0"
+        "nodejs-lts=24.22.1-r0",
+        "cmd:node=24.22.1-r0"
       ]
     },
     "nodejs-dev": {
@@ -46487,15 +46492,16 @@
         "24.15.0-r0": 1778411693,
         "24.16.0-r0": 1780134788,
         "24.17.0-r0": 1782154583,
-        "24.18.1-r0": 1785401044
+        "24.18.1-r0": 1785401044,
+        "24.22.1-r0": 1792756298
       },
       "dependencies": [
-        "nodejs-libs=24.18.1-r0",
+        "nodejs-libs=24.22.1-r0",
         "pkgconfig"
       ],
       "provides": [
-        "nodejs-lts-dev=24.18.1",
-        "pc:nodejs=24.18.1"
+        "nodejs-lts-dev=24.22.1",
+        "pc:nodejs=24.22.1"
       ]
     },
     "nodejs-doc": {
@@ -46506,7 +46512,8 @@
         "24.15.0-r0": 1778411693,
         "24.16.0-r0": 1780134788,
         "24.17.0-r0": 1782154583,
-        "24.18.1-r0": 1785401044
+        "24.18.1-r0": 1785401044,
+        "24.22.1-r0": 1792756298
       }
     },
     "nodejs-libs": {
@@ -46517,10 +46524,11 @@
         "24.15.0-r0": 1778411693,
         "24.16.0-r0": 1780134788,
         "24.17.0-r0": 1782154583,
-        "24.18.1-r0": 1785401044
+        "24.18.1-r0": 1785401044,
+        "24.22.1-r0": 1792756298
       },
       "dependencies": [
-        "so:libada.so.3",
+        "so:libada.so.4",
         "so:libbrotlidec.so.1",
         "so:libbrotlienc.so.1",
         "so:libc.musl-x86.so.1",
@@ -77255,11 +77263,11 @@
       },
       "nodejs-lts": {
         "package": "nodejs",
-        "version": "24.18.1-r0"
+        "version": "24.22.1-r0"
       },
       "nodejs-lts-dev": {
         "package": "nodejs-dev",
-        "version": "24.18.1"
+        "version": "24.22.1"
       },
       "ocaml5-dev": {
         "package": "ocaml5-compiler-libs",
@@ -84722,6 +84730,10 @@
       "libns-9.20.30.so": {
         "package": "bind-libs",
         "version": "0"
+      },
+      "libada.so.4": {
+        "package": "ada-libs",
+        "version": "4.0.0"
       }
     }
   }

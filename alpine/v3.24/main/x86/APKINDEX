@@ -3004,67 +3004,67 @@ t:1769422247
 c:58103e1fda590545bff9cd8daf2562754f6d6639
 i:openrc acpid=2.0.34-r8
 
-C:Q1vkyhsoPTw5XI2/mgHH/0QOTlcoE=
+C:Q1LpJskUaUzTIcNj/toTAW3mJBl3M=
 P:ada
-V:3.3.0-r0
+V:4.0.0-r0
 A:x86
-S:607700
-I:1743152
+S:605705
+I:1734960
 T:WHATWG-compliant and fast URL parser written in modern C++
 U:https://ada-url.github.io/ada
 L:( Apache-2.0 OR MIT ) AND MPL-2.0
 o:ada
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1763728678
-c:d279ef8c31170898285e2a989f62909992bff448
-D:so:libada.so.3 so:libc.musl-x86.so.1 so:libfmt.so.11 so:libgcc_s.so.1
-p:cmd:adaparse=3.3.0-r0
+t:1792741887
+c:693213746d4f0d607bf3ba6ecb0dc0ad57143ad9
+D:so:libada.so.4 so:libc.musl-x86.so.1 so:libfmt.so.11 so:libgcc_s.so.1
+p:cmd:adaparse=4.0.0-r0
 
-C:Q1jOft4oqPkof2zFHCx7akwH27dy4=
+C:Q1QKygQokk/TecXYgg24LTP08dWNI=
 P:ada-dev
-V:3.3.0-r0
+V:4.0.0-r0
 A:x86
-S:73168
-I:400746
+S:86718
+I:448622
 T:WHATWG-compliant and fast URL parser written in modern C++ (development files)
 U:https://ada-url.github.io/ada
 L:( Apache-2.0 OR MIT ) AND MPL-2.0
 o:ada
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1763728678
-c:d279ef8c31170898285e2a989f62909992bff448
-D:ada=3.3.0-r0 ada-libs=3.3.0-r0 pkgconfig
-p:pc:ada=3.3.0
+t:1792741887
+c:693213746d4f0d607bf3ba6ecb0dc0ad57143ad9
+D:ada=4.0.0-r0 ada-libs=4.0.0-r0 pkgconfig
+p:pc:ada=4.0.0
 
-C:Q1CfRPTnkB9cbjvb/xbsOqz8HcqAs=
+C:Q1WFEDcH+QX/3P+UL0dAUG28/MQAI=
 P:ada-libs
-V:3.3.0-r0
+V:4.0.0-r0
 A:x86
-S:248515
-I:707628
+S:237366
+I:501732
 T:WHATWG-compliant and fast URL parser written in modern C++ (libraries)
 U:https://ada-url.github.io/ada
 L:( Apache-2.0 OR MIT ) AND MPL-2.0
 o:ada
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1763728678
-c:d279ef8c31170898285e2a989f62909992bff448
+t:1792741887
+c:693213746d4f0d607bf3ba6ecb0dc0ad57143ad9
 D:so:libc.musl-x86.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:so:libada.so.3=3.3.0
+p:so:libada.so.4=4.0.0
 
-C:Q1S35aX3xarCaoKW3OTymzS/+lUt8=
+C:Q1chnM2o8gD+PBA3IAfYl9BwyMXPo=
 P:ada-static
-V:3.3.0-r0
+V:4.0.0-r0
 A:x86
-S:279178
-I:1015086
+S:268370
+I:785342
 T:WHATWG-compliant and fast URL parser written in modern C++ (static library)
 U:https://ada-url.github.io/ada
 L:( Apache-2.0 OR MIT ) AND MPL-2.0
 o:ada
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1763728678
-c:d279ef8c31170898285e2a989f62909992bff448
+t:1792741887
+c:693213746d4f0d607bf3ba6ecb0dc0ad57143ad9
 D:ada-dev
 
 C:Q1+UH/pxYHFF5qWngrknBrv1xDwTk=
@@ -54410,71 +54410,71 @@ t:1774965286
 c:a3cac2791b70e9dff6712cf3aafae50a6378517b
 D:nmap-nselibs
 
-C:Q1sdM3KdbftBXvhyEnG0rL84EtxGY=
+C:Q1M/tEZlmRmLWmP76OKk7EIFxuHqs=
 P:nodejs
-V:24.18.1-r0
+V:24.22.1-r0
 A:x86
-S:18997379
-I:50013200
+S:17796374
+I:48018448
 T:JavaScript runtime built on V8 engine - LTS version
 U:https://nodejs.org/
 L:MIT
 o:nodejs
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1785401044
-c:48d72323daf83509b541059c994366393ec68e63
+t:1792756298
+c:21263b5041eeda0a52bb5aea5c0d05a5a5d99632
 k:100
-D:ca-certificates /bin/sh so:libada.so.3 so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-x86.so.1 so:libcares.so.2 so:libcrypto.so.3 so:libgcc_s.so.1 so:libicui18n.so.78 so:libicuuc.so.78 so:libnghttp2.so.14 so:libsimdjson.so.29 so:libsimdutf.so.34 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
-p:nodejs-lts=24.18.1-r0 cmd:node=24.18.1-r0
+D:ca-certificates /bin/sh so:libada.so.4 so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-x86.so.1 so:libcares.so.2 so:libcrypto.so.3 so:libgcc_s.so.1 so:libicui18n.so.78 so:libicuuc.so.78 so:libnghttp2.so.14 so:libsimdjson.so.29 so:libsimdutf.so.34 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
+p:nodejs-lts=24.22.1-r0 cmd:node=24.22.1-r0
 
-C:Q1WzETEQ3r3UUR8WgvMOI4bNw7jjw=
+C:Q13E69zXDNcrtYkI+vaVH76ff2e8s=
 P:nodejs-dev
-V:24.18.1-r0
+V:24.22.1-r0
 A:x86
-S:310146
-I:1388506
+S:311228
+I:1392703
 T:JavaScript runtime built on V8 engine - LTS version (development files)
 U:https://nodejs.org/
 L:MIT
 o:nodejs
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1785401044
-c:48d72323daf83509b541059c994366393ec68e63
+t:1792756298
+c:21263b5041eeda0a52bb5aea5c0d05a5a5d99632
 k:100
-D:nodejs-libs=24.18.1-r0 pkgconfig
-p:nodejs-lts-dev=24.18.1 pc:nodejs=24.18.1
+D:nodejs-libs=24.22.1-r0 pkgconfig
+p:nodejs-lts-dev=24.22.1 pc:nodejs=24.22.1
 
-C:Q1cRQJr0mFD5m3k5mJYbZJLEBv2pM=
+C:Q1X5nd0ZdQbblxFqDuTbmrQgHnKVc=
 P:nodejs-doc
-V:24.18.1-r0
+V:24.22.1-r0
 A:x86
-S:20095
-I:36395
+S:22273
+I:38484
 T:JavaScript runtime built on V8 engine - LTS version (documentation)
 U:https://nodejs.org/
 L:MIT
 o:nodejs
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1785401044
-c:48d72323daf83509b541059c994366393ec68e63
+t:1792756298
+c:21263b5041eeda0a52bb5aea5c0d05a5a5d99632
 k:100
-i:docs nodejs=24.18.1-r0
+i:docs nodejs=24.22.1-r0
 
-C:Q1K5MitbwilE9yxyXCtn3ibEBmFGI=
+C:Q1s9DM5Sc5O8fXQdVyEotetE7NCME=
 P:nodejs-libs
-V:24.18.1-r0
+V:24.22.1-r0
 A:x86
-S:17098026
-I:45917152
+S:17992315
+I:48751584
 T:JavaScript runtime built on V8 engine - LTS version (libraries)
 U:https://nodejs.org/
 L:MIT
 o:nodejs
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1785401044
-c:48d72323daf83509b541059c994366393ec68e63
+t:1792756298
+c:21263b5041eeda0a52bb5aea5c0d05a5a5d99632
 k:100
-D:so:libada.so.3 so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-x86.so.1 so:libcares.so.2 so:libcrypto.so.3 so:libgcc_s.so.1 so:libicui18n.so.78 so:libicuuc.so.78 so:libnghttp2.so.14 so:libsimdjson.so.29 so:libsimdutf.so.34 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
+D:so:libada.so.4 so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-x86.so.1 so:libcares.so.2 so:libcrypto.so.3 so:libgcc_s.so.1 so:libicui18n.so.78 so:libicuuc.so.78 so:libnghttp2.so.14 so:libsimdjson.so.29 so:libsimdutf.so.34 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
 p:so:libnode.so.137=137
 
 C:Q17Vz2jojBGPZKUNeajqLP/m+3698=
