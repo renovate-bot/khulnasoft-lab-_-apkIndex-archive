@@ -131367,53 +131367,53 @@ t:1752435508
 c:d4867318fe06bd2cd7d5953308962cdac00e2d1b
 i:docs libraqm=0.10.2-r0
 
-C:Q1NjF74cpn4YhN227QAo4LoSmY1HI=
+C:Q10aKfJu7Btzrypsv1VKUStC6lTyY=
 P:libraw
-V:0.22.1-r0
+V:0.22.2-r0
 A:loongarch64
-S:1087549
+S:1092528
 I:2915952
 T:Library for reading RAW files obtained from digital photo cameras
 U:https://www.libraw.org/
 L:CDDL-1.0 OR LGPL-2.1-only
 o:libraw
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776009405
-c:92ef92384bde7fca18d44e1a4f8f20ae9e38c00a
+t:1792784551
+c:db4806b0ac10d3d792ab381504508a13c530484b
 D:so:libc.musl-loongarch64.so.1 so:libgcc_s.so.1 so:libgomp.so.1 so:libjpeg.so.8 so:liblcms2.so.2 so:libstdc++.so.6 so:libz.so.1
 p:so:libraw.so.25=25.0.0 so:libraw_r.so.25=25.0.0
 
-C:Q1Aq9J+gNYbZ7YFu/KOUubo0ywRZ8=
+C:Q1S6OpKjfXYEaAhWqtEVNWsqo5i2g=
 P:libraw-dev
-V:0.22.1-r0
+V:0.22.2-r0
 A:loongarch64
-S:31024
-I:107685
+S:31042
+I:107763
 T:Library for reading RAW files obtained from digital photo cameras (development files)
 U:https://www.libraw.org/
 L:CDDL-1.0 OR LGPL-2.1-only
 o:libraw
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776009405
-c:92ef92384bde7fca18d44e1a4f8f20ae9e38c00a
-D:libraw=0.22.1-r0 pc:lcms2 pkgconfig
-p:pc:libraw=0.22.1 pc:libraw_r=0.22.1
+t:1792784551
+c:db4806b0ac10d3d792ab381504508a13c530484b
+D:libraw=0.22.2-r0 pc:lcms2 pkgconfig
+p:pc:libraw=0.22.2 pc:libraw_r=0.22.2
 
-C:Q1cnM+OjM3VagyEcTiwBBnWi1iFnA=
+C:Q1wgyDo/rGLrIqWBn4HraD0RHtPC0=
 P:libraw-tools
-V:0.22.1-r0
+V:0.22.2-r0
 A:loongarch64
-S:60538
+S:60563
 I:741992
 T:tools for LibRaw
 U:https://www.libraw.org/
 L:CDDL-1.0 OR LGPL-2.1-only
 o:libraw
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776009405
-c:92ef92384bde7fca18d44e1a4f8f20ae9e38c00a
+t:1792784551
+c:db4806b0ac10d3d792ab381504508a13c530484b
 D:so:libc.musl-loongarch64.so.1 so:libgcc_s.so.1 so:libgomp.so.1 so:libjpeg.so.8 so:libraw.so.25 so:libraw_r.so.25 so:libstdc++.so.6
-p:cmd:4channels=0.22.1-r0 cmd:dcraw_emu=0.22.1-r0 cmd:dcraw_half=0.22.1-r0 cmd:half_mt=0.22.1-r0 cmd:mem_image=0.22.1-r0 cmd:multirender_test=0.22.1-r0 cmd:postprocessing_benchmark=0.22.1-r0 cmd:raw-identify=0.22.1-r0 cmd:rawtextdump=0.22.1-r0 cmd:simple_dcraw=0.22.1-r0 cmd:unprocessed_raw=0.22.1-r0
+p:cmd:4channels=0.22.2-r0 cmd:dcraw_emu=0.22.2-r0 cmd:dcraw_half=0.22.2-r0 cmd:half_mt=0.22.2-r0 cmd:mem_image=0.22.2-r0 cmd:multirender_test=0.22.2-r0 cmd:postprocessing_benchmark=0.22.2-r0 cmd:raw-identify=0.22.2-r0 cmd:rawtextdump=0.22.2-r0 cmd:simple_dcraw=0.22.2-r0 cmd:unprocessed_raw=0.22.2-r0
 
 C:Q1Jkf1b7vgC3vLE+Vggf0BJzB1avg=
 P:libraw1394
@@ -294114,52 +294114,52 @@ c:b224e2a60d2a720c5db62b3a3c40ce3bc04f3e74
 D:python3~3.14
 i:synadm=0.49.2-r1 pyc
 
-C:Q1etxWgKpIGc6BvmDsjWCf8WRLvbw=
+C:Q1/PlVAAuoOrR0sAyecKa7CeRYYPA=
 P:synapse
-V:1.163.0-r0
+V:1.163.1-r0
 A:loongarch64
-S:5975024
+S:5975469
 I:17088600
 T:Matrix reference homeserver
 U:https://github.com/element-hq/synapse
 L:AGPL-3.0-or-later
 o:synapse
 m:jahway603 <jahway603@tutanota.de>
-t:1792158586
-c:bd89eccaeca50bca445fd508242983c85916dd00
+t:1792767223
+c:0e815f51ed970cbf517742405ee7529a1ab02029
 D:python3 py3-asn1 py3-asn1-modules py3-attrs py3-authlib py3-bcrypt py3-bleach py3-canonicaljson py3-daemonize py3-eliot py3-icu py3-idna py3-ijson py3-immutabledict py3-jinja2 py3-jsonschema py3-jwt py3-lxml py3-matrix-common py3-maturin py3-msgpack py3-netaddr py3-openssl py3-phonenumbers py3-pillow py3-prometheus-client py3-psycopg2 py3-pydantic py3-pymacaroons py3-pynacl py3-python-multipart py3-saml2 py3-service_identity py3-setuptools py3-setuptools-rust py3-signedjson py3-sortedcontainers py3-treq py3-twisted py3-txredisapi py3-typing-extensions py3-yaml /bin/sh python3~3.14 so:libc.musl-loongarch64.so.1 so:libgcc_s.so.1
-p:cmd:export_signing_key=1.163.0-r0 cmd:generate_config=1.163.0-r0 cmd:generate_log_config=1.163.0-r0 cmd:generate_signing_key=1.163.0-r0 cmd:hash_password=1.163.0-r0 cmd:register_new_matrix_user=1.163.0-r0 cmd:synapse_homeserver=1.163.0-r0 cmd:synapse_port_db=1.163.0-r0 cmd:synapse_review_recent_signups=1.163.0-r0 cmd:synapse_worker=1.163.0-r0 cmd:synctl=1.163.0-r0 cmd:update_synapse_database=1.163.0-r0 py3.14:synapse=1.163.0-r0
+p:cmd:export_signing_key=1.163.1-r0 cmd:generate_config=1.163.1-r0 cmd:generate_log_config=1.163.1-r0 cmd:generate_signing_key=1.163.1-r0 cmd:hash_password=1.163.1-r0 cmd:register_new_matrix_user=1.163.1-r0 cmd:synapse_homeserver=1.163.1-r0 cmd:synapse_port_db=1.163.1-r0 cmd:synapse_review_recent_signups=1.163.1-r0 cmd:synapse_worker=1.163.1-r0 cmd:synctl=1.163.1-r0 cmd:update_synapse_database=1.163.1-r0 py3.14:synapse=1.163.1-r0
 
-C:Q1x0Q0WQSypQFYrlKgpJ1ZthoBrZ8=
+C:Q1aYQQTautWYGPkbmZsGNbspEwX3M=
 P:synapse-openrc
-V:1.163.0-r0
+V:1.163.1-r0
 A:loongarch64
-S:2053
+S:2057
 I:745
 T:Matrix reference homeserver (OpenRC init scripts)
 U:https://github.com/element-hq/synapse
 L:AGPL-3.0-or-later
 o:synapse
 m:jahway603 <jahway603@tutanota.de>
-t:1792158586
-c:bd89eccaeca50bca445fd508242983c85916dd00
-i:openrc synapse=1.163.0-r0
+t:1792767223
+c:0e815f51ed970cbf517742405ee7529a1ab02029
+i:openrc synapse=1.163.1-r0
 
-C:Q1Rx1joXFLlsI0FgrVb+Vb4stGB54=
+C:Q1ZyTfvepyQbJh7H1WtaDWHrKTEvM=
 P:synapse-pyc
-V:1.163.0-r0
+V:1.163.1-r0
 A:loongarch64
-S:4002560
+S:4002694
 I:10672865
 T:Precompiled Python bytecode for synapse
 U:https://github.com/element-hq/synapse
 L:AGPL-3.0-or-later
 o:synapse
 m:jahway603 <jahway603@tutanota.de>
-t:1792158586
-c:bd89eccaeca50bca445fd508242983c85916dd00
+t:1792767223
+c:0e815f51ed970cbf517742405ee7529a1ab02029
 D:python3~3.14
-i:synapse=1.163.0-r0 pyc
+i:synapse=1.163.1-r0 pyc
 
 C:Q1FJPyujJ4F/nQKlxVkBUu9hP80wc=
 P:syncoid
@@ -302713,35 +302713,35 @@ t:1781443792
 c:0c950cc7ffe199a787be2d0256d8fee91df20f06
 i:tokodon=26.04.2-r0 lang
 
-C:Q1IcelFp9VCG5l8jTpj0a33IRyHN0=
+C:Q1TIUlxa/hFb9wDyxG9dhHu6EIWRQ=
 P:tomcat-native
-V:2.0.14-r0
+V:2.0.16-r0
 A:loongarch64
-S:32047
+S:27937
 I:132880
 T:Native resources optional component for Apache Tomcat
 U:https://tomcat.apache.org/native-doc/
 L:Apache-2.0
 o:tomcat-native
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1773779671
-c:07dd2dd14f72e77fc1e1c01f0e04500ff9c1449e
+t:1792757885
+c:3a7804c88b98f458244de6183e33327e5fc9c235
 D:so:libapr-1.so.0 so:libc.musl-loongarch64.so.1 so:libcrypto.so.3 so:libssl.so.3
-p:so:libtcnative-2.so.0=0.0.14
+p:so:libtcnative-2.so.0=0.0.16
 
-C:Q1bjboIceVoiC3p6ZbA2Ef/3x+vGY=
+C:Q1I8DdwD8okJo/uZqZYhObXHZ1WiI=
 P:tomcat-native-dev
-V:2.0.14-r0
+V:2.0.16-r0
 A:loongarch64
-S:53495
-I:206214
+S:46252
+I:179630
 T:Native resources optional component for Apache Tomcat (development files)
 U:https://tomcat.apache.org/native-doc/
 L:Apache-2.0
 o:tomcat-native
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1773779671
-c:07dd2dd14f72e77fc1e1c01f0e04500ff9c1449e
+t:1792757885
+c:3a7804c88b98f458244de6183e33327e5fc9c235
 
 C:Q1L1GC7XTrg1LoXeBbGtl6iovzKYI=
 P:toml11

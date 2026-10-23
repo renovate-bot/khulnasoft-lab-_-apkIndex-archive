@@ -3004,67 +3004,67 @@ t:1769422247
 c:58103e1fda590545bff9cd8daf2562754f6d6639
 i:openrc acpid=2.0.34-r8
 
-C:Q1bX9kGg+3xHXCCw8PuCe1tI6UxCQ=
+C:Q1CwbcnHxUn+0dhvyZNiGUan7ETGM=
 P:ada
-V:3.3.0-r0
+V:4.0.0-r0
 A:loongarch64
-S:564832
+S:564766
 I:1838544
 T:WHATWG-compliant and fast URL parser written in modern C++
 U:https://ada-url.github.io/ada
 L:( Apache-2.0 OR MIT ) AND MPL-2.0
 o:ada
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1763728678
-c:d279ef8c31170898285e2a989f62909992bff448
-D:so:libada.so.3 so:libc.musl-loongarch64.so.1 so:libfmt.so.11 so:libgcc_s.so.1
-p:cmd:adaparse=3.3.0-r0
+t:1792741887
+c:693213746d4f0d607bf3ba6ecb0dc0ad57143ad9
+D:so:libada.so.4 so:libc.musl-loongarch64.so.1 so:libfmt.so.11 so:libgcc_s.so.1
+p:cmd:adaparse=4.0.0-r0
 
-C:Q1tNi2wbpUdJ3drbEdNoMviwWOnhU=
+C:Q1WbFMlh0W4Zs6BcoWfKhOLOaln3E=
 P:ada-dev
-V:3.3.0-r0
+V:4.0.0-r0
 A:loongarch64
-S:73174
-I:400746
+S:86723
+I:448622
 T:WHATWG-compliant and fast URL parser written in modern C++ (development files)
 U:https://ada-url.github.io/ada
 L:( Apache-2.0 OR MIT ) AND MPL-2.0
 o:ada
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1763728678
-c:d279ef8c31170898285e2a989f62909992bff448
-D:ada=3.3.0-r0 ada-libs=3.3.0-r0 pkgconfig
-p:pc:ada=3.3.0
+t:1792741887
+c:693213746d4f0d607bf3ba6ecb0dc0ad57143ad9
+D:ada=4.0.0-r0 ada-libs=4.0.0-r0 pkgconfig
+p:pc:ada=4.0.0
 
-C:Q178OADazxcnV2vr8kT0tC7TzMozw=
+C:Q1urcVi5mOx1FjlJwFkzteLLatZgY=
 P:ada-libs
-V:3.3.0-r0
+V:4.0.0-r0
 A:loongarch64
-S:236431
-I:741384
+S:226546
+I:527296
 T:WHATWG-compliant and fast URL parser written in modern C++ (libraries)
 U:https://ada-url.github.io/ada
 L:( Apache-2.0 OR MIT ) AND MPL-2.0
 o:ada
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1763728678
-c:d279ef8c31170898285e2a989f62909992bff448
+t:1792741887
+c:693213746d4f0d607bf3ba6ecb0dc0ad57143ad9
 D:so:libc.musl-loongarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:so:libada.so.3=3.3.0
+p:so:libada.so.4=4.0.0
 
-C:Q1FMavvhXNUQAG4XvucrkPDk5odGo=
+C:Q1pRLWog8wC/Av6xrhtQpZc5HflKw=
 P:ada-static
-V:3.3.0-r0
+V:4.0.0-r0
 A:loongarch64
-S:420763
-I:1998404
+S:416609
+I:1794634
 T:WHATWG-compliant and fast URL parser written in modern C++ (static library)
 U:https://ada-url.github.io/ada
 L:( Apache-2.0 OR MIT ) AND MPL-2.0
 o:ada
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1763728678
-c:d279ef8c31170898285e2a989f62909992bff448
+t:1792741887
+c:693213746d4f0d607bf3ba6ecb0dc0ad57143ad9
 D:ada-dev
 
 C:Q1eteAq42+Okx3PgbNZ+B+XJZ/Gls=
@@ -11392,56 +11392,56 @@ t:1684120357
 c:33283848034c9885d984c8e8697c645c57324938
 i:docs cunit=2.1.3-r7
 
-C:Q11LX1qwrGOSpb9wVbDjGeVEgC848=
+C:Q1reruQO8S2qjUeiXMfn3VHkePzCM=
 P:cups
-V:2.4.19-r0
+V:2.4.19-r1
 A:loongarch64
-S:844520
+S:844488
 I:3189706
 T:The CUPS Printing System
 U:https://github.com/OpenPrinting/cups/
 L:Apache-2.0
 o:cups
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781443451
-c:85d0a49d09a152b4c9cf7a3cd78eeaf809aa258d
-D:cups-client poppler-utils openssl dbus /bin/sh cups-client=2.4.19-r0 so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-loongarch64.so.1 so:libcups.so.2 so:libdbus-1.so.3 so:libgcc_s.so.1 so:libpaper.so.2 so:libstdc++.so.6 so:libusb-1.0.so.0
-p:cmd:cupsd=2.4.19-r0 cmd:cupsfilter=2.4.19-r0 cmd:cupsreject=2.4.19-r0
+t:1792765907
+c:636370bb6f28ad23a01cefdd5316b06c85fa5761
+D:cups-client poppler-utils openssl dbus /bin/sh cups-client=2.4.19-r1 so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-loongarch64.so.1 so:libcups.so.2 so:libdbus-1.so.3 so:libgcc_s.so.1 so:libpaper.so.2 so:libstdc++.so.6 so:libusb-1.0.so.0
+p:cmd:cupsd=2.4.19-r1 cmd:cupsfilter=2.4.19-r1 cmd:cupsreject=2.4.19-r1
 
-C:Q1aAOfvU58trUGRd4xtJftpiyGWQw=
+C:Q1dYoSByvTQw/3yGs1gyAHYmiNWf8=
 P:cups-client
-V:2.4.19-r0
+V:2.4.19-r1
 A:loongarch64
-S:301344
+S:301287
 I:1609968
 T:CUPS command-line client programs
 U:https://github.com/OpenPrinting/cups/
 L:Apache-2.0
 o:cups
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781443451
-c:85d0a49d09a152b4c9cf7a3cd78eeaf809aa258d
+t:1792765907
+c:636370bb6f28ad23a01cefdd5316b06c85fa5761
 D:so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-loongarch64.so.1 so:libcups.so.2 so:libgcc_s.so.1 so:libstdc++.so.6
-p:cmd:cancel=2.4.19-r0 cmd:cupsaccept=2.4.19-r0 cmd:cupsctl=2.4.19-r0 cmd:cupsdisable=2.4.19-r0 cmd:cupsenable=2.4.19-r0 cmd:cupstestppd=2.4.19-r0 cmd:ippeveprinter=2.4.19-r0 cmd:ippfind=2.4.19-r0 cmd:lp=2.4.19-r0 cmd:lpadmin=2.4.19-r0 cmd:lpc=2.4.19-r0 cmd:lpinfo=2.4.19-r0 cmd:lpmove=2.4.19-r0 cmd:lpoptions=2.4.19-r0 cmd:lpq=2.4.19-r0 cmd:lpr=2.4.19-r0 cmd:lprm=2.4.19-r0 cmd:lpstat=2.4.19-r0 cmd:ppdc=2.4.19-r0 cmd:ppdhtml=2.4.19-r0 cmd:ppdi=2.4.19-r0 cmd:ppdmerge=2.4.19-r0 cmd:ppdpo=2.4.19-r0
+p:cmd:cancel=2.4.19-r1 cmd:cupsaccept=2.4.19-r1 cmd:cupsctl=2.4.19-r1 cmd:cupsdisable=2.4.19-r1 cmd:cupsenable=2.4.19-r1 cmd:cupstestppd=2.4.19-r1 cmd:ippeveprinter=2.4.19-r1 cmd:ippfind=2.4.19-r1 cmd:lp=2.4.19-r1 cmd:lpadmin=2.4.19-r1 cmd:lpc=2.4.19-r1 cmd:lpinfo=2.4.19-r1 cmd:lpmove=2.4.19-r1 cmd:lpoptions=2.4.19-r1 cmd:lpq=2.4.19-r1 cmd:lpr=2.4.19-r1 cmd:lprm=2.4.19-r1 cmd:lpstat=2.4.19-r1 cmd:ppdc=2.4.19-r1 cmd:ppdhtml=2.4.19-r1 cmd:ppdi=2.4.19-r1 cmd:ppdmerge=2.4.19-r1 cmd:ppdpo=2.4.19-r1
 
-C:Q1buMXNJcDm+QjV2BvJgc3bAKcP8A=
+C:Q1YIAhxGgHYM+l7Hc5Buw93mqkfbg=
 P:cups-dbg
-V:2.4.19-r0
+V:2.4.19-r1
 A:loongarch64
-S:2910410
-I:8169688
+S:2911627
+I:8173856
 T:The CUPS Printing System (debug symbols)
 U:https://github.com/OpenPrinting/cups/
 L:Apache-2.0
 o:cups
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781443451
-c:85d0a49d09a152b4c9cf7a3cd78eeaf809aa258d
-D:!cups-client<2.4.19-r0 !cups-client>2.4.19-r0 !cups-libs<2.4.19-r0 !cups-libs>2.4.19-r0 !cups<2.4.19-r0 !cups>2.4.19-r0 !ipptool<2.4.19-r0 !ipptool>2.4.19-r0
+t:1792765907
+c:636370bb6f28ad23a01cefdd5316b06c85fa5761
+D:!cups-client<2.4.19-r1 !cups-client>2.4.19-r1 !cups-libs<2.4.19-r1 !cups-libs>2.4.19-r1 !cups<2.4.19-r1 !cups>2.4.19-r1 !ipptool<2.4.19-r1 !ipptool>2.4.19-r1
 
-C:Q1taKh6w+wRDzB0UtD41ZlbouicPw=
+C:Q1Hvmvxy0a3OqdkQ0Kd/SER+s/skA=
 P:cups-dev
-V:2.4.19-r0
+V:2.4.19-r1
 A:loongarch64
 S:43532
 I:188684
@@ -11450,71 +11450,71 @@ U:https://github.com/OpenPrinting/cups/
 L:Apache-2.0
 o:cups
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781443451
-c:85d0a49d09a152b4c9cf7a3cd78eeaf809aa258d
-D:libgcrypt-dev gnutls-dev zlib-dev cups-libs=2.4.19-r0 pc:avahi-client pc:gnutls pkgconfig
-p:cmd:cups-config=2.4.19-r0 pc:cups=2.4.19
+t:1792765907
+c:636370bb6f28ad23a01cefdd5316b06c85fa5761
+D:libgcrypt-dev gnutls-dev zlib-dev cups-libs=2.4.19-r1 pc:avahi-client pc:gnutls pkgconfig
+p:cmd:cups-config=2.4.19-r1 pc:cups=2.4.19
 
-C:Q1ObjRdSiKwhaE2R5hBHtTUZuaJzw=
+C:Q1sOkNzpBxw7ujfTbsj/QBaellXXo=
 P:cups-doc
-V:2.4.19-r0
+V:2.4.19-r1
 A:loongarch64
-S:363867
+S:363876
 I:1462118
 T:The CUPS Printing System (documentation)
 U:https://github.com/OpenPrinting/cups/
 L:Apache-2.0
 o:cups
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781443451
-c:85d0a49d09a152b4c9cf7a3cd78eeaf809aa258d
-i:docs cups=2.4.19-r0
+t:1792765907
+c:636370bb6f28ad23a01cefdd5316b06c85fa5761
+i:docs cups=2.4.19-r1
 
-C:Q18kRqYtRYNnzHYh1NJJ3KHZOu2kY=
+C:Q18I4T4zGs0wkd/jxBCX24QDJRhSY=
 P:cups-lang
-V:2.4.19-r0
+V:2.4.19-r1
 A:loongarch64
-S:695441
+S:695422
 I:4273180
 T:Languages for package cups
 U:https://github.com/OpenPrinting/cups/
 L:Apache-2.0
 o:cups
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781443451
-c:85d0a49d09a152b4c9cf7a3cd78eeaf809aa258d
-i:cups=2.4.19-r0 lang
+t:1792765907
+c:636370bb6f28ad23a01cefdd5316b06c85fa5761
+i:cups=2.4.19-r1 lang
 
-C:Q1ewTbnB4nyXRqz6Fhb8215rCuLt0=
+C:Q17oLVx7pIqC4lFDZF7qQ2ouSRaz8=
 P:cups-libs
-V:2.4.19-r0
+V:2.4.19-r1
 A:loongarch64
-S:243820
+S:244055
 I:658616
 T:CUPS libraries
 U:https://github.com/OpenPrinting/cups/
 L:Apache-2.0
 o:cups
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781443451
-c:85d0a49d09a152b4c9cf7a3cd78eeaf809aa258d
+t:1792765907
+c:636370bb6f28ad23a01cefdd5316b06c85fa5761
 D:so:libavahi-client.so.3 so:libavahi-common.so.3 so:libc.musl-loongarch64.so.1 so:libgnutls.so.30 so:libz.so.1
 p:so:libcups.so.2=2 so:libcupsimage.so.2=2
 
-C:Q1/yU23OaQtOLL8Par+idAZ3PPeY0=
+C:Q1mV8JdwiFh78NxBo4IxqUvQqRy3A=
 P:cups-openrc
-V:2.4.19-r0
+V:2.4.19-r1
 A:loongarch64
-S:2005
+S:2000
 I:843
 T:The CUPS Printing System (OpenRC init scripts)
 U:https://github.com/OpenPrinting/cups/
 L:Apache-2.0
 o:cups
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781443451
-c:85d0a49d09a152b4c9cf7a3cd78eeaf809aa258d
-i:openrc cups=2.4.19-r0
+t:1792765907
+c:636370bb6f28ad23a01cefdd5316b06c85fa5761
+i:openrc cups=2.4.19-r1
 
 C:Q1g5cf7MMEnzMVgw6aWHkcCDuaXV4=
 P:curl
@@ -24548,21 +24548,21 @@ t:1770327958
 c:957759dac8b33411806c4536b8a4cd1be25543fd
 i:openrc iperf3=3.20-r0
 
-C:Q1ggmggGbtDIGqgDu1PvuEiHLR0d4=
+C:Q1UxA50D4/YvDi5rApdqPHmD7i01U=
 P:ipptool
-V:2.4.19-r0
+V:2.4.19-r1
 A:loongarch64
-S:4012214
+S:4012199
 I:4563334
 T:Perform internet printing protocol requests
 U:https://github.com/OpenPrinting/cups/
 L:Apache-2.0
 o:cups
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1781443451
-c:85d0a49d09a152b4c9cf7a3cd78eeaf809aa258d
+t:1792765907
+c:636370bb6f28ad23a01cefdd5316b06c85fa5761
 D:so:libc.musl-loongarch64.so.1 so:libcups.so.2
-p:cmd:ipptool=2.4.19-r0
+p:cmd:ipptool=2.4.19-r1
 
 C:Q17sxrKxdYQPODP1PHuBOfvcyqgfI=
 P:iproute2
@@ -29399,67 +29399,67 @@ t:1771160091
 c:a9e2a2dc46f377eb25884f7fea9834492de7f518
 i:docs libdbi=0.9.0-r6
 
-C:Q1s+KWNk89kYfna8lpoglBBAQV33M=
+C:Q1BjHiHm6eRCCI0MBGFHXKUAft2RQ=
 P:libde265
-V:1.0.18-r0
+V:1.1.3-r0
 A:loongarch64
-S:322980
+S:352120
 I:723024
 T:Open h.265 video codec implementation
 U:https://github.com/strukturag/libde265
 L:LGPL-3.0-or-later
 o:libde265
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1778622552
-c:3b1048d5a397b4e68f22e19f30c57332712d6b84
+t:1792777632
+c:c91a404808a54ac43837f3e459595fb868d5d6e1
 D:so:libc.musl-loongarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:so:libde265.so.0=0.1.11
+p:so:libde265.so.0=0.2.3
 
-C:Q1yxTFJcI3yQ2mg7VgzuWDhGivzr4=
+C:Q1ESby1HxZa8u0I0S26YtGKk3hZvE=
 P:libde265-dev
-V:1.0.18-r0
+V:1.1.3-r0
 A:loongarch64
-S:10807
-I:28222
+S:11849
+I:31080
 T:Open h.265 video codec implementation (development files)
 U:https://github.com/strukturag/libde265
 L:LGPL-3.0-or-later
 o:libde265
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1778622552
-c:3b1048d5a397b4e68f22e19f30c57332712d6b84
-D:libde265=1.0.18-r0 pkgconfig
-p:pc:libde265=1.0.18
+t:1792777632
+c:c91a404808a54ac43837f3e459595fb868d5d6e1
+D:libde265=1.1.3-r0 pkgconfig
+p:pc:libde265=1.1.3
 
-C:Q1umQLXmR7fACznL/04TVE56Kb54g=
+C:Q1kHYaUmVA5h4eKEgfKQtDsa7KHOA=
 P:libde265-examples
-V:1.0.18-r0
+V:1.1.3-r0
 A:loongarch64
-S:10215
+S:10206
 I:68200
 T:Open h.265 video codec implementation (examples)
 U:https://github.com/strukturag/libde265
 L:LGPL-3.0-or-later
 o:libde265
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1778622552
-c:3b1048d5a397b4e68f22e19f30c57332712d6b84
-D:libde265=1.0.18-r0 so:libc.musl-loongarch64.so.1 so:libde265.so.0 so:libgcc_s.so.1 so:libstdc++.so.6
-p:cmd:libde265-dec265=1.0.18-r0
+t:1792777632
+c:c91a404808a54ac43837f3e459595fb868d5d6e1
+D:libde265=1.1.3-r0 so:libc.musl-loongarch64.so.1 so:libde265.so.0 so:libgcc_s.so.1 so:libstdc++.so.6
+p:cmd:libde265-dec265=1.1.3-r0
 
-C:Q1jA88YOgR2rXJXhYKfJ1lqhLIMVY=
+C:Q1nD0E41wLR8MZ6qfCnVreofHlDoI=
 P:libde265-static
-V:1.0.18-r0
+V:1.1.3-r0
 A:loongarch64
-S:593641
-I:2115330
+S:690558
+I:2471970
 T:Open h.265 video codec implementation (static library)
 U:https://github.com/strukturag/libde265
 L:LGPL-3.0-or-later
 o:libde265
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1778622552
-c:3b1048d5a397b4e68f22e19f30c57332712d6b84
+t:1792777632
+c:c91a404808a54ac43837f3e459595fb868d5d6e1
 D:libde265-dev
 
 C:Q1c5X4lwDsgjKZSR3nuTYkVVcmMZc=
@@ -54170,71 +54170,71 @@ t:1774965286
 c:a3cac2791b70e9dff6712cf3aafae50a6378517b
 D:nmap-nselibs
 
-C:Q1VJCZIkf4QyqeWqBcMjDFgVibOTY=
+C:Q1PPc3I+NaaQzH4kw0d5dX1mjcCZM=
 P:nodejs
-V:24.18.1-r0
+V:24.22.1-r0
 A:loongarch64
-S:19778980
-I:55508904
+S:18548569
+I:53084072
 T:JavaScript runtime built on V8 engine - LTS version
 U:https://nodejs.org/
 L:MIT
 o:nodejs
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1785401044
-c:48d72323daf83509b541059c994366393ec68e63
+t:1792756298
+c:21263b5041eeda0a52bb5aea5c0d05a5a5d99632
 k:100
-D:ca-certificates /bin/sh so:libada.so.3 so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-loongarch64.so.1 so:libcares.so.2 so:libcrypto.so.3 so:libgcc_s.so.1 so:libicui18n.so.78 so:libicuuc.so.78 so:libnghttp2.so.14 so:libsimdjson.so.29 so:libsimdutf.so.34 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
-p:nodejs-lts=24.18.1-r0 cmd:node=24.18.1-r0
+D:ca-certificates /bin/sh so:libada.so.4 so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-loongarch64.so.1 so:libcares.so.2 so:libcrypto.so.3 so:libgcc_s.so.1 so:libicui18n.so.78 so:libicuuc.so.78 so:libnghttp2.so.14 so:libsimdjson.so.29 so:libsimdutf.so.34 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
+p:nodejs-lts=24.22.1-r0 cmd:node=24.22.1-r0
 
-C:Q1+69W0kq0e5M1LJEn0EPMWFeEVLw=
+C:Q1j1bqOcw8O0xdTSFi3tMsOJjKeOQ=
 P:nodejs-dev
-V:24.18.1-r0
+V:24.22.1-r0
 A:loongarch64
-S:310159
-I:1388512
+S:311231
+I:1392709
 T:JavaScript runtime built on V8 engine - LTS version (development files)
 U:https://nodejs.org/
 L:MIT
 o:nodejs
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1785401044
-c:48d72323daf83509b541059c994366393ec68e63
+t:1792756298
+c:21263b5041eeda0a52bb5aea5c0d05a5a5d99632
 k:100
-D:nodejs-libs=24.18.1-r0 pkgconfig
-p:nodejs-lts-dev=24.18.1 pc:nodejs=24.18.1
+D:nodejs-libs=24.22.1-r0 pkgconfig
+p:nodejs-lts-dev=24.22.1 pc:nodejs=24.22.1
 
-C:Q1cRQJr0mFD5m3k5mJYbZJLEBv2pM=
+C:Q1X5nd0ZdQbblxFqDuTbmrQgHnKVc=
 P:nodejs-doc
-V:24.18.1-r0
+V:24.22.1-r0
 A:loongarch64
-S:20095
-I:36395
+S:22269
+I:38484
 T:JavaScript runtime built on V8 engine - LTS version (documentation)
 U:https://nodejs.org/
 L:MIT
 o:nodejs
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1785401044
-c:48d72323daf83509b541059c994366393ec68e63
+t:1792756298
+c:21263b5041eeda0a52bb5aea5c0d05a5a5d99632
 k:100
-i:docs nodejs=24.18.1-r0
+i:docs nodejs=24.22.1-r0
 
-C:Q1wtz3A43bCV8kefGQ+WyCh/r7hzE=
+C:Q1QCB8rYrzPnmsPoD55LbnZ2hVcXg=
 P:nodejs-libs
-V:24.18.1-r0
+V:24.22.1-r0
 A:loongarch64
-S:17876345
-I:50872160
+S:18771919
+I:54148960
 T:JavaScript runtime built on V8 engine - LTS version (libraries)
 U:https://nodejs.org/
 L:MIT
 o:nodejs
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1785401044
-c:48d72323daf83509b541059c994366393ec68e63
+t:1792756298
+c:21263b5041eeda0a52bb5aea5c0d05a5a5d99632
 k:100
-D:so:libada.so.3 so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-loongarch64.so.1 so:libcares.so.2 so:libcrypto.so.3 so:libgcc_s.so.1 so:libicui18n.so.78 so:libicuuc.so.78 so:libnghttp2.so.14 so:libsimdjson.so.29 so:libsimdutf.so.34 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
+D:so:libada.so.4 so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-loongarch64.so.1 so:libcares.so.2 so:libcrypto.so.3 so:libgcc_s.so.1 so:libicui18n.so.78 so:libicuuc.so.78 so:libnghttp2.so.14 so:libsimdjson.so.29 so:libsimdutf.so.34 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
 p:so:libnode.so.137=137
 
 C:Q18nM334dU7/O8YJr6l7kH+YP90hk=
@@ -54316,81 +54316,81 @@ c:b7b038e271c5b6b5f7e17c090bfc88c65d99cc94
 D:so:libc.musl-loongarch64.so.1 so:libcrypto.so.3 so:libssl.so.3
 p:cmd:nrpe-uninstall=4.1.1-r0
 
-C:Q1TWX18k0LRUZyVNKAstB4mhLy/+s=
+C:Q1n/IzMsRpBzHl5zOtp4NubrtjWiI=
 P:nsd
-V:4.14.3-r0
+V:4.14.3-r1
 A:loongarch64
-S:1161631
-I:2858033
+S:1159664
+I:2923569
 T:Authoritative only, high performance and simple DNS server
 U:https://www.nlnetlabs.nl/projects/nsd
 L:BSD-3-Clause
 o:nsd
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1782383451
-c:a8878fcd2a68c121276acbe42e60155dd2cd8640
+t:1792766219
+c:7d6534b9e72795b3196240e123dec8936487f229
 D:/bin/sh so:libc.musl-loongarch64.so.1 so:libcrypto.so.3 so:libevent-2.1.so.7 so:libssl.so.3
-p:cmd:nsd-checkconf=4.14.3-r0 cmd:nsd-checkzone=4.14.3-r0 cmd:nsd-control-setup=4.14.3-r0 cmd:nsd-control=4.14.3-r0 cmd:nsd=4.14.3-r0
+p:cmd:nsd-checkconf=4.14.3-r1 cmd:nsd-checkzone=4.14.3-r1 cmd:nsd-control-setup=4.14.3-r1 cmd:nsd-control=4.14.3-r1 cmd:nsd=4.14.3-r1
 
-C:Q1vMtjUMr1nY7AO2tJUngNVRQELIg=
+C:Q1mjX6AfDyIdp9jiIG3z8Ct7FoeGQ=
 P:nsd-bash-completion
-V:4.14.3-r0
+V:4.14.3-r1
 A:loongarch64
-S:1987
+S:1993
 I:828
 T:Bash completions for nsd
 U:https://www.nlnetlabs.nl/projects/nsd
 L:BSD-3-Clause
 o:nsd
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1782383451
-c:a8878fcd2a68c121276acbe42e60155dd2cd8640
-i:nsd=4.14.3-r0 bash-completion
+t:1792766219
+c:7d6534b9e72795b3196240e123dec8936487f229
+i:nsd=4.14.3-r1 bash-completion
 
-C:Q12vu9Ry3xjtBqja1oFlizGU3Wwuc=
+C:Q1sZeGBibYFit7hLUyOno0HPrSIDs=
 P:nsd-dbg
-V:4.14.3-r0
+V:4.14.3-r1
 A:loongarch64
-S:4053138
-I:11527488
+S:4051414
+I:11527848
 T:Authoritative only, high performance and simple DNS server (debug symbols)
 U:https://www.nlnetlabs.nl/projects/nsd
 L:BSD-3-Clause
 o:nsd
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1782383451
-c:a8878fcd2a68c121276acbe42e60155dd2cd8640
-D:!nsd<4.14.3-r0 !nsd>4.14.3-r0
+t:1792766219
+c:7d6534b9e72795b3196240e123dec8936487f229
+D:!nsd<4.14.3-r1 !nsd>4.14.3-r1
 
-C:Q17dUARYDnTuc6N3PJlz5RD2vbDjw=
+C:Q1F3GOL2WHsCXtovSNDBaPjKxlrMs=
 P:nsd-doc
-V:4.14.3-r0
+V:4.14.3-r1
 A:loongarch64
-S:697325
+S:697337
 I:1353220
 T:Authoritative only, high performance and simple DNS server (documentation)
 U:https://www.nlnetlabs.nl/projects/nsd
 L:BSD-3-Clause
 o:nsd
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1782383451
-c:a8878fcd2a68c121276acbe42e60155dd2cd8640
-i:docs nsd=4.14.3-r0
+t:1792766219
+c:7d6534b9e72795b3196240e123dec8936487f229
+i:docs nsd=4.14.3-r1
 
-C:Q1TVj4BX71hpALHOMyvpjD4XAYzWE=
+C:Q1XKsUPNcC878tXywJxzjx1Q+brW4=
 P:nsd-openrc
-V:4.14.3-r0
+V:4.14.3-r1
 A:loongarch64
-S:2131
+S:2135
 I:1072
 T:Authoritative only, high performance and simple DNS server (OpenRC init scripts)
 U:https://www.nlnetlabs.nl/projects/nsd
 L:BSD-3-Clause
 o:nsd
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1782383451
-c:a8878fcd2a68c121276acbe42e60155dd2cd8640
-i:openrc nsd=4.14.3-r0
+t:1792766219
+c:7d6534b9e72795b3196240e123dec8936487f229
+i:openrc nsd=4.14.3-r1
 
 C:Q1wQ2KXvyH9pyHx4WEEqKWh0lo8f4=
 P:nspr
