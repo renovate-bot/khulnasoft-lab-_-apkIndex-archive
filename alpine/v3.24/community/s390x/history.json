@@ -115435,7 +115435,8 @@
     "libraw": {
       "origin": "libraw",
       "versions": {
-        "0.22.1-r0": 1776009405
+        "0.22.1-r0": 1776009405,
+        "0.22.2-r0": 1792784551
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -115454,22 +115455,24 @@
     "libraw-dev": {
       "origin": "libraw",
       "versions": {
-        "0.22.1-r0": 1776009405
+        "0.22.1-r0": 1776009405,
+        "0.22.2-r0": 1792784551
       },
       "dependencies": [
-        "libraw=0.22.1-r0",
+        "libraw=0.22.2-r0",
         "pc:lcms2",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libraw=0.22.1",
-        "pc:libraw_r=0.22.1"
+        "pc:libraw=0.22.2",
+        "pc:libraw_r=0.22.2"
       ]
     },
     "libraw-tools": {
       "origin": "libraw",
       "versions": {
-        "0.22.1-r0": 1776009405
+        "0.22.1-r0": 1776009405,
+        "0.22.2-r0": 1792784551
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -115481,17 +115484,17 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:4channels=0.22.1-r0",
-        "cmd:dcraw_emu=0.22.1-r0",
-        "cmd:dcraw_half=0.22.1-r0",
-        "cmd:half_mt=0.22.1-r0",
-        "cmd:mem_image=0.22.1-r0",
-        "cmd:multirender_test=0.22.1-r0",
-        "cmd:postprocessing_benchmark=0.22.1-r0",
-        "cmd:raw-identify=0.22.1-r0",
-        "cmd:rawtextdump=0.22.1-r0",
-        "cmd:simple_dcraw=0.22.1-r0",
-        "cmd:unprocessed_raw=0.22.1-r0"
+        "cmd:4channels=0.22.2-r0",
+        "cmd:dcraw_emu=0.22.2-r0",
+        "cmd:dcraw_half=0.22.2-r0",
+        "cmd:half_mt=0.22.2-r0",
+        "cmd:mem_image=0.22.2-r0",
+        "cmd:multirender_test=0.22.2-r0",
+        "cmd:postprocessing_benchmark=0.22.2-r0",
+        "cmd:raw-identify=0.22.2-r0",
+        "cmd:rawtextdump=0.22.2-r0",
+        "cmd:simple_dcraw=0.22.2-r0",
+        "cmd:unprocessed_raw=0.22.2-r0"
       ]
     },
     "libraw1394": {
@@ -234269,14 +234272,15 @@
         "0.11.16-r0": 1779494324,
         "0.11.17-r0": 1780349211,
         "0.11.18-r0": 1780407312,
-        "0.11.19-r0": 1780602535
+        "0.11.19-r0": 1780602535,
+        "0.11.19-r1": 1792784773
       },
       "dependencies": [
-        "uv=0.11.19-r0",
+        "uv=0.11.19-r1",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:uv=0.11.19-r0"
+        "py3.14:uv=0.11.19-r1"
       ]
     },
     "py3-uv-build": {
@@ -234325,7 +234329,8 @@
         "0.11.16-r0": 1779494324,
         "0.11.17-r0": 1780349211,
         "0.11.18-r0": 1780407312,
-        "0.11.19-r0": 1780602535
+        "0.11.19-r0": 1780602535,
+        "0.11.19-r1": 1792784773
       },
       "dependencies": [
         "python3~3.14"
@@ -264177,7 +264182,8 @@
         "1.160.0-r0": 1788448402,
         "1.161.0-r0": 1789564901,
         "1.162.0-r0": 1790774518,
-        "1.163.0-r0": 1792158586
+        "1.163.0-r0": 1792158586,
+        "1.163.1-r0": 1792767223
       },
       "dependencies": [
         "python3",
@@ -264228,19 +264234,19 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:export_signing_key=1.163.0-r0",
-        "cmd:generate_config=1.163.0-r0",
-        "cmd:generate_log_config=1.163.0-r0",
-        "cmd:generate_signing_key=1.163.0-r0",
-        "cmd:hash_password=1.163.0-r0",
-        "cmd:register_new_matrix_user=1.163.0-r0",
-        "cmd:synapse_homeserver=1.163.0-r0",
-        "cmd:synapse_port_db=1.163.0-r0",
-        "cmd:synapse_review_recent_signups=1.163.0-r0",
-        "cmd:synapse_worker=1.163.0-r0",
-        "cmd:synctl=1.163.0-r0",
-        "cmd:update_synapse_database=1.163.0-r0",
-        "py3.14:synapse=1.163.0-r0"
+        "cmd:export_signing_key=1.163.1-r0",
+        "cmd:generate_config=1.163.1-r0",
+        "cmd:generate_log_config=1.163.1-r0",
+        "cmd:generate_signing_key=1.163.1-r0",
+        "cmd:hash_password=1.163.1-r0",
+        "cmd:register_new_matrix_user=1.163.1-r0",
+        "cmd:synapse_homeserver=1.163.1-r0",
+        "cmd:synapse_port_db=1.163.1-r0",
+        "cmd:synapse_review_recent_signups=1.163.1-r0",
+        "cmd:synapse_worker=1.163.1-r0",
+        "cmd:synctl=1.163.1-r0",
+        "cmd:update_synapse_database=1.163.1-r0",
+        "py3.14:synapse=1.163.1-r0"
       ]
     },
     "synapse-openrc": {
@@ -264259,7 +264265,8 @@
         "1.160.0-r0": 1788448402,
         "1.161.0-r0": 1789564901,
         "1.162.0-r0": 1790774518,
-        "1.163.0-r0": 1792158586
+        "1.163.0-r0": 1792158586,
+        "1.163.1-r0": 1792767223
       }
     },
     "synapse-pyc": {
@@ -264278,7 +264285,8 @@
         "1.160.0-r0": 1788448402,
         "1.161.0-r0": 1789564901,
         "1.162.0-r0": 1790774518,
-        "1.163.0-r0": 1792158586
+        "1.163.0-r0": 1792158586,
+        "1.163.1-r0": 1792767223
       },
       "dependencies": [
         "python3~3.14"
@@ -270007,7 +270015,8 @@
     "tomcat-native": {
       "origin": "tomcat-native",
       "versions": {
-        "2.0.14-r0": 1773779671
+        "2.0.14-r0": 1773779671,
+        "2.0.16-r0": 1792757885
       },
       "dependencies": [
         "so:libapr-1.so.0",
@@ -270016,13 +270025,14 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "so:libtcnative-2.so.0=0.0.14"
+        "so:libtcnative-2.so.0=0.0.16"
       ]
     },
     "tomcat-native-dev": {
       "origin": "tomcat-native",
       "versions": {
-        "2.0.14-r0": 1773779671
+        "2.0.14-r0": 1773779671,
+        "2.0.16-r0": 1792757885
       }
     },
     "toml11": {
@@ -275308,7 +275318,8 @@
         "0.11.16-r0": 1779494324,
         "0.11.17-r0": 1780349211,
         "0.11.18-r0": 1780407312,
-        "0.11.19-r0": 1780602535
+        "0.11.19-r0": 1780602535,
+        "0.11.19-r1": 1792784773
       },
       "dependencies": [
         "so:libbz2.so.1",
@@ -275316,8 +275327,8 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:uv=0.11.19-r0",
-        "cmd:uvx=0.11.19-r0"
+        "cmd:uv=0.11.19-r1",
+        "cmd:uvx=0.11.19-r1"
       ]
     },
     "uv-bash-completion": {
@@ -275329,7 +275340,8 @@
         "0.11.16-r0": 1779494324,
         "0.11.17-r0": 1780349211,
         "0.11.18-r0": 1780407312,
-        "0.11.19-r0": 1780602535
+        "0.11.19-r0": 1780602535,
+        "0.11.19-r1": 1792784773
       }
     },
     "uv-fish-completion": {
@@ -275341,7 +275353,8 @@
         "0.11.16-r0": 1779494324,
         "0.11.17-r0": 1780349211,
         "0.11.18-r0": 1780407312,
-        "0.11.19-r0": 1780602535
+        "0.11.19-r0": 1780602535,
+        "0.11.19-r1": 1792784773
       }
     },
     "uv-zsh-completion": {
@@ -275353,7 +275366,8 @@
         "0.11.16-r0": 1779494324,
         "0.11.17-r0": 1780349211,
         "0.11.18-r0": 1780407312,
-        "0.11.19-r0": 1780602535
+        "0.11.19-r0": 1780602535,
+        "0.11.19-r1": 1792784773
       }
     },
     "uvicorn": {
@@ -311075,7 +311089,7 @@
       },
       "libtcnative-2.so.0": {
         "package": "tomcat-native",
-        "version": "0.0.14"
+        "version": "0.0.16"
       },
       "libtomlplusplus.so.3": {
         "package": "tomlplusplus",

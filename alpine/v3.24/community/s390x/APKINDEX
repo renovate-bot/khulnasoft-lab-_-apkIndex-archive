@@ -121485,53 +121485,53 @@ t:1752435508
 c:d4867318fe06bd2cd7d5953308962cdac00e2d1b
 i:docs libraqm=0.10.2-r0
 
-C:Q1DEdvqkZuLwg4nFQX4mef2w478yc=
+C:Q1exSmewo0atwSPRnNpbDFV9P9pgw=
 P:libraw
-V:0.22.1-r0
+V:0.22.2-r0
 A:s390x
-S:1156419
-I:2924112
+S:1165753
+I:2940496
 T:Library for reading RAW files obtained from digital photo cameras
 U:https://www.libraw.org/
 L:CDDL-1.0 OR LGPL-2.1-only
 o:libraw
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776009405
-c:92ef92384bde7fca18d44e1a4f8f20ae9e38c00a
+t:1792784551
+c:db4806b0ac10d3d792ab381504508a13c530484b
 D:so:libc.musl-s390x.so.1 so:libgcc_s.so.1 so:libgomp.so.1 so:libjpeg.so.8 so:liblcms2.so.2 so:libstdc++.so.6 so:libz.so.1
 p:so:libraw.so.25=25.0.0 so:libraw_r.so.25=25.0.0
 
-C:Q1FSWJfFY+gVZ9Irz5LTCLbr6vzeM=
+C:Q1jB47NOQvWsG8RR/7EVtlut3AJps=
 P:libraw-dev
-V:0.22.1-r0
+V:0.22.2-r0
 A:s390x
-S:31016
-I:107685
+S:31036
+I:107763
 T:Library for reading RAW files obtained from digital photo cameras (development files)
 U:https://www.libraw.org/
 L:CDDL-1.0 OR LGPL-2.1-only
 o:libraw
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776009405
-c:92ef92384bde7fca18d44e1a4f8f20ae9e38c00a
-D:libraw=0.22.1-r0 pc:lcms2 pkgconfig
-p:pc:libraw=0.22.1 pc:libraw_r=0.22.1
+t:1792784551
+c:db4806b0ac10d3d792ab381504508a13c530484b
+D:libraw=0.22.2-r0 pc:lcms2 pkgconfig
+p:pc:libraw=0.22.2 pc:libraw_r=0.22.2
 
-C:Q1kcJhq5xmLLd0sopp1KhY+WJqX/E=
+C:Q1w4RJAXLsYr5quLY8xbmmxftXqGM=
 P:libraw-tools
-V:0.22.1-r0
+V:0.22.2-r0
 A:s390x
-S:49711
+S:49649
 I:164568
 T:tools for LibRaw
 U:https://www.libraw.org/
 L:CDDL-1.0 OR LGPL-2.1-only
 o:libraw
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1776009405
-c:92ef92384bde7fca18d44e1a4f8f20ae9e38c00a
+t:1792784551
+c:db4806b0ac10d3d792ab381504508a13c530484b
 D:so:libc.musl-s390x.so.1 so:libgcc_s.so.1 so:libgomp.so.1 so:libjpeg.so.8 so:libraw.so.25 so:libraw_r.so.25 so:libstdc++.so.6
-p:cmd:4channels=0.22.1-r0 cmd:dcraw_emu=0.22.1-r0 cmd:dcraw_half=0.22.1-r0 cmd:half_mt=0.22.1-r0 cmd:mem_image=0.22.1-r0 cmd:multirender_test=0.22.1-r0 cmd:postprocessing_benchmark=0.22.1-r0 cmd:raw-identify=0.22.1-r0 cmd:rawtextdump=0.22.1-r0 cmd:simple_dcraw=0.22.1-r0 cmd:unprocessed_raw=0.22.1-r0
+p:cmd:4channels=0.22.2-r0 cmd:dcraw_emu=0.22.2-r0 cmd:dcraw_half=0.22.2-r0 cmd:half_mt=0.22.2-r0 cmd:mem_image=0.22.2-r0 cmd:multirender_test=0.22.2-r0 cmd:postprocessing_benchmark=0.22.2-r0 cmd:raw-identify=0.22.2-r0 cmd:rawtextdump=0.22.2-r0 cmd:simple_dcraw=0.22.2-r0 cmd:unprocessed_raw=0.22.2-r0
 
 C:Q18sqoyusTT2Nrrm/HTqT2xv59b/Q=
 P:libraw1394
@@ -249129,21 +249129,21 @@ c:f83cbcdce6c84265b9e944ca7033bf1dbb371379
 D:python3~3.14
 i:py3-uuid6=2025.0.1-r1 pyc
 
-C:Q1seJvG4O9rX6TxpnkGg44qBgXpx0=
+C:Q1M/mDdKTOmhm6IWB8fAMONOsEdkE=
 P:py3-uv
-V:0.11.19-r0
+V:0.11.19-r1
 A:s390x
-S:13669
+S:13661
 I:30194
 T:Extremely fast Python package installer and resolver, written in Rust (python module)
 U:https://github.com/astral-sh/uv
 L:Apache-2.0 OR MIT
 o:uv
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1780602535
-c:56925c9ba0e902403113fe8cd1448b500c118f76
-D:uv=0.11.19-r0 python3~3.14
-p:py3.14:uv=0.11.19-r0
+t:1792784773
+c:c3f4756730510e32f39c583c64b3d91d4381d573
+D:uv=0.11.19-r1 python3~3.14
+p:py3.14:uv=0.11.19-r1
 
 C:Q1/Se4Q46gW3witXS+WgFFs7aLpf0=
 P:py3-uv-build
@@ -249177,21 +249177,21 @@ c:771418bcaf6ffbf0f31d000e451acbc9b1613847
 D:python3~3.14
 i:py3-uv-build=0.11.19-r0 pyc
 
-C:Q1q0C/RFz+hlBf8n323kFwY9qTAgI=
+C:Q1G+/EEzS9eQTUAfD3XcM9PwDKPMo=
 P:py3-uv-pyc
-V:0.11.19-r0
+V:0.11.19-r1
 A:s390x
-S:6347
+S:6343
 I:9079
 T:Precompiled Python bytecode for py3-uv
 U:https://github.com/astral-sh/uv
 L:Apache-2.0 OR MIT
 o:uv
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1780602535
-c:56925c9ba0e902403113fe8cd1448b500c118f76
+t:1792784773
+c:c3f4756730510e32f39c583c64b3d91d4381d573
 D:python3~3.14
-i:py3-uv=0.11.19-r0 pyc
+i:py3-uv=0.11.19-r1 pyc
 
 C:Q1/apR1wjV4AXSNrFf6j73R5IXh6Q=
 P:py3-uvloop
@@ -283586,52 +283586,52 @@ c:b224e2a60d2a720c5db62b3a3c40ce3bc04f3e74
 D:python3~3.14
 i:synadm=0.49.2-r1 pyc
 
-C:Q1YlGWOj5iwT5JzjKLMqwGp0qu/kk=
+C:Q1/tA55GxGEw33mVnwlBEPKUXHPUY=
 P:synapse
-V:1.163.0-r0
+V:1.163.1-r0
 A:s390x
-S:6122130
+S:6123144
 I:17596489
 T:Matrix reference homeserver
 U:https://github.com/element-hq/synapse
 L:AGPL-3.0-or-later
 o:synapse
 m:jahway603 <jahway603@tutanota.de>
-t:1792158586
-c:bd89eccaeca50bca445fd508242983c85916dd00
+t:1792767223
+c:0e815f51ed970cbf517742405ee7529a1ab02029
 D:python3 py3-asn1 py3-asn1-modules py3-attrs py3-authlib py3-bcrypt py3-bleach py3-canonicaljson py3-daemonize py3-eliot py3-icu py3-idna py3-ijson py3-immutabledict py3-jinja2 py3-jsonschema py3-jwt py3-lxml py3-matrix-common py3-maturin py3-msgpack py3-netaddr py3-openssl py3-phonenumbers py3-pillow py3-prometheus-client py3-psycopg2 py3-pydantic py3-pymacaroons py3-pynacl py3-python-multipart py3-saml2 py3-service_identity py3-setuptools py3-setuptools-rust py3-signedjson py3-sortedcontainers py3-treq py3-twisted py3-txredisapi py3-typing-extensions py3-yaml /bin/sh python3~3.14 so:libc.musl-s390x.so.1 so:libgcc_s.so.1
-p:cmd:export_signing_key=1.163.0-r0 cmd:generate_config=1.163.0-r0 cmd:generate_log_config=1.163.0-r0 cmd:generate_signing_key=1.163.0-r0 cmd:hash_password=1.163.0-r0 cmd:register_new_matrix_user=1.163.0-r0 cmd:synapse_homeserver=1.163.0-r0 cmd:synapse_port_db=1.163.0-r0 cmd:synapse_review_recent_signups=1.163.0-r0 cmd:synapse_worker=1.163.0-r0 cmd:synctl=1.163.0-r0 cmd:update_synapse_database=1.163.0-r0 py3.14:synapse=1.163.0-r0
+p:cmd:export_signing_key=1.163.1-r0 cmd:generate_config=1.163.1-r0 cmd:generate_log_config=1.163.1-r0 cmd:generate_signing_key=1.163.1-r0 cmd:hash_password=1.163.1-r0 cmd:register_new_matrix_user=1.163.1-r0 cmd:synapse_homeserver=1.163.1-r0 cmd:synapse_port_db=1.163.1-r0 cmd:synapse_review_recent_signups=1.163.1-r0 cmd:synapse_worker=1.163.1-r0 cmd:synctl=1.163.1-r0 cmd:update_synapse_database=1.163.1-r0 py3.14:synapse=1.163.1-r0
 
-C:Q1x0Q0WQSypQFYrlKgpJ1ZthoBrZ8=
+C:Q1aYQQTautWYGPkbmZsGNbspEwX3M=
 P:synapse-openrc
-V:1.163.0-r0
+V:1.163.1-r0
 A:s390x
-S:2050
+S:2059
 I:745
 T:Matrix reference homeserver (OpenRC init scripts)
 U:https://github.com/element-hq/synapse
 L:AGPL-3.0-or-later
 o:synapse
 m:jahway603 <jahway603@tutanota.de>
-t:1792158586
-c:bd89eccaeca50bca445fd508242983c85916dd00
-i:openrc synapse=1.163.0-r0
+t:1792767223
+c:0e815f51ed970cbf517742405ee7529a1ab02029
+i:openrc synapse=1.163.1-r0
 
-C:Q1Rx1joXFLlsI0FgrVb+Vb4stGB54=
+C:Q1ZyTfvepyQbJh7H1WtaDWHrKTEvM=
 P:synapse-pyc
-V:1.163.0-r0
+V:1.163.1-r0
 A:s390x
-S:4002562
+S:4002693
 I:10672865
 T:Precompiled Python bytecode for synapse
 U:https://github.com/element-hq/synapse
 L:AGPL-3.0-or-later
 o:synapse
 m:jahway603 <jahway603@tutanota.de>
-t:1792158586
-c:bd89eccaeca50bca445fd508242983c85916dd00
+t:1792767223
+c:0e815f51ed970cbf517742405ee7529a1ab02029
 D:python3~3.14
-i:synapse=1.163.0-r0 pyc
+i:synapse=1.163.1-r0 pyc
 
 C:Q1n9xF/hcdGTXnJFy405K/9Ydc0hg=
 P:syncoid
@@ -291499,35 +291499,35 @@ c:752503259176069d4fd9e7fc5ac3f1fb574296ec
 D:so:libc.musl-s390x.so.1 so:libgcc_s.so.1
 p:cmd:tokei=14.0.0-r0
 
-C:Q1OxTYtea2eplbk/QLeJeIc+3ipyI=
+C:Q1rqNLSGHw2taLeWF+Dlk3bmdZXlU=
 P:tomcat-native
-V:2.0.14-r0
+V:2.0.16-r0
 A:s390x
-S:34369
-I:91912
+S:29847
+I:79624
 T:Native resources optional component for Apache Tomcat
 U:https://tomcat.apache.org/native-doc/
 L:Apache-2.0
 o:tomcat-native
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1773779671
-c:07dd2dd14f72e77fc1e1c01f0e04500ff9c1449e
+t:1792757885
+c:3a7804c88b98f458244de6183e33327e5fc9c235
 D:so:libapr-1.so.0 so:libc.musl-s390x.so.1 so:libcrypto.so.3 so:libssl.so.3
-p:so:libtcnative-2.so.0=0.0.14
+p:so:libtcnative-2.so.0=0.0.16
 
-C:Q16g+IR9wddlhx3KKGj8CpQO7Psn4=
+C:Q19evszQIlcxOeVoKWsE7+h7mhFqI=
 P:tomcat-native-dev
-V:2.0.14-r0
+V:2.0.16-r0
 A:s390x
-S:34599
-I:118350
+S:29476
+I:104118
 T:Native resources optional component for Apache Tomcat (development files)
 U:https://tomcat.apache.org/native-doc/
 L:Apache-2.0
 o:tomcat-native
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1773779671
-c:07dd2dd14f72e77fc1e1c01f0e04500ff9c1449e
+t:1792757885
+c:3a7804c88b98f458244de6183e33327e5fc9c235
 
 C:Q1L1GC7XTrg1LoXeBbGtl6iovzKYI=
 P:toml11
@@ -298289,55 +298289,55 @@ t:1788309748
 c:37a881950638e9d40463209279bc9ae0f10de80d
 i:docs uutils=0.11.0-r1
 
-C:Q1g2/5iaKnUqw5Ajc0/aSyUts4IOs=
+C:Q1EWVeMSDt7Yy94fJII4OqsCFlIow=
 P:uv
-V:0.11.19-r0
+V:0.11.19-r1
 A:s390x
-S:11513368
-I:29691778
+S:11441935
+I:29495170
 T:Extremely fast Python package installer and resolver, written in Rust
 U:https://github.com/astral-sh/uv
 L:Apache-2.0 OR MIT
 o:uv
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1780602535
-c:56925c9ba0e902403113fe8cd1448b500c118f76
+t:1792784773
+c:c3f4756730510e32f39c583c64b3d91d4381d573
 D:so:libbz2.so.1 so:libc.musl-s390x.so.1 so:libgcc_s.so.1
-p:cmd:uv=0.11.19-r0 cmd:uvx=0.11.19-r0
+p:cmd:uv=0.11.19-r1 cmd:uvx=0.11.19-r1
 
-C:Q1hueW/7qHZlDKQxGzIwSscjv4VR0=
+C:Q1qwI/ve7rT0yP+DSN4pMGlcKEDcA=
 P:uv-bash-completion
-V:0.11.19-r0
+V:0.11.19-r1
 A:s390x
-S:15152
+S:15156
 I:454903
 T:Bash completions for uv
 U:https://github.com/astral-sh/uv
 L:Apache-2.0 OR MIT
 o:uv
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1780602535
-c:56925c9ba0e902403113fe8cd1448b500c118f76
-i:uv=0.11.19-r0 bash-completion
+t:1792784773
+c:c3f4756730510e32f39c583c64b3d91d4381d573
+i:uv=0.11.19-r1 bash-completion
 
-C:Q17ZbzUHCwmMsyTtXPldW7ZRN1ffA=
+C:Q1jK9GUPRR5jKTPgdqbTley3sZfzY=
 P:uv-fish-completion
-V:0.11.19-r0
+V:0.11.19-r1
 A:s390x
-S:44494
+S:44483
 I:775728
 T:Fish completions for uv
 U:https://github.com/astral-sh/uv
 L:Apache-2.0 OR MIT
 o:uv
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1780602535
-c:56925c9ba0e902403113fe8cd1448b500c118f76
-i:uv=0.11.19-r0 fish
+t:1792784773
+c:c3f4756730510e32f39c583c64b3d91d4381d573
+i:uv=0.11.19-r1 fish
 
-C:Q1VYKnItcMAvwNYR3zf6nY+mUzCBk=
+C:Q1JFQKpMa6wmyW7dnm8iekxjvQ6Ag=
 P:uv-zsh-completion
-V:0.11.19-r0
+V:0.11.19-r1
 A:s390x
 S:33493
 I:547247
@@ -298346,9 +298346,9 @@ U:https://github.com/astral-sh/uv
 L:Apache-2.0 OR MIT
 o:uv
 m:Andy Postnikov <apostnikov@gmail.com>
-t:1780602535
-c:56925c9ba0e902403113fe8cd1448b500c118f76
-i:uv=0.11.19-r0 zsh
+t:1792784773
+c:c3f4756730510e32f39c583c64b3d91d4381d573
+i:uv=0.11.19-r1 zsh
 
 C:Q1Lsg5G/+JkZMMFPUYB3uR4waUpBM=
 P:uvicorn

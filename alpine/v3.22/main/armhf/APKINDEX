@@ -6771,116 +6771,116 @@ t:1681228881
 c:84a227baf001b6e0208e3352b294e4d7a40e93de
 i:docs beep=1.4.12-r1
 
-C:Q1OxRuVrfUlPnJeMbZpDZSbTcFDA4=
+C:Q18Z3rLrCarn2aS06xbju1uZFI7o4=
 P:bind
-V:9.20.29-r0
+V:9.20.30-r0
 A:armhf
-S:220110
-I:529102
+S:220304
+I:529106
 T:The ISC DNS server
 U:https://www.isc.org/bind/
 L:MPL-2.0
 o:bind
 m:Mike Crute <mike@crute.us>
-t:1790427666
-c:4efcc25fe43ded0026a19a2a2b78be673da451ab
-D:dns-root-hints bind-tools /bin/sh so:libc.musl-armhf.so.1 so:libcap.so.2 so:libcrypto.so.3 so:libdns-9.20.29.so so:libfstrm.so.0 so:libisc-9.20.29.so so:libisccc-9.20.29.so so:libisccfg-9.20.29.so so:libjson-c.so.5 so:libnghttp2.so.14 so:libns-9.20.29.so so:libprotobuf-c.so.1 so:liburcu.so.8 so:libuv.so.1 so:libxml2.so.2 so:libz.so.1
-p:cmd:named-checkconf=9.20.29-r0 cmd:named=9.20.29-r0 cmd:rndc=9.20.29-r0
+t:1792686133
+c:a498009539a532b0cf5796021e4344a187d1857f
+D:dns-root-hints bind-tools /bin/sh so:libc.musl-armhf.so.1 so:libcap.so.2 so:libcrypto.so.3 so:libdns-9.20.30.so so:libfstrm.so.0 so:libisc-9.20.30.so so:libisccc-9.20.30.so so:libisccfg-9.20.30.so so:libjson-c.so.5 so:libnghttp2.so.14 so:libns-9.20.30.so so:libprotobuf-c.so.1 so:liburcu.so.8 so:libuv.so.1 so:libxml2.so.2 so:libz.so.1
+p:cmd:named-checkconf=9.20.30-r0 cmd:named=9.20.30-r0 cmd:rndc=9.20.30-r0
 
-C:Q1P5cW+5bjc/SEYsmFDt/XppsxblU=
+C:Q19P+cEXERTN0P/a+pYdeDYPyPA+U=
 P:bind-dbg
-V:9.20.29-r0
+V:9.20.30-r0
 A:armhf
-S:5830830
-I:12823696
+S:5849839
+I:12848600
 T:The ISC DNS server (debug symbols)
 U:https://www.isc.org/bind/
 L:MPL-2.0
 o:bind
 m:Mike Crute <mike@crute.us>
-t:1790427666
-c:4efcc25fe43ded0026a19a2a2b78be673da451ab
-D:dns-root-hints bind-tools !bind-dnssec-tools<9.20.29-r0 !bind-dnssec-tools>9.20.29-r0 !bind-libs<9.20.29-r0 !bind-libs>9.20.29-r0 !bind-plugins<9.20.29-r0 !bind-plugins>9.20.29-r0 !bind-tools<9.20.29-r0 !bind-tools>9.20.29-r0 !bind<9.20.29-r0 !bind>9.20.29-r0
+t:1792686133
+c:a498009539a532b0cf5796021e4344a187d1857f
+D:dns-root-hints bind-tools !bind-dnssec-tools<9.20.30-r0 !bind-dnssec-tools>9.20.30-r0 !bind-libs<9.20.30-r0 !bind-libs>9.20.30-r0 !bind-plugins<9.20.30-r0 !bind-plugins>9.20.30-r0 !bind-tools<9.20.30-r0 !bind-tools>9.20.30-r0 !bind<9.20.30-r0 !bind>9.20.30-r0
 
-C:Q1nKjIi2w2pQbWjpE0xrj5rIkLiJ0=
+C:Q1/cdN5UQ9/6PffK419JcM3oMfhDU=
 P:bind-dev
-V:9.20.29-r0
+V:9.20.30-r0
 A:armhf
-S:384202
-I:1600364
+S:386101
+I:1606994
 T:The ISC DNS server (development files)
 U:https://www.isc.org/bind/
 L:MPL-2.0
 o:bind
 m:Mike Crute <mike@crute.us>
-t:1790427666
-c:4efcc25fe43ded0026a19a2a2b78be673da451ab
-D:bind bind-plugins bind-tools bind-libs=9.20.29-r0
+t:1792686133
+c:a498009539a532b0cf5796021e4344a187d1857f
+D:bind bind-plugins bind-tools bind-libs=9.20.30-r0
 
-C:Q1q+e4/KzIBWdUSta9zfKikzh2zfk=
+C:Q1lMlFCLYTdI9Pme91qLTBCJZvnK0=
 P:bind-dnssec-root
-V:9.20.29-r0
+V:9.20.30-r0
 A:armhf
-S:3222
+S:3226
 I:2928
 T:ISC BIND DNSSEC Root Keys
 U:https://www.isc.org/bind/
 L:MPL-2.0
 o:bind
 m:Mike Crute <mike@crute.us>
-t:1790427666
-c:4efcc25fe43ded0026a19a2a2b78be673da451ab
+t:1792686133
+c:a498009539a532b0cf5796021e4344a187d1857f
 
-C:Q17gDJPv/Mspbj25x0lQLQd7pc1rc=
+C:Q1fCVlYBo0aqmRecw1n4iEyDzL3dQ=
 P:bind-dnssec-tools
-V:9.20.29-r0
+V:9.20.30-r0
 A:armhf
-S:153267
+S:153286
 I:391444
 T:Utilities for DNSSEC keys and DNS zone files management
 U:https://www.isc.org/bind/
 L:MPL-2.0
 o:bind
 m:Mike Crute <mike@crute.us>
-t:1790427666
-c:4efcc25fe43ded0026a19a2a2b78be673da451ab
-D:dns-root-hints bind-tools so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libdns-9.20.29.so so:libisc-9.20.29.so so:libisccfg-9.20.29.so so:liburcu.so.8
-p:cmd:dnssec-cds=9.20.29-r0 cmd:dnssec-dsfromkey=9.20.29-r0 cmd:dnssec-importkey=9.20.29-r0 cmd:dnssec-keyfromlabel=9.20.29-r0 cmd:dnssec-keygen=9.20.29-r0 cmd:dnssec-ksr=9.20.29-r0 cmd:dnssec-revoke=9.20.29-r0 cmd:dnssec-settime=9.20.29-r0 cmd:dnssec-signzone=9.20.29-r0 cmd:dnssec-verify=9.20.29-r0 cmd:nsec3hash=9.20.29-r0
+t:1792686133
+c:a498009539a532b0cf5796021e4344a187d1857f
+D:dns-root-hints bind-tools so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libdns-9.20.30.so so:libisc-9.20.30.so so:libisccfg-9.20.30.so so:liburcu.so.8
+p:cmd:dnssec-cds=9.20.30-r0 cmd:dnssec-dsfromkey=9.20.30-r0 cmd:dnssec-importkey=9.20.30-r0 cmd:dnssec-keyfromlabel=9.20.30-r0 cmd:dnssec-keygen=9.20.30-r0 cmd:dnssec-ksr=9.20.30-r0 cmd:dnssec-revoke=9.20.30-r0 cmd:dnssec-settime=9.20.30-r0 cmd:dnssec-signzone=9.20.30-r0 cmd:dnssec-verify=9.20.30-r0 cmd:nsec3hash=9.20.30-r0
 
-C:Q1nC64MRx4FOXkrnwQP+ShY0tccIg=
+C:Q1moqh5/v/EjwaLA7LkJG2eEcRsdo=
 P:bind-doc
-V:9.20.29-r0
+V:9.20.30-r0
 A:armhf
-S:113170
-I:108228
+S:113214
+I:108266
 T:The ISC DNS server (documentation)
 U:https://www.isc.org/bind/
 L:MPL-2.0
 o:bind
 m:Mike Crute <mike@crute.us>
-t:1790427666
-c:4efcc25fe43ded0026a19a2a2b78be673da451ab
-i:docs bind=9.20.29-r0
+t:1792686133
+c:a498009539a532b0cf5796021e4344a187d1857f
+i:docs bind=9.20.30-r0
 
-C:Q1RQSqdyNK0XWIzIrhOAyXhofS2NA=
+C:Q1Bf1NrvmyS4ZUYT8CQ07aY2at3YA=
 P:bind-libs
-V:9.20.29-r0
+V:9.20.30-r0
 A:armhf
-S:1357836
-I:3088376
+S:1354465
+I:3080188
 T:The ISC DNS server (libraries)
 U:https://www.isc.org/bind/
 L:MPL-2.0
 o:bind
 m:Mike Crute <mike@crute.us>
-t:1790427666
-c:4efcc25fe43ded0026a19a2a2b78be673da451ab
+t:1792686133
+c:a498009539a532b0cf5796021e4344a187d1857f
 D:so:libc.musl-armhf.so.1 so:libcrypto.so.3 so:libfstrm.so.0 so:libgssapi_krb5.so.2 so:libjson-c.so.5 so:libkrb5.so.3 so:libnghttp2.so.14 so:libprotobuf-c.so.1 so:libssl.so.3 so:liburcu-cds.so.8 so:liburcu-common.so.8 so:liburcu.so.8 so:libuv.so.1 so:libxml2.so.2 so:libz.so.1
-p:so:libdns-9.20.29.so=0 so:libisc-9.20.29.so=0 so:libisccc-9.20.29.so=0 so:libisccfg-9.20.29.so=0 so:libns-9.20.29.so=0
+p:so:libdns-9.20.30.so=0 so:libisc-9.20.30.so=0 so:libisccc-9.20.30.so=0 so:libisccfg-9.20.30.so=0 so:libns-9.20.30.so=0
 
-C:Q1DecA5dTdH6AWyMNmilDvG90VIxw=
+C:Q1OXZ3JEXWjfMUZV7N8zT6Oxhgfoo=
 P:bind-openrc
-V:9.20.29-r0
+V:9.20.30-r0
 A:armhf
 S:2536
 I:1957
@@ -6889,40 +6889,40 @@ U:https://www.isc.org/bind/
 L:MPL-2.0
 o:bind
 m:Mike Crute <mike@crute.us>
-t:1790427666
-c:4efcc25fe43ded0026a19a2a2b78be673da451ab
-i:openrc bind=9.20.29-r0
+t:1792686133
+c:a498009539a532b0cf5796021e4344a187d1857f
+i:openrc bind=9.20.30-r0
 
-C:Q1UZ+QXhlWbZoII2c5tUkM0fPOiwg=
+C:Q1MceJep+XxhEPzF/5zpPo0Y78v1Y=
 P:bind-plugins
-V:9.20.29-r0
+V:9.20.30-r0
 A:armhf
-S:8964
+S:8969
 I:29032
 T:The ISC DNS server plugins
 U:https://www.isc.org/bind/
 L:MPL-2.0
 o:bind
 m:Mike Crute <mike@crute.us>
-t:1790427666
-c:4efcc25fe43ded0026a19a2a2b78be673da451ab
+t:1792686133
+c:a498009539a532b0cf5796021e4344a187d1857f
 D:bind so:libc.musl-armhf.so.1
 
-C:Q1fQZPESR5Vgei6o4ztNQm/xniS68=
+C:Q1K+2p/WyjDxDEjbWguVjuGlRK4eA=
 P:bind-tools
-V:9.20.29-r0
+V:9.20.30-r0
 A:armhf
-S:238661
+S:238654
 I:548504
 T:The ISC DNS tools
 U:https://www.isc.org/bind/
 L:MPL-2.0
 o:bind
 m:Mike Crute <mike@crute.us>
-t:1790427666
-c:4efcc25fe43ded0026a19a2a2b78be673da451ab
-D:so:libc.musl-armhf.so.1 so:libdns-9.20.29.so so:libisc-9.20.29.so so:libisccfg-9.20.29.so so:libkrb5.so.3 so:libns-9.20.29.so so:libprotobuf-c.so.1
-p:cmd:arpaname=9.20.29-r0 cmd:ddns-confgen=9.20.29-r0 cmd:delv=9.20.29-r0 cmd:dig=9.20.29-r0 cmd:dnstap-read=9.20.29-r0 cmd:host=9.20.29-r0 cmd:mdig=9.20.29-r0 cmd:named-checkzone=9.20.29-r0 cmd:named-compilezone=9.20.29-r0 cmd:named-journalprint=9.20.29-r0 cmd:named-rrchecker=9.20.29-r0 cmd:nslookup=9.20.29-r0 cmd:nsupdate=9.20.29-r0 cmd:rndc-confgen=9.20.29-r0 cmd:tsig-keygen=9.20.29-r0
+t:1792686133
+c:a498009539a532b0cf5796021e4344a187d1857f
+D:so:libc.musl-armhf.so.1 so:libdns-9.20.30.so so:libisc-9.20.30.so so:libisccfg-9.20.30.so so:libkrb5.so.3 so:libns-9.20.30.so so:libprotobuf-c.so.1
+p:cmd:arpaname=9.20.30-r0 cmd:ddns-confgen=9.20.30-r0 cmd:delv=9.20.30-r0 cmd:dig=9.20.30-r0 cmd:dnstap-read=9.20.30-r0 cmd:host=9.20.30-r0 cmd:mdig=9.20.30-r0 cmd:named-checkzone=9.20.30-r0 cmd:named-compilezone=9.20.30-r0 cmd:named-journalprint=9.20.30-r0 cmd:named-rrchecker=9.20.30-r0 cmd:nslookup=9.20.30-r0 cmd:nsupdate=9.20.30-r0 cmd:rndc-confgen=9.20.30-r0 cmd:tsig-keygen=9.20.30-r0
 
 C:Q1qJB9fMJpfdVEMapLwOUaCWnOxpY=
 P:binutils
@@ -51656,69 +51656,69 @@ t:1747663692
 c:d2967c12429ff058389bd5a1d0455ed0da13fe00
 D:nmap-nselibs
 
-C:Q1lH2kUB8g0JEXmULx2dZuLoG9/G8=
+C:Q1hQmcsIaC1Gpz02bnJgtmxDa6IhQ=
 P:nodejs
-V:22.23.2-r0
+V:22.23.4-r0
 A:armhf
-S:18164752
-I:48805892
+S:18152573
+I:48797700
 T:JavaScript runtime built on V8 engine - LTS version
 U:https://nodejs.org/
 L:MIT
 o:nodejs
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1785362519
-c:c788155709094e82d9e696656aef7a837ad11765
+t:1792757617
+c:90f35cc6d20e6cb4410bf575de91bada52191009
 k:100
 D:ca-certificates /bin/sh so:libada.so.2 so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-armhf.so.1 so:libcares.so.2 so:libcrypto.so.3 so:libgcc_s.so.1 so:libicui18n.so.76 so:libicuuc.so.76 so:libnghttp2.so.14 so:libsimdjson.so.25 so:libsimdutf.so.24 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
-p:nodejs-lts=22.23.2-r0 cmd:node=22.23.2-r0
+p:nodejs-lts=22.23.4-r0 cmd:node=22.23.4-r0
 
-C:Q1Rm0kl6yzOlB2SZnIHVUoLos3hhY=
+C:Q1NOn9fK6/RBdu3PD3lw3uIxb9BDw=
 P:nodejs-dev
-V:22.23.2-r0
+V:22.23.4-r0
 A:armhf
-S:292165
-I:1308829
+S:292267
+I:1309589
 T:JavaScript runtime built on V8 engine - LTS version (development files)
 U:https://nodejs.org/
 L:MIT
 o:nodejs
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1785362519
-c:c788155709094e82d9e696656aef7a837ad11765
+t:1792757617
+c:90f35cc6d20e6cb4410bf575de91bada52191009
 k:100
-D:nodejs-libs=22.23.2-r0 pkgconfig
-p:nodejs-lts-dev=22.23.2 pc:nodejs=22.23.2
+D:nodejs-libs=22.23.4-r0 pkgconfig
+p:nodejs-lts-dev=22.23.4 pc:nodejs=22.23.4
 
-C:Q1cmq8eGWzgVq7+He+K+puEO0u9Vk=
+C:Q1c2faUNKpc5BZfzoqVmxD8KZmyHY=
 P:nodejs-doc
-V:22.23.2-r0
+V:22.23.4-r0
 A:armhf
-S:18269
+S:18268
 I:29253
 T:JavaScript runtime built on V8 engine - LTS version (documentation)
 U:https://nodejs.org/
 L:MIT
 o:nodejs
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1785362519
-c:c788155709094e82d9e696656aef7a837ad11765
+t:1792757617
+c:90f35cc6d20e6cb4410bf575de91bada52191009
 k:100
-i:docs nodejs=22.23.2-r0
+i:docs nodejs=22.23.4-r0
 
-C:Q1/h7qExLoTEEI+pnUKDUlf/+OAk8=
+C:Q1evNAKvewZNndBAhsErQHzE0Vml8=
 P:nodejs-libs
-V:22.23.2-r0
+V:22.23.4-r0
 A:armhf
-S:19666574
-I:57935824
+S:19662516
+I:57923536
 T:JavaScript runtime built on V8 engine - LTS version (libraries)
 U:https://nodejs.org/
 L:MIT
 o:nodejs
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1785362519
-c:c788155709094e82d9e696656aef7a837ad11765
+t:1792757617
+c:90f35cc6d20e6cb4410bf575de91bada52191009
 k:100
 D:so:libada.so.2 so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-armhf.so.1 so:libcares.so.2 so:libcrypto.so.3 so:libgcc_s.so.1 so:libicui18n.so.76 so:libicuuc.so.76 so:libnghttp2.so.14 so:libsimdjson.so.25 so:libsimdutf.so.24 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
 p:so:libnode.so.127=127
@@ -61668,35 +61668,35 @@ t:1688403118
 c:4ece6fc07c96d6859dde2ecc31b323fb3b355638
 i:docs perl-moo=2.005005-r1
 
-C:Q1mHab24o/JH2aYnAaii01id0BoZo=
+C:Q1+OxcUcnI98HFmLCOhbMZb8WCbl8=
 P:perl-mozilla-ca
-V:20261020-r0
+V:20261020-r1
 A:armhf
-S:110713
-I:189468
+S:2472
+I:1392
 T:Mozilla's CA cert bundle in PEM format
 U:https://metacpan.org/release/Mozilla-CA/
 L:MPL-2.0
 o:perl-mozilla-ca
 m:Sheila Aman <sheila@vulpine.house>
-t:1792559335
-c:36f2db8dcfce7f63019b2a1c0ea04b6f13709dbf
-D:perl
+t:1792768006
+c:2715415e33c4d23ee945e9f0f5d8d93b36b0fe01
+D:ca-certificates-bundle perl
 
-C:Q1x5a3/ysq2Rnf+KMCvI+C4Rb6O+M=
+C:Q1JmWcVP4cbsEf8tv3DBrGSDHFqtc=
 P:perl-mozilla-ca-doc
-V:20261020-r0
+V:20261020-r1
 A:armhf
-S:3205
-I:1458
+S:3209
+I:1459
 T:Mozilla's CA cert bundle in PEM format (documentation)
 U:https://metacpan.org/release/Mozilla-CA/
 L:MPL-2.0
 o:perl-mozilla-ca
 m:Sheila Aman <sheila@vulpine.house>
-t:1792559335
-c:36f2db8dcfce7f63019b2a1c0ea04b6f13709dbf
-i:docs perl-mozilla-ca=20261020-r0
+t:1792768006
+c:2715415e33c4d23ee945e9f0f5d8d93b36b0fe01
+i:docs perl-mozilla-ca=20261020-r1
 
 C:Q1nHW9iZBjltdD8RUpkkFXKmbVg5U=
 P:perl-mro-compat
