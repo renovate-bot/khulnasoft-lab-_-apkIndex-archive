@@ -85740,41 +85740,45 @@
     "lastpass-cli": {
       "origin": "lastpass-cli",
       "versions": {
-        "1.6.1-r1": 1761116632
+        "1.6.1-r1": 1761116632,
+        "1.6.2-r0": 1792878987
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
         "so:libcrypto.so.3",
         "so:libcurl.so.4",
-        "so:libssl.so.3",
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:lpass=1.6.1-r1"
+        "cmd:lpass=1.6.2-r0"
       ]
     },
     "lastpass-cli-bash-completion": {
       "origin": "lastpass-cli",
       "versions": {
-        "1.6.1-r1": 1761116632
+        "1.6.1-r1": 1761116632,
+        "1.6.2-r0": 1792878987
       }
     },
     "lastpass-cli-doc": {
       "origin": "lastpass-cli",
       "versions": {
-        "1.6.1-r1": 1761116632
+        "1.6.1-r1": 1761116632,
+        "1.6.2-r0": 1792878987
       }
     },
     "lastpass-cli-fish-completion": {
       "origin": "lastpass-cli",
       "versions": {
-        "1.6.1-r1": 1761116632
+        "1.6.1-r1": 1761116632,
+        "1.6.2-r0": 1792878987
       }
     },
     "lastpass-cli-zsh-completion": {
       "origin": "lastpass-cli",
       "versions": {
-        "1.6.1-r1": 1761116632
+        "1.6.1-r1": 1761116632,
+        "1.6.2-r0": 1792878987
       }
     },
     "lastversion": {
@@ -178066,22 +178070,26 @@
     "postfix-stats": {
       "origin": "postfix-stats",
       "versions": {
-        "1.6-r1": 1720158357
+        "1.6-r1": 1720158357,
+        "1.6-r2": 1792879063
       },
       "dependencies": [
         "perl",
+        "perl-file-tail",
+        "perl-db_file",
         "so:libc.musl-armhf.so.1",
         "so:libdb-5.3.so"
       ],
       "provides": [
-        "cmd:postfix-stats-get=1.6-r1",
-        "cmd:update-mailstats.pl=1.6-r1"
+        "cmd:postfix-stats-get=1.6-r2",
+        "cmd:update-mailstats.pl=1.6-r2"
       ]
     },
     "postfix-stats-doc": {
       "origin": "postfix-stats",
       "versions": {
-        "1.6-r1": 1720158357
+        "1.6-r1": 1720158357,
+        "1.6-r2": 1792879063
       }
     },
     "postfixadmin": {
