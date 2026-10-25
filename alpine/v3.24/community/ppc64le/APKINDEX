@@ -23979,21 +23979,21 @@ c:8311b96b4893df231e7fbd30176c025f940e8c89
 D:so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1
 p:cmd:cargo-cyclonedx=0.5.9-r0
 
-C:Q1McaCzAx2pIZEvmR66rFxrtjT/DQ=
+C:Q1ccpwBkXad1x6QgCpkTwTop2UAVo=
 P:cargo-deny
-V:0.18.6-r0
+V:0.18.6-r1
 A:ppc64le
-S:5564273
-I:10442876
+S:5544221
+I:10377340
 T:Cargo plugin for linting your dependencies
 U:https://github.com/EmbarkStudios/cargo-deny
 L:MIT OR Apache-2.0
 o:cargo-deny
 m:Matthias Ahouansou <matthias@ahouansou.cz>
-t:1767880905
-c:d1c57eed02022044992807a29737ae53dd62b204
+t:1792943649
+c:5a15ba8bbb765a12d0ffc1ee938b2552795f39f1
 D:so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1
-p:cmd:cargo-deny=0.18.6-r0
+p:cmd:cargo-deny=0.18.6-r1
 
 C:Q1uv6O62OOnoh3z0qcV2Tpb8/317k=
 P:cargo-doc2readme
@@ -74704,21 +74704,21 @@ t:1774640376
 c:463ed637050adb6ad3f8068da2ae013c9bfac6c9
 i:docs gnuradio=3.10.12.0-r12
 
-C:Q1wM+0lyEhln0hyOQeHoraLPohw3s=
+C:Q1dg8AHzf6CzRqv77FLX39Cy27GFA=
 P:go
-V:1.26.9-r0
+V:1.26.10-r0
 A:ppc64le
-S:50637256
-I:175081925
+S:50639851
+I:175083490
 T:Go programming language compiler
 U:https://go.dev/
 L:BSD-3-Clause
 o:go
 m:Achill Gilgenast <achill@achill.org>
-t:1791969450
-c:ee0e55516c1e1d00c3953971f423a7f86172d1bc
+t:1792943566
+c:b16b017fa2ababfd476506afdd7eb76d8f73f0de
 D:binutils gcc musl-dev
-p:go-bootstrap=1.26.9-r0 cmd:go=1.26.9-r0 cmd:gofmt=1.26.9-r0
+p:go-bootstrap=1.26.10-r0 cmd:go=1.26.10-r0 cmd:gofmt=1.26.10-r0
 
 C:Q19agyc0i2pRe/MCovbSeVDhDKfZY=
 P:go-away
@@ -74782,20 +74782,20 @@ c:c02e0c037b032adc0301e2027ad0f3a1c0b98a7a
 D:go-bindata
 p:cmd:go-bindata-assetfs=1.0.1-r45
 
-C:Q1bfQlJkse4nWt/Ah52vwBibCueMM=
+C:Q1z9/FeGk/N3xUMqRTcp5KCmzLf0s=
 P:go-doc
-V:1.26.9-r0
+V:1.26.10-r0
 A:ppc64le
-S:111342
+S:111354
 I:388784
 T:Go programming language compiler (documentation)
 U:https://go.dev/
 L:BSD-3-Clause
 o:go
 m:Achill Gilgenast <achill@achill.org>
-t:1791969450
-c:ee0e55516c1e1d00c3953971f423a7f86172d1bc
-i:docs go=1.26.9-r0
+t:1792943566
+c:b16b017fa2ababfd476506afdd7eb76d8f73f0de
+i:docs go=1.26.10-r0
 
 C:Q1TWbilI8raEFJuANmII9ESLcYhfs=
 P:go-md2man
@@ -167854,54 +167854,54 @@ c:c02e0c037b032adc0301e2027ad0f3a1c0b98a7a
 D:so:libc.musl-ppc64le.so.1
 p:cmd:nodeinfo=1.0.0-r13
 
-C:Q1qNAT/NIfk8xOo3n1kMtRQgAKXLg=
+C:Q1a1XJLtWkvuwA/3RAGQO/18iF2zE=
 P:nodejs-current
-V:26.5.1-r0
+V:26.12.1-r0
 A:ppc64le
-S:29396705
-I:86435632
+S:28206536
+I:84568912
 T:JavaScript runtime built on V8 engine - current stable version
 U:https://nodejs.org/
 L:MIT
 o:nodejs-current
 m:Johannes Müller <alpinelinux@jogemu.at>
-t:1787582931
-c:57919baa5f2df24a35f8325f0e445cad502a6bc3
+t:1792933927
+c:4e1bac0beab79f432056cb63312c4d94491a3dc0
 k:10
-D:ca-certificates so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-ppc64le.so.1 so:libcares.so.2 so:libcrypto.so.3 so:libgcc_s.so.1 so:libicui18n.so.78 so:libicuuc.so.78 so:libnghttp2.so.14 so:libssl.so.3 so:libstdc++.so.6 so:libuv.so.1 so:libz.so.1
-p:nodejs cmd:node=26.5.1-r0
+D:ca-certificates so:libada.so.4 so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.musl-ppc64le.so.1 so:libcares.so.2 so:libcrypto.so.3 so:libffi.so.8 so:libgcc_s.so.1 so:libhdr_histogram.so.6 so:libicui18n.so.78 so:libicuuc.so.78 so:libllhttp.so.9.4 so:libnghttp2.so.14 so:libsimdjson.so.29 so:libsqlite3.so.0 so:libssl.so.3 so:libstdc++.so.6 so:libuv.so.1 so:libz.so.1 so:libzstd.so.1
+p:nodejs cmd:node=26.12.1-r0
 
-C:Q11wBOdeKMv71tIsi7f0k+9oCdu50=
+C:Q1hNCjrR5FUqHJ/HJ4tsfHaK7duQE=
 P:nodejs-current-dev
-V:26.5.1-r0
+V:26.12.1-r0
 A:ppc64le
-S:284028
-I:1230536
+S:285637
+I:1237703
 T:JavaScript runtime built on V8 engine - current stable version (development files)
 U:https://nodejs.org/
 L:MIT
 o:nodejs-current
 m:Johannes Müller <alpinelinux@jogemu.at>
-t:1787582931
-c:57919baa5f2df24a35f8325f0e445cad502a6bc3
+t:1792933927
+c:4e1bac0beab79f432056cb63312c4d94491a3dc0
 k:10
 D:libuv-dev
 
-C:Q1MeL5i117G/3nv5oLfuJeGid2PVM=
+C:Q1CWh1OVrMYlVX7EILsNdh+PeWHOc=
 P:nodejs-current-doc
-V:26.5.1-r0
+V:26.12.1-r0
 A:ppc64le
-S:39472
-I:63117
+S:44063
+I:67655
 T:JavaScript runtime built on V8 engine - current stable version (documentation)
 U:https://nodejs.org/
 L:MIT
 o:nodejs-current
 m:Johannes Müller <alpinelinux@jogemu.at>
-t:1787582931
-c:57919baa5f2df24a35f8325f0e445cad502a6bc3
+t:1792933927
+c:4e1bac0beab79f432056cb63312c4d94491a3dc0
 k:10
-i:docs nodejs-current=26.5.1-r0
+i:docs nodejs-current=26.12.1-r0
 
 C:Q1yErBreYw3UnToH6F7DOXRT/3RL0=
 P:noip2
@@ -336546,40 +336546,40 @@ t:1792451640
 c:7fcdbe67dae9717f32fa7456b5348e3ab6bb58f4
 i:openrc znc=1.10.3-r0
 
-C:Q13CR6ytRqvo1V4Nkc/pgIqhitON8=
+C:Q128ijug7Fp8fhb55thr41BsP+VHo=
 P:zola
-V:0.22.1-r0
+V:0.22.1-r1
 A:ppc64le
-S:9971435
-I:31673312
+S:9977452
+I:31739032
 T:Opionated static site generator
 U:https://github.com/getzola/zola
 L:MIT
 o:zola
 m:Erwan Rouchet <lucidiot@brainshit.fr>
-t:1775349684
-c:e80bd5ca6d1f5e033855cf72a098898603fd0f89
-D:so:libc.musl-ppc64le.so.1 so:libgcc_s.so.1 so:libonig.so.5
-p:cmd:zola=0.22.1-r0
+t:1792943611
+c:d43e6c87adb3a940abccbc638b2bf9faae0ba883
+D:so:libc.musl-ppc64le.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libonig.so.5 so:libssl.so.3
+p:cmd:zola=0.22.1-r1
 
-C:Q1hPtZsCjljTsINiJCtQutpK4bMY0=
+C:Q1THvEKIKXO3s6x6rnhyhz7Z2XA8c=
 P:zola-bash-completion
-V:0.22.1-r0
+V:0.22.1-r1
 A:ppc64le
-S:2313
+S:2314
 I:10284
 T:Bash completions for zola
 U:https://github.com/getzola/zola
 L:MIT
 o:zola
 m:Erwan Rouchet <lucidiot@brainshit.fr>
-t:1775349684
-c:e80bd5ca6d1f5e033855cf72a098898603fd0f89
-i:zola=0.22.1-r0 bash-completion
+t:1792943611
+c:d43e6c87adb3a940abccbc638b2bf9faae0ba883
+i:zola=0.22.1-r1 bash-completion
 
-C:Q1co7vdI+I7oitzo12bKbltQbx7qQ=
+C:Q1Pn2vJ7B7/qFe6oBlc+hmkDFHWvE=
 P:zola-fish-completion
-V:0.22.1-r0
+V:0.22.1-r1
 A:ppc64le
 S:2768
 I:6099
@@ -336588,24 +336588,24 @@ U:https://github.com/getzola/zola
 L:MIT
 o:zola
 m:Erwan Rouchet <lucidiot@brainshit.fr>
-t:1775349684
-c:e80bd5ca6d1f5e033855cf72a098898603fd0f89
-i:zola=0.22.1-r0 fish
+t:1792943611
+c:d43e6c87adb3a940abccbc638b2bf9faae0ba883
+i:zola=0.22.1-r1 fish
 
-C:Q1kMIMZ/FD7Nx4vST3G6mjSLl/fI8=
+C:Q1auhLBwM/93VcWA4+M/MLOpZZHzs=
 P:zola-zsh-completion
-V:0.22.1-r0
+V:0.22.1-r1
 A:ppc64le
-S:3090
+S:3089
 I:7999
 T:Zsh completions for zola
 U:https://github.com/getzola/zola
 L:MIT
 o:zola
 m:Erwan Rouchet <lucidiot@brainshit.fr>
-t:1775349684
-c:e80bd5ca6d1f5e033855cf72a098898603fd0f89
-i:zola=0.22.1-r0 zsh
+t:1792943611
+c:d43e6c87adb3a940abccbc638b2bf9faae0ba883
+i:zola=0.22.1-r1 zsh
 
 C:Q1f8Jbg1XehwnftAVaX1T9WAhd1pc=
 P:zoneminder

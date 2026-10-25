@@ -23356,14 +23356,15 @@
     "cargo-deny": {
       "origin": "cargo-deny",
       "versions": {
-        "0.18.6-r0": 1767880905
+        "0.18.6-r0": 1767880905,
+        "0.18.6-r1": 1792943649
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:cargo-deny=0.18.6-r0"
+        "cmd:cargo-deny=0.18.6-r1"
       ]
     },
     "cargo-doc2readme": {
@@ -73472,7 +73473,8 @@
       "versions": {
         "1.26.3-r0": 1778659597,
         "1.26.8-r0": 1788541499,
-        "1.26.9-r0": 1791969450
+        "1.26.9-r0": 1791969450,
+        "1.26.10-r0": 1792943566
       },
       "dependencies": [
         "binutils",
@@ -73480,9 +73482,9 @@
         "musl-dev"
       ],
       "provides": [
-        "go-bootstrap=1.26.9-r0",
-        "cmd:go=1.26.9-r0",
-        "cmd:gofmt=1.26.9-r0"
+        "go-bootstrap=1.26.10-r0",
+        "cmd:go=1.26.10-r0",
+        "cmd:gofmt=1.26.10-r0"
       ]
     },
     "go-away": {
@@ -73534,7 +73536,8 @@
       "versions": {
         "1.26.3-r0": 1778659597,
         "1.26.8-r0": 1788541499,
-        "1.26.9-r0": 1791969450
+        "1.26.9-r0": 1791969450,
+        "1.26.10-r0": 1792943566
       }
     },
     "go-md2man": {
@@ -167777,27 +167780,35 @@
         "26.2.0-r0": 1779843199,
         "26.3.0-r0": 1780568716,
         "26.3.1-r0": 1784307895,
-        "26.5.1-r0": 1787582931
+        "26.5.1-r0": 1787582931,
+        "26.12.1-r0": 1792933927
       },
       "dependencies": [
         "ca-certificates",
+        "so:libada.so.4",
         "so:libbrotlidec.so.1",
         "so:libbrotlienc.so.1",
         "so:libc.musl-x86_64.so.1",
         "so:libcares.so.2",
         "so:libcrypto.so.3",
+        "so:libffi.so.8",
         "so:libgcc_s.so.1",
+        "so:libhdr_histogram.so.6",
         "so:libicui18n.so.78",
         "so:libicuuc.so.78",
+        "so:libllhttp.so.9.4",
         "so:libnghttp2.so.14",
+        "so:libsimdjson.so.29",
+        "so:libsqlite3.so.0",
         "so:libssl.so.3",
         "so:libstdc++.so.6",
         "so:libuv.so.1",
-        "so:libz.so.1"
+        "so:libz.so.1",
+        "so:libzstd.so.1"
       ],
       "provides": [
         "nodejs",
-        "cmd:node=26.5.1-r0"
+        "cmd:node=26.12.1-r0"
       ]
     },
     "nodejs-current-dev": {
@@ -167807,7 +167818,8 @@
         "26.2.0-r0": 1779843199,
         "26.3.0-r0": 1780568716,
         "26.3.1-r0": 1784307895,
-        "26.5.1-r0": 1787582931
+        "26.5.1-r0": 1787582931,
+        "26.12.1-r0": 1792933927
       },
       "dependencies": [
         "libuv-dev"
@@ -167820,7 +167832,8 @@
         "26.2.0-r0": 1779843199,
         "26.3.0-r0": 1780568716,
         "26.3.1-r0": 1784307895,
-        "26.5.1-r0": 1787582931
+        "26.5.1-r0": 1787582931,
+        "26.12.1-r0": 1792933927
       }
     },
     "noip2": {
@@ -326059,33 +326072,39 @@
     "zola": {
       "origin": "zola",
       "versions": {
-        "0.22.1-r0": 1775349684
+        "0.22.1-r0": 1775349684,
+        "0.22.1-r1": 1792943611
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
+        "so:libcrypto.so.3",
         "so:libgcc_s.so.1",
-        "so:libonig.so.5"
+        "so:libonig.so.5",
+        "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:zola=0.22.1-r0"
+        "cmd:zola=0.22.1-r1"
       ]
     },
     "zola-bash-completion": {
       "origin": "zola",
       "versions": {
-        "0.22.1-r0": 1775349684
+        "0.22.1-r0": 1775349684,
+        "0.22.1-r1": 1792943611
       }
     },
     "zola-fish-completion": {
       "origin": "zola",
       "versions": {
-        "0.22.1-r0": 1775349684
+        "0.22.1-r0": 1775349684,
+        "0.22.1-r1": 1792943611
       }
     },
     "zola-zsh-completion": {
       "origin": "zola",
       "versions": {
-        "0.22.1-r0": 1775349684
+        "0.22.1-r0": 1775349684,
+        "0.22.1-r1": 1792943611
       }
     },
     "zoneminder": {
@@ -355225,7 +355244,7 @@
       },
       "go-bootstrap": {
         "package": "go",
-        "version": "1.26.9-r0"
+        "version": "1.26.10-r0"
       },
       "gtkgreet": {
         "package": "greetd-gtkgreet",
