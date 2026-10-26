@@ -55278,21 +55278,21 @@ t:1779472864
 c:1548ce344f0d30634c55adbf71830724a5fae32e
 i:foot=1.27.0-r0 zsh
 
-C:Q1v9x04UjFfydzwJxwy21UWgrOJWU=
+C:Q1V58DGZeQpvSI7tECpbOjHnBOpc0=
 P:forgejo
-V:15.0.8-r1
+V:15.0.11-r0
 A:s390x
-S:48747860
-I:135489798
+S:48758624
+I:135518630
 T:Self-hosted Git service written in Go
 U:https://forgejo.org
 L:GPL-3.0-or-later
 o:forgejo
 m:Achill Gilgenast <achill@achill.org>
-t:1791969618
-c:c02e0c037b032adc0301e2027ad0f3a1c0b98a7a
+t:1793045061
+c:b857a51add4d06456ed9a713532c7d2e87e6666f
 D:git git-lfs gnupg /bin/sh so:libc.musl-s390x.so.1
-p:cmd:forgejo=15.0.8-r1
+p:cmd:forgejo=15.0.11-r0
 
 C:Q1jARnAKpnBWyqRfhc6FFSf9YCBWY=
 P:forgejo-lts
@@ -55340,20 +55340,20 @@ t:1791969618
 c:c02e0c037b032adc0301e2027ad0f3a1c0b98a7a
 i:systemd forgejo-lts=11.0.15-r2
 
-C:Q1rAbYlGfft03pK4nI2rr4cDUD+Pw=
+C:Q1tUGOc6ZqY7Fzbh9tXzPNV05fnhE=
 P:forgejo-openrc
-V:15.0.8-r1
+V:15.0.11-r0
 A:s390x
-S:1948
+S:1950
 I:635
 T:Self-hosted Git service written in Go (OpenRC init scripts)
 U:https://forgejo.org
 L:GPL-3.0-or-later
 o:forgejo
 m:Achill Gilgenast <achill@achill.org>
-t:1791969618
-c:c02e0c037b032adc0301e2027ad0f3a1c0b98a7a
-i:openrc forgejo=15.0.8-r1
+t:1793045061
+c:b857a51add4d06456ed9a713532c7d2e87e6666f
+i:openrc forgejo=15.0.11-r0
 
 C:Q1xTlalMLEQSne/O57/5dyHRxGs3c=
 P:forgejo-runner
@@ -55401,20 +55401,20 @@ t:1791969618
 c:c02e0c037b032adc0301e2027ad0f3a1c0b98a7a
 i:systemd forgejo-runner=12.10.2-r2
 
-C:Q1SY8GdkevkNrmhjzlC2Ay4TjG+EY=
+C:Q1BG7ZnlDrMeux5T1h0yWWm63ebzQ=
 P:forgejo-systemd
-V:15.0.8-r1
+V:15.0.11-r0
 A:s390x
-S:2869
+S:2866
 I:2500
 T:Self-hosted Git service written in Go (systemd files)
 U:https://forgejo.org
 L:GPL-3.0-or-later
 o:forgejo
 m:Achill Gilgenast <achill@achill.org>
-t:1791969618
-c:c02e0c037b032adc0301e2027ad0f3a1c0b98a7a
-i:systemd forgejo=15.0.8-r1
+t:1793045061
+c:b857a51add4d06456ed9a713532c7d2e87e6666f
+i:systemd forgejo=15.0.11-r0
 
 C:Q1wVulcAfq7YQc6T9HolYcsqRUD8o=
 P:fortune
@@ -169602,82 +169602,82 @@ c:d3242e1244d06d88d719fd3d2d54185ec9094e48
 D:python3~3.14
 i:pdfposter=0.9.1-r2 pyc
 
-C:Q1o+TSlM30xS4332RbO25lityJbZc=
+C:Q1vri6D8tNaMJgYZfcTZhpn6HTeac=
 P:pdns-recursor
-V:5.4.5-r0
+V:5.4.8-r0
 A:s390x
-S:4631200
-I:12318936
+S:4643516
+I:12355888
 T:PowerDNS Recursive Server
 U:https://www.powerdns.com/
 L:GPL-2.0-only WITH OpenSSL-Exception
 o:pdns-recursor
 m:Peter van Dijk <peter.van.dijk@powerdns.com>
-t:1786058014
-c:95024084db39bd9d9083d0ec7138a2bc4e00a75f
+t:1793038353
+c:b02712468d0921412896c3c355582785339feaed
 D:pdns-recursor-common so:libboost_context.so.1.84.0 so:libboost_filesystem.so.1.84.0 so:libc.musl-s390x.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libfstrm.so.0 so:libgcc_s.so.1 so:liblua-5.4.so.0 so:libsodium.so.26 so:libssl.so.3 so:libstdc++.so.6
-p:cmd:pdns_recursor=5.4.5-r0 cmd:rec_control=5.4.5-r0
+p:cmd:pdns_recursor=5.4.8-r0 cmd:rec_control=5.4.8-r0
 
-C:Q1Uzvyy9stWzvDl0Byf3xZkv6cNeY=
+C:Q1BsaaqgHC6T3MxmjngfupK3BoIOo=
 P:pdns-recursor-common
-V:5.4.5-r0
+V:5.4.8-r0
 A:s390x
-S:10252
-I:43613
+S:10335
+I:43921
 T:pdns-recursor common files
 U:https://www.powerdns.com/
 L:GPL-2.0-only WITH OpenSSL-Exception
 o:pdns-recursor
 m:Peter van Dijk <peter.van.dijk@powerdns.com>
-t:1786058014
-c:95024084db39bd9d9083d0ec7138a2bc4e00a75f
+t:1793038353
+c:b02712468d0921412896c3c355582785339feaed
 D:/bin/sh
 
-C:Q1/rXBLMZz5Pzvl6kcvLri1kz1nzc=
+C:Q1TA/vqTX8tCbD81Ue7V3VNbVii2Y=
 P:pdns-recursor-doc
-V:5.4.5-r0
+V:5.4.8-r0
 A:s390x
-S:9401
-I:7508
+S:9406
+I:7509
 T:PowerDNS Recursive Server (documentation)
 U:https://www.powerdns.com/
 L:GPL-2.0-only WITH OpenSSL-Exception
 o:pdns-recursor
 m:Peter van Dijk <peter.van.dijk@powerdns.com>
-t:1786058014
-c:95024084db39bd9d9083d0ec7138a2bc4e00a75f
-i:docs pdns-recursor=5.4.5-r0
+t:1793038353
+c:b02712468d0921412896c3c355582785339feaed
+i:docs pdns-recursor=5.4.8-r0
 
-C:Q1z7gVdlCZVRH5I9HpXVbtzWey5DI=
+C:Q1nZ6VHF5zm15Y+9/F9vZUlkofBBM=
 P:pdns-recursor-luajit
-V:5.4.5-r0
+V:5.4.8-r0
 A:s390x
-S:4701616
-I:12654808
+S:4716873
+I:12691760
 T:pdns-recursor with luajit bindings
 U:https://www.powerdns.com/
 L:GPL-2.0-only WITH OpenSSL-Exception
 o:pdns-recursor
 m:Peter van Dijk <peter.van.dijk@powerdns.com>
-t:1786058014
-c:95024084db39bd9d9083d0ec7138a2bc4e00a75f
+t:1793038353
+c:b02712468d0921412896c3c355582785339feaed
 D:pdns-recursor-common so:libboost_context.so.1.84.0 so:libboost_filesystem.so.1.84.0 so:libc.musl-s390x.so.1 so:libcrypto.so.3 so:libcurl.so.4 so:libfstrm.so.0 so:libgcc_s.so.1 so:libluajit-5.1.so.2 so:libsodium.so.26 so:libssl.so.3 so:libstdc++.so.6
-p:pdns-recursor=5.4.5-r0 cmd:pdns_recursor=5.4.5-r0 cmd:rec_control=5.4.5-r0
+p:pdns-recursor=5.4.8-r0 cmd:pdns_recursor=5.4.8-r0 cmd:rec_control=5.4.8-r0
 
-C:Q1lbNWFr5Tv+iCdgHu8aaCDsXnYvM=
+C:Q16qqm7QiFdF0txFk1p+hFyIAdA6Y=
 P:pdns-recursor-openrc
-V:5.4.5-r0
+V:5.4.8-r0
 A:s390x
-S:2023
+S:2022
 I:698
 T:PowerDNS Recursive Server (OpenRC init scripts)
 U:https://www.powerdns.com/
 L:GPL-2.0-only WITH OpenSSL-Exception
 o:pdns-recursor
 m:Peter van Dijk <peter.van.dijk@powerdns.com>
-t:1786058014
-c:95024084db39bd9d9083d0ec7138a2bc4e00a75f
-i:openrc pdns-recursor=5.4.5-r0
+t:1793038353
+c:b02712468d0921412896c3c355582785339feaed
+i:openrc pdns-recursor=5.4.8-r0
 
 C:Q1Cw+QD27jNMfA0Evf6qHcAA2DDps=
 P:pdpmake
