@@ -107003,53 +107003,53 @@ c:cfc634b9e67a432efe73e9d702118bd6f0aed439
 D:so:libbs2b.so.0 so:libc.musl-s390x.so.1 so:libsndfile.so.1
 p:cmd:bs2bconvert=3.1.0-r3 cmd:bs2bstream=3.1.0-r3
 
-C:Q1Cb8fBOA1Co+gM7U4cwgHpJ0A7W0=
+C:Q1lC8736mGTXlGywDx5kjpcFQUifo=
 P:libbson
-V:1.30.6-r0
+V:1.30.14-r0
 A:s390x
-S:95887
+S:96086
 I:247544
 T:Building, parsing, and iterating BSON documents
 U:https://github.com/mongodb/mongo-c-driver
 L:Apache-2.0
 o:mongo-c-driver
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1767446415
-c:8a35ede44c812be1758665073a17c7aa696fadd6
+t:1793099044
+c:be7ad3c8423a9d8429cd584cf7e82f908df942db
 D:so:libc.musl-s390x.so.1
 p:so:libbson-1.0.so.0=0.0.0
 
-C:Q1Tciu7ql1TZcn0augy+pVEr6N1iU=
+C:Q1JvocFDvgQ+L+bHz6OCXBadHlBrg=
 P:libbson-dev
-V:1.30.6-r0
+V:1.30.14-r0
 A:s390x
-S:42798
-I:215611
+S:42777
+I:215623
 T:Client library written in C for MongoDB (development files)
 U:https://github.com/mongodb/mongo-c-driver
 L:Apache-2.0
 o:mongo-c-driver
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1767446415
-c:8a35ede44c812be1758665073a17c7aa696fadd6
-D:libbson=1.30.6-r0 pkgconfig
-p:pc:libbson-1.0=1.30.6
+t:1793099044
+c:be7ad3c8423a9d8429cd584cf7e82f908df942db
+D:libbson=1.30.14-r0 pkgconfig
+p:pc:libbson-1.0=1.30.14
 
-C:Q14LD1mRbHYSIy9b/50mnWTCLVy6U=
+C:Q1wUTScoIungU/jihVT8KNz1yPMhQ=
 P:libbson-static
-V:1.30.6-r0
+V:1.30.14-r0
 A:s390x
-S:121956
-I:444609
+S:122356
+I:445697
 T:Client library written in C for MongoDB (static library)
 U:https://github.com/mongodb/mongo-c-driver
 L:Apache-2.0
 o:mongo-c-driver
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1767446415
-c:8a35ede44c812be1758665073a17c7aa696fadd6
-D:libbson-dev=1.30.6-r0 pkgconfig
-p:pc:libbson-static-1.0=1.30.6
+t:1793099044
+c:be7ad3c8423a9d8429cd584cf7e82f908df942db
+D:libbson-dev=1.30.14-r0 pkgconfig
+p:pc:libbson-static-1.0=1.30.14
 
 C:Q1mZyGqqTcDQS1hyUub9ufG1pEbYk=
 P:libbytesize
@@ -144814,68 +144814,68 @@ c:6958a4b5aeb47af62fc98d63c6b4396967c6f19e
 D:so:libboost_chrono.so.1.84.0 so:libboost_filesystem.so.1.84.0 so:libboost_program_options.so.1.84.0 so:libboost_serialization.so.1.84.0 so:libboost_thread.so.1.84.0 so:libc.musl-s390x.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libhidapi-libusb.so.0 so:libreadline.so.8 so:libsodium.so.26 so:libssl.so.3 so:libstdc++.so.6 so:libunbound.so.8 so:libzmq.so.5
 p:cmd:monero-blockchain-ancestry=0.18.5.0-r0 cmd:monero-blockchain-depth=0.18.5.0-r0 cmd:monero-blockchain-export=0.18.5.0-r0 cmd:monero-blockchain-import=0.18.5.0-r0 cmd:monero-blockchain-mark-spent-outputs=0.18.5.0-r0 cmd:monero-blockchain-prune-known-spent-data=0.18.5.0-r0 cmd:monero-blockchain-prune=0.18.5.0-r0 cmd:monero-blockchain-stats=0.18.5.0-r0 cmd:monero-blockchain-usage=0.18.5.0-r0 cmd:monero-gen-ssl-cert=0.18.5.0-r0 cmd:monero-gen-trusted-multisig=0.18.5.0-r0 cmd:monero-wallet-cli=0.18.5.0-r0 cmd:monero-wallet-rpc=0.18.5.0-r0 cmd:monerod=0.18.5.0-r0
 
-C:Q1gzugkoA/ufOk/pw+2JNQQF67hIQ=
+C:Q1DQz1WVvNmdrB3sfjRhFtzwjml0A=
 P:mongo-c-driver
-V:1.30.6-r0
+V:1.30.14-r0
 A:s390x
-S:496864
-I:1405608
+S:499920
+I:1413800
 T:Client library written in C for MongoDB
 U:https://github.com/mongodb/mongo-c-driver
 L:Apache-2.0
 o:mongo-c-driver
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1767446415
-c:8a35ede44c812be1758665073a17c7aa696fadd6
+t:1793099044
+c:be7ad3c8423a9d8429cd584cf7e82f908df942db
 D:so:libbson-1.0.so.0 so:libc.musl-s390x.so.1 so:libcrypto.so.3 so:libsnappy.so.1 so:libssl.so.3 so:libzstd.so.1
-p:cmd:mongoc-stat=1.30.6-r0 so:libmongoc-1.0.so.0=0.0.0
+p:cmd:mongoc-stat=1.30.14-r0 so:libmongoc-1.0.so.0=0.0.0
 
-C:Q1hwX38UYQVg41nj4Usx5sSOu6j6I=
+C:Q1tG9A92imoUB0H8Rdw9J4IOtlIwE=
 P:mongo-c-driver-dev
-V:1.30.6-r0
+V:1.30.14-r0
 A:s390x
-S:40444
-I:234912
+S:40429
+I:234928
 T:Client library written in C for MongoDB (development files)
 U:https://github.com/mongodb/mongo-c-driver
 L:Apache-2.0
 o:mongo-c-driver
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1767446415
-c:8a35ede44c812be1758665073a17c7aa696fadd6
-D:libbson-dev mongo-c-driver=1.30.6-r0 pc:libbson-1.0 pkgconfig
-p:pc:libmongoc-1.0=1.30.6 pc:libmongoc-ssl-1.0=1.30.6
+t:1793099044
+c:be7ad3c8423a9d8429cd584cf7e82f908df942db
+D:libbson-dev mongo-c-driver=1.30.14-r0 pc:libbson-1.0 pkgconfig
+p:pc:libmongoc-1.0=1.30.14 pc:libmongoc-ssl-1.0=1.30.14
 
-C:Q15i/b2VUniBd+ZeCNSxLVCZPShqQ=
+C:Q1yeMJdC2T7KI0DfZp32a3lUyOySU=
 P:mongo-c-driver-doc
-V:1.30.6-r0
+V:1.30.14-r0
 A:s390x
-S:995901
-I:916282
+S:998554
+I:918558
 T:Client library written in C for MongoDB (documentation)
 U:https://github.com/mongodb/mongo-c-driver
 L:Apache-2.0
 o:mongo-c-driver
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1767446415
-c:8a35ede44c812be1758665073a17c7aa696fadd6
-i:docs mongo-c-driver=1.30.6-r0
+t:1793099044
+c:be7ad3c8423a9d8429cd584cf7e82f908df942db
+i:docs mongo-c-driver=1.30.14-r0
 
-C:Q1WoWRXWvFYu0fZ1zO6nPRQASUxiA=
+C:Q1UozHx6nkVZ+APMSzW+n4O4F2bEw=
 P:mongo-c-driver-static
-V:1.30.6-r0
+V:1.30.14-r0
 A:s390x
-S:663510
-I:2561172
+S:669029
+I:2582502
 T:Client library written in C for MongoDB (static library)
 U:https://github.com/mongodb/mongo-c-driver
 L:Apache-2.0
 o:mongo-c-driver
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1767446415
-c:8a35ede44c812be1758665073a17c7aa696fadd6
-D:mongo-c-driver-dev=1.30.6-r0 pc:libbson-static-1.0 pkgconfig
-p:pc:libmongoc-static-1.0=1.30.6
+t:1793099044
+c:be7ad3c8423a9d8429cd584cf7e82f908df942db
+D:mongo-c-driver-dev=1.30.14-r0 pc:libbson-static-1.0 pkgconfig
+p:pc:libmongoc-static-1.0=1.30.14
 
 C:Q1LTZehTB6Egt4rb48yr5gkEbwJ7s=
 P:mongo-php-library
@@ -151726,313 +151726,313 @@ t:1790885286
 c:7805e4fb29efc937492a3173e55dc72ecd9fcdaf
 D:nextcloud32
 
-C:Q1i0eQWRVwWGppkDn+rjF/GSWf0gM=
+C:Q1c9KMItFQqhPmDg7Cm0cKUKIZLyw=
 P:nextcloud33
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:153650759
-I:340326539
+S:154761462
+I:344768440
 T:A safe home for all your data
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:ca-certificates php85 php85-bcmath php85-ctype php85-curl php85-dom php85-gd php85-fileinfo php85-gmp php85-iconv php85-intl php85-mbstring php85-openssl php85-pcntl php85-posix php85-session php85-simplexml php85-xml php85-xmlreader php85-xmlwriter php85-zip /bin/sh
-p:nextcloud=33.0.9-r0 nextcloud-accessibility=33.0.9-r0 nextcloud33-accessibility=33.0.9-r0 nextcloud-bruteforcesettings=33.0.9-r0 nextcloud33-bruteforcesettings=33.0.9-r0 nextcloud-contactsinteraction=33.0.9-r0 nextcloud33-contactsinteraction=33.0.9-r0 nextcloud-cloud_federation_api=33.0.9-r0 nextcloud33-cloud_federation_api=33.0.9-r0 nextcloud-dav=33.0.9-r0 nextcloud33-dav=33.0.9-r0 nextcloud-files=33.0.9-r0 nextcloud33-files=33.0.9-r0 nextcloud-files_videoplayer=33.0.9-r0 nextcloud33-files_videoplayer=33.0.9-r0 nextcloud-federatedfilesharing=33.0.9-r0 nextcloud33-federatedfilesharing=33.0.9-r0 nextcloud-lookup_server_connector=33.0.9-r0 nextcloud33-lookup_server_connector=33.0.9-r0 nextcloud-oauth2=33.0.9-r0 nextcloud33-oauth2=33.0.9-r0 nextcloud-profile=33.0.9-r0 nextcloud33-profile=33.0.9-r0 nextcloud-provisioning_api=33.0.9-r0 nextcloud33-provisioning_api=33.0.9-r0 nextcloud-related_resources=33.0.9-r0 nextcloud33-related_resources=33.0.9-r0 nextcloud-settings=33.0.9-r0 nextcloud33-settings=33.0.9-r0 nextcloud-theming=33.0.9-r0 nextcloud33-theming=33.0.9-r0 nextcloud-twofactor_backupcodes=33.0.9-r0 nextcloud33-twofactor_backupcodes=33.0.9-r0 nextcloud-twofactor_nextcloud_notification=33.0.9-r0 nextcloud33-twofactor_nextcloud_notification=33.0.9-r0 nextcloud-twofactor_totp=33.0.9-r0 nextcloud33-twofactor_totp=33.0.9-r0 nextcloud-viewer=33.0.9-r0 nextcloud33-viewer=33.0.9-r0 nextcloud-workflowengine=33.0.9-r0 nextcloud33-workflowengine=33.0.9-r0
+p:nextcloud=33.0.10-r0 nextcloud-accessibility=33.0.10-r0 nextcloud33-accessibility=33.0.10-r0 nextcloud-bruteforcesettings=33.0.10-r0 nextcloud33-bruteforcesettings=33.0.10-r0 nextcloud-contactsinteraction=33.0.10-r0 nextcloud33-contactsinteraction=33.0.10-r0 nextcloud-cloud_federation_api=33.0.10-r0 nextcloud33-cloud_federation_api=33.0.10-r0 nextcloud-dav=33.0.10-r0 nextcloud33-dav=33.0.10-r0 nextcloud-files=33.0.10-r0 nextcloud33-files=33.0.10-r0 nextcloud-files_videoplayer=33.0.10-r0 nextcloud33-files_videoplayer=33.0.10-r0 nextcloud-federatedfilesharing=33.0.10-r0 nextcloud33-federatedfilesharing=33.0.10-r0 nextcloud-lookup_server_connector=33.0.10-r0 nextcloud33-lookup_server_connector=33.0.10-r0 nextcloud-oauth2=33.0.10-r0 nextcloud33-oauth2=33.0.10-r0 nextcloud-profile=33.0.10-r0 nextcloud33-profile=33.0.10-r0 nextcloud-provisioning_api=33.0.10-r0 nextcloud33-provisioning_api=33.0.10-r0 nextcloud-related_resources=33.0.10-r0 nextcloud33-related_resources=33.0.10-r0 nextcloud-settings=33.0.10-r0 nextcloud33-settings=33.0.10-r0 nextcloud-theming=33.0.10-r0 nextcloud33-theming=33.0.10-r0 nextcloud-twofactor_backupcodes=33.0.10-r0 nextcloud33-twofactor_backupcodes=33.0.10-r0 nextcloud-twofactor_nextcloud_notification=33.0.10-r0 nextcloud33-twofactor_nextcloud_notification=33.0.10-r0 nextcloud-twofactor_totp=33.0.10-r0 nextcloud33-twofactor_totp=33.0.10-r0 nextcloud-viewer=33.0.10-r0 nextcloud33-viewer=33.0.10-r0 nextcloud-workflowengine=33.0.10-r0 nextcloud33-workflowengine=33.0.10-r0
 
-C:Q1GXDVxHs3oftWp+5BgelU76hsVoA=
+C:Q1ZKZY7vGXBHXQq5tEzYZoxrPg8nE=
 P:nextcloud33-activity
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:2353708
-I:10301175
+S:2354781
+I:10349413
 T:Nextcloud Activity app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-activity=33.0.9-r0
+p:nextcloud-activity=33.0.10-r0
 
-C:Q1afvqUdJf1OMPxhm9zPRhLPqxC2s=
+C:Q13aI6wV3J8wVxI8WzIYKVxnF/1X0=
 P:nextcloud33-admin_audit
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:55871
-I:179878
+S:55915
+I:179842
 T:Nextcloud Auditing / Logging app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-admin_audit=33.0.9-r0
+p:nextcloud-admin_audit=33.0.10-r0
 
-C:Q1frQaXsUcIS4vP74sQZ399TLRcOw=
+C:Q1hOBm12cOJlq/pqTdrUiPu92NXzU=
 P:nextcloud33-app_api
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:3318567
-I:14145252
+S:3297121
+I:14061828
 T:Nextcloud AppAPI app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-app_api=33.0.9-r0
+p:nextcloud-app_api=33.0.10-r0
 
-C:Q1V9tNysmhBAhU4GcWP30101Vb0pM=
+C:Q1eWzSbIqgUxDCE/2muYXpXvIHXVs=
 P:nextcloud33-circles
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:3267179
-I:14962833
+S:3339615
+I:15148965
 T:Nextcloud Teams app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-circles=33.0.9-r0
+p:nextcloud-circles=33.0.10-r0
 
-C:Q1gzjWgL9sknmM0IG9keGbyFDvwuw=
+C:Q1nZ3cWcefirtmVpZpEoOWNQr5KSM=
 P:nextcloud33-comments
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:76516
-I:395006
+S:76419
+I:394647
 T:Nextcloud Comments app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-comments=33.0.9-r0
+p:nextcloud-comments=33.0.10-r0
 
-C:Q1NmR5RWLSmN4hZz1v6/hz5nSEG9M=
+C:Q1VTilK7Y9rXJlwi5Qr16dYGJrJos=
 P:nextcloud33-dashboard
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:68306
-I:343697
+S:68178
+I:343198
 T:Nextcloud Dashboard app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-dashboard=33.0.9-r0
+p:nextcloud-dashboard=33.0.10-r0
 
-C:Q1hyZxUqyP0Iz/QU+HbW2YX80fyGo=
+C:Q1QFuUkamKktvtyyLVUTEUHONL4Eo=
 P:nextcloud33-default-apps
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:1368
+S:1372
 I:0
 T:Nextcloud default apps
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33 nextcloud33-circles nextcloud33-files_pdfviewer nextcloud33-logreader nextcloud33-password_policy nextcloud33-privacy nextcloud33-recommendations nextcloud33-serverinfo nextcloud33-text nextcloud33-viewer
-p:nextcloud-default-apps=33.0.9-r0
+p:nextcloud-default-apps=33.0.10-r0
 
-C:Q1Ed/NacbHkm7Kzmgs3I+Eymx9Ipg=
+C:Q1MVEdToBJp7ThO9JPlFoMt6Idizk=
 P:nextcloud33-doc
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:22359280
-I:31914726
+S:22361697
+I:31924743
 T:A safe home for all your data (documentation)
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
-p:nextcloud-doc=33.0.9-r0
-i:docs nextcloud33=33.0.9-r0
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
+p:nextcloud-doc=33.0.10-r0
+i:docs nextcloud33=33.0.10-r0
 
-C:Q1gFoEz84rosTnLt2e/UGkRtL6/CE=
+C:Q1NuP7F2Qm2n+Y7bhRSFjebPw4uLQ=
 P:nextcloud33-encryption
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:186606
-I:1689315
+S:194261
+I:1765132
 T:Nextcloud Default Encryption Module app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33 php85-openssl
-p:nextcloud-encryption=33.0.9-r0
+p:nextcloud-encryption=33.0.10-r0
 
-C:Q1GNJBO03sD9vhLLVZiDERWsjYcP0=
+C:Q18LRegYrBKfsBUR2BCbj0b6Yp+RU=
 P:nextcloud33-federation
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:73991
-I:484333
+S:74219
+I:485909
 T:Nextcloud Federation app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-federation=33.0.9-r0
+p:nextcloud-federation=33.0.10-r0
 
-C:Q13TgaBRqJ9Z4Fbgmt0V9aN8Ovlyg=
+C:Q1hlnc3e0J5x2Ye9kLnKeqRdpIP3U=
 P:nextcloud33-files_downloadlimit
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:1119122
-I:5646247
+S:1118508
+I:5649109
 T:Nextcloud Files download limit app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-files_downloadlimit=33.0.9-r0
+p:nextcloud-files_downloadlimit=33.0.10-r0
 
-C:Q1Qz9/kSrn1JoLZ/2ekufHzc2UaSY=
+C:Q1v4L7vmdWytmR650IQAZjfKR4AE4=
 P:nextcloud33-files_external
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:311541
-I:2199879
+S:312637
+I:2209245
 T:Nextcloud External storage support app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-files_external=33.0.9-r0
+p:nextcloud-files_external=33.0.10-r0
 
-C:Q16NAa1UY/9Yt4RCvKpwzaoAX3/XM=
+C:Q1uWIJHMdY0E2W7e7TPyYfORmkCd0=
 P:nextcloud33-files_pdfviewer
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:10653748
-I:43120934
+S:11222106
+I:45629268
 T:Nextcloud PDF viewer app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-files_pdfviewer=33.0.9-r0
+p:nextcloud-files_pdfviewer=33.0.10-r0
 
-C:Q1iq9RUNjk0TOvARPLr3R6bBlAwiE=
+C:Q1InkbVToVdbCbA595NngAyikBomQ=
 P:nextcloud33-files_reminders
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:64818
-I:349586
+S:64778
+I:350187
 T:Nextcloud File reminders app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-files_reminders=33.0.9-r0
+p:nextcloud-files_reminders=33.0.10-r0
 
-C:Q1wY97+iIzoj3n0s7O8D+nc5BuzoY=
+C:Q1fLCMQok02nL3aJn6lWHumj8aRFY=
 P:nextcloud33-files_sharing
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:893982
-I:4232150
+S:895110
+I:4239164
 T:Nextcloud File sharing app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33 nextcloud33-federatedfilesharing
-p:nextcloud-files_sharing=33.0.9-r0
+p:nextcloud-files_sharing=33.0.10-r0
 
-C:Q1cAqa4NnPKLt50Z5rqgNCSWzPkqU=
+C:Q1lY0/SV6q95WNBcYW9lOQ4+Jy2e0=
 P:nextcloud33-files_trashbin
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:115069
-I:586073
+S:114776
+I:584601
 T:Nextcloud Deleted files app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-files_trashbin=33.0.9-r0
+p:nextcloud-files_trashbin=33.0.10-r0
 
-C:Q1bfddje2BiZnxzbHSqRyJEubUaNI=
+C:Q1wmNI/MG3ZgCntpKh8LVORt/K3JE=
 P:nextcloud33-files_versions
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:110579
-I:565024
+S:110415
+I:564604
 T:Nextcloud Versions app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-files_versions=33.0.9-r0
+p:nextcloud-files_versions=33.0.10-r0
 
-C:Q1H63VSpT+Y5vdp7Rz1kUFkJNBZR0=
+C:Q1+VksI0mRknUViZbNQkzvxRxz9hU=
 P:nextcloud33-firstrunwizard
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:3999802
-I:10663515
+S:4001364
+I:10683940
 T:Nextcloud First run wizard app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-firstrunwizard=33.0.9-r0
+p:nextcloud-firstrunwizard=33.0.10-r0
 
-C:Q1gxkteFnSOkWGryOTvTZhV7p1EJs=
+C:Q1jSt2TcYbGGErNOAOqEsI/Yp6z0U=
 P:nextcloud33-initscript
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
 S:5818
 I:8757
@@ -152041,362 +152041,362 @@ U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33 php85-fpm /bin/sh
-p:nextcloud-initscript=33.0.9-r0
+p:nextcloud-initscript=33.0.10-r0
 
-C:Q1VAVsJVDJAkfGf0kIkMYdRogW4pA=
+C:Q1yjzZfGgeGmz2vE8kF2loThM8Ino=
 P:nextcloud33-logreader
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:1632556
-I:7186991
+S:1634943
+I:7195141
 T:Nextcloud Log Reader app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-logreader=33.0.9-r0
+p:nextcloud-logreader=33.0.10-r0
 
-C:Q1+XRnMWD2vpJz4RFFQrG4jw77xVQ=
+C:Q1SmkZWyXNiovqOjchXGYMcvS94Uw=
 P:nextcloud33-mysql
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:1656
+S:1653
 I:96
 T:Nextcloud MySQL support
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33 php85-pdo_mysql
-p:nextcloud-mysql=33.0.9-r0
+p:nextcloud-mysql=33.0.10-r0
 
-C:Q11BzhnMjIFPkwTpmfx9vxLA9Yun8=
+C:Q1pBfT/fNdooOKWfOvc9d1HxZ324I=
 P:nextcloud33-nextcloud_announcements
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:74955
-I:236652
+S:74944
+I:236562
 T:Nextcloud Nextcloud announcements app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-nextcloud_announcements=33.0.9-r0
+p:nextcloud-nextcloud_announcements=33.0.10-r0
 
-C:Q1rGwtr40hOSSztqPpBvJ/MvFJOSI=
+C:Q1Ie2pM8k/ZGilcNnI9xxv0o+n1cM=
 P:nextcloud33-notifications
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:2377714
-I:9382501
+S:2352233
+I:9291112
 T:Nextcloud Notifications app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-notifications=33.0.9-r0
+p:nextcloud-notifications=33.0.10-r0
 
-C:Q1jR6Gv4oymaI9mKLYf70O8euUioQ=
+C:Q1G2t5IBHdQTaboy+Eyw66QQigGs4=
 P:nextcloud33-occ
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:2342
+S:2339
 I:860
 T:Nextcloud OCC cmd
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:ca-certificates php85 php85-bcmath php85-ctype php85-curl php85-dom php85-gd php85-fileinfo php85-gmp php85-iconv php85-intl php85-mbstring php85-openssl php85-pcntl php85-posix php85-session php85-simplexml php85-xml php85-xmlreader php85-xmlwriter php85-zip
-p:nextcloud-occ=33.0.9-r0 cmd:occ=33.0.9-r0
+p:nextcloud-occ=33.0.10-r0 cmd:occ=33.0.10-r0
 
-C:Q1XxnmrmHAF7uQoH9n2iR+P2G/ojI=
+C:Q1tLvp6g18H5wnr8tJJ48rz8Hs7Aw=
 P:nextcloud33-password_policy
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:24449956
-I:116328137
+S:24449829
+I:116327358
 T:Nextcloud Password policy app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-password_policy=33.0.9-r0
+p:nextcloud-password_policy=33.0.10-r0
 
-C:Q1UYx6xNIjZzQPGsL9FFdaEHqgT/U=
+C:Q1ObsQWyrKgY01FxK15pzgB19GbnA=
 P:nextcloud33-pgsql
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:1318
+S:1319
 I:0
 T:Nextcloud PostgreSQL support
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33 php85-pgsql php85-pdo_pgsql
-p:nextcloud-pgsql=33.0.9-r0
+p:nextcloud-pgsql=33.0.10-r0
 
-C:Q1tN7HnO2H+GIRTzNWZv4cDInmM+w=
+C:Q1ama/9C5mS85ubun9JN8+B3Xw3yA=
 P:nextcloud33-photos
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:4250857
-I:19006999
+S:4730246
+I:20913049
 T:Nextcloud Photos app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-photos=33.0.9-r0
+p:nextcloud-photos=33.0.10-r0
 
-C:Q1/X2/SEXlywlhdcdPeNiof5s7CBU=
+C:Q11tVcpyMIR2Jvsywf7jqVaPPjAW0=
 P:nextcloud33-privacy
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:3925613
-I:18334233
+S:3925624
+I:18335697
 T:Nextcloud Privacy app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-privacy=33.0.9-r0
+p:nextcloud-privacy=33.0.10-r0
 
-C:Q1ixw1UQMpcdo6mxukTKVSzRS3W2E=
+C:Q1+ouuJE1ZP0AZIdi5ABvAnUWYL1k=
 P:nextcloud33-recommendations
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:4832845
-I:22908193
+S:4876245
+I:23172208
 T:Nextcloud Recommendations app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-recommendations=33.0.9-r0
+p:nextcloud-recommendations=33.0.10-r0
 
-C:Q1++j1bfWtWeEZPJICen65PbEmloQ=
+C:Q139pRBTpfxE9X083aDd3AURVH8GU=
 P:nextcloud33-serverinfo
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:284557
-I:1395548
+S:312436
+I:1579884
 T:Nextcloud Monitoring app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33 nextcloud33-files_sharing
-p:nextcloud-serverinfo=33.0.9-r0
+p:nextcloud-serverinfo=33.0.10-r0
 
-C:Q1ut2BDURHt4RmhHP5BwzUH5Y91LQ=
+C:Q1D3eZ5U29kCQqFh5cbEMGfHl8vFU=
 P:nextcloud33-sharebymail
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:91448
-I:606995
+S:92783
+I:619294
 T:Nextcloud Share by mail app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-sharebymail=33.0.9-r0
+p:nextcloud-sharebymail=33.0.10-r0
 
-C:Q1vDq4uiLSLwFqXZEY+nlgbev3ug0=
+C:Q1SOavMbYq0nCHXJjYPT7IwF6QbAs=
 P:nextcloud33-sqlite
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:1318
+S:1317
 I:0
 T:Nextcloud SQLite support
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33 php85-sqlite3 php85-pdo_sqlite
-p:nextcloud-sqlite=33.0.9-r0
+p:nextcloud-sqlite=33.0.10-r0
 
-C:Q11ikRcuQi2e9QcBLzm4mnBIZ1HGI=
+C:Q1sreZE/GIxS+t/+AU8GA6kFWjpp8=
 P:nextcloud33-support
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:308340
+S:308315
 I:1675806
 T:Nextcloud Support app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-support=33.0.9-r0
+p:nextcloud-support=33.0.10-r0
 
-C:Q15I4PWqqxaqQC5c7a0zU3/b9LrgQ=
+C:Q1dT+GEPTpfqNHpHREiW9vcszdeS4=
 P:nextcloud33-survey_client
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:136831
-I:754058
+S:136752
+I:753595
 T:Nextcloud Usage survey app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-survey_client=33.0.9-r0
+p:nextcloud-survey_client=33.0.10-r0
 
-C:Q1NpIz0gWPL+WIySnHXmlxzND3tD4=
+C:Q1vo9qromt6uDFa2biiR60LSA5xLA=
 P:nextcloud33-suspicious_login
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:4182041
-I:24528822
+S:4181777
+I:24531207
 T:Nextcloud Suspicious Login app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-suspicious_login=33.0.9-r0
+p:nextcloud-suspicious_login=33.0.10-r0
 
-C:Q1j47OLgiYa4v36UE3oIftO/tkApg=
+C:Q1C0Lch0zJ657rusFPZYaO8+jtFrE=
 P:nextcloud33-systemtags
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:126892
-I:1139236
+S:127034
+I:1142646
 T:Nextcloud Collaborative tags app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-systemtags=33.0.9-r0
+p:nextcloud-systemtags=33.0.10-r0
 
-C:Q15i/fQaDQyJ4eDVfx5BFhKwR7KvY=
+C:Q1MMRa+YjwQiLjoS946UBFTqtjPiw=
 P:nextcloud33-text
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:12675415
-I:46192754
+S:12696878
+I:46303942
 T:Nextcloud Text app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-text=33.0.9-r0
+p:nextcloud-text=33.0.10-r0
 
-C:Q1UAt3rAKO2Ek9N6vJpRIrfDXVDY8=
+C:Q1g56UrMO1rbsYSIo0xtDpzO++gog=
 P:nextcloud33-user_ldap
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:960201
-I:4745939
+S:967083
+I:4771396
 T:Nextcloud LDAP user and group backend app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33 php85-ldap
-p:nextcloud-user_ldap=33.0.9-r0
+p:nextcloud-user_ldap=33.0.10-r0
 
-C:Q1fK6ECO/IE6WkmkwsKbnL8BZPz5g=
+C:Q12uJtZs7OAYaiGE+i1UH3p424K+g=
 P:nextcloud33-user_status
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:91199
-I:504678
+S:91200
+I:504715
 T:Nextcloud User status app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-user_status=33.0.9-r0
+p:nextcloud-user_status=33.0.10-r0
 
-C:Q1sNGrvTAOvWkiPDXHEKx21oR6PO4=
+C:Q1XAxWCu7/w2hOcjjXQSxjf/fCZHU=
 P:nextcloud33-weather_status
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:87899
-I:1204215
+S:89545
+I:1240761
 T:Nextcloud Weather status app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-weather_status=33.0.9-r0
+p:nextcloud-weather_status=33.0.10-r0
 
-C:Q1qhhYKjQRDxYh1EeldJLYmpRryDY=
+C:Q13mKNocRqdG22z1+GWSj4dWS5ZFY=
 P:nextcloud33-webhook_listeners
-V:33.0.9-r0
+V:33.0.10-r0
 A:s390x
-S:58660
-I:307726
+S:60636
+I:319706
 T:Nextcloud Nextcloud Webhook Support app
 U:https://nextcloud.com/
 L:AGPL-3.0-only
 o:nextcloud33
 m:Leonardo Arena <rnalrd@alpinelinux.org>
-t:1790885286
-c:a40f28d9ae96bb1dde77870b993b609515f67d42
+t:1793099021
+c:516cdbe730dc10c6759944a47b9c4146fa39ad57
 D:nextcloud33
-p:nextcloud-webhook_listeners=33.0.9-r0
+p:nextcloud-webhook_listeners=33.0.10-r0
 
 C:Q1AJyad1dWp+7yofp9AV2+TKSb4So=
 P:nextvi
