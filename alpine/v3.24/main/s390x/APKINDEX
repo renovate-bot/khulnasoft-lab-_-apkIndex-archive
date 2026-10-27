@@ -38907,50 +38907,50 @@ m:Achill Gilgenast <achill@achill.org>
 t:1777471841
 c:4568bf119fd5a67f5d895a2a68a1dcf8b7bfa606
 
-C:Q185A1dolONNdm5tGG57IBTvdwqUE=
+C:Q11skBFs/4vkAOejxn0ioZP892P28=
 P:linux-lts
-V:6.18.58-r0
+V:6.18.59-r0
 A:s390x
-S:36144993
-I:40113279
+S:36145575
+I:40114601
 T:Linux lts kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1792580014
-c:5fe63f789de75f6a71001cf2de771f922bedd0d2
+t:1793113116
+c:36d3ca8442f7d978ad15bf4be74b7a4ff7bf815e
 D:initramfs-generator linux-firmware-any
 
-C:Q14n6W8Hf//M8X2CoRCLKIBvgXrxM=
+C:Q1vlWmU0I4z+2auIowZf2w9vEGHfw=
 P:linux-lts-dev
-V:6.18.58-r0
+V:6.18.59-r0
 A:s390x
-S:20602355
-I:78547527
+S:20602491
+I:78550566
 T:Headers and script for third party modules for lts kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1792580014
-c:5fe63f789de75f6a71001cf2de771f922bedd0d2
+t:1793113116
+c:36d3ca8442f7d978ad15bf4be74b7a4ff7bf815e
 D:perl gmp-dev mpc1-dev mpfr-dev elfutils-dev bash flex bison zstd so:libc.musl-s390x.so.1 so:libcrypto.so.3 so:libelf.so.1 so:libstdc++.so.6 so:libz.so.1
 
-C:Q1PnFo/90wLl8NoqHp8t8nZDHNAtM=
+C:Q1J3fUlXI2Az2TJ35ZNmRmMuRMBsI=
 P:linux-lts-doc
-V:6.18.58-r0
+V:6.18.59-r0
 A:s390x
-S:14896828
-I:54307030
+S:14896587
+I:54307415
 T:Linux lts kernel (documentation)
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1792580014
-c:5fe63f789de75f6a71001cf2de771f922bedd0d2
-i:docs linux-lts=6.18.58-r0
+t:1793113116
+c:36d3ca8442f7d978ad15bf4be74b7a4ff7bf815e
+i:docs linux-lts=6.18.59-r0
 
 C:Q1jFXuzOAa7o54eiDWp/89e7X3Ego=
 P:linux-pam
@@ -90207,21 +90207,21 @@ t:1764743457
 c:842d3d4458f4488903b6a2dbfdad27001ea48d2b
 i:docs xtables-addons=3.30-r0
 
-C:Q1oACp+J7uD/GMC7pUmLTGttLQ5pg=
+C:Q1UX/Khv7VKoVqvuFtJZdY0bn5LbU=
 P:xtables-addons-lts
-V:6.18.58-r0
+V:6.18.59-r0
 A:s390x
-S:5557538
-I:5576870
+S:5559573
+I:5579236
 T:Iptables extensions kernel modules
 U:https://inai.de/projects/xtables-addons/
 L:GPL-2.0-or-later
 o:xtables-addons-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1792580030
-c:36cc67363070ea953a6bf82d978af76bcace0cdf
-D:linux-lts=6.18.58-r0
-i:linux-lts=6.18.58-r0 xtables-addons
+t:1793113116
+c:2109a25cea4999eea0baf81ae06e26c74d9d4914
+D:linux-lts=6.18.59-r0
+i:linux-lts=6.18.59-r0 xtables-addons
 
 C:Q1QEcWn0B3kT14NIDGyCGzBF7iioA=
 P:xtrans
@@ -90721,37 +90721,37 @@ c:a1790e21639f21e71699610ab511f843cc1dfa5a
 D:so:libblkid.so.1 so:libc.musl-s390x.so.1 so:libcrypto.so.3 so:libintl.so.8 so:libtirpc.so.3 so:libuuid.so.1 so:libz.so.1
 p:so:libnvpair.so.3=3.1.0 so:libuutil.so.3=3.0.0 so:libzfs.so.7=7.0.0 so:libzfs_core.so.3=3.0.0 so:libzfsbootenv.so.1=1.0.0 so:libzpool.so.7=7.0.0
 
-C:Q11Ly8hlWqyL1Y9Mih2t4Uyq0MVSA=
+C:Q1Xu1K0bxkTpHkneobrZ7qwxR5xsM=
 P:zfs-lts
-V:6.18.58-r0
+V:6.18.59-r0
 A:s390x
-S:34965733
-I:35153870
+S:34971253
+I:35159413
 T:ZFS Linux kernel modules
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1792580179
-c:96f82d0777af8f516c5193c6f86f98f9a4fc36b7
-D:linux-lts=6.18.58-r0
-p:spl-vanilla=6.18.58-r0
-i:zfs linux-lts=6.18.58-r0
+t:1793113116
+c:c7d5d4e64d63fbd013ef55556170b794b42a0c3e
+D:linux-lts=6.18.59-r0
+p:spl-vanilla=6.18.59-r0
+i:zfs linux-lts=6.18.59-r0
 
-C:Q11Y+ZnyZ7T3at30hkiG8x8cLBfNs=
+C:Q18L5zYI3kZr/lyidOuvIBweCN7/w=
 P:zfs-lts-dev
-V:6.18.58-r0
+V:6.18.59-r0
 A:s390x
-S:483888
+S:483879
 I:3066055
 T:ZFS Linux kernel modules (development files)
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1792580179
-c:96f82d0777af8f516c5193c6f86f98f9a4fc36b7
-D:glib-dev e2fsprogs-dev util-linux-dev libtirpc-dev linux-lts-dev=6.18.58-r0
+t:1793113116
+c:c7d5d4e64d63fbd013ef55556170b794b42a0c3e
+D:glib-dev e2fsprogs-dev util-linux-dev libtirpc-dev linux-lts-dev=6.18.59-r0
 
 C:Q10u0F4OIc8yk10BEevkUsJ7M1wyI=
 P:zfs-openrc
