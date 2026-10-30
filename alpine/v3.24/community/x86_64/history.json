@@ -143653,7 +143653,8 @@
     "lldpd": {
       "origin": "lldpd",
       "versions": {
-        "1.0.22-r0": 1778831049
+        "1.0.22-r0": 1778831049,
+        "1.0.23-r0": 1793374902
       },
       "dependencies": [
         "/bin/sh",
@@ -143667,47 +143668,52 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:lldpcli=1.0.22-r0",
-        "cmd:lldpctl=1.0.22-r0",
-        "cmd:lldpd=1.0.22-r0",
+        "cmd:lldpcli=1.0.23-r0",
+        "cmd:lldpctl=1.0.23-r0",
+        "cmd:lldpd=1.0.23-r0",
         "so:liblldpctl.so.4=4.10.0"
       ]
     },
     "lldpd-bash-completion": {
       "origin": "lldpd",
       "versions": {
-        "1.0.22-r0": 1778831049
+        "1.0.22-r0": 1778831049,
+        "1.0.23-r0": 1793374902
       }
     },
     "lldpd-dev": {
       "origin": "lldpd",
       "versions": {
-        "1.0.22-r0": 1778831049
+        "1.0.22-r0": 1778831049,
+        "1.0.23-r0": 1793374902
       },
       "dependencies": [
-        "lldpd=1.0.22-r0",
+        "lldpd=1.0.23-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:lldpctl=1.0.22"
+        "pc:lldpctl=1.0.23"
       ]
     },
     "lldpd-doc": {
       "origin": "lldpd",
       "versions": {
-        "1.0.22-r0": 1778831049
+        "1.0.22-r0": 1778831049,
+        "1.0.23-r0": 1793374902
       }
     },
     "lldpd-openrc": {
       "origin": "lldpd",
       "versions": {
-        "1.0.22-r0": 1778831049
+        "1.0.22-r0": 1778831049,
+        "1.0.23-r0": 1793374902
       }
     },
     "lldpd-zsh-completion": {
       "origin": "lldpd",
       "versions": {
-        "1.0.22-r0": 1778831049
+        "1.0.22-r0": 1778831049,
+        "1.0.23-r0": 1793374902
       }
     },
     "llhttp": {

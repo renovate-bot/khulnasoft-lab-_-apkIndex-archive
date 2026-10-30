@@ -136030,97 +136030,97 @@ c:141e548620d48c577a40905e08bcf79e4d64e8bf
 D:so:libLLVM.so.18.1 so:libc.musl-armv7.so.1 so:libgcc_s.so.1 so:libstdc++.so.6 so:libz.so.1 so:libzstd.so.1
 p:so:liblldCOFF.so.18.1=18.1 so:liblldCommon.so.18.1=18.1 so:liblldELF.so.18.1=18.1 so:liblldMachO.so.18.1=18.1 so:liblldMinGW.so.18.1=18.1 so:liblldWasm.so.18.1=18.1
 
-C:Q1ky9Lp+7bcXQ1mUSD/jD8pUDWJHU=
+C:Q1FyU/V74CnZiqDFObJbePVx6AX3I=
 P:lldpd
-V:1.0.22-r0
+V:1.0.23-r0
 A:armv7
-S:154486
+S:156031
 I:305138
 T:Implementation of IEEE 802.1ab
 U:https://lldpd.github.io/
 L:ISC
 o:lldpd
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1778831049
-c:85eac1072e64ca169c8321e3df739892a24940a0
+t:1793374902
+c:fa37588f053fd9815ff016d07c7f3f4696d999a5
 D:/bin/sh so:libbsd.so.0 so:libc.musl-armv7.so.1 so:libevent-2.1.so.7 so:libnetsnmp.so.45 so:libnetsnmpagent.so.45 so:libnetsnmpmibs.so.45 so:libreadline.so.8 so:libxml2.so.2
-p:cmd:lldpcli=1.0.22-r0 cmd:lldpctl=1.0.22-r0 cmd:lldpd=1.0.22-r0 so:liblldpctl.so.4=4.10.0
+p:cmd:lldpcli=1.0.23-r0 cmd:lldpctl=1.0.23-r0 cmd:lldpd=1.0.23-r0 so:liblldpctl.so.4=4.10.0
 
-C:Q1ZJPYxKfw9rm9aYdUHjGDO36anV0=
+C:Q1XcuKGS7lbVqpwFSnPQjF6yZ0OSY=
 P:lldpd-bash-completion
-V:1.0.22-r0
+V:1.0.23-r0
 A:armv7
-S:1911
+S:1908
 I:515
 T:Bash completions for lldpd
 U:https://lldpd.github.io/
 L:ISC
 o:lldpd
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1778831049
-c:85eac1072e64ca169c8321e3df739892a24940a0
-i:lldpd=1.0.22-r0 bash-completion
+t:1793374902
+c:fa37588f053fd9815ff016d07c7f3f4696d999a5
+i:lldpd=1.0.23-r0 bash-completion
 
-C:Q16m4lQSZXGnAaMv0GSg1helBMGoU=
+C:Q1SfRBRKLa/sIMZMUZ+44Mg8Aqses=
 P:lldpd-dev
-V:1.0.22-r0
+V:1.0.23-r0
 A:armv7
-S:21736
-I:81684
+S:21749
+I:81581
 T:Implementation of IEEE 802.1ab (development files)
 U:https://lldpd.github.io/
 L:ISC
 o:lldpd
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1778831049
-c:85eac1072e64ca169c8321e3df739892a24940a0
-D:lldpd=1.0.22-r0 pkgconfig
-p:pc:lldpctl=1.0.22
+t:1793374902
+c:fa37588f053fd9815ff016d07c7f3f4696d999a5
+D:lldpd=1.0.23-r0 pkgconfig
+p:pc:lldpctl=1.0.23
 
-C:Q1LJRkom13OQA6SHqFv8pdLsU2pvQ=
+C:Q1bkWL7fjzxgyVux+FhRXAO0HmD1E=
 P:lldpd-doc
-V:1.0.22-r0
+V:1.0.23-r0
 A:armv7
-S:36976
-I:65577
+S:37438
+I:66581
 T:Implementation of IEEE 802.1ab (documentation)
 U:https://lldpd.github.io/
 L:ISC
 o:lldpd
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1778831049
-c:85eac1072e64ca169c8321e3df739892a24940a0
-i:docs lldpd=1.0.22-r0
+t:1793374902
+c:fa37588f053fd9815ff016d07c7f3f4696d999a5
+i:docs lldpd=1.0.23-r0
 
-C:Q1DhRnpcQZlaU36ZeobiW7ALN8en0=
+C:Q1om7uZ81KJQxhhSN++e05B8WmyJg=
 P:lldpd-openrc
-V:1.0.22-r0
+V:1.0.23-r0
 A:armv7
-S:1980
+S:1978
 I:513
 T:Implementation of IEEE 802.1ab (OpenRC init scripts)
 U:https://lldpd.github.io/
 L:ISC
 o:lldpd
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1778831049
-c:85eac1072e64ca169c8321e3df739892a24940a0
-i:openrc lldpd=1.0.22-r0
+t:1793374902
+c:fa37588f053fd9815ff016d07c7f3f4696d999a5
+i:openrc lldpd=1.0.23-r0
 
-C:Q1HyDKU/C2FXJ99Ce5akk7WLUrWj0=
+C:Q1TEf9N0bKifCk9yBbzYLWe+PqNds=
 P:lldpd-zsh-completion
-V:1.0.22-r0
+V:1.0.23-r0
 A:armv7
-S:2606
+S:2607
 I:1683
 T:Zsh completions for lldpd
 U:https://lldpd.github.io/
 L:ISC
 o:lldpd
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1778831049
-c:85eac1072e64ca169c8321e3df739892a24940a0
-i:lldpd=1.0.22-r0 zsh
+t:1793374902
+c:fa37588f053fd9815ff016d07c7f3f4696d999a5
+i:lldpd=1.0.23-r0 zsh
 
 C:Q13nCISKIB/3HkW3L16wBFMIUtjXA=
 P:llhttp
