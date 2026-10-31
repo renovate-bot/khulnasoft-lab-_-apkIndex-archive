@@ -21243,14 +21243,15 @@
     "cargo-deny": {
       "origin": "cargo-deny",
       "versions": {
-        "0.18.6-r0": 1767880905
+        "0.18.6-r0": 1767880905,
+        "0.18.6-r1": 1792943649
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:cargo-deny=0.18.6-r0"
+        "cmd:cargo-deny=0.18.6-r1"
       ]
     },
     "cargo-doc2readme": {
@@ -48099,7 +48100,8 @@
       "origin": "ffmpeg",
       "versions": {
         "8.1.1-r0": 1777884945,
-        "8.1.2-r0": 1782616783
+        "8.1.2-r0": 1782616783,
+        "8.1.3-r0": 1792848372
       },
       "dependencies": [
         "so:libavcodec.so.62",
@@ -48114,76 +48116,80 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:ffmpeg=8.1.2-r0",
-        "cmd:ffprobe=8.1.2-r0",
-        "cmd:qt-faststart=8.1.2-r0"
+        "cmd:ffmpeg=8.1.3-r0",
+        "cmd:ffprobe=8.1.3-r0",
+        "cmd:qt-faststart=8.1.3-r0"
       ]
     },
     "ffmpeg-dbg": {
       "origin": "ffmpeg",
       "versions": {
         "8.1.1-r0": 1777884945,
-        "8.1.2-r0": 1782616783
+        "8.1.2-r0": 1782616783,
+        "8.1.3-r0": 1792848372
       },
       "dependencies": [
-        "!ffmpeg-libavcodec<8.1.2-r0",
-        "!ffmpeg-libavcodec>8.1.2-r0",
-        "!ffmpeg-libavdevice<8.1.2-r0",
-        "!ffmpeg-libavdevice>8.1.2-r0",
-        "!ffmpeg-libavfilter<8.1.2-r0",
-        "!ffmpeg-libavfilter>8.1.2-r0",
-        "!ffmpeg-libavformat<8.1.2-r0",
-        "!ffmpeg-libavformat>8.1.2-r0",
-        "!ffmpeg-libavutil<8.1.2-r0",
-        "!ffmpeg-libavutil>8.1.2-r0",
-        "!ffmpeg-libswresample<8.1.2-r0",
-        "!ffmpeg-libswresample>8.1.2-r0",
-        "!ffmpeg-libswscale<8.1.2-r0",
-        "!ffmpeg-libswscale>8.1.2-r0",
-        "!ffmpeg<8.1.2-r0",
-        "!ffmpeg>8.1.2-r0",
-        "!ffplay<8.1.2-r0",
-        "!ffplay>8.1.2-r0"
+        "!ffmpeg-libavcodec<8.1.3-r0",
+        "!ffmpeg-libavcodec>8.1.3-r0",
+        "!ffmpeg-libavdevice<8.1.3-r0",
+        "!ffmpeg-libavdevice>8.1.3-r0",
+        "!ffmpeg-libavfilter<8.1.3-r0",
+        "!ffmpeg-libavfilter>8.1.3-r0",
+        "!ffmpeg-libavformat<8.1.3-r0",
+        "!ffmpeg-libavformat>8.1.3-r0",
+        "!ffmpeg-libavutil<8.1.3-r0",
+        "!ffmpeg-libavutil>8.1.3-r0",
+        "!ffmpeg-libswresample<8.1.3-r0",
+        "!ffmpeg-libswresample>8.1.3-r0",
+        "!ffmpeg-libswscale<8.1.3-r0",
+        "!ffmpeg-libswscale>8.1.3-r0",
+        "!ffmpeg<8.1.3-r0",
+        "!ffmpeg>8.1.3-r0",
+        "!ffplay<8.1.3-r0",
+        "!ffplay>8.1.3-r0"
       ]
     },
     "ffmpeg-dev": {
       "origin": "ffmpeg",
       "versions": {
         "8.1.1-r0": 1777884945,
-        "8.1.2-r0": 1782616783
+        "8.1.2-r0": 1782616783,
+        "8.1.3-r0": 1792848372
       },
       "dependencies": [
-        "ffmpeg-libavcodec=8.1.2-r0",
-        "ffmpeg-libavdevice=8.1.2-r0",
-        "ffmpeg-libavfilter=8.1.2-r0",
-        "ffmpeg-libavformat=8.1.2-r0",
-        "ffmpeg-libavutil=8.1.2-r0",
-        "ffmpeg-libswresample=8.1.2-r0",
-        "ffmpeg-libswscale=8.1.2-r0",
+        "ffmpeg-libavcodec=8.1.3-r0",
+        "ffmpeg-libavdevice=8.1.3-r0",
+        "ffmpeg-libavfilter=8.1.3-r0",
+        "ffmpeg-libavformat=8.1.3-r0",
+        "ffmpeg-libavutil=8.1.3-r0",
+        "ffmpeg-libswresample=8.1.3-r0",
+        "ffmpeg-libswscale=8.1.3-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libavcodec=62.28.102",
-        "pc:libavdevice=62.3.102",
-        "pc:libavfilter=11.14.102",
-        "pc:libavformat=62.12.102",
-        "pc:libavutil=60.26.102",
-        "pc:libswresample=6.3.102",
-        "pc:libswscale=9.5.102"
+        "pc:libavcodec=62.28.103",
+        "pc:libavdevice=62.3.103",
+        "pc:libavfilter=11.14.103",
+        "pc:libavformat=62.12.103",
+        "pc:libavutil=60.26.103",
+        "pc:libswresample=6.3.103",
+        "pc:libswscale=9.5.103"
       ]
     },
     "ffmpeg-doc": {
       "origin": "ffmpeg",
       "versions": {
         "8.1.1-r0": 1777884945,
-        "8.1.2-r0": 1782616783
+        "8.1.2-r0": 1782616783,
+        "8.1.3-r0": 1792848372
       }
     },
     "ffmpeg-libavcodec": {
       "origin": "ffmpeg",
       "versions": {
         "8.1.1-r0": 1777884945,
-        "8.1.2-r0": 1782616783
+        "8.1.2-r0": 1782616783,
+        "8.1.3-r0": 1792848372
       },
       "dependencies": [
         "so:libSvtAv1Enc.so.4",
@@ -48211,14 +48217,15 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libavcodec.so.62=62.28.102"
+        "so:libavcodec.so.62=62.28.103"
       ]
     },
     "ffmpeg-libavdevice": {
       "origin": "ffmpeg",
       "versions": {
         "8.1.1-r0": 1777884945,
-        "8.1.2-r0": 1782616783
+        "8.1.2-r0": 1782616783,
+        "8.1.3-r0": 1792848372
       },
       "dependencies": [
         "so:libasound.so.2",
@@ -48236,14 +48243,15 @@
         "so:libxcb.so.1"
       ],
       "provides": [
-        "so:libavdevice.so.62=62.3.102"
+        "so:libavdevice.so.62=62.3.103"
       ]
     },
     "ffmpeg-libavfilter": {
       "origin": "ffmpeg",
       "versions": {
         "8.1.1-r0": 1777884945,
-        "8.1.2-r0": 1782616783
+        "8.1.2-r0": 1782616783,
+        "8.1.3-r0": 1792848372
       },
       "dependencies": [
         "so:libass.so.9",
@@ -48268,14 +48276,15 @@
         "so:libzmq.so.5"
       ],
       "provides": [
-        "so:libavfilter.so.11=11.14.102"
+        "so:libavfilter.so.11=11.14.103"
       ]
     },
     "ffmpeg-libavformat": {
       "origin": "ffmpeg",
       "versions": {
         "8.1.1-r0": 1777884945,
-        "8.1.2-r0": 1782616783
+        "8.1.2-r0": 1782616783,
+        "8.1.3-r0": 1792848372
       },
       "dependencies": [
         "so:libavcodec.so.62",
@@ -48297,14 +48306,15 @@
         "so:libzmq.so.5"
       ],
       "provides": [
-        "so:libavformat.so.62=62.12.102"
+        "so:libavformat.so.62=62.12.103"
       ]
     },
     "ffmpeg-libavutil": {
       "origin": "ffmpeg",
       "versions": {
         "8.1.1-r0": 1777884945,
-        "8.1.2-r0": 1782616783
+        "8.1.2-r0": 1782616783,
+        "8.1.3-r0": 1792848372
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -48318,30 +48328,32 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libavutil.so.60=60.26.102"
+        "so:libavutil.so.60=60.26.103"
       ]
     },
     "ffmpeg-libs": {
       "origin": "ffmpeg",
       "versions": {
         "8.1.1-r0": 1777884945,
-        "8.1.2-r0": 1782616783
+        "8.1.2-r0": 1782616783,
+        "8.1.3-r0": 1792848372
       },
       "dependencies": [
-        "ffmpeg-libavcodec=8.1.2-r0",
-        "ffmpeg-libavdevice=8.1.2-r0",
-        "ffmpeg-libavfilter=8.1.2-r0",
-        "ffmpeg-libavformat=8.1.2-r0",
-        "ffmpeg-libavutil=8.1.2-r0",
-        "ffmpeg-libswresample=8.1.2-r0",
-        "ffmpeg-libswscale=8.1.2-r0"
+        "ffmpeg-libavcodec=8.1.3-r0",
+        "ffmpeg-libavdevice=8.1.3-r0",
+        "ffmpeg-libavfilter=8.1.3-r0",
+        "ffmpeg-libavformat=8.1.3-r0",
+        "ffmpeg-libavutil=8.1.3-r0",
+        "ffmpeg-libswresample=8.1.3-r0",
+        "ffmpeg-libswscale=8.1.3-r0"
       ]
     },
     "ffmpeg-libswresample": {
       "origin": "ffmpeg",
       "versions": {
         "8.1.1-r0": 1777884945,
-        "8.1.2-r0": 1782616783
+        "8.1.2-r0": 1782616783,
+        "8.1.3-r0": 1792848372
       },
       "dependencies": [
         "so:libavutil.so.60",
@@ -48349,14 +48361,15 @@
         "so:libsoxr.so.0"
       ],
       "provides": [
-        "so:libswresample.so.6=6.3.102"
+        "so:libswresample.so.6=6.3.103"
       ]
     },
     "ffmpeg-libswscale": {
       "origin": "ffmpeg",
       "versions": {
         "8.1.1-r0": 1777884945,
-        "8.1.2-r0": 1782616783
+        "8.1.2-r0": 1782616783,
+        "8.1.3-r0": 1792848372
       },
       "dependencies": [
         "so:libavutil.so.60",
@@ -48365,13 +48378,14 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libswscale.so.9=9.5.102"
+        "so:libswscale.so.9=9.5.103"
       ]
     },
     "ffmpeg6": {
       "origin": "ffmpeg6",
       "versions": {
-        "6.1.4-r2": 1772627286
+        "6.1.4-r2": 1772627286,
+        "6.1.6-r0": 1792856019
       },
       "dependencies": [
         "so:libavcodec.so.60",
@@ -48385,58 +48399,60 @@
         "so:libswscale.so.7"
       ],
       "provides": [
-        "cmd:ffmpeg=6.1.4-r2",
-        "cmd:ffprobe=6.1.4-r2",
-        "cmd:qt-faststart=6.1.4-r2"
+        "cmd:ffmpeg=6.1.6-r0",
+        "cmd:ffprobe=6.1.6-r0",
+        "cmd:qt-faststart=6.1.6-r0"
       ]
     },
     "ffmpeg6-dbg": {
       "origin": "ffmpeg6",
       "versions": {
-        "6.1.4-r2": 1772627286
+        "6.1.4-r2": 1772627286,
+        "6.1.6-r0": 1792856019
       },
       "dependencies": [
-        "!ffmpeg6-libavcodec<6.1.4-r2",
-        "!ffmpeg6-libavcodec>6.1.4-r2",
-        "!ffmpeg6-libavdevice<6.1.4-r2",
-        "!ffmpeg6-libavdevice>6.1.4-r2",
-        "!ffmpeg6-libavfilter<6.1.4-r2",
-        "!ffmpeg6-libavfilter>6.1.4-r2",
-        "!ffmpeg6-libavformat<6.1.4-r2",
-        "!ffmpeg6-libavformat>6.1.4-r2",
-        "!ffmpeg6-libavutil<6.1.4-r2",
-        "!ffmpeg6-libavutil>6.1.4-r2",
-        "!ffmpeg6-libpostproc<6.1.4-r2",
-        "!ffmpeg6-libpostproc>6.1.4-r2",
-        "!ffmpeg6-libswresample<6.1.4-r2",
-        "!ffmpeg6-libswresample>6.1.4-r2",
-        "!ffmpeg6-libswscale<6.1.4-r2",
-        "!ffmpeg6-libswscale>6.1.4-r2",
-        "!ffmpeg6<6.1.4-r2",
-        "!ffmpeg6>6.1.4-r2"
+        "!ffmpeg6-libavcodec<6.1.6-r0",
+        "!ffmpeg6-libavcodec>6.1.6-r0",
+        "!ffmpeg6-libavdevice<6.1.6-r0",
+        "!ffmpeg6-libavdevice>6.1.6-r0",
+        "!ffmpeg6-libavfilter<6.1.6-r0",
+        "!ffmpeg6-libavfilter>6.1.6-r0",
+        "!ffmpeg6-libavformat<6.1.6-r0",
+        "!ffmpeg6-libavformat>6.1.6-r0",
+        "!ffmpeg6-libavutil<6.1.6-r0",
+        "!ffmpeg6-libavutil>6.1.6-r0",
+        "!ffmpeg6-libpostproc<6.1.6-r0",
+        "!ffmpeg6-libpostproc>6.1.6-r0",
+        "!ffmpeg6-libswresample<6.1.6-r0",
+        "!ffmpeg6-libswresample>6.1.6-r0",
+        "!ffmpeg6-libswscale<6.1.6-r0",
+        "!ffmpeg6-libswscale>6.1.6-r0",
+        "!ffmpeg6<6.1.6-r0",
+        "!ffmpeg6>6.1.6-r0"
       ]
     },
     "ffmpeg6-dev": {
       "origin": "ffmpeg6",
       "versions": {
-        "6.1.4-r2": 1772627286
+        "6.1.4-r2": 1772627286,
+        "6.1.6-r0": 1792856019
       },
       "dependencies": [
-        "ffmpeg6-libavcodec=6.1.4-r2",
-        "ffmpeg6-libavdevice=6.1.4-r2",
-        "ffmpeg6-libavfilter=6.1.4-r2",
-        "ffmpeg6-libavformat=6.1.4-r2",
-        "ffmpeg6-libavutil=6.1.4-r2",
-        "ffmpeg6-libpostproc=6.1.4-r2",
-        "ffmpeg6-libswresample=6.1.4-r2",
-        "ffmpeg6-libswscale=6.1.4-r2",
+        "ffmpeg6-libavcodec=6.1.6-r0",
+        "ffmpeg6-libavdevice=6.1.6-r0",
+        "ffmpeg6-libavfilter=6.1.6-r0",
+        "ffmpeg6-libavformat=6.1.6-r0",
+        "ffmpeg6-libavutil=6.1.6-r0",
+        "ffmpeg6-libpostproc=6.1.6-r0",
+        "ffmpeg6-libswresample=6.1.6-r0",
+        "ffmpeg6-libswscale=6.1.6-r0",
         "pkgconfig"
       ],
       "provides": [
         "pc:libavcodec=60.31.102",
         "pc:libavdevice=60.3.100",
         "pc:libavfilter=9.12.100",
-        "pc:libavformat=60.16.100",
+        "pc:libavformat=60.16.101",
         "pc:libavutil=58.29.100",
         "pc:libpostproc=57.3.100",
         "pc:libswresample=4.12.100",
@@ -48446,13 +48462,15 @@
     "ffmpeg6-doc": {
       "origin": "ffmpeg6",
       "versions": {
-        "6.1.4-r2": 1772627286
+        "6.1.4-r2": 1772627286,
+        "6.1.6-r0": 1792856019
       }
     },
     "ffmpeg6-libavcodec": {
       "origin": "ffmpeg6",
       "versions": {
-        "6.1.4-r2": 1772627286
+        "6.1.4-r2": 1772627286,
+        "6.1.6-r0": 1792856019
       },
       "dependencies": [
         "so:libSvtAv1Enc.so.4",
@@ -48486,7 +48504,8 @@
     "ffmpeg6-libavdevice": {
       "origin": "ffmpeg6",
       "versions": {
-        "6.1.4-r2": 1772627286
+        "6.1.4-r2": 1772627286,
+        "6.1.6-r0": 1792856019
       },
       "dependencies": [
         "so:libSDL2-2.0.so.0",
@@ -48511,7 +48530,8 @@
     "ffmpeg6-libavfilter": {
       "origin": "ffmpeg6",
       "versions": {
-        "6.1.4-r2": 1772627286
+        "6.1.4-r2": 1772627286,
+        "6.1.6-r0": 1792856019
       },
       "dependencies": [
         "so:libass.so.9",
@@ -48540,7 +48560,8 @@
     "ffmpeg6-libavformat": {
       "origin": "ffmpeg6",
       "versions": {
-        "6.1.4-r2": 1772627286
+        "6.1.4-r2": 1772627286,
+        "6.1.6-r0": 1792856019
       },
       "dependencies": [
         "so:libavcodec.so.60",
@@ -48559,13 +48580,14 @@
         "so:libzmq.so.5"
       ],
       "provides": [
-        "so:libavformat.so.60=60.16.100"
+        "so:libavformat.so.60=60.16.101"
       ]
     },
     "ffmpeg6-libavutil": {
       "origin": "ffmpeg6",
       "versions": {
-        "6.1.4-r2": 1772627286
+        "6.1.4-r2": 1772627286,
+        "6.1.6-r0": 1792856019
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -48584,7 +48606,8 @@
     "ffmpeg6-libpostproc": {
       "origin": "ffmpeg6",
       "versions": {
-        "6.1.4-r2": 1772627286
+        "6.1.4-r2": 1772627286,
+        "6.1.6-r0": 1792856019
       },
       "dependencies": [
         "so:libavutil.so.58",
@@ -48597,23 +48620,25 @@
     "ffmpeg6-libs": {
       "origin": "ffmpeg6",
       "versions": {
-        "6.1.4-r2": 1772627286
+        "6.1.4-r2": 1772627286,
+        "6.1.6-r0": 1792856019
       },
       "dependencies": [
-        "ffmpeg6-libavcodec=6.1.4-r2",
-        "ffmpeg6-libavdevice=6.1.4-r2",
-        "ffmpeg6-libavfilter=6.1.4-r2",
-        "ffmpeg6-libavformat=6.1.4-r2",
-        "ffmpeg6-libavutil=6.1.4-r2",
-        "ffmpeg6-libpostproc=6.1.4-r2",
-        "ffmpeg6-libswresample=6.1.4-r2",
-        "ffmpeg6-libswscale=6.1.4-r2"
+        "ffmpeg6-libavcodec=6.1.6-r0",
+        "ffmpeg6-libavdevice=6.1.6-r0",
+        "ffmpeg6-libavfilter=6.1.6-r0",
+        "ffmpeg6-libavformat=6.1.6-r0",
+        "ffmpeg6-libavutil=6.1.6-r0",
+        "ffmpeg6-libpostproc=6.1.6-r0",
+        "ffmpeg6-libswresample=6.1.6-r0",
+        "ffmpeg6-libswscale=6.1.6-r0"
       ]
     },
     "ffmpeg6-libswresample": {
       "origin": "ffmpeg6",
       "versions": {
-        "6.1.4-r2": 1772627286
+        "6.1.4-r2": 1772627286,
+        "6.1.6-r0": 1792856019
       },
       "dependencies": [
         "so:libavutil.so.58",
@@ -48627,7 +48652,8 @@
     "ffmpeg6-libswscale": {
       "origin": "ffmpeg6",
       "versions": {
-        "6.1.4-r2": 1772627286
+        "6.1.4-r2": 1772627286,
+        "6.1.6-r0": 1792856019
       },
       "dependencies": [
         "so:libavutil.so.58",
@@ -48640,7 +48666,8 @@
     "ffmpeg7": {
       "origin": "ffmpeg7",
       "versions": {
-        "7.1.3-r2": 1772627286
+        "7.1.3-r2": 1772627286,
+        "7.1.5-r0": 1792856880
       },
       "dependencies": [
         "so:libSDL2-2.0.so.0",
@@ -48656,59 +48683,61 @@
         "so:libswscale.so.8"
       ],
       "provides": [
-        "cmd:ffmpeg=7.1.3-r2",
-        "cmd:ffplay=7.1.3-r2",
-        "cmd:ffprobe=7.1.3-r2",
-        "cmd:qt-faststart=7.1.3-r2"
+        "cmd:ffmpeg=7.1.5-r0",
+        "cmd:ffplay=7.1.5-r0",
+        "cmd:ffprobe=7.1.5-r0",
+        "cmd:qt-faststart=7.1.5-r0"
       ]
     },
     "ffmpeg7-dbg": {
       "origin": "ffmpeg7",
       "versions": {
-        "7.1.3-r2": 1772627286
+        "7.1.3-r2": 1772627286,
+        "7.1.5-r0": 1792856880
       },
       "dependencies": [
-        "!ffmpeg7-libavcodec<7.1.3-r2",
-        "!ffmpeg7-libavcodec>7.1.3-r2",
-        "!ffmpeg7-libavdevice<7.1.3-r2",
-        "!ffmpeg7-libavdevice>7.1.3-r2",
-        "!ffmpeg7-libavfilter<7.1.3-r2",
-        "!ffmpeg7-libavfilter>7.1.3-r2",
-        "!ffmpeg7-libavformat<7.1.3-r2",
-        "!ffmpeg7-libavformat>7.1.3-r2",
-        "!ffmpeg7-libavutil<7.1.3-r2",
-        "!ffmpeg7-libavutil>7.1.3-r2",
-        "!ffmpeg7-libpostproc<7.1.3-r2",
-        "!ffmpeg7-libpostproc>7.1.3-r2",
-        "!ffmpeg7-libswresample<7.1.3-r2",
-        "!ffmpeg7-libswresample>7.1.3-r2",
-        "!ffmpeg7-libswscale<7.1.3-r2",
-        "!ffmpeg7-libswscale>7.1.3-r2",
-        "!ffmpeg7<7.1.3-r2",
-        "!ffmpeg7>7.1.3-r2"
+        "!ffmpeg7-libavcodec<7.1.5-r0",
+        "!ffmpeg7-libavcodec>7.1.5-r0",
+        "!ffmpeg7-libavdevice<7.1.5-r0",
+        "!ffmpeg7-libavdevice>7.1.5-r0",
+        "!ffmpeg7-libavfilter<7.1.5-r0",
+        "!ffmpeg7-libavfilter>7.1.5-r0",
+        "!ffmpeg7-libavformat<7.1.5-r0",
+        "!ffmpeg7-libavformat>7.1.5-r0",
+        "!ffmpeg7-libavutil<7.1.5-r0",
+        "!ffmpeg7-libavutil>7.1.5-r0",
+        "!ffmpeg7-libpostproc<7.1.5-r0",
+        "!ffmpeg7-libpostproc>7.1.5-r0",
+        "!ffmpeg7-libswresample<7.1.5-r0",
+        "!ffmpeg7-libswresample>7.1.5-r0",
+        "!ffmpeg7-libswscale<7.1.5-r0",
+        "!ffmpeg7-libswscale>7.1.5-r0",
+        "!ffmpeg7<7.1.5-r0",
+        "!ffmpeg7>7.1.5-r0"
       ]
     },
     "ffmpeg7-dev": {
       "origin": "ffmpeg7",
       "versions": {
-        "7.1.3-r2": 1772627286
+        "7.1.3-r2": 1772627286,
+        "7.1.5-r0": 1792856880
       },
       "dependencies": [
-        "ffmpeg7-libavcodec=7.1.3-r2",
-        "ffmpeg7-libavdevice=7.1.3-r2",
-        "ffmpeg7-libavfilter=7.1.3-r2",
-        "ffmpeg7-libavformat=7.1.3-r2",
-        "ffmpeg7-libavutil=7.1.3-r2",
-        "ffmpeg7-libpostproc=7.1.3-r2",
-        "ffmpeg7-libswresample=7.1.3-r2",
-        "ffmpeg7-libswscale=7.1.3-r2",
+        "ffmpeg7-libavcodec=7.1.5-r0",
+        "ffmpeg7-libavdevice=7.1.5-r0",
+        "ffmpeg7-libavfilter=7.1.5-r0",
+        "ffmpeg7-libavformat=7.1.5-r0",
+        "ffmpeg7-libavutil=7.1.5-r0",
+        "ffmpeg7-libpostproc=7.1.5-r0",
+        "ffmpeg7-libswresample=7.1.5-r0",
+        "ffmpeg7-libswscale=7.1.5-r0",
         "pkgconfig"
       ],
       "provides": [
         "pc:libavcodec=61.19.101",
         "pc:libavdevice=61.3.100",
-        "pc:libavfilter=10.4.100",
-        "pc:libavformat=61.7.100",
+        "pc:libavfilter=10.5.100",
+        "pc:libavformat=61.7.103",
         "pc:libavutil=59.39.100",
         "pc:libpostproc=58.3.100",
         "pc:libswresample=5.3.100",
@@ -48718,13 +48747,15 @@
     "ffmpeg7-doc": {
       "origin": "ffmpeg7",
       "versions": {
-        "7.1.3-r2": 1772627286
+        "7.1.3-r2": 1772627286,
+        "7.1.5-r0": 1792856880
       }
     },
     "ffmpeg7-libavcodec": {
       "origin": "ffmpeg7",
       "versions": {
-        "7.1.3-r2": 1772627286
+        "7.1.3-r2": 1772627286,
+        "7.1.5-r0": 1792856880
       },
       "dependencies": [
         "so:libSvtAv1Enc.so.4",
@@ -48758,7 +48789,8 @@
     "ffmpeg7-libavdevice": {
       "origin": "ffmpeg7",
       "versions": {
-        "7.1.3-r2": 1772627286
+        "7.1.3-r2": 1772627286,
+        "7.1.5-r0": 1792856880
       },
       "dependencies": [
         "so:libSDL2-2.0.so.0",
@@ -48783,7 +48815,8 @@
     "ffmpeg7-libavfilter": {
       "origin": "ffmpeg7",
       "versions": {
-        "7.1.3-r2": 1772627286
+        "7.1.3-r2": 1772627286,
+        "7.1.5-r0": 1792856880
       },
       "dependencies": [
         "so:libass.so.9",
@@ -48806,13 +48839,14 @@
         "so:libzmq.so.5"
       ],
       "provides": [
-        "so:libavfilter.so.10=10.4.100"
+        "so:libavfilter.so.10=10.5.100"
       ]
     },
     "ffmpeg7-libavformat": {
       "origin": "ffmpeg7",
       "versions": {
-        "7.1.3-r2": 1772627286
+        "7.1.3-r2": 1772627286,
+        "7.1.5-r0": 1792856880
       },
       "dependencies": [
         "so:libavcodec.so.61",
@@ -48831,13 +48865,14 @@
         "so:libzmq.so.5"
       ],
       "provides": [
-        "so:libavformat.so.61=61.7.100"
+        "so:libavformat.so.61=61.7.103"
       ]
     },
     "ffmpeg7-libavutil": {
       "origin": "ffmpeg7",
       "versions": {
-        "7.1.3-r2": 1772627286
+        "7.1.3-r2": 1772627286,
+        "7.1.5-r0": 1792856880
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -48856,7 +48891,8 @@
     "ffmpeg7-libpostproc": {
       "origin": "ffmpeg7",
       "versions": {
-        "7.1.3-r2": 1772627286
+        "7.1.3-r2": 1772627286,
+        "7.1.5-r0": 1792856880
       },
       "dependencies": [
         "so:libavutil.so.59",
@@ -48869,23 +48905,25 @@
     "ffmpeg7-libs": {
       "origin": "ffmpeg7",
       "versions": {
-        "7.1.3-r2": 1772627286
+        "7.1.3-r2": 1772627286,
+        "7.1.5-r0": 1792856880
       },
       "dependencies": [
-        "ffmpeg7-libavcodec=7.1.3-r2",
-        "ffmpeg7-libavdevice=7.1.3-r2",
-        "ffmpeg7-libavfilter=7.1.3-r2",
-        "ffmpeg7-libavformat=7.1.3-r2",
-        "ffmpeg7-libavutil=7.1.3-r2",
-        "ffmpeg7-libpostproc=7.1.3-r2",
-        "ffmpeg7-libswresample=7.1.3-r2",
-        "ffmpeg7-libswscale=7.1.3-r2"
+        "ffmpeg7-libavcodec=7.1.5-r0",
+        "ffmpeg7-libavdevice=7.1.5-r0",
+        "ffmpeg7-libavfilter=7.1.5-r0",
+        "ffmpeg7-libavformat=7.1.5-r0",
+        "ffmpeg7-libavutil=7.1.5-r0",
+        "ffmpeg7-libpostproc=7.1.5-r0",
+        "ffmpeg7-libswresample=7.1.5-r0",
+        "ffmpeg7-libswscale=7.1.5-r0"
       ]
     },
     "ffmpeg7-libswresample": {
       "origin": "ffmpeg7",
       "versions": {
-        "7.1.3-r2": 1772627286
+        "7.1.3-r2": 1772627286,
+        "7.1.5-r0": 1792856880
       },
       "dependencies": [
         "so:libavutil.so.59",
@@ -48899,7 +48937,8 @@
     "ffmpeg7-libswscale": {
       "origin": "ffmpeg7",
       "versions": {
-        "7.1.3-r2": 1772627286
+        "7.1.3-r2": 1772627286,
+        "7.1.5-r0": 1792856880
       },
       "dependencies": [
         "so:libavutil.so.59",
@@ -48988,7 +49027,8 @@
       "origin": "ffmpeg",
       "versions": {
         "8.1.1-r0": 1777884945,
-        "8.1.2-r0": 1782616783
+        "8.1.2-r0": 1782616783,
+        "8.1.3-r0": 1792848372
       },
       "dependencies": [
         "so:libSDL2-2.0.so.0",
@@ -49003,7 +49043,7 @@
         "so:libswscale.so.9"
       ],
       "provides": [
-        "cmd:ffplay=8.1.2-r0"
+        "cmd:ffplay=8.1.3-r0"
       ]
     },
     "ffuf": {
@@ -53137,7 +53177,8 @@
         "15.0.6-r0": 1786637036,
         "15.0.7-r0": 1787234096,
         "15.0.8-r0": 1789064650,
-        "15.0.8-r1": 1791969618
+        "15.0.8-r1": 1791969618,
+        "15.0.11-r0": 1793045061
       },
       "dependencies": [
         "git",
@@ -53147,7 +53188,7 @@
         "so:libc.musl-riscv64.so.1"
       ],
       "provides": [
-        "cmd:forgejo=15.0.8-r1"
+        "cmd:forgejo=15.0.11-r0"
       ]
     },
     "forgejo-lts": {
@@ -53195,7 +53236,8 @@
         "15.0.6-r0": 1786637036,
         "15.0.7-r0": 1787234096,
         "15.0.8-r0": 1789064650,
-        "15.0.8-r1": 1791969618
+        "15.0.8-r1": 1791969618,
+        "15.0.11-r0": 1793045061
       }
     },
     "forgejo-runner": {
@@ -53238,7 +53280,8 @@
         "15.0.6-r0": 1786637036,
         "15.0.7-r0": 1787234096,
         "15.0.8-r0": 1789064650,
-        "15.0.8-r1": 1791969618
+        "15.0.8-r1": 1791969618,
+        "15.0.11-r0": 1793045061
       }
     },
     "fortune": {
@@ -60178,7 +60221,8 @@
     "git-cliff": {
       "origin": "git-cliff",
       "versions": {
-        "2.13.1-r0": 1777207456
+        "2.13.1-r0": 1777207456,
+        "2.13.1-r1": 1793320282
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1",
@@ -60186,31 +60230,35 @@
         "so:libgit2.so.1.9"
       ],
       "provides": [
-        "cmd:git-cliff=2.13.1-r0"
+        "cmd:git-cliff=2.13.1-r1"
       ]
     },
     "git-cliff-bash-completion": {
       "origin": "git-cliff",
       "versions": {
-        "2.13.1-r0": 1777207456
+        "2.13.1-r0": 1777207456,
+        "2.13.1-r1": 1793320282
       }
     },
     "git-cliff-doc": {
       "origin": "git-cliff",
       "versions": {
-        "2.13.1-r0": 1777207456
+        "2.13.1-r0": 1777207456,
+        "2.13.1-r1": 1793320282
       }
     },
     "git-cliff-fish-completion": {
       "origin": "git-cliff",
       "versions": {
-        "2.13.1-r0": 1777207456
+        "2.13.1-r0": 1777207456,
+        "2.13.1-r1": 1793320282
       }
     },
     "git-cliff-zsh-completion": {
       "origin": "git-cliff",
       "versions": {
-        "2.13.1-r0": 1777207456
+        "2.13.1-r0": 1777207456,
+        "2.13.1-r1": 1793320282
       }
     },
     "git-cola": {
@@ -65404,7 +65452,8 @@
       "versions": {
         "1.26.3-r0": 1778659597,
         "1.26.8-r0": 1788541499,
-        "1.26.9-r0": 1791969450
+        "1.26.9-r0": 1791969450,
+        "1.26.10-r0": 1792943566
       },
       "dependencies": [
         "binutils",
@@ -65412,9 +65461,9 @@
         "musl-dev"
       ],
       "provides": [
-        "go-bootstrap=1.26.9-r0",
-        "cmd:go=1.26.9-r0",
-        "cmd:gofmt=1.26.9-r0"
+        "go-bootstrap=1.26.10-r0",
+        "cmd:go=1.26.10-r0",
+        "cmd:gofmt=1.26.10-r0"
       ]
     },
     "go-away": {
@@ -65470,7 +65519,8 @@
       "versions": {
         "1.26.3-r0": 1778659597,
         "1.26.8-r0": 1788541499,
-        "1.26.9-r0": 1791969450
+        "1.26.9-r0": 1791969450,
+        "1.26.10-r0": 1792943566
       }
     },
     "go-md2man": {
@@ -82751,7 +82801,8 @@
     "himalaya": {
       "origin": "himalaya",
       "versions": {
-        "1.2.0-r0": 1773005794
+        "1.2.0-r0": 1773005794,
+        "1.2.0-r1": 1793320315
       },
       "dependencies": [
         "notmuch",
@@ -82759,31 +82810,35 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:himalaya=1.2.0-r0"
+        "cmd:himalaya=1.2.0-r1"
       ]
     },
     "himalaya-bash-completion": {
       "origin": "himalaya",
       "versions": {
-        "1.2.0-r0": 1773005794
+        "1.2.0-r0": 1773005794,
+        "1.2.0-r1": 1793320315
       }
     },
     "himalaya-doc": {
       "origin": "himalaya",
       "versions": {
-        "1.2.0-r0": 1773005794
+        "1.2.0-r0": 1773005794,
+        "1.2.0-r1": 1793320315
       }
     },
     "himalaya-fish-completion": {
       "origin": "himalaya",
       "versions": {
-        "1.2.0-r0": 1773005794
+        "1.2.0-r0": 1773005794,
+        "1.2.0-r1": 1793320315
       }
     },
     "himalaya-zsh-completion": {
       "origin": "himalaya",
       "versions": {
-        "1.2.0-r0": 1773005794
+        "1.2.0-r0": 1773005794,
+        "1.2.0-r1": 1793320315
       }
     },
     "hime": {
@@ -105531,41 +105586,45 @@
     "lastpass-cli": {
       "origin": "lastpass-cli",
       "versions": {
-        "1.6.1-r1": 1761116632
+        "1.6.1-r1": 1761116632,
+        "1.6.2-r0": 1792878987
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1",
         "so:libcrypto.so.3",
         "so:libcurl.so.4",
-        "so:libssl.so.3",
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:lpass=1.6.1-r1"
+        "cmd:lpass=1.6.2-r0"
       ]
     },
     "lastpass-cli-bash-completion": {
       "origin": "lastpass-cli",
       "versions": {
-        "1.6.1-r1": 1761116632
+        "1.6.1-r1": 1761116632,
+        "1.6.2-r0": 1792878987
       }
     },
     "lastpass-cli-doc": {
       "origin": "lastpass-cli",
       "versions": {
-        "1.6.1-r1": 1761116632
+        "1.6.1-r1": 1761116632,
+        "1.6.2-r0": 1792878987
       }
     },
     "lastpass-cli-fish-completion": {
       "origin": "lastpass-cli",
       "versions": {
-        "1.6.1-r1": 1761116632
+        "1.6.1-r1": 1761116632,
+        "1.6.2-r0": 1792878987
       }
     },
     "lastpass-cli-zsh-completion": {
       "origin": "lastpass-cli",
       "versions": {
-        "1.6.1-r1": 1761116632
+        "1.6.1-r1": 1761116632,
+        "1.6.2-r0": 1792878987
       }
     },
     "lastversion": {
@@ -107544,7 +107603,8 @@
     "libbson": {
       "origin": "mongo-c-driver",
       "versions": {
-        "1.30.6-r0": 1767446415
+        "1.30.6-r0": 1767446415,
+        "1.30.14-r0": 1793099044
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1"
@@ -107556,27 +107616,29 @@
     "libbson-dev": {
       "origin": "mongo-c-driver",
       "versions": {
-        "1.30.6-r0": 1767446415
+        "1.30.6-r0": 1767446415,
+        "1.30.14-r0": 1793099044
       },
       "dependencies": [
-        "libbson=1.30.6-r0",
+        "libbson=1.30.14-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libbson-1.0=1.30.6"
+        "pc:libbson-1.0=1.30.14"
       ]
     },
     "libbson-static": {
       "origin": "mongo-c-driver",
       "versions": {
-        "1.30.6-r0": 1767446415
+        "1.30.6-r0": 1767446415,
+        "1.30.14-r0": 1793099044
       },
       "dependencies": [
-        "libbson-dev=1.30.6-r0",
+        "libbson-dev=1.30.14-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libbson-static-1.0=1.30.6"
+        "pc:libbson-static-1.0=1.30.14"
       ]
     },
     "libbytesize": {
@@ -121447,7 +121509,8 @@
     "libraw": {
       "origin": "libraw",
       "versions": {
-        "0.22.1-r0": 1776009405
+        "0.22.1-r0": 1776009405,
+        "0.22.2-r0": 1792784551
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1",
@@ -121466,22 +121529,24 @@
     "libraw-dev": {
       "origin": "libraw",
       "versions": {
-        "0.22.1-r0": 1776009405
+        "0.22.1-r0": 1776009405,
+        "0.22.2-r0": 1792784551
       },
       "dependencies": [
-        "libraw=0.22.1-r0",
+        "libraw=0.22.2-r0",
         "pc:lcms2",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libraw=0.22.1",
-        "pc:libraw_r=0.22.1"
+        "pc:libraw=0.22.2",
+        "pc:libraw_r=0.22.2"
       ]
     },
     "libraw-tools": {
       "origin": "libraw",
       "versions": {
-        "0.22.1-r0": 1776009405
+        "0.22.1-r0": 1776009405,
+        "0.22.2-r0": 1792784551
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1",
@@ -121493,17 +121558,17 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:4channels=0.22.1-r0",
-        "cmd:dcraw_emu=0.22.1-r0",
-        "cmd:dcraw_half=0.22.1-r0",
-        "cmd:half_mt=0.22.1-r0",
-        "cmd:mem_image=0.22.1-r0",
-        "cmd:multirender_test=0.22.1-r0",
-        "cmd:postprocessing_benchmark=0.22.1-r0",
-        "cmd:raw-identify=0.22.1-r0",
-        "cmd:rawtextdump=0.22.1-r0",
-        "cmd:simple_dcraw=0.22.1-r0",
-        "cmd:unprocessed_raw=0.22.1-r0"
+        "cmd:4channels=0.22.2-r0",
+        "cmd:dcraw_emu=0.22.2-r0",
+        "cmd:dcraw_half=0.22.2-r0",
+        "cmd:half_mt=0.22.2-r0",
+        "cmd:mem_image=0.22.2-r0",
+        "cmd:multirender_test=0.22.2-r0",
+        "cmd:postprocessing_benchmark=0.22.2-r0",
+        "cmd:raw-identify=0.22.2-r0",
+        "cmd:rawtextdump=0.22.2-r0",
+        "cmd:simple_dcraw=0.22.2-r0",
+        "cmd:unprocessed_raw=0.22.2-r0"
       ]
     },
     "libraw1394": {
@@ -128801,7 +128866,8 @@
     "lldpd": {
       "origin": "lldpd",
       "versions": {
-        "1.0.22-r0": 1778831049
+        "1.0.22-r0": 1778831049,
+        "1.0.23-r0": 1793374902
       },
       "dependencies": [
         "/bin/sh",
@@ -128815,47 +128881,52 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:lldpcli=1.0.22-r0",
-        "cmd:lldpctl=1.0.22-r0",
-        "cmd:lldpd=1.0.22-r0",
+        "cmd:lldpcli=1.0.23-r0",
+        "cmd:lldpctl=1.0.23-r0",
+        "cmd:lldpd=1.0.23-r0",
         "so:liblldpctl.so.4=4.10.0"
       ]
     },
     "lldpd-bash-completion": {
       "origin": "lldpd",
       "versions": {
-        "1.0.22-r0": 1778831049
+        "1.0.22-r0": 1778831049,
+        "1.0.23-r0": 1793374902
       }
     },
     "lldpd-dev": {
       "origin": "lldpd",
       "versions": {
-        "1.0.22-r0": 1778831049
+        "1.0.22-r0": 1778831049,
+        "1.0.23-r0": 1793374902
       },
       "dependencies": [
-        "lldpd=1.0.22-r0",
+        "lldpd=1.0.23-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:lldpctl=1.0.22"
+        "pc:lldpctl=1.0.23"
       ]
     },
     "lldpd-doc": {
       "origin": "lldpd",
       "versions": {
-        "1.0.22-r0": 1778831049
+        "1.0.22-r0": 1778831049,
+        "1.0.23-r0": 1793374902
       }
     },
     "lldpd-openrc": {
       "origin": "lldpd",
       "versions": {
-        "1.0.22-r0": 1778831049
+        "1.0.22-r0": 1778831049,
+        "1.0.23-r0": 1793374902
       }
     },
     "lldpd-zsh-completion": {
       "origin": "lldpd",
       "versions": {
-        "1.0.22-r0": 1778831049
+        "1.0.22-r0": 1778831049,
+        "1.0.23-r0": 1793374902
       }
     },
     "llhttp": {
@@ -141855,7 +141926,8 @@
     "mongo-c-driver": {
       "origin": "mongo-c-driver",
       "versions": {
-        "1.30.6-r0": 1767446415
+        "1.30.6-r0": 1767446415,
+        "1.30.14-r0": 1793099044
       },
       "dependencies": [
         "so:libbson-1.0.so.0",
@@ -141866,44 +141938,47 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:mongoc-stat=1.30.6-r0",
+        "cmd:mongoc-stat=1.30.14-r0",
         "so:libmongoc-1.0.so.0=0.0.0"
       ]
     },
     "mongo-c-driver-dev": {
       "origin": "mongo-c-driver",
       "versions": {
-        "1.30.6-r0": 1767446415
+        "1.30.6-r0": 1767446415,
+        "1.30.14-r0": 1793099044
       },
       "dependencies": [
         "libbson-dev",
-        "mongo-c-driver=1.30.6-r0",
+        "mongo-c-driver=1.30.14-r0",
         "pc:libbson-1.0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libmongoc-1.0=1.30.6",
-        "pc:libmongoc-ssl-1.0=1.30.6"
+        "pc:libmongoc-1.0=1.30.14",
+        "pc:libmongoc-ssl-1.0=1.30.14"
       ]
     },
     "mongo-c-driver-doc": {
       "origin": "mongo-c-driver",
       "versions": {
-        "1.30.6-r0": 1767446415
+        "1.30.6-r0": 1767446415,
+        "1.30.14-r0": 1793099044
       }
     },
     "mongo-c-driver-static": {
       "origin": "mongo-c-driver",
       "versions": {
-        "1.30.6-r0": 1767446415
+        "1.30.6-r0": 1767446415,
+        "1.30.14-r0": 1793099044
       },
       "dependencies": [
-        "mongo-c-driver-dev=1.30.6-r0",
+        "mongo-c-driver-dev=1.30.14-r0",
         "pc:libbson-static-1.0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libmongoc-static-1.0=1.30.6"
+        "pc:libmongoc-static-1.0=1.30.14"
       ]
     },
     "mongo-php-library": {
@@ -148568,7 +148643,8 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "ca-certificates",
@@ -148595,47 +148671,47 @@
         "/bin/sh"
       ],
       "provides": [
-        "nextcloud=33.0.9-r0",
-        "nextcloud-accessibility=33.0.9-r0",
-        "nextcloud33-accessibility=33.0.9-r0",
-        "nextcloud-bruteforcesettings=33.0.9-r0",
-        "nextcloud33-bruteforcesettings=33.0.9-r0",
-        "nextcloud-contactsinteraction=33.0.9-r0",
-        "nextcloud33-contactsinteraction=33.0.9-r0",
-        "nextcloud-cloud_federation_api=33.0.9-r0",
-        "nextcloud33-cloud_federation_api=33.0.9-r0",
-        "nextcloud-dav=33.0.9-r0",
-        "nextcloud33-dav=33.0.9-r0",
-        "nextcloud-files=33.0.9-r0",
-        "nextcloud33-files=33.0.9-r0",
-        "nextcloud-files_videoplayer=33.0.9-r0",
-        "nextcloud33-files_videoplayer=33.0.9-r0",
-        "nextcloud-federatedfilesharing=33.0.9-r0",
-        "nextcloud33-federatedfilesharing=33.0.9-r0",
-        "nextcloud-lookup_server_connector=33.0.9-r0",
-        "nextcloud33-lookup_server_connector=33.0.9-r0",
-        "nextcloud-oauth2=33.0.9-r0",
-        "nextcloud33-oauth2=33.0.9-r0",
-        "nextcloud-profile=33.0.9-r0",
-        "nextcloud33-profile=33.0.9-r0",
-        "nextcloud-provisioning_api=33.0.9-r0",
-        "nextcloud33-provisioning_api=33.0.9-r0",
-        "nextcloud-related_resources=33.0.9-r0",
-        "nextcloud33-related_resources=33.0.9-r0",
-        "nextcloud-settings=33.0.9-r0",
-        "nextcloud33-settings=33.0.9-r0",
-        "nextcloud-theming=33.0.9-r0",
-        "nextcloud33-theming=33.0.9-r0",
-        "nextcloud-twofactor_backupcodes=33.0.9-r0",
-        "nextcloud33-twofactor_backupcodes=33.0.9-r0",
-        "nextcloud-twofactor_nextcloud_notification=33.0.9-r0",
-        "nextcloud33-twofactor_nextcloud_notification=33.0.9-r0",
-        "nextcloud-twofactor_totp=33.0.9-r0",
-        "nextcloud33-twofactor_totp=33.0.9-r0",
-        "nextcloud-viewer=33.0.9-r0",
-        "nextcloud33-viewer=33.0.9-r0",
-        "nextcloud-workflowengine=33.0.9-r0",
-        "nextcloud33-workflowengine=33.0.9-r0"
+        "nextcloud=33.0.10-r0",
+        "nextcloud-accessibility=33.0.10-r0",
+        "nextcloud33-accessibility=33.0.10-r0",
+        "nextcloud-bruteforcesettings=33.0.10-r0",
+        "nextcloud33-bruteforcesettings=33.0.10-r0",
+        "nextcloud-contactsinteraction=33.0.10-r0",
+        "nextcloud33-contactsinteraction=33.0.10-r0",
+        "nextcloud-cloud_federation_api=33.0.10-r0",
+        "nextcloud33-cloud_federation_api=33.0.10-r0",
+        "nextcloud-dav=33.0.10-r0",
+        "nextcloud33-dav=33.0.10-r0",
+        "nextcloud-files=33.0.10-r0",
+        "nextcloud33-files=33.0.10-r0",
+        "nextcloud-files_videoplayer=33.0.10-r0",
+        "nextcloud33-files_videoplayer=33.0.10-r0",
+        "nextcloud-federatedfilesharing=33.0.10-r0",
+        "nextcloud33-federatedfilesharing=33.0.10-r0",
+        "nextcloud-lookup_server_connector=33.0.10-r0",
+        "nextcloud33-lookup_server_connector=33.0.10-r0",
+        "nextcloud-oauth2=33.0.10-r0",
+        "nextcloud33-oauth2=33.0.10-r0",
+        "nextcloud-profile=33.0.10-r0",
+        "nextcloud33-profile=33.0.10-r0",
+        "nextcloud-provisioning_api=33.0.10-r0",
+        "nextcloud33-provisioning_api=33.0.10-r0",
+        "nextcloud-related_resources=33.0.10-r0",
+        "nextcloud33-related_resources=33.0.10-r0",
+        "nextcloud-settings=33.0.10-r0",
+        "nextcloud33-settings=33.0.10-r0",
+        "nextcloud-theming=33.0.10-r0",
+        "nextcloud33-theming=33.0.10-r0",
+        "nextcloud-twofactor_backupcodes=33.0.10-r0",
+        "nextcloud33-twofactor_backupcodes=33.0.10-r0",
+        "nextcloud-twofactor_nextcloud_notification=33.0.10-r0",
+        "nextcloud33-twofactor_nextcloud_notification=33.0.10-r0",
+        "nextcloud-twofactor_totp=33.0.10-r0",
+        "nextcloud33-twofactor_totp=33.0.10-r0",
+        "nextcloud-viewer=33.0.10-r0",
+        "nextcloud33-viewer=33.0.10-r0",
+        "nextcloud-workflowengine=33.0.10-r0",
+        "nextcloud33-workflowengine=33.0.10-r0"
       ]
     },
     "nextcloud33-activity": {
@@ -148646,13 +148722,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-activity=33.0.9-r0"
+        "nextcloud-activity=33.0.10-r0"
       ]
     },
     "nextcloud33-admin_audit": {
@@ -148663,13 +148740,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-admin_audit=33.0.9-r0"
+        "nextcloud-admin_audit=33.0.10-r0"
       ]
     },
     "nextcloud33-app_api": {
@@ -148680,13 +148758,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-app_api=33.0.9-r0"
+        "nextcloud-app_api=33.0.10-r0"
       ]
     },
     "nextcloud33-circles": {
@@ -148697,13 +148776,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-circles=33.0.9-r0"
+        "nextcloud-circles=33.0.10-r0"
       ]
     },
     "nextcloud33-comments": {
@@ -148714,13 +148794,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-comments=33.0.9-r0"
+        "nextcloud-comments=33.0.10-r0"
       ]
     },
     "nextcloud33-dashboard": {
@@ -148731,13 +148812,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-dashboard=33.0.9-r0"
+        "nextcloud-dashboard=33.0.10-r0"
       ]
     },
     "nextcloud33-default-apps": {
@@ -148748,7 +148830,8 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33",
@@ -148763,7 +148846,7 @@
         "nextcloud33-viewer"
       ],
       "provides": [
-        "nextcloud-default-apps=33.0.9-r0"
+        "nextcloud-default-apps=33.0.10-r0"
       ]
     },
     "nextcloud33-doc": {
@@ -148774,10 +148857,11 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "provides": [
-        "nextcloud-doc=33.0.9-r0"
+        "nextcloud-doc=33.0.10-r0"
       ]
     },
     "nextcloud33-encryption": {
@@ -148788,14 +148872,15 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33",
         "php85-openssl"
       ],
       "provides": [
-        "nextcloud-encryption=33.0.9-r0"
+        "nextcloud-encryption=33.0.10-r0"
       ]
     },
     "nextcloud33-federation": {
@@ -148806,13 +148891,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-federation=33.0.9-r0"
+        "nextcloud-federation=33.0.10-r0"
       ]
     },
     "nextcloud33-files_downloadlimit": {
@@ -148823,13 +148909,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-files_downloadlimit=33.0.9-r0"
+        "nextcloud-files_downloadlimit=33.0.10-r0"
       ]
     },
     "nextcloud33-files_external": {
@@ -148840,13 +148927,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-files_external=33.0.9-r0"
+        "nextcloud-files_external=33.0.10-r0"
       ]
     },
     "nextcloud33-files_pdfviewer": {
@@ -148857,13 +148945,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-files_pdfviewer=33.0.9-r0"
+        "nextcloud-files_pdfviewer=33.0.10-r0"
       ]
     },
     "nextcloud33-files_reminders": {
@@ -148874,13 +148963,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-files_reminders=33.0.9-r0"
+        "nextcloud-files_reminders=33.0.10-r0"
       ]
     },
     "nextcloud33-files_sharing": {
@@ -148891,14 +148981,15 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33",
         "nextcloud33-federatedfilesharing"
       ],
       "provides": [
-        "nextcloud-files_sharing=33.0.9-r0"
+        "nextcloud-files_sharing=33.0.10-r0"
       ]
     },
     "nextcloud33-files_trashbin": {
@@ -148909,13 +149000,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-files_trashbin=33.0.9-r0"
+        "nextcloud-files_trashbin=33.0.10-r0"
       ]
     },
     "nextcloud33-files_versions": {
@@ -148926,13 +149018,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-files_versions=33.0.9-r0"
+        "nextcloud-files_versions=33.0.10-r0"
       ]
     },
     "nextcloud33-firstrunwizard": {
@@ -148943,13 +149036,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-firstrunwizard=33.0.9-r0"
+        "nextcloud-firstrunwizard=33.0.10-r0"
       ]
     },
     "nextcloud33-initscript": {
@@ -148960,7 +149054,8 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33",
@@ -148968,7 +149063,7 @@
         "/bin/sh"
       ],
       "provides": [
-        "nextcloud-initscript=33.0.9-r0"
+        "nextcloud-initscript=33.0.10-r0"
       ]
     },
     "nextcloud33-logreader": {
@@ -148979,13 +149074,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-logreader=33.0.9-r0"
+        "nextcloud-logreader=33.0.10-r0"
       ]
     },
     "nextcloud33-mysql": {
@@ -148996,14 +149092,15 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33",
         "php85-pdo_mysql"
       ],
       "provides": [
-        "nextcloud-mysql=33.0.9-r0"
+        "nextcloud-mysql=33.0.10-r0"
       ]
     },
     "nextcloud33-nextcloud_announcements": {
@@ -149014,13 +149111,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-nextcloud_announcements=33.0.9-r0"
+        "nextcloud-nextcloud_announcements=33.0.10-r0"
       ]
     },
     "nextcloud33-notifications": {
@@ -149031,13 +149129,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-notifications=33.0.9-r0"
+        "nextcloud-notifications=33.0.10-r0"
       ]
     },
     "nextcloud33-occ": {
@@ -149048,7 +149147,8 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "ca-certificates",
@@ -149074,8 +149174,8 @@
         "php85-zip"
       ],
       "provides": [
-        "nextcloud-occ=33.0.9-r0",
-        "cmd:occ=33.0.9-r0"
+        "nextcloud-occ=33.0.10-r0",
+        "cmd:occ=33.0.10-r0"
       ]
     },
     "nextcloud33-password_policy": {
@@ -149086,13 +149186,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-password_policy=33.0.9-r0"
+        "nextcloud-password_policy=33.0.10-r0"
       ]
     },
     "nextcloud33-pgsql": {
@@ -149103,7 +149204,8 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33",
@@ -149111,7 +149213,7 @@
         "php85-pdo_pgsql"
       ],
       "provides": [
-        "nextcloud-pgsql=33.0.9-r0"
+        "nextcloud-pgsql=33.0.10-r0"
       ]
     },
     "nextcloud33-photos": {
@@ -149122,13 +149224,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-photos=33.0.9-r0"
+        "nextcloud-photos=33.0.10-r0"
       ]
     },
     "nextcloud33-privacy": {
@@ -149139,13 +149242,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-privacy=33.0.9-r0"
+        "nextcloud-privacy=33.0.10-r0"
       ]
     },
     "nextcloud33-recommendations": {
@@ -149156,13 +149260,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-recommendations=33.0.9-r0"
+        "nextcloud-recommendations=33.0.10-r0"
       ]
     },
     "nextcloud33-serverinfo": {
@@ -149173,14 +149278,15 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33",
         "nextcloud33-files_sharing"
       ],
       "provides": [
-        "nextcloud-serverinfo=33.0.9-r0"
+        "nextcloud-serverinfo=33.0.10-r0"
       ]
     },
     "nextcloud33-sharebymail": {
@@ -149191,13 +149297,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-sharebymail=33.0.9-r0"
+        "nextcloud-sharebymail=33.0.10-r0"
       ]
     },
     "nextcloud33-sqlite": {
@@ -149208,7 +149315,8 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33",
@@ -149216,7 +149324,7 @@
         "php85-pdo_sqlite"
       ],
       "provides": [
-        "nextcloud-sqlite=33.0.9-r0"
+        "nextcloud-sqlite=33.0.10-r0"
       ]
     },
     "nextcloud33-support": {
@@ -149227,13 +149335,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-support=33.0.9-r0"
+        "nextcloud-support=33.0.10-r0"
       ]
     },
     "nextcloud33-survey_client": {
@@ -149244,13 +149353,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-survey_client=33.0.9-r0"
+        "nextcloud-survey_client=33.0.10-r0"
       ]
     },
     "nextcloud33-suspicious_login": {
@@ -149261,13 +149371,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-suspicious_login=33.0.9-r0"
+        "nextcloud-suspicious_login=33.0.10-r0"
       ]
     },
     "nextcloud33-systemtags": {
@@ -149278,13 +149389,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-systemtags=33.0.9-r0"
+        "nextcloud-systemtags=33.0.10-r0"
       ]
     },
     "nextcloud33-text": {
@@ -149295,13 +149407,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-text=33.0.9-r0"
+        "nextcloud-text=33.0.10-r0"
       ]
     },
     "nextcloud33-user_ldap": {
@@ -149312,14 +149425,15 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33",
         "php85-ldap"
       ],
       "provides": [
-        "nextcloud-user_ldap=33.0.9-r0"
+        "nextcloud-user_ldap=33.0.10-r0"
       ]
     },
     "nextcloud33-user_status": {
@@ -149330,13 +149444,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-user_status=33.0.9-r0"
+        "nextcloud-user_status=33.0.10-r0"
       ]
     },
     "nextcloud33-weather_status": {
@@ -149347,13 +149462,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-weather_status=33.0.9-r0"
+        "nextcloud-weather_status=33.0.10-r0"
       ]
     },
     "nextcloud33-webhook_listeners": {
@@ -149364,13 +149480,14 @@
         "33.0.6-r0": 1783593412,
         "33.0.7-r0": 1785331223,
         "33.0.8-r0": 1787552378,
-        "33.0.9-r0": 1790885286
+        "33.0.9-r0": 1790885286,
+        "33.0.10-r0": 1793099021
       },
       "dependencies": [
         "nextcloud33"
       ],
       "provides": [
-        "nextcloud-webhook_listeners=33.0.9-r0"
+        "nextcloud-webhook_listeners=33.0.10-r0"
       ]
     },
     "nextvi": {
@@ -150495,27 +150612,35 @@
         "26.2.0-r0": 1779843199,
         "26.3.0-r0": 1780568716,
         "26.3.1-r0": 1784307895,
-        "26.5.1-r0": 1787582931
+        "26.5.1-r0": 1787582931,
+        "26.12.1-r0": 1792933927
       },
       "dependencies": [
         "ca-certificates",
+        "so:libada.so.4",
         "so:libbrotlidec.so.1",
         "so:libbrotlienc.so.1",
         "so:libc.musl-riscv64.so.1",
         "so:libcares.so.2",
         "so:libcrypto.so.3",
+        "so:libffi.so.8",
         "so:libgcc_s.so.1",
+        "so:libhdr_histogram.so.6",
         "so:libicui18n.so.78",
         "so:libicuuc.so.78",
+        "so:libllhttp.so.9.4",
         "so:libnghttp2.so.14",
+        "so:libsimdjson.so.29",
+        "so:libsqlite3.so.0",
         "so:libssl.so.3",
         "so:libstdc++.so.6",
         "so:libuv.so.1",
-        "so:libz.so.1"
+        "so:libz.so.1",
+        "so:libzstd.so.1"
       ],
       "provides": [
         "nodejs",
-        "cmd:node=26.5.1-r0"
+        "cmd:node=26.12.1-r0"
       ]
     },
     "nodejs-current-dev": {
@@ -150524,7 +150649,8 @@
         "26.2.0-r0": 1779843199,
         "26.3.0-r0": 1780568716,
         "26.3.1-r0": 1784307895,
-        "26.5.1-r0": 1787582931
+        "26.5.1-r0": 1787582931,
+        "26.12.1-r0": 1792933927
       },
       "dependencies": [
         "libuv-dev"
@@ -150536,7 +150662,8 @@
         "26.2.0-r0": 1779843199,
         "26.3.0-r0": 1780568716,
         "26.3.1-r0": 1784307895,
-        "26.5.1-r0": 1787582931
+        "26.5.1-r0": 1787582931,
+        "26.12.1-r0": 1792933927
       }
     },
     "noip2": {
@@ -155165,7 +155292,8 @@
       "origin": "openjdk21",
       "versions": {
         "21.0.11_p10-r0": 1777852974,
-        "21.0.12_p8-r0": 1785771227
+        "21.0.12_p8-r0": 1785771227,
+        "21.0.13.0.3_p1-r0": 1793436700
       },
       "dependencies": [
         "openjdk21-jdk",
@@ -155173,28 +155301,31 @@
         "openjdk21-doc"
       ],
       "provides": [
-        "openjdk21-bootstrap=21.0.12_p8-r0"
+        "openjdk21-bootstrap=21.0.13.0.3_p1-r0"
       ]
     },
     "openjdk21-demos": {
       "origin": "openjdk21",
       "versions": {
         "21.0.11_p10-r0": 1777852974,
-        "21.0.12_p8-r0": 1785771227
+        "21.0.12_p8-r0": 1785771227,
+        "21.0.13.0.3_p1-r0": 1793436700
       }
     },
     "openjdk21-doc": {
       "origin": "openjdk21",
       "versions": {
         "21.0.11_p10-r0": 1777852974,
-        "21.0.12_p8-r0": 1785771227
+        "21.0.12_p8-r0": 1785771227,
+        "21.0.13.0.3_p1-r0": 1793436700
       }
     },
     "openjdk21-jdk": {
       "origin": "openjdk21",
       "versions": {
         "21.0.11_p10-r0": 1777852974,
-        "21.0.12_p8-r0": 1785771227
+        "21.0.12_p8-r0": 1785771227,
+        "21.0.13.0.3_p1-r0": 1793436700
       },
       "dependencies": [
         "openjdk21-jre",
@@ -155210,14 +155341,16 @@
       "origin": "openjdk21",
       "versions": {
         "21.0.11_p10-r0": 1777852974,
-        "21.0.12_p8-r0": 1785771227
+        "21.0.12_p8-r0": 1785771227,
+        "21.0.13.0.3_p1-r0": 1793436700
       }
     },
     "openjdk21-jre": {
       "origin": "openjdk21",
       "versions": {
         "21.0.11_p10-r0": 1777852974,
-        "21.0.12_p8-r0": 1785771227
+        "21.0.12_p8-r0": 1785771227,
+        "21.0.13.0.3_p1-r0": 1793436700
       },
       "dependencies": [
         "openjdk21-jre-headless",
@@ -155251,7 +155384,8 @@
       "origin": "openjdk21",
       "versions": {
         "21.0.11_p10-r0": 1777852974,
-        "21.0.12_p8-r0": 1785771227
+        "21.0.12_p8-r0": 1785771227,
+        "21.0.13.0.3_p1-r0": 1793436700
       },
       "dependencies": [
         "java-common",
@@ -155297,7 +155431,8 @@
       "origin": "openjdk21",
       "versions": {
         "21.0.11_p10-r0": 1777852974,
-        "21.0.12_p8-r0": 1785771227
+        "21.0.12_p8-r0": 1785771227,
+        "21.0.13.0.3_p1-r0": 1793436700
       },
       "dependencies": [
         "openjdk21-jre-headless"
@@ -155307,10 +155442,11 @@
       "origin": "openjdk21",
       "versions": {
         "21.0.11_p10-r0": 1777852974,
-        "21.0.12_p8-r0": 1785771227
+        "21.0.12_p8-r0": 1785771227,
+        "21.0.13.0.3_p1-r0": 1793436700
       },
       "dependencies": [
-        "openjdk21=21.0.12_p8-r0"
+        "openjdk21=21.0.13.0.3_p1-r0"
       ],
       "provides": [
         "java-jdk-static-libs"
@@ -155320,35 +155456,39 @@
       "origin": "openjdk25",
       "versions": {
         "25.0.3_p9-r1": 1777852974,
-        "25.0.4_p7-r0": 1785771227
+        "25.0.4_p7-r0": 1785771227,
+        "25.0.5.0.3_p1-r0": 1793436700
       },
       "dependencies": [
         "openjdk25-jdk",
         "openjdk25-demos"
       ],
       "provides": [
-        "openjdk25-bootstrap=25.0.4_p7-r0"
+        "openjdk25-bootstrap=25.0.5.0.3_p1-r0"
       ]
     },
     "openjdk25-demos": {
       "origin": "openjdk25",
       "versions": {
         "25.0.3_p9-r1": 1777852974,
-        "25.0.4_p7-r0": 1785771227
+        "25.0.4_p7-r0": 1785771227,
+        "25.0.5.0.3_p1-r0": 1793436700
       }
     },
     "openjdk25-doc": {
       "origin": "openjdk25",
       "versions": {
         "25.0.3_p9-r1": 1777852974,
-        "25.0.4_p7-r0": 1785771227
+        "25.0.4_p7-r0": 1785771227,
+        "25.0.5.0.3_p1-r0": 1793436700
       }
     },
     "openjdk25-jdk": {
       "origin": "openjdk25",
       "versions": {
         "25.0.3_p9-r1": 1777852974,
-        "25.0.4_p7-r0": 1785771227
+        "25.0.4_p7-r0": 1785771227,
+        "25.0.5.0.3_p1-r0": 1793436700
       },
       "dependencies": [
         "openjdk25-jre",
@@ -155364,14 +155504,16 @@
       "origin": "openjdk25",
       "versions": {
         "25.0.3_p9-r1": 1777852974,
-        "25.0.4_p7-r0": 1785771227
+        "25.0.4_p7-r0": 1785771227,
+        "25.0.5.0.3_p1-r0": 1793436700
       }
     },
     "openjdk25-jre": {
       "origin": "openjdk25",
       "versions": {
         "25.0.3_p9-r1": 1777852974,
-        "25.0.4_p7-r0": 1785771227
+        "25.0.4_p7-r0": 1785771227,
+        "25.0.5.0.3_p1-r0": 1793436700
       },
       "dependencies": [
         "openjdk25-jre-headless",
@@ -155406,7 +155548,8 @@
       "origin": "openjdk25",
       "versions": {
         "25.0.3_p9-r1": 1777852974,
-        "25.0.4_p7-r0": 1785771227
+        "25.0.4_p7-r0": 1785771227,
+        "25.0.5.0.3_p1-r0": 1793436700
       },
       "dependencies": [
         "java-common",
@@ -155452,7 +155595,8 @@
       "origin": "openjdk25",
       "versions": {
         "25.0.3_p9-r1": 1777852974,
-        "25.0.4_p7-r0": 1785771227
+        "25.0.4_p7-r0": 1785771227,
+        "25.0.5.0.3_p1-r0": 1793436700
       },
       "dependencies": [
         "openjdk25-jre-headless"
@@ -155462,10 +155606,11 @@
       "origin": "openjdk25",
       "versions": {
         "25.0.3_p9-r1": 1777852974,
-        "25.0.4_p7-r0": 1785771227
+        "25.0.4_p7-r0": 1785771227,
+        "25.0.5.0.3_p1-r0": 1793436700
       },
       "dependencies": [
-        "openjdk25=25.0.4_p7-r0"
+        "openjdk25=25.0.5.0.3_p1-r0"
       ],
       "provides": [
         "java-jdk-static-libs"
@@ -160032,7 +160177,8 @@
       "versions": {
         "5.4.1-r0": 1777381370,
         "5.4.4-r0": 1785277706,
-        "5.4.5-r0": 1786058014
+        "5.4.5-r0": 1786058014,
+        "5.4.8-r0": 1793038353
       },
       "dependencies": [
         "pdns-recursor-common",
@@ -160049,8 +160195,8 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:pdns_recursor=5.4.5-r0",
-        "cmd:rec_control=5.4.5-r0"
+        "cmd:pdns_recursor=5.4.8-r0",
+        "cmd:rec_control=5.4.8-r0"
       ]
     },
     "pdns-recursor-common": {
@@ -160058,7 +160204,8 @@
       "versions": {
         "5.4.1-r0": 1777381370,
         "5.4.4-r0": 1785277706,
-        "5.4.5-r0": 1786058014
+        "5.4.5-r0": 1786058014,
+        "5.4.8-r0": 1793038353
       },
       "dependencies": [
         "/bin/sh"
@@ -160069,7 +160216,8 @@
       "versions": {
         "5.4.1-r0": 1777381370,
         "5.4.4-r0": 1785277706,
-        "5.4.5-r0": 1786058014
+        "5.4.5-r0": 1786058014,
+        "5.4.8-r0": 1793038353
       }
     },
     "pdns-recursor-openrc": {
@@ -160077,7 +160225,8 @@
       "versions": {
         "5.4.1-r0": 1777381370,
         "5.4.4-r0": 1785277706,
-        "5.4.5-r0": 1786058014
+        "5.4.5-r0": 1786058014,
+        "5.4.8-r0": 1793038353
       }
     },
     "pdns-tools": {
@@ -183136,14 +183285,15 @@
         "11.5.0-r0": 1780390952,
         "11.5.2-r0": 1780742257,
         "11.5.3-r0": 1781217224,
-        "11.20.0-r0": 1786301752
+        "11.20.0-r0": 1786301752,
+        "11.28.9-r0": 1793351374
       },
       "dependencies": [
         "nodejs"
       ],
       "provides": [
-        "cmd:pnpm=11.20.0-r0",
-        "cmd:pnpx=11.20.0-r0"
+        "cmd:pnpm=11.28.9-r0",
+        "cmd:pnpx=11.28.9-r0"
       ]
     },
     "pnpm-bash-completion": {
@@ -183152,7 +183302,8 @@
         "11.5.0-r0": 1780390952,
         "11.5.2-r0": 1780742257,
         "11.5.3-r0": 1781217224,
-        "11.20.0-r0": 1786301752
+        "11.20.0-r0": 1786301752,
+        "11.28.9-r0": 1793351374
       }
     },
     "pnpm-doc": {
@@ -183161,7 +183312,8 @@
         "11.5.0-r0": 1780390952,
         "11.5.2-r0": 1780742257,
         "11.5.3-r0": 1781217224,
-        "11.20.0-r0": 1786301752
+        "11.20.0-r0": 1786301752,
+        "11.28.9-r0": 1793351374
       }
     },
     "pnpm-fish-completion": {
@@ -183170,7 +183322,8 @@
         "11.5.0-r0": 1780390952,
         "11.5.2-r0": 1780742257,
         "11.5.3-r0": 1781217224,
-        "11.20.0-r0": 1786301752
+        "11.20.0-r0": 1786301752,
+        "11.28.9-r0": 1793351374
       }
     },
     "pnpm-zsh-completion": {
@@ -183179,7 +183332,8 @@
         "11.5.0-r0": 1780390952,
         "11.5.2-r0": 1780742257,
         "11.5.3-r0": 1781217224,
-        "11.20.0-r0": 1786301752
+        "11.20.0-r0": 1786301752,
+        "11.28.9-r0": 1793351374
       }
     },
     "poco": {
@@ -184308,22 +184462,26 @@
     "postfix-stats": {
       "origin": "postfix-stats",
       "versions": {
-        "1.6-r1": 1720158357
+        "1.6-r1": 1720158357,
+        "1.6-r2": 1792879063
       },
       "dependencies": [
         "perl",
+        "perl-file-tail",
+        "perl-db_file",
         "so:libc.musl-riscv64.so.1",
         "so:libdb-5.3.so"
       ],
       "provides": [
-        "cmd:postfix-stats-get=1.6-r1",
-        "cmd:update-mailstats.pl=1.6-r1"
+        "cmd:postfix-stats-get=1.6-r2",
+        "cmd:update-mailstats.pl=1.6-r2"
       ]
     },
     "postfix-stats-doc": {
       "origin": "postfix-stats",
       "versions": {
-        "1.6-r1": 1720158357
+        "1.6-r1": 1720158357,
+        "1.6-r2": 1792879063
       }
     },
     "postfixadmin": {
@@ -221557,14 +221715,15 @@
       "origin": "uv",
       "versions": {
         "0.11.18-r0": 1780407312,
-        "0.11.19-r0": 1780602535
+        "0.11.19-r0": 1780602535,
+        "0.11.19-r1": 1792784773
       },
       "dependencies": [
-        "uv=0.11.19-r0",
+        "uv=0.11.19-r1",
         "python3~3.14"
       ],
       "provides": [
-        "py3.14:uv=0.11.19-r0"
+        "py3.14:uv=0.11.19-r1"
       ]
     },
     "py3-uv-build": {
@@ -221598,7 +221757,8 @@
       "origin": "uv",
       "versions": {
         "0.11.18-r0": 1780407312,
-        "0.11.19-r0": 1780602535
+        "0.11.19-r0": 1780602535,
+        "0.11.19-r1": 1792784773
       },
       "dependencies": [
         "python3~3.14"
@@ -246183,11 +246343,12 @@
         "2.14.0-r0": 1781700355,
         "2.14.1-r0": 1782767535,
         "2.14.1-r1": 1788541634,
-        "2.15.1-r0": 1792464051
+        "2.15.1-r0": 1792464051,
+        "2.15.3-r0": 1793309029
       },
       "dependencies": [
-        "snowflake-client=2.15.1-r0",
-        "snowflake-proxy=2.15.1-r0"
+        "snowflake-client=2.15.3-r0",
+        "snowflake-proxy=2.15.3-r0"
       ]
     },
     "snowflake-client": {
@@ -246197,13 +246358,14 @@
         "2.14.0-r0": 1781700355,
         "2.14.1-r0": 1782767535,
         "2.14.1-r1": 1788541634,
-        "2.15.1-r0": 1792464051
+        "2.15.1-r0": 1792464051,
+        "2.15.3-r0": 1793309029
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1"
       ],
       "provides": [
-        "cmd:snowflake-client=2.15.1-r0"
+        "cmd:snowflake-client=2.15.3-r0"
       ]
     },
     "snowflake-client-doc": {
@@ -246213,7 +246375,8 @@
         "2.14.0-r0": 1781700355,
         "2.14.1-r0": 1782767535,
         "2.14.1-r1": 1788541634,
-        "2.15.1-r0": 1792464051
+        "2.15.1-r0": 1792464051,
+        "2.15.3-r0": 1793309029
       }
     },
     "snowflake-doc": {
@@ -246223,7 +246386,8 @@
         "2.14.0-r0": 1781700355,
         "2.14.1-r0": 1782767535,
         "2.14.1-r1": 1788541634,
-        "2.15.1-r0": 1792464051
+        "2.15.1-r0": 1792464051,
+        "2.15.3-r0": 1793309029
       }
     },
     "snowflake-proxy": {
@@ -246233,14 +246397,15 @@
         "2.14.0-r0": 1781700355,
         "2.14.1-r0": 1782767535,
         "2.14.1-r1": 1788541634,
-        "2.15.1-r0": 1792464051
+        "2.15.1-r0": 1792464051,
+        "2.15.3-r0": 1793309029
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-riscv64.so.1"
       ],
       "provides": [
-        "cmd:snowflake-proxy=2.15.1-r0"
+        "cmd:snowflake-proxy=2.15.3-r0"
       ]
     },
     "snowflake-proxy-doc": {
@@ -246250,7 +246415,8 @@
         "2.14.0-r0": 1781700355,
         "2.14.1-r0": 1782767535,
         "2.14.1-r1": 1788541634,
-        "2.15.1-r0": 1792464051
+        "2.15.1-r0": 1792464051,
+        "2.15.3-r0": 1793309029
       }
     },
     "snowflake-proxy-openrc": {
@@ -246260,7 +246426,8 @@
         "2.14.0-r0": 1781700355,
         "2.14.1-r0": 1782767535,
         "2.14.1-r1": 1788541634,
-        "2.15.1-r0": 1792464051
+        "2.15.1-r0": 1792464051,
+        "2.15.3-r0": 1793309029
       }
     },
     "soapy-sdr": {
@@ -250313,7 +250480,8 @@
       "versions": {
         "8.0.3-r0": 1769383552,
         "8.0.6-r0": 1788020424,
-        "8.0.7-r0": 1789827857
+        "8.0.7-r0": 1789827857,
+        "8.0.8-r0": 1793351453
       },
       "dependencies": [
         "python3",
@@ -250338,10 +250506,10 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:suricata-update=8.0.7-r0",
-        "cmd:suricata=8.0.7-r0",
-        "cmd:suricatactl=8.0.7-r0",
-        "cmd:suricatasc=8.0.7-r0"
+        "cmd:suricata-update=8.0.8-r0",
+        "cmd:suricata=8.0.8-r0",
+        "cmd:suricatactl=8.0.8-r0",
+        "cmd:suricatasc=8.0.8-r0"
       ]
     },
     "suricata-doc": {
@@ -250349,7 +250517,8 @@
       "versions": {
         "8.0.3-r0": 1769383552,
         "8.0.6-r0": 1788020424,
-        "8.0.7-r0": 1789827857
+        "8.0.7-r0": 1789827857,
+        "8.0.8-r0": 1793351453
       }
     },
     "suricata-openrc": {
@@ -250357,7 +250526,8 @@
       "versions": {
         "8.0.3-r0": 1769383552,
         "8.0.6-r0": 1788020424,
-        "8.0.7-r0": 1789827857
+        "8.0.7-r0": 1789827857,
+        "8.0.8-r0": 1793351453
       }
     },
     "sushi": {
@@ -251867,7 +252037,8 @@
         "1.160.0-r0": 1788448402,
         "1.161.0-r0": 1789564901,
         "1.162.0-r0": 1790774518,
-        "1.163.0-r0": 1792158586
+        "1.163.0-r0": 1792158586,
+        "1.163.1-r0": 1792767223
       },
       "dependencies": [
         "python3",
@@ -251918,19 +252089,19 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:export_signing_key=1.163.0-r0",
-        "cmd:generate_config=1.163.0-r0",
-        "cmd:generate_log_config=1.163.0-r0",
-        "cmd:generate_signing_key=1.163.0-r0",
-        "cmd:hash_password=1.163.0-r0",
-        "cmd:register_new_matrix_user=1.163.0-r0",
-        "cmd:synapse_homeserver=1.163.0-r0",
-        "cmd:synapse_port_db=1.163.0-r0",
-        "cmd:synapse_review_recent_signups=1.163.0-r0",
-        "cmd:synapse_worker=1.163.0-r0",
-        "cmd:synctl=1.163.0-r0",
-        "cmd:update_synapse_database=1.163.0-r0",
-        "py3.14:synapse=1.163.0-r0"
+        "cmd:export_signing_key=1.163.1-r0",
+        "cmd:generate_config=1.163.1-r0",
+        "cmd:generate_log_config=1.163.1-r0",
+        "cmd:generate_signing_key=1.163.1-r0",
+        "cmd:hash_password=1.163.1-r0",
+        "cmd:register_new_matrix_user=1.163.1-r0",
+        "cmd:synapse_homeserver=1.163.1-r0",
+        "cmd:synapse_port_db=1.163.1-r0",
+        "cmd:synapse_review_recent_signups=1.163.1-r0",
+        "cmd:synapse_worker=1.163.1-r0",
+        "cmd:synctl=1.163.1-r0",
+        "cmd:update_synapse_database=1.163.1-r0",
+        "py3.14:synapse=1.163.1-r0"
       ]
     },
     "synapse-openrc": {
@@ -251948,7 +252119,8 @@
         "1.160.0-r0": 1788448402,
         "1.161.0-r0": 1789564901,
         "1.162.0-r0": 1790774518,
-        "1.163.0-r0": 1792158586
+        "1.163.0-r0": 1792158586,
+        "1.163.1-r0": 1792767223
       }
     },
     "synapse-pyc": {
@@ -251966,7 +252138,8 @@
         "1.160.0-r0": 1788448402,
         "1.161.0-r0": 1789564901,
         "1.162.0-r0": 1790774518,
-        "1.163.0-r0": 1792158586
+        "1.163.0-r0": 1792158586,
+        "1.163.1-r0": 1792767223
       },
       "dependencies": [
         "python3~3.14"
@@ -258917,7 +259090,8 @@
         "0.4.9.11-r0": 1782739162,
         "0.4.9.12-r0": 1788898655,
         "0.4.9.13-r0": 1790178830,
-        "0.4.9.14-r0": 1791408492
+        "0.4.9.14-r0": 1791408492,
+        "0.4.9.15-r0": 1793285613
       },
       "dependencies": [
         "/bin/sh",
@@ -258932,11 +259106,11 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:tor-gencert=0.4.9.14-r0",
-        "cmd:tor-print-ed-signing-cert=0.4.9.14-r0",
-        "cmd:tor-resolve=0.4.9.14-r0",
-        "cmd:tor=0.4.9.14-r0",
-        "cmd:torify=0.4.9.14-r0"
+        "cmd:tor-gencert=0.4.9.15-r0",
+        "cmd:tor-print-ed-signing-cert=0.4.9.15-r0",
+        "cmd:tor-resolve=0.4.9.15-r0",
+        "cmd:tor=0.4.9.15-r0",
+        "cmd:torify=0.4.9.15-r0"
       ]
     },
     "tor-doc": {
@@ -258947,7 +259121,8 @@
         "0.4.9.11-r0": 1782739162,
         "0.4.9.12-r0": 1788898655,
         "0.4.9.13-r0": 1790178830,
-        "0.4.9.14-r0": 1791408492
+        "0.4.9.14-r0": 1791408492,
+        "0.4.9.15-r0": 1793285613
       }
     },
     "tor-openrc": {
@@ -258958,7 +259133,8 @@
         "0.4.9.11-r0": 1782739162,
         "0.4.9.12-r0": 1788898655,
         "0.4.9.13-r0": 1790178830,
-        "0.4.9.14-r0": 1791408492
+        "0.4.9.14-r0": 1791408492,
+        "0.4.9.15-r0": 1793285613
       }
     },
     "torsocks": {
@@ -263050,19 +263226,21 @@
     "unrtf": {
       "origin": "unrtf",
       "versions": {
-        "0.21.10-r4": 1771160091
+        "0.21.10-r4": 1771160091,
+        "0.21.13-r0": 1793324166
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1"
       ],
       "provides": [
-        "cmd:unrtf=0.21.10-r4"
+        "cmd:unrtf=0.21.13-r0"
       ]
     },
     "unrtf-doc": {
       "origin": "unrtf",
       "versions": {
-        "0.21.10-r4": 1771160091
+        "0.21.10-r4": 1771160091,
+        "0.21.13-r0": 1793324166
       }
     },
     "unudhcpd": {
@@ -263985,7 +264163,8 @@
       "origin": "uv",
       "versions": {
         "0.11.18-r0": 1780407312,
-        "0.11.19-r0": 1780602535
+        "0.11.19-r0": 1780602535,
+        "0.11.19-r1": 1792784773
       },
       "dependencies": [
         "so:libbz2.so.1",
@@ -263993,29 +264172,32 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:uv=0.11.19-r0",
-        "cmd:uvx=0.11.19-r0"
+        "cmd:uv=0.11.19-r1",
+        "cmd:uvx=0.11.19-r1"
       ]
     },
     "uv-bash-completion": {
       "origin": "uv",
       "versions": {
         "0.11.18-r0": 1780407312,
-        "0.11.19-r0": 1780602535
+        "0.11.19-r0": 1780602535,
+        "0.11.19-r1": 1792784773
       }
     },
     "uv-fish-completion": {
       "origin": "uv",
       "versions": {
         "0.11.18-r0": 1780407312,
-        "0.11.19-r0": 1780602535
+        "0.11.19-r0": 1780602535,
+        "0.11.19-r1": 1792784773
       }
     },
     "uv-zsh-completion": {
       "origin": "uv",
       "versions": {
         "0.11.18-r0": 1780407312,
-        "0.11.19-r0": 1780602535
+        "0.11.19-r0": 1780602535,
+        "0.11.19-r1": 1792784773
       }
     },
     "uvicorn": {
@@ -280664,33 +280846,39 @@
     "zola": {
       "origin": "zola",
       "versions": {
-        "0.22.1-r0": 1775349684
+        "0.22.1-r0": 1775349684,
+        "0.22.1-r1": 1792943611
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1",
+        "so:libcrypto.so.3",
         "so:libgcc_s.so.1",
-        "so:libonig.so.5"
+        "so:libonig.so.5",
+        "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:zola=0.22.1-r0"
+        "cmd:zola=0.22.1-r1"
       ]
     },
     "zola-bash-completion": {
       "origin": "zola",
       "versions": {
-        "0.22.1-r0": 1775349684
+        "0.22.1-r0": 1775349684,
+        "0.22.1-r1": 1792943611
       }
     },
     "zola-fish-completion": {
       "origin": "zola",
       "versions": {
-        "0.22.1-r0": 1775349684
+        "0.22.1-r0": 1775349684,
+        "0.22.1-r1": 1792943611
       }
     },
     "zola-zsh-completion": {
       "origin": "zola",
       "versions": {
-        "0.22.1-r0": 1775349684
+        "0.22.1-r0": 1775349684,
+        "0.22.1-r1": 1792943611
       }
     },
     "zoneminder": {
@@ -282076,11 +282264,12 @@
       "origin": "suricata",
       "versions": {
         "8.0.6-r0": 1788020424,
-        "8.0.7-r0": 1789827857
+        "8.0.7-r0": 1789827857,
+        "8.0.8-r0": 1793351453
       },
       "dependencies": [
-        "!suricata<8.0.7-r0",
-        "!suricata>8.0.7-r0"
+        "!suricata<8.0.8-r0",
+        "!suricata>8.0.8-r0"
       ]
     },
     "libggml": {
@@ -287165,31 +287354,31 @@
       },
       "libavcodec.so.62": {
         "package": "ffmpeg-libavcodec",
-        "version": "62.28.102"
+        "version": "62.28.103"
       },
       "libavdevice.so.62": {
         "package": "ffmpeg-libavdevice",
-        "version": "62.3.102"
+        "version": "62.3.103"
       },
       "libavfilter.so.11": {
         "package": "ffmpeg-libavfilter",
-        "version": "11.14.102"
+        "version": "11.14.103"
       },
       "libavformat.so.62": {
         "package": "ffmpeg-libavformat",
-        "version": "62.12.102"
+        "version": "62.12.103"
       },
       "libavutil.so.60": {
         "package": "ffmpeg-libavutil",
-        "version": "60.26.102"
+        "version": "60.26.103"
       },
       "libswresample.so.6": {
         "package": "ffmpeg-libswresample",
-        "version": "6.3.102"
+        "version": "6.3.103"
       },
       "libswscale.so.9": {
         "package": "ffmpeg-libswscale",
-        "version": "9.5.102"
+        "version": "9.5.103"
       },
       "libavcodec.so.60": {
         "package": "ffmpeg6-libavcodec",
@@ -287205,7 +287394,7 @@
       },
       "libavformat.so.60": {
         "package": "ffmpeg6-libavformat",
-        "version": "60.16.100"
+        "version": "60.16.101"
       },
       "libavutil.so.58": {
         "package": "ffmpeg6-libavutil",
@@ -287233,11 +287422,11 @@
       },
       "libavfilter.so.10": {
         "package": "ffmpeg7-libavfilter",
-        "version": "10.4.100"
+        "version": "10.5.100"
       },
       "libavformat.so.61": {
         "package": "ffmpeg7-libavformat",
-        "version": "61.7.100"
+        "version": "61.7.103"
       },
       "libavutil.so.59": {
         "package": "ffmpeg7-libavutil",
@@ -304655,7 +304844,7 @@
       },
       "go-bootstrap": {
         "package": "go",
-        "version": "1.26.9-r0"
+        "version": "1.26.10-r0"
       },
       "gtkgreet": {
         "package": "greetd-gtkgreet",
@@ -305111,331 +305300,331 @@
       },
       "nextcloud": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-accessibility": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud33-accessibility": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-bruteforcesettings": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud33-bruteforcesettings": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-contactsinteraction": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud33-contactsinteraction": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-cloud_federation_api": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud33-cloud_federation_api": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-dav": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud33-dav": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-files": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud33-files": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-files_videoplayer": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud33-files_videoplayer": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-federatedfilesharing": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud33-federatedfilesharing": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-lookup_server_connector": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud33-lookup_server_connector": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-oauth2": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud33-oauth2": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-profile": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud33-profile": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-provisioning_api": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud33-provisioning_api": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-related_resources": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud33-related_resources": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-settings": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud33-settings": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-theming": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud33-theming": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-twofactor_backupcodes": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud33-twofactor_backupcodes": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-twofactor_nextcloud_notification": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud33-twofactor_nextcloud_notification": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-twofactor_totp": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud33-twofactor_totp": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-viewer": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud33-viewer": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-workflowengine": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud33-workflowengine": {
         "package": "nextcloud33",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-activity": {
         "package": "nextcloud33-activity",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-admin_audit": {
         "package": "nextcloud33-admin_audit",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-app_api": {
         "package": "nextcloud33-app_api",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-circles": {
         "package": "nextcloud33-circles",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-comments": {
         "package": "nextcloud33-comments",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-dashboard": {
         "package": "nextcloud33-dashboard",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-default-apps": {
         "package": "nextcloud33-default-apps",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-doc": {
         "package": "nextcloud33-doc",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-encryption": {
         "package": "nextcloud33-encryption",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-federation": {
         "package": "nextcloud33-federation",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-files_downloadlimit": {
         "package": "nextcloud33-files_downloadlimit",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-files_external": {
         "package": "nextcloud33-files_external",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-files_pdfviewer": {
         "package": "nextcloud33-files_pdfviewer",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-files_reminders": {
         "package": "nextcloud33-files_reminders",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-files_sharing": {
         "package": "nextcloud33-files_sharing",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-files_trashbin": {
         "package": "nextcloud33-files_trashbin",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-files_versions": {
         "package": "nextcloud33-files_versions",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-firstrunwizard": {
         "package": "nextcloud33-firstrunwizard",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-initscript": {
         "package": "nextcloud33-initscript",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-logreader": {
         "package": "nextcloud33-logreader",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-mysql": {
         "package": "nextcloud33-mysql",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-nextcloud_announcements": {
         "package": "nextcloud33-nextcloud_announcements",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-notifications": {
         "package": "nextcloud33-notifications",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-occ": {
         "package": "nextcloud33-occ",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-password_policy": {
         "package": "nextcloud33-password_policy",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-pgsql": {
         "package": "nextcloud33-pgsql",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-photos": {
         "package": "nextcloud33-photos",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-privacy": {
         "package": "nextcloud33-privacy",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-recommendations": {
         "package": "nextcloud33-recommendations",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-serverinfo": {
         "package": "nextcloud33-serverinfo",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-sharebymail": {
         "package": "nextcloud33-sharebymail",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-sqlite": {
         "package": "nextcloud33-sqlite",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-support": {
         "package": "nextcloud33-support",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-survey_client": {
         "package": "nextcloud33-survey_client",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-suspicious_login": {
         "package": "nextcloud33-suspicious_login",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-systemtags": {
         "package": "nextcloud33-systemtags",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-text": {
         "package": "nextcloud33-text",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-user_ldap": {
         "package": "nextcloud33-user_ldap",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-user_status": {
         "package": "nextcloud33-user_status",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-weather_status": {
         "package": "nextcloud33-weather_status",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "nextcloud-webhook_listeners": {
         "package": "nextcloud33-webhook_listeners",
-        "version": "33.0.9-r0"
+        "version": "33.0.10-r0"
       },
       "niminst": {
         "package": "nim",
@@ -305483,7 +305672,7 @@
       },
       "openjdk21-bootstrap": {
         "package": "openjdk21",
-        "version": "21.0.12_p8-r0"
+        "version": "21.0.13.0.3_p1-r0"
       },
       "java-jdk": {
         "package": "openjdk25-jdk",
@@ -305503,7 +305692,7 @@
       },
       "openjdk25-bootstrap": {
         "package": "openjdk25",
-        "version": "25.0.4_p7-r0"
+        "version": "25.0.5.0.3_p1-r0"
       },
       "openocd-virtual": {
         "package": "openocd",
